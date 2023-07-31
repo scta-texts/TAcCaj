@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="50"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e66"><!-- TAcCajp1-q4 -->
+            <head xml:id="TAcCaj-d1e66-Hd1e99">Quaestio 4</head>
+            <div xml:id="TAcCaj-d1e66-Dd1e101"><!-- caj-p1-q4-a1 -->
+               <head xml:id="TAcCaj-d1e66-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e66-d1e106">
+                  <pb ed="#L" n="51"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e115">
+                  <lb ed="#L" n="2"/>CIRcA ordinem et titulum quaestionis, adverte quod 
+per<lb break="no" ed="#L" n="3"/>C; ectio non significat aliquam perfectionem, ut bonitas,
+<lb ed="#L" n="4"/>vita, sapientia, etc.: neque significat omnes perfectiones in
+<lb ed="#L" n="5"/>communi (non enim quaerendo an aliquid sit perfectum,
+<lb ed="#L" n="6"/>quaeritur an habeat omnes perfectiones, sive determinate
+<lb ed="#L" n="7"/>sive indeterminate): sed significat modum essendi optimum
+<lb ed="#L" n="8"/>secundum quamcumque rationem formalem; licet, extenso
+<lb ed="#L" n="9"/>iam ab usu vocabulo, perfectio supponat saepe pro re aut
+<lb ed="#L" n="10"/>ratione formali actuante aliquid, ut patet cum dicimus quod
+<lb ed="#L" n="11"/>sapientia est perfectio, etc. Proprie igitur loquendo, ly
+<lb ed="#L" n="12"/>perfectio, licet a totali factione primo derivatum sit, apud
+<lb ed="#L" n="13"/>philosophos modum essendi significat, non quemcumque,
+<lb ed="#L" n="14"/>sed optimum: non alicuius certae rei, sed cuiuscumque
+<lb ed="#L" n="15"/>rei cui apponitur, sive sit substantia, sive accidens. Potest
+<lb ed="#L" n="16"/>enim res intelligi et esse sub modo essendi multiplici, 
+quo<lb break="no" ed="#L" n="17"/>rum unus est melior altero: sicut natura plantarum et 
+ani<lb break="no" ed="#L" n="18"/>malium habet in semine quendam modum essendi, et alium
+<lb ed="#L" n="19"/>essendi modum habet in individuis genitis, et rursus alium
+<lb ed="#L" n="20"/>in eisdem augmentatis, etc.: et constat quod primus est
+<lb ed="#L" n="21"/>et dicitur imperfectus, quia in potentia tantum est ibi 
+na<lb break="no" ed="#L" n="22"/>tura specifica; secundus autem aliqualiter perfectus; tertius
+<lb ed="#L" n="23"/>vero simpliciter perfectus, ut patet IV Meteor.: perfectum
+<lb ed="#L" n="24"/>enim unumquodque ibi dicitur, cum potest facere alterum
+<lb ed="#L" n="25"/>quale ipsum est; tunc enim habet naturam optimo modo.
+<lb ed="#L" n="26"/>— Unde, sicut quaerere utrum aliquid sit perfectum 
+secun<lb break="no" ed="#L" n="27"/>dum talem vel talem rationem, puta scientiam vel 
+na<lb break="no" ed="#L" n="28"/>turam, non est quaerere utrum illud habeat aliquam aliam
+<lb ed="#L" n="29"/>perfectionem , sed utrum habeat illam optimo modo; ita
+<lb ed="#L" n="30"/>quaerere absolute et sine specificatione, ut in proposito
+<lb ed="#L" n="31"/>fit, utrum Deus sit perfectus, non est quaerere utrum Deus
+<lb ed="#L" n="32"/>habeat aliquam perfectionem; neque utrum habeat omnes,
+<lb ed="#L" n="33"/>cum hoc reservetur secundo articulo; sed est quaerere
+<lb ed="#L" n="34"/>utrum Deus, id quod est, sit optimo modo: hoc est enim
+<lb ed="#L" n="35"/>esse perfectum.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e191">
+                  <lb ed="#L" n="36"/>II. Testatur autem hunc esse manifestum sensum 
+quae<lb break="no" ed="#L" n="37"/>stionis, causa responsionis assignata in corpore articuli. 
+Di<lb break="no" ed="#L" n="38"/>citur enim quod Deus est perfectus, quia non est in 
+po<lb break="no" ed="#L" n="39"/>tentia, sed in actu: constat enim quod esse in actu vel in
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e202">
+                  <lb ed="#L" n="40"/>potentia, ad modum essendi spectat. Et propterea ista 
+quae<lb break="no" ed="#L" n="41"/>stio immediate post quaestionem de simplicitate naturae 
+di<lb break="no" ed="#L" n="42"/>vinae ordinata est: stabilita namque essentia, quaerendum
+<lb ed="#L" n="43"/>statim. occurrit de modo essendi ipsius intrinseco, qualem
+<lb ed="#L" n="44"/>ly perfectum significat: non enim importat modum essendi
+<lb ed="#L" n="45"/>rei in respectu ad aliquod circumstans, aut quovis modo
+<lb ed="#L" n="46"/>extrinsecum, sed in seipsa. Unde et Aristoteles, in I Caeli
+<lb ed="#L" n="47"/>de natura universi tractans, primo an sit perfectum 
+deter<lb break="no" ed="#L" n="48"/>minat: quoniam et quaestio an est, et an simplex an 
+com<lb break="no" ed="#L" n="49"/>positum esset, quae priores erant, relinquebantur per se
+<lb ed="#L" n="50"/>notae.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e229">
+                  <lb ed="#L" n="51"/>III. In corpore duo: primo refertur opinio 
+Pythagorico<lb break="no" ed="#L" n="52"/>rum; secundo respondetur quaesito. - Quoad primum, duo.
+<lb ed="#L" n="53"/>Opinio: quod principio non convenit perfectio. Radix; quia
+<lb ed="#L" n="54"/>principium materiale tantum intellexerunt. Probatur 
+conse<lb break="no" ed="#L" n="55"/>cutio: quia ut sic est in potentia: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e242">
+                  <lb ed="#L" n="56"/>IV. Quoad secundum, similiter duo. Conclusio, 
+respon<lb break="no" ed="#L" n="57"/>siva quaesito affirmative: Deus est maxime perfectus. 
+Ra<lb break="no" ed="#L" n="58"/>dix, opposita primae: quia scilicet est principium activum.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e251">
+                  <lb ed="#L" n="59"/>Probatur. Activum oportet esse in actu: ergo primum
+<lb ed="#L" n="60"/>activum maxime in actu: ergo maxime perfectum. - Omnia
+<lb ed="#L" n="61"/>patent. Et ultima consequentia declaratur ex quid nominis
+<lb ed="#L" n="62"/>perfecti, scilicet cui nihil deest de requisitis: existenti enim
+<lb ed="#L" n="63"/>in potentia, deest id quod in actu esse potest; existenti
+<lb ed="#L" n="64"/>autem in actu, ut sic, nihil deest.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e267">
+                  <lb ed="#L" n="65"/>V. In responsione ad tertium, adverte duo. Primo, quod
+<lb ed="#L" n="66"/>responsio stat in hac distinctione: commune dupliciter, per
+<lb ed="#L" n="67"/>modum actus, et per modum potentiae. Communitas per
+<lb ed="#L" n="68"/>modum actus, consistit in recipi: communitas per modum
+<lb ed="#L" n="69"/>potentiae, consistit in recipere. Esse autem est 
+commu<lb break="no" ed="#L" n="70"/>nissimum per modum actus: quia ad omnia comparatur
+<lb ed="#L" n="71"/>ut receptum ad receptiva, ut patet. — Secundo, quod hinc
+<lb ed="#L" n="72"/>patet defectus Scoti, in IV Sent., dist. r, qu. 1, contra hanc
+<lb ed="#L" n="73"/>s. Thomae positionem, scilicet quod esse, secundum suam
+<lb ed="#L" n="74"/>formalem rationem, est perfectissima omnium 
+perfectio<lb break="no" ed="#L" n="75"/>num, arguentis ex communitate ipsius. Mirum est enim
+<lb ed="#L" n="76"/>quod hanc rationem affert ad concludendum, quam expresse
+<lb ed="#L" n="77"/>s. Thomas solverat tam clare.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e66-Dd1e299"><!-- caj-p1-q4-a2 -->
+               <head xml:id="TAcCaj-d1e66-Hd1e302">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e66-d1e304">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="52"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e311">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="53"/>In titulo, ly sint non denotat aliquem specialem modum
+<lb ed="#L" n="54"/>lowod. sed absolute sumitur: ita quod non quaeritur
+<lb ed="#L" n="55"/>utrum perfectiones sint in Deo formaliter, aut virtualiter,
+<lb ed="#L" n="56"/>sed absolute, quovis modo sint. Ly perfectiones stat 
+uni<lb break="no" ed="#L" n="57"/>versaliter pro omnibus perfectionibus, tam simpliciter quam
+<lb ed="#L" n="58"/>non simpliciter, ut patet ex processu articuli. j
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e329">
+                  <lb ed="#L" n="59"/>II. In corpore est una conclusio, responsiva quaesito
+<lb ed="#L" n="60"/>affirmative: In Deo sunt perfectiones omnium rerum.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e336">
+                  <lb ed="#L" n="61"/>Probatur tripliciter. Primo, ab auctoritate. Deus 
+di<lb break="no" ed="#L" n="62"/>citur universaliter perfectus, idest secundum nobilitates
+<lb ed="#L" n="63"/>omnium generum: ergo. - Antecedens probatur auctoritate
+<lb ed="#L" n="64"/>Averrois, V Metaphys.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e348">
+                  <lb ed="#L" n="65"/>III. Secundo, ratione sumpta ex Dionysio. Deus est prima
+<lb ed="#L" n="66"/>causa effectiva rerum: ergo omnium rerum. perfectiones
+<lb ed="#L" n="67"/>praeexistunt in Deo eminentiori modo.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e357">
+                  <lb ed="#L" n="68"/>Antecedens supponitur. Consequentia probatur quoad
+<lb ed="#L" n="69"/>primam partem. Effectus praeexistit virtute in causa agente:
+<lb ed="#L" n="70"/>ergo quidquid perfectionis est in effectu, oportet in causa
+<lb ed="#L" n="71"/>effectiva inveniri. Ergo, si Deus etc, omnium rerum 
+per<lb break="no" ed="#L" n="72"/>fectiones sunt in eo. — Quoad secundam vero partem 
+pro<lb break="no" ed="#L" n="73"/>batur. Agens, inquantum agens, est perfectum: ergo 
+prae<lb break="no" ed="#L" n="74"/>existere in virtute causae agentis, non est praeexistere 
+imper<lb break="no" ed="#L" n="75"/>fectiori, sed perfectiori modo. Ergo quidquid perfectionis
+<lb ed="#L" n="76"/>est in effectu, praeexistit in causa effectiva, vel secundum
+<lb ed="#L" n="77"/>eandem rationem, ut in univoca; vel secundum 
+eminen<lb break="no" ed="#L" n="78"/>tiorem, ut in aequivoca. Ergo, si Deus est prima causa
+<lb ed="#L" n="79"/>omnium, oportet eminentiori modo omnium perfectiones
+<lb ed="#L" n="80"/>habere. - Assumptum patet ex praecedenti articulo. Prima
+<lb ed="#L" n="81"/>consequentia probatur ex opposito: scilicet, quia materia
+<lb ed="#L" n="82"/>est imperfecta, praeexistere in potentia causae materialis, est
+<lb ed="#L" n="83"/>esse imperfectiori modo. Reliqua relinquuntur per se nota.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e394">
+                  <lb ed="#L" n="84"/>IV. Circa illam propositionem, praeexistere in virtute
+<lb ed="#L" n="85"/>causae agentis, non est praeexistere imperfectiori, sed 
+per<lb break="no" ed="#L" n="86"/>fectiori modo, dubium statim occurrit: quia et est falsa; et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="87"/>contradicit alteri dicto litterae. Falsa quidem: quia effectus
+<lb ed="#L" n="88"/>in causa efficiente. quandoque praeexistit aeque perfecto
+<lb ed="#L" n="89"/>modo; ut patet cum Socrates generat Platonem. Contra
+<lb ed="#L" n="90"/>litteram vero: quia expresse dicitur, et bene, quod in causa
+<lb ed="#L" n="91"/>univoca praeexistit effectus. secundum eandem rationem:
+<lb ed="#L" n="92"/>igitur non perfectiori modo.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e418">
+                  <lb ed="#L" n="93"/>Non deest quoque novitiis occasio dubitandi: quia vi- .
+<lb ed="#L" n="94"/>demus effectus etiam imperfectiori modo praeexistere in
+<lb ed="#L" n="95"/>multis causis, quae sunt causae vere effectivae; ut patet in
+<lb ed="#L" n="96"/>seminibus, ex quibus effective producuntur animalia et
+<lb ed="#L" n="97"/>plantae. :
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e431">
+                  <lb ed="#L" n="98"/>V. Ad hoc breviter dicendum est, quod ly perfectiori
+<lb ed="#L" n="99"/>modo potest exponi dupliciter. Primo, comparative, vut 
+si<lb break="no" ed="#L" n="100"/>gnificat ex vi vocabuli. Et tunc intelligitur, non necessario,
+<lb ed="#L" n="101"/>sed permissive: ita quod particula negativa, non 
+imperfe<lb break="no" ed="#L" n="102"/>ctiori modo, intelligitur necessario; particula vero 
+affirma<lb break="no" ed="#L" n="103"/>tiva, sed perfectiori, intelligitur permissive. Et sic est 
+ve<lb break="no" ed="#L" n="104"/>rissima propositio: et significat quod praeexistere in causa
+<lb ed="#L" n="105"/>efficiente, necessario est praeexistere non imperfectiori modo
+<lb ed="#L" n="106"/>quam sit modus essendi effectus; sed possibiliter est 
+prae<lb break="no" ed="#L" n="107"/>existere perfectiori modo. - Secundo, potest exponi 
+interpre<lb break="no" ed="#L" n="108"/>tando comparativum pro positivo: perfectiori modo, idest
+<lb ed="#L" n="109"/>modo perfecto, seu perfectionis. - Prima tamen expositio
+<lb ed="#L" n="110"/>litterae intento servit: quoniam intendit probare quod 
+emi<lb break="no" ed="#L" n="111"/>nentiori modo in causa aequivoca, Deoque, perfectiones
+<lb ed="#L" n="112"/>effectuum sunt. I
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e466">
+                  <lb ed="#L" n="113"/>Ad novitios autem respondetur, ex doctrina Alexandri,
+<lb ed="#L" n="114"/>ut refert Averroes XII Metaphys., comment. xxiv, quod
+<lb ed="#L" n="115"/>semina et alia huiusmodi, quibus formae effectuum non 
+as<lb break="no" ed="#L" n="116"/>similantur univoce vel imitative, non sunt causae efficientes,
+<lb ed="#L" n="117"/>sed instrumenta causarum agentium, et propterea locantur
+<lb ed="#L" n="118"/>in genere causarum effectivarum ab Aristotele, V Metaphys.
+<lb ed="#L" n="119"/>et II Physic. Praesens autem sermo de causis activis 
+pro<lb break="no" ed="#L" n="120"/>prie, non solum ut distinguuntur contra alia genera causa-
+<pb ed="#L" n="53"/>
+                  <cb ed="#L" n="a"/>
+                  <lb break="no" ed="#L" n="1"/>rum, sed ut distinguuntur. contra instrumenta causarum,
+<lb ed="#L" n="2"/>quae non proprie causae sunt.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e496">
+                  <lb ed="#L" n="3"/>VI. Circa ultimam consequentiam, adverte quod 
+fun<lb break="no" ed="#L" n="4"/>datur super hoc, quod prima causa effectiva rerum est
+<lb ed="#L" n="5"/>causa dequivoca. Quod pro constanti relictum est: tum
+<lb ed="#L" n="6"/>quia ab omnibus admittitur; tum quia manifeste patet ex
+<lb ed="#L" n="7"/>terminis. Si enim est effectiva rerum diversarum rationum,
+<lb ed="#L" n="8"/>nulli earum est univoca: et si alicui earum est univoca,
+<lb ed="#L" n="9"/>ergo non est effectiva aliarum: ergo non diversarum.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e514">
+                  <lb ed="#L" n="10"/>VII. Secunda ratio a Dionysio quoque tacta est. Deus
+<lb ed="#L" n="11"/>est ipsum esse per se subsistens: ergo continet in se 
+to<lb break="no" ed="#L" n="12"/>tam perfectionem essendi: ergo omnes perfectiones rerum
+<lb ed="#L" n="13"/>omnium.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e525">
+                  <lb ed="#L" n="14"/>Antecedens supponitur. Prima consequentia probatur a
+<lb ed="#L" n="15"/>destructione consequentis, in terminis specialibus ," scilicet
+<lb ed="#L" n="16"/>caloris et calidi perfectione, sic. Non continet totam 
+per<lb break="no" ed="#L" n="17"/>fectionem essendi: ergo non habet esse secundum 
+perfe<lb break="no" ed="#L" n="18"/>ctam rationem: ergo non est ipsum esse per se subsistens
+<lb ed="#L" n="19"/>(quod est oppositum antecedentis); quemadmodum « A 
+ca<lb break="no" ed="#L" n="20"/>lidum » non habet totam calidi perfectionem: ergo non
+<lb ed="#L" n="21"/>habet calorem secundum perfectam rationem: ergo non est
+<lb ed="#L" n="22"/>calor per se subsistens. - Secunda autem consequentia 
+pro<lb break="no" ed="#L" n="23"/>batur. Res dicuntur perfectae secundum quod habent esse:
+<lb ed="#L" n="24"/>ergo omnium perfectiones pertinent ad perfectionem 
+es<lb break="no" ed="#L" n="25"/>sendi: ergo, si continet totam perfectionem essendi, etc.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e554">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>VIII. In responsione ad tertium, adverte primo, quod
+<lb ed="#L" n="27"/>vis argumenti fundatur super locum a coniugatis, dum 
+di<lb break="no" ed="#L" n="28"/>citur: ems est imperfectius quam vivens, ergo esse quam
+<lb ed="#L" n="29"/>uxor vita. Et veritas antecedentis consistit in hoc, quia ens non
+<lb ed="#L" n="30"/>includit vivens, sed e converso.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e570">
+                  <lb ed="#L" n="31"/>Adverte secundo, quod in responsione innuit hanc 
+distin<lb break="no" ed="#L" n="32"/>ctionem ex parte rei: esse potest comparari ad vitam 
+tri<lb break="no" ed="#L" n="33"/>pliciter. Primo, formaliter et praecise utrinque: ita quod
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="34"/>esse sumitur praecise pro actu essendi, et vita praecise pro
+<lb ed="#L" n="35"/>eo quod formaliter addit supra esse, puta vivere ut sic. Et
+<lb ed="#L" n="36"/>sic significantur nominibus abstractis, puta esse, vita, 
+sa<lb break="no" ed="#L" n="37"/>pientia, etc.: et in littera dicuntur comparari prout 
+distin<lb break="no" ed="#L" n="38"/>guuntur ratione. Et sic esse est perfectius quam vivere et
+<lb ed="#L" n="39"/>ceterae perfectiones: quia est actualitas omnium, ut 
+prae<lb break="no" ed="#L" n="40"/>dictum est. — Secundo, potest comparari esse ad vitam
+<lb ed="#L" n="41"/>absque praecisione: ita quod vita sumatur secundum id
+<lb ed="#L" n="42"/>quod includit, et non tantum pro eo quod formaliter addit
+<lb ed="#L" n="43"/>supra esse. Et sic significantur nominibus concretis in 
+lit<lb break="no" ed="#L" n="44"/>tera, et dicuntur ems, vivens, sapiens: et dicitur quod
+<lb ed="#L" n="45"/>vivens est perfectius quam ens, quia includit ens, et aliquid
+<lb ed="#L" n="46"/>perfectionis ultra. - Tertio modo potest comparari esse in
+<lb ed="#L" n="47"/>sua pura subsistentia, ad reliqua quomodolibet sumpta.
+<lb ed="#L" n="48"/>Et sic significatur in littera per ly ipsum esse: et dicitur
+<lb ed="#L" n="49"/>quod includit in se vitam, sapientiam, et omnem essendi
+<lb ed="#L" n="50"/>perfectionem, ut in corpore probatum est; et consequenter
+<lb ed="#L" n="51"/>est. perfectissimum omnium.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e620">
+                  <lb ed="#L" n="52"/>Ex his autem, quae ex littera accepta sunt, habemus et
+<lb ed="#L" n="53"/>quod esse formaliter est perfectius ceteris formaliter: et
+<lb ed="#L" n="54"/>quod ipsum esse est simpliciter perfectius, omnes 
+perfe<lb break="no" ed="#L" n="55"/>ctiones in se praehabens. Ut ex primo sciamus quod 
+prae<lb break="no" ed="#L" n="56"/>dicatum illud, quod soli Deo quidditative convenit, est
+<lb ed="#L" n="57"/>formaliter nobilius ceteris perfectionibus: et ex secundo,
+<lb ed="#L" n="58"/>quod. ex hoc quod Deus est ipsum esse, habet omnes 
+per<lb break="no" ed="#L" n="59"/>fectiones.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e641">
+                  <lb ed="#L" n="60"/>Habetur quoque ex his responsio ad argumentum. 
+Quo<lb break="no" ed="#L" n="61"/>niam neganda insinuatur consequentia: quoniam in 
+ante<lb break="no" ed="#L" n="62"/>cedente sumitur vivens ut includit ens et aliquid ultra; in
+<lb ed="#L" n="63"/>consequente vero sumitur secundum id tantum quod addit
+<lb ed="#L" n="64"/>supra ens. Et sic ostenditur quod non arguitur per locum
+<lb ed="#L" n="65"/>a coniugatis: qui tenet quando concreta praecise formaliter
+<lb ed="#L" n="66"/>tenentur sicut et abstracta; cuius oppositum hic accidit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e66-Dd1e660"><!-- caj-p1-q4-a3 -->
+               <head xml:id="TAcCaj-d1e66-Hd1e663">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e66-d1e665">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="59"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e672">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>In titulo dubium occurrit: quorsum iste articulus hoc in
+<lb ed="#L" n="61"/>loco. Hic enim arguitur de perfectione substantiae 
+divi<lb break="no" ed="#L" n="62"/>nae in se: ergo non debet admisceri quaestio de creatura,
+<lb ed="#L" n="63"/>qualis est ista.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e685">
+                  <lb ed="#L" n="64"/>Ad hoc dicitur quod, licet verbo tenus haec quaestio sit
+<lb ed="#L" n="65"/>de creatura, secundum sensum tamen est de perfectione
+<lb ed="#L" n="66"/>naturae divinae. Quaeritur enim hic, an perfectio naturae
+<lb ed="#L" n="67"/>divinae sit tanta quod nulla creatura possit ei esse similis,
+<lb ed="#L" n="68"/>an non. Hoc siquidem inquirendum supererat, postquam
+<lb ed="#L" n="69"/>determinatum fuerat et quod est perfecta, et quod est 
+uni<lb break="no" ed="#L" n="70"/>versaliter perfecta. - Sed adverte quod non quaeritur utrum
+<lb ed="#L" n="71"/>perfectio divina sit tanta, quod nulla res possit ei esse 
+si<lb break="no" ed="#L" n="72"/>milis: sed quod nulla creatura. Primum enim pertinet ad
+<lb ed="#L" n="73"/>quaestionem de pluralitate deorum, et tractabitur in 
+quae<lb break="no" ed="#L" n="74"/>stione xi: secundum autem spectat ad hunc locum.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e711">
+                  <lb ed="#L" n="75"/>II. In. corpore duo: primo distinguitur similitudo; 
+se<lb break="no" ed="#L" n="76"/>cundo respondetur quaesito. - Quoad primum, similitudo
+<lb ed="#L" n="77"/>triplex: prima, secundum formam eiusdem rationis et modi;
+<lb ed="#L" n="78"/>secunda, secundum formam eiusdem rationis, sed non modi;
+<lb ed="#L" n="79"/>tertia, secundum formam, sed nec eiusdem rationis, nec
+<lb ed="#L" n="80"/>modi. - Probatur distinctio. Similitudo est convenientia in
+<lb ed="#L" n="81"/>forma: ergo multiplicatur iuxta modum communicandi in
+<lb ed="#L" n="82"/>forma: ergo tripliciter, etc. Omnia patent in littera.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e732">
+                  <lb ed="#L" n="83"/>III. Quoad secundum, conclusio responsiva quaesito
+<lb ed="#L" n="84"/>est: Creaturae sunt similes Deo, non secundum eandem
+<lb ed="#L" n="85"/>rationem specificam aut genericam, sed secundum 
+aliqua<lb break="no" ed="#L" n="86"/>lem analogiam.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e743">
+                  <lb ed="#L" n="87"/>Conclusio haec habet quatuor partes: primam 
+affirma<lb break="no" ed="#L" n="88"/>tivam, scilicet quod sunt similes Deo; secundam negativam,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="89"/>scilicet non secundum speciem; tertiam negativam, scilicet
+<lb ed="#L" n="90"/>nec secundum genus; et quartam affirmativam, scilicet sed
+<lb ed="#L" n="91"/>secundum aliqualem analogiam. - Et primo probatur quoad
+<lb ed="#L" n="92"/>primam. Omne agens agit per suam formam: ergo necesse
+<lb ed="#L" n="93"/>est in effectu esse similitudinem formae agentis. Et tunc
+<lb ed="#L" n="94"/>potes subjungere: ergo necesse est creaturam esse similem
+<lb ed="#L" n="95"/>Deo. Consequentia probatur: quia omne agens agit sibi
+<lb ed="#L" n="96"/>simile inquantum est agens, idest secundum illud quod est
+<lb ed="#L" n="97"/>ei ratio agendi. - Deinde quoad secundam et tertiam et
+<lb ed="#L" n="98"/>quartam: quia Deus non est agens contentum in specie
+<lb ed="#L" n="99"/>aut genere, sed principium universale totius esse. - Omnia
+<lb ed="#L" n="100"/>clara sunt in littera.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e778">
+                  <lb ed="#L" n="101"/>IV. In responsione ad ultimum, dubium occurrit circa
+<lb ed="#L" n="102"/>auctoritatem Dionysii: quoniam distinguit contra res unius
+<lb ed="#L" n="103"/>ordinis causam et causatum. Ex hoc enim oportet quod
+<lb ed="#L" n="104"/>aut causa et causatum sint universaliter diversorum 
+ordi<lb break="no" ed="#L" n="105"/>num, quod patet esse falsum in causis univocis: aut quod
+<lb ed="#L" n="106"/>ambigue et male membrum. hoc distinctionis sit positum;
+<lb ed="#L" n="107"/>ambigue quidem, quia incertum est de quali causa et de
+<lb ed="#L" n="108"/>quali causato sit sermo; male autem, quia contra res unius
+<lb ed="#L" n="109"/>ordinis debent distingui res diversorum ordinum, sive causa
+<lb ed="#L" n="110"/>sint et causatum, sive non; hoc enim est per accidens.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e802">
+                  <lb ed="#L" n="111"/>V. Ad hoc dicitur, quod distinctio ista artificiosa, certa
+<lb ed="#L" n="112"/>et formalis est, si recte intelligitur. Est siquidem non 
+fal<lb break="no" ed="#L" n="113"/>sum, sed verissimum et necessarium, quod causa et 
+cau<lb break="no" ed="#L" n="114"/>satum universaliter et formaliter sunt diversorum ordinum.
+<lb ed="#L" n="115"/>Sed nomine causae et causati utimur, non pro 
+relationi<lb break="no" ed="#L" n="116"/>bus seu causalitatibus; sed pro re quae est ratio causandi,
+<lb ed="#L" n="117"/>et similiter pro re, seu forma, quam causatum sortitur a
+<pb ed="#L" n="55"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>causa: hae enim res sunt fundamenta similitudinis inter
+<lb ed="#L" n="2"/>causatum et causam, ut in omnibus. Possunt igitur 
+funda<lb break="no" ed="#L" n="3"/>menta similitudinis inter aliqua, dupliciter se habere, ut in
+<lb ed="#L" n="4"/>littera dicitur. Uno modo, quod sint eiusdem ordinis, ut
+<lb ed="#L" n="5"/>haec et illa albedo, et hoc et illud animal, etc.: et sic 
+simili<lb break="no" ed="#L" n="6"/>tudo est relatio aequiparantiae, et mutua. Alio modo, quod
+<lb ed="#L" n="7"/>alterum eorum formaliter ex propria ratione sit causatum
+<lb ed="#L" n="8"/>ab altero, ut imago Socratis et Socrates (non enim accidit
+<lb ed="#L" n="9"/>imagini Socratis dependentia a Socrate): et sic similitudo
+<lb ed="#L" n="10"/>non est relatio aequiparantiae neque mutua, sed reducitur
+<lb ed="#L" n="11"/>ad tertium genus relativorum, positum V Metaphys., de
+<lb ed="#L" n="12"/>scientia et scibili, etc. Huiusmodi autem causam et 
+causa<lb break="no" ed="#L" n="13"/>tum constat esse diversorum ordinum. Impossibile namque
+<lb ed="#L" n="14"/>est eiusdem ordinis res sic se habere, quod de ratione 
+for<lb break="no" ed="#L" n="15"/>mali unius sit dependentia ab altera: quoniam quidquid est
+<lb ed="#L" n="16"/>de ratione unius, est de ratione alterius, et e contra.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e859">
+                  <lb ed="#L" n="17"/>VI. Unde patet responsio ad instantiam de causis uni-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>vocis. Ubi enim est univocatio, ibi non est causa et 
+cau<lb break="no" ed="#L" n="19"/>satum formaliter et per se, sed materialiter et per 
+acci<lb break="no" ed="#L" n="20"/>dens: quoniam forma effectus formaliter non dependet a
+<lb ed="#L" n="21"/>forma causae. Non enim humanitas quae est in Socrate,
+<lb ed="#L" n="22"/>formaliter sumpta, dependet in esse aut in fieri ab 
+huma<lb break="no" ed="#L" n="23"/>nitate Platonis patris: sed humanitas Socratis, quia est /aec,
+<lb ed="#L" n="24"/>ideo dependet a patre. Et consequenter humanitas, quae est
+<lb ed="#L" n="25"/>fundamentum similitudinis inter patrem et filium, non est
+<lb ed="#L" n="26"/>de genere causae aut causati, nisi materialiter et per 
+acci<lb break="no" ed="#L" n="27"/>dens: sed est de genere fundamentorum eiusdem ordinis.
+<lb ed="#L" n="28"/>Quaecumque igitur, formaliter sumpta, sunt causa et 
+cau<lb break="no" ed="#L" n="29"/>satum, sunt diversorum ordinum fundamenta similitudinis,
+<lb ed="#L" n="30"/>ut subtiliter in littera adducitur: et consequenter est inter
+<lb ed="#L" n="31"/>ea similitudo imitationis, et non purae similitudinis: et 
+pro<lb break="no" ed="#L" n="32"/>pterea non est mutua.
+</p>
+               <p xml:id="TAcCaj-d1e66-d1e898">
+                  <lb ed="#L" n="33"/>Et hoc bene nota, et proportionaliter applica ad 
+mate<lb break="no" ed="#L" n="34"/>riam de relativis non mutuis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

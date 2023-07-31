@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 33</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 33</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="358"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e216"><!-- TAcCajp1-q33 -->
+            <head xml:id="TAcCaj-d1e216-Hd1e99">Quaestio 33</head>
+            <div xml:id="TAcCaj-d1e216-Dd1e101"><!-- caj-p1-q33-a1 -->
+               <head xml:id="TAcCaj-d1e216-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e216-d1e106">
+                  <pb ed="#L" n="359"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e115">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>TITULUS clarus. - In corpore una conclusio: Pater est
+<lb ed="#L" n="3"/>"b aeisctihum. — Probatur. Principium est a quo aliquid
+<lb ed="#L" n="4"/>procedit, et e converso: Pater est a quo procedit alius, 
+sci<lb break="no" ed="#L" n="5"/>licet Filius et Spiritus Sanctus: ergo Pater est principium.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e128">
+                  <lb ed="#L" n="6"/>II. In responsione ad primum, adverte quod Aureolus,
+<lb ed="#L" n="7"/>apud Capreolum, in I, dist. xxix, duo dicta huius litterae
+<lb ed="#L" n="8"/>impugnat. Primum est differentia. inter graecos et latinos
+<lb ed="#L" n="9"/>doctores. Affert enim contra hoc Hilarium, in IV de 7rin.
+<lb ed="#L" n="10"/>Patri auctoris nomen tribuentem: et Augustinum, in VII
+<lb ed="#L" n="11"/>de Trin., cap. 1, dicentem de Patre, illud quod est ei causa
+<lb ed="#L" n="12"/>ut sit, est ei causa ut sapiens sit.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e146">
+                  <lb ed="#L" n="13"/>Secundum est, quod ideo nomine principii, et norí causae,
+<lb ed="#L" n="14"/>utimur in divinis, quia est communius, quoniam extendit
+<lb ed="#L" n="15"/>se, etc. Contra hoc instat. Nomen ratione communitatis
+<lb ed="#L" n="16"/>conveniens Deo, hoc habet quia ratio minus communis
+<lb ed="#L" n="17"/>non conveniret ei. Sed principium non est huiusmodi, 
+se<lb break="no" ed="#L" n="18"/>cundum dicta tua: quoniam nulla ratio principii posita
+<lb ed="#L" n="19"/>in V Metaphys., convenit Patri respectu Filii, ut patet
+<lb ed="#L" n="20"/>discurrenti.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e167">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21"/>III. Ad primum horum dicitur dupliciter. Primo, quod
+<lb ed="#L" n="22"/>satis est litterae, quod latini doctores non habuerunt causae
+<lb ed="#L" n="23"/>vocabulum in usu; dato quod aliquando inveniretur. —- 
+Se<lb break="no" ed="#L" n="24"/>cundo, dicitur ad illud Hilarii, cum. s. 'Thoma in I Sent.,
+<lb ed="#L" n="25"/>dist. xxix, qu. r, art. 1, quod auctor non importat 
+causali<lb break="no" ed="#L" n="26"/>tatem, sed principium non ab alio: et ideo Patri attribuitur.
+<lb ed="#L" n="27"/>Illud vero Augustini non est ad propositum: de 
+essentia<lb break="no" ed="#L" n="28"/>libus enim loquitur, in quibus constat non esse causam
+<lb ed="#L" n="29"/>nisi secundum rationem.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e191">
+                  <lb ed="#L" n="30"/>IV. Ad secundum vero dicitur, quod falsum est nullam
+<lb ed="#L" n="31"/>rationem principii ex V Metaphys. in Patre salvari. Expresse
+<lb ed="#L" n="32"/>namque ibidem dicitur communissimam rationem principii
+<lb ed="#L" n="33"/>esse: primum ex quo est aut cognoscitur aliquid. Constat
+<lb ed="#L" n="34"/>autem Patrem esse primum ex quo est Filius, iuxta illud:
+<lb ed="#L" n="35"/>et ex Patre nalum ante omnia saecula. In littera autem
+<lb ed="#L" n="36"/>manifestatur ista maior communitas ex notioribus nobis,
+<lb ed="#L" n="37"/>scilicet puncto, etc., non quod istae acceptiones locum 
+ha<lb break="no" ed="#L" n="38"/>beant in divinis; sed ut ex his, tanquam 'ex notioribus, 
+no<lb break="no" ed="#L" n="39"/>tificetur maior abstractio principii quam causae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e216-Dd1e216"><!-- caj-p1-q33-a2 -->
+               <head xml:id="TAcCaj-d1e216-Hd1e219">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e216-d1e221">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e228">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>In titulo, ly <mentioned>Pater</mentioned>, ut in solutione dubii patebit, sumitur
+<lb ed="#L" n="25"/>prout in divina Trinitate admittitur. Ly proprie sumitur
+<lb ed="#L" n="26"/>et ut distinguitur contra metaphorice, et ut distinguitur
+<lb ed="#L" n="27"/>contra commune, et ut distinguitur contra extranee. 
+Extra<lb break="no" ed="#L" n="28"/>neum autem dico quomodolibet adiacens: quemadmodum
+<lb ed="#L" n="29"/>dicimus de aliquo quod Socrates est nomen proprium eius,
+<lb ed="#L" n="30"/>filius vero Platonis primogenitus non est eius nomen 
+pro<lb break="no" ed="#L" n="31"/>prium, quia significat accidens adiacens Socrati, et non eius
+<lb ed="#L" n="32"/>substantiam. Et hoc tertio modo principaliter et directe
+<lb ed="#L" n="33"/>sumitur in hoc titulo: utroque autem alio modo 
+conco<lb break="no" ed="#L" n="34"/>mitanter. Ita quod intentio quaestionis est: An Pater sit
+<lb ed="#L" n="35"/>nomen significans propriam substantiam, seu proprium
+<lb ed="#L" n="36"/>substantiale alicuius divinae personae; an significet aliquid
+<lb ed="#L" n="37"/>adiacens illi Unde ly divinae personae supponit pro ipsa
+<lb ed="#L" n="38"/>hypostasi ut sic.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e267">
+                  <lb ed="#L" n="39"/>II. In corpore unica est conclusio, responsiva quaesito
+<lb ed="#L" n="40"/>affirmative: Pater est nomen proprium personae Patris. —
+<lb ed="#L" n="41"/>Et probatur sic. Significans id per quod persona 
+quaecum<lb break="no" ed="#L" n="42"/>que distinguitur ab omnibus aliis, est nomen proprium
+<lb ed="#L" n="43"/>ilius: sed Pater significat paternitatem, per quam persona
+<lb ed="#L" n="44"/>Patris distinguitur ab omnibus aliis: ergo est nomen 
+pro<lb break="no" ed="#L" n="45"/>prium personae Patris.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e285">
+                  <lb ed="#L" n="46"/>Maior probatur in littera virtualiter sic. Nomen 
+pro<lb break="no" ed="#L" n="47"/>prium huius hominis significat hanc animam et hoc 
+cor<lb break="no" ed="#L" n="48"/>pus: ergo significat id per quod distinguitur ab 
+omni<lb break="no" ed="#L" n="49"/>bus aliis. Par autem ratio est de ceteris. Igitur. - 
+Ante<lb break="no" ed="#L" n="50"/>cedens manifestatur et ratione, quia sicut de intellectu
+<lb ed="#L" n="51"/>hominis sunt carnes et ossa, ita etc.; et auctoritate VII
+<lb ed="#L" n="52"/>Metaphys.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e304">
+                  <lb ed="#L" n="53"/>III. Circa hanc rationem dubium: occurrit. Quoniam
+<lb ed="#L" n="54"/>medius terminus, scilicet significare id quo persona haec
+<lb ed="#L" n="55"/>distinguitur a ceteris, aut importat significare formaliter
+<lb ed="#L" n="56"/>et in actu ipsum distinctivum personae; aut materialiter et
+<lb ed="#L" n="57"/>in potentia, eo modo quo superius dicitur significare 
+con<lb break="no" ed="#L" n="58"/>tenta sub eo. Si sumitur pro significatione formali, sic
+<lb ed="#L" n="59"/>falsa est minor. Pater enim non significat personale distin-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="60"/>ctivum divinae personae: quoniam significat formaliter id
+<lb ed="#L" n="61"/>quo Pater convenit cum ceteris patribus, convenientia 
+sal<lb break="no" ed="#L" n="62"/>tem analoga; non est autem idem distinctivum alicuius,
+<lb ed="#L" n="63"/>et quo cum aliis convenit, quia hoc est commune, illud
+<lb ed="#L" n="64"/>proprium. — Si vero sumitur de significatione in potentia,
+<lb ed="#L" n="65"/>vana est maior, vanusque est totus processus corporis.
+<lb ed="#L" n="66"/>Quoniam expresse loquuntur de significare" actualiter: 
+alio<lb break="no" ed="#L" n="67"/>quin omo esset nomen proprium huius hominis, nec 
+opor<lb break="no" ed="#L" n="68"/>tuisset haec adducere.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e343">
+                  <lb ed="#L" n="69"/>IV. Ad hoc breviter dicitur, quod hic est sermo de
+<lb ed="#L" n="70"/>significare actualiter. Et ad obiectionem ad oppositum 
+re<lb break="no" ed="#L" n="71"/>spondetur, quod ly Pater dupliciter sumi potest. Primo,
+<lb ed="#L" n="72"/>ut est nomen analogum ad omnem quomodolibet patrem :
+<lb ed="#L" n="73"/>et sic proculdubio falsa esset minor; sic enim significat
+<lb ed="#L" n="74"/>commune quid proportionaliter omni patri. Alio modo;
+<lb ed="#L" n="75"/>ut est primum et caput huius analogiae: et sic significat
+<lb ed="#L" n="76"/>constitutivum distinctivumque personale primae personae
+<lb ed="#L" n="77"/>Trinitatis divinae. Ut enim in qu. xnr declaratum est, alia
+<lb ed="#L" n="78"/>est formalis ratio reddenda quaerenti, Quid est prima 
+per<lb break="no" ed="#L" n="79"/>sona divina quatenus Pater? et Quid est Socrates quatenus
+<lb ed="#L" n="80"/>pater? sicut in aliis analogis communibus Deo et 
+creatu<lb break="no" ed="#L" n="81"/>rae. Ipsa autem alietas rationis consurgit ex elevatione 
+re<lb break="no" ed="#L" n="82"/>lationis paternitatis ad subsistentiam et personalitatem, etc.
+<lb ed="#L" n="83"/>Et propterea ly Pater, sic sumptum, ex propria sua 
+ra<lb break="no" ed="#L" n="84"/>tione significat illius personalitatem: propter quod absque
+<lb ed="#L" n="85"/>additione tradidit Dominus baptizandum esse im nomine
+<lb ed="#L" n="86"/>Patris, etc.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e385">
+                  <lb ed="#L" n="87"/>Dubium autem remanens circa minorem, an scilicet
+<lb ed="#L" n="88"/>paternitas sit personale distinctivum Patris, in qu. xr, art. 2,
+<lb ed="#L" n="89"/>tractabitur.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e394">
+                  <lb ed="#L" n="90"/>V. In responsione ad quartum, nota quod de ratione
+<lb ed="#L" n="91"/>generationis sunt duo: scilicet distinctio suppositorum, et
+<lb ed="#L" n="92"/>unitas formae quae communicatur. Et quoniam generans
+<lb ed="#L" n="93"/>ut sic assimilat sibi genitum, similitudo autem species est
+<lb ed="#L" n="94"/>unitatis, quanto, stante distinctione suppositali, maior est
+<lb ed="#L" n="95"/>unitas formae, tanto generatio est perfectior.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e216-Dd1e411"><!-- caj-p1-q33-a3 -->
+               <head xml:id="TAcCaj-d1e216-Hd1e414">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e216-d1e416">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="97"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e423">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="98"/>In titulo adverte tria. Primo, ly Pater secundum quod 
+per<lb break="no" ed="#L" n="99"/>sonaliter. Pater enim dupliciter de Deo dicitur: scilicet
+<lb ed="#L" n="100"/>personaliter, cum dicitur Pater Domini nostri Iesu Christi;
+<lb ed="#L" n="101"/>et essentialiter, cum dicitur Pater misericordiarum. Et
+<lb ed="#L" n="102"/>ideo non immerito additur ly secundum quod 
+personali<lb break="no" ed="#L" n="103"/>ter. - Secundo, ly dicatur. Non enim quaeritur, an in
+<lb ed="#L" n="104"/>divinis prius sit esse Patrem ad intra, an esse Patrem ad
+<lb ed="#L" n="105"/>extra: sed, an ratio formalis Patris nomine significata, per
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="106"/>prius dicatur de Deo ut est Pater intra, quam de Deo
+<lb ed="#L" n="107"/>ut est Pater extra. — Tertio, ly prius. Quamvis enim ex
+<lb ed="#L" n="108"/>ratione in oppositum facta in littera, prioritatem 
+indistin<lb break="no" ed="#L" n="109"/>cte significare videatur; directe tamen, in proposito, stat
+<lb ed="#L" n="110"/>pro prioritate secundum naturae ordinem, qui inter 
+inten<lb break="no" ed="#L" n="111"/>tiones unius nominis inveniri est solitus, ut patet in toto
+<lb ed="#L" n="112"/>V Metaphys. —- I|ta quod sensus est: An ratio Patris
+<lb ed="#L" n="113"/>nomine significata, personaliter dicta, sit naturae ordine
+<pb ed="#L" n="362"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>prior intentio talis nominis, quam ratio eiusdem 
+essentia<lb break="no" ed="#L" n="2"/>liter dicta.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e473">
+                  <lb ed="#L" n="3"/>II. In corpore unica est conclusio, responsiva quaesito
+<lb ed="#L" n="4"/>affirmative: Pater per prius dicitur in divinis personaliter,
+<lb ed="#L" n="5"/>quam essentialiter. — Probatur sic. Omnia imperfecta 
+su<lb break="no" ed="#L" n="6"/>muntur a perfectis: ergo omne nomen prius dicitur de
+<lb ed="#L" n="7"/>illo in quo salvatur tota eius ratio perfecte, quam de illo
+<lb ed="#L" n="8"/>in quo salvatur secundum aliquid: ergo paternitas prius
+<lb ed="#L" n="9"/>dicitur in divinis secundum quod importat respectum 
+Per<lb break="no" ed="#L" n="10"/>sonae ad Personam, quam secundum quod dicit respectum
+<lb ed="#L" n="11"/>Dei ad creaturas: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e495">
+                  <lb ed="#L" n="12"/>Prima consequentia probatur primo: quia de eo de quo
+<lb ed="#L" n="13"/>nomen dicitur secundum aliquid, dicitur quasi per 
+simi<lb break="no" ed="#L" n="14"/>litudinem ad id in quo perfecte salvatur. Manifestatur 
+de<lb break="no" ed="#L" n="15"/>inde in 7eonis nomine. - Secunda autem probatur: quia in
+<lb ed="#L" n="16"/>Deo Patre et Deo Filio invenitur perfecta ratio paternitatis
+<lb ed="#L" n="17"/>et filiationis; in Deo autem et creatura non, sed secundum
+<lb ed="#L" n="18"/>aliqualem similitudinem. Et probatur prima pars huius 
+as<lb break="no" ed="#L" n="19"/>sumpti: quia divinarum Personarum una est natura ac 
+glo<lb break="no" ed="#L" n="20"/>ria. Secunda vero pars, quoad negationem: quia creatura
+<lb ed="#L" n="21"/>non eiusdem naturae est cum Deo. Quoad affirmationem
+<lb ed="#L" n="22"/>vero, manifestatur graduando latitudinem filialis 
+assimila<lb break="no" ed="#L" n="23"/>tionis creaturae ad Deum, iuxta quatuor modos 
+similitu<lb break="no" ed="#L" n="24"/>dinis, scilicet vestigii, imaginis, gratiae et gloriae. 
+Confir<lb break="no" ed="#L" n="25"/>manturque omnia auctoritatibus 'satis clare in littera.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e529">
+                  <lb ed="#L" n="26"/>III. In responsione ad primum, diligenter notato tria:
+<lb ed="#L" n="27"/>scilicet distinctionem , comparationes, et rationes earum.
+<lb ed="#L" n="28"/>Distinctio est haec: communium, idest essentialium, quae-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>dam dicuntur absolute, ut bonus, sapiens, etc.; quaedam
+<lb ed="#L" n="30"/>respective ad extra, ut Dominus etc. - Comparationes sunt
+<lb ed="#L" n="31"/>duae. Prima est: communia absoluta sunt priora, 
+secun<lb break="no" ed="#L" n="32"/>dum intellectum, personalibus. Altera est: communia 
+re<lb break="no" ed="#L" n="33"/>spectiva ad extrà, sunt posteriora personalibus. — Ratio
+<lb ed="#L" n="34"/>primae comparationis est, quoniam communia absoluta
+<lb ed="#L" n="35"/>clauduntur in personalibus, et non e converso: priora enim
+<lb ed="#L" n="36"/>constat esse a quibus non convertitur consequentia. Ratio
+<lb ed="#L" n="37"/>vero secundae comparationis est, quoniam processio 
+divi<lb break="no" ed="#L" n="38"/>narum personarum est principium processionis 
+creatura<lb break="no" ed="#L" n="39"/>rum; ac per hoc, personalia praesupponuntur a respectibus
+<lb ed="#L" n="40"/>ad extra. Et adverte diligenter hanc secundae comparationis
+<lb ed="#L" n="41"/>rationem, quod non loquitur nisi de respectibus ad extra
+<lb ed="#L" n="42"/>consequentibus actiones franseuntes: hi enim tantum 
+spe<lb break="no" ed="#L" n="43"/>ctant ad processionem creaturarum.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e573">
+                  <lb ed="#L" n="44"/>IV. Et propterea ex hoc loco non habemus mentem
+<lb ed="#L" n="45"/>Auctoris circa communia respectiva ad creaturas, spectantia
+<lb ed="#L" n="46"/>ad actiones immanentes, an scilicet posteriora sint 
+perso<lb break="no" ed="#L" n="47"/>nalibus; puta, an, secundum ordinem intellectus, prius sit
+<lb ed="#L" n="48"/>Deum intelligere creaturas quam producere Filium, aut e
+<lb ed="#L" n="49"/>converso. Et est dubitatio de simplici intelligentia, quae
+<lb ed="#L" n="50"/>inest Deo naturaliter: non autem de scientia visionis, quae
+<lb ed="#L" n="51"/>inest ei libere. Et quoniam impertinens est difficultas haec
+<lb ed="#L" n="52"/>proposito, quoniam secundum huiusmodi non dicitur Deus
+<lb ed="#L" n="53"/>Pater, erit de hoc specialis quaestio, iuxta hunc articulum. .
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e597">
+                  <lb ed="#L" n="54"/>Alia autem difficultas, an scilicet processio personarum
+<lb ed="#L" n="55"/>sit principium processionis creaturae, inferius, qu. XLv,
+<lb ed="#L" n="56"/>art. 6, ex proposito tractabitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e216-Dd1e607"><!-- caj-p1-q33-a4 -->
+               <head xml:id="TAcCaj-d1e216-Hd1e610">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e216-d1e612">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e619">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="92"/>IN titulo, proprium distinguitur contra commune. Et 
+ex<lb break="no" ed="#L" n="93"/>Toodir. ut in responsione ad secundum habetur, non
+<lb ed="#L" n="94"/>solum alias personas divinas, sed etiam naturam ipsam.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e630">
+                  <lb ed="#L" n="95"/>II. In corpore unica est conclusio, non nisi implicite
+<lb ed="#L" n="96"/>responsiva quaesito ac posita: Ingenitum esse est proprium
+<lb ed="#L" n="97"/>Patris. - Probatur sic. Pater et Filius in divinis sunt 
+princi<lb break="no" ed="#L" n="98"/>pium non de principio, et principium de principio, 
+quem<lb break="no" ed="#L" n="99"/>admodum in creaturis haec est principium primum, illa
+<lb ed="#L" n="100"/>principium secundum : ergo pater dupliciter innotescit, 
+sci<lb break="no" ed="#L" n="101"/>licet inquantum principium, paternitate et communi spira-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="102"/>tione; et inquantum non de principio, per non esse ab
+<lb ed="#L" n="103"/>alio: ergo per esse ingenitum. Et si subintellexeris quod
+<lb ed="#L" n="104"/>esse principium non de principio, seu non esse ab alio,
+<lb ed="#L" n="105"/>est proprium Patri, concludes non solum quod ingenitum
+<lb ed="#L" n="106"/>convenit Patri, quod in littera explicatur; sed etiam quod
+<lb ed="#L" n="107"/>est proprium Patri, quod quaesitum erat, et quod 
+deter<lb break="no" ed="#L" n="108"/>minare intendebat littera.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e665">
+                  <lb ed="#L" n="109"/>Antecedens declaratur: quia in personis divinis non est
+<lb ed="#L" n="110"/>prius et posterius, ut inferius patebit..— Consequentia vero
+<lb ed="#L" n="111"/>prima probatur: quia principium primum in creaturis du-
+<pb ed="#L" n="364"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>pliciter innotescit, scilicet relatione ad ea quae sunt a se,
+<lb ed="#L" n="2"/>et negatione sui ab alio. - Secunda vero consequentia 
+pro<lb break="no" ed="#L" n="3"/>batur: quia non esse ab alio spectat ad innascibilitatem
+<lb ed="#L" n="4"/>significatam ingeniti nomine.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e688">
+                  <lb ed="#L" n="5"/>III. In responsione ad secundum, adverte quod 
+inge<lb break="no" ed="#L" n="6"/>nitum cum constet ex in et genitum, utrumque est 
+mul<lb break="no" ed="#L" n="7"/>tiplex. Nam ly i2 dupliciter sumitur, scilicet pure negative,
+<lb ed="#L" n="8"/>aut privative: et hoc multipliciter, aut in ente, aut in 
+ge<lb break="no" ed="#L" n="9"/>nere, aut in seipso: et hoc solo modo dicit imperfectionem.
+<lb ed="#L" n="10"/>Hic autem sumitur privative in genere aut principii 
+per<lb break="no" ed="#L" n="11"/>sonaliter, aut divinae rei. - Genitum quoque dupliciter su- '
+<lb ed="#L" n="12"/>mitur: scilicet proprie, idest ab alio per generationem; et
+<lb ed="#L" n="13"/>communiter, idest quovis modo ab alio.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e710">
+                  <lb ed="#L" n="14"/>Unde in littera quinque dicuntur. Primo, quod ;
+ngeni<lb break="no" ed="#L" n="15"/>tum pure negative, non est proprium Patri. Secundo, quod
+<lb ed="#L" n="16"/>ingenitum privative in seipso, non convenit Patri. Tertio,
+<lb ed="#L" n="17"/>quod ingenitum privative in genere divini suppositi, non
+<lb ed="#L" n="18"/>est proprium Patri: quia convenit Spiritui Sancto. Quarto,
+<lb ed="#L" n="19"/>quod ingenitum in genere principii personaliter dicti, est
+<lb ed="#L" n="20"/>proprium Patri. Et in his quatuor acceptionibus ly 
+genmi<lb break="no" ed="#L" n="21"/>tum sumitur proprie. Quinto, quod in genere rei divinae,
+<lb ed="#L" n="22"/>sumendo ly genitum communiter, ingenitum est proprium
+<lb ed="#L" n="23"/>Patri: quoniam solus nullo modo est ab alio; essentia 
+nam<lb break="no" ed="#L" n="24"/>que, etsi non simpliciter, tamen ut in Filio et Spiritu 
+San<lb break="no" ed="#L" n="25"/>cto, est a Patre.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e739">
+                  <lb ed="#L" n="26"/>IV. In responsione ad quartum , adverte quod littera
+<lb ed="#L" n="27"/>duas assignat rationes quare non possunt esse in divinis
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>duae personae ingenitae; iuxta illud Hilarii, cum unus Deus
+<lb ed="#L" n="29"/>sit, duo innascibiles esse non possunt, unitatem divinae
+<lb ed="#L" n="30"/>naturae assignantis pro causa unitatis personae innascibilis.
+<lb ed="#L" n="31"/>Et prima quidem deductio litterae est, quia in omni natura
+<lb ed="#L" n="32"/>oportet ponere unum primum: ac per hoc, si plura prima
+<lb ed="#L" n="33"/>sunt, plures naturae erunt. — Secunda est quia, si essent
+<lb ed="#L" n="34"/>duo innascibiles, distinguerentur diversitate naturarum: quia
+<lb ed="#L" n="35"/>non relationibus originis oppositis; neuter enim esset ab
+<lb ed="#L" n="36"/>altero, aut alio.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e768">
+                  <lb ed="#L" n="37"/>V. Veruntamen <name xml:id="TAcCaj-d1e216-Nd1e772">Scotus</name>, in I, dist. m, qu. v, hanc 
+se<lb break="no" ed="#L" n="38"/>cundam rationem reprehendit, eo quod medium non est
+<lb ed="#L" n="39"/>notius conclusione: qui enim plures personas ingenitas
+<lb ed="#L" n="40"/>poneret, non concederet eas relationibus originis 
+distin<lb break="no" ed="#L" n="41"/>gui. Et Hilarius quidem, inquit, hoc dicit, sed non
+<lb ed="#L" n="42"/>probat.
+</p>
+               <p xml:id="TAcCaj-d1e216-d1e786">
+                  <lb ed="#L" n="43"/>Sed re vera tam Hilarii ratio, quam illius in littera 
+de<lb break="no" ed="#L" n="44"/>ductio, non solum rationabilis, sed necessaria est. Quoniam
+<lb ed="#L" n="45"/>aut in.divinis non est personarum distinctio, ut dicunt 
+phi<lb break="no" ed="#L" n="46"/>losophi: et sic una tantum persona est ingenita. Aut sunt
+<lb ed="#L" n="47"/>tres personae, ut fides catholica docet: et sic, cum 
+distin<lb break="no" ed="#L" n="48"/>ctio per absoluta non sit intelligibilis, restat quod per or- .
+<lb ed="#L" n="49"/>dinem tantum originis esse possit. Unde medium notius est
+<lb ed="#L" n="50"/>conclusione: sicut notius est non posse esse distinctionem
+<lb ed="#L" n="51"/>realem personarum in absolutis absque diversitate 
+perfe<lb break="no" ed="#L" n="52"/>ctionis. Sed Scotus, actus concepta passione, quam 
+expres<lb break="no" ed="#L" n="53"/>surus erat in xxvI dist. eiusdem, haec dixisse videtur: qua
+<lb ed="#L" n="54"/>de re inferius erit sermo.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

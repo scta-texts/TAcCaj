@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="7"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e51"><!-- TAcCajp1-q1 -->
+            <head xml:id="TAcCaj-d1e51-Hd1e99">Quaestio 1</head>
+            <div xml:id="TAcCaj-d1e51-Dd1e101"><!-- caj-p1-q1-a1 -->
+              <head xml:id="TAcCaj-d1e51-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e51-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>In titulo huius primi articuli, tres terminos nota. Primo
+<lb ed="#L" n="25"/>ly necessarium. Dupliciter enim sumitur V Metaphys.:
+<lb ed="#L" n="26"/>simpliciter, et ad finem. Hic sumitur secundo modo. -
+<lb ed="#L" n="27"/>Secundo ly physicas disciplinas. Dupliciter namque 
+scien<lb break="no" ed="#L" n="28"/>tia. potest. dici physica seu naturalis, quod idem est: 
+obie<lb break="no" ed="#L" n="29"/>ctive, et sic est una pars scientiae, distincta, VI. Metaphys.
+<lb ed="#L" n="30"/>contra mathematicam et metaphysicam; et effective, quia
+<lb ed="#L" n="31"/>secundum se nata est esse a principio naturali scientiarum,
+<lb ed="#L" n="32"/>idest lumine intellectus agentis. Et sic distinguitur physicum
+<lb ed="#L" n="33"/>contra supernaturale. Et hoc modo sumitur in proposito,
+<lb ed="#L" n="34"/>ubi physicae disciplinae appellantur omnes notitiae 
+acqui<lb break="no" ed="#L" n="35"/>sibiles lumine intellectus. - Tertio ly aliam doctrinam.-Non
+<lb ed="#L" n="36"/>dicit scientiam, opinionem aut fidem: quod bene notandum
+<lb ed="#L" n="37"/>esse, in dubitando apparebit.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e148">
+                  <lb ed="#L" n="38"/>II In corpore sunt duae conclusiones responsivae 
+quae<lb break="no" ed="#L" n="39"/>affirmative. Prima est: Necessarium est ad humanam
+<lb ed="#L" n="40"/>o. esse doctrinam per revelationem acceptam de 
+mul<lb break="no" ed="#L" n="41"/>tis quae humanam rationem excedunt. - Secunda est: 
+Ne<lb break="no" ed="#L" n="42"/>cessarium est ad humanam salutem, esse dini per
+<lb ed="#L" n="43"/>revelationem de his quae de Deo etiam naturali ratione
+<lb ed="#L" n="44"/>Woestgari possunt.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e166">
+                  <lb ed="#L" n="45"/>III. Antequam probentur conclusiones, ad evidentiam
+<lb ed="#L" n="46"/>distinctionis et sufficientiae conclusionum, nota duas 
+distin<lb break="no" ed="#L" n="47"/>ctiones. Prima est ex I Contra Gentiles, cap. mr. Duo sunt
+<lb ed="#L" n="48"/>gnera cognoscibilium de Deo principaliter : quaedam 
+de<lb break="no" ed="#L" n="49"/>monstrabilia ; quaedam non nisi per revelationem 
+cogno<lb break="no" ed="#L" n="50"/>scibilia, Ista sunt Trinitas Personarum, beatitudo nobis 
+pro<lb break="no" ed="#L" n="51"/>missa, Incarnationis et Redemptionis mysteria: illa vero sunt,
+<lb ed="#L" n="52"/>Deum esse unum, immortalem, etc. Ratione revelabilium
+<lb ed="#L" n="53"/>tantum, posita est prima conclusio: ratione vero 
+demon<lb break="no" ed="#L" n="54"/>strabilium, posita est secunda. - Altera distinctio est ex
+<lb ed="#L" n="55"/>V Metaphys. Necessarium ad finem dupliciter: ad esse,
+<lb ed="#L" n="56"/>et ad bene esse. In prima conclusione sumitur necessarium
+<lb ed="#L" n="57"/>primo modo: in secunda, secundo modo.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e198">
+                  <lb ed="#L" n="58"/>IV. His praehabitis, probatur prima conclusio ex littera.
+<lb ed="#L" n="59"/>Ordinatim ad Deum ut finem ignotum ratione naturali,
+<lb ed="#L" n="60"/>consequendum tamen propria intentione et actione, eget
+<lb ed="#L" n="61"/>supernaturali disciplina, qua finem cognoscat et 
+operatio<lb break="no" ed="#L" n="62"/>nes in illum dirigat: homo est huiusmodi: ergo. - 
+Pro<lb break="no" ed="#L" n="63"/>batur minor ex Lxiv cap. [saiae.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e214">
+                  <lb ed="#L" n="64"/>V. Circa hanc conclusionem dubium statim occurrit,
+<lb ed="#L" n="65"/>quid intelligatur hic nomine sacrae doctrinae seu disciplinae.
+<lb ed="#L" n="66"/>Aut enim intelligitur fides, aut theologia. Si fides, 
+sequun<lb break="no" ed="#L" n="67"/>tur duo inconvenientia. Primum est, quod idem bis 
+quae<lb break="no" ed="#L" n="68"/>reretur: nam in II^ II?e, qu. rr, art. 3, quaeretur an credere
+<lb ed="#L" n="69"/>aliquid supernaturale. sit necessarium ad salutem. 
+Secun<lb break="no" ed="#L" n="70"/>dum est, quod aequivoce sumitur sacra doctrina in hoc
+<lb ed="#L" n="71"/>et in sequentibus articulis: nam constat quod in eis non
+<lb ed="#L" n="72"/>sumitur pro fide. - Si theologia, sequeretur quod fides
+<lb ed="#L" n="73"/>absque theologia non sufficeret ad salutem hominis: quod
+<lb ed="#L" n="74"/>est falsum. Sequela patet: quia in littera dicitur quod illa
+<lb ed="#L" n="75"/>doctrina est necessaria ad salutem humanam. Falsitas vero
+<lb ed="#L" n="76"/>consequentis et ex se patet, et ex ratione in littera assi-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>gnata convincitur: quia scilicet homo potest intentiones
+<lb ed="#L" n="78"/>et actiones suas per fidei cognitionem in finem 
+supernatu<lb break="no" ed="#L" n="79"/>ralem dirigere.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e253">
+                  <lb ed="#L" n="80"/>VI. Ad hoc dicendum est quod sacra doctrina neque
+<lb ed="#L" n="81"/>sumitur pro fide, ut distinguitur contra theologiam; neque
+<lb ed="#L" n="82"/>pro theologia, ut distinguitur contra fidem: sed sumitur
+<lb ed="#L" n="83"/>pro cognitione a Deo revelata, sive formaliter sive 
+virtua<lb break="no" ed="#L" n="84"/>liter, ut habet rationem disciplinae et doctrinae, abstrahendo
+<lb ed="#L" n="85"/>a ratione crediti et sciti. Cognitio enim qua egemus ad
+<lb ed="#L" n="86"/>salutem, prout a Deo docente in homine suscipitur, 
+do<lb break="no" ed="#L" n="87"/>ctrina est et disciplina, iuxta illud Ioan. v1: Omnis qui 
+au<lb break="no" ed="#L" n="88"/>divit a Patre et didicit, venit ad me. Et de hac dicitur in
+<lb ed="#L" n="89"/>conclusione hac, quod est necessaria ad salutem. Et 
+quo<lb break="no" ed="#L" n="90"/>niam cognitio huiusmodi, ut disciplina est revelata, abstrahit
+<lb ed="#L" n="91"/>/a ratione credendi et sciendi; et a ratione revelati 
+forrna<lb break="no" ed="#L" n="92"/>liter, idest in seipso, et virtualiter, idest in suis principiis:
+<lb ed="#L" n="93"/>ideo hoc in loco, ubi de doctrina revelata praeter physicas
+<lb ed="#L" n="94"/>disciplinas quaeritur, ad nullum horum licet determinate
+<lb ed="#L" n="95"/>descendere.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e290">
+                  <lb ed="#L" n="96"/>Et sic aliud formaliter quaeritur hic, et aliud quaeretur
+<lb ed="#L" n="97"/>inferius in II? II?: quia hic de doctrina, ibi de credere.
+<lb ed="#L" n="98"/>Et univoce sumitur hic sacra doctrina et in sequenti 
+arti<lb break="no" ed="#L" n="99"/>culo. Nec sequitur quod theologia ut distinguitur contra
+<lb ed="#L" n="100"/>fidem, sit necessaria; sed quod theologia ut abstrahit a fide
+<lb ed="#L" n="101"/>et scientia, sit necessaria ad salutem; quod constat esse
+<lb ed="#L" n="102"/>verum, propter rationem in littera assignatam. Nec valet:
+<lb ed="#L" n="103"/>Jides sufficit: ergo theologia non requiritur : tum quoniam
+<lb ed="#L" n="104"/>in fide clauditur theologia, ut hic sumitur, sicut animal in
+<lb ed="#L" n="105"/>homine; tum quoniam scientia haec, apud Augustinum XIV
+<lb ed="#L" n="106"/>de Trinitate, non solum nutrit, defendit et roborat fidem,
+<lb ed="#L" n="107"/>sed gignit eandem. Et vere sic est ex parte credibilium.
+<lb ed="#L" n="108"/>Fides enim, licet sit a Deo infundente inclinationem ad
+<lb ed="#L" n="109"/>credendum, est tamen ex auditu per verbum Christi quoad
+<lb ed="#L" n="110"/>credibilia, ut ad Rom. x habetur, in littera et a s. Thoma,
+<lb ed="#L" n="111"/>Et sic theologia clauditur in fide, ut gignens eam. Et si 
+in<lb break="no" ed="#L" n="112"/>feratur: ergo quilibet fidelis adultus explicite credens etc.
+<lb ed="#L" n="113"/>est theologus: dicendum 'est quod non simpliciter; sed
+<lb ed="#L" n="114"/>particeps est theologiae secundum quid etc., scilicet 
+secun<lb break="no" ed="#L" n="115"/>dum principia etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e336">
+                  <lb ed="#L" n="116"/>VII. Circa hanc partem, est advertendum quod Scotus,
+<lb ed="#L" n="117"/>in r qu. Prologi Primi Sententiarum, nec a conclusione
+<lb ed="#L" n="118"/>nec a ratione discordat: sed a causa quare finis ille est nobis
+<lb ed="#L" n="119"/>naturaliter occultus. Nos enim dicimus quod ideo finis ille
+<lb ed="#L" n="120"/>est nobis naturaliter occultus, quia est supernaturalis finis
+<lb ed="#L" n="121"/>animae nostrae: et propterea, quantumcumque perfecte
+<lb ed="#L" n="122"/>nota esset nobis natura nostrae animae quoad naturalia,
+<lb ed="#L" n="123"/>nunquam cognosceretur sub ratione qua ordinatur in talem
+<lb ed="#L" n="124"/>finem ; quia extra naturalium latitudinem est tam finis quam
+<lb ed="#L" n="125"/>illa animae ratio. Ipse vero tenet illum finem esse naturalem
+<lb ed="#L" n="126"/>nostrae animae, quamvis supernaturaliter adipiscendum.
+<lb ed="#L" n="127"/>Et tamen esse naturaliter incognitum: quia anima nostra
+<lb ed="#L" n="128"/>non nobis naturaliter est nota, saltem pro statu isto, sub illa
+<lb ed="#L" n="129"/>propria et speciali ratione, qua ordinatur ad illum finem.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e369">
+                  <pb ed="#L" n="8"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>VIII. Quod autem finis ille sit naturalis, probat 
+triplici<lb break="no" ed="#L" n="2"/>ter. Primo auctoritate Augustini (in libro de 
+Praedestina<lb break="no" ed="#L" n="3"/>tione Sanctorum): Proinde posse habere fidem, sicut posse
+<lb ed="#L" n="4"/>habere caritatem , naturae est hominum ; habere autem
+<lb ed="#L" n="5"/>gratiae est fidelium. - Secundo ex appetitu. Homo 
+natu<lb break="no" ed="#L" n="6"/>raliter appetit illum finem quem dicis supernaturalem: ergo
+<lb ed="#L" n="7"/>est ei naturalis. - Zertio ex ratione naturalitatis. Potentia,
+<lb ed="#L" n="8"/>comparata ad actum, aut est naturalis, aut violenta, aut
+<lb ed="#L" n="9"/>neutra; nec est ibi aliqua supernaturalitas: ergo intellectus,
+<lb ed="#L" n="10"/>seu anima, naturaliter ordinatur ad visionem Dei, seu 
+frui<lb break="no" ed="#L" n="11"/>tionem. Antecedens quoad partem affirmativam, declaratur:
+<lb ed="#L" n="12"/>quia potentia aut inclinatur ad talem actum, aut repugnat
+<lb ed="#L" n="13"/>tali actui, aut neutraliter se habet: si primo modo, est
+<lb ed="#L" n="14"/>naturalis; si secundo, violenta; si tertio, neutra. Quoad
+<lb ed="#L" n="15"/>partem vero negativam, declaratur, Differentia naturalitatis a
+<lb ed="#L" n="16"/>supernaturalitate attenditur penes comparationem potentiae
+<lb ed="#L" n="17"/>ad agens naturaliter vel supernaturaliter impressivum in
+<lb ed="#L" n="18"/>talem potentiam: igitur comparando potentiam ad actum,
+<lb ed="#L" n="19"/>nulla est supernaturalitas. Consequentia vero probatur ex eo
+<lb ed="#L" n="20"/>quod anima inclinatur in omnem suam, et praecipue 
+sum<lb break="no" ed="#L" n="21"/>mam perfectionem, qualis est actus fruitionis Dei, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e422">
+                  <lb ed="#L" n="22"/>IX. Ad evidentiam huius difficultatis, scito quod apud
+<lb ed="#L" n="23"/>nos potentia aut est naturalis, aut violenta, aut 
+obedien<lb break="no" ed="#L" n="24"/>tialis : et hoc tam in comparatione ad actum quam ad agens:
+<lb ed="#L" n="25"/>nec aliqua est in rerum natura potentia neutra, omissis
+<lb ed="#L" n="26"/>artificialibus, ut in quaestione de Potentia Neutra iuxta
+<lb ed="#L" n="27"/>hunc articulum, dicetur. Vocatur autem potentia 
+obedien<lb break="no" ed="#L" n="28"/>tialis, aptitudo rei ad hoc ut in ea fiat quidquid faciendum
+<lb ed="#L" n="29"/>ordinaverit Deus. Et secundum talem potentiam, anima 
+no<lb break="no" ed="#L" n="30"/>stra dicitur in potentia ad beatitudinem pollicitam, et finem
+<lb ed="#L" n="31"/>supernaturalem, et alia huiusmodi.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e446">
+                  <lb ed="#L" n="32"/>X. Unde ad primum Scoti dicitur, quod Augustinus
+<lb ed="#L" n="33"/>non dixit quod posse habere fidem sit naturale homini,
+<lb ed="#L" n="34"/>sed quod sit naturae hominum. Aliud est enim potentiam
+<lb ed="#L" n="35"/>esse naturae, et aliud esse naturalem: primum enim 
+si<lb break="no" ed="#L" n="36"/>gnificat subiectum potentiae, secundum autem modum 
+po<lb break="no" ed="#L" n="37"/>tentiae, Et ideo primum est verum in proposito: secundum
+<lb ed="#L" n="38"/>vero falsum. Potentia siquidem illa obedientialis ad fidem
+<lb ed="#L" n="39"/>et caritatem, est in natura hominum, quia intellectiva est :
+<lb ed="#L" n="40"/>non autem in natura leonina, quoniam sibi repugnat. Et
+<lb ed="#L" n="41"/>hoc intendebat Augustinus. - Ad secundum, negatur 
+ante<lb break="no" ed="#L" n="42"/>cedens. - Ad tertium vero, negatur assumptum, et quoad
+<lb ed="#L" n="43"/>tertium membrum partis affirmativae, et quoad partem 
+nega<lb break="no" ed="#L" n="44"/>tivam. Supernaturalitas siquidem attenditur etiam 
+confe<lb break="no" ed="#L" n="45"/>rendo potentiam ad actum: quoniam sunt quidam actus
+<lb ed="#L" n="46"/>qui ex genere suo sunt simpliciter supernaturales, ut gratia,
+<lb ed="#L" n="47"/>gloria, et alia huiusmodi, ut in alia quaestione patebit.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e483">
+                  <lb ed="#L" n="48"/>XI. Secunda autem conclusio probatur. Disciplina qua
+<lb ed="#L" n="49"/>communius, citius et tutius pervenitur ab hominibus ad
+<lb ed="#L" n="50"/>cognitionem divinorum demonstrabilium, est homini 
+neces<lb break="no" ed="#L" n="51"/>saria: disciplina revelata est huiusmodi: ergo. - Omnia 
+pa<lb break="no" ed="#L" n="52"/>tent in littera; et diffusius in I Contra Gent., cap. 1v.
+<lb ed="#L" n="53"/>XII. In responsione ad secundum, adverte quod 
+argu<lb break="no" ed="#L" n="54"/>mentum erat hoc: Omne ens est scibile per physicas 
+disci<lb break="no" ed="#L" n="55"/>plinas; ergo non restat aliquid scibile per doctrinam 
+reve<lb break="no" ed="#L" n="56"/>ratam; et consequenter non est necessaria. - Consequentia
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="57"/>prima probatur: quia nihil scitur nisi verum, quod cum
+<lb ed="#L" n="58"/>ente convertitur. Antecedens vero patet VI Metaphys.,
+<lb ed="#L" n="59"/>et inductive.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e514">
+                  <lb ed="#L" n="60"/>Ad hoc autem dupliciter responderi potest, secundum
+<lb ed="#L" n="61"/>quod antecedens dupliciter distingui potest. Primo sic.
+<lb ed="#L" n="62"/>Omne ens, secundum omnia quae sunt cognoscibilia; vel
+<lb ed="#L" n="63"/>non secundum omnia, sed abstrahibilia tantum a 
+sensibili<lb break="no" ed="#L" n="64"/>bus, est scibile per physicas disciplinas. In primo sensu
+<lb ed="#L" n="65"/>est falsum: in secundo verum. - Secundo sic. Omne ens
+<lb ed="#L" n="66"/>omni modo; vel non omni modo, sed inquantum 
+illuce<lb break="no" ed="#L" n="67"/>scere potest per lumen intellectus agentis, est scibile per
+<lb ed="#L" n="68"/>physicas disciplinas. In primo sensu est falsum: in secundo
+<lb ed="#L" n="69"/>verum. - Quamvis autem utramque responsionem 
+argu<lb break="no" ed="#L" n="70"/>mentum recipiat, placuit tamen Auctori secundam 
+respon<lb break="no" ed="#L" n="71"/>sionem adhibere, non primam explicite: tum ut ex 
+pro<lb break="no" ed="#L" n="72"/>pris huius articuli, lumine scilicet divinae revelationis ,
+<lb ed="#L" n="73"/>oppositas difficultates solveret; tum quia prima responsio
+<lb ed="#L" n="74"/>iam in corpore articuli, in prima conclusione, habebatur.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e549">
+                  <lb ed="#L" n="75"/>XIII. Veruntamen Scotus, in Primo, qu. : Prologi, in
+<lb ed="#L" n="76"/>solutione secundi argumenti pro philosophis, hanc 
+respon<lb break="no" ed="#L" n="77"/>sionem reprehendit: eo quod secundum eam non salvatur
+<lb ed="#L" n="78"/>necessitas theologiae, quam argumentum infringere 
+inten<lb break="no" ed="#L" n="79"/>debat. - Probat autem hoc sic. Ex hac responsione nihil
+<lb ed="#L" n="80"/>aliud habetur nisi eadem per theologiam et alias scientias
+<lb ed="#L" n="81"/>cognosci, quamvis alio modo; sicut per astrologiam et
+<lb ed="#L" n="82"/>physicam scitur quod terra est rotunda. Ergo non salvatur
+<lb ed="#L" n="83"/>necessitas, sed distinctio theologiae ab aliis. Tenet 
+conse<lb break="no" ed="#L" n="84"/>quentia, ex proportionalitate a te assignata: quoniam ex -
+<lb ed="#L" n="85"/>quo illa conclusio ferra est rotunda, est scita per alteram
+<lb ed="#L" n="86"/>scientiarum, reliqua non est necessaria respectu illius, quoad
+<lb ed="#L" n="87"/>sciendam conclusionem, quamvis sit distincta. ,
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e580">
+                  <lb ed="#L" n="88"/>XIV. Ad hoc respondetur, quod diversitatem modi sciendi
+<lb ed="#L" n="89"/>diversitas obiecti formaliter sumpti, seu rationis formalis
+<lb ed="#L" n="90"/>obiecti, comitatur (compatiendo tamen quandoque 
+identi<lb break="no" ed="#L" n="91"/>tatem aliquo modo alicuius conclusionis), si adaequata est
+<lb ed="#L" n="92"/>ratio modo. Aut saltem comitatur diversitas multarum 
+ve<lb break="no" ed="#L" n="93"/>ritatum scibilium, si inadaequata est, ut inferius art. 3
+<lb ed="#L" n="94"/>patet. Unde eaedem res, sub diversis rationibus 
+cogno<lb break="no" ed="#L" n="95"/>scendi acceptae, diversitatem cognoscibilium inducunt. Et
+<lb ed="#L" n="96"/>propterea, dicendo quod est diversa ratio cognoscibilis,
+<lb ed="#L" n="97"/>implicite insinuavit alietatem quoque cognoscibilium, quam
+<lb ed="#L" n="98"/>iam in prima conclusione expresserat. Et propter hoc 
+ne<lb break="no" ed="#L" n="99"/>gatur antecedens: quoniam ex hac responsione, quamvis
+<lb ed="#L" n="100"/>explicite non habeatur nisi diversitas modi cognoscendi,
+<lb ed="#L" n="101"/>implicite tamen habetur etiam diversitas cognoscibilium.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e614">
+                  <lb ed="#L" n="102"/>Ad exemplum autem de astrologia, licet dici posset quod
+<lb ed="#L" n="103"/>exemplorum non requiritur assimilatio in omnibus, tamen,
+<lb ed="#L" n="104"/>exemplum sequendo, dicitur quod, sicut astrologia alio
+<lb ed="#L" n="105"/>lumine quam physica in aliquam conclusionem coincidit ,
+<lb ed="#L" n="106"/>et non in omnes; sic theologia, alio lumine, et easdem 
+ve<lb break="no" ed="#L" n="107"/>ritates quas aliae scientiae, et alias veritates de eisdem rebus
+<lb ed="#L" n="108"/>considerat. Et sic, quemadmodum astrologia, quamvis 
+co<lb break="no" ed="#L" n="109"/>incidat quoad materiam in aliquam conclusionem physicam,
+<lb ed="#L" n="110"/>quia tamen alio lumine, et consequenter alias veritates
+<lb ed="#L" n="111"/>considerat, est non solum diversa, sed necessaria scientia:
+<lb ed="#L" n="112"/>sic et theologia est ab aliis diversa, et necessaria.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e51-Dd1e641"><!-- caj-p1-q1-a2 -->
+               <head xml:id="TAcCaj-d1e51-Hd1e644">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e51-d1e646">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e653">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>IN titulo huius secundi articuli, nota duos terminos:
+<lb ed="#L" n="35"/>primo ly scientia; secundo ly sacra doctrina. Scientia
+<lb ed="#L" n="36"/>enim sumitur hic proprie, ut est intellectualis virtus ( VI
+<lb ed="#L" n="37"/>Ethic.), et habitus conclusionum per demonstrationem
+<lb ed="#L" n="38"/>acquisibilis ex principiis. Et quoniam talia sunt subiecta
+<lb ed="#L" n="39"/>qualia permittuntur a praedicatis, consequens est quod ly
+<lb ed="#L" n="40"/>sacra doctrina sumatur hic pro doctrina revelata ut est 
+con<lb break="no" ed="#L" n="41"/>clusionum. Neque enim sumitur pro tota (quoniam stultum
+<lb ed="#L" n="42"/>videtur quaerere an tota cognitio, claudens in se principia
+<lb ed="#L" n="43"/>et conclusiones, sit scientia, cum constet principiorum non
+<lb ed="#L" n="44"/>- esse scientiam): sed pro ipsa absolute, ut in primo articulo,
+<lb ed="#L" n="45"/>adiuncto respectu ad conclusiones. Ita quod sensus 
+quae<lb break="no" ed="#L" n="46"/>stionis est: An sacra doctrina, quam probavimus 
+necessa<lb break="no" ed="#L" n="47"/>riam, quoad conclusiones suas habeat rationem scientiae;
+<lb ed="#L" n="48"/>an non, sed opinionis, etc. Et sic idem omnino est 
+subie<lb break="no" ed="#L" n="49"/>ctum quaestionis et conclusionis responsivae: et 
+quaestio<lb break="no" ed="#L" n="50"/>nes aequantur vere scitis, iuxta doctrinam II Poster. 
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e695">
+                  <lb ed="#L" n="51"/>II In corpore, proposita conclusione responsiva, tria
+<lb ed="#L" n="52"/>facit: primo ponitur unica distinctio; secundo modificatur
+<lb ed="#L" n="53"/>conclusio responsiva; tertio deducitur corollarium.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e704">
+                  <lb ed="#L" n="54"/>Distinctio est: Scientia duplex, subalternans et 
+subalter<lb break="no" ed="#L" n="55"/>nata, ex | Poster. Differentia inter has est, quod subalternans
+<lb ed="#L" n="56"/>procedit ex propositionibus per se notis: subalternata vero ex
+<lb ed="#L" n="57"/>principiis notis, non per se, sed lumine superioris scientiae:
+<lb ed="#L" n="58"/>ut patet in arithmetica et musica, geometria et perspectiva.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e718">
+                  <lb ed="#L" n="59"/>III. Circa hanc distinctionem ac differentiam, vide quod
+<lb ed="#L" n="60"/>ex propria ratione scientiae absolute nascitur haec differentia
+<lb ed="#L" n="61"/>assignata in littera: et propterea tanquam prima et 
+essen<lb break="no" ed="#L" n="62"/>tialis differentia inter subalternantem et subalternatam 
+sus<lb break="no" ed="#L" n="63"/>cipienda est: et ex his oportet omnes difficultates solvi,
+<lb ed="#L" n="64"/>si doctrina vera est. Scito igitur quod de ratione scientiae
+<lb ed="#L" n="65"/>absolute, ut distinguitur contra alios habitus seu virtutes
+<lb ed="#L" n="66"/>intellectuales, est habere conclusiones visibiles in alio, idest
+<lb ed="#L" n="67"/>in principiis: quoniam omnis scientia ex principiis oritur
+<lb ed="#L" n="68"/>necessario. Et ex hoc sequitur quod nec scientia 
+subalter<lb break="no" ed="#L" n="69"/>nans, nec subalternata, habet evidentiam conclusionum in
+<lb ed="#L" n="70"/>seipsis; sed adiuta habitu principiorum. Verum in hoc 
+diffe<lb break="no" ed="#L" n="71"/>runt, quod subalternantis conclusiones visibiles sunt ex et
+<lb ed="#L" n="72"/>in principiis immediate, idest absque alio medio habitu:
+<lb ed="#L" n="73"/>subalternatae vero conclusiones visibiles sunt ex et in: 
+princi<lb break="no" ed="#L" n="74"/>piis per se notis mediate, mediante scilicet habitu scientifico
+<lb ed="#L" n="75"/>subalternante. Et hàec est essentialis et per se differentia
+<lb ed="#L" n="76"/>inter subalternantem et subalternatam scientiam. Ceterae
+<lb ed="#L" n="77"/>autem conditiones sunt consequentes; aut sunt falis 
+sub<lb break="no" ed="#L" n="78"/>alternae, non subalternae ut sic: puta quod una dicat quia,
+<lb ed="#L" n="79"/>et altera propter quid; aut quod obiectum addat differen-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>tiam accidentalem extraneam. Haec namque est conditio
+<lb ed="#L" n="81"/>subalternationis quoad obiectum: illa vero subalternationis
+<lb ed="#L" n="82"/>quoad principia, gratia materiae, ut infra patebit.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e775">
+                  <lb ed="#L" n="83"/>Essentiale ergo omni scientiae proprie dictae, idest 
+dis<lb break="no" ed="#L" n="84"/>cursivae, est habere conclusiones visibiles, non in et ex
+<lb ed="#L" n="85"/>se, sed in et ex alio. Et ex his deducuntur quinque. Primo
+<lb ed="#L" n="86"/>quod omnis scientia est scientia ex sua continuatione ad
+<lb ed="#L" n="87"/>habitum superiorem. Quoniam nonnisi ex illa continuatione
+<lb ed="#L" n="88"/>evidentiam habet conclusionum; et ut dicitur I Poster.,
+<lb ed="#L" n="89"/>»on sciet non habens demonstrationem demonstrabilium.
+<lb ed="#L" n="90"/>Demonstratio enim est quae continuat; non curando modo
+<lb ed="#L" n="91"/>actu vel potentia. - Secundo quod scientia subalternata est
+<lb ed="#L" n="92"/>scientia ex continuatione, seu continuabilitate, ad scientiam
+<lb ed="#L" n="93"/>superiorem, eadem ratione. - Tertio quod per se habitus
+<lb ed="#L" n="94"/>principiorum proximorum subalternatae est habitus 
+scien<lb break="no" ed="#L" n="95"/>tificus subalternans. - Quarto quod scientia subalternans et
+<lb ed="#L" n="96"/>subalternata non necessario opponuntur ex parte obiecti,
+<lb ed="#L" n="97"/>nec ex parte subiecti, sed potius ex parte conditionum
+<lb ed="#L" n="98"/>medii: quia scilicet medium in subalternante immediate
+<lb ed="#L" n="99"/> iungitur principiis per se notis, subalternatae vero mediate,
+<lb ed="#L" n="100"/>mediante scilicet habitu alterius speciei. - Quinto quod 
+sub<lb break="no" ed="#L" n="101"/>alternata et subalternans sunt compossibiles in eodem 
+sub<lb break="no" ed="#L" n="102"/>iecto: quia non opponuntur ex parte subiecti. - Et ex his
+<lb ed="#L" n="103"/>deducitur sextum, quod principia proxima subalternatae
+<lb ed="#L" n="104"/>possunt duplici habitu cognosci, scilicet scientia superiori,
+<lb ed="#L" n="105"/>et fide; ut in littera expresse dicitur, dum in corollario
+<lb ed="#L" n="106"/>ponitur fides de principiis, et in distinctione ponitur lumen
+<lb ed="#L" n="107"/>superioris scientiae de eisdem. Sed scientia superior est
+<lb ed="#L" n="108"/>eorum habitus per se, quia ex essentiali comparatione, ex
+<lb ed="#L" n="109"/>qua habet subalternata quod sit scientia: fides vero est
+<lb ed="#L" n="110"/>eorum habitus per accidens, quia ratione subiecti in quo
+<lb ed="#L" n="111"/>est, puta perspectivi non geometrae.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e840">
+                  <lb ed="#L" n="112"/>Est autem unum hic advertendum , quod in prima et
+<lb ed="#L" n="113"/>essentiali conditione subalternatae scientiae concurrunt duo.
+<lb ed="#L" n="114"/>Primum est inevidentia in se, cum evidentia ex et in alio:
+<lb ed="#L" n="115"/>secundum est mediatio principiorum proximorum, quae
+<lb ed="#L" n="116"/>est causa illius inevidentiae in se. Sed primum horum est
+<lb ed="#L" n="117"/>formale, et consequenter omnino semper requisitum: 
+se<lb break="no" ed="#L" n="118"/>cundum autem est materiale. Si enim posset salvari illa
+<lb ed="#L" n="119"/>inevidentia cum visibilitate in alio, absque mediatione, nihil
+<lb ed="#L" n="120"/>minus subalternaretur illi: quia, ut iam patet ex dictis, 
+pe<lb break="no" ed="#L" n="121"/>nes illum modum evidentiae est essentialis et per se 
+diffe<lb break="no" ed="#L" n="122"/>rentia inter subalternantem et subalternatam. Et hinc 
+se<lb break="no" ed="#L" n="123"/>quitur quod non oportet principia subalternata ex formali
+<lb ed="#L" n="124"/>ratione subalternationis habere propter quid sed sat est esse
+<lb ed="#L" n="125"/>illo modo propositiones inevidentes et visibiles. .
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e873">
+                  <pb ed="#L" n="10"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>IV. Conclusio modificata est: Sacra doctrina est 
+scien<lb break="no" ed="#L" n="2"/>tia, subalternata scientiae Dei et beatorum. - Probatur. 
+Ha<lb break="no" ed="#L" n="3"/>bitus acquisitus ex principiis notis lumine scientiae Dei et.
+<lb ed="#L" n="4"/>beatorum, est scientia subalternata illi: sacra doctrina est
+<lb ed="#L" n="5"/>huiusmodi: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e891">
+                  <lb ed="#L" n="6"/>V. Corollarium est: Sacra doctrina credit principia 
+re<lb break="no" ed="#L" n="7"/>velata sibi a Deo. - Probatur ex conditione subalterni 
+arti<lb break="no" ed="#L" n="8"/>ficis: musica credit principia tradita sibi ab arithmetico :
+<lb ed="#L" n="9"/>ergo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e902">
+                  <lb ed="#L" n="10"/>VI. Circa hunc articulum, adverte conclusionem 
+respon<lb break="no" ed="#L" n="11"/>sivam habere duas partes: scilicet et quod theologia est
+<lb ed="#L" n="12"/>scientia; et quod est subalternata scientiae Dei. Contra
+<lb ed="#L" n="13"/>quidem primam partem multipliciter arguitur a Durando,
+<lb ed="#L" n="14"/>Aureolo et Gregorio de Arimino, ut habes hic a Capreolo,
+<lb ed="#L" n="15"/>ex conditionibus ipsius scire et demonstrationis assignatis
+<lb ed="#L" n="16"/>I Poster. et VI Ethic. - Ex parte obiecti. Quia scientia est
+<lb ed="#L" n="17"/>de necessariis : ista est de contingentibus, puta Incarnatione,
+<lb ed="#L" n="18"/>praedestinatione , glorificatione, etc. - Ex parte 
+principio<lb break="no" ed="#L" n="19"/>rum. Tum quia scientia est ex per se notis: tum quia 
+ha<lb break="no" ed="#L" n="20"/>bitus principiorum scientiae est superior habitu 
+conclusio<lb break="no" ed="#L" n="21"/>nis. - Ex parte certitudinis. Tum quia sciens scit se scire:
+<lb ed="#L" n="22"/>tum quia scientia est virtus intellectualis. Et si dicatur quod
+<lb ed="#L" n="23"/>theologus scit se scire ex suppositione, scilicet si articuli
+<lb ed="#L" n="24"/>fidei sunt veri: ergo, inquit Aureolus, ista est scientia 
+con<lb break="no" ed="#L" n="25"/>sequentiarum, et non consequentium; et necessitatis 
+con<lb break="no" ed="#L" n="26"/>sequentiae, et non consequentis; et, breviter, illationum,
+<lb ed="#L" n="27"/>non rerum. - Ex parte "odi. Sacra doctrina, inquit Scotus,
+<lb ed="#L" n="28"/>in III Senzt., dist, xxiv, qu. unica, non est tradita per 
+discur<lb break="no" ed="#L" n="29"/>sum syllogisticum; sed omnibus aeque assentimus, ita quod
+<lb ed="#L" n="30"/>non uni propter aliud: ergo. Antecedens manifestatur. Quia
+<lb ed="#L" n="31"/>licet arguatur I ad Corinth. cap. xv, et a doctoribus, nulla
+<lb ed="#L" n="32"/>tamen maior certitudo est probatae quam probantis, aut
+<lb ed="#L" n="33"/>probatae et non probatae sed simpliciter propositae: quod
+<lb ed="#L" n="34"/>in scientia non contingit. - Ex parte demum subiecti. Fides
+<lb ed="#L" n="35"/>et scientia, apud te, non stant simul, inquit Scotus ibidem,
+<lb ed="#L" n="36"/>et qu. rr Prologi Primi: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e964">
+                  <lb ed="#L" n="37"/>VII. Contra secundam autem partem, seu minorem 
+al<lb break="no" ed="#L" n="38"/>latae rationis, multipliciter arguitur, impugnando duo:
+<lb ed="#L" n="39"/>primo diversitatem theologiae nostrae a theologia Dei et
+<lb ed="#L" n="40"/>beatorum; secundo, quod distinctio illa quae est inter
+<lb ed="#L" n="41"/>eas, qualiscumque sit, non est distinctio cum requisitis 
+con<lb break="no" ed="#L" n="42"/>ditionibus ad subalternantem et subalternatam.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e980">
+                  <lb ed="#L" n="43"/>Scotus igitur, in I Sent., qu. ri: Prologi, dupliciter invehit
+<lb ed="#L" n="44"/>contra primum. Scientia Dei non potest esse. nisi una
+<lb ed="#L" n="45"/>formaliter: igitur nulla est subalternata. Antecedens patet:
+<lb ed="#L" n="46"/>quia deitas non est nisi una ratio formalis. - Praeterea,
+<lb ed="#L" n="47"/>de eisdem veritatibus primo impossibile est esse 
+subalter<lb break="no" ed="#L" n="48"/>nantem et subalternatam, quia ubi illa desinit, haec incipit:
+<lb ed="#L" n="49"/>istae sunt de eisdem: ergo.- Haec duo motiva simul ab
+<lb ed="#L" n="50"/>Aureolo innuuntur sub alia forma, sic. Subiectum 
+subal<lb break="no" ed="#L" n="51"/>ternatae addit ad subiectum subalternantis: sed subiectum
+<lb ed="#L" n="52"/>theologiae nostrae non addit: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1004">
+                  <lb ed="#L" n="53"/>Contra secundum autem, Scotus ibidem, et in III ubi
+<lb ed="#L" n="54"/>supra, dupliciter arguit. Scientia subalternata dependet
+<lb ed="#L" n="55"/>a subalternante ut a causa: ista non dependet sic a scientia
+<lb ed="#L" n="56"/>beatorum: ergo. Probatur minor. Causa sciéntiae non est
+<lb ed="#L" n="57"/>nisi obiectum, potentia, subiectum, vel. lumen: quorum
+<lb ed="#L" n="58"/>nullum est scientia illorum. - Praeterea, subalternata et
+<lb ed="#L" n="59"/>subalternans sunt compossibiles in eodem subiecto: istae
+<lb ed="#L" n="60"/>non sunt compossibiles: ergo. Probatur minor. Quia 
+se<lb break="no" ed="#L" n="61"/>queretur quod idem esset simul comprehensor et viator.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1026">
+                  <lb ed="#L" n="62"/>Demum contra idem arguit Durandus, Subalternans dicit
+<lb ed="#L" n="63"/>propter quid, et subalternata quia: istae non sic se habent:
+<lb ed="#L" n="64"/>ergo. Probatur minor. Quia theologalia non habent propter
+<lb ed="#L" n="65"/>quid : et si habent, idem dicimus nos et beati; puta propter
+<lb ed="#L" n="66"/>quid Christus est incarnatus, scilicet propter humanam 
+sa<lb break="no" ed="#L" n="67"/>lutem, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1042">
+                  <lb ed="#L" n="68"/>VIII. Ad evidentiam huius difficultatis, scito duo. 
+Pri<lb break="no" ed="#L" n="69"/>mum est, quod theologia nostra potest dupliciter 
+consi<lb break="no" ed="#L" n="70"/>derari: uno modo secundum se; alio modo ut in nobis
+<lb ed="#L" n="71"/>viatoribus. Si consideretur secundum se, sic procul dubio est
+<lb ed="#L" n="72"/>scientia subalternata scientiae beatae quoad evidentiam ,
+<lb ed="#L" n="73"/>cum ex eius continuabilitate scientiae rationem induat, dum
+<lb ed="#L" n="74"/>procedit ex principiis secundum se notis lumine beato. Et
+<lb ed="#L" n="75"/>contra hoc paucae aut nullae rationes militant: quoniam
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>primae rationes infringunt theologiam nostram in nobis
+<lb ed="#L" n="77"/>non esse scientiam; secundae vero non esse subalternatam
+<lb ed="#L" n="78"/>totaliter, non quoad aliquid. - Si autem consideretur ut in
+<lb ed="#L" n="79"/>nobis viatoribus, sic difficultates motae emergunt. Et 
+pu<lb break="no" ed="#L" n="80"/>tatur quod etiam apud sanctum Thomam, sic accepta non
+<lb ed="#L" n="81"/>sit scientia nisi aequivoce, ut alibi ipse dicere videtur: nec
+<lb ed="#L" n="82"/>sit subalternata nisi secundum quid, scilicet quoad 
+evi<lb break="no" ed="#L" n="83"/>dentiam. Et si haec considerentur, facilis esset quaestionis
+<lb ed="#L" n="84"/>solutio.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1084">
+                  <lb ed="#L" n="85"/>IX. Verum mihi videtur alifer esse interpretandum 
+san<lb break="no" ed="#L" n="86"/>ctum Thomam, quoad secundum praecipue punctum. Nam
+<lb ed="#L" n="87"/>quoad primum punctum, scilicet quod theologia nostra,
+<lb ed="#L" n="88"/>ut in nobis viatoribus, non sit aut sit scientia, utraque
+<lb ed="#L" n="89"/>pars potest, sane intellecta, dici: et quod non est scientia
+<lb ed="#L" n="90"/>(scilicet non habet scientiae rationem perfectam, quia non
+<lb ed="#L" n="91"/>vere scit, qui non potest resolvere in principia evidentia: et
+<lb ed="#L" n="92"/>hoc intendit ubicumque hoc innuit); et quod est scientia
+<lb ed="#L" n="93"/>imperfecta, ratione status praesentis; scientia enim 
+imper<lb break="no" ed="#L" n="94"/>fecta non est extra latitudinem scientiae. Et hoc affirmavit
+<lb ed="#L" n="95"/>hic littera. Et ne daretur occasio male intelligendi, cum
+<lb ed="#L" n="96"/>fuisset tantum quaesitum utrum esset scientia, responsum
+<lb ed="#L" n="97"/>est affirmative cum adversativa subiuncta ; ut completa 
+re<lb break="no" ed="#L" n="98"/>sponsio esset cum conditione specificante, et non absolute.
+<lb ed="#L" n="99"/>Non enim probavit quod est scientia, sed quod est scientia
+<lb ed="#L" n="100"/>subalternata; ut ex qualitate adiuncta intelligeres 
+imperfe<lb break="no" ed="#L" n="101"/>ctionem quam in statu hoc habet.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1124">
+                  <lb ed="#L" n="102"/>X. Quoad secundum vero punctum, de subalternatione,
+<lb ed="#L" n="103"/>videtur mihi quod de subalternatione simpliciter intendat
+<lb ed="#L" n="104"/>littera. Tum quoniam de tali distinxerat ante conclusionem :
+<lb ed="#L" n="105"/>tum quia, ut patet ex dictis, subalternatio quoad 
+eviden<lb break="no" ed="#L" n="106"/>tiam oritur ex ratione scientiae. Et propterea tenendum
+<lb ed="#L" n="107"/>arbitror quod theologia nostra, secundum se, est vere 
+scien<lb break="no" ed="#L" n="108"/>tia simpliciter subalterna: ut in nobis vero viatoribus, est
+<lb ed="#L" n="109"/>scientia imperfecte, sed simpliciter subalterna.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1144">
+                  <lb ed="#L" n="110"/>Tu autem, novitie, cum disputas, cave ne fallaris, pro
+<lb ed="#L" n="111"/>eadem accipiens theologiam secundum se, et theologiam
+<lb ed="#L" n="112"/>nostram secundum se. Haec enim valde differunt. Quoniam
+<lb ed="#L" n="113"/>theologia secundum se est scientia quam nata est parere
+<lb ed="#L" n="114"/>deitas secundum se: et haec est theologia quam Deus de
+<lb ed="#L" n="115"/>seipso habet. Sed theologia nostra distinguitur, si ly nostra
+<lb ed="#L" n="116"/>demonstret humanam naturam simpliciter, in theologiam
+<lb ed="#L" n="117"/>beatorum et viatorum. Non oportet autem distingui, si ly
+<lb ed="#L" n="118"/>nostra demonstret viatores: et sic accipitur in proposito.
+<lb ed="#L" n="119"/>Haec tamen potest accipi secundum se, et ut in nobis 
+via<lb break="no" ed="#L" n="120"/>toribus. Habes autem distinctionem hanc ultimam ex 
+lit<lb break="no" ed="#L" n="121"/>tera, dum in corollario manifeste loquitur de theologia
+<lb ed="#L" n="122"/>nostra ut in nobis viatoribus, quorum est credere principia;
+<lb ed="#L" n="123"/>et in conclusione responsiva locutus est de eadem 
+secun<lb break="no" ed="#L" n="124"/>dum se: convenit siquidem ei secundum se, oriri ex 
+princi<lb break="no" ed="#L" n="125"/>piis notis secundum se lumine superioris scientiae, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1181">
+                  <lb ed="#L" n="126"/>XI. Secundum est quod, quia omnia nostra, translata
+<lb ed="#L" n="127"/>in Deum, seclusis imperfectionibus transferri intelliguntur,
+<lb ed="#L" n="128"/>consequens est et quod scientia ratione evidentiae et 
+cer<lb break="no" ed="#L" n="129"/>titudinis, non quoad discursus imperfectionem; et quod
+<lb ed="#L" n="130"/>subalternare, non quoad discursu demonstrativo probare
+<lb ed="#L" n="131"/>principia subalternatae, sed quoad evidentiam illorum, et
+<lb ed="#L" n="132"/>causalitatem notitiae eorum in aliis, transferatur in Dei
+<lb ed="#L" n="133"/>scientiam. Ac per hoc, non oportet ex subalternatione quod
+<lb ed="#L" n="134"/>principia theologiae nostrae sint conclusiones theologiae
+<lb ed="#L" n="135"/>beatorum: sed sat est quod sint propositiones evidentes
+<lb ed="#L" n="136"/>theologiae beatorum. Sicut si geometria absque discursu
+<lb ed="#L" n="137"/>esset, haberet quam nunc habet evidentiam de principiis
+<lb ed="#L" n="138"/>perspectivae, sed non eodem modo: et nihil minus 
+sub<lb break="no" ed="#L" n="139"/>alternans esset. Quia igitur conclusiones theologales 
+proce<lb break="no" ed="#L" n="140"/>dunt ex articulis fidei ut principiis non in se evidentibus,
+<lb ed="#L" n="141"/>sed in scientia Dei et beatorum, consequens est quod habet
+<lb ed="#L" n="142"/>essentialem conditionem constitutivam scientiae 
+subalterna<lb break="no" ed="#L" n="143"/>tae; et quod est scientia ex continuatione ad scientiam Dei
+<lb ed="#L" n="144"/>et beatorum; et quod habitus per se principiorum eius
+<lb ed="#L" n="145"/>est scientia divina, habitus vero per accidens eorum est
+<lb ed="#L" n="146"/>fides; et quod non opponitur scientiae beatae ex parte
+<lb ed="#L" n="147"/>obiecti nec subiecti, sed secundum evidentiam et 
+ineviden<lb break="no" ed="#L" n="148"/>tiam negative; et quod sunt compossibiles in eodem 
+subie<lb break="no" ed="#L" n="149"/>cto simul. Nec est idem iudicium de scientia subalternata
+<lb ed="#L" n="150"/>et fide. Quoniam lumen divinum absolute est per se ratio
+<pb ed="#L" n="11"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>formalis huius notitiae, inquantum scientifica est: lumen
+<lb ed="#L" n="2"/>autem divinum obumbratum est per se ratio assensus fidei,
+<lb ed="#L" n="3"/>quae per accidens est, ut dictum est, habitus principiorum
+<lb ed="#L" n="4"/>horum. Et ideo habitus principiorum non remanebit in
+<lb ed="#L" n="5"/>patria: scientia autem acquisita ex eis remanebit, iuxta illud
+<lb ed="#L" n="6"/>Hieronymi: Discamus in terris etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1255">
+                  <lb ed="#L" n="7"/>XII. Unde ad rationes in oppositum contra primam 
+par<lb break="no" ed="#L" n="8"/>tem inductas, singillatim, propter novitios, respondendo
+<lb ed="#L" n="9"/>dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1264">
+                  <lb ed="#L" n="10"/>Et ad primum dicitur, quod Incarnatio, et alia 
+huius<lb break="no" ed="#L" n="11"/>modi secundum se contingentia, ut subsunt huic scientiae,
+<lb ed="#L" n="12"/>sunt necessaria; quemadmodum ut scita a Deo sunt 
+ne<lb break="no" ed="#L" n="13"/>cessaria, ut in quaestione xiv patebit.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1275">
+                  <lb ed="#L" n="14"/>Ad secundum vero, iam patet quod ista scientia est ex
+<lb ed="#L" n="15"/>per se notis, idest evidentibus, mediate: et hoc sufficit,
+<lb ed="#L" n="16"/>iuxta illud I Zopic.: demonstratio est ex per se notis, vel
+<lb ed="#L" n="17"/>ex his quae per illa fidem sumpserunt. - Habitus quoque
+<lb ed="#L" n="18"/>per se principiorum huius scientiae est altior ipsa; quidquid
+<lb ed="#L" n="19"/>sit de habitu per accidens, idest fide; quae dici potest altior
+<lb ed="#L" n="20"/>scientia quoad adhaesionem, licet non quoad evidentiam.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1294">
+                  <lb ed="#L" n="21"/>Ad tertium autem dicitur, quod theologus scit se scire,
+<lb ed="#L" n="22"/>non conditionaliter, sed subalterne: hoc autem non est
+<lb ed="#L" n="23"/>scire illationes tantum, sed illata ex principiis evidentibus
+<lb ed="#L" n="24"/>in superiori scientia. Nec plus potest inferri ex tali 
+ineviden<lb break="no" ed="#L" n="25"/>tia, nisi quod tale scire non est perfectum, nisi 
+continue<lb break="no" ed="#L" n="26"/>tur cum superiori scientia: quod non solum concedimus,
+<lb ed="#L" n="27"/>sed docemus. - Et similiter dicimus quod scientia subalterna,
+<lb ed="#L" n="28"/>usquequo non continuatur subalternanti, non est virtus
+<lb ed="#L" n="29"/>intellectualis, sed inchoatio virtutis intellectualis: et ideo
+<lb ed="#L" n="30"/>spectat ad eandem virtutis speciem, scilicet scientiam.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1318">
+                  <lb ed="#L" n="31"/>Ad quartum, quod est Scoti, negatur antecedens. 
+Quo<lb break="no" ed="#L" n="32"/>niam in Sacra Scriptura traduntur demonstrationes 
+virtua<lb break="no" ed="#L" n="33"/>liter; et generatur alius habitus a fide, ex deductione 
+con<lb break="no" ed="#L" n="34"/>clusionum ex articulis fidei, Nec est verum quod omnibus
+<lb ed="#L" n="35"/>assentiamus aeque, seu eodem modo. Quoniam articulis
+<lb ed="#L" n="36"/>assentimus non propter aliud: conclusionibus autem, de
+<lb ed="#L" n="37"/>solis est haec scientia, assentimus propter articulos.
+<lb ed="#L" n="38"/>Et cum dicitur quod aeque assentimus probatis et 
+simpli<lb break="no" ed="#L" n="39"/>citer propositis, respondetur: Si omnia simpliciter credenda
+<lb ed="#L" n="40"/>proponerentur, theologia nostra in se quidem esset 
+scien<lb break="no" ed="#L" n="41"/>tia, quia conclusiones suae secundum se natae sunt deduci
+<lb ed="#L" n="42"/>ex articulis fidei; sed quoad nos non esset scientia, sed
+<lb ed="#L" n="43"/>fides; et non délüsn aeque, sed eodem modo. assentiremus
+<lb ed="#L" n="44"/>omnibus. Verum quia de facto articuli proponuntur nobis
+<lb ed="#L" n="45"/>simpliciter credendi, cetera autem ut ex articulis deducenda,
+<lb ed="#L" n="46"/>ideo non eodem modo assentimus principiis et 
+conclusio<lb break="no" ed="#L" n="47"/>nibus. Nec aeque assentimus conclusionibus probatis et non
+<lb ed="#L" n="48"/>probatis: propter quod circa non probatas tanta opinionum
+<lb ed="#L" n="49"/>diversitas in sacra doctrina toleratur. Et propterea est 
+scien<lb break="no" ed="#L" n="50"/>tia non solum in se, sed quoad nos; imperfecta tamen.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1364">
+                  <lb ed="#L" n="51"/>Ad ultimum autem, iam patet quod non ponimus fidem
+<lb ed="#L" n="52"/>et scientiam de eodem simul: quia fides est de articulis,
+<lb ed="#L" n="53"/>scientia autem de conclusionibus.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1373">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="54"/>XIII. Ad argumenta vero contra secundam partem, 
+re<lb break="no" ed="#L" n="55"/>spondendo dicitur quod scientia de Deo adaequata non
+<lb ed="#L" n="56"/>potest esse nisi una: inadaequata vero potest multiplicari.
+<lb ed="#L" n="57"/>Talis autem est theologia. - Vel dicatur, et melius, quamvis
+<lb ed="#L" n="58"/>in idem redeat, quod antecedens est simpliciter falsum.
+<lb ed="#L" n="59"/>Quoniam ad unitatem scientiae requiritur et unitas 
+ratio<lb break="no" ed="#L" n="60"/>nis formalis obiecti uf res, et unitas rationis formalis
+<lb ed="#L" n="61"/>obiecti ut obiectum , ut in sequenti patebit articulo. In
+<lb ed="#L" n="62"/>proposito autem, quamvis deitas sit una ratio formalis
+<lb ed="#L" n="63"/>obiecti utriusque theologiae ut res est, alia tamen et alia
+<lb ed="#L" n="64"/>est ratio formalis eiusdem obiecti ut obiectum est, in 
+utra<lb break="no" ed="#L" n="65"/>que theologia. Quoniam Deus ut clare visus obiicitur
+<lb ed="#L" n="66"/>beatis: Deus autem ut revelatus, abstrahendo a claritate
+<lb ed="#L" n="67"/>et obumbratione, obiicitur theologiae nostrae absolute
+<lb ed="#L" n="68"/>sumptae.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1410">
+                  <lb ed="#L" n="69"/>Ad secundum dicitur, quod theologia nostra et 
+beato<lb break="no" ed="#L" n="70"/>rum non sunt de eisdem veritatibus: prout manifeste patet
+<lb ed="#L" n="71"/>de veritatibus articulorum fidei, de quibus est theologia
+<lb ed="#L" n="72"/>beatorum, non nostra.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1421">
+                  <lb ed="#L" n="73"/>Et per haec patet responsio ad formam argumenti 
+Au<lb break="no" ed="#L" n="74"/>reoli. Concedi siquidem potest quod subiectum theologiae
+<lb ed="#L" n="75"/>nostrae addit aliquo modo ad subiectum theologiae 
+bea<lb break="no" ed="#L" n="76"/>torum, accipiendo subiectum nostrae theologiae pro toto
+<lb ed="#L" n="77"/>aggregato ex subiecto ut re et ut obiecto: sic enim 
+subie<lb break="no" ed="#L" n="78"/>ctum est Deus revelatus; revelationem autem constat 
+ad<lb break="no" ed="#L" n="79"/>dere differentiam accidentalem. At si pertinaciter ex parte
+<lb ed="#L" n="80"/>obiecti ut res est, additionem talem quis exigat in subiecto
+<lb ed="#L" n="81"/>subalternatae, negatur assumptum universaliter; licet in
+<lb ed="#L" n="82"/>quibusdam verificetur. Nec oppositum dicitur I Poster.
+<lb ed="#L" n="83"/>sed docetur ibidem quod una scientia non descendit in
+<lb ed="#L" n="84"/>aliam, nisi subiectum sit sub subiecto simpliciter vel sic;
+<lb ed="#L" n="85"/>quod concedimus, dum dicimus scientiam beatorum 
+de<lb break="no" ed="#L" n="86"/>scendere in nostram, quia formale subiectum ut res est
+<lb ed="#L" n="87"/>omnino idem utrobique, et ut obiectum huius, est sub
+<lb ed="#L" n="88"/>obiecto illius.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1459">
+                  <lb ed="#L" n="89"/>Ad reliqua vero obiecta contra secundum punctum,
+<lb ed="#L" n="90"/>dicitur quod ista scientia dependet a theologia beatorum
+<lb ed="#L" n="91"/>ut alumine: et quod sunt compossibiles simul in eodem.
+<lb ed="#L" n="92"/>Nec sequitur quod idem sit simul viator et comprehensor:
+<lb ed="#L" n="93"/>sed sit simul comprehensor, et habens scientiam quam
+<lb ed="#L" n="94"/>acquisivit in via, alio modo, non solum propter 
+exclu<lb break="no" ed="#L" n="95"/>sionem discursus, sed propter perfectionem quam ex 
+con<lb break="no" ed="#L" n="96"/>tinuatione ad scientiam beatorum sortitur.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1479">
+                  <lb ed="#L" n="97"/>Ad ultimum <name xml:id="TAcCaj-d1e51-Nd1e1483">Durandi</name>, negatur theologales conclusiones
+<lb ed="#L" n="98"/>non habere propter quid, quidquid sit de principiis. Et si
+<lb ed="#L" n="99"/>idem propter quid nos et beati dicamus, non tamen eodem
+<lb ed="#L" n="100"/>modo: quia ilii evidenter, nos autem absque evidentia.
+<lb ed="#L" n="101"/>At si principia dicatur oportere habere propter quid , 
+re<lb break="no" ed="#L" n="102"/>sponsum est quod sufficit quod non sint evidentia in 
+sub<lb break="no" ed="#L" n="103"/>alternata, sed in subalternante. Et hoc loquendo de propter
+<lb ed="#L" n="104"/>quid proprie: nulla namque est propositio pure theologalis,
+<lb ed="#L" n="105"/>quae non habeat aliquo modo propter quid.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1503">
+                  <lb ed="#L" n="106"/>Et sic patet responsio ad omnia obiecta.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e51-Dd1e1509"><!-- caj-p1-q1-a3 -->
+               <head xml:id="TAcCaj-d1e51-Hd1e1512">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e51-d1e1514">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1521">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>IN titulo nota duos terminos, scilicet subiectum et 
+prae<lb break="no" ed="#L" n="37"/>laustus: ly enim sacra doctrina sumitur pro tota 
+scien<lb break="no" ed="#L" n="38"/>tia theologica; ly una supponit pro unitate specifica 
+spe<lb break="no" ed="#L" n="39"/>ciei specialissimae. Et adverte caute quod hic non 
+quae<lb break="no" ed="#L" n="40"/>ritur utrum sit una simplex qualitas, sed utrum sit una
+<lb ed="#L" n="41"/>scientia secundum speciem; quidquid sit de modo unitatis
+<lb ed="#L" n="42"/>ipsius scientiae in communi, an scilicet sit una unitate
+<lb ed="#L" n="43"/>simplicitatis, an unitate ordinis, etc. Nihil enim refert ad
+<lb ed="#L" n="44"/>propositum quid quisque sentiat. Sat est hic discutere an
+<lb ed="#L" n="45"/>theologia sit scientia una secundum speciem 
+specialissi<lb break="no" ed="#L" n="46"/>mam; an non, sed sit divisibilis in multas species; et, ut
+<lb ed="#L" n="47"/>mathematica dividitur in geometriam, arithmeticam etc., ita
+<lb ed="#L" n="48"/>haec dividatur in scientias plures, puta de Deo, de 
+Chri<lb break="no" ed="#L" n="49"/>sto, de moribus.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1556">
+                  <lb ed="#L" n="50"/>II. In "corpore est una conclusio, responsiva quaesito
+<lb ed="#L" n="51"/>affirmative: Sacra doctrina est scientia una. - Probatur. 
+Uni<lb break="no" ed="#L" n="52"/>tas potentiae et habitus est secundum unitatem rationis
+<lb ed="#L" n="53"/>formalis obiecti: ergo sacra doctrina est scientia una.
+<lb ed="#L" n="54"/>Antecedens declaratur in potentia visiva et ratione formali
+<lb ed="#L" n="55"/>sui obiecti. - Consequentia vero probatur. Omnia considerata
+<lb ed="#L" n="56"/>in sacra doctrina, communicant in una ratione formali obiecti.
+<lb ed="#L" n="57"/>huius scientiae, scilicet lumine divinae revelationis: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1576">
+                  <lb ed="#L" n="58"/>III. Ad evidentiam huius rationis, nota duplicem esse
+<lb ed="#L" n="59"/>rationem formalem obiecti in scientia: alteram obiecti ut
+<lb ed="#L" n="60"/>res, alteram obiecti ut obiectum; vel alteram ut quae,
+<lb ed="#L" n="61"/>alteram ut sub qua. Ratio formalis obiecti ut res, seu quae,
+<lb ed="#L" n="62"/>est ratio rei obiectae quae primo terminat actum illius 
+ha<lb break="no" ed="#L" n="63"/>bitus, et ex qua fluunt passiones illius subiecti, et quae
+<lb ed="#L" n="64"/>est medium in prima demonstratione; ut entitas in 
+me<lb break="no" ed="#L" n="65"/>taphysica, quantitas in mathematica, et mobilitas in 
+natu<lb break="no" ed="#L" n="66"/>rali. Ratio autem formalis obiecti ut obiectum , vel sub
+<lb ed="#L" n="67"/>qua, est immaterialitas talis, seu talis modus abstrahendi
+<lb ed="#L" n="68"/>et definiendi: puta sine omni materia in metaphysica, cum
+<lb ed="#L" n="69"/>materia intelligibili tantum in mathematica, et cum materia
+<lb ed="#L" n="70"/>sensibili, non tamen hac, in naturali.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1608">
+                  <lb ed="#L" n="71"/>IV. Necessitas autem, qualitas et distinctio harum 
+ratio<lb break="no" ed="#L" n="72"/>num sumenda est ex distinctione duorum generum, in 
+qui<lb break="no" ed="#L" n="73"/>bus oportet locare obiectum scientiae. Oportet enim quod
+<lb ed="#L" n="74"/>formaliter sit talis res, taliter scibilis. Et ideo oportet quod
+<lb ed="#L" n="75"/>habeat et rationem formalem constituentem formaliter ipsam
+<lb ed="#L" n="76"/>in tali esse reali, et rationem formalem constituentem 
+for<lb break="no" ed="#L" n="77"/>maliter ipsam in tali esse scibili; ut sic reponatur et in 
+ge<lb break="no" ed="#L" n="78"/>nere rerum et in genere scibilium ; quemadmodum obiectum
+<lb ed="#L" n="79"/>sensus est in duobus generibus, scilicet sub passibili quali-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>tate et sub sensibili. Aliae namque sunt differentiae et species
+<lb ed="#L" n="81"/>passibilis qualitatis, et aliae sensibilis. Illius enim sunt 
+spe<lb break="no" ed="#L" n="82"/>cies color, sonus, odor, etc.: istius vero species sunt 
+visi<lb break="no" ed="#L" n="83"/>bile, audibile, odorabile. Illius differentiae sunt constitutivae
+<lb ed="#L" n="84"/>rerum obiectarum: istius differentiae nihil ponunt in ipsis
+<lb ed="#L" n="85"/>rebus obiectis. Illae rursus constituunt subiecta, istae 
+pas<lb break="no" ed="#L" n="86"/>siones, iuxta illud II de Anima, ubi visibile praedicatum
+<lb ed="#L" n="87"/>secundi modi per se, seu passio, ponitur coloris. Et 
+quem<lb break="no" ed="#L" n="88"/>admodum sensus distinctio et multiplicatio non attenditur
+<lb ed="#L" n="89"/>secundum quamcumque divisionem sensibilis qualitatis, sed
+<lb ed="#L" n="90"/>solum secundum illam in illa quinque, ex quibus fluit
+<lb ed="#L" n="91"/>divisio per se sensibilis in eo quod sensibile (per proprias
+<lb ed="#L" n="92"/>scilicet differentias ipsius sensibilis, puta taliter 
+immutati<lb break="no" ed="#L" n="93"/>vum esse sensus, etc.), quoniam sensus dicitur dividi 
+secun<lb break="no" ed="#L" n="94"/>dum divisionem sensibilis inquantum sensibile:
+<lb ed="#L" n="95"/>ctum scientiae est in genere entis et in genere speculabilis,
+<lb ed="#L" n="96"/>ita quod haec duo genera aliis et aliis differentiis propriis
+<lb ed="#L" n="97"/>dividuntur in proprias species. Entis enim differentiae 
+pro<lb break="no" ed="#L" n="98"/>priae sunt constitutivae entium in suis generibus realibus,
+<lb ed="#L" n="99"/>sicut esse per se constituit substantiam , et esse im alio
+<lb ed="#L" n="100"/>accidens, etc.: speculabilis autem propriae differentiae nihil
+<lb ed="#L" n="101"/>ponunt in entibus. Unde illae intrinsece constituunt 
+sub<lb break="no" ed="#L" n="102"/>lecta, istae constituunt quasi passiones eorum: 
+quando<lb break="no" ed="#L" n="103"/>quidem et speculabilitas entis passio est. Et propterea illa
+<lb ed="#L" n="104"/>sola entis divisio diversificat habitus speculativos, quae 
+in<lb break="no" ed="#L" n="105"/>fert propriam divisionem speculabilis ut speculabile est, per
+<lb ed="#L" n="106"/>proprias differentias ipsius speculabilis: quae penes a -
+<lb ed="#L" n="107"/>sitatem modi abstrahendi a materia sumuntur VI Metaphys.
+<lb ed="#L" n="108"/>Ita quod primo dividitur ratio entis in entitatem imp.)
+<lb ed="#L" n="109"/>quantitatem, et mobilitatem, et deitatem. Et ex hac fluit
+<lb ed="#L" n="110"/>alia divisio scibilis, in scibile per lumen metaphysicale, idest
+<lb ed="#L" n="111"/>medium illustratum per abstractionem ab omni materia ;
+<lb ed="#L" n="112"/>et per lumen mathematicum, idest medium illustratum
+<lb ed="#L" n="113"/>immaterialitate sensibili, obumbratum tamen materia inte
+<lb ed="#L" n="114"/>ligibili; et per lumen physicum obumbratum, idest medium
+<lb ed="#L" n="115"/>obumbratum materia sensibili, illustratum autem ex sepa- -
+<lb ed="#L" n="116"/>ratione individualium conditionum; et per lumen divinum,
+<lb ed="#L" n="117"/>idest medium divino lumine fulgens, quod scibile 
+theolo<lb break="no" ed="#L" n="118"/>gicum constituit,
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1717">
+                  <lb ed="#L" n="119"/>V. Habet igitur obiectum scientiae duplicem rationem
+<lb ed="#L" n="120"/>formalem: alteram quidditativam sibi ut res est; alteram
+<lb ed="#L" n="121"/>denominativam sui simpliciter, quidditativam autem sibi ut
+<lb ed="#L" n="122"/>est sub genere scibilis; quod est esse sub genere obiecti,
+<lb ed="#L" n="123"/>quoniam scibile species est obiecti. Et ideo dictum est
+<pb ed="#L" n="13"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quod altera est obiecti ut obiectum est. Et quoniam, 
+quem<lb break="no" ed="#L" n="2"/>admodum sensus distinguitur secundum distinctionem 
+sen<lb break="no" ed="#L" n="3"/>sibilis ut sic, ita scientia dividitur secundum divisionem
+<lb ed="#L" n="4"/>scibilis ut sic; ita quod ubi est una species specialissima
+<lb ed="#L" n="5"/>scibilis, ibi oportet esse unam tantum speciem scientiae ,
+<lb ed="#L" n="6"/>quemadmodum etiam in sensu et sensibili accidit; et ubi
+<lb ed="#L" n="7"/>plures differentiae scibilis ut sic reperiuntur, diversas 
+opor<lb break="no" ed="#L" n="8"/>tet scientiae species ponere: et si his adiunxeris quod 
+dif<lb break="no" ed="#L" n="9"/>ferentiae scibilis utsic, sunt ipsae rationes formales obiecti
+<lb ed="#L" n="10"/>scibilis ut obiectum est: de necessitate sequitur quod unitas
+<lb ed="#L" n="11"/>et diversitas specifica scientiarum attendantur penes 
+uni<lb break="no" ed="#L" n="12"/>tatem et diversitatem rationum formalium obiectorum ut
+<lb ed="#L" n="13"/>obiecta sunt; vel, quod idem est, rationum formalium sub
+<lb ed="#L" n="14"/>quibus res sciuntur. - Et hoc est quod in littera dicitur,
+<lb ed="#L" n="15"/>dum ratio quare theologia sit una scientia, assignatur ex
+<lb ed="#L" n="16"/>unitate rationis formalis sub qua, seu obiecti ut obiectum,
+<lb ed="#L" n="17"/>idest luminis divinae revelationis: omnia enim dicuntur
+<lb ed="#L" n="18"/>considerari in theologia inquantum sunt divinitus 
+revela<lb break="no" ed="#L" n="19"/>bilia. Et sic patet vis et sensus rationis allatae in littera.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1776">
+                  <lb ed="#L" n="20"/>VI. Circa hanc rationem sic expositam, occurrit triplex
+<lb ed="#L" n="21"/>dubium: primum circa ipsam rationem ; secundum circa
+<lb ed="#L" n="22"/>antecedens; tertium circa propositionem assumptam in
+<lb ed="#L" n="23"/>probatione consequentiae. Et sunt singillatim absolvenda,
+<lb ed="#L" n="24"/>ordine proposito.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1789">
+                  <lb ed="#L" n="25"/>Circa rationem igitur litterae dubium occurrit, quia
+<lb ed="#L" n="26"/>in aequivocationem cecidit. Quoniam in antecedente 
+loqui<lb break="no" ed="#L" n="27"/>tur de ratione formali obiecti ut res est (ut patet ex eius
+<lb ed="#L" n="28"/>probatione in visu: assumitur namque coloris ratio pro 
+ra<lb break="no" ed="#L" n="29"/>tione formali visibilis ; coloris autem ratio est ratio formalis
+<lb ed="#L" n="30"/>visibilis inquantum res, ut patet): probatio vero 
+conse<lb break="no" ed="#L" n="31"/>quentiae loquitur de ratione formali obiecti ut obiectum
+<lb ed="#L" n="32"/>est; quoniam revelabilitatem subsumit esse rationem 
+for<lb break="no" ed="#L" n="33"/>malem obiecti theologiae. Ergo manifeste committitur 
+ae<lb break="no" ed="#L" n="34"/>quivocatio, sub ratione formali obiecti ut res subsumendo
+<lb ed="#L" n="35"/>rationem. formalem obiecti ut obiectum.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1815">
+                  <lb ed="#L" n="36"/>VII. Ad hoc dicitur, negando assumptum. Qüoniam 
+an<lb break="no" ed="#L" n="37"/>tecedens supponit indistincte pro ratione formali obiecti sive
+<lb ed="#L" n="38"/>ut res, sive ut obiectum: quamvis sit manifestatum quoad
+<lb ed="#L" n="39"/>rationem formalem obiecti ut res; tum quia notior est; tum
+<lb ed="#L" n="40"/>quia convertibiliter se consequuntur illae duae rationes 
+for<lb break="no" ed="#L" n="41"/>males, ut subiectum et passio, ut dictum est. Et 
+pro<lb break="no" ed="#L" n="42"/>9terea absque aequivocatione subsumi potuit de ratione
+<lb ed="#L" n="43"/>ormali obiecti ut obiectum est, scilicet revelabilitate.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1835">
+                  <lb ed="#L" n="44"/>Et merito magis ratio obiecti ut obiectum subsumpta est,
+<lb ed="#L" n="45"/>quam ratio obiecti ut res. Tum quia ratio obiecti theologici
+<lb ed="#L" n="46"/>ut res, adhuc non est assignata, sed in articulo 7 discutienda
+<lb ed="#L" n="47"/>erat: alia vero est assignata et in 1 et in 2 articulo. Tum
+<lb ed="#L" n="48"/>quia ratio illius ut res, non infert speciem specialissimam
+<lb ed="#L" n="49"/>obiecti ut sic, et consequenter nec speciem specialissimam
+<lb ed="#L" n="50"/>Scientiae, ut nunc nunc patebit: et sic non habuisset 
+in<lb break="no" ed="#L" n="51"/>tentum suum.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1856">
+                  <lb ed="#L" n="52"/>VIII. Sed contra responsionem insurgit maior difficultas.
+<lb ed="#L" n="53"/>Quoniam si verum est quod ratio formalis obiecti ut res,
+<lb ed="#L" n="54"/>et ratio eius ut obiectum, se habent ut subiectum et passio
+<lb ed="#L" n="55"/>convertibiliter, ut praefata responsio sustinet, et prius est
+<lb ed="#L" n="56"/>dictum; sequitur quod theologia beatorum et nostra 
+con<lb break="no" ed="#L" n="57"/>veniant in una ratione formali obiecti ut obiectum est, et
+<lb ed="#L" n="58"/>consequenter sint una scientia secundum speciem 
+specialis<lb break="no" ed="#L" n="59"/>simam. Et consequenter ruit tota subalternatio articuli 
+prae<lb break="no" ed="#L" n="60"/>cedentis, ut ibi arguebat Scotus: quia idem non 
+subalter<lb break="no" ed="#L" n="61"/>natur sibi. - Probatur sequela sic. Istae theologiae conveniunt
+<lb ed="#L" n="62"/>in ratione formali obiecti ut res, quia deitas est ratio 
+for<lb break="no" ed="#L" n="63"/>malis utrobique: ergo in ratione formali obiecti ut obiectum.
+<lb ed="#L" n="64"/>Patet consequentia. Quia illae duae rationes formales 
+con<lb break="no" ed="#L" n="65"/>vertibiliter se inferunt, ut subiectum et passio, secundum
+<lb ed="#L" n="66"/>dicta: oportet enim convenientia in unitate subiecti, quod
+<lb ed="#L" n="67"/>conveniant in unitate passionis illius, quoniam 
+inseparabi<lb break="no" ed="#L" n="68"/>lis est passio a subiecto.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1895">
+                  <lb ed="#L" n="69"/>IX. Ad hoc dicitur, quod illa propositio, scilicet: ratio
+<lb ed="#L" n="70"/>formalis obiecti ut res, et ratio eius ut. obiectum , sunt
+<lb ed="#L" n="71"/>convertibiles etc., verissima est, sane intellecta, scilicet de
+<lb ed="#L" n="72"/>ratione formali obiecti ut sic adaequata rationi formali rei.
+<lb ed="#L" n="73"/>Secus autem est de ratione formali obiecti ut obiectum
+<lb ed="#L" n="74"/>inadaequata rationi formali obiecti ut res (si contingit 
+ali<lb break="no" ed="#L" n="75"/>quod obiectum habere rationem inadaequatam): quoniam
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>inadaequatam non oportet converti cum ratione rei; sed
+<lb ed="#L" n="77"/>inferre quidem illam, et non necessario inferri ab illa. Sic
+<lb ed="#L" n="78"/>autem est in proposito. Quia deitati respondet una tantum
+<lb ed="#L" n="79"/>ratio formalis adaequata obiecti ut obiectum est, et haec
+<lb ed="#L" n="80"/>est lumen divinum: sed illa ratio formalis non est una
+<lb ed="#L" n="81"/>specie, sed genere; et dividitur in lumen divinum 
+evi<lb break="no" ed="#L" n="82"/>dens, et lumen divinum revelans (abstrahendo ab 
+eviden<lb break="no" ed="#L" n="83"/>tia et inevidentia), et lumen divinum inevidens. Et primum
+<lb ed="#L" n="84"/>est ratio sub qua theologiae beatorum, secundum nostrae,
+<lb ed="#L" n="85"/>tertium fidei. Et propterea, cum unitate rationis formalis
+<lb ed="#L" n="86"/>obiecti ut res, stat diversitas specifica rationum formalium
+<lb ed="#L" n="87"/>obiecti illius ut obiectum; et consequenter diversitas 
+spe<lb break="no" ed="#L" n="88"/>cifica habituum. Et ideo, quamvis deitas convertatur cum
+<lb ed="#L" n="89"/>illa ratione adaequata, et mutuo se inferant, non tamen
+<lb ed="#L" n="90"/>convertitur cum aliqua specie illius. Et consequenter 
+nul<lb break="no" ed="#L" n="91"/>lam earum determinate infert, sed infertur a singulis. Valet
+<lb ed="#L" n="92"/>enim: Deus sub ratione deitatis est obiectum. talis 
+scien<lb break="no" ed="#L" n="93"/>tiae, ergo sub lumine divino, et e converso: sed non valet,
+<lb ed="#L" n="94"/>ergo sub lumine evidenti; aut, ergo sub lumine 
+revelatio<lb break="no" ed="#L" n="95"/>nis, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e1958">
+                  <lb ed="#L" n="96"/>X. Et ut scias radicem responsionis huius, adverte quod,
+<lb ed="#L" n="97"/>licet duae rationes formales saepius nominatae se habeant
+<lb ed="#L" n="98"/>convertibiliter ut subiectum et passio, non tamen 
+conver<lb break="no" ed="#L" n="99"/>tibiliter se habent in gradu unitatis; ita quod, si altera una
+<lb ed="#L" n="100"/>est unitate specifica specialissime, altera quoque sit sic
+<lb ed="#L" n="101"/>una; et si altera est una. genere, quod reliqua quoque sit
+<lb ed="#L" n="102"/>una generice. Imo totum oppositum in pluribus apparet.
+<lb ed="#L" n="103"/>Nam in obiecto metaphysicae, ratio entis est una minus
+<lb ed="#L" n="104"/>quam genere: et tamen ratio suae speculabilitatis, scilicet
+<lb ed="#L" n="105"/>abstractio a materia sensibili et intelligibili, est una 
+secun<lb break="no" ed="#L" n="106"/>dum speciem specialissimam. Et idem apparet in geometria
+<lb ed="#L" n="107"/>et arithmetica, quarum subiecta habent unitatem genericam
+<lb ed="#L" n="108"/>ut res, et speciei atomae ut obiecta. Et per oppositum,
+<lb ed="#L" n="109"/>quandoque ratio rei est una secundum speciem atomam,
+<lb ed="#L" n="110"/>et ratio obiecti ut sic est una secundum genus; ut in 
+pro<lb break="no" ed="#L" n="111"/>posito contingit de deitate et lumine divino. Et merito
+<lb ed="#L" n="112"/>opposito modo obiectum theologiae se habet ad obiecta
+<lb ed="#L" n="113"/>praedictarum scientiarum: quia obiectum formale ut res
+<lb ed="#L" n="114"/>est, infinitum est. Consonat quippe rationi ut rei species
+<lb ed="#L" n="115"/>infinita excedat species obiecti finitas, quamvis adaequetur
+<lb ed="#L" n="116"/>generi.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2006">
+                  <lb ed="#L" n="117"/>XI. Posset quoque dici quod ratio formalis obiecti 
+du<lb break="no" ed="#L" n="118"/>pliciter assignatur: scilicet ex parte obiecti, et haec 
+converti<lb break="no" ed="#L" n="119"/>biliter se habet ad rationem rei; vel ex parte defectivae
+<lb ed="#L" n="120"/>potentiae, et haec non convertitur, sed infert rationem 
+for<lb break="no" ed="#L" n="121"/>malem rei, et non infertur ab illa. Sic autem est in 
+pro<lb break="no" ed="#L" n="122"/>posito, Quia deitas et lumen divinum convertuntur: sed
+<lb ed="#L" n="123"/>deitas et lumen divinum sic, non convertuntur; sed tale
+<lb ed="#L" n="124"/>lumen infert et claudit in se deitatem, non autem e 
+con<lb break="no" ed="#L" n="125"/>verso. Et ideo licitum -fuisset etiam. sub ratione formali
+<lb ed="#L" n="126"/>rei subsumere lumen revelationis: quoniam in hoc 
+clau<lb break="no" ed="#L" n="127"/>ditur illa.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2032">
+                  <lb ed="#L" n="128"/>XII. Circa antecedens est dubium, habens campum
+<lb ed="#L" n="129"/>valde magnum, de unitate et diversitate habitus et 
+poten<lb break="no" ed="#L" n="130"/>tiae ex obiecto: et propterea oporteret de hoc facere 
+po<lb break="no" ed="#L" n="131"/>tius quaestionem specialem. Sat sit hic, quod antecedens
+<lb ed="#L" n="132"/>illud ex Il de Anima habetur, ubi potentiae per actus, et
+<lb ed="#L" n="133"/>actus per obiecta distingui dicuntur: idem est enim de actu
+<lb ed="#L" n="134"/>et habitu iudicium quoad hoc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2050">
+                  <lb ed="#L" n="135"/>XIII. Circa propositionem assumptam in probatione 
+con<lb break="no" ed="#L" n="136"/>sequentiae, scilicet: omnia considerata in sacra doctrina
+<lb ed="#L" n="137"/>conveniunt in una ratione formali, idest revelabilitate di-.
+<lb ed="#L" n="138"/>vina, dupliciter dubitatur: primo contra ipsam in se; 
+se<lb break="no" ed="#L" n="139"/>dundo contra ipsam ut applicatur ad inferendum unitatem
+<lb ed="#L" n="140"/>specificam theologiae.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2067">
+                  <lb ed="#L" n="141"/>Contra ipsam quidem in se, arguit Albertus Magnus
+<lb ed="#L" n="142"/>in I libro Summae suae Theologiae. Revelabilitas nihil
+<lb ed="#L" n="143"/>ponit in re revelata: ergo non est ratio formalis. "Tenet
+<lb ed="#L" n="144"/>sequela, quia ratio formalis ponit aliquid in obiecto cuius
+<lb ed="#L" n="145"/>est ratio. - Deinde arguit <name xml:id="TAcCaj-d1e51-Nd1e2080">Aureolus</name>. Lumen divinum se habet
+<lb ed="#L" n="146"/>ad theologiam ut intellectus agens ad scientias acquisitas:
+<lb ed="#L" n="147"/>ergo non est ratio formalis. - Praeterea, Deus se habet ut
+<lb ed="#L" n="148"/>praeceptor: ergo sua revelatio non est ratio formalis.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2089">
+                  <lb ed="#L" n="149"/>Contra ipsam autem ut infert unitatem scientiae, arguit
+<lb ed="#L" n="150"/>
+                  <name xml:id="TAcCaj-d1e51-Nd1e2095">Aureolus</name>. Si Deus revelaret simul philosophiam et geo-
+<pb ed="#L" n="14"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>metriam, non propterea esset una scientia: ergo ex unitate
+<lb ed="#L" n="2"/>revelationis non sequitur unitas scientiae, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2107">
+                  <lb ed="#L" n="3"/>XIV. Pro evidentia responsionum ad has obiectiones, ultra
+<lb ed="#L" n="4"/>praedicta, scito quod lumen divinae revelationis dupliciter
+<lb ed="#L" n="5"/>comparari potest ad áliquam scientiam. Primo, ut infundens
+<lb ed="#L" n="6"/>ad infusum, seu causa efficiens ad effectum. Et sic non dat
+<lb ed="#L" n="7"/>unitatem scientiae: quoniam potest omnes scientias, 
+quan<lb break="no" ed="#L" n="8"/>tumcumque diversas, infundere. Alio modo, ut ratio seu
+<lb ed="#L" n="9"/>modus cognoscendi obiecti, sub quo, seu qua, attingatur
+<lb ed="#L" n="10"/>res revelata a cognoscente. Et sic dat unitatem scientiae.
+<lb ed="#L" n="11"/>Et quamvis ista duplex comparatio concurrat hic simul,
+<lb ed="#L" n="12"/>non tamen oportet semper 'simul concurrere. Si enim Deus
+<lb ed="#L" n="13"/>revelaret mihi geometriam, non propterea revelatio esset
+<lb ed="#L" n="14"/>ratio sub qua obiecti geometriae meae: quoniam ego 
+sci<lb break="no" ed="#L" n="15"/>rem geometricalia sub illamet ratione formali, qua alii 
+geo<lb break="no" ed="#L" n="16"/>metrae scirent. Sed in theologia concurrit utraque 
+compa<lb break="no" ed="#L" n="17"/>ratio: quoniam et haec scientia non nisi per infusiónem
+<lb ed="#L" n="18"/>habita est; et res scitae in ea omnes attinguritur, et eis as-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="19"/>sentitur, ut subsunt divino lumini, ut modo 
+cognoscibilita<lb break="no" ed="#L" n="20"/>tis earum, Et propterea unitas theologiae infertur in littera
+<lb ed="#L" n="21"/>ex unitate divini luminis, non ut infundens est, sed ut est
+<lb ed="#L" n="22"/>ratio formalis sub qua, modo superius exposito.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2155">
+                  <lb ed="#L" n="23"/>XV. Et ex his patet facile responsio ad obiecta. Nam
+<lb ed="#L" n="24"/>ratio Alberti aequivocat de ratione obiecti, ex conditionibus
+<lb ed="#L" n="25"/>rationis formalis obiecti ut res, excludendo rationem 
+forma<lb break="no" ed="#L" n="26"/>lem obiecti ut obiectum, etc. - Prima autem ratio Aureoli
+<lb ed="#L" n="27"/>deficit: quia lumen divinum se habet ut intellectus agens,
+<lb ed="#L" n="28"/>sed non tantum; sed etiam ut ratio formalis obiecti ut
+<lb ed="#L" n="29"/>obiectum est. - Secunda vero eodem modo deficit: quia 
+prae<lb break="no" ed="#L" n="30"/>ceptoris illuminatio hic non solum est infusio, sed ratio
+<lb ed="#L" n="31"/>rei infusae sub qua. Et rursus, falsum est quod ab uno
+<lb ed="#L" n="32"/>praeceptore ut sic, possint plures scientiae provenire.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2179">
+                  <lb ed="#L" n="33"/>Ad ultimum autem Aureoli, iam patet quod 
+consequen<lb break="no" ed="#L" n="34"/>tia nihil valet: quia lumen divinum, infundendo physicam
+<lb ed="#L" n="35"/>simul et mathematicam, non concurrit ut ratio obiecti ut
+<lb ed="#L" n="36"/>obiectum est, sed ut infundens tantum, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e51-Dd1e2191"><!-- caj-p1-q1-a4 -->
+               <head xml:id="TAcCaj-d1e51-Hd1e2194">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e51-d1e2196">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="73"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2203">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="74"/>IN titulo, notandum est quid nominis scientiae 
+specula<lb break="no" ed="#L" n="75"/>tivae et practicae. Scientia speculativa vocatur, cuius
+<lb ed="#L" n="76"/>finis proprius non est nisi scire: scientia autem practica
+<lb ed="#L" n="77"/>est, cuius proprius finis est operari, vel opere appetitus, vel
+<lb ed="#L" n="78"/>potentiae executivae, dicente Aristotele II Ethic.: 
+huius<lb break="no" ed="#L" n="79"/>modi sermonem suscipimus, non ut scientes simus, sed ut:
+<lb ed="#L" n="80"/>operantes, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2223">
+                  <lb ed="#L" n="81"/>II. In corpore duae conclusiones. Prima est: Theologia
+<lb ed="#L" n="82"/>nec est pure practica, nec pure speculativa; sed altior, 
+com<lb break="no" ed="#L" n="83"/>prehendens in se eminentius rationem practici et speculativi.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2232">
+                  <lb ed="#L" n="84"/>III. Antequam conclusio probetur, ad evidentiam sensus
+<lb ed="#L" n="85"/>conclusionis, scito quod practicum et speculativum neque
+<lb ed="#L" n="86"/>sunt differentiae essentiales, neque quasi passiones 
+conse<lb break="no" ed="#L" n="87"/>quentes differentias essentiales, primo dividentes scientiam
+<lb ed="#L" n="88"/>in communi: sicut nec visivum et auditivum sunt 
+differen<lb break="no" ed="#L" n="89"/>tiae primo dividentes sensum in communi. Sed 
+quemad<lb break="no" ed="#L" n="90"/>modum sensus prius dividitur in communem et proprium,
+<lb ed="#L" n="91"/>et deinde sensus proprius dividitur in visum, auditum, etc.;
+<lb ed="#L" n="92"/>ita scientia prius dividitur in scientiam infinitam et finitam,
+<lb ed="#L" n="93"/>et deinde scientia finita dividitur in speculativam et pra-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="94"/>cticam, Et ratio huius est, quia una ràtio formalis obiecti
+<lb ed="#L" n="95"/>finita non potest habere utramque conditionem, et quod
+<lb ed="#L" n="96"/>sit ex qua sumatur regula operandi, et quod sit in se 
+sci<lb break="no" ed="#L" n="97"/>bilis, etiam si nulla posset ex ea regula operis sumi: sed
+<lb ed="#L" n="98"/>oportet has duas conditiones in duabus fundari rationibus
+<lb ed="#L" n="99"/>formalibus finitis, ut patet inductive. Sed si ratio formalis
+<lb ed="#L" n="100"/>alicuius obiecti scibilis est infinita, iam ex sua infinitate
+<lb ed="#L" n="101"/>utramque in se conditionem comprehendit, altiori modo
+<lb ed="#L" n="102"/>quam sint in rebus finitis: eo quod dispersa in inferioribus,
+<lb ed="#L" n="103"/>unite praeinveniuntur in superiori. Et propterea, sicut prae--
+<lb ed="#L" n="104"/>ter sensus proprios datur sensus altioris ordinis, qui non.
+<lb ed="#L" n="105"/>est visus, nec auditus, etc.; ita praeter scientias speculativas.
+<lb ed="#L" n="106"/>et practicas, datur scientia altioris ordinis, non speculativa.
+<lb ed="#L" n="107"/>nec practica, sed eminenter continens utramque. Et iuxta
+<lb ed="#L" n="108"/>hunc sensum intelligitur conclusio. Unde in littera. dicitur
+<lb ed="#L" n="109"/>quod, licet in scientiis physicis alia sit speculativa et alia
+<lb ed="#L" n="110"/>practica (idest practicum et speculativum faciant alietatem,
+<lb ed="#L" n="111"/>quae est differentia substantialis); sacra tamen doctrina, una
+<lb ed="#L" n="112"/>existens, espitbendk utrumque, utpote scientia altioris
+<lb ed="#L" n="113"/>ordinis.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2303">
+                  <pb ed="#L" n="15"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>IV. Probatur igitur conclusio in littera sic. Sacra doctrina,
+<lb ed="#L" n="2"/>una existens, extendit se ad ea quae spectant ad scientias
+<lb ed="#L" n="3"/>speculativas et practicas: ergo ipsa est altior, 
+comprehen<lb break="no" ed="#L" n="4"/>dens sub se utrumque. - Antecedens probatur ex praecedenti
+<lb ed="#L" n="5"/>articulo. Sacra doctrina attendit unam rationem. 
+commu<lb break="no" ed="#L" n="6"/>nem speculabilibus et operabilibus, scilicet inquantum sunt
+<lb ed="#L" n="7"/>divinitus revelabilia: ergo. - Consequentia probatur: quia
+<lb ed="#L" n="8"/>huiusmodi scientia est sicut scientia Dei, qui scientia 
+ea<lb break="no" ed="#L" n="9"/>dem scit se et opera sua: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2329">
+                  <lb ed="#L" n="10"/>V. Adverte hic, pro claritate litterae, tria. Primum circa
+<lb ed="#L" n="11"/>probationem consequentiae ex antecedente probato: quod
+<lb ed="#L" n="12"/>illa probatio est optima, et a priori, et non per locum a
+<lb ed="#L" n="13"/>simili. Cum enim theologia nostra nihil aliud sit quam
+<lb ed="#L" n="14"/>impressio et sigillum proprium scientiae divinae (quoniam
+<lb ed="#L" n="15"/>utraque est de Deo inquantum Deus: et haec ab illa 
+de<lb break="no" ed="#L" n="16"/>rivatur sub illius luminis propria, quamvis parva, 
+participa<lb break="no" ed="#L" n="17"/>tione), consequens est quod unitas illius unitatem istius ,
+<lb ed="#L" n="18"/>et altitudo illius, qua ad utrumque genus extenditur, 
+altitu<lb break="no" ed="#L" n="19"/>dinem istius inferat. Et propterea ly sicut, in littera pro
+<lb ed="#L" n="20"/>probatione appositum, non dicit puram similitudinem; sed
+<lb ed="#L" n="21"/>assimilationem proprii exemplati ad proprium exemplar, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2358">
+                  <lb ed="#L" n="22"/>Secundum est, quod media in littera posita sic se habent,
+<lb ed="#L" n="23"/>quod haec doctrina ideo comprehendit sub se utrumque,
+<lb ed="#L" n="24"/>scilicet speculativum et practicum, quia una existens 
+exten<lb break="no" ed="#L" n="25"/>dit se ad omnia. Et hoc ideo, quia sub una ratione 
+for<lb break="no" ed="#L" n="26"/>mali omnia considerat. Et hoc ideo, quia est imitatio propria
+<lb ed="#L" n="27"/>scientiae qua se et cetera Deus scit, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2374">
+                  <lb ed="#L" n="28"/>Tertium est circa ly Unde licet in scientiis. Potest enim
+<lb ed="#L" n="29"/>elici alia ratio ad probandam eandem consequentiam. 
+In<lb break="no" ed="#L" n="30"/>tendit enim quod, quia si affirmatio est causa 
+affirmatio<lb break="no" ed="#L" n="31"/>nis, negatio erit causa negationis, et e converso, ut dicitur
+<lb ed="#L" n="32"/>in I. Poster.; cum ex antecedente habeatur unitas rationis
+<lb ed="#L" n="33"/>formalis in theologia, cum diversitate rationum formalium
+<lb ed="#L" n="34"/>physicarum scientiarum; et constet quod diversitas 
+ratio<lb break="no" ed="#L" n="35"/>num formalium diversificat physicas in speculativam et
+<lb ed="#L" n="36"/>practicam: sequitur quod ex non-diversitate, seu unitate
+<lb ed="#L" n="37"/>rationis formalis theologiae, ipsa erit una, simul continens
+<lb ed="#L" n="38"/>speculativam et practicam.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2400">
+                  <lb ed="#L" n="39"/>VI. Secunda conclusio est: Theologia est magis 
+specu<lb break="no" ed="#L" n="40"/>lativa quam practica. - Probatur dupliciter. Primo, agit 
+prin<lb break="no" ed="#L" n="41"/>cipalius de rebus divinis quam de actibus humanis: ergo. -
+<lb ed="#L" n="42"/>Secundo sic. Agit de actibus humanis propter Dei 
+specu<lb break="no" ed="#L" n="43"/>lationem: ergo. Probatur antecedens: quia in speculatione
+<lb ed="#L" n="44"/>consistit aeterna beatitudo.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2416">
+                  <lb ed="#L" n="45"/>VII. Circa praedicta advertenda sunt duo. Primum est,
+<lb ed="#L" n="46"/>quod haec interpretatio primae conclusionis non est ficta
+<lb ed="#L" n="47"/>aut nova, sed in corpore articuli insinuata; ut patet 
+dili<lb break="no" ed="#L" n="48"/>genter ponderanti quid importat dicere quod una existens
+<lb ed="#L" n="49"/>extendit se etc.; et consideranti quod loquitur de unitate
+<lb ed="#L" n="50"/>specifica, quam constat per se unum constituere. Per hoc
+<lb ed="#L" n="51"/>enim manifeste excludit rudem interpretationem eorum,
+<lb ed="#L" n="52"/>qui intelligunt theologiam comprehendere in se practicum
+<lb ed="#L" n="53"/>et speculativum per modum aggregationis. Iam enim non
+<lb ed="#L" n="54"/>esset una nisi per aggregationem: et non sub una ratione
+<lb ed="#L" n="55"/>formali, sed duabus: et proprie non comprehenderet sub
+<lb ed="#L" n="56"/>se utrumque, ut in littera dicitur, sed componeretur ex
+<lb ed="#L" n="57"/>utroque. Et quorsum ratio de identitate scientiae Dei 
+ad<lb break="no" ed="#L" n="58"/>ducta esset in littera?
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2450">
+                  <lb ed="#L" n="59"/>Et ut omnis horum evacuetur phantasia, videant sanctum
+<lb ed="#L" n="60"/>Thomam II? II25, qu. xzv, art. 2, ad r, ubi expresse ponit 
+sa<lb break="no" ed="#L" n="61"/>pientiam infusam esse altioris ordinis quam sit speculativum
+<lb ed="#L" n="62"/>et practicum, eadem ratione quam hic assumit: quia scilicet
+<lb ed="#L" n="63"/>quanto est altior ratio, tanto ad plura se extendit una 
+exi<lb break="no" ed="#L" n="64"/>stens. Et affertur alia ratio: quia scilicet hoc pertinet ad di-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>gnitatem. Cum ergo ista scientia sit dignissima, ut patebit;
+<lb ed="#L" n="66"/>et habeat rationem unam communem omnibus practicis et
+<lb ed="#L" n="67"/>speculativis; et sit divini ordinis: tenebris involvi opus est
+<lb ed="#L" n="68"/>eum, qui aliter interpretatur eam comprehendere utrumque
+<lb ed="#L" n="69"/>quam ut scientia altioris ordinis.- Patet etiam idem ex calce
+<lb ed="#L" n="70"/>praecedentis articuli: ubi expresse haec doctrina ad alias
+<lb ed="#L" n="71"/>scientias proportionem habere dicitur sicut sensus 
+commu<lb break="no" ed="#L" n="72"/>nis ad sensus proprios; et ideo non diversificari ex differentiis
+<lb ed="#L" n="73"/>obiectorum earum, utpote altioris ordinis. Et tangitur 
+utra<lb break="no" ed="#L" n="74"/>que ratio hic assignata, et ex parte unius rationis formalis
+<lb ed="#L" n="75"/>altioris, et ex parte imitationis divinae scientiae: quia 
+sci<lb break="no" ed="#L" n="76"/>licet est impressio et sigillatio propria illius, quae est una
+<lb ed="#L" n="77"/>et simplex, non per aggregationem, omnium.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2496">
+                  <lb ed="#L" n="78"/>VIII. Nec obstat comparatio subiuncta in secunda conclu- .
+<lb ed="#L" n="79"/>sione. Quoniam cum hoc quod est eminenter utrumque,
+<lb ed="#L" n="80"/>stat quod sit formaliter utrumque: sicut sol est eminenter
+<lb ed="#L" n="81"/>calefactivus et exsiccativus, et tamen formaliter; et Deus est
+<lb ed="#L" n="82"/>eminenter intelligens et volens et exequens, et tamen 
+for<lb break="no" ed="#L" n="83"/>maliter. Nec intendit aliud per illam comparationem, nisi
+<lb ed="#L" n="84"/>quod scientia speculativa magis accedit ad naturam 
+theolo<lb break="no" ed="#L" n="85"/>giae quam practica: sicut si diceremus quod sensus 
+commu<lb break="no" ed="#L" n="86"/>nis magis habet de natura visus quam auditus, sensus esset
+<lb ed="#L" n="87"/>quod conditiones visus et sensus communis magis 
+conve<lb break="no" ed="#L" n="88"/>niunt quam conditiones auditus et sensus communis. Nec
+<lb ed="#L" n="89"/>secus est in proposito. - Nec etiam obstat si alicubi sanctus
+<lb ed="#L" n="90"/>"Thomas dicit quod est simpliciter speculativa, et secundum
+<lb ed="#L" n="91"/>quid practica. Quoniam. ratio dicti est, quia speculativum
+<lb ed="#L" n="92"/>sonat differentiam perfectam scientiae, practicum vero 
+mi<lb break="no" ed="#L" n="93"/>nus perfectam; et conditiones speculativae magis conveniunt
+<lb ed="#L" n="94"/>tam excellenti scientiae, quam conditiones practicae. Dicitur
+<lb ed="#L" n="95"/>ergo speculativa simpliciter, idest sine additione aliqua, quia
+<lb ed="#L" n="96"/>est formaliter speculativa, eminenter tamen. Dicitur autem
+<lb ed="#L" n="97"/>practica secundum quid, et non absolute, ne detur intelligi
+<lb ed="#L" n="98"/>quod sit scientia imperfecta; quales sunt illae quae 
+abso<lb break="no" ed="#L" n="99"/>lute dicuntur practicae.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2546">
+                  <lb ed="#L" n="100"/>Nec refert ad propositum, an ponatur habitus theologiae,
+<lb ed="#L" n="101"/>et universaliter scientiae, unus propter simplicitatem 
+quali<lb break="no" ed="#L" n="102"/>tatis; an unus propter unitatem ordinis specierum 
+intel<lb break="no" ed="#L" n="103"/>ligibilium. Utroque namque modo oportet altioris gradus
+<lb ed="#L" n="104"/>esse vel ordinem vel qualitatem, quam sit ordo aut qualitas
+<lb ed="#L" n="105"/>constituens speculativam distinctam contra practicam, et e
+<lb ed="#L" n="106"/>converso.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2564">
+                  <lb ed="#L" n="107"/>IX. Secundum est, quod ex hac positione manifeste
+<lb ed="#L" n="108"/>apparet quod nec ex eo quod conditiones scientiae 
+specula<lb break="no" ed="#L" n="109"/>tivae, nec ex eo quod conditiones scientiae practicae 
+con<lb break="no" ed="#L" n="110"/>veniunt huic scientiae, potest inferri, ergo theologia est 
+spe<lb break="no" ed="#L" n="111"/>culativa, aut, ergo est practica, ut una distinguitur contra
+<lb ed="#L" n="112"/>aliam: sed, ergo est speculativa vel eminenter continens
+<lb ed="#L" n="113"/>rationem speculativae; et similiter, ergo est practica vel
+<lb ed="#L" n="114"/>eminenter continens rationem practicae; et similiter, ergo
+<lb ed="#L" n="115"/>est affectiva vel eminenter continens rationem affectivae.
+<lb ed="#L" n="116"/>Unde rationes Scoti in Prologo, qu. iv, ex definitione 
+scien<lb break="no" ed="#L" n="117"/>tiae practicae et ex obiecto huius scientiae (quia scilicet
+<lb ed="#L" n="118"/>ex eo sumuntur principia regulantia praxim, et huiusmodi),
+<lb ed="#L" n="119"/>non concludunt eam esse practicam: sed si valent, 
+conclu<lb break="no" ed="#L" n="120"/>dunt, ut dictum est, eam esse vel practicam, vel eminenter
+<lb ed="#L" n="121"/>continere rationem practicae. - Et propterea, tu qui 
+dispu<lb break="no" ed="#L" n="122"/>tationibus vacas, utere et hac responsione, et distinctione
+<lb ed="#L" n="123"/>illa de praecise et non praecise tali, puta regula operis
+<lb ed="#L" n="124"/>seu speculari, etc. Quod enim est praecise tale, est aut 
+pra<lb break="no" ed="#L" n="125"/>cticum aut speculativum ; quod autem est tale, sed non
+<lb ed="#L" n="126"/>praecise, est quid altius, ut patet ex dictis.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2610">
+                  <lb ed="#L" n="127"/>Iuxta haec remanet quaestio specialis de praxi et 
+pra<lb break="no" ed="#L" n="128"/>ctico, seorsum habenda.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e51-Dd1e2619"><!-- caj-p1-q1-a5 -->
+               <head xml:id="TAcCaj-d1e51-Hd1e2622">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e51-d1e2624">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="79"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2631">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>TITULUS clarus. - In corpore una conclusio bimembris,
+<lb ed="#L" n="81"/>E pie is quaesito affirmative: Sacra doctrina est 
+di<lb break="no" ed="#L" n="82"/>gnior, secundum quod speculativa, omnibus speculativis ;
+<lb ed="#L" n="83"/>et secundum quod practica, omnibus practicis.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2644">
+                  <lb ed="#L" n="84"/>II. Antequam probetur conclusio, adverte quare in 
+con<lb break="no" ed="#L" n="85"/>clusione ponantur illae specificationes , scilicet. secundum
+<lb ed="#L" n="86"/>quod speculativa, secundum quod practica. Non enim 
+fru<lb break="no" ed="#L" n="87"/>stra hoc actum est. Sed, ut ex praecedenti articulo patet,
+<lb ed="#L" n="88"/>ista doctrina habet in se duo: primum est, quod est scientia
+<lb ed="#L" n="89"/>aliioris ordinis quam sint scientiae physicae; secundum
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="90"/>est, quod continet conditiones speculativae, et practicae
+<lb ed="#L" n="91"/>formaliter. Ratione primi, non est dubium quin sit 
+di<lb break="no" ed="#L" n="92"/>gnior ceteris, cum ponatur altioris ordinis. Sed quoad
+<lb ed="#L" n="93"/>secundum poterat dubitari: et propterea, licet in titulo
+<lb ed="#L" n="94"/>fuerit quaesitum absolute, in responsione deventum est
+<lb ed="#L" n="95"/>ad id quod poterat sub dubio cadere; et responsum est
+<lb ed="#L" n="96"/>quod ipsa, inquantum speculativa, est dignior 
+speculati<lb break="no" ed="#L" n="97"/>vis, et inquantum practica, practicis; omisso illo liquido,
+<lb ed="#L" n="98"/>quod absolute est omnium dignissima, quia altioris 
+or<lb break="no" ed="#L" n="99"/>dinis.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2683">
+                  <pb ed="#L" n="17"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>III. Probatur ergo primo quoad primam partem. Inter
+<lb ed="#L" n="2"/>speculativas dignior est una altera propter certitudinem et
+<lb ed="#L" n="3"/>dignitatem materiae, ex I de Anima: haec excellit quoad
+<lb ed="#L" n="4"/>utrumque: ergo. - Probatur minor quoad primam partem.
+<lb ed="#L" n="5"/>Haec est certa lumine divino infallibili, aliae lumine 
+hu<lb break="no" ed="#L" n="6"/>mano fallibili: ergo ista est certior. Intellige secundum se,
+<lb ed="#L" n="7"/>non zobis, ut patet ex responsione ad primum. - Quoad
+<lb ed="#L" n="8"/>secundam vero: haec est de excedentibus rationem 
+huma<lb break="no" ed="#L" n="9"/>nam, aliae de subditis rationi humanae: ergo ista est de
+<lb ed="#L" n="10"/>dignioribus. Fundatur haec ratio super illud II Metaphys.,
+<lb ed="#L" n="11"/>sicut oculus noctuae ad lumen solis etc.: inde siquidem
+<lb ed="#L" n="12"/>habetur quod excedentia vim intellectus nostri, sunt 
+mani<lb break="no" ed="#L" n="13"/>festissima in se ac lucidissima. Ac per hoc, propriae 
+ratio<lb break="no" ed="#L" n="14"/>nes substantiarum intellectualium, quae remanent occultae
+<lb ed="#L" n="15"/>propter excellentiam earum, sunt digniores illis earundem
+<lb ed="#L" n="16"/>conditionibus, quas ex sensibilibus abstrahere possumus in
+<lb ed="#L" n="17"/>metaphysica, etc. Et ideo, cum de huiusmodi excedentibus
+<lb ed="#L" n="18"/>sit ista scientia, sequitur quod sit de dignioribus, non rebus,
+<lb ed="#L" n="19"/>quia nulla res Deo est dignior, sed rerum conditionibus.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2732">
+                  <lb ed="#L" n="20"/>IV. Secunda autem conclusionis pars probatur. 
+Pra<lb break="no" ed="#L" n="21"/>cticarum illa dignior, quae ad ulteriorem finem non 
+ordi<lb break="no" ed="#L" n="22"/>natur: sed finis huius est finis ultimus finium omnium
+<lb ed="#L" n="23"/>aliarum ergo. — Probatur maior in civili et militari. Minor
+<lb ed="#L" n="24"/>vero, quia finis. huius est beatitudo aeterna.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2745">
+                  <lb ed="#L" n="25"/>V. Adverte hic quod maior intelligitur, non absolute
+<lb ed="#L" n="26"/>ut iacet, sed de practicis subordinatis. Quoniam non est
+<lb ed="#L" n="27"/>verum, inter practicas disparatas, digniorem esse quae ad
+<lb ed="#L" n="28"/>ulteriorem finem non ordinatur: dignius namque est 
+mi<lb break="no" ed="#L" n="29"/>nistrare superioris ordinis arti, puta aurifici, quam 
+prin<lb break="no" ed="#L" n="30"/>cipari in arte inferioris ordinis, puta figuli. Sed inter 
+pra<lb break="no" ed="#L" n="31"/>cticas quarum una subordinatur alteri, procul dubio maior
+<lb ed="#L" n="32"/>est vera. Et propterea in littera non subsumptum est 
+ab<lb break="no" ed="#L" n="33"/>solute quod theologiae finis non subordinatur ad alterum:
+<lb ed="#L" n="34"/>sed subsumpta sunt duo: et quod omnes alihe practicae
+<lb ed="#L" n="35"/>subordinantur isti, dicendo quod fines aliarum scientiarum
+<lb ed="#L" n="36"/>practicarum ordinantur ad finem istius; et quod finis istius
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="37"/>est ultimus, etc. Sic enim poris est ratio, omni exclusa
+<lb ed="#L" n="38"/>calumnia.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2780">
+                  <lb ed="#L" n="39"/>VI. Sed memento hic primo illius. distinctionis finis:
+<lb ed="#L" n="40"/>scilicet in finem rationis operandi, seu rei operatae, et in
+<lb ed="#L" n="41"/>finem operantis. Quoniam beatitudo aeterna non est finis
+<lb ed="#L" n="42"/>ultimus omnium operantium, cum multi operentur 
+con<lb break="no" ed="#L" n="43"/>tra illam, a virtute recedendo, secundum artes tamen 
+re<lb break="no" ed="#L" n="44"/>cte operando: sed est finis omnium rationum operandi, et
+<lb ed="#L" n="45"/>omnium rerum operatarum, quoniam omnia ordinantur ad
+<lb ed="#L" n="46"/>bonum rationis, quod tandem ordinatur in beatitudinem
+<lb ed="#L" n="47"/>aeternam. Et ideo in littera caute dicitur quod fines aliarum
+<lb ed="#L" n="48"/>scientiarum, et non dicitur fines scientium, ordinantur ad
+<lb ed="#L" n="49"/>beatitudinem aeternam.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2806">
+                  <lb ed="#L" n="50"/>Memento secundo alterius distinctionis : scilicet finis 
+iz<lb break="no" ed="#L" n="51"/>trinseci, et extrinseci. Et intellige quod finis extrinsecus
+<lb ed="#L" n="52"/>theologiae inquantum practica, est beatitudo, quae est 
+ulti<lb break="no" ed="#L" n="53"/>mus finis, idest visio Dei; licet finis intrinsecus eius ut sic,
+<lb ed="#L" n="54"/>sit operari. Nec hoc obstat efficaciae rationis in littera 
+fa<lb break="no" ed="#L" n="55"/>ctae,-quae de fine intrinseco practicarum scientiarum 
+lo<lb break="no" ed="#L" n="56"/>quitur: quoniam littera loquitur de fine proximo, sive extra
+<lb ed="#L" n="57"/>sive intus. Nihil enim refert quoad dignitatem practicae, an
+<lb ed="#L" n="58"/>finis eam nobilitans afferatur intus vel extra, dummodo sit
+<lb ed="#L" n="59"/>proximus. Sic autem est in proposito: quoniam, ut in 
+prae<lb break="no" ed="#L" n="60"/>cedenti articulo dixit Auctor, de operibus nostris tractamus
+<lb ed="#L" n="61"/>quatenus per ea ordinamur ad Dei contemplationem. 
+Ce<lb break="no" ed="#L" n="62"/>terae autem scientiae docent operari propter hunc finem 
+re<lb break="no" ed="#L" n="63"/>mote. - Hoc autem, scilicet quod haec scientia inquantum
+<lb ed="#L" n="64"/>practica habet eundem finem proximum quem habet 
+inquan<lb break="no" ed="#L" n="65"/>tum speculativa (licet alio modo, quia extrinsece), convenit
+<lb ed="#L" n="66"/>huic scientiae quia est secundum quid practica: si enim
+<lb ed="#L" n="67"/>esset pure practica, speculari remotus eius finis esset.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2848">
+                  <lb ed="#L" n="68"/>VII. Responsio ad secundum duabus distinctionibus
+<lb ed="#L" n="69"/>utitur. Accipere dupliciter: a superiori, vel ab inferiori. Et
+<lb ed="#L" n="70"/>hoc dupliciter: vel propter defectum seu insufficientiam 
+ac<lb break="no" ed="#L" n="71"/>cipientis ; vel subventionem defectus alieni, puta intellectus
+<lb ed="#L" n="72"/>nostri in proposito.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e51-Dd1e2862"><!-- caj-p1-q1-a6 -->
+               <head xml:id="TAcCaj-d1e51-Hd1e2865">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e51-d1e2867">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2874">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="48"/>IN titulo, nota ly sapientia, idest, notitia ordinativa et
+<lb ed="#L" n="49"/>liudicativa de aliis, ut caput: hoc enim sapientiae nomen
+<lb ed="#L" n="50"/>importat, ut patet VI Ethic., in communi loquendo.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2885">
+                  <lb ed="#L" n="51"/>II. In corpore una conclusio est, responsiva quaesito
+<lb ed="#L" n="52"/>affirmative: Sacra doctrina est maxime sapientia inter omnes
+<lb ed="#L" n="53"/>sapientias humanas, non solum in genere, sed simpliciter.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2894">
+                  <lb ed="#L" n="54"/>Et adverte quod ly simpliciter determinat sapientiam 
+hu<lb break="no" ed="#L" n="55"/>manam, sicut etiam ly in genere: ita quod sensus est, quod
+<lb ed="#L" n="56"/>sacra doctrina, tam relata ad sapientias in genere, quam
+<lb ed="#L" n="57"/>ad sapientiam humanam simpliciter, est maxime sapientia.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2906">
+                  <lb ed="#L" n="58"/>III. Probatur. Sacra doctrina determinat propriissime de
+<lb ed="#L" n="59"/>Deo secundum quod est altissima causa: ergo sacra doctrina
+<lb ed="#L" n="60"/>est maxime sapientia, etc. - Antecedens probatur. 
+Determi<lb break="no" ed="#L" n="61"/>nat de Deo, non solum ut cognoscibili per creaturas, sed
+<lb ed="#L" n="62"/>secundum quod sibi soli naturaliter est notus: ergo 
+pro<lb break="no" ed="#L" n="63"/>prüssime, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2922">
+                  <lb ed="#L" n="64"/>IV. Circa antecedens et eius probationem , nota quod
+<lb ed="#L" n="65"/>ea quae nobis naturaliter occulta sunt de Deo, 
+quemad<lb break="no" ed="#L" n="66"/>modum magis propria sunt Deo in cognoscendo, ita et
+<lb ed="#L" n="67"/>in essendo. Et propterea scientia determinans de Deo 
+se<lb break="no" ed="#L" n="68"/>cundum illa quae soli Deo sunt nota, est scientia de Deo
+<lb ed="#L" n="69"/>ex propriis Dei: et ideo merito dicitur quod 
+propriis<lb break="no" ed="#L" n="70"/>sime determinat de Deo. Et quoniam secundum huiusmodi
+<lb ed="#L" n="71"/>propria habentur prima supremaque ;fundamenta 
+causali<lb break="no" ed="#L" n="72"/>tatis divinae, idcirco dicitur quod determinat propriissime
+<lb ed="#L" n="73"/>de Deo secundum quod est causa altissima.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2946">
+                  <lb ed="#L" n="74"/>Veruntamen hic cautus esto: quoniam ly secundum quod
+<lb ed="#L" n="75"/>est altissima causa dupliciter potest exponi. Uno modo, ut
+<lb ed="#L" n="76"/>ly secundum determinet rationem formalem Dei, ut est
+<lb ed="#L" n="77"/>subiectum sacrae doctrinae. Et sic falsum est assumptum :
+<lb ed="#L" n="78"/>quoniam, ut in sequenti patet articulo, Deus inquantum
+<lb ed="#L" n="79"/>Deus, est subiectum eius, et non inquantum causa 
+altis<lb break="no" ed="#L" n="80"/>sima. - Alio modo, ut ly secundum determinet quandam
+<lb ed="#L" n="81"/>specialem rationem Dei, clausam iníra latitudinem 
+con<lb break="no" ed="#L" n="82"/>ditionum pertinentium ad considerationem sacrae 
+doctri<lb break="no" ed="#L" n="83"/>nae, eo quod consequitur deitatem. Et sic est verum: 
+in<lb break="no" ed="#L" n="84"/>tendit enim littera quod sacra doctrina considerat de Deo
+<lb ed="#L" n="85"/>propriissime , et consequenter secundum quod etiam causa
+<lb ed="#L" n="86"/>altissima: quod ad sapientiam spectat.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2977">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="87"/>V. Consequentia  autem probatur. Iudicium de 
+infe<lb break="no" ed="#L" n="88"/>rioribus habetur per causam altiorem: ergo considerans
+<lb ed="#L" n="89"/>causam altissimam generis alicuius, est sapiens in illo 
+ge<lb break="no" ed="#L" n="90"/>nere, Ergo considerans causam simpliciter altissimam totius
+<lb ed="#L" n="91"/>universi, idest Deum, est maxime sapiens. Ergo, si qua
+<lb ed="#L" n="92"/>considerat Deum propriissime secundum quod est causa
+<lb ed="#L" n="93"/>altissima, illa est maxime sapientia inter omnes, tam in
+<lb ed="#L" n="94"/>genere quam simpliciter: quod erat consequentia probanda.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e2999">
+                  <lb ed="#L" n="95"/>Assumptum est clarum. - Et prima consequentia probatur
+<lb ed="#L" n="96"/>quidem, quia sapientis est iudicare et ordinare: manifestatur
+<lb ed="#L" n="97"/>vero in genere aedificii, et in genere totius humanae vitae,
+<lb ed="#L" n="98"/>cum auctoritatibus Scripturae adiunctis, ut patet in littera.
+<lb ed="#L" n="99"/>- Secunda vero ex eodem probata relinquitur medio, 
+sub<lb break="no" ed="#L" n="100"/>intellecta proportionalitate causae altissimae in genere ad
+<lb ed="#L" n="101"/>sapientiam in genere, et causae altissimae simpliciter ad
+<lb ed="#L" n="102"/>sapientiam simpliciter: et ex testimonio Augustini 
+confir<lb break="no" ed="#L" n="103"/>matur. Vocatur autem in hac deductione sapientia 
+simplici<lb break="no" ed="#L" n="104"/>ter maxime sapientia, ad denotandum excessum eius super
+<lb ed="#L" n="105"/>sapientias in genere. — Tertia autem consequentia per se nota
+<lb ed="#L" n="106"/>relinquitur. Quoniam si considerans simpliciter altissimam
+<lb ed="#L" n="107"/>causam, idest Deum, est simpliciter et maxime sapiens,
+<lb ed="#L" n="108"/>respectu sapientium in genere hoc aut illo; oportet quod
+<lb ed="#L" n="109"/>considerans eandem causam altissimam ex propriis, non
+<lb ed="#L" n="110"/>solum sit simpliciter, sed et maxime sapiens, et respectu 
+sa<lb break="no" ed="#L" n="111"/>pientium in genere, et respectu sapientis simpliciter; utpote
+<lb ed="#L" n="112"/>transcendens ipsum in hoc, quod propria altissimae causae
+<lb ed="#L" n="113"/>rimatur, cum ille sistat in communibus, et his quae per 
+com<lb break="no" ed="#L" n="114"/>munia sciri possunt. Omnes enim rationes quas de Deo 
+me<lb break="no" ed="#L" n="115"/>taphysica habet, aut sunt communes, si sunt simplices, ut
+<lb ed="#L" n="116"/>ens, verum, bonum; aut sunt ex communibus compositae,
+<lb ed="#L" n="117"/>si sunt propriae Deo, ut actus purus, primum ens, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3051">
+                  <lb ed="#L" n="118"/>VI. In responsione ad tertium, inducitur laus Hierothei,
+<lb ed="#L" n="119"/>magistri Dionysii, quod erat non solum discens secundum
+<lb ed="#L" n="120"/>intellectum, sed patiens secundum affectum, divina: 
+quo<lb break="no" ed="#L" n="121"/>niam donum sapientiae est in intellectu formaliter, in 
+vo<lb break="no" ed="#L" n="122"/>luntate autem causaliter. Et dicitur patiens a passione, eo
+<lb ed="#L" n="123"/>modo quo vehementer affecti circa aliquid, passionati 
+di<lb break="no" ed="#L" n="124"/>cuntur: in quo denotatur maxima voluntatis inclinatio, ut
+<lb ed="#L" n="125"/>iam habituata et connaturalis effecta ad divina, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e51-Dd1e3072"><!-- caj-p1-q1-a7 -->
+               <head xml:id="TAcCaj-d1e51-Hd1e3075">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e51-d1e3077">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="57"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3084">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="58"/>In titulo, nota terminum utrumque. Ly subiectum stat
+<lb ed="#L" n="59"/>pro subiecto formali, et ly JDeus tenetur formaliter,
+<lb ed="#L" n="60"/>idest inquantum Deus: ita quod sensus est: An Deus, 
+in<lb break="no" ed="#L" n="61"/>quantum Deus, sit subiectum formale huius scientiae.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3097">
+                  <lb ed="#L" n="62"/>Et ad bonitatem doctrinae, penetra quid importet 
+in<lb break="no" ed="#L" n="63"/>quantum Deus, ex declaratione Scoti in hac quaestione.
+<lb ed="#L" n="64"/>Quemadmodum homo potest quadrupliciter accipi: primo
+<lb ed="#L" n="65"/>ut animal rationale; et sic intelligitur quidditative, 
+inquan<lb break="no" ed="#L" n="66"/>tum homo: secundo ut substantia; et sic concipitur in 
+com<lb break="no" ed="#L" n="67"/>muni: tertio ut naturaliter mansuetum; et sic concipitur per
+<lb ed="#L" n="68"/>accidens, quia esse mansuetum est accidens seu passio 
+ho<lb break="no" ed="#L" n="69"/>minis: quarto ut nobilissimum animalium; et sic concipitur
+<lb ed="#L" n="70"/>relative ad aliud: — ita in proposito, ordine retrogrado 
+pro<lb break="no" ed="#L" n="71"/>cedendo, Deus potest considerari ut altissima causa, et 
+uni<lb break="no" ed="#L" n="72"/>versaliter secundum quodcumque praedicatum respectivum
+<lb ed="#L" n="73"/>ad extra; et sic consideratur relative ad extra: potest etiam
+<lb ed="#L" n="74"/>considerari ut sapiens, bonus, iustus, et universaliter 
+secun<lb break="no" ed="#L" n="75"/>dum rationes attributales; et sic consideratur quasi per
+<lb ed="#L" n="76"/>accidens: potest etiam considerari ut ens, ut actus, etc.; et
+<lb ed="#L" n="77"/>sic consideratur in communi. Et ad hos tres modos, quasi
+<lb ed="#L" n="78"/>simplices, reducuntur considerationes compositae, puta ut
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="79"/>actus purus, ut ens primum, etc.: consideratur namque in
+<lb ed="#L" n="80"/>huiusmodi Deus, ut stat sub conceptu communi, et 
+rela<lb break="no" ed="#L" n="81"/>tivo aut negativo, ut patet. Ante omnes autem hos modos,
+<lb ed="#L" n="82"/>potest considerari Deus secundum suam propriam 
+quiddita<lb break="no" ed="#L" n="83"/>tem: haec enim est prima, secundum naturam, cognitio
+<lb ed="#L" n="84"/>omnium, et fundamentum ceterarum: et hanc quidditatem
+<lb ed="#L" n="85"/>circumloquimur deitatis nomine. Et sic, quaerendo an Deus
+<lb ed="#L" n="86"/>sub ratione deitatis, ut distinguitur contra rationem 
+boni<lb break="no" ed="#L" n="87"/>tatis etc., sit subiectum huius scientiae, est quaerere utrum
+<lb ed="#L" n="88"/>Deus sub ratione suae propriae quidditatis, sit subiectum
+<lb ed="#L" n="89"/>formale huius scientiae; ita quod quidditas Dei sit ratio
+<lb ed="#L" n="90"/>formalis huius subiecti ut res est, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3165">
+                  <lb ed="#L" n="91"/>II. In corpore duo: primo ponitur conclusio responsiva
+<lb ed="#L" n="92"/>quaesito affirmative; secundo referuntur aliorum dicta.
+<lb ed="#L" n="93"/>Quoad primum, conclusio est: Deus est subiectum huius
+<lb ed="#L" n="94"/>scientiae.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3177">
+                  <lb ed="#L" n="95"/>Probatur dupliciter. Primo. Obiectum alicuius 
+poten<lb break="no" ed="#L" n="96"/>tiae vel habitus est id, sub cuius ratione omnia referuntur
+<lb ed="#L" n="97"/>ad potentiam vel habitum: ergo subiectum scientiae est,
+<lb ed="#L" n="98"/>sub cuius ratione omnia considerantur in scientia. Ergo
+<lb ed="#L" n="99"/>subiectum huius scientiae est Deus.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3190">
+                  <pb ed="#L" n="20"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Antecedens manifestatur in obiecto visus. - Prima vero
+<lb ed="#L" n="2"/>consequentia probatur. Subiectum ad scientiam se habet sicut
+<lb ed="#L" n="3"/>obiectum ad potentiam vel habitum: ergo, si obiectum, etc.
+<lb ed="#L" n="4"/>- Secunda autem consequentia probatur. Omnia 
+conside<lb break="no" ed="#L" n="5"/>rantur in sacra doctrina sub ratione Dei: ergo, si 
+subie<lb break="no" ed="#L" n="6"/>ctum, etc. Assumptum probatur: quia omnia vel sunt Deus,
+<lb ed="#L" n="7"/>vel ad Deum ordinantur, ut principium aut finem, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3212">
+                  <lb ed="#L" n="8"/>III. Circa probationem primae consequentiae, adverte
+<lb ed="#L" n="9"/>quod illa propositio assumpta, sicut obiectum ad 
+poten<lb break="no" ed="#L" n="10"/>tiam, ita subiectum ad scientiam, non est opus quod currat
+<lb ed="#L" n="11"/>quoad omnia: sed sat est proposito, quod teneat - quoad
+<lb ed="#L" n="12"/>proportionem rationis formalis; ita quod, sicut ratio 
+for<lb break="no" ed="#L" n="13"/>malis obiecti potentiae est ea qua omnia referuntur ad
+<lb ed="#L" n="14"/>illam potentiam, ita ratio formalis subiecti scientiae est illa,
+<lb ed="#L" n="15"/>ratione cuius omnia considerantur in illa scientia. Utrum
+<lb ed="#L" n="16"/>autem teneat similitudo quoad alia, puta quoad 
+commu<lb break="no" ed="#L" n="17"/>nitatem (ut sicut obiectum formale potentiae est aliquid
+<lb ed="#L" n="18"/>commune omnibus per se obiectis illius potentiae, ita 
+subie<lb break="no" ed="#L" n="19"/>ctum scientiae debeat esse aliquid commune omnibus per
+<lb ed="#L" n="20"/>se subiectis illius), non est praesentis propositi: quamvis
+<lb ed="#L" n="21"/>manifeste pateat hinc quod non oportet hanc similitudinem
+<lb ed="#L" n="22"/>salvare, quia ponitur subiectum huius scientiae, non aliquod
+<lb ed="#L" n="23"/>commune, sed Deus ut Deus, quem, ut sic, constat esse
+<lb ed="#L" n="24"/>singulare quoddam.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3251">
+                  <lb ed="#L" n="25"/>Nec obstat quod in I Sent., artic. 4 Prologi, dixerit
+<lb ed="#L" n="26"/>s. Thomas quod subiectum scientiae habet hanc 
+condi<lb break="no" ed="#L" n="27"/>tionem, scilicet quod est commune per praedicationem:
+<lb ed="#L" n="28"/>quoniam illud est verum secundum communiter accidentia,
+<lb ed="#L" n="29"/>et non necessario. Videmus enim communiter, in subiectis
+<lb ed="#L" n="30"/>communiter assignatis scientiis a doctoribus, illam 
+conditio<lb break="no" ed="#L" n="31"/>nem inveniri: non tamen oportet, ut patet IV Metaphys.
+<lb ed="#L" n="32"/>in scientia de sano. - Posset quoque salvari communitas
+<lb ed="#L" n="33"/>per praedicationem in omni subiecto, non in recto, sed
+<lb ed="#L" n="34"/>in recto vel obliquo: sic enim etiam Deus de omnibus
+<lb ed="#L" n="35"/>theologalibus praedicatur, quia sunt aut Deus, aut Dei,
+<lb ed="#L" n="36"/>aut ad Deum, auta Deo, etc. Prima tamen responsio est
+<lb ed="#L" n="37"/>ad litteram.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3282">
+                  <lb ed="#L" n="38"/>IV. Circa propositionem assumptam in probatione 
+se<lb break="no" ed="#L" n="39"/>cundae consequentiae, scilicet, omnia considerantur in
+<lb ed="#L" n="40"/>hac scientia sub ratione Dei, dubitatur simpliciter, et ad
+<lb ed="#L" n="41"/>hominem. Simpliciter quidem arguit Gregorius de Arimino.
+<lb ed="#L" n="42"/>Si Deus sub ratione deitatis esset subiectum theologiae,
+<lb ed="#L" n="43"/>tani beatorum quam nostrae, oporteret quod omnia 
+cogno<lb break="no" ed="#L" n="44"/>scibilia de Deo ratione deitatis, caderent sub theologia. Sed
+<lb ed="#L" n="45"/>hoc est impossibile: tum quia omnia simpliciter caderent
+<lb ed="#L" n="46"/>sub theologia; tum quia infinitae veritates caderent sub
+<lb ed="#L" n="47"/>eadem. Per deitatem enim omnia cognoscibilia sunt, et 
+in<lb break="no" ed="#L" n="48"/>finita, etc., ut patet in scientia quam Deus habet de seipso
+<lb ed="#L" n="49"/>per essentiam suam.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3311">
+                  <lb ed="#L" n="50"/>Ad hominem vero, quia ipsemet s. Thomas in Prologo
+<lb ed="#L" n="51"/>I Sent., art. 4, expresse dicit subiectum huius scientiae esse
+<lb ed="#L" n="52"/>ens divinum per inspirationem cognoscibile: et non Deum,
+<lb ed="#L" n="53"/>nisi sicut subiectum principale. Ergo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3323">
+                  <lb ed="#L" n="54"/>V. Ad primum horum, neganda est consequentia, 
+pro<lb break="no" ed="#L" n="55"/>pter duplicem rationem. Prima est, quia theologia, sive
+<lb ed="#L" n="56"/>nostra sive beata, est scientia inadaequata subiecto: 
+condi<lb break="no" ed="#L" n="57"/>tionalis autem illa est vera de scientia adaequata subiecto.
+<lb ed="#L" n="58"/>Solus enim Deus habet theologiam adaequatam eius 
+subie<lb break="no" ed="#L" n="59"/>cto formali. — Sed haec ratio nihil videtur valere. Quoniam
+<lb ed="#L" n="60"/>ratio formalis subiecti et scientia, oportet quod adaequate
+<lb ed="#L" n="61"/>sibi respondeant: alioquin scientiae non distinguerentur per
+<lb ed="#L" n="62"/>subiecta formalia; nec posset assignari ratio quare magis
+<lb ed="#L" n="63"/>ista quam illa de tali subiecto considerat.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3347">
+                  <lb ed="#L" n="64"/>Unde assignatur alia ratio negationis. Et est, quia in
+<lb ed="#L" n="65"/>antecedente illius conditionalis non fit mentio de ratione
+<lb ed="#L" n="66"/>formali sub qua ; cum tamen ex illa pendeat adaequatio vel
+<lb ed="#L" n="67"/>limitatio cognoscibilium de subiecto formali, per rationem
+<lb ed="#L" n="68"/>formalem illius ut res est. Deus enim, etsi ex ratione deitatis
+<lb ed="#L" n="69"/>sit infinite cognoscibilis, tamen Deus ut Deus sub 
+partici<lb break="no" ed="#L" n="70"/>pato lumine gloriae, est cognoscibilis infra certum limitem,
+<lb ed="#L" n="71"/>respectu singulorum. Et similiter sub participatione luminis
+<lb ed="#L" n="72"/>gratiae, est cognoscibilis secundum certos fines, etc. Et
+<lb ed="#L" n="73"/>ideo, ad verificandam illam conditionalem, oportet addere:
+<lb ed="#L" n="74"/>si Deus inquantum Deus, sub lumine sibi adaequato, esset
+<lb ed="#L" n="75"/>subiectum scientiae alicuius, illa nosset omnia, etc, Sed
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>tunc patet falsitas subsumendae propositionis: quia sola lux
+<lb ed="#L" n="77"/>divina in seipsa est tale lumen; nostrae autem et beatae
+<lb ed="#L" n="78"/>theologiae Deus, inquantum Deus quidem, sed sub lumine
+<lb ed="#L" n="79"/>diminuto, subiectum est. Et ideo iuxta facultatem luminis
+<lb ed="#L" n="80"/>est extensio scientiae. Non est ergo secundum extensionem .
+<lb ed="#L" n="81"/>rationis formalis ut res est absolute, sed ut stantis sub 
+ra<lb break="no" ed="#L" n="82"/>tione formali obiecti ut obiectum est, mensuranda scientia,
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3393">
+                  <lb ed="#L" n="83"/>VI. Ad secundum dicitur, quod s. Thomas non 
+asse<lb break="no" ed="#L" n="84"/>rendo, sed opinando, sequens communiter dictas 
+conditio<lb break="no" ed="#L" n="85"/>nes subiecti ab aliis, illud dixit; ut patet ex modo loquendi,
+<lb ed="#L" n="86"/>cum, inchoando illam positionem, dicit: si volumus ponere
+<lb ed="#L" n="87"/>aliquod subiectum, in quo salyentur omnes hae conditiones.
+<lb ed="#L" n="88"/>Hic autem assertive determinavit, quod etiam ex tunc 
+in<lb break="no" ed="#L" n="89"/>choaverat: quoniam et ibi dicit quod omnia considerantur
+<lb ed="#L" n="90"/>in hac scientia sub ratione Dei. Quare hoc est simpliciter
+<lb ed="#L" n="91"/>tenendum: illud vero tanquam opinabile audiendum.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3415">
+                  <lb ed="#L" n="92"/>VII. Secunda ratio ad conclusionem est haec. Idem est
+<lb ed="#L" n="93"/>subiectum principiorum et totius scientiae: Deus est 
+subie<lb break="no" ed="#L" n="94"/>ctum principiorum huius scientiae: ergo Deus est subiectum
+<lb ed="#L" n="95"/>totius scientiae. - Maior probatur: quia tota scientia 
+vir<lb break="no" ed="#L" n="96"/>tualiter continetur in principiis. Minor vero, quia Deus est
+<lb ed="#L" n="97"/>subiectum articulorum fidei.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3431">
+                  <lb ed="#L" n="98"/>VIII. Circa propositionem assumptam ad probandum
+<lb ed="#L" n="99"/>maiorem, scilicet, tota scientia virtute continetur in 
+princi<lb break="no" ed="#L" n="100"/>piis, dubium occurrit: quoniam adversari videtur doctrinae
+<lb ed="#L" n="101"/>s. Thomae. Nam sequitur: Tota scientia virtualiter 
+conti<lb break="no" ed="#L" n="102"/>netur in principiis: ergo in subiecto principiorum: ergo in
+<lb ed="#L" n="103"/>subiecto scientiae. Ergo duarum specierum disparatarum,
+<lb ed="#L" n="104"/>imo generis et speciei, secundum propria singulis, non potest
+<lb ed="#L" n="105"/>esse scientia una secundum speciem specialissimam. Hoc
+<lb ed="#L" n="106"/>est falsum apud s. Thomam: quoniam scientia de triangulo
+<lb ed="#L" n="107"/>et quadrato et figura etc., non solum secundum communia,
+<lb ed="#L" n="108"/>sed secundum propria singulis, unius est speciei; ut patet
+<lb ed="#L" n="109"/>in I? II2, et in I Poster. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3460">
+                  <lb ed="#L" n="110"/>Prima consequentia patet: quia principia conficiuntur
+<lb ed="#L" n="111"/>ex subiecti ratione. Secunda etiam patet: quia idem est
+<lb ed="#L" n="112"/>subiectum principiorum et scientiae. Tertia autem, quia
+<lb ed="#L" n="113"/>scientia unius speciei omnino disparatae, quoad propria,
+<lb ed="#L" n="114"/>non continetur virtualiter in alia specie, nec in generis 
+ra<lb break="no" ed="#L" n="115"/>tione ut sic: sicut nec passiones unius speciei continentur
+<lb ed="#L" n="116"/>virtualiter in alia, nec in ratione generis, ut patet. -
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3479">
+                  <lb ed="#L" n="117"/>IX. Ad hanc obiectionem oportet respondere, non solum
+<lb ed="#L" n="118"/>ad hominem, sed simpliciter: quoniamista virtualis 
+con<lb break="no" ed="#L" n="119"/>tinentia ingerit dubium, non solum quia posita est hic in
+<lb ed="#L" n="120"/>littera, sed simpliciter. Unde Scotus, in Prologo, qu. mr,
+<lb ed="#L" n="121"/>tenens quod virtualis continentia omnium veritatum 
+per<lb break="no" ed="#L" n="122"/>tinentium ad aliquam scientiam, est conditio constituens
+<lb ed="#L" n="123"/>rationem subiecti formalis in scientia, obiectioni praefatae
+<lb ed="#L" n="124"/>consentit, concedens verum esse id ad quod ratio deducit,
+<lb ed="#L" n="125"/>quodque reputamus falsum.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3501">
+                  <lb ed="#L" n="126"/>Sciendum est igitur quod duplex est de huiusmodi 
+con<lb break="no" ed="#L" n="127"/>tinentia opinio. Scotus namque putat subiectum scientiae
+<lb ed="#L" n="128"/>oportere continere primo virtualiter, ut causam sufficientem,
+<lb ed="#L" n="129"/>omnes veritates pertinentes ad talem scientiam. Et probat
+<lb ed="#L" n="130"/>hoc dupliciter. Primo, quia continet propositiones 
+imme<lb break="no" ed="#L" n="131"/>diatas, quae sunt principia virtualiter continentia totam
+<lb ed="#L" n="132"/>scientiam. Patet hoc, quia propositionis immediatae 
+praedi<lb break="no" ed="#L" n="133"/>catum continetur in subiecto: subiectum autem est 
+subie<lb break="no" ed="#L" n="134"/>ctum scientiae: ergo. Secundo, quia subiectum est 
+adae<lb break="no" ed="#L" n="135"/>quata causa habitus: ergo continet primo virtualiter totum
+<lb ed="#L" n="136"/>ipsum: ergo omnes illius veritates. — Et secundum hanc
+<lb ed="#L" n="137"/>opinionem, tot sunt scientiae secundum speciem, quot sunt
+<lb ed="#L" n="138"/>non solum species rerum omnino disparatae (quod dico
+<lb ed="#L" n="139"/>propter species subordinatas, puta subiectum et passionem):
+<lb ed="#L" n="140"/>sed etiam quot sunt rationes formales rerum, quarum una
+<lb ed="#L" n="141"/>non continetur virtualiter in alia. Et sic alia est scientia
+<lb ed="#L" n="142"/>de animali ut sic, ad quam spectat considerare proprias
+<lb ed="#L" n="143"/>animalis passiones tantum (quoniam solae ipsae virtualiter
+<lb ed="#L" n="144"/>in animali clauduntur): et alia de bove inquantum bos, et .
+<lb ed="#L" n="145"/>alia de leone inquantum leo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3547">
+                  <lb ed="#L" n="146"/>X. S. Thomas vero, tenens scientias secari non 
+secun<lb break="no" ed="#L" n="147"/>dum quod secantur res absolute, sed prout sunt scibiles,
+<lb ed="#L" n="148"/>tenet quod subiectum formale scientiae exigit duas 
+con<lb break="no" ed="#L" n="149"/>ditiones, ut ex littera habetur. Prima est, quod ratione
+<lb ed="#L" n="150"/>ipsius omnia attingantur ab illa scientia, Secunda, quod
+<pb ed="#L" n="21"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>virtualiter contineat totam scientiam: non ut causa in 
+se<lb break="no" ed="#L" n="2"/>ipso sufficiens, ut Scotus voluit; sed in seipso quidem: 
+sum<lb break="no" ed="#L" n="3"/>ptum sufficiens u£ causa prima, idest in suo ordine, et
+<lb ed="#L" n="4"/>non simpliciter. Sumptum autem et in se et participantibus -
+<lb ed="#L" n="5"/>ipsum, aut quomodolibet attributis ad ipsum, fit sufficiens
+<lb ed="#L" n="6"/>simpliciter. Vocatur autem causa simpliciter sufficiens, illa
+<lb ed="#L" n="7"/>quae primo, idest adaequate, est causa alicuius; ut 
+subie<lb break="no" ed="#L" n="8"/>ctum propriae passionis, sive immediate sive mediante 
+ali<lb break="no" ed="#L" n="9"/>qua priore passione: causa autem sufficiens in suo ordine,
+<lb ed="#L" n="10"/>quae licet sola non sufficiat ad effectum, in suo tamen ordine
+<lb ed="#L" n="11"/>completa et totalis causa est, ut sol est causa Socratis. Et hoc
+<lb ed="#L" n="12"/>modo principia prima alicuius scientiae continent virtualiter
+<lb ed="#L" n="13"/>omnes veritates illius, scilicet ut primae propositiones. Non
+<lb ed="#L" n="14"/>enim ex primis propositionibus solis immediate, ut patet,
+<lb ed="#L" n="15"/>neque mediantibus tantum his quae totaliter ex illis pendent,
+<lb ed="#L" n="16"/>omnes veritates sciuntur: sed ex illis ut primis, et aliis ut
+<lb ed="#L" n="17"/>secundis ac proximis causis, conclusiones multae sciuntur.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3602">
+                  <lb ed="#L" n="18"/>Et hoc clarius patet in ipsis passionibus quae 
+demon<lb break="no" ed="#L" n="19"/>strantur. In scientia enim de numero, non oportet omnes
+<lb ed="#L" n="20"/>passiones scibiles eadem scientia, contineri virtualiter in
+<lb ed="#L" n="21"/>numero, primo, idest adaequate et sufficienter, loquendo de
+<lb ed="#L" n="22"/>numero in seipso: quoniam sic nec passiones binarii nec
+<lb ed="#L" n="23"/>trinarii scirentur ibidem , ut patet. Sed bene oportet 
+nu<lb break="no" ed="#L" n="24"/>merum in se continere virtualiter omnes passiones 
+huius<lb break="no" ed="#L" n="25"/>modi ut primam radicem earum. Ut distinctum autem et
+<lb ed="#L" n="26"/>articipatum in binario et trinario etc., oportet omnium
+<lb ed="#L" n="27"/>passionum subiectum esse primum, idest adaequatum. Ac
+<lb ed="#L" n="28"/>per hoc, principia talis scientiae, quae habent numerum
+<lb ed="#L" n="29"/>pro subiecto, continent virtualiter omnes veritates ut primae
+<lb ed="#L" n="30"/>causae. Nec oportet quod sufficiant ad inferendas omnes
+<lb ed="#L" n="31"/>conclusiones, nisi adiuncta propositionibus quarum 
+subie<lb break="no" ed="#L" n="32"/>ctum sit binarius aut trinarius etc., ut causis proximis:
+<lb ed="#L" n="33"/>emadmodum nec numerus in se causa est sufficiens ad
+<lb ed="#L" n="34"/>passiones binarii, sed ut prima radix earum: et hoc in eo
+<lb ed="#L" n="35"/>quod scibiles, idest inquantum sunt in tali specie scibilis;
+<lb ed="#L" n="36"/>quidquid sit in esse naturae. ;
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3646">
+                  <lb ed="#L" n="37"/>Et secundum hanc viam, manifestum est quod eandem
+<lb ed="#L" n="38"/>scientiam secundum speciem contingit esse de genere et
+<lb ed="#L" n="39"/>multis speciebus, secundum singulorum propria.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3655">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="40"/>XI. Et si quaeratur: Quis ergo erit limes scibilium in una
+<lb ed="#L" n="41"/>scientia? Iam patet responsio ex dictis: limitantur namque
+<lb ed="#L" n="42"/>scientiae secundum species scibilium ut sic, et non 
+secun<lb break="no" ed="#L" n="43"/>dum species rerum. Et ideo tot species et genera,rerum
+<lb ed="#L" n="44"/>sub una possunt comprehendi scientia, quot comprehendi
+<lb ed="#L" n="45"/>contingit sub una specie scibili. Et ideo illa ratio formalis
+<lb ed="#L" n="46"/>rerum quae primo fundat illam speciem scibilem , idest
+<lb ed="#L" n="47"/>cui prius convenit ille modus abstractionis vel definitionis
+<lb ed="#L" n="48"/>vel cognitionis, qui constituit illam speciem scibilis, est
+<lb ed="#L" n="49"/>ratio formalis subiecti in illa scientia; et est prima radix.
+<lb ed="#L" n="50"/>omnium pertinentium ad illam scientiam ut sic.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3685">
+                  <lb ed="#L" n="51"/>Quod autem continentia virtualis talis ut declarata est,
+<lb ed="#L" n="52"/>sufficiat ad subiectum et principia scientiae, patet ex 
+pro<lb break="no" ed="#L" n="53"/>cessibus scientiarum, tam in mathematicis quam in 
+natu<lb break="no" ed="#L" n="54"/>ralibus. Utrobique namque multarum specierum passiones
+<lb ed="#L" n="55"/>proprie traduntur, puta trianguli et quadranguli, quas
+<lb ed="#L" n="56"/>impossibile est adaequate contineri in subiecto geometriae,
+<lb ed="#L" n="57"/>ut patet. ;
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3703">
+                  <lb ed="#L" n="58"/>XII. Ad primam ergo Scoti rationem, iam dictum est,
+<lb ed="#L" n="59"/>- Ad secundam vero, ex eodem fundamento dicitur, quod
+<lb ed="#L" n="60"/>subiectum habitus. continere virtualiter totum habitum,
+<lb ed="#L" n="61"/>potest dupliciter intelligi: uno modo, accipiendo subiectum
+<lb ed="#L" n="62"/>in seipso; alio modo, ut inventum in aliis per se 
+partici<lb break="no" ed="#L" n="63"/>pantibus quomodolibet ipsum. Et similiter continere 
+vir<lb break="no" ed="#L" n="64"/>tualiter dupliciter: scilicet adaequate, et ut primam causam.
+<lb ed="#L" n="65"/>Subiectum in seipso continet virtualiter, ut prima causa,
+<lb ed="#L" n="66"/>totum habitum, et non partem; sicut sol continet virtualiter
+<lb ed="#L" n="67"/>totum hominem, et non partem, ut prima tamen sive 
+supe<lb break="no" ed="#L" n="68"/>rior causa. Subiectum autem in se et in participantibus, 
+con<lb break="no" ed="#L" n="69"/>tinet virtualiter et adaequate, ut tota causa, totum habitum.
+<lb ed="#L" n="70"/>- Et sic patet ad dubium et simpliciter, et ad hominem ..
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3734">
+                  <lb ed="#L" n="71"/>XIII. Quoad secundum, referuntur tres aliorum 
+assi<lb break="no" ed="#L" n="72"/>gnationes. Prima est Magistri Sententiarum: secunda 
+Hugo<lb break="no" ed="#L" n="73"/>nis de Sancto Victore: tertia est Lincolniensis. Sed adverte
+<lb ed="#L" n="74"/>modestiam Auctoris. Quoniam primo, excusando illos, dicit :
+<lb ed="#L" n="75"/>quod attenderunt ad materiam: quasi diceret quod non 
+in<lb break="no" ed="#L" n="76"/>tendebant assignare subiectum formale. Secundo, omnia
+<lb ed="#L" n="77"/>supradicta reducit ad subiectum formale a se assignatum,
+<lb ed="#L" n="78"/>dicens omnia haec tractari in ordine ad Deum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e51-Dd1e3755"><!-- caj-p1-q1-a8 -->
+               <head xml:id="TAcCaj-d1e51-Hd1e3758">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e51-d1e3760">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3767">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>IN titulo: argumentativa , idest probativa eorum quae
+<lb ed="#L" n="67"/>docet: an non, sed forte simpliciter proponit, ut Scotus
+<lb ed="#L" n="68"/>dixit contra articulum 2.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3778">
+                  <lb ed="#L" n="69"/>II. In corpore tres conclusiones. Prima est: Sacra 
+do<lb break="no" ed="#L" n="70"/>ctrina non arguit ad principia, sed ad conclusiones ex
+<lb ed="#L" n="71"/>principiis, Secunda est: Sacra doctrina disputat arguendo
+<lb ed="#L" n="72"/>contra negantes principia eius, si aliquid eius concedunt.
+<lb ed="#L" n="73"/>Tertia: Sacra doctrina disputat solvendo tantum, contra
+<lb ed="#L" n="74"/>negantes principia et nihil eius omnino concedentes. - Et
+<lb ed="#L" n="75"/>est semper sermo de principiis complexis cognitionis in
+<lb ed="#L" n="76"/>hac scientia, idest articulis fidei: quidquid sit de principiis
+<lb ed="#L" n="77"/>incomplexis, aut ipsius esse tantum.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3800">
+                  <lb ed="#L" n="78"/>IIT. Prima conclusio probatur. Nulla scientia probat sua
+<lb ed="#L" n="79"/>principia, sed ex eis conclusiones: ergo. - Et confirmatur
+<lb ed="#L" n="80"/>secunda pars conclusionis, auctoritate Apostoli, I ad Cor. xv.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3810">
+                  <lb ed="#L" n="81"/>Secunda vero et tertia, primo simul probantur. 
+Scien<lb break="no" ed="#L" n="82"/>tia suprema inter physicas, disputat contra negantes 
+prin<lb break="no" ed="#L" n="83"/>cipia; et defendit solvendo saltem, si nihil concedunt.
+<lb ed="#L" n="84"/>Ergo et haec doctrina habet utrumque. - Antecedens 
+de<lb break="no" ed="#L" n="85"/>claratur ex differentia inter scientias inferiores et supre-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>mam. Consequentia vero probatur: quia ista scientia
+<lb ed="#L" n="87"/>suprema.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3830">
+                  <lb ed="#L" n="88"/>Deinde manifestantur singillatim. Secunda quidem, cum
+<lb ed="#L" n="89"/>contra haereticos ex uno articulo probamus alium, etc.
+<lb ed="#L" n="90"/>Tertia vero, quia contra veritatem infallibilem nulla potest
+<lb ed="#L" n="91"/>demonstrativa ratio esse: ergo omnes rationes contra ea
+<lb ed="#L" n="92"/>quae sunt istius scientiae, sunt rationes solubiles. Tenet
+<lb ed="#L" n="93"/>sequela: quia haec doctrina innititur infallibili veritati.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3846">
+                  <lb ed="#L" n="94"/>IV. Circa tertiam conclusionem, adverte quod 
+theolo<lb break="no" ed="#L" n="95"/>gum posse solvere rationes philosophorum contra ea quae
+<lb ed="#L" n="96"/>sunt fidei, contingit dupliciter. Uno modo, ex creditis: ut
+<lb ed="#L" n="97"/>puta si dicenti quod omnis una res numero est una 
+hypo<lb break="no" ed="#L" n="98"/>statice, respondet: « Nego, quia Deus est trinus. » Et sic
+<lb ed="#L" n="99"/>theologalis solutio non solvit nisi credendo. - Alio modo,
+<lb ed="#L" n="100"/>ex propositionibus scitis, simpliciter vel quoad hoc: ut puta
+<lb ed="#L" n="101"/>si responderet: « Nego in re infinita »: non quia sciat eius
+<lb ed="#L" n="102"/>contradictoriam, scilicet res infinita est plures hypostatice ;
+<lb ed="#L" n="103"/>sed quia scit negative nullum haberi efficax medium ad
+<lb ed="#L" n="104"/>illam probandam (et dicitur scire negative, quando nullo
+<lb ed="#L" n="105"/>medio cogitur intellectus). Et sic theologus solvit ex scitis
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3875">
+                  <pb ed="#L" n="23"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quoad hoc. Quandoque autem ex scitis simpliciter: ut si
+<lb ed="#L" n="2"/>solvat rationem contra accidentia in Sacramento Altaris, quia
+<lb ed="#L" n="3"/>accidentis esse non est inesse actualiter, sed aptitudinaliter.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3888">
+                  <lb ed="#L" n="4"/>In proposito, litteram hanc intelligo de solutione 
+theo<lb break="no" ed="#L" n="5"/>logali secundo modo. Et si instetur, quia huiusmodi solutio
+<lb ed="#L" n="6"/>non est theologi ut theologus est, quia non ex principiis
+<lb ed="#L" n="7"/>theologiae: negetur assumptum: quoniam theologia non
+<lb ed="#L" n="8"/>solum gaudet propriis, sed etiam facit de extraneis 
+pro<lb break="no" ed="#L" n="9"/>pria, dum ad defensionem suam aliarum scientiarum 
+pro<lb break="no" ed="#L" n="10"/>positionibus utitur propter nos, ut in articulo 5, ad 2,
+<lb ed="#L" n="11"/>tactum est. Et quamvis pura theologalia oporteat ex 
+prin<lb break="no" ed="#L" n="12"/>cipiis manare theologalibus; theologalia tamen 
+ministeria<lb break="no" ed="#L" n="13"/>liter, non oportet, sed sat est eis servire. Sic autem 
+theo<lb break="no" ed="#L" n="14"/>logales sunt huiusmodi solutiones.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3914">
+                  <lb ed="#L" n="15"/>Unde minus bene videntur sentire, qui solvere 
+theolo<lb break="no" ed="#L" n="16"/>giae tribuunt, non nisi ex aliqua propositione credita. Et
+<lb ed="#L" n="17"/>decepti sunt quia non discreverunt inter solutionis et 
+pro<lb break="no" ed="#L" n="18"/>bationis naturas. Probatio namque est ex evidentibus: 
+so<lb break="no" ed="#L" n="19"/>lutio autem est etiam ex his quae non apparent esse falsa,
+<lb ed="#L" n="20"/>dato quod non sciantur esse vera. Et propterea theologus
+<lb ed="#L" n="21"/>potest semper solvere, nunquam coacto intellectu ab aliqua
+<lb ed="#L" n="22"/>ropositione contraria his quae sunt fidei, quamvis eorum
+<lb ed="#L" n="23"/>tatem non videat.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3937">
+                  <lb ed="#L" n="24"/>V. Circa probationem tertiae conclusionis, scito quod
+<lb ed="#L" n="25"/>aliud est scire omnes rationes contra fidem esse solubiles:
+<lb ed="#L" n="26"/>et aliud est scire solvere eas. Primum probatur in littera:
+<lb ed="#L" n="27"/>et probatio assumit unam propositionem creditam, scilicet,
+<lb ed="#L" n="28"/>haec doctrina innititur veritati infallibili: et propterea 
+con<lb break="no" ed="#L" n="29"/>clusio haec non nobis hic evidens est. Secundum vero in
+<lb ed="#L" n="30"/>actu exercito consistit: et liber Contra Gentiles his plenus
+<lb ed="#L" n="31"/>est. Et quoniam solutio, ut dictum est et experimur, non
+<lb ed="#L" n="32"/>requirit evidentiam, sed non-coactionem intellectus; et hoc
+<lb ed="#L" n="33"/>in ipso exercitio solutionis convincitur, dum ratio cogens
+<lb ed="#L" n="34"/>non adest: ideo scire solvere, seu solvere contraria huius
+<lb ed="#L" n="35"/>doctrinae, non est credere, aut ex credere, nisi 
+occasio<lb break="no" ed="#L" n="36"/>naliter; quoniam ex hoc quod credimus, applicamus 
+intel<lb break="no" ed="#L" n="37"/>lectum àd inveniendum defectus rationum et propositionum
+<lb ed="#L" n="38"/>contrariarum. Et hanc distinctionem bene nota: quia 
+inad<lb break="no" ed="#L" n="39"/>vertentia eius forte quosdam in hac littera errare permisit.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e3974">
+                  <lb ed="#L" n="40"/>VI. In responsione ad secundum, nota quatuor 
+enume<lb break="no" ed="#L" n="41"/>rata, scilicet: auctoritates sacrae Séripturae, auctoritates
+<lb ed="#L" n="42"/>sanctorum Doctorum, rationes humanas, et auctoritates 
+phi<lb break="no" ed="#L" n="43"/>losophorum. Et ex primis quidem doctrina haec procedere
+<lb ed="#L" n="44"/>dicitur ut ex. propriis et necessariis: ex secundis autem ut
+<lb ed="#L" n="45"/>ex propriis, sed probabilibus: ex quartis vero ut 
+probabi<lb break="no" ed="#L" n="46"/>libus, sed extraneis. Et sic tertiis nullus assignatur locus.
+<lb ed="#L" n="47"/>Et propterea sciendum est quod ratio humana de qua hic
+<lb ed="#L" n="48"/>est sermo, nihil aliud est quam argumentatio aliqua ex
+<lb ed="#L" n="49"/>solo naturali lumine robur habens. Et est duplex: 
+quae<lb break="no" ed="#L" n="50"/>dam necessario concludens, quae vocatur demonstratio; et.
+<lb ed="#L" n="51"/>quaedam probabiliter, quae magnam habet latitudinem.
+<lb ed="#L" n="52"/>Utraque autem in aliqua certa scientia physica clauditur,
+<lb ed="#L" n="53"/>et consequenter extranea est a genere scibili theologico:
+<lb ed="#L" n="54"/>ac per hoc, theologia procedit ex ratione humana ut sic,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="55"/>ut ex extraneis, Et quoniam nulla demonstratio physica
+<lb ed="#L" n="56"/>potest afferri ad theologalia ut sic (quoniam theologalia, ut
+<lb ed="#L" n="57"/>sic sunt, oportet resolvi in principia evidentia, non lumine
+<lb ed="#L" n="58"/>naturali, sed divino), ideo, absolute loquendo, ex ratione
+<lb ed="#L" n="59"/>naturali procedit theologia ut ex extraneis et probabilibus;
+<lb ed="#L" n="60"/>quemadmodum ex auctoritatibus philosophorum. Et 
+pro<lb break="no" ed="#L" n="61"/>pterea sedes assignata auctoritatibus philosophorum, 
+intel<lb break="no" ed="#L" n="62"/>ligenda est assignata etiam rationi naturali quam 
+cogno<lb break="no" ed="#L" n="63"/>verunt: in cuius signum simul tractabat utrumque. Et sic
+<lb ed="#L" n="64"/>omnia enumerata sunt locata.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4033">
+                  <lb ed="#L" n="65"/>VII. Sed dubium hic occurrit non dissimulandum. Si
+<lb ed="#L" n="66"/>ex rationibus naturalibus theologia procedit ut ex extraneis
+<lb ed="#L" n="67"/>et probabilibus, cur tantus labor a doctoribus speculativis
+<lb ed="#L" n="68"/>assumptus est? Quorsum libri Contra Gentiles, rationibus
+<lb ed="#L" n="69"/>naturalibus pleni? etc. Aut enim hi non tradunt 
+theolo<lb break="no" ed="#L" n="70"/>giam: aut in extraneis nimis morati sunt.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4049">
+                  <lb ed="#L" n="71"/>VIII. Ad hoc breviter dicitur, quod demonstrationes 
+me<lb break="no" ed="#L" n="72"/>taphysicae et naturales quae afferuntur in sacra doctrina,
+<lb ed="#L" n="73"/>simpliciter quidem sunt extraneae: sed ut ministrae 
+theo<lb break="no" ed="#L" n="74"/>logiae, ad destruendas positiones oppositas conclusionibus
+<lb ed="#L" n="75"/>aut principiis theologalibus, aut ad solvendas rationes contra
+<lb ed="#L" n="76"/>theologalia factas, aut ad stabilienda ea de quibus 
+theo<lb break="no" ed="#L" n="77"/>logia secundario est, ut Deum esse, et unum esse, et 
+im<lb break="no" ed="#L" n="78"/>mortalem, etc., non sunt extraneae; sed ex eis procedit
+<lb ed="#L" n="79"/>theologia ut ex propriis, et quandoque necessariis; 
+mini<lb break="no" ed="#L" n="80"/>sterialiter tamen , et non ratione sui, sed propter nostri
+<lb ed="#L" n="81"/>intellectus infirmitatem, ut in articulo 5, ad 2, dictum est. Et
+<lb ed="#L" n="82"/>propterea sancti Doctores, qui speculativo ingenio praediti
+<lb ed="#L" n="83"/>fuerunt, intellectus humani defectui subvenire cupientes,
+<lb ed="#L" n="84"/>rationes philosophicas plurimas conati sunt afferre ad 
+ali<lb break="no" ed="#L" n="85"/>quod horum trium; ut sic viri docti, ea quae fidei sunt
+<lb ed="#L" n="86"/>rationi non contraria comperientes, facilius his quae fidei
+<lb ed="#L" n="87"/>sunt adhaerere possint, aut saltem ea non spernere aut
+<lb ed="#L" n="88"/>deridere.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4091">
+                  <lb ed="#L" n="89"/>Suadetur autem huiusmodi rationes, ut ministras, 
+pro<lb break="no" ed="#L" n="90"/>prias effici huius scientiae propter nos, ex littera in tertia
+<lb ed="#L" n="91"/>conclusione, et eius marmifestatione. Non enim aliter 
+pos<lb break="no" ed="#L" n="92"/>sunt solvi obiectiones oppositae sufficienti solutione, nisi
+<lb ed="#L" n="93"/>ex rationibus philosophicis: si namque ex creditis solvenda
+<lb ed="#L" n="94"/>essent obiecta philosophorum, ridiculo philosophis theologi
+<lb ed="#L" n="95"/>essent, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4109">
+                  <lb ed="#L" n="96"/>IX. Circa haec diligenter adverte, quod aliud est loqui
+<lb ed="#L" n="97"/>de ratione humana, et aliud loqui de propositionibus notis
+<lb ed="#L" n="98"/>ratione humana. |n littera, ut declaravimus, insinuatur
+<lb ed="#L" n="99"/>quod ex ratione humana, absolute loquendo, haec doctrina
+<lb ed="#L" n="100"/>procedit ut ex extraneis: quoniam propositiones notae 
+na<lb break="no" ed="#L" n="101"/>turali, non divino lumine, ut sic, sunt extraneae. Sed tamen
+<lb ed="#L" n="102"/>multae propositiones notae naturali lumine et 
+demonstra<lb break="no" ed="#L" n="103"/>tione, secundum seipsas sumptae, sunt vere et proprie 
+theo<lb break="no" ed="#L" n="104"/>logales, sub alio tamen lumine, ut in 1 articulo, in 
+respon<lb break="no" ed="#L" n="105"/>sione ad 2, patet; ut patet de istis, Deus est, Deus est unus,
+<lb ed="#L" n="106"/>Deus est bonus, etc. Unde, cum theologus arguit ex istis,
+<lb ed="#L" n="107"/>arguit ex propriis; quamvis non proprio tantum modo
+<lb ed="#L" n="108"/>notis, pro quanto sunt non solum revelata, sed etiam scita.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e51-Dd1e4141"><!-- caj-p1-q1-a9 -->
+               <head xml:id="TAcCaj-d1e51-Hd1e4144">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e51-d1e4146">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="73"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4153">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="74"/>In titulo, uti metaphoris est uti locutionibus quae non
+<lb ed="#L" n="75"/>verificantur de his de quibus dicuntur, secundum 
+pro<lb break="no" ed="#L" n="76"/>priam significationem, sed secundum aliquam similitudinem
+<lb ed="#L" n="77"/>ad proprie significata: ut cum dicitur quod Deus noster
+<lb ed="#L" n="78"/>ignis consumens est, utimur metaphora; quia Deus non
+<lb ed="#L" n="79"/>est vere ignis, sed se habet ad modum ignis consumentis.
+<lb ed="#L" n="80"/>Et sic de aliis. Et occasionem sumit quaestio haec ex II
+<lb ed="#L" n="81"/>Poster., ubi prohibentur metaphorae in scientiis.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4175">
+                  <lb ed="#L" n="82"/>II. In corpore una conclusio, responsiva quaesito affir-.
+<lb ed="#L" n="83"/>mative: Sacra doctrina congrue utitur metaphoris 
+corpo<lb break="no" ed="#L" n="84"/>ralium ad divina et spiritualia.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4184">
+                  <lb ed="#L" n="85"/>Probatur dupliciter. Primo. Deus omnibus providet prout
+<lb ed="#L" n="86"/>congruit eorum naturae. Ergo convenienter homini in sacra
+<lb ed="#L" n="87"/>doctrina spiritualia sub corporalibus similitudinibus 
+tradun<lb break="no" ed="#L" n="88"/>tur. - Antecedens patet. Consequentia vero probatur: quia
+<lb ed="#L" n="89"/>naturale est homini ad intelligibilia per sensibilia duci.
+<lb ed="#L" n="90"/>Probatur: quia omnis nostra cognitio oritur a sensu. Et
+<lb ed="#L" n="91"/>confirmatur haec ratio auctoritate Dionysii, etc.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4203">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>Secundo. Sacra doctrina proponitur omnibus 
+homini<lb break="no" ed="#L" n="93"/>bus communiter. Ergo congrue spiritualia sub 
+similitu<lb break="no" ed="#L" n="94"/>dinibus corporalium traduntur. - Antecedens probatur ad
+<lb ed="#L" n="95"/>Rom. l. Consequentia autem probatur: quia plures non
+<lb ed="#L" n="96"/>sunt idonei ad intelligibilia secundum se, qui vel sic ea
+<lb ed="#L" n="97"/>capere possunt.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4221">
+                  <lb ed="#L" n="98"/>III. In responsione ad primum, dubium occurrit, quo- -
+<lb ed="#L" n="99"/>modo verificetur quod haec doctrina utatur metaphoris
+<lb ed="#L" n="100"/>propter necessitatem et utilitatem, ut dictum est. Nulla
+<lb ed="#L" n="101"/>siquidem necessitas est, aut in corpore ostensa est, Secunda
+<lb ed="#L" n="102"/>namque ratio utilitatem tantum infert, ut patet: prima
+<lb ed="#L" n="103"/>vero convenientiam, ut ipsa littera testatur, et convinci
+<lb ed="#L" n="104"/>potest ex eo quod connaturalitas nostra ad sensibilia non
+<lb ed="#L" n="105"/>infert necessitatem ad 'alia sensibilia, scilicet metaphoras. —
+<lb ed="#L" n="106"/>Et augetur dubium: quia nihil est metaphorice in Scriptura
+<lb ed="#L" n="107"/>traditum, quod non possit proprie doceri. Nulla ergo est
+<lb ed="#L" n="108"/>necessitas utendi metaphoris in hac doctrina, quamvis 
+con<lb break="no" ed="#L" n="109"/>venienter et utiliter eis utatur.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4250">
+                  <pb ed="#L" n="25"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>IV. Ad hoc dicendum mihi videtur, quod uti 
+metapho<lb break="no" ed="#L" n="2"/>ris in hac doctrina est quodammodo necessarium, et 
+quo<lb break="no" ed="#L" n="3"/>dammodo non: et hoc respectu non horum aut illorum ,
+<lb ed="#L" n="4"/>puta minus idoneorum, sed respectu hominis viatoris. Est
+<lb ed="#L" n="5"/>siquidem necessarium propter melius consequendum 
+fi<lb break="no" ed="#L" n="6"/>nem, scilicet cognitionem Dei. Et haec necessitas 
+osten<lb break="no" ed="#L" n="7"/>ditur per primam rationem litterae. Ex hoc namque quod
+<lb ed="#L" n="8"/>connaturale est homini intelligibilia per sensibilia tantum
+<lb ed="#L" n="9"/>nosse, oportet, si spiritualia facile et suo modo cognoscere
+<lb ed="#L" n="10"/>debet, ut per metaphoras cognoscat: quoniam metaphorae
+<lb ed="#L" n="11"/>supplent vices spiritualium specierum, quae de spiritualibus
+<lb ed="#L" n="12"/>haberi deberent secundum se. - Non est autem necessarium
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>simpliciter: quia etsi non absque phantasmatibus, tamen
+<lb ed="#L" n="14"/>absque metaphoris posset homo etiam in hoc statu capere
+<lb ed="#L" n="15"/>quae dicuntur, licet non ita facile.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4292">
+                  <lb ed="#L" n="16"/>Et per hoc patet solutio ad obiecta. Prima namque
+<lb ed="#L" n="17"/>ratio ostendit non solum convenientiam, sed, ostendendo
+<lb ed="#L" n="18"/>convenientiam, ex hoc ipso ostendit necessitatem, non 
+sim<lb break="no" ed="#L" n="19"/>pliciter, sed propter melius. - Et si contra hoc instetur 
+au<lb break="no" ed="#L" n="20"/>ctoritate Dionysii in littera allata, Zmpossibile est: dici
+<lb ed="#L" n="21"/>potest quod impossibile distinguitur sicut et necessarium:
+<lb ed="#L" n="22"/>quoniam impossibile et necessarium non aequipollent; et
+<lb ed="#L" n="23"/>perinde est ac si diceretur, zecesse est non aliter lucere
+<lb ed="#L" n="24"/>nobis, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e51-Dd1e4315"><!-- caj-p1-q1-a10 -->
+               <head xml:id="TAcCaj-d1e51-Hd1e4318">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e51-d1e4320">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="27"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4327">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>TITULUS clarus. - In corpore duae conclusiones. Prima
+<lb ed="#L" n="29"/>respondet quaesito affirmative: Sacra doctrina sub una
+<lb ed="#L" n="30"/>littera habet plures sensus, scilicet litteralem et spiritualem:
+<lb ed="#L" n="31"/>et hunc triplicem, scilicet allegoricum, moralem et 
+ana<lb break="no" ed="#L" n="32"/>gogicum.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4343">
+                  <lb ed="#L" n="33"/>Probatur ex differentia inter hanc scientiam et alias, ex
+<lb ed="#L" n="34"/>differentia inter auctores derivata. Auctor huius doctrinae est
+<lb ed="#L" n="35"/>Deus, ceterarum homo: ergo in potestate huius auctoris
+<lb ed="#L" n="36"/>est accommodatio et vocum et rerum ad significandum, et
+<lb ed="#L" n="37"/>non in potestate auctoris aliarum. Ergo in ceteris scientiis
+<lb ed="#L" n="38"/>voces tantum significant: in hac vero et voces et res. Ergo
+<lb ed="#L" n="39"/>in hac est duplex sensus, scilicet litteralis et spiritualis. —
+<lb ed="#L" n="40"/>Omnes consequentiae patent. Et ultima declaratur: quia
+<lb ed="#L" n="41"/>iuxta significationem vocum, attenditur sensus litteralis:
+<lb ed="#L" n="42"/>iuxta significationem autem rerum, attenditur sensus 
+my<lb break="no" ed="#L" n="43"/>sticus.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4369">
+                  <lb ed="#L" n="44"/>Quoad secundam vero partem, declaratur distinguendo
+<lb ed="#L" n="45"/>triplicem figurationem, ut clare patet in littera.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4377">
+                  <lb ed="#L" n="46"/>II. Circa hanc partem nota, cum accommodare res ad
+<lb ed="#L" n="47"/>significandum nihil aliud sit quam facere res esse non solum
+<lb ed="#L" n="48"/>res, sed signa aliarum rerum, dupliciter intelligi potest res
+<lb ed="#L" n="49"/>fieri signa: uno modo, in ipsa generatione rerum, ut 
+sci<lb break="no" ed="#L" n="50"/>licet simul fiant ad hoc ut sint res, et signa aliarum 
+re<lb break="no" ed="#L" n="51"/>rum; alio modo, adventitie, ut res iam factae accipiantur
+<lb ed="#L" n="52"/>utsigna, — Si accommodatio rerum ad hoc ut sint signa,
+<lb ed="#L" n="53"/>sumatur hoc secundo modo, non est proprium Dei, nec
+<lb ed="#L" n="54"/>excedit hominis facultatem, accommodare res ad 
+significan<lb break="no" ed="#L" n="55"/>dum: nec est proprium huius scientiae quod res significent.
+<lb ed="#L" n="56"/>Quoniam res gestae narratae in aliis historiis, possunt ab
+<lb ed="#L" n="57"/>homine interpretari ut signa aliarum; non solum per 
+mo<lb break="no" ed="#L" n="58"/>dum imitationis, ut gesta fortia antiquorum imitanda sint
+<lb ed="#L" n="59"/>a successoribus; sed per modum significationis, ut scilicet
+<lb ed="#L" n="60"/>gesta illa ut signa habeantur gerendorum. - Si autem 
+su<lb break="no" ed="#L" n="61"/>matur accommodatio rerum ad significandum, primo modo,
+<lb ed="#L" n="62"/>dupliciter potest intelligi: scilicet universaliter, et 
+particula<lb break="no" ed="#L" n="63"/>riter. Si particulariter, sic non excedit hominis potestatem:
+<lb ed="#L" n="64"/>nam quilibet potest facere aliquos actus, vel aliquod 
+arti<lb break="no" ed="#L" n="65"/>ficiale, et faciendo illa, intendere per illa significare aliam
+<lb ed="#L" n="66"/>rem, ut patet. Sed quod omnia quae narrantur gesta in tot
+<lb ed="#L" n="67"/>historiis ut res ad doctrinam aliquam spectantes, ut sic,
+<lb ed="#L" n="68"/>sint ex sui constitutione signa aliarum rerum, hoc excedit
+<lb ed="#L" n="69"/>humanam facultatem: hoc Dei est proprium: in hoc haec
+<lb ed="#L" n="70"/>doctrina ceteras scientias excellit.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4434">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="71"/>Est igitur sensus litterae, quod accommodare res 
+uni<lb break="no" ed="#L" n="72"/>versaliter spectantes ad doctrinam, ad hoc ut signa sint
+<lb ed="#L" n="73"/>cum fiunt, est proprium huius doctrinae: quia hoc a solo
+<lb ed="#L" n="74"/>Auctore huius doctrinae fieri potest. Non enim ex 
+adinven<lb break="no" ed="#L" n="75"/>tione nostra, petra de qua fluxit Iudaeis aqua in deserto,
+<lb ed="#L" n="76"/>facta est signum Christi: sed ad hoc ex illa petra fluxit
+<lb ed="#L" n="77"/>aqua, ut in veritate esset fons aquae, et esset signum Christi,
+<lb ed="#L" n="78"/>qui fons est aquae spiritalis, dicente apostolo: bibebant
+<lb ed="#L" n="79"/>autem de spirituali consequente eos petra, petra autem
+<lb ed="#L" n="80"/>erat Christus. Et sic de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4460">
+                  <lb ed="#L" n="81"/>III. Secunda conclusio est, Non inconvenit in una littera
+<lb ed="#L" n="82"/>Scripturae, secundum sensum litteralem, esse plures sensus.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4467">
+                  <lb ed="#L" n="83"/>Probatur dupliciter. Primo, ratione. Auctor Scripturae
+<lb ed="#L" n="84"/>sanctae est Deus, omnia simul suo intellectu 
+comprehen<lb break="no" ed="#L" n="85"/>dens: ergo non inconvenit, etc. Probatur consequentia:
+<lb ed="#L" n="86"/>quia sensus litteralis est quem Auctor Scripturae intendit. —
+<lb ed="#L" n="87"/>Secundo, auctoritate Augustini, XII Confessionum.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4480">
+                  <lb ed="#L" n="88"/>IV. Circa hanc conclusionem occurrit dubium. Quia si
+<lb ed="#L" n="89"/>sensus litteralis potest multiplicari, nulla erit certitudo quis
+<lb ed="#L" n="90"/>sensus sit intentus ad litteram, quolibet praeferente suam
+<lb ed="#L" n="91"/>expositionem interpretationi alterius: cum enim de 
+inten<lb break="no" ed="#L" n="92"/>tione Dei non aliter constet, oportebit omnes litterae 
+ex<lb break="no" ed="#L" n="93"/>positiones ut litterales acceptare, aut nullam.
+</p>
+               <p xml:id="TAcCaj-d1e51-d1e4496">
+                  <lb ed="#L" n="94"/>V. Ad hoc breviter dicitur, quod littera habens multas
+<lb ed="#L" n="95"/>expositiones, dupliciter se potest habere ad illas. Primo,
+<lb ed="#L" n="96"/>compatiens illas tam absolute, quam in ordine ad reliqua
+<lb ed="#L" n="97"/>quae sunt fidei. Et tunc multitudo expositionum litteralium
+<lb ed="#L" n="98"/>ad exercitationem nostram confert, dignitatique Auctoris
+<lb ed="#L" n="99"/>attestatur, ut Augustinus ibidem vult. Secundo, ut 
+compa<lb break="no" ed="#L" n="100"/>tiens illas in se, non tamen collata cum aliis litteris sacrae
+<lb ed="#L" n="101"/>Scripturae. Et tunc ex tali collatione excludi possunt omnes
+<lb ed="#L" n="102"/>illae interpretationes repugnantes: non repugnantes vero
+<lb ed="#L" n="103"/>admitti, Sicut enim in responsione ad primum in littera
+<lb ed="#L" n="104"/>dicitur, nihil necessarium ad salutem continetur in sacra
+<lb ed="#L" n="105"/>Scriptura, quod non per litteralem sensum alicubi manifeste
+<lb ed="#L" n="106"/>tradatur: quamvis in aliqua littera obscure habeatur, propter
+<lb ed="#L" n="107"/>multitudinem expositionum. — Et si deficeret collatio 
+litte<lb break="no" ed="#L" n="108"/>rae obscurae ad manifestam, nunquam tamen deest 
+col<lb break="no" ed="#L" n="109"/>latio ad sanctae Ecclesiae auctoritatem; a qua non solum
+<lb ed="#L" n="110"/>certificari possumus de litterali sensu Scripturae, sed certi
+<lb ed="#L" n="111"/>facti sumus de Scriptura ipsa: Evangelio (inquit Augustinus
+<lb ed="#L" n="112"/>in epistola contra Fundamentum) non crederem, nisi me
+<lb ed="#L" n="113"/>auctoritas Ecclesiae admoneret.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

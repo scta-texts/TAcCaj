@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="211"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e128"><!-- TAcCajp1-q16 -->
+            <head xml:id="TAcCaj-d1e128-Hd1e99">Quaestio 16</head>
+            <div xml:id="TAcCaj-d1e128-Dd1e101"><!-- caj-p1-q16-a1 -->
+               <head xml:id="TAcCaj-d1e128-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e128-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>Titulus clarus. - In corpore duo: primo, respondet 
+quae<lb break="no" ed="#L" n="55"/>sito; secundo, assignat rationem plurium definitionum
+<lb ed="#L" n="56"/>veritatis, ibi: Et secundum hoc veritas.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e124">
+                  <lb ed="#L" n="57"/>II. Quoad primum, conclusio responsiva quaesito est:
+<lb ed="#L" n="58"/>Veritas principaliter est in intellectu, secundario in rebus,
+<lb ed="#L" n="59"/>in ordine ad intellectum a quo dependent.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e133">
+                  <lb ed="#L" n="60"/>Haec conclusio habet tres partes. Et quoad primam 
+qui<lb break="no" ed="#L" n="61"/>dem, probatur. Verum est terminus intellectus: ergo est in
+<lb ed="#L" n="62"/>intellectu. — Antecedens declaratur ex proportionali 
+conve<lb break="no" ed="#L" n="63"/>nientia inter verum et bonum: quia sicut bonum significat
+<lb ed="#L" n="64"/>id in quod tendit appetitus, ita verum id ad quod tendit
+<lb ed="#L" n="65"/>intellectus. Consequentia vero probatur ex differentia inter
+<lb ed="#L" n="66"/>appetitum et cognitionem, ex VI Metaphys.: quia ille
+<lb ed="#L" n="67"/>extra, haec intus perficitur.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e154">
+                  <lb ed="#L" n="68"/>Quoad secundam vero partem, scilicet quod secundario
+<lb ed="#L" n="69"/>in rebus, probatur ibi: Sicut autem bonum. Verum est in
+<lb ed="#L" n="70"/>intellectu eund quod conformatur rei intellectae: ergo
+<lb ed="#L" n="71"/>ràtio veri ab llectu ad rem intellectam derivatur: ergo
+<lb ed="#L" n="72"/>res intellecta vera dieitur, secundum quod habet ordinem
+<lb ed="#L" n="73"/>ad intellectum. - Antécedens manifestatur ex proportionali
+<lb ed="#L" n="74"/>convenientia inter bon t yerum: quia sicut bonum est
+<lb ed="#L" n="75"/>in re ut conveniens est ap iui, ita verum in intellectu, etc.
+<lb ed="#L" n="76"/>Consequentia quoque uti 'ex eadem radice probatur:
+<lb ed="#L" n="77"/>prima, quia ex bono in re bonitas ad appetitum derivatur;
+<lb ed="#L" n="78"/>secunda quoque, quia ex hoc appetitus boni dicitur bonus.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e180">
+                  <lb ed="#L" n="79"/>Quoad tertiam autem partem, scilicet a quo dependent
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>probatur ibi, Res autem intellecta, dupliciter: primo, 
+ra<lb break="no" ed="#L" n="81"/>tione; secundo, ab effectibus. Ratio est. Iudicium de 
+una<lb break="no" ed="#L" n="82"/>quaque re non fit secundum ea quae insunt per accidens,
+<lb ed="#L" n="83"/>sed per se: ergo unaquaeque res dicitur vera absolute, 
+se<lb break="no" ed="#L" n="84"/>cundum ordinem ad intellectum a quo dependet. 
+Antece<lb break="no" ed="#L" n="85"/>dens patet. Consequentia vero probatur ex differentia inter
+<lb ed="#L" n="86"/>ordinem rei ad intellectum causativum, vel cognoscitivum
+<lb ed="#L" n="87"/>tantum: quia scilicet ad istum per accidens, ad illum per
+<lb ed="#L" n="88"/>se ordinem habet; quod declaratur exemplo domus 
+respe<lb break="no" ed="#L" n="89"/>ctu artificis et non artificis. - Effectus autem testimonium
+<lb ed="#L" n="90"/>praebentes his, sunt artificialia et naturalia. Artificialia enim,
+<lb ed="#L" n="91"/>tam mechanica, ut domus, quam liberalia, ut oratio, vera
+<lb ed="#L" n="92"/>absolute sunt, si conformia sunt artibus. Naturalia quoque
+<lb ed="#L" n="93"/>vera absolute sunt, si consonant opifici, quem supponimus
+<lb ed="#L" n="94"/>esse primum intellectum.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e219">
+                  <lb ed="#L" n="95"/>III. Circa praedicta, duae propositiones advertendae sunt.
+<lb ed="#L" n="96"/>Prima est, verum est id in quod tendit intellectus, sicut
+<lb ed="#L" n="97"/>bonum etc.: haec enim inferius art. 3, ad tertium, 
+discu<lb break="no" ed="#L" n="98"/>tietur. Altera est, cognitio est secundum quod cognitum
+<lb ed="#L" n="99"/>est in cognoscente, appetitus autem secundum  
+inclinatio<lb break="no" ed="#L" n="100"/>nem ad rem: et haec in qu. rxxxr, art. 3 defendetur, ubi
+<lb ed="#L" n="101"/>comparabitur intellectui voluntas.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e237">
+                  <lb ed="#L" n="102"/>IV. Quoad secundum, redditur ratio sex definitionum
+<lb ed="#L" n="103"/>veritatis; quod tres pertinent ad verum in re, duae ad 
+ve<lb break="no" ed="#L" n="104"/>rum in intellectu, et una ad verum utrobique. Omnia
+<lb ed="#L" n="105"/>clara sunt.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e128-Dd1e249"><!-- caj-p1-q16-a2 -->
+               <head xml:id="TAcCaj-d1e128-Hd1e252">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e128-d1e254">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="59"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e261">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>TITULUS clarus, apud retinentes quod intellectus 
+compo<lb break="no" ed="#L" n="61"/>nens et dividens non significat substantiam aut 
+poten<lb break="no" ed="#L" n="62"/>tiam aliquam; sed operationem intellectus vocatam 
+compo<lb break="no" ed="#L" n="63"/>sitio et divisio in III de Anima.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e274">
+                  <lb ed="#L" n="64"/>II. In corpore est unica conclusio, responsiva quaesito
+<lb ed="#L" n="65"/>affirmative: Veritas, proprie loquendo, est tantum in 
+intel<lb break="no" ed="#L" n="66"/>lectu componente et dividente, - Haec conclusio habet duas
+<lb ed="#L" n="67"/>exponentes, scilicet: veritas, proprie loquendo, est in 
+intel<lb break="no" ed="#L" n="68"/>lectu componente et dividente; et, quod in nullo alio. 
+Pro<lb break="no" ed="#L" n="69"/>banturque ambae simul in littera, sic. Omnis res est vera
+<lb ed="#L" n="70"/>secundum quod habet propriam formam suae naturae:
+<lb ed="#L" n="71"/>ergo intellectus, ut cognoscens, est verus, secundum quod
+<lb ed="#L" n="72"/>assimilatur rei cognitae: ergo veritas est conformitas 
+intel<lb break="no" ed="#L" n="73"/>lectus et rei: ergo cognoscere veritatem est cognoscere
+<lb ed="#L" n="74"/>conformitatem cognitionis ad cognitum: ergo nec sensus,
+<lb ed="#L" n="75"/>nec intellectus quod quid est, sed intellectus iudicans ita
+<lb ed="#L" n="76"/>esse sicut apprehenditur, cognoscit primo et dicit verum:
+<lb ed="#L" n="77"/>ergo intellectus componens et dividens cognoscit verum :
+<lb ed="#L" n="78"/>ergo in eo tantum est verum secundum proprium modum
+<lb ed="#L" n="79"/>nomine veri importatum: ergo in eo tantum est verum,
+<lb ed="#L" n="80"/>proprie loquendo.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e313">
+                  <lb ed="#L" n="81"/>Prima consequentia probatur: quia similitudo rei 
+co<lb break="no" ed="#L" n="82"/>gnitae est propria forma intellectus ut cognoscens. - 
+Se<lb break="no" ed="#L" n="83"/>cunda vero manifeste tenet ex suo antecedente probato,
+<lb ed="#L" n="84"/>adiuncta illa propositione in principio corporis articuli po-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="85"/>sita, scilicet, verum secundum sui primam rationem est in
+<lb ed="#L" n="86"/>intellectu. Si enim sic est, et veritas intellectus attenditur
+<lb ed="#L" n="87"/>secundum similitudinem ad rem, consequens est quod 
+ve<lb break="no" ed="#L" n="88"/>ritas per conformitatem intellectus et rei definienda sit. —
+<lb ed="#L" n="89"/>Tertia autem ut nota relinquitur. Et vere nota est: 
+quo<lb break="no" ed="#L" n="90"/>niam, si veritas cognitionis consistit in similitudine seu
+<lb ed="#L" n="91"/>conformitate intellectus et rei, oportet ut cognoscere 
+veri<lb break="no" ed="#L" n="92"/>tatem sit cognoscere conformitatem hanc, scilicet intellectus
+<lb ed="#L" n="93"/>et rei; et e converso, cognoscere hanc conformitatem sit
+<lb ed="#L" n="94"/>cognoscere veritatem, - Quarta vero, quoad partes negativas,
+<lb ed="#L" n="95"/>declaratur in visu et intellectu simplici. Quoad affirmativam
+<lb ed="#L" n="96"/>vero, nec probatione nec manifestatione eget. - Quinta 
+au<lb break="no" ed="#L" n="97"/>tem probatur: quia in omni propositione aliquam formam
+<lb ed="#L" n="98"/>significatam per praedicatum, applicat rei significatae per
+<lb ed="#L" n="99"/>subiectum, vel removet ab ea.- Sexta vero probatur: quia
+<lb ed="#L" n="100"/>verum est perfectio intellectus ut cognitum. Et 
+manifesta<lb break="no" ed="#L" n="101"/>tur ex differentia, ex supradictis consequente, inter 
+cogno<lb break="no" ed="#L" n="102"/>scentem esse verum, et cognoscentem cognoscere verum.
+<lb ed="#L" n="103"/>Illud enim est cognoscentem esse verum ut quandam rem:
+<lb ed="#L" n="104"/>et ideo convenit sensui, et intellectui quod quid est, et
+<lb ed="#L" n="105"/>vocibus incomplexis. Hoc autem est habere verum ut 
+co<lb break="no" ed="#L" n="106"/>gnitum in cognoscente: et ideo in intellectu componente,
+<lb ed="#L" n="107"/>vocibusque complexis ut signis, etc, - Ultima demum 
+con<lb break="no" ed="#L" n="108"/>sequentia per se nota est, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e379">
+                  <lb ed="#L" n="109"/>III. Ad evidentiam horum, adverte quod planus sensus
+<pb ed="#L" n="212"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quem superficies huius litterae prima fronte ostendit, 
+vide<lb break="no" ed="#L" n="2"/>tur quod, quia cognitio sensus, puta visus, aut etiam 
+sim<lb break="no" ed="#L" n="3"/>plicis intellectus, conformis est rei, ideo vera dici potest:
+<lb ed="#L" n="4"/>sed quia non potest illam conformitatem quae est inter
+<lb ed="#L" n="5"/>ipsam cognitionem simplicem et rem, cognoscere, ideo
+<lb ed="#L" n="6"/>non cognoscit verum: et quia intellectus componens illam
+<lb ed="#L" n="7"/>cognoscit, ideo cognoscit verum. - Sed huiusmodi sensus
+<lb ed="#L" n="8"/>alienus est ab hac littera, secundum veritatem. Tum quia
+<lb ed="#L" n="9"/>falsum est quod intellectus simplex non cognoscat illam
+<lb ed="#L" n="10"/>conformitatem: quoniam conformitas illa definibile 
+quod<lb break="no" ed="#L" n="11"/>dam est, et consequenter simplici intellectu cognoscitur.
+<lb ed="#L" n="12"/>'Tum quia illa conformitas non cognoscitur nisi reflexe ab
+<lb ed="#L" n="13"/>intellectu: verum autem cognoscitur directe, et non reflexe
+<lb ed="#L" n="14"/>tantum. Tum quia medius terminus in littera adductus ad
+<lb ed="#L" n="15"/>probandum quod conformitas in qua consistit veritas, 
+co<lb break="no" ed="#L" n="16"/>gnoscatur ab intellectu componendo vel dividendo, non
+<lb ed="#L" n="17"/>esset ad propositum, ut patet applicanti.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e425">
+                  <lb ed="#L" n="18"/>IV. Ut igitur praesens littera, cum qualibet sibi simili,
+<lb ed="#L" n="19"/>pateat, notato quatuor. Primo, quod aliud est loqui de 
+in<lb break="no" ed="#L" n="20"/>tellectu etiam in actu secundo, et aliud de intellectu 
+iz<lb break="no" ed="#L" n="21"/>quantum cognoscens: et similiter aliud est loqui de 
+veri<lb break="no" ed="#L" n="22"/>tate illius, et aliud de veritate istius. Ad veritatem enim
+<lb ed="#L" n="23"/>intellectus in actu secundo, non plus requiritur quam ad
+<lb ed="#L" n="24"/>veritatem sensus in actu secundo: unde et intellectus et
+<lb ed="#L" n="25"/>sensus in actu, verus dicitur ut quaedam res vera, quando
+<lb ed="#L" n="26"/>cognitio assimilatione ad cognitum informatur. Ad 
+verita<lb break="no" ed="#L" n="27"/>tem autem intellectus ut cognoscens est, exigitur quod 
+ve<lb break="no" ed="#L" n="28"/>ritas sit in eo ut est cognoscens: hoc autem non est nisi
+<lb ed="#L" n="29"/>sit in eo ut cognita. Et propterea littera, investigans ubi
+<lb ed="#L" n="30"/>proprie verum sit, a propria forma intellectus, non in actu
+<lb ed="#L" n="31"/>primo aut secundo, sed ut cognoscens est, procedit: et vult
+<lb ed="#L" n="32"/>quod propria eius forma ac perfectio est similitudo cogniti,
+<lb ed="#L" n="33"/>non quae est principium cognitionis, sed quae est 
+termi<lb break="no" ed="#L" n="34"/>nus vel quasi terminus, seu perfectio ad quam  attingendo
+<lb ed="#L" n="35"/>cognitio perficitur.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e467">
+                  <lb ed="#L" n="36"/>V. Pro quo nota secundo, quod similitudo rei cognitae
+<lb ed="#L" n="37"/>dupliciter sumitur, quantum ad propositum spectat. Primo,
+<lb ed="#L" n="38"/>pro specie intelligibili sive sensibili simplici, idest per 
+mo<lb break="no" ed="#L" n="39"/>dum incomplexi repraesentantis, quidquid sit illa species.
+<lb ed="#L" n="40"/>Secundo, pro specie repraesentativa cogniti ut sic, sive
+<lb ed="#L" n="41"/>complexe sive incomplexe, quidquid sit illa, sive species
+<lb ed="#L" n="42"/>impressa, sive expressa, sive ipsa cognitio: haec enim non
+<lb ed="#L" n="43"/>variant propositum. In praesenti littera non sumitur 
+simili<lb break="no" ed="#L" n="44"/>tudo cogniti primo modo, ut superficialis expositio intelligit,
+<lb ed="#L" n="45"/>sed secundo. Ita quod sensus litterae est, quod similitudo
+<lb ed="#L" n="46"/>attacta seu assecuta a cognitione, est propria forma et 
+per<lb break="no" ed="#L" n="47"/>fectio intellectus ut cognoscens est; et illa cognitio quae
+<lb ed="#L" n="48"/>sui ipsius conformitatem cum re cognoscit, illa cognoscit
+<lb ed="#L" n="49"/>verum, et nulla alia; quomodocumque sit illa conformitas,
+<lb ed="#L" n="50"/>scilicet sive per modum complexi, sive incomplexi.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e502">
+                  <lb ed="#L" n="51"/>VI. Tertio nota, quod cognoscere conformitatem sui ad
+<lb ed="#L" n="52"/>cognitum, contingit dupliciter: scilicet in actu signato, et
+<lb ed="#L" n="53"/>in actu exercito. Cognoscere conformitatem in actu signato,
+<lb ed="#L" n="54"/>est cognitionem terminari ad. relationem conformitatis. 
+Co<lb break="no" ed="#L" n="55"/>gnoscere vero conformitatem in actu exercito, est 
+cogno<lb break="no" ed="#L" n="56"/>scere aliquid in se ut conforme cognito. Quod ut clarius
+<lb ed="#L" n="57"/>percipiatur, manifestatur in actu dicendi: quoniam clarius
+<lb ed="#L" n="58"/>apparet propositum in ipso. Dicit quispiam conformitatem
+<lb ed="#L" n="59"/>intellectus et rei in actu signato, cum haec verba, seu 
+si<lb break="no" ed="#L" n="60"/>gnificata eorum, in communi, vel in speciali materia quam
+<lb ed="#L" n="61"/>intelligit, dicit mentaliter vel vocaliter: dicit autem in actu
+<lb ed="#L" n="62"/>exercito, quando aliquid dicit ut conforme rebus. Nunquam
+<lb ed="#L" n="63"/>autem dicit aliquid ut conforme vel difforme rei, quandiu
+<lb ed="#L" n="64"/>incomplexum aliquod dicit: dicendo enim Aomo aut 
+cez<lb break="no" ed="#L" n="65"/>taurus aut vacuum, nihil dico ut conforme vel difforme
+<lb ed="#L" n="66"/>rei alicui, Sed cum primo dicit Aomo est, aliquid. dicit ut
+<lb ed="#L" n="67"/>conforme vel difforme rei: quoniam dicit aliquid significans
+<lb ed="#L" n="68"/>hominem esse, ut de se patet. Et simile est de credere et
+<lb ed="#L" n="69"/>cognoscere. Cognoscere igitur conformitatem sui ad rem,
+<lb ed="#L" n="70"/>nihil aliud est quam cognoscere aliquid in se'ut conforme
+<lb ed="#L" n="71"/>rei, Hoc autem nihil aliud est quam apprehendere . com-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="72"/>plexum aliquod: apprehendendo enim ly Aomo est, 
+appre<lb break="no" ed="#L" n="73"/>hendo aliquid ut conforme.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e557">
+                  <lb ed="#L" n="74"/>In proposito, non sumitur cognoscere conformitatem
+<lb ed="#L" n="75"/>primo modo, ut superficialis illa expositio accepit, sed
+<lb ed="#L" n="76"/>secundo. Et propterea in littera probatur quod cognoscere
+<lb ed="#L" n="77"/>sui conformitatem ad rem, est proprium intellectus 
+compo<lb break="no" ed="#L" n="78"/>nentis et dividentis, ex eo quod enuntiatio omnis ponit vel
+<lb ed="#L" n="79"/>removet aliquid a subiecto. Si enim cognoscere 
+conformi<lb break="no" ed="#L" n="80"/>tatem sui ad rem, est cognoscere aliquid in se ut conforme
+<lb ed="#L" n="81"/>rei; et nunquam cognoscitur aliquid in se ut conforme, nisi
+<lb ed="#L" n="82"/>cum cognoscitur enuntiatio, quam constat esse in enuntiante,
+<lb ed="#L" n="83"/>et conformitatem vel difformitatem ad' rem importare;
+<lb ed="#L" n="84"/>oportet quod solus intellectus enuntians cognoscat ac dicat
+<lb ed="#L" n="85"/>conforme vel difforme ut sic. Et quia hoc solum est dicere
+<lb ed="#L" n="86"/>et cognoscere verum in actu exercito, ideo solus intellectus
+<lb ed="#L" n="87"/>componens et dividens cognoscit et dicit verum; et verum
+<lb ed="#L" n="88"/>in actu exercito est in solo intellectu componente et 
+divi<lb break="no" ed="#L" n="89"/>dente, ut cognitum et dictum in cognoscente et dicente. Ita
+<lb ed="#L" n="90"/>enim distinguendum est de cognitione veri in actu exercito
+<lb ed="#L" n="91"/>etsignato, sicut de praedictis. Quam distinctionem si non
+<lb ed="#L" n="92"/>capis, ex distinctione hac, quoad significationem, percipiet
+<lb ed="#L" n="93"/>etiam novitius quilibet. Significare enim verum, ut in 
+logi<lb break="no" ed="#L" n="94"/>calibus instructionibus habetur, dupliciter invenitur: scilicet
+<lb ed="#L" n="95"/>in actu exercito, et signato. Nam ly verum significat verum,
+<lb ed="#L" n="96"/>sed non exercet ipsum: sed ly homo est bipes significat 
+ve<lb break="no" ed="#L" n="97"/>rum, quia exercet ipsam veritatem. Et ly homo est alatus
+<lb ed="#L" n="98"/>significat falsum in actu exercito, etc. Et propterea in I
+<lb ed="#L" n="99"/>Periherm. dicitur quod enuntiatio est oratio significans
+<lb ed="#L" n="100"/>verum vel falsum, scilicet in actu exercito; quod est 
+si<lb break="no" ed="#L" n="101"/>gnificare conforme rei vel difforme ut sic.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e620">
+                  <lb ed="#L" n="102"/>VII. Ex his autem patet quartum, quod obscuritatem
+<lb ed="#L" n="103"/>magnam in hac materia ponit, scilicet quod vertas est 
+con<lb break="no" ed="#L" n="104"/>Jformitas intellectus et rei. Hoc enim potest intelligi de 
+ve<lb break="no" ed="#L" n="105"/>ritate rei, vel de veritate absolute. Et primo modo est optime
+<lb ed="#L" n="106"/>dictum: quoniam veritas qua omnis res in suo gradu 
+es<lb break="no" ed="#L" n="107"/>sendi dicitur vera, sive cognoscat sive non, consistit in 
+con<lb break="no" ed="#L" n="108"/>formitate horum duorum, ut patet ex littera hac et 
+prae<lb break="no" ed="#L" n="109"/>cedente. Secundo autem modo, ut prima fronte apparet,
+<lb ed="#L" n="110"/>est bene dictum, sed particulariter intelligendum : quia non
+<lb ed="#L" n="111"/>conformitas cuiuscumque intellectus, sed intellectus 
+com<lb break="no" ed="#L" n="112"/>plexi tantum, est veritas, ut patet ex dictis. Sed si altius
+<lb ed="#L" n="113"/>definitionem hanc perscrutati fuerimus, inveniemus quod
+<lb ed="#L" n="114"/>universaliter et proprie loquendo, haec definitio soli veritati
+<lb ed="#L" n="115"/>absolute convenit; et non veritati rei, nisi extensive. 
+Con<lb break="no" ed="#L" n="116"/>formitas enim intellectus ad rem, dupliciter potest in 
+in<lb break="no" ed="#L" n="117"/>tellectu inveniri: uno modo per accidens, alio modo per se.
+<lb ed="#L" n="118"/>Nulli enim intellectui incomplexo ut sic, convenit per se
+<lb ed="#L" n="119"/>conformitas ad rem: quia incomplexum ut sic, respectum
+<lb ed="#L" n="120"/>nullum aequalitatis aut inaequalitatis ad alterum exercet,
+<lb ed="#L" n="121"/>quamvis forte adaequatum alteri de facto sit, ut patet 
+in<lb break="no" ed="#L" n="122"/>ductive. Complexa autem enuntiatio mentalis omnis per
+<lb ed="#L" n="123"/>se exercet, in propria ratione, quod sit aequalis et 
+inae<lb break="no" ed="#L" n="124"/>qualis enuntiatae rei: quoniam essentialiter est similitudo
+<lb ed="#L" n="125"/>quod hoc insit vel non insit illi; et si quidem inest quod
+<lb ed="#L" n="126"/>repraesentat inesse, conformis dicitur; sin autem, difformis.
+<lb ed="#L" n="127"/>Cum igitur aliquis intellectus sit ex propria ratione 
+con<lb break="no" ed="#L" n="128"/>formis aut difformis; et de ratione veritatis absolute sit
+<lb ed="#L" n="129"/>conformitas intellectus; consentaneum est quod de. 
+intel<lb break="no" ed="#L" n="130"/>lectu cui per se convenit conformitas, est sermo. Ita quod
+<lb ed="#L" n="131"/>sensus est; veritas est conformitas intellectus et rei, idest:
+<lb ed="#L" n="132"/>veritas est intellectus. per se conformis rei; vel, conformitas
+<lb ed="#L" n="133"/>intellectus per se subiecti conformitatis: ut sic in 
+defini<lb break="no" ed="#L" n="134"/>tione veritatis ponatur intellectus tanquam subiectum non
+<lb ed="#L" n="135"/>per accidens, sed per se. Talis autem est intellectus 
+com<lb break="no" ed="#L" n="136"/>ponens, ut dictum est.. Unde Aristoteles, IV Metaphys.;
+<lb ed="#L" n="137"/>text. 27, definivit verum et falsum per enuntiabile, dicens
+<lb ed="#L" n="138"/>quod verum est ens esse et non ens non esse, falsum
+<lb ed="#L" n="139"/>autem, ens non esse et mon ens esse. lta quod enuntiabile
+<lb ed="#L" n="140"/>definit verum, et verum enuntiationem: ut ostendatur 
+ve<lb break="no" ed="#L" n="141"/>rum proprie in huius compositione tantum inveniri, ut
+<lb ed="#L" n="142"/>verum exercite.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e128-Dd1e712"><!-- caj-p1-q16-a3 -->
+               <head xml:id="TAcCaj-d1e128-Hd1e715">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e128-d1e717">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="63"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e724">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>In titulo, ly verum in suae analogiae communitáte 
+su<lb break="no" ed="#L" n="65"/>Téatis, ut ex responsione ad primum habetur.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e733">
+                  <lb ed="#L" n="66"/>In corpore una conclusio, responsiva quaesito 
+affirma<lb break="no" ed="#L" n="67"/>tive: Verum et ens convertuntur. - Probatur ratione 
+inclu<lb break="no" ed="#L" n="68"/>dente simul vim medii, et manifestationem ex 
+proportio<lb break="no" ed="#L" n="69"/>nali similitudine veri et boni. Vis medii est: unumquodque
+<lb ed="#L" n="70"/>inquantum habet de esse, intantum est cognoscibile; ergo
+<lb ed="#L" n="71"/>ens et verum convertuntur. - Antecedens manifestatur ex
+<lb ed="#L" n="72"/>auctoritate III de Anima, in qua dicitur animam esse omnia,
+<lb ed="#L" n="73"/>quia est omnia cognoscibilia: hoc.enim non esset verum,
+<lb ed="#L" n="74"/>nisi cognoscibilitas adaequaret esse, ut patet. Consequentia
+<lb ed="#L" n="75"/>vero probatur: quia verum importat ordinem ad 
+cogni<lb break="no" ed="#L" n="76"/>tionem, idest cognoscibile.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e759">
+                  <lb ed="#L" n="77"/>Proportionalis autem similitudo consistit in tribus. Primo
+<lb ed="#L" n="78"/>in hoc: sicut bonum significat appetibile, ita verum 
+cogno<lb break="no" ed="#L" n="79"/>scibile. Secundo, quod sicut bonum convertitur cum ente,
+<lb ed="#L" n="80"/>ita verum. Tertio, sicut bonum addit supra ens ordinem ad
+<lb ed="#L" n="81"/>appetitum, ita verum ordinem ad intellectum.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e773">
+                  <lb ed="#L" n="82"/>II. Circa hoc est unum dubium. Quoniam vis medii
+<lb ed="#L" n="83"/>consistit in hoc, quod verum importet cognoscibile in 
+com<lb break="no" ed="#L" n="84"/>muni, ut patet et in verbis litterae, et ex auctoritate 
+in<lb break="no" ed="#L" n="85"/>ducta ex III de Anima. Hoc autem esse falsum littera in
+<lb ed="#L" n="86"/>calce dicit: quoniam dicit quod importat ordinem ad 
+in<lb break="no" ed="#L" n="87"/>tellectum; ac per hoc importat cognoscibile sic, scilicet per
+<lb ed="#L" n="88"/>intellectum, et non cognoscibile in communi. Et vere sic
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="89"/>est: quoniam, ut in primo articulo dictum est, verum 
+im<lb break="no" ed="#L" n="90"/>portat id in quod tendit intellectus.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e797">
+                  <lb ed="#L" n="91"/>III. Ad hoc breviter dicitur, negando quod vis medii
+<lb ed="#L" n="92"/>exigat quod verum significet cognoscibile in. communi.
+<lb ed="#L" n="93"/>Sufficit enim quod vel significet cognoscibile in communi;
+<lb ed="#L" n="94"/>vel significet tali modo, sic quod ille modus sit ita amplus,
+<lb ed="#L" n="95"/>quod se extendat ad omnia ad quae se extendit 
+cogno<lb break="no" ed="#L" n="96"/>scibile in communi. Nihil enim refert ad vim rationis, an
+<lb ed="#L" n="97"/>verum importet cognoscibile in communi, an aliquid illi
+<lb ed="#L" n="98"/>aequivalens: utrobique enim sequitur convertibilitas veri
+<lb ed="#L" n="99"/>cum ente. Sic autem est in proposito: quoniam 
+intelligi<lb break="no" ed="#L" n="100"/>bilitas ad omnia se extendit, ad quae se extendit 
+cogno<lb break="no" ed="#L" n="101"/>scibilitas; omne enim cognoscibile est intelligibile, et 
+unum<lb break="no" ed="#L" n="102"/>quodque quantum habet de esse, tantum habet de 
+intel<lb break="no" ed="#L" n="103"/>ligibilitate. Inchoavit autem a cognoscibili littera, et pervenit
+<lb ed="#L" n="104"/>ad intelligibile, ut a facilioribus traderet disciplinam, hoc
+<lb ed="#L" n="105"/>quod diximus subintelligendum relinquens. Sicut etiam,
+<lb ed="#L" n="106"/>dicens unumquodque inquantum habet de esse, intantum
+<lb ed="#L" n="107"/>est cognoscibile, relinquit et e converso: quod tamen 
+sub<lb break="no" ed="#L" n="108"/>intelligi oportet, ut convertibiliter se consequantur ens e
+<lb ed="#L" n="109"/>verum.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e841">
+                  <lb ed="#L" n="110"/>IV. In responsione ad tertium, dubium occurrit: 
+quo<lb break="no" ed="#L" n="111"/>niam responsio haec repugnare videtur supra et alibi 
+di<lb break="no" ed="#L" n="112"/>ctis s. Thomae. Dictum est enim in r articulo, quod verum
+<lb ed="#L" n="113"/>est in quod tendit intellectus, sicut bonum est in quod
+<pb ed="#L" n="214"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tendit appetitus et alibi dicitur quod verum est obiectum
+<lb ed="#L" n="2"/>intellectus. Modo autem dicitur quod veri ratio assequitur
+<lb ed="#L" n="3"/>apprehensionem entis. Obiectum enim intellectus non 
+se<lb break="no" ed="#L" n="4"/>quitur, sed praevenit potius intellectionem. - Videtur etiam
+<lb ed="#L" n="5"/>contra veritatem. Quoniam non'ideo ens est verum, quia
+<lb ed="#L" n="6"/>apprehenditur: sed e converso, quia est verum, ideo 
+appre<lb break="no" ed="#L" n="7"/>henditur, sive actu sive potentia.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e872">
+                  <lb ed="#L" n="8"/>V. Ad hoc dicitur, quod verum dupliciter sumitur, ut
+<lb ed="#L" n="9"/>patet ex dictis: scilicet pro veritate rei, et proprie. Et quod
+<lb ed="#L" n="10"/>proprie est terminus intrinsecus intellectionis, et obiectum
+<lb ed="#L" n="11"/>intrinsecum eius, imo propria intelligentis perfectio 
+obie<lb break="no" ed="#L" n="12"/>ctiva. Et sic verum non consequitur nec praecedit 
+intel<lb break="no" ed="#L" n="13"/>lectionem, sed simul est perficiens ipsam. Et de hoc non
+<lb ed="#L" n="14"/>loquitur praesens littera, sed littera articuli primi, quae
+<lb ed="#L" n="15"/>infert verum esse in intellectu. — Verum autem rei est 
+poste<lb break="no" ed="#L" n="16"/>rius quidem ente, prius autem cognitione; et est obiectum
+<lb ed="#L" n="17"/>intellectus non formale, quoniam illud est ens; sed est
+<lb ed="#L" n="18"/>conditio propria obiecti formalis. Ens enim, licet secundum
+<lb ed="#L" n="19"/>omnes conditiones et modos et rationes terminet 
+intelle<lb break="no" ed="#L" n="20"/>ctum, dum omnia intelliguntur actu vel potentia, certam
+<lb ed="#L" n="21"/>tamen exigit conditionem generalem, qua exercet hoc quod
+<lb ed="#L" n="22"/>est perficere intellectum obiective : et hanc addit verum
+<lb ed="#L" n="23"/>supra ens. Non enim quomodolibet perficit intellectum ;
+<lb ed="#L" n="24"/>sicut nec quomodolibet perficit appetitum, nec 
+quomodo<lb break="no" ed="#L" n="25"/>libet agit. Unde inter verum et bonum, quamvis conveniant
+<lb ed="#L" n="26"/>in hoc quod utrumque est obiectum et terminans, etc.,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="27"/>hoc interest, quod bonum obiectum formale voluntatis ,
+<lb ed="#L" n="28"/>verum autem conditionem obiecti formalis significare 
+vi<lb break="no" ed="#L" n="29"/>detur. Et propterea omnis appetitio est appetitio boni 
+for<lb break="no" ed="#L" n="30"/>maliter: omnis autem intellectio non est intellectio veri
+<lb ed="#L" n="31"/>formaliter, ut in littera dicitur, sed rei verae; ita quod ly
+<lb ed="#L" n="32"/>rei notat rem intellectam, et ly verae conditionem qua res
+<lb ed="#L" n="33"/>intelligitur. Propter quod rationes Scoti in I, dist. nr, qu. n
+<lb ed="#L" n="34"/>vel v, quibus impugnat verum esse proprium obiectum
+<lb ed="#L" n="35"/>intellectus, non oportet solvere: quoniam de obiecto 
+for<lb break="no" ed="#L" n="36"/>mali loquuntur, quod in hac littera docetur non esse.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e940">
+                  <lb ed="#L" n="37"/>VI. Ad opposita igitur dicendum est, quod dicta 
+<lb ed="#L" n="38"/>s. Thomae nec inter se nec veritati adversantur. Quoniam
+<lb ed="#L" n="39"/>non intendit haec littera, quod ratio veri consequatur 
+ap<lb break="no" ed="#L" n="40"/>prehensionem, de veritate rei loquendo: sed quod ratio veri
+<lb ed="#L" n="41"/>astat seu assistit apprehensioni. Hoc enim intendit per ly
+<lb ed="#L" n="42"/>assequatur: assequi enim, proprie loquendo, non est sequi,
+<lb ed="#L" n="43"/>sed potius pertingere. Manifeste enim littera ostendit quod
+<lb ed="#L" n="44"/>nihil aliud intendit, nisi quod verum est, quando ens 
+intel<lb break="no" ed="#L" n="45"/>ligitur et tamen verum non intelligitur; ut etiam 
+exem<lb break="no" ed="#L" n="46"/>plum de intelligibilitate ostendit; constat enim prius 
+obie<lb break="no" ed="#L" n="47"/>ctum esse intelligibile, quam apprehendatur. Nec propterea
+<lb ed="#L" n="48"/>ponimus verum in re absque ordine ad intellectum: sed
+<lb ed="#L" n="49"/>ponimus primo ens, deinde ens ut perfectivum intellectus,
+<lb ed="#L" n="50"/>et tertio intelligibile; quoniam intelligibile est, quia verum
+<lb ed="#L" n="51"/>est, et non e contra. In hoc autem quod est esse 
+perfe<lb break="no" ed="#L" n="52"/>ctivum intellectus, manifeste patet ordo ad intellectum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e128-Dd1e978"><!-- caj-p1-q16-a4 -->
+               <head xml:id="TAcCaj-d1e128-Hd1e981">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e128-d1e983">
+                  <pb ed="#L" n="215"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e992">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In titulo, ly secundum rationem proprie cadit supra ly
+<lb ed="#L" n="3"/>bonum et verum, et non supra ly prius: quamvis in idem
+<lb ed="#L" n="4"/>redeat uterque sensus, si accipiatur prioritas rationis 
+se<lb break="no" ed="#L" n="5"/>cundum se, ut ex responsione ad primum sumi potest, non
+<lb ed="#L" n="6"/>quoad nos tantum. Est ergo sensus: Utrum ratio boni sit
+<lb ed="#L" n="7"/>prior ratione veri.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1010">
+                  <lb ed="#L" n="8"/>II. In corpore duo: primo, excluditur tacita obiectio 
+con<lb break="no" ed="#L" n="9"/>tra ipsam quaestionem; secundo, respondetur quaesito.,
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1017">
+                  <lb ed="#L" n="10"/>Quoad primum, dicitur quod, licet utrumque horum
+<lb ed="#L" n="11"/>convertatur cum ente suppositaliter, distinguuntur tamen
+<lb ed="#L" n="12"/>ratione. Dixit enim hoc, quoniam, cum ordo supponat 
+dis<lb break="no" ed="#L" n="13"/>tinctionem, et quaestio haec est de ordine boni et veri,
+<lb ed="#L" n="14"/>oportet ipsorum distinctionem praehabere. Ex dictis autem
+<lb ed="#L" n="15"/>hactenus habetur quod idem sunt bonum et verum quod
+<lb ed="#L" n="16"/>ens, et consequenter inter se. Quomodo ergo nunc 
+quae<lb break="no" ed="#L" n="17"/>ritur de ordine? Haec enim obiectio per pauca illa verba
+<lb ed="#L" n="18"/>in principio litterae excluditur: quoniam in eis declaratur
+<lb ed="#L" n="19"/>quod identitas est in supposito, non in ratione formali
+<lb ed="#L" n="20"/>horum; sed in hac distinguuntur.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1044">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21"/>III. Quoad secundum, respondetur quaesito unica 
+con<lb break="no" ed="#L" n="22"/>clusione: Veri ratio absolute est prior ratione boni.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1053">
+                  <lb ed="#L" n="23"/>Probatur dupliciter. Primo, verum sequitur esse 
+simpli<lb break="no" ed="#L" n="24"/>citer et immediate, bonum autem consequitur esse 
+secun<lb break="no" ed="#L" n="25"/>dum quod est aliquo modo perfectum, idest secundum
+<lb ed="#L" n="26"/>quod habet aliquo modo rationem perfectionis: ergo 
+ve<lb break="no" ed="#L" n="27"/>rum est propinquius enti quam bonum: ergo est prius. -
+<lb ed="#L" n="28"/>Antecedens, pro secunda parte, probatur: quia ens est sic
+<lb ed="#L" n="29"/>appetibile; idest, ens non habet rationem appetibilis, nisi
+<lb ed="#L" n="30"/>ut rationem perfectionis induit. Quod patet, tum quia ens
+<lb ed="#L" n="31"/>non secundum quamcumque considerationem | comitatur
+<lb ed="#L" n="32"/>boni ratio, ut patet in mathematicis: tum quia omne 
+ap<lb break="no" ed="#L" n="33"/>petens appetit perfectionem aliquam, — Secunda quoque 
+con<lb break="no" ed="#L" n="34"/>sequentia probatur: quia ens constat esse prius bono, imo
+<lb ed="#L" n="35"/>primum simpliciter.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1084">
+                  <lb ed="#L" n="36"/>Secundo probatur conclusio. Verum respicit 
+cognitio<lb break="no" ed="#L" n="37"/>nem, bonum autem appetitum: ergo verum est prius bono.
+<lb ed="#L" n="38"/>- Probatur sequela: quia cognitio naturaliter praecedit 
+ap<lb break="no" ed="#L" n="39"/>petitionem.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e128-Dd1e1097"><!-- caj-p1-q16-a5 -->
+               <head xml:id="TAcCaj-d1e128-Hd1e1100">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e128-d1e1102">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="98"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1109">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="99"/>TITULUS clarus. - In corpore una conclusio responsiva
+<lb ed="#L" n="100"/>quaesito In Deo non solum est veritas, sed ipse est
+<lb ed="#L" n="101"/>veritas prima et summa. - Conclusio haec claudit in se 
+qua<lb break="no" ed="#L" n="102"/>tuor partes: prima est, quod n Deo est veritas ut in re;
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="103"/>secunda, quod in Deo est veritas obiective ; tertia, quod
+<lb ed="#L" n="104"/>Deus est veritas; quarta, quod est prima et summa. Et
+<lb ed="#L" n="105"/>quoad omnes in littera probatur.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1131">
+                  <lb ed="#L" n="106"/>Quoad primam quidem: Esse Dei est non solum con-
+<pb ed="#L" n="216"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>formae suo intellectui, sed etiam ipsum intelligere: ergo est
+<lb ed="#L" n="2"/>maxime verum veritate rei, - Probatur sequela: quia veritas
+<lb ed="#L" n="3"/>in re est secundum quod habet esse conformabile intellectui.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1147">
+                  <lb ed="#L" n="4"/>Quoad secundam vero: Intelligere Dei est mensura omnis
+<lb ed="#L" n="5"/>alterius esse et intellectus: ergo cognoscit verum. - 
+Pro<lb break="no" ed="#L" n="6"/>batur sequela: quia veritas in intellectu est secundum quod
+<lb ed="#L" n="7"/>apprehendit rem ut est. Constat enim intellectionem 
+men<lb break="no" ed="#L" n="8"/>surantem omne esse, oportere apprehendere res esse ut
+<lb ed="#L" n="9"/>sunt. Et similiter mensurantem omnem intellectum, etiam
+<lb ed="#L" n="10"/>componentem et dividentem, oportere apprehendere 
+quid<lb break="no" ed="#L" n="11"/>quid a quocumque apprehenditur.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1168">
+                  <lb ed="#L" n="12"/>
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>Quoad tertiam autem: Deus est suum esse et suum 
+in<lb break="no" ed="#L" n="14"/>telligere; ergo est ipsa veritas. - Et patet sequela. Ex eo
+<lb ed="#L" n="15"/>enim quod est suum esse, sequitur: ergo est ipsa veritas
+<lb ed="#L" n="16"/>rei. Ex eo autem quod est suum intelligere, sequitur: ergo
+<lb ed="#L" n="17"/>est ipsa veritas in intellectu.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1186">
+                  <lb ed="#L" n="18"/>Quoad quartam autem particulam, probatio non 
+spe<lb break="no" ed="#L" n="19"/>cialiter affertur, sed ex insertis in praecedentibus habetur.
+<lb ed="#L" n="20"/>Ex eo namque quod suum esse et intelligere habet 
+ratio<lb break="no" ed="#L" n="21"/>nem primae mensurae et causae omnis esse et intellectus,
+<lb ed="#L" n="22"/>manifeste sequitur quod quae illic est veritas, summa et
+<lb ed="#L" n="23"/>prima est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e128-Dd1e1203"><!-- caj-p1-q16-a6 -->
+               <head xml:id="TAcCaj-d1e128-Hd1e1206">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e128-d1e1208">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="94"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1215">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="95"/>TITULUS clarus. — In corpore una conclusio responsiva
+<lb ed="#L" n="96"/>i pressus Veritas qua omnia sunt vera, quodammodo
+<lb ed="#L" n="97"/>est una, et quodammodo non. - Probatur haec conclusio,
+<lb ed="#L" n="98"/>quoad utramque partem simul, hoc modo. Veritas per prius
+<lb ed="#L" n="99"/>est in intellectu, et per posterius in rebus in ordine ad
+<lb ed="#L" n="100"/>intellectum divinum. Ergo veritas in intellectu existens,
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="101"/>secundum propriam rationem, multiplicatur et in diversis
+<lb ed="#L" n="102"/>intellectibus creatis, et in uno et eodem secundum diversa
+<lb ed="#L" n="103"/>cognita: veritas autem qua omnes res verae dicuntur, est
+<lb ed="#L" n="104"/>una ac prima.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1244">
+                  <lb ed="#L" n="105"/>Antecedens patet ex dictis. Consequentia autem, quoad
+<lb ed="#L" n="106"/>utriusque partis illationem, probatur ex differentia inter
+<pb ed="#L" n="217"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>univocum et analogum in hoc, quod illud in quolibet 
+uni<lb break="no" ed="#L" n="2"/>vocato salvatur secundum propriam rationem; istud autem
+<lb ed="#L" n="3"/>in primo tantum ponit propriam rationem, in aliis autem
+<lb ed="#L" n="4"/>fundatum ordinem ad primum. Exempla habentur in 
+lit<lb break="no" ed="#L" n="5"/>tera. - Quoad id vero quod in secunda parte consequentis
+<lb ed="#L" n="6"/>implicite clauditur, scilicet quod omnia respiciant veritatem
+<lb ed="#L" n="7"/>intellectus divini, probatur: quia illi unumquodque 
+assimi<lb break="no" ed="#L" n="8"/>latur secundum suam entitatem. Et confirmatur prima pars
+<lb ed="#L" n="9"/>consequentis auctoritaté Glossae, ut patet in littera.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1275">
+                  <lb ed="#L" n="10"/>II. Circa partem primam consequentis, dubium occurrit.
+<lb ed="#L" n="11"/>Aut illa pars, scilicet veritas intellectus multiplicatur, non
+<lb ed="#L" n="12"/>est in littera probata nisi auctoritate Glossae: aut veritas
+<lb ed="#L" n="13"/>invenitur univoce in omnibus intellectibus, saltem creatis.
+<lb ed="#L" n="14"/>Utrumque autem horum est inconveniens. Ergo. - 
+Assum<lb break="no" ed="#L" n="15"/>ptum probatur. In littera nulla probatio est nisi ex 
+diffe<lb break="no" ed="#L" n="16"/>rentia inter univocum et analogum. Et ex parte analogi,
+<lb ed="#L" n="17"/>ut patet in littera, non infertur multiplicatio, sed ex parte
+<lb ed="#L" n="18"/>univoci. Ergo aut non probatur: aut probatur ex conditione
+<lb ed="#L" n="19"/>univoci, quod multiplicatur ad multiplicationem 
+univocato<lb break="no" ed="#L" n="20"/>rum: etsic'supponitur veritatem univoce inveniri in 
+omni<lb break="no" ed="#L" n="21"/>bus intellectibus creatis. - Quod autem utrumque horum sit
+<lb ed="#L" n="22"/>inconveniens, manifestatur. Et primum quidem, quia in 
+lit<lb break="no" ed="#L" n="23"/>tera, post differentiam inter univocum et analogum, ac 
+ap<lb break="no" ed="#L" n="24"/>plicationem eius ad materiam de qua est sermo, statim cum
+<lb ed="#L" n="25"/>nota illationis concluditur, dicendo, si ergo loquamur etc.
+<lb ed="#L" n="26"/>Secundum autem, quia veritas in intellectu nostro est 
+com<lb break="no" ed="#L" n="27"/>positio et divisio: in intellectu vero angelico et divino est
+<lb ed="#L" n="28"/>simplex intelligentia, eminenter praehabens quidquid et 
+no<lb break="no" ed="#L" n="29"/>stra simplex intelligentia, et compositio et divisio habet.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1322">
+                  <lb ed="#L" n="30"/>III. Circa eandem quoque partem dubium occurrit, quia
+<lb ed="#L" n="31"/>videtur littera implicare. Quoniam si analogum in uno 
+tan<lb break="no" ed="#L" n="32"/>tum secundum propriam rationem salvatur; et ex qu. xr
+<lb ed="#L" n="33"/>constat omnia nomina communia Deo et aliis esse 
+ana<lb break="no" ed="#L" n="34"/>loga, et consequenter veritatem analogice inveniri in 
+intel<lb break="no" ed="#L" n="35"/>lectu divino et aliis intellectibus; sequitur quod in multis
+<lb ed="#L" n="36"/>intellectibus non sunt multae veritates, sed omnes 
+intel<lb break="no" ed="#L" n="37"/>lectus sunt veri una sola veritate, scilicet intellectus divini.
+<lb ed="#L" n="38"/>Et econverso, si veritas multiplicatur ad multiplicationem
+<lb ed="#L" n="39"/>intellectuum verorum, ergo non per prius et posterius 
+di<lb break="no" ed="#L" n="40"/>citur de eis: quia quod per prius et posterius dicitur, in
+<lb ed="#L" n="41"/>uno tantum formaliter invenitur, ut littera sonat.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1351">
+                  <lb ed="#L" n="42"/>IV. Circa secundam quoque partem consequentis, 
+du<lb break="no" ed="#L" n="43"/>bium occurrit. Quia cum dicitur omnia esse vera veritate
+<lb ed="#L" n="44"/>divina, loquendo de veritate rei, aut intelligitur secundum
+<lb ed="#L" n="45"/>denominationem extrinsecam, aut intrinsecam. Non 
+intrin<lb break="no" ed="#L" n="46"/>secam, ut patet: ergo extrinsecam. Et si sic, ergo res aut non
+<lb ed="#L" n="47"/>sunt verae formaliter: quod est inconveniens, quia 
+unaquae<lb break="no" ed="#L" n="48"/>que res habet in se propriam veritatem rei, qua dicitur vera,
+<lb ed="#L" n="49"/>ut patet de sensu respectu proprii sensibilis. Aut sunt verae
+<lb ed="#L" n="50"/>utroque modo; sicut in Qu. de Bono dictum est quod omnia
+<lb ed="#L" n="51"/>sunt bona bonitate divina exemplariter, finaliter et effective,
+<lb ed="#L" n="52"/>et tamen, cum hoc, sunt bonitatibus propriis formaliter 
+bo<lb break="no" ed="#L" n="53"/>nae. Et si sic, ergo non sunt verae sola veritate divina.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1380">
+                  <lb ed="#L" n="54"/>V. Ad primam dubitationem dicitur, negando 
+disiun<lb break="no" ed="#L" n="55"/>ctivam illam: quoniam datur tertius modus exponendi 
+lit<lb break="no" ed="#L" n="56"/>teram. Ad cuius evidentiam, scito quod in univoca 
+prae<lb break="no" ed="#L" n="57"/>dicatione duo clauduntur: scilicet, praedicari formaliter
+<lb ed="#L" n="58"/>de univocatis ; et praedicari de eis secundum eandem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="59"/>omnino rationem formalem, ut patet in animali respectu
+<lb ed="#L" n="60"/>bovis et leonis. Multiplicatio autem eius ad 
+multiplicatio<lb break="no" ed="#L" n="61"/>nem subiectorum, non convenit ei ex secundo (quoniam
+<lb ed="#L" n="62"/>ipsi soli conveniret, quod constat esse falsum): sed 
+con<lb break="no" ed="#L" n="63"/>venit ei ex primo, in quo communicat cum aliquibus non
+<lb ed="#L" n="64"/>univocis. Unde, cum in proposito sit sermo de univoco
+<lb ed="#L" n="65"/>inquantum multiplicatur ad multiplicationem subiectorum,
+<lb ed="#L" n="66"/>consequens est quod propositio in cuius virtute tenet 
+se<lb break="no" ed="#L" n="67"/>quela quoad primam partem, non est ista, univocum 
+mul<lb break="no" ed="#L" n="68"/>tiplicatur ad multiplicationem univocatorum: sed ista 
+com<lb break="no" ed="#L" n="69"/>munior,.et clausa in praedicta, praedicatum formaliter
+<lb ed="#L" n="70"/>multiplicatur ad multiplicationem subiectorum. Et tunc
+<lb ed="#L" n="71"/>concedo, quod subsumi intelligitur, quod veritas sit 
+for<lb break="no" ed="#L" n="72"/>maliter praedicatum respectu intellectus. Et sic infertur:
+<lb ed="#L" n="73"/>ergo veritas multiplicatur ad multiplicationem intellectuum;
+<lb ed="#L" n="74"/>immo intellectorum, sive in uno sive in diversis 
+intelle<lb break="no" ed="#L" n="75"/>ctibus. Meminit autem littera potius univoci quam 
+praedi<lb break="no" ed="#L" n="76"/>cati formaliter, ut a notioribus traderetur disciplina.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1435">
+                  <lb ed="#L" n="77"/>VI. Ad secundam vero dubitationem dicitur, quod illa
+<lb ed="#L" n="78"/>regula de analogo tradita in littera, non est universalis de
+<lb ed="#L" n="79"/>omni analogiae modo: imo, proprie loquendo, ut patet
+<lb ed="#L" n="80"/>I Ethic., nulli analogo convenit, sed convenit nominibus '
+<lb ed="#L" n="81"/>ad unum wel in uno aut ab uno, quae nos abusive 
+voca<lb break="no" ed="#L" n="82"/>mus analoga. Veritas autem, si comparetur ad res et 
+in<lb break="no" ed="#L" n="83"/>tellectus, est nomen ab uno: quoniam in intellectu solo est .
+<lb ed="#L" n="84"/>veritas, a qua res dicuntur verae. Si vero comparetur ad
+<lb ed="#L" n="85"/>intellectus inter se, sic est nomen analogum: nam 
+propor<lb break="no" ed="#L" n="86"/>tionaliter salvatur, formaliter tamen, in quolibet intellectu
+<lb ed="#L" n="87"/>cognoscente verum. Esse ergo nomen aliquod secundum
+<lb ed="#L" n="88"/>propriam rationem in uno tantum, est conditio nominum
+<lb ed="#L" n="89"/>quae sunt ad unum aut ab uno, etc.: et non nominum
+<lb ed="#L" n="90"/>proportionaliter dictorum. Veritas autem, respectu 
+intelle<lb break="no" ed="#L" n="91"/>ctus divini et aliorum, proportionale nomen est. Et ideo
+<lb ed="#L" n="92"/>non sequitur quod in solo Deo sit. Iam enim dictum est in
+<lb ed="#L" n="93"/>solutione primi dubii, quod omni praedicato formaliter de
+<lb ed="#L" n="94"/>pluribus, convenit plurificari ad plurificationem subiectorum,
+<lb ed="#L" n="95"/>sive illud sit univocum, ut animal, sive proportionale, ut
+<lb ed="#L" n="96"/>ens, etc. - De huiusmodi autem differentia nominum plene
+<lb ed="#L" n="97"/>scriptum invenies in tractatu de Analogia Nominum.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1483">
+                  <lb ed="#L" n="98"/>VII. Ad dubium autem contra secundam partem 
+con<lb break="no" ed="#L" n="99"/>clusionis, responsio ex littera habetur, ubi dicitur quod
+<lb ed="#L" n="100"/>licet plures sint essentiae vel formae rerum, tamen una
+<lb ed="#L" n="101"/>est veritas etc. Haec enim verba post probatam 
+conclu<lb break="no" ed="#L" n="102"/>sionem adiuncta sunt, ad declarandam differentiam inter
+<lb ed="#L" n="103"/>bonitatem et veritatem quoad hoc. Quoniam res omnes
+<lb ed="#L" n="104"/>dicuntur bonae dupliciter, intrinsece et extrinsece, ut in :
+<lb ed="#L" n="105"/>qu. vr dictum est: verae autem dicuntur extrinseca tantum
+<lb ed="#L" n="106"/>denominatione, ita quod, nülla est in rebus formaliter 
+ve<lb break="no" ed="#L" n="107"/>ritas; sed imitative seu adimpletive respectu intéllectus 
+di<lb break="no" ed="#L" n="108"/>vini, et causaliter respectu nostri intellectus speculativi. Si
+<lb ed="#L" n="109"/>enim nullus esset intellectus, nulla res vera, nullus sensus
+<lb ed="#L" n="110"/>verus dici posset, nisi aequivoce, ut in Qu. de Ver., qu. t,
+<lb ed="#L" n="111"/>art. 4, dicitur: quemadmodum, si non esset sanitas 
+ani<lb break="no" ed="#L" n="112"/>malis, nulla medicina, nullaque diaeta sana dici posset. Et
+<lb ed="#L" n="113"/>omnium una est ratio: quia scilicet in ratione veri in rebus
+<lb ed="#L" n="114"/>cadit veritas intellectus; et sani in medicina et diaeta, cadit
+<lb ed="#L" n="115"/>sanitas animalis; et sic de aliis. Sublata enim definitione,
+<lb ed="#L" n="116"/>non remanet idem nomen nisi aequivoce.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e128-Dd1e1528"><!-- caj-p1-q16-a7 -->
+               <head xml:id="TAcCaj-d1e128-Hd1e1531">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e128-d1e1533">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="80"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1540">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="81"/>TITULUS clarus. - Ín corpore una conclusio, responsiva
+<lb ed="#L" n="82"/>quaesito negative: Nulla veritas creata est aeterna. — 
+Pro<lb break="no" ed="#L" n="83"/>batur. Veritas enuntiabilium et rerum nihil aliud est quam
+<lb ed="#L" n="84"/>veritas intellectus: ergo, si nullus intellectus esset aeternus,
+<lb ed="#L" n="85"/>nulla veritas creata esset aeterna: ergo in solo intellectu
+<lb ed="#L" n="86"/>divino veritas aeternitatem habet: ergo nulla veritas creata
+<lb ed="#L" n="87"/>est aeterna.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1560">
+                  <lb ed="#L" n="88"/>Antecedens, quoad primam partem, probatur. 
+Enuntia<lb break="no" ed="#L" n="89"/>bile in voce est verum significative tantum, sicut urina est
+<lb ed="#L" n="90"/>sana: in mente autem est per seipsum, idest formaliter,
+<lb ed="#L" n="91"/>verum: ergo. Quoad secundam vero, ex dictis assumitur.
+<lb ed="#L" n="92"/>Prima consequentia relinquitur nota per se: eo quod non
+<lb ed="#L" n="93"/>datur alia veritas praeter tres has, scilicet in.re, in signo,
+<lb ed="#L" n="94"/>et in intellectu. Secunda probatur: quia solus intellectus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>divinus est aeternus. Tertia autem: quia veritas in intellectu
+<lb ed="#L" n="96"/>divino est ipse Deus, ut in art. v dictum est; creata autem
+<lb ed="#L" n="97"/>veritas est aliud a Deo.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1586">
+                  <lb ed="#L" n="98"/>II. Adverte hic duo. Primo, quod conclusio principalis
+<lb ed="#L" n="99"/>non ponitur formaliter in littera, sed virtualiter in illa 
+uni<lb break="no" ed="#L" n="100"/>versaliore propositione, nihil aliud quam Deus est 
+aeter<lb break="no" ed="#L" n="101"/>num, quia veritas Deus est. — Secundo, quod 'ex hoc loco
+<lb ed="#L" n="102"/>apertissime habes quod nullum secundario obiectum divini
+<lb ed="#L" n="103"/>intellectus ponendum est, quod sit aliud a Deo: quoniam
+<lb ed="#L" n="104"/>si propositiones cognitae, seu earum veritas, quod idem
+<lb ed="#L" n="105"/>est, in intellectu divino sunt Deus, quanto magis lapis, et
+<lb ed="#L" n="106"/>quidquid aliud incomplexe significatur. Et hoc est bene
+<lb ed="#L" n="107"/>notandum, ad confirmandam notitiam de intelligere divino
+<lb ed="#L" n="108"/>traditam.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e128-Dd1e1613"><!-- caj-p1-q16-a8 -->
+               <head xml:id="TAcCaj-d1e128-Hd1e1616">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e128-d1e1618">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="90"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1625">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="91"/>TITULUS clarus. — In corpore, una conclusio responsiva
+<lb ed="#L" n="92"/>quaesito, cum uno corollario. Conclusio est: Veritas
+<lb ed="#L" n="93"/>intellectus divini est immutabilis; nostri autem intellectus,
+<lb ed="#L" n="94"/>est mutabilis. - Circa quam conclusionem tria dicuntur, 
+Pri<lb break="no" ed="#L" n="95"/>mo, redditur ratio quare respondetur de veritate intellectus,
+<lb ed="#L" n="96"/>cum quaesitum fuerit de veritate in communi. Et dicitur
+<lb ed="#L" n="97"/>in principio corporis, quod hoc fit, quia veritas in solo
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="98"/>intellectu est formaliter: ergo et mutabilitas et immutabilitas
+<lb ed="#L" n="99"/>eius: ceterae enim conditiones sequuntur esse. — Secundo,
+<lb ed="#L" n="100"/>probatur conclusio. - Tertio, declaratur ille terminus 
+muta<lb break="no" ed="#L" n="101"/>bilis, in conclusione positus. Potest enim sumi dupliciter:
+<lb ed="#L" n="102"/>scilicet subiective, et terminative. In proposito sumi dicitur
+<lb ed="#L" n="103"/>terminative, et non subiective: et ratio est, quia formae sic,
+<lb ed="#L" n="104"/>idest terminative, vocantur mutabiles, non subiective.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1662">
+                  <pb ed="#L" n="220"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Probatur igitur conclusio sic. Veritas intellectus est 
+con<lb break="no" ed="#L" n="2"/>formitas intellectus ad res: ergo potest variari ex parte
+<lb ed="#L" n="3"/>intellectus et rei: ergo, si sit aliquis intellectus absque 
+al<lb break="no" ed="#L" n="4"/>ternatione opinionum, et cuius acceptionem nulla res 
+sub<lb break="no" ed="#L" n="5"/>terfugiat, eius veritas est immutabilis: ergo veritas 
+intelle<lb break="no" ed="#L" n="6"/>ctus divini est immutabilis, nostri vero mutabilis. - 
+Ante<lb break="no" ed="#L" n="7"/>cedens patet. Prima consequentia probatur: quia omnis
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>similitudo potest ex parte extremorum variari. Secunda
+<lb ed="#L" n="9"/>autem: quia ista variatio ex parte intellectus consistit in
+<lb ed="#L" n="10"/>mutatione acceptionum; ex parte vero rei, in latente 
+mu<lb break="no" ed="#L" n="11"/>tatione rei. Tertia autem relinquitur evidens.
+</p>
+               <p xml:id="TAcCaj-d1e128-d1e1695">
+                  <lb ed="#L" n="12"/>Corollarium autem est: Veritas secundum quam res
+<lb ed="#L" n="13"/>naturales dicuntur verae, est omnino immutabilis. - 
+Pro<lb break="no" ed="#L" n="14"/>batur: quia est veritas intellectus divini.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

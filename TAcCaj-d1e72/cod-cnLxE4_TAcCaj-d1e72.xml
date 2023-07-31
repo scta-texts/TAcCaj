@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="56"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e72"><!-- TAcCajp1-q5 -->
+            <head xml:id="TAcCaj-d1e72-Hd1e99">Quaestio 5</head>
+            <div xml:id="TAcCaj-d1e72-Dd1e101"><!-- caj-p1-q5-a1 -->
+               <head xml:id="TAcCaj-d1e72-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e72-d1e106">
+                  <pb ed="#L" n="57"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e115">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In titulo quaestionis, statim occurrit dubium circa 
+ordi<lb break="no" ed="#L" n="3"/>nem ipsius: cur haec quaestio de bono fiat. Bonum enim
+<lb ed="#L" n="4"/>neque prius convenit enti quam unum, verum, etc.: neque
+<lb ed="#L" n="5"/>prius convenit naturae divinae bonitas quam unitas aut
+<lb ed="#L" n="6"/>veritas, ut patet: neque hic ordinantur tractanda de Deo
+<lb ed="#L" n="7"/>secundum rationem causae, ut propterea bono debeatur
+<lb ed="#L" n="8"/>primus locus, quia nominat rationem causae finalis. Nulla
+<lb ed="#L" n="9"/>igitur ratio apparet, quare hoc in loco quaestio de bono
+<lb ed="#L" n="10"/>ordinata sit.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e139">
+                  <lb ed="#L" n="11"/>II. Ad hoc dicitur, quod quaestio de bono dupliciter
+<lb ed="#L" n="12"/>ordinari potest. Uno modo, secundum se: et sic non 
+de<lb break="no" ed="#L" n="13"/>betur sibi iste locus, ut obiiciendo deductum est; sed 
+quae<lb break="no" ed="#L" n="14"/>stionem de perfectione statim quaestio de infinitate 
+sequi<lb break="no" ed="#L" n="15"/>tur, quaerens de quantitate perfectionis divinae. Alio modo,
+<lb ed="#L" n="16"/>ut est pars tractatus de perfectione: et sic in capitulo de
+<lb ed="#L" n="17"/>perfectione ordinanda est: et hoc modo in littera ordinatur.
+<lb ed="#L" n="18"/>Et hoc insinuavit littera tam in principio quaestionis 1v,
+<lb ed="#L" n="19"/>ubi tractatus de perfectione inchoatur, et dicitur: £f? quia
+<lb ed="#L" n="20"/>unumquodque, secundum quod perfectum est, sic dicitur
+<lb ed="#L" n="21"/>bonum, primo agendum est de perfectione divina, secundo
+<lb ed="#L" n="22"/>de eius bonitate (quasi diceret quod, propter perfectionem,
+<lb ed="#L" n="23"/>de bonitate tractandum est simul); quam in principio 
+quae<lb break="no" ed="#L" n="24"/>stionis vr, ubi, aperiens quod de bono per accidens, idest
+<lb ed="#L" n="25"/>ratione perfectionis, tractavit, dicit: Post considerationem
+<lb ed="#L" n="26"/>perfectionis divinae, de infinitate etc., nulla facta mentione
+<lb ed="#L" n="27"/>de bonitate, de qua fecerat duas quaestiones. - Quare autem
+<lb ed="#L" n="28"/>de bonitate sub tractatu de perfectione quaeratur, in 
+prom<lb break="no" ed="#L" n="29"/>ptu causa est in littera assignata: quia scilicet esse 
+perfe<lb break="no" ed="#L" n="30"/>ctum est ratio quod aliquid dicatur bonum.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e185">
+                  <lb ed="#L" n="31"/>III. In corpore est una conclusio, responsiva quaesito
+<lb ed="#L" n="32"/>affirmative: Bonum et ens sunt idem secundum rem, sed
+<lb ed="#L" n="33"/>differunt secundum rationem tantum.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e195">
+                  <lb ed="#L" n="34"/>IV. Antequam probetur conclusio, adverte, novitie, 
+ter<lb break="no" ed="#L" n="35"/>minos conclusionis. Differre namque secundum rationem
+<lb ed="#L" n="36"/>tantum, latitudinem habet: nam et quae differunt in modo
+<lb ed="#L" n="37"/>tantum significandi, ut homo et humanitas, ratione sola
+<lb ed="#L" n="38"/>differunt; et multa quae differunt rationibus definitivis, ut
+<lb ed="#L" n="39"/>lignum et dolabile, sola ratione differunt. Propterea 
+distin<lb break="no" ed="#L" n="40"/>gue, quod differre ratione dupliciter: scilicet, ratione 
+si<lb break="no" ed="#L" n="41"/>gnificata, seu concepta; alio modo, ratione concipiente ,
+<lb ed="#L" n="42"/>seu significante. In proposito est sermo de differentia 
+se<lb break="no" ed="#L" n="43"/>cundum rationem significatam: ita quod sensus est, quod
+<lb ed="#L" n="44"/>bonum et ens differunt secundum suas rationes formales,
+<lb ed="#L" n="45"/>significatas eorum nominibus.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e224">
+                  <lb ed="#L" n="46"/>V. Probatur ergo conclusio. Primo, quoad primam 
+par<lb break="no" ed="#L" n="47"/>tem, sic. Bonum habet rationem appetibilis: ergo perfecti:
+<lb ed="#L" n="48"/>ergo entis in actu: ergo entis. Ergo bonum et ens sunt
+<lb ed="#L" n="49"/>idem secundum rem. - Antecedens probatur ex I Ethic.
+<lb ed="#L" n="50"/>Prima consequentia probatur: quia omnia appetunt suam
+<lb ed="#L" n="51"/>perfectionem; Secunda vero relinquitur ut nota. Tertia au-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="52"/>tem probatur: quia esse est actualitas omnis rei. Ultima
+<lb ed="#L" n="53"/>autem patet.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e246">
+                  <lb ed="#L" n="54"/>Deinde, quoad secundam partem. Bonum dicit rationem
+<lb ed="#L" n="55"/>appetibilis: quam non explicat ens. Ergo differunt ratione.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e253">
+                  <lb ed="#L" n="56"/>VI. Circa antecedens dubitatur: quoniam illud quod 
+di<lb break="no" ed="#L" n="57"/>citur de aliquo in secundo modo dicendi per se, non 
+clau<lb break="no" ed="#L" n="58"/>ditur in ratione illius subiecti, sed e converso, ut patet
+<lb ed="#L" n="59"/>I Poster. Sed appetibile dicitur de bono in secundo modo
+<lb ed="#L" n="60"/>dicendi per se. Ergo bonum non habet rationem 
+appeti<lb break="no" ed="#L" n="61"/>bilis, sed e converso. - Minor probatur. Tum quia ideo
+<lb ed="#L" n="62"/>aliquid est appetibile, quia bonum: et non e converso. Tum
+<lb ed="#L" n="63"/>quia bonum est obiectum formale appetitus; appetibile
+<lb ed="#L" n="64"/>autem est denominatio extrinseca sumpta ab appetitu; et
+<lb ed="#L" n="65"/>habent se sicut color et visibile; constat autem quod 
+visi<lb break="no" ed="#L" n="66"/>bile dicitur de colore in secundo modo, ex II de Anima.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e279">
+                  <lb ed="#L" n="67"/>VII. Ad hoc potest dici dupliciter, iuxta duos modos
+<lb ed="#L" n="68"/>quibus accipitur aliquid habere rationem appetibilis, scilicet
+<lb ed="#L" n="69"/>formaliter , et fundamentaliter. Si sumatur ly appetibile
+<lb ed="#L" n="70"/>formaliter, tunc bonum dicitur habere rationem eius, non
+<lb ed="#L" n="71"/>ut intrinsecam, sed ut passionem. Si vero sumatur 
+funda<lb break="no" ed="#L" n="72"/>mentaliter, tunc bonum dicitur habere rationem appetibilis
+<lb ed="#L" n="73"/>intrinsece: quoniam propria ratio boni est fundamentum et
+<lb ed="#L" n="74"/>causa propria appetibilitatis, sicut color visibilitatis. - Et
+<lb ed="#L" n="75"/>licet utraque glossa sit absolute vera, et prima ex principio
+<lb ed="#L" n="76"/>Commenti s. Thomae super libros Ethicorum habeatur,
+<lb ed="#L" n="77"/>secunda tamen in proposito est directe intenta: quoniam
+<lb ed="#L" n="78"/>de intrinseca boni ratione est quaestio.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e308">
+                  <lb ed="#L" n="79"/>VIII. Sed adverte hic quod, quamvis quodlibet horum
+<lb ed="#L" n="80"/>quae in deductione rationis assumpta sunt, scilicet bonum,
+<lb ed="#L" n="81"/>perfectum, ens in actu, et ens, importet fundamentum et
+<lb ed="#L" n="82"/>causam appetibilis; et propterea concluditur identitas realis
+<lb ed="#L" n="83"/>inter ea: solum tamen bonum importat proximum 
+funda<lb break="no" ed="#L" n="84"/>mentum appetibilis; quia solum bonum significat rem illam
+<lb ed="#L" n="85"/>quae fundat appetibilitatem, ut fundat et causat eam: ita
+<lb ed="#L" n="86"/>quod quanto aliquid propius accedit ad boni rationem,
+<lb ed="#L" n="87"/>tanto magis exprimit fundamentum appetibilis , ut patet
+<lb ed="#L" n="88"/>discurrenti per praedicta. Inter ens siquidem et bonum 
+me<lb break="no" ed="#L" n="89"/>diant ens in actu et perfectum: et constat quod magis
+<lb ed="#L" n="90"/>exprimitur ratio appetibilis per ens in actu quam per ens,
+<lb ed="#L" n="91"/>quoniam unumquodque appetitur secundum aliquod esse
+<lb ed="#L" n="92"/>in actu, praesens vel futurum; et adhuc magis per 
+perfe<lb break="no" ed="#L" n="93"/>ctum, quod importat complementum, quia et esse in actu
+<lb ed="#L" n="94"/>appetitur ad complementum; et ultimo per bonum, quia
+<lb ed="#L" n="95"/>nec complementum ipsum. appetitur, nisi quia bonum est,
+<lb ed="#L" n="96"/>aut apparet appetenti. Importat ergo bonum rationem 
+ap<lb break="no" ed="#L" n="97"/>petibilis, idest fundamentum et rationem proximam quare
+<lb ed="#L" n="98"/>aliquid sit appetibile: quae quia eadem est perfectioni et
+<lb ed="#L" n="99"/>esse, idem est quod ens. Sed quia ut sic non exprimitur
+<lb ed="#L" n="100"/>ab ente, sed absolute secundum se, ideo distinguitur ab
+<lb ed="#L" n="101"/>ente ratione formali.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e72-Dd1e361"><!-- caj-p1-q5-a2 -->
+               <head xml:id="TAcCaj-d1e72-Hd1e364">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e72-d1e366">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="79"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e373">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="80"/>In titulo, prius secundum rationem , idest secundum 
+or<lb break="no" ed="#L" n="81"/>dinem rationum formalium ipsorum. Oportet enim ens
+<lb ed="#L" n="82"/>et bonum, cum rationibus distinguantur, quod secundum
+<lb ed="#L" n="83"/>eas ordinata sint, non alio procul dubio ordine, quam qui
+<lb ed="#L" n="84"/>aptus natus est esse inter rationes formales: qui vocatur
+<lb ed="#L" n="85"/>ordo rationis, et habet consequenter prius et posterius 
+se<lb break="no" ed="#L" n="86"/>cundum rationem. Et consistit ordo iste in hoc, quod ratio
+<lb ed="#L" n="87"/>scilicet posterior praesupponit aliam secundum se, non e
+<lb ed="#L" n="88"/>converso. Ita quod sensus est: An boni ratio praecedat,
+<lb ed="#L" n="89"/>merito sui, rationem entis.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e399">
+                  <lb ed="#L" n="90"/>II. In corpore una conclusio responsiva quaesito: Ens
+<lb ed="#L" n="91"/>est prius secundum rationem quam bonum. - Probatur.
+<lb ed="#L" n="92"/>Unumquodque est cognoscibile inquantum est in actu. Ergo
+<lb ed="#L" n="93"/>ens est proprium obiectum intellectus. Ergo est primum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>intelligibile. Ergo primo cadit in conceptione intellectus.
+<lb ed="#L" n="95"/>Ergo est prius secundum rationem quam bonum.
+<lb ed="#L" n="96"/>Antecedens probatur ex IX Metaphys. Prima, secunda
+<lb ed="#L" n="97"/>et tertia consequentia relinquuntur per se notae. Quarta
+<lb ed="#L" n="98"/>autem probatur: quia ratio significata per nomen, est id
+<lb ed="#L" n="99"/>quod concipitur de re ab intellectu. — Omnia clara sunt.
+<lb ed="#L" n="100"/>Concludit enim ratio haec, non solum quod ens est prius
+<lb ed="#L" n="101"/>secundum rationem bono, sed omnibus aliis, ut patet.
+<lb ed="#L" n="102"/>III. Circa hanc rationem dubium occurrit: quia aut 
+in<lb break="no" ed="#L" n="103"/>tenditur inferre quod ens sit prius ordine rationis 
+secun<lb break="no" ed="#L" n="104"/>dum se, aut quoad nos. Si secundum se, hoc repugnat
+<lb ed="#L" n="105"/>supradictis in qu. ni, art. v. Ibi enim dictum est in littera
+<lb ed="#L" n="106"/>quod Deo nihil est prius, neque secundum rem, neque
+<lb ed="#L" n="107"/>secundum intellectum: ex hoc autem sensu sequitur quod
+<pb ed="#L" n="59"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ens sit prius Deo secundum rationem. Quoniam si ens est
+<lb ed="#L" n="2"/>primum intelligibile, sicut sonus primum audibile, portet
+<lb ed="#L" n="3"/>cetera esse posteriora intelligibilia, ut patet ex I Poster.
+<lb ed="#L" n="4"/>quod enim primo convenit alicui, ceteris convenit ratione
+<lb ed="#L" n="5"/>illius. - Si quoad nos, tunc non est respondendo satisfactum
+<lb ed="#L" n="6"/>quaesito. Vertitur namque in dubium, an ratio entis 
+secun<lb break="no" ed="#L" n="7"/>dum se sit prior ratione boni: et non, an quoad nos sit prior.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e462">
+                  <lb ed="#L" n="8"/>IV. Ad hoc potest dupliciter dici. Primo, quod ens
+<lb ed="#L" n="9"/>potest comparari ad alia quae sunt sui ordinis, idest ad
+<lb ed="#L" n="10"/>alias rationes formales: et potest comparari ad res ipsas
+<lb ed="#L" n="11"/>subsistentes. Si entis ratio comparetur ad alias rationes, 
+ac<lb break="no" ed="#L" n="12"/>cipiendo rationes rerum ut distinguuntur contra res ipsas,
+<lb ed="#L" n="13"/>sic ens est primum intelligibile secundum se, et cetera sunt
+<lb ed="#L" n="14"/>posteriora secundum intellectum. Sed inter ly cetera non
+<lb ed="#L" n="15"/>clauditur quod quid erat esse Dei: quoniam . non potest
+<lb ed="#L" n="16"/>esse ita ratio quin sit res, quia non potest abstrahere ab
+<lb ed="#L" n="17"/>existentia, cum sit ipsum esse. - Sed si entis ratio 
+compa<lb break="no" ed="#L" n="18"/>retur et ad rationes et ad res, tunc non est simpliciter
+<lb ed="#L" n="19"/>primum intelligibile : sed deitas est primum intelligibile.
+<lb ed="#L" n="20"/>Ita quod intelligibilitas prius inest Deo quam enti: imo
+<lb ed="#L" n="21"/>inest enti, quia inest Deo: non enim Deus participative
+<lb ed="#L" n="22"/>est intelligibilis. — Et sic uterque textus salvatur. Quoniam
+<lb ed="#L" n="23"/>ibi Deus absolute dicitur primum secundum intellectum :
+<lb ed="#L" n="24"/>hic vero ens dicitur primum nter rationes formales.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e502">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>Secundo potest dici, quod hic accidit amphibologia in
+<lb ed="#L" n="26"/>ly quoad nos: quoniam potest determinare vel ordinem,
+<lb ed="#L" n="27"/>vel intelligibilia. Si determinat ordinem, tunc distinguitur
+<lb ed="#L" n="28"/>contra ordinem secundum se: et sic procedit obiectio. Et
+<lb ed="#L" n="29"/>respondendum est quod intenditur de ordine secundum se.
+<lb ed="#L" n="30"/>Quoniam, ut patet ex titulo, non est hic quaestio de ordine
+<lb ed="#L" n="31"/>cognitionis, quid scilicet prius a nobis cognoscatur: sed de
+<lb ed="#L" n="32"/>ordine rationis, cuius scilicet ratio formalis sit prior. - Si
+<lb ed="#L" n="33"/>determinat intelligibilia, tunc distinguit intelligibilia nostra a
+<lb ed="#L" n="34"/>non intelligibilibus a nobis. Et iuxta hunc sensum 
+dicen<lb break="no" ed="#L" n="35"/>dum est, quod hic quaeritur de intelligibilibus quoad nos,
+<lb ed="#L" n="36"/>idest de intelligibilibus nostris, seu a nobis: ita quod sermo
+<lb ed="#L" n="37"/>praesens est de ordine secundum se nostrorum 
+intelligibi<lb break="no" ed="#L" n="38"/>lium. Et secundum hoc, ens est primum secundum se 
+intel<lb break="no" ed="#L" n="39"/>ligibile, inter intelligibilia a nobis: Deus autem est primum
+<lb ed="#L" n="40"/>intelligibile simpliciter. - Et hic sensus consonat superficiei
+<lb ed="#L" n="41"/>litterae, loquenti de obiecto intellectus nostri, dum significare
+<lb ed="#L" n="42"/>per vocem admiscet. Quamvis hoc non cogat quin sequentia
+<lb ed="#L" n="43"/>de intellectu absolute, inquantum intellectus est, cuius 
+tan<lb break="no" ed="#L" n="44"/>tum obiectum proprium constat esse ens, interpretanda sint.
+<lb ed="#L" n="45"/>Omnis namque intellectus, secundum naturam propriam
+<lb ed="#L" n="46"/>sumptus, aliud sortitus est proprium obiectum: divinus 
+si<lb break="no" ed="#L" n="47"/>quidem deitatem, angelicus propriam substantiam, humanus
+<lb ed="#L" n="48"/>quod quid est rei materialis, etc., ut suis locis patebit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e72-Dd1e560"><!-- caj-p1-q5-a3 -->
+               <head xml:id="TAcCaj-d1e72-Hd1e563">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e72-d1e565">
+                  <pb ed="#L" n="60"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e574">
+                  <lb ed="#L" n="2"/>In corpore una conclusio, responsiva quaesito affirmative:
+<lb ed="#L" n="3"/>Omne ens, inquantum ens, est bonum. Et additur ly
+<lb ed="#L" n="4"/>inquantum in conclusione, ad ostendendum quod non per
+<lb ed="#L" n="5"/>accidens, sed per se convenit omni enti esse bonum. -
+<lb ed="#L" n="6"/>Probatur sic. Omne ens, ut sic, est actu: ergo perfectum:
+<lb ed="#L" n="7"/>ergo appetibile et bonum, - Omnia clara sunt. Prima 
+con<lb break="no" ed="#L" n="8"/>sequentia probatur: quia omnis actus perfectio quaedam est.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e592">
+                  <lb ed="#L" n="9"/>II. In responsione ad quartum, adverte quod littera duo
+<lb ed="#L" n="10"/>dicit. Primo namque verificat, assignando rationem quare
+<lb ed="#L" n="11"/>mathematica non sunt bona: secundo, respondet 
+argu<lb break="no" ed="#L" n="12"/>mento. - Primum quidem fundatur super hoc, quod res
+<lb ed="#L" n="13"/>sunt bonae, ut infra patebit, aut quia sunt, aut quia talia
+<lb ed="#L" n="14"/>sunt, aut quia ordinantur in bonum. Mathematica autem,
+<lb ed="#L" n="15"/>ut sic, abstrahunt ab his omnibus: ab esse quidem, quia
+<lb ed="#L" n="16"/>ut sic non sunt; ab esse autem tale, eadem ratione, 
+quo<lb break="no" ed="#L" n="17"/>niam esse tale supponit esse; ab ordine autem ad bonum,
+<lb ed="#L" n="18"/>quia abstrahunt a fine. Probatur: finis habet rationem 
+mo<lb break="no" ed="#L" n="19"/>ventis, haec autem abstrahunt a materia et motu.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e618">
+                  <lb ed="#L" n="20"/>III. Circa hanc partem occurrunt duo dubia. Primum
+<lb ed="#L" n="21"/>est circa illam rationem, quod ideo mathematica non sunt
+<lb ed="#L" n="22"/>bona prima bonitate, quia non subsistunt separata. Si enim
+<lb ed="#L" n="23"/>haec ratio valet, sequitur quod nulla res in universali
+<lb ed="#L" n="24"/>sumpta, est bona: quoniam nulla res universaliter sumpta
+<lb ed="#L" n="25"/>subsistit, apud Peripateticos. Consequens est falsum: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e635">
+                  <lb ed="#L" n="26"/>Secundum dubium est circa illam rationem, quod ideo
+<lb ed="#L" n="27"/>mathematica abstrahunt a fine, quia abstrahunt a materia et
+<lb ed="#L" n="28"/>motu, quia finis habet rationem moventis. Dupliciter enim
+<lb ed="#L" n="29"/>deficere videtur haec ratio. Primo, quia sequeretur quod
+<lb ed="#L" n="30"/>metaphysicalia abstraherent a fine: quia magis abstrahunt a
+<lb ed="#L" n="31"/>materia et motu quam mathematica. Secundo, quia 
+aequi<lb break="no" ed="#L" n="32"/>vocatur de motu: quoniam finis non habet rationem 
+mo<lb break="no" ed="#L" n="33"/>ventis motu proprie dicto, a quo abstrahit mathematicus;
+<lb ed="#L" n="34"/>sed motu metaphorice dicto. Quamvis ergo conclusio sit
+<lb ed="#L" n="35"/>vera, ratio tamen nulla est.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e659">
+                  <lb ed="#L" n="36"/>IV. Ad primum dubium dicitur, quod mathematica 
+pos<lb break="no" ed="#L" n="37"/>sunt sumi dupliciter. Uno modo, secundum id quod sunt
+<lb ed="#L" n="38"/>absolute. Et sic idem est iudicium de eis et naturalibus,
+<lb ed="#L" n="39"/>quoad esse et bonitatem: non enim triangulus magis 
+abstra<lb break="no" ed="#L" n="40"/>hit ab esse quam albedo. Et sic de eis non est hic sermo:
+<lb ed="#L" n="41"/>sed dici de ipsis potest quod sunt bona eo modo quo
+<lb ed="#L" n="42"/>entia, scilicet secundum sua individua in rerum natura 
+exi<lb break="no" ed="#L" n="43"/>stentia, etc.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e679">
+                  <lb ed="#L" n="44"/>Alio modo considerantur ut mathematica sunt, 
+inquan<lb break="no" ed="#L" n="45"/>tum subsunt tali abstractionis modo. Et sic negatur par
+<lb ed="#L" n="46"/>esse iudicium de eis, et de aliis rebus in universali sumptis.
+<lb ed="#L" n="47"/>- Ad cuius evidentiam, scito quod, licet omnia universalia
+<lb ed="#L" n="48"/>in hoc conveniant, quod non subsistunt in sua 
+universa<lb break="no" ed="#L" n="49"/>litate; inter universalia tamen physica, mathematica et
+<lb ed="#L" n="50"/>metaphysica, magna est differentia quoad subsistere in suis
+<lb ed="#L" n="51"/>abstractionibus propriis. Metaphysicalia namque, secundum
+<lb ed="#L" n="52"/>propriam abstractionem sumpta, subsistunt: quoniam 
+ha<lb break="no" ed="#L" n="53"/>bent in rerum natura individua abstrahentia ab omni 
+ma<lb break="no" ed="#L" n="54"/>teria sensibili et intelligibili, ut patet de intelligentiis. 
+Ma<lb break="no" ed="#L" n="55"/>thematica vero, secundum propriam abstractionem sumpta,
+<lb ed="#L" n="56"/>non existunt: quoniam nullum habent in rerum natura
+<lb ed="#L" n="57"/>individuum abstrahens a materia sensibili; non enim 
+inve<lb break="no" ed="#L" n="58"/>nitur haec linea, nisi in terminatione corporis sensibilis.
+<lb ed="#L" n="59"/>Naturalia autem, cum nullam habeant propriam 
+abstractio<lb break="no" ed="#L" n="60"/>nem, sed eam tantum quae communis est omnibus 
+sci<lb break="no" ed="#L" n="61"/>bilibus, scilicet qua universale abstrahit a particulari; 
+ma<lb break="no" ed="#L" n="62"/>nifeste patet quod subsistunt in rerum natura, dum habent
+<lb ed="#L" n="63"/>individua subsistentia cum materia sensibili, et ceteris
+<lb ed="#L" n="64"/>conditionibus in universali scitis. - Cum ergo in littera 
+di<lb break="no" ed="#L" n="65"/>citur quod mathematica non subsistunt, non est 
+interpre<lb break="no" ed="#L" n="66"/>tandum quod universalia mathematica universaliter sumpta
+<lb ed="#L" n="67"/>non subsistunt (hoc enim esset ridiculum pro ratione 
+af<lb break="no" ed="#L" n="68"/>ferre): sed quod mathematica ut sic, particulariter sumpta,
+<lb ed="#L" n="69"/>non subsistunt; seu, quod idem est, quod mathematica
+<lb ed="#L" n="70"/>ut sic, non habent aliquod individuum existens in rerum
+<lb ed="#L" n="71"/>natura. Et propterea neque sunt in universali, neque in
+<lb ed="#L" n="72"/>particulari: ac per hoc bona esse non possunt. Quod de
+<lb ed="#L" n="73"/>alis rebus universaliter sumptis dici non potest. Et sic
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="74"/>patet nullitas consequentiae ad oppositum factae: et quare
+<lb ed="#L" n="75"/>singulariter dicatur de mathematicis quod non habent esse.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e753">
+                  <lb ed="#L" n="76"/>V. Ad secundum vero dubium, respondetur quod, quia
+<lb ed="#L" n="77"/>sermones semper interpretandi sunt secundum subiectam
+<lb ed="#L" n="78"/>materiam, ideo, quamvis non valeat consequentia, abstrahit
+<lb ed="#L" n="79"/>a materia et motu, ergo a fine, ut patet in XII Metaphys.,
+<lb ed="#L" n="80"/>textu xxxvir, ubi ponitur finis in immobilibus; valet tamen
+<lb ed="#L" n="81"/>consequentia haec, mathematica abstrahunt a materia et
+<lb ed="#L" n="82"/>motu, ergo a fine: quia mathematica non sunt nata habere
+<lb ed="#L" n="83"/>finem nisi materiae et motus, quoniam secundum rem sunt
+<lb ed="#L" n="84"/>entia naturalia. Si enim abstrahunt a materia et motu,
+<lb ed="#L" n="85"/>oportet ea abstrahere a fine materiae et motus: et si 
+abstra<lb break="no" ed="#L" n="86"/>hunt a tali fine, abstrahunt totaliter a fine, quia non sunt
+<lb ed="#L" n="87"/>nata habere alio modo finem.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e782">
+                  <lb ed="#L" n="88"/>Et per hoc patet etiam responsio ad secundam 
+obiectio<lb break="no" ed="#L" n="89"/>nem. Cum enim dicitur, finis habet rationem moventis ,
+<lb ed="#L" n="90"/>ly moventis potest significare puram causalitatem finis: et
+<lb ed="#L" n="91"/>sic aequivoce dicitur movens a motu proprie dicto. Sed
+<lb ed="#L" n="92"/>sic non sumitur hic. — Potest quoque significare et 
+causa<lb break="no" ed="#L" n="93"/>litatem finis, et effectum eius: et tunc aequivalet huic quod
+<lb ed="#L" n="94"/>dico, causantis motum. Et sic sumitur in proposito. Nec
+<lb ed="#L" n="95"/>est aliqua aequivocatio: sed sumitur utrobique motus 
+pro<lb break="no" ed="#L" n="96"/>prie: et specificatur qualis finis est mathematicorum. Quasi
+<lb ed="#L" n="97"/>diceret quod, quia finis mathematicorum habet rationem
+<lb ed="#L" n="98"/>moventis, idest causantis motum proprie dictum, sicut et
+<lb ed="#L" n="99"/>finis naturalium; consequens est quod, si mathematica
+<lb ed="#L" n="100"/>abstrahant a materia et motu, quod abstrahant a fine. -
+<lb ed="#L" n="101"/>Et sic ex eadem radice solvitur utraque obiectio.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e815">
+                  <lb ed="#L" n="102"/>VI. Secundo, in eadem responsione satisfacit 
+argu<lb break="no" ed="#L" n="103"/>mento. Et argumentum quidem est hoc: Mathematica non
+<lb ed="#L" n="104"/>sunt bona; mathematica sunt entia; ergo quaedam entia
+<lb ed="#L" n="105"/>non sunt bona (in secundo tertiae figurae). - Responsio
+<lb ed="#L" n="106"/>autem consistit in negatione argumenti: quoniam sophisma
+<lb ed="#L" n="107"/>est figurae dictionis, vel a secundum quid ad simpliciter.
+<lb ed="#L" n="108"/>Ly namque mathematica videtur significare entia: et tamen
+<lb ed="#L" n="109"/>significat entia sic abstracta. Et propterea in littera et 
+ne<lb break="no" ed="#L" n="110"/>gatur conclusio illata, scilicet quod quaedam entia non
+<lb ed="#L" n="111"/>sunt bona: et conceditur conclusio quae deberet inferri,
+<lb ed="#L" n="112"/>scilicet quod quaedam entia, ut subsunt tali abstractioni,
+<lb ed="#L" n="113"/>non sunt bona. Nec hoc inconvenit, ut in littera dicitur:
+<lb ed="#L" n="114"/>quia ratio entis etiam abstrahit a ratione boni. Sicut quia
+<lb ed="#L" n="115"/>ratio hominis est prior risibilitate, potest sumi homo in
+<lb ed="#L" n="116"/>aliquo priori (quia in primo modo dicendi per se), in quo
+<lb ed="#L" n="117"/>convenit sibi esse animal rationale, et non convenit sibi
+<lb ed="#L" n="118"/>esse risibilem: nec potest tamen inferri, ergo aliquis homo
+<lb ed="#L" n="119"/>non est risibilis; sed, ergo aliquis homo in aliquo priori
+<lb ed="#L" n="120"/>abstrahit a risibili, in quo non abstrahit ab hominis ratione.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e860">
+                  <lb ed="#L" n="121"/>VII. Circa hanc partem occurrit dubium, quomodo stent
+<lb ed="#L" n="122"/>ista duo simul: mathematica, formaliter loquendo, non
+<lb ed="#L" n="123"/>sunt nec in actu nec potentia, ut dictum est; et, 
+ma<lb break="no" ed="#L" n="124"/>thematica habent rationem entis: cum ens non dicatur nisi
+<lb ed="#L" n="125"/>de eo quod est in actu vel potentia. /
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e873">
+                  <lb ed="#L" n="126"/>Ad hoc breviter dicitur, quod haec duo, sane intellecta,
+<lb ed="#L" n="127"/>stant simul. Prima enim non negat esse universaliter: sed
+<lb ed="#L" n="128"/>negat esse sic, scilicet in tali abstractionis modo. 
+Trian<lb break="no" ed="#L" n="129"/>gulus enim abstractus a materia sensibili, nec est, nec esse
+<lb ed="#L" n="130"/>potest (scilicet secundum talem essendi modum) in rerum
+<lb ed="#L" n="131"/>natura, Et hoc est quod in principio huius responsionis
+<lb ed="#L" n="132"/>dicitur. - Secunda autem affirmat in confuso aliquod esse.
+<lb ed="#L" n="133"/>Constat autem quod, cum negatione unius modi essendi,
+<lb ed="#L" n="134"/>stat affirmatio essendi in communi de eodem subiecto:
+<lb ed="#L" n="135"/>quia potest verificari secundum alium essendi modum. 
+Ma<lb break="no" ed="#L" n="136"/>thematica ergo et non sunt entia tali modo, et sunt 
+ab<lb break="no" ed="#L" n="137"/>solute entia.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e902">
+                  <lb ed="#L" n="138"/>VIII. Et si instetur ad propositum: « Ergo eodem modo
+<lb ed="#L" n="139"/>dicendum est quod non sunt bona tali modo, sed sunt
+<lb ed="#L" n="140"/>absolute bona: et consequenter male dicitur quod 
+mathe<lb break="no" ed="#L" n="141"/>matica non sunt bona »: neganda est sequela. Quoniam ad
+<lb ed="#L" n="142"/>hoc quod aliquid habeat formaliter rationem entis, sufficit
+<lb ed="#L" n="143"/>quod in se sit tale quod ei non repugnet esse in rerum
+<lb ed="#L" n="144"/>natura; quocumque id modo eveniat, sive secundum suam
+<lb ed="#L" n="145"/>abstractionem sive non. Ad hoc autem quod habeat for-
+<pb ed="#L" n="61"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>maliter rationem boni, ultra hoc exigitur quod ipsum 
+su<lb break="no" ed="#L" n="2"/>matur in ordine ad esse, vel ad finem, etc. Modo, triangulus
+<lb ed="#L" n="3"/>et cetera mathematica, secundum suas quidditates, hoc 
+pos<lb break="no" ed="#L" n="4"/>sident, quod eis non repugnat existere: et propterea entis
+<lb ed="#L" n="5"/>rationem formaliter retinent. Sed quia non considerantur in
+<lb ed="#L" n="6"/>ordine ad esse et finem in rerum natura, ideo abstrahunt
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>a boni ratione formaliter, non fundamentaliter: et 
+pro<lb break="no" ed="#L" n="8"/>pterea in eis esse negatur. - Cuius signum manifestum est,
+<lb ed="#L" n="9"/>quod nulla ibi conclusio demonstratur propter bonum aut
+<lb ed="#L" n="10"/>melius esse: nulla ibi demonstratio per causam finalem aut
+<lb ed="#L" n="11"/>effectivam (quae respiciunt esse in rerum natura), sed 
+tan<lb break="no" ed="#L" n="12"/>tum per formalem: illa enim est propria bono, haec enti.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e72-Dd1e955"><!-- caj-p1-q5-a4 -->
+               <head xml:id="TAcCaj-d1e72-Hd1e958">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e72-d1e960">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="85"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e967">
+                  <lb ed="#L" n="86"/>In titulo, habere rationem causae finalis non sumitur hic
+<lb ed="#L" n="87"/>identice, sed dupliciter: scilicet im actu signato, et in
+<lb ed="#L" n="88"/>actu exercito. Si primo modo habere rationem causae 
+fi<lb break="no" ed="#L" n="89"/>nalis intelligitur, sumitur fundamentaliter fundamento 
+pro<lb break="no" ed="#L" n="90"/>ximo. Non enim quaeritur utrum bonum sit ratio causae
+<lb ed="#L" n="91"/>finalis: sed an sit proprium fundamentum illius. Quid autem
+<lb ed="#L" n="92"/>sit ratio causae finalis, ex II Physic. et V Metaphys.
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="93"/>patet, scilicet cuius gratia aliquid fit aut est. Unde sensus
+<lb ed="#L" n="94"/>tituli est: An res, eo quia bona, vendicet sibi hoc proprium,
+<lb ed="#L" n="95"/>quod sit cuius gratia. — Si vero secundo modo ees
+<lb ed="#L" n="96"/>tunc habere rationem causae finalis sumitur formaliter; i
+<lb ed="#L" n="97"/>quod sensus tituli est: Utrum bonum formaliter sit focios.
+<lb ed="#L" n="98"/>liter ipsa ratio finis in actu exercito , idest exerceat 
+cau<lb break="no" ed="#L" n="99"/>salitatem finalem: verbi gratia, si dicatur quod A fit aut
+<pb ed="#L" n="62"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est, simpliciter aut tale, quia est bonum, an ex hoc ipso
+<lb ed="#L" n="2"/>reddatur causa finalis. Et hic sensus est, iudicio meo, 
+in<lb break="no" ed="#L" n="3"/>tentus: quia formalis est, et tanto dignus ingenio; et 
+re<lb break="no" ed="#L" n="4"/>sponsio ad hoc tendit.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1015">
+                  <lb ed="#L" n="5"/>II. Circa hanc determinationem, adverte breviter 
+verita<lb break="no" ed="#L" n="6"/>tem quam hinc habes, de illa quaestione, utrum res sit
+<lb ed="#L" n="7"/>causa finalis in intentione, aut in executione, etc. Cum
+<lb ed="#L" n="8"/>enim hic habeas (quod in II quoque Physic. habetur)
+<lb ed="#L" n="9"/>quod bonum importat finis rationem in actu exercito (quod
+<lb ed="#L" n="10"/>etiam inductive probatur, dum omnis ratio propter bonum
+<lb ed="#L" n="11"/>aut melius, finem affert), oportet ut eadem ratione rem
+<lb ed="#L" n="12"/>aliquam finem dicas, qua bonam eam asseris. Ex 
+supra<lb break="no" ed="#L" n="13"/>dictis autem patet quod bonum formaliter unumquodque
+<lb ed="#L" n="14"/>dicitur et est, ratione esse: finis igitur rationem habet res
+<lb ed="#L" n="15"/>ratione esse. Ita quod, sicut forma est ratio causandi 
+effe<lb break="no" ed="#L" n="16"/>ctive, existere autem est conditio formae efficientis: ita esse
+<lb ed="#L" n="17"/>est ratio causandi finaliter; esse autem in intentione, est
+<lb ed="#L" n="18"/>conditio esse causantis finaliter; esse autem in executione,
+<lb ed="#L" n="19"/>non est finis, sed terminus et effectus tam finis quam 
+effi<lb break="no" ed="#L" n="20"/>cientis, Et hoc inductione, non ratione eget: sanitas enim,
+<lb ed="#L" n="21"/>scientia, balneum, etc., appetitur ut insit, ut habeatur, etc.,
+<lb ed="#L" n="22"/>non in intentione, sed secundum esse naturale ipsius. Et
+<lb ed="#L" n="23"/>sic esse est ratio quod appetatur res, quod idem est quod
+<lb ed="#L" n="24"/>Jinaligare: sed nunquam aliquod horum finalizaret, 
+tra<lb break="no" ed="#L" n="25"/>hendo appetitum ad se, nisi esset in intentione, ut patet:
+<lb ed="#L" n="26"/>ex hoc autem experimur sequi executionem rei quae ut
+<lb ed="#L" n="27"/>finis movet. Et hoc voluit Averroes XII Metaphys., 
+com<lb break="no" ed="#L" n="28"/>ment. xxxvi. Et hoc, bene penetratum, solvit omnes 
+diffi<lb break="no" ed="#L" n="29"/>cultates apud intellectum abstrahentem rem ab esse extra
+<lb ed="#L" n="30"/>animam, ab esse in executione, et ab esse in intentione,
+<lb ed="#L" n="31"/>modo praedicto.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1076">
+                  <lb ed="#L" n="32"/>III. In corpore duo: primo respondetur quaesito; 
+se<lb break="no" ed="#L" n="33"/>cundo excluditur tacita obiectio. Quoad primum, est 
+con<lb break="no" ed="#L" n="34"/>clusio responsiva quaesito affirmative: Bonum habet 
+ratio<lb break="no" ed="#L" n="35"/>nem causae finalis. - Probatur. Appetibile habet rationem
+<lb ed="#L" n="36"/>finis: bonum est appetibile: ergo bonum habet rationem
+<lb ed="#L" n="37"/>finis.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1093">
+                  <lb ed="#L" n="38"/>IV. Quoad secundum, tacita obiectio est haec. Superius
+<lb ed="#L" n="39"/>iam determinatum est quod bonum non habet rationem
+<lb ed="#L" n="40"/>primi, sed ultimi potius. Modo autem dicitur quod habet
+<lb ed="#L" n="41"/>rationem causae finalis: quam constat habere rationem
+<lb ed="#L" n="42"/>primi, cum finis sit causa causarum. Quomodo ergo stant
+<lb ed="#L" n="43"/>haec simul, quod bonum habeat rationem ultimi et primi?
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1109">
+                  <lb ed="#L" n="44"/>Hanc obiectionem excludendo, primo ponit 
+responsio<lb break="no" ed="#L" n="45"/>nem: deinde probat ipsam. Responsio est, quod bonum est
+<lb ed="#L" n="46"/>ultimum in essendo, primum autem in causando: quamvis
+<lb ed="#L" n="47"/>in littera prima pars responsionis huius tantum 
+propona<lb break="no" ed="#L" n="48"/>tur. - Probatio est: primum in causando, est ultimum in
+<lb ed="#L" n="49"/>essendo; finis est primum in causando; ergo finis est 
+ulti<lb break="no" ed="#L" n="50"/>mum in essendo. Sed bonum habet rationem finis: ergo.
+<lb ed="#L" n="51"/>Maior probatur ex testimonio sensibilium, in quibus 
+pri<lb break="no" ed="#L" n="52"/>mum in causando, est ultimum in causato, ut patet in
+<lb ed="#L" n="53"/>igne et calore. Ergo, absolute, primum in causando, est 
+ul<lb break="no" ed="#L" n="54"/>timum in essendo.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1135">
+                  <lb ed="#L" n="55"/>V. Circa maiorem, adverte terminos: quod ly primum
+<lb ed="#L" n="56"/>et ultimum denotant in proposito ordinem generationis;
+<lb ed="#L" n="57"/>et supponunt pro formis, seu rationibus formalibus, quae
+<lb ed="#L" n="58"/>sunt principia causandi et essendi. Ly vero im causando
+<lb ed="#L" n="59"/>sumitur ut distinguitur contra i essendo. Supponitur 
+si<lb break="no" ed="#L" n="60"/>quidem hic duplicem dari ordinem generationis inter res:
+<lb ed="#L" n="61"/>alterum in causando, alterum in essendo. Et ille quidem
+<lb ed="#L" n="62"/>attenditur penes prius et post causare, iste vero penes prius
+<lb ed="#L" n="63"/>et post esse: ita quod illa res est prior in causando, cuius
+<lb ed="#L" n="64"/>causalitas non pendet a causalitate alterius, sed e converso;
+<lb ed="#L" n="65"/>et similiter illa res est prior in essendo, cuius esse non
+<lb ed="#L" n="66"/>praesupponit esse alterius, sed e converso. Est ergo sensus
+<lb ed="#L" n="67"/>maioris, quod res prior ordine generationis quoad 
+causa<lb break="no" ed="#L" n="68"/>litatem, est posterior ordine generationis quoad esse.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1168">
+                  <lb ed="#L" n="69"/>VI. Circa probationem maioris, adverte quod ordo 
+re<lb break="no" ed="#L" n="70"/>rum in essendo potest considerari absolute; et sic $umitur
+<lb ed="#L" n="71"/>in maiore: et potest considerari in tali genere, puta 
+causa<lb break="no" ed="#L" n="72"/>torum; et sic sumitur in probatione maioris. Ita quod ab
+<lb ed="#L" n="73"/>ordine in essendo invento inter fundamenta prioris et po-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="74"/>sterioris causae, puta caloris et formae ignis in causato,
+<lb ed="#L" n="75"/>manuducere nos voluit ad ordinem in essendo simpliciter.
+<lb ed="#L" n="76"/>Non enim intendebat maiorem ex vi probationis inferre:
+<lb ed="#L" n="77"/>sed ostendere quod non oportet eundem ordinem esse inter
+<lb ed="#L" n="78"/>res in essendo, qui est in causando, nec e converso: quod
+<lb ed="#L" n="79"/>sufficienter ex illa probatione fit. Et rursus intendebat ad
+<lb ed="#L" n="80"/>intelligibilia haec, ex sensibilium testimonio elevare: quod
+<lb ed="#L" n="81"/>satis hic fit.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1201">
+                  <lb ed="#L" n="82"/>VII. Circa huius maioris, et totius rationis vim, dubium
+<lb ed="#L" n="83"/>occurrit. Quia aut hic est sermo de ordine in causando et
+<lb ed="#L" n="84"/>essendo absolute; aut respectu huius, et in hoc. Si absolute,
+<lb ed="#L" n="85"/>maior est falsa. Tum quia ultimus finis omnium, puta
+<lb ed="#L" n="86"/>Deus, est primum in causando; et tamen non est ultimum,
+<lb ed="#L" n="87"/>sed primum quoque in essendo. Tum etiam in exemplo
+<lb ed="#L" n="88"/>litterae: forma ignis non solum est primum in essendo,
+<lb ed="#L" n="89"/>sed etiam in causando; nam prius forma ignis causat 
+for<lb break="no" ed="#L" n="90"/>maliter ignem, sive causantem sive causatum, quam calor
+<lb ed="#L" n="91"/>effective calefaciat. Et simile est in omnibus: semper enim
+<lb ed="#L" n="92"/>forma praevenit et in esse et in causalitate formali.- Si autem
+<lb ed="#L" n="93"/>respectu huius, aut in hoc: ergo non habetur intentum.
+<lb ed="#L" n="94"/>Intendit enim absolute ordinem boni ad alia assignare; et
+<lb ed="#L" n="95"/>non in hoc vel illo.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1234">
+                  <lb ed="#L" n="96"/>VIII. Ad hoc dicitur quod hic sermo est de ordine et in
+<lb ed="#L" n="97"/>causando et in essendo absolute. Sed obiectio peccat. Tum
+<lb ed="#L" n="98"/>quia male interpretatur maiorem. Non enim intendimus
+<lb ed="#L" n="99"/>quod primum in causando, illud idem numero sit ultimum
+<lb ed="#L" n="100"/>in essendo, respectu eorum quorum est primum in 
+cau<lb break="no" ed="#L" n="101"/>sando (haec enim universalis est impossibilis, nec eam
+<lb ed="#L" n="102"/>somniavimus): sed intendimus illud idem secundum 
+ratio<lb break="no" ed="#L" n="103"/>nem formalem, sive eandem specie, sive eandem genere,
+<lb ed="#L" n="104"/>sive eandem secundum analogiam, sit ultimum in essendo,
+<lb ed="#L" n="105"/>in ordine eorum quorum est primum in causando. Et hoc
+<lb ed="#L" n="106"/>modo, ratio bonitatis divinae est prima in causando 
+fina<lb break="no" ed="#L" n="107"/>liter, et ipsamet secundum analogiam est ultima in essendo
+<lb ed="#L" n="108"/>in re qualibet; ut patet ex articulo ir, in responsione ad 1.
+<lb ed="#L" n="109"/>- Tum quia testimonium ex sensibilibus in littera adductum
+<lb ed="#L" n="110"/>pervertit. Ut enim iam dictum est, sensibilia hic 
+addu<lb break="no" ed="#L" n="111"/>cta sunt, ut ex ordine in causando hoc, et in essendo in
+<lb ed="#L" n="112"/>hoc causato, perciperemus ordinem in causando 
+simplici<lb break="no" ed="#L" n="113"/>ter et in essendo simpliciter, non esse eundem. Unde,
+<lb ed="#L" n="114"/>licet forma substantialis ignis sit prior in essendo et in
+<lb ed="#L" n="115"/>causando simpliciter quam calor; non tamen est prior in
+<lb ed="#L" n="116"/>causando hoc, idest hunc ignem generandum. Prius enim,
+<lb ed="#L" n="117"/>ordine generationis, est calefactio quam generatio formae
+<lb ed="#L" n="118"/>ignis: alteratio enim praevia est generationi. Et tamen 
+pri<lb break="no" ed="#L" n="119"/>mum quod sortitur hic ignis genitus, est forma ignis: et
+<lb ed="#L" n="120"/>calor consequitur formam, sicut universaliter propria 
+ac<lb break="no" ed="#L" n="121"/>cidentia consequuntur formam.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1294">
+                  <lb ed="#L" n="122"/>IX. At si in sensibilibus ordinem simpliciter cupis 
+inspi<lb break="no" ed="#L" n="123"/>cere, adverte quod causalitas formalis pendet necessario ex
+<lb ed="#L" n="124"/>effectiva, et liquebit quaesitum. Licet enim in hoc sensibili
+<lb ed="#L" n="125"/>primum sit quod quid erat esse, quod spectat ad causam
+<lb ed="#L" n="126"/>formalem ; nulla tamen forma aut quidditas vere habet
+<lb ed="#L" n="127"/>causalitatem formalem secundum rem, nisi ab aliqua causa
+<lb ed="#L" n="128"/>sit effectiva, quam oportet propter finem agere. Cum enim
+<lb ed="#L" n="129"/>forma non sit causa formalis sui ipsius, sed alterius, puta
+<lb ed="#L" n="130"/>compositi; et omne compositum (ut in qu. m dictum
+<lb ed="#L" n="131"/>est, et Averroes in XII Metaphys., comment. xxv, testatur)
+<lb ed="#L" n="132"/>ab alio sit; oportet ante omnem causalitatem formalem
+<lb ed="#L" n="133"/>esse effectivam, et ante hanc, finalem. In essendo tamen,
+<lb ed="#L" n="134"/>primo invenitur et in causa forma, et in effectu similitudo
+<lb ed="#L" n="135"/>formae: secundo, in causa vis activa, et in effectu eius 
+par<lb break="no" ed="#L" n="136"/>ticipatio: tertio, in causa bonitas, et in effectu 
+comple<lb break="no" ed="#L" n="137"/>mentum, quod est participatio bonitatis, Et sic simpliciter
+<lb ed="#L" n="138"/>praeposterus est ordo in essendo et in causando.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1333">
+                  <lb ed="#L" n="139"/>X. Pro notitia tamen litterae in calce, scito, novitie,
+<lb ed="#L" n="140"/>quod duplicis perfectionis meminit, scilicet in esse et 
+ab<lb break="no" ed="#L" n="141"/>solute. Et intendit perfectum in esse, perfectum 
+substantia<lb break="no" ed="#L" n="142"/>liter: perfectionem vero absolute, quam dicit in ente 
+fun<lb break="no" ed="#L" n="143"/>dari per boni rationem, perfectionem rei simpliciter, seu
+<lb ed="#L" n="144"/>totalem. Haec enim secundum boni simpliciter rationem
+<lb ed="#L" n="145"/>attenditur, ut ex supradictis patet: tunc enim nihil omnino
+<lb ed="#L" n="146"/>deest.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e72-Dd1e1355"><!-- caj-p1-q5-a5 -->
+               <head xml:id="TAcCaj-d1e72-Hd1e1358">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e72-d1e1360">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1367">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>In titulo, nota terminos. Aatio boni: non universaliter,
+<lb ed="#L" n="21"/>sed causati, ut patet in articulo sequenti; in Deo enim
+<lb ed="#L" n="22"/>non habent haec locum. Et rursus ratio boni, non 
+quo<lb break="no" ed="#L" n="23"/>modolibet, sed boni ut quod. — Modus, species et ordo. 
+Tri<lb break="no" ed="#L" n="24"/>fariam invenitur s. Thomam usum fuisse his terminis. Hic
+<lb ed="#L" n="25"/>siquidem, in corpore, per modum intendit 
+commensuratio<lb break="no" ed="#L" n="26"/>nem principiorum efficientium, seu materialium; per 
+spe<lb break="no" ed="#L" n="27"/>ciem, formam; per ordinem, inclinationem ad aliquid. In
+<lb ed="#L" n="28"/>I vero II, qu. rxxxv, art. 4, per speciem intendit formam
+<lb ed="#L" n="29"/>absolute; per modum, mensuram ipsius formae (species
+<lb ed="#L" n="30"/>enim rerum sunt mensuratae sicut numeri); per ordinem
+<lb ed="#L" n="31"/>vero, respectum ad aliud. In quaestione autem de Veritate,
+<lb ed="#L" n="32"/>qu. xxr, intendit per speciem formam; per modum, 
+com<lb break="no" ed="#L" n="33"/>mensurationem ipsius esse ad essentiam cuius est; 
+ordi<lb break="no" ed="#L" n="34"/>nem vero, penes respectum perfectivi finaliter, in ratione
+<lb ed="#L" n="35"/>boni clausum. — Quae tres expositiones, quamvis valde
+<lb ed="#L" n="36"/>differre videantur quoad unum terminum, scilicet ly 
+mo<lb break="no" ed="#L" n="37"/>dus; si tamen subtilius perscrutemur, in unum coeunt.
+<lb ed="#L" n="38"/>Commensuratio namque principiorum, mensura formae, et
+<lb ed="#L" n="39"/>commensuratio esse ad essentiam, mutuo se inferunt. Ex
+<lb ed="#L" n="40"/>tali enim principiorum harmonia, tantae perfectionis forma
+<lb ed="#L" n="41"/>est; et ex tanta forma tantum esse, secundum ordinem
+<lb ed="#L" n="42"/>generationis. Secundum vero perfectionis seu finis 
+ordi<lb break="no" ed="#L" n="43"/>nem, si tantae perfectionis esse est producendum, ergo
+<lb ed="#L" n="44"/>tantae perfectionis formam ac essentiam oportet supponi:
+<lb ed="#L" n="45"/>etsi hanc, ergo talem praecedentium principiorum 
+dispo<lb break="no" ed="#L" n="46"/>sitionem.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1430">
+                  <lb ed="#L" n="47"/>Rationem boni consistere in modo, specie et ordine,
+<lb ed="#L" n="48"/>dupliciter potest intelligi. Uno modo, ut in partibus 
+essen<lb break="no" ed="#L" n="49"/>tialibus; sicut ratio hominis consistit in animali et rationali.
+<lb ed="#L" n="50"/>Alio modo, ut in partibus integralibus, non rationis, sed
+<lb ed="#L" n="51"/>propriae eius materiae; sicut ratio hominis consistit in 
+car<lb break="no" ed="#L" n="52"/>nibus, ossibus et nervis. Et hoc modo intelligo in 
+propo<lb break="no" ed="#L" n="53"/>sito rationem boni consistere in modo, specie et ordine. -
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1448">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>Est ergo sensus tituli: An ratio boni ut quod, causati, 
+con<lb break="no" ed="#L" n="55"/>sistat in forma, antecedentibus, et consequentibus, tanquam
+<lb ed="#L" n="56"/>in partibus suae propriae materiae.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1460">
+                  <lb ed="#L" n="57"/>II. In corpore una conclusio, responsiva quaesito 
+affir<lb break="no" ed="#L" n="58"/>mative: Ratio boni consistit in modo, specie et ordine. —
+<lb ed="#L" n="59"/>Probatur. Unumquodque est id quod est, per suam 
+for<lb break="no" ed="#L" n="60"/>mam, exigentem quaedam antecedentia et consequentia.
+<lb ed="#L" n="61"/>Ergo, cui nihil deest secundum modum suae naturae, 
+ha<lb break="no" ed="#L" n="62"/>bet speciem, modum et ordinem. Ergo perfectum habet
+<lb ed="#L" n="63"/>haec. Ergo bonum exigit haec. - Antecedens, quoad 
+utram<lb break="no" ed="#L" n="64"/>que partem, patet. Prima vero consequentia patet ex quid
+<lb ed="#L" n="65"/>nominis speciei, modi et ordinis, Secunda vero tenet per
+<lb ed="#L" n="66"/>locum a definitione ad definitum. Tertia autem probatur:
+<lb ed="#L" n="67"/>quia perfectio est ratio appetibilis.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1486">
+                  <lb ed="#L" n="68"/>III. Circa hanc conclusionem occurrit dubium: quomodo
+<lb ed="#L" n="69"/>potest salvari modus in bono substantiali angelorum, 
+ex<lb break="no" ed="#L" n="70"/>ponendo modum, idest commensurationem principiorum
+<lb ed="#L" n="71"/>efficientium, seu materialium, ut hic dicitur; cum in 
+ange<lb break="no" ed="#L" n="72"/>lis non sint principia "materialia, et efficiens eorum sit solus
+<lb ed="#L" n="73"/>Deus, cuius actio est sua substantia.
+</p>
+               <p xml:id="TAcCaj-d1e72-d1e1502">
+                  <lb ed="#L" n="74"/>Ad hoc breviter dicitur quod, iuxta expositionem in
+<lb ed="#L" n="75"/>hoc loco positam, salvatur modus boni angelici secundum
+<lb ed="#L" n="76"/>substantiam , quoad principium efficiens, sic. Deus enim
+<lb ed="#L" n="77"/>agens potest dupliciter sumi. Uno modo, absolute: et sic
+<lb ed="#L" n="78"/>tam ipse quam sua actio est supra omnem modum, Alio
+<lb ed="#L" n="79"/>modo, ut agit secundum hanc vel illam ideam: et sic actio
+<lb ed="#L" n="80"/> Dei est commensurata ita huic, quod non alii; sicut et idea
+<lb ed="#L" n="81"/>est ita propria idea huius, quod non alterius. Et hoc modo
+<lb ed="#L" n="82"/>actio productiva Gabrielis est modificata, et modificans esse
+<lb ed="#L" n="83"/>et bonum substantiale Gabrielis: et hoc sufficit. - Potest
+<lb ed="#L" n="84"/>quoque secundum materiale principium salvari modus in 
+an<lb break="no" ed="#L" n="85"/>gelis: quoniam essentia est ut materia ipsius esse, et est 
+com<lb break="no" ed="#L" n="86"/>mensurata illi. Sed hoc magis ad alias expositiones spectat:
+<lb ed="#L" n="87"/>quoniam modus hic antecedit formam, ut patet in littera.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

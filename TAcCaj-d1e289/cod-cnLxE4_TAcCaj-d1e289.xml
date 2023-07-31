@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 47</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 47</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="487"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e289"><!-- TAcCajp1-q47 -->
+            <head xml:id="TAcCaj-d1e289-Hd1e99">Quaestio 47</head>
+            <div xml:id="TAcCaj-d1e289-Dd1e101"><!-- caj-p1-q47-a1 -->
+               <head xml:id="TAcCaj-d1e289-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e289-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="40"/>In titulo, quaeritur an distinctio sit a Deo, non 
+quomodo<lb break="no" ed="#L" n="41"/>libet, sed u£ per se intenta, ut in processu articuli patet.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e122">
+                  <lb ed="#L" n="42"/>In corpore tria facit: primo, tractat opinionem 
+antiquo<lb break="no" ed="#L" n="43"/>rum; secundo, opinionem Avicennae; tertio, respondet
+<lb ed="#L" n="44"/>quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e131">
+                  <lb ed="#L" n="45"/>II. Quoad primum, refertur opinio Democriti et 
+Ana<lb break="no" ed="#L" n="46"/>xagorae, quod distinctio rerum est a materia sola et 
+casu<lb break="no" ed="#L" n="47"/>aliter; vel a materia simul et agente. - Reprehenditur autem
+<lb ed="#L" n="48"/>utraque opinio, quoad hoc in quo communicant, scilicet
+<lb ed="#L" n="49"/>quod distinctio est a materia ut a causa prima, idest 
+irre<lb break="no" ed="#L" n="50"/>ducibili in aliam priorem causam, dupliciter. Primo, quia
+<lb ed="#L" n="51"/>ipsa materia est a Deo. Secundo, quia etiam forma est
+<lb ed="#L" n="52"/>prior materia, quoniam materia est propter formam.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e152">
+                  <lb ed="#L" n="53"/>III. Quoad secundum, refertur opinio Avicennae, quod
+<lb ed="#L" n="54"/>distinctio est ex secundis agentibus. Et improbatur 
+dupli<lb break="no" ed="#L" n="55"/>citer. Primo, quia hoc est falsum de distinctione 
+incorru<lb break="no" ed="#L" n="56"/>ptibiiium: quoniam a solo Deo fieri possunt. — Secundo,
+<lb ed="#L" n="57"/>quia distinctio rerum esset a casu: et consequenter 
+com<lb break="no" ed="#L" n="58"/>plementum universi esset a casu. Et tenet prima sequela:
+<lb ed="#L" n="59"/>quoniam quod fit ex concursu multarum causarum 
+agen<lb break="no" ed="#L" n="60"/>tium, non per se intentum ab aliquo dirigente eas in unum,
+<lb ed="#L" n="61"/>casu fit. Secunda autem sequela tenet: quia perfectio 
+uni<lb break="no" ed="#L" n="62"/>versi in rerum diversitate consistit. .
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e176">
+                  <lb ed="#L" n="63"/>IV. Quoad tertium, conclusio responsiva est: Distinctio
+<lb ed="#L" n="64"/>seu multitudo rerum est ex intentione primi agentis, qui
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>est Deus. - Probatur. Deus produxit res in esse propter suam
+<lb ed="#L" n="66"/>bonitatem communicandam creaturis, et per eas 
+reprae<lb break="no" ed="#L" n="67"/>sentandam: ergo produxit multas creaturas et diversas. Et
+<lb ed="#L" n="68"/>tenet sequela: quia per unam creaturam sufficienter 
+re<lb break="no" ed="#L" n="69"/>praesentari non potest. Quod probatur: quia bonitas quae
+<lb ed="#L" n="70"/>in Deo est simpliciter et uniformiter, in.creaturis est 
+mul<lb break="no" ed="#L" n="71"/>tipliciter et divisim. Quod et confirmatur: quia perfectius
+<lb ed="#L" n="72"/>participat divinam bonitatem totum universum, quam 
+quae<lb break="no" ed="#L" n="73"/>cumque creatura.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e205">
+                  <lb ed="#L" n="74"/>Secundo probatur conclusio auctoritate Scripturae, Gen. 1:
+<lb ed="#L" n="75"/>Dixit Deus etc.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e212">
+                  <lb ed="#L" n="76"/>V. Circa hanc rationem, adverte quod, cum dicitur, 
+no<lb break="no" ed="#L" n="77"/>minatur aut quaeritur sufficiens repraesentatio bonitatis 
+di<lb break="no" ed="#L" n="78"/>vinae, non est sermo de sufficientia simpliciter, quoniam
+<lb ed="#L" n="79"/>nec mille mundi sufficerent ad id: sed de sufficientia 
+con<lb break="no" ed="#L" n="80"/>sona perfectioni universi. Huc enim tendit ratio, ut 
+huius<lb break="no" ed="#L" n="81"/>modi repraesentationem divinae bonitatis in rerum 
+univer<lb break="no" ed="#L" n="82"/>sitate per se intentam a Deo fateamur, quia unica creatura
+<lb ed="#L" n="83"/>ad huiusmodi repraesentationem non sufficeret.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e232">
+                  <lb ed="#L" n="84"/>VI. In responsione ad secundum, adverte quod 
+exem<lb break="no" ed="#L" n="85"/>plar dupliciter Deo attribui littera vult. Primo, ratione
+<lb ed="#L" n="86"/>substantiae simpliciter: et sic Deus est unum exemplar
+<lb ed="#L" n="87"/>omnium. Secundo, ratione substantiae sic vel sic imitabilis:
+<lb ed="#L" n="88"/>et sic in mente divina sunt multa rerum exemplaria, iuxta
+<lb ed="#L" n="89"/>multitudinem idearum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e289-Dd1e249"><!-- caj-p1-q47-a2 -->
+               <head xml:id="TAcCaj-d1e289-Hd1e252">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e289-d1e254">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="101"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e261">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="102"/>TITULUS intelligendus est sicut praecedens. - In corpore
+<lb ed="#L" n="103"/>duo facit: primo, tractat opinionem Origenis; secundo,
+<lb ed="#L" n="104"/>respondet quaesito,
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e272">
+                  <lb ed="#L" n="105"/>II. Quoad primum, ponitur in littera opinio Origenis
+<lb ed="#L" n="106"/>satis clare, continens tria: scilicet rationales creaturas 
+ae<lb break="no" ed="#L" n="107"/>quales creatas; et inaequalitatem ex libero arbitrio; et 
+di<lb break="no" ed="#L" n="108"/>versitatem , imo et creationem corporum ex punitione. Et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="109"/>sic respondet quaesito negative. — Refertur quoque et 
+oc<lb break="no" ed="#L" n="110"/>casio huius opinionis: quia scilicet excludere conatus est
+<lb ed="#L" n="111"/>opinionem ponentem distinctionem ex contrarietate 
+prin<lb break="no" ed="#L" n="112"/>cipiorum boni et mali; quae videtur fuisse Empedoclis et
+<lb ed="#L" n="113"/>Manichaeorum. De quibus omnibus, si diffuse tractatum
+<lb ed="#L" n="114"/>videre vis, lege in II. Contra Gent. a cap. xxxix usque ad
+<lb ed="#L" n="115"/>xLvi: hic enim haec breviter tanguntur.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e301">
+                  <pb ed="#L" n="488"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Contra hanc autem opinionem arguitur in littera, quia
+<lb ed="#L" n="2"/>sequeretur quod universitas corporalium creaturarum non
+<lb ed="#L" n="3"/>esset propter Dei bonitatem communicandam, sed propter
+<lb ed="#L" n="4"/>peccatum puniendum, Sed hoc esse inconveniens probatur
+<lb ed="#L" n="5"/>auctoritate Genesis et Augustini.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e320">
+                  <lb ed="#L" n="6"/>III. Adverte hic quod non excluditur in hac ratione
+<lb ed="#L" n="7"/>totaliter divina bonitas, quoniam etiam iustitiae punitivae
+<lb ed="#L" n="8"/>finis est divina bonitas: sed excluditur divina bonitas a
+<lb ed="#L" n="9"/>solitudine sufficienti. Haec enim est differentia inter bona
+<lb ed="#L" n="10"/>absolute, et bona nonnisi punitive, quod primorum ratio
+<lb ed="#L" n="11"/>sola divina bonitas est: secundorum vero nunquam divina
+<lb ed="#L" n="12"/>bonitas causa est, nisi demerito supposito, quod non est
+<lb ed="#L" n="13"/>a Deo. Et propterea in littera non est simpliciter negata
+<lb ed="#L" n="14"/>divina bonitas, sed apposita est adversativa, scilicet, sed ad
+<lb ed="#L" n="15"/>puniendum peccatum: ex hoc enim insinuatur quod 
+di<lb break="no" ed="#L" n="16"/>ximus.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e346">
+                  <lb ed="#L" n="17"/>Manifestatur vero optime inconveniens ex inducta 
+au<lb break="no" ed="#L" n="18"/>ctoritate, Vidit Deus cuncta quae fecerat, et erant valde
+<lb ed="#L" n="19"/>bona. Quae enim nonnisi ad puniendum bona sunt, inter
+<lb ed="#L" n="20"/>simpliciter bona non connumerantur: quoniam non sunt
+<lb ed="#L" n="21"/>simpliciter appetibilia.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e359">
+                  <lb ed="#L" n="22"/>IV. Quoad secundum, conclusio responsiva est: 
+Sa<lb break="no" ed="#L" n="23"/>pientia Dei, sicut est causa distinctionis rerum, ita et in-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>aequalitatis. - Et probatur primo, quod sit causa 
+inaequa<lb break="no" ed="#L" n="25"/>litatis; secundo, quod sicut est causa distinctionis, ita 
+in<lb break="no" ed="#L" n="26"/>aequalitatis.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e375">
+                  <lb ed="#L" n="27"/>Primum ergo probatur sic. Sapientia Dei est causa 
+dis<lb break="no" ed="#L" n="28"/>tinctionis rerum: ergo est causa distinctionis formalis:
+<lb ed="#L" n="29"/>ergo est causa inaequalitatis.— Prima consequentia probatur:
+<lb ed="#L" n="30"/>quia distinctio formalis est principalis distinctio. Quod
+<lb ed="#L" n="31"/>probatur: quia, duabus tantum existentibus distinctionibus,
+<lb ed="#L" n="32"/>scilicet numerali et formali, materia est propter formam;
+<lb ed="#L" n="33"/>ergo distinctio materialis est propter formalem. Et rursus
+<lb ed="#L" n="34"/>manifestatur a signo, quod videmus unitatem et 
+pluralita<lb break="no" ed="#L" n="35"/>tem numeralem esse propter formam specificam. — Secunda
+<lb ed="#L" n="36"/>autem consequentia probatur: quia distinctio formalis 
+sem<lb break="no" ed="#L" n="37"/>per inaequalitatem requirit. Quod probatur dupliciter: 
+pri<lb break="no" ed="#L" n="38"/>mo, quia formae rerum sunt sicut numeri, ex VIII 
+Meta<lb break="no" ed="#L" n="39"/>phys.; secundo, quia in rebus naturalibus species ordinatae
+<lb ed="#L" n="40"/>gradatim apparent, ut patet inductive.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e408">
+                  <lb ed="#L" n="41"/>Secundo, probatur quod sicut est causa distinctionis ,
+<lb ed="#L" n="42"/>ita inaequalitatis, sic. Universum non esset perfectum, si
+<lb ed="#L" n="43"/>unus tantum bonitatis gradus inveniretur: ergo perfectio
+<lb ed="#L" n="44"/>universi requirit inaequalitatem : ergo sic inaequalitas est
+<lb ed="#L" n="45"/>a Deo propter perfectionem universi, sicut et distinctio. —
+<lb ed="#L" n="46"/>Totus processus patet.
+</p>
+               <!--<p>
+long note about aditional text 
+<lb/>x4 Inter secundum et tertium articulum huius quaestionis, codex
+<lb/>Casinensis, de quo in nota B ad prologum huius quaestionis, minio,
+<lb/>sed eadem prima manu, notat: Articulus iste non invenitur in 
+exem<lb break="no"/>plari Summae Parisiensis fratris Thomae. Deinde immediate articulum
+<lb/>ponit ad quem se refert haec nota, et qui hoc modo se habet :
+<lb/>AD TERTIUM SIC PROCEDITUR. Videtur quod in creaturis non
+<lb/>sit ordo agentium. Quod enim agit sine medio, est perfectius
+<lb/>agens quam quod agit per medium. Sed Deus est agens 
+poten<lb break="no"/>tissimum. Ergo non agit per medium. Et ita una creatura non
+<lb/>agit in aliam.
+<lb/>2. PRAETEREA, de ratione agentis est, ut faciat sibi simile. Sed
+<lb/>id ad cuius similitudinem fit aliquid, est exemplar. Si igitur una
+<lb/>creatura sit causa agens respectu alterius, sequeretur quod 
+di<lb break="no"/>gniora in entibus sunt exemplaria inferiorum. Quod reprobat
+<lb/>Dionysius, v cap. de Div. Nom.
+<lb/>3. PRAETEREA, agens et finis incidunt in idem specie, ut 
+di<lb break="no"/>citur in II Physic. Si igitur una creatura est causa activa 
+al<lb break="no"/>terius, una erit causa finalis alterius. Quod videtur esse contra id
+<lb/>quod Proverb. xvi: Universa propter semetipsum operatur 
+Do<lb break="no"/>minus.
+<lb/>SED coNTRA EST quod dicit Apostolus, Rom. xim: Quae a
+<lb/>Deo sunt, ordinata sunt. Et Dionysius dicit quod lex Divinitatis
+<lb/>est per superiora. inferiora reducere in se. Una ergo creatura
+<lb/>agit in. aliam.
+<lb/>RESPONDEO DICENDUM quod quidam, loquentes in lege 
+Mau<lb break="no"/>rorum, posuerunt quod nulla creatura habet aliquam actionem;
+<lb/>dicentes quod Deus (/ege ignis) non calefacit, sed Deus in igne.
+<lb/>Sed secundum hoc, frustra essent attributae rebus virtutes activae
+<lb/>et qualitates et formae. Et ideo dicendum quod ipsa inaequalitas
+<lb/>constituta per divinam sapientiam in rebus creatis, ut dictum est,
+<lb/>exigit quod una creatura agat in aliam. Secundum hoc enim
+<lb/>attenditur in creaturis inaequalitas, quod una est perfectior 
+al<lb break="no"/>tera. Perfectius autem comparatur ad minus perfectum, sicut
+<lb/>actus ad potentiam. Est autem de ratione existentis in actu, quod
+<lb/>agat in id quod est in potentia. Et sic necesse est quod una
+<lb/>creatura agat in aliam. Sed sicut creatura esse in actu participat a
+<lb/>Deo, qui est purus actus, ita et virtutem agendi participat a Deo,
+<lb/>et agit eius virtute, sicut causa secunda virtute causae primae.
+<lb/>ÀD PRIMUM ERGO DICENDUM quod omnia quaecumque fiunt
+<lb/>per actionem creaturae, Deus posset facere sine creatura. Non
+<lb/>ergo est ex defectu potentiae eius quod mediante creatura agit;
+<lb/>sed ex abundantia bonitatis ipsius, ex qua provenit quod non
+<lb/>solum communicat creaturae quod sit in se bona, sed hanc 
+di<lb break="no"/>gnitatem ut sit aliis causa bonitatis.
+<lb/>AD SECUNDUM DICENDUM quod opinio illorum reprobatur a
+<lb/>Dionysio, qui ponebant quaedam intellectualia separata esse
+<lb/>prima exemplaria: nam primum exemplar omnium Deus est.
+<lb/>Nil tamen prohibet secundario unam creaturam esse exemplar
+<lb/>alterius.
+<lb/>AD TERTIUM DICENDUM quod finis ultimus omnium Deus est:
+<lb/>sunt tamen et fines alii sub isto fine, secundum quod una 
+crea<lb break="no"/>tura ad aliam ordinatur ut ad finem, imperfectiora scilicet ad
+<lb/>perfectiora, ut materia ad formam, elementa ad mixta, plantae
+<lb/>ad animalia, animalia ad homines, ut habetur Ge». 1. Et sic
+<lb/>patet quod ordo universi attenditur secundum quod una 
+crea<lb break="no"/>tura agit in aliam, et secundum quod una fit ad similitudinem
+<lb/>alterius, et secundum quod una est finis alterius.
+<lb/>In indice autem quaestionum et articulorum, in fine codicis, sic
+<lb/>legitur:
+<lb/>Quaestio XLVII. De distinctione in communi. III.
+<lb/>1, Uttfum rerum multitudo et distinctio sit a Deo.
+<lb/>2. Utrum rerum inaequalitas sit a Deo. (Alia manu) Utrum in 
+crea<lb break="no"/>turis sit ordo agentium. Un
+<lb/>3. Utrum sit tantum unus mundus, aut plures.
+<lb/>Praestat notare quod novus iste articulus, a codice Casinensi 
+ex<lb break="no"/>hibitus, non solum non invenitur in exemplari Summae Parisiensis,
+<lb/>sed et in omnibus aliis codicibus hucusque exploratis desideratur.
+</p>-->
+            </div>
+            <div xml:id="TAcCaj-d1e289-Dd1e427"><!-- caj-p1-q47-a3 -->
+               <head xml:id="TAcCaj-d1e289-Hd1e430">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e289-d1e432">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="45"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e439">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="46"/>IN titulo, sermo est de unitate numerali; et de mundo
+<lb ed="#L" n="47"/>non solum corporeo, sed universo; et de facto, non de
+<lb ed="#L" n="48"/>possibili: non enim nunc de potentia Dei disputamus, sed
+<lb ed="#L" n="49"/>de diversitate inventa in rebus in communi.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e452">
+                  <lb ed="#L" n="50"/>II. In corpore duo facit: primo, respondet quaesito; 
+se<lb break="no" ed="#L" n="51"/>cundo, ex ratione data deducit corollarie quid alii 
+potue<lb break="no" ed="#L" n="52"/>runt opinari.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e461">
+                  <lb ed="#L" n="53"/>Quoad primum, conclusio responsiva est, quod mundus
+<lb ed="#L" n="54"/>est tantum unus, — Et probatur sic. Quaecumque sunt a Deo,
+<lb ed="#L" n="55"/>ordinem habent ad invicem et ad ipsum Deum: ergo omnia
+<lb ed="#L" n="56"/>ad unum mundum necesse est pertinere. Et probatur 
+se<lb break="no" ed="#L" n="57"/>quela: quia mundus iste unus est unitate ordinis.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e475">
+                  <lb ed="#L" n="58"/>Ex hoc autem deducitur secundo corollarie differentia
+<lb ed="#L" n="59"/>inter philosophos: scilicet quod illi qui posuerunt mundi
+<lb ed="#L" n="60"/>causam aliquam ordinantem sapientiam, non posuerunt
+<lb ed="#L" n="61"/>plures mundos; qui vero res a casu dixerunt, ut Democritus,
+<lb ed="#L" n="62"/>plures potuerunt dicere mundos.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e488">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>III. In responsione ad tertium, adverte quod tota 
+re<lb break="no" ed="#L" n="64"/>sponsio sumpta est ex Aristotele, in I Caeli et Mundi 
+<lb ed="#L" n="65"/>Veruntamen, cum in littera dicitur quod non est possibile 
+<lb ed="#L" n="66"/>esse aliam terram, ly possibile non sumitur pro possibili 
+se<lb break="no" ed="#L" n="67"/>cundum activam potentiam Dei, neque pro possibili logico;
+<lb ed="#L" n="68"/>sed pro possibili sumpto ex potentia indita rebus creatis,
+<lb ed="#L" n="69"/>secundum quam dicimus quod impossibile est mortuum
+<lb ed="#L" n="70"/>resurgere. Tractatus enim iste, ut iam diximus, attestatur
+<lb ed="#L" n="71"/>quod non quid possit aut non possit Deus, sed quid 
+dis<lb break="no" ed="#L" n="72"/>tinctio rerum habeat, requiritur.
+</p>
+               <p xml:id="TAcCaj-d1e289-d1e514">
+                  <lb ed="#L" n="73"/>Circa rationem in littera adductam ex Aristotele ad
+<lb ed="#L" n="74"/>probandam unitatem terrae, quia omnis terra naturaliter
+<lb ed="#L" n="75"/>moveretur ad hoc medium, ubicumque esset, dubium est.
+<lb ed="#L" n="76"/>Sed quoniam hoc ex intentione spectat ad librum de Caelo,
+<lb ed="#L" n="77"/>unde sumpta est ratio, ideo fiet aut hic quaestio specialis,
+<lb ed="#L" n="78"/>aut in loco proprio.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

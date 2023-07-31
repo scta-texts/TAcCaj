@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 22</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 22</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="268"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e159"><!-- TAcCajp1-q22 -->
+            <head xml:id="TAcCaj-d1e159-Hd1e99">Quaestio 22</head>
+            <div xml:id="TAcCaj-d1e159-Dd1e101"><!-- caj-p1-q22-a1 -->
+               <head xml:id="TAcCaj-d1e159-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e159-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>TITULUS Clarus est. - In corpore unica est conclusio, 
+re<lb break="no" ed="#L" n="27"/>E beisiets quaesito affirmative: Necésse est esse 
+provi<lb break="no" ed="#L" n="28"/>dentiam in Deo.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e124">
+                  <lb ed="#L" n="29"/>Et probatur. Omne bonum quod est in rebus, est 
+crea<lb break="no" ed="#L" n="30"/>tum a Deo: ergo bonum ordinis rerum in finem, et 
+prae<lb break="no" ed="#L" n="31"/>cipue ultimum, est creatum a Deo: ergo ratio ordinis
+<lb ed="#L" n="32"/>rerum in finem, in mente divina praeexistit: ergo in eo
+<lb ed="#L" n="33"/>est providentia.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e137">
+                  <lb ed="#L" n="34"/>Antecedens patet. — Prima vero consequentia probatur:
+<lb ed="#L" n="35"/>quia in rebus creatis non solum invenitur bonitas 
+secun<lb break="no" ed="#L" n="36"/>dum substantias rerum, sed secundum ordinem earum in
+<lb ed="#L" n="37"/>finem, et praecipue ultimum, - Secunda autem probatur:
+<lb ed="#L" n="38"/>quia Deus est causa rerum per intellectum. — Tertia autem
+<lb ed="#L" n="39"/>probatur ex ipsa definitione providentiae: quia scilicet est
+<lb ed="#L" n="40"/>ratio ordinis rerum in finem.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e156">
+                  <lb ed="#L" n="41"/>Et declarantur singulae particulae, Primo, quod sit ratio:
+<lb ed="#L" n="42"/>quia est principalis pars prudentiae. Secundo, quod sit 
+or<lb break="no" ed="#L" n="43"/>dinis in finem: quia proprium prudentiae est ordinare in
+<lb ed="#L" n="44"/>finem. Tertio, quod sit rerum: ex differentia inter 
+pruden<lb break="no" ed="#L" n="45"/>tiam monasticam et oeconomicam vel politicam; quoniam
+<lb ed="#L" n="46"/>illa est ratio ordinis propriorum actuum ad finem vitae
+<lb ed="#L" n="47"/>suae, ista vero est ratio ordinis subiectorum sibi in finem
+<lb ed="#L" n="48"/>eorum, ut patet Matt. xxiv. Ex hac enim distinctione 
+se<lb break="no" ed="#L" n="49"/>quitur quod providentia divina non est pars prudentiae
+<lb ed="#L" n="50"/>monasticae: quoniam ista impossibilis est Deo, quia nihil
+<lb ed="#L" n="51"/>habet ordinabile in finem. Sed est pars prudentiae quasi
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="52"/>politicae, immo monarchicae. Et consequenter oportet quod
+<lb ed="#L" n="53"/>sit ordinans res ipsi subiectas in suos fines. - Et confirmatur
+<lb ed="#L" n="54"/>haec definitio auctoritate Boetii, etc.: et ex differentia inter
+<lb ed="#L" n="55"/>providentiam et dispositionem.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e193">
+                  <lb ed="#L" n="56"/>II. Circa definitionem providentiae, dubium difficile 
+oc<lb break="no" ed="#L" n="57"/>currit: an, cum dicitur ordinis rerum in finem, intelligatur
+<lb ed="#L" n="58"/>et ipse ordo in finem, et perventio ad finem; an-ordo 
+tan<lb break="no" ed="#L" n="59"/>tum. Est autem ratio dubitandi, quia expresse in 
+quaestioni<lb break="no" ed="#L" n="60"/>bus de Ver., qu. vi, art. 1, dicitur quod providentia divina
+<lb ed="#L" n="61"/>est ratio ordinis in finem, et non eventus, idest consecutionis
+<lb ed="#L" n="62"/>ipsius finis. In sequentibus autem pluries habetur 
+oppo<lb break="no" ed="#L" n="63"/>situm, et in sequenti articulo in responsione ad 1, et in
+<lb ed="#L" n="64"/>art. 4 apertissime, et in art. 6 sequentis quaestionis; ita ut
+<lb ed="#L" n="65"/>non sit locus inficiationi.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e217">
+                  <lb ed="#L" n="66"/>III. Ad hoc breviter, iudicio meo, dicendum est, quod
+<lb ed="#L" n="67"/>Auctor mutavit sententiam in melius; et id de mente sua
+<lb ed="#L" n="68"/>tenendum est, quod hinc, et ex III Contra Gent., cap. xciv,
+<lb ed="#L" n="69"/>habetur: scilicet quod providentia est ratio ordinis in finem
+<lb ed="#L" n="70"/>quoad utrumque, scilicet ordinationis et consecutionis. - Et
+<lb ed="#L" n="71"/>hoc rationabilius est. Quoniam providentia ad voluntatem
+<lb ed="#L" n="72"/>Dei consequentem spectat; et ad omnia quomodolibet entia,
+<lb ed="#L" n="73"/>ut in sequentibus patebit, se extendit ut causa per se. Cum
+<lb ed="#L" n="74"/>his enim non stat providentiam ordinem tantum respicere:
+<lb ed="#L" n="75"/>sic enim multa praeter ipsam evenirent; sicut de facto 
+prae<lb break="no" ed="#L" n="76"/>ter rerum ordinem eveniunt, sed non praeter ordinem et
+<lb ed="#L" n="77"/>eventum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e159-Dd1e247"><!-- caj-p1-q22-a2 -->
+               <head xml:id="TAcCaj-d1e159-Hd1e250">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e159-d1e252">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="41"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e259">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="42"/>TITULUS nulla eget expositione: qui enim dicit omnia,
+<lb ed="#L" n="43"/>nihil excludit.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e268">
+                  <lb ed="#L" n="44"/>In corpore duo facit. Primo, refert tres opiniones circa
+<lb ed="#L" n="45"/>quaesitum. Prima est Democriti et Epicuri, dicentium nihil
+<lb ed="#L" n="46"/>esse subiectum divinae providentiae. Secunda est Averrois,
+<lb ed="#L" n="47"/>in XII Metaphys., comm. xxxvi: et ri, dicentis res 
+incorru<lb break="no" ed="#L" n="48"/>ptibiles solas subdi divinae providentiae. Tertia est Rabbi
+<lb ed="#L" n="49"/>Moysis, dicentis non solum incorruptibilia, sed etiam 
+sin<lb break="no" ed="#L" n="50"/>gularia, humanae tamen speciei tantum, divinae subiecta
+<lb ed="#L" n="51"/>providentiae. Rationes autem ex quibus emanarunt 
+opi<lb break="no" ed="#L" n="52"/>niones, in littera arguendo adducuntur.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e290">
+                  <lb ed="#L" n="53"/>II. Secundo, respondet quaesito secundum veritatem,
+<lb ed="#L" n="54"/>unica conclusione, quam dupliciter probat. Est ergo 
+con<lb break="no" ed="#L" n="55"/>clusio responsiva: Omnia divinae providentiae subiacent,
+<lb ed="#L" n="56"/>non tantum in universali, sed etiam in singulari. - Et 
+pro<lb break="no" ed="#L" n="57"/>batur primo sic. Omne agens agit propter finem: ergo
+<lb ed="#L" n="58"/>omnia subiecta causalitati primi agentis, sunt etiam subiecta
+<lb ed="#L" n="59"/>ordinationi eiusdem in finem: ergo omnia quae habent
+<lb ed="#L" n="60"/>quocumque modo esse, sunt ordinata a Deo in finem: ergo
+<lb ed="#L" n="61"/>omnia, inquantum habent quomodolibet esse, intantum 
+di<lb break="no" ed="#L" n="62"/>vinae subiiciuntur providentiae.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e315">
+                  <lb ed="#L" n="63"/>Prima consequentia manifestatur ab opposito: quia 
+sci<lb break="no" ed="#L" n="64"/>licet propterea in operibus alicuius agentis aliquid 
+inter<lb break="no" ed="#L" n="65"/>venit non subditum illius ordini, quoniam effectus ille non
+<lb ed="#L" n="66"/>subiicitur causalitati illius causae, sed ex aliqua alia causa,
+<lb ed="#L" n="67"/>praeter intentionem ipsius, provenit. - Secunda vero 
+con<lb break="no" ed="#L" n="68"/>sequentia probatur ex eo, quod causalitas Dei extendit se
+<lb ed="#L" n="69"/>usque ad omnia, etiam individualia, etc. Et confirmatur
+<lb ed="#L" n="70"/>eius consequens auctoritate Apostoli. - Tertia autem 
+con<lb break="no" ed="#L" n="71"/>sequentia probatur ex ipsa definitione providentiae: quia
+<lb ed="#L" n="72"/>scilicet est ratio ordinis rerum in finem.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e339">
+                  <lb ed="#L" n="73"/>III. Circa hanc rationem nota tria. Primum est, quod
+<lb ed="#L" n="74"/>prima consequentia propterea probata est a posteriori ,
+<lb ed="#L" n="75"/>quoniam per se ex vi antecedentis tenet. Cum enim dico,
+<lb ed="#L" n="76"/>omne agens agit propter finem, causalitatem agentis 
+si<lb break="no" ed="#L" n="77"/>gnifico in hoc quod dico, agit; ordinationem vero effectus
+<lb ed="#L" n="78"/>in finem significat ly propter finem. Causalitas ergo 
+am<lb break="no" ed="#L" n="79"/>plior non est ordinatione, nisi agat non propter finem.
+<lb ed="#L" n="80"/>Et propterea optime sequitur, et sine alio medio, quod
+<lb ed="#L" n="81"/>si actio est propter finem, tantum se extendit ordinatio in
+<lb ed="#L" n="82"/>finem, quantum causalitas: quia ly propter adaequat ly agit.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e363">
+                  <lb ed="#L" n="83"/>Secundum est, quod causalitatis nomen in littera 
+po<lb break="no" ed="#L" n="84"/>situm, quoad praesens negotium ponderandum est, et satis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="85"/>proprie accipiendum. Quoniam non sumitur pro 
+quocum<lb break="no" ed="#L" n="86"/>que modo aliquid facere; sed pro facere aliquid sic, quod
+<lb ed="#L" n="87"/>per ipsam actionem suam faciat id quod effectus dicitur per
+<lb ed="#L" n="88"/>seipsum; ita quod illud vere illam conditionem quae facta
+<lb ed="#L" n="89"/>est, ab illa causalitate habeat. In cuius signum, in littera
+<lb ed="#L" n="90"/>effectus per accidens alicuius causae, dicitur esse per 
+cau<lb break="no" ed="#L" n="91"/>salitatem alterius causae; et non illius causae cuius dicitur
+<lb ed="#L" n="92"/>effectus per accidens. Sic autem intellecta causalitas nihil
+<lb ed="#L" n="93"/>aliud est quam causalitas per se. Nec tamen oportuit in
+<lb ed="#L" n="94"/>littera exprimi ly per se: quoniam in sermonibus scientificis
+<lb ed="#L" n="95"/>omnia interpretanda sunt per se.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e396">
+                  <lb ed="#L" n="96"/>Tertium est quod, cum dicitur hic quod causalitas Dei
+<lb ed="#L" n="97"/>extendit se usque ad omnia, etc., intelligendum est prout
+<lb ed="#L" n="98"/>dictum et expositum fuit in quaestione vr, scilicet per
+<lb ed="#L" n="99"/>essentiam et potentiam. Aliter, processus iste nihil valeret,
+<lb ed="#L" n="100"/>ut facile patere potest consideranti.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e409">
+                  <lb ed="#L" n="101"/>IV. Secunda ratio ad conclusionem est: Deus omnia
+<lb ed="#L" n="102"/>cognoscit, etiam in particulari, ut artifex eorum: ergo 
+ne<lb break="no" ed="#L" n="103"/>cesse est quod omnia supponantur suo ordini. - Et pro-:
+<lb ed="#L" n="104"/>batur sequela: quia omnia artificiata subduntur ordini artis.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e420">
+                  <lb ed="#L" n="105"/>Adverte hic, quod non est intentio litterae ponere 
+iden<lb break="no" ed="#L" n="106"/>titatem artis et providentiae: quoniam earum differentia est
+<lb ed="#L" n="107"/>manifesta, dum ars respicit ipsam substantiam 
+artificiato<lb break="no" ed="#L" n="108"/>rum, providentia autem ordinem in finem. Sed intendit
+<lb ed="#L" n="109"/>proportionaliter se habere artem et providentiam; et 
+pro<lb break="no" ed="#L" n="110"/>pterea, etc. In cuius signum, littera, in probatione 
+conse<lb break="no" ed="#L" n="111"/>quentiae, utitur ly sicut, quod est nota, non identitatis, sed
+<lb ed="#L" n="112"/>similitudinis, proculdubio proportionalis hic.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e441">
+                  <lb ed="#L" n="113"/>V. In responsione ad primum, adverte quod tam 
+for<lb break="no" ed="#L" n="114"/>tuitum quam casuale relativum est: et propterea non 
+opor<lb break="no" ed="#L" n="115"/>tet id quod in se et simpliciter est fortuitum, esse 
+for<lb break="no" ed="#L" n="116"/>tuitum respectu omnis agentis, Haec est enim differentia
+<lb ed="#L" n="117"/>inter absoluta et respectiva, quod quando est aliquid in se
+<lb ed="#L" n="118"/>simpliciter tale secundum aliquod praedicatum absolutum,
+<lb ed="#L" n="119"/>non desinit esse aut dici tale, ex comparatione ad 
+quod<lb break="no" ed="#L" n="120"/>cumque: quando vero aliquid est tale in se et simpliciter
+<lb ed="#L" n="121"/>secundum aliquod praedicatum respectivum, non solum
+<lb ed="#L" n="122"/>non habet tale praedicatum in ordine ad quodcumque,
+<lb ed="#L" n="123"/>sed ad correlativum tantum; verum etiam oppositum prae-'
+<lb ed="#L" n="124"/>dicatum respectivum, in ordine tamen ad aliud 
+correlati<lb break="no" ed="#L" n="125"/>vum, sortiri potest; ut patet de albo, quod, cum absolute
+<lb ed="#L" n="126"/>sit alteri albo simile, ad nigrum tamen comparatum, est
+<lb ed="#L" n="127"/>dissimile. Sic igitur, quia res dicuntur fortuitae vel casuales
+<pb ed="#L" n="269"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>in ordine ad naturam et intentionem creatam, non 
+incon<lb break="no" ed="#L" n="2"/>venit quod in ordine ad divinam intentionem, non fortuitae,
+<lb ed="#L" n="3"/>sed per se intentae sint et dicantur. Ita tamen quod, 
+secun<lb break="no" ed="#L" n="4"/>dum se sumptae, simpliciter casuales seu fortuitae et sint
+<lb ed="#L" n="5"/>et dicantur: ea ratione, quia unaquaeque res est et 
+iudi<lb break="no" ed="#L" n="6"/>catur secundum proprias et proximas causas.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e493">
+                  <lb ed="#L" n="7"/>Et per hoc patet non contradicere doctrinam hanc de
+<lb ed="#L" n="8"/>providentia divina, doctrinae traditae in philosophia 
+natu<lb break="no" ed="#L" n="9"/>: rali, et VI Metaphys. Quoniam utrobique res 
+exami<lb break="no" ed="#L" n="10"/>natae iudicataeque sunt, secundum quod pendent ex 
+pro<lb break="no" ed="#L" n="11"/>ximis, vel saltem particularibus causis, quales sunt omnes
+<lb ed="#L" n="12"/>causae creatae; quarum nec intentionibus nec causalitatibus
+<lb ed="#L" n="13"/>subest modus quo effectus causatur, scilicet necessario vel
+<lb ed="#L" n="14"/>contingenter. Hoc enim proprium est primae causae, quae
+<lb ed="#L" n="15"/>respicit ens in eo quod ens.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e515">
+                  <lb ed="#L" n="16"/>VI. In responsione ad secundum, dubium occurrit quo
+<lb ed="#L" n="17"/>pacto mala culpae sint permissa a Deo propter perfectionem
+<lb ed="#L" n="18"/>universi. Tum quia, si Deus cooperatus fuisset cum gratia
+<lb ed="#L" n="19"/>sua tam angelis quam hominibus qui lápsi sunt, ad 
+per<lb break="no" ed="#L" n="20"/>petuam in bono perseverantiam, ut possibile fuit, universum
+<lb ed="#L" n="21"/>multo melius esset: eo quod nihil ab ordine respiciente
+<lb ed="#L" n="22"/>divinam voluntatem secundum se, qui est supremus ordo
+<lb ed="#L" n="23"/>in universo, defecisset; quoniam in tali defectu malum 
+cul<lb break="no" ed="#L" n="24"/>pae consistit, ut supra dictum fuit. - Tum quia virtutes
+<lb ed="#L" n="25"/>quae ex malo culpae occasionantur, ut patientia martyrum,
+<lb ed="#L" n="26"/>et poenitentia, etc., non deessent universo: quoniam 
+inve<lb break="no" ed="#L" n="27"/>nirentur secundum praeparationem animi.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e544">
+                  <lb ed="#L" n="28"/>VIL Ad hoc dicitur, quod integritas universi maius
+<lb ed="#L" n="29"/>bonum est quam quodcumque particulare bonum creatum,
+<lb ed="#L" n="30"/>ut patet Genes. 1. Exigit autem universi integritas 
+virtu<lb break="no" ed="#L" n="31"/>tes, et si qua sunt alia ex malo occasionaliter provenientia,
+<lb ed="#L" n="32"/>non solum in statu imperfecto, sed in statu perfecto. 
+Con<lb break="no" ed="#L" n="33"/>stat autem perfectum virtutis statum consistere in actu 
+se<lb break="no" ed="#L" n="34"/>cundo, et non in habitu, ut patet I Ethic. et XII Meta-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="35"/>phys. Deessent ergo multae perfectiones universo: puta
+<lb ed="#L" n="36"/>iustitia punitiva, patientia martyrum, et similia. — Imo, quod
+<lb ed="#L" n="37"/>maxime ponderandum est, deesset universo hostia illa 
+di<lb break="no" ed="#L" n="38"/>vini suppositi, quam in cruce obtulit; quod adeo bonum
+<lb ed="#L" n="39"/>fuit et est, ut excedat in bonitate omne malum culpae, non
+<lb ed="#L" n="40"/>solum hominum, sed daemonum. Unde et ipse ordo in
+<lb ed="#L" n="41"/>divinam bonitatem secundum se, quamvis ex malo culpae
+<lb ed="#L" n="42"/>sit laesus; tantum tamen boni ad eundem ordinem 
+spe<lb break="no" ed="#L" n="43"/>ctantis, ex malo culpae Deus effecit, ut feliciter actum cum
+<lb ed="#L" n="44"/>universo dicere possimus, cum Deus mala culpae permisit ;
+<lb ed="#L" n="45"/>iuxta illud Gregorii: <ref xml:id="TAcCaj-d1e159-Rd1e587">O felix culpa</ref>, etc.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e590">
+                  <lb ed="#L" n="46"/>VIII. Subest etiam naturalis ratio cur malum culpae
+<lb ed="#L" n="47"/>permissum fuerit, scilicet suavis rerum dispositio. Potentia
+<lb ed="#L" n="48"/>namque peccandi ab universo subtrahi non potuit sine illius
+<lb ed="#L" n="49"/>maxima iactura, in amissione omnium creaturarum 
+intelle<lb break="no" ed="#L" n="50"/>ctualium, ut alibi patet. Actus autem peccati, ab huiusmodi
+<lb ed="#L" n="51"/>potentia progrediens, quamvis prohiberi, idest non permitti,
+<lb ed="#L" n="52"/>potuisset; suavis tamen dispositio liberi arbitrii creati hoc
+<lb ed="#L" n="53"/>non exigit, sed magis ut sua vi seipsum agat. Et quoniam
+<lb ed="#L" n="54"/>ad providentiam divinam spectat disponere omnia suaviter,
+<lb ed="#L" n="55"/>sapientissime elegit Deus permissionem malorum culpae.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e614">
+                  <lb ed="#L" n="56"/>IX. Nec fallaris, cum legis in littera, mala esse de 
+inten<lb break="no" ed="#L" n="57"/>tione naturae universalis; ac perinde mala culpae esse de
+<lb ed="#L" n="58"/>intentione primi et universalissimi agentis. Haec enim non
+<lb ed="#L" n="59"/>ita sunt intelligenda, ut ipsa mala sint volita seu intenta,
+<lb ed="#L" n="60"/>sive per se sive per accidens (quoniam hoc esse impossibile
+<lb ed="#L" n="61"/>de malo culpae, supra manifestatum est): sed quod ipsa
+<lb ed="#L" n="62"/>mala non sunt molita, seu exclusa, per intentionem seu
+<lb ed="#L" n="63"/>volitionem causae primae; et quod permissio malorum 
+cul<lb break="no" ed="#L" n="64"/>pae est intenta, propter integritatem ac perfectionem 
+uni<lb break="no" ed="#L" n="65"/>versi. Et secundum permissionem hanc, tenet similitudo
+<lb ed="#L" n="66"/>proportionalis inter intentionem naturae universalis respectu
+<lb ed="#L" n="67"/>malorum naturalium, et intentionem Dei gloriosi respectu
+<lb ed="#L" n="68"/>malorum culpae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e159-Dd1e646"><!-- caj-p1-q22-a3 -->
+               <head xml:id="TAcCaj-d1e159-Hd1e649">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e159-d1e651">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e658">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>IN titulo, ly immediate significat negationem medii 
+provi<lb break="no" ed="#L" n="37"/>los ad providentiae divinae complementum. Et sensus
+<lb ed="#L" n="38"/>est: utrum ad actum providendi omnibus, qui Deo 
+con<lb break="no" ed="#L" n="39"/>venit, requiratur, aut etiam concurrat aliquis medius 
+pro<lb break="no" ed="#L" n="40"/>visor, ut sic.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e674">
+                  <lb ed="#L" n="41"/>II. In corpore tria facit. Primo, distinguit actus 
+provi<lb break="no" ed="#L" n="42"/>dentiae in duo: scilicet in ordinare, et executionem statuti
+<lb ed="#L" n="43"/>ordinis. Et primus proprie dicitur providere: secundus vero
+<lb ed="#L" n="44"/>gubernare.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e685">
+                  <lb ed="#L" n="45"/>III. Secundo, respondet quaesito duabus conclusionibus,
+<lb ed="#L" n="46"/>iuxta hos duos actus. Prima est: Deus immediate providet
+<lb ed="#L" n="47"/>omnibus, quoad rationem ordinis. - Secunda vero est: Deus
+<lb ed="#L" n="48"/>per aliqua media providet, quantum ad executionem.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e697">
+                  <lb ed="#L" n="49"/>Probatur prima. Deus habet in intellectu suo rationem
+<lb ed="#L" n="50"/>omnium, etiam minimorum; et dedit causis quas effectibus
+<lb ed="#L" n="51"/>praefecit, virtutem ad illos effectus producendos: ergo in
+<lb ed="#L" n="52"/>sua ratione praehabet ordinem illorum effectuum in finem:
+<lb ed="#L" n="53"/>ergo Deus per seipsum providet omnibus, quoad rationem
+<lb ed="#L" n="54"/>ordinis.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e713">
+                  <lb ed="#L" n="55"/>Secunda vero probatur: quia Deus gubernat inferiora
+<lb ed="#L" n="56"/>per superiora. — Et excluditur statim tacita obiectio contra
+<lb ed="#L" n="57"/>eam, dum dicitur quod gubernare per media convenit Deo,
+<lb ed="#L" n="58"/>non propter defectum virtutis, etc.; ut patet in littera.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e724">
+                  <lb ed="#L" n="59"/>IV. Attende, novitie, quod inter providere et gubernare
+<lb ed="#L" n="60"/>hoc interest, quod providere est operatio immanens, 
+gu<lb break="no" ed="#L" n="61"/>bernare vero transiens. Et propterea providere non per 
+se<lb break="no" ed="#L" n="62"/>ipsum, ponit imperfectionem in ipso providente: quoniam
+<lb ed="#L" n="63"/>importat ipsum non statuere in mente sua totum omnium
+<lb ed="#L" n="64"/>ordinem in omnem finem, sed partem tantum. Gubernare
+<lb ed="#L" n="65"/>vero per media, non ponit imperfectionem i in gubernante,
+<lb ed="#L" n="66"/>nisi ex eius defectu procedat: sed ponit actionem eius
+<lb ed="#L" n="67"/>transeuntem multis quasi instrumentis expleri; quod non
+<lb ed="#L" n="68"/>inconvenire Deo patet. .
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e748">
+                  <lb ed="#L" n="69"/>V. Tertio excluditur ex dictis opinio Platonis, satis clare.
+<lb ed="#L" n="70"/>De qua tamen, si diffuse videre cupis quomodo 
+impugne<lb break="no" ed="#L" n="71"/>tur, lege III Cont. Gent. cap. xxvi. Ibi enim advertes etiam
+<lb ed="#L" n="72"/>quod non est intentionis praesentis excludere medios 
+pro<lb break="no" ed="#L" n="73"/>visores, ut executores divini ordinis pertingentis usque ad
+<lb ed="#L" n="74"/>minima (hoc enim esset etiam tollere prudentiam 
+huma<lb break="no" ed="#L" n="75"/>nam): sed excludere medios provisores ut provisores 
+tan<lb break="no" ed="#L" n="76"/>tum; idest ita provisores, quod non executores praefati
+<lb ed="#L" n="77"/>ordinis, sed alterius in divino actu aliter non comprehensi.
+<lb ed="#L" n="78"/>Et si vis perspicere conclusiones plenius hic positas, lege
+<lb ed="#L" n="79"/>III Cont. Gent. cap. xciv, ubi nunc facta distinctio, cum
+<lb ed="#L" n="80"/>eisdem conclusionibus, diffusius ponitur et manifestatur, in
+<lb ed="#L" n="81"/>principio solutionis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e159-Dd1e780"><!-- caj-p1-q22-a4 -->
+               <head xml:id="TAcCaj-d1e159-Hd1e783">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e159-d1e785">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e792">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>Titulus ex dictis in qu. xix, art. 8, clarus est. Est enim
+<lb ed="#L" n="45"/>quaestio, utrum ex positione divinae providentiae modo
+<lb ed="#L" n="46"/>declarato, sequatur quod omnia provisa sunt necessaria.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e803">
+                  <lb ed="#L" n="47"/>II. In corpore duo facit: primo, proponit conclusionem
+<lb ed="#L" n="48"/>responsivam, annexa recitatione oppositae opinionis; 
+se<lb break="no" ed="#L" n="49"/>cundo, probat conclusionem ipsam. - Conclusio est: 
+Di<lb break="no" ed="#L" n="50"/>vina providentia imponit necessitatem quibusdam, et non
+<lb ed="#L" n="51"/>omnibus.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e816">
+                  <lb ed="#L" n="52"/>Probatur sic. Ad providentiam divinam pertinet ordinare
+<lb ed="#L" n="53"/>res in finem: ergo ad perfectionem universi: ergo omnes
+<lb ed="#L" n="54"/>gradus entium producere: ergo quibusdam effectibus 
+prae<lb break="no" ed="#L" n="55"/>parare causas necessarias, et quibusdam contingentes. Non
+<lb ed="#L" n="56"/>igitur ad eam spectat omnibus necessitatem imponere.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e830">
+                  <lb ed="#L" n="57"/>Prima consequentia probatur: quia perfectio universi
+<lb ed="#L" n="58"/>est principale bonum existens in ipso. Bonitas enim divina
+<lb ed="#L" n="59"/>est longe maius bonum, sed separatum ab universo, et finis
+<lb ed="#L" n="60"/>eius separatus, ut patet XII Metaphys. — Secunda autem
+<lb ed="#L" n="61"/>probatur: quia perfectio universi non esset, si non omnes
+<lb ed="#L" n="62"/>essendi gradus invenirentur in rebus. - Tertia vero: quia
+<lb ed="#L" n="63"/>oportet ad hoc ut necessario vel contingenter eveniant 
+effe<lb break="no" ed="#L" n="64"/>ctus, causas proximas esse huiusmodi.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e850">
+                  <lb ed="#L" n="65"/>Hic non opus est amplius repetere disputationem de 
+con<lb break="no" ed="#L" n="66"/>tingentia: sufficiunt siquidem supra dicta etiam huic loco.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e857">
+                  <lb ed="#L" n="67"/>III. In responsione ad primum, dubitatio occurrit valde
+<lb ed="#L" n="68"/>ardua, et forte ab humano intellectu insolubilis. Ad cuius
+<lb ed="#L" n="69"/>evidentiam, ut melius percipiatur in quo consistit dubitatio,
+<lb ed="#L" n="70"/>advertendum est quod aliud est A contingenter evenire, et
+<lb ed="#L" n="71"/>aliud est A necessario evenire, et aliud est A infallibiliter
+<lb ed="#L" n="72"/>seu inevitabiliter evenire. Tam primum enim quam 
+secun<lb break="no" ed="#L" n="73"/>dum importat ordinem effectus ad causam in actu positam;
+<lb ed="#L" n="74"/>illud quidem, quod sua causa habet potentiam ad 
+utrum<lb break="no" ed="#L" n="75"/>libet; hoc vero, quod sua non potest deficere ab ipsius
+<lb ed="#L" n="76"/>causalitate, Sed tertium communius est utroque: quoniam
+<lb ed="#L" n="77"/>et contingentia et necessaria sequuntur divinam 
+providen<lb break="no" ed="#L" n="78"/>tiam positam in actu, infallibiliter seu inevitabiliter; et cum
+<lb ed="#L" n="79"/>hoc, illa sequuntur contingenter, et ista necessario.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e888">
+                  <lb ed="#L" n="80"/>IV. Ex his enim quamvis quiescat intellectus, attendens
+<lb ed="#L" n="81"/>ad responsionem in littera positam circa salvationem 
+con<lb break="no" ed="#L" n="82"/>tingentiae; fluctuat tamen circa connexionem praedictae 
+in<lb break="no" ed="#L" n="83"/>fallibilitatis cum libero arbitrio, imo, ut rectius loquar, cum
+<lb ed="#L" n="84"/>libero eventu ipsarum operationum quas liberas dicimus;
+<lb ed="#L" n="85"/>et similiter cum ambiguo eventu contingentium aliorum.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>Cum enim in operatione libera sit considerare ipsam 
+vo<lb break="no" ed="#L" n="87"/>luntatem, illius causam, et eventum, seu executionem ipsius,
+<lb ed="#L" n="88"/>nunc ita quod non opposite; quamvis difficile non sit 
+sal<lb break="no" ed="#L" n="89"/>vare naturam talis causae, scilicet liberae, cum praedicta
+<lb ed="#L" n="90"/>infallibilitate (eo quia huiusmodi infallibilitas nihil dat vel
+<lb ed="#L" n="91"/>aufert causae ad utrumlibet; sed cum ipsa stat quod causa
+<lb ed="#L" n="92"/>habeat potentiam indifferentem ad illud infallibile et ad
+<lb ed="#L" n="93"/>eius oppositum; et propter hoc divina providentia non
+<lb ed="#L" n="94"/>adimit contingentiam a rebus); verum salvare praedictam
+<lb ed="#L" n="95"/>infallibilitatem cum  indifferentia seu libertate executionis
+<lb ed="#L" n="96"/>seu eventus, hoc opus, hic labor est. Si enim infallibile est
+<lb ed="#L" n="97"/>me diluculo primo futuro scribere, quamvis potentiam 
+ha<lb break="no" ed="#L" n="98"/>beam ad utrumlibet, idest ad scribendum tunc vel ad non
+<lb ed="#L" n="99"/>scribendum tunc; attamen potentia ista atque libertas non
+<lb ed="#L" n="100"/>exibit in actum negationis scribendi, sed affirmationis, sic
+<lb ed="#L" n="101"/>quod inevitabile est quin affirmatio eveniat. Et si sic est,
+<lb ed="#L" n="102"/>cum iam ab aeterno divina providentia sit. in actu 
+deter<lb break="no" ed="#L" n="103"/>minata respectu omnium, et immutabilis, et infallibilis, etc. ;
+<lb ed="#L" n="104"/>sequitur quod de facto omnia inevitabiliter eveniant, 
+quam<lb break="no" ed="#L" n="105"/>vis quaedam contingenter, et quaedam necessario.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e949">
+                  <lb ed="#L" n="106"/>V. Notanter autem dixi de facto: quia, de possibili 
+abso<lb break="no" ed="#L" n="107"/>lute loquendo, potest Deus non determinare providentiam
+<lb ed="#L" n="108"/>suam ad haec vel illa futura. Sed, cum iam determinata
+<lb ed="#L" n="109"/>est, repugnat immutabilitati, efficaciae, universalitati atque
+<lb ed="#L" n="110"/>certitudini suae evitabilitas evenientium. Et si omnia 
+inevi<lb break="no" ed="#L" n="111"/>tabiliter eveniunt de facto, ut quid consiliamur, et conamur
+<lb ed="#L" n="112"/>ad haec magis quam illa prosequenda vel vitanda? Nihil
+<lb ed="#L" n="113"/>enim minus videtur ex hoc destrui tota pars moralis, 
+omnis<lb break="no" ed="#L" n="114"/>que conatus Ecclesiae, atque exhortatio ad bonum, quam
+<lb ed="#L" n="115"/>ex negatione contingentiae. Quamvis enim negatio 
+evitabi<lb break="no" ed="#L" n="116"/>litatis et DARIne contingentiae non aequivaleant, ut iam
+<lb ed="#L" n="117"/>patet ex dictis, quoad proposita tamen inconvenientia, 
+ae<lb break="no" ed="#L" n="118"/>quivalere videntur. Nullus enim consiliatur de inevitabili ;
+<lb ed="#L" n="119"/>nec aliquis conatur aut hortatur aut orat circa inevitabilia.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e982">
+                  <lb ed="#L" n="120"/>VI. Ad hanc dubitationem nihil scriptum reperi in
+<lb ed="#L" n="121"/>s. Thoma: quoniam nullibi eum movisse hanc recolo, sed
+<lb ed="#L" n="122"/>semper studuit ad salvandam contingentiam. In aliis 
+quo<lb break="no" ed="#L" n="123"/>que doctoribus nihil hactenus comperi ad quaestionem
+<lb ed="#L" n="124"/>istam, nisi quae communiter dicuntur de sensu composito
+<lb ed="#L" n="125"/>et diviso, de necessitate consequentiae et consequentis, de
+<lb ed="#L" n="126"/>libertate electionis divinae in aeternitate, deque natura 
+cau<lb break="no" ed="#L" n="127"/>sarum ad utrumlibet in universo inventarum.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e1003">
+                  <pb ed="#L" n="272"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>VII. Sed haec omnia, ut ex dictis patet, intellectum non
+<lb ed="#L" n="2"/>quietant: quoniam, ut iam dictum est, non de Deo 
+secun<lb break="no" ed="#L" n="3"/>dum se considerato, sed secundum quod de facto est; et
+<lb ed="#L" n="4"/>similiter non de ipsis naturis causarum aut rerum, nec de
+<lb ed="#L" n="5"/>necessitate aut contingentia; sed de compossibilitate 
+inevi<lb break="no" ed="#L" n="6"/>tabilium eventuum cum contingentia et libertate eorundem,
+<lb ed="#L" n="7"/>est quaestio. Non enim satisfit quaesito, dicendo quod actus
+<lb ed="#L" n="8"/>eveniens est evitabilis et inevitabilis: evitabilis quidem 
+se<lb break="no" ed="#L" n="9"/>cundum se; inevitabilis vero secundum quod est provisus.
+<lb ed="#L" n="10"/>Licet enim hoc sit verum, tamen non solvit nodum. 
+Quo<lb break="no" ed="#L" n="11"/>niam actus eveniens de facto est iam provisus ab aeterno,
+<lb ed="#L" n="12"/>et esse provisum vincit conditiones ipsius secundum se:
+<lb ed="#L" n="13"/>et consequenter actus eveniens est simpliciter, idest 
+omni<lb break="no" ed="#L" n="14"/>bus consideratis, inevitabilis; et secundum quid, idest 
+so<lb break="no" ed="#L" n="15"/>litarie sumptus, evitabilis. Sicut proiectio mercis tempore
+<lb ed="#L" n="16"/>naufragii, est simpliciter volita, quia omnibus consideratis
+<lb ed="#L" n="17"/>est volita; et secundum quid est nolita, quia secundum se
+<lb ed="#L" n="18"/>proiectio ipsa displicet.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e1049">
+                  <lb ed="#L" n="19"/>Nihil quoque ad propositum facit, dicere quod esse 
+pro<lb break="no" ed="#L" n="20"/>visum nihil ponit in actu eveniente. In hoc enim exemplo
+<lb ed="#L" n="21"/>manifeste apparet, nihil ad rem referre an ponat vel non
+<lb ed="#L" n="22"/>ponat: esse namque volitum nihil ponit in proiecta merce,
+<lb ed="#L" n="23"/>et tamen, etc.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e1062">
+                  <lb ed="#L" n="24"/>Nec etiam evaditur dicendo quod, quia actus eveniens
+<lb ed="#L" n="25"/>est provisus a Deo, et inevitabilitas eius sequitur esse 
+pro<lb break="no" ed="#L" n="26"/>visum ut res respectiva ad Deum, actus eveniens est de
+<lb ed="#L" n="27"/>facto inevitabilis respectu Dei, non autem respectu nostri.
+<lb ed="#L" n="28"/>Hoc enim aequivalet nihilo. Quoniam, si de facto 
+inevita<lb break="no" ed="#L" n="29"/>bilis est a Deo, ergo et de facto inevitabilis est et 
+simpli<lb break="no" ed="#L" n="30"/>citer, et a nobis: quoniam impossibile est a quocumque
+<lb ed="#L" n="31"/>vitari, quod a Deo de facto vitari non potest, propter ipsius
+<lb ed="#L" n="32"/>summam efficaciam.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e1084">
+                  <lb ed="#L" n="33"/>VIII. Oportet igitur, si quaestionis huius veritas quietare
+<lb ed="#L" n="34"/>debet intellectum nostrum, alterum duorum dicere: aut
+<lb ed="#L" n="35"/>quod esse provisum non sequatur inevitabilitas; aut quod
+<lb ed="#L" n="36"/>inevitabilitas eventus provisi non deroget evitabilitati 
+eo<lb break="no" ed="#L" n="37"/>rundem eventuum. Et hoc secundum quidem, propter 
+ra<lb break="no" ed="#L" n="38"/>tionem supra adductam, non capio quomodo possit 
+veri<lb break="no" ed="#L" n="39"/>ficari: liquet enim quod non nisi secundum quid 
+evitabili<lb break="no" ed="#L" n="40"/>tas salvari apparet. - Primum autem, quamvis communiter
+<lb ed="#L" n="41"/>a doctoribus destruatur, dicentibus quod esse provisum,
+<lb ed="#L" n="42"/>seu volitum, seu praedestinatum (pro eodem enim, quoad
+<lb ed="#L" n="43"/>hanc difficultatem , omnia accipio) sequitur inevitabilitas ;
+<lb ed="#L" n="44"/>ego tamen, non ut opponam me contra torrentem, nec
+<lb ed="#L" n="45"/>asserendo, sed stante. semper captivitate intellectus in 
+obse<lb break="no" ed="#L" n="46"/>quium Christi, suspicor quod, quemadmodum esse 
+provi<lb break="no" ed="#L" n="47"/>sum nec contingentiam nec necessitatem ponit in eventu
+<lb ed="#L" n="48"/>proviso, ut in littera dicitur, eo quia Deus est causa 
+su<lb break="no" ed="#L" n="49"/>perexcedens, eminenter praehabens necessaria et contingen-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="50"/>tia (per hoc enim evadit s. Thomas ab illa ratione VI 
+Me<lb break="no" ed="#L" n="51"/>taphys. hic allata: intendit enim quod propositiones 
+Ari<lb break="no" ed="#L" n="52"/>stotelis verificantur in causis particularibus, quarum aliae. .
+<lb ed="#L" n="53"/>sunt necessariae, aliae contingentes, aliae per se, et aliae per
+<lb ed="#L" n="54"/>accidens; non autem in causa universalissima excédente
+<lb ed="#L" n="55"/>necessarias et contingentes, per se et per accidens; 
+quo<lb break="no" ed="#L" n="56"/>solum res, sed omnes rerum et eventuum modos); ita, 
+ele<lb break="no" ed="#L" n="57"/>vando altius mentis oculos, ipse Deus, ex sua altiori quam
+<lb ed="#L" n="58"/>cogitare possimus excellentia, sic rebus eventibusque 
+pro<lb break="no" ed="#L" n="59"/>videat, ut esse provisum ab eo sequatur aliquid altius quam
+<lb ed="#L" n="60"/>evitabiliÀtas vel inevitabilitas; ut sic ex passiva provisione
+<lb ed="#L" n="61"/>eventus, neutrius combinationis alterum membrum oporteat
+<lb ed="#L" n="62"/>sequi. Et si sic est, quiescet intellectus, non evidentia 
+veri<lb break="no" ed="#L" n="63"/>tatis inspectae, sed altitudine inaccessibili veritatis occultae.
+<lb ed="#L" n="64"/>Et hoc ingeniolo meo satis rationabile videtur: tum 
+pro<lb break="no" ed="#L" n="65"/>pter rationem praedictam; tum quoniam, ut ait Gregorius,
+<lb ed="#L" n="66"/>minus de Deo sentit, qui hoc tantum de illo credit, quod
+<lb ed="#L" n="67"/>suo ingenio metiri potest.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e1165">
+                  <lb ed="#L" n="68"/>IX. Nec propterea negandum aliquid eorum quae ad
+<lb ed="#L" n="69"/>divinam immutabilitatem, actualitatem, certitudinem atque
+<lb ed="#L" n="70"/>universalÀtatem , et similia, spectare scimus aut ex fide
+<lb ed="#L" n="71"/>tenemus, suspicor: sed aliquod occultum latere, vel ex
+<lb ed="#L" n="72"/>parte ordinis qui est inter Deum et eventum provisum, vel
+<lb ed="#L" n="73"/>ex glutino inter ipsum eventum et esse provisum, arbitror.
+<lb ed="#L" n="74"/>Et sic, intellectum animae nostrae oculum noctuae esse 
+con<lb break="no" ed="#L" n="75"/>siderans, in ignorantia sola quietem illius invenio. Melius
+<lb ed="#L" n="76"/>est enim tam fidei catholicae quam philosophiae, fateri
+<lb ed="#L" n="77"/>caecitatem nostram, quam asserere tanquam evidentia, quae
+<lb ed="#L" n="78"/>intellectum non quietant: evidentia namque quietativa est.
+<lb ed="#L" n="79"/>Nec propterea omnes doctores praesumptionis accuso: 
+quo<lb break="no" ed="#L" n="80"/>niam balbutiendo ut potuerunt, immobilitatem ac 
+effica<lb break="no" ed="#L" n="81"/>ciam summam et aeternam divini intellectus, voluntatis ,
+<lb ed="#L" n="82"/>potestatisque insinuare intenderunt omnes per 
+infallibilita<lb break="no" ed="#L" n="83"/>tem ordinis divinae electionis ad eventus omnes: quorum
+<lb ed="#L" n="84"/>nihil praefatae suspicioni obstat, quae altius quid in eis 
+la<lb break="no" ed="#L" n="85"/>tere credit; Et vere, si sic praedicaretur, nullus forte circa
+<lb ed="#L" n="86"/>praedestinationem  erraret Christianus; sicut non. errat in
+<lb ed="#L" n="87"/>materia Trinitatis, quia dicitur, et scribitur, et ita est, quod
+<lb ed="#L" n="88"/>occulta est humano intellectui, et sola fides sufficit.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e1213">
+                  <lb ed="#L" n="89"/>Optimum autem atque salubre consilium est in hac re,
+<lb ed="#L" n="90"/>inchoare ab his quae certo scimus, et experimur in nobis,
+<lb ed="#L" n="91"/>scilicet quod omnia quae sub libero arbitrio nostro 
+conti<lb break="no" ed="#L" n="92"/>nentur, evitabilia a nobis sunt; et propterea digni sumus
+<lb ed="#L" n="93"/>poena vel praemio: quomodo autem, hoc salvo, divina 
+sal<lb break="no" ed="#L" n="94"/>vetur providentia ac praedestinatio, etc., credere quod 
+san<lb break="no" ed="#L" n="95"/>cta Mater Ecclesia credit. Scriptum est enim: altiora te
+<lb ed="#L" n="96"/>ne quaesieris; plurima enim sunt tibi supra sensus 
+homi<lb break="no" ed="#L" n="97"/>num revelata. Et hoc est unum de illis.
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e1236">
+                  <lb ed="#L" n="98"/>P"
+</p>
+               <p xml:id="TAcCaj-d1e159-d1e1241">
+                  <lb ed="#L" n="99"/>niam ad eam spectat producere, ut effectus electos, non.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

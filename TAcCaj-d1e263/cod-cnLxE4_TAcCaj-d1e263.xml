@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 42</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 42</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="436"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e263"><!-- TAcCajp1-q42 -->
+            <head xml:id="TAcCaj-d1e263-Hd1e99">Quaestio 42</head>
+            <div xml:id="TAcCaj-d1e263-Dd1e101"><!-- caj-p1-q42-a1 -->
+               <head xml:id="TAcCaj-d1e263-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e263-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="79"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="80"/>TITULUS satis clarus est. Ita enim indeterminate ut sonat,
+<lb ed="#L" n="81"/>Tur deih est: discutiendum est enim et an sit, et
+<lb ed="#L" n="82"/>quomodo sit, etc.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e124">
+                  <lb ed="#L" n="83"/>In corpore unica est conclusio, directe responsiva 
+quae<lb break="no" ed="#L" n="84"/>sito: Necesse est ponere aequalitatem in divinis personis. —
+<lb ed="#L" n="85"/>Et probatur sic. In divinis personis non possumus ponere
+<lb ed="#L" n="86"/>maius et minus: ergo necesse est ponere aequalitatem.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e135">
+                  <lb ed="#L" n="87"/>Consequentia probatur ex X Metaphys.: quia aequale 
+di<lb break="no" ed="#L" n="88"/>citur quasi per negationem maioris et minoris. - Antecedens
+<lb ed="#L" n="89"/>vero probatur dupliciter. Primo, auctoritate Boetii, Secundo
+<lb ed="#L" n="90"/>ratione, sic. Si esset inaequalitas in divinis personis, non
+<lb ed="#L" n="91"/>esset in eis una numero quantitas: ergo nec una essentia:
+<lb ed="#L" n="92"/>ergo tres personae non essent unus Deus, quod est 
+impos<lb break="no" ed="#L" n="93"/>sibile. Prima consequentia probatur: quia inaequalium non
+<lb ed="#L" n="94"/>potest esse una numero quantitas. Secunda autem: quia
+<lb ed="#L" n="95"/>quantitas in divinis nihil aliud est quam essentia.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e158">
+                  <lb ed="#L" n="96"/>II. Circa hanc rationem, adverte quod, licet ex negatione
+<lb ed="#L" n="97"/>inaequalitatis non sequatur simpliciter affirmatio aequalita-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>tis, ut patet de puncto respectu lineae; et propter hoc, in
+<lb ed="#L" n="99"/>littera dixit Auctor quod aequale dicitur quasi per 
+nega<lb break="no" ed="#L" n="100"/>tionem: supposita tamen quantitate in distinctis extremis,
+<lb ed="#L" n="101"/>sequitur ex negatione inaequalitatis, affirmatio aequalitatis.
+<lb ed="#L" n="102"/>Utrum autem sequatur aequalitas quae sit relatio realis aut
+<lb ed="#L" n="103"/>non, inferius patebit.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e180">
+                  <lb ed="#L" n="104"/>III. In responsione ad primum, adverte, Thomista, quod
+<lb ed="#L" n="105"/>apud s. Thomam hic, intensio et remissio formae est ipsius
+<lb ed="#L" n="106"/>essentiae formae, et nom solum ipsius esse. Hoc in primo
+<lb ed="#L" n="107"/>modo quantitatis virtualis habes.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e191">
+                  <lb ed="#L" n="108"/>IV. In responsione ad secundum, habes solutionem 
+om<lb break="no" ed="#L" n="109"/>nium argumentorum Aureoli, apud Capreolum, in dist. xix
+<lb ed="#L" n="110"/>Primi. Aequalitas enim fundata in substantia distinguitur
+<lb ed="#L" n="111"/>a similitudine et identitate secundum modum, sicut etiam
+<lb ed="#L" n="112"/>fundamenta sic distinguuntur, ut in littera manifestatur de
+<lb ed="#L" n="113"/>aequalitate et similitudine. alborum, ut sic: album enim, ut
+<lb ed="#L" n="114"/>habet rationem albi non excedentis nec excessi in 
+perfe<lb break="no" ed="#L" n="115"/>ctione ab alio albo, dicitur simile et aequale eadem 
+rela<pb ed="#L" n="437"/>
+                  <cb ed="#L" n="a"/>
+                  <lb break="no" ed="#L" n="1"/>tione, Et idem est iudicium de substantia per modum 
+quan<lb break="no" ed="#L" n="2"/>titatis sumpta. Semper namque aequalitas includit priorem
+<lb ed="#L" n="3"/>relationem, et addit modum fundamenti.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e222">
+                  <lb ed="#L" n="4"/>V. In responsione ad tertium, adverte quod Aureolus,
+<lb ed="#L" n="5"/>apud Capreolum ibidem, impugnat ultima verba, volens
+<lb ed="#L" n="6"/>quod Pater est aequalis et aequatur Filio. Et consistunt 
+ra<lb break="no" ed="#L" n="7"/>tiones suae in hoc. Aequari non significat aequalitatem 
+ac<lb break="no" ed="#L" n="8"/>cipere, sed aequalitatem habere per modum fluxus, ut 
+ce<lb break="no" ed="#L" n="9"/>tera verba: ergo potest convenire Patri. — Antecedens patet
+<lb ed="#L" n="10"/>ex se, et inductive: dicimus enim quod dzae lineae 
+coae<lb break="no" ed="#L" n="11"/>quantur, et tamen neutra ab altera aequalitatem sumit, etc.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e242">
+                  <lb ed="#L" n="12"/>Ad hoc dicitur, quod aequari, secundum proprietatem
+<lb ed="#L" n="13"/>vocabuli, significat motum seu accessum quendam ad id cui
+<lb ed="#L" n="14"/>aequatur: unde non proprie dicimus lineam aequari lineae,
+<lb ed="#L" n="15"/>nisi cum fit, secundum rem vel designationem, aequalis 
+al<lb break="no" ed="#L" n="16"/>teri. Unde negandum est antecedens: et inductio est ad
+<lb ed="#L" n="17"/>oppositum. Verum, gratia materiae, in divinis omne 
+acci<lb break="no" ed="#L" n="18"/>pere, accedere, etc., spectat ad originem: et propterea ibi
+<lb ed="#L" n="19"/>sequitur differentia in littera posita inter nomen et verbum
+<lb ed="#L" n="20"/>quoad Patrem et Filium. Quamvis etiam in creaturis, cum
+<lb ed="#L" n="21"/>linea aequatur per se lineae, ab illa aequatur; sicut imago
+<lb ed="#L" n="22"/>Caesaris a Caesare fit.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e268">
+                  <lb ed="#L" n="23"/>VI. In responsione ad quartum, adverte opinionem 
+Do<lb break="no" ed="#L" n="24"/>ctoris, et eius fundamenta. Opinio est, quod aequalitas 
+di<lb break="no" ed="#L" n="25"/>vinarum personarum non est relatio realis; et quod cum
+<lb ed="#L" n="26"/>dicitur, Pater et Filius sunt aequales, ly aequales tria 
+in<lb break="no" ed="#L" n="27"/>cludit, scilicet unitatem essentiae, distinctionem realem 
+re<lb break="no" ed="#L" n="28"/>lationum subsistentium, idest personarum, et relativam 
+ap<lb break="no" ed="#L" n="29"/>pellationem, qua formaliter denominantur aequales; et quod
+<lb ed="#L" n="30"/>secundum illa duo, aequalitas ponit aliquid reale in divinis,
+<lb ed="#L" n="31"/>secundum tertium autem, relationem tantum . rationis ponit;
+<lb ed="#L" n="32"/>uod et auctoritate Magistri confirmatur, in xxxi distinctione
+<lb ed="#L" n="33"/>Primi.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e295">
+                  <lb ed="#L" n="34"/>Fundamenta autem positionis sunt duo, secundum duas
+<lb ed="#L" n="35"/>conditiones requisitas ad mutuas relationes reales hic 
+defi<lb break="no" ed="#L" n="36"/>cientes. Altera est distinctio realis fundamentorum: altera
+<lb ed="#L" n="37"/>est fundatio non super alia relatione.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e306">
+                  <lb ed="#L" n="38"/>VII. Verum contra haec arguitur a tenentibus 
+opposi<lb break="no" ed="#L" n="39"/>tum, de quorum numero est Scotus, in xxxi distinctione
+<lb ed="#L" n="40"/>Primi, et in Quodlibetis, qu. vr, ubi contra haec obiicit.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e315">
+                  <lb ed="#L" n="41"/>Arguitur igitur primo contra illam conditionem de reali
+<lb ed="#L" n="42"/>distinctione fundamentorum. Aequalitas fundatur super una
+<lb ed="#L" n="43"/>quantitate distinctorum extremorum: ergo super simpliciter
+<lb ed="#L" n="44"/>una quantitate distinctorum , verior est aequalitas quam
+<lb ed="#L" n="45"/>super quantitate una secundum quid: ergo super quantitate
+<lb ed="#L" n="46"/>una numero verissima fundatur aequalitas.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e331">
+                  <lb ed="#L" n="47"/>Secundo, quia ad relationes reales sufficiunt tres 
+con<lb break="no" ed="#L" n="48"/>ditiones: scilicet distinctio realis extremorum realium, 
+fun<lb break="no" ed="#L" n="49"/>damentum reale, et quod insint extremis absque omni opere
+<lb ed="#L" n="50"/>intellectus. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e342">
+                  <lb ed="#L" n="51"/>Tertio, quia sic relationes originis non possent 
+distin<lb break="no" ed="#L" n="52"/>gui realiter. Quoniam si essentia est fundamentum, ipsa est
+<lb ed="#L" n="53"/>indistincta: si relatio, obstat secunda conditio.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e351">
+                  <lb ed="#L" n="54"/>Et confirmatur. Quia si una albedo ,esset in duabus 
+su<lb break="no" ed="#L" n="55"/>perficiebus, illae essent similes.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e359">
+                  <lb ed="#L" n="56"/>VIII. Deinde arguitur contra conclusionem, sic. 
+Aequa<lb break="no" ed="#L" n="57"/>litas est in Filio ex vi productionis; et est prima aequalitas,
+<lb ed="#L" n="58"/>apud Augustinum, VI de Trinit., cap. ult.; et est perfectio
+<lb ed="#L" n="59"/>simpliciter, apud eundem, de Quantitate Animae, cap. 1x.
+<lb ed="#L" n="60"/>Ergo est relatio realis. - Et confirmatur. Quia, secluso omni
+<lb ed="#L" n="61"/>intellectu, Filius est realiter aequalis Patri: ergo aliqua 
+ae<lb break="no" ed="#L" n="62"/>qualitate aequalis: ergo non aequalitate quae est relatio 
+ra<lb break="no" ed="#L" n="63"/>tionis.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e379">
+                  <lb ed="#L" n="64"/>Praeterea, inquit Scotus, si esset inaequalitas inter 
+Pa<lb break="no" ed="#L" n="65"/>trem et Flium, esset relatio realis: ergo aequalitas est 
+rea<lb break="no" ed="#L" n="66"/>lis. - Et confirmatur. Invenitur inaequalitas perfecta in re:
+<lb ed="#L" n="67"/>ergo et aequalitas. Sed nulla potest esse nisi in divinis 
+per<lb break="no" ed="#L" n="68"/>sonis: quoniam omnis alia quantitas est imperfecta. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e392">
+                  <lb ed="#L" n="69"/>IX. Ad evidentiam horum, adverte quod defectus 
+pri<lb break="no" ed="#L" n="70"/>mae conditionis positae in littera, idest si non est distinctio
+<lb ed="#L" n="71"/>realis fundamentorum, infert quod impossibile est 
+funda<lb break="no" ed="#L" n="72"/>tas relationes esse reales. Quoniam ipsa sunt quae primo
+<lb ed="#L" n="73"/>referuntur, sicut albedo primo disgregat: et de eis primo
+<lb ed="#L" n="74"/>intelligitur, cum dicitur quod exigitur distinctio 
+extremo<lb break="no" ed="#L" n="75"/>rum: esse enim aequale primo convenit quanto, et cui-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>cumque substrato vel coniuncto non convenit nisi ratione
+<lb ed="#L" n="77"/>quanti.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e416">
+                  <lb ed="#L" n="78"/>Secunda autem conditio non facit relationes non esse
+<lb ed="#L" n="79"/>reales: sed facit eas non esse alias a fundamentis. Unde
+<lb ed="#L" n="80"/>quaelibet duo correlativa realibus relationibus oppositionis
+<lb ed="#L" n="81"/>opponuntur ad invicem, sed sunt illamet correlativa: seipsa
+<lb ed="#L" n="82"/>enim paternitas opponitur relative filiationi. Et propterea,
+<lb ed="#L" n="83"/>si prima conditio non deficeret, aequalitas Filii ad Patrem
+<lb ed="#L" n="84"/>esset ipsa filiatio, et Patris ad Filium esset paternitas.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e434">
+                  <lb ed="#L" n="85"/>X. Unde ad rationem primam dicitur, quod antecedens
+<lb ed="#L" n="86"/>est sane intelligendum. Potest enim dupliciter intelligi: 
+pri<lb break="no" ed="#L" n="87"/>mo, ut sonant verba, scilicet quod unitas quantitatis faciat
+<lb ed="#L" n="88"/>aequale; alio modo, quod unitas, idest indistinctio 
+quan<lb break="no" ed="#L" n="89"/>titatis ab alia secundum maius et minus, faciat aequale.
+<lb ed="#L" n="90"/>Rursus, aequale potest dupliciter sumi: uno modo, ut 
+si<lb break="no" ed="#L" n="91"/>gnificat relationem aequalitatis realem; alio modo, ut 
+signi<lb break="no" ed="#L" n="92"/>ficat aequalitatem indistincte, sive secundum rem sive non. -
+<lb ed="#L" n="93"/>Si primo modo sumatur antecedens, verum est de aequali
+<lb ed="#L" n="94"/>secundo modo, idest confuse sumpto; et non de 
+aequali<lb break="no" ed="#L" n="95"/>tate, idest reali relatione; et ideo ratio nihil valet. — Si sé-
+<lb ed="#L" n="96"/>cundo modo, antecedens verum est de aequalitate reali: et
+<lb ed="#L" n="97"/>est radix positionis nostrae.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e465">
+                  <lb ed="#L" n="98"/>Et ex his patet quod secunda ratio male interpretatur
+<lb ed="#L" n="99"/>conditiones relationum realium: debent enim extrema 
+rea<lb break="no" ed="#L" n="100"/>liter distingui secundum fundamenta , si relationes sunt
+<lb ed="#L" n="101"/>praeexigentes fundamenta.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e477">
+                  <lb ed="#L" n="102"/>Ad tertium autem dicitur dupliciter. Primo, quod 
+re<lb break="no" ed="#L" n="103"/>lationes originis fundantur super actibus notionalibus. Et
+<lb ed="#L" n="104"/>cum dicitur, 7/li sunt res respectivae: respondetur quod ex
+<lb ed="#L" n="105"/>hoc bene sequitur, ergo relationes originis non sunt aliae
+<lb ed="#L" n="106"/>relationes ab illis; et non sequitur, ergo non sunt 
+relatio<lb break="no" ed="#L" n="107"/>nes reales. — Secundo dicitur, et melius, quod illa conditio
+<lb ed="#L" n="108"/>intelligitur de relationibus inexigentibus fundamentum. Sunt
+<lb ed="#L" n="109"/>enim relationes duplicis ordinis. Quaedam ferunt secum
+<lb ed="#L" n="110"/>non solum fundamenta, sed etiam supposita: et hae sunt 
+re<lb break="no" ed="#L" n="111"/>lationes originis, quas diximus constituere hypostases, etc.
+<lb ed="#L" n="112"/>Quaedam vero non ferunt, sed supponunt fundamenta et
+<lb ed="#L" n="113"/>hypostases: et tales sunt aequalitas et similitudo, Et ideo
+<lb ed="#L" n="114"/>illae reales, istae. non. - Et per hoc patet solutio rationum
+<lb ed="#L" n="115"/>Scoti in Quodlibetis. Procedunt enim ex hoc, quod essentia
+<lb ed="#L" n="116"/>est fundamentum relationum originis: quod non est verum,
+<lb ed="#L" n="117"/>proprie loquendo.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e514">
+                  <lb ed="#L" n="118"/>Ad confirmationem vero de albedine, negatur quod ibi
+<lb ed="#L" n="119"/>esset similitudo, pro relatione reali: nisi forte ratione 
+diver<lb break="no" ed="#L" n="120"/>sarum partium ipsius albedinis extensae, quod est extra
+<lb ed="#L" n="121"/>propositum.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e525">
+                  <lb ed="#L" n="122"/>XL. Ad ea vero quae primo contra conclusionem 
+obii<lb break="no" ed="#L" n="123"/>ciuntur, unica est responsio, quod Filius est, secluso omni
+<lb ed="#L" n="124"/>intellectu, vere et realiter aequalis Patri quoad unitatem
+<lb ed="#L" n="125"/>essentiae et distinctionem personarum, et quoad relativam
+<lb ed="#L" n="126"/>appellationem fundamentaliter: haec enim habet ex vi 
+ge<lb break="no" ed="#L" n="127"/>nerationis. Et sic est prima aequalitas; et non per realitatem
+<lb ed="#L" n="128"/>additae relationis. Sicut etiam Filius est idem sibi ipsi 
+rea<lb break="no" ed="#L" n="129"/>lissime, secluso omni intellectu, et hoc habet a Patre, etc. ;
+<lb ed="#L" n="130"/>et tamen non sequitur, ergo relatio identitatis sibi est 
+rea<lb break="no" ed="#L" n="131"/>lis; est enim idem sibi identitate fundamentaliter. Et ita
+<lb ed="#L" n="132"/>Filius aequalis aequalitate fundamentaliter sumpta. Haec
+<lb ed="#L" n="133"/>enim instantia manifestat vitium obiectionum. — Nec est 
+ve<lb break="no" ed="#L" n="134"/>rum quod aequalitas, formaliter sumpta, sit perfectio 
+sim<lb break="no" ed="#L" n="135"/>pliciter. Nec Augustinus hoc dicit, quamvis dicat quod
+<lb ed="#L" n="136"/>aequalitatem inaequalitati iure praeponis. Album enim nigro
+<lb ed="#L" n="137"/>iure praepones, et tamen neutrum est perfectio simpliciter.
+<lb ed="#L" n="138"/>Scito tamen veritatem, quod aequale, non quoad 
+relatio<lb break="no" ed="#L" n="139"/>nem, sed quoad fundamentum, praeponitur inaequali, quia
+<lb ed="#L" n="140"/>unum praeponitur multo, et sicut unum praeponitur multo:
+<lb ed="#L" n="141"/>unum autem perfectionem simpliciter non dicit, nisi ens 
+de<lb break="no" ed="#L" n="142"/>nominatum unum sit perfectio simpliciter. Et propterea 
+ae<lb break="no" ed="#L" n="143"/>quale a genere perfectionum simpliciter est valde remotum.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e575">
+                  <lb ed="#L" n="144"/>Nec realitas inaequalitatis, si esset in divinis, infert 
+rea<lb break="no" ed="#L" n="145"/>litatem. aequalitatis: Quoniam illa habet duas quantitates
+<lb ed="#L" n="146"/>numero distinctas, maiorem scilicet et minorem: haec autem
+<lb ed="#L" n="147"/>unam tantum de facto habet. - De perfectione autem 
+ae<lb break="no" ed="#L" n="148"/>qualitatis dupliciter contingit loqui: scilicet absolute, et ut
+<lb ed="#L" n="149"/>realis relatio. Et utroque modo concedo quod invenitur in
+<lb ed="#L" n="150"/>re perfecta aequalitas: sed primo modo sumpta, in divinis;
+<pb ed="#L" n="438"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>secundo autem módo, in aliis rebus. Falsum est enim, imo
+<lb ed="#L" n="2"/>impossibile, quod secundo modo inveniatur in divinis; 
+quo<lb break="no" ed="#L" n="3"/>niam est forma imperfectionem coexigens, scilicet 
+distinctio<lb break="no" ed="#L" n="4"/>nem numeralem absolutorum.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e606">
+                  <lb ed="#L" n="5"/>XII. Et bene in re hac advertas, et concedas, in divinis
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>veram aequalitatem, et perfectam, et primam, summam, etc.,
+<lb ed="#L" n="7"/>ut in corpore articuli probatum est: sed non inquantum est
+<lb ed="#L" n="8"/>relatio realis, ut in responsione ad quartum dicitur. Nec
+<lb ed="#L" n="9"/>fallaris, digrediendo ab aequalitate uno modo, ad eam alio
+<lb ed="#L" n="10"/>modo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e263-Dd1e625"><!-- caj-p1-q42-a2 -->
+               <head xml:id="TAcCaj-d1e263-Hd1e628">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e263-d1e630">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e637">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>TITULUS clarus est. - In corpore unica est conclusio, 
+re<lb break="no" ed="#L" n="45"/>sponsiva quaesito affirmative: Necesse est Filium esse
+<lb ed="#L" n="46"/>coaeternum Patri. - Probatur sic. Omne ex principio 
+exi<lb break="no" ed="#L" n="47"/>stens posterius illo, aut procedit ab illo voluntarie, aut a
+<lb ed="#L" n="48"/>natura paulatim perfecta, aut actione successiva: sed Pater
+<lb ed="#L" n="49"/>non generat Filium voluntate, sed natura ab aeterno 
+per<lb break="no" ed="#L" n="50"/>fecta, et absque actione successiva: ergo habet Filium 
+coae<lb break="no" ed="#L" n="51"/>ternum. - Et similiter est de Spiritu Sancto.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e659">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="52"/>Maior declaratur, distinguendo causam posterioritatis ex
+<lb ed="#L" n="53"/>parte agentis, vel actionis, etc., ut patet in littera.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e668">
+                  <lb ed="#L" n="54"/>Minor vero, quoad ultimam partem, declaratur, ducendo
+<lb ed="#L" n="55"/>ad impossibile: scilicet quod Filius esset successive natus, et
+<lb ed="#L" n="56"/>cum materia et motu. - Nec fundatur haec illatio materiae
+<lb ed="#L" n="57"/>super hoc, quod ubicumque est successio, ibi sit materia :
+<lb ed="#L" n="58"/>sed quod ubicumque est generatio successiva substantiae,
+<lb ed="#L" n="59"/>ibi est materia.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e263-Dd1e685"><!-- caj-p1-q42-a3 -->
+               <head xml:id="TAcCaj-d1e263-Hd1e688">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e263-d1e690">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e697">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>In titulo, ly naturae non est obliquus determinatus per
+<lb ed="#L" n="23"/>ly ordo: sed e contra, determinans ipsum ordinem. lta
+<lb ed="#L" n="24"/>quod non est sensus: Utrum sit ordo naturae, tanquam
+<lb ed="#L" n="25"/>rei ordinatae; sed: Utrum sit ordo naturae, idest naturalis,
+<lb ed="#L" n="26"/>ut naturale distinguitur contra voluntarium.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e713">
+                  <lb ed="#L" n="27"/>II. In corpore una est conclusio: In personis divinis est
+<lb ed="#L" n="28"/>ordo naturae. — Probatur. Ordo semper est per 
+comparatio<lb break="no" ed="#L" n="29"/>nem ad aliquod principium: ergo est multiplex, iuxta 
+mul<lb break="no" ed="#L" n="30"/>tiplicitatem principii: ergo est in divinis secundum originem,
+<lb ed="#L" n="31"/>absque prioritate: ergo est ordo naturae.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e726">
+                  <lb ed="#L" n="32"/>Prima consequentia explanatur in situ, intellectu, et 
+sin<lb break="no" ed="#L" n="33"/>gulis causis. ecunda autem probatur: quia principium
+<lb ed="#L" n="34"/>in divinis est P secundi originem, absque prioritate, ex
+<lb ed="#L" n="35"/>qu. xxxmr, art. ri. — Tertia autem manifestatur auctoritate
+<lb ed="#L" n="36"/>Augustini, qui et hoc vocabulum induxit.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e740">
+                  <lb ed="#L" n="37"/>III. Circa hanc partem, pro quanto ponitur ordo absque
+<lb ed="#L" n="38"/>prioritate, dubium insurgit apud multos, putantes de 
+ra<lb break="no" ed="#L" n="39"/>tione ordinis esse prioritatem et posterioritatem; et sicut
+<lb ed="#L" n="40"/>ibi ponitur ordo originis, ponendum esse quod ibi sit
+<lb ed="#L" n="41"/>prioritas et posterioritas originis, ^^"
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e753">
+                  <lb ed="#L" n="42"/>Verum, quia non est theologorum contentiotibus 
+de<lb break="no" ed="#L" n="43"/>servire, et in re hac nulla dissensio est nisi in verbis, idcirco
+<lb ed="#L" n="44"/>breviter scito quod, cum ordo originis nihil aliud sit nisi
+<lb ed="#L" n="45"/>hoc esse ab hoc; et in eo secundum rem invenitur a quo
+<lb ed="#L" n="46"/>alius et qui ab alio; et rursus a quo alius est quandoque
+<lb ed="#L" n="47"/>a se producens, ut patet de primo producente; et in his
+<lb ed="#L" n="48"/>nulla sit discordia: consequens est quod inter nos et 
+Sco<lb break="no" ed="#L" n="49"/>tum, his omnibus consentientem, in Primo, distinctione xxvi,
+<lb ed="#L" n="50"/>quaest. ult., et Quodlibetis, quaest. 1v, non sit controversia
+<lb ed="#L" n="51"/>secundum rem, sed tantum differentia est in vocabulis. 
+Quo<lb break="no" ed="#L" n="52"/>niam ipsi vocant prius origine a quo alius, et etiam a se
+<lb ed="#L" n="53"/>producens ; posterius vero origine qui ab alio; ita quod
+<lb ed="#L" n="54"/>prioritas originis est ly a quo seu a se, posterioritas vero
+<lb ed="#L" n="55"/>ly ab alio; ut patet ab ipsomet in Primo, dist. xir, qu. rr, et
+<lb ed="#L" n="56"/>alibi. Unde in huiusmodi, propter sanctorum Doctorum
+<lb ed="#L" n="57"/>reverentiam, qui his vocabulis usi non sunt, et ad 
+tol<lb break="no" ed="#L" n="58"/>lendas erroris occasiones, sententiam teneant, sed linguam
+<lb ed="#L" n="59"/>cohibeant,
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e795">
+                  <lb ed="#L" n="60"/>Pariunt quoque huiusmodi locutiones obscuritatem in
+<lb ed="#L" n="61"/>rebus manifestis, ut patet cum fit quaestio de identitate vel
+<lb ed="#L" n="62"/>diversitate signi originis, quo vel quibus Pater et Filius 
+spi<lb break="no" ed="#L" n="63"/>rant: cum tamen res clara sit, quod Pater a se, et Filius
+<lb ed="#L" n="64"/>a Patre, unico simul actu spirant, ut unicum principium,
+<lb ed="#L" n="65"/>ut dictum est,
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e811">
+                  <lb ed="#L" n="66"/>IV. In responsione ad secundum, dubium occurrit, non
+<lb ed="#L" n="67"/>praeteritum a Scoto, in xxvur distinctione Primi, qu. ult.,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>quod hoc dictum repugnat dictis in qu. xr, art. ult. Hic
+<lb ed="#L" n="69"/>namque dicitur: paternitas, sive Pater, nullo modo est prior
+<lb ed="#L" n="70"/>Filio, ita quod nec secundum naturam, nec secundum 
+in<lb break="no" ed="#L" n="71"/>tellectum. Ibi autem expresse dictum est quod hypostasis
+<lb ed="#L" n="72"/>Patris est prior secundum intellectum actu notionali qui est
+<lb ed="#L" n="73"/>generatio activa; et consequenter prior Filio, qui sequitur
+<lb ed="#L" n="74"/>generationem passivam, ut ibidem dicitur, Non ergo stant
+<lb ed="#L" n="75"/>haec duo simul.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e837">
+                  <lb ed="#L" n="76"/>V. Ad evidentiam huius difficultatis , et simpliciter et
+<lb ed="#L" n="77"/>ad hominem, scito quod de Patre et Filio in divinis 
+con<lb break="no" ed="#L" n="78"/>tingit loqui dupliciter. Uno modo, secundum rem pure:
+<lb ed="#L" n="79"/>et sic loquitur hic Auctor, negans omnem prioritatem et
+<lb ed="#L" n="80"/>posterioritatem. Et probat hoc efficacissima ratione: scilicet
+<lb ed="#L" n="81"/>quod in eis non est nisi relatio et essentia; in essentia
+<lb ed="#L" n="82"/>nulla est prioritas, cum sit una; relationes sunt simul 
+na<lb break="no" ed="#L" n="83"/>tura et intellectu; ergo. - Alio modo contingit loqui de eis
+<lb ed="#L" n="84"/>sub aliquo partiali conceptu, seu modo concipiendi: et sic
+<lb ed="#L" n="85"/>locutus est superius. Et merito: quia titulus articuli erat de
+<lb ed="#L" n="86"/>praeintellectione proprietatum respectu actuum, et e 
+con<lb break="no" ed="#L" n="87"/>verso; et sic Pater (similiter et paternitas), conceptus ut 
+hy<lb break="no" ed="#L" n="88"/>postasis, praecedit, secundum intellectum , generationem
+<lb ed="#L" n="89"/>et Filium. Unde nulla est in dictis contradictio.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e870">
+                  <lb ed="#L" n="90"/>Imo ex hoc loco manifeste apparet quod Scotus, tam
+<lb ed="#L" n="91"/>in loco allegato, quam in Quodlibetis, qu. 1v, imposuit
+<lb ed="#L" n="92"/>s. Thomae motivum ad faciendam illam distinctionem de
+<lb ed="#L" n="93"/>paternitate ut constitutiva et ut relatio, ut salvaret Patrem
+<lb ed="#L" n="94"/>esse priorem filio. Neque enim hoc somniavit Auctor 
+un<lb break="no" ed="#L" n="95"/>quam: sed hic docuit oppositum, dicens ipsas relationes
+<lb ed="#L" n="96"/>subsistentes, quae sunt Pater et Filius, oportere esse omnino .
+<lb ed="#L" n="97"/>simul, etiam intellectu; et hoc ex meritis rerum. Ratio enim
+<lb ed="#L" n="98"/>quae movit Auctorem ad illam distinctionem, fuit, quia 
+rela<lb break="no" ed="#L" n="99"/>tio unica habet duos actus, scilicet constituere hypostasim
+<lb ed="#L" n="100"/>et referre, ut ibi patuit.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e897">
+                  <lb ed="#L" n="101"/>VI. Et scito quod, cum hac unica distinctione 
+prae<lb break="no" ed="#L" n="102"/>missa, scilicet de rebus secundum se, aut de eis secunduni
+<lb ed="#L" n="103"/>aliquem specialem conceptum seu concipiendi modum, 
+sol<lb break="no" ed="#L" n="104"/>ves obiectiones eorum qui omnino prioritatem in divinis
+<lb ed="#L" n="105"/>probare volunt; vel ex eo quod Augustinus dicit quod
+<lb ed="#L" n="106"/>nihil generat se, eo quod esset antequam esset, et sic de
+<lb ed="#L" n="107"/>ratione generantis est esse ante genitum; vel ex eis 
+simili<lb break="no" ed="#L" n="108"/>bus. Haec enim omnia non concludunt rem seu personam
+<lb ed="#L" n="109"/>generantem, etc., esse priorem, etiam secundum intellectum:
+<lb ed="#L" n="110"/>sed rem illam sic conceptam esse priorem secundum 
+ratio<lb break="no" ed="#L" n="111"/>nem. Constat autem non valere argumentum a re sic 
+con<lb break="no" ed="#L" n="112"/>cepta ad eandem simpliciter: est enim sophisma a 
+secun<lb break="no" ed="#L" n="113"/>dum quid ad simpliciter.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e263-Dd1e929"><!-- caj-p1-q42-a4 -->
+               <head xml:id="TAcCaj-d1e263-Hd1e932">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e263-d1e934">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="92"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e941">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="93"/>TITULUS clarus est. — In corpore unica est conclusio:
+<lb ed="#L" n="94"/>Necesse est Filium esse aequalem Patri in magnitudine
+<lb ed="#L" n="95"/>ab aeterno.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e952">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="96"/>Et probatur primo quoad primam partem, sic. De 
+ra<lb break="no" ed="#L" n="97"/>tione paternitatis et filiationis est, quod filius accipiat 
+per<lb break="no" ed="#L" n="98"/>fectionem naturae, sicut pater: ergo Filius in divinis habet
+<pb ed="#L" n="442"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>perfectionem naturae paternae: ergo est aequalis Patri in
+<lb ed="#L" n="2"/>magnitudine.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e972">
+                  <lb ed="#L" n="3"/>Antecedens declaratur in creaturis. - Prima vero 
+conse<lb break="no" ed="#L" n="4"/>quentia probatur: quia in divinis est vere et proprie 
+pa<lb break="no" ed="#L" n="5"/>ternitas et filiatio. - Secunda autem: quia magnitudo nihil
+<lb ed="#L" n="6"/>aliud significat quam perfectionem naturae.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e984">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>Quoad secundam vero partem, scilicet ab aeterno, pro- .
+<lb ed="#L" n="8"/>batur. Virtus Dei Patris non est defectiva, neque Filius Dei
+<lb ed="#L" n="9"/>successive perficitur: ergo ab aeterno.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e995">
+                  <lb ed="#L" n="10"/>Et declaratur sequela: quia ex horum oppositis accidit
+<lb ed="#L" n="11"/>in humanis quod filius non statim aequatur patri. — Et 
+con<lb break="no" ed="#L" n="12"/>firmatur totum auctoritate Hilarii.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e263-Dd1e1006"><!-- caj-p1-q42-a5 -->
+               <head xml:id="TAcCaj-d1e263-Hd1e1009">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e263-d1e1011">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="73"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1018">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="74"/>TITULUS clarus est. - In corpore unica est conclusio, 
+ha<lb break="no" ed="#L" n="75"/>bens tres partes: Pater est in Filio, et e converso,
+<lb ed="#L" n="76"/>secundum essentiam et relationem et originem.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1029">
+                  <lb ed="#L" n="77"/>Quoad primam partem, probatur sic. Essentia Patris est
+<lb ed="#L" n="78"/>in Filio: ergo Pater est in Filio. — Antecedens manifestatur:
+<lb ed="#L" n="79"/>quia Pater communicat essentiam Filio absque aliqua 
+trans<lb break="no" ed="#L" n="80"/>mutatione, Consequentia vero probatur: quia Pater est sua
+<lb ed="#L" n="81"/>essentia. - Et similiter, e converso, essentia Filii est in Patre:
+<lb ed="#L" n="82"/>ergo Filius est in Patre, quia Filius est sua essentia. - Et
+<lb ed="#L" n="83"/>confirmatur auctoritate Hilarii,
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1047">
+                  <lb ed="#L" n="84"/>II. Circa hanc partem adverte duo. Primum est, quod
+<lb ed="#L" n="85"/>Patrem esse in Filio ratione essentiae, potest intelligi 
+du<lb break="no" ed="#L" n="86"/>pliciter. Uno modo, quod ipsa essentia secundum se sit
+<lb ed="#L" n="87"/>ratio essendi in Filio; quemadmodum dicimus quod Pater
+<lb ed="#L" n="88"/>intelligit ratione essentiae. Et hic sensus alienus est a mente
+<lb ed="#L" n="89"/>Auctoris: sic enim optime sequeretur, ergo Filius est in
+<lb ed="#L" n="90"/>Filio; sicut sequitur, ergo Filius intelligit. Alio modo,
+<lb ed="#L" n="91"/>quod essentia, ut una in pluribus, sit ratio uni quod sit in
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="92"/>alio; quemadmodum etiam dicimus quod essentia, ut in
+<lb ed="#L" n="93"/>principio, est ratio generandi, Et sic verificatur in proposito.
+<lb ed="#L" n="94"/>Esse enim in alio, cum duo exigat, coniunctionem et 
+dis<lb break="no" ed="#L" n="95"/>tinctionem extremorum, dupliciter contingit: vel secundum
+<lb ed="#L" n="96"/>rationem, quoad distinctionem, ut deitas in Deo, et 
+uni<lb break="no" ed="#L" n="97"/>versaliter forma in supposito a quo non distinguitur 
+rea<lb break="no" ed="#L" n="98"/>liter; vel secundum rem. In proposito intelligitur secundum
+<lb ed="#L" n="99"/>rem, ita quod ad esse in invicem divinarum personarum
+<lb ed="#L" n="100"/>concurrit et realis alietas et realis coniunctio: est enim Pater
+<lb ed="#L" n="101"/>in Filio ut consubstantialis in alio Miki d ipe ratione
+<lb ed="#L" n="102"/>unius essentiae in utroque.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1094">
+                  <lb ed="#L" n="103"/>Ex hoc autem scito secundo, quod esse in persona, ut
+<lb ed="#L" n="104"/>modo loquimur, est de numero notionalium mixtorum,
+<lb ed="#L" n="105"/>sicut potentia generandi: quoniam claudit in se 
+distinctio<lb break="no" ed="#L" n="106"/>nem personarum et unitatem essentiae. Et propterea, sicut
+<lb ed="#L" n="107"/>in aliis huiusmodi mediis inter essentialia et notionalia non
+<lb ed="#L" n="108"/>valet argumentum ad essentialia pure sumpta, ita nec hic.
+<lb ed="#L" n="109"/>Unde, sicut essentia non generat, et tamen in Patre est ratio
+<pb ed="#L" n="443"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>generandi; ita ipsa non est in aliqua persona eo modo quo
+<lb ed="#L" n="2"/>persona una est in alia, et ipsa tamen in pluribus est ratio
+<lb ed="#L" n="3"/>essendi in invicem.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1123">
+                  <lb ed="#L" n="4"/>Et ex his patet primo efficacia rationis litterae, quae
+<lb ed="#L" n="5"/>non ex identitate Patris aut Filii cum essentia, ut quidam
+<lb ed="#L" n="6"/>intellexisse videntur; sed ex unitate essentiae utriusque, 
+pro<lb break="no" ed="#L" n="7"/>cedit. Et optime hoc insinuatur in ipsis Patris et Filii ac
+<lb ed="#L" n="8"/>essentiae nominibus. —Patet secundo solutio rationum 
+alla<lb break="no" ed="#L" n="9"/>tarum in xix. distinctione Primi, apud Capreolum. Ambae
+<lb ed="#L" n="10"/>namque conditiones simul iunctae reddunt processum 
+va<lb break="no" ed="#L" n="11"/>lidum. |
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1143">
+                  <lb ed="#L" n="12"/>III. Unum tamen restat dubium: an ista ratio valeat ex
+<lb ed="#L" n="13"/>unitate essentiae utriusque, ita quod par fuerit dixisse, 
+es<lb break="no" ed="#L" n="14"/>sentia Patris est in Filio, ergo etc., et, essentia Patris est
+<lb ed="#L" n="15"/>Filius, ergo etc.: idest, an ad vim processus exigatur ille
+<lb ed="#L" n="16"/>modus iz, ut iacet in littera, scilicet, essentia Patris est in
+<lb ed="#L" n="17"/>Filio, ergo etc. - Et ratio dubii est, quia ly in non nisi 
+rela<lb break="no" ed="#L" n="18"/>tionem rationis dicit: Pater autem est in Filio secundum
+<lb ed="#L" n="19"/>rem. - Et rursus, essentia alio modo est in Filio quam Pater
+<lb ed="#L" n="20"/>in Filio: quia illa ut forma in supposito, hic ut 
+supposi<lb break="no" ed="#L" n="21"/>tum substantiale in alio supposito.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1167">
+                  <lb ed="#L" n="22"/>IV.-Ad hoc dicitur quod, quia ad veritatem  
+proposi<lb break="no" ed="#L" n="23"/>tionum modus significandi tantum spectat, quod quandoque
+<lb ed="#L" n="24"/>variat veritatem ; idcirco, licet processus iste, quoad rem,
+<lb ed="#L" n="25"/>süper unitate essentiae in pluribus fundetur (hoc enim 
+con<lb break="no" ed="#L" n="26"/>substantiales personas reddit, et unam. substantialiter in
+<lb ed="#L" n="27"/>alia ponit secundum rem); tamen, quoad manifestandum
+<lb ed="#L" n="28"/>quod. proprie verificatur haec locutio, Pater est in Filio, et
+<lb ed="#L" n="29"/>€ converso, fundatur etiam supra ly im. Ex hoc enim quod
+<lb ed="#L" n="30"/>una essentia plurium congrue admittit ly iz respectu 
+singu<lb break="no" ed="#L" n="31"/>arum personarum, optime sequitur: Ergo quaelibet persona,
+<lb ed="#L" n="32"/>ratione illius essentiae, potest quoque dici esse in alia.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1193">
+                  <lb ed="#L" n="33"/>Nec obstat diversitas modi: imo de necessitate oportet
+<lb ed="#L" n="34"/>diversum esse modum rationis essendi et entis, ut patet
+<lb ed="#L" n="35"/>inductive. - Nec officitquod relationem significat rationis:
+<lb ed="#L" n="36"/>quoniam rationis quoque relatio est, cum dicitur, Pater est
+<lb ed="#L" n="37"/>in Filio, sicut cum dicitur, aequalis Filio; nulla siquidem
+<lb ed="#L" n="38"/>in divinis est realis relatio praeter illas quatuor relationes
+<lb ed="#L" n="39"/>originis. Unde, sicut de aequalitate et similitudine gode
+<lb ed="#L" n="40"/>rum distinctum est, quoad fundamentum et extrema, etc.
+<lb ed="#L" n="41"/>ita de esse in invicem proportionaliter dicendum est : 
+inclu<lb break="no" ed="#L" n="42"/>dit enim unitatem essentiae et distinctionem personarum,
+<lb ed="#L" n="43"/>sicut illae, ut ex dictis patet.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1219">
+                  <lb ed="#L" n="44"/>V. Quoad secundam vero partem, probatur. Unum
+<lb ed="#L" n="45"/>correlativum est in alio secundum intellectum: ergo una
+<lb ed="#L" n="46"/>persona divina est in alia secundum relationem.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1229">
+                  <lb ed="#L" n="47"/>VI. Contra hanc rationem arguunt Aureolus et Durandus,
+<lb ed="#L" n="48"/>apud Capreolum ubi supra. Primo, quia unum relativum
+<lb ed="#L" n="49"/>non est i» alio, sed ad aliud, et distinguitur ac opponitur. —
+<lb ed="#L" n="50"/>Secundo, quia sic Spiritus "Sanctus non esset in Patre et
+<lb ed="#L" n="51"/>Filio, quia non refertur ad eos: sed in spiratore, ad quem
+<lb ed="#L" n="52"/>refertur.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1245">
+                  <lb ed="#L" n="53"/>VH. Sed haec et similia facillime apparet nihil obstare,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="54"/>in solisque verbis differentiam esse. Neque enim vult Auctor
+<lb ed="#L" n="55"/>Patrem esse in Filio secundum rem, quoad relationem (
+quo<lb break="no" ed="#L" n="56"/>niam liquet Patrem, ut sic, ad Filium esse, non in Filio):
+<lb ed="#L" n="57"/>sed secundum intellectum , seu definitivam rationem: 
+fre<lb break="no" ed="#L" n="58"/>quentissimo namque usu dicimus unum correlativum in 
+ra<lb break="no" ed="#L" n="59"/>tione alterius esse, ut Porphyrius in Praedicabilibus dicit.
+<lb ed="#L" n="60"/>Et cum in littera explicite ponatur ly secundum intellectum,
+<lb ed="#L" n="61"/>mirum est quomodo isti arguant contra hoc.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1269">
+                  <lb ed="#L" n="62"/>Rursus, cum unicuique modo sat sit propria habere
+<lb ed="#L" n="63"/>infra suam rationem formalem, nullum inconveniens est
+<lb ed="#L" n="64"/>concedere quod Spiritus Sanctus non est secundum 
+intel<lb break="no" ed="#L" n="65"/>lectum, quoad relationem, in Patre et Filio, nisi ut sunt 
+spi<lb break="no" ed="#L" n="66"/>rantes ipsum. Non enim a quolibet modo exigendum est
+<lb ed="#L" n="67"/>quidquid ex omnibus simul modis habetur; ut arguens
+<lb ed="#L" n="68"/>somniat fuisse de intentione Auctoris. Unde, si ex hoc 
+in<lb break="no" ed="#L" n="69"/>ferretur, ergo Spiritus Sanctus non est in Patre et Filio,
+<lb ed="#L" n="70"/>vel, ergo non est in Patre et Filio nisi ut spirantibus, 
+so<lb break="no" ed="#L" n="71"/>phisma est a secundum quid ad simpliciter. Est namque
+<lb ed="#L" n="72"/>in eis sic; et est in eis ratione essentiae, ut consubstantialis,
+<lb ed="#L" n="73"/>ut in primo modo dictum est; et etiam secundum. 
+origi<lb break="no" ed="#L" n="74"/>nem, ut dicetur. Non valet igitur argumentum, Spiritus
+<lb ed="#L" n="75"/>Sanctus secundum relationem non est in Patre et Filio
+<lb ed="#L" n="76"/>nisi sic, ergo Spiritus Sanctus non est in eis nisi sic: ly
+<lb ed="#L" n="77"/>enim secundum relationem se habet ut secundum quid.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1306">
+                  <lb ed="#L" n="78"/>VIII. Quoad tertiam autem partem, probatur. Verbum
+<lb ed="#L" n="79"/>non procedit. extra dicentem, et quod verbo dicitur, in verbo
+<lb ed="#L" n="80"/>continetur: ergo una persona divina est in alia secundum
+<lb ed="#L" n="81"/>originem.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1317">
+                  <lb ed="#L" n="82"/>IX. Contra hanc rationem arguit Aureolus, supra, 
+du<lb break="no" ed="#L" n="83"/>pliciter. Primo, quia modus essendi in alio sicut principio,
+<lb ed="#L" n="84"/>est imperfectior, ut Commentator vult., IV Physic., 
+com<lb break="no" ed="#L" n="85"/>ment. xxur; et.non est reciprocus. Modus autem quo una
+<lb ed="#L" n="86"/>persona divina est in alia, est perfectissimus, et reciprocus.
+<lb ed="#L" n="87"/>Ergo. - Secundo, quia secundum hanc rationem Pater esset
+<lb ed="#L" n="88"/>in Verbo, sicut totus mundus est in Verbo. Probatur sequela:
+<lb ed="#L" n="89"/>quia esset ut res dicta, et constat totum mundum Verbo
+<lb ed="#L" n="90"/>Dei dictum esse.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1339">
+                  <lb ed="#L" n="91"/>X. Ad haec dicitur, quod esse in principio activo 
+con<lb break="no" ed="#L" n="92"/>tingit dupliciter, scilicet extraneo et intraneo, idest 
+secun<lb break="no" ed="#L" n="93"/>dum operationem transeuntem, et immanentem. Et quod,
+<lb ed="#L" n="94"/>licet esse in principio activo extraneo sit imperfectionis,
+<lb ed="#L" n="95"/>sicut esse causatum, esse tamen in principio intraneo, 
+nul<lb break="no" ed="#L" n="96"/>lius imperfectionis est. Unde in littera probatio sumpta est,
+<lb ed="#L" n="97"/>quia verbum non procedit extra dicentem. - Reciprocatio
+<lb ed="#L" n="98"/>autem etiam in extraneis admittitur; dum causam in 
+effe<lb break="no" ed="#L" n="99"/>ctibus esse per imitationem seu repraesentationem conce- -
+<lb ed="#L" n="100"/>dimus.
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1364">
+                  <lb ed="#L" n="101"/>Ad secundum vero dicendum, quod res dicta non est
+<lb ed="#L" n="102"/>uno modo: quaedam enim est res essentialiter dicta, 
+quae<lb break="no" ed="#L" n="103"/>dam vero repraesentative. Pater igitur est in Filio ut res
+<lb ed="#L" n="104"/>essentialiter dicta Verbo: creaturae autem omnes dicuntur
+<lb ed="#L" n="105"/>repraesentative, inquantum scilicet representantur in Deo,
+<lb ed="#L" n="106"/>cuius essentialiter est Verbum ut dicti et dicentis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e263-Dd1e1381"><!-- caj-p1-q42-a6 -->
+               <head xml:id="TAcCaj-d1e263-Hd1e1384">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e263-d1e1386">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e263-d1e1393">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>TITULUS clarus. - In corpore una conclusio, responsiva
+<lb ed="#L" n="53"/>A addiniaatine: Filius est aequalis Patri in potestate.
+<lb ed="#L" n="54"/>Probatur. Ratio paternitatis et filiationis exigit 
+aequali<lb break="no" ed="#L" n="55"/>tatem in magnitudine et perfectione naturae: ergo 
+aequa<lb break="no" ed="#L" n="56"/>litatem in potestate. — Antecedens patet ex articulo quarto. —
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>Consequentia vero probatur: quia potentia activa sequitur
+<lb ed="#L" n="58"/>perfectionem naturae. Quod probatur: quia in creaturis,
+<lb ed="#L" n="59"/>quanto aliquid est perfectioris naturae, tanto est maioris
+<lb ed="#L" n="60"/>virtutis in agendo; ut patet inductive et in eadem specie,
+<lb ed="#L" n="61"/>et in genere corporum, et universaliter substantiarum... -
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

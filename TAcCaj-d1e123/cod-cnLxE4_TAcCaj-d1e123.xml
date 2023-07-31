@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="202"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e123"><!-- TAcCajp1-q15 -->
+            <head xml:id="TAcCaj-d1e123-Hd1e99">Quaestio 15</head>
+            <div xml:id="TAcCaj-d1e123-Dd1e101"><!-- caj-p1-q15-a1 -->
+               <head xml:id="TAcCaj-d1e123-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e123-d1e106">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="73"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e113">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="74"/>IN titulo nihil aliud notandum est, nisi quod quid 
+nomi<lb break="no" ed="#L" n="75"/>Li ideae in corpore declaratur.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e122">
+                  <lb ed="#L" n="76"/>In corpore tria: primo, proponit conclusionem 
+respon<lb break="no" ed="#L" n="77"/>sivam quaesito; secundo, assignat quid nominis ideae;
+<lb ed="#L" n="78"/>tertio, probat conclusionem responsivam
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e131">
+                  <lb ed="#L" n="79"/>II. Quoad primum, conclusio responsiva quaesito 
+affir<lb break="no" ed="#L" n="80"/>mative est: Necesse est ponere ideas in mente divina. -
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e139">
+                  <lb ed="#L" n="81"/>Ubi adverte quod esse in mente sumitur formaliter, idest
+<lb ed="#L" n="82"/>inquantum mens est. Hoc autem est esse obiective, ut 
+in<lb break="no" ed="#L" n="83"/>tellectum in intelligente; et non ut forma in eo cuius est
+<lb ed="#L" n="84"/>forma. Sensus ergo conclusionis est, quod necesse est 
+po<lb break="no" ed="#L" n="85"/>nere ideas obiective in intellectu divino.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e152">
+                  <lb ed="#L" n="86"/>III. Quoad secundum: idea significat formam alicuius
+<lb ed="#L" n="87"/>rei praeter rem ipsam existentem. Et declaratur ex idiomate
+<pb ed="#L" n="203"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>graeco. - Si vis ideae diffuse definitionem videre, lege qu. ui
+<lb ed="#L" n="2"/>de Veritate art. 1.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e168">
+                  <lb ed="#L" n="3"/>IV. Quoad tertium, probatur conclusio proposita, sic.
+<lb ed="#L" n="4"/>Mundus non est factus a casu, sed est factus a Deo per
+<lb ed="#L" n="5"/>intellectum agente: ergo forma mundi est finis suae 
+gene<lb break="no" ed="#L" n="6"/>rationis: ergo in mente divina est forma, ad similitudinem
+<lb ed="#L" n="7"/>cuius mundus est factus: ergo in mente divina est idea.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e181">
+                  <lb ed="#L" n="8"/>Antecedens, quoad utramque partem, supponitur, ut
+<lb ed="#L" n="9"/>inferius monstrandum in loco suo. - Prima autem 
+conse<lb break="no" ed="#L" n="10"/>quentia probatur ex illa maxima, in omnibus quae 
+gene<lb break="no" ed="#L" n="11"/>rantur non a casu, forma est finis generationis. - Secunda
+<lb ed="#L" n="12"/>vero consequentia duo infert: scilicet, et quod forma ad
+<lb ed="#L" n="13"/>cuius similitudinem etc., est in Deo; et quod est tali modo,
+<lb ed="#L" n="14"/>scilicet in mente divina, idest obiective. Et quoad 
+utrum<lb break="no" ed="#L" n="15"/>que in littera probatur. Quoad primum: quia commune
+<lb ed="#L" n="16"/>est omni agenti praehabere similitudinem intentae formae.
+<lb ed="#L" n="17"/>Quoad secundum vero, est differentia inter agens naturale
+<lb ed="#L" n="18"/>et a proposito, in modo habendi illam similitudinem: quia
+<lb ed="#L" n="19"/>illud secundum esse naturale, ut patet in igne; hoc 
+secun<lb break="no" ed="#L" n="20"/>dum esse intelligibile, ut patet in artifice. Si ergo Deus
+<lb ed="#L" n="21"/>est agens per intellectum, ergo etc. - Tertia deinde 
+con<lb break="no" ed="#L" n="22"/>sequentia probatur: quia in hoc consistit ratio ideae. 
+Pro<lb break="no" ed="#L" n="23"/>batur: ratio ideae est, ut sit forma praeter rem, exemplar
+<lb ed="#L" n="24"/>rei, et principium cognitionis, etc.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e220">
+                  <lb ed="#L" n="25"/>V. Adverte hic diligenter, quod in littera caute dicitur
+<lb ed="#L" n="26"/>quod idea ponitur uf exemplar, et non dicitur ut 
+princi<lb break="no" ed="#L" n="27"/>pium essendi. Quia principium essendi, sonaret formam qua
+<lb ed="#L" n="28"/>agens agit: idea autem non significat talem formam, sed
+<lb ed="#L" n="29"/>formam quam agens concipit, ad cuius similitudinem 
+ope<lb break="no" ed="#L" n="30"/>ratur, et non qua operatur. Et hoc est proprie exemplar.
+<lb ed="#L" n="31"/>Et propterea in exemplo de domificatore expresse 
+subiun<lb break="no" ed="#L" n="32"/>gitur, quod idea domus est forma quam mente concipit ,
+<lb ed="#L" n="33"/>et non ars domificativa.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e242">
+                  <lb ed="#L" n="34"/>Similiter, cum littera dixisset quod idea est principium
+<lb ed="#L" n="35"/>cognitionis, statim addidit limitationem, secundum quod
+<lb ed="#L" n="36"/>formae cognoscibilium dicuntur esse in cognoscente. Quasi
+<lb ed="#L" n="37"/>diceret: Non dico quod idea est principium cognitionis
+<lb ed="#L" n="38"/>(quia hoc sonaret quod ipsa esset ratio cognoscendi ut
+<lb ed="#L" n="39"/>species intelligibilis); sed quod ipsa est principium 
+cogni<lb break="no" ed="#L" n="40"/>tionis eo modo quo formae cognoscibilium obiective in 
+co<lb break="no" ed="#L" n="41"/>gnoscente existentes, principia cognitionis ipsarum rerum
+<lb ed="#L" n="42"/>cognoscibilium dicuntur. Et quoniam in penultimo 
+con<lb break="no" ed="#L" n="43"/>sequente totum hoc continebatur, scilicet forma mundi
+<lb ed="#L" n="44"/>praeter mundum existens, et causalitas exemplaris, et modus
+<lb ed="#L" n="45"/>essendi intelligibiliter seu obiective; ideo merito ultima 
+con<lb break="no" ed="#L" n="46"/>sequentía ex his quae ad rationem ideae spectant, et iam
+<lb ed="#L" n="47"/>posita erant, probata est, praegnantibus verbis, scilicet, et
+<lb ed="#L" n="48"/>in hoc consistit ratio ideae.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e278">
+                  <lb ed="#L" n="49"/>VI. In. responsione ad tertium, dubium occurrit: quia
+<lb ed="#L" n="50"/>falsum et inconsonans videtur, quod idea sit essentia 
+di<lb break="no" ed="#L" n="51"/>vina. Falsum quidem, inquit Scotus, in I, dist. xxxv, quia
+<lb ed="#L" n="52"/>tota ratio ideae salvatur in lapide habente esse obiectivum
+<lb ed="#L" n="53"/>in intellectu divino: ergo idea in Deo non est essentia 
+di<lb break="no" ed="#L" n="54"/>vina. — Antecedens patet applicando totam ideae rationem.
+<lb ed="#L" n="55"/>Et confirmari posset assumendo definitionem positam in
+<lb ed="#L" n="56"/>Qu. de Ver., qu. nur, art. 1, et eam quae ex hoc articulo
+<lb ed="#L" n="57"/>habetur: scilicet, quod est forma alicuius rei praeter ipsam
+<lb ed="#L" n="58"/>rem, exemplar, atque principium sic cognitionis eiusdem. —
+<lb ed="#L" n="59"/>Consequentia autem probatur: esse obiectivum non est
+<lb ed="#L" n="60"/>esse reale, sed est esse diminutum; ergo non est essentia
+<lb ed="#L" n="61"/>divina,
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e309">
+                  <lb ed="#L" n="62"/>Inconsonans autem, quia idea aut est essentia divina
+<lb ed="#L" n="63"/>ut est, aut essentia divina ut est obiecta intellectui 
+di<lb break="no" ed="#L" n="64"/>vino. Si primo modo (ut in articulo sequenti innuitur,
+<lb ed="#L" n="65"/>ubi dicitur quod idea est essentia divina sic imitabilis: hoc
+<lb ed="#L" n="66"/>enim convenit essentiae divinae secundum quod ens est),
+<lb ed="#L" n="67"/>male ergo responsum est ad principale quaesitum. articuli.
+<lb ed="#L" n="68"/>Et probatur sequela. Quaestioni an est de re habente esse
+<lb ed="#L" n="69"/>in rerum natura et in intellectu, male respondetur 
+affirma<lb break="no" ed="#L" n="70"/>tive per esse quod habet in intellectu, praetermisso esse
+<lb ed="#L" n="71"/>in rerum natura: sicut quaerenti an sphaera ignis sit, male
+<lb ed="#L" n="72"/>responderetur quod est in intellectu. Et ratio est, quia esse
+<lb ed="#L" n="73"/>in intellectu est esse secundum quid, esse in rerum 
+na<lb break="no" ed="#L" n="74"/>tura est esse simpliciter: quaestio autem a est quaerit de
+<lb ed="#L" n="75"/>esse simpliciter: et propterea, si respondeatur de esse in
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>mente, insinuatur quod illa res non habet aliud esse, sed
+<lb ed="#L" n="77"/>ésse in mente est eius esse simpliciter. Si igitur idea est
+<lb ed="#L" n="78"/>essentia secundum esse reale, male responsum est 
+quae<lb break="no" ed="#L" n="79"/>sito: necesse est ponere ideas in mente divina. — Si autem
+<lb ed="#L" n="80"/>idea est essentia ut obiecta est intellectui divino, male ergo
+<lb ed="#L" n="81"/>dictum est quod est ipsa essentia divina. Quoniam essentia
+<lb ed="#L" n="82"/>divina ut obiecta, non habet esse reale, sed obiectivum.
+<lb ed="#L" n="83"/>Et si, per impossibile, essentia divina non esset in rerum
+<lb ed="#L" n="84"/>natura, et esset obiecta intellectui, ideae ratio salvaretur.
+<lb ed="#L" n="85"/>Ideam ergo esse idem quod essentia, est per accidens, imo
+<lb ed="#L" n="86"/>superfluum: quia natura cuiusque rei est obiecta intellectui
+<lb ed="#L" n="87"/>divino, secundario tamen, etiam si nunquam identificaretur
+<lb ed="#L" n="88"/>essentiae divinae ut obiecta est intellectui divino; quoniam
+<lb ed="#L" n="89"/>ipsa cognoscitur a Deo non solum ut est in priori obiecto,
+<lb ed="#L" n="90"/>sed secundum se. - Hae rationes non sunt ex Scoto 
+for<lb break="no" ed="#L" n="91"/>maliter: sed ut veritas elucescat, periam ex ipso, partim ex
+<lb ed="#L" n="92"/>littera eas formandas credidi.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e381">
+                  <lb ed="#L" n="93"/>VII. Ad evidentiam horum, duo videnda sunt, ex quibus
+<lb ed="#L" n="94"/>solutio omnium pendet: primo, quomodo idea se habeat
+<lb ed="#L" n="95"/>ad esse; secundo, quid sit esse obiectivum.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e390">
+                  <lb ed="#L" n="96"/>Quoad primum, scito quod, ut ex allegatis locis patet,
+<lb ed="#L" n="97"/>de ratione ideae est esse exemplar rei. De ratione autem
+<lb ed="#L" n="98"/>exemplaris est esse formativum rei, mediante agente per
+<lb ed="#L" n="99"/>intellectum. Unde ibidem dicitur quod, si omnia agerent
+<lb ed="#L" n="100"/>de necessitate naturae, non ponerentur ideae. De ratione
+<lb ed="#L" n="101"/>autem formativi sic, est essein mente: nunquam enim 
+exem<lb break="no" ed="#L" n="102"/>plar aliquod est sic formativum, nisi potentia remota, nisi
+<lb ed="#L" n="103"/>sit in mente. Et si est in mente tantum, formativum sic
+<lb ed="#L" n="104"/>salvatur. Modus ergo essendi exemplaris necessarius est esse
+<lb ed="#L" n="105"/>in mente: ceteri autem modi essendi sunt per accidens,
+<lb ed="#L" n="106"/>absolute loquendo. Et propterea in littera quaestioni az
+<lb ed="#L" n="107"/>est de ideis, responsum est quod sunt in mente divina.
+<lb ed="#L" n="108"/>Esse namque in mente est simpliciter necessarium esse 
+idea<lb break="no" ed="#L" n="109"/>rum, et formaliter convenit ideae ut idea est. Nec curavit
+<lb ed="#L" n="110"/>Auctor de esse idearum in rerum natura, ut Platoni 
+ascri<lb break="no" ed="#L" n="111"/>bitur: quoniam hic theologiam tradebat, et de divino 
+intel<lb break="no" ed="#L" n="112"/>lectu; illa autem discussio metaphysicalis est, et ad 
+tracta<lb break="no" ed="#L" n="113"/>tum de Separatis Substantiis spectans, Unde patet quod idea
+<lb ed="#L" n="114"/>in Deo est, formaliter loquendo, essentia divina ut in mente
+<lb ed="#L" n="115"/>est divina. Nec oppositum in illis verbis sequentis articuli
+<lb ed="#L" n="116"/>dicitur: quoniam ly imitabile claudere intelligitur in se 
+ra<lb break="no" ed="#L" n="117"/>tionem exemplaris, Ac per hoc, ut ex dictis patet, idea
+<lb ed="#L" n="118"/>dicitur essentia divina ut exemplar est, idest ut formativa
+<lb ed="#L" n="119"/>est rei medio intellectu. Hoc autem patet non convenire
+<lb ed="#L" n="120"/>essentiae secundum quod est mere naturaliter, sed 
+secun<lb break="no" ed="#L" n="121"/>dum quod est obiecta divinae menti.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e449">
+                  <lb ed="#L" n="122"/>VIII. Sed quid est esse sic, scilicet obiective, quod 
+se<lb break="no" ed="#L" n="123"/>cundo loco videndum erat? — Scotus, in I, dist. xxxvr, 
+de<lb break="no" ed="#L" n="124"/>terminat quod esse cognitum non est esse reale, absolutum
+<lb ed="#L" n="125"/>aut respectivum ; nec est esse relativum secundum 
+ratio<lb break="no" ed="#L" n="126"/>nem; sed est esse diminutum rei, sive absolute sive 
+re<lb break="no" ed="#L" n="127"/>lative, quod vocatur esse secundum quid; ita quod res
+<lb ed="#L" n="128"/>habens talem modum essendi, fundat relationem rationis
+<lb ed="#L" n="129"/>ad intellectum. Putatque lapidem etc., entia producta esse
+<lb ed="#L" n="130"/>ab aeterno a Deo, per actum intellectus divini, in tali esse;
+<lb ed="#L" n="131"/>et huiusmodi entia secundum quid esse; et vocari ideas,
+<lb ed="#L" n="132"/>quia eis conveniunt omnes conditiones idearum, ut 
+ar<lb break="no" ed="#L" n="133"/>guendo fuit deductum.,
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e478">
+                  <lb ed="#L" n="134"/>Ego autem, peripatetico lacte educatus, ac in aere, ut
+<lb ed="#L" n="135"/>aiunt, loqui nesciens, praeter latitudinem entis realis, solum
+<lb ed="#L" n="136"/>ens rationis novi (V et VI Metaphys.). Ens autem ra-
+<lb ed="#L" n="137"/>tionis relationem aut negationem didici a s. Thoma, in
+<lb ed="#L" n="138"/>Qu. de Ver., qu. xxr, art. t. Unde, cum esse obiectivum
+<lb ed="#L" n="139"/>non sit modus essendi secundum rem, neque sit negatio,
+<lb ed="#L" n="140"/>restat quod sit esse relativum secundum rationem, in com»
+<lb ed="#L" n="141"/>muni loquendo. Sed quoniam esse divinum est tantae 
+ex<lb break="no" ed="#L" n="142"/>cellentiae, ut omnes essendi modos, sive extra animam sive
+<lb ed="#L" n="143"/>in anima, eminenter praehabeat, oportet ut esse naturale
+<lb ed="#L" n="144"/>ipsius divinae essentiae sit non solum ordinis intelligibilis,
+<lb ed="#L" n="145"/>et in actu purissimo, sed sit etiam (et non per accidens)
+<lb ed="#L" n="146"/>esse obiectivum eiusdem respectu intellectus sui: alioquin
+<lb ed="#L" n="147"/>non omnes essendi modos unico modo eminentissime 
+con<lb break="no" ed="#L" n="148"/>tineret. Ac per hoc, nec essentia divina ut obiecta 
+intelle<lb break="no" ed="#L" n="149"/>ctui, habet esse diminutum; nec aliqua res, ut obiecta 
+di<lb break="no" ed="#L" n="150"/>vino intellectui, habet esse diminutum. Et de essentia divina
+<pb ed="#L" n="204"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quidem manifeste sequitur: quia eius esse obiectivum est
+<lb ed="#L" n="2"/>esse naturale ipsius Dei, propter eius eminentiam. De aliis
+<lb ed="#L" n="3"/>vero sequitur ex eo, quod alia non aliter possunt obiici
+<lb ed="#L" n="4"/>Deo, quam in obiecta essentia divina: nihil enim Deus
+<lb ed="#L" n="5"/>intelligit extra se, sed omnia in se tantum. Ita quod in se
+<lb ed="#L" n="6"/>cognoscit utrumque, scilicet et lapidem in essentia obiecta,
+<lb ed="#L" n="7"/>et lapidem absolute ; et lapidem hunc, et lapidem in anima
+<lb ed="#L" n="8"/>mea, etc.: omnia enim haec novit, sed modus quo haec
+<lb ed="#L" n="9"/>obiiciuntur. est unus, scilicet in essentia divina. Et 
+conse<lb break="no" ed="#L" n="10"/>quenter esse obiectivum rerum respectu intellectus divini,
+<lb ed="#L" n="11"/>non est esse relativum, sed absolutum realissimum, scilicet
+<lb ed="#L" n="12"/>esse Dei, Et quia idea in Deo, de qua est sermo, significat,
+<lb ed="#L" n="13"/>res secundum tale esse, ideo merito dictum est quod est
+<lb ed="#L" n="14"/>ipsa essentia divina, etc.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e553">
+                  <lb ed="#L" n="15"/>IX. Ad primam ergo obiectionem in oppositum, 
+ne<lb break="no" ed="#L" n="16"/>gatur sequela. Ad probationem autem, dicitur quod, licet
+<lb ed="#L" n="17"/>esse obiectivum in communi non sit reale, esse tamen
+<lb ed="#L" n="18"/>obiectivum apud intellectum divinum est reale.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e564">
+                  <lb ed="#L" n="19"/>Ad secundam autem, iam patet quod idea in Deo est
+<lb ed="#L" n="20"/>essentia divina ut obiecta divino intellectui, etc. Et cum
+<lb ed="#L" n="21"/>arguitur, ergo male dictum est quod essentia sit, negatur
+<lb ed="#L" n="22"/>sequela. Tum quia non est dictum quod est essentia 
+in<lb break="no" ed="#L" n="23"/>quantum habet esse naturale. Tum quia, si hoc sine 
+re<lb break="no" ed="#L" n="24"/>duplicatione fuisset dictum, verificaretur, propter unitatem
+<lb ed="#L" n="25"/>utriusque in Deo. Essentia enim divina habet utrumque
+<lb ed="#L" n="26"/>modum essendi eminenter, in suo unico excellentissimo
+<lb ed="#L" n="27"/>modo essendi: et propterea, affirmando identitatem ideae
+<lb ed="#L" n="28"/>cum essentia, non sequitur formaliter, loquendo more
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>humano, ergo affirmatur identitas cum essentia 
+inquan<lb break="no" ed="#L" n="30"/>tum est in rerum natura. In littera autem non affirmatur
+<lb ed="#L" n="31"/>hoc secundum, sed primum. Et ideo illae duae 
+consequen<lb break="no" ed="#L" n="32"/>tiae, quae obiiciendo subiunctae sunt, scilicet, ergo ideam
+<lb ed="#L" n="33"/>in Deo esse idem cum essentia divina , est per accidens,
+<lb ed="#L" n="34"/>et, ergo est superfluum, nihil valent: quia identitas cum
+<lb ed="#L" n="35"/>essentia est per se et necessaria, ex eo quod nihil potest
+<lb ed="#L" n="36"/>obiici intellectui divino nisi in essentia divina. Ita quod
+<lb ed="#L" n="37"/>modus quo res obiectae obiiciuntur, necessario est esse
+<lb ed="#L" n="38"/>in obiecta essentia: alioquin Deus intelligeret aliquid extra
+<lb ed="#L" n="39"/>se, et vilesceret eius intellectus, ut XII Metaphys. patet.
+<lb ed="#L" n="40"/>Unde falsum et impossibile est quod lapis obiiciatur Deo
+<lb ed="#L" n="41"/>in seipso lapide obiective. Quod tamen argumentum 
+as<lb break="no" ed="#L" n="42"/>sumit et supponit, ex ignorantia metaphysicae.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e621">
+                  <lb ed="#L" n="43"/>Ad illam autem hypotheticam deductionem, si essentia
+<lb ed="#L" n="44"/>divina non esset in rerum natura, et esset obiecta suo 
+intel<lb break="no" ed="#L" n="45"/>lectui, salvaretur ratio ideae: ergo identitas ideae cum 
+es<lb break="no" ed="#L" n="46"/>sentia est per accidens, admissa conditionali, negatur ulterior
+<lb ed="#L" n="47"/>sequela. Imo sequitur oppositum: quia stante illa 
+condi<lb break="no" ed="#L" n="48"/>tionali, idea esset ipsa essentia ut obiecta. — Et si dicatur,
+<lb ed="#L" n="49"/>ergo ideam esse essentiam divinam secundum esse reale, est
+<lb ed="#L" n="50"/>per accidens, negatur sequela. Quoniam esse obiectivum
+<lb ed="#L" n="51"/>essentiae divinae, apud intellectum Dei, non est per accidens
+<lb ed="#L" n="52"/>reale, sed per se, ex eminentia propria ipsius. Sed falli 
+mul<lb break="no" ed="#L" n="53"/>tos contingit in hoc, ex eo quod consideratur esse 
+obiecti<lb break="no" ed="#L" n="54"/>vum absolute, ét reale absolute, quae constat non esse idem;
+<lb ed="#L" n="55"/>cum hic sit sermo de esse obiectivo zali, et tali reali, ex
+<lb ed="#L" n="56"/>quibus oritur identitas; balbutiendi tamen accepta licentia.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e123-Dd1e655"><!-- caj-p1-q15-a2 -->
+               <head xml:id="TAcCaj-d1e123-Hd1e658">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e123-d1e660">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="66"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e667">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="67"/>TITULUS clarus. - In corpore tria facit: primo, respondet
+<lb ed="#L" n="68"/>quaesito affirmative; secundo, ostendit quod haec 
+plu<lb break="no" ed="#L" n="69"/>ralitas non repugnat divinae simplicitati; tertio, ostendit
+<lb ed="#L" n="70"/>quomodo haec pluralitas est. :
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e680">
+                  <lb ed="#L" n="71"/>II. Quoad primum, conclusio responsiva est: Necesse est
+<lb ed="#L" n="72"/>ponere ideas plures. - Probatur. Ultimus finis in quolibet
+<lb ed="#L" n="73"/>effectu est proprie intentus a principali agente: ergo ordo
+<lb ed="#L" n="74"/>universi est proprie intentus, et per se factus, a Deo: ergo in
+<lb ed="#L" n="75"/>mente divina est idea ordinis universi: ergo in ea sunt 
+pro<lb break="no" ed="#L" n="76"/>priae rationes omnium rerum: ergo in ea sunt plures ideae.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e696">
+                  <lb ed="#L" n="77"/>Antecedens manifestatur in ordine exercitus et duce.
+<lb ed="#L" n="78"/>Prima vero consequentia probatur: quia optimum in rebus
+<lb ed="#L" n="79"/>existens est ordo; quod firmatur ex XII Metaphys. Et 
+con<lb break="no" ed="#L" n="80"/>firmatur veritas consequentis ex destructione opinionis 
+Avi<lb break="no" ed="#L" n="81"/>cennae, etc, Secunda autem est per se nota. Tertia vero
+<lb ed="#L" n="82"/>probatur: quia ratio totius haberi non potest, nisi 
+ha<lb break="no" ed="#L" n="83"/>beantur rationes omnium ex quibus totum constituitur, ut
+<lb ed="#L" n="84"/>patet in domo et eius partibus. Confirmaturque veritas
+<lb ed="#L" n="85"/>consequentis auctoritate Augustini, Ultima demum 
+conse<lb break="no" ed="#L" n="86"/>quentia non eget probatione.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e721">
+                  <lb ed="#L" n="87"/>III. Adverte quod notanter in primo antecedente non
+<lb ed="#L" n="88"/>dicitur ultimus finis, sed dicitur ultimus finis in quolibet
+<lb ed="#L" n="89"/>effectu: quoniam hic est sermo de fine intrinseco effectus,
+<lb ed="#L" n="90"/>et non de fine qui est extra effectum. Ut enim patet XII
+<lb ed="#L" n="91"/>Metaphys., text. 52, bonum universi est duplex: scilicet
+<lb ed="#L" n="92"/>in ipso universo manens, et aliud extra ipsum. Primum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="93"/>est ordo: secundum est Deus, propter quem est etiam
+<lb ed="#L" n="94"/>ipse ordo. Ordo ergo universi, quia est optimum in toto
+<lb ed="#L" n="95"/>universo, oportet esse ultimum in hoc effectu qui est 
+uni<lb break="no" ed="#L" n="96"/>versum, et consequenter respondere principali agenti: quod
+<lb ed="#L" n="97"/>supponimus esse Deum. Et sic Deus est actor per se et
+<lb ed="#L" n="98"/>finis ipsius ordinis, quemadmodum dux respectu ordinis
+<lb ed="#L" n="99"/>exercitus.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e754">
+                  <lb ed="#L" n="100"/>Adverte secundo, quod littera, ut ostenderet vim huius
+<lb ed="#L" n="101"/>medii. ad inferendam pluralitatem idearum in Deo, inseruit
+<lb ed="#L" n="102"/>opinionem Avicennae de modo quo pluralitas emanavit
+<lb ed="#L" n="103"/>creaturarum: de qua inferius erit sermo. Si enim distinctio
+<lb ed="#L" n="104"/>creaturarum non per se intenta esset a Deo, sed ex parte Dei
+<lb ed="#L" n="105"/>esset per accidens, scilicet propter successionem agentium,
+<lb ed="#L" n="106"/>seu quovis alio modo; non haberemus viam concludendi in
+<lb ed="#L" n="107"/>Deo exemplaria multorum, sed unius tantum. Nullus enim
+<lb ed="#L" n="108"/>opifex exigit ideam eorum quae sunt per accidens.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e776">
+                  <lb ed="#L" n="109"/>IV. Quoad secundum, ostenditur quod pluralitas 
+idea<lb break="no" ed="#L" n="110"/>rum non repugnat divinae simplicitati, ex differentia quae
+<lb ed="#L" n="111"/>est inter quod et quo aliquis intelligit. Utiturque tali 
+ra<lb break="no" ed="#L" n="112"/>tione. Multiplicare quod non repugnat simplicitati, sed
+<lb ed="#L" n="113"/>multiplicare quo: sed idea est quod, et non quo: ergo 
+mul<lb break="no" ed="#L" n="114"/>titudo idearum non repugnat simplicitati divinae. — Maior
+<lb ed="#L" n="115"/>probatur: quia multa intelligere non ponit compositionem
+<lb ed="#L" n="116"/>aut imperfectionem, etc., sed bene hoc ponit multis 
+spe<lb break="no" ed="#L" n="117"/>ciebus intelligere. Minor probatur inductive ex idea domus
+<lb ed="#L" n="118"/>in mente artificis, etc.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e800">
+                  <pb ed="#L" n="206"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>V. Circa differentiam in littera assignatam inter quod
+<lb ed="#L" n="2"/>et quo intelligitur, dubium occurrit. Primo, aut est sermo
+<lb ed="#L" n="3"/>de pluralitate reali, aut rationis. Si reali, utriusque 
+plura<lb break="no" ed="#L" n="4"/>litas praeiudicat divinae simplicitati. Si rationis, utrumque
+<lb ed="#L" n="5"/>potest pari ratione plurificari. Quoniam essentia divina ut
+<lb ed="#L" n="6"/>species, comprehendit omnes species intelligibiles, 
+quem<lb break="no" ed="#L" n="7"/>admodum ipsa ut obiecta comprehendit omnia obiecta: et
+<lb ed="#L" n="8"/>sic aequa est utrinque pluralitas secundum rationem.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e824">
+                  <lb ed="#L" n="9"/>Secundo, intellectum a Deo non potest esse nisi unum
+<lb ed="#L" n="10"/>numero, ut patet XII Metaphys. Ergo repugnat 
+multipli<lb break="no" ed="#L" n="11"/>care quod intelligitur a Deo. Falsum est ergo quod 
+plu<lb break="no" ed="#L" n="12"/>ralitas eius quod intelligitur, non praeiudicat.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e835">
+                  <lb ed="#L" n="13"/>Tertio, in Deo est sapientia et ars et scientia: ergo quo
+<lb ed="#L" n="14"/>intelligitur, multiplicatur in Deo. Probatur sequela :.quia
+<lb ed="#L" n="15"/>se habent ut quo Deus intelligit; ut etiam expresse littera
+<lb ed="#L" n="16"/>dicit in responsione ad secundum.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e847">
+                  <lb ed="#L" n="17"/>VI. Ad evidentiam horum scito, quantum ad ly quo
+<lb ed="#L" n="18"/>et quod, quod hic est sermo de quo et quod in actu 
+exer<lb break="no" ed="#L" n="19"/>cito; scilicet de illis rationibus formalibus, seu rebus, quae
+<lb ed="#L" n="20"/>exercent actum ipsius quo, vel actum ipsius quod. Ut, in
+<lb ed="#L" n="21"/>proposito, idea est quod intelligitur in actu exercito, 
+quo<lb break="no" ed="#L" n="22"/>niam significat id quod se habet ad intellectionem ut 
+obie<lb break="no" ed="#L" n="23"/>—ctum vel terminus: ars vero est quo in actu exercito, quia
+<lb ed="#L" n="24"/>importat id quod se habet ut principium formale 
+intelle<lb break="no" ed="#L" n="25"/>ctionis, Et sic de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e869">
+                  <lb ed="#L" n="26"/>Quantum vero ad multitudinem seu pluralitatem, scito
+<lb ed="#L" n="27"/>quod hic est sermo non de pluralitate reali; nec de 
+plu<lb break="no" ed="#L" n="28"/>ralitate rationis," formaliter loquendo ; ; sed p pluralitate
+<lb ed="#L" n="29"/>simpliciter quod aut quo. Ita quod intentio litterae est 
+po<lb break="no" ed="#L" n="30"/>nere differentiam in hoc, quod ratio formalis exercens actum
+<lb ed="#L" n="31"/>quod, potest multiplicari simpliciter, potestque absolute
+<lb ed="#L" n="32"/>dici multae: ratio vero exercens actum quo, non potest
+<lb ed="#L" n="33"/>sic multiplicari ut possit absolute dici multae.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e889">
+                  <lb ed="#L" n="34"/>VII. Ad primam ergo obiectionem in oppositum, patet
+<lb ed="#L" n="35"/>responsio. Dicimus enim quod, quia idea est quod 
+intel<lb break="no" ed="#L" n="36"/>ligitur, et ad pluralitatem cogniti sufficit omnis distinctio
+<lb ed="#L" n="37"/>rationis (nam aliud cognitum est punctum ut principium,
+<lb ed="#L" n="38"/>et aliud ut finis); ideo ad pluralitatem idearum sufficit 
+di<lb break="no" ed="#L" n="39"/>stinctio illa relativa, qua essentia ut sic imitabilis, est unum
+<lb ed="#L" n="40"/>cognitum, et ut sic imitabilis, est aliud. cognitum, etc. Ad
+<lb ed="#L" n="41"/>pluralitatem vero principii intelligendi non sufficit quaelibet
+<lb ed="#L" n="42"/>distinctio rationis: sed requiritur distinctio secundum 
+pro<lb break="no" ed="#L" n="43"/>priam et per se rationem principii intelligendi. Ideo non
+<lb ed="#L" n="44"/>est par ratio multitudinis ipsius.quo et ipsius quod. Cum
+<lb ed="#L" n="45"/>ergo dicitur, essentia divina ita plura continet obiecta sicut
+<lb ed="#L" n="46"/>ratio, conceditur. Sed negatur quod, sicut pluralitas illa
+<lb ed="#L" n="47"/>quae intelligitur in ipsa obiecta, sufficit ad pluralitatem 
+sim<lb break="no" ed="#L" n="48"/>pliciter ipsius quod, ita eadem pluralitas quae intelligitur
+<lb ed="#L" n="49"/>in eadem ut ratio seu species intelligendi, sufficiat ad 
+plu<lb break="no" ed="#L" n="50"/>ralitatem ipsius quo ; propter rationem iam dictam.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e928">
+                  <lb ed="#L" n="51"/>Ad secundam autem obiectionem dicitur dupliciter. 
+Pri<lb break="no" ed="#L" n="52"/>mo, quod intellectum a Deo non est nisi unum ut 
+distin<lb break="no" ed="#L" n="53"/>guitur contra multa disparata: et non ut simpliciter 
+distin<lb break="no" ed="#L" n="54"/>guitur contra multa. Ideae non sunt multa cognita 
+dispa<lb break="no" ed="#L" n="55"/>rata, nec inter se nec ab essentia divina: quoniam quaelibet
+<lb ed="#L" n="56"/>est ipsa essentia. Contra simplicitatem namque intellectus
+<lb ed="#L" n="57"/>est, si multa disparata cognita, ut sic, idest in esse cognito
+<lb ed="#L" n="58"/>(formaliter enim loquimur), haberet: ut in nobis 
+contin<lb break="no" ed="#L" n="59"/>git cum triangulum et bovem intelligimus. Habere autem
+<lb ed="#L" n="60"/>multa cognita non disparata, imo in uno numero 
+com<lb break="no" ed="#L" n="61"/>municantia, non praeiudicat simplicitati. - Secundo, quod
+<lb ed="#L" n="62"/>intellectum per se primo a Deo, oportet esse unum. Idea
+<lb ed="#L" n="63"/>autem est intellectum per se secundo, et ideo compatitur
+<lb ed="#L" n="64"/>multitudinem. Non enim dictum est in littera quod omne
+<lb ed="#L" n="65"/>quod potest multiplicari; sed quod multiplicare quod non
+<lb ed="#L" n="66"/>praeiudicat simplicitati. Sat autem hoc verificatur, si quod
+<lb ed="#L" n="67"/>per se secundo plurificari potest.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e967">
+                  <lb ed="#L" n="68"/>Ad tertiam autem dicitur, quod laborat in aequivoco.
+<lb ed="#L" n="69"/>Non enim intendit littera quod in Deo non possint poni
+<lb ed="#L" n="70"/>plura diversarum rationum quo: sed quod nullum eorum
+<lb ed="#L" n="71"/>potest multiplicari. Non enim sunt in Deo multae 
+sapien<lb break="no" ed="#L" n="72"/>tiae, neque multae artes, etc. Sed sunt in Deo multae ideae.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e980">
+                  <lb ed="#L" n="73"/>VII. Quoad tertium, ostenditur modus quo praedicta
+<lb ed="#L" n="74"/>pluralitas obiectiva est in intellectu divino. Deus perfecte
+<lb ed="#L" n="75"/>intelligit essentiam: ergo cognoscit eam omni modo quo
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>cognoscibilis est: ergo cognoscit eam non solum secundum
+<lb ed="#L" n="77"/>se, sed secundum quod est quocumque modo participabilis
+<lb ed="#L" n="78"/>a creatura: ergo cognoscit ut sic imitabilem a tali creatura:
+<lb ed="#L" n="79"/>ergo ut propriam rationem huius creaturae: ergo cognoscit
+<lb ed="#L" n="80"/>plures rerum rationes, quas vocamus ideas.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1003">
+                  <lb ed="#L" n="81"/>Antecedens patet, cum prima consequentia. Secunda
+<lb ed="#L" n="82"/>autem probatur: quia Deus utroque modo est 
+cognosci<lb break="no" ed="#L" n="83"/>bilis: Quarta autem probatur:. quia species creaturarum
+<lb ed="#L" n="84"/>sunt secundum modos participandi divinae essentiae 
+simili<lb break="no" ed="#L" n="85"/>tudinem. Quinta autem patet ex eo, quia par est de 
+crea<lb break="no" ed="#L" n="86"/>tura hac et aliis iudicium.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1019">
+                  <lb ed="#L" n="87"/>IX. In responsione ad primum, adverte diligenter quod
+<lb ed="#L" n="88"/>hic non est sermo de quacumque similitudine, sed exemplari
+<lb ed="#L" n="89"/>tantum. Imitabile autem exemplariter non est, nisi obiectum
+<lb ed="#L" n="90"/>intellectus. Et propterea, licet essentia divina absolute sit
+<lb ed="#L" n="91"/>prius imitabilis quam sit obiecta, non tamen est prius 
+imi<lb break="no" ed="#L" n="92"/>tabilis exemplariter , quam sit obiecta: quia de ratione
+<lb ed="#L" n="93"/>exemplaris, ut dictum fuit, est esse obiectivum. Unde, si
+<lb ed="#L" n="94"/>Deus non esset intellectuale agens, essentia sua esset 
+qui<lb break="no" ed="#L" n="95"/>dem imitabilis, sed non exemplariter: ac per hoc non 
+ha<lb break="no" ed="#L" n="96"/>beret rationem ideae. Et hoc insinuat littera, dicens quod
+<lb ed="#L" n="97"/>non nominat essentiam, sed rationem intellectam ex ea.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1045">
+                  <lb ed="#L" n="98"/>X. In responsione ad secundum et tertium, propter 
+cla<lb break="no" ed="#L" n="99"/>riorem intellectum, nota simul tria. Primo, quod idea 
+si<lb break="no" ed="#L" n="100"/>gnificat essentiam divinam imitabilem exemplariter. Et quia
+<lb ed="#L" n="101"/>imitabilitas potest sumi dupliciter, scilicet fundamentaliter,
+<lb ed="#L" n="102"/>idest pro absoluto, et formaliter, idest pro respectu, 
+tri<lb break="no" ed="#L" n="103"/>pliciter ideae significatio imaginari potest: primo, ut 
+signi<lb break="no" ed="#L" n="104"/>ficet absolutum tantum; secundo, respectivum tantum;
+<lb ed="#L" n="105"/>tertio, utrumque. Et quidem quod non tantum 
+funda<lb break="no" ed="#L" n="106"/>mentum imitabilitatis significet, ex eo probatur, quia, cum
+<lb ed="#L" n="107"/>illud sit omnino unum in omnibus ideis (quia est ipsa
+<lb ed="#L" n="108"/>simplicissima essentia divina, in qua non potest distingui
+<lb ed="#L" n="109"/>absolutum imitabile a lapide, ab absoluto imitabili a leone),
+<lb ed="#L" n="110"/>non posset sustineri pluralitas idearum in Deo: plures
+<lb ed="#L" n="111"/>enim ideas intelligere est impossibile, nisi significatum ideae
+<lb ed="#L" n="112"/>plurificatum intelligatur. Quod etiam non tantum 
+respe<lb break="no" ed="#L" n="113"/>ctum significet, ex eo patet, quod essentiam divinam 
+si<lb break="no" ed="#L" n="114"/>gnificare dicitur. Unde relinquitur quod utrumque 
+signi<lb break="no" ed="#L" n="115"/>ficet; non eo modo quo ly vestis significaret hominem
+<lb ed="#L" n="116"/>album, si utrique imponeretur (quoniam sic idea non 
+ha<lb break="no" ed="#L" n="117"/>beret unam rationem); sed eo modo quo nomina significant
+<lb ed="#L" n="118"/>absolutum relative, ut Salvator et Creatór, etc. Ac per
+<lb ed="#L" n="119"/>hoc, de ratione ideae in Deo sunt et essentia et relatio ;
+<lb ed="#L" n="120"/>non ut partes componentes unam communem rationem ,
+<lb ed="#L" n="121"/>sed ut res et modus, ut determinabile et determinatio, ut
+<lb ed="#L" n="122"/>commune et proprium.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1102">
+                  <lb ed="#L" n="123"/>Secundo nota, quod ideas, tam in artificibus quam in
+<lb ed="#L" n="124"/>Deo, contingit intelligi dupliciter: primo, ut aliorum sunt
+<lb ed="#L" n="125"/>ideae; secundo, ut in seipsis sunt. Exemplum utriusque
+<lb ed="#L" n="126"/>membri habetur in littera, in responsione ad secundum:
+<lb ed="#L" n="127"/>cum artifex faciendam domum contemplatur, ad ideam
+<lb ed="#L" n="128"/>domus intellectio terminatur ut idea est domus; cum 
+au<lb break="no" ed="#L" n="129"/>tem artifex in actu reflexo ipsam quam mente concipit,
+<lb ed="#L" n="130"/>ideam considerat, ad ipsam intellectio terminatur ut in se
+<lb ed="#L" n="131"/>est. Eodem quoque modo in Deo contingit. Ex hac autem
+<lb ed="#L" n="132"/>distinctione facile percipere potes ideas constitui, non per
+<lb ed="#L" n="133"/>intelligi ipsas ut in se, sed per intelligi ipsas ut ideas 
+alio<lb break="no" ed="#L" n="134"/>rum. Nec refert ad propositum an illud intelligi sit 
+actua<lb break="no" ed="#L" n="135"/>liter, aut habitualiter. Et propterea conceditur quod in Deo
+<lb ed="#L" n="136"/>sunt plures ideae, antequam sint ideae intellectae secundum
+<lb ed="#L" n="137"/>se. Et propter hoc in littera, in calce responsionis ad 
+se<lb break="no" ed="#L" n="138"/>cundum, de secundo modo quo intelliguntur, dicitur, et
+<lb ed="#L" n="139"/>hoc est plures ideas esse in intellectu eius ut intellectas.
+<lb ed="#L" n="140"/>Quia aliud est plures ideas esse in intellectu eius, et aliud
+<lb ed="#L" n="141"/>est plures ideas esse in intellectu eius ut intellectas: 
+pri<lb break="no" ed="#L" n="142"/>mum enim dicit eas esse obiective in intellectu ut 
+alio<lb break="no" ed="#L" n="143"/>rum rationes; secundum vero dicit eas esse obiective ut
+<lb ed="#L" n="144"/>secundum se intellectae. Ideo addidit u£ intellectas.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1152">
+                  <lb ed="#L" n="145"/>Tertio nota, quod respectus isti distinguentes ideas, cum
+<lb ed="#L" n="146"/>sint etiam constitutivi earum, non consequuntur actum 
+in<lb break="no" ed="#L" n="147"/>tellectus divini intelligentis ideas; sed fiunt per actum 
+in<lb break="no" ed="#L" n="148"/>tellectus divini intelligentis essentiam suam comparative.
+<lb ed="#L" n="149"/>Ita quod non est imaginandum quod prius intelligatur
+<lb ed="#L" n="150"/>essentia ut imitabilis, et deinde sequatur respectus idealis:
+<pb ed="#L" n="207"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sed quod ipsa intellectio essentiae ut imitabilis, est 
+consti<lb break="no" ed="#L" n="2"/>tutio respectus idealis. - Ex hoc autem habes, quod 
+respe<lb break="no" ed="#L" n="3"/>ctus idealis non ponuntur necessarii ad hoc ut Deus 
+di<lb break="no" ed="#L" n="4"/>stincte intelligat creaturas, ut quidam interpretari videntur:
+<lb ed="#L" n="5"/>constat enim quod perfectio intellectionis divinae non 
+men<lb break="no" ed="#L" n="6"/>dicat a respectibus rationis. Sed ponuntur necessarii, ut
+<lb ed="#L" n="7"/>necessario constituti ex perfectione intellectionis divinae.
+<lb ed="#L" n="8"/>Unde in corpore articuli Auctor dixit quod, quia Deus per-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>fectissime intelligit essentiam suam, ideo intelligit eam ut
+<lb ed="#L" n="10"/>tot modis imitabilem: hoc enim est constitui plures 
+respe<lb break="no" ed="#L" n="11"/>ctus ideales, intelligique plures ideas ut aliorum rationes
+<lb ed="#L" n="12"/>sunt, et intelligere creaturas distincte in essentia divina sibi
+<lb ed="#L" n="13"/>obiecta.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1202">
+                  <lb ed="#L" n="14"/>Et haec si bene contemplatus fueris, obiectiones aliorum
+<lb ed="#L" n="15"/>deridebis: quas non adduxi, quia non contra sensum 
+expo<lb break="no" ed="#L" n="16"/>situm doctrinae s. Thomae militant.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e123-Dd1e1212"><!-- caj-p1-q15-a3 -->
+               <head xml:id="TAcCaj-d1e123-Hd1e1215">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e123-d1e1217">
+                  <pb ed="#L" n="208"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1226">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>TITULUS clarus. - Ín corpore duo: primo, distinguit; 
+se<lb break="no" ed="#L" n="3"/>cundo, respondet quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1235">
+                  <lb ed="#L" n="4"/>II. Quoad primum, idea divina dupliciter sumitur: ut
+<lb ed="#L" n="5"/>exemplar, et ut ratio. — Manifestatur distinctio dupliciter.
+<lb ed="#L" n="6"/>Primo, ex differentia duorum officiorum attributorum ideis
+<lb ed="#L" n="7"/>a Platone, generare et cognitionem facere. Secundo, ex 
+dif<lb break="no" ed="#L" n="8"/>ferentia speculativi et practici.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1248">
+                  <lb ed="#L" n="9"/>III. Quoad secundum, respondet quaesito duabus 
+propo<lb break="no" ed="#L" n="10"/>sitionibus affirmativis, iuxta membra distinctionis 
+praemis<lb break="no" ed="#L" n="11"/>sae. Prima est: Idea, secundum quod exemplar, est omnium
+<lb ed="#L" n="12"/>quae a Deo secundum quodcumque tempus fiunt. - Secunda
+<lb ed="#L" n="13"/>est: Idea, ut ratio, est omnium factibilium et 
+cognoscibi<lb break="no" ed="#L" n="14"/>lium secundum proprias rationes, tam speculative quam
+<lb ed="#L" n="15"/>practice.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1267">
+                  <lb ed="#L" n="16"/>Hae propositiones non aliter in littera probantur: 
+quo<lb break="no" ed="#L" n="17"/>niam ex qu. xiv et praedictis patent. Illud tamen non
+<lb ed="#L" n="18"/>praetereas, quod idea ut ratio, sumitur pro ratione 
+obie<lb break="no" ed="#L" n="19"/>ctiva, ut in primo articulo ipsa littera exposuit. Dicitur
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="20"/>igitur idea ratio obiectiva rei. Hoc etiam modo idea 
+Pla<lb break="no" ed="#L" n="21"/>tonica ratio cognoscendi esset.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1285">
+                  <lb ed="#L" n="22"/>IV. In responsione ad tertium, adverte quod hic s. 
+Tho<lb break="no" ed="#L" n="23"/>mas retractat dicta in Qu. de Ver., qu. mr, art. 5, et in
+<lb ed="#L" n="24"/>I Sent., dist. xxxvr, articulo ultimo, de idea materiae 
+pri<lb break="no" ed="#L" n="25"/>mae. Nec oportet fingere glossas: quoniam medius 
+termi<lb break="no" ed="#L" n="26"/>nus hic assumptus, scilicet quia secundum se non est 
+co<lb break="no" ed="#L" n="27"/>gnoscibilis, expresse alibi dicta elidit, ut patet intuenti.
+</p>
+               <p xml:id="TAcCaj-d1e123-d1e1301">
+                  <lb ed="#L" n="28"/>Sed dubium hic restat, cuius compositi idea, materiae
+<lb ed="#L" n="29"/>primae sit idea. Si tamen littera perspicaciter videatur, 
+fa<lb break="no" ed="#L" n="30"/>cile patebit quod idea ut ratio, respondens materiae primae,
+<lb ed="#L" n="31"/>est idea corporis, quod est genus in praedicamento 
+Sub<lb break="no" ed="#L" n="32"/>stantiae: quoniam secundum illius formam definiretur, si
+<lb ed="#L" n="33"/>definiretur. Idea enim ut ratio, est omnis cognoscibilis per
+<lb ed="#L" n="34"/>propriam rationem, ut in littera dicitur. Idea autem eius
+<lb ed="#L" n="35"/>ut exemplar, non est alio modo quaerenda quam ideae 
+ge<lb break="no" ed="#L" n="36"/>nerum, de quibus in littera dicitur quod non habent aliam
+<lb ed="#L" n="37"/>ideam a specie, etc.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

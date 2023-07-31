@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 35</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 35</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="372"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e227"><!-- TAcCajp1-q35 -->
+            <head xml:id="TAcCaj-d1e227-Hd1e99">Quaestio 35</head>
+            <div xml:id="TAcCaj-d1e227-Dd1e101"><!-- caj-p1-q35-a1 -->
+               <head xml:id="TAcCaj-d1e227-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e227-d1e106">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="65"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e113">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="66"/>TITULUS ex supradictis clarus est. — In corpore duo facit:
+<lb ed="#L" n="67"/>primo, ponit tres conditiones requisitas ad imaginem ;
+<lb ed="#L" n="68"/>secundo, respondet quaesito
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e124">
+                  <lb ed="#L" n="69"/>II. Quoad primum, conditiones sunt: similitudo specifica,
+<lb ed="#L" n="70"/>seu secundum specificum signum, puta figuram, orta ex
+<lb ed="#L" n="71"/>illo cuius dicitur imago. Et prima quidem conditio, scilicet
+<lb ed="#L" n="72"/>similitudo, per se nota relinquitur. Secunda autem, quoad
+<lb ed="#L" n="73"/>figuram, declaratur in animalibus et picturis. Tertia autem
+<lb ed="#L" n="74"/>probatur auctoritate Augustini, afferendo instantiam de ovis.
+<lb ed="#L" n="75"/>- Et adverte diligenter quod haec tertia conditio intelligitur
+<lb ed="#L" n="76"/>per se: idest, quod origo terminetur ad ipsam inquantum
+<lb ed="#L" n="77"/>similitudo est, idest ad hoc quod sit similitudo, et non
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="78"/>per accidens res illa sit similis. Et hoc bene nota, 
+quo<lb break="no" ed="#L" n="79"/>niam super hoc fundatur processus sequentis articuli: nisi
+<lb ed="#L" n="80"/>enim sic intelligeretur, omnes imaginis conditiones 
+conve<lb break="no" ed="#L" n="81"/>nirent Spiritui Sancto.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e157">
+                  <lb ed="#L" n="82"/>III. Contra hanc tamen tertiam imaginis conditionem,
+<lb ed="#L" n="83"/>arguit Aureolus: quia sequeretur quod soli artifices 
+ima<lb break="no" ed="#L" n="84"/>ginum haberent imagines.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e167">
+                  <lb ed="#L" n="85"/>Sed haec obiectio ex rudi intellectu procedit. Quoniam,
+<lb ed="#L" n="86"/>etsi verum sit imaginem semper oriri a repraesentato, 
+me<lb break="no" ed="#L" n="87"/>morem tamen oportet esse quod hoc non contingit uno
+<lb ed="#L" n="88"/>tantum modo. Quoniam quandoque oritur a repraesentato
+<lb ed="#L" n="89"/>secundum esse naturale principiante, sicut filius oritur a
+<pb ed="#L" n="373"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>patre: quandoque secundum esse intellectum seu 
+cogita<lb break="no" ed="#L" n="2"/>tum, ut statua Caesaris oritur a Caesare cogitato in mente
+<lb ed="#L" n="3"/>artificis. Unde patet consequentiam nihil valere.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e191">
+                  <lb ed="#L" n="4"/>IV. Quoad secundum, conclusio responsiva quaesito af-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>firmative est: Imago in divinis est nomen personale. — 
+Pro<lb break="no" ed="#L" n="6"/>batur. Nomina importantia originem in divinis, sunt 
+perso<lb break="no" ed="#L" n="7"/>nalia: ergo imago est nomen personale. — Antecedens patet.
+<lb ed="#L" n="8"/>Consequentia vero tenet ex ratione imaginis assignata.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e227-Dd1e208"><!-- caj-p1-q35-a2 -->
+               <head xml:id="TAcCaj-d1e227-Hd1e211">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e227-d1e213">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="89"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e220">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="90"/>TITULUS clarus est. - In corpore tria facit: primo, dicit
+<lb ed="#L" n="91"/>Tou usus de hoc quaesito habeat; secundo, tractat
+<lb ed="#L" n="92"/>duas opiniones; tertio, determinat,
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e231">
+                  <lb ed="#L" n="93"/>II. Quoad primum, tria dicit: primo, usum Graecorum;
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="94"/>secundo, Latinorum; tertio, sacrae Scripturae; quae omnia
+<lb ed="#L" n="95"/>clare patent in littera.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e242">
+                  <lb ed="#L" n="96"/>III. Quoad secundum, quia usus Latinorum auctoritate
+<lb ed="#L" n="97"/>Scripturae sacrae confirmatus est, circa eius rationem di-
+<pb ed="#L" n="374"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>versae afferuntur opiniones: quare scilicet solus Filius Imago
+<lb ed="#L" n="2"/>dicitur. Et prima quidem opinio, propter convenientiam in
+<lb ed="#L" n="3"/>notione cum Patre, excluditur: quia secundum notionalia
+<lb ed="#L" n="4"/>non attenditur aequalitas; ergo nec similitudo; ergo nec
+<lb ed="#L" n="5"/>imago. - Secunda autem, discurrens per singula, nec 
+inve<lb break="no" ed="#L" n="6"/>niens cuius possit dici Spiritus Sanctus imago, excluditur:
+<lb ed="#L" n="7"/>quia posset dici Patris et Filii inquantum sunt unum. Et
+<lb ed="#L" n="8"/>confirmatur: quia homo est una imago totius Trinitatis.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e272">
+                  <lb ed="#L" n="9"/>IV. Quoad tertium, redditur praedicti usus Latinorum
+<lb ed="#L" n="10"/>et Scripturae ratio. Et quia, ut dicitur in II Posteriorum,
+<lb ed="#L" n="11"/>idem est scire causam conclusionis et ipsam, simul 
+respon<lb break="no" ed="#L" n="12"/>detur quaesito affirmativa conclusione, scilicet: Imago est
+<lb ed="#L" n="13"/>nomen proprium Filii Et eius probatio nihil aliud est
+<lb ed="#L" n="14"/>quam ratio quare Spiritus Sanctus non dicatur imago, 
+Fi<lb break="no" ed="#L" n="15"/>lius autem sic.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e290">
+                  <lb ed="#L" n="16"/>Et consistit ratio in hoc. Filius procedit ut Verbum, de
+<lb ed="#L" n="17"/>cuius ratione est similitudo specifica ad id a quo procedit:
+<lb ed="#L" n="18"/>Spiritus vero Sanctus procedit ut amor, de cuius ratione
+<lb ed="#L" n="19"/>non est talis similitudo: ergo Filius solus est imago. -
+<lb ed="#L" n="20"/>Antecedens ex qu. xxvi, quoad utramque partem, patet.
+<lb ed="#L" n="21"/>Consequentia autem tenet ex ratione imaginis.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e306">
+                  <lb ed="#L" n="22"/>Et manifestatur ac confirmatur vis rationis huius, 
+assi<lb break="no" ed="#L" n="23"/>gnantis pro causa modum procedendi, ex simili differentia,
+<lb ed="#L" n="24"/>propter similem causam ibi inventam, inter Filium et 
+Spi<lb break="no" ed="#L" n="25"/>ritum Sanctum, in hoc quod est esse natum. Quamvis enim
+<lb ed="#L" n="26"/>uterque sua processione Patris accipiat naturam, solus 
+ta<lb break="no" ed="#L" n="27"/>men Filius dicitur natus, propter modum procedendi 
+diffe<lb break="no" ed="#L" n="28"/>rentem utriusque, ut supra manifestatum est: quia scilicet
+<lb ed="#L" n="29"/>procedit ut similis, etc. — Et ne aliquis sollicitus restaret,
+<lb ed="#L" n="30"/>unde habet Spiritus Sanctus quod sit similis Patri et Filio,
+<lb ed="#L" n="31"/>aut crederet hoc ex modo procedendi habere; subiunxit
+<lb ed="#L" n="32"/>quod similitudo convenit Spiritui Sancto, non inquantum
+<lb ed="#L" n="33"/>amor, sed inquantum amor divinus. :
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e335">
+                  <lb ed="#L" n="34"/>V. Circa haec dubium occurrit ex Aureolo, apud 
+Ca<lb break="no" ed="#L" n="35"/>preolum, in xxvrr distinctione Primi, qu. 1t, concl. 6. Et est
+<lb ed="#L" n="36"/>dubium ex praesenti littera ortum habens, eandemque 
+in<lb break="no" ed="#L" n="37"/>fringens sic. Spiritus Sanctus procedit ut amor divinus: ergo
+<lb ed="#L" n="38"/>ut similis: ergo ratio adducta nihil valet. - Prima 
+conse<lb break="no" ed="#L" n="39"/>quentia tenet ex littera, dicente quod Spiritus Sanctus, 
+in<lb break="no" ed="#L" n="40"/>quantum amor divinus, habet quod sit similis. Secunda
+<lb ed="#L" n="41"/>autem, et antecedens per se patent.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e355">
+                  <lb ed="#L" n="42"/>VI. Ad evidentiam huius difficultatis, distinguendi sunt
+<lb ed="#L" n="43"/>termini in antecedente positi, scilicet ly amor divinus, et ly
+<lb ed="#L" n="44"/>procedit ut. Quoad primum, scito quod forma communis
+<lb ed="#L" n="45"/>potest dupliciter contrahi, et a contrahente denominari:
+<lb ed="#L" n="46"/>primo, per aliquam differentiarn per se illius; secundo, per
+<lb ed="#L" n="47"/>aliquid extra latitudinem formalem illius. Exemplum primi,
+<lb ed="#L" n="48"/>color albus; exemplum secundi, color naturalis: albedinis
+<lb ed="#L" n="49"/>enim differentia est coloris per se diversificativa; natura
+<lb ed="#L" n="50"/>vero, sicut et ars, extra genus coloris est. Amor igitur 
+du<lb break="no" ed="#L" n="51"/>pliciter contrahi potest: primo, per amoris proprias 
+diffe<lb break="no" ed="#L" n="52"/>rentias, puta amicitiae vel concupiscentiae; secundo, per
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="53"/>naturas amantes, puta angelicam vel humanam. Et si 
+qui<lb break="no" ed="#L" n="54"/>dem amor contrahatur per omnes suae latitudinis per se
+<lb ed="#L" n="55"/>differentias, nunquam invenies aliquam, ex qua habebit 
+ra<lb break="no" ed="#L" n="56"/>tionem similis ei a quo procedit. Tum quia omnes per se
+<lb ed="#L" n="57"/>differentiae infra appetitus ambitum continentur, in quo
+<lb ed="#L" n="58"/>nihil habet rationem similis. Tum quia, ut infra patebit,
+<lb ed="#L" n="59"/>impulsio quaedam est; ac per hoc, omnes per se eius 
+dif<lb break="no" ed="#L" n="60"/>ferentias oportet esse impulsionis per se diversificativas ;
+<lb ed="#L" n="61"/>quod a similis ratione, quamvis non causaliter, formaliter
+<lb ed="#L" n="62"/>tamen remotum est. — Si vero per aliquid extraneum 
+con<lb break="no" ed="#L" n="63"/>trahatur, nihil prohibet similis quandoque rationem habere:
+<lb ed="#L" n="64"/>sed hoc est per accidens, naturaliter et identice, ut de se
+<lb ed="#L" n="65"/>patet.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e412">
+                  <lb ed="#L" n="66"/>Quando ergo dicitur amor divinus, si ly divinus non
+<lb ed="#L" n="67"/>trahat amorem extra latitudinem differentiarum per se 
+amo<lb break="no" ed="#L" n="68"/>ris; sed, infra voluntatis, inquantum voluntas est, 
+latitu<lb break="no" ed="#L" n="69"/>dinem stando, denotet cuius sit ut obiecti et amantis, 
+sci<lb break="no" ed="#L" n="70"/>licet Dei: negandum est quod; inquantum huiusmodi, sit
+<lb ed="#L" n="71"/>similis. Nec in hoc sensu intelligenda est propositio in
+<lb ed="#L" n="72"/>calce litterae subiuncta. Ratio autem patet ex dictis, — Si
+<lb ed="#L" n="73"/>autem ly divinus sit denominatio sumpta quasi ab 
+extra<lb break="no" ed="#L" n="74"/>neo, puta a natura cui identificatur, tunc concedendum est,
+<lb ed="#L" n="75"/>ratione identitatis inter amorem et naturam, quod amor
+<lb ed="#L" n="76"/>divinus, ut sic, est similis ei a quo procedit. Et in hoc
+<lb ed="#L" n="77"/>sensu intelligas litteram praesentem,
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e442">
+                  <lb ed="#L" n="78"/>VII. Quoad alium terminum, adverte quod, cum 
+di<lb break="no" ed="#L" n="79"/>citur, Spiritus Sanctus procedit ut amor divinus, et in aliis
+<lb ed="#L" n="80"/>similibus locutionibus, duplex sensus fieri potest. Primo
+<lb ed="#L" n="81"/>proprie, ut denotentur tantum formalia et propria illius
+<lb ed="#L" n="82"/>modi procedendi: secundo extensive, ut denotentur etiam
+<lb ed="#L" n="83"/>communia, et concomitantia modum procedendi sive 
+ter<lb break="no" ed="#L" n="84"/>minum, Verbi gratia, in proposito, cum dicitur, Spiritus .
+<lb ed="#L" n="85"/>Sanctus procedit ut amor divinus, si ly ut sumatur proprie,
+<lb ed="#L" n="86"/>propositio non est vera accipiendo amorem divinum 
+iden<lb break="no" ed="#L" n="87"/>tice: quoniam ex propriis processionis amoris etiam divini,
+<lb ed="#L" n="88"/>infra latitudinem voluntatis solius stando, Spiritus Sanctus
+<lb ed="#L" n="89"/>non habet quod sit Deus, sed quod sit amor Dei ut amantis
+<lb ed="#L" n="90"/>et amati. Sed est vera pro amore divino. formaliter. Sed
+<lb ed="#L" n="91"/>tunc, concesso antecedente, nihil valet prima consequentia,
+<lb ed="#L" n="92"/>ut patet ex dictis. Nec oppositum habetur in littera, 
+lo<lb break="no" ed="#L" n="93"/>quente de amore divino identice. - Si vero ly ut denotet
+<lb ed="#L" n="94"/>etiam communia, tunc est vera de amore divino et 
+forma<lb break="no" ed="#L" n="95"/>liter et identice: et sic habet rationem similis.
+</p>
+               <p xml:id="TAcCaj-d1e227-d1e484">
+                  <lb ed="#L" n="96"/>Sed quoniam proprie et formaliter de modis procedendi
+<lb ed="#L" n="97"/>a theologis sermo habetur, idcirco illud antecedens de
+<lb ed="#L" n="98"/>amore divino primo modo intelligendum est et 
+admitten<lb break="no" ed="#L" n="99"/>dum: sed neganda est prima consequentia, scilicet, ergo
+<lb ed="#L" n="100"/>procedit ut similis. Et ad probationem dicendum est, quod
+<lb ed="#L" n="101"/>laborat in aequivoco, ut patet ex dictis: quoniam ly 
+di<lb break="no" ed="#L" n="102"/>vinus aequivocum est, cum sumitur obiective et effective,
+<lb ed="#L" n="103"/>ut in antecedente sumitur; et cum sumitur identice, ut in
+<lb ed="#L" n="104"/>probatione consequentiae fit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

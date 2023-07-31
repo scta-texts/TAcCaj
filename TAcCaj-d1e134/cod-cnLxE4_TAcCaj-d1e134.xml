@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="223"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e134"><!-- TAcCajp1-q17 -->
+            <head xml:id="TAcCaj-d1e134-Hd1e99">Quaestio 17</head>
+            <div xml:id="TAcCaj-d1e134-Dd1e101"><!-- caj-p1-q17-a1 -->
+               <head xml:id="TAcCaj-d1e134-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e134-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>TITULUS clarus. - In corpore tria: primo, declaratur quid
+<lb ed="#L" n="37"/>d austost falsitas simpliciter et secundum quid rerum;
+<lb ed="#L" n="38"/>deinde ponuntur duae conclusiones responsivae quaesito.
+<lb ed="#L" n="39"/>Prima est: Falsitas simpliciter non est in rebus dependentü-
+<lb ed="#L" n="40"/>bus a Deo, nisi forte in voluntariis. Secunda est: Falsitas
+<lb ed="#L" n="41"/>secundum quid est in rebus dupliciter.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e131">
+                  <lb ed="#L" n="42"/>II. Quoad primum, intendit quod falsitas simpliciter rei
+<lb ed="#L" n="43"/>'consistit in difformitate rei ad intellectum a quo dependet:
+<lb ed="#L" n="44"/>falsitas autem secundum quid, in difformitate rei ad 
+intel<lb break="no" ed="#L" n="45"/>lectum a quo non dependet. Utrumque autem horum simul
+<lb ed="#L" n="46"/>probatur sic. Verum et falsum opponuntur: ergo ubi primo
+<lb ed="#L" n="47"/>ést veritas, ibi primo falsitas: ergo falsitas est in intellectu,
+<lb ed="#L" n="48"/>et non in rebus nisi in ordine ad intellectum: ergo falsitas
+<lb ed="#L" n="49"/>simpliciter rerum consistit in difformitate ad intellectum
+<lb ed="#L" n="50"/>quem per se respicit: ergo ad intellectum a quo dependet:
+<lb ed="#L" n="51"/>'ergo falsitas secundum quid rei consistit in difformitate
+<lb ed="#L" n="52"/>ad intellectum per accidens: ergo, a quo non dependet.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e157">
+                  <lb ed="#L" n="53"/>— Prima consequentia probatur: quia opposita sunt circa
+<lb ed="#L" n="54"/>idem. Secunda quoque: quia veritas est in intellectu, et
+<lb ed="#L" n="55"/>non in rebus nisi in ordine ad intellectum. Tertia autem:
+<lb ed="#L" n="56"/>quia unumquodque nominatur simpliciter ab eo quod 
+con<lb break="no" ed="#L" n="57"/>venit per se. Quarta vero: quia intellectus a quo dependet
+<lb ed="#L" n="58"/>res, per se respicitur. Quinta autem, cum sexta, probatur
+<lb ed="#L" n="59"/>ex oppositis tertiae et quartae: quia scilicet ab intellectu
+<lb ed="#L" n="60"/>per accidens denominatur res secundum quid; et quia 
+in<lb break="no" ed="#L" n="61"/>tellectus a quo res non pendet, est per accidens.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e180">
+                  <lb ed="#L" n="62"/>III. Quoad secundum, prima conclusio responsiva,
+<lb ed="#L" n="63"/>scilicet, falsitas simpliciter non est in rebus dependentibus
+<lb ed="#L" n="64"/>4 Deo, nisi forte in. voluntariis, probatur. Res naturales
+<lb ed="#L" n="65"/>dependent ab intellectu divino, sicut artificiales ab intellectu
+<lb ed="#L" n="66"/>humano: ergo falsitas simpliciter naturalium consisteret in
+<lb ed="#L" n="67"/>difformitate ad intellectum divinum: ergo in rebus 
+depen<lb break="no" ed="#L" n="68"/>dentibus a Deo, non est falsitas simpliciter, nisi forte in
+<lb ed="#L" n="69"/>voluntariis.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e200">
+                  <lb ed="#L" n="70"/>Antecedens supponitur. Consequentia probatur; quia res
+<lb ed="#L" n="71"/>artificiales dicuntur falsae simpliciter, inquantum deficiunt
+<lb ed="#L" n="72"/>a forma artis. Et manifestatur hoc ex usu loquendi: dicitur
+<lb ed="#L" n="73"/>enim aliquis falsam grammaticam fecisse, quia defecit ab
+<lb ed="#L" n="74"/>arte grammaticae, Et sumitur hic deficere non negative,
+<lb ed="#L" n="75"/>sed contrarie, quod idem est quod esse difforme: defectus
+<lb ed="#L" n="76"/>enim negative constituit opus imperfectum, sed. contrarie
+<lb ed="#L" n="77"/>constituit falsum. Et ideo, ut clarior esset sensus, usus sum
+<lb ed="#L" n="78"/>in consequentiis difformitatis nomine. — Secunda vero 
+con<lb break="no" ed="#L" n="79"/>sequentia probatur. Quidquid in rebus accidit, exceptis his
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>in quorum potestate est subducere se ab ordine divini 
+in<lb break="no" ed="#L" n="81"/>tellectus , ex ordinatione intellectus divini procedit: ergo
+<lb ed="#L" n="82"/>in rebus dependentibus a Deo, etc. Et confirmatur exceptio
+<lb ed="#L" n="83"/>auctoritate Scripturae directe; et ex opposito auctoritate
+<lb ed="#L" n="84"/>quoque Scripturae confirmato, scilicet veritate vitae dicta
+<lb ed="#L" n="85"/>de actu virtuoso.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e239">
+                  <lb ed="#L" n="86"/>IV. Adverte hic tria. Primum est, quod littera res 
+na<lb break="no" ed="#L" n="87"/>turales proponit dependere ab intellectu divino ut 
+artifi<lb break="no" ed="#L" n="88"/>ciales ab humano, et tamen non infert, ergo in 
+natura<lb break="no" ed="#L" n="89"/>libus; sed universalissime, ergo ih rebus dependentibus a
+<lb ed="#L" n="90"/>Deo, etc. Fecit autem hoc, quia idem iudicium est de
+<lb ed="#L" n="91"/>omnibus et de naturalibus: omnia enim, quatenus ab ipso
+<lb ed="#L" n="92"/>pendent, statutum in eo habent quid eis conveniat, cui
+<lb ed="#L" n="93"/>conformia oportet esse, exceptis voluntariis.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e259">
+                  <lb ed="#L" n="94"/>Secundum est, quod omnia alia a Deo, possunt 
+com<lb break="no" ed="#L" n="95"/>parari ad intellectum divinum dupliciter: uno modo, ut
+<lb ed="#L" n="96"/>cognita ad cognoscentem; alio modo, ut mensurata ad
+<lb ed="#L" n="97"/>mensuram, seu regulata ad regulam. Si primo modo 
+com<lb break="no" ed="#L" n="98"/>parentur, nulla est differentia inter alia et voluntaria,-quoad
+<lb ed="#L" n="99"/>subductionem ab ordine, respectu intellectus divini: 
+quo<lb break="no" ed="#L" n="100"/>niam omnia aeque nuda et aperta sunt coram eo. Sed si
+<lb ed="#L" n="101"/>comparentur secundo modo, sic est differentia posita in
+<lb ed="#L" n="102"/>littera, Quoniam in rebus aliis nihil accidit nisi ex aliquo
+<lb ed="#L" n="103"/>ordine regulato a divino intellectu, licet ille ordo non 
+con<lb break="no" ed="#L" n="104"/>gruat huic, ut patet in monstris. In voluntariis autem
+<lb ed="#L" n="105"/>accidit deformitas moralis, non ex ordine aliquo a Deo
+<lb ed="#L" n="106"/>statuto (nullum enim rerum ordinem statuit, ex quo culpa
+<lb ed="#L" n="107"/>fieret; nullaque regula in Deo est, cui culpa conformis sit);
+<lb ed="#L" n="108"/>sed ex potentia peccandi liberi arbitrii, quae ut sic, nec
+<lb ed="#L" n="109"/>per se nec per accidens est a Deo, ut alibi patet.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e296">
+                  <lb ed="#L" n="110"/>Tertium est, quod in littera dicitur misi forte in 
+vo<lb break="no" ed="#L" n="111"/>luntariis, non quia dubium est, sed quia non est necesse
+<lb ed="#L" n="112"/>in voluntariis inveniri huiusmodi falsitatem; vel quia adhuc
+<lb ed="#L" n="113"/>de voluntariis non est determinatum.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e307">
+                  <lb ed="#L" n="114"/>V. Secunda vero conclusio, scilicet, falsitas secundum
+<lb ed="#L" n="115"/>quid est in rebus dupliciter, declaratur. Res naturales, 
+re<lb break="no" ed="#L" n="116"/>latae ad intellectum nostrum, sunt et significatae, et causae;
+<lb ed="#L" n="117"/>et significantur quandoque secundum id quod non inest;
+<lb ed="#L" n="118"/>et natae sunt quaedam facere de se falsam opinionem:
+<lb ed="#L" n="119"/>ergo utroque modo in eis potest dici falsitas secundum
+<lb ed="#L" n="120"/>quid. - Antecedens patet, quoad omnes partes, inductive.
+<lb ed="#L" n="121"/>Consequentia autem probatur ex ratione falsi. Et 
+confir<lb break="no" ed="#L" n="122"/>matur utrumque membrum auctoritatibus Augustini et 
+Ari<lb break="no" ed="#L" n="123"/>stotelis, ut patet in littera. Omnia. clara sunt.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e134-Dd1e332"><!-- caj-p1-q17-a2 -->
+               <head xml:id="TAcCaj-d1e134-Hd1e335">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e134-d1e337">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="77"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e344">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>TITULUS ex principio corporis est clarus. - In corpore
+<lb ed="#L" n="79"/>duo: primo, declarat tituli sensum; secundo, respondet
+<lb ed="#L" n="80"/>quaesito, ibi: Sic autem.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e355">
+                  <lb ed="#L" n="81"/>II. Quoad primum, dicit quod sensus quaestionis est,
+<lb ed="#L" n="82"/>utrum sensus sit falsus, idest habens falsam 
+apprehensio<lb break="no" ed="#L" n="83"/>nem, idest, apprehendat rem aliter quam est: et non, utrum
+<lb ed="#L" n="84"/>sit falsus, idest, cognoscat vel dicat falsum. Probatque hoc
+<lb ed="#L" n="85"/>ex veritate sensus: quia eodem modo in eo invenitur 
+ve<lb break="no" ed="#L" n="86"/>ritas, scilicet, ut consistit in apprehensione rei sicut est.
+<lb ed="#L" n="87"/>Et sic etiam patet quid significat falsitas sensus, scilicet,
+<lb ed="#L" n="88"/>apprehendere rem aliter quam est.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e375">
+                  <lb ed="#L" n="89"/>III. Quoad secundum, conclusio responsiva quaesito
+<lb ed="#L" n="90"/>est: Sensus, respectu proprii obiecti, non est falsus nisi per
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="91"/>accidens; sed respectu sensibilis communis et per accidens,
+<lb ed="#L" n="92"/>est falsus. - Probatur. Sensus sic cognoscit res ut 
+assimi<lb break="no" ed="#L" n="93"/>latur eis: ergo quaedam per se primo, quaedam per se
+<lb ed="#L" n="94"/>non primo, et quaedam per accidens cognoscit: ergo 
+re<lb break="no" ed="#L" n="95"/>spectu sensibilis proprii nonnisi per accidens fallitur, 
+re<lb break="no" ed="#L" n="96"/>spectu vero aliorum falli potest.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e398">
+                  <lb ed="#L" n="97"/>Antecedens patet. Consequentia autem prima probatur:
+<lb ed="#L" n="98"/>quia tripliciter similitudo in sensu invenitur, scilicet, per se
+<lb ed="#L" n="99"/>primo, etc. Secunda autem consequentia in littera non 
+pro<lb break="no" ed="#L" n="100"/>batur, nisi ex hoc quod ad per se primo sensibile directe
+<lb ed="#L" n="101"/>sensus refertur, ad alia vero ex consequenti vel per 
+acci<lb break="no" ed="#L" n="102"/>dens: in articulo tamen sequenti ratio assignabitur. Quoad
+<lb ed="#L" n="103"/>exceptionem tamen, idest nisi per accidens, manifestatur et
+<pb ed="#L" n="224"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>de quali accidente intelligatur, quia de indispositione 
+or<lb break="no" ed="#L" n="2"/>gani; et probatur: quia hoc est commune omnibus 
+pas<lb break="no" ed="#L" n="3"/>sivis, scilicet, indispositionem eius impedire receptionem
+<lb ed="#L" n="4"/>formae. Et confirmatur experientia in sensu gustus.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e429">
+                  <lb ed="#L" n="5"/>IV. In responsione ad primum, nota distinctionem 
+sen<lb break="no" ed="#L" n="6"/>sus ex Qu. de Ver., qu. 1, art. 1. Sensus dupliciter: uno
+<lb ed="#L" n="7"/>modo, ut cognoscit res; secundo, ut offert superiori 
+poten<lb break="no" ed="#L" n="8"/>tiae, Et hoc dupliciter: scilicet, ut res quaedam; et ut 
+in<lb break="no" ed="#L" n="9"/>dicativus rerum. Primo modo sensus tractatus est hic; et
+<lb ed="#L" n="10"/>dictum est quod est verus respectu proprii sensibilis, etc.
+<lb ed="#L" n="11"/>Secundo autem modo, scilicet ut res offerens se in actu
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>secundo superiori, est semper simpliciter verus, sicut et
+<lb ed="#L" n="13"/>ceterae res, iuxta determinationem in articulo praecedenti.
+<lb ed="#L" n="14"/>Et hoc modo accepit sensum Augustinus in auctoritate 
+in<lb break="no" ed="#L" n="15"/>ducta. Tertio autem modo, scilicet ut nuntius rerum, est
+<lb ed="#L" n="16"/>falsus quandoque causaliter: quia natus est pluries facere
+<lb ed="#L" n="17"/>falsam aestimationem de re. Semper ergo sensus facit 
+ve<lb break="no" ed="#L" n="18"/>ram aestimationem de dispositione propria, sed non de
+<lb ed="#L" n="19"/>dispositione rerum sensatarum. Et hoc intendit responsio
+<lb ed="#L" n="20"/>litterae. huius, distinguens iudicium ex sensibus duplex,
+<lb ed="#L" n="21"/>scilicet de ipso sensu in actu, et de re sensata. Et quoad
+<lb ed="#L" n="22"/>primum non fallimur per sensum, sed quoad secundum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e134-Dd1e474"><!-- caj-p1-q17-a3 -->
+               <head xml:id="TAcCaj-d1e134-Hd1e477">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e134-d1e479">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e486">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>TITULUS Clarus. - In corpore tria: primo, in quo 
+intel<lb break="no" ed="#L" n="9"/>doin est aut non est falsitas; secundo, ibi: Zac tamen
+<lb ed="#L" n="10"/>differentia, quomodo in illo intellectu in quo est, invenitur
+<lb ed="#L" n="11"/>falsitas; tertio, ibi: Quia vero falsitas, quomodo et quando
+<lb ed="#L" n="12"/>ex illo derivatur falsitas in intellectu in quo non est.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e502">
+                  <lb ed="#L" n="13"/>II. Quoad primum, est haec conclusio: Falsitas non
+<lb ed="#L" n="14"/>est in intellectu quod quid est, sed componente et 
+divi<lb break="no" ed="#L" n="15"/>dente. Haec conclusio probatur ratione: et manifestatur
+<lb ed="#L" n="16"/>simul in se et in sua probatione, ex proportionali 
+simi<lb break="no" ed="#L" n="17"/>litudine intellectus et sensus. - Ratio igitur est haec. Res
+<lb ed="#L" n="18"/>naturalis non deficit ab esse quod sibi convenit secundum
+<lb ed="#L" n="19"/>suam formam, sed deficere potest ab accidentibus vel 
+con<lb break="no" ed="#L" n="20"/>sequentibus: ergo virtus cognoscitiva non deficit a 
+cogni<lb break="no" ed="#L" n="21"/>tione illius cuius similitudine informatur, sed accidentium
+<lb ed="#L" n="22"/>eius vel consequentium: ergo intellectus circa quod quid
+<lb ed="#L" n="23"/>est non decipitur, sed in componendo vel dividendo. -
+<lb ed="#L" n="24"/>Antecedens probatur inductive in homine. Consequentia
+<lb ed="#L" n="25"/>vero probatur. Sicut res se habet ad esse per formam, ita
+<lb ed="#L" n="26"/>virtus cognoscitiva ad cognoscere per similitudinem rei 
+co<lb break="no" ed="#L" n="27"/>gnitae: ergo, si res non potest deficere, etc. Secunda vero
+<lb ed="#L" n="28"/>consequentia, quoad primam partem, probatur: quia 
+intel<lb break="no" ed="#L" n="29"/>lectus informatur similitudine quidditatis. Quoad secundam
+<lb ed="#L" n="30"/>vero: quia, componendo, attribuitur quidditati aliquid vel
+<lb ed="#L" n="31"/>non consequens, vel oppositum.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e546">
+                  <lb ed="#L" n="32"/>Similitudo autem proportionalis est: Sicut sensus visus
+<lb ed="#L" n="33"/>se habet ad sensibile proprium, ita intellectus ad quod
+<lb ed="#L" n="34"/>quid est: et sicut ille informatur directe similitudine proprii
+<lb ed="#L" n="35"/>sensibilis, ita hic similitudine quidditatis. Et propterea in
+<lb ed="#L" n="36"/>neutro, ut sic, est falsitas. Sicut quoque ille se habet ad
+<lb ed="#L" n="37"/>sensibilia communia et per accidens, ita hic ad iudicandum
+<lb ed="#L" n="38"/>de consequentibus vel accidentibus quidditati: quod fit
+<lb ed="#L" n="39"/>componendo vel dividendo. Et propterea in utroque potest
+<lb ed="#L" n="40"/>esse falsitas.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e569">
+                  <lb ed="#L" n="41"/>III. Circa antecedens, adverte quod potest bene et male
+<lb ed="#L" n="42"/>interpretari. Male quidem, si intelligatur quod esse rei
+<lb ed="#L" n="43"/>naturalis non. potest deficere: hoc enim non est verum
+<lb ed="#L" n="44"/>nisi in rebus incorruptibilibus. Bene autem, si intelligatur
+<lb ed="#L" n="45"/>quod esse rei naturalis non potest deficere, ipsa re naturali
+<lb ed="#L" n="46"/>salva: et sic intendit littera. Unde non dicit quod nulla
+<lb ed="#L" n="47"/>res naturalis potest deficere; sed dicit quod non potest
+<lb ed="#L" n="48"/>deficere ab esse quod sibi competit secundum suam: 
+for<lb break="no" ed="#L" n="49"/>mam; tanquam si diceret quod nulla res habens aliquam
+<lb ed="#L" n="50"/>formam, dum habet illam, potest deficere ab esse quod
+<lb ed="#L" n="51"/>convenit secundum illam. Et est propositio per se nota:
+<lb ed="#L" n="52"/>quia esse est de ratione formae, ut patet VII Metaphys.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e598">
+                  <lb ed="#L" n="53"/>IV. Circa probationem consequentiae, illam scilicet 
+pro<lb break="no" ed="#L" n="54"/>portionalem, sicut res habet esse per propriam formam,
+<lb ed="#L" n="55"/>ita virtus cognoscitiva cognoscere per similitudinem rei
+<lb ed="#L" n="56"/>cognitae, adverte quod cognoscere est ipsum esse speciei
+<lb ed="#L" n="57"/>cognoscibilis, quando est vere actu in genere cognoscibili ;
+<lb ed="#L" n="58"/>sicut diximus, quod intelligere est ipsum esse speciei 
+in<lb break="no" ed="#L" n="59"/>telligibilis actu in genere intelligibili et non medio modo
+<lb ed="#L" n="60"/>existentis. Ita quod hoc est commune omni cognoscitivae
+<lb ed="#L" n="61"/>virtuti, sive sensitivi sive intellectivi ordinis, scilicet, quod
+<lb ed="#L" n="62"/>cognoscere est esse speciei qua cognoscit, sumendo illam
+<lb ed="#L" n="63"/>speciem, quidquid illa sit, in actu in genere cognoscibDili ;
+<lb ed="#L" n="64"/>quidquid sit de esse eius in actu in genere entium. Et hoc
+<lb ed="#L" n="65"/>est valde notandum pro notitia partis sensitivae et 
+intel<lb break="no" ed="#L" n="66"/>lectus.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e631">
+                  <lb ed="#L" n="67"/>V. Quoad secundum, est haec conclusio: Falsitas est
+<lb ed="#L" n="68"/>in intellectu componente dupliciter, scilicet formaliter et
+<lb ed="#L" n="69"/>obiective, - Probatur, et manifestatur. Probatur quidem:
+<lb ed="#L" n="70"/>quia veritas est in eodem intellectu eisdem modis. 
+Mani<lb break="no" ed="#L" n="71"/>festatur vero ex differentia ad sensum, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e644">
+                  <lb ed="#L" n="72"/>VI. Quoad tertium, ponitur conclusio una, cum suo
+<lb ed="#L" n="73"/>corollario. Conclusio est: Falsitas est in intellectu quod
+<lb ed="#L" n="74"/>quid est, per accidens. - Probatur, et manifestatur, Probatur
+<lb ed="#L" n="75"/>quidem sic. Falsitas per se est in compositione intellectuum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="76"/>tantum: ergo in intellectu quod quid est, habet locum 
+ra<lb break="no" ed="#L" n="77"/>tione compositionis admixtae: ergo invenitur in eo per 
+ac<lb break="no" ed="#L" n="78"/>cidens. - Omnes consequentiae sunt notae, Prima enim
+<lb ed="#L" n="79"/>fundatur super hoc, quod ex primo tali cetera oportet dici
+<lb ed="#L" n="80"/>talia, inquantum participant illud, ut patet I Posterior.
+<lb ed="#L" n="81"/>Secunda super hoc, quod non est de ratione quod quid
+<lb ed="#L" n="82"/>est, esse compositum: quod etiam patet.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e673">
+                  <lb ed="#L" n="83"/>Manifestatur autem conclusio, distinguendo duos modos
+<lb ed="#L" n="84"/>quibus compositio admiscetur intellectui circa quod quid
+<lb ed="#L" n="85"/>est. Primus consistit in coniunctione definitionis cum 
+de<lb break="no" ed="#L" n="86"/>finito: secundus in coniunctione partium definitionis, ut
+<lb ed="#L" n="87"/>patet in littera. Et differunt in hoc hi modi, quod error
+<lb ed="#L" n="88"/>in secundo constituit quod quid est in se falsum: primus
+<lb ed="#L" n="89"/>autem falsum. huic. :
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e691">
+                  <lb ed="#L" n="90"/>Corollarium est, quod in cognoscendo quidditates 
+sim<lb break="no" ed="#L" n="91"/>plices, intellectus non potest esse falsus; sed aut verus,
+<lb ed="#L" n="92"/>aut nullus.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e701">
+                  <lb ed="#L" n="93"/>VII. Circa primum modum falsitatis, et hoc corollarium,
+<lb ed="#L" n="94"/>occurrit dubium. Tum quia coniunctio definitionis cum
+<lb ed="#L" n="95"/>definito est extra intellectum quod quid est. Intellectus:
+<lb ed="#L" n="96"/>enim quod quid est lineae, non dicit, linea est longitudo
+<lb ed="#L" n="97"/>cuius extrema sunt duo puncta; sed dicit tantum, /
+ongi<lb break="no" ed="#L" n="98"/>tudo.cuius extrema sunt duo puncta. Haec enim est 
+de<lb break="no" ed="#L" n="99"/>finitio, quam solam constat ad primam operationem 
+intel<lb break="no" ed="#L" n="100"/>lectus spectare: illud autem totum, inea est longitudo etc.,
+<lb ed="#L" n="101"/>ab intellectu componente dicitur; sicut etiam dicitur linea
+<lb ed="#L" n="102"/>est curva, vel recta. Cur ergo magis falsitas illius 
+coniun<lb break="no" ed="#L" n="103"/>ctionis quam huius, primae imponitur operationi? - Tum
+<lb ed="#L" n="104"/>quia iste modus falsitatis ita habet locum in simplicibus,
+<lb ed="#L" n="105"/>sicut in compositis: potest enim simplicissimus conceptus
+<lb ed="#L" n="106"/>iungi cui non convenit quidditative. Et sic in simplicibus
+<lb ed="#L" n="107"/>potest etiam esse error per accidens: cuius oppositum 
+lit<lb break="no" ed="#L" n="108"/>tera sonat in corollario.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e738">
+                  <lb ed="#L" n="109"/>VIII. Ad evidentiam horum, scito quod, sicut res se
+<lb ed="#L" n="110"/>habet ad esse, ita ad cognosci: et propterea, quantum 
+dif<lb break="no" ed="#L" n="111"/>fert coniunctio definitionis cum definito a coniunctione
+<lb ed="#L" n="112"/>cum ceteris, tantum interest ut exigatur cognitio illius
+<lb ed="#L" n="113"/>coniunctionis ad quod quid est, et non coniunctionis cum
+<lb ed="#L" n="114"/>aliis. Coniunctio enim definitionis cum definito, dat 
+defi<lb break="no" ed="#L" n="115"/>nitioni quod sit quod quid est: nulla enim ratio est 
+quid<lb break="no" ed="#L" n="116"/>ditas, nisi inquantum est alicuius entis quidditas. Et 
+pro<lb break="no" ed="#L" n="117"/>pterea cognoscere quod quid est non contingit, nisi 
+co<lb break="no" ed="#L" n="118"/>gnoscatur coniunctio definitionis cum definito. Si enim
+<lb ed="#L" n="119"/>cognosceretur definitio nesciendo cuius rei sit, non sciretur
+<lb ed="#L" n="120"/>quidditas aliqua, sed quid significat nomen: sic enim se
+<lb ed="#L" n="121"/>haberet huiusmodi definitionem apprehendens, sicut modo
+<lb ed="#L" n="122"/>se habet formans conceptum montis aurei, vel 
+cuiuscum<lb break="no" ed="#L" n="123"/>que alterius figmenti ex non impossibilibus, Non sic autem
+<lb ed="#L" n="124"/>se habet ad quod quid est coniunctio cum passionibus et
+<lb ed="#L" n="125"/>aliis: quoniam absque illis quidditatis ratio salvatur. Quia
+<lb ed="#L" n="126"/>ergo quod quid est essentialiter exigit in essendo id cuius
+<lb ed="#L" n="127"/>est, quamvis non hoc vel illud, oportet ut etiam in 
+co<lb break="no" ed="#L" n="128"/>gnosci illud exigat. Ac per hoc, illa coniunctio ad primam
+<lb ed="#L" n="129"/>spectat operationem intellectus, sicut et coniunctio pertum
+<lb ed="#L" n="130"/>definitionis; quamvis haec ultima magis.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e788">
+                  <lb ed="#L" n="131"/>Et quoniam coniunctio definitionis cum definito, si 
+se<lb break="no" ed="#L" n="132"/>cundum se iudicetur, consurgit ex compositione definiti
+<lb ed="#L" n="133"/>(nisi enim esset compositum, locum in eo non haberet
+<lb ed="#L" n="134"/>abstractio definitionis ab eo, quantum est ex se; cum nihil
+<lb ed="#L" n="135"/>abstrahat secundum se ab omnino seipso); propterea, si
+<lb ed="#L" n="136"/>aliqua quidditas invenitur ita simplex, ut scilicet sit rei
+<lb ed="#L" n="137"/>simplicis quidditas, circa illam nullus ex parte sua error
+<lb ed="#L" n="138"/>esse potest, sicut nulla est compositio, - Et per hoc patet
+<lb ed="#L" n="139"/>responsio ad obiecta.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e810">
+                  <lb ed="#L" n="140"/>IX. In responsione ad primum, adverte quod ideo 
+quid<lb break="no" ed="#L" n="141"/>ditas dicitur proprium obiectum intellectus, quia intellectus
+<lb ed="#L" n="142"/>in communi se habet ad quidditatem , sicut visus ad 
+co<lb break="no" ed="#L" n="143"/>lorem; ita quod per se primo cognoscit quod quid est, et
+<pb ed="#L" n="226"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ab ipso tantum perficitur et movetur per se primo. Huius
+<lb ed="#L" n="2"/>autem ratio assignatur, tum quia species intelligibilis primo
+<lb ed="#L" n="3"/>est quidditatis, ut in corpore articuli dicitur. Tum quia in
+<lb ed="#L" n="4"/>quod quid est clauditur cognitio omnis complexionis, sive
+<lb ed="#L" n="5"/>convenientis sive disconvenientis: adeo quod, si quis 
+per<lb break="no" ed="#L" n="6"/>fecte penetraret quidditates rerum, perfecte intelligeret in
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>eis omnes propositiones de earum accidentibus, ut inferius
+<lb ed="#L" n="8"/>in tractatu de Angelis patebit. Tum quia quod quid est
+<lb ed="#L" n="9"/>cognoscibile est ex se, complexio autem non nisi ex quod
+<lb ed="#L" n="10"/>quid est. In cuius signum, principia cognoscimus 
+inquan<lb break="no" ed="#L" n="11"/>tum terminos cognoscimus, ut dicitur I Poster.: et omnes
+<lb ed="#L" n="12"/>dubitationes, resolvendo in quod quid est, iudicamus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e134-Dd1e855"><!-- caj-p1-q17-a4 -->
+               <head xml:id="TAcCaj-d1e134-Hd1e858">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e134-d1e860">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="85"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e867">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="86"/>Titulo, ly contraria sumitur proprie, ut contrarietas
+<lb ed="#L" n="87"/>Lüstingaitur contra alias oppositionum species.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e876">
+                  <lb ed="#L" n="88"/>In corpore una conclusio, responsiva quaesito 
+affirma<lb break="no" ed="#L" n="89"/>tive: Verum et falsum sunt contraria. - Probatur sic. 
+Fal<lb break="no" ed="#L" n="90"/>sum est dici vel videri ens non esse, aut non ens esse: ergo
+<lb ed="#L" n="91"/>falsum significat acceptionem inadaequatam rei: ergo 
+fal<lb break="no" ed="#L" n="92"/>sum ponit aliquid, et determinat sibi subiectum: ergo nec
+<lb ed="#L" n="93"/>contradictorie, nec privative, sed contrarie opponitur vero.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e892">
+                  <lb ed="#L" n="94"/>Antecedens probatur ex IV Metaphys., text. 27. Prima
+<lb ed="#L" n="95"/>consequentia patet: et ex significatione veri, quia scilicet
+<lb ed="#L" n="96"/>ponit acceptionem adaequatam rei, confirmatur. Secunda
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="97"/>autem est ex se evidens: quia acceptio difformis est aliquid:
+<lb ed="#L" n="98"/>Ultima autem probatur ex differentia inter opposita 
+contra<lb break="no" ed="#L" n="99"/>dictorie, privative, et contrarie: quia scilicet in illa alterum
+<lb ed="#L" n="100"/>est pura negatio absque subiecto; in secunda, negatio in
+<lb ed="#L" n="101"/>subiecto; in tertia, positio in subiecto.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e915">
+                  <lb ed="#L" n="102"/>II. Adverte hic, quod littera supponit verum et falsum
+<lb ed="#L" n="103"/>opponi, tanquam per se notum; et solum modum 
+oppo<lb break="no" ed="#L" n="104"/>sitionis venatur ac determinat. Et ideo consequentia tertia
+<lb ed="#L" n="105"/>nullam patitur calumniam. - Confirmatio quoque primae
+<lb ed="#L" n="106"/>consequentiae ex significatione veri, valde efficax est, si
+<lb ed="#L" n="107"/>IV Metaphys. creditur: quoniam ibidem nulla disparitas
+<pb ed="#L" n="227"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quoad significare positivum ponitur, et tamen utrumque
+<lb ed="#L" n="2"/>definitur. Verum enim, inquit Aristoteles, es? ens esse, et
+<lb ed="#L" n="3"/>non ens non esse: falsum autem, ens non esse, et non
+<lb ed="#L" n="4"/>ens esse. Unde qua ratione verum significat positivum ,
+<lb ed="#L" n="5"/>scilicet enuntiationem enti et non enti conformem, eadem
+<lb ed="#L" n="6"/>falsum significat enuntiationem utrique difformem: et non
+<lb ed="#L" n="7"/>significat negationem conformitatis, ut illi in littera 
+reci<lb break="no" ed="#L" n="8"/>tati putaverunt.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e952">
+                  <lb ed="#L" n="9"/>III. Circa primum consequens, scilicet, falsum ponit
+<lb ed="#L" n="10"/>acceptionem inadaequatam rei, adverte quod dupliciter
+<lb ed="#L" n="11"/>potest intelligi. Uno modo, quod falsum significet 
+forma<lb break="no" ed="#L" n="12"/>liter acceptionem difformem, ut nigrum colorem 
+congre<lb break="no" ed="#L" n="13"/>gativum. Alio modo, quod ponat relationem difformitatis
+<lb ed="#L" n="14"/>formaliter, et acceptionem fundamentaliter; sicut dissimile
+<lb ed="#L" n="15"/>significat relationem, et ponit qualitatem. Prímo modo non
+<lb ed="#L" n="16"/>potest intelligi: quoniam sequeretur quod unum 
+contra<lb break="no" ed="#L" n="17"/>riorum, formaliter sumptum, transiret in reliquum: quod
+<lb ed="#L" n="18"/>non est intelligibile. Non enim potest percipi quod albedo
+<lb ed="#L" n="19"/>fiat nigredo: sed quod res quae est alba, mutetur in 
+ni<lb break="no" ed="#L" n="20"/>gram. Patet autem sequela ex Praedicamentis, ubi dicitur
+<lb ed="#L" n="21"/>quod eadem numero oratio suscipit verum et falsum. Si
+<lb ed="#L" n="22"/>enim unamet enunciatio est modo vera, et modo est falsa,
+<lb ed="#L" n="23"/>et tam verum quam falsum formaliter significat 
+enuntiatio<lb break="no" ed="#L" n="24"/>nem, oportet quod unum contrariorum formaliter recipiat
+<lb ed="#L" n="25"/>alterum. Unde ex hoc ipso quod unamet numero oratio
+<lb ed="#L" n="26"/>est modo vera, modo falsa, patet quod verum et falsum
+<lb ed="#L" n="27"/>aliquid in oratione significant, et non ipsam enuntiationem.
+<lb ed="#L" n="28"/>In cuius signum, cum subsumendum esset in littera quod
+<lb ed="#L" n="29"/>falsum significat aliquod positivum in certo subiecto, nihil
+<lb ed="#L" n="30"/>aliud subiunctum est, nisi quod falsum ponit acceptioném
+<lb ed="#L" n="31"/>inadaequatam, ut inadaequationem significari in acceptione
+<lb ed="#L" n="32"/>intelligeres.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e1007">
+                  <lb ed="#L" n="33"/>IV. Est tamen circa hoc advertendum quod, sicut simile
+<lb ed="#L" n="34"/>et dissimile contrarie opponuntur, et dupliciter contingit ea
+<lb ed="#L" n="35"/>contrariari; scilicet ratione fundamenti, sicut cum album
+<lb ed="#L" n="36"/>simile alteri albo mutatur in nigrum, quod est dissimile
+<lb ed="#L" n="37"/>albo; et ratione termini, si scilicet terminus mutaretur in
+<lb ed="#L" n="38"/>nigrum: ita verum contrarie quidem opponitur falso, et
+<lb ed="#L" n="39"/>dupliciter potest contingere. Ex parte quidem termini, cum
+<lb ed="#L" n="40"/>eadem oratio de vera fit falsa, propter mutationem rei 
+si<lb break="no" ed="#L" n="41"/>gnificatae; ut patet in materia contingenti. Ex parte autem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="42"/>fundamenti, cum fundamenta ipsa sunt contraria. 
+Funda<lb break="no" ed="#L" n="43"/>mentum autem veritatis et falsitatis, ut ex dictis patet, est
+<lb ed="#L" n="44"/>enuntiatio, seu acceptio intellectus. Enuntiationum autem,
+<lb ed="#L" n="45"/>ut in II Periherm. probatur, contrarietas invenitur primo
+<lb ed="#L" n="46"/>inter affirmativam et negativam eiusdem de eodem etc.,
+<lb ed="#L" n="47"/>quarum alteram oportet esse veram, et alteram falsam.
+<lb ed="#L" n="48"/>Igitur, de primo ad ultimum, mutatur intellectus de vero
+<lb ed="#L" n="49"/>in falsum ex parte fundamenti, dum de enuntiatione unius
+<lb ed="#L" n="50"/>partis contradictionis transit in aliam. Quoniam autem 
+mu<lb break="no" ed="#L" n="51"/>tatio ex parte termini in vero et falso, aut non est vere
+<lb ed="#L" n="52"/>contrarietas (eo quod sine sui mutatione de uno in aliud
+<lb ed="#L" n="53"/>oratio transit); aut si pro vera contrarietate, qualis inter
+<lb ed="#L" n="54"/>relativa esse potest, acceptatur, non habet contrarietatis 
+ra<lb break="no" ed="#L" n="55"/>tionem ex mutatione termini (quoniam mutatio termini
+<lb ed="#L" n="56"/>contingit et de contrario in contrarium, et de affirmatione
+<lb ed="#L" n="57"/>in negationem, aut e converso); mutatio autem de vero in
+<lb ed="#L" n="58"/>falsum ex parte fundamenti, habet rationem contrarietatis
+<lb ed="#L" n="59"/>ex mutatione inter fundamenta (quia scilicet mutatio 
+intel<lb break="no" ed="#L" n="60"/>lectus de opinione affirmativa in negativam, aut e converso,
+<lb ed="#L" n="61"/>est vere inter contraria); et, quod plus est, ex contrarietate
+<lb ed="#L" n="62"/>fundamentorum innascitur contrarietas veri et falsi 
+secun<lb break="no" ed="#L" n="63"/>dum terminum (nam ideo haec oratio, Socrates sedet, eo
+<lb ed="#L" n="64"/>surgente dicitur suscipere aliud contrarium, scilicet falsum,
+<lb ed="#L" n="65"/>quia est contraria illi quae est vera, scilicet Socrates nom
+<lb ed="#L" n="66"/>sedet: nisi enim esset inter ipsas orationes contrarietas ,
+<lb ed="#L" n="67"/>mutatio de vero in falsum verae contrarietatis rationem
+<lb ed="#L" n="68"/>non haberet): propterea in littera non fit mentio nisi de
+<lb ed="#L" n="69"/>contrarietáte ex parte fundamenti innata. Et merito: quia
+<lb ed="#L" n="70"/>relationis naturam secundum fundamenti naturam maxime
+<lb ed="#L" n="71"/>videmus, eo quod aut est idem cum eo; aut naturalis eius
+<lb ed="#L" n="72"/>quasi passio.
+</p>
+               <p xml:id="TAcCaj-d1e134-d1e1098">
+                  <lb ed="#L" n="73"/>V. In responsione ad secundum, videto quod large 
+uti<lb break="no" ed="#L" n="74"/>tur contrarietatis vocabulo ibidem, prout scilicet etiam 
+pri<lb break="no" ed="#L" n="75"/>vativam continet oppositionem; ut patet de bono et malo
+<lb ed="#L" n="76"/>transcendenter sumptis, et ex verbis subiunctis, scilicet, sicut
+<lb ed="#L" n="77"/>omnis privatio fundatur in subiecto , ita omne malum etc.
+<lb ed="#L" n="78"/>Fecit autem hoc Auctor, non incuria; sed, quia, quoad
+<lb ed="#L" n="79"/>vim argumenti, idem est iudicium de contrariis et privative
+<lb ed="#L" n="80"/>oppositis, insinuare voluit quod responsio propria etiam
+<lb ed="#L" n="81"/>debet esse eadem, sive contrarie sive privative opponantur.
+<lb ed="#L" n="82"/>Et propterea contrarietatis nomen extendere docuit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

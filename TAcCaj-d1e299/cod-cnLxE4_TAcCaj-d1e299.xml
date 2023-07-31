@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 49</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 49</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="501"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e299"><!-- TAcCajp1-q49 -->
+            <head xml:id="TAcCaj-d1e299-Hd1e99">Quaestio 49</head>
+            <div xml:id="TAcCaj-d1e299-Dd1e101"><!-- caj-p1-q49-a1 -->
+               <head xml:id="TAcCaj-d1e299-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e299-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="40"/>TITULUS, ut iacet, de causa in communi sumendus est. —
+<lb ed="#L" n="41"/>In corpore duo facit: primo, respondet quaesito in
+<lb ed="#L" n="42"/>communi affirmative; secundo, in speciali, secundum 
+sin<lb break="no" ed="#L" n="43"/>gula genera causarum.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e126">
+                  <lb ed="#L" n="44"/>II. Quoad primum, conclusio responsiva est: Causa mali
+<lb ed="#L" n="45"/>est bonum. - Et probatur sic. Malum est defectus boni 
+de<lb break="no" ed="#L" n="46"/>biti: ergo omne malum habet aliquam causam: ergo causa
+<lb ed="#L" n="47"/>mali est bonum.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e137">
+                  <lb ed="#L" n="48"/>Prima consequentia probatur: quia defectus a naturali
+<lb ed="#L" n="49"/>et debita dispositione necessario provenit ex aliqua causa
+<lb ed="#L" n="50"/>trahente rem extra suam dispositionem. - Quod probatur
+<lb ed="#L" n="51"/>inductive: primo, in malo rei, exemplo motus gravis; 
+se<lb break="no" ed="#L" n="52"/>cundo, in malo actionis, quoniam nonnisi ex impedimento
+<lb ed="#L" n="53"/>provenit.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e154">
+                  <lb ed="#L" n="54"/>Secunda autem consequentia probatur: quia esse causam
+<lb ed="#L" n="55"/>soli bono convenit. Quod dupliciter probatur. Primo, 
+uni<lb break="no" ed="#L" n="56"/>versaliter: quia esse causam convenit soli enti; ergo soli
+<lb ed="#L" n="57"/>bono.Et tenet sequela: quia omne ens, inquantum 
+huius<lb break="no" ed="#L" n="58"/>modi, est bonum. - Secundo, in singulis generibus 
+causa<lb break="no" ed="#L" n="59"/>rum. Quia agens, finis et forma perfectionem, et 
+consequen<lb break="no" ed="#L" n="60"/>ter bonitatem important: materia quoque boni rationem
+<lb ed="#L" n="61"/>habet, prout potentia bonum est. Omnis igitur causalitas
+<lb ed="#L" n="62"/>bono soli convenit. :
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e176">
+                  <lb ed="#L" n="63"/>III. Quoad secundum, ponit quatuor conclusiones, iuxta
+<lb ed="#L" n="64"/>quatuor genera causarum. Prima est iuxta causam 
+mate<lb break="no" ed="#L" n="65"/>rialem: Bonum est causa mali materialiter. Probatur: quia
+<lb ed="#L" n="66"/>est eius subiectum. - Secunda est: Malum non habet causam
+<lb ed="#L" n="67"/>formalem. Probatur: quia est privatio formae. — Tertia est:
+<lb ed="#L" n="68"/>Malum non habet causam finalem. Probatur: quia est 
+pri<lb break="no" ed="#L" n="69"/>vatio ordinis ad debitum finem, ac per hoc boni utilis,
+<lb ed="#L" n="70"/>idest ad finem. - Quarta est: Malum habet causam 
+effi<lb break="no" ed="#L" n="71"/>cientem non per se, sed per accidens. Et hanc manifestat
+<lb ed="#L" n="72"/>distinguendo sic. Malum actionis et malum rei diversimode
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>causantur. Nam malum actionis causatur ex defectu 
+prin<lb break="no" ed="#L" n="74"/>cipii principalis vel instrumentalis. Malum vero rei, non
+<lb ed="#L" n="75"/>curando utrum illa res sit effectus proprius agentis vel non,
+<lb ed="#L" n="76"/>causatur tripliciter: quandoque ex virtute agentis, 
+quando<lb break="no" ed="#L" n="77"/>que ex defectu agentis, quandoque ex defectu materiae.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e213">
+                  <lb ed="#L" n="78"/>Hac distinctione stante, probatur quod nunquam malum
+<lb ed="#L" n="79"/>habet causam efficientem nisi per accidens. Et primo 
+qui<lb break="no" ed="#L" n="80"/>dem, quando causatur ex virtute agentis: quia agens per
+<lb ed="#L" n="81"/>se intendens inducere formam propriam, per accidens 
+in<lb break="no" ed="#L" n="82"/>tendit nocere oppositae.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e226">
+                  <lb ed="#L" n="83"/>Secundo, reducit ceteros modos in unum, quod est
+<lb ed="#L" n="84"/>agens esse deficiens. Et probat intentum sic. Esse deficiens
+<lb ed="#L" n="85"/>accidit bono: ergo malum secundum nullum modum habet
+<lb ed="#L" n="86"/>causam nisi per accidens. Et tenet sequela: quia bono per
+<lb ed="#L" n="87"/>se competit agere. - Reductio autem praefata fit sic. Reliqui
+<lb ed="#L" n="88"/>modi continebant malum aut effectus proprii, aut actionis.
+<lb ed="#L" n="89"/>Sed defectus effectus proprii est vel ex defectu actionis,
+<lb ed="#L" n="90"/>vel ex defectu passionis: et hoc quidem ex materia, ille
+<lb ed="#L" n="91"/>vero,.ex defectu activi principii procedit: et uterque rursus
+<lb ed="#L" n="92"/>constituit causam deficere. Ergo omnis modus quo malum
+<lb ed="#L" n="93"/>provenit, ad deficere agentis reducitur, undecumque oriatur
+<lb ed="#L" n="94"/>defectus.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e255">
+                  <lb ed="#L" n="95"/>Et sic breviter Auctor omnia membra totius divisionis
+<lb ed="#L" n="96"/>perlustravit, ad duo reducta, scilicet malum effectus 
+ex<lb break="no" ed="#L" n="97"/>tranei, et malum effectus proprii: in hoc enim etiam 
+ma<lb break="no" ed="#L" n="98"/>lum actionis comprehendit quoad causam.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e266">
+                  <lb ed="#L" n="99"/>IV. In responsione ad tertium, adverte quod, cum dicitur
+<lb ed="#L" n="100"/>quod defectus subiectionis regulae non est culpa, sed eum
+<lb ed="#L" n="101"/>sequitur culpa, potest bene et male intelligi. Si intelligatur
+<lb ed="#L" n="102"/>de defectu tali absolute, verum dicitur, Si autem de 
+de<lb break="no" ed="#L" n="103"/>fectu hoc, idest applicato ad hunc operantem sine regula,
+<lb ed="#L" n="104"/>falsum est: quoniam ex ipsa applicatione ad hunc, nunc
+<lb ed="#L" n="105"/>sic operantem, culpae rationem sortitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e299-Dd1e285"><!-- caj-p1-q49-a2 -->
+               <head xml:id="TAcCaj-d1e299-Hd1e288">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e299-d1e290">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="73"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e297">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>TITULUS  satis ex praedictis patet. - In corpore duas 
+con<lb break="no" ed="#L" n="75"/>clusiones responsivas ponit, iuxta duo genera malorum
+<lb ed="#L" n="76"/>superius distincta.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e308">
+                  <lb ed="#L" n="77"/>Prima est: Malum actionis non reducitur in Deum sicut
+<lb ed="#L" n="78"/>in causam. — Et probatur sic. Malum actionis causatur ex
+<lb ed="#L" n="79"/>defectu agentis: ergo non reducitur in Deum ut causam.
+<lb ed="#L" n="80"/>Et tenet sequela: quia in Deo nullus est defectus, sed
+<lb ed="#L" n="81"/>summa perfectio. à :
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e321">
+                  <lb ed="#L" n="82"/>II. Secunda conclusio est: Malum rerum aliquarum 
+re<lb break="no" ed="#L" n="83"/>ducitur in Deum sicut in causam. — Et probatur hoc tam
+<lb ed="#L" n="84"/>in naturalibus quam in voluntariis.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e331">
+                  <lb ed="#L" n="85"/>Et primo in naturalibus, sic. Deus intendit, ut formam
+<lb ed="#L" n="86"/>principaliter intentam in rebus creatis, bonum ordinis 
+uni<lb break="no" ed="#L" n="87"/>versi, exigens quaedam defectiva, et actualiter interdum
+<lb ed="#L" n="88"/>deficientia: ergo, causando bonum ordinis universi, per 
+ac<lb break="no" ed="#L" n="89"/>cidens causat mala rerum. — Consequentia probatur: quia
+<lb ed="#L" n="90"/>agens per se producens formam ad quam sequitur corru-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="91"/>ptio et defectus, causat illam corruptionem et defectum per
+<lb ed="#L" n="92"/>accidens. Et confirmatur consequens auctoritate Scripturae ;
+<lb ed="#L" n="93"/>et simul excluditur instantia auctoritatis apparentis in 
+op<lb break="no" ed="#L" n="94"/>positum, "Sap. 1.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e357">
+                  <lb ed="#L" n="95"/>Deinde ex eodem medio probat in voluntariis, sic. Ordo
+<lb ed="#L" n="96"/>universi exigit ordinem iustitiae punitricis peccatorum: ergo
+<lb ed="#L" n="97"/>malum poenae est etiam a Deo.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e366">
+                  <lb ed="#L" n="98"/>III. Circa haec dubium occurrit, an prima conclusio
+<lb ed="#L" n="99"/>intelligatur universaliter de omni malo actionis, an tantum
+<lb ed="#L" n="100"/>in voluntariis. Si enim intelligitur universaliter, tunc 
+se<lb break="no" ed="#L" n="101"/>quitur quod claudicatio Socratis non sit a Deo, quia est
+<lb ed="#L" n="102"/>malum actionis. Et si hoc concedatur, manifeste sequitur
+<lb ed="#L" n="103"/>Deum non esse auctorem mali poenae: cum claudicatio sit
+<lb ed="#L" n="104"/>de numero poenarum. Et quod de hoc dicitur, simile potest
+<lb ed="#L" n="105"/>adduci de ceteris defectibus actionum, puta visionis, 
+audi<lb break="no" ed="#L" n="106"/>tionis, etc. Et sic periret Scriptorum Sanctorum doctrina,
+<lb ed="#L" n="107"/>tradens haec omnia esse a Deo, vel ad punitionem, vel ad
+<pb ed="#L" n="502"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>augmentum meriti, etc. — Si autem intelligitur in voluntariis
+<lb ed="#L" n="2"/>tantum, oblitus videtur Auctor limitationis: quod litterae
+<lb ed="#L" n="3"/>non consonat, eo quod manifeste secundam conclusionem
+<lb ed="#L" n="4"/>universaliter tractat, et locus iste de malo universalem 
+tra<lb break="no" ed="#L" n="5"/>ctatum exigit.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e405">
+                  <lb ed="#L" n="6"/>Ad haec breviter dicitur, quod conclusio intelligitur de
+<lb ed="#L" n="7"/>omni malo actionis, sed formaliter, inquantum actio est. —
+<lb ed="#L" n="8"/>Et cum dicitur, ergo claudicatio Socratis non reducitur in
+<lb ed="#L" n="9"/>Deum, distinguatur, quod claudicatio, inquantum sonat 
+de<lb break="no" ed="#L" n="10"/>fectum actionis ut sic, non reducitur in Deum ut effectivam
+<lb ed="#L" n="11"/>causam, sed in defectum causae secundae. Et rursus, clau-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>dicatio, inquantum est involuntaria, reducitur in Beum ut
+<lb ed="#L" n="13"/>auctorem poenae: inquantum vero est a caritate ordinata,
+<lb ed="#L" n="14"/>reducitur in Deum ut auctorem meriti. Et sic de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e429">
+                  <lb ed="#L" n="15"/>IV. In responsione ad tertium, adverte quod tunc 
+tan<lb break="no" ed="#L" n="16"/>tum absentia causae agentis dicitur causa defectus, quando
+<lb ed="#L" n="17"/>debebatur praesentia. Et propterea, quia nunquam, cum
+<lb ed="#L" n="18"/>rebus debetur, Deus subtrahit influxum, ideo non sequitur,
+<lb ed="#L" n="19"/>proprie loquendo, quod Deus sit causa defectuum ex hoc
+<lb ed="#L" n="20"/>solo quod non facit: quamvis quandoque Scriptura ipsum
+<lb ed="#L" n="21"/>tali modo causam appellet, ut patet circa indurationem
+<lb ed="#L" n="22"/>Pharaonis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e299-Dd1e450"><!-- caj-p1-q49-a3 -->
+               <head xml:id="TAcCaj-d1e299-Hd1e453">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e299-d1e455">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e462">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>TITULUS directe quaerit de causa efficiente. - In corpore
+<lb ed="#L" n="67"/>dE iuo facit: primo, respondet quaesito unica conclusione
+<lb ed="#L" n="68"/>negative; secundo, radicem erroris aliter opinantium ostendit.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e473">
+                  <lb ed="#L" n="69"/>II. Quoad primum, conclusio est: Non datur unum 
+sum<lb break="no" ed="#L" n="70"/>mum malum, primum principium omnium malorum, sicut
+<lb ed="#L" n="71"/>e contra datur unum summum bonum. - Et probatur 
+tri<lb break="no" ed="#L" n="72"/>pliciter: primo, quia non datur malum per essentiam, idest
+<lb ed="#L" n="73"/>aliquid per essentiam malum; secundo, quia non datur
+<lb ed="#L" n="74"/>malum summum, idest integrum ; fertio, quia haec duo
+<lb ed="#L" n="75"/>repugnant, primum principium et malum. Et omnia clare
+<lb ed="#L" n="76"/>patent in littera.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e493">
+                  <lb ed="#L" n="77"/>III. Quoad secundum, narrantur errores; et confutantur ex
+<lb ed="#L" n="78"/>una communi radice. Errarunt ponentes duo prima principia,
+<lb ed="#L" n="79"/>bonum et malum, in duobus: primum est, aliqua natura est
+<lb ed="#L" n="80"/>in se mala; secundum est, prima principia sunt contraria.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e505">
+                  <lb ed="#L" n="81"/>Ratio primi erroris fuit, quia consideraverunt naturam
+<lb ed="#L" n="82"/>aliquam, puta igneam, ut nocivam huic. — Confutatio autem
+<lb ed="#L" n="83"/>eius est, quia simpliciter debet considerari ut pars totius
+<lb ed="#L" n="84"/>universi: quoniam sic omnis res ordinatissime suum locum
+<lb ed="#L" n="85"/>obtinet, atque bona est.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e518">
+                  <lb ed="#L" n="86"/>Ratio vero secundi erroris fuit, quia effectus contrarios in
+<lb ed="#L" n="87"/>causas tantum contrarias reducere noverunt. — Confutatio
+<lb ed="#L" n="88"/>vero eius est, quod reducenda sunt contraria in 
+commu<lb break="no" ed="#L" n="89"/>nem et universalem causam. Quod probatur: quia omnia
+<lb ed="#L" n="90"/>contraria conveniunt in aliquo, puta genere et subiecto.
+<lb ed="#L" n="91"/>Par enim est iudicium de unitate formae et agentis, cum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>similia sint; et activi et passivi, cum debeant adaequari. Et
+<lb ed="#L" n="93"/>manifestatur in corpore caelesti respectu inferiorum.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e540">
+                  <lb ed="#L" n="94"/>Communis autem radix horum et similium errorum
+<lb ed="#L" n="95"/>est, quia particulares causas, et non universalem causam
+<lb ed="#L" n="96"/>entium in eo quod entia, attigerunt. Omnia enim ad unum
+<lb ed="#L" n="97"/>essendi principium reducuntur: quoniam omnia in 
+parti<lb break="no" ed="#L" n="98"/>cipatione esse conveniunt, ut patet ex supra dictis.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e553">
+                  <lb ed="#L" n="99"/>IV. In responsione ad secundum, dubium occurrit. 
+Quo<lb break="no" ed="#L" n="100"/>niam in articulo ultimo praecedentis quaestionis, dictum
+<lb ed="#L" n="101"/>est, et probatum, quod malum culpae opponitur proprie
+<lb ed="#L" n="102"/>bono increato, non ut in nobis, sed ut in seipso: hic 
+au<lb break="no" ed="#L" n="103"/>tem dicitur, et probatur, quod bono increato nullum malum
+<lb ed="#L" n="104"/>opponitur. Non videntur ergo stare haec duo simul.
+</p>
+               <p xml:id="TAcCaj-d1e299-d1e569">
+                  <lb ed="#L" n="105"/>Ad hoc breviter dicitur, quod malum opponi increato
+<lb ed="#L" n="106"/>bono, potest intelligi dupliciter: scilicet formaliter, vel 
+obie<lb break="no" ed="#L" n="107"/>ctive. Formaliter quidem est impossibile malum aliquod
+<lb ed="#L" n="108"/>opponi divino bono, propter rationem in littera tactam,
+<lb ed="#L" n="109"/>scilicet: Bonum habens malum formaliter oppositum, exigit
+<lb ed="#L" n="110"/>potentiam circa quam habet fieri malum; Deus autem est
+<lb ed="#L" n="111"/>actus purus; ergo. - Obiective autem malum culpae 
+oppo<lb break="no" ed="#L" n="112"/>nitur bono divino in seipso. Quod optime probatur in loco
+<lb ed="#L" n="113"/>allegato, ex obiecto caritatis. Vult enim explicite vel 
+in<lb break="no" ed="#L" n="114"/>terpretative quilibet peccans, quantum in se est, Deum non
+<lb ed="#L" n="115"/>esse ultimum finem; quod est opponi ei obiective secundum
+<lb ed="#L" n="116"/>id quod in se est: sicut e contra amans ex caritate vult
+<lb ed="#L" n="117"/>Deo quidquid est et ei debetur. Et sic non repugnant dicta.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

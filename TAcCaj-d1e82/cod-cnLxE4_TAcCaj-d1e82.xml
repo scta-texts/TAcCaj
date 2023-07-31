@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="72"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e82"><!-- TAcCajp1-q7 -->
+            <head xml:id="TAcCaj-d1e82-Hd1e99">Quaestio 7</head>
+            <div xml:id="TAcCaj-d1e82-Dd1e101"><!-- caj-p1-q7-a1 -->
+               <head xml:id="TAcCaj-d1e82-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e82-d1e106">
+                  <pb ed="#L" n="73"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e115">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In titulo, ly Deus sumitur proprie, ut est nomen naturae:
+<lb ed="#L" n="3"/>Ii. quod de essentia, non de potentia aut scientia Der,
+<lb ed="#L" n="4"/>est quaestio. Ly infinitum, cum sit nomen compositum ex
+<lb ed="#L" n="5"/>in et finitum, habet ly in negative, non privative. Ly vero
+<lb ed="#L" n="6"/>finitum terminos quantitatis perfectionalis dicit: cum finiti
+<lb ed="#L" n="7"/>et infiniti ratio quantitati congruat, secundum Philosophum
+<lb ed="#L" n="8"/>I Physic.; et sicut duplex est quantitas, scilicet et molis
+<lb ed="#L" n="9"/>et perfectionis, ita duplices sunt termini, et duplex est 
+fini<lb break="no" ed="#L" n="10"/>tas et infinitas. Hic autem, cum exclusa iam sit quantitas
+<lb ed="#L" n="11"/>molis a Deo, oportet intelligi de infinitate perfectionis.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e141">
+                  <lb ed="#L" n="12"/>Et diligenter adverte quod, quia, ut dicitur III Physic.,
+<lb ed="#L" n="13"/>infinitum non est substantia, sed accidens rebus, consequens
+<lb ed="#L" n="14"/>est ut secundum rei naturam infinitas aut finitas requiratur.
+<lb ed="#L" n="15"/>Alius siquidem est modus infinitatis rei, alius potentiae,
+<lb ed="#L" n="16"/>alius scientiae. Infinitas siquidem quidditativa attenditur
+<lb ed="#L" n="17"/>penes exclusionem terminorum essentialium, puta 
+differen<lb break="no" ed="#L" n="18"/>tiarum et similium. Et quia in proposito quaestio est de
+<lb ed="#L" n="19"/>infinitate naturae divinae, ideo de infinitate perfectionis
+<lb ed="#L" n="20"/>substantialis sermo est. Ita quod sensus est: Utrum Deus
+<lb ed="#L" n="21"/>secundum suam essentiam sit tantae perfectionis, quod
+<lb ed="#L" n="22"/>omnes terminos seu limites essentiales excludat.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e167">
+                  <lb ed="#L" n="23"/>II. In corpore tria facit: primo refert opinionem 
+anti<lb break="no" ed="#L" n="24"/>quorum; secundo distinguit de finitate et infinitate; tertio
+<lb ed="#L" n="25"/>respondet quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e177">
+                  <lb ed="#L" n="26"/>III. Quoad primum, duo facit. Primum est. Apud 
+anti<lb break="no" ed="#L" n="27"/>quos, primum principium est infinitum, quia ex eo fiunt
+<lb ed="#L" n="28"/>finita. - Secundum. Quidam antiquorum, errantes, 
+infini<lb break="no" ed="#L" n="29"/>tatem molis attribuerunt primo principio, quia posuerunt
+<lb ed="#L" n="30"/>primum principium materiale. Inde et consequens fuit 
+po<lb break="no" ed="#L" n="31"/>nere infinitatem quantitativam, eo quod quantitas sequitur
+<lb ed="#L" n="32"/>materiam: etsic error circa genus principii, causavit 
+erro<lb break="no" ed="#L" n="33"/>rem circa modum infinitatis.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e197">
+                  <lb ed="#L" n="34"/>IV. Quoad secundum, tam finitas quam infinitas 
+per<lb break="no" ed="#L" n="35"/>fectionis distinguitur: quia quaedam se tenet ex parte 
+ma<lb break="no" ed="#L" n="36"/>teriae, et quaedam ex parte formae. Et differunt in hoc,
+<lb ed="#L" n="37"/>quod finitas ex parte materiae dicit perfectionem, infinitas
+<lb ed="#L" n="38"/>vero imperfectionem: ex parte vero formae, est e converso;
+<lb ed="#L" n="39"/>infinitas enim dicit perfectionem, finitas autem 
+imperfectio<lb break="no" ed="#L" n="40"/>nem, ut satis clare dicitur in littera.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e215">
+                  <lb ed="#L" n="41"/>V. Circa hanc partem, antequam ultra procedatur, est
+<lb ed="#L" n="42"/>dubium tam contra finitatem, quam contra infinitatem 
+for<lb break="no" ed="#L" n="43"/>mae. Contra finitatem quidem, quia forma bovis, imo apud
+<lb ed="#L" n="44"/>s. Thomam etiam anima intellectiva, perficitur ex 
+coniun<lb break="no" ed="#L" n="45"/>ctione ad materiam. Igitur finitas formae non dicit 
+imperfe<lb break="no" ed="#L" n="46"/>ctionem, sed perfectionem. — Contra infinitatem vero, quia
+<lb ed="#L" n="47"/>negatio nullam perfectionem ponit; nec aliqua res ex sola
+<lb ed="#L" n="48"/>separatione ab alia, perfectionem acquirit. Igitur infinitas
+<lb ed="#L" n="49"/>ex parte formae non dicit perfectionem. -
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e237">
+                  <lb ed="#L" n="50"/>VI. Ad primum horum dicitur, quod forma potest sumi
+<lb ed="#L" n="51"/>dupliciter: scilicet absolute, in eo quod forma; et 
+secun<lb break="no" ed="#L" n="52"/>dum quid, idest in eo quod talis, puta informativa 
+mate<lb break="no" ed="#L" n="53"/>riae. Forma falis perficitur ex unione ad materiam: non
+<lb ed="#L" n="54"/>autem forma in eo quod forma. Et quia in proposito est
+<lb ed="#L" n="55"/>sermo absolute secundum latitudinem formae, cuius 
+dete<lb break="no" ed="#L" n="56"/>riorem partem constat esse illam quae est finibilis per 
+ma<lb break="no" ed="#L" n="57"/>teriam, altera parte libera ac nullis materiae terminis 
+con<lb break="no" ed="#L" n="58"/>clusibili remanente; ideo neganda est consequentia obiecta.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e259">
+                  <lb ed="#L" n="59"/>Ad secundum vero dicitur quod, licet negatio seu 
+sepa<lb break="no" ed="#L" n="60"/>ratio non dicat formaliter perfectionem, dicit tamen 
+funda<lb break="no" ed="#L" n="61"/>mentaliter eam: fundamentum. enim negationis unibilitatis
+<lb ed="#L" n="62"/>ad materiam, magnam perfectionem formae significat. Et .
+<lb ed="#L" n="63"/>hoc sufficit.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e272">
+                  <lb ed="#L" n="64"/>VII. Quoad. tertium, est una conclusio, responsiva
+<lb ed="#L" n="65"/>quaesito affirmative: Deus est infinitus. — Probatur. Deus
+<lb ed="#L" n="66"/>est suum esse subsistens: ergo suum esse non est receptum
+<lb ed="#L" n="67"/>in aliquo: ergo est infinitus et perfectus, idest infinitae 
+per<lb break="no" ed="#L" n="68"/>fectionis, scilicet infinitate tenente se ex parte formae. -
+<lb ed="#L" n="69"/>Antecedens patet ex quaestione tertia. Prima vero 
+con<lb break="no" ed="#L" n="70"/>sequentia est per se nota. Secunda autem probatur ex eo
+<lb ed="#L" n="71"/>quod esse est formalissimum omnium.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e293">
+                  <lb ed="#L" n="72"/>VIII. Circa hunc processum, dubium occurrit ex Scoto,
+<lb ed="#L" n="73"/>in I Sent., dist. u, respondendo primae quaestioni: repre-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="74"/>hendit siquidem. radices et processum. Inquit in primis
+<lb ed="#L" n="75"/>quod processus noster est talis: Forma finitur per 
+mate<lb break="no" ed="#L" n="76"/>riam; ergo forma quae non est nata esse in materia, est
+<lb ed="#L" n="77"/>infinita. - Contra antecedens arguit. Omnis forma, prius 
+na<lb break="no" ed="#L" n="78"/>tura quam recipiatur in materia, est secundum se in tali
+<lb ed="#L" n="79"/>gradu entium: igitur finita vel infinita. Non igitur primo
+<lb ed="#L" n="80"/>finitur per respectum ad negationem alicuius extrinseci ,
+<lb ed="#L" n="81"/>puta materiae, vel cuiuscumque alterius. — Contra 
+proces<lb break="no" ed="#L" n="82"/>sum vero. Tum quia sequeretur quod essentia angeli esset
+<lb ed="#L" n="83"/>infinita, quia est forma non receptibilis in materia, Nec
+<lb ed="#L" n="84"/>valet, inquit, si dicatur quod natura angeli finitur per suum
+<lb ed="#L" n="85"/>esse: quoniam apud nos, esse est posterius essentia, et sic
+<lb ed="#L" n="86"/>natura in primo signo, abstrahens ab esse, cum sit infinita,
+<lb ed="#L" n="87"/>ergo in secundo signo non est finibilis per esse. - Tum
+<lb ed="#L" n="88"/>quia peccat secundum sophisma consequentis, sicut illud
+<lb ed="#L" n="89"/>III Physic.: corpus finitur ad aliud corpus: ergo corpus
+<lb ed="#L" n="90"/>non finitum ad aliquid aliud, est infinitum.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e339">
+                  <lb ed="#L" n="91"/>IX. Circa eundem processum dubium occurrit: quia, 
+con<lb break="no" ed="#L" n="92"/>cesso toto, non videbitur novitiis quod sit responsum' 
+quae<lb break="no" ed="#L" n="93"/>sito. Oportebat enim concludere Deum esse perfectionis
+<lb ed="#L" n="94"/>tantae, ut omnes perfectionis limites excederet: nunc autem
+<lb ed="#L" n="95"/>probatum est quod Deus nullo est receptivo coarctatus ,
+<lb ed="#L" n="96"/>quod distans valde videtur a primo.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e355">
+                  <lb ed="#L" n="97"/>X. Ad evidentiam harum difficultatum, advertendum est
+<lb ed="#L" n="98"/>quod littera occulte subdistinguit infinitatem formalem in
+<lb ed="#L" n="99"/>infinitatem formae, et infinitatem esse seu actus, qui est
+<lb ed="#L" n="100"/>communior forma. Sicut enim duplex est actus, scilicet
+<lb ed="#L" n="101"/>esse et forma, ita duplex est.potentia receptiva, scilicet 
+es<lb break="no" ed="#L" n="102"/>sentia et materia. Et ita duplex est receptio et irreceptio:
+<lb ed="#L" n="103"/>et similiter duplex est finitas et infinitas: semper loquendo
+<lb ed="#L" n="104"/>ex parte actus. Et sicut esse est actus alterius rationis a
+<lb ed="#L" n="105"/>forma, et essentia est alterius ordinis potentia a materia
+<lb ed="#L" n="106"/>(ut differentia compositionis ex esse et essentia, et ex 
+ma<lb break="no" ed="#L" n="107"/>teria et forma, ostendit), ita alterius rationis est receptio
+<lb ed="#L" n="108"/>esse in essentia, et formae in materia: et similiter finitas
+<lb ed="#L" n="109"/>esse per essentiam, et formae per materiam; et e converso
+<lb ed="#L" n="110"/>finitas essentiae per esse, et materiae per formam.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e388">
+                  <lb ed="#L" n="111"/>Et ut singillatim dicatur, esse secundum se 
+perfectio<lb break="no" ed="#L" n="112"/>nem quandam dicit; sed non potest imaginari quantam
+<lb ed="#L" n="113"/>perfectionem dicat, nisi alicui naturae intelligatur 
+applica<lb break="no" ed="#L" n="114"/>tum, puta sapientiae, aut Gabrielis, etc. Et ideo esse, per
+<lb ed="#L" n="115"/>hoc quod recipitur in aliqua essentia, limites perfectionis
+<lb ed="#L" n="116"/>sortitur, secundum modum naturae recipientis: ac per. hoc,
+<lb ed="#L" n="117"/>si nulli omnino quidditati coniungi ponitur, sed in seipso
+<lb ed="#L" n="118"/>naturaliter subsistere, nullum essentialem terminum habebit.
+<lb ed="#L" n="119"/>Forma autem, etsi secundum se perfectionem dicat, 
+limi<lb break="no" ed="#L" n="120"/>tata táàmen ad tantam perfectionem intelligi potest, etiamsi
+<lb ed="#L" n="121"/>nulli materiae sit unibilis, ut de intelligentiis patet.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e414">
+                  <lb ed="#L" n="122"/>Unde manifeste colligitur quam differens, sit finitio esse
+<lb ed="#L" n="123"/>per essentiam , aut e converso; et terminatio formae per
+<lb ed="#L" n="124"/>materiam, vel e converso. Penes illam. namque attenditur
+<lb ed="#L" n="125"/>finitum vel infinitum simpliciter: penes istam vero, finitum
+<lb ed="#L" n="126"/>et infinitum secundum quid tantum. Verum, quia esse et
+<lb ed="#L" n="127"/>forma conveniunt in ratione actus et receptibilis in alio,
+<lb ed="#L" n="128"/>ideo ex finitate et infinitate formae, ad infinitatem et 
+finita<lb break="no" ed="#L" n="129"/>tem esse procedi potest. Et propterea littera, ad 
+insinuan<lb break="no" ed="#L" n="130"/>dam identitatem proportionalem inter utriusque finitatem et
+<lb ed="#L" n="131"/>infinitatem, ex forma ad esse ascendit: ad insinuandam vero
+<lb ed="#L" n="132"/>diversam utriusque rationem, subsumpsit, non quod esse
+<lb ed="#L" n="133"/>est prima. forma, sed quod est formalissimum omnium.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e443">
+                  <lb ed="#L" n="134"/>XI. Et ex his patet facile responsio ad obiecta Scoti.
+<lb ed="#L" n="135"/>Dico enim primo, quod antecedens illud, forma finitur per
+<lb ed="#L" n="136"/>materiam, non loquitur de finitate simpliciter, sed 7aJi, 
+sci<lb break="no" ed="#L" n="137"/>licet penes terminos materiales: et propterea obiectio nihil
+<lb ed="#L" n="138"/>obstat. - Et similiter ruunt instantiae contra processum:
+<lb ed="#L" n="139"/>quoniam verum est naturam angeli esse infinitam 
+secun<lb break="no" ed="#L" n="140"/>dum quid. Et si instetur: quomodo ergo ex illo fundamento
+<lb ed="#L" n="141"/>probat littera. infinitatem simpliciter ipsius Dei? patet 
+re<lb break="no" ed="#L" n="142"/>sponsio ex dictis. Littera enim ex infinitate formae, quae
+<lb ed="#L" n="143"/>est secundum quid, manuducit ad infinitatem formalissimi
+<lb ed="#L" n="144"/>omnium, idest esse, quae est simpliciter: et ex illa infert
+<lb ed="#L" n="145"/>Deum infinitum simpliciter.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e473">
+                  <pb ed="#L" n="74"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>XII. Et quoniam eodem modo posset quis, sequendo
+<lb ed="#L" n="2"/>Scotum, arguere de esse, sicut arguit de forma; ideo dico
+<lb ed="#L" n="3"/>secundo, quod infinitum, sicut et immateriale, est 
+prae<lb break="no" ed="#L" n="4"/>dicatum negativum, fundamentaliter tamen positivum, Et
+<lb ed="#L" n="5"/>sicut positivum clausum in ly immateriale, optime probatur
+<lb ed="#L" n="6"/>ex naturali negatione materiae, tam actu quam in potentia;
+<lb ed="#L" n="7"/>ita positivum clausum in significatione infiniti simpliciter,
+<lb ed="#L" n="8"/>optime demonstratur convenire Deo, ex negatione 
+termi<lb break="no" ed="#L" n="9"/>norum essentialium, ut in littera fit. Unde concedo quod
+<lb ed="#L" n="10"/>esse prius natura est in seipso tantae perfectionis, puta
+<lb ed="#L" n="11"/>finitae vel infinitae, quam sit receptibile aut irreceptibile in
+<lb ed="#L" n="12"/>hoc vel illo: cum hoc tamen dico quod haec duo mutuo
+<lb ed="#L" n="13"/>se consequuntur; ita quod si esse est omnino irreceptibile,
+<lb ed="#L" n="14"/>est infinitum simpliciter, et e converso; et similiter, si est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>finitum, est receptibile, et e converso. Et propterea potest
+<lb ed="#L" n="16"/>argui a destructione antecedentis ad destructionem 
+conse<lb break="no" ed="#L" n="17"/>quentis, absque sophismate, ut in convertibilibus contingit.
+<lb ed="#L" n="18"/>- Et sic patet responsio ad Scotum.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e521">
+                  <lb ed="#L" n="19"/>XIII. Ad id vero quod novitii obiiciunt, ex dictis iam
+<lb ed="#L" n="20"/>patere potest. Iam enim ostensum est quod omnimoda
+<lb ed="#L" n="21"/>negatio receptionis ipsius esse, fundatur super infinita. 
+per<lb break="no" ed="#L" n="22"/>fectione simpliciter.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e532">
+                  <lb ed="#L" n="23"/>Et adverte quam formalis et ex propriis doctrina sit
+<lb ed="#L" n="24"/>s. Thomae. De essentiae namque infinitate agens, 
+essen<lb break="no" ed="#L" n="25"/>tiales terminos tantum lustravit; nec digressus est ad 
+con<lb break="no" ed="#L" n="26"/>comitantia, penes quae attenditur- infinitas potentiae aut
+<lb ed="#L" n="27"/>intellectus aut voluntatis, ut alii minus perspicaces 
+fa<lb break="no" ed="#L" n="28"/>ciunt.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e82-Dd1e549"><!-- caj-p1-q7-a2 -->
+               <head xml:id="TAcCaj-d1e82-Hd1e552">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e82-d1e554">
+                  <pb ed="#L" n="75"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e563">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In titulo, adverte: ly infinitum per essentiam non 
+signi<lb break="no" ed="#L" n="3"/>ficat idem quod res infinitae perfectionis, quia ly 
+infi<lb break="no" ed="#L" n="4"/>nitum non arctatur hic ad infinitum tenens se ex parte
+<lb ed="#L" n="5"/>E formae, quod dicit perfectionem; sed tenetur communiter,
+<lb ed="#L" n="6"/>» ut continet etiam infinitum ex parte materiae; ut patet ex
+<lb ed="#L" n="7"/>processu in corpore articuli, et in argumento tertio. Unde
+<lb ed="#L" n="8"/>infinitum per essentiam idem significat quod res essentiae
+<lb ed="#L" n="9"/>indeterminatae omnino, idest nec ad genus nec ad speciem
+<lb ed="#L" n="10"/>aliquam, et hoc sive per se sive reductive. Et est quaestio
+<lb ed="#L" n="11"/>de rebus singularibus, quarum tantummodo est inveniri
+<lb ed="#L" n="12"/>posse in rerum natura. Quod dico propter res in 
+abstra<lb break="no" ed="#L" n="13"/>ctione sumptas, quas contingit adeo abstrahere, ut secundum
+<lb ed="#L" n="14"/>aliquam rationem ad nullum sint genus arctatae. Tamen,
+<lb ed="#L" n="15"/>secundum rem, etiam illa ratio, in hac re existens, ad 
+ali<lb break="no" ed="#L" n="16"/>quod est genus et speciem determinata: ems enim in 
+ho<lb break="no" ed="#L" n="17"/>mine est in specie humana, etc. Ita quod sensus quaestionis
+<lb ed="#L" n="18"/>est: An, praeter Deum, aliqua res in rerum natura existens
+<lb ed="#L" n="19"/>— "- actu vel potentia, sit essentiae indeterminatae simpliciter.
+<lb ed="#L" n="20"/>—:- 1L. In corpore unica est conclusio, responsiva quaesito
+<lb ed="#L" n="21"/>negative: Nulla res alia a Deo est infinita simpliciter ;
+<lb ed="#L" n="22"/>quamvis possit esse infinita secundum quid.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e613">
+                  <lb ed="#L" n="23"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="24"/>ENT) possit esse aliquid infinitum actu 
+secun<lb break="no" ed="#L" n="25"/>Af/szAXà dum magnitudinem. In scientiis enim
+<lb ed="#L" n="26"/>V/&amp;2€2 Nymathematicis non invenitur falsum: quia
+<lb ed="#L" n="27"/>abstrahentium non est mendacium , ut dicitur in
+<lb ed="#L" n="28"/>aS - Il Physic. Sed scientiae mathematicae utuntur
+<lb ed="#L" n="29"/>infinito secundum magnitudinem: dicit enim 
+geo<lb break="no" ed="#L" n="30"/>metra in suis demonstrationibus, sif linea talis
+<lb ed="#L" n="31"/>infinita. Ergo non est impossibile aliquid esse
+<lb ed="#L" n="32"/>infinitum secundum magnitudinem.
+<lb ed="#L" n="33"/>--..2. PRAETEREA, id quod non est contra rationem
+<lb ed="#L" n="34"/>alicuius, non. est impossibile convenire sibi. Sed
+<lb ed="#L" n="35"/>esse infinitum non est contra rationem 
+magnitu<lb break="no" ed="#L" n="36"/>dinis: sed magis finitum et infinitum videntur
+<lb ed="#L" n="37"/>esse passiones quantitatis. Ergo non est 
+impossi<lb break="no" ed="#L" n="38"/>bile aliquam magnitudinem esse infinitam.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e650">
+                  <lb ed="#L" n="39"/>3. PRAETEREA, magnitudo divisibilis est in 
+infi<lb break="no" ed="#L" n="40"/>nitum: sic enim definitur continuum, quod est in
+<lb ed="#L" n="41"/>infinitum ? divisibile, ut patet in III Physic. Sed
+<lb ed="#L" n="42"/>contraria nata sunt fieri circa idem. Cum ergo 
+di<lb break="no" ed="#L" n="43"/>visioni opponatur additio, et diminutioni 
+augmen<lb break="no" ed="#L" n="44"/>tum, videtur quod magnitudo possit crescere in
+<lb ed="#L" n="45"/>infinitum. Ergo possibile est esse magnitudinem
+<lb ed="#L" n="46"/>infinitam.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e671">
+                  <lb ed="#L" n="47"/>4. PRAETEREA, motus et tempus habent 
+quanti<lb break="no" ed="#L" n="48"/>tatem et continuitatem a magnitudine super quam
+<lb ed="#L" n="49"/>SOp mss transit motus, ut dicitur in IV Physic. Sed non
+<lb ed="#L" n="50"/>EC est contra rationem temporis et motus quod sint
+<lb ed="#L" n="51"/>infinita: cum unumquodque indivisibile signatum
+<lb ed="#L" n="52"/>in tempore et motu circulari, sit principium et
+<lb ed="#L" n="53"/>iib finis. Ergo nec contra rationem magnitudinis erit
+<lb ed="#L" n="54"/>T quod sit infinita.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e691">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55"/>Haec conclusio habet duas partes, ut patet: et in littera
+<lb ed="#L" n="56"/>quoad utramque probatur. Verum, quia infinitum est duplex,
+<lb ed="#L" n="57"/>scilicet ex parte actus et ex parte potentiae, seorsum primo
+<lb ed="#L" n="58"/>probat utramque conclusionis partem in infinito materiali:
+<lb ed="#L" n="59"/>deinde in formali. De illo, quia materia semper finitur per
+<lb ed="#L" n="60"/>formam aliquam, ac per hoc non est infinita simpliciter: et
+<lb ed="#L" n="61"/>tamen, quia remanet in potentia ad infinitas formas, datur
+<lb ed="#L" n="62"/>infinitum secundum quid. De hoc vero, quia forma creata
+<lb ed="#L" n="63"/>aut est in materia, et consequenter finita per eam: aut 
+sub<lb break="no" ed="#L" n="64"/>sistens sine materia, et recipiens esse. Et haec, quia sine 
+ma<lb break="no" ed="#L" n="65"/>teria, ideo infinita secundum quid, idest secundum terminos
+<lb ed="#L" n="66"/>materiales: quia tamen habet esse receptum, est finita 
+sim<lb break="no" ed="#L" n="67"/>pliciter. Esse enim coaptatum ita huic certae naturae, quod
+<lb ed="#L" n="68"/>non alii, limitatum oportet esse simpliciter: alioquin omnis
+<lb ed="#L" n="69"/>in se naturae perfectionem contineret. - Et a partibus 
+uni<lb break="no" ed="#L" n="70"/>versi sufficienter enumeratis, conclusio universalis proposita
+<lb ed="#L" n="71"/>probata est: et satis clare, si praecedentia recolantur.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e733">
+                  <lb ed="#L" n="72"/>Adverte, novitie, quod non dubitando, sed philosophico
+<lb ed="#L" n="73"/>more deferendo proprio tractatui de Angelis inferius 
+ha<lb break="no" ed="#L" n="74"/>bendo, dicit quosdam opinari angelos esse subsistentes 
+sub<lb break="no" ed="#L" n="75"/>stantias.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e82-Dd1e745"><!-- caj-p1-q7-a3 -->
+               <head xml:id="TAcCaj-d1e82-Hd1e748">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e82-d1e750">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e757">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="58"/>E titulo, possit simpliciter, secundum potentiam logicam. -
+<lb ed="#L" n="59"/>In corpore tria: primo assignat causam quaestionis, quod
+<lb ed="#L" n="60"/>non est vana, sed necessaria; secundo distinguit corpus;
+<lb ed="#L" n="61"/>tertio respondet quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e770">
+                  <lb ed="#L" n="62"/>II. Quoad primum, necessitas quaesiti ostenditur ex 
+extra<lb break="no" ed="#L" n="63"/>neitate infinitatis secundum magnitudinem, ab infinitate
+<lb ed="#L" n="64"/>essentiae: quia scilicet aliud est esse infinitum secundum
+<lb ed="#L" n="65"/>essentiam, et aliud secundum quantitatem. Et probatur in
+<lb ed="#L" n="66"/>naturalibus. - Ubi adverte quod inter istas infinitates est
+<lb ed="#L" n="67"/>duplex differentia. Una separationis, qua una non est alia,
+<lb ed="#L" n="68"/>Et haec est manifesta, dum in Deo reperitur infinitas 
+es<lb break="no" ed="#L" n="69"/>sentiae absque quantitate: et in istis inveniri forte potest
+<lb ed="#L" n="70"/>infinitas quantitatis, absque infinitate essentiae, ut patet in
+<lb ed="#L" n="71"/>conditionali posita in littera. — Altera consecutiomis, quia
+<lb ed="#L" n="72"/>una non infert aliam: quia scilicet nec infinitum secundum
+<lb ed="#L" n="73"/>essentiam infert infinitum quantitatis; nec, quod magis 
+du<lb break="no" ed="#L" n="74"/>bitari poterat, infinita magnitudo infert infinitam essentiam,
+<lb ed="#L" n="75"/>ut in littera ostenditur, si esset ignis infinitus. Et de hac
+<lb ed="#L" n="76"/>differentia interpretanda est littera: quoniam est admodum
+<lb ed="#L" n="77"/>ad propositum.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e807">
+                  <lb ed="#L" n="78"/>III. Circa hanc partem, statim occurrit dubium, 
+novitio<lb break="no" ed="#L" n="79"/>rum mentem turbans: eo quod, ut dicitur VIII Physic.
+<lb ed="#L" n="80"/>in magnitudine infinita oportet esse virtutem infinitam.
+<lb ed="#L" n="81"/>Ergo essentiam infinitam: virtus enim non excedit 
+essen<lb break="no" ed="#L" n="82"/>tiam, Quare, si esset ignis infinitus, esset virtutis infinitae;
+<lb ed="#L" n="83"/>et consequenter essentiae infinitae. Falsum est ergo quod
+<lb ed="#L" n="84"/>in littera dicitur, quod si esset magnitudo infinita, non 
+ha<lb break="no" ed="#L" n="85"/>beret essentiam infinitam.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e828">
+                  <lb ed="#L" n="86"/>Ad hoc breviter dicitur, quod obiectio laborat in 
+aequi<lb break="no" ed="#L" n="87"/>voco. Ly enim infinita essentia potest intelligi dupliciter.
+<lb ed="#L" n="88"/>Primo, de infinitate propria essentiae inquantum essentia:
+<lb ed="#L" n="89"/>quae, ut ex dictis patet, nihil aliud est quam 
+indetermina<lb break="no" ed="#L" n="90"/>tio, idest carentia terminorum essentialium, scilicet generis
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e841">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="91"/>et differentiae. Secundo, de infinitate communiter sumpta,
+<lb ed="#L" n="92"/>sive quantitativa, etc. In proposito, obiectio procedit de in.
+<lb ed="#L" n="93"/>finitate secundo modo: littera autem loquitur de infinitate
+<lb ed="#L" n="94"/>primo modo. Et ideo signanter in littera. dicitur infinitum
+<lb ed="#L" n="95"/>secundum essentiam, et non dicitur infinita essentia: 
+me<lb break="no" ed="#L" n="96"/>lius enim explicatur infinitas essentialis per ly secundum
+<lb ed="#L" n="97"/>essentiam, ut patet. 
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e861">
+                  <lb ed="#L" n="98"/>IV. Quoad secundum, distinctio est ista. Corpus potest.
+<lb ed="#L" n="99"/>sumi dupliciter: pAy'sice, pro subiecto trinae dimensioni;
+<lb ed="#L" n="100"/>et mathematice, pro ipsa trina dimensione absolute. Littera
+<lb ed="#L" n="101"/>est satis clara. 
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e872">
+                  <lb ed="#L" n="102"/>Adverte hic quod famosa illa distinctio corporis [3
+<lb ed="#L" n="103"/>a Magno Alberto in I Physic., de corpore triplici, 4
+<lb ed="#L" n="104"/>mathematico, physico et metaphysico, quamvis non 
+habea<lb break="no" ed="#L" n="105"/>tur explicite a s. Thoma, doctrinae tamen suae non solum
+<lb ed="#L" n="106"/>non adversatur, sed congruit. Quoniam apud i ipsum etiam,
+<lb ed="#L" n="107"/>compositum ex materia et forma substantiali, ut praevenit
+<lb ed="#L" n="108"/>aptitudinem sui ipsius ad quantitatem et motum, corpi
+<lb ed="#L" n="109"/>est ad meta hysici considerationem spectans. Sed quoniam
+<lb ed="#L" n="110"/>respectu infinitatis secundum magnitudinem, corpus 
+physi<lb break="no" ed="#L" n="111"/>cum et metaphysicam non ponunt in numerum; ideo hic
+<lb ed="#L" n="112"/>substratum trinae dimensioni, compositum scilicet ex 
+ma<lb break="no" ed="#L" n="113"/>teria et forma, unicum tantum membrum constituit; et
+<lb ed="#L" n="114"/>corpus physicum appellatur, quia secundum formam 
+na<lb break="no" ed="#L" n="115"/>turalem speciem sortitur, ut patet inductive.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e905">
+                  <lb ed="#L" n="116"/>V. Quoad tertium, respondetur quaesito, iuxta duo
+<lb ed="#L" n="117"/>distinctionis positae membra, duabus conclusionibus, 
+ne<lb break="no" ed="#L" n="118"/>gative, Prima est: Nullum corpus naturale potest esse 
+in<lb break="no" ed="#L" n="119"/>finitum secundum magnitudinem.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e916">
+                  <lb ed="#L" n="120"/>Probatur dupliciter, Primo a priori. Formam 
+substan<lb break="no" ed="#L" n="121"/>tialem. sequuntur accidentia ; ergo determinatam formam
+<lb ed="#L" n="122"/>determinata accidentia: ergo determinata quantitas et in
+<lb ed="#L" n="123"/>maius et in minus. Ergo omne corpus naturale habet de-
+<pb ed="#L" n="77"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>terminatam quantitatem et in maius et in minus. Ergo non
+<lb ed="#L" n="2"/>potest esse actu infinitum. - Secunda consequentia 
+proba<lb break="no" ed="#L" n="3"/>tur: quia quantitas est unum de accidentibus sequentibus
+<lb ed="#L" n="4"/>formam substantialem. Tertia vero probatur: quia omne
+<lb ed="#L" n="5"/>corpus naturale habet determinatam formam substantialem.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e943">
+                  <lb ed="#L" n="6"/>VI. Circa primam consequentiam, dubium occurrit, quem
+<lb ed="#L" n="7"/>sensum habeat. Aut enim ly determinata accidentia 
+impor<lb break="no" ed="#L" n="8"/>tat determinationem genericam seu specificam: et tunc est
+<lb ed="#L" n="9"/>sensus, quod talem formam in specie, puta ignis, sequuntur
+<lb ed="#L" n="10"/>talia accidentia secundum speciem, puta calor, lux, talis
+<lb ed="#L" n="11"/>figura, levitas, etc. Iuxta hunc sensum, consequentia est
+<lb ed="#L" n="12"/>optima, sed non infert propositum: ex tali enim sensu non
+<lb ed="#L" n="13"/>sequitur secunda consequentia, ergo quantitas determinata
+<lb ed="#L" n="14"/>et in maius et in minus; quantitas enim maior et minor
+<lb ed="#L" n="15"/>non sunt diversarum specierum, ut patet. — Aut significat
+<lb ed="#L" n="16"/>etiam determinationem gradualem, quoad qualitates, et
+<lb ed="#L" n="17"/>extensionis, quoad quantitatem. Et tunc est sensus, quod
+<lb ed="#L" n="18"/>formam determinatam sequuntur non solum ita haec 
+acci<lb break="no" ed="#L" n="19"/>dentia secundum speciem, quod non illa; sed ita accidentia
+<lb ed="#L" n="20"/>in tali gradu seu extensione, quod non in alio. Et 
+secun<lb break="no" ed="#L" n="21"/>dum hunc sensum procul dubio est hic intenta.
+<lb ed="#L" n="22"/>—. Sed potest adhuc dupliciter intelligi. Primo, quod certam
+<lb ed="#L" n="23"/>formam sequuntur determinata accidentia, non solum in
+<lb ed="#L" n="24"/>toto, sed in omnibus et singulis partibus: puta quod 
+for<lb break="no" ed="#L" n="25"/>mam aquae sequitur certa quantitas, non solum in aliqua
+<lb ed="#L" n="26"/>tota aqua, sed in quibuscumque partibus integralibus. Et
+<lb ed="#L" n="27"/>hic sensus alienus est a veritate et proposito: quoniam non
+<lb ed="#L" n="28"/>datur minima pars aquae aut albi, ut dicitur in libro de
+<lb ed="#L" n="29"/>Sensu et Sensato; sed, quacumque parte data, datur minor
+<lb ed="#L" n="30"/>inexistens, in homogeneis. — Secundo, quod certam formam
+<lb ed="#L" n="31"/>sequuntur determinata accidentia in toto et partibus 
+possi<lb break="no" ed="#L" n="32"/>bilibus seorsum existere. Et hic sensus est directe intentus :
+<lb ed="#L" n="33"/>quoniam in partibus inexistentibus tantum, non est 
+pro<lb break="no" ed="#L" n="34"/>prie forma, sed formae pars, tam actu quam potentia; in
+<lb ed="#L" n="35"/>littera autem dicitur quod formam determinatam sequuntur
+<lb ed="#L" n="36"/>accidentia et quantitas determinata. Sed unde in hoc sensu
+<lb ed="#L" n="37"/>consequentia valeat, quodve sit illius fundamentum, latet.
+<lb ed="#L" n="38"/>Et ideo vertitur in dubium, primo quoad determinationem
+<lb ed="#L" n="39"/>quantitatis n minus; secundo, quoad determinationem 
+eius<lb break="no" ed="#L" n="40"/>dem in maius.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1021">
+                  <lb ed="#L" n="41"/>VII. Scotus, in II Sent., dist. n, qu. 1x, nititur probare
+<lb ed="#L" n="42"/>oppositum, et sustinere quod non datur minimum in 
+ho<lb break="no" ed="#L" n="43"/>mogeneis substantiis, potens per se existere: sed, 
+quacum<lb break="no" ed="#L" n="44"/>que aqua data, potest minor per se existere. Et sic forma
+<lb ed="#L" n="45"/>eius non determinat sibi certam quantitatem in minus, ut
+<lb ed="#L" n="46"/>in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1037">
+                  <lb ed="#L" n="47"/>Arguit ergo ex ratione quanti (V Metaphys.), sic. Non
+<lb ed="#L" n="48"/>magis essentiale est quanto, posse dividi in partes, quam
+<lb ed="#L" n="49"/>quod utrumque eorum in quae dividitur, possit esse Aoc
+<lb ed="#L" n="50"/>aliquid. Ergo singulae partes quantaecumque aquae 
+pos<lb break="no" ed="#L" n="51"/>. sunt per se existere. — Antecedens patet ex V Metaphys.
+<lb ed="#L" n="52"/>Consequentia vero manifesta est ex se. Et nihilominus 
+con<lb break="no" ed="#L" n="53"/>sequens confirmatur quadrupliciter. Tum quia partes sunt
+<lb ed="#L" n="54"/>eiusdem rationis cum toto, quoad materiam et formam.
+<lb ed="#L" n="55"/>Ergo per se existere, quod non repugnat toti, non repugnat
+<lb ed="#L" n="56"/>parti. - Tum quia quaelibet pars habet naturam: unde non
+<lb ed="#L" n="57"/>repugnat sibi esse individuum eiusdem speciei cum toto.
+<lb ed="#L" n="58"/>Ergo potest esse individuum; et consequenter per se 
+exi<lb break="no" ed="#L" n="59"/>stere. - Tum quia partes sunt naturaliter priores toto. Ergo
+<lb ed="#L" n="60"/>eis non repugnat esse prius tempore, etc. - Tum quia, posita
+<lb ed="#L" n="61"/>illa aqua minima, circumscripto omni corruptivo, etiam
+<lb ed="#L" n="62"/>continente, si dividatur, aut post divisionem quae erat una
+<lb ed="#L" n="63"/>aqua in actu et multae in potentia, erit aquae plures in
+<lb ed="#L" n="64"/>actu, et habetur intentum: aut non. Et si non, ergo 
+an<lb break="no" ed="#L" n="65"/>nihilata est aqua absque corruptivo. Probatur: quia sola
+<lb ed="#L" n="66"/>divisio non corrumpit. Probatur: quia dividit in partes 
+ho<lb break="no" ed="#L" n="67"/>mogeneas, ex quibus constat totum; ergo dividit in aquas;
+<lb ed="#L" n="68"/>aut aqua componitur ex non aquis, ut partibus integralibus.
+<lb ed="#L" n="69"/>Nec est, inquit, repugnantia ex parte parvae quantitatis:
+<lb ed="#L" n="70"/>quia forma aquae cum tam parva quantitate praefuit.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1092">
+                  <lb ed="#L" n="71"/>VIII. Contra determinationem vero quantitatis in maius,
+<lb ed="#L" n="72"/>arguitur ratione et auctoritate, Ratione quidem: dato 
+quo<lb break="no" ed="#L" n="73"/>cumque igne, si apponatur combustibile dispositum, certum
+<lb ed="#L" n="74"/>est quod comburet. Illud ergo crescit, quantum est ex se,
+<lb ed="#L" n="75"/>in infinitum, - Et confirmatur auctoritate <ref xml:id="TAcCaj-d1e82-Rd1e1105">Aristotelis, II de
+<cb ed="#L" n="b"/>
+                     <lb ed="#L" n="76"/>Anima, text. 41<!-- margin suggests cap 4, n. 8 --></ref>: <quote xml:id="TAcCaj-d1e82-Qd1e1113">ignis augeretur in infinitum, si in 
+in<lb break="no" ed="#L" n="77"/>finitum apponeretur combustibile</quote>. Non ergo datur maximus
+<lb ed="#L" n="78"/>ignis.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1121">
+                  <lb ed="#L" n="79"/>IX. Ad evidentiam huius difficultatis, nota primo, quod
+<lb ed="#L" n="80"/>non intendimus hic tractare totaliter de maximo et minimo,
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1128">
+                  <lb ed="#L" n="81"/>| quoniam esset extra propositum; sed solum an detur maxi-
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1134">
+                  <lb ed="#L" n="82"/>mum et minimum ex intrinseco. Hoc enim exigit ratio 
+as<lb break="no" ed="#L" n="83"/>sumpta in littera, volens quod ex intrinseco, ex forma 
+sci<lb break="no" ed="#L" n="84"/>licet substantiali, unaquaeque substantia naturalis vindicet
+<lb ed="#L" n="85"/>sibi certam quantitatem, tam in maius quam in minus. Et
+<lb ed="#L" n="86"/>ideo has paucas rationes in hac disputatione. adduximus.
+<lb ed="#L" n="87"/>Fiet autem, Deo dante, specialis quaestio de maximo et 
+mi<lb break="no" ed="#L" n="88"/>nimo universaliter. - Nota secundo, quod duas rationes ab
+<lb ed="#L" n="89"/>Aristotele habemus ad hoc. Alteram <ref xml:id="TAcCaj-d1e82-Rd1e1153">1 Physic., text. 36</ref>,
+<lb ed="#L" n="90"/>scilicet: <quote xml:id="TAcCaj-d1e82-Qd1e1157">quantitas totius consurgit ex quantitatibus 
+par<lb break="no" ed="#L" n="91"/>tium</quote>, etc. Sed ista ratio, ut patet, procedit ex suppositione:
+<lb ed="#L" n="92"/>supponit enim dari maximum, et concludit dari minimum,
+<lb ed="#L" n="93"/>alioquin totum non esset certae quantitatis. Alteram in II
+<lb ed="#L" n="94"/>de Anima, text. 41, scilicet: omnium natura constantium
+<lb ed="#L" n="95"/>determinata est ratio, etc, Et haec ratio, ut inquit Scotus,
+<lb ed="#L" n="96"/>loquitur de animatis, in quibus tantum habet locum 
+aug<lb break="no" ed="#L" n="97"/>mentum proprie dictum, de quo ibi est sermo.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1176">
+                  <lb ed="#L" n="98"/>Verum, quidquid sit de illo textu, s. Thomas 
+universa<lb break="no" ed="#L" n="99"/>lizavit illam: et quod ibi de anima dicitur, de omni forma
+<lb ed="#L" n="100"/>substantiali assumpsit, scilicet quod vindicat sibi certam
+<lb ed="#L" n="101"/>quantitatem. Et probavit eam secundum doctrinam 
+tradi<lb break="no" ed="#L" n="102"/>tam V Metaphys. et II Physic., scilicet quod causae
+<lb ed="#L" n="103"/>effectibus, et e converso, comparantur et commensurantur.
+<lb ed="#L" n="104"/>Ex hoc enim sequitur quod, si formam substantialem 
+na<lb break="no" ed="#L" n="105"/>turaliter in communi sequitur quantitas, ergo 
+determina<lb break="no" ed="#L" n="106"/>tam formam. détérminata quantitas. Sed quantitas non alio
+<lb ed="#L" n="107"/>modo determinatur quam secundum terminos: non enim
+<lb ed="#L" n="108"/>corporeitas hominis et aquae differt specie, ut'posset dici
+<lb ed="#L" n="109"/>quod determinatam formam. sequitur determinata quantitas
+<lb ed="#L" n="110"/>secundum speciem. Igitur sequitur quantitas determinata
+<lb ed="#L" n="111"/>secundum terminos. - Quamvis etiam si quantitates 
+differ<lb break="no" ed="#L" n="112"/>rent specie, adhuc tamen haberetur fundamentum 
+conse<lb break="no" ed="#L" n="113"/>quentiae, ex eo quod determinata forma est vis 
+determi<lb break="no" ed="#L" n="114"/>natae, ac per hoc nihil consequens ad ipsam potest esse
+<lb ed="#L" n="115"/>infinitum: si enim haberet calorem, raritatem, quantitatem,
+<lb ed="#L" n="116"/>aut quodcumque accidens infinitum , iam a forma finita
+<lb ed="#L" n="117"/>esset vis infinita; quod non est intelligibile. Quia ergo 
+for<lb break="no" ed="#L" n="118"/>mam physicam in communi sequuntur accidentia, 
+conse<lb break="no" ed="#L" n="119"/>quens est ut certam formam, ac per hoc rem certae vis,
+<lb ed="#L" n="120"/>sequantur certa accidentia: non solum ita haec quod non
+<lb ed="#L" n="121"/>illa; sed etiam ita in tali gradu vel termino, summo, imo
+<lb ed="#L" n="122"/>vel medio, quod non in maiori aut minori. — Et sic habetur
+<lb ed="#L" n="123"/>unde tenet consequentia litterae, non solum de quantitate,
+<lb ed="#L" n="124"/>sed de omnibus accidentibus.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1237">
+                  <lb ed="#L" n="125"/>X. Ad rationem ergo Scoti, concesso antecedente, 
+ne<lb break="no" ed="#L" n="126"/>gatur consequentia. Et ratio est, quia utrumque, scilicet
+<lb ed="#L" n="127"/>dividi in partes, et illas posse esse hoc aliquid, si realiter
+<lb ed="#L" n="128"/>intelligatur, non convenit quanto per se positive, sed non
+<lb ed="#L" n="129"/>repugnanter, ut patet de quantitate caeli: quantum enim
+<lb ed="#L" n="130"/>illud nec potest actuali divisione dividi, nec potest aliqua
+<lb ed="#L" n="131"/>pars eius seorsum existere, et tamen est vere quantum.
+<lb ed="#L" n="132"/>Utraque ergo conditio posita in ratione quanti, potest 
+im<lb break="no" ed="#L" n="133"/>pediri ne exerceatur, a forma naturali cui coniuncta est
+<lb ed="#L" n="134"/>quantitas. Unde illa definitio convenit quanto ut sic: et
+<lb ed="#L" n="135"/>tamen alicui quanto repugnat, - Et si contra hoc afferatur
+<lb ed="#L" n="136"/>ratio illa Scoti: Quandocumque aliqua per se consequentia
+<lb ed="#L" n="137"/>aliqua duo, sunt incompossibilia, et illa duo sunt 
+incom<lb break="no" ed="#L" n="138"/>possibilia; sed conditiones quanti et formae minimi sunt
+<lb ed="#L" n="139"/>incompossibiles; ergo quantum et forma minimi sunt 
+in<lb break="no" ed="#L" n="140"/>compossibiles: - respondetur primo, applicando totum 
+ar<lb break="no" ed="#L" n="141"/>gumentum ad naturam caeli, quae non patitur divisionem.
+<lb ed="#L" n="142"/>Secundo (quia multiplicare non est solvere), quod illa
+<lb ed="#L" n="143"/>maior est vera de per se consequentibus positive: non 
+au<lb break="no" ed="#L" n="144"/>tem non repugnanter. Unde velocitabilitas in infinitum,
+<lb ed="#L" n="145"/>convenit motui per se non repugnanter, unde et 
+demon<lb break="no" ed="#L" n="146"/>strátur de eo: motui tamen naturali cuilibet repugnat, ut
+<lb ed="#L" n="147"/>patet II Caeli, text. 39: et propterea motus et naturalitas
+<lb ed="#L" n="148"/>non sunt incompossibiles.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1292">
+                  <lb ed="#L" n="149"/>Posset tamen aliter dici, quod illae conditiones non 
+in<lb break="no" ed="#L" n="150"/>telliguntur. secundum actualem. divisionem, sed secundum
+<pb ed="#L" n="78"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>designationem: et quod sic omne quantum est divisibile,
+<lb ed="#L" n="2"/>et quaelibet pars potest esse hoc aliquid, secundum 
+desi<lb break="no" ed="#L" n="3"/>gnationem. Et tunc etiam nihil contra propositum nostrum
+<lb ed="#L" n="4"/>sequitur. i
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1312">
+                  <lb ed="#L" n="5"/>XI. Ad primam confirmationem, negatur sequela. Quia
+<lb ed="#L" n="6"/>aliquam conditionem requirit forma aquae in per se primo
+<lb ed="#L" n="7"/>perfectibili; quam non requirit in parte illius: una autem
+<lb ed="#L" n="8"/>harum conditionum est tanta quantitas. Et simile est 
+iudi<lb break="no" ed="#L" n="9"/>cium de tanto calore, etc.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1325">
+                  <lb ed="#L" n="10"/>Ad secundam quoque eodem modo dicitur: quod non
+<lb ed="#L" n="11"/>sufficit ad posse esse individuum eiusdem speciei, 
+com<lb break="no" ed="#L" n="12"/>municare in natura; sed oportet adiungere conditiones 
+re<lb break="no" ed="#L" n="13"/>quisitas ad per se existere. Quidquid enim habet naturam
+<lb ed="#L" n="14"/>aquae cum conditionibus necessariis ad per se existendum,
+<lb ed="#L" n="15"/>potest esse aquae individuum; et non aliter.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1342">
+                  <lb ed="#L" n="16"/>Ad tertiam, negatur consequentia, quoad partes 
+inexi<lb break="no" ed="#L" n="17"/>stentes tantum. |
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1349">
+                  <lb ed="#L" n="18"/>Ad ultimam dicitur quod, si poneretur minimus ignis
+<lb ed="#L" n="19"/>tantummodo, et divideretur, quod non solum 
+corrumpe<lb break="no" ed="#L" n="20"/>retur, sed annihilaretur; licet tam antecedens quam 
+conse<lb break="no" ed="#L" n="21"/>quens sit impossibile. Nec oportet quaerere aliud 
+destructi<lb break="no" ed="#L" n="22"/>vum quam divisionem: quoniam etsi divisio ut sic non
+<lb ed="#L" n="23"/>sit corruptiva, divisio tamen talis, scilicet minimi naturalis,
+<lb ed="#L" n="24"/>est universaliter corruptiva; et in tali casu annihilativa.
+<lb ed="#L" n="25"/>Nec ignis minimus est unus in actu et multi in potentia,
+<lb ed="#L" n="26"/>nisi eo modo quo partes dicuntur esse in potentia in toto:
+<lb ed="#L" n="27"/>quia scilicet sunt per esse, non proprium, sed totius; sicut
+<lb ed="#L" n="28"/>et partes caeli sunt in toto in potentia.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1375">
+                  <lb ed="#L" n="29"/>XII. Ad ea vero quae contra maximum obiiciuntur,
+<lb ed="#L" n="30"/>respondetur quod maximum ignem dari potest intelligi
+<lb ed="#L" n="31"/>dupliciter: uno modo, loquendo de individuo ignis per se
+<lb ed="#L" n="32"/>uno; alio modo, de uno quasi per aggregationem. Et dico
+<lb ed="#L" n="33"/>quod datur ex intrinseco maximus et minimus ignis in per
+<lb ed="#L" n="34"/>se uno individuo; quamvis non detur maximus unus quasi
+<lb ed="#L" n="35"/>per aggregationem, nisi ab extrinseco (quia scilicet universi
+<lb ed="#L" n="36"/>natura non patitur ignem superare cetera elementa, etc.).
+<lb ed="#L" n="37"/>Vocatur autem ignis individuum per se unum, illud quod
+<lb ed="#L" n="38"/>constat sic ex una necessario in actu tam forma quam
+<lb ed="#L" n="39"/>materia, quod per solam divisionem non posset fieri duo
+<lb ed="#L" n="40"/>ignes. Nec hoc consistit in indivisibili: sed tota latitudo a
+<lb ed="#L" n="41"/>quantitate minima ignis, ad quantitatem duorum 
+minimo<lb break="no" ed="#L" n="42"/>rum exclusive, constituit per se unum pumero ignem.
+<lb ed="#L" n="43"/>Quantitas autem duorum minimorum, et maior, facit unum
+<lb ed="#L" n="44"/>quasi per aggregationem. Et idem est iudicium de aqua
+<lb ed="#L" n="45"/>et aliis elementis, et huiusmodi homogeneis. — Nec, ex his
+<lb ed="#L" n="46"/>motus, intelligas plantam non esse per se unam, quae est
+<lb ed="#L" n="47"/>una in actu et multae in potentia: quoniam partes plantae
+<lb ed="#L" n="48"/>organicae sunt, et ad complementum naturale individui
+<lb ed="#L" n="49"/>eius, requiritur quod habeat omnes partes, etc. Non sic est
+<lb ed="#L" n="50"/>in huiusmodi homogeneis, ut patet. - Apposito ergo 
+com<lb break="no" ed="#L" n="51"/>bustibili cuicumque igni etc., concedendum est quod 
+com<lb break="no" ed="#L" n="52"/>bureret, et quod cresceret in infinitum: sed non esset per
+<lb ed="#L" n="53"/>se unus numero ignis. - Et sic patet responsio ad 
+auctori<lb break="no" ed="#L" n="54"/>tatem Aristotelis.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1434">
+                  <lb ed="#L" n="55"/>XIII. Circa probationem secundae consequentiae, 
+oc<lb break="no" ed="#L" n="56"/>currit dubium: quia falsum assumitur, scilicet quod 
+quan<lb break="no" ed="#L" n="57"/>titas sit unum accidentium sequentium formam 
+substan<lb break="no" ed="#L" n="58"/>tialem; cum. constet quantitatem esse accidens consequens
+<lb ed="#L" n="59"/>materiam..- Nec valet dicere quod quantitas consideratur
+<lb ed="#L" n="60"/>dupliciter, scilicet absolute, et ut terminata; et quod, licet
+<lb ed="#L" n="61"/>absolute sit consequens materiam, terminatio tamen eius
+<lb ed="#L" n="62"/>sequitur formam. Haec enim, licet sint vera, non tamen
+<lb ed="#L" n="63"/>ad propositum. Quia littera, ex hoc quod quantitas 
+conse<lb break="no" ed="#L" n="64"/>quitur formam, infert, ergo est terminata: unde, si 
+assum<lb break="no" ed="#L" n="65"/>ptum esset quod quantitas quoad terminationem sequitur
+<lb ed="#L" n="66"/>formam, esset petitio principii.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1463">
+                  <lb ed="#L" n="67"/>XIV. Ad hoc videtur dicendum, quantitatem dupliciter
+<lb ed="#L" n="68"/>sumi posse. Uno modo, secundum id quod est in ea de
+<lb ed="#L" n="69"/>actu: et sic sequitur formam. Alio modo, secundum id
+<lb ed="#L" n="70"/>quod est in ea de potentia: et sic sequitur materiam. Et
+<lb ed="#L" n="71"/>quoniam plurimum in ea est quod spectat ad materiam
+<lb ed="#L" n="72"/>potentiae, ut patet in definitione quanti V. Metaphys. ;
+<lb ed="#L" n="73"/>ideo absolute ponitur accidens consequens compositum 
+ra<lb break="no" ed="#L" n="74"/>tione materiae. Et quoniam in proposito est sermo de
+<lb ed="#L" n="75"/>quantitate in actu, quia de infinito in actu; ideo in propo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>sito, utens littera quantitate ex parte actus, attribuit ipsam
+<lb ed="#L" n="77"/>formae; et ex hoc quod ipsa, secundum quod est actu,
+<lb ed="#L" n="78"/>sequitur formam, infert: ergo est terminata, sicut cetera
+<lb ed="#L" n="79"/>consequentia formam. !
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1496">
+                  <lb ed="#L" n="80"/>XV. Secundo probatur conclusio ex ratione mobilitatis.
+<lb ed="#L" n="81"/>Omne corpus naturale habet aliquem motum naturalem,
+<lb ed="#L" n="82"/>ex I Caeli, text. 5: nullum corpus infinitum est 
+natura<lb break="no" ed="#L" n="83"/>liter mobile: ergo. - Probatur minor, utendo distinctione
+<lb ed="#L" n="84"/>motus naturalis facta I Caeli. Quia non potest moveri
+<lb ed="#L" n="85"/>motu recto: eo quod omne tale potest extra locum suum,
+<lb ed="#L" n="86"/>saltem secundum partes, esse. Nec motu circulari: eo quod
+<lb ed="#L" n="87"/>lineae a centro circuli protractae, quanto longius 
+protra<lb break="no" ed="#L" n="88"/>huntur, tanto inter se magis distant; ergo in corpore 
+infi<lb break="no" ed="#L" n="89"/>nito distarent inter se infinite; ergo nunquam una 
+perve<lb break="no" ed="#L" n="90"/>niret ad locum alterius; ergo nunquam una pars corporis
+<lb ed="#L" n="91"/>infiniti circularis potest venire ad locum ubi est alia; ergo
+<lb ed="#L" n="92"/>implicat ipsum moveri. Et sumpta est haec ratio ex I Caeli,
+<lb ed="#L" n="93"/>text; 35:.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1530">
+                  <lb ed="#L" n="94"/>XVI. Secunda conclusio est: Nullum corpus 
+mathe<lb break="no" ed="#L" n="95"/>maticum potest esse infinitum in actu. - Probatur. Si est
+<lb ed="#L" n="96"/>corpus in actu, ergo habet formam: ergo figuram: ergo
+<lb ed="#L" n="97"/>terminum, Ergo non est infinitum, — Prima consequentia
+<lb ed="#L" n="98"/>probatur: quia nihil est actu nisi per formam suam. 
+Se<lb break="no" ed="#L" n="99"/>cunda vero: quia forma corporis de genere quantitatis ut
+<lb ed="#L" n="100"/>sic, est figura. Tertia autem ex definitione figurae. Et haec
+<lb ed="#L" n="101"/>ratio sumpta est ex III Physic., text. 40. ;
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1550">
+                  <lb ed="#L" n="102"/>XVII. In responsione ad secundum, adverte quod, si
+<lb ed="#L" n="103"/>diligenter inspiciatur, negat infinitum esse passionem 
+quan<lb break="no" ed="#L" n="104"/>titatis; quamvis concedat ei non repugnare. Et si contra
+<lb ed="#L" n="105"/>hoc afferatur textus decimusquintus 1 Physic., scilicet,
+<lb ed="#L" n="106"/>finiti et infiniti ratio quantitati congruit, in promptu est
+<lb ed="#L" n="107"/>responsio: quod hoc non ideo dicitur, quod quantitas 
+vin<lb break="no" ed="#L" n="108"/>dicet sibi infinitatem; sed e converso, quia infinitas 
+vin<lb break="no" ed="#L" n="109"/>dicat sibi quantitatem, quoniam non est intelligibile 
+infini<lb break="no" ed="#L" n="110"/>tum nisi quantum: sicut etiam dicitur, vacui ratio convenit
+<lb ed="#L" n="111"/>loco. Intendunt enim per hoc philosophi, quod si ista 
+in<lb break="no" ed="#L" n="112"/>veniuntur, oportet reperiri in quantitate et loco, etc. —
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1576">
+                  <lb ed="#L" n="113"/>XVIII. In responsione ad tertium, àdverte quod, licet 
+re<lb break="no" ed="#L" n="114"/>sponsio sumpta sit ex III Physic., ex quo sumptae sunt etiam
+<lb ed="#L" n="115"/>reliquae responsiones (ad primum quidem ex textu 71:,
+<lb ed="#L" n="116"/>ad quartum autem ex 74, ad hoc vero ex 66): licet,
+<lb ed="#L" n="117"/>inquam, ita sit, obstant tamen huic responsioni dicta s. 
+Tho<lb break="no" ed="#L" n="118"/>mae in Tertia Parte, qu. vir, art. 12; et in III Sent,
+<lb ed="#L" n="119"/>dist. xir, qu. 1, art. 2, qu. rr, ad 1r; imo etiam hic, in 
+ar<lb break="no" ed="#L" n="120"/>ticulo sequenti, in responsione ad 2, concedendo 
+augmen<lb break="no" ed="#L" n="121"/>tum figurarum in infinitum. In III quoque Physic., 
+ex<lb break="no" ed="#L" n="122"/>presse Aristoteles concedit, textu 59 et 60, magnitudinem
+<lb ed="#L" n="123"/>augeri in infinitum, sicut et dividi.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1602">
+                  <lb ed="#L" n="124"/>XIX. Ad hoc breviter respondetur, cum Aristotele 
+ibi<lb break="no" ed="#L" n="125"/>dem, quod magnitudinem augeri in infinitum, potest 
+du<lb break="no" ed="#L" n="126"/>pliciter intelligi. Primo, ea ratione quia semper potest fieri
+<lb ed="#L" n="127"/>sibi additio secundum partes rues Et sic ibidem
+<lb ed="#L" n="128"/>dicitur quod augeri potest in infinitum: sed per tale 
+aug<lb break="no" ed="#L" n="129"/>mentum nunquam excedetur certa magnitudo signata. 
+Se<lb break="no" ed="#L" n="130"/>cundo, quia semper potest fieri additio simpliciter, ita quod
+<lb ed="#L" n="131"/>excedat omnem certam quantitatem. Et sic distinguendum
+<lb ed="#L" n="132"/>est. Quia aut loquimur de magnitudine, stando inífra 
+li<lb break="no" ed="#L" n="133"/>mites continui: aut de ea ut induit rationem discreti. Primo
+<lb ed="#L" n="134"/>modo, nec augmento naturali, nec intellectuali, continuum
+<lb ed="#L" n="135"/>est augmentabile in infinitum: et causa assignatur in littera.
+<lb ed="#L" n="136"/>Secundo modo autem, augmentabile est in infinitum, sicut
+<lb ed="#L" n="137"/>et numerus: et ad hoc pertinet augmentum figurarum in
+<lb ed="#L" n="138"/>infinitum. - Dixi autem de continuo ut sic, quod nec intel--
+<lb ed="#L" n="139"/>ligibili augmento est augmentabile in infinitum, non quod
+<lb ed="#L" n="140"/>intellectus non possit, quacumque magnitudine data, 
+fin<lb break="no" ed="#L" n="141"/>gere maiorem, et sic in infinitum; sed quoniam in natura
+<lb ed="#L" n="142"/>continui ut sic, non est potentia ad huiusmodi augmentum.
+<lb ed="#L" n="143"/>In natura tamen numeri materialis est: et similiter in 
+na<lb break="no" ed="#L" n="144"/>tura continui est potentia ad diminutionem in infinitum,
+<lb ed="#L" n="145"/>ut patet ex eius ratione. Et sic omnia consonant, diversis
+<lb ed="#L" n="146"/>modis intellecta.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1654">
+                  <lb ed="#L" n="147"/>XX. Circa rationem assignatam in littera, dubium 
+oc<lb break="no" ed="#L" n="148"/>currit ex Scoto, in III Sent., dist. xur, qu. 1. Impugnat 
+si<lb break="no" ed="#L" n="149"/>quidem eam sic. Quilibet numerus est unus secundum se ,
+<lb ed="#L" n="150"/>formaliter, ex VIII Metaphys. : ergo in augmentatione nu- 
+<pb ed="#L" n="79"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>meri acceditur ad formam: ergo accessus ad formam non |
+<lb ed="#L" n="2"/>prohibet augmentum in infinitum. Ergo male in. littera 
+di<lb break="no" ed="#L" n="3"/>citur quod ideo magnitudo non augetur in infinitum, quia
+<lb ed="#L" n="4"/>accedit ad totum et formam.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1678">
+                  <lb ed="#L" n="5"/>XXI. Ad hoc dicitur quod, cum numerus augmentabilis
+<lb ed="#L" n="6"/>in infinitum non sit quilibet numerus, sed numerus 
+conti<lb break="no" ed="#L" n="7"/>nuorum, ut patet III PAysic., text. 68, augmentatio numeri
+<lb ed="#L" n="8"/>non accedit ad numerum simpliciter, sed talem, scilicet
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>partium continui: ac per hoc, manifeste acceditur, non ad
+<lb ed="#L" n="10"/>totum , sed ad partem; sicut et divisio continui, ex qua
+<lb ed="#L" n="11"/>causatur. Augmentatio autem continui ad totum simpliciter
+<lb ed="#L" n="12"/>accedit. - Neganda est ergo prima consequentia Scoti: 
+quo<lb break="no" ed="#L" n="13"/>niam a numero ad numerum /alem, idest materialem, arguit.
+<lb ed="#L" n="14"/>Quod non licet in proposito: quia ly materialis minuit
+<lb ed="#L" n="15"/>rationem numeri quoad formalitatem, quia addit 
+materia<lb break="no" ed="#L" n="16"/>litatem formae, et permiscet actum potentiae, ut patet.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e82-Dd1e1710"><!-- caj-p1-q7-a4 -->
+               <head xml:id="TAcCaj-d1e82-Hd1e1713">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e82-d1e1715">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1722">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>In titulo, secundum multitudinem quamcumque, sive de
+<lb ed="#L" n="11"/>genere quantitatis, sive extra genus. Et hinc patet quod
+<lb ed="#L" n="12"/>ista quaestio est altior et universalior quam inquisitio quae
+<lb ed="#L" n="13"/>fit III Physic.: quoniam ibi de materiali tantum 
+multitu<lb break="no" ed="#L" n="14"/>dine, sequente divisionem continui, sermo est; hic autem
+<lb ed="#L" n="15"/>de multitudine universaliter, sive materiali sive immateriali.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1740">
+                  <lb ed="#L" n="16"/>II. In corpore duo: primo refert opinionem Avicennae et
+<lb ed="#L" n="17"/>Algazelis; secundo, improbando eam, respondet quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1747">
+                  <lb ed="#L" n="18"/>III. Quoad primum, duas propositiones refert, ac eas
+<lb ed="#L" n="19"/>declarat. Altera est: zmpossibile est esse in actu 
+multitu<lb break="no" ed="#L" n="20"/>dinem infinitam per se. Altera: possibile est esse in actu
+<lb ed="#L" n="21"/>multitudinem infinitam per accidens. - Declarantur ambae,
+<lb ed="#L" n="22"/>manifestatis illis terminis, infinita per se multitudo et 
+infi<lb break="no" ed="#L" n="23"/>nita per accidens. Probantur vero: quia nunquam 
+comple<lb break="no" ed="#L" n="24"/>retur opus, si ex infinitis per se dependeret; secus autem
+<lb ed="#L" n="25"/>per accidens; ut patet in exemplo litterae.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1768">
+                  <lb ed="#L" n="26"/>IV. Quoad secundum, sunt duae conclusiones 
+respon<lb break="no" ed="#L" n="27"/>sivae quaesito, secundum diversitatem actus a potentia.
+<lb ed="#L" n="28"/>Prima est: Impossibile est esse in actu infinitam 
+multitu<lb break="no" ed="#L" n="29"/>dinem, sive per se sive per accidens. Secunda est: Possibile
+<lb ed="#L" n="30"/>est esse multitudinem infinitam in potentia.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1781">
+                  <lb ed="#L" n="31"/>Prima conclusio probatur dupliciter. Omnis multitudo
+<lb ed="#L" n="32"/>actu existens, est in aliqua specie multitudinis: ergo est
+<lb ed="#L" n="33"/>secundum aliquam speciem numeri: ergo est finita. - 
+Ante<lb break="no" ed="#L" n="34"/>cedens patet. Prima vero consequentia probatur: quia 
+spe<lb break="no" ed="#L" n="35"/>cies multitudinis sunt secundum species numerorum. 
+Se<lb break="no" ed="#L" n="36"/>cunda: quia numerus est multitudo mensurata per unum.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1797">
+                  <lb ed="#L" n="37"/>V. Circa primam consequentiam et eius probationem,
+<lb ed="#L" n="38"/>dubitatur. Quia multitudo est quid communius quam 
+nu<lb break="no" ed="#L" n="39"/>merus, et consequenter debet habere species plures quam
+<lb ed="#L" n="40"/>numerus: alioquin communioris rationem non retineret.
+<lb ed="#L" n="41"/>Non ergo species multitudinis sunt secundum speciem 
+nu<lb break="no" ed="#L" n="42"/>meri. - Et confirmatur hoc: quia dici potest quod species
+<lb ed="#L" n="43"/>multitudinis finitae sunt secundum species numeri; non
+<lb ed="#L" n="44"/>autem species multitudinis absolute. - Et attestatur his 
+Ari<lb break="no" ed="#L" n="45"/>stoteles, V Metaphys., capitulo de Quanto, dicens quod
+<lb ed="#L" n="46"/>pluralitas finita est numerus: quasi infinitatem excipiat.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1821">
+                  <lb ed="#L" n="47"/>VI. Ad hoc breviter dicitur quod, cum ignota ex 
+notio<lb break="no" ed="#L" n="48"/>ribus naturaliter cognoscamus, et experiamur omnis 
+multi<lb break="no" ed="#L" n="49"/>tudinis species quas novimus, proportionales esse speciebus
+<lb ed="#L" n="50"/>numeri; satis consonat arti ut possit universalis propositio
+<lb ed="#L" n="51"/>formari, quod omnis species multitudinis est secundum
+<lb ed="#L" n="52"/>aliquam speciem numeri.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1837">
+                  <lb ed="#L" n="53"/>Ad obiectionem autem dicitur, quod aliud est omnes
+<lb ed="#L" n="54"/>species multitudinis esse species numeri, quod falsum est:
+<lb ed="#L" n="55"/>et aliud, omnes species multitudinis esse secundum species
+<lb ed="#L" n="56"/>numeri, idest proportionales illis, quod assumptum est, et
+<lb ed="#L" n="57"/>verum. Unde multitudo, quia universalius quid est, habet
+<lb ed="#L" n="58"/>multo. plures species quam. numerus: quia habet omnes
+<lb ed="#L" n="59"/>species numeri, et omnes species multitudinis immaterialis,
+<lb ed="#L" n="60"/>quae proprie non est numerus, etc. - Et per hoc patet ad
+<lb ed="#L" n="61"/>confirmationem, quod illud voluntarie, non rationabiliter
+<lb ed="#L" n="62"/>diceretur. — Textus autem Aristotelis nihil officit. 
+Quando<lb break="no" ed="#L" n="63"/>quidem nihil ex illo ad propositum elici potest, nisi quod
+<lb ed="#L" n="64"/>pluralitas infinita non esset numerus: sed hoc non obstat
+<lb ed="#L" n="65"/>processui huic, sed magis confirmat secundam 
+consequen<lb break="no" ed="#L" n="66"/>tiam, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1870">
+                  <lb ed="#L" n="67"/>VII. Secundo probatur eadem conclusio. Omnis 
+mul<lb break="no" ed="#L" n="68"/>titudo in rerum natura actu existens, est creata: ergo 
+com<lb break="no" ed="#L" n="69"/>prehenditur sub aliqua certa intentione creantis: ergo certo
+<lb ed="#L" n="70"/>numero. Ergo impossibile est quod sit infinita. - 
+Antece<lb break="no" ed="#L" n="71"/>dens patet. Prima vero consequentia probatur: quia non
+<lb ed="#L" n="72"/>in vanum agens aliquid operatur. Reliquae relinquuntur ut
+<lb ed="#L" n="73"/>evidentes.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1889">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>VIII. Circa hanc rationem dubitatur: quoniam aut 
+as<lb break="no" ed="#L" n="75"/>sumit falsum , aut non infert intentum. Cüm enim 
+assu<lb break="no" ed="#L" n="76"/>mitur quod omne creatum s$ub aliqua certa intentione
+<lb ed="#L" n="77"/>creantis comprehenditur, aut intelligitur de intentione certa
+<lb ed="#L" n="78"/>certitudine finis ; aut certitudine medii per quod 
+acquiri<lb break="no" ed="#L" n="79"/>tur finis.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1907">
+                  <lb ed="#L" n="80"/>Si certitudine finis, tunc dupliciter exponi potest: aut ita
+<lb ed="#L" n="81"/>quod ipsum creatum sit certus finis; aut ita quod habeat
+<lb ed="#L" n="82"/>certum finem. Si igitur sensus est, quod omne creatum
+<lb ed="#L" n="83"/>comprehenditur sub aliqua intentione creantis ut certus
+<lb ed="#L" n="84"/>finis, propositio videtur manifeste falsa: quoniam aliquid
+<lb ed="#L" n="85"/>creatum nec est finis creantis, nec alicuius alterius 
+creatu<lb break="no" ed="#L" n="86"/>rae, puta infima creatura. - Si vero est sensus, quod omne
+<lb ed="#L" n="87"/>creatum comprehenditur sub aliqua creantis intentione ut
+<lb ed="#L" n="88"/>ad certum finem, propositio est verissima: quia Deus ipse,
+<lb ed="#L" n="89"/>et participatio suae bonitatis, est certus cuiusque creati finis
+<lb ed="#L" n="90"/>intentus a creante. Sed tunc nihil infert ad propositum: ex
+<lb ed="#L" n="91"/>hoc enim non sequitur, ergo sub certo numero. ;
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1936">
+                  <lb ed="#L" n="92"/>Si autem sensus est, quod omne creatum 
+comprehen<lb break="no" ed="#L" n="93"/>ditur sub aliqua intentione creantis, ut certum medium per
+<lb ed="#L" n="94"/>quod acquiritur finis, propositio videtur falsa, et non 
+pro<lb break="no" ed="#L" n="95"/>bata. Falsa quidem: quia potest aliter comprehendi sub
+<lb ed="#L" n="96"/>intentione creantis, quam hoc modo. Potest enim intendi,
+<lb ed="#L" n="97"/>non ut certum medium ad acquirendum finem, sed ut 
+co<lb break="no" ed="#L" n="98"/>mitans seu proveniens ex certo medio per quod acquiritur
+<lb ed="#L" n="99"/>finis: ut patet ex Averroe, XII Metaphys., comment. xxxvir,
+<lb ed="#L" n="100"/>ubi vult quod intelligentiae moveant orbes ut assimilentur
+<lb ed="#L" n="101"/>Deo in faciendo entia; et ad hoc sequitur infinitas 
+circula<lb break="no" ed="#L" n="102"/>tiones esse causatas ab eis et infinitos effectus, et infinitas
+<lb ed="#L" n="103"/>animas esse creatas, apud Avicennam. - Non probata autem:
+<lb ed="#L" n="104"/>quia ex illo medio, nullum agens operatur aliquid in 
+va<lb break="no" ed="#L" n="105"/>num, nihil aliud potest inferri nisi, ergo agit propter finem ;
+<lb ed="#L" n="106"/>quo concesso, diceretur quod multitudo infinita est propter
+<lb ed="#L" n="107"/>finem extrinsecum, scilicet Deum et conservationem 
+per<lb break="no" ed="#L" n="108"/>petuae assimilationis causantis ipsam ad Deum, ut 
+philo<lb break="no" ed="#L" n="109"/>sophi dicunt.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e1978">
+                  <lb ed="#L" n="110"/>IX. Circa eandem rursus rationem dubium occurrit: quia
+<lb ed="#L" n="111"/>committi in ea videtur sophisma a sensu diviso ad 
+com<lb break="no" ed="#L" n="112"/>positum, a quolibet creato ad multa, immo infinita, 
+col<lb break="no" ed="#L" n="113"/>lective procedendo. Quamvis enim quodlibet creatum sit
+<lb ed="#L" n="114"/>terminus alicuius certae intentionis et operationis ipsius
+<lb ed="#L" n="115"/>creantis, multa tamen creata non oportet esse terminum
+<lb ed="#L" n="116"/>alicuius intentionis et operationis, sed multarum 
+intentio<lb break="no" ed="#L" n="117"/>num et creationum. Et consequenter infinita creata erunt
+<lb ed="#L" n="118"/>termini infinitarum intentionum, sicut et creationum.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2000">
+                  <lb ed="#L" n="119"/>X. Circa eandem adhuc rationem dubium est: quia radix
+<lb ed="#L" n="120"/>eius, scilicet, omne creatum comprehenditur sub aliqua
+<lb ed="#L" n="121"/>certa intentione creantis, licet sit vera in creatis per se,
+<lb ed="#L" n="122"/>in creatis tamen per accidens, negaretur ab Avicenna. 
+Mul<lb break="no" ed="#L" n="123"/>titudo enim per accidens infinita, non est intenta nisi per
+<lb ed="#L" n="124"/>accidens, ut in littera dicitur: et consequenter non creatur
+<lb ed="#L" n="125"/>nisi per accidens. Vocatur autem creatum per accidens,
+<lb ed="#L" n="126"/>quod ad praeparationem alterius opus est creari; ut 
+con<lb break="no" ed="#L" n="127"/>tingit de anima intellectiva, quae, praeparato a natura 
+cor<lb break="no" ed="#L" n="128"/>pore disposito, semper creatur. Et quia infinita corpora
+<lb ed="#L" n="129"/>fuerunt iam praeparata, infinitae animae sunt creatae; 
+qui<lb break="no" ed="#L" n="130"/>bus, ut sic, accidit remansisse in actu, quia incorruptibiles
+<lb ed="#L" n="131"/>sunt, Et sic earum infinitas non ponitur per se intenta;
+<lb ed="#L" n="132"/>sed consequens ad aeternitatem generationis humanae,
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2033">
+                  <lb ed="#L" n="133"/>XI. Ad evidentiam huius processus, nota primo, quod
+<lb ed="#L" n="134"/>ly creatum potest sumi proprie, ut distinguitur contra 
+cau<lb break="no" ed="#L" n="135"/>satum: et potest sumi communiter, ut non referat dicere
+<lb ed="#L" n="136"/>causatum aut creatum. Et quod sumatur communiter, 
+uni<lb break="no" ed="#L" n="137"/>versalis probatio litterae insinuat, dum ad illius. probatio-
+<pb ed="#L" n="81"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nem assumpsit quod non in vanum agens operatur. Quod
+<lb ed="#L" n="2"/>autem sumatur proprie, ipsa verbi formalis significatio
+<lb ed="#L" n="3"/>ostendit. - Parum autem aut nihil refert utro modo 
+su<lb break="no" ed="#L" n="4"/>matur. Si enim sumitur proprie, ponderanda sunt verba
+<lb ed="#L" n="5"/>probationis cum dicit aliquid operatur, idest proprium 
+ter<lb break="no" ed="#L" n="6"/>minum operationis attingit. Et per hoc excluduntur omnia
+<lb ed="#L" n="7"/>consequentia ad proprium et intentum opus agentis: et de
+<lb ed="#L" n="8"/>omni creato verificatur quod est proprius terminus 
+crea<lb break="no" ed="#L" n="9"/>tionis. Si vero sumitur communiter, causatum 
+restringen<lb break="no" ed="#L" n="10"/>dum est ad proprie causatum, ut distinguitur contra 
+con<lb break="no" ed="#L" n="11"/>sequentia causatum.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2076">
+                  <lb ed="#L" n="12"/>Verum, utroque modo, restringitur ad causata vel creata
+<lb ed="#L" n="13"/>actu existentia, ita quod collapsa excluduntur. Et hoc 
+in<lb break="no" ed="#L" n="14"/>sinuatur in littera, cum dicitur creantis. Quod enim 
+crea<lb break="no" ed="#L" n="15"/>tum est et perseverat, continue quodammodo creatur, quia
+<lb ed="#L" n="16"/>conservatur: pendet enim et in fieri et in esse a creante. —
+<lb ed="#L" n="17"/>Comprehenditur autem sub creantis intentione, non solum
+<lb ed="#L" n="18"/>quod actualiter comprehenditur, sed quod comprehensibile
+<lb ed="#L" n="19"/>est, dato quod actu non comprehenderetur.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2096">
+                  <lb ed="#L" n="20"/>XII. Ex hoc autem quod assumpta propositio non est
+<lb ed="#L" n="21"/>nisi de actu existentibus, quae proprii termini actionis sunt,
+<lb ed="#L" n="22"/>solutio omnium obiectorum habetur. Omnia siquidem
+<lb ed="#L" n="23"/>actu existentia potest Creator et ut medium ad 
+acquisitio<lb break="no" ed="#L" n="24"/>nem alicuius finis ordinare, et ut finem per aliquid aliud
+<lb ed="#L" n="25"/>assequendum intendere. Ex quo enim actu existere ponitur,
+<lb ed="#L" n="26"/>iam terminata eius productio ponitur: et consequenter ut
+<lb ed="#L" n="27"/>medium ad aliquid acquirendum dirigi potest; et similiter
+<lb ed="#L" n="28"/>potuit esse finis intentus et acquisitus per aliquod medium;
+<lb ed="#L" n="29"/>nec ratio finis, nec ratio medii ad finem, repugnat ei quod
+<lb ed="#L" n="30"/>actu existat. Et propterea, cum intentio non sit proprie nisi
+<lb ed="#L" n="31"/>finis et medii per quod acquirendus est finis, omne actu
+<lb ed="#L" n="32"/>existens comprehensibile est sub certa intentione creantis,
+<lb ed="#L" n="33"/>tam ut finis quam ut medium. Ut finis quidem: tum quia
+<lb ed="#L" n="34"/>nulla est creatura adeo infima, quae non sit aut esse possit
+<lb ed="#L" n="35"/>finis alicuius alterius; tum quia saltem est certus finis suae
+<lb ed="#L" n="36"/>productionis; tum quia hoc intelligitur quantum est ex se:
+<lb ed="#L" n="37"/>nulli enim creato actu existenti repugnat, quantum est ex
+<lb ed="#L" n="38"/>se, ratio finis, quamvis forte aliquid nullius sit finis. Ut
+<lb ed="#L" n="39"/>. medium autem: quia post ipsum restant multae aut 
+multo<lb break="no" ed="#L" n="40"/>rum productiones et nobilitates, ad quarum aliquam potest
+<lb ed="#L" n="41"/>ordinari ut medium, quod iam est ens in actu.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2146">
+                  <lb ed="#L" n="42"/>Nec obstat prima contra hoc membrum obiectio. 
+Quo<lb break="no" ed="#L" n="43"/>niam, ut iam patet ex dictis, formaliter loquendo de creato,
+<lb ed="#L" n="44"/>non potest esse consequens proprium creationis terminum;
+<lb ed="#L" n="45"/>sed oportet creatum creationem terminare. Tale autem 
+opor<lb break="no" ed="#L" n="46"/>tet esse intentum ut finis, aut medium ad finem. — Nec est
+<lb ed="#L" n="47"/>verum quod non sit probata. Quoniam ex illa assumpta 
+pro<lb break="no" ed="#L" n="48"/>positione, agens non operatur aliquid in vanum, optime
+<lb ed="#L" n="49"/>ex fine operationis exterioris, concluditur terminus interioris
+<lb ed="#L" n="50"/>intentionis. Ex eo enim quod nullius agentis operatio est
+<lb ed="#L" n="51"/>in vanum, sed ad certum terminum proprium, oportet quod
+<lb ed="#L" n="52"/>intentio operantis sit etiam respectu certi termini: quoniam
+<lb ed="#L" n="53"/>intentio agentis statuit finem operationi. — Et sic patet 
+re<lb break="no" ed="#L" n="54"/>sponsio ad primo obiecta.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2177">
+                  <lb ed="#L" n="55"/>XIII. Ad secundam vero dubitationem, dicitur quod,
+<lb ed="#L" n="56"/>quia tota multitudo existentium in actu potest accipi ut
+<lb ed="#L" n="57"/>unum creatum, quoniam non excedit universum ,, quod
+<lb ed="#L" n="58"/>unius primo intenti creati rationem habet; consequens est
+<lb ed="#L" n="59"/>quod non solum singula creata, sed omnia simul, modo
+<lb ed="#L" n="60"/>actu coexistant, sunt comprehensibilia sub aliqua una certa
+<lb ed="#L" n="61"/>intentione creantis. Et propterea nullum sophisma in 
+pro<lb break="no" ed="#L" n="62"/>posito committitur, ubi ex propositione adversarii quod actu
+<lb ed="#L" n="63"/>existat infinita multitudo, infertur, ergo est 
+comprehensi<lb break="no" ed="#L" n="64"/>bilis sub certa intentione creantis, ergo non est infinita:
+<lb ed="#L" n="65"/>quia tam ratione medii ad consequendum finem, quam 
+ra<lb break="no" ed="#L" n="66"/>tione finis, repugnat infinitas multitudinis.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2206">
+                  <lb ed="#L" n="67"/>XIV. Ad tertium autem dubium, dicitur quod creatum
+<lb ed="#L" n="68"/>per accidens potest dupliciter intelligi. Uno modo, ut per
+<lb ed="#L" n="69"/>accidens distinguitur contra per se. Et hoc modo, negatur
+<lb ed="#L" n="70"/>dari creatum per accidens: quoniam omne creatum est per
+<lb ed="#L" n="71"/>seipsum intentum a Creatore, sicut etiam est per seipsum
+<lb ed="#L" n="72"/>terminus creationis; alioquin non fieret ex nihilo. Alio
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="73"/>modo, ut per accidens distinguitur contra per se primo, et
+<lb ed="#L" n="74"/>significat idem quod per aliud. Et hoc modo datur creatum
+<lb ed="#L" n="75"/>per accidens, idest per aliud, saltem occasionaliter. Et hoc
+<lb ed="#L" n="76"/>modo animae intellectivae, tam apud adversarium quam
+<lb ed="#L" n="77"/>nos, creantur per accidens: quamvis apud nos magis per
+<lb ed="#L" n="78"/>accidens quam apud ipsum. Sed hoc non aufert.quin sint
+<lb ed="#L" n="79"/>per seipsas intentae singulae, sicut et per seipsas creatae.
+<lb ed="#L" n="80"/>Quoniam, quamvis inter se habeant ordinem per accidens,
+<lb ed="#L" n="81"/>relatae tamen ad creantem, sunt et per se intentae et 
+pro<lb break="no" ed="#L" n="82"/>ductae: imo magis per se quam quodcumque corruptibile;
+<lb ed="#L" n="83"/>quoniam res incorruptibiles perfectiores et digniores sunt
+<lb ed="#L" n="84"/>universi partes, ac per hoc magis intentae. Cuius signum
+<lb ed="#L" n="85"/>est, quod in sphaera activorum, solae species sunt per se
+<lb ed="#L" n="86"/>intentae, quia solae sunt perpetuae. Et quoniam non solum
+<lb ed="#L" n="87"/>singulae, sed infinitae simul ponüntur in actu, consequens
+<lb ed="#L" n="88"/>est, ut dictum fuit, ut omnes sint per se intentae et 
+pro<lb break="no" ed="#L" n="89"/>ductae, utpote sub aliqua una certa intentione 
+comprehensi<lb break="no" ed="#L" n="90"/>biles; imo et simul producibiles, quantum est ex se, in actu.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2263">
+                  <lb ed="#L" n="91"/>XV. Adverte hic, quod ex hoc loco habetur quod s. 
+Tho<lb break="no" ed="#L" n="92"/>mas ademit sibi omnem viam concordiae cum doctrina 
+Ari<lb break="no" ed="#L" n="93"/>stotelis, iuxta expositionem suam. Tenet namque 
+Aristote<lb break="no" ed="#L" n="94"/>lem putasse animas intellectivas immortales, et numeratas
+<lb ed="#L" n="95"/>secundum numerum corporum: et constat Aristotelem 
+te<lb break="no" ed="#L" n="96"/>nuisse generationem aeternam. Ex his autem manifeste
+<lb ed="#L" n="97"/>sequitur animas humanas esse actu infinitas: quod hic 
+de<lb break="no" ed="#L" n="98"/>cernitur impossibile, et in II Cont. Gent., cap. rxxxr, dicitur
+<lb ed="#L" n="99"/>non repugnare doctrinae Aristotelis in III Physic. et I
+<lb ed="#L" n="100"/>Caeli, quia utrobique de infinito materiali sermo fuit.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2288">
+                  <lb ed="#L" n="101"/>XVI. Circa hanc conclusionem, multa afferuntur a 
+Ca<lb break="no" ed="#L" n="102"/>preolo argumenta ex Gregorio et Adam: sed omnia ad
+<lb ed="#L" n="103"/>tria reducuntur. Primo ergo arguit sic. Dantur infinitae
+<lb ed="#L" n="104"/>partes proportionales actu in continuo: ergo possunt dari
+<lb ed="#L" n="105"/>separatae, Ergo. — Probatur sequela: quia omne absolutum
+<lb ed="#L" n="106"/>existens potest divina potentia conservari sine eo quod non
+<lb ed="#L" n="107"/>est de essentia illius; sed continuatio unius cum alia non
+<lb ed="#L" n="108"/>est de essentia partium; ergo.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2308">
+                  <lb ed="#L" n="109"/>Secundo, Deus in quolibet initio cuiusque partis 
+propor<lb break="no" ed="#L" n="110"/>tionalis unius horae, potest creare angelum: ergo in una
+<lb ed="#L" n="111"/>hora creare infinitos in actu. - Et confirmatur: quia 
+quid<lb break="no" ed="#L" n="112"/>quid potest. Deus successive, potest simul, in rebus. 
+per<lb break="no" ed="#L" n="113"/>manentibus.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2321">
+                  <lb ed="#L" n="114"/>Tertio, non minoris potentiae est Deus quam infinitae
+<lb ed="#L" n="115"/>animae, si essent, et quam ignis inferni. Sed illae possent
+<lb ed="#L" n="116"/>infinita simul; et ignis infinitos cruciatus, si essent ibi 
+in<lb break="no" ed="#L" n="117"/>finitae animae. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2332">
+                  <lb ed="#L" n="118"/>XVII. Ad prima duo argumenta respondetur breviter,
+<lb ed="#L" n="119"/>quod ibi est sophisma a sensu diviso ad compositum. 
+Quam<lb break="no" ed="#L" n="120"/>vis enim de ratione singularum partium non sit continuitas
+<lb ed="#L" n="121"/>cum alia, est tamen de ratione omnium simul: quia de
+<lb ed="#L" n="122"/>ratione earum simul, est esse in potentia, cui repugnat 
+sin<lb break="no" ed="#L" n="123"/>gularum ab invicem separatio. - Et similiter implicat 
+nu<lb break="no" ed="#L" n="124"/>merare initia omnia partium proportionalium horae: quia
+<lb ed="#L" n="125"/>ponitur ea successiva numeratione completa in fine horae,
+<lb ed="#L" n="126"/>et tamen infinita. Si enim infinita, nunquam 
+numerabun<lb break="no" ed="#L" n="127"/>tur: et si complebuntur, non erunt infinita. Potest ergo
+<lb ed="#L" n="128"/>Deus in singulis initiis, non autem in omnibus. — Et per
+<lb ed="#L" n="129"/>hoc ad confirmationem: quia nec,simul nec successive
+<lb ed="#L" n="130"/>potest producere infinita actu existentia.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2363">
+                  <lb ed="#L" n="131"/>Ad tertium autem, concesso toto, nihil habetur contra
+<lb ed="#L" n="132"/>intentum. Quoniam non ex defectu divinae potentiae, sed
+<lb ed="#L" n="133"/>ex impossibilitate rei factibilis, consurgit quod infinita in
+<lb ed="#L" n="134"/>actu esse nequeunt. Cum quo tamen stat quod illae 
+con<lb break="no" ed="#L" n="135"/>ditionales sunt verae: sicut, si homo est leo, est rugibilis ;
+<lb ed="#L" n="136"/>non tamen sequitur, ergo Deus potest facere hominem 
+ru<lb break="no" ed="#L" n="137"/>ibilem.
+</p>
+               <p xml:id="TAcCaj-d1e82-d1e2381">
+                  <lb ed="#L" n="138"/>XVII. Secunda conclusio responsiva est: Infinitum
+<lb ed="#L" n="139"/>secundum multitudinem invenitur in potentia. - Probatur.
+<lb ed="#L" n="140"/>Infinitum invenitur in potentia secundum divisionem 
+con<lb break="no" ed="#L" n="141"/>tinui: ergo secundum multitudinem. — Probatur sequela:
+<lb ed="#L" n="142"/>quia augmentum multitudinis sequitur divisionem 
+magni<lb break="no" ed="#L" n="143"/>tudinis. Antecedens patet: et probatur, quia proceditur ad
+<lb ed="#L" n="144"/>materiam.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

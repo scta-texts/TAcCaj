@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="95"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e97"><!-- TAcCajp1-q10 -->
+            <head xml:id="TAcCaj-d1e97-Hd1e99">Quaestio 10</head>
+            <div xml:id="TAcCaj-d1e97-Dd1e101"><!-- caj-p1-q10-a1 -->
+               <head xml:id="TAcCaj-d1e97-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e97-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>TITULUS clarus. - In corpore quatuor: primo, modus 
+in<lb break="no" ed="#L" n="17"/>vestigandi divinam aeternitatem; secundo, prosequitur
+<lb ed="#L" n="18"/>illum quoad particulas positas in definitione intrinsece, ibi :
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e124">
+                  <lb ed="#L" n="19"/>Cum enim; tertio, quoad particulas positas in definitione
+<lb ed="#L" n="20"/>ut additum, ibi: /tem ea dicuntur; quarto, applicando
+<lb ed="#L" n="21"/>ad propositum omnia, respondetur quaesito affirmative, ibi:
+<lb ed="#L" n="22"/>Sic igitur.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e135">
+                  <lb ed="#L" n="23"/>II. Quoad primum: Aeternitas cognoscenda est per 
+tem<lb break="no" ed="#L" n="24"/>pus. - Probatur: quia se habet ad ipsum ut simplex ad 
+com<lb break="no" ed="#L" n="25"/>positum. Aeternitas enim, ut patebit, est unitas, tempus
+<lb ed="#L" n="26"/>vero numerus: illa absque successione, hoc prioris et 
+po<lb break="no" ed="#L" n="27"/>sterioris, etc. Constat autem quod numerus compositus est
+<lb ed="#L" n="28"/>respectu unitatis: et similiter prius et posterius componunt,
+<lb ed="#L" n="29"/>eius quod stat absque his differentiis.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e154">
+                  <lb ed="#L" n="30"/>- III. Quoad secundum: Ratio aeternitatis consistit in 
+ap<lb break="no" ed="#L" n="31"/>prehensione uniformitatis eius quod est omnino extra 
+mo<lb break="no" ed="#L" n="32"/>tum. - Declaratur. Ratio temporis consistit in numeratione
+<lb ed="#L" n="33"/>prioris et posterioris in motu: ergo. Probatur 
+consequen<lb break="no" ed="#L" n="34"/>tia: quia proportionaliter se habent, sicut tempus ad 
+suc<lb break="no" ed="#L" n="35"/>cessionem partis post partem in motu, ita aeternitas ad
+<lb ed="#L" n="36"/>rem carentem his.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e172">
+                  <lb ed="#L" n="37"/>IV. Adverte hic, quod haec propositio in littera posita,
+<lb ed="#L" n="38"/>scilicet ratio aeternitatis consistit in apprehensione 
+unifor<lb break="no" ed="#L" n="39"/>mitatis, potest dupliciter exponi, quoad ly in 
+apprehen<lb break="no" ed="#L" n="40"/>sione. Uno modo, quod significet illam consistere in 
+ap<lb break="no" ed="#L" n="41"/>prehendi seu cognosci: ita quod aeternitas sit completive
+<lb ed="#L" n="42"/>ab anima, sicut de tempore dicitur. Et sic, iudicio meo,
+<lb ed="#L" n="43"/>non intelligitur: eo quod unitas uniformitatis perennis actu
+<lb ed="#L" n="44"/>est absque actu animae, non minus quam unitas essentiae
+<lb ed="#L" n="45"/>divinae. Alio modo, quod significet idem quod in 
+conce<lb break="no" ed="#L" n="46"/>ptione obiectiva, quam frequenti usu vocamus rationem;
+<lb ed="#L" n="47"/>ac si dixisset: ratio aeternitatis consistit in apprehensione ,
+<lb ed="#L" n="48"/>idest in ratione uniformitatis. Et hic est sensus intentus.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e201">
+                  <lb ed="#L" n="49"/>Sed tamen adhuc potest dupliciter exponi. Quoniam
+<lb ed="#L" n="50"/>potest interpretari formaliter, vel materialiter : formaliter
+<lb ed="#L" n="51"/>quidem, ita ut ratio aeternitatis sit ipsa wuniformitas; 
+ma<lb break="no" ed="#L" n="52"/>terialiter vero, ut sit unitas uniformitatis. Et quamvis 
+qui<lb break="no" ed="#L" n="53"/>dam materialiter hanc litteram interpretandam putent, 
+pro<lb break="no" ed="#L" n="54"/>pter verba s. Thomae in I Sent., dist. xix, qu. rt, art. 1 (ubi
+<lb ed="#L" n="55"/>dicit quod sicut prius et posterius motus ut numerata 
+con<lb break="no" ed="#L" n="56"/>stituunt tempus, ita permanentia actus uf una unitate, ut
+<lb ed="#L" n="57"/>habet rationem mensurae, est aeternitas); et ex hoc solutas
+<lb ed="#L" n="58"/>utent omnes obiectiones Aureoli, recitatas in ix distinctione
+<lb ed="#L" n="59"/>rimi a Capreolo, quia procedunt contra hoc dictum 
+for<lb break="no" ed="#L" n="60"/>maliter, et non materialiter intellectum: ego tamen formaliter
+<lb ed="#L" n="61"/>hunc textum, sicut et ceteros, intelligo, motus ea ratione,
+<lb ed="#L" n="62"/>quia nihil cogit ad materialem sensum; semper enim 
+for<lb break="no" ed="#L" n="63"/>malis intellectus reliquis praeponitur, si salvari aeque potest.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e236">
+                  <lb ed="#L" n="64"/>Scito igitur quod, cum uniformitas sit species unitatis
+<lb ed="#L" n="65"/>(dicit enim unitatem contractam ad formam: rem enim
+<lb ed="#L" n="66"/>uniformem synonyme dicimus rem unius formae), addere
+<lb ed="#L" n="67"/>unitatem ad uniformitatem est nugatio; sicut addere animal
+<lb ed="#L" n="68"/>homini. Unde in I Sen?. non dicitur quod « uniformitas
+<lb ed="#L" n="69"/>actus ut una », sed, « permanentia actus ut una ». Ac per
+<lb ed="#L" n="70"/>hoc, dicere aeternitatem esse uniformitatem, et dicere esse
+<lb ed="#L" n="71"/>unitatem, non differunt, nisi quia specialius, perfectius atque
+<lb ed="#L" n="72"/>melius dicitur uniformitas; sicut universaliter melius 
+ex<lb break="no" ed="#L" n="73"/>plicat naturam rei genus proximum quam remotum. Et
+<lb ed="#L" n="74"/>propterea merito in hac littera, postremo edita, melior 
+decla<lb break="no" ed="#L" n="75"/>ratio posita est. Consistit igitur aeternitatis ratio in ratione
+<lb ed="#L" n="76"/>uniformitatis, ut uniformitas rationem mensurae habet. —
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>Patet autem hanc esse mentem litterae, ex eo quod 
+ex<lb break="no" ed="#L" n="78"/>presse apprehensio (idest ratio) uniformitatis 
+proportiona<lb break="no" ed="#L" n="79"/>liter apponitur contra numerationem prioris et posterioris
+<lb ed="#L" n="80"/>motus.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e278">
+                  <lb ed="#L" n="81"/>V. Rationes autem Aureoli facile solvuntur. Consistunt
+<lb ed="#L" n="82"/>enim in his duobus punctis. Primum est. Uniformitas est
+<lb ed="#L" n="83"/>ipsa immutabilitas, et consequenter est quod mensuratur
+<lb ed="#L" n="84"/>aeternitate: ergo non est formaliter aeternitas. Tenet 
+con<lb break="no" ed="#L" n="85"/>sequentia: quia aliud attributum est immutabilitas, et aliud
+<lb ed="#L" n="86"/>aeternitas. Antecedens probatur: quia uniformitas 
+oppo<lb break="no" ed="#L" n="87"/>nitur motui quoad eius varietatem; ergo. — Secundum est.
+<lb ed="#L" n="88"/>Tempus non est formaliter difformitas motus: ergo 
+aeter<lb break="no" ed="#L" n="89"/>nitas non est formaliter uniformitas eius quod est extra
+<lb ed="#L" n="90"/>motum. Et tenet sequela ex progressu huius litterae.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e302">
+                  <lb ed="#L" n="91"/>Ad haec siquidem respondetur, ostendendo quomodo
+<lb ed="#L" n="92"/>se habeat uniformitas ad immutabilitatem. Res enim, ut in
+<lb ed="#L" n="93"/>praemissa patuit quaestione, dicitur et est immutabilis,
+<lb ed="#L" n="94"/>per negationem potentiae quomodolibet ad aliter se habere:
+<lb ed="#L" n="95"/>et ex hoc innascitur in se negatio omnis successionis, et
+<lb ed="#L" n="96"/>consequenter omnis numeri prioris et posterioris. Hoc 
+au<lb break="no" ed="#L" n="97"/>tem, adiuncta ratione mensurae, est esse uniforme. 
+Uni<lb break="no" ed="#L" n="98"/>formitas enim nihil aliud quam unum (cui primo ratio
+<lb ed="#L" n="99"/>mensurae convenit, ut dicitur X Metaphys.) in forma,
+<lb ed="#L" n="100"/>universalissime accipiendo formam, ponit. Ét propterea
+<lb ed="#L" n="101"/>uniformitatis nomine utimur etiam in motu, sicut etiam
+<lb ed="#L" n="102"/>unitas omnia circuit. Et hinc provenit quod uniformitas
+<lb ed="#L" n="103"/>est multiplex, iuxta res quibus applicatur, sicut et unitas:
+<lb ed="#L" n="104"/>alia est enim uniformitas motus, alia rei permanentis, alia
+<lb ed="#L" n="105"/>mensurati, alia mensurae. Et tamen arguens utitur 
+unifor<lb break="no" ed="#L" n="106"/>mitatis vocabulo ac si esset univocum, contra Aristotelis
+<lb ed="#L" n="107"/>doctrinam, IV Metaphys.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e342">
+                  <lb ed="#L" n="108"/>Formaliter ergo ad rationes Aureoli, negatur quod 
+uni<lb break="no" ed="#L" n="109"/>formitas sit formaliter immutabilitas: imo est ut eius 
+pas<lb break="no" ed="#L" n="110"/>sio. Et similiter negatur quod sit quod mensuratur: imo
+<lb ed="#L" n="111"/>est mensura. Ad probationem vero, dicitur quod varietati
+<lb ed="#L" n="112"/>motus opponitur uniformitas, non absolute, sed motus, eo
+<lb ed="#L" n="113"/>modo quo primum motum uniformem dicimus. Sed non
+<lb ed="#L" n="114"/>de tali est hic sermo: sed de uniformitate ut mensura est
+<lb ed="#L" n="115"/>immutabilitatis. - Ad secundum vero, negatur sequela: 
+quo<lb break="no" ed="#L" n="116"/>niam difformitas motus et uniformitas immobilis non 
+pro<lb break="no" ed="#L" n="117"/>portionaliter se habent ad rationem temporis et aeternitatis.
+<lb ed="#L" n="118"/>Quia ad rationem aeternitatis sat est unitas formae 
+immu<lb break="no" ed="#L" n="119"/>tabilis: ad rationem vero temporis, non sat est diversitas
+<lb ed="#L" n="120"/>formae motus, sed exigitur quod sit diversitas talis formae,
+<lb ed="#L" n="121"/>scilicet prioris a posteriori ut sic. Et ideo, cum difformitas
+<lb ed="#L" n="122"/>motus non dicat nisi diversam formam motus, non ponit
+<lb ed="#L" n="123"/>numerum talis formae motus secundum prioritatem et
+<lb ed="#L" n="124"/>posterioritatem; et consequenter non sufficit ad temporis
+<lb ed="#L" n="125"/>rationem. Uniformitas autem rei immobilis, quia ponit
+<lb ed="#L" n="126"/>unitatem omnis formae, idest conditionis rei immutabilis,
+<lb ed="#L" n="127"/>omnia complectitur constituentia aeternitatem formaliter.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e388">
+                  <lb ed="#L" n="128"/>VI. Quoad tertium: Res omnino immutabilis caret
+<lb ed="#L" n="129"/>principio et fine. - Probatur: quia caret successione. 
+Decla<lb break="no" ed="#L" n="130"/>ratur: quia mensuratum tempore habet principium et finem
+<lb ed="#L" n="131"/>in tempore, ex eo quod omne motum habet principium
+<lb ed="#L" n="132"/>et finem.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e401">
+                  <lb ed="#L" n="133"/>VII. Adverte hic breviter, quia haec ex IV. PAysic. 
+sum<lb break="no" ed="#L" n="134"/>pta sunt, quod directe sermo praesens est de principio et
+<lb ed="#L" n="135"/>fine durationis, excepta ultima propositione, in qua 
+pro<lb break="no" ed="#L" n="136"/>batur mensuratum tempore habere terminos durationis ex
+<lb ed="#L" n="137"/>terminis subiecti motus. Non enim loquitur de terminis
+<pb ed="#L" n="96"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>durationis subiecti, cum possit mobile, puta caelum, poni
+<lb ed="#L" n="2"/>aeternum: sed de terminis magnitudinis subiecti. Et intendit
+<lb ed="#L" n="3"/>quod, quia omne mobile ab aliquo in se termino incipit
+<lb ed="#L" n="4"/>moveri, et usque ad alium in se terminum movetur, ideo
+<lb ed="#L" n="5"/>omne mensuratum tempore habet principium et finem 
+dura<lb break="no" ed="#L" n="6"/>tionis. Et est optima ratio a priori: eo quod prius et 
+poste<lb break="no" ed="#L" n="7"/>rius in motu et tempore, ex priori et posteriori 
+magnitu<lb break="no" ed="#L" n="8"/>dinis mobilis et spatii sunt, ut patet in IV et VI Physic.
+<lb ed="#L" n="9"/>Alium autem dixi terminum a quo et ad quem, sive 
+for<lb break="no" ed="#L" n="10"/>maliter et materialiter, ut in motu recto; sive formaliter
+<lb ed="#L" n="11"/>tantum, ut in motu circulari, Nec obstat si caelum ponatur
+<lb ed="#L" n="12"/>semper ab aeterno motum: quia, ut in II Caeli dicitur,
+<lb ed="#L" n="13"/>sat est quod incoeperit virtualiter, idest habeat in se unde,
+<lb ed="#L" n="14"/>si incoepisset, inchoatus esset eius motus, puta punctum
+<lb ed="#L" n="15"/>Arietis.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e451">
+                  <lb ed="#L" n="16"/>VIII. Quoad quartum, conclusio responsiva elicitive
+<lb ed="#L" n="17"/>ponitur affirmative, scilicet: Definitio illa est conveniens.'-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>Probatur: quia notificat aeternitatem ex duobus: scilicet ex
+<lb ed="#L" n="19"/>proprio mensurato, in ly interminabilis vitae; et ex propria
+<lb ed="#L" n="20"/>quidditate, in ly tota simul existens.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e467">
+                  <lb ed="#L" n="21"/>IX. Adverte hic quod, quia definitio processu 
+composi<lb break="no" ed="#L" n="22"/>tivo investigatur ministrante divisione, idcirco in littera 
+dis<lb break="no" ed="#L" n="23"/>tinxit, ex parte mensurae, mensuram durationis in 
+mensu<lb break="no" ed="#L" n="24"/>ram per modum numeri successivi, et per modum unitatis
+<lb ed="#L" n="25"/>immobilis: et exclusa prima, quia tempus est, secundam
+<lb ed="#L" n="26"/>intulit. Ex parte vero mensurati, distinxit mensuratum in
+<lb ed="#L" n="27"/>terminatum principio et fine, et in interminatum utrinque:
+<lb ed="#L" n="28"/>et excluso primo, quia temporale est, intulit secundum.
+<lb ed="#L" n="29"/>Cumque haec in aeternitatis definitione adducta ponantur,
+<lb ed="#L" n="30"/>conveniens conclusa est. - Nec officit quod omissum est ly
+<lb ed="#L" n="31"/>perfecta. Tum quia implicite tactum est, ponendo 
+unifor<lb break="no" ed="#L" n="32"/>mitatem immobilis omnino: talis enim non est uniformitas
+<lb ed="#L" n="33"/>ipsius nunc temporis, cum non sit extra motum. Tum
+<lb ed="#L" n="34"/>quia in responsione ad quintum erat hoc explicandum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e97-Dd1e501"><!-- caj-p1-q10-a2 -->
+               <head xml:id="TAcCaj-d1e97-Hd1e504">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e97-d1e506">
+                  <pb ed="#L" n="97"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e515">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>TITULUS clarus. - In corpore duo. Primo, directe respondet
+<lb ed="#L" n="3"/>p pcs affirmative: Deus est maxime aeternus. 
+Pro<lb break="no" ed="#L" n="4"/>batur. Deus est maxime immutabilis: ergo est maxime 
+ae<lb break="no" ed="#L" n="5"/>ternus. - Probatur sequela: quia aeternitas consequitur 
+im<lb break="no" ed="#L" n="6"/>mutabilitatem, sicut tempus motum. :
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e531">
+                  <lb ed="#L" n="7"/>II. Secundo, assignatur modus. quo est aeternus, 
+po<lb break="no" ed="#L" n="8"/>nendo aliam conclusionem, scilicet: Deus est sua aeternitas.
+<lb ed="#L" n="9"/>Hoc enim est dicere quod non est aeternus denominative,
+<lb ed="#L" n="10"/>sed essentialiter. - Hanc autem conclusionem primo ostendit
+<lb ed="#L" n="11"/>claudere in se quandam singularem Dei excellentiam; 
+se<lb break="no" ed="#L" n="12"/>cundo, probat; tertio, declarat.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e547">
+                  <lb ed="#L" n="13"/>Cum enim aeternitas species sit durationis, dicendo quod
+<lb ed="#L" n="14"/>Deus est sua aeternitas, dicitur quoque quod est sua 
+du<lb break="no" ed="#L" n="15"/>ratio. Hoc autem, idest rem esse suam durationem, 
+singu<lb break="no" ed="#L" n="16"/>lare est in Deo: nulli siquidem alteri convenire in littera
+<lb ed="#L" n="17"/>dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e561">
+                  <lb ed="#L" n="18"/>Probatur deinde simul et conclusio et singularitas 
+in<lb break="no" ed="#L" n="19"/>clusa in ea. Deus est suum esse uniforme, et nihil aliud
+<lb ed="#L" n="20"/>a Deo est suum esse: ergo solus est sua duratio, quae
+<lb ed="#L" n="21"/>aeternitas in eo est.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e572">
+                  <lb ed="#L" n="22"/>Declaratur postremo a simili: quia sicut est sua essentia,
+<lb ed="#L" n="23"/>ita est sua aeternitas.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e579">
+                  <lb ed="#L" n="24"/>III. Circa vim ac sensum probationis secundae 
+conclu<lb break="no" ed="#L" n="25"/>sionis, adverte quod res hic sumitur pro re subsistente,
+<lb ed="#L" n="26"/>cuius tantum est esse, proprie loquendo. Ita quod non 
+in<lb break="no" ed="#L" n="27"/>tendit littera quod omnis res alia a Deo distinguatur a
+<lb ed="#L" n="28"/>sua duratione, cum tempus non distinguatur ab ipsa: sed
+<lb ed="#L" n="29"/>intendit quod nulla res quae est quod est et quod durat,
+<lb ed="#L" n="30"/>est sua duratio. Vis autem rationis consistit in hoc, quod,
+<lb ed="#L" n="31"/>cum res, esse et duratio ordine quodam se habeant (
+quo<lb break="no" ed="#L" n="32"/>niam duratio non inest rei nisi mediante esse: non enim
+<lb ed="#L" n="33"/>res durat nisi ratione sui esse; quia namque retinet esse,
+<lb ed="#L" n="34"/>durat res omnis, et non ob aliud): cum inquam ita sit,
+<lb ed="#L" n="35"/>consequens est quod, si alterum extremorum non est idem
+<lb ed="#L" n="36"/>medio, quod nec sit idem reliquo extremo; magis enim
+<lb ed="#L" n="37"/>distant extrema inter se, quam a medio. Res autem durans
+<lb ed="#L" n="38"/>alia a Deo, quae est unum extremum, non est idem quod
+<lb ed="#L" n="39"/>suum esse, ut supponimus. Ergo nec est idem quod sua
+<lb ed="#L" n="40"/>duratio, quae extremum alterum est.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e618">
+                  <lb ed="#L" n="41"/>IV. Circa eandem probationem, dubium ex <name xml:id="TAcCaj-d1e97-Nd1e622">Aureolo</name>,
+<lb ed="#L" n="42"/>apud <name xml:id="TAcCaj-d1e97-Nd1e626">Capreolum</name>, in ix distinctione Primi, occurrit. Impu-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>gnat siquidem id quod implicite dicitur, quod aeternitas Dei
+<lb ed="#L" n="44"/>sit formaliter duratio. Quia omnis duratio, alteri comparata,
+<lb ed="#L" n="45"/>est maior, minor, aut aequalis: aeternitas non est huiusmodi.
+<lb ed="#L" n="46"/>Probatur: quia non potest intelligi maior, secluso post vel
+<lb ed="#L" n="47"/>ante plus durare; ergo omnis duratio maior habet ante
+<lb ed="#L" n="48"/>vel post; quod repugnat aeternitati.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e644">
+                  <lb ed="#L" n="49"/>V. Ad hoc breviter potest dupliciter responderi. Primo,
+<lb ed="#L" n="50"/>negando minorem. Et ad probationem dicitur, quod 
+dura<lb break="no" ed="#L" n="51"/>tionem maiorem includere prius et post in se, contingit
+<lb ed="#L" n="52"/>dupliciter, uno modo formaliter, alio modo virtualiter et
+<lb ed="#L" n="53"/>eminenter, sicut calor est in sole: et quod aeternitas est
+<lb ed="#L" n="54"/>maior ceteris, et verificatur de ea durare prius vel post
+<lb ed="#L" n="55"/>tempus aliquod, quia in se illa praehabet eminenter. — 
+Se<lb break="no" ed="#L" n="56"/>cundo potest responderi, negando maiorem, proprie 
+lo<lb break="no" ed="#L" n="57"/>quendo. Quoniam comparatio proprie non fit nisi in unius
+<lb ed="#L" n="58"/>rationis rebus: aeternitas autem est duratio alterius omnino
+<lb ed="#L" n="59"/>rationis a tempore. Et hoc secundum se loquendo: 
+quam<lb break="no" ed="#L" n="60"/>vis, concepta ut coexistens, tempori comparetur etiam a viris
+<lb ed="#L" n="61"/>illustribus.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e675">
+                  <lb ed="#L" n="62"/>VI. In responsione ad primum, adverte duo. Primum est
+<lb ed="#L" n="63"/>quod, sicut punctum motum dicitur causare lineam, et
+<lb ed="#L" n="64"/>tamen in nullo genere causae causat illam in esse; et 
+pro<lb break="no" ed="#L" n="65"/>pterea non est causa lineae in esse reali, sed est causa eius
+<lb ed="#L" n="66"/>in esse cognito, quia facit cognitionem illius in nobis: ita
+<lb ed="#L" n="67"/>nunc stans dicitur causare aeternitatem, non in esse reali,
+<lb ed="#L" n="68"/>sed in esse cognito, quia causat rationem illius in nobis.
+<lb ed="#L" n="69"/>Et quemadmodum impossibile est punctum moveri, et tamen
+<lb ed="#L" n="70"/>concipimus et dicimus punctum motum, idest si 
+movere<lb break="no" ed="#L" n="71"/>tur, causare lineam: ita, dato quod impossibile sit nunc
+<lb ed="#L" n="72"/>stare, attamen optime dicimus, munc stans facit 
+aeterni<lb break="no" ed="#L" n="73"/>tatem, idest, si staret, constitueret aeternitatem.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e705">
+                  <lb ed="#L" n="74"/>Secundum est, quod hinc patet quam vanus contra nos
+<lb ed="#L" n="75"/>fuerit labor rationum Aureoli, ubi supra, ad impugnandum
+<lb ed="#L" n="76"/>hoc dictum Boetii et s. Thomae, quia munc non potest
+<lb ed="#L" n="77"/>concipi ut stans, et ad removendum unc a Deo. 
+Aequi<lb break="no" ed="#L" n="78"/>vocat namque de nunc, imo supponit non dari nisi nunc
+<lb ed="#L" n="79"/>temporis: cum tamen nunc aeternitatis sit alterius rationis
+<lb ed="#L" n="80"/>a nunc temporis. Et rursus, ut dictum est, ipsum nunc
+<lb ed="#L" n="81"/>temporis, si staret, aeternitatem constitueret: sicut punctus,
+<lb ed="#L" n="82"/>si moveretur, lineam faceret. Quare non opus esse censui
+<lb ed="#L" n="83"/>obiectiones suas adducere: ex his enim facillime solvuntur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e97-Dd1e730"><!-- caj-p1-q10-a3 -->
+               <head xml:id="TAcCaj-d1e97-Hd1e733">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e97-d1e735">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e742">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>IN titulo, proprium distinguitur contra commune. — In 
+cor<lb break="no" ed="#L" n="35"/>I pore duae conclusiones. Prima est: Aeternitas vere et 
+pro<lb break="no" ed="#L" n="36"/>prie est in solo Deo. Probatur. Solus Deus est omnino
+<lb ed="#L" n="37"/>immutabilis: ergo solus Deus est vere et proprie aeternus. —
+<lb ed="#L" n="38"/>Tenet sequela: quia aeternitas immutabilitatem consequitur.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e758">
+                  <lb ed="#L" n="39"/>Secunda est: Aeternitas participative invenitur in aliis.
+<lb ed="#L" n="40"/>Probatur. Immutabilitas participatur quadrupliciter ab aliis:
+<lb ed="#L" n="41"/>ergo aeternitas. — Tenet sequela: quia inquantum aliqua sunt
+<lb ed="#L" n="42"/>immutabilia, intantum sunt aeterna. Antecedens declaratur
+<lb ed="#L" n="43"/>secundum quatuor gradus immutabilitatis. Primus est 
+se<lb break="no" ed="#L" n="44"/>cundum diuturnitatem: et in hoc sunt corruptibilia sed
+<lb ed="#L" n="45"/>longaeva valde, ut montes et colles. Secundus est 
+secun<lb break="no" ed="#L" n="46"/>dum perpetuitatem secundum totum: et in hoc sunt 
+ele<lb break="no" ed="#L" n="47"/>menta corruptibilia secundum partes et non secundum to-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="48"/>tum: quamvis in littera praepostero ordine numerentur hi
+<lb ed="#L" n="49"/>gradus. Tertius est secundum  incorruptibilitatem 
+substan<lb break="no" ed="#L" n="50"/>tialem simpliciter: et in hoc sunt caelestia et angeli. 
+Quar<lb break="no" ed="#L" n="51"/>tus est secundum immautabilitatem operationis eiusdem
+<lb ed="#L" n="52"/>numero omnino: et in hoc sunt beati ut sic.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e793">
+                  <lb ed="#L" n="53"/>II. In responsione ad tertium, si nescis, novitie, quomodo
+<lb ed="#L" n="54"/>intelligatur quod necessarium significat quendam veritatis
+<lb ed="#L" n="55"/>modum, memento secundi libri Perihermenias, ubi de
+<lb ed="#L" n="56"/>modalibus agitur; et videbis necessarium in actu signato
+<lb ed="#L" n="57"/>modum compositionis, in qua sola est veritas, addere supra
+<lb ed="#L" n="58"/>propositionem. Et sic intelliges necessarium in actü 
+exer<lb break="no" ed="#L" n="59"/>cito, cuius argumentum hoc meminit, modum 
+compositio<lb break="no" ed="#L" n="60"/>nis vere exercere, a quo necessaria dicuntur et pedum et
+<lb ed="#L" n="61"/>conclusiones demonstrationum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e97-Dd1e816"><!-- caj-p1-q10-a4 -->
+               <head xml:id="TAcCaj-d1e97-Hd1e819">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e97-d1e821">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="59"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e828">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>In titulo, aliud realiter. - In corpore quinque. Primo,
+<lb ed="#L" n="61"/>ostendit quod dubium in hoc quaesito sit, non quaesitum,
+<lb ed="#L" n="62"/>sed ratio quaesiti.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e839">
+                  <lb ed="#L" n="63"/>Secundo, refert quandam opinionem circa dubium (
+sci<lb break="no" ed="#L" n="64"/>licet rationem alietatis inter haec): scilicet, propter habere
+<lb ed="#L" n="65"/>principium et finem et non habere haec.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e848">
+                  <lb ed="#L" n="66"/>Tertio, improbatur: quia hoc est per accidens. Probatur:
+<lb ed="#L" n="67"/>quia, hac differentia sublata, remaneret alia a Boetio posita;
+<lb ed="#L" n="68"/>scilicet, per esse totum simul et esse successivum.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e858">
+                  <lb ed="#L" n="69"/>Quarto, salvatur improbata opinio secundum duplicem
+<lb ed="#L" n="70"/>sensum : scilicet, intelligendo illam differentiam quoad 
+men<lb break="no" ed="#L" n="71"/>surdta; vel de principio et fine in potentia.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e867">
+                  <lb ed="#L" n="72"/>Quinto, respondetur quaesito, inquantum dubitabile est,
+<lb ed="#L" n="73"/>una conclusione complectente quodammodo omnia dicta.
+<lb ed="#L" n="74"/>Et est ista: Inter aeternitatem et tempus per se primo 
+dif<lb break="no" ed="#L" n="75"/>ferentia est per esse totum simul et non esse huiusmodi;
+<lb ed="#L" n="76"/>ita quod reliqua hanc consequuntur. Et relinquitur ex dictis
+<lb ed="#L" n="77"/>nota.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e883">
+                  <lb ed="#L" n="78"/>II. Adverte hic, quod opinio recitata in littera tres sensus
+<lb ed="#L" n="79"/>habere potest: primo, de habere principium et finem in
+<lb ed="#L" n="80"/>seipsa mensura, in actu tamen; secundo, im mensuratis,
+<lb ed="#L" n="81"/>similiter in actu; tertio, i? potentia, in seipsa tamen 
+men<lb break="no" ed="#L" n="82"/>sura. Et quia, cum aliqua differeritia de aliquo assignatur,
+<lb ed="#L" n="83"/>intelligitur quod illa differentia insit illi in seipso; et rursus,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="84"/>cum absolute dicimus principium aut finem, intelligitur in
+<lb ed="#L" n="85"/>actu; ideo primus sensus absolute improbatus est. 
+Secun<lb break="no" ed="#L" n="86"/>dus vero et tertius, qui possunt exponendo sufferri, deinde
+<lb ed="#L" n="87"/>appositi ut veri sunt. Sed quoniam non radicalem 
+diffe<lb break="no" ed="#L" n="88"/>rentiam, sed secundariam tangebant, ideo ultimo 
+respon<lb break="no" ed="#L" n="89"/>dendo radicem posuit. Omnia in littera clare patent.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e914">
+                  <lb ed="#L" n="90"/>HI. Circa illud dictum in secundo sensu, scilicet quod
+<lb ed="#L" n="91"/>motus caeli, si esset aeternus, non mensuraretur tempore
+<lb ed="#L" n="92"/>secundum totum, sed secundum partes, dubium occurrit ex
+<lb ed="#L" n="93"/>Scoto, in Secundo, dist. rr, qu. rrr. Sed quia hoc spectat ad IV.
+<lb ed="#L" n="94"/>Physic., in textu 117, ideo hic, ubi non ex proposito 
+tan<lb break="no" ed="#L" n="95"/>gitur, omittatur.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e930">
+                  <lb ed="#L" n="96"/>Et similiter dubitatio circa identitatem zunc in toto 
+tem<lb break="no" ed="#L" n="97"/>pore, tactam in responsione ad secundum, cum tractetur
+<lb ed="#L" n="98"/>in eodem quarto, a textu 103 usque ad textum 108, 
+ibi<lb break="no" ed="#L" n="99"/>dem, Deo dante, tractabitur; et de his est quaestio specialis.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e941">
+                  <lb ed="#L" n="100"/>IV. In responsione ad tertium, est dubium circa illud
+<lb ed="#L" n="101"/>dictum, scilicet quod esse rerum generabilium mensuretur
+<lb ed="#L" n="102"/>tempore. Arguit enim contra illud Scotus, in Secundo, dist. rr,
+<lb ed="#L" n="103"/>qu. rv, volens quod absolute mensuretur aevo. Sed quia in
+<lb ed="#L" n="104"/>sequenti articulo aevi natura notificanda est, et eodem utitur
+<lb ed="#L" n="105"/>Scotus argumento contra hoc et contra mensuram 
+opera<lb break="no" ed="#L" n="106"/>tionis angelicae, idcirco usque ad sequentem differatur 
+ar<lb break="no" ed="#L" n="107"/>ticulum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e97-Dd1e963"><!-- caj-p1-q10-a5 -->
+               <head xml:id="TAcCaj-d1e97-Hd1e966">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e97-d1e968">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="27"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e975">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>TITULUS clarus. - In corpore articuli quatuor: primo, 
+re<lb break="no" ed="#L" n="29"/>spondet quid in hoc quaesito clarum, quidve '
+ambi<lb break="no" ed="#L" n="30"/>guum; secundo, tractat quandam opinionem; tertio, aliam ;
+<lb ed="#L" n="31"/>quarto, propriam, respondendo quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e988">
+                  <lb ed="#L" n="32"/>II. Quoad primum, clarum est aevum medium esse inter
+<lb ed="#L" n="33"/>aeternitatem et tempus: ambiguum, quomodo est medium,
+<lb ed="#L" n="34"/>propter multitudinem opinionum.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e997">
+                  <lb ed="#L" n="35"/>III. Quoad secundum, primo ponitur opinio dicens 
+me<lb break="no" ed="#L" n="36"/>diationem attendi penes habere principium et finem. 
+Se<lb break="no" ed="#L" n="37"/>cundo, improbatur: quia mediatio haec est per accidens;
+<lb ed="#L" n="38"/>ut patet, si aeviterna producta essent ab aeterno.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1009">
+                  <lb ed="#L" n="39"/>IV. Quoad tertium, primo ponitur secunda opinio, 
+di<lb break="no" ed="#L" n="40"/>cens mediationem attendi penes carere innovatione et 
+ve<lb break="no" ed="#L" n="41"/>teratione, et tamen habere prius et posterius; quatenus in
+<lb ed="#L" n="42"/>primo conveniat cum aeternitate, et in secundo cum 
+tem<lb break="no" ed="#L" n="43"/>pore. - Secundo, improbatur dupliciter, iuxta duplicem 
+in<lb break="no" ed="#L" n="44"/>tellectum quem habere potest: scilicet, vel referendo 
+utram<lb break="no" ed="#L" n="45"/>que conditionem ad ipsum aevum; vel referendo secundam
+<lb ed="#L" n="46"/>ad aevum, et primam ad aeviternum mensuratum aevo.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1029">
+                  <lb ed="#L" n="47"/>Contra primum sensum arguit sic. Prius et posterius
+<lb ed="#L" n="48"/>secundum durationem non potest esse simul: ergo, 
+rece<lb break="no" ed="#L" n="49"/>dente priore, de novo advenit posterius: ergo, si in aevo
+<lb ed="#L" n="50"/>est prius et posterius, erit innovatio et inveteratio. - Contra
+<lb ed="#L" n="51"/>secundum sic. Aeviternum nec est innovabile, nec 
+invete<lb break="no" ed="#L" n="52"/>rabile: ergo est intransmutabile: ergo mensura eius caret
+<lb ed="#L" n="53"/>priore et posteriore. Antecedens est tuum. Prima 
+conse<lb break="no" ed="#L" n="54"/>quentia et patet ex se, et probatur ex IV PhAysic.: quia
+<lb ed="#L" n="55"/>transmutabilitas est propria causa inveterationis; ergo 
+in<lb break="no" ed="#L" n="56"/>transmutabilitas non inveterationis, iuxta illud, si affirmatio
+<lb ed="#L" n="57"/>est causa affirmationis etc. Secunda vero consequentia
+<lb ed="#L" n="58"/>probatur ex IV Physic.: quia transmutabilitas mensurati est
+<lb ed="#L" n="59"/>causa prioris et posterioris in mensura; ergo 
+intransmuta<lb break="no" ed="#L" n="60"/>bilitas erit causa negationis prioris et posterioris in eadem,
+<lb ed="#L" n="61"/>iuxta eandem radicem.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1064">
+                  <lb ed="#L" n="62"/>V. Circa has rationes, adverte quod Scotus, in Secundo,
+<lb ed="#L" n="63"/>dist. rr, qu. rt, hanc opinionem non sequitur: solvere tamen
+<lb ed="#L" n="64"/>nititur has rationes litterae, defendendo secundum sensum,
+<lb ed="#L" n="65"/>dans exemplum sic. Si poneretur caro non habens partem
+<lb ed="#L" n="66"/>et partem sub quantitate, tunc in mensura essent partes,
+<lb ed="#L" n="67"/>et non in eo cuius esset. Et sic in proposito, esse angeli
+<lb ed="#L" n="68"/>est absque innovatione: et tamen mensura est successiva.
+<lb ed="#L" n="69"/>Unde ad rationem factam directe contra hoc, respondet 
+ne<lb break="no" ed="#L" n="70"/>gando, in sententia, quod transmutabilitas mensurati sit
+<lb ed="#L" n="71"/>praecisa causa successionis in mensura.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1088">
+                  <lb ed="#L" n="72"/>VI. Sed contra, haec responsio facile convincitur falsa,
+<lb ed="#L" n="73"/>tum ad hominem, tum simpliciter. Ad hominem quidem,
+<lb ed="#L" n="74"/>quia si successio in mensura stat cum mutatione et 
+immu<lb break="no" ed="#L" n="75"/>tatione proprii subiecti, seu mensurati, ergo arguere a 
+suc<lb break="no" ed="#L" n="76"/>cessione mensurae ad transmutationem subiecti non valet,
+<lb ed="#L" n="77"/>sed est sophisma Consequentis. Sed ipse Scotus ibidem 
+fate<lb break="no" ed="#L" n="78"/>tur quod ille processus est bonus, et ab effectu ad causam.
+<lb ed="#L" n="79"/>Ergo. — Et confirmatur: quia Aristoteles usus est illo,
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1108">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>nec processus litterae est alius ab illo; si enim successio
+<lb ed="#L" n="81"/>est in mensura, dicimus, ergo ín mensurato, quia variatio
+<lb ed="#L" n="82"/>mensurati est causa successionis in mensura. Mirum valde
+<lb ed="#L" n="83"/>est de hoc homine, cum eandemmet rationem, quia 
+Aristo<lb break="no" ed="#L" n="84"/>telis, approbat; quia s. Thomae, improbat. Et propterea
+<lb ed="#L" n="85"/>necesse est ut aut approbationem aut improbationem 
+pro<lb break="no" ed="#L" n="86"/>priam neget.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1128">
+                  <lb ed="#L" n="87"/>Simpliciter autem, quoniam indivisibile impossibile est
+<lb ed="#L" n="88"/>quod certificetur ex propriis per divisibile: ergo 
+impossi<lb break="no" ed="#L" n="89"/>bile quod mensuretur per illud. — Et tenet sequela: quia
+<lb ed="#L" n="90"/>mensura est certificatio mensurati. Antecedens vero patet
+<lb ed="#L" n="91"/>in exemplo suo: nunquam enim sciretur quanta esset caro
+<lb ed="#L" n="92"/>indivisibilis per quantitatem divisibilem, si eius esset. Unde
+<lb ed="#L" n="93"/>et de facto per quantitatem specierum in Eucharistia, non
+<lb ed="#L" n="94"/>mensuratur corpus Christi, quia non est sub ea divisibiliter.
+<lb ed="#L" n="95"/>Et idem est iudicium in quantitate durationis. Si enim ipsa
+<lb ed="#L" n="96"/>est extensa, nunquam mensurabitur indivisibile et 
+inexten<lb break="no" ed="#L" n="97"/>sum secundum durationem: quomodo enim scietur sic illius
+<lb ed="#L" n="98"/>duratio naturalis, etiam fingi non potest. Oportet igitur
+<lb ed="#L" n="99"/>mensurae extensae respondere mensuratum extensum, et
+<lb ed="#L" n="100"/>indivisibili indivisibile, ut littera ex Aristotele deducit.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1162">
+                  <lb ed="#L" n="101"/>VII. Quoad quartum, conclusio responsiva quaesito
+<lb ed="#L" n="102"/>est: Aevum est medium inter aeternitatem et tempus, quia
+<lb ed="#L" n="103"/>est immutabile, mutabilitati tamen coniunctum. — Probatur.
+<lb ed="#L" n="104"/>Aeternitas est propria mensura esse totaliter permanentis:
+<lb ed="#L" n="105"/>ergo penes recessum a permanentia, attenditur elongatio
+<lb ed="#L" n="106"/>ab aeternitate: ergo mutatio, aut mutationi subiectum,
+<lb ed="#L" n="107"/>maxime recedit ab ipsa: ergo medium est immutabile, 
+mu<lb break="no" ed="#L" n="108"/>tationi tamen annexum actu vel potentia. Patet secunda 
+se<lb break="no" ed="#L" n="109"/>quela: quia mutatio permanentiae opponitur directe, et 
+ae<lb break="no" ed="#L" n="110"/>ternitas ipsa nec mutatio est, nec mutationem quovis modo
+<lb ed="#L" n="111"/>secum compatitur. Ultima autem, cum ceteris, clare patet.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1188">
+                  <lb ed="#L" n="112"/>VII. In responsione ad primum, adverte quod Scotus
+<lb ed="#L" n="113"/>arguit contra quatuor propositiones. Prima est affirmativa :
+<lb ed="#L" n="114"/>operationes angeli mensurantur tempore. Secunda est 
+ne<lb break="no" ed="#L" n="115"/>gativa, virtualiter inclusa in praecedente: operationes 
+an<lb break="no" ed="#L" n="116"/>geli non mensurantur aevo. Tertia est affirmativa: visio
+<lb ed="#L" n="117"/>beata in angelis mensuratur aeternitate participata. Et
+<lb ed="#L" n="118"/>hae omnes habentur in hac responsione ad primum, ut
+<lb ed="#L" n="119"/>patet in littera. Quarta vero etiam affirmativa est: esse 
+re<lb break="no" ed="#L" n="120"/>rum generabilium mensuratur tempore: haec enim in 
+re<lb break="no" ed="#L" n="121"/>sponsione ad ultimum articuli praecedentis, et in corpore
+<lb ed="#L" n="122"/>huius posita est, cum dictum est quod tam id quod in
+<lb ed="#L" n="123"/>transmutatione consistit, idest motus, quam id quod 
+mu<lb break="no" ed="#L" n="124"/>tationi subiicitur, quod experimur esse nostrum esse 
+sub<lb break="no" ed="#L" n="125"/>stantiale, tempore mensuratur.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1221">
+                  <lb ed="#L" n="126"/>IX. Arguit ergo primo, in II Sert., dist. rm, qu. rv, contra
+<lb ed="#L" n="127"/>secundam propositionem, probando illius contradictoriam,
+<lb ed="#L" n="128"/>quam tenet ut veram, scilicet, operationes angeli 
+mensu<lb break="no" ed="#L" n="129"/>rantur aevo, tripliciter. Primo sic. Esse et operatio angeli
+<lb ed="#L" n="130"/>habent uniformem modum manendi dum manent: ergo
+<lb ed="#L" n="131"/>habent mensuram eiusdem rationis. Antecedens patet: quia
+<pb ed="#L" n="102"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>utrumque est indivisibile, et tamen defectibile. Probatur 
+con<lb break="no" ed="#L" n="2"/>sequentia: quia mensurae proportionantur diversis modis
+<lb ed="#L" n="3"/>manendi, ut patet de successivis et permanentibus. — 
+Se<lb break="no" ed="#L" n="4"/>cundo sic. Actus beatificus mensuratur aevo, ut per 
+Augu<lb break="no" ed="#L" n="5"/>sinum patet, de Fide ad Petrum, cap. xvmr. Ergo. —
+<lb ed="#L" n="6"/>Tertio. Operatio angeli non mensuratur aeternitate nec
+<lb ed="#L" n="7"/>tempore: ergo aevo.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1256">
+                  <lb ed="#L" n="8"/>X. Ad evidentiam huius difficultatis, adverte quod Scotus
+<lb ed="#L" n="9"/>ibidem tres mensuras durationis ponit, tempus, aevum et
+<lb ed="#L" n="10"/>aeternitatem: ita quod tempus rem successivam; aevum
+<lb ed="#L" n="11"/>permanentem; defectibllem tamen; aeternitas autem rem
+<lb ed="#L" n="12"/>omnino indefectibilem mensuret. Et propterea tenet esse
+<lb ed="#L" n="13"/>substantiale rerum ad quas impossibile est esse motum, et
+<lb ed="#L" n="14"/>operationes angelicas, etc., secundum se mensurari aevo.
+<lb ed="#L" n="15"/>Et tota radix eius est illa maxima: Quaecumque 
+unifor<lb break="no" ed="#L" n="16"/>mem habent modum manendi dum manent, habent 
+men<lb break="no" ed="#L" n="17"/>suram eiusdem rationis.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1280">
+                  <lb ed="#L" n="18"/>In praesenti autem littera, distinguuntur mensurae 
+du<lb break="no" ed="#L" n="19"/>rationis penes mutabilitatem et immutabilitatem rerum. Et
+<lb ed="#L" n="20"/>vere sic est. Quoniam mensura durationis est certificativa
+<lb ed="#L" n="21"/>naturalis durationis rei secundum se, alioquin frustra esset:
+<lb ed="#L" n="22"/>naturalis autem duratio rei ex mutabilitate aut 
+immutabi<lb break="no" ed="#L" n="23"/>litate nascitur. Loquor de mutabili vel immutabili proprie,
+<lb ed="#L" n="24"/>idest ex intrinseco: quoniam ex tali mutabilitate tantum
+<lb ed="#L" n="25"/>pendet naturalis duratio rei. Nihil enim refert ad naturalem
+<lb ed="#L" n="26"/>durationem rei, an in alio sit potentia destructiva eius, an
+<lb ed="#L" n="27"/>non: sed solum an in ipsa sit unde possit deficere, an non.
+<lb ed="#L" n="28"/>Et in hoc erravit manifeste Scotus, dicens: nec aliquando
+<lb ed="#L" n="29"/>non esse, nec posse non esse per propriam potentiam,
+<lb ed="#L" n="30"/>variat mensuram rei. Et fundamentum eius est valde 
+de<lb break="no" ed="#L" n="31"/>bile, scilicet quia, si angelus annihilandus esset, nihil minus
+<lb ed="#L" n="32"/>mensuraretur aevo. Liquet enim quod naturaliter non fore
+<lb ed="#L" n="33"/>aliquando, et similiter posse naturaliter non esse, variant
+<lb ed="#L" n="34"/>naturam rei: quia corruptibile et incorruptibile, ut dicitur
+<lb ed="#L" n="35"/>X Metaphys., sunt substantia aut in substantia. Variant,
+<lb ed="#L" n="36"/>inquam, naturam generice, adeo ut nihil sit eis univocum.
+<lb ed="#L" n="37"/>Ergo nec propria mensura est eadem. Et ex hoc provenit
+<lb ed="#L" n="38"/>quod annihilandus angelus mensuratur aevo: quia scilicet
+<lb ed="#L" n="39"/>annihilatio non provenit ex natura eius, sed ab extraneo;
+<lb ed="#L" n="40"/>ipse enim, quantum est de se, semper esset.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1332">
+                  <lb ed="#L" n="41"/>Dicimus ergo rem omnino immutabilem aeternitate 
+men<lb break="no" ed="#L" n="42"/>surari; immutabilem autem simpliciter et mutabilem 
+secun<lb break="no" ed="#L" n="43"/>dum quid, aevo; mutabilem autem simpliciter, tempore. Et
+<lb ed="#L" n="44"/>propterea, cum angelus sit immutabilis substantialiter, 
+mu<lb break="no" ed="#L" n="45"/>tabilis tamen accidentaliter, aevo mensuratur. Operationes
+<lb ed="#L" n="46"/>vero eius naturales, quia naturaliter sunt mutabiles, aevo
+<lb ed="#L" n="47"/>mensurari nequeunt: aevo namque mensuratum aeviternum
+<lb ed="#L" n="48"/>est, aeviternum autem naturaliter perpetuum est, nullum
+<lb ed="#L" n="49"/>autem naturaliter mutabile est naturaliter perpetuum.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1355">
+                  <lb ed="#L" n="50"/>XL Ad fundamentum autem Scoticum, distinguenda
+<lb ed="#L" n="51"/>primo est propositio illa. Quoniam si fit /n sensu. 
+compo<lb break="no" ed="#L" n="52"/>sito, est falsissima. Quoniam, ut dicitur in I Periherm.,
+<lb ed="#L" n="53"/>unumquodque necesse est esse dum est; et sic omnia 
+ma<lb break="no" ed="#L" n="54"/>nentia, dum manent, habent uniformem modum essendi,
+<lb ed="#L" n="55"/>quia sunt necessario; et tamen non habent eandem 
+men<lb break="no" ed="#L" n="56"/>suram, Nec ad hunc sensum arguens facit illam, sed 
+ab<lb break="no" ed="#L" n="57"/>solute seu in sensu diviso. Et tunc dicitur quod modus
+<lb ed="#L" n="58"/>manendi est multipliciter distinguibilis: scilicet, vel penes
+<lb ed="#L" n="59"/>necessarium et possibile; vel penes permanens et 
+successi<lb break="no" ed="#L" n="60"/>vum; vel penes defectibile et indefectibile. Et quocumque
+<lb ed="#L" n="61"/>modo sumatur, semper est falsa. Quoniam nec omne 
+ne<lb break="no" ed="#L" n="62"/>cessarium convenit in mensura: sed alia est mensura 
+ne<lb break="no" ed="#L" n="63"/>cessarii omnino, ut Dei; et alia necessarii simpliciter, 
+possi<lb break="no" ed="#L" n="64"/>bilis autem secundum quid, ut sunt reliqua incorruptibilia.
+<lb ed="#L" n="65"/>Et similiter omnia possibilia non mensurantur una 
+men<lb break="no" ed="#L" n="66"/>sura; quoniam quaedam tempore continuo, et quaedam
+<lb ed="#L" n="67"/>tempore discreto, ut dicetur. Similiter non omne 
+per<lb break="no" ed="#L" n="68"/>manens convenit in mensura; ut patet de superioribus et
+<lb ed="#L" n="69"/>inferioribus. Nec omnia successiva: quoniam alia est 
+men<lb break="no" ed="#L" n="70"/>sura successivorum successione continua, et alia 
+succeden<lb break="no" ed="#L" n="71"/>tium successione discreta, ut dicetur, De defectibili autem
+<lb ed="#L" n="72"/>et indefectibili, iam patet defectibilitatem non esse modum
+<lb ed="#L" n="73"/>rei,ut ab eis sumitur, sed dicere potentiam extraneam: et
+<lb ed="#L" n="74"/>propterea non est ad propositum. Et esset nihil minus falsa,
+<lb ed="#L" n="75"/>ex 6o quod non omne defectibile unica mensura certifica-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>tur. - Ex his autem simplicibus, patet responsio ad modos
+<lb ed="#L" n="77"/>compositos; puta permanens defectibile, et similes.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1420">
+                  <lb ed="#L" n="78"/>XII. Ad formam ergo propositionis, dicendum est quod
+<lb ed="#L" n="79"/>habere uniformem modum manendi intrinsecum rei et per se
+<lb ed="#L" n="80"/>respicientem naturalem durationem rei, est ratio uniformis
+<lb ed="#L" n="81"/>seu eiusdem mensurae durationis: et non absolute habere
+<lb ed="#L" n="82"/>uniformem modum manendi. Et ideo falsum est antecedens
+<lb ed="#L" n="83"/>illus consequentiae. Et iam exclusa est eius probatio.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1436">
+                  <lb ed="#L" n="84"/>Ad secundum, negatur antecedens, ut patet in littera.
+<lb ed="#L" n="85"/>Nec est verum quod Augustinus dicat illud, nisi in sensu
+<lb ed="#L" n="86"/>inferius manifestando, accipiendo scilicet aevum pro 
+ae<lb break="no" ed="#L" n="87"/>ternitate participata.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1447">
+                  <lb ed="#L" n="88"/>Ad tertium, negatur antecedens pro secunda parte: quia
+<lb ed="#L" n="89"/>operatio angeli mensuratur nunc temporis, non continui,
+<lb ed="#L" n="90"/>sed discreti.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1456">
+                  <lb ed="#L" n="91"/>XIII. Contra primam propositionem, scilicet, operationes
+<lb ed="#L" n="92"/>angeli mensurantur tempore, arguit Scotus ibidem. Sed
+<lb ed="#L" n="93"/>quoniam argumenta sua militant contra tenentes eas 
+men<lb break="no" ed="#L" n="94"/>surari tempore discreto quod sit species quantitatis, et haec
+<lb ed="#L" n="95"/>propositio non est s. Thomae (quoniam apud nos tempus
+<lb ed="#L" n="96"/>discretum nihil aliud est quam numerus prioris et 
+poste<lb break="no" ed="#L" n="97"/>rioris in motu discreto; qui nihil aliud est quam successio
+<lb ed="#L" n="98"/>operationis spiritualis ad aliam operationem spiritualem,
+<lb ed="#L" n="99"/>quales sunt duae intellectiones sine phantasmatum servitio ;
+<lb ed="#L" n="100"/>numerus autem de praedicamento Quantitatis, sequitur 
+di<lb break="no" ed="#L" n="101"/>visionem continui: oportet ut tempus hoc sit numerus
+<lb ed="#L" n="102"/>transcendens, compositus ex unitatibus transcendentibus):
+<lb ed="#L" n="103"/>quia, inquam, sic est, unum tantum ex Scoto motivum 
+affe<lb break="no" ed="#L" n="104"/>rendum censui, scilicet, quia ponuntur multa tempora sine
+<lb ed="#L" n="105"/>necessitate. Oportet etiam multiplicari tempora, non solum
+<lb ed="#L" n="106"/>in pluribus, sed in eodem, respectu actuum intellectus et
+<lb ed="#L" n="107"/>voluntatis, etc. Haec autem videntur inconvenientia. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1495">
+                  <lb ed="#L" n="108"/>XIV. Ad hoc breviter dicitur, quod necessitas magna est
+<lb ed="#L" n="109"/>multiplicandi tempus in continuum et discretum, propter
+<lb ed="#L" n="110"/>spirituales operationes substantiarum spiritualium : carerent
+<lb ed="#L" n="111"/>enim aliter proportionatis mensuris. Illae enim, cum sint
+<lb ed="#L" n="112"/>immediate sibi invicem succedentes, et instantaneae 
+secun<lb break="no" ed="#L" n="113"/>dum se, quia quaelibet est tota simul, elevantur manifeste
+<lb ed="#L" n="114"/>supra tempus continuum et eius instantia: ad aevi autem
+<lb ed="#L" n="115"/>excellentiam non attingunt, quia corruptibiles naturaliter
+<lb ed="#L" n="116"/>sunt. Oportet ergo ut sine propria mensura remaneant tam
+<lb ed="#L" n="117"/>nobilia entia; aut tempus discretum ponere, cuius 
+instan<lb break="no" ed="#L" n="118"/>tibus operationes ipsae in se mensurentur. Haec enim sunt
+<lb ed="#L" n="119"/>ipse motus spiritualis angelorum, cuius numerus est tempus
+<lb ed="#L" n="120"/>per quod dicit Augustinus movere Deum spiritualem
+<lb ed="#L" n="121"/>creaturam.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1529">
+                  <lb ed="#L" n="122"/>Multiplicatio autem temporis discreti in pluribus 
+an<lb break="no" ed="#L" n="123"/>gelis aut in eodem, iudicio meo, non est necessaria nisi
+<lb ed="#L" n="124"/>materialiter: quemadmodum etiatn tempus continuum, quo
+<lb ed="#L" n="125"/>nostra mensurantur, materialiter multiplicatur in ómnibus
+<lb ed="#L" n="126"/>mobilibus, et aevum in omnibus aeviternis. Consonum
+<lb ed="#L" n="127"/>namque rationi videtur ut, sicut omnia aeviterna 
+simplicis<lb break="no" ed="#L" n="128"/>simo aevo mensurantur, quod solum est aevum formaliter;
+<lb ed="#L" n="129"/>ita omnis operatio huiusmodi simplicissima operatione, seu
+<lb ed="#L" n="130"/>simplicissimo zunc illius mensuretur; et similiter omnis
+<lb ed="#L" n="131"/>successio operationum, simplicissima successione. Talis 
+au<lb break="no" ed="#L" n="132"/>tem operatio et successio est ea quae in primo operante
+<lb ed="#L" n="133"/>temporaliter invenitur: quem constat esse supremum 
+an<lb break="no" ed="#L" n="134"/>gelum, in quo, ut dicetur, est etiam aevum. Et quia 
+ope<lb break="no" ed="#L" n="135"/>rationes intellectus sunt naturaliter priores et simpliciores
+<lb ed="#L" n="136"/>operationibus voluntatis, erit unum tempus omnium 
+huius<lb break="no" ed="#L" n="137"/>modi temporalium; quod est primo mensura operationum
+<lb ed="#L" n="138"/>succedentium in intellectu primi angeli, et ex consequenti
+<lb ed="#L" n="139"/>et extrinsece mensura ceterarum operationum tam suarum
+<lb ed="#L" n="140"/>quam aliorum spiritualium. Cum his tamen, ut dictum
+<lb ed="#L" n="141"/>est, stat quod quasi materialiter multiplicetur huiusmodi
+<lb ed="#L" n="142"/>tempus, iuxta numerum mensuratorum operum: eo quod
+<lb ed="#L" n="143"/>unum et multa, quae consequuntur ens, multiplicantur
+<lb ed="#L" n="144"/>cum rebus ipsis. Dixi autem quasi materialiter: quia non
+<lb ed="#L" n="145"/>oportet quod omnino univoce salvetur proportio temporum
+<lb ed="#L" n="146"/>nostrorum ad tempus cuius subiectum est primus motus,
+<lb ed="#L" n="147"/>et proportio horum temporum ad simplicissimum tempus
+<lb ed="#L" n="148"/>eorum; sed sat est si est quasi talis.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1590">
+                  <lb ed="#L" n="149"/>XV. Contra tertiam vero propositionem, scilicet, operatio
+<lb ed="#L" n="150"/>beata mensuratur aeternitate participata, arguit idem in 
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1597">
+                  <pb ed="#L" n="103"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quarto, dist. xix, qu. vi. Operatio beata non est 
+immuta<lb break="no" ed="#L" n="2"/>bilior aeviterno: ergo non mensuratur aeternitate, sed aevo.
+<lb ed="#L" n="3"/>Consequentia nota. Et antecedens probatur. Tum quia 
+ope<lb break="no" ed="#L" n="4"/>ratio beata est simpliciter minus nobilis quam substantia
+<lb ed="#L" n="5"/>angeli beati, quoniam substantia est nobilior accidente.
+<lb ed="#L" n="6"/>Tum quia perfectio ipsius operationis beataé non est 
+im<lb break="no" ed="#L" n="7"/>mutabilior substantia eiusdem operationis, quoniam id quod
+<lb ed="#L" n="8"/>inest alicui per accidens, non est immutabilius eo quod
+<lb ed="#L" n="9"/>inest per se: constat autem quod substantia operationis
+<lb ed="#L" n="10"/>mensuratur aevo. Ergo. - Praeterea, aeternum, ut 
+distin<lb break="no" ed="#L" n="11"/>guitur contra aeviternum, non solum est totum simul, sed
+<lb ed="#L" n="12"/>est indefectibile, carens potentia ad non esse. Sed nullum
+<lb ed="#L" n="13"/>creatum est huiusmodi. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1632">
+                  <lb ed="#L" n="14"/>XVI. Ad evidentiam huius difficultatis, scito quod, 
+quam<lb break="no" ed="#L" n="15"/>vis aevum nihil aliud sit quam aeternitatis participatio, 
+dis<lb break="no" ed="#L" n="16"/>tinguitur tamen a s. Thoma hic (et in III Contra Gent.,
+<lb ed="#L" n="17"/>cap. Lxi, et in IV Sent., xrix, qu. 1, art. 2, qu?. 3) aeternitas
+<lb ed="#L" n="18"/>participata ab aevo; non sicut perfectum a minus perfecto
+<lb ed="#L" n="19"/>in eadem specie, sed sicut perfectius a minus perfecto 
+di<lb break="no" ed="#L" n="20"/>versorum ordinum. Aeternitas quippe cum sit propria 
+men<lb break="no" ed="#L" n="21"/>sura divini esse, participata aeternitas consequenter est 
+pro<lb break="no" ed="#L" n="22"/>pria mensura-esse divini ordinis. Esse autem divini ordinis
+<lb ed="#L" n="23"/>dico, quod impossibile est connaturale esse cuicumque
+<lb ed="#L" n="24"/>creaturae factae aut factibili: de quo in qu. xir latior erit
+<lb ed="#L" n="25"/>sermo. Aevum autem est mensura esse immutabilis 
+qui<lb break="no" ed="#L" n="26"/>dem, sed naturalis ordinis. Et haec est per se primo 
+diffe<lb break="no" ed="#L" n="27"/>rentia inter aeternitatem participatam et aevum: ex hac
+<lb ed="#L" n="28"/>enim et aliae differentiae fluunt, et omnes difficultates 
+sol<lb break="no" ed="#L" n="29"/>vuntur. Quia enim operatio beata divini est ordinis, ideo
+<lb ed="#L" n="30"/>aeternitate dicitur mensurari participative, Hinc etiam oritur
+<lb ed="#L" n="31"/>vis conclusionis impugnatae a Scoto, scilicet: <quote xml:id="TAcCaj-d1e97-Qd1e1673">intellectus
+<lb ed="#L" n="32"/>creatus non potest ex se in operationem beatam: ergo
+<lb ed="#L" n="33"/>mensuratur aeternitate: ex primo siquidem antecedente 
+se<lb break="no" ed="#L" n="34"/>quitur, ergo divini est ordinis</quote>; et post, <quote xml:id="TAcCaj-d1e97-Qd1e1682">ergo mensuratur
+<lb ed="#L" n="35"/>aeternitate</quote>.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1688">
+                  <lb ed="#L" n="36"/>XVII. Unde ad primam rationem Scoti, negatur 
+ante<lb break="no" ed="#L" n="37"/>cedens. Quoniam operatio beata, dato quod ipsa in se non
+<lb ed="#L" n="38"/>esset immutabilior aeviterno, est tamen immutabilioris 
+or<lb break="no" ed="#L" n="39"/>dinis, quia divini. Et propterea dicitur et est immutabilior
+<lb ed="#L" n="40"/>secundum suum genus. - Dixi autem, dato quod non sit etc.,
+<lb ed="#L" n="41"/>quia minor.mutatio sufficit ad non esse operationis beatae,
+<lb ed="#L" n="42"/>quam substantiae angeli: quia haec exigit annihilationem,
+<lb ed="#L" n="43"/>illa non. Est et rursus immutabilior, quia plura mutabilia
+<lb ed="#L" n="44"/>immutabilius continet. Una siquidem visio beata, absque
+<lb ed="#L" n="45"/>omni mutatione, continet visiones omnium spectantium ad
+<lb ed="#L" n="46"/>universum eminenter: nullum autem aeviternum ad hanc
+<lb ed="#L" n="47"/>- immutabilitatem ascendere potest.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1717">
+                  <lb ed="#L" n="48"/>Ad probationem autem primam, dicitur quod, sicut actus
+<lb ed="#L" n="49"/>est simpliciter nobilior potentia, et tamen substantia est
+<lb ed="#L" n="50"/>simpliciter nobilior accidente; et ratione primi, actus 
+intelli<lb break="no" ed="#L" n="51"/>gendi est nobilior materia prima, ratióne secundi, e contra:
+<lb ed="#L" n="52"/>ita in proposito, et haec est vera, quod substantia est 
+nobi<lb break="no" ed="#L" n="53"/>lior accidente, et similiter haec, quod esse divini ordinis est
+<lb ed="#L" n="54"/>nobilius esse naturali. Et propterea utrumque est verum
+<lb ed="#L" n="55"/>in diversis ordinibus. Substantia quippe angeli est nobilior
+<lb ed="#L" n="56"/>secundum esse naturae: operatio autem beata secundum
+<lb ed="#L" n="57"/>excellentiam deitatis. Et si proprie loqui volumus, 
+aequi<lb break="no" ed="#L" n="58"/>voce: comparari videntur.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1744">
+                  <lb ed="#L" n="59"/>Ad secundam autem probationem, negatur quod 
+sub<lb break="no" ed="#L" n="60"/>stantia operationis beatae mensuretur aevo. Substantia enim
+<lb ed="#L" n="61"/>operationis et eius perfectio una res numero sunt, et eadem
+<lb ed="#L" n="62"/>mensurantur mensura. Unde non solum beatitudo 
+opera<lb break="no" ed="#L" n="63"/>tionis, sed ipsa operatio beata mensuratur aeternitate 
+parti<lb break="no" ed="#L" n="64"/>cipata; - Falsum quoque est quod perfectio non sit 
+immu<lb break="no" ed="#L" n="65"/>tabilior substantia operationis, eo modo quo distinguuntur.
+<lb ed="#L" n="66"/>Quoniam substantia operationis, si sine perfectione 
+beati<lb break="no" ed="#L" n="67"/>tudinis esset, instanti temporis discreti mensuraretur. — 
+Per<lb break="no" ed="#L" n="68"/>fectio autem deitatis mensuram aeternitatis adducit, non
+<lb ed="#L" n="69"/>eo modo quo accidens superinducitur; sed eo potius modo
+<lb ed="#L" n="70"/>quo differentia generi adveniens naturam affert specificam.
+<lb ed="#L" n="71"/>Et propterea non valet probatio in oppositum, de eo
+<lb ed="#L" n="72"/>quod inest per accidens. Constat enim quod natura 
+gene<lb break="no" ed="#L" n="73"/>rica aut quasi generica, secundum se non talis aut tantae
+<lb ed="#L" n="74"/>perfectionis, ex perfectione differentiae advenientis, quáe
+<lb ed="#L" n="75"/>tamen generi accidere conceditur, perfectionem tantam ac
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>talem assequitur, ita quod unum ens perfectum sit, Et sic
+<lb ed="#L" n="77"/>est in proposito.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1790">
+                  <lb ed="#L" n="78"/>XVIII. Ad secundam autem obiectionem, principaliter
+<lb ed="#L" n="79"/>dicitur quod, proprie loquendo, beatus ut sic caret potentia
+<lb ed="#L" n="80"/>ad non esse beatum; sicut caelum caret potentia ad non
+<lb ed="#L" n="81"/>esse rotundum. Quemadmodum enim materia prima, si 
+re<lb break="no" ed="#L" n="82"/>ciperet formam unam aequivalentem omnibus formis 
+ge<lb break="no" ed="#L" n="83"/>nerabilium et corruptibilium, careret potentia ad non esse
+<lb ed="#L" n="84"/>ilius formae; ita intellectus habens actum beatum, caret
+<lb ed="#L" n="85"/>potentia ad non esse illius actus. Actus enim ille est omnium
+<lb ed="#L" n="86"/>bonorum, non aggregatione, sed elevatione perfectus: et
+<lb ed="#L" n="87"/>ideo beat ac immutabilem beatum reddit. - Extenso autem
+<lb ed="#L" n="88"/>vocabulo, ut arguens utitur, vocando potentiam ad non esse
+<lb ed="#L" n="89"/>potentiam logicam vel obiectivam, dicitur quod aeternum
+<lb ed="#L" n="90"/>per essentiam oportet carere omnino potentia ad non esse:
+<lb ed="#L" n="91"/>non autem per participationem, sed sat est ut distinguatur
+<lb ed="#L" n="92"/>contra aeviternum diversitate ordinis; quia illud scilicet est
+<lb ed="#L" n="93"/>ordinis aeterni per essentiam, istud vero naturae.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1827">
+                  <lb ed="#L" n="94"/>XIX. Contra quartam propositionem arguit Scotus, in
+<lb ed="#L" n="95"/>Secundo, ubi supra, non aliter quam contra primam,
+<lb ed="#L" n="96"/>scilicet: Esse substantiale habet eundem manendi modum
+<lb ed="#L" n="97"/>quandiu est, quem habet aeviternum, quia successione
+<lb ed="#L" n="98"/>caret, etc.: ergo. — Sed ad hoc non oportet aliter 
+respon<lb break="no" ed="#L" n="99"/>dere quam superius: non enim penes habere esse modo
+<lb ed="#L" n="100"/>successivo vel permanenti distinguuntur mensurae, sed 
+pe<lb break="no" ed="#L" n="101"/>nes mutabile et immutabile, ut dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1847">
+                  <lb ed="#L" n="102"/>XX. Sed adverte hic quod Scotus ibidem nititur solvere
+<lb ed="#L" n="103"/>rationem s. Thomae, ad hoc in responsione ad tertium in
+<lb ed="#L" n="104"/>praecedenti articulo factam, scilicet quia motus est 
+men<lb break="no" ed="#L" n="105"/>sura non tantum motus, sed etiam quietis. Ait enim quod
+<lb ed="#L" n="106"/>substantia bovis absolute mensuratur aevo, quies autem
+<lb ed="#L" n="107"/>eius tempore: nec aliud ex illa sequitur ratione. — Sed haec
+<lb ed="#L" n="108"/>responsio non est sufficiens evasio: quoniam tempus 
+com<lb break="no" ed="#L" n="109"/>probatur in littera mensurare non solum quietem, sed rem
+<lb ed="#L" n="110"/>quiescentem ; quoniam omne quiescens est mobile; omne
+<lb ed="#L" n="111"/>autem mutabile, secundum quod mutabile, mensuratur 
+tem<lb break="no" ed="#L" n="112"/>pore. Constat autem quod secundum substantiam nos 
+su<lb break="no" ed="#L" n="113"/>mus mutabiles: ergo secundum substantiam temporales.
+<lb ed="#L" n="114"/>Et stat vis rationis in hoc. Motus et quies substantialiter
+<lb ed="#L" n="115"/>accepti, idest mutatio substantialis et quies sub esse 
+sub<lb break="no" ed="#L" n="116"/>stantiali, non solum in actu, sed in potentia mensurantur
+<lb ed="#L" n="117"/>tempore: ergo esse substantiale nostrum mensuratur 
+tem<lb break="no" ed="#L" n="118"/>pore. Antecedens patet ex eo quod actus et potentia ad
+<lb ed="#L" n="119"/>eiusdem ordinis mensuram spectant, ut ex <ref xml:id="TAcCaj-d1e97-Rd1e1888">I Caeli</ref> et <ref xml:id="TAcCaj-d1e97-Rd1e1890">IV
+<lb ed="#L" n="120"/>Physic.</ref> habetur. Consequentia autem tenet ex eo quod
+<lb ed="#L" n="121"/>potentia talis substantialis est, ut<ref xml:id="TAcCaj-d1e97-Rd1e1897"> X Metaphys</ref>. dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1900">
+                  <lb ed="#L" n="122"/>XXI. In responsione ad secundum, occurrit dubium circa
+<lb ed="#L" n="123"/>illam propositionem, aevum est totum simul. Impugnatur
+<lb ed="#L" n="124"/>siquidem ab illa opinione refutata in littera, sic. Aevum
+<lb ed="#L" n="125"/>continue fit a Deo, ac per hoc potest deficere ab esse: et
+<lb ed="#L" n="126"/>consequenter potest annihilari, ac deinde iterum creari.
+<lb ed="#L" n="127"/>Igitur non est totum simul. — Et habes in <ref xml:id="TAcCaj-d1e97-Rd1e1915">
+                     <name xml:id="TAcCaj-d1e97-Nd1e1917">Scoto</name>
+                  </ref> et in <ref xml:id="TAcCaj-d1e97-Rd1e1920">
+Ca<lb break="no" ed="#L" n="128"/>preolo, in Secundo, dist. ii, qu. II</ref>.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1926">
+                  <lb ed="#L" n="129"/>Ad haec facile patet responsio ex dictis. Aevum enim,
+<lb ed="#L" n="130"/>sive aeviternum, non continue fit, proprie loquendo; sed
+<lb ed="#L" n="131"/>conservatur a Deo. Nec potest deficere ab esse ex 
+intrin<lb break="no" ed="#L" n="132"/>seco: sed Deus potest ipsum annihilare. Et propterea non
+<lb ed="#L" n="133"/>sequitur, ergo non est totum simul. Si enim posset ex 
+in<lb break="no" ed="#L" n="134"/>trinseco esse plus aut minus aut praecise tantum secundum
+<lb ed="#L" n="135"/>durationem, tunc non esset totum simul: sed ex eo quod
+<lb ed="#L" n="136"/>Deus potest, non sequitur hoc in natura aevi seu aeviterni.
+<lb ed="#L" n="137"/>Natura enim rei non est metienda secundum vires divinas,
+<lb ed="#L" n="138"/>sed proprias. - In casu autem annihilationis et recreationis,
+<lb ed="#L" n="139"/>dicitur quod esset successio instantium mensurantium 
+crea<lb break="no" ed="#L" n="140"/>tionem, annihilationem et recreationem; et non ipsius aevi.
+<lb ed="#L" n="141"/>Instantia enim illa mihil aevi sunt; sed sunt partes 
+tem<lb break="no" ed="#L" n="142"/>poris discreti, cuius iam meminimus. Idem enim esset
+<lb ed="#L" n="143"/>tunc iudicium de illo angelo, sicut esset de duobus angelis,
+<lb ed="#L" n="144"/>quorum unus prius altero crearetur: utitur enim aevo tunc
+<lb ed="#L" n="145"/>ile unus quasi duo.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e1966">
+                  <lb ed="#L" n="146"/>XXII. In responsione ad tertium, adverte quod ibi 
+dis<lb break="no" ed="#L" n="147"/>tinguitur esse angeli dupliciter. Uno modo, absolute: et sic
+<lb ed="#L" n="148"/>non habet praeteritum nec futurum, sed subditur divinae
+<lb ed="#L" n="149"/>potentiae, et potest non esse per potentiam in alio. Alio
+<lb ed="#L" n="150"/>modo, ut coexistens differentiis temporis realis vel imagi-
+<pb ed="#L" n="104"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>narii: et habet praeteritum et futurum. Et sic dicimus quod
+<lb ed="#L" n="2"/>fuit et quod erit. Et sic, secundum futurum subditur 
+divi<lb break="no" ed="#L" n="3"/>nae potentiae: non secundum praeteritum, quia supponitur
+<lb ed="#L" n="4"/>incompossibile, ut in littera dicitur. - Et nota quod 
+auctori<lb break="no" ed="#L" n="5"/>tas Hieronymi ad Marcellam: solus Deus non novit prae-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>teritum et futurum, et similiter Augustini: <quote xml:id="TAcCaj-d1e97-Qd1e1998">praesens, si 
+<lb ed="#L" n="7"/>stat, est aeternitas</quote>, et similes, intelliguntur secundum se et. 
+<lb ed="#L" n="8"/>omnia quae in eis sunt. Angelus enim secundum affectiones
+<lb ed="#L" n="9"/>habet praeteritum et futurum: et similiter aevum secundum
+<lb ed="#L" n="10"/>adiuncta non stat, ut in praesenti articulo dictum est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e97-Dd1e2012"><!-- caj-p1-q10-a6 -->
+               <head xml:id="TAcCaj-d1e97-Hd1e2015">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e97-d1e2017">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="22"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2024">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="23"/>IN titulo, unum numero. - In corpore quatuor. Primo,
+<lb ed="#L" n="24"/>lponuntur opiniones diversae de quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2033">
+                  <lb ed="#L" n="25"/>Secundo, ponitur via discutiendi quae opinio sit verior:
+<lb ed="#L" n="26"/>et dicitur quod ex causa unitatis temporis est procedendum.
+<lb ed="#L" n="27"/>Et probatur: quia in cognitionem spiritualium per 
+corpo<lb break="no" ed="#L" n="28"/>ralia pervenimus.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2044">
+                  <lb ed="#L" n="29"/>Tertio, ipsam viam ingreditur. Ubi quatuor opiniones de
+<lb ed="#L" n="30"/>causa unitatis temporis afferuntur: prima, ex unitate numeri;
+<lb ed="#L" n="31"/>secunda, ex unitate principii, scilicet aeternitatis; tertia, ex
+<lb ed="#L" n="32"/>unitate primi subiecti, scilicet materiae primae; quarta, ex
+<lb ed="#L" n="33"/>unitate primi motus. - Et prima quidem reprobatur sic.
+<lb ed="#L" n="34"/>Tempus non est numerus absolute, sed numeratus, in motu
+<lb ed="#L" n="35"/>scilicet continuo: ergo non ex unitate numeri est unus.-
+<lb ed="#L" n="36"/>Secunda vero et tertia simul, sic. Tempus est unum 
+sim<lb break="no" ed="#L" n="37"/>pliciter: ergo non est unum principio et subiecto remoto
+<lb ed="#L" n="38"/>tantum. Tenet sequela: quia unum subiecto vel principio,
+<lb ed="#L" n="39"/>sunt unum secundum quid. - Quarta autem probatur sic.
+<lb ed="#L" n="40"/>Primus motus est simplicissimus: ergo mensura ceterorum:
+<lb ed="#L" n="41"/>ergo comparatur ad tempus non solum ut mensuratum ad
+<lb ed="#L" n="42"/>mensuram, sed ut subiectum ad accidens: ergo ex eius 
+uni<lb break="no" ed="#L" n="43"/>tate est tempus unum. Consequentia prima probatur ex
+<lb ed="#L" n="44"/>X. Metaphys. Aliae vero relinquuntur per se notae: 
+quo<lb break="no" ed="#L" n="45"/>niam constat quod quantitas primi mensurati est ipsius
+<lb ed="#L" n="46"/>mensura coniuncta, ceterorum vero separata; et propterea
+<lb ed="#L" n="47"/>non multiplicatur ad multiplicationem ceterorum, sed primi
+<lb ed="#L" n="48"/>tantum; sicut universaliter accidens multiplicatur ad 
+multi<lb break="no" ed="#L" n="49"/>plicationem subiecti. Cum ergo primum non multiplicatur,
+<lb ed="#L" n="50"/>ergo nec mensura; ut in proposito.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2095">
+                  <lb ed="#L" n="51"/>Quarto, principaliter ex ista assignata via ad quaesiti
+<lb ed="#L" n="52"/>responsionem inducit, iuxta duas opiniones de angelis, duas
+<lb ed="#L" n="53"/>conclusiones ponens. Altera est: aeva sunt multa. Probatur.
+<lb ed="#L" n="54"/>Prima aeviterna sunt multa: ergo. Altera est: aevum est
+<lb ed="#L" n="55"/>unum tantum. Probatur. Primum aeviternum est unum 
+tan<lb break="no" ed="#L" n="56"/>tum: ergo. — Antecedentia sunt ipsae opiniones diversae.
+<lb ed="#L" n="57"/>Consequentiae fundantur super processu facto de unitate
+<lb ed="#L" n="58"/>temporis, cuius radix fuit: mensura multiplicatur ad 
+mul<lb break="no" ed="#L" n="59"/>tiplicationem primi mensurati. - Et quoniam ex his non
+<lb ed="#L" n="60"/>habetur responsio ad quaesitum. certa, ideo subdit 
+tenen<lb break="no" ed="#L" n="61"/>dam esse secundam conclusionem, quia probabilior est illius
+<lb ed="#L" n="62"/>opinio, ut inferius patebit. Et sic conclusio responsiva est:
+<lb ed="#L" n="63"/>Aevum est tantum unum.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2126">
+                  <lb ed="#L" n="64"/>II. Adverte hic quod, sicut quilibet motus habet 
+pro<lb break="no" ed="#L" n="65"/>prium prius et posterius in seipso, ita etiam habet 
+pro<lb break="no" ed="#L" n="66"/>prium numerum numeratum illorum, et consequenter 
+pro<lb break="no" ed="#L" n="67"/>prium tempus. Sed quoniam non cuiuslibet motus numerus
+<lb ed="#L" n="68"/>est certificativus omnium motuum ex natura sua, sed 
+tan<lb break="no" ed="#L" n="69"/>tum numerus primi motus, propter eius simplicitatem 
+maxi<lb break="no" ed="#L" n="70"/>mam; ideo solus primi motus numerus temporis complete
+<lb ed="#L" n="71"/>rationem habet. Et propterea tempus est unum numero
+<lb ed="#L" n="72"/>formaliter completeque sumptum: et sunt multa tempora
+<lb ed="#L" n="73"/>quasi materialiter, seu incomplete. Et simile est iudicium
+<lb ed="#L" n="74"/>de aevo: eodem enim modo est unum et multa. - Utrum
+<lb ed="#L" n="75"/>autem aevum sit accidens, aut esse, aut essentia aeviterni,
+<lb ed="#L" n="76"/>in quaestione speciali quaerendum est: metaphysici quippe
+<lb ed="#L" n="77"/>negotii hoc est.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2159">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>III. Circa ea quae hic definita sunt, complura sunt 
+du<lb break="no" ed="#L" n="79"/>bia. Primo namque Scotus, in Secundo, dist. z, qu. nr,
+<lb ed="#L" n="80"/>reprehendit quod primum aeviternum mensuretur aevo
+<lb ed="#L" n="81"/>(quamvis ipsum primum sit extrinseca mensura aliorum),
+<lb ed="#L" n="82"/>unica ratione. Mensura, ex natura rei, est notior, ex natura
+<lb ed="#L" n="83"/>rei, mensurato: sed nihil est in primo aeviterno notius ipsa
+<lb ed="#L" n="84"/>substantia aeviterni: ergo nihil est in eo quod habeat 
+ra<lb break="no" ed="#L" n="85"/>tionem mensurae substantiae eius. - Durandus autem 
+re<lb break="no" ed="#L" n="86"/>prehendit mensurationem extrinsecam unius aeviterni per
+<lb ed="#L" n="87"/>aliud aeviternum, tripliciter. Primo sic. Illud cuius duratio
+<lb ed="#L" n="88"/>est certior ex propria ratione quam ex comparatione ad
+<lb ed="#L" n="89"/>extrinsecum , non mensuratur secundum durationem per
+<lb ed="#L" n="90"/>extrinsecum. Sed aeviternum est huiusmodi. Probatur: quia
+<lb ed="#L" n="91"/>propria eius ratio est esse immutabile secundum naturam.
+<lb ed="#L" n="92"/>Secundo, duratio infinita non est mensurabilis: ergo. Zertio,
+<lb ed="#L" n="93"/>non quantum non est mensurabile: ergo. Tenet sequela:
+<lb ed="#L" n="94"/>quia aevum caret successione. - Haec et plura alia recitantur
+<lb ed="#L" n="95"/>a Capreolo, in Secundo, dist. i1: consulto tamen omissis
+<lb ed="#L" n="96"/>ceteris, dicemus unde omnia solventur.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2205">
+                  <lb ed="#L" n="97"/>IV. Ad evidentiam igitur huius, scito quod, ut ex dictis
+<lb ed="#L" n="98"/>patere iam potest, aeviternum non mensuratur aevo, sive
+<lb ed="#L" n="99"/>intrinsece sive extrinsece, per modum quantitatis continuae
+<lb ed="#L" n="100"/>aut successivae aut etiam discretae, sed per modum 
+uni<lb break="no" ed="#L" n="101"/>tatis: quoniam aevum est indivisibile, totum simul, etc.
+<lb ed="#L" n="102"/>Cum enim aevum sit unitas immutabilis vitae mutabilitati
+<lb ed="#L" n="103"/>coniunctae, quanto aliquod immutabile minus est 
+mutabi<lb break="no" ed="#L" n="104"/>litati coniunctum, tanto est immutabilius et minus 
+com<lb break="no" ed="#L" n="105"/>positum, ac per hoc simplicius, et consequenter magis
+<lb ed="#L" n="106"/>unum. Supponimus autem nunc quod aeviternum, quanto
+<lb ed="#L" n="107"/>inferius, tanto pluralitati maiori coniunctius est: unde et
+<lb ed="#L" n="108"/>habet species minus universales, et operationes minus
+<lb ed="#L" n="109"/>ambientes locorum aut corporum. Et propterea supremum
+<lb ed="#L" n="110"/>aeviternum, tanquam maxime immutabile inter 
+immuta<lb break="no" ed="#L" n="111"/>bilia sic (idest mutationi iuncta), est maxime unum: et
+<lb ed="#L" n="112"/>consequenter ex natura sua habet, unde per accessum et
+<lb ed="#L" n="113"/>recessum ab eo, cetera aeviterna ut sic mensurantur 
+ex<lb break="no" ed="#L" n="114"/>trinsece.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2247">
+                  <lb ed="#L" n="115"/>V. Ad Scotum ergo, negatur minor. Dico namque quod
+<lb ed="#L" n="116"/>aevum existens in primo aeviterno, sive sit eius substantia
+<lb ed="#L" n="117"/>aut existentia, sive non, est notius in ratione mensurae ipsa
+<lb ed="#L" n="118"/>aeviterni substantia, ut immutabilis. Quoniam aevum nihil
+<lb ed="#L" n="119"/>aliud est quam unitas per modum mensurae talis 
+immutabi<lb break="no" ed="#L" n="120"/>litatis: ac per hoc ipsum aevum est formaliter unitas, cui
+<lb ed="#L" n="121"/>primo debetur ratio mensurae, ut patet V et X Metaphys.P
+<lb ed="#L" n="122"/>Substantia autem sic immutabilis est denominative una;
+<lb ed="#L" n="123"/>et hanc denominationem importat ly aeviternum. Constat
+<lb ed="#L" n="124"/>autem universaliter quod id quod est formaliter tale, est
+<lb ed="#L" n="125"/>certius et notius ex natura rei, eo quod est denominative
+<lb ed="#L" n="126"/>tale. Quamvis igitur substantia angeli sit simpliciter 
+notis<lb break="no" ed="#L" n="127"/>simum omnium quae in eo sunt, aevum tamen, in genere
+<lb ed="#L" n="128"/>seu in ratione mensurae, est notius illius substantia: sicut,
+<lb ed="#L" n="129"/>quamvis substantia corporea sit notior secundum se 
+quan<lb break="no" ed="#L" n="130"/>titate, in genere tamen mensurae quantitas est notior 
+se<lb break="no" ed="#L" n="131"/>cundum se.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2286">
+                  <lb ed="#L" n="132"/>VI. Ad <name xml:id="TAcCaj-d1e97-Nd1e2290">Durandum</name> vero respondendum est, negando
+<pb ed="#L" n="106"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>maiorem, ut patet in perfectione et mensura quidditativa. ,
+<lb ed="#L" n="2"/>Perfectio namque quidditativa melius cognoscitur ex 
+intrin<lb break="no" ed="#L" n="3"/>Seco quam ex extrinseco: et tamen unaquaeque quidditas
+<lb ed="#L" n="4"/>mensuratur prima quidditate sui generis. Est ergo sophisma
+<lb ed="#L" n="5"/>secundum non causam ut causam. Non enim causa 
+men<lb break="no" ed="#L" n="6"/>surae extrinsecae est melior certitudo ab extra quam intra:
+<lb ed="#L" n="7"/>sed dependentia certitudinis intrinsecae ab extrinseca, ut a
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>simpliciori, ut dictum est. - Ad secundum vero et tertium,
+<lb ed="#L" n="9"/>similiter dicitur quod nihil valent de mensurabili per 
+uni<lb break="no" ed="#L" n="10"/>tatem. Infinitum enim et non quantum uniformitatis 
+ratio<lb break="no" ed="#L" n="11"/>nem non subterfugiunt.
+</p>
+               <p xml:id="TAcCaj-d1e97-d1e2324">
+                  <lb ed="#L" n="12"/>Restat adhuc dubium, quid sit illud primum aeviternum:
+<lb ed="#L" n="13"/>sed quoniam per accidens esset huic proposito, in tractatu
+<lb ed="#L" n="14"/>de Angelis dicetur. j
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

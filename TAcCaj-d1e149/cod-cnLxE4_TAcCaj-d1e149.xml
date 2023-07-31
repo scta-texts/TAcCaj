@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 20</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 20</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="268"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e149"><!-- TAcCajp1-q20 -->
+            <head xml:id="TAcCaj-d1e149-Hd1e99">Quaestio 20</head>
+            <div xml:id="TAcCaj-d1e149-Dd1e101"><!-- caj-p1-q20-a1 -->
+               <head xml:id="TAcCaj-d1e149-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e149-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>TITULUS clarus est: quaerit enim de inesse formaliter ;
+<lb ed="#L" n="45"/>iam enim constat omnia in Deo esse virtualiter.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e122">
+                  <lb ed="#L" n="46"/>II. In corpore unica est conclusio, responsiva quaesito
+<lb ed="#L" n="47"/>affirmative: In Deo est amor. - Probatur. Motus voluntatis,
+<lb ed="#L" n="48"/>et cuiuslibet appetitivae virtutis, tendit in bonum per se, in
+<lb ed="#L" n="49"/>malum autem per aliud: ergo primus voluntatis motus, et
+<lb ed="#L" n="50"/>cuiuslibet appetitivae virtutis, est in bonum in communi:
+<lb ed="#L" n="51"/>ergo primus actus voluntatis et appetitus est amor: ergo
+<lb ed="#L" n="52"/>in quocumque est voluntas vel appetitus, oportet esse 
+amo<lb break="no" ed="#L" n="53"/>rem: ergo in Deo necesse est ponere amorem.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e142">
+                  <lb ed="#L" n="54"/>Antecedens declaratur: quia malum non cadit sub 
+ap<lb break="no" ed="#L" n="55"/>petitu, nisi inquantum opponitur bono. - Consequentia vero
+<lb ed="#L" n="56"/>prima, quoad primam partem, scilicet quod primus actus
+<lb ed="#L" n="57"/>tendat in bonum, probatur ex eo quod id quod est per se,
+<lb ed="#L" n="58"/>prius est eo quod est per aliud. Quoad secundam vero,
+<lb ed="#L" n="59"/>scilicet 7n communi: quia communius naturaliter est prius.
+<lb ed="#L" n="60"/>Cuius signum ad propositum est, quod intellectus prius
+<lb ed="#L" n="61"/>respicit verum commune, quam vera particularia. — 
+Se<lb break="no" ed="#L" n="62"/>cunda autem consequentia probatur ex differentia obiecti
+<lb ed="#L" n="63"/>amoris, ad obiecta aliorum actuum voluntatis et 
+appe<lb break="no" ed="#L" n="64"/>titus: quia amor est respectu boni in communi; 
+deside<lb break="no" ed="#L" n="65"/>rium autem, spes et delectatio, respectu boni specialis ,
+<lb ed="#L" n="66"/>puta praesentis vel futuri. Et confirmatur ex hoc, quod
+<lb ed="#L" n="67"/>omnes ali motus appetitivi nascuntur ex amore: quod
+<lb ed="#L" n="68"/>manifestatur inductive in actibus desiderii, gaudii, odii,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="69"/>tristitiae, etc, — Tertia autem consequentia probatur: quia
+<lb ed="#L" n="70"/>remoto primo, removentur alia. - Quarta autem probatur:
+<lb ed="#L" n="71"/>quia in Deo est voluntas. 3
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e187">
+                  <lb ed="#L" n="72"/>III. Circa praedicta, duo occurrunt notanda. Primo quod,
+<lb ed="#L" n="73"/>cum in littera dicitur quod amor respicit bonum in 
+com<lb break="no" ed="#L" n="74"/>muni, ly in communi non significat idem quod universale:
+<lb ed="#L" n="75"/>sed significat idem quod absolute. Amor enim omnis est
+<lb ed="#L" n="76"/>boni, absque alia limitatione: delectatio autem est boni
+<lb ed="#L" n="77"/>coniuncti, etc, Dixi autem hoc, quia littera, usque ad 
+ul<lb break="no" ed="#L" n="78"/>timam consequentiam, loquitur.etiam de amore qui est in
+<lb ed="#L" n="79"/>appetitu sensitivo, quem constat non attingere bonum 
+se<lb break="no" ed="#L" n="80"/>cundum sensum universale, sed absolute. Nec tamen 
+effi<lb break="no" ed="#L" n="81"/>caciae illius probationis, quod est communius, naturaliter
+<lb ed="#L" n="82"/>est prius, per hoc aliquid adimitur: quoniam bonum 
+abso<lb break="no" ed="#L" n="83"/>lute, ad bonum cum certa conditione se habet, 
+proportio<lb break="no" ed="#L" n="84"/>naliter, ut commune ad proprium, seu ut communius ad
+<lb ed="#L" n="85"/>minus commune.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e220">
+                  <lb ed="#L" n="86"/>Secundo quod, cum in littera dicitur quod amor est
+<lb ed="#L" n="87"/>primus actus voluntatis et appetitus, nomine appetitus 
+in<lb break="no" ed="#L" n="88"/>telligit totam latitudinem appetitivae virtutis in qualibet
+<lb ed="#L" n="89"/>natura; et non quamlibet potentiam appetitivam. Et per
+<lb ed="#L" n="90"/>hoc excluditur instantia de primo actu irascibilis. Licet enim
+<lb ed="#L" n="91"/>primus eius actus non sit amor, sed spes; primus tamen
+<lb ed="#L" n="92"/>actus totius appetitus sensitivi, distincti in concupiscibilem
+<lb ed="#L" n="93"/>et irascibilem, est amor.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e149-Dd1e241"><!-- caj-p1-q20-a2 -->
+               <head xml:id="TAcCaj-d1e149-Hd1e244">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e149-d1e246">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="77"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e253">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="78"/>TITULUS est clarus. - In corpore, unica est conclusio:
+<lb ed="#L" n="79"/>Deus amat omnia existentia; non tamen eo modo
+<lb ed="#L" n="80"/>sicut nos.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e264">
+                  <lb ed="#L" n="81"/>Haec conclusio, quoad primam partem, sic probatur.
+<lb ed="#L" n="82"/>Omnia existentia, inquantum sunt, bona sunt; et sic, quod
+<lb ed="#L" n="83"/>hoc habent inquantum sunt volita a Deo: ergo cuilibet
+<lb ed="#L" n="84"/>existenti Deus vult aliquod bonum: ergo Deus omnia quae
+<lb ed="#L" n="85"/>sunt, amat. - Antecedens, quoad primam partem, probatur:
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>quia ipsum esse, et quaelibet rei perfectio, bonitas quaedam
+<lb ed="#L" n="87"/>est. Quoad secundam vero: quia voluntas Dei est causa
+<lb ed="#L" n="88"/>rerum. Consequentia vero prima probatione non eget. 
+Se<lb break="no" ed="#L" n="89"/>cunda autem probatur ex eo, quod amare nihil aliud est
+<lb ed="#L" n="90"/>quam velle alicui bonum.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e290">
+                  <lb ed="#L" n="91"/>Quoad secundam autem partem, manifestatur conclusio.
+<lb ed="#L" n="92"/>Quia amamus, moti a bonitate rei amatae: Deus autem
+<lb ed="#L" n="93"/>amat, creando et infundendo bonitatem quam amat.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e149-Dd1e300"><!-- caj-p1-q20-a3 -->
+               <head xml:id="TAcCaj-d1e149-Hd1e303">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e149-d1e305">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="51"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e312">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="52"/>TITULUS clarus est. - In corpore duo facit. Primo, 
+distin<lb break="no" ed="#L" n="53"/>Wi ooi quod inaequaliter amare contingit dupliciter. Et
+<lb ed="#L" n="54"/>probat distinctionem, ex eo quod amare est velle bonum
+<lb ed="#L" n="55"/>alicui, - Secundo, respondet quaesito duabus 
+conclusioni<lb break="no" ed="#L" n="56"/>bus, iuxta praedicta membra distinctionis.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e328">
+                  <lb ed="#L" n="57"/>Prima conclusio est: Deus, ex parte actus amandi,
+<lb ed="#L" n="58"/>omnia aequaliter amat. - Probatur. Amat uno simplici,
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="59"/>et semper eodem modo 'se habente actu voluntatis: ergo
+<lb ed="#L" n="60"/>aequaliter.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e341">
+                  <lb ed="#L" n="61"/>Secunda conclusio est: Deus, ex parte boni voliti amato,
+<lb ed="#L" n="62"/>quaedam amat magis aliis. - Probatur. Si Deus non vellet
+<lb ed="#L" n="63"/>uni maius bonum quam alteri, non esset aliquid alio melius:
+<lb ed="#L" n="64"/>hoc est manifeste falsum: ergo. - Consequentia probatur:
+<lb ed="#L" n="65"/>quia amor Dei est causa bonitatis rerum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e149-Dd1e355"><!-- caj-p1-q20-a4 -->
+               <head xml:id="TAcCaj-d1e149-Hd1e358">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e149-d1e360">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e367">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>TITULUS clarus est. - In corpore una conclusio, 
+respon<lb break="no" ed="#L" n="9"/>siva quaesito affirmative: Deus magis diligit meliora.
+<lb ed="#L" n="10"/>Probatur. Voluntas Dei est causa bonitatis in rebus: ergo
+<lb ed="#L" n="11"/>Deum magis diligere aliquid, nihil aliud est quam velle
+<lb ed="#L" n="12"/>ilii maius bonum: ergo ex hoc aliqua sunt meliora, quod
+<lb ed="#L" n="13"/>Deus maius bonum vult: ergo meliora plus amat.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e385">
+                  <lb ed="#L" n="14"/>II. In responsione ad quintum, dubium ingerunt verba
+<lb ed="#L" n="15"/>in calce posita, scilicet quod peccator praedestinatus, 
+se<lb break="no" ed="#L" n="16"/>cundum aliquod tempus, non est nec bonus neque malus.
+<lb ed="#L" n="17"/>Videtur enim sententia haec et falsa, et contra Auctoris
+<lb ed="#L" n="18"/>doctrinam. Quoniam tam angelus quam homo, secundum
+<lb ed="#L" n="19"/>ipsum, fuit creatus in gratia; et quilibet homo contrahit
+<lb ed="#L" n="20"/>peccatum originale. Et dato quod non essent creati in
+<lb ed="#L" n="21"/>gratia, uno tantum istanti, et non per aliquod tempus,
+<lb ed="#L" n="22"/>fuissent neque boni neque mali. Omnino igitur apparent
+<lb ed="#L" n="23"/>haec verba falsa.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e409">
+                  <lb ed="#L" n="24"/>III. Ad hoc tripliciter dicitur. Primo, quod haec verba
+<lb ed="#L" n="25"/>sunt vera de possibili, quidquid sit de facto. Et nomine
+<lb ed="#L" n="26"/>temporis intelligitur omnis mensura durationis, etiam in-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="27"/>stantanea. Tam angelus enim quam homo quandoque,
+<lb ed="#L" n="28"/>scilicet in primo instanti, potuit esse neque bonus neque
+<lb ed="#L" n="29"/>malus moraliter
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e428">
+                  <lb ed="#L" n="30"/>Secundo, quod verificantur de bonitate et malitia morali
+<lb ed="#L" n="31"/>personali, idest per proprium actum. Infans enim, quamvis
+<lb ed="#L" n="32"/>sit malus peccato naturae, ex proprio tamen opere neque
+<lb ed="#L" n="33"/>bonus neque malus est.
+</p>
+               <p xml:id="TAcCaj-d1e149-d1e439">
+                  <lb ed="#L" n="34"/>Tertio, quod ista sunt simpliciter vera, et absolute 
+in<lb break="no" ed="#L" n="35"/>telligenda, absque restrictione aliqua. Et licet peccator 
+prae<lb break="no" ed="#L" n="36"/>destinatus, postquam habuit esse, semper fuerit bonus aut
+<lb ed="#L" n="37"/>malus; quandoque tamen, scilicet per infinitum tempus quo
+<lb ed="#L" n="38"/>non fuit, neque bonus neque malus fuit. - Et haec 
+expo<lb break="no" ed="#L" n="39"/>sitio magis formalis est, et proposito consona, et absque
+<lb ed="#L" n="40"/>quaestione. Intendit enim littera docere non esse mirum,
+<lb ed="#L" n="41"/>peccatorem praedestinatum esse pro aliquo tempore peiorem
+<lb ed="#L" n="42"/>et minus amatum, ex eo quod pro aliquo tempore non erat
+<lb ed="#L" n="43"/>aliquo modo amatus, quando scilicet non erat: quoniam
+<lb ed="#L" n="44"/>tunc neque bonus neque malus erat, universaliter loquendo
+<lb ed="#L" n="45"/>de bono et malo, ut patet.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

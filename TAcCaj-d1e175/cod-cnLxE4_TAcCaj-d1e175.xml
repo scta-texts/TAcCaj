@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 25</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 25</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="292"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e175"><!-- TAcCajp1-q25 -->
+            <head xml:id="TAcCaj-d1e175-Hd1e99">Quaestio 25</head>
+            <div xml:id="TAcCaj-d1e175-Dd1e101"><!-- caj-p1-q25-a1 -->
+               <head xml:id="TAcCaj-d1e175-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e175-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>IN titulo, potentia significat principium operationis ad extra,
+<lb ed="#L" n="13"/>seu transeuntis; extenso operationis nomine tam ad 
+actio<lb break="no" ed="#L" n="14"/>nem quam ad passionem.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e124">
+                  <lb ed="#L" n="15"/>II. In corpore respondetur quaesito unica distinctione, et
+<lb ed="#L" n="16"/>duàbus conclusionibus mixtis, iuxta duo distinctionis 
+mem<lb break="no" ed="#L" n="17"/>bra. Distinctio est: Potentia est duplex, activa scilicet et
+<lb ed="#L" n="18"/>passiva. Conclusio prima est: Potentia passiva nullo modo
+<lb ed="#L" n="19"/>est in Deo. Secunda est: Potentia activa maxime est in Deo.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e137">
+                  <lb ed="#L" n="20"/>Probatur haec secunda. Unumquodque, secundum quod
+<lb ed="#L" n="21"/>est in actu et perfectum, est principium activum: ergo Deo
+<lb ed="#L" n="22"/>maxime competit esse principium activum: ergo in eo 
+ma<lb break="no" ed="#L" n="23"/>xime est potentia activa. — Prima consequentia probatur ex
+<lb ed="#L" n="24"/>eo, quod Deus est actus purus, et universaliter perfectus.
+<lb ed="#L" n="25"/>Secunda vero, quia ratio principii activi convenit potentiae
+<lb ed="#L" n="26"/>activae, ut patet ex definitione eius V et IX Metaphys., etc.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e156">
+                  <lb ed="#L" n="27"/>Prima autem eodem modo ex negatione oppositorum
+<lb ed="#L" n="28"/>probatur. Unumquodque patitur secundum quod est 
+defi<lb break="no" ed="#L" n="29"/>ciens et imperfectum: ergo Deo nullo modo convenit pati:
+<lb ed="#L" n="30"/>ergo nec potentia passiva. - Consequentia eodem modo 
+pro<lb break="no" ed="#L" n="31"/>batur: quia scilicet in Deo nulla est imperfectio, etc.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e169">
+                  <lb ed="#L" n="32"/>III. In responsione ad secundum et tertium, difficilia
+<lb ed="#L" n="33"/>valde verba discutienda occurrunt. Tria namque de actione,
+<lb ed="#L" n="34"/>ut distinguitur contra effectum, dicuntur. Primum est, quod
+<lb ed="#L" n="35"/>actio, si est distincta a potentia activa, ést nobilior ipsa 
+po<lb break="no" ed="#L" n="36"/>tentia, Secundum est, quod actio in creaturis principiatur
+<lb ed="#L" n="37"/>a potentia, Tertium est, quod actio sic se habet ad 
+po<lb break="no" ed="#L" n="38"/>tentiam activam, quod si transferatur in Deum, oportet
+<lb ed="#L" n="39"/>actionem ipsam esse essentiam divinam. Haec enim omnia
+<lb ed="#L" n="40"/>liquido habentur in littera.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e191">
+                  <lb ed="#L" n="41"/>Est autem ratio arduae dubitationis haec. Actio transiens,
+<lb ed="#L" n="42"/>puta movere, ut distinguitur contra effectum, aut solum
+<lb ed="#L" n="43"/>dicit motum ab hoc, aut aliquid aliud. Si tantum significat
+<lb ed="#L" n="44"/>motum ab hoc, oportet ea quae hic dicuntur verificari aut
+<lb ed="#L" n="45"/>de sola relatione ab hoc, aut de solo motu, aut de toto
+<lb ed="#L" n="46"/>composito, scilicet motu ab hoc. Sed de nullo horum 
+ve<lb break="no" ed="#L" n="47"/>rificantur primum et tertium dictum. Nihil enim horum est
+<lb ed="#L" n="48"/>nobilius potentia activa motoris Saturni. Et, quod magis
+<lb ed="#L" n="49"/>urget, nihil horum, est quod oporteat identificari divinae
+<lb ed="#L" n="50"/>substantiae, si ponamus Deum sine omni medio movere
+<lb ed="#L" n="51"/>corpus aliquod (quod constat non esse impossibile). Tunc
+<lb ed="#L" n="52"/>enim manifeste videre quisque potest motum non 
+opor<lb break="no" ed="#L" n="53"/>tere identificari substantiae divinae; et similiter relationem
+<lb ed="#L" n="54"/>non oportere identificari eidem, quamvis oporteret ipsam
+<lb ed="#L" n="55"/>non esse realem ex parte Dei, ut ex supradictis patet;
+<lb ed="#L" n="56"/>et consequenter nec motum ab hoc identificari eidem 
+di<lb break="no" ed="#L" n="57"/>vinae essentiae oportere. — Si vero significat aliquid aliud,
+<lb ed="#L" n="58"/>ruunt omnia in III Phsic. tradita. Ruere quoque 
+vi<lb break="no" ed="#L" n="59"/>detur opinio dicens actionem esse subiective in passo; quae
+<lb ed="#L" n="60"/>tamen ex Aristotele, ibidem, et in III de Anima, sumpta
+<lb ed="#L" n="61"/>videtur.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e239">
+                  <lb ed="#L" n="62"/>IV. Ad hoc dicendum mihi videtur quod, apud s. 
+Tho<lb break="no" ed="#L" n="63"/>mam, actio transiens, praeter motum et relationem, dicit
+<lb ed="#L" n="64"/>aliquid subiective in agente. Probatur hoc, et manifestatur.
+<lb ed="#L" n="65"/>Probatur quidem ratione unica iam tacta, convincente 
+in<lb break="no" ed="#L" n="66"/>tellectum meum , sustinendo utramque viam positam in
+<lb ed="#L" n="67"/>responsione ad quartum. Actio transiens significat aliquid
+<lb ed="#L" n="68"/>subiective existens in agente creato, identificatum autem
+<lb ed="#L" n="69"/>realiter substantiae in agente increato: sed motus ab hoc,
+<lb ed="#L" n="70"/>ut importat tantum motum et relationem, non significat
+<lb ed="#L" n="71"/>aliquid huiusmodi: ergo motus ab hoc, modo exposito,
+<lb ed="#L" n="72"/>non est totum actionis transeuntis. - Maior habetur et in
+<lb ed="#L" n="73"/>II Contra Gent., cap. ix, ratione ultima: et, quoad secun-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>dam partem, habetur in mille locis, ubi de creatione, 
+gu<lb break="no" ed="#L" n="75"/>bernatione, et quibusvis aliis actionibus et potentiis divinis
+<lb ed="#L" n="76"/>ad extra, est sermo, ut hic etiam patet. - Minor autem patet
+<lb ed="#L" n="77"/>resolutive. Constat enim quod, Deo movente vel angelo,
+<lb ed="#L" n="78"/>in neutro motus esset. Relatio autem, quamvis in angelo
+<lb ed="#L" n="79"/>esset, in Deo tamen nullo reali modo esset: quia nec per
+<lb ed="#L" n="80"/>inhaesionem, ut patet; nec per identitatem, ut in II Contra
+<lb ed="#L" n="81"/>Gent., cap. xu, in principio, probatur manifeste.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e287">
+                  <lb ed="#L" n="82"/>V. Et si diceretur ad hanc rationem, quod maior est
+<lb ed="#L" n="83"/>vera, non ex una, sed ex diversis radicibus; quia, quoad
+<lb ed="#L" n="84"/>agentia creata, est vera ratione relationis, quam oportet
+<lb ed="#L" n="85"/>subiective existere in agente; quoad agens vero increatum,
+<lb ed="#L" n="86"/>est vera ratione actionis immanentis, quam solam in Deo
+<lb ed="#L" n="87"/>ponit actio transiens, praeter factum et relationem : si sic,
+<lb ed="#L" n="88"/>inquam, diceretur (praecipue propter auctoritatem s. 
+Tho<lb break="no" ed="#L" n="89"/>mae in II Contra Gent., cap. xxr, ratione quarta), subtiliter
+<lb ed="#L" n="90"/>quidem evaderetur, non tamen sufficienter.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e309">
+                  <lb ed="#L" n="91"/>Ad cuius evidentiam, scito quod, ut in hoc articulo, in
+<lb ed="#L" n="92"/>responsione ad quartum, littera dicit, duobus modis 
+susti<lb break="no" ed="#L" n="93"/>netur potentia activa in Deo: uno modo, ut sit velut 
+po<lb break="no" ed="#L" n="94"/>tentia executiva intellectus et voluntatis; alio modo, ut sit
+<lb ed="#L" n="95"/>ipsa voluntas consulta etc., ut efficax respectu effectuum.
+<lb ed="#L" n="96"/>Et si hic secundus modus (qui forte verior est) ponatur,
+<lb ed="#L" n="97"/>nulla in hac materia ex actionis transeuntis natura angustia
+<lb ed="#L" n="98"/>esset: quoniam, in rei veritate, nulla in Deo poneretur tunc
+<lb ed="#L" n="99"/>actio transiens, sed immanens tantum, habens efficaciam
+<lb ed="#L" n="100"/>transeuntium, iuxta illud: Dixit, et facta sunt. Et hanc
+<lb ed="#L" n="101"/>viam secutus videtur s. Thomas in auctoritate allegata, et
+<lb ed="#L" n="102"/>in cap. xxxv, ubi expresse negat mediam actionem. —- Si
+<lb ed="#L" n="103"/>autem primus modus teneatur, tunc mota difficultas vim
+<lb ed="#L" n="104"/>habet. Nec satisfit ex responsione data, quae ad actiones
+<lb ed="#L" n="105"/>immanentes, iuxta alterum modum dicendi, recurrit. 
+Opor<lb break="no" ed="#L" n="106"/>tet enim, si potentia quasi media in Deo ponitur, quod
+<lb ed="#L" n="107"/>actio transiens in eo quoque ponatur; et consequenter 
+iden<lb break="no" ed="#L" n="108"/>tificata substantiae suae, ut hic patet, et expresse in II
+<lb ed="#L" n="109"/>Contra Gent., cap. 1x, dicitur, dum eadem asseritur ratio de
+<lb ed="#L" n="110"/>identificatione intellectualium operationum et aliarum cum
+<lb ed="#L" n="111"/>substantia divina. Et quoniam, ut in littera patet, s. Thomas
+<lb ed="#L" n="112"/>utramque viam sustinet, consequens est quod non 
+suffi<lb break="no" ed="#L" n="113"/>cienter salvatur mens atque doctrina eius, recurrendo ad
+<lb ed="#L" n="114"/>actiones immanentes. Et sic relinquitur quod maior 
+as<lb break="no" ed="#L" n="115"/>sumpta, ex una et eadem radice in ofnni agente cui vere
+<lb ed="#L" n="116"/>convenit actio transiens, sit vera: alioquin non esset 
+for<lb break="no" ed="#L" n="117"/>malis. Et cum nec ratione relationis, nec ratione motus
+<lb ed="#L" n="118"/>verificetur universaliter, relinquitur quod aliquid aliud actio
+<lb ed="#L" n="119"/>transiens significat in agente. - Verba autem in oppositum
+<lb ed="#L" n="120"/>adducta ex xxm cap., et ex xxxv, et similia, possunt 
+inter<lb break="no" ed="#L" n="121"/>pretari quod procedunt iuxta illam. viam: namque illud
+<lb ed="#L" n="122"/>Opus omnibus viis uti videtur ad intentum.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e382">
+                  <lb ed="#L" n="123"/>VI. Declaratur autem occultum hoc latuisse etiam in
+<lb ed="#L" n="124"/>III Physic. et similibus locis, ex .suo compari, scilicet 
+pas<lb break="no" ed="#L" n="125"/>sione, de qua proportionaliter dicitur quod est motus in
+<lb ed="#L" n="126"/>hoc; sicut de actione, quod est motus ab hoc. 
+Quemad<lb break="no" ed="#L" n="127"/>modum enim constat quod in passione sunt tria, scilicet
+<lb ed="#L" n="128"/>motus, relatio inhaerentiae ipsius motus ad subiectum, et
+<lb ed="#L" n="129"/>fundamentum illius relationis, quod est essentialiter passio
+<lb ed="#L" n="130"/>(sive illud sit passiva actuatio subiecti, sive esse. formae
+<lb ed="#L" n="131"/>fluentis ut actuans subiectum, sive quodcumque aliud); ita
+<lb ed="#L" n="132"/>ex parte actionis, non solum motus et relatio significatur,
+<lb ed="#L" n="133"/>sed ly ab significat prius ipsam essentiam actionis, 
+opera<lb break="no" ed="#L" n="134"/>tionem scilicet in agente propter perficiendum aliud. Sed
+<lb ed="#L" n="135"/>quoniam propriis vocabulis caremus, nominibus relationum,
+<pb ed="#L" n="293"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>scilicet praepositionibus ab et in, utimur ad occulta 
+signi<lb break="no" ed="#L" n="2"/>ficanda, ut saepe contingit.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e421">
+                  <lb ed="#L" n="3"/>Et sic omnes textus consonant. Cum his enim stat 
+actio<lb break="no" ed="#L" n="4"/>nis transeuntis et passionis eundem esse actum: quoniam
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>actio huiusmodi, ut sic, propter perficiendum passum est.
+<lb ed="#L" n="6"/>Et propterea, ratione illius actus, perfectio passi, et esse
+<lb ed="#L" n="7"/>in passo, etc., dicitur ipsa actio. - Nec plura hic dicenda ,
+<lb ed="#L" n="8"/>videntur, quoniam praesenti proposito sat sunt.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e175-Dd1e440"><!-- caj-p1-q25-a2 -->
+               <head xml:id="TAcCaj-d1e175-Hd1e443">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e175-d1e445">
+                  <pb ed="#L" n="294"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e454">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In titulo, ly infinita significat infinitatem intensivam. - In
+<lb ed="#L" n="3"/>yis unica est conclusio, responsiva ad quaesitum 
+affir<lb break="no" ed="#L" n="4"/>mative: Potentia Dei est infinita. - Probatur. Esse Dei est
+<lb ed="#L" n="5"/>infinitum: ergo activa potentia Dei est infinita. - Antecedens
+<lb ed="#L" n="6"/>patet ex qu. vr. - Consequentia probatur: quia potentia
+<lb ed="#L" n="7"/>activa Deo convenit secundum quod est in actu, idest, 
+funda<lb break="no" ed="#L" n="8"/>tur super eius actu; et quantitas potentiae consequitur quan-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>titatem actus. Quod probatur ex illa universali: Quanto 
+ali<lb break="no" ed="#L" n="10"/>quod agens est perfectius in forma qua agit, tanto maior est
+<lb ed="#L" n="11"/>potentia eius, ut patet in calefactivo, etc. — Littera est clara.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e483">
+                  <lb ed="#L" n="12"/>II. In responsione ad tertium, multa dicenda essent de
+<lb ed="#L" n="13"/>infinitate potentiae motivae, quae prolixa valde sunt, et in
+<lb ed="#L" n="14"/>speciali; quam de hoc fecimus, quaestione discussa sunt.
+<lb ed="#L" n="15"/>Quare pro nunc transeundum puto.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e175-Dd1e495"><!-- caj-p1-q25-a3 -->
+               <head xml:id="TAcCaj-d1e175-Hd1e498">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e175-d1e500">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e507">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>In titulo, ly omnipotens dupliciter distribui potest: scilicet
+<lb ed="#L" n="67"/>pro omni potentia; et pro omni possibili. Non quaeritur
+<lb ed="#L" n="68"/>hic utrum sit omnipotens, idest habeat omnem potentiam :
+<lb ed="#L" n="69"/>quoniam iam in primo articulo determinatum est quod in
+<lb ed="#L" n="70"/>Deo nulla est potentia passiva. Sed quaeritur utrum sit
+<lb ed="#L" n="71"/>omnipotens, idest possit omnia.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e525">
+                  <lb ed="#L" n="72"/>II. In corpore, duo principaliter facit: primo, quid hic
+<lb ed="#L" n="73"/>certum et ambiguum sit, dicit; secundo, ambiguitatem 
+sol<lb break="no" ed="#L" n="74"/>vit, ibi: Sed si quis etc.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e534">
+                  <lb ed="#L" n="75"/>III. Quoad primum, duo dicit. Primo, quod pars 
+affirma<lb break="no" ed="#L" n="76"/>tiva quaestionis est ab omnibus confessa. Secundo, quod 
+de<lb break="no" ed="#L" n="77"/>finitio omnipotentiae, quae deberet esse proprium medium
+<lb ed="#L" n="78"/>ad inferendam confessam conclusionem, difficilis est: quia
+<lb ed="#L" n="79"/>dubitatur pro quibus distribuit ly omnia, cum dicitur Deum
+<lb ed="#L" n="80"/>posse. omnia.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e551">
+                  <lb ed="#L" n="81"/>IV. Quoad secundum, tria dicit. Primum, quod ly omnia
+<lb ed="#L" n="82"/>distribuit possibile absolute. Secundo, quod ly possibile 
+ab<lb break="no" ed="#L" n="83"/>solute denominat quidquid habet rationem entis, actu vel
+<lb ed="#L" n="84"/>potentia, ibi: Es? autem considerandum. "Tertio, excludit
+<lb ed="#L" n="85"/>ab huiusmodi distributione et denominatione, sola 
+impli<lb break="no" ed="#L" n="86"/>cantia contradictionem, ibi: Nihil autem opponitur etc.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e567">
+                  <lb ed="#L" n="87"/>Primum horum, scilicet, y omnia distribuit possibile
+<lb ed="#L" n="88"/>absolute, probatur, distinguendo possibile dupliciter, scilicet
+<lb ed="#L" n="89"/>secundum aliquam potentiam, vel absolute, ex V Metaphys.;
+<lb ed="#L" n="90"/>et destruendo, quod non potest intelligi de possibili primo
+<lb ed="#L" n="91"/>modo. Quia nec respectu potentiae creatae, quoniam divina
+<lb ed="#L" n="92"/>potentia excederet datum obiectum: nec respectu potentiae
+<lb ed="#L" n="93"/>increatae, quoniam esset circulus in huiusmodi explanatione.
+<lb ed="#L" n="94"/>Et infert, per locum a divisione, quod intelligitur de pos-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>sibili secundo modo: explanans quid significat huiusmodi
+<lb ed="#L" n="96"/>possibile, quod scilicet consistit in habitudine 
+termino<lb break="no" ed="#L" n="97"/>rum, etc.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e596">
+                  <lb ed="#L" n="98"/>Secundum autem, scilicet quod possibile absolute 
+de<lb break="no" ed="#L" n="99"/>nominat quidquid potest esse, probatur sic, Omne agens
+<lb ed="#L" n="100"/>agit sibi simile: ergo unicuique potentiae activae respondet,
+<lb ed="#L" n="101"/>ut proprium obiectum, possibile secundum illum actum
+<lb ed="#L" n="102"/>qui est ratio agendi: ergo potentiae activae Dei respondet
+<lb ed="#L" n="103"/>possibile secundum rationem entis. - Prima consequentia
+<lb ed="#L" n="104"/>manifestatur in potentia calefactiva et eius obiecto. Secunda
+<lb ed="#L" n="105"/>autem probatur: quia esse Dei, quod est ei ratio agendi,
+<lb ed="#L" n="106"/>est esse praehabens quidem in se totius esse perfectionem,
+<lb ed="#L" n="107"/>non tamen esse tale vel tale, secundum quodcumque genus.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e620">
+                  <lb ed="#L" n="108"/>Tertium vero praedictorum duo claudit. Primum est:
+<lb ed="#L" n="109"/>Omnia quae contradictionem non implicant, clauduntur sub
+<lb ed="#L" n="110"/>omnipotentia. Secundum est: Omnia quae contradictionem
+<lb ed="#L" n="111"/>implicant, non clauduntur sub omnipotentia. - Et primo
+<lb ed="#L" n="112"/>probatur utrumque simul, sic. Nihil opponitur rationi entis
+<lb ed="#L" n="113"/>nisi non ens: ergo nihil repugnat possibili absolute, nisi
+<lb ed="#L" n="114"/>implicans in se esse et non esse simul: ergo sola 
+impli<lb break="no" ed="#L" n="115"/>cantia contradictionem, non habent rationem possibilium :
+<lb ed="#L" n="116"/>ergo ea quae implicant, non clauduntur; et ea quae non
+<lb ed="#L" n="117"/>implicant, clauduntur sub omnipotentia. - Deinde docet
+<lb ed="#L" n="118"/>modum loquendi honestum in exclusis ab omnipotentia
+<lb ed="#L" n="119"/>Et demum ostendit hanc exclusionem non esse contra an-
+<lb ed="#L" n="120"/>gelicam auctoritatem, ut clare patet in littera,
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e651">
+                  <lb ed="#L" n="121"/>V. Circa praedictam assignationem obiecti divinae 
+po<lb break="no" ed="#L" n="122"/>tentiae, dubium occurrit. Quia si omne possibile absolute,
+<lb ed="#L" n="123"/>omneque ens ac non implicans contradictionem, sub omni-
+<pb ed="#L" n="296"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>potentia clauditur, Deus ipse continebitur sub sua 
+omni<lb break="no" ed="#L" n="2"/>potentia: quoniam Deum esse de numero horum est, ut
+<lb ed="#L" n="3"/>patet.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e671">
+                  <lb ed="#L" n="4"/>Ad hoc, et similia, dicendum est quod, cum sermo 
+prae<lb break="no" ed="#L" n="5"/>sens sit de omnipotentia factiva, cum dicimus <quote xml:id="TAcCaj-d1e175-Qd1e677">omne 
+pos<lb break="no" ed="#L" n="6"/>sibile, omne ens, omne non implicans contradictionem ,
+<lb ed="#L" n="7"/>semper subintelligitur causabile effective</quote>. Sic enim 
+exclu<lb break="no" ed="#L" n="8"/>duntur et divina, et peccata, et quaecumque sunt 
+poten<lb break="no" ed="#L" n="9"/>tiarum passivarum et imperfectarum, ut sic.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e690">
+                  <lb ed="#L" n="10"/>VI. Circa probationem secundi, dubium occurrit: 
+quo<lb break="no" ed="#L" n="11"/>niam non videtur sufficienter inferre intentum. Ex hoc
+<lb ed="#L" n="12"/>enim quod potentia activa Dei fundatur super esse infinito
+<lb ed="#L" n="13"/>et universaliter perfecto, debuisset inferri, ergo obiectum
+<lb ed="#L" n="14"/>potentiae activae Dei est possibile esse infinite et 
+universa<lb break="no" ed="#L" n="15"/>liter perfecte; sicut de potentia calefactiva infertur, quod
+<lb ed="#L" n="16"/>est calefactibile. Quod in littera non fit: sed infertur, ergo
+<lb ed="#L" n="17"/>obiectum eius est possibile esse, absque alia probatione.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e710">
+                  <lb ed="#L" n="18"/>Ad hoc dicitur quod, ut ex praecedenti patet articulo,
+<lb ed="#L" n="19"/>haec est differentia inter causam univocam et aequivocam,
+<lb ed="#L" n="20"/>quod causae univocae respondet aliquod adaequatum 
+obie<lb break="no" ed="#L" n="21"/>ctum in effectu, aequivocae vero non. Et propterea, cum
+<lb ed="#L" n="22"/>esse Dei duas habeat conditiones ad propositum, scilicet
+<lb ed="#L" n="23"/>elevationem supra genera, et universalitatem perfectionis,
+<lb ed="#L" n="24"/>nec possit fingi aliquod causabile cum his conditionibus in
+<lb ed="#L" n="25"/>singulari, consequens est ut sumatur in universali. Tale
+<lb ed="#L" n="26"/>autem est esse: quoniam ad nullum determinatum est 
+ge<lb break="no" ed="#L" n="27"/>nus, et ad omnes se perfectionum modos extendit. Et 
+pro<lb break="no" ed="#L" n="28"/>pterea satis subtiliter in littera proportionale obiectum, sicut
+<lb ed="#L" n="29"/>potentiis univocis, assignatum est quidquid potest entis 
+ra<lb break="no" ed="#L" n="30"/>tionem habere.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e741">
+                  <lb ed="#L" n="31"/>VII. Circa probationem tertii dicti, dubium occurrit:
+<lb ed="#L" n="32"/>quoniam praetermissum videtur non ens. Ex eo namque
+<lb ed="#L" n="33"/>quod nihil opponitur enti nisi non ens, inferendum erat,
+<lb ed="#L" n="34"/>ergo non ens opponitur possibili absolute, quia opponitur
+<lb ed="#L" n="35"/>enti: et non debebat tantum inferri, ergo quaecumque 
+im<lb break="no" ed="#L" n="36"/>plicant simul ens et non ens, repugnant possibili. - Nec
+<lb ed="#L" n="37"/>potest ad hoc dici quod implicite utrumque illatum est.
+<lb ed="#L" n="38"/>Quoniam, ut patet in littera, illatum est quod sola 
+impli<lb break="no" ed="#L" n="39"/>cantia contradictionem repugnant possibili: constat enim
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="40"/>quod non entia absque implicatione contradictionis 
+inve<lb break="no" ed="#L" n="41"/>niuntur. Unde ambiguitas relinquitur, quomodo, eo 
+prae<lb break="no" ed="#L" n="42"/>termisso, saltatum sit ad ens et non ens simul.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e772">
+                  <lb ed="#L" n="43"/>Ad hoc dicitur quod, ut patet V Metaphys. et II
+<lb ed="#L" n="44"/>Physic., eadem est causa activa obiecti et sui oppositi;
+<lb ed="#L" n="45"/>diversimode tamen, quia faciendo, causat obiectum 
+pro<lb break="no" ed="#L" n="46"/>prium, non faciendo autem, oppositum; ut patet de nauta
+<lb ed="#L" n="47"/>ibidem. Et sic in dubio non erat, non ens cadere sub activa
+<lb ed="#L" n="48"/>potentia Dei, cuius proprium obiectum assignatum est ens:
+<lb ed="#L" n="49"/>oportet enim illam, faciendo, ens, non faciendo, non ens 
+re<lb break="no" ed="#L" n="50"/>spicere. Et cum multa non entia absque implicatione 
+con<lb break="no" ed="#L" n="51"/>tradictionis sint non entia, ut patet in materia contingente,
+<lb ed="#L" n="52"/>consequens est quod non ens praetermissum non fuit, sed
+<lb ed="#L" n="53"/>clauditur sub non implicantibus contradictionem. Propter
+<lb ed="#L" n="54"/>quod, saltus nullus in littera factus est: sed ex eo quod
+<lb ed="#L" n="55"/>solum non ens opponitur enti, et constat quod non 
+op<lb break="no" ed="#L" n="56"/>ponitur ei divisum, sed coniunctum in eodem, de eodem,
+<lb ed="#L" n="57"/>ad idem, etc., optime illatum est, ergo continens ens et
+<lb ed="#L" n="58"/>non ens simul, solum repugnat possibili. Et non debuit,
+<lb ed="#L" n="59"/>nec potuit inferri, ergo non ens repugnat possibili: quia
+<lb ed="#L" n="60"/>nec repugnat enti, nisi cum illis conditionibus 
+constituen<lb break="no" ed="#L" n="61"/>tibus contradictionem, ut de se patet.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e816">
+                  <lb ed="#L" n="62"/>VIII. Circa hanc positionem adverte, quod praesenti
+<lb ed="#L" n="63"/>proposito sufficit, quod quidquid implicat contradictionem,
+<lb ed="#L" n="64"/>inquantum huiusmodi, excludatur ab omnipotentia: nec
+<lb ed="#L" n="65"/>hoc vertendum est in dubium. Utrum autem hoc vel illud
+<lb ed="#L" n="66"/>implicet contradictionem, alterius negotii est. Et similiter
+<lb ed="#L" n="67"/>utrum uno vel pluribus modis contingat implicari 
+contra<lb break="no" ed="#L" n="68"/>dictionem, nihil refert. Omnia enim quae secundum se 
+im<lb break="no" ed="#L" n="69"/>plicant contradictionem , vere impossibilia sunt ut fiant
+<lb ed="#L" n="70"/>etiam a Deo. Et per hoc patet responsio ad argumenta
+<lb ed="#L" n="71"/>Aureoli, apud Capreolum, in I, dist. xri, qu. 1.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e840">
+                  <lb ed="#L" n="72"/>IX. In responsione ad quartum, adverte quod per 
+sa<lb break="no" ed="#L" n="73"/>pientiam huius mundi non intelligimus philosophiam 
+se<lb break="no" ed="#L" n="74"/>cundum se, quoniam illa non iudicat falsum: sed 
+intelli<lb break="no" ed="#L" n="75"/>gitur philosophia, secundum quod utuntur ea homines
+<lb ed="#L" n="76"/>huius mundi; ex quorum defectivo lumine temerarium
+<lb ed="#L" n="77"/>prodiit iudicium, quo impossibilia causis secundis, 
+impos<lb break="no" ed="#L" n="78"/>sibilia absolute iudicata sunt, ut Incarnatio Dei, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e175-Dd1e859"><!-- caj-p1-q25-a4 -->
+               <head xml:id="TAcCaj-d1e175-Hd1e862">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e175-d1e864">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="34"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e871">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="35"/>In titulo, adverte quod praeteritum sumitur dupliciter ,
+<lb ed="#L" n="36"/>scilicet formaliter, et denominative; idest pro ipsa '
+prae<lb break="no" ed="#L" n="37"/>teritione, et pro re quae praeteriit. In proposito, quamvis
+<lb ed="#L" n="38"/>utroque modo sumi possit, directe tamen, et per se primo,
+<lb ed="#L" n="39"/>sumitur pro re quae praeteriit. Ita quod sensus quaestionis
+<lb ed="#L" n="40"/>est: An Deus possit exspoliare rem quae praeteriit, a 
+prae<lb break="no" ed="#L" n="41"/>teritione; hoc enim est facere eam non fuisse. Sicut 
+quae<lb break="no" ed="#L" n="42"/>rimus, an Deus possit exspoliare substantiam a quantitate;
+<lb ed="#L" n="43"/>et facere hoc, esset facere substantiam quae est quanta,
+<lb ed="#L" n="44"/>non quantam.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e897">
+                  <lb ed="#L" n="45"/>II. In corporé unica est conclusio, responsiva quaesito
+<lb ed="#L" n="46"/>negative: Praeterita non fuisse, non subiacet divinae 
+po<lb break="no" ed="#L" n="47"/>tentiae. - Probatur primo, ratione. Sub omnipotentia Dei
+<lb ed="#L" n="48"/>non cadit implicans contradictionem: praeterita non fuisse,
+<lb ed="#L" n="49"/>implicat contradictionem : ergo. Probatur minor. Dicere quod
+<lb ed="#L" n="50"/>Socrates sederit et non sederit, implicat, sicut quod sedet et
+<lb ed="#L" n="51"/>non sedet: sed hoc est dicere praeteritum non fuisse: ergo.
+<lb ed="#L" n="52"/>- Deinde confirmatur auctoritate Augustini et Aristotelis.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e917">
+                  <lb ed="#L" n="53"/>III. Adverte hic, quod praeteritum significatur in actu
+<lb ed="#L" n="54"/>signato per ly praeteritum; et in actu exercito, per verba
+<lb ed="#L" n="55"/>praeteriti temporis, ut fuit, cucurrit, sedit, etc. Et propterea
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="56"/>in littera per actum exercitum declaratur actus signatus.
+<lb ed="#L" n="57"/>Et si diligenter perspecta fuerit haec ratio, cessant omnia
+<lb ed="#L" n="58"/>argumenta ex Gregorio allata apud Capreolum, xui 
+distin<lb break="no" ed="#L" n="59"/>ctione Primi. Ex hac enim liquet ratio quare Deus non
+<lb ed="#L" n="60"/>potest exspoliare Adam a praeteritione. Hoc enim esset ex- 7
+<lb ed="#L" n="61"/>spoliare ipsum a fuisse: et cum alterum contradictoriorum
+<lb ed="#L" n="62"/>oporteat de quocumque semper verificarij si Adam 
+exspo<lb break="no" ed="#L" n="63"/>liaretur nunc a fuisse, verificaretur de ipso non fuisse. Et
+<lb ed="#L" n="64"/>sic fuisset, et non fuisset: fuisset quidem, quia ex quo
+<lb ed="#L" n="65"/>semel vestitus est fuisse, vere fuit; non fuisset autem, quia
+<lb ed="#L" n="66"/>exspoliatus esset ipso fuisse. Et sic duo contradictoria essent -
+<lb ed="#L" n="67"/>simul vera: quod non est intelligibile.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e955">
+                  <lb ed="#L" n="68"/>IV. Ex hoc etiam patet quod nihil officit proposito quod
+<lb ed="#L" n="69"/>fuisse acciderit Adae, sicut et esse et fore. Non enim magis
+<lb ed="#L" n="70"/>contradicunt Socrates. est homo et non est homo, quam
+<lb ed="#L" n="71"/>Socrates currit et non currit, et. quam curret et non 
+cur<lb break="no" ed="#L" n="72"/>ret, et quam cucurrit et non cucurrit: nihil enim refert
+<lb ed="#L" n="73"/>ad contradictionem materia necessaria vel contingens. Et
+<lb ed="#L" n="74"/>propterea in responsione ad primum, utrumque tangitur;
+<lb ed="#L" n="75"/>scilicet accidentalitas, et impossibilitas absoluta 
+concomi<lb break="no" ed="#L" n="76"/>tans implicationem contradictionis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e175-Dd1e979"><!-- caj-p1-q25-a5 -->
+               <head xml:id="TAcCaj-d1e175-Hd1e982">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e175-d1e984">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="93"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e991">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="94"/>TITULUS clarus est. - In corpore tria facit: primo, tractat
+<lb ed="#L" n="95"/>quandam opinionem; secundo, tractat aliam; tertio,
+<lb ed="#L" n="96"/>respondet quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1002">
+                  <lb ed="#L" n="97"/>II. Quoad primum, opinio quaedam erronea tenet 
+par<lb break="no" ed="#L" n="98"/>tem negativam: quia tenet Deum agere ex necessitate 
+na<lb break="no" ed="#L" n="99"/>turae. Et declaratur ex actione naturalium, proportionaliter.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="100"/>Et tandem reprehenditur: quia falso innititur fundamento,
+<lb ed="#L" n="101"/>ut patet ex dictis in qu. xix, ubi uterque modus naturalis
+<lb ed="#L" n="102"/>necessitatis, scilicet spectans ad naturam, et spectans ad
+<lb ed="#L" n="103"/>voluntatem, a divina actione remotus est.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1022">
+                  <lb ed="#L" n="104"/>III. Quoad secundum, tria ordinate facit. Primo, ponit
+<lb ed="#L" n="105"/>ipsam opinionem, tenentem quoque partem negativam: sed
+<pb ed="#L" n="299"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>alia ratione, quae est talis. Deus nihil potest operari 
+abs<lb break="no" ed="#L" n="2"/>que ordine sapientiae et iustitiae suae: ordo autem 
+sapien<lb break="no" ed="#L" n="3"/>tiae et iustitiae suae non extendit se ultra ea quae 
+quan<lb break="no" ed="#L" n="4"/>doque fiunt: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1043">
+                  <lb ed="#L" n="5"/>Secundo, examinatur haec ratio quoad primam 
+proposi<lb break="no" ed="#L" n="6"/>tionem, approbando eam: quia divina potentia aequalis est
+<lb ed="#L" n="7"/>suae sapientiae, et e converso, propter identitatem mutuam.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1052">
+                  <lb ed="#L" n="8"/>Tertio, examinatur et reprehenditur quoad secundam
+<lb ed="#L" n="9"/>propositionem , probando suam contradictoriam, scilicet,
+<lb ed="#L" n="10"/>Divina sapientia non arctatur ad ordinem stabilitum qui
+<lb ed="#L" n="11"/>nunc est, tali ratione. Tota ratio ordinis quam sapiens
+<lb ed="#L" n="12"/>rebus a se factis imponit, sumitur a fine: ergo a fine 
+pro<lb break="no" ed="#L" n="13"/>portionato rebus propter finem, sapientia facientis 
+limi<lb break="no" ed="#L" n="14"/>tatur ad. certum ordinem;:et a fine improportionabiliter
+<lb ed="#L" n="15"/>excedente non limitatur: ergo divina sapientia non 
+deter<lb break="no" ed="#L" n="16"/>minatur ad aliquem rerum ordinem, sic ut non possit
+<lb ed="#L" n="17"/>alius effluere. - Antecedens patet, cum prima consequentia:
+<lb ed="#L" n="18"/>cuius consequentis secundam partem apposui, quoniam
+<lb ed="#L" n="19"/>implicite tantum' in littera habetur, et tamen ex illa 
+pen<lb break="no" ed="#L" n="20"/>det vis rationis. Constat autem eam subintelligendam fuisse,
+<lb ed="#L" n="21"/>ex posterioristica regula, si affirmatio est causa affirma-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>tionis etc. Si enim commensuratío finis ratio est 
+limita<lb break="no" ed="#L" n="23"/>tionis ad certum ordinem, quia tota ratio ordinis est a
+<lb ed="#L" n="24"/>fine; oportet quod incommensuratio finis per excessun, sit
+<lb ed="#L" n="25"/>ratio non limitationis, ex eadem causa. — Secunda vero 
+con<lb break="no" ed="#L" n="26"/>sequentia probatur: quia divina bonitas, quae finis est
+<lb ed="#L" n="27"/>omnium, improportionabiliter excedit omnem stabilitum
+<lb ed="#L" n="28"/>ordinem rerum. |
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1102">
+                  <lb ed="#L" n="29"/>IV. Quoad tertium, conclusio responsiva quaesito est:
+<lb ed="#L" n="30"/>Deus potest alia facere quam quae facit. Nec aliter haec
+<lb ed="#L" n="31"/>conclusio probatur: quia, examinando propositas opiniones,
+<lb ed="#L" n="32"/>exclusae sunt omnes causae restrictivae divinae potentiae
+<lb ed="#L" n="33"/>ad ea quae facit. Cum enim obiectum eius, ut dictum est,
+<lb ed="#L" n="34"/>sit possibile absolute, si restringeretur ad possibile quod
+<lb ed="#L" n="35"/>facit, aut hoc esset ratione naturae agentis, aut ratione quasi
+<lb ed="#L" n="36"/>potentiarum, aut ratione quasi habituum; cum in Deo non
+<lb ed="#L" n="37"/>cadant impedimenta et indispositiones, etc. Haec autem
+<lb ed="#L" n="38"/>omnia sunt exclusa in littera: in prima quidem opinione,
+<lb ed="#L" n="39"/>natura et voluntas, ac per hoc intellectus implicite; in 
+se<lb break="no" ed="#L" n="40"/>cunda vero habitus, scilicet sapientia et iustitia. Unde, 
+omni<lb break="no" ed="#L" n="41"/>bus restrictivis exclusis, restat ambitus divinae potentiae in
+<lb ed="#L" n="42"/>sua latitudine ad possibile absolute.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e175-Dd1e1136"><!-- caj-p1-q25-a6 -->
+               <head xml:id="TAcCaj-d1e175-Hd1e1139">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e175-d1e1141">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1148">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>In titulo continentur duae quaestiones: altera formaliter,
+<lb ed="#L" n="27"/>scilicet, utrum Deus possit meliorare facta; altera 
+vir<lb break="no" ed="#L" n="28"/>tualiter, scilicet, utrum Deus possit facere alia, meliora
+<lb ed="#L" n="29"/>factis. Clauditur enim haec secunda in prima, ratione primi
+<lb ed="#L" n="30"/>facti, quod est universum: quoniam melioratio universi ex
+<lb ed="#L" n="31"/>aliis rebus pendet, ut in responsione ad tertium dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1166">
+                  <lb ed="#L" n="32"/>II. In corpore utrique quaesito respondetur, duabus 
+dis<lb break="no" ed="#L" n="33"/>tinctionibus, et tribus conclusionibus. Prima distinctio 
+ex<lb break="no" ed="#L" n="34"/>plicita est de bonitate: scilicet, substantiali vel accidentali.
+<lb ed="#L" n="35"/>- Secunda est implicite de re eadem, vel diversa. - Prima
+<lb ed="#L" n="36"/>conclusio est: Res eadem non potest fieri melior 
+substan<lb break="no" ed="#L" n="37"/>tialiter. Et probatur: quia differentia substantialis se habet
+<lb ed="#L" n="38"/>ut unitas in numeris, etc. — Secunda est: Res eadem potest
+<lb ed="#L" n="39"/>fieri melior accidentaliter. - Tertia est: Deus qualibet re a
+<lb ed="#L" n="40"/>se facta, potest facere aliam meliorem.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1188">
+                  <lb ed="#L" n="41"/>Nec aliter hic probantur hae conclusiones: quoniam ex
+<lb ed="#L" n="42"/>praedictis sequuntur. Si enim obiectum divinae potentiae
+<lb ed="#L" n="43"/>est possibile absolute, et haec sunt de numero possibilium
+<lb ed="#L" n="44"/>(quod ex eo percipi potest, quod nulla apparet 
+contradi<lb break="no" ed="#L" n="45"/>ctio in his); consequens est quod haec possit Deus facere.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1202">
+                  <lb ed="#L" n="46"/>III. Circa tertiam conclusionem dubitatur, ex Scoto et
+<lb ed="#L" n="47"/>ex Aureolo. Scotus siquidem implicite, in III Sent., dist. xur,
+<lb ed="#L" n="48"/>.qu. 1, tenet oppositum, tali ratione. Accepta aliqua 
+deter<lb break="no" ed="#L" n="49"/>minata creatura ex parte inferiori, quae sit A, quaeritur
+<lb ed="#L" n="50"/>ascendendo: aut est status ad aliquam supremam, et 
+ha<lb break="no" ed="#L" n="51"/>betur oppositum; aut non, sed potest procedi in infinitum.
+<lb ed="#L" n="52"/>Et tunc sic. Quanto aliqua creatura magis excedit A, tanto
+<lb ed="#L" n="53"/>est perfectior; et per consequens, creatura quae in 
+infini<lb break="no" ed="#L" n="54"/>tum excedit, est in infinitum perfectior; et ita erit in se
+<lb ed="#L" n="55"/>intensive infinita, quod est impossibile.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1226">
+                  <lb ed="#L" n="56"/>IV. Aureolus vero, apud Capreolum, in xr: distinctione
+<lb ed="#L" n="57"/>Primi, sex mediis contra hanc conclusionem invehit valde
+<lb ed="#L" n="58"/>prolixis, quorum vim tantum afferam.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1235">
+                  <lb ed="#L" n="59"/>Primo ergo arguit. Si procederetur in infinitum in 
+per<lb break="no" ed="#L" n="60"/>fectionibus specificis, superior esset quoddam totale 
+perfe<lb break="no" ed="#L" n="61"/>ctionale respectu inferioris; et consequenter esset continens
+<lb ed="#L" n="62"/>perfectiones omnium aliarum creaturarum; et consequenter
+<lb ed="#L" n="63"/>infinitae perfectionis: quod est impossibile. - Prima 
+conse<lb break="no" ed="#L" n="64"/>quentia tenet: quia superior continet perfectionem 
+inferio<lb break="no" ed="#L" n="65"/>ris, et adhuc plus. Ultima autem tenet: quia huiusmodi
+<lb ed="#L" n="66"/>perfectiones, apud te, sunt infinitae.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1255">
+                  <lb ed="#L" n="67"/>Secundo sic. Processus ad mensuram est finitus: ergo
+<lb ed="#L" n="68"/>processus ad superius in specificis perfectionibus, est 
+fini<lb break="no" ed="#L" n="69"/>tus. - Consequentia patet ex X Metaphys.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1264">
+                  <lb ed="#L" n="70"/>Tertio sic. Universitas specierum creabilium distat a 
+di<lb break="no" ed="#L" n="71"/>vina perfectione, sicut finitum ab infinito: ergo est finitae
+<lb ed="#L" n="72"/>perfectionis: ergo impossibile est in ipsa in infinitum: 
+pro<lb break="no" ed="#L" n="73"/>cedere ascendendo. — Patet sequela: quia processus in 
+infi<lb break="no" ed="#L" n="74"/>nitum secundum perfectionem, excedit omnem finitam 
+per<lb break="no" ed="#L" n="75"/>fectionem.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1280">
+                  <lb ed="#L" n="76"/>Quarto. Processus ad unitatem et totalitatem est finitus :
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>ergo processus iste est finitus. — Probatur sequela: quia est
+<lb ed="#L" n="78"/>ad unitatem et totalitatem universi.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1292">
+                  <lb ed="#L" n="79"/>Quinto sic. Id in quod primo, a Deo incipiendo, 
+descen<lb break="no" ed="#L" n="80"/>ditur, oportet dari: ergo non proceditur in infinitum 
+ascen<lb break="no" ed="#L" n="81"/>dendo. - Consequentia nota. Et antecedens probatur ex illa
+<lb ed="#L" n="82"/>maxima Dionysii, infima iunguntur supremis per media,
+<lb ed="#L" n="83"/>ita quod supremum infimi attingit infimum supremi etc.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1305">
+                  <lb ed="#L" n="84"/>Sexto sic. Deus et infima creatura sunt duo extrema,
+<lb ed="#L" n="85"/>non distantia in infinitum per modum intercidentis medii,
+<lb ed="#L" n="86"/>sed per infinitatem alterius extremi: ergo inter ea non 
+pos<lb break="no" ed="#L" n="87"/>sunt esse infinita media. 3
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1316">
+                  <lb ed="#L" n="88"/>V. Ad evidentiam horum, scito quod, cum hic non sit
+<lb ed="#L" n="89"/>sermo nisi de potentia Dei et possibili absolute, cum 
+di<lb break="no" ed="#L" n="90"/>cimus quod quacumque creatura facta potest fieri alia 
+per<lb break="no" ed="#L" n="91"/>fectior, non denotatur aliqua potentia in creatura ad aliam
+<lb ed="#L" n="92"/>ulteriorem creaturam, sicut in numeris accidit. Sed 
+denota<lb break="no" ed="#L" n="93"/>tur inconsummabilitas possibilis absolute: est enim 
+infini<lb break="no" ed="#L" n="94"/>tum sicut infinitum materiale, quod, quocumque posito vel
+<lb ed="#L" n="95"/>accepto, semper restat aliud accipiendum. Denotatur 
+quo<lb break="no" ed="#L" n="96"/>que inexhauribilitas divinae potentiae : quoniam est infinitae
+<lb ed="#L" n="97"/>actualitatis simpliciter, ita quod nullo participato actu 
+ex<lb break="no" ed="#L" n="98"/>hauritur, sed semper restat ulterior exhauriendus actus.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1342">
+                  <lb ed="#L" n="99"/>VI. Unde ad rationem Scoti facile respondetur, 
+con<lb break="no" ed="#L" n="100"/>cesso processu in infinitum, negando quod sequeretur aliqua
+<lb ed="#L" n="101"/>creatura in infinitum excedens infimam: quoniam inter 
+infi<lb break="no" ed="#L" n="102"/>mam et quamcumque aliam signabilem, semper est finita
+<lb ed="#L" n="103"/>distantia, ut patet in numeris. Omnes enim hae obiectiones
+<lb ed="#L" n="104"/>adductae, aut multae earum, in hoc falluntur, quod non
+<lb ed="#L" n="105"/>discernunt inter processum in infinitum, idest in aliquod
+<lb ed="#L" n="106"/>unum numero infinitum ; et inter processum in infinitum,
+<lb ed="#L" n="107"/>idest nunquam in ultimum, sed semper in aliquod sic quod
+<lb ed="#L" n="108"/>restet aliud ulterius. Et si bene advertimus, iuxta primum
+<lb ed="#L" n="109"/>sensum, ly infinitum est terminus ad quem processus, et
+<lb ed="#L" n="110"/>habet vim nominis: in secundo autem habet vim adverbii,
+<lb ed="#L" n="111"/>et est modus ipsius processus. Nos enim utimur processu
+<lb ed="#L" n="112"/>in infinitum iuxta secundum sensum: quoniam nominibus
+<lb ed="#L" n="113"/>est utendum ut plures utuntur, et manifeste patet ex III
+<lb ed="#L" n="114"/>Physic. sic accipi. Arguentes autem accipiunt, implicite
+<lb ed="#L" n="115"/>vel explicite, procedi in infinitum iuxta primum sensum:
+<lb ed="#L" n="116"/>quod nec somniavimus, nec ex processu in infinitum quem
+<lb ed="#L" n="117"/>ponimus, sequitur.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1386">
+                  <lb ed="#L" n="118"/>VII. Ad primam autem Aureoli obiectionem dicitur,
+<lb ed="#L" n="119"/>quod ratio illa peccat tripliciter. Primo, in hoc quod modo
+<lb ed="#L" n="120"/>diximus. - Secundo in hoc, quod male interpretatur illam
+<lb ed="#L" n="121"/>propositionem, perfectio superior includit inferiorem , et
+<lb ed="#L" n="122"/>aliquid ultra. Ista enim non est vera de perfectionibus 
+ul<lb break="no" ed="#L" n="123"/>timarum differentiarum: in nulla siquidem intelligentia 
+clau<lb break="no" ed="#L" n="124"/>ditur virtualiter quidquid positivae perfectionis ponit ultima
+<lb ed="#L" n="125"/>differentia bovis; hoc enim est Dei proprium, ut alibi 
+vi<lb break="no" ed="#L" n="126"/>dendum est. - 7ertio in hoc, quod non distinguit inter esse
+<lb ed="#L" n="127"/>infinitae perfectionis simpliciter, et esse infinitae perfectionis
+<pb ed="#L" n="301"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>in genere: in quo etiam erravit tertia ratio. Quoniam, si
+<lb ed="#L" n="2"/>tota universitas creabilium esset, essent quidem infinitae
+<lb ed="#L" n="3"/>perfectiones specifice, non tamen essent infinitum ens: 
+quo<lb break="no" ed="#L" n="4"/>niam et singula, et omnia simul, essent entia per 
+participa<lb break="no" ed="#L" n="5"/>tionem. Et similiter, si esset aliqua una creatura 
+aequiva<lb break="no" ed="#L" n="6"/>lens omnibus illis, non esset infinitae perfectionis 
+simpli<lb break="no" ed="#L" n="7"/>citer, sed in genere. Sicut, si essent infinita animalia, aut
+<lb ed="#L" n="8"/>unum animal eis aequivalens, non sequeretur nisi infinita
+<lb ed="#L" n="9"/>perfectio in genere animalis: et sic minima intelligentiarum,
+<lb ed="#L" n="10"/>cum sit altioris ordinis forma, esset perfectior omnibus eis,
+<lb ed="#L" n="11"/>utpote sub genere animalis.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1438">
+                  <lb ed="#L" n="12"/>Ad secundam obiectionem dicitur, quod peccat tripliciter.
+<lb ed="#L" n="13"/>Primo, quia processus iste non est ad mensuram: cum non
+<lb ed="#L" n="14"/>sit ad terminum aliquem. - Secundo, quia non distinguit
+<lb ed="#L" n="15"/>inter totalem processum, de quo tamen est tota quaestio;
+<lb ed="#L" n="16"/>et singulos partiales processus, de quibus non est quaestio;
+<lb ed="#L" n="17"/>quoniam constat quemlibet esse finitum, et ad mensuram
+<lb ed="#L" n="18"/>materialiter, idest ad rem quae, si esset, esset mensura. — Et
+<lb ed="#L" n="19"/>hic est Zertius error, quod scilicet non distinguit inter 
+pro<lb break="no" ed="#L" n="20"/>cessum ad mensuram materialiter et in potentia, non 
+na<lb break="no" ed="#L" n="21"/>turali, sed logica et divina; et mensuram in actu, et ut sic.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1463">
+                  <lb ed="#L" n="22"/>Tertia quoque ratio tripliciter errat. Primo, quia putat
+<lb ed="#L" n="23"/>universitatem creabilium plus posse actu accipi, quam 
+uni<lb break="no" ed="#L" n="24"/>versitatem numerorum. — Secundo, in hoc quod diximus,
+<lb ed="#L" n="25"/>quod aequivocat de infinita perfectione. - Zertio in hoc,
+<lb ed="#L" n="26"/>quod non videt quod infra infinitum in genere, finitum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="27"/>autem simpliciter, potest in infinitum procedi simpliciter.
+<lb ed="#L" n="28"/>Quod est intentum. 1
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1483">
+                  <lb ed="#L" n="29"/>Quarta autem peccat, sicut secunda. Tum quia 
+proces<lb break="no" ed="#L" n="30"/>sus iste totalis non est ad unitatem et totalitatem universi :
+<lb ed="#L" n="31"/>quia nullum habet terminum, ut iam dictum est. - Tum
+<lb ed="#L" n="32"/>quia singuli partiales processus sunt ad unitatem et 
+tota<lb break="no" ed="#L" n="33"/>litatem universi nonnisi in potentia logica et divina, - Tum
+<lb ed="#L" n="34"/>quia sunt ad huiusmodi unitatem et totalitatem 
+materia<lb break="no" ed="#L" n="35"/>liter, et non formaliter: non enim implicat contradictionem
+<lb ed="#L" n="36"/>quod fierent plures creaturae, absque aliquo universo per
+<lb ed="#L" n="37"/>se ex eis resultante.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1505">
+                  <lb ed="#L" n="38"/>Ad quintam autem patet responsio, quod illud dictum
+<lb ed="#L" n="39"/>Dionysii intelligitur de creaturis inter se, et non de 
+con<lb break="no" ed="#L" n="40"/>nexione inter creaturam et Deum. Unde non datur primum
+<lb ed="#L" n="41"/>possibile, descendendo a Deo; nec ultimum, ascendendo ad
+<lb ed="#L" n="42"/>eundem. Et sic vana est quaestio, utrum sit finitum vel
+<lb ed="#L" n="43"/>infinitum. De facto autem semper datur primum factum,
+<lb ed="#L" n="44"/>quod est perfectionis finitae.
+</p>
+               <p xml:id="TAcCaj-d1e175-d1e1523">
+                  <lb ed="#L" n="45"/>Sexta demum obiectio seipsam interimit. Quoniam 
+infi<lb break="no" ed="#L" n="46"/>nita distantia ex infinitate alterius extremi, infert necessario
+<lb ed="#L" n="47"/>infinita intercidentia media, si non actu, tamen in potentia;
+<lb ed="#L" n="48"/>ut manifeste patet in quantitate continua; non enim potest
+<lb ed="#L" n="49"/>intelligi quod inter lineam infinitam et lineam pedalem
+<lb ed="#L" n="50"/>non possint intercidere infinitae lineae mediae, scilicet 
+bi<lb break="no" ed="#L" n="51"/>pedalis, tripedalis, et sic in infinitum. Unde consequentia
+<lb ed="#L" n="52"/>allata nihil valet.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

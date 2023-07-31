@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 21</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 21</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="268"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e154"><!-- TAcCajp1-q21 -->
+            <head xml:id="TAcCaj-d1e154-Hd1e99">Quaestio 21</head>
+            <div xml:id="TAcCaj-d1e154-Dd1e101"><!-- caj-p1-q21-a1 -->
+               <head xml:id="TAcCaj-d1e154-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e154-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="40"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="41"/>TITULUS, ut iam patet ex dictis, quaerit utrum 
+iusti<lb break="no" ed="#L" n="42"/>tia sit formaliter in Deo.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e122">
+                  <lb ed="#L" n="43"/>In corpore duo facit. Primo enim distinguit iustitiam
+<lb ed="#L" n="44"/>in duas species: scilicet commutativam, et distributivam.
+<lb ed="#L" n="45"/>Secundo, respondet quaesito duabus conclusionibus, iuxta
+<lb ed="#L" n="46"/>numerum specierum iustitiae.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e133">
+                  <lb ed="#L" n="47"/>II. Prima conclusio est negativa: In Deo non est 
+iu<lb break="no" ed="#L" n="48"/>stitia commutativa. - Probatur auctoritate Apostoli: quis
+<lb ed="#L" n="49"/>prior etc.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e143">
+                  <lb ed="#L" n="50"/>Secunda est affirmativa: In Deo est iustitia distributiva. —
+<lb ed="#L" n="51"/>Et probatur. Iustitia distributiva est, secundum quam datur
+<lb ed="#L" n="52"/>unicuique secundum suam dignitatem: ergo ordo universi
+<lb ed="#L" n="53"/>demonstrat Dei iustitiam: igitur in eo est iustitia. — 
+Con<lb break="no" ed="#L" n="54"/>sequentia probatur ex proportionali: quia sicut ordo 
+fami<lb break="no" ed="#L" n="55"/>liae congruus ostendit iustitiam in gubernante, ita ordo
+<lb ed="#L" n="56"/>universi etc. Et confirmatur auctoritate Dionysii.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e161">
+                  <lb ed="#L" n="57"/>III. Circa primam conclusionem dubium est. Tum 
+quo<lb break="no" ed="#L" n="58"/>niam falsum videtur in Deo non esse iustitiam 
+commu<lb break="no" ed="#L" n="59"/>tativam. Quoniam forma divini iudicii fit secundum 
+iusti<lb break="no" ed="#L" n="60"/>tiam commutativam, dum recompensat et praemia meritis,
+<lb ed="#L" n="61"/>et supplicia peccatis; ut expresse Auctor dicit in II? IIe,
+<lb ed="#L" n="62"/>qu. Lxr, art. 4, ad 1. - Tum quoniam probatio non videtur
+<lb ed="#L" n="63"/>sufficiens. Quoniam ad iustitiam commutativam spectat non
+<lb ed="#L" n="64"/>solum retributio, sed etiam ipsa prior datio: non solum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>enim emptio, sed etiam venditio iustitia commutativa 
+re<lb break="no" ed="#L" n="66"/>gulatur. Et propterea ex negatione secundi actus in Deo,
+<lb ed="#L" n="67"/>non videtur sufficienter illata negatio talis iustitiae: 
+quo<lb break="no" ed="#L" n="68"/>niam salvatur etiam in primo actu.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e192">
+                  <lb ed="#L" n="69"/>IV. Ad haec retrogrado ordine respondetur, quod neuter
+<lb ed="#L" n="70"/>actus commutativae iustitiae locum habet in Deo: quia
+<lb ed="#L" n="71"/>sicut non potest dare pro acceptis, ita nec potest dare pro
+<lb ed="#L" n="72"/>accipiendis; nihil enim sibi ex creaturis accrescere potest.
+<lb ed="#L" n="73"/>Excluditur quoque, ex hoc quod nemo potest prius aliquid
+<lb ed="#L" n="74"/>dare Deo, uterque actus ab ipso: quoniam, si nemo potest
+<lb ed="#L" n="75"/>prius dare, consequens est quod nemo possit aequivalens
+<lb ed="#L" n="76"/>reddere; et consequenter quod Deus non possit pro 
+aequi<lb break="no" ed="#L" n="77"/>valente accipiendo dare. Et sic commutativa iustitia, quae
+<lb ed="#L" n="78"/>aequalitatem inter datum et acceptum facit, locum in eo
+<lb ed="#L" n="79"/>habere non potest.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e218">
+                  <lb ed="#L" n="80"/>Ad primam vero dicitur, quod inde non potest haberi, .
+<lb ed="#L" n="81"/>nisi quod quidam modus commmutativae iustitiae in divina :
+<lb ed="#L" n="82"/>distributione servatur, dum pro demeritis supplicia, et pro
+<lb ed="#L" n="83"/>meritis praemia dispensat. Hic autem intenditur quod in
+<lb ed="#L" n="84"/>Deo non est ipsa iustitia commutativa.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e231">
+                  <lb ed="#L" n="85"/>V. In responsione ad tertium, adverte doctrinam 
+tradi<lb break="no" ed="#L" n="86"/>tam in II Cont. Gent., in cap. xxvur et xxix: et melius haec
+<lb ed="#L" n="87"/>intelliges, videns quod hoc potius est iustum condecentiae
+<lb ed="#L" n="88"/>in ordine ad Deum, quam simpliciter iustum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e154-Dd1e243"><!-- caj-p1-q21-a2 -->
+               <head xml:id="TAcCaj-d1e154-Hd1e246">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e154-d1e248">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e255">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>TITULUS ex dictis est clarus. - In corpore una conclusio,
+<lb ed="#L" n="31"/>responsiva quaesito affirmative: Iustitia Dei 
+convenien<lb break="no" ed="#L" n="32"/>ter veritas nominatur.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e266">
+                  <lb ed="#L" n="33"/>Probatur. Veritas intellectus regulantis et mensurantis
+<lb ed="#L" n="34"/>res, consistit in adaequatione rerum ad intellectum: iustitia
+<lb ed="#L" n="35"/>autem consistit in conformitate operum ad legem cui 
+con<lb break="no" ed="#L" n="36"/>cordat. Ergo iustitia Dei convenienter veritas nominatur.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e277">
+                  <lb ed="#L" n="37"/>Antecedens, pro prima parte, probatur ex convenientia
+<lb ed="#L" n="38"/>et differentia veritatis in intellectu accipliente a rebus, et
+<lb ed="#L" n="39"/>causante res: convenientia quidem, quia veritas consistit
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="40"/>semper in adaequatione intellectus et rei; differentia 
+au<lb break="no" ed="#L" n="41"/>tem, quia in intellectu causato est adaequatio intellectus
+<lb ed="#L" n="42"/>ad res, in causante autem est adaequatio rerum ad 
+intel<lb break="no" ed="#L" n="43"/>lectum. Pro secunda vero parte, quia, sicut se habent 
+ar<lb break="no" ed="#L" n="44"/>tificiata ad artem, ita se habent opera iusta ad legem. -
+<lb ed="#L" n="45"/>Consequentia autem probatur: quoniam iustitia Dei facit
+<lb ed="#L" n="46"/>ordinem in rebus conformem sapientiae suae, quae est
+<lb ed="#L" n="47"/>omnium lex.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e307">
+                  <lb ed="#L" n="48"/>Et confirmatur tota manifestatio ex eo quod etiam in
+<lb ed="#L" n="49"/>nobis sic invenitur veritas iustitiae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e154-Dd1e315"><!-- caj-p1-q21-a3 -->
+               <head xml:id="TAcCaj-d1e154-Hd1e318">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e154-d1e320">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e327">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>TITULUS iam patet ex usu. - In corpore duo facit: primo
+<lb ed="#L" n="17"/>respondet quaesito; secundo, clarificat responsionem.
+<lb ed="#L" n="18"/>Conclusio responsiva est: Misericordia est maxime in
+<lb ed="#L" n="19"/>Deo, non secundum passionis affectum, sed secundum 
+ef<lb break="no" ed="#L" n="20"/>fectum. — Probatur. Tristari de miseria aliena non convenit
+<lb ed="#L" n="21"/>Deo; sed repellere eam, hoc maxime ei convenit. Ergo
+<lb ed="#L" n="22"/>misericordia, non quantum ad affectum, sed quantum ad
+<lb ed="#L" n="23"/>effectum, maxime Deo convenit.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e349">
+                  <lb ed="#L" n="24"/>Antecedens explanatur, quoad ly miseria, ut scilicet
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="25"/>sonet defectum quemcumque. Et probatur, quoad 
+secun<lb break="no" ed="#L" n="26"/>dam partem, sic. Defectus non tolluntur nisi per alicuius
+<lb ed="#L" n="27"/>bonitatis perfectionem: ergo hoc maxime pertinet ad Deum,
+<lb ed="#L" n="28"/>quia ipse est prima bonitatis origo. - Consequentia autem
+<lb ed="#L" n="29"/>probatur: quia affectus misericordis est tristitia; effectus
+<lb ed="#L" n="30"/>vero est depulsio alienae miseriae.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e369">
+                  <lb ed="#L" n="31"/>Clarificatio autem consistit in differenti habitudine 
+dif<lb break="no" ed="#L" n="32"/>fusae a Deo perfectionis, ad eius bonitatem, iustitiam, 
+li<lb break="no" ed="#L" n="33"/>beralitatem et misericordiam: et satis clare est in littera.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e154-Dd1e379"><!-- caj-p1-q21-a4 -->
+               <head xml:id="TAcCaj-d1e154-Hd1e382">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e154-d1e384">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e391">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="38"/>TITULUS est clarus. - In corpore unica est conclusio, 
+re<lb break="no" ed="#L" n="39"/>T'ipstsiea quaesito affirmative, scilicet: In quolibet opere
+<lb ed="#L" n="40"/>Dei misericordiam et iustitiam oportet inveniri.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e402">
+                  <lb ed="#L" n="41"/>II. Circa quam tria facit. Primo, misericordiae nomen
+<lb ed="#L" n="42"/>extendit, extendendo nomen miseriae ad omnem defectum.
+<lb ed="#L" n="43"/>Et rationem extensionis assignat: quia, cum miseria 
+oppo<lb break="no" ed="#L" n="44"/>natur felicitati, in sola rationali creatura, quae felicitatis
+<lb ed="#L" n="45"/>est capax, miseria proprie inveniri potest.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e415">
+                  <lb ed="#L" n="46"/>III. Secundo, probat conclusionem quoad iustitiam, sic.
+<lb ed="#L" n="47"/>Debitum ex divina iustitia contingit dupliciter, scilicet Deo
+<lb ed="#L" n="48"/>vel creaturae; et neutrum potest in aliquo opere Dei 
+prae<lb break="no" ed="#L" n="49"/>termitti, Ergo in omni opere Dei oportet esse iustitiam. —
+<lb ed="#L" n="50"/>Antecedens, quoad primam partem, habetur ex dictis in
+<lb ed="#L" n="51"/>1 art., ad 3. Quoad secundam vero, manifestatur: quia non
+<lb ed="#L" n="52"/>potest facere Deus aliquid, quod non congruat sapientiae
+<lb ed="#L" n="53"/>et bonitati ipsius; et similiter quidquid in rebus creatis
+<lb ed="#L" n="54"/>facit, convenienti ordine et proportione disponit.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e438">
+                  <lb ed="#L" n="55"/>Adverte hic, quod illa propositio in littera posita, »
+eu<lb break="no" ed="#L" n="56"/>trum potest in aliquo opere Dei praetermitti, non est 
+in<lb break="no" ed="#L" n="57"/>tenta ab Auctore prout sonat: quoniam in opere creationis,
+<lb ed="#L" n="58"/>proprie nulla potest inveniri ratio debiti respectu alicuius
+<lb ed="#L" n="59"/>creaturae; sed solum respectu sapientiae et voluntatis 
+di<lb break="no" ed="#L" n="60"/>vinae, ut in responsione ad quartum hic habes. Sed est
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>interpretanda quoad opera providentiae et gubernationis ;
+<lb ed="#L" n="62"/>ad quod insinuandum, cum illa manifestatur in littera, 
+no<lb break="no" ed="#L" n="63"/>tanter dicitur, quidquid in rebus creatis facit Deus; quasi
+<lb ed="#L" n="64"/>diceret quod quidquid facit creatione supposita.
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e464">
+                  <lb ed="#L" n="65"/>IV. Probatur deinde conclusio quoad misericordiam,
+<lb ed="#L" n="66"/>sic. Opus divinae iustitiae semper praesupponit opus 
+mi<lb break="no" ed="#L" n="67"/>sericordiae, et in eo fundatur: ergo in quolibet opere
+<lb ed="#L" n="68"/>Dei apparet misericordia, quantum ad primam eius 
+ra<lb break="no" ed="#L" n="69"/>dicem. - Antecedens probatur: quia reducitur debitum
+<lb ed="#L" n="70"/>in aliquid ex sola divina bonitate collatum. Quod 
+proba<lb break="no" ed="#L" n="71"/>tur: quia aliter procederetur in infinitum. Et declaratur
+<lb ed="#L" n="72"/>exemplariter
+</p>
+               <p xml:id="TAcCaj-d1e154-d1e484">
+                  <lb ed="#L" n="73"/>V. Tertio, quia ex hac probatione videbatur quod 
+mi<lb break="no" ed="#L" n="74"/>sericordia concurreret ad opera Dei quasi remota causa,
+<lb ed="#L" n="75"/>ideo declarat quod concurrit eminentius quam iustitia. Et
+<lb ed="#L" n="76"/>hoc dupliciter. Primo , quia causa primaria vehementius
+<lb ed="#L" n="77"/>influit quam secunda: et sic vis misericordiae et salvatur,
+<lb ed="#L" n="78"/>et vehementius operatur in omnibus consequentibus. - 
+Se<lb break="no" ed="#L" n="79"/>cundo, ab effectu: quia debita alicui creaturae largius
+<lb ed="#L" n="80"/>Deus dispensat, quam proportio rei exigat; et hoc ex 
+abun<lb break="no" ed="#L" n="81"/>dantia bonitatis suae. Patet autem sic esse: quia minus eo
+<lb ed="#L" n="82"/>quod de facto divina bonitas confert, ad conservandum
+<lb ed="#L" n="83"/>iustitiae ordinem sufficeret.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 48</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 48</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="492"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e294"><!-- TAcCajp1-q48 -->
+            <head xml:id="TAcCaj-d1e294-Hd1e99">Quaestio 48</head>
+            <div xml:id="TAcCaj-d1e294-Dd1e101"><!-- caj-p1-q48-a1 -->
+               <head xml:id="TAcCaj-d1e294-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e294-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="63"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="64"/>TITULUS clarus. - In corpore tria facit: primo, ponit 
+mo<lb break="no" ed="#L" n="65"/>dum sciendi quaesitum; secundo, exequendo illum,
+<lb ed="#L" n="66"/>respondet quaesito; tertio, reddit rationem cuiusdam dicti
+<lb ed="#L" n="67"/>Dionysii.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e126">
+                  <lb ed="#L" n="68"/>II. Quoad primum, modus consistit in hoc, quod oportet
+<lb ed="#L" n="69"/>ex ratione boni accipere quid sit malum. - Probatur: quia
+<lb ed="#L" n="70"/>unum oppositorum cognoscitur per reliquum, ut tenebra
+<lb ed="#L" n="71"/>per lucem.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e137">
+                  <lb ed="#L" n="72"/>III. Quoad secundum. Malum est quaedam absentia
+<lb ed="#L" n="73"/>boni. - Probatur. Omne appetibile est bonum: ergo esse
+<lb ed="#L" n="74"/>et perfectio cuiusque naturae est bonitas: ergo malum
+<lb ed="#L" n="75"/>non significat esse, aut formam aut naturam aliquam:
+<lb ed="#L" n="76"/>ergo est quaedam boni absentia. — Prima consequentia 
+pro<lb break="no" ed="#L" n="77"/>batur: quia omnis natura appetit suum esse, et suam 
+per<lb break="no" ed="#L" n="78"/>fectionem.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e156">
+                  <lb ed="#L" n="79"/>Adverte quod in conclusione ideo dicitur quaedam 
+ab<cb ed="#L" n="e"/>
+                  <lb break="no" ed="#L" n="80"/>sentia, quia non omnis negatio boni est malum, sed negatio
+<lb ed="#L" n="81"/>boni debiti, ut in IIl. Contra Gent., cap. vi, patet. Absentia
+<lb ed="#L" n="82"/>ergo debitae praesentiae boni, malum est. Debita autem
+<lb ed="#L" n="83"/>praesentia est, quando, sicut, ubi, in quo, etc., debet. 
+Pro<lb break="no" ed="#L" n="84"/>batio vero conclusionis ideo de hoc non curavit, quia 
+prae<lb break="no" ed="#L" n="85"/>senti intentioni sufficit genus mali invenire: per hoc enim
+<lb ed="#L" n="86"/>scitur.an natura sit aliqua. Merito igitur, invento quod est
+<lb ed="#L" n="87"/>absentia, quam negationem constat esse, stetit processus.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e180">
+                  <lb ed="#L" n="88"/>IV. Quoad tertium, quia malum negatione boni 
+stabi<lb break="no" ed="#L" n="89"/>litum est; et Dionysius, ut in argumento ad oppositum
+<lb ed="#L" n="90"/>littera dicit, malum negatione non solum boni, sed entis,
+<lb ed="#L" n="91"/>definivit: ideo Auctor dicit hoc dictum esse secundario.
+<lb ed="#L" n="92"/>Quoniam ens, ut sic, est bonum: negatio igitur unius est
+<lb ed="#L" n="93"/>negatio alterius, et e converso: et ideo malum negatio 
+utri<lb break="no" ed="#L" n="94"/>usque a Dionysio ponitur. Sed quia boni est primo, ideo
+<lb ed="#L" n="95"/>per bonum est definitum a nobis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e294-Dd1e201"><!-- caj-p1-q48-a2 -->
+               <head xml:id="TAcCaj-d1e294-Hd1e204">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e294-d1e206">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="83"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e213">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="84"/>IN titulo, malum inveniri in rebus non significat esse
+<lb ed="#L" n="85"/>reale, quoniam iam hoc exclusum est: sed significat esse
+<lb ed="#L" n="86"/>communiter in rebus. In rebus autem dicitur propter ea
+<lb ed="#L" n="87"/>quae solum inveniuntur in anima, ut secundae intentiones.
+<lb ed="#L" n="88"/>Et est quaestio de inventione formali: ita quod non 
+inten<lb break="no" ed="#L" n="89"/>dimus, utrum malum habeat fundamentum in rebus; sed,
+<lb ed="#L" n="90"/>an inveniatur formaliter in rebus.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e233">
+                  <lb ed="#L" n="91"/>II. In corpore unica est conclusio, responsiva quaesito
+<lb ed="#L" n="92"/>affirmative: Malum invenitur in rebus, sicut et corruptio. —
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e240">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="93"/>Et probatur. Perfectio universi requirit inaequalitatem in
+<lb ed="#L" n="94"/>rebus, ut omnis bonitatis gradus impleatur: ergo, sicut 
+re<lb break="no" ed="#L" n="95"/>quirit ut sint entia incorruptibilia et corruptibilia, ita 
+re<lb break="no" ed="#L" n="96"/>quirit ut sint indefectibilia a bono, et defectibilia a bono:
+<lb ed="#L" n="97"/>ergo quaedam in universo deficiunt quandoque: ergo 
+ma<lb break="no" ed="#L" n="98"/>lum invenitur in rebus, sicut corruptio.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e259">
+                  <lb ed="#L" n="99"/>Antecedens habetur.ex dictis. - Prima consequentia pro-.
+<lb ed="#L" n="100"/>batur: quia isti sunt duo gradus bonitatis inventi in 
+uni<lb break="no" ed="#L" n="101"/>verso, iuxta illos duos gradus entis, ut de se patet; - Se-
+<pb ed="#L" n="493"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cunda vero consequentia relinquitur per se nota. Et vere
+<lb ed="#L" n="2"/>sic est: quoniam impossibile est, seclusis miraculis, 
+possi<lb break="no" ed="#L" n="3"/>bilia deficere nunquam deficere. - Tertia autem probatur:
+<lb ed="#L" n="4"/>quia ratio mali consistit in defectu a bono; subintellige 
+de<lb break="no" ed="#L" n="5"/>bito. - Et confirmatur illa modificatio et expressio, sicut:
+<lb ed="#L" n="6"/>quia corruptio ipsa quoddam malum est, quia est malum
+<lb ed="#L" n="7"/>corrupti.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e288">
+                  <lb ed="#L" n="8"/>III. Et bene nota ly sicut: quoniam solvit dubium 
+novi<lb break="no" ed="#L" n="9"/>tiorum, quaerentium quomodo, si malum est negatio 
+for<lb break="no" ed="#L" n="10"/>maliter, et negationes non habent esse nisi in anima (ut
+<lb ed="#L" n="11"/>etiam in responsione ad secundum littera dicit, applicando
+<lb ed="#L" n="12"/>ad esse mali); quomodo, inquam, verificatur quod malum
+<lb ed="#L" n="13"/>est formaliter in rebus. j
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e304">
+                  <lb ed="#L" n="14"/>Habes solutionem: quia non verificatur quod est in rebus
+<lb ed="#L" n="15"/>ut ens; sed est in rebus ut corruptio in actu exercito, idest ut
+<lb ed="#L" n="16"/>rei remotio formalis. Ipsa namque absentia boni formaliter
+<lb ed="#L" n="17"/>malum est; et, ut in responsione ad quartum praecedentis
+<lb ed="#L" n="18"/>articuli dictum est, malum formaliter corrumpit bonum
+<lb ed="#L" n="19"/>oppositum, quia est ipsa privatio boni in subiecto apto, etc.
+<lb ed="#L" n="20"/>Dicuntur ergo mala in rebus esse, non positive, sed re-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>motive; idest, non ponendo, sed removendo formaliter
+<lb ed="#L" n="22"/>aliquid a rebus. Et sic mala formaliter inveniuntur in rebus
+<lb ed="#L" n="23"/>ut mala: sunt enim rerum mala. In anima autem, per 
+com<lb break="no" ed="#L" n="24"/>positionem et quamcumque aliam intellectus operationem,
+<lb ed="#L" n="25"/>inveniuntur ut entia et bona.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e335">
+                  <lb ed="#L" n="26"/>IV. Et ideo nihil obstat, imo prodest proposito, quod
+<lb ed="#L" n="27"/>malum nullum esse ponat in re. Quoniam de malo ut
+<lb ed="#L" n="28"/>malum est in actu exercito, loquimur: quod constat quod,
+<lb ed="#L" n="29"/>ut malum in actu exercito, non invenitur ubi ponit aliquid,
+<lb ed="#L" n="30"/>sed tantum ubi removet bonum debitum: hic est enim actus
+<lb ed="#L" n="31"/>eius formalis, ut patet ex dictis. Nihil ergo valet 
+conse<lb break="no" ed="#L" n="32"/>quentia: malum vel privatio nullum esse ponit in re, sed
+<lb ed="#L" n="33"/>est tantum ens in anima; ergo non invenitur formaliter
+<lb ed="#L" n="34"/>in rebus. Quoniam stat quod inveniatur formaliter, ut 
+re<lb break="no" ed="#L" n="35"/>motio rei in actu exercito. Imo sequitur oppositum: 
+re<lb break="no" ed="#L" n="36"/>movet esse in subiecto; ergo invenitur in re, ut exercens
+<lb ed="#L" n="37"/>negationis, non positionis actum. Sic autem haec inveniri
+<lb ed="#L" n="38"/>in rebus, est simpliciter ipsa inveniri; quia formaliter 
+in<lb break="no" ed="#L" n="39"/>veniuntur, et secundum modum proprium sui generis, puta
+<lb ed="#L" n="40"/>non entis vel privationis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e294-Dd1e371"><!-- caj-p1-q48-a3 -->
+               <head xml:id="TAcCaj-d1e294-Hd1e374">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e294-d1e376">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e383">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>TITULUS clarus est. - In corpore unica est conclusio, 
+re<lb break="no" ed="#L" n="17"/>sponsiva quaesito affirmative: Malum est in bono ut
+<lb ed="#L" n="18"/>in subiecto. — Probatur. Malum est boni remotio, non
+<lb ed="#L" n="19"/>negative, sed privative: ergo malum et bonum privatum
+<lb ed="#L" n="20"/>sunt in eodem subiecto, scilicet ente in potentia 
+simpli<lb break="no" ed="#L" n="21"/>citer vel secundum quid: ergo malum est in bono sicut in
+<lb ed="#L" n="22"/>subiecto.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e403">
+                  <lb ed="#L" n="23"/>Antecedens, quoad secundam partem, probatur, ducendo
+<lb ed="#L" n="24"/>ad impossibile duplex. Primum est, quod ea quae nullo
+<lb ed="#L" n="25"/>modo sunt, essent mala. Secundum est, quod omnia essent
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="26"/>mala. — Quoad tertiam vero, ex sufficientia bimembris 
+distin<lb break="no" ed="#L" n="27"/>ctionis ipsius remotionis boni.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e419">
+                  <lb ed="#L" n="28"/>Prima consequentia probatur: quia privationis et 
+for<lb break="no" ed="#L" n="29"/>mae idem est subiectum, scilicet ens in potentia simpliciter
+<lb ed="#L" n="30"/>vel secundum quid. - Secunda vero: quia utrumque est 
+bo<lb break="no" ed="#L" n="31"/>num. Et de ente quidem in potentia secundum quid, 
+pro<lb break="no" ed="#L" n="32"/>batur: quia est ens in actu; actus autem bonitas quaedam
+<lb ed="#L" n="33"/>est. De ente vero in potentia simpliciter: quia bonum 
+di<lb break="no" ed="#L" n="34"/>citur sicut et ens; ac per hoc, sicut ens in potentia ens
+<lb ed="#L" n="35"/>quoddam est, ita bonum in potentia bonum quoddam est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e294-Dd1e440"><!-- caj-p1-q48-a4 -->
+               <head xml:id="TAcCaj-d1e294-Hd1e443">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e294-d1e445">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e452">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="40"/>IN titulo, corrumpere sumitur formaliter. Zotum vero bos
+<lb ed="#L" n="41"/>sumitur pro toto integrali, vel quasi integrali, circa
+<lb ed="#L" n="42"/>quod malum ponitur. Ita quod sensus est: Utrum malum
+<lb ed="#L" n="43"/>positum in aliquo, auferat formaliter quidquid bonitatis
+<lb ed="#L" n="44"/>invenitur in illo.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e468">
+                  <lb ed="#L" n="45"/>II. In corpore unica est jprincipalis conclusio, directe
+<lb ed="#L" n="46"/>responsiva quaesito negative: Malum non potest totaliter
+<lb ed="#L" n="47"/>consumere bonum. - Hanc autem conclusionem manifestat
+<lb ed="#L" n="48"/>una distinctione trimembri, adiunctis singulis membris 
+con<lb break="no" ed="#L" n="49"/>clusionibus specialibus.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e481">
+                  <lb ed="#L" n="50"/>III Distinctio est: Bonum triplex est, scilicet forma,
+<lb ed="#L" n="51"/>subiectum, et habilitas subiecti ad formam. — Prima 
+con<lb break="no" ed="#L" n="52"/>clusio est: Bonum ut forma, tollitur totaliter per malum.
+<lb ed="#L" n="53"/>Probatur: quia est sibi oppositum. Et manifestatur: sicut
+<lb ed="#L" n="54"/>lumen tollitur per tenebras, et visus per caecitatem. — 
+Se<lb break="no" ed="#L" n="55"/>cunda conclusio est: Bonum ut subiectum, nec tollitur, nec
+<lb ed="#L" n="56"/>diminuitur per malum. Et manifestatur in aere et tenebra. -
+<lb ed="#L" n="57"/>Tertia. est: Bonum ut habilitas subiecti ad actum, 
+dimi<lb break="no" ed="#L" n="58"/>nuitur per malum, et non totaliter tollitur. Et declaratur
+<lb ed="#L" n="59"/>haec conclusio, primo quantum ad diminutionem; 
+se<lb break="no" ed="#L" n="60"/>cundo, ibi: Si igitur contrariae dispositiones, quantum ad
+<lb ed="#L" n="61"/>non totalem ablationem.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e511">
+                  <lb ed="#L" n="62"/>IV. Intendens ergo declarare qualis et quanta sit 
+huius<lb break="no" ed="#L" n="63"/>modi diminutio, insinuat duplicem diminuendi modum 
+in<lb break="no" ed="#L" n="64"/>veniri, scilicet per subtractionem, et per remissionem: prima
+<lb ed="#L" n="65"/>est quantitativa, secunda est qualitativa. Et rursus, 
+dimi<lb break="no" ed="#L" n="66"/>nutio per remissionem, seu qualitativa, dupliciter contingit:
+<lb ed="#L" n="67"/>primo, per remissionem ipsius qualitatis; et per contrarias
+<lb ed="#L" n="68"/>dispositiones subiecti ad talem actum. - In proposito, 
+di<lb break="no" ed="#L" n="69"/>minutio sumenda est per remissionem, non quomodolibet,
+<lb ed="#L" n="70"/>sed per appositionem contrariarum dispositionum.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e533">
+                  <lb ed="#L" n="71"/>Et probatur hoc secundum sic. Habilitas intenditur per
+<lb ed="#L" n="72"/>dispositiones praeparantes materiam ad actum: ergo 
+remit<lb break="no" ed="#L" n="73"/>titur per dispositiones impedientes potentiam ad actum. —
+<lb ed="#L" n="74"/>Antecedens manifestatur: quia quanto magis multiplicantur
+<lb ed="#L" n="75"/>dispositiones materiae, tanto habilior est ad actüm. Con-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="76"/>sequentia vero probatur: quia remissio sumitur e contrario
+<lb ed="#L" n="77"/>intensioni.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e553">
+                  <lb ed="#L" n="78"/>V. Deinde, intendens manifestare quomodo nunquam
+<lb ed="#L" n="79"/>tollitur totaliter habilitatis bonum, distinguit remissionem
+<lb ed="#L" n="80"/>per contrarias dispositiones dupliciter inveniri posse: primo
+<lb ed="#L" n="81"/>finite, secundo infinite. Et neutro modo totaliter 
+habilita<lb break="no" ed="#L" n="82"/>tem subiecti ad actum tolli ostendit.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e566">
+                  <lb ed="#L" n="83"/>Quod enim finita sit quandoque remissio habilitatis, 
+pro<lb break="no" ed="#L" n="84"/>batur ex eo quod finita est multiplicatio dispositionum 
+con<lb break="no" ed="#L" n="85"/>trariarum; ut patet in multiplicatione qualitatum 
+elemen<lb break="no" ed="#L" n="86"/>torum, quibus materiae habilitas ad formam, ignis verbi
+<lb ed="#L" n="87"/>gratia, diminuitur. - Quod vero in huiusmodi remissione
+<lb ed="#L" n="88"/>non tollatur totaliter habilitas, ex eo patet quod, finitis
+<lb ed="#L" n="89"/>existentibus appositione contrariorum et remissione, non
+<lb ed="#L" n="90"/>est opus eradicari habilitatem remanentis subiecti.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e586">
+                  <lb ed="#L" n="91"/>Quod autem infinita quandoque sit remissio, 
+manife<lb break="no" ed="#L" n="92"/>statur ex infinita multiplicatione opacorum corporum inter
+<lb ed="#L" n="93"/>solem et aerem; et proportionaliter ex infinita 
+multiplica<lb break="no" ed="#L" n="94"/>tione peccatorum inter iustitiae Solem et animam. - Quod
+<lb ed="#L" n="95"/>vero ex huiusmodi infinita remissione non totaliter tollatur
+<lb ed="#L" n="96"/>habilitas, probatur ratione: quia semper manet in sua 
+ra<lb break="no" ed="#L" n="97"/>dice, quod est substantia subiecti. Et manifestatur in allatis
+<lb ed="#L" n="98"/>exemplis, in naturalibus et moralibus: in diaphano 
+siqui<lb break="no" ed="#L" n="99"/>dem respectu luminis, et anima respectu gratiae.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e608">
+                  <lb ed="#L" n="100"/>Et sic patet principalis conclusio, scilicet quod 
+nun<lb break="no" ed="#L" n="101"/>quam malum totaliter aufert bonüm: quoniam relinquit
+<lb ed="#L" n="102"/>subiectum, et aliquid habilitatis ad actum.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e618">
+                  <lb ed="#L" n="103"/>VI. In responsione ad tertium, nota quod tanta est 
+dif<lb break="no" ed="#L" n="104"/>ferentia inter diminui per se, et per accidens, idest ratione
+<lb ed="#L" n="105"/>sui vel alterius, quod, cum impossibile sit finitum non
+<lb ed="#L" n="106"/>consumi infinita et aequali subtractione per se; possibile
+<lb ed="#L" n="107"/>tamen est, ut in littera dicitur, a finito in infinitum etiam
+<lb ed="#L" n="108"/>aequaliter subtrahi, et tamen illud non consumi, quando
+<lb ed="#L" n="109"/>diminutio est per accidens, idest per aliud, ut in proposito;
+<lb ed="#L" n="110"/>minuitur enim habilitas propter appositum impedimentum,
+<lb ed="#L" n="111"/>et non secundum se.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e294-Dd1e642"><!-- caj-p1-q48-a5 -->
+               <head xml:id="TAcCaj-d1e294-Hd1e645">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e294-d1e647">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="79"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e654">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>TITULUS suscipiatur ut iacet, intelligendo per culpam,
+<lb ed="#L" n="81"/>ditm quod agimus; per poenam vero, malum quod
+<lb ed="#L" n="82"/>patimur. )
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e665">
+                  <lb ed="#L" n="83"/>In corpore una conclusio, responsiva quaesito limitate,
+<lb ed="#L" n="84"/>scilicet: Omne malum in rebus voluntariis, est poena vel
+<lb ed="#L" n="85"/>culpa. - In qua conclusione tria continentur: scilicet omne
+<lb ed="#L" n="86"/>malum, et in rebus voluntariis, et poena, vel culpa. Et
+<lb ed="#L" n="87"/>propterea haec tria, ordinate procedendo, declarat.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e678">
+                  <lb ed="#L" n="88"/>II. Primo igitur, distinguit malum in communi in malum
+<lb ed="#L" n="89"/>rei, et malum operis. Quam distinctionem probat ex 
+dis<lb break="no" ed="#L" n="90"/>tinctione boni in bonitatem per modum actus primi, et
+<lb ed="#L" n="91"/>actus secundi.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e690">
+                  <lb ed="#L" n="92"/>Secundo, ostendit quod rationabiliter malum in 
+volun<lb break="no" ed="#L" n="93"/>tariis sortitum est speciales rationes, distinctiones et 
+no<lb break="no" ed="#L" n="94"/>mina, sic. Bonum simpliciter est obiectum voluntatis: ergo
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="95"/>malum secundum specialem rationem invenitur in 
+volun<lb break="no" ed="#L" n="96"/>tariis creaturis. - Probatur consequentia: quia malum est
+<lb ed="#L" n="97"/>privatio boni; ac per hoc, sicut bonum specialiter reperitur
+<lb ed="#L" n="98"/>in voluntario, ita et malum.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e710">
+                  <lb ed="#L" n="99"/>Demum tertium, principaliter intentum, manifestat sic.
+<lb ed="#L" n="100"/>Malum rei habet rationem poenae in rebus voluntariis ,
+<lb ed="#L" n="101"/>supposito praecipue quod omnia divinae providentiae et
+<lb ed="#L" n="102"/>iustitiae subduntur: malum vero operationis in eisdem
+<lb ed="#L" n="103"/>habet rationem culpae. Ergo omne malum in rebus 
+volun<lb break="no" ed="#L" n="104"/>tariis est poena vel culpa. - Antecedens, quoad primam 
+par<lb break="no" ed="#L" n="105"/>tem, manifestatur: quia de ratione poenae est, quod sit
+<lb ed="#L" n="106"/>contraria voluntati. Quoad secundam vero: quia hoc alicui
+<lb ed="#L" n="107"/>imputatur in culpam, quando scilicet deficit a perfecta
+<lb ed="#L" n="108"/>actione existente in potestate eius. - Consequentia vero nota
+<lb ed="#L" n="109"/>est ex distinctione mali praeposita.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e294-Dd1e737"><!-- caj-p1-q48-a6 -->
+               <head xml:id="TAcCaj-d1e294-Hd1e740">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e294-d1e742">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="81"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e749">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="82"/>TITULUS clarus ex praecedentibus. — In corpore una est
+<lb ed="#L" n="83"/>j poseen responsiva quaesito: Culpa plus habet de
+<lb ed="#L" n="84"/>ratione mali quam poena quaecumque, tam sensus quam
+<lb ed="#L" n="85"/>damni.- Et probatur dupliciter.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e762">
+                  <lb ed="#L" n="86"/>Primo. Ex malo culpae fit aliquis malus, ex malo 
+poe<lb break="no" ed="#L" n="87"/>nae, non: ergo. — Antecedens probatur dupliciter. Primo
+<lb ed="#L" n="88"/>auctoritate Dionysii. SPcundo ratione, sic. Bonum 
+simpli<lb break="no" ed="#L" n="89"/>citer consistit in actu: ergo bonum hominis simpliciter
+<lb ed="#L" n="90"/>consistit in bono usu rerum habitarum: ergo ex bona 
+vo<lb break="no" ed="#L" n="91"/>luntate, qua homo bene utitur rebus habitis, dicitur bonus
+<lb ed="#L" n="92"/>homo, et ex mala, malus: ergo perfectius habet rationem
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="93"/>mali culpa quam poena. - Prima consequentia probatur:
+<lb ed="#L" n="94"/>quia ultimus actus est operatio, seu usus rerum. — Secunda
+<lb ed="#L" n="95"/>vero: quia utimur rebus omnibus per voluntatem. Et 
+ex<lb break="no" ed="#L" n="96"/>planatur secunda pars consequentis eius, scilicet ex mala
+<lb ed="#L" n="97"/>malus: quia potest quis etiam bono male uti, ut patet de
+<lb ed="#L" n="98"/>grammatico. - Tertia autem: quia culpa consistit in 
+deor<lb break="no" ed="#L" n="99"/>dinato actu voluntatis, poena vero in privatione alicuius
+<lb ed="#L" n="100"/>eorum quibus utitur voluntas.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e799">
+                  <lb ed="#L" n="101"/>II. Secunda vero ratio est. Deus est actor mali poenae,
+<lb ed="#L" n="102"/>et non mali culpae: ergo malum culpae est 
+incomparabi<lb break="no" ed="#L" n="103"/>liter peius.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e809">
+                  <pb ed="#L" n="498"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Antecedens probatur sic. Malum poenae privat bono
+<lb ed="#L" n="2"/>creaturae, malum vero culpae opponitur proprie bono 
+in<lb break="no" ed="#L" n="3"/>creato: ergo illius potest esse causa Deus, non huius. 
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e822">
+                  <lb ed="#L" n="4"/>Antecedens hoc, quoad primam partem, manifestatur in 
+<lb ed="#L" n="5"/>duplici bono creaturae, scilicet possessio et participatio. 
+<lb ed="#L" n="6"/>Quoad secundam vero, probatur sic: malum culpae 
+con<lb break="no" ed="#L" n="7"/>trariatur impletioni divinae voluntatis, et divino amori quo 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>bonum divinum in seipso amatur; ergo opponitur bono
+<lb ed="#L" n="9"/>increato.
+</p>
+               <p xml:id="TAcCaj-d1e294-d1e840">
+                  <lb ed="#L" n="10"/>III. Esset hic dubitandum, quomodo bono divino potest
+<lb ed="#L" n="11"/>aliquid opponi, et divina voluntas non impleri. Sed 
+quo<lb break="no" ed="#L" n="12"/>niam hoc in tractatu de voluntate divina discussum est;
+<lb ed="#L" n="13"/>et illud in quaestione sequenti, articulo tertio, tractatur; 
+<lb ed="#L" n="14"/>ideo nunc transeamus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

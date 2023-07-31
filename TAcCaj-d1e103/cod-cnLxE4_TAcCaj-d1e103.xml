@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="108"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e103"><!-- TAcCajp1-q11 -->
+            <head xml:id="TAcCaj-d1e103-Hd1e99">Quaestio 11</head>
+            <div xml:id="TAcCaj-d1e103-Dd1e101"><!-- caj-p1-q11-a1 -->
+               <head xml:id="TAcCaj-d1e103-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e103-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>CIRCA ordinem quaestionis huius et praecedentium, 
+du<lb break="no" ed="#L" n="25"/>bium est. Quoniam unum prius convenit enti quam
+<lb ed="#L" n="26"/>simplicitas et immutabilitas, et reliqua tractata a 
+quae<lb break="no" ed="#L" n="27"/>stione nr hucusque: ergo inconvenienter ultimo loco 
+tra<lb break="no" ed="#L" n="28"/>ctatur de unitate. - Antecedens probatur: quoniam omne
+<lb ed="#L" n="29"/>ens est unum, non autem simplex nec immutabile; prius
+<lb ed="#L" n="30"/>autem est a quo non convertitur consequentia.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e133">
+                  <lb ed="#L" n="31"/>II. Ad hoc dicitur quod, sicut tractatus de animalis 
+na<lb break="no" ed="#L" n="32"/>tura secundum omnia praedicata quidditativa, praecedit
+<lb ed="#L" n="33"/>tractatum de unitate animalis, ita tractatus de natura divina
+<lb ed="#L" n="34"/>secundum omnia praedicata quasi quidditativa, praecedit
+<lb ed="#L" n="35"/>tractatum de unitate illius: quoniam unitas est quasi passio
+<lb ed="#L" n="36"/>entis, et unitas talis rei est quasi passio illius. Quatuor
+<lb ed="#L" n="37"/>autem de quibus tractatum hactenus est, post quaestionem
+<lb ed="#L" n="38"/>an est, de natura divina, scilicet simplicitas et perfectio,
+<lb ed="#L" n="39"/>infinitas et immutabilitas, in latitudine quidditativorum
+<lb ed="#L" n="40"/>praedicatorum clauduntur, ut patet inductive: et ideo prius
+<lb ed="#L" n="41"/>de illis pertractatum est; et ad eorum complementum, 
+in<lb break="no" ed="#L" n="42"/>sertae sunt quaestiones de bonitate, de existentia Dei in
+<lb ed="#L" n="43"/>rebus, deque aeternitate. Et sic, quasi expedita quidditate,
+<lb ed="#L" n="44"/>ad passionem primam, scilicet unitatem, devenit. - Hanc
+<lb ed="#L" n="45"/>autem esse mentem Auctoris, ex introductione quaestionis rr
+<lb ed="#L" n="46"/>superius in littera posita, coniicere potes: ibi enim haec
+<lb ed="#L" n="47"/>quinque tractanda proponuntur.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e172">
+                  <lb ed="#L" n="48"/>Nec obstat obiectio allata: negatur enim quod unitas sit
+<lb ed="#L" n="49"/>prior supradictis. Et ad probationem, dicitur quod prius
+<lb ed="#L" n="50"/>est a quo non convertitur consequentia ratione sui, non
+<lb ed="#L" n="51"/>autem si ratione alterius. Verbi gratia, esse coloratum 
+re<lb break="no" ed="#L" n="52"/>spectu hominis est a quo non convertitur consequentia,
+<lb ed="#L" n="53"/>non tamen est prius homine, quamvis sit communius 
+prae<lb break="no" ed="#L" n="54"/>dicatum: et hoc quia coloratum, non ratione sui, sed 
+ra<lb break="no" ed="#L" n="55"/>tione subiecti sui, est a quo non convertitur consequentia,
+<lb ed="#L" n="56"/>Ratione namque subiecti valet, est homo, ergo est 
+colora<lb break="no" ed="#L" n="57"/>tum, et non e converso, Unde id a quo non convertitur
+<lb ed="#L" n="58"/>consequentia, est prius, vel includit aliquid prius, ratione
+<lb ed="#L" n="59"/>cuius non convertitur consequentia. Et sic in proposito ,
+<lb ed="#L" n="60"/>unum non est formaliter prius, sed includit ens, ratione
+<lb ed="#L" n="61"/>cuius non valet sequela, est unum, ergo immutabile, sed'
+<lb ed="#L" n="62"/>e converso.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e208">
+                  <lb ed="#L" n="63"/>III. Titulus clarus. - In corpore duae conclusiones. Prima
+<lb ed="#L" n="64"/>directe responsiva quaesito: Unum addit supra ens, non
+<lb ed="#L" n="65"/>rem aliquam, sed solam negationem divisionis. — Probatur:
+<lb ed="#L" n="66"/>unum nihil aliud significat quam ens indivisum; ergo.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e219">
+                  <lb ed="#L" n="67"/>Secunda vero conclusio est corollaria: Unum 
+conver<lb break="no" ed="#L" n="68"/>titur cum ente. Et nihilominus probatur: esse cuiuslibet
+<lb ed="#L" n="69"/>rei consistit in indivisione; ergo. - Antecedens probatur 
+du<lb break="no" ed="#L" n="70"/>pliciter. Primo, inductive in esse simplicium et 
+composi<lb break="no" ed="#L" n="71"/>torum. Secundo, a signo, quo unumquodque custodit suam
+<lb ed="#L" n="72"/>unitatem sicut entitatem. Omnia patent clare in littera.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e235">
+                  <lb ed="#L" n="73"/>IV. Circa primam conclusionem, occurrit dubium ex
+<lb ed="#L" n="74"/>duplici capite: quoniam et Avicenna tenet unum addere
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="75"/>rem aliquam supra ens; et Scotus tenet addere realitatem
+<lb ed="#L" n="76"/>quandam. Sed quia contra Avicennae positionem in IV 
+Me<lb break="no" ed="#L" n="77"/>taphys. ab Aristotele, et hic disputatur in littera, Scoti ;.«
+<lb ed="#L" n="78"/>opinio, in IV Metaphys., tangenda est. Putans ergo unum
+<lb ed="#L" n="79"/>signare passionem entis, dicit ipsum importare formaliter ^
+<lb ed="#L" n="80"/>rem positivam, eandem realiter ipsi enti; sicut 
+universa<lb break="no" ed="#L" n="81"/>liter tenet passionem identificari proprio subiecto. 
+Probare<lb break="no" ed="#L" n="82"/>que nituntur sequaces eius intentum ibidem, multipliciter.
+<lb ed="#L" n="83"/>Primo, unum formaliter, idest ut distinctum contra ens,
+<lb ed="#L" n="84"/>est idem realiter quod ens: ergo est aliquid positivum.
+<lb ed="#L" n="85"/>Tenet sequela: quia negatio non potest identificari enti
+<lb ed="#L" n="86"/>reali. - Secundo, unum formaliter est extra nihil, utpote
+<lb ed="#L" n="87"/>entis passio: ergo est positivum. — Zertio, unum formaliter
+<lb ed="#L" n="88"/>habet rationem primae mensurae, et principii numeri: ergo
+<lb ed="#L" n="89"/>ut prius. - Quarto, unum dicit perfectionem simpliciter:
+<lb ed="#L" n="90"/>ergo. Probatur antecedens: tum quia in unoquoque est
+<lb ed="#L" n="91"/>melius ipsum quam non ipsum: tum quia fit reductio ad
+<lb ed="#L" n="92"/>summe unum, sicut ad summe bonum et iustum, etc. ; hoc
+<lb ed="#L" n="93"/>enim est proprium perfectionum simpliciter.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e285">
+                  <lb ed="#L" n="94"/>V. Ad haec breviter respondetur. Et primi quidem 
+dis<lb break="no" ed="#L" n="95"/>ünguitur antecedens: quia esse idem contingit dupliciter,
+<lb ed="#L" n="96"/>scilicet positive et negative. Unum autem formaliter est
+<lb ed="#L" n="97"/>idem enti negative: quia non aliam naturam significat, sed
+<lb ed="#L" n="98"/>eandem alio modo, ut dicitur IV Metaphys. Et sic 
+con<lb break="no" ed="#L" n="99"/>sequentia nihil valet.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e301">
+                  <lb ed="#L" n="100"/>Ad secundum vero dicitur, quod unum formaliter non
+<lb ed="#L" n="101"/>est magis extra nihil quam alia privativa seu negativa in
+<lb ed="#L" n="102"/>genere. Est ergo extra nihil sic: et tunc negatur 
+conse<lb break="no" ed="#L" n="103"/>quentia.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e312">
+                  <lb ed="#L" n="104"/>Ad tertium autem, negatur consequentia: quoniam 
+men<lb break="no" ed="#L" n="105"/>surare commune est positivis et negativis. Non solum enim
+<lb ed="#L" n="106"/>in generibus entium, simplicissimum mensurat reliqua: sed
+<lb ed="#L" n="107"/>etiam in generibus aegritudinum et peccatorum, ut patet
+<lb ed="#L" n="108"/>in moralibus; minimum enim in vitiis gulae, mensura est
+<lb ed="#L" n="109"/>reliquorum. Et minimum absolute, idest unum, mensurat
+<lb ed="#L" n="110"/>multitudinem absolute. Utrumque tamen est negativum,
+<lb ed="#L" n="111"/>scilicet multitudo et unum, ut in littera huius quaestionis
+<lb ed="#L" n="112"/>dicitur. Idem autem intelligo numerum transcendentem, et
+<lb ed="#L" n="113"/>multitudinem absolute. Et propterea consequens est 
+nega<lb break="no" ed="#L" n="114"/>tivi numeri negativum principium esse.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e339">
+                  <lb ed="#L" n="115"/>Ad quartum, negatur antecedens. Unum enim non dicit
+<lb ed="#L" n="116"/>perfectionem, nisi divisio privata dicat imperfectionem. Unde
+<lb ed="#L" n="117"/>sicut relatio formaliter non dicit perfectionem simpliciter,
+<lb ed="#L" n="118"/>ita nec unitas eius: alioquin paternitas et filiatio divinae
+<lb ed="#L" n="119"/>essent simul imperfectae, quia non una. Et sicut esse 
+sub<lb break="no" ed="#L" n="120"/>stantiale dicit perfectionem, ita et unitas eius, Abstrahit
+<lb ed="#L" n="121"/>ergo unum a perfectione et imperfectione. - Ad primam
+<lb ed="#L" n="122"/>vero probationem, ex definitione Anselmi, dicitur quod
+<lb ed="#L" n="123"/>deficit hic illa particula melior: quoniam quód non est
+<lb ed="#L" n="124"/>bonum, non potest esse melius. - Ad secundam vero 
+dici<lb break="no" ed="#L" n="125"/>tur, quod reductio illa non est propria perfectionibus sim
+<pb ed="#L" n="109"/>
+                  <cb ed="#L" n="a"/>
+                  <lb break="no" ed="#L" n="1"/>pliciter, sed communis etiam negativis generalibus. Unde fit
+<lb ed="#L" n="2"/>reductio ad summe immutabile, ad summe immateriale, etc.
+<lb ed="#L" n="3"/>id. — Quamvis etiam posset congrue dici quod, ut dicitur IV
+<lb ed="#L" n="4"/>et VII Metaphys., analogum absolute investigatum 
+quae<lb break="no" ed="#L" n="5"/>: ritur pro primo: ac per hoc, primo unum, quod est unum
+<lb ed="#L" n="6"/>' substantiale, est perfectio simpliciter, et reducitur ad summe
+<lb ed="#L" n="7"/>unum. Sed ex hoc nihil habetur contra intentum nostrum:
+<lb ed="#L" n="8"/>quia ratione substantiae quam implicat, perfectio ista inest.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e387">
+                  <lb ed="#L" n="9"/>VI. In responsione ad primum, adverte quod Scotistae
+<lb ed="#L" n="10"/>invehunt contra rationem Averrois, in IV Metaphys. ,
+<lb ed="#L" n="11"/>comm. mr, contra Avicennam, qua hic usus est s. Thomas.
+<lb ed="#L" n="12"/>Aiunt enim quod est sophisma Figurae Dictionis, 
+quo<lb break="no" ed="#L" n="13"/>niam mutatur quo in quod: id namque quo res est una,
+<lb ed="#L" n="14"/>est unum ut quo, non ut quod. Et ideo non sequitur 
+pro<lb break="no" ed="#L" n="15"/>cessus in infinitum ; sicut nec ab albo et albedine.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e405">
+                  <lb ed="#L" n="16"/>Sed haec reprehensio valde rudis est. Tum quia constat
+<lb ed="#L" n="17"/>in transcendentibus concretum vere praedicari de abstracto
+<lb ed="#L" n="18"/>(entitas enim est ens, et unitas una): et pet hoc non 
+muta<lb break="no" ed="#L" n="19"/>tur quo in quod; sed utitur ratio ipso quo utroque modo,
+<lb ed="#L" n="20"/>Scilicet ut quo et quod. Et ideo optime concludit: nec est
+<lb ed="#L" n="21"/>simile de albo et albedine, quia non est alba, - Tum quia,
+<lb ed="#L" n="22"/>si unum addit naturam aliam supra ens, puta supra 
+ho<lb break="no" ed="#L" n="23"/>minem aut leonem, qua ratione haec est vera, natura 
+ho<lb break="no" ed="#L" n="24"/>minis est una, eadem erit vera, natura unitatis est una:
+<lb ed="#L" n="25"/>omnis enim natura una est. Nec excusat hoc adiacentia
+<lb ed="#L" n="26"/>naturae, scilicet quia natura unitatis semper inest alii, et
+<lb ed="#L" n="27"/>propterea est qu0: commune namque est omni naturae,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>sive subsistenti sive inexistenti, esse unam, ut patet in 
+ac<lb break="no" ed="#L" n="29"/>cidentibus. Ergo stat ratio in suo robore.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e440">
+                  <lb ed="#L" n="30"/>De uno autem quod est principium numeri, quale 
+acci<lb break="no" ed="#L" n="31"/>dens sit, praesentis non est negotii; sed erit quaestio specialis.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e447">
+                  <lb ed="#L" n="32"/>VII. In responsione ad secundum, nota diligenter: 
+quo<lb break="no" ed="#L" n="33"/>niam hoc argumentum fluctuare facit eruditos, quia non
+<lb ed="#L" n="34"/>penetrant hanc responsionem. Scito quod responsio litterae
+<lb ed="#L" n="35"/>stat in illis verbis, <quote xml:id="TAcCaj-d1e103-Qd1e457">ens dividitur per unum et multa, quasi
+<lb ed="#L" n="36"/>per unum simpliciter, et multa secundum quid</quote>: et ly 
+sim<lb break="no" ed="#L" n="37"/>pliciter et secundum quid non determinant ly unum aut ly
+<lb ed="#L" n="38"/>multa, sed determinant ly dividitur. Et est sensus, quod
+<lb ed="#L" n="39"/>ens dividitur simpliciter per unum, et secundum quid per
+<lb ed="#L" n="40"/>multa: idest, unum continetur simpliciter sub ente, multa
+<lb ed="#L" n="41"/>autem secundum quid. Unde et statim hoc probatur in
+<lb ed="#L" n="42"/>littera: nam et ipsa, inquit, multa non continentur sub ente,
+<lb ed="#L" n="43"/>nisi ut participant uno. Et quoniam constat quod natura
+<lb ed="#L" n="44"/>talis divisionis est, quod membrum simpliciter aequatur
+<lb ed="#L" n="45"/>diviso absolute sumpto (et merito, quoniam membrum
+<lb ed="#L" n="46"/>secundum quid non sapit divisum nisi secundum quid);
+<lb ed="#L" n="47"/>ideo stat responsio optime, et quod unum convertitur cum
+<lb ed="#L" n="48"/>ente, et tamen est divisionis membrum. Exemplum huius
+<lb ed="#L" n="49"/>est, si distinguitur homo in hominem in actu et hominem
+<lb ed="#L" n="50"/>in potentia: et similiter domus in domum in actu et 
+po<lb break="no" ed="#L" n="51"/>tentia, etc. — Reliqua in hac responsione posita sunt ad 
+per<lb break="no" ed="#L" n="52"/>fectionem doctrinae, et ad explanationem intenti: quoniam
+<lb ed="#L" n="53"/>et unum, tam simpliciter quam secundum quid, et multa,
+<lb ed="#L" n="54"/>tam simpliciter quam secundum quid, uno participant.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e103-Dd1e503"><!-- caj-p1-q11-a2 -->
+               <head xml:id="TAcCaj-d1e103-Hd1e506">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e103-d1e508">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e515">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="48"/>TITULUS clarus. - In corpore una conclusio, responsiva
+<lb ed="#L" n="49"/>quaesito affirmative: Unum opponitur multis 
+diversi<lb break="no" ed="#L" n="50"/>mode.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e526">
+                  <lb ed="#L" n="51"/>Probatur. Unum, principium numeri, opponitur numero
+<lb ed="#L" n="52"/>ut mensura mensurato: unum autem conversum cum ente,
+<lb ed="#L" n="53"/>opponitur ut indivisum diviso. Ergo. - Antecedens pro
+<lb ed="#L" n="54"/>prima parte probatur ex X Metaphys.: quia uni primo
+<lb ed="#L" n="55"/>convenit mensura, et numerus est multitudo mensurata. Pro
+<lb ed="#L" n="56"/>secunda patet. Consequentia autem est evidens: quia alia
+<lb ed="#L" n="57"/>est oppositio relativa, alia privativa.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e544">
+                  <lb ed="#L" n="58"/>II. Adverte hic quod, quamvis littera intendat de diversis
+<lb ed="#L" n="59"/>unitatibus et multitudinibus loqui, ex hac tamen doctrina
+<lb ed="#L" n="60"/>optime deducere poteris quod eadem unitas, diversimode
+<lb ed="#L" n="61"/>sumpta, scilicet ut principium numeri et ut indivisa, 
+op<lb break="no" ed="#L" n="62"/>ponitur diversimode eidem multitudini diversimode 
+sum<lb break="no" ed="#L" n="63"/>ptaé, scilicet sub ratione numeri et sub ratione divisi. Et
+<lb ed="#L" n="64"/>sic haec distinctio erit quandoque rerumn, quandoque 
+ra<lb break="no" ed="#L" n="65"/>tionum. Et quando est rationum, convenit utrique uni et
+<lb ed="#L" n="66"/>utrique multitudini: quoniam et unum conversum cum
+<lb ed="#L" n="67"/>ente principium est numeri transcendentis, et unum in
+<lb ed="#L" n="68"/>praedicamento quantitatis est indivisum,
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e571">
+                  <lb ed="#L" n="69"/>III. In responsione ad secundum, dubium occurrit, 
+quo<lb break="no" ed="#L" n="70"/>modo verificatur quod multitudo componitur ex unitatibus,
+<lb ed="#L" n="71"/>non secundum id quod habent de indivisione, sed 
+secun<lb break="no" ed="#L" n="72"/>dum id quod habent de entitate. Hoc enim in multitudine
+<lb ed="#L" n="73"/>transcendenti, de qua littera loquitur, manifeste est 
+impos<lb break="no" ed="#L" n="74"/>sibile. Quoniam aut hic est sermo de multitudine ut 
+mul<lb break="no" ed="#L" n="75"/>titudo est; aut de rebus multis. Non de rebus multis, ut
+<lb ed="#L" n="76"/>patet ex vi argumenti et responsionis, cum dicitur quod
+<lb ed="#L" n="77"/>multitudo est totum héterogeneum. De ipsa autem 
+multi<lb break="no" ed="#L" n="78"/>tudine, constat quod non componitur ex rebus unis, sed
+<lb ed="#L" n="79"/>ex unitatibus: alioquin multitudo transcendens, ut 
+multi<lb break="no" ed="#L" n="80"/>tudo est, esset substantia, utpote ex substantiis rerum 
+com<lb break="no" ed="#L" n="81"/>posita.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e602">
+                  <lb ed="#L" n="82"/>IV. Ad hoc dicitur quod tam unum quam multa 
+tran<lb break="no" ed="#L" n="83"/>scendenter, sumi possunt dupliciter: uno modo, 
+substantia<lb break="no" ed="#L" n="84"/>liter; alio modo, completive, seu formaliter. Si sumantur
+<lb ed="#L" n="85"/>primo modo, constat quod multitudo componitur ex rebus
+<lb ed="#L" n="86"/>unis, et quod est substantia, seu ens reale: et sic videtur
+<lb ed="#L" n="87"/>secundum planum litterae sensum, textus ille interpre-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>tandus. - Et si obiiciatur: ergo non loquitur de 
+multitu<lb break="no" ed="#L" n="89"/>dine formaliter, dicetur quod loquitur de multitudine 
+for<lb break="no" ed="#L" n="90"/>maliter quantum ad id quod realiter est.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e626">
+                  <lb ed="#L" n="91"/>Altius tamen atque formalius loquendo, dicendum mihi -
+<lb ed="#L" n="92"/>videtur quod hic est sermo de unitate et multitudine 
+for<lb break="no" ed="#L" n="93"/>maliter et universaliter: et quod per illa verba, unitates
+<lb ed="#L" n="94"/>secundum id quod habent de entitate, non intendit littera
+<lb ed="#L" n="95"/>rem quae est una; sed intendit ipsam unitatis naturam,
+<lb ed="#L" n="96"/>prout entis actum exercet. Quod ut clarius percipiatur, ab
+<lb ed="#L" n="97"/>uno in genere quantitatis incipiamus. Unitas de genere
+<lb ed="#L" n="98"/>quantitatis sumi potest dupliciter. Uno modo, ut est non
+<lb ed="#L" n="99"/>numerus, quod est esse non divisam in se, quemadmodum
+<lb ed="#L" n="100"/>numerus est divisus in plures unitates. Et sic patet quod
+<lb ed="#L" n="101"/>non componit numerum; sicut nec »on domus componit
+<lb ed="#L" n="102"/>domum. Alio modo, ut est in se talis entitas, puta 
+acci<lb break="no" ed="#L" n="103"/>dens: et sic componit numerum. Unitas quoque 
+transcen<lb break="no" ed="#L" n="104"/>dens dupliciter sumi potest. Primo, ut est indivisa, quod
+<lb ed="#L" n="105"/>est esse non multitudinem: et sic impossibile est 
+compo<lb break="no" ed="#L" n="106"/>nere multitudinem, ratione dicta. Alio modo, secundum id
+<lb ed="#L" n="107"/>quod est, idest secundum ipsam negationem divisionis, non
+<lb ed="#L" n="108"/>inquantum exercet actum privationis, sed inquantum habet
+<lb ed="#L" n="109"/>entis rationem: et sic componit multitudinem formaliter
+<lb ed="#L" n="110"/>et completive sumptam. Ita quod haec distinctio, contracta -
+<lb ed="#L" n="111"/>ad unum et multa transcendenter, non est distinctio 
+priva<lb break="no" ed="#L" n="112"/>tionis a subiecto positivo; sed est distinctio actus privativi
+<lb ed="#L" n="113"/>ab actu positivo. Ita quod ipsa indivisio, ut exercet actum
+<lb ed="#L" n="114"/>privationis, non componit; et ipsamet, ut cuiusdam entitatis
+<lb ed="#L" n="115"/>rationem habet, componit multitudinem; quae, secundum
+<lb ed="#L" n="116"/>veritatem, negativum ens formaliter est, magis quam unum.
+<lb ed="#L" n="117"/>- Et quod haec sit mens litterae, non solum ex formali
+<lb ed="#L" n="118"/>sensu patet; sed ex responsione ad quartum, ubi dicitur
+<lb ed="#L" n="119"/>quod divisa non habent rationem multitudinis, nisi 
+utrum<lb break="no" ed="#L" n="120"/>que divisorum habeat rationem unius. Hic enim manifeste
+<lb ed="#L" n="121"/>apparuit quod multitudo formaliter ex unitatibus formaliter
+<lb ed="#L" n="122"/>consurgit: et consequenter ex negationibus, quoniam solam
+<lb ed="#L" n="123"/>negationem formaliter addere docuerat in praecedenti 
+ar<lb break="no" ed="#L" n="124"/>ticulo.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e702">
+                  <lb ed="#L" n="125"/>V. In responsione ad quartum, dubium occurrit, 
+quo<lb break="no" ed="#L" n="126"/>modo verificantur illa verba: divisio est prior unitate, non
+<lb ed="#L" n="127"/>simpliciter, sed secundum nostrae apprehensionis rationem.
+<pb ed="#L" n="111"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Videtur enim quod. divisio sit simpliciter prior unitate.
+<lb ed="#L" n="2"/>Quoniam habitus naturaliter est prior privatione: divisio
+<lb ed="#L" n="3"/>autem se habet ad unitatem, ut habitus ad privationem:
+<lb ed="#L" n="4"/>ergo. - Nec potest dici quod divisio non est vere habitus,
+<lb ed="#L" n="5"/>quo privat unitas secundum se, sed est habitus secundum
+<lb ed="#L" n="6"/>nostrum modum intelligendi: quia oporteret assignare, 
+sal<lb break="no" ed="#L" n="7"/>tem circumlocutive, quis est ille habitus quo privat 
+se<lb break="no" ed="#L" n="8"/>cundum se unitas. Nec facile esset hoc fingere. Quia ille
+<lb ed="#L" n="9"/>habitus secundum se aut est quid positivum, aut 
+negati<lb break="no" ed="#L" n="10"/>vum. Si positivum, ergo aliquid positivum ultra ens est
+<lb ed="#L" n="11"/>ante unitatem: quod est impossibile. Si negativum, ergo
+<lb ed="#L" n="12"/>aliqua negatio est ante unitatem: et si hoc non inconvenit,
+<lb ed="#L" n="13"/>cur inconvenit divisionem, quae negatio est, esse ante 
+uni<lb break="no" ed="#L" n="14"/>tatem?
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e746">
+                  <lb ed="#L" n="15"/>VI. Ad hoc dicitur, quod labor est in gequivoco. Ambae
+<lb ed="#L" n="16"/>siquidem propositiones sunt verae: et quod divisio est prior
+<lb ed="#L" n="17"/>unitate simpliciter, idest secundum se, in esse intelligibili
+<lb ed="#L" n="18"/>tamen (eo quod divisio negatio est, quae ens rationis est):
+<lb ed="#L" n="19"/>et quod divisio est posterior unitate simpliciter, idest 
+se<lb break="no" ed="#L" n="20"/>cundum esse simpliciter, quod est esse in rerum natura;
+<lb ed="#L" n="21"/>esse enim intelligibile est secundum quid tantum.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e764">
+                  <lb ed="#L" n="22"/>VI. Prima propositio probatur ex dictis. Non enim est 
+in<lb break="no" ed="#L" n="23"/>telligibile quod affirmatio non sit prior negatione. Esse
+<lb ed="#L" n="24"/>autem unum est esse Aoc et non esse non hoc: ubi patet
+<lb ed="#L" n="25"/>quod in ratione unius clauditur negatio alterius extremi
+<lb ed="#L" n="26"/>contradictionis. Extrema igitur contradictionis, quorum est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="27"/>ipsa divisio, praecedunt naturaliter unitatem. Primo enim
+<lb ed="#L" n="28"/>est homo, et in eodem priori est non homo, in esse 
+intel<lb break="no" ed="#L" n="29"/>ligibili: et sic est divisio. Deinde Aomo est homo et non
+<lb ed="#L" n="30"/>est non homo, quod est esse unum, idest indivisum. Non
+<lb ed="#L" n="31"/>enim est divisum in se, ita ut sit omo et non homo. Penes
+<lb ed="#L" n="32"/>privationem enim huiusmodi divisionis, unumquodque est
+<lb ed="#L" n="33"/>et dicitur unum: si unum privativum nomen est secundum
+<lb ed="#L" n="34"/>veritatem, ut supponimus. Nullum autem inconveniens
+<lb ed="#L" n="35"/>est negationem divisionis esse priorem negatione unitatis :
+<lb ed="#L" n="36"/>quamvis impossibile sit positionem divisionis in re esse
+<lb ed="#L" n="37"/>ante positionem unitatis.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e804">
+                  <lb ed="#L" n="38"/>Secunda autem propositio patet ex se. Non enim 
+opor<lb break="no" ed="#L" n="39"/>tet, ad hoc quod homo sit et intelligatur unus, ut negatio
+<lb ed="#L" n="40"/>hominis sit in aliqua natura, puta bovina aut caelesti. Si
+<lb ed="#L" n="41"/>enim solus homo esset, unus nihilominus esset: sicut, ante
+<lb ed="#L" n="42"/>mundi creationem, Deus erat unus, et non Deus in nulla
+<lb ed="#L" n="43"/>erat re: creatis autem aliis, posita est divisio Dei a non
+<lb ed="#L" n="44"/>Deo in rerum natura. De qua divisione dicit littera quod
+<lb ed="#L" n="45"/>non est prior simpliciter, ut patet ex calce responsionis,
+<lb ed="#L" n="46"/>ubi dicitur: secundo apprehendimus quod hoc ens non est
+<lb ed="#L" n="47"/>illud ens, et sic apprehendimus divisionem. Quid clarius?
+<lb ed="#L" n="48"/>Hoc ens non est illud ens dicendo, divisionem in rerum
+<lb ed="#L" n="49"/>natura expressit. Et propter eandem divisionem dixit quod
+<lb ed="#L" n="50"/>simplicia ex compositis definimus. Divisionem ergo tam
+<lb ed="#L" n="51"/>realem quam positivam postposuit unitati formaliter: non
+<lb ed="#L" n="52"/>autem contradictoriam in esse intelligibili.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e103-Dd1e840"><!-- caj-p1-q11-a3 -->
+               <head xml:id="TAcCaj-d1e103-Hd1e843">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e103-d1e845">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e852">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>TITULUS quaerit de unitate numerali. - In corpore una
+<lb ed="#L" n="21"/>conclusio responsiva affirmative: Deus est unus.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e861">
+                  <lb ed="#L" n="22"/>Probatur tripliciter. Primo, Deus eodem modo 
+forma<lb break="no" ed="#L" n="23"/>liter est Deus et hic: ergo est unus. - Antecedens patet ex
+<lb ed="#L" n="24"/>qu. m: quia idem est omnino hic Deus et natura divina.
+<lb ed="#L" n="25"/>Consequentia probatur: impossibile est plurificari hunc;
+<lb ed="#L" n="26"/>ergo et Deum.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e874">
+                  <lb ed="#L" n="27"/>Secundo, Deus est universaliter perfectus: ergo unus. -
+<lb ed="#L" n="28"/>Probatur consequentia a destructione consequentis, ducendo
+<lb ed="#L" n="29"/>ad oppositum antecedentis, ut clare patet in littera.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e884">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="30"/>Tertio, Deus omnia quae in universo sunt, per se 
+re<lb break="no" ed="#L" n="31"/>ducit in unum ordinem: ergo Deus est unus. — Quoad 
+pri<lb break="no" ed="#L" n="32"/>mam partem antecedens probatur: quia diversa non 
+conve<lb break="no" ed="#L" n="33"/>niunt in unum ordinem misi ab aliquo. Quoad secundam
+<lb ed="#L" n="34"/>vero, sic. Deus est perfectissimum et primum principium:
+<lb ed="#L" n="35"/>ergo est per se, et non per accidens, principium. - 
+Con<lb break="no" ed="#L" n="36"/>sequentia vero probatur dupliciter. Tum quia melius per
+<lb ed="#L" n="37"/>unum disponuntur res, quam per plura principia. Tum
+<lb ed="#L" n="38"/>quia unius non est causa per se nisi unum: per accidens
+<lb ed="#L" n="39"/>autem plura.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e103-Dd1e911"><!-- caj-p1-q11-a4 -->
+               <head xml:id="TAcCaj-d1e103-Hd1e914">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e103-d1e916">
+                  <pb ed="#L" n="113"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e925">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>TITULUS clarus ex dictis. - In corpore una conclusio, 
+<lb ed="#L" n="3"/>responsiva affirmative: Deus est maxime unus
+<lb ed="#L" n="4"/>Probatur. Deus est maxime ens et maxime indivisus: ergo 
+<lb ed="#L" n="5"/>-Antecedens probatur quoad primam partem: quia est ipsum 
+<lb ed="#L" n="6"/>esse. Quoad secundam: quia omnino simplex omni 
+divisibi<lb break="no" ed="#L" n="7"/>litate caret - Consequentia autem probatur ex ratione unius,
+<lb ed="#L" n="8"/>includentis ens et indivisionem. Omnia clara sunt in littera.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e945">
+                  <lb ed="#L" n="9"/>II. In responsione ad primum, dubium est quomodo
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="10"/>privatio suscipit magis. et minus propter divisionem. Ipsa
+<lb ed="#L" n="11"/>enim divisio n ito ést, de qua est eadem quaestio, dies
+<lb ed="#L" n="12"/>modo suscipit magis et minus.
+</p>
+               <p xml:id="TAcCaj-d1e103-d1e958">
+                  <lb ed="#L" n="13"/>Ad hoc respondetur breviter, quod divisio suscipit 
+ma<lb break="no" ed="#L" n="14"/>gis et minus ratione fundamenti. Magis enim rationale 2
+<lb ed="#L" n="15"/>stata lapide quam a bove: et propterea maior est divisi
+<lb ed="#L" n="16"/>inter hominem et lapidem. Et propterea minor est ense
+<lb ed="#L" n="17"/>generis in quo conveniunt homo et lapis, ut patet.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

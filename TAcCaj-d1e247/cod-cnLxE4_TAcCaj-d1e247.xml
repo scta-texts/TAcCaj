@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 39</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 39</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="397"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e247"><!-- TAcCajp1-q39 -->
+            <head xml:id="TAcCaj-d1e247-Hd1e99">Quaestio 39</head>
+            <div xml:id="TAcCaj-d1e247-Dd1e101"><!-- caj-p1-q39-a1 -->
+               <head xml:id="TAcCaj-d1e247-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e247-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>In titulo, ly idem significat identitatem realem. — Ín 
+cor<lb break="no" ed="#L" n="21"/>Loire quatuor facit: primo, reddit rationem quaesiti; 
+se<lb break="no" ed="#L" n="22"/>cundo, refert opinionem quandam, ibi: Et quia ut Boetius;
+<lb ed="#L" n="23"/>tertio, improbat eam, ibi: Sed sicut supra ostensum est;
+<lb ed="#L" n="24"/>quarto, respondet quaesito, ibi: .JEx quo sequitur.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e129">
+                  <lb ed="#L" n="25"/>II. Quoad primum, adverte quod potuisset obiici 
+Au<lb break="no" ed="#L" n="26"/>ctori superfluitas huius articuli: quoniam superius in 
+quae<lb break="no" ed="#L" n="27"/>stioneim-, de divina Simplicitate, quaesitum et 
+determi<lb break="no" ed="#L" n="28"/>natum fuit in Deo esse idem omnino suppositum cum
+<lb ed="#L" n="29"/>essentia. Et propterea in principio huius articuli rationem
+<lb ed="#L" n="30"/>necessitatis eius assignavit, intendens quod, quantum est ex
+<lb ed="#L" n="31"/>parte simplicitatis, quaestio ista manifesta erat, nec iteranda:
+<lb ed="#L" n="32"/>sed ex parte Trinitatis suppositorum seu personarum, 
+osten<lb break="no" ed="#L" n="33"/>sae postmodum in unitate essentiae, difficilis emersit
+<lb ed="#L" n="34"/>quaestio, et propterea de novo discutienda: tunc enim non
+<lb ed="#L" n="35"/>erat locus huic tractatui.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e155">
+                  <lb ed="#L" n="36"/>III. Quoad secundum, opinio, ut videtur, Porretanorum
+<lb ed="#L" n="37"/>refertur, quod persona non est idem quod essentia." Quia
+<lb ed="#L" n="38"/>relatio est tantum assistens, et consequenter non transit in
+<lb ed="#L" n="39"/>essentiam: ergo nec persona, cum sit ipsa relatio.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e167">
+                  <lb ed="#L" n="40"/>IV. Quoad tertium, reprehenditur haec opinio, quod
+<lb ed="#L" n="41"/>falsum antecedens assumat. Quia relatio in rebus creatis
+<lb ed="#L" n="42"/>non solum assistit, sed inest. Ergo in Deo non solum adest,
+<lb ed="#L" n="43"/>sed substantiale esse habet; ut latius in xxvm quaestione
+<lb ed="#L" n="44"/>dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e180">
+                  <lb ed="#L" n="45"/>V. Quoad quartum, conclusio responsiva est: Persona
+<lb ed="#L" n="46"/>est idem realiter quod essentia; ipsae tamen Personae inter
+<lb ed="#L" n="47"/>se distinguuntur realiter. - Et probatur quoad utramque
+<lb ed="#L" n="48"/>partem, Persona est relatio subsistens in divina natura:
+<lb ed="#L" n="49"/>ergo est idem realiter quod essentia, et distincta realiter ab
+<lb ed="#L" n="50"/>altera persona relative illi opposita. — Et probatur sequela:
+<lb ed="#L" n="51"/>quia relatio in Deo, comparata ad essentiam, non differt
+<lb ed="#L" n="52"/>re, sed ratione tantum; comparata autem ad oppositam 
+re<lb break="no" ed="#L" n="53"/>lationem, habet distinctionem realem, et hoc vi oppositionis
+<lb ed="#L" n="54"/>relativae realis.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e204">
+                  <lb ed="#L" n="55"/>VI. Circa illam propositionem, relatio, seu persona, non
+<lb ed="#L" n="56"/>differt re, sed ratione tantum, ab essentia divina, occurrunt
+<lb ed="#L" n="57"/>obiectiones Scoti, in I, dist. i, qu. rv. Vult enim quod 
+per<lb break="no" ed="#L" n="58"/>sona et essentia distinguantur sine omni actu intellectus.
+<lb ed="#L" n="59"/>Arguit.ergo rationibus et auctoritatibus.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e217">
+                  <lb ed="#L" n="60"/>Prima ratio est. Pater, secluso actu intellectus, habet in
+<lb ed="#L" n="61"/>re entitatem communicabilem et entitatem 
+incommunica<lb break="no" ed="#L" n="62"/>bilem: ergo habet in se rem diversarum rationum 
+forma<lb break="no" ed="#L" n="63"/>lium. - Probatur sequela: quia si esset res unius rationis in
+<lb ed="#L" n="64"/>se, vel esset tantum communicabilis, vel tantum 
+incommu<lb break="no" ed="#L" n="65"/>nicabilis; quorum utrumque est haereticum.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e233">
+                  <lb ed="#L" n="66"/>Secunda ratio est. Pater, intelligens in primo signo 
+ori<lb break="no" ed="#L" n="67"/>ginis se, aut intelligit essentiam et paternitatem ut duo
+<lb ed="#L" n="68"/>obiecta formaliter distincta, aut non. Si sic, habetur 
+in<lb break="no" ed="#L" n="69"/>tentum: quia cognitio intuitiva est rei secundum esse 
+prae<lb break="no" ed="#L" n="70"/>sens in se. Si non, ergo distinguuntur tantum in modo
+<lb ed="#L" n="71"/>concipiendi: ergo ex distinctione inter éa non est hoc 
+com<lb break="no" ed="#L" n="72"/>municabile, et hoc incommunicabile. - Et tenet sequela:
+<lb ed="#L" n="73"/>quia distinctio secundum modum concipiendi, nihil. facit
+<lb ed="#L" n="74"/>in re.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e255">
+                  <lb ed="#L" n="75"/>Auctoritates autem sunt Augustini, in VII de Trin.:
+<lb ed="#L" n="76"/>Omnis essentia quae relative dicitur, est aliquid excepto
+<lb ed="#L" n="77"/>relativo. Et rursus ibidem: Si Pater non est aliquid ad se,
+<lb ed="#L" n="78"/>non est ad aliud. Et rursus, de Filio: on eo Verbum
+<lb ed="#L" n="79"/>quo sapientia. Ex his enim omnibus patet non idem esse
+<lb ed="#L" n="80"/>formaliter in se rem absolutam et ad aliud.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e272">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="81"/>VII. Ad evidentiam horum, scito quod, sicut in Deo,
+<lb ed="#L" n="82"/>secundum rem. sive in ordine reali, est una res non pure
+<lb ed="#L" n="83"/>absoluta nec pure respectiva, nec mixta aut composita aut
+<lb ed="#L" n="84"/>resultans ex utraque; sed eminentissime et formaliter 
+ha<lb break="no" ed="#L" n="85"/>bens quod est respectivi (imo multarum rerum 
+respectiva<lb break="no" ed="#L" n="86"/>rum) et quod est absoluti: ita in ordine formali seu ratio
+<lb ed="#L" n="87"/>num formalium, secundum se, non quoad nos loquendo,
+<lb ed="#L" n="88"/>est in Deo unica ratio formalis, non pure absoluta nec
+<lb ed="#L" n="89"/>pure respectiva, non pure communicabilis nec pure 
+incom<lb break="no" ed="#L" n="90"/>municabilis; sed eminentissime ac formaliter continens et
+<lb ed="#L" n="91"/>quidquid absolutae perfectionis est, et quidquid trinitas
+<lb ed="#L" n="92"/>respectiva exigit. Oportet autem sic esse, quia oportet 
+cui<lb break="no" ed="#L" n="93"/>libet simplicissimae rei secundum se maxime uni, 
+respon<lb break="no" ed="#L" n="94"/>dere unam adaequatam rationem formalem: alioquin non
+<lb ed="#L" n="95"/>esset per se primo unum intelligibile a quovis intellectu.
+<lb ed="#L" n="96"/>- Et confirmatur: quia Verbum Dei unicum tantum est.
+<lb ed="#L" n="97"/>Constat enim verbum, si perfectum est, adaequare id
+<lb ed="#L" n="98"/>cuius est,
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e316">
+                  <lb ed="#L" n="99"/>Fallimur autem, ab absolutis et respectivis ad Deum
+<lb ed="#L" n="100"/>procedendo, eo quod distinctionem inter absolutum et 
+re<lb break="no" ed="#L" n="101"/>spectivum quasi priorem re divina imaginamur; et 
+conse<lb break="no" ed="#L" n="102"/>quenter illam sub altero membro oportere poni credimus.
+<lb ed="#L" n="103"/>Et tamen est totum oppositum. Quoniam res divina prior
+<lb ed="#L" n="104"/>est ente et omnibus differentiis eius: est enim Super ens$
+<lb ed="#L" n="105"/>et super unum, etc. Et propterea, quemadmodum virtutes
+<lb ed="#L" n="106"/>inferiores, non ut dearticulatae ac distinctae inter se, ad
+<lb ed="#L" n="107"/>unam solis virtutem etiam formaliter elevantur; multo
+<lb ed="#L" n="108"/>magis absolutum et respectivum ad unam rem et rationem
+<lb ed="#L" n="109"/>formalem divinam elevantur.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e342">
+                  <lb ed="#L" n="110"/>VIH. Unde ad-primum Scoti, negatur consequentia.
+<lb ed="#L" n="111"/>Et ad probationem eius, negatur assumpta conditionalis,
+<lb ed="#L" n="112"/>Ex hoc enim quod est unius rationis in se, non sequitur,
+<lb ed="#L" n="113"/>ergo tantum communicabilis vel tantum incommunicabilis:
+<lb ed="#L" n="114"/>sed stat quod sit et communicabilis et incommunicabilis;
+<lb ed="#L" n="115"/>et hoc propter infinitatem illius rationis formalis. Nec est
+<lb ed="#L" n="116"/>mirabilius unicam rationem formalem habere utrumque,
+<lb ed="#L" n="117"/>quam unicam rem: imo illud, secundum rectam 
+philoso<lb break="no" ed="#L" n="118"/>phiam, sequitur ex hoc posito per fidem. — Poteris quoque
+<lb ed="#L" n="119"/>novitiis distinguere illam conditionalem, dicendo quod est
+<lb ed="#L" n="120"/>vera de una ratione formali limitata; non autem de í
+lli<lb break="no" ed="#L" n="121"/>mitata, ut in proposito coritingit.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e371">
+                  <lb ed="#L" n="122"/>Ad secundum vero dicitur, quod Pater non intelligit
+<lb ed="#L" n="123"/>essentiam et paternitatem ut duo obiecta formalia 
+secun<lb break="no" ed="#L" n="124"/>dum se: sed ut unum formaliter et multa virtualiter, ut
+<lb ed="#L" n="125"/>patet ex dictis. Non ita quod in illa summa re atque
+<lb ed="#L" n="126"/>ratione formali paternitas et essentia ' sint virtualiter, sed ita
+<lb ed="#L" n="127"/>quod sint formaliter et realiter: sed distinctio earum est
+<lb ed="#L" n="128"/>virtualiter, quia ita ibi sunt ac si essent distinctae; et rursus
+<lb ed="#L" n="129"/>quia ita exercent propria utriusque, ac si essent distinctae,
+<lb ed="#L" n="130"/>Unde Scotus erravit, dimittendo hunc modum loquendi, et
+<lb ed="#L" n="131"/>introducendo ut propriissimum alium de distinctione 
+for<lb break="no" ed="#L" n="132"/>máli ex natura rei. Novus siquidem hic modus alienus
+<lb ed="#L" n="133"/>valde est a divinitatis eminentia formali: dearticulat eniti
+<lb ed="#L" n="134"/>eam formaliter. Is 'autem. quem nos secuti sumus, tantae
+<lb ed="#L" n="135"/>rei utcumque consonat.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e404">
+                  <lb ed="#L" n="136"/>Ad auctoritates autem dicitur quod, quia balbutiendo
+<lb ed="#L" n="137"/>ut possumus, excelsa Dei resonamus, ideo Augustinus et
+<lb ed="#L" n="138"/>Doctores de essentia et relatione ut de distinctis formaliter,
+<lb ed="#L" n="139"/>loquuntur. Hoc enim, ex parte rei, fundatur super hoc,
+<lb ed="#L" n="140"/>quia sunt formaliter distincta virtualiter, quamvis non 
+actua<lb break="no" ed="#L" n="141"/>liter. Ex parte autem nostri, quia ratione obiectiva apud
+<pb ed="#L" n="398"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nos distinguuntur actualiter: sed hoc nihil in Deo ponit
+<lb ed="#L" n="2"/>nisi relativam denominationem entis rationis.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e428">
+                  <lb ed="#L" n="3"/>IX. In responsione ad primum, adverte quod summa
+<lb ed="#L" n="4"/>responsionis consistit in hoc, quod illa maxima non tenet
+<lb ed="#L" n="5"/>ubi natura est absoluta, et suppositum respectivum: et
+<lb ed="#L" n="6"/>hoc propter oppositionem relativam, ut patet ex supra
+<lb ed="#L" n="7"/>dictis.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e442">
+                  <lb ed="#L" n="8"/>X. In responsione ad secundum, adverte quod 
+argumen<lb break="no" ed="#L" n="9"/>tum confirmatur ab Aureolo contra hanc responsionem,
+<lb ed="#L" n="10"/>apud Capreolum, i in mr distinctione Primi, qu. r1, sic. 
+Effe<lb break="no" ed="#L" n="11"/>ctus in actu habet causam in actu: sed non contradicere
+<lb ed="#L" n="12"/>communicabile et incommunicabile, distingui et non 
+dis<lb break="no" ed="#L" n="13"/>tingui, est effectus in actu, ante omnem actum intellectus:
+<lb ed="#L" n="14"/>ergo habet causam in actu. Sed causa eius est distinctio:
+<lb ed="#L" n="15"/>ergo est ibi distinctio ante omnem actum intellectus. — Nec
+<lb ed="#L" n="16"/>sufficit respondere quod ibi est distinctio fundamentaliter.
+<lb ed="#L" n="17"/>Sic enim causa non esset in actu, et tamen effectus esset in
+<lb ed="#L" n="18"/>actu; contra Philosophum, V Metaphys. et II Physic.
+<lb ed="#L" n="19"/>XI. Ad hoc a quibusdam respondetur, negando 
+mino<lb break="no" ed="#L" n="20"/>retn: quoniam negatio, quae est alterum extremum . 
+contra<lb break="no" ed="#L" n="21"/>dictionis, non est.actu ante opus intellectus, quoniam non
+<lb ed="#L" n="22"/>est nisi ens rationis. — Sed haec responsio nihil valet. Errat
+<lb ed="#L" n="23"/>enim. non discernendo inter non esse quod negatio 
+signi<lb break="no" ed="#L" n="24"/>ficat in actu exercito, et inter illudmet non esse, inquantum
+<lb ed="#L" n="25"/>induit rationem | entis rationis. ZZominem enim mon esse
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>bovem, nec ens reale, nec ens rationis significat, sed non
+<lb ed="#L" n="27"/>esse bovem : et quamvis, nullo. intellectu .considerante, ista
+<lb ed="#L" n="28"/>propositio non esset, et illud non esse non haberet rationem
+<lb ed="#L" n="29"/>entis; significatum tamen propositionis ab intellectu non
+<lb ed="#L" n="30"/>pendet.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e497">
+                  <lb ed="#L" n="31"/>XII. Verum, argumentum potest quasi fortius fieri. 
+Ef<lb break="no" ed="#L" n="32"/>fectus in actu habet causam in actu: sed affirmationes 
+in<lb break="no" ed="#L" n="33"/>cludentes in se contradictoria, scilicet commune et. 
+pro<lb break="no" ed="#L" n="34"/>prium, sunt effectus in actu, etc.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e508">
+                  <lb ed="#L" n="35"/>Unica tamen responsione ad haec omnia et similia 
+di<lb break="no" ed="#L" n="36"/>citur, negando universaliter illam propositionem, scilicet
+<lb ed="#L" n="37"/>quod sola distinctio est causa huius effectus. Nam iste 
+effe<lb break="no" ed="#L" n="38"/>ctus potest oriri a distinctione, ut a causa quasi univoca:
+<lb ed="#L" n="39"/>et a virtualiter continente distinctionem, ut a causa 
+aequi<lb break="no" ed="#L" n="40"/>voca. Modo, constat quod, quando effectus potest oriri a
+<lb ed="#L" n="41"/>causa univoca sola, et a causa aequivoca sola, ad 
+positio<lb break="no" ed="#L" n="42"/>nem effectus in actu, non sequitur determinate altera 
+cau<lb break="no" ed="#L" n="43"/>sarum, sed sub disiunctione. Et: quia sic est in proposito,
+<lb ed="#L" n="44"/>concedo quod effectus in actu habet causam in actu: sed
+<lb ed="#L" n="45"/>illa est vel distinctio in actu, vel continens virtualiter 
+di<lb break="no" ed="#L" n="46"/>stinctionem: et hoc secundum membrum est verum in 
+pro<lb break="no" ed="#L" n="47"/>posito, nec aliquid obiectorum contra hoc militat. - Et bene
+<lb ed="#L" n="48"/>hoc nota in omnibus materiis ubi de causa distinctionis
+<lb ed="#L" n="49"/>secundum rationem ex parte rei, a Scotistis et aliis mole»
+<lb ed="#L" n="50"/>staberis: hoc enim uno omnium ora obstrues.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e247-Dd1e546"><!-- caj-p1-q39-a2 -->
+               <head xml:id="TAcCaj-d1e247-Hd1e549">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e247-d1e551">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="63"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e558">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="64"/>In titulo id solum: advertendum est, quod de 
+proposi<lb break="no" ed="#L" n="65"/>jm est quaestio, an sit vera et congrua.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e567">
+                  <lb ed="#L" n="66"/>II. In corpore unica est conclusio, responsiva quaesito
+<lb ed="#L" n="67"/>affirmatiye, scilicet: Dicimus unam essentiam trium 
+Perso<lb break="no" ed="#L" n="68"/>narum, et tres Personas unius essentiae. — Probatur. 
+Di<lb break="no" ed="#L" n="69"/>vina nominantur a nobis secundum modum, non suum,
+<lb ed="#L" n="70"/>sed in rebus creatis inventum: ergo essentia in divinis 
+si<lb break="no" ed="#L" n="71"/>gnificatur ut forma trium Personarum: ergo dicimus unam
+<lb ed="#L" n="72"/>essentiam trium, et tres unius.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e585">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>Antecedens probatur: quia sic divina cognoscimus - 
+Con<lb break="no" ed="#L" n="74"/>sequentia autem : quia in sensibilibus natura per materiam
+<lb ed="#L" n="75"/>individuatur, et se habet ut forma; et individuum ut 
+suppo<lb break="no" ed="#L" n="76"/>situm illius. - Secunda vero probatur: quia in istis forma
+<lb ed="#L" n="77"/>dicitur esse suppositi; et suppositum formae, si adiectivum
+<lb ed="#L" n="78"/>appositum sit determinans formam; ut patet exemplariter,
+<lb ed="#L" n="79"/>Omnia enim clara sunt in littera.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e247-Dd1e606"><!-- caj-p1-q39-a3 -->
+               <head xml:id="TAcCaj-d1e247-Hd1e609">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e247-d1e611">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="85"/>Commentaria Cardinalis Caietani d
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e618">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="86"/>IN titulo notanter dicitur, ut hoc. nomen Deus, ad 
+insi<lb break="no" ed="#L" n="87"/>nuandum quod praesens quaestio est de nominibus 
+es<lb break="no" ed="#L" n="88"/>sentialibus in concreto, sive adiectiva sive substantiva sint.
+<lb ed="#L" n="89"/>in corpore duo facit: primo, distinguit subiectum 
+quae<lb break="no" ed="#L" n="90"/>stionis, proponens, iuxta distinctionis membra, duas 
+con<lb break="no" ed="#L" n="91"/>clusiones responsivas quaesito; secundo, probat eas simul.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e636">
+                  <lb ed="#L" n="92"/>II. Quoad primum, distinctio est. Nominum divinorum
+<lb ed="#L" n="93"/>essentialium. quaedam sunt substantiva, et quaedam 
+adie<lb break="no" ed="#L" n="94"/>cliva, — Prima conclusio est: Substantiva praedicantur de.
+<lb ed="#L" n="95"/>tribus. Personis singulariter tantum, ita quod non. 
+plura<lb break="no" ed="#L" n="96"/>liter. - Secunda est: Adiectiva praedicantur de tribus 
+Per<lb break="no" ed="#L" n="97"/>sonis in numero plurali.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e652">
+                  <lb ed="#L" n="98"/>III. Quoad secundum, probatur utraque conclusio tali
+<lb ed="#L" n="99"/>ordine: primo, ponitur maior in communi; secundo, an-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="100"/>tequam. subsum&amp;ier. minor in divinis, explanatur in creaturis
+<lb ed="#L" n="101"/>ipsa maior, ibi: In vweaturis autem; tertio, subsumitur
+<lb ed="#L" n="102"/>minor, et infertur utraque conclusio, explanando etiam
+<lb ed="#L" n="103"/>Athanasii verba. .
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e671">
+                  <lb ed="#L" n="104"/>IV. Est ergo ratio ex differentia inter substantiva et
+<lb ed="#L" n="105"/>adiectiva in modo significandi sumpta. Substantiva 
+signi<lb break="no" ed="#L" n="106"/>ficant per modum substantiae, adiectiva vero per modum
+<lb ed="#L" n="107"/>accidentis: ergo singularitas vel pluralitas substantivi 
+at<lb break="no" ed="#L" n="108"/>tenditur penes formam. significatam, adiectivi autem 
+pe<lb break="no" ed="#L" n="109"/>nes suppositum. — Et tenet sequela, quoad primam 
+par<lb break="no" ed="#L" n="110"/>tem, quoniam substantia, sicut esse habet ex se, ita 
+uni<lb break="no" ed="#L" n="111"/>tatem et pluralitatem. Accidens vero, sicut esse non habet
+<lb ed="#L" n="112"/>nisi in subiecto, ita unitatem et multitudinem ex ipso
+<lb ed="#L" n="113"/>suscipit.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e695">
+                  <pb ed="#L" n="401"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>V. Circa hanc partem dubium occurrit, primo de 
+re<lb break="no" ed="#L" n="2"/>gula: secundo, de efficacia rationis adductae.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e706">
+                  <lb ed="#L" n="3"/>Circa regulam quidem dubium est, tum quia, ut in
+<lb ed="#L" n="4"/>dicitur plures artifices. - Tum quia s. Thomas expresse 
+in<lb break="no" ed="#L" n="5"/>ferius, in Tertia Parte, qu. nr, art. 7, ad 2, dicit quod, si
+<lb ed="#L" n="6"/>Verbum Dei assumeret duas naturas humanas, non 
+dice<lb break="no" ed="#L" n="7"/>retur duo homines : et tamen forma significata hominis 
+no<lb break="no" ed="#L" n="8"/>mine plurificaretur.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e722">
+                  <lb ed="#L" n="9"/>VI. Circa rationem vero, quoniam Scotus, in I, dist. xr,
+<lb ed="#L" n="10"/>putat hanc rationem insufficientem , arguens contra eam
+<lb ed="#L" n="11"/>sic. Terminus numeralis ponit significatum suum circa 
+si<lb break="no" ed="#L" n="12"/>gnificatum sui determinabilis: sed significatum adiectivi et
+<lb ed="#L" n="13"/>substantivi est idem, quoniam utrumque significat formam:
+<lb ed="#L" n="14"/>ergo utrobique determinat formam; nec hoc ei auferre
+<lb ed="#L" n="15"/>potest modus significandi. Igitur ratio nihil valet.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e740">
+                  <lb ed="#L" n="16"/>VII. Ad primum dubium dicendum est, quod differentia
+<lb ed="#L" n="17"/>inter adiectivum et substantivum consistit in hoc, quod 
+plu<lb break="no" ed="#L" n="18"/>ralitas substantivi exigit pluralitatem formae et pluralitatem
+<lb ed="#L" n="19"/>suppositi: ad adiectivi vero pluralitatem sufficit pluralitas
+<lb ed="#L" n="20"/>suppositorum.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e753">
+                  <lb ed="#L" n="21"/>Nec diminuta est propterea Auctoris doctrina: quoniam
+<lb ed="#L" n="22"/>non oportuit hic exprimere nisi id in quo differt 
+substan<lb break="no" ed="#L" n="23"/>tivum ab adiectivo. Comparanti enim ea facile apparet
+<lb ed="#L" n="24"/>quod conveniunt in pluralitate suppositorum, et differunt
+<lb ed="#L" n="25"/>quoad unitatem et pluralitatem formae: utriusque enim
+<lb ed="#L" n="26"/>pluralitas requirit plura supposita, sed adiectivi pluralitas '
+<lb ed="#L" n="27"/>non requirit pluralitatem formae, substantivi autem sic. Sat
+<lb ed="#L" n="28"/>ergo fuit hoc in loco hanc expressisse differentiam, de 
+sub<lb break="no" ed="#L" n="29"/>stantivis concretis loquendo ut differunt ab adiectivis. - Nec
+<lb ed="#L" n="30"/>tamen reticuit reliquam conditionem. Quoniam superius,
+<lb ed="#L" n="31"/>in qu. xxxvi, eius meminit, in destructione illius propo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>sitionis, Pater est plura principia. Et clarissime eandem
+<lb ed="#L" n="33"/>docuit in loco proprio, ubi scilicet opus erat, scilicet in
+<lb ed="#L" n="34"/>Tertia Parte, loco allegato: ubi et reprehendit oppositam
+<lb ed="#L" n="35"/>opinionem, quam ipsemet secutus fuerat in III Sent., dist. r,
+<lb ed="#L" n="36"/>qu. ir, art. 5, quidquid alii dixerunt praetermittendo.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e793">
+                  <lb ed="#L" n="37"/>VIII. Ad secundam vero dubitationem dicitur, quod
+<lb ed="#L" n="38"/>maior est omnino falsa. Quoniam per se primo terminus
+<lb ed="#L" n="39"/>numeralis ponit significatum suum circa suppositum 
+deter<lb break="no" ed="#L" n="40"/>minabilis, et hoc tam in substantivis quam adiectivis, ut
+<lb ed="#L" n="41"/>patet ex dictis. Sed in concretis substantivis, quia 
+sub<lb break="no" ed="#L" n="42"/>stantiva sunt, ponit etiam significatum suum circa 
+signifi<lb break="no" ed="#L" n="43"/>catum illius. Et sic nec obiectio aliquid valet: nec modus
+<lb ed="#L" n="44"/>significandi exclusus est quin operetur quod substantiva,
+<lb ed="#L" n="45"/>etiam quoad formam, numerantur, seu termino numerali
+<lb ed="#L" n="46"/>determinantur. :
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e817">
+                  <lb ed="#L" n="47"/>IX. Stabilita igitur regula universali, loco maioris, ex
+<lb ed="#L" n="48"/>ratione, manifestat eam Auctor in creaturis. Ubi et duo
+<lb ed="#L" n="49"/>docet. Primum est, quod inter unitatem formae in pluribus
+<lb ed="#L" n="50"/>suppositis divinis, et in suppositis creatis, tantum interest,
+<lb ed="#L" n="51"/>quod in pluribus suppositis creatis non invenitur forma
+<lb ed="#L" n="52"/>una ntmero nisi unitate ordinis: in divinis autem 
+suppo<lb break="no" ed="#L" n="53"/>sitis invenitur una numero essentialiter et indivisibiliter. -
+<lb ed="#L" n="54"/>Secundum est, quod etiam in ista minima unitate 
+attestan<lb break="no" ed="#L" n="55"/>tur res creatae praefatae regulae, ut patet in collegiatis.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e839">
+                  <lb ed="#L" n="56"/>X. Demum, subsumpta minore, quod essentia divina
+<lb ed="#L" n="57"/>est simplex et maxime una in tribus Personis, concludit
+<lb ed="#L" n="58"/>primam conclusionem, scilicet de substantivis. Et applicat
+<lb ed="#L" n="59"/>eam ad differentiam inter tria individua hominis, et tria
+<lb ed="#L" n="60"/>supposita divina. — Deinde infert. conclusionem secundam,
+<lb ed="#L" n="61"/>de adiectivis adiective sumptis; propter Athanasium, qui
+<lb ed="#L" n="62"/>substantive usus est adiectivis in Symbolo. Nec opus est
+<lb ed="#L" n="63"/>ampliori declaratione.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e247-Dd1e860"><!-- caj-p1-q39-a4 -->
+               <head xml:id="TAcCaj-d1e247-Hd1e863">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e247-d1e865">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="98"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e872">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="99"/>Titulus clarus est ex praecedentibus. — In corpore duo
+<lb ed="#L" n="100"/>facit: primo, refert opinionem quandam; secundo, 
+im<lb break="no" ed="#L" n="101"/>probat eam, simulque respondet quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e883">
+                  <lb ed="#L" n="102"/>II. Quoad primum, opinio quaedam fuit quod nomina
+<lb ed="#L" n="103"/>essentialia ex se supponunt proprie pro essentia, sed ex
+<lb ed="#L" n="104"/>adiuncto notionali trahuntur ad standum pro persona. Et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="105"/>est huius fundamentum divina simplicitas, qua fit quod 
+es<lb break="no" ed="#L" n="106"/>sentia, pro qua supponit abstractum, est idem supposito,
+<lb ed="#L" n="107"/>pro quo supponit concretum.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e901">
+                  <lb ed="#L" n="108"/>III. Quoad secundum, improbatur primo praefata opinio.
+<lb ed="#L" n="109"/>Quia in proprietate locutionis attendenda sunt ambo, 
+sci<lb break="no" ed="#L" n="110"/>licet significatio, et modus significandi. Praedicta autem opi- .
+<pb ed="#L" n="403"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nio significationem tantum inspexit, ad quam spectat idem
+<lb ed="#L" n="2"/>esse habentem et rem habitam.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e920">
+                  <lb ed="#L" n="3"/>Ponitur deinde altera opinio, responsiva quaesito, scilicet:
+<lb ed="#L" n="4"/>Nomina essentialia in concreto, possunt proprie supponere
+<lb ed="#L" n="5"/>pro personis. — Et probatur ex eodem fundamento. Ex modo
+<lb ed="#L" n="6"/>significandi, Deus et similia significant naturam in habente:
+<lb ed="#L" n="7"/>ergo possunt supponere pro personis. - Antecedens 
+mani<lb break="no" ed="#L" n="8"/>festatur inductive in ly homo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e936">
+                  <lb ed="#L" n="9"/>Tertio, explanatur quomodo de facto ly Deus quandoque
+<lb ed="#L" n="10"/>pro persona una, vel duabus, vel tribus supponit.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e943">
+                  <lb ed="#L" n="11"/>IV. Circa dicta hic, tria occurrunt dubia, iuxta tria dicta
+<lb ed="#L" n="12"/>impugnata ab Aureolo, apud Capreolum, in I, dist. rv, qu. r,
+<lb ed="#L" n="13"/>art, 3. — Primum est, quod ly Deus quandoque pro essentia
+<lb ed="#L" n="14"/>et quandoque pro persona supponit. Deus semper supponit
+<lb ed="#L" n="15"/>pro habente deitatem: ergo semper pro persona. — Et 
+con<lb break="no" ed="#L" n="16"/>firmatur, quia ista est ratio litterae fundans responsivam
+<lb ed="#L" n="17"/>conclusionem.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e961">
+                  <lb ed="#L" n="18"/>Secundum est, quod in ista, Deus creat, ly Deus supponit
+<lb ed="#L" n="19"/>pro essentia. Actiones sunt suppositorum: ergo. — Praeterea,
+<lb ed="#L" n="20"/>creatio non abstrahit a suppositis, sicut nec clare videri
+<lb ed="#L" n="21"/>essentiam: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e972">
+                  <lb ed="#L" n="22"/>Tertium est, quod in ly Regi Mectlinini etc., ly Deo
+<lb ed="#L" n="23"/>supponit pro tribus suppositis. Hoc enim repugnat 
+prae<lb break="no" ed="#L" n="24"/>cedenti dicto. Illi enim soli qui creat, debetur honor et 
+glo<lb break="no" ed="#L" n="25"/>ria: sed ille, per te, non demonstrat aliquod suppositum:
+<lb ed="#L" n="26"/>ergo nec hic. Si hic ostendit tria supposita, ergo et ibi.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e985">
+                  <lb ed="#L" n="27"/>^W. Praeter haec autem tria dubia, adhuc tria alia dubia
+<lb ed="#L" n="28"/>sunt circa tria dicta in responsione ad tertium: quae oportet
+<lb ed="#L" n="29"/>simul cum istis tractare, ut facilior ac brevior sit disciplina
+<lb ed="#L" n="30"/>connexorum. - Dicitur ergo primo in responsione ad 
+ter<lb break="no" ed="#L" n="31"/>tium, quod differentia est inter ly Deus et ly homo in sup-
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e999">
+                  <lb ed="#L" n="32"/>ponendo, etc. Ubi duplex est ratio dubii. Prima est. Aut ista
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1004">
+                  <lb ed="#L" n="33"/>differentia attenditur penes suppositionem pro persona 
+de<lb break="no" ed="#L" n="34"/>terminata; aut pro persona indistincte. Si primo modo,
+<lb ed="#L" n="35"/>nulla est differentia: quia nec. Deus stat pro Patre aut Filio,
+<lb ed="#L" n="36"/>sine addito; nec Aomo pro Socrate aut Platone, sine aliquo
+<lb ed="#L" n="37"/>contractivo. - Si secundo modo, nulla quoque est 
+differen<lb break="no" ed="#L" n="38"/>tia: quia sicut Aomo naturaliter supponit pro habente 
+natu<lb break="no" ed="#L" n="39"/>ram humanam indefinite, ita Zeus pro habente naturam
+<lb ed="#L" n="40"/>divinam indistincte, ut etiam s. Thomas, in I, dist. rv, dicit.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1024">
+                  <lb ed="#L" n="41"/>Secunda vero ratio est, quia videtur differentia haec 
+con<lb break="no" ed="#L" n="42"/>tradicere his quae dicta sunt in corpore, dum ibi dictum
+<lb ed="#L" n="43"/>est quod Deus ex se, ratione modi significandi, stat pro 
+per<lb break="no" ed="#L" n="44"/>sona; reprehensaque est altera opinio, dicens quod 
+suppo<lb break="no" ed="#L" n="45"/>nere pro persona habet ex adiuncto notionali: hic autem
+<lb ed="#L" n="46"/>in reprehensam incidit opinionem, dum dicit quod in hoc
+<lb ed="#L" n="47"/>differunt ly Deus et ly homo, quod ly Deus ex se pro natura,
+<lb ed="#L" n="48"/>ex adiuncto pro persona, ly homo vero e contra supponit.
+<lb ed="#L" n="49"/>Manifeste namque haec videntur contrariari.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1046">
+                  <lb ed="#L" n="50"/>VI. Secundum autem dubium est, quod ibi dicitur hanc
+<lb ed="#L" n="51"/>esse falsam, Deus non generat. Contra hoc enim. multa
+<lb ed="#L" n="52"/>habes argumenta apud Capreolum, in I, dist. rv, qu. 1, art. 2;
+<lb ed="#L" n="53"/>quae oportet solvere. - Aureolüs ergo arguit primo, sic. In
+<lb ed="#L" n="54"/>ista, Deus non generat, ly Deus stat pro natura, ut tu dicis:
+<lb ed="#L" n="55"/>ergo est vera. Probatur sequela: quia natura non generat,
+<lb ed="#L" n="56"/>ut patet Extra de Summa Trinitate. — Praeterea, non 
+ge<lb break="no" ed="#L" n="57"/>nerare est notionale: ergo contrahit ly Deus ad standum
+<lb ed="#L" n="58"/>pro persona. Antecedens probatur: quia affirmatio et 
+ne<lb break="no" ed="#L" n="59"/>gatio sunt eiusdem generis. — Praeterea, Deus non generat
+<lb ed="#L" n="60"/>et omnis Deus generat sunt contradictoriae: ergo 
+suppo<lb break="no" ed="#L" n="61"/>nunt pro eisdem. Sed in secunda supponit pro persona:
+<lb ed="#L" n="62"/>ergo et in prima.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1077">
+                  <lb ed="#L" n="63"/>Deinde arguunt Durandus et Gregorius de Arimino quod,
+<lb ed="#L" n="64"/>de virtute sermonis, vera est haec propositio; quamvis, 
+pro<lb break="no" ed="#L" n="65"/>pter erroris periculum, a Magistris non acceptetur. - 
+Duran<lb break="no" ed="#L" n="66"/>dus quidem igitur sic. De Deo praedicantur omnia quae
+<lb ed="#L" n="67"/>de personis divinis verificantur: sed ztom generare verificatur
+<lb ed="#L" n="68"/>de duabus personis: ergo. — Praeterea, Deus secundum 
+na<lb break="no" ed="#L" n="69"/>turam est singularis, secundum vero supposita plurificatur :
+<lb ed="#L" n="70"/>ergo respectu praedicatorum essentialium, habet vim termini
+<lb ed="#L" n="71"/>singularis, respectu vero personalium, habet vim termini
+<lb ed="#L" n="72"/>communis indefiniti; ut patet, quia dicimus, Deus est 
+ge<lb break="no" ed="#L" n="73"/>nerans, Deus est genitus, et verificatur pro distinctis 
+sup<lb break="no" ed="#L" n="74"/>positis. Ergo et consequentia, seu concomitantia, scilicet 
+ge<lb break="no" ed="#L" n="75"/>nerat et non generat, similiter verificari oportet.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1108">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>Gregorius autem sic. Ista est indefinita, et habet duas
+<lb ed="#L" n="77"/>singulares veras; sicut et ista, persona divina non generat,
+<lb ed="#L" n="78"/>quam constat esse simul veram cum altera indefinita, 
+sci<lb break="no" ed="#L" n="79"/>licet, persona divina generat. Ergo non est falsa.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1122">
+                  <lb ed="#L" n="80"/>VII. Tertium dubium est circa rationem litterae, scilicet
+<lb ed="#L" n="81"/>quod, cum dicitur, Deus non generat, datur intelligi quod
+<lb ed="#L" n="82"/>generatio repugnat divinae naturáe. Hoc enim, inquit 
+Au<lb break="no" ed="#L" n="83"/>reolus, non est verum: quoniam ex negatione alicuius ab
+<lb ed="#L" n="84"/>aliqua natura, non sequitur repugnantia; stat enim quod
+<lb ed="#L" n="85"/>abstrahat.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1138">
+                  <lb ed="#L" n="86"/>VIII. Ad evidentiam horum, notandum est diligentissime
+<lb ed="#L" n="87"/>quod inter Deum et ceteras substantias hoc interest, quod
+<lb ed="#L" n="88"/>in reliquis haec duo, scilicet naturam et habens naturam,
+<lb ed="#L" n="89"/>oportet sic se habere, ut habens naturam sit suppositum,
+<lb ed="#L" n="90"/>natura vero sit ipsa essentia: in Deo autem habens 
+natu<lb break="no" ed="#L" n="91"/>ram dupliciter invenitur, scilicet suppositum, ut Pater vel
+<lb ed="#L" n="92"/>Filius, et singulare, idest hic Deus. Itaque in divinis 
+consi<lb break="no" ed="#L" n="93"/>deranda sunt tria, scilicet essentia, hic Deus, et supposita
+<lb ed="#L" n="94"/>divina, scilicet Pater et Filius et Spiritus Sanctus. In reliquis
+<lb ed="#L" n="95"/>autem duo tantum inveniuntur, puta humanitas et Socrates:
+<lb ed="#L" n="96"/>non enim Aic homo est aliud quam Socrates. 7Jic tamen
+<lb ed="#L" n="97"/>Deus est Pater et Filius et Spiritus Sanctus, et generat et
+<lb ed="#L" n="98"/>genitus est, etc.: de quo scriptum est, Exod. xv: Jste Deus
+<lb ed="#L" n="99"/>meus, et glorificabo eum, ut in calce ultimi articuli huius
+<lb ed="#L" n="100"/>quaestionis s. Thomas exponit.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1173">
+                  <lb ed="#L" n="101"/>Est autem ratio diversitatis, quia natura divina ex 
+se<lb break="no" ed="#L" n="102"/>ipsa subsistit, nec mendicat subsistentiam a. suppositis, imo
+<lb ed="#L" n="103"/>confert eam illis: reliquae autem naturae non subsistunt
+<lb ed="#L" n="104"/>nisi in supposito. Cum autem naturalissimum sit cuique
+<lb ed="#L" n="105"/>termino concreto supponere pro habente significatam 
+for<lb break="no" ed="#L" n="106"/>mam, consequens est quod Deus primo supponat pro Aoc
+<lb ed="#L" n="107"/>Deo. Et quia hic Deus significat singulare naturae divinae,
+<lb ed="#L" n="108"/>ideo dicitur quod pro natura in concreto. Et quia hoc
+<lb ed="#L" n="109"/>singulare est commune tribus suppositis, ideo quandoque
+<lb ed="#L" n="110"/>dicitur quod stat pro. personis indistincte. Et quia est idem
+<lb ed="#L" n="111"/>cuilibet supposito, et concrete significatur, ideo potest stare
+<lb ed="#L" n="112"/>pro singulis personis.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1202">
+                  <lb ed="#L" n="113"/>IX. Ex hoc autem fundámento singillatim respondendo;
+<lb ed="#L" n="114"/>et inchoando a primo dubio in responsione ad tertium,
+<lb ed="#L" n="115"/>propter ordinem doctrinae; dicitur quod inter Deum et 
+ho<lb break="no" ed="#L" n="116"/>migem in supponendo differentia attenditur quoad 
+suppo<lb break="no" ed="#L" n="117"/>sitionem pro persona indeterminate. Et stat differentiain
+<lb ed="#L" n="118"/>hoc, quod Deus, sine aliquo adiuncto, reddit propositionem
+<lb ed="#L" n="119"/>singularem ,, quoniam supponit pro 4oc Deo, communi 
+se<lb break="no" ed="#L" n="120"/>cundum rem tribus personis: homo vero, sine aliquo-
+adiun<lb break="no" ed="#L" n="121"/>cto, constituit propositionem indefinitam, quoniam supponit
+<lb ed="#L" n="122"/>personaliter, quamvis indeterminate. Et e contra /;omo ex
+<lb ed="#L" n="123"/>adiuncto constituit propositionem singularem, cum habet
+<lb ed="#L" n="124"/>suppositionem simplicem, ut puta, Aomo est species: Deus
+<lb ed="#L" n="125"/>vero ex adiuncto constituit propositionem indefinitam, 
+sup<lb break="no" ed="#L" n="126"/>ponendo personaliter. Et oritur hoc, ut in littera dicitur,
+<lb ed="#L" n="127"/>ex hoc quod invenitur Aic Deus in rerum natura tribus
+<lb ed="#L" n="128"/>personis communis: non autem Aic homo.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1239">
+                  <lb ed="#L" n="129"/>Nec repugnant haec dictis in corpore, ut secunda ratio
+<lb ed="#L" n="130"/>obiiciebat. Quoniam in corpore articuli de potentia ad 
+sup<lb break="no" ed="#L" n="131"/>ponendum personaliter fuit sermo: et dictum est quod 
+po<lb break="no" ed="#L" n="132"/>test, ex modo significandi, supponere pro persona, sicut et
+<lb ed="#L" n="133"/>homo. In responsione autem ad tertium, est sermo de modo
+<lb ed="#L" n="134"/>reductionis potentiae ad actum. Et dicitur quod ly Deus,
+<lb ed="#L" n="135"/>cum possit ex se supponere pro essentia, idest pro toc Deo,
+<lb ed="#L" n="136"/>et pro persona, idest pro Patre et Filio et Spiritu Sancto; ad
+<lb ed="#L" n="137"/>supponendum actualiter pro hoc Deo, non eget reducente:
+<lb ed="#L" n="138"/>ad supponendum vero pro personis, reducitur per aliquid
+<lb ed="#L" n="139"/>additum. In homine yero, in cuius significato non invenitur
+<lb ed="#L" n="140"/>unum commune nisi ut subest intellectui, e contra accidit
+<lb ed="#L" n="141"/>reductio. Unde nulla est repugnantia inter dicta.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1270">
+                  <lb ed="#L" n="142"/>X. Ad primum autem dubium in corpore articuli 
+mo<lb break="no" ed="#L" n="143"/>tum, breviter ex dictis patet responsio. Neganda est enim
+<lb ed="#L" n="144"/>sequela, supponit pro habente deitatem, ergo pro persona:
+<lb ed="#L" n="145"/>stat enim quod supponat pro oc Deo. - Nec approbo
+<lb ed="#L" n="146"/>quod. alii sentire videntur, de mente s. Thomae esse quod
+<lb ed="#L" n="147"/>Deus semper stat pro persona, distincte vel indistincte. Tum
+<lb ed="#L" n="148"/>quia in praesenti littera expresse distinguitur quando Deus
+<lb ed="#L" n="149"/>stat pro personis, etiam omnibus; et quando stat pro 
+es<lb break="no" ed="#L" n="150"/>sentia, Tum quia aliter non salvatur differentia posita in
+<pb ed="#L" n="404"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>littera in responsione ad tertium. Tum quia in ista, Deus
+<lb ed="#L" n="2"/>non generat, si ly Deus staret pro personis indistincte, esset
+<lb ed="#L" n="3"/>vera, utpote indefinita. Tum quia in ista, Deus est Pater et
+<lb ed="#L" n="4"/>Filius et Spiritus Sanctus, seu Trinitas, ly Deus non stat
+<lb ed="#L" n="5"/>pro supposito, ut in articulo sexto littera contra 
+Porreta<lb break="no" ed="#L" n="6"/>num dicet; sed pro una numero re communi, - Nec obstat
+<lb ed="#L" n="7"/>si quandoque, supponendo pro natura, dicatur etiam 
+sup<lb break="no" ed="#L" n="8"/>ponere pro personis indistincte. Hoc enim  concomitanter
+<lb ed="#L" n="9"/>intelligendum est. Primo enim pro natura in concreto 
+sup<lb break="no" ed="#L" n="10"/>ponit: et quia etiam verificatur pro personis aliquando
+<lb ed="#L" n="11"/>praedicatum, ideo supponere pro personis indistincte tunc,
+<lb ed="#L" n="12"/>secundario tamen, acceptari potest.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1323">
+                  <lb ed="#L" n="13"/>Ad secundum autem dubium in corpore motum, iam
+<lb ed="#L" n="14"/>patet quod arguens deceptus est, intelligens pro essentia
+<lb ed="#L" n="15"/>essentiam 7n abstracto; cum tamen Auctor intelligat de 
+es<lb break="no" ed="#L" n="16"/>sentia in concreto; cum dicit quod in ista, Deus creat, ly
+<lb ed="#L" n="17"/>Deus supponit pro natura. Stat enim secundum veritatem
+<lb ed="#L" n="18"/>pro hoc Deo unico singulari, communi tribus suppositis.
+<lb ed="#L" n="19"/>Et propterea creationis actio, ratione illius, omnibus 
+suppo<lb break="no" ed="#L" n="20"/>sitis convenit. -.Nec est verum quod actiones sint 
+suppo<lb break="no" ed="#L" n="21"/>sitorum, universaliter: sed singularium subsistentium, quale
+<lb ed="#L" n="22"/>est hic Deus. - Et nihil refert non abstrahere a suppositis
+<lb ed="#L" n="23"/>huiusmodi actiones; ut de se patet.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1349">
+                  <lb ed="#L" n="24"/>Ad tertium autem dubium ibidem motum, dicitur quod,
+<lb ed="#L" n="25"/>ut iam ex dictis patet, non repugnat, imo quandoque
+<lb ed="#L" n="26"/>unum sequitur ad alterum, Deum supponere pro natura
+<lb ed="#L" n="27"/>et pro omnibus personis, quamvis difformiter, ut dictum.
+<lb ed="#L" n="28"/>est. Unde, licet in utraque istarum, scilicet Deus creat,
+<lb ed="#L" n="29"/>et soli Deo honor et gloria, Deus verificetur et pro Aoc
+<lb ed="#L" n="30"/>Deo et pro Trinitate: quia tamen Augustinus de tota 
+Tri<lb break="no" ed="#L" n="31"/>nitate exclusivam exponit, ut in quaestione xxxi habitum
+<lb ed="#L" n="32"/>est; ideo hanc in exemplum allatam puto. Oportet autem
+<lb ed="#L" n="33"/>distingui hoc membrum contra primum, quia primum 
+se<lb break="no" ed="#L" n="34"/>paratur ab eo: stat enim Deus quandoque pro natura et
+<lb ed="#L" n="35"/>non pro aliquo supposito, ut dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1378">
+                  <lb ed="#L" n="36"/>XI. Ad secundum autem dubium motum in responsione
+<lb ed="#L" n="37"/>ad tertium, circa veritatem istius, Deus non generat, ex
+<lb ed="#L" n="38"/>fundamento iam dicto respondetur. Et ad primum quidem
+<lb ed="#L" n="39"/>Aureoli, iam patet quod aequivocat de matura. Quoniam
+<lb ed="#L" n="40"/>nos dicimus quod stat pro natura in concreto, idest pro
+<lb ed="#L" n="41"/>hoc Deo; de quo falsum est dicere non generat, quamvis
+<lb ed="#L" n="42"/>verificetur de deitate.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1396">
+                  <lb ed="#L" n="43"/>Ad secundum vero, negatur quod on generare sit 
+no<lb break="no" ed="#L" n="44"/>tionale. Quoniam ad esse notionale requiritur quod sit 
+ali<lb break="no" ed="#L" n="45"/>quid speciale: non generare autem est commune, cum con-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="46"/>veniat etiam. naturae. - Nec ex hoc quod negatio et 
+affirma<lb break="no" ed="#L" n="47"/>tio sunt eiusdem generis, sequitur quod mom generare sit
+<lb ed="#L" n="48"/>notionale: quoniam illud intelligitur. de genere rei, non
+<lb ed="#L" n="49"/>autem in genere principii cognoscendi. Non enim, si 
+affirma<lb break="no" ed="#L" n="50"/>tio est propria ratio cognoscendi aliquid, sequitur quod 
+ne<lb break="no" ed="#L" n="51"/>gatio sit propria ratio cognoscendi aliquid aliud speciale:
+<lb ed="#L" n="52"/>cum negatio verificetur tam de ente quam de non ente.
+<lb ed="#L" n="53"/>Notionale autem propriam rationem cognoscendi sonare
+<lb ed="#L" n="54"/>patet ex dictis. L
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1427">
+                  <lb ed="#L" n="55"/>Ad tertium vero dicitur quod, quamvis nefas sit dicere
+<lb ed="#L" n="56"/>omnis Deus, quoniam unus numero tantum est; 
+respon<lb break="no" ed="#L" n="57"/>dendo tamen, negatur quod in ly omnis Deus ly Deus stet
+<lb ed="#L" n="58"/>pro suppositis. Quoniam non potest distribuere nisi pro
+<lb ed="#L" n="59"/>individuis deitatis: quod constat esse unum tantum. Et si tu
+<lb ed="#L" n="60"/>accipis ea pro suppositis, non sunt contradictoria.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1443">
+                  <lb ed="#L" n="61"/>Ad argumenta autem Durandi et Gregorii breviter 
+di<lb break="no" ed="#L" n="62"/>citur, quod convenientia personis sunt duplicia: quaedam
+<lb ed="#L" n="63"/>propria suppositis, ut generare et generari, et similia; et
+<lb ed="#L" n="64"/>quaedam communia suppositis et naturis, ut distingui, non
+<lb ed="#L" n="65"/>generare, et similia. Inter quae tantum differt, quod propria
+<lb ed="#L" n="66"/>trahunt terminos ad standum suppositaliter, eo quia 
+pro<lb break="no" ed="#L" n="67"/>pria suppositis sunt: communia autem, quia communia
+<lb ed="#L" n="68"/>sunt, non contrahunt. Et ex hoc sequitur alia differentia:
+<lb ed="#L" n="69"/>scilicet quod propria praedicata de personis, praedicantur
+<lb ed="#L" n="70"/>etiam de concretis substantialibus; ex eo enim quod trahunt
+<lb ed="#L" n="71"/>illa ad supponendum personaliter, non significant personale
+<lb ed="#L" n="72"/>determinare essentiam, sed tantum supposita. Communia
+<lb ed="#L" n="73"/>vero, quamvis verificata de personis, non praedicantur: de
+<lb ed="#L" n="74"/>concretis substantialibus: ex eo enim quod non contrahunt
+<lb ed="#L" n="75"/>ipsa, significaretur personalia convenire essentiae. Et 
+pro<lb break="no" ed="#L" n="76"/>pterea, quamvis concedatur, Pater distinguitur realiter a
+<lb ed="#L" n="77"/>Filio ; non tamen ista, Deus distinguitur realiter a Deo.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1483">
+                  <lb ed="#L" n="78"/>Et ex hoc patet ad argumenta tam Durandi quam 
+Gre<lb break="no" ed="#L" n="79"/>gorii: quoniam uterque fundatur super hoc, quod quidquid
+<lb ed="#L" n="80"/>praedicatur de aliqua persona, potest praedicari de. Deo. —
+<lb ed="#L" n="81"/>Quamvis etiam sit aliud peccatum utriusque in hoc, quod
+<lb ed="#L" n="82"/>putant quod ista, Deus nom generat, sit indefinita: cum
+<lb ed="#L" n="83"/>tamen sit singularis, quoniam supponit pro Aoc Deo.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1499">
+                  <lb ed="#L" n="84"/>XII. Ad ultimum demum dubium dicitur quod, 
+quam<lb break="no" ed="#L" n="85"/>vis ex negatione non sequatur repugnantia universaliter,
+<lb ed="#L" n="86"/>sequitur tamen in materia necessaria: oportet enim vel 
+con<lb break="no" ed="#L" n="87"/>venire vel repugnare quidquid necessario attribuitur. 
+Con<lb break="no" ed="#L" n="88"/>stat autem quod generare et non generare Deo non nisi
+<lb ed="#L" n="89"/>necessario attribui potest: cum haec non conveniant per
+<lb ed="#L" n="90"/>actum voluntatis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e247-Dd1e1519"><!-- caj-p1-q39-a5 -->
+               <head xml:id="TAcCaj-d1e247-Hd1e1522">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e247-d1e1524">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="97"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1531">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="98"/>TITULUS clarus, est. - In corpore duo facit: primo, refert
+<lb ed="#L" n="99"/>errorem Abbatis Ioachim; secundo, respondet quaesito.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1540">
+                  <lb ed="#L" n="100"/>Il. Quoad primum, Abbas Ioachim, ut patet in 
+prin<lb break="no" ed="#L" n="101"/>cipio Decretalium, tenuit partem affirmativam. Et 
+fun<lb break="no" ed="#L" n="102"/>damentum eius erat divina simplicitas, cum auctoritate
+<lb ed="#L" n="103"/>Augustini male intellecta.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1551">
+                  <lb ed="#L" n="104"/>III. Quoad secundum, conclusio responsiva est negativa:
+<lb ed="#L" n="105"/>scilicet, quod huiusmodi nomina abstracta non possunt
+<lb ed="#L" n="106"/>supponere pro personis. — Et probatur. Ad veritatem 
+propo<lb break="no" ed="#L" n="107"/>sitionum oportet servare et rem significatam, et modum si-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="108"/>gnificandi: sed Deus et deitas habent diversos modos 
+signi<lb break="no" ed="#L" n="109"/>ficandi: ergo, etc. Littera enim plana est. - Et additur 
+con<lb break="no" ed="#L" n="110"/>firmatio ducens ad inconveniens. Quia si de huiusmodi
+<lb ed="#L" n="111"/>abstractis dicerentur personalia, significaretur distinctio in
+<lb ed="#L" n="112"/>ipsis.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1576">
+                  <lb ed="#L" n="113"/>IV. In responsione ad quintum, adverte quod in illis
+<lb ed="#L" n="114"/>verbis, possumus dicere quod essentia est res vel Deus
+<lb ed="#L" n="115"/>generans, si «res» et « Deus » supponunt pro persona,
+<lb ed="#L" n="116"/>mon autem si supponant pro essentia, ly supponere pro
+<lb ed="#L" n="117"/>essentia sumitur iuxta propositum praesentis articuli, sci-
+<pb ed="#L" n="406"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>licet pro essentia in abstracto: et non sumitur pro essentia
+<lb ed="#L" n="2"/>in concreto, iuxta propositum praecedentis articuli. - Et
+<lb ed="#L" n="3"/>ratio convincens ad hanc expositionem est, quia de 
+quo<lb break="no" ed="#L" n="4"/>libet de quo contingit negare, potest affirmari 
+contradicto<lb break="no" ed="#L" n="5"/>rie. Et consequenter, cum de essentia in concreto falsa sit
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>negativa, scilicet Deus non generat; veram oportet esse
+<lb ed="#L" n="7"/>affirmativam contradictoriam, scilicet Deus generat. Et sic
+<lb ed="#L" n="8"/>haec affirmativa est vera, non solum accipiendo ly Deus
+<lb ed="#L" n="9"/>pro Patre, sed etiam pro essentia in concreto. Sumitur ergo
+<lb ed="#L" n="10"/>in hac littera essentia pro essentia in abstracto.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e247-Dd1e1619"><!-- caj-p1-q39-a6 -->
+               <head xml:id="TAcCaj-d1e247-Hd1e1622">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e247-d1e1624">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1631">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="68"/>TITULUS clarus. - In corpore est una conclusio, habens
+<lb ed="#L" n="69"/>ras partes. Et est haec: Nomina tam personalia quam
+<lb ed="#L" n="70"/>notionalia, si sunt adiectiva, non praedicantur de essentia; si
+<lb ed="#L" n="71"/>vero substantiva, praedicantur de ea.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1644">
+                  <lb ed="#L" n="72"/>Et quoad primam quidem partem, satis probata 
+relinqui<lb break="no" ed="#L" n="73"/>tur ex praecedenti articulo. - Quoad secundam vero, 
+manife<lb break="no" ed="#L" n="74"/>statur ex reali identitate inter essentiam et personas singulas
+<lb ed="#L" n="75"/>et omnes; et hoc respectu essentiae tam in abstracto quam
+<lb ed="#L" n="76"/>in concreto; ita quod utraque est vera, essentia est tres 
+Per<lb break="no" ed="#L" n="77"/>sonae, et Deus est tres Personae; ut clare patet in littera.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1660">
+                  <lb ed="#L" n="78"/>Et adverte quod id quod dicitur de substantivis, licet
+<lb ed="#L" n="79"/>verificetur respectu essentiae tam in abstracto quam in 
+con<lb break="no" ed="#L" n="80"/>creto; quod tamen dictum est de adiectivis in prima parte
+<lb ed="#L" n="81"/>conclusionis, respectu essentiae in abstracto tantum 
+intelli<lb break="no" ed="#L" n="82"/>gas. Eo quod idem est iudicium de adiectivis et verbis: ac
+<lb ed="#L" n="83"/>per hoc, de quo verificatur quod generat, verificatur etiam
+<lb ed="#L" n="84"/>quod est generans, et de quo negatur unum, negatur aliud;
+<lb ed="#L" n="85"/>et iam patet ex dictis quantum haec differant iiic.
+<lb ed="#L" n="86"/>concreti et abstracti substantialis.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1683">
+                  <lb ed="#L" n="87"/>II. In responsione ad secundum, dubium occurrit, Que:
+<lb ed="#L" n="88"/>niam expresse in qu. vri de Potentia Dei, art. 2, ad 6, 
+Au<lb break="no" ed="#L" n="89"/>ctor dicit non esse praedicationem. per se, cum paternitas
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="90"/>praedicatur de essentia, imo ibi incidere sophisma 
+Acciden<lb break="no" ed="#L" n="91"/>tis: hic autem dicit quod haec est per se, et nullo modo
+<lb ed="#L" n="92"/>per accidens, Deus est Pater.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1701">
+                  <lb ed="#L" n="93"/>Et posset augeri dubitatio simpliciter; sed quoniam
+<lb ed="#L" n="94"/>unico verbo difficultas evacuatur, pertranseo, distinguendo
+<lb ed="#L" n="95"/>quod praedicatio per se est duplex: quaedam ;dentica, et
+<lb ed="#L" n="96"/>quaedam formalis. Inter quas tantum distat, quod identica
+<lb ed="#L" n="97"/>per se non vocatur absolute per se, sed cum 
+determina<lb break="no" ed="#L" n="98"/>tione, scilicet per se identica: illa autem simpliciter vocatur
+<lb ed="#L" n="99"/>per se. Cum autem utrobique dicantur huiusmodi 
+propo<lb break="no" ed="#L" n="100"/>sitiones identicae, salva veritate potuit ibi dici quod non
+<lb ed="#L" n="101"/>sunt per se, quia non formales, ut ibi exponitur: et hic,
+<lb ed="#L" n="102"/>quod sunt per se, in latitudine identicarum, ut hic innuitur
+<lb ed="#L" n="103"/>et in principio responsionis, et in intento. Intendit namque
+<lb ed="#L" n="104"/>quod non accidit Deo esse Patrem , cum tamen accidat
+<lb ed="#L" n="105"/>animali identificari homini. Est ergo nullo modo per 
+ac<lb break="no" ed="#L" n="106"/>cidens quoad identitatem: et tamen intervenit fallacia 
+Acci<lb break="no" ed="#L" n="107"/>dentis quoad formalitatem. - Et sic omnia consonant: et
+<lb ed="#L" n="108"/>evacuantur argumenta de praedicationibus formalibus et
+<lb ed="#L" n="109"/>directis et per se, iuxta modos positos in libris 
+Posterio<lb break="no" ed="#L" n="110"/>rum; nihil enim horum identicam praedicationem mole- eur I, cap.
+<lb ed="#L" n="111"/>stat, proprie loquendo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e247-Dd1e1746"><!-- caj-p1-q39-a7 -->
+               <head xml:id="TAcCaj-d1e247-Hd1e1749">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e247-d1e1751">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="83"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1758">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="84"/>IN titulo, appropriari non significat proprium fieri, 
+quo<lb break="no" ed="#L" n="85"/>niam essentialia nulli Personae possunt fieri propria: sed
+<lb ed="#L" n="86"/>significat accommodari et adaptari, ut consueverunt 
+Do<lb break="no" ed="#L" n="87"/>ctores facere, attribuentes sapientiam Filio, quia est 
+Ver<lb break="no" ed="#L" n="88"/>bum, etc.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1774">
+                  <lb ed="#L" n="89"/>II. In corpore duo facit. Primo, respondet quaesito 
+af<lb break="no" ed="#L" n="90"/>firmative unica conclusione: Conveniens fuit, ad 
+manifesta<lb break="no" ed="#L" n="91"/>tionem fidei, essentialia appropriari Personis. - Et probatur
+<lb ed="#L" n="92"/>breviter sic. Trinitas, quamvis indemonstrabilis, est tamen
+<lb ed="#L" n="93"/>notificabilis.per magis manifesta nobis: ergo convenit ipsam
+<lb ed="#L" n="94"/>manifestari per essentialia: ergo essentialia convenit 
+appro<lb break="no" ed="#L" n="95"/>priare Personis.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1792">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="96"/>Prima consequentia probatur dupliciter. Primo, quia 
+es<lb break="no" ed="#L" n="97"/>sentialia possunt ratione naturali cognosci: personales 
+au<lb break="no" ed="#L" n="98"/>tem proprietates non. Secundo, ex simili: sicut Personae
+<lb ed="#L" n="99"/>manifestantur per similitudinem vestigii vel imaginis, ita
+<lb ed="#L" n="100"/>per essentialia. - Secunda autem sequela declaratur: quia
+<lb ed="#L" n="101"/>appropriatio, in proposito, nihil aliud est quam manifestatio
+<lb ed="#L" n="102"/>Personarum per essentialia attributa.
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1813">
+                  <lb ed="#L" n="103"/>Secundo, ponit duos generales modos appropriandi : 
+sci<lb break="no" ed="#L" n="104"/>licet per similitudinem ad propria Personarum; aut per
+<lb ed="#L" n="105"/>dissimilitudinem ad imperfectiones inventas apud nos in
+<lb ed="#L" n="106"/>personis eorundem nominum, puta patribus aut filiis, etc. ;
+<lb ed="#L" n="107"/>ut in sequenti articulo clare patet.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e247-Dd1e1827"><!-- caj-p1-q39-a8 -->
+               <head xml:id="TAcCaj-d1e247-Hd1e1830">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e247-d1e1832">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="85"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e247-d1e1839">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="86"/>Titulus valde amplus est: comprehendit enim 
+quaestio<lb break="no" ed="#L" n="87"/>nes de tot appropriatis, quot arguendo tanguntur; quae
+<lb ed="#L" n="88"/>omnia in Scriptura tradita contineri videntur (1) <!-- additional text in 1514 edition here -->
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="89"/>In corpore nihil addendum puto: quoniam distinctus,
+<lb ed="#L" n="90"/>ordinatus, formatus, facileque intelligibilis ex se est. Unde
+<lb ed="#L" n="91"/>lectione potius quam expositione eget.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

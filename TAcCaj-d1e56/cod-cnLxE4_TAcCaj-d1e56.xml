@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="28"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e56"><!-- TAcCajp1-q2 -->
+            <head xml:id="TAcCaj-d1e56-Hd1e99">Quaestio 2</head>
+            <div xml:id="TAcCaj-d1e56-Dd1e101"><!-- caj-p1-q2-a1 -->
+               <head xml:id="TAcCaj-d1e56-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e56-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>IN titulo huius primi articuli, ly per se, non per alium
+<lb ed="#L" n="45"/>loiidan: terminum: ly notum, notitia evidenti. 
+Propo<lb break="no" ed="#L" n="46"/>sitio enim per se nota dicitur, quae ex solis propriis 
+termi<lb break="no" ed="#L" n="47"/>nis est nota evidentia certa et infallibili, ut patet I Poster.
+<lb ed="#L" n="48"/>Est ergo sensus tituli: Utrum haec propositio, Deus est, sit
+<lb ed="#L" n="49"/>per se nota.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e131">
+                  <lb ed="#L" n="50"/>I. In corpore duo fiunt: primo distinguitur propositio
+<lb ed="#L" n="51"/>per se nota; secundo respondetur quaesito. Quoad 
+pri<lb break="no" ed="#L" n="52"/>mum, distinctio est: propositionis per se notae, alia 
+secun<lb break="no" ed="#L" n="53"/>dum se tantum; alia secundum se et quoad nos: et haec,
+<lb ed="#L" n="54"/>aut quoad nos omnes, aut quoad sapientes tantum. Et
+<lb ed="#L" n="55"/>sic fiunt tria membra in littera.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e147">
+                  <lb ed="#L" n="56"/>Declaratur distinctio, cum suis membris, ex una radice
+<lb ed="#L" n="57"/>propositionis per se notae in communi, Propositio per se
+<lb ed="#L" n="58"/>nota est, cuius praedicatum clauditur in ratione subiecti.
+<lb ed="#L" n="59"/>Ergo propositio per se nota secundum se et quoad nos
+<lb ed="#L" n="60"/>est, cuius praedicatum est in ratione subiecti, et nobis est
+<lb ed="#L" n="61"/>nota ratio subiecti et praedicati, ut quodlibet est aut non
+<lb ed="#L" n="62"/>est, etc. Secundum se autem tantum, cuius praedicatum
+<lb ed="#L" n="63"/>est in ratione subiecti, sed rationes terminorum nos latent.
+<lb ed="#L" n="64"/>Ergo secundum se et quoad sapientes, cuius praedicatum
+<lb ed="#L" n="65"/>est in ratione subiecti, et rationes terminorum clarent apud
+<lb ed="#L" n="66"/>sapientes, ut incorporalia non esse in loco. Et confirmatur
+<lb ed="#L" n="67"/>hoc membrum auctoritate Boetii. ,
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e177">
+                  <lb ed="#L" n="68"/>III. Circa hanc partem, adverte quod propositio per se
+<lb ed="#L" n="69"/>nota ideo dicitur per se, idest non per alium medium 
+ter<lb break="no" ed="#L" n="70"/>minum, nota, quia excludit ly per se quemcumque alium
+<lb ed="#L" n="71"/>medium terminum, et consequenter quamcumque 
+praemis<lb break="no" ed="#L" n="72"/>sam, ad notificandum eam. Et cum propositio aliqua possit
+<lb ed="#L" n="73"/>notificari a priori et a posteriori, oportet quod ly per se
+<lb ed="#L" n="74"/>distinguatur: an excludat medium terminum a priori 
+tan<lb break="no" ed="#L" n="75"/>tum; an a priori et a posteriori simul. Si enim omnis 
+pro<lb break="no" ed="#L" n="76"/>positio per se nota, est habens praedicatum in ratione
+<lb ed="#L" n="77"/>subiecti, oportet ut semper ly per se excludat medium a
+<lb ed="#L" n="78"/>priori: sed quoniam contingit quod inter ea inter quae
+<lb ed="#L" n="79"/>nullum est secundum se medium, ut sunt cognita nobis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>sit medium, ideo non semper excludit medium a 
+poste<lb break="no" ed="#L" n="81"/>riori. Et propterea in littera distincta est propositio per se
+<lb ed="#L" n="82"/>nota, ex differentia inter terminos notos et ignotos, idest ex
+<lb ed="#L" n="83"/>differentia inter extrema propositionum ut sunt nobis nota.
+<lb ed="#L" n="84"/>Illae enim quarum extrema, non secundum se tantum, sed
+<lb ed="#L" n="85"/>ut nota nobis, sunt immediata, sunt omnibus per se notae.
+<lb ed="#L" n="86"/>Illae vero quarum extrema, licet secundum se, non tamen
+<lb ed="#L" n="87"/>ut nota nobis, sunt immediata, sunt secundum se tantum
+<lb ed="#L" n="88"/>per se notae, non nobis. Et similiter, quarum extrema ut
+<lb ed="#L" n="89"/>nota sapientibus, sunt immediata, sunt eis per se notae.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e229">
+                  <lb ed="#L" n="90"/>IV. Circa hanc partem, sunt multa dubia et argumenta
+<lb ed="#L" n="91"/>Scoti, Aureoli et Gregorii; sed quoniam haec ad librum
+<lb ed="#L" n="92"/>Posteriorüm spectant, ubi in capite mr diffuse hanc 
+ma<lb break="no" ed="#L" n="93"/>teriam tractavi, idcirco, absque eorum repetitione, videndae
+<lb ed="#L" n="94"/>sunt ibi solutiones argumentorum, cum toto processu. -
+<lb ed="#L" n="95"/>Id tantum hic notato, quod in littera non definitur 
+propo<lb break="no" ed="#L" n="96"/>sitio per se nota, dicendo quod est cuius praedicatum 
+po<lb break="no" ed="#L" n="97"/>nitur in ratione subiecti: sed ponitur causalis, scilicet quod
+<lb ed="#L" n="98"/>ex hoc quod praedicatum ponitur in ratione subiecti, fit
+<lb ed="#L" n="99"/>propositio per se nota; quae est convertens respectu illius.
+<lb ed="#L" n="100"/>Et hoc ideo dico, quia bene verum est apud s. Thomam,
+<lb ed="#L" n="101"/>quod omnis propositio cuius praedicatum cadit in ratione
+<lb ed="#L" n="102"/>subiecti, est per se nota, sed non e converso: quoniam cum
+<lb ed="#L" n="103"/>unum generalissimum negatur de alio, et cum prima passio
+<lb ed="#L" n="104"/>praedicatur de primo subiecto, fiunt propositiones 
+imme<lb break="no" ed="#L" n="105"/>diatae secundum se, et consequenter secundum se per se
+<lb ed="#L" n="106"/>notae. Si tamen alicubi sic definita reperitur, glossetur ly
+<lb ed="#L" n="107"/>esse in ratione subiecti « formaliter, vel virtualiter proxime.»
+<lb ed="#L" n="108"/>Non tamen extendatur talis locutio, quia minus propria est.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e273">
+                  <lb ed="#L" n="109"/>V. Quoad secundum, conclusio responsiva est: Haec
+<lb ed="#L" n="110"/>propositio, Deus est, est per se nota secundum se, non
+<lb ed="#L" n="111"/>nobis. - Probatur prima pars, quia praedicatum est idem
+<lb ed="#L" n="112"/>subiecto: secunda autem, quia nos nescimus quid subiecti.
+<lb ed="#L" n="113"/>- Et ex hoc sequitur corollarium: Ergo ista eget 
+manife<lb break="no" ed="#L" n="114"/>stari per medium quoad nos, idest a posteriori effectu. Patet
+<lb ed="#L" n="115"/>sequela: quia nobis non est evidens, et a priori caret medio.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e291">
+                  <pb ed="#L" n="29"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>VI. In responsione ad secundum, adverte quod contra
+<lb ed="#L" n="2"/>secundam responsionem ibi datam satis moleste quidam
+<lb ed="#L" n="3"/>instant, quasi roborando argumentum, sic. Excedens omne
+<lb ed="#L" n="4"/>cogitabile non est, per tuam responsionem: ergo non est
+<lb ed="#L" n="5"/>excellens omne cogitabile, quod est oppositum quid 
+no<lb break="no" ed="#L" n="6"/>minis ipsius Dei. Probatur consequentia: quia non excedit
+<lb ed="#L" n="7"/>cogitabile existens; et si ipsum esset, cogitaretur maius quam
+<lb ed="#L" n="8"/>cogitatum non esset.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e315">
+                  <lb ed="#L" n="9"/>VII. Sed haec obiectio non est alia ab obiectione facta
+<lb ed="#L" n="10"/>in littera: et ideo eadem responsione solvitur, distinguendo
+<lb ed="#L" n="11"/>consequens, quod excedere omne cogitabile contingit 
+du<lb break="no" ed="#L" n="12"/>pliciter: uno modo, quod excellat 7n rerum natura; alio
+<lb ed="#L" n="13"/>modo, secundum esse cogitatum. Et intendo, non quod esse
+<lb ed="#L" n="14"/>in rerum natura aut obiective, sit ratio excessus: sed utimur
+<lb ed="#L" n="15"/>eis in proposito, ut conditione rerum cogitatarum. Verbi
+<lb ed="#L" n="16"/>gratia, conditiones perfecti oratoris cogitatae possunt 
+exce<lb break="no" ed="#L" n="17"/>dere omnem oratorem dupliciter: uno modo, quod ille
+<lb ed="#L" n="18"/>excessus sitin rerum natura; alio modo, quod sit in esse
+<lb ed="#L" n="19"/>Obiectivo. Primo modo, oporteret ponere oratorem 
+perfe<lb break="no" ed="#L" n="20"/>ctum existere: secundo modo non, sed sufficit ipsum habere
+<lb ed="#L" n="21"/>esse obiectivum, Rationem autem excedendi attendi dicimus
+<lb ed="#L" n="22"/>penes nobilitatem conditionum cogitatarum in se.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e348">
+                  <lb ed="#L" n="23"/>In proposito ergo dicitur, quod ex illo antecedente ,
+<lb ed="#L" n="24"/>excedens omne cogitabile non est, optime sequitur, ergo
+<lb ed="#L" n="25"/>uon est excedens in rerum natura omne cogitabile: imo
+<lb ed="#L" n="26"/>non est sic excedens formicam, aut quodcumque minimum
+<lb ed="#L" n="27"/>existens. Sed non valet, ergo non est excedens in se, 
+se<lb break="no" ed="#L" n="28"/>cundum esse obiectivum, omne cogitabile: imo sic excedit
+<lb ed="#L" n="29"/>omne cogitabile. - Et cum dicitur maius cogitabile esset,
+<lb ed="#L" n="30"/>si esset in rerum natura, negatur hoc. Ista enim replica
+<lb ed="#L" n="31"/>procedit aut ex ignorantia propriae vocis, dum credunt
+<lb ed="#L" n="32"/>isti quod responsio data, acceptans quid nominis 
+assigna<lb break="no" ed="#L" n="33"/>tum Dei, intendat quod, cum significatur hoc, scilicet maius
+<lb ed="#L" n="34"/>omni cogitabili, significatur aliquid plenum omni 
+perfe<lb break="no" ed="#L" n="35"/>ctione, abstrahendo ab existentia (et ideo instant: « 
+signifi<lb break="no" ed="#L" n="36"/>cetur plenum omni perfectione, inclusa existentia in rerum
+<lb ed="#L" n="37"/>natura; et sic significabitur maius »): aut ex ignorantia inter
+<lb ed="#L" n="38"/>actum signatum et exercitum. Convenimus namque in quid
+<lb ed="#L" n="39"/>nominis, et non dissentimus. Nihil excipimus in ratione
+<lb ed="#L" n="40"/>excedendi, seu in actu signato: quamvis ab existere in actu
+<lb ed="#L" n="41"/>exercito, abstrahere opus sit. Unde conceditur quod 
+signifi<lb break="no" ed="#L" n="42"/>catur et cogitatur maius omni cogitabili; cum omni 
+perfe<lb break="no" ed="#L" n="43"/>ctione, etiam existentiae in rerum natura: in actu tamen
+<lb ed="#L" n="44"/>signato. Sed a significari et cogitari ad esse non valet 
+ar<lb break="no" ed="#L" n="45"/>gumentum. Et ideo in littera dicitur quod haec ratio nihil
+<lb ed="#L" n="46"/>concludit: quia ab adversariis non conceditur maius omni
+<lb ed="#L" n="47"/>cogitabili esse in natura rerum; licet concedatur quod maius
+<lb ed="#L" n="48"/>omni cogitabili significatur, et cogitatur esse in rerum 
+na<lb break="no" ed="#L" n="49"/>tura. Non ergo significatur maius, significatum ut existens :
+<lb ed="#L" n="50"/>sed etsi existeret, non esset maius, sed esset quod non est
+<lb ed="#L" n="51"/>nisi in cogitatione.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e414">
+                  <lb ed="#L" n="52"/>Exemplum simile in speciali habetur, si fingamus latere
+<lb ed="#L" n="53"/>nos nobilissimum animalium esse, et vellemus probare 
+il<lb break="no" ed="#L" n="54"/>lud esse ex terminis, scilicet: nobilissimum animalium est,
+<lb ed="#L" n="55"/>quia si non est, ergo non est nobilissimum animalium.
+<lb ed="#L" n="56"/>Hic enim manifestius liquet quod ratio excessus est 
+no<lb break="no" ed="#L" n="57"/>bilitas rei significatae in se, conditiones vero excedentis
+<lb ed="#L" n="58"/>sunt esse obiectivum et esse in rerum natura: et qualiter
+<lb ed="#L" n="59"/>argumentum non valeat, ut patet exercenti,
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e434">
+                  <lb ed="#L" n="60"/>VIII. Logice autem his molestiis unico verbo silentium
+<lb ed="#L" n="61"/>impones, dicens quod maius omni cogitabili importare
+<lb ed="#L" n="62"/>existentiam in rerum natura, contingit dupliciter, scilicet
+<lb ed="#L" n="63"/>in actu exercito, vel signato: et quod secundo modo 
+con<lb break="no" ed="#L" n="64"/>ceditur in proposito, primo modo non. Et quod si primo
+<lb ed="#L" n="65"/>modo acceptaretur, sine dubio illa esset per se nota, maius
+<lb ed="#L" n="66"/>omni cogitabili, est, sicut ista, quod est, est. - Ratio autem
+<lb ed="#L" n="67"/>quare non clauditur existere in actu exercito, sed ut con-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>ceptum tantum, est quia nominibus res significantur ut
+<lb ed="#L" n="69"/>conceptae, verbis autem ut exercitae. Unde ista enuntiatio,
+<lb ed="#L" n="70"/>existentia non est, non implicat contradictoria: ista autem,
+<lb ed="#L" n="71"/>quod existit, non est, implicat contradictoria.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e465">
+                  <lb ed="#L" n="72"/>IX. In responsione ad tertium, advertendum quod, dum
+<lb ed="#L" n="73"/>littera respondendo concedit veritatem esse in communi
+<lb ed="#L" n="74"/>esse per.se notum, consequentiam factam arguendo 
+acce<lb break="no" ed="#L" n="75"/>ptare videtur, illam scilicet, nulla veritas est, ergo 
+ve<lb break="no" ed="#L" n="76"/>rum est nullam veritatem esse. Scotus tamen, in Primo,
+<lb ed="#L" n="77"/>dist. 1t, qu. r, in responsione ad 3, reprehendit hanc 
+conse<lb break="no" ed="#L" n="78"/>quentiam, dicens eam peccare fallacia consequentis, a 
+plu<lb break="no" ed="#L" n="79"/>ribus causis veritatis ad unam illarum. Tum quia, licet
+<lb ed="#L" n="80"/>valeat, nulla veritas est, ergo non est verum aliquam 
+ve<lb break="no" ed="#L" n="81"/>ritatem esse; non tamen valet, ergo est verum nullam
+<lb ed="#L" n="82"/>veritatem esse , illa enim est negativa, ista affirmativa. Tum
+<lb ed="#L" n="83"/>quia veritas aut sumitur fundamentaliter, aut formaliter:
+<lb ed="#L" n="84"/>si nulla veritas est, neutro modo verum est illam 'esse:
+<lb ed="#L" n="85"/>non fundamentaliter, quia nulla res fundans remanet; non
+<lb ed="#L" n="86"/>formaliter, quia nullus intellectus. restare poneretur. Ergo
+<lb ed="#L" n="87"/>affirmativa non sequitur, sed negativa, ut dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e502">
+                  <lb ed="#L" n="88"/>X. Ad hoc breviter dicitur quod, cum secundum bonam
+<lb ed="#L" n="89"/>logicam, a propositione vera de inesse ad suam modalem
+<lb ed="#L" n="90"/>de vero, sit optima consequentia, et e converso, quia 
+ve<lb break="no" ed="#L" n="91"/>rum non est modus addens supra suam praeiacentem.:
+<lb ed="#L" n="92"/>miror quomodo arguens huic consequentiae se opposuit.
+<lb ed="#L" n="93"/>Valet namque, Socrates currit, ergo Socratem currere
+<lb ed="#L" n="94"/>est verum: et similiter, Socrates non currit, ergo 
+Socra<lb break="no" ed="#L" n="95"/>tem, non currere est verum: et patet in omnibus. Et sic
+<lb ed="#L" n="96"/>in proposito, nulla veritas est: ergo nullam veritatem esse
+<lb ed="#L" n="97"/>est verum. — Et confirmatur: quia ista, scilicet nulla veritas
+<lb ed="#L" n="98"/>est, est quaedam enuntiatio: ergo significans verum vel 
+fal<lb break="no" ed="#L" n="99"/>sum, ex I Periherm. Sed apud eos significat verum: ergo
+<lb ed="#L" n="100"/>significat nullam veritatem esse, esse verum.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e533">
+                  <lb ed="#L" n="101"/>XI. Ad primam ergo obiectionem, dicitur quod nulla
+<lb ed="#L" n="102"/>fallacia est: quia utraque illarum sequitur determinate ex
+<lb ed="#L" n="103"/>illa. Et prius sequitur ista affirmativa de modo, ergo verum
+<lb ed="#L" n="104"/>est nullam veritatem esse, quam illa negativa, ergo non
+<lb ed="#L" n="105"/>est verum aliquam veritatem esse. Quoniam prima sequitur
+<lb ed="#L" n="106"/>immediate, secunda autem mediante illa: quoniam prima
+<lb ed="#L" n="107"/>pertinet ad consistentiam ipsius propositionis in seipsa,
+<lb ed="#L" n="108"/>secunda autem ad destructionem suae contradictoriae, 
+sci<lb break="no" ed="#L" n="109"/>licet aliqua veritas est, Et rursus, licet destructio 
+contradi<lb break="no" ed="#L" n="110"/>ctoriae ipsam statim sequeretur, dicendo nulla veritas est,
+<lb ed="#L" n="111"/>ergo non aliqua veritas est: destructio tamen contradictoriae
+<lb ed="#L" n="112"/>cum modo de vero, non sequitur nisi in virtute regulae
+<lb ed="#L" n="113"/>dictae, scilicet quod propositio vera de inesse aequivalet
+<lb ed="#L" n="114"/>modali de vero: ideo enim sequitur, nulla veritas est, ergo
+<lb ed="#L" n="115"/>non est verum aliquam veritatem esse, quia aequivalet 
+ne<lb break="no" ed="#L" n="116"/>gationi illius contradictoriae, scilicet non aliqua veritas est.
+<lb ed="#L" n="117"/>Et sic Scotus, negando consequentiam, concessit illam 
+ne<lb break="no" ed="#L" n="118"/>sciens, dum concessit aliam super radice illius fundatam.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e575">
+                  <lb ed="#L" n="119"/>Ad secundam vero obiectionem, dicitur quod veritas
+<lb ed="#L" n="120"/>sumitur ad minus fundamentaliter: et cum dicitur quod 
+nul<lb break="no" ed="#L" n="121"/>lum fundamentum remaneret, negatur. Dico enim quod ad
+<lb ed="#L" n="122"/>remansionem veritatum negativarum fundamentaliter, non
+<lb ed="#L" n="123"/>requiritur remansio rerum. Unde veritas istius, nihil est
+<lb ed="#L" n="124"/>nihil, omni omnino re et intellectu secluso, remanet 
+funda<lb break="no" ed="#L" n="125"/>mentaliter: quia si intellectus esset, posset ei suam 
+com<lb break="no" ed="#L" n="126"/>positionem adaequare obiectaliter, componendo hanc, nihil
+<lb ed="#L" n="127"/>est nihil: et haec remansio sufficit. Unde nec etiam modo
+<lb ed="#L" n="128"/>ista propositio, nihil est nihil, habet fundamentum ex parte
+<lb ed="#L" n="129"/>rei significatae, nisi modo dicto. Quod enim dicitur quod
+<lb ed="#L" n="130"/>veritas fundamentaliter est entitas, verum est de veritate
+<lb ed="#L" n="131"/>positiva, non autem negativa; fundamentum enim negativae
+<lb ed="#L" n="132"/>veritatis est 7:05 esse, et non est esse, ut patet.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e56-Dd1e609"><!-- caj-p1-q2-a2 -->
+               <head xml:id="TAcCaj-d1e56-Hd1e612">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e56-d1e614">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="71"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e621">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="72"/>TITULUS clarus. - In corpore duo. Primo, distinguit 
+de<lb break="no" ed="#L" n="73"/>monstrationem in quia et propter quid, etc. Secundo,
+<lb ed="#L" n="74"/>respondet quaesito affirmative unica conclusione: Deum
+<lb ed="#L" n="75"/>esse est demonstrabile a posteriori, seu per effectum.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e634">
+                  <lb ed="#L" n="76"/>Probatur. Effectus dependet a propria causa: ergo, posito
+<lb ed="#L" n="77"/>effectu, necesse est causam praeexistere: ergo ex quolibet
+<lb ed="#L" n="78"/>effectu, dummodo sit nobis notior, potest demonstrari 
+pro<lb break="no" ed="#L" n="79"/>priam causam eius esse. Ergo Deum esse est 
+demonstra<lb break="no" ed="#L" n="80"/>bile per effectus notiores nobis. - Omnia clara sunt, 
+suppo<lb break="no" ed="#L" n="81"/>nendo quod Deus habet aliquos nobis notiores effectus:
+<lb ed="#L" n="82"/>quod inferius patebit.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e652">
+                  <lb ed="#L" n="83"/>II. In responsione ad primum, adverte quod nota de
+<lb ed="#L" n="84"/>Deo naturali lumine, dupliciter sumuntur: uno modo, 
+se<lb break="no" ed="#L" n="85"/>cundum se; alio modo, ut nobis nota. Et similiter articuli
+<lb ed="#L" n="86"/>fidei sumuntur secundum se, et ut crediti. Si sumantur
+<lb ed="#L" n="87"/>utraque secundum se, sic non est verum quod illa sint
+<lb ed="#L" n="88"/>praeambula ad propositiones quae sunt articuli fidei: sed
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="89"/>quaedam praecedunt, ut Deum esse, Deum esse unum, 
+bo<lb break="no" ed="#L" n="90"/>num, et similia absoluta; quaedam sequuntur, ut Deum esse
+<lb ed="#L" n="91"/>primam causam rerum, et cetera huiusmodi. Nec propter
+<lb ed="#L" n="92"/>hoc sequitur quod sint propositiones in theologia priores
+<lb ed="#L" n="93"/>primis principiis: quamvis sequatur quod sunt aliquae 
+prio<lb break="no" ed="#L" n="94"/>res illis principiis quae sunt articuli fidei. Quoniam 
+praece<lb break="no" ed="#L" n="95"/>dentes, secundum se, sunt inter principia: iam enim dictum
+<lb ed="#L" n="96"/>est in 2 articulo, quod articuli fidei secundum se, sunt per
+<lb ed="#L" n="97"/>se principia theologiae; ut crediti autem, per accidens. - Si
+<lb ed="#L" n="98"/>vero sumantur utraque ut nota nobis, sic omnia huiusmodi
+<lb ed="#L" n="99"/>naturaliter nota, sunt praeambula, propter rationem in littera
+<lb ed="#L" n="100"/>positam: et hoc tantum littera intendit. Quare esto cautus.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e697">
+                  <lb ed="#L" n="101"/>III. In responsione ad secundum, adverte quod haec 
+do<lb break="no" ed="#L" n="102"/>ctrina de probatione quaestionis am est, vera est quoad
+<lb ed="#L" n="103"/>nos: secundum talem namque ordinem, quaestio quid est,
+<lb ed="#L" n="104"/>séquitur an est. Secundum se autem e converso, ut in
+<lb ed="#L" n="105"/>II Poster. docetur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e56-Dd1e711"><!-- caj-p1-q2-a3 -->
+               <head xml:id="TAcCaj-d1e56-Hd1e714">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e56-d1e716">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e723">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="50"/>In titulo, dubium statim occurrit ex I Poster. Nulla
+<lb ed="#L" n="51"/>scientia probat subiectum suum: et, ut dicit Averroes in
+<lb ed="#L" n="52"/>II Physic., comment. xxvr, nec a priori nec a posteriori:
+<lb ed="#L" n="53"/>sed supponit illud esse aut per se notum ad sensum vel
+<lb ed="#L" n="54"/>intellectum, vel accipit aliunde. Sed in hac scientia 
+subie<lb break="no" ed="#L" n="55"/>ctum est Deus, ut in prima quaestione dictum est. Ergo
+<lb ed="#L" n="56"/>non debet hic probari Deum esse. Contra artem ergo hic
+<lb ed="#L" n="57"/>articulus movetur.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e745">
+                  <lb ed="#L" n="58"/>Ad hoc dicitur, quod nulla scientia per se loquendo
+<lb ed="#L" n="59"/>probat subiectum suum esse: per accidens autem non 
+in<lb break="no" ed="#L" n="60"/>convenit scientiam aliquam probare suum subiectum esse.
+<lb ed="#L" n="61"/>Sic autem est in proposito: quoniam occurrit hic duplex
+<lb ed="#L" n="62"/>accidens, propter quod scientia haec probat Deum esse.
+<lb ed="#L" n="63"/>Primum est imperfecta illius participatio in nobis. Si enim
+<lb ed="#L" n="64"/>lumen divinum plene participaremus, constaret statim Deum
+<lb ed="#L" n="65"/>esse. Secundum est conditio medii, scilicet quod est quasi
+<lb ed="#L" n="66"/>extraneum. Licet enim nulla scientia ex simpliciter propriis
+<lb ed="#L" n="67"/>probet subiectum suum, ex extraneis tamen appropriatis
+<lb ed="#L" n="68"/>probare potest, si notiora nobis sunt extranea illa quam
+<lb ed="#L" n="69"/>esse illius subiecti. Sic autem contingit in proposito: 
+quo<lb break="no" ed="#L" n="70"/>niam theologia, non ex propriis simpliciter, sed ex propriis
+<lb ed="#L" n="71"/>ministerialiter, scilicet notis naturali lumine, quae absolute
+<lb ed="#L" n="72"/>sunt extranea, ut diximus, probat Deum esse; ut patet in -
+<lb ed="#L" n="73"/>decursu quaestionis,
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e782">
+                  <lb ed="#L" n="74"/>II. In corpore est una conclusio, responsiva quaesito
+<lb ed="#L" n="75"/>affirmative, scilicet: Deus est. - Et proponitur quinque viis
+<lb ed="#L" n="76"/>probanda: quas nom est opus formare, cum et hic, et in
+<lb ed="#L" n="77"/>I.Contra Gentiles, et in Qu. de Potentia, et in Qu. de 
+Ve<lb break="no" ed="#L" n="78"/>ritate, et in I Sententiarum habeantur,
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e796">
+                  <lb ed="#L" n="79"/>III. Circa has rationes in communi, advertendum est
+<lb ed="#L" n="80"/>diligenter quod possunt afferri ad duo. Primo, ad 
+conclu<lb break="no" ed="#L" n="81"/>dendum illud ens incorporeum, immateriale, aeternum,
+<lb ed="#L" n="82"/>summum, immutabile, primum, perfectissimum, etc., quod
+<lb ed="#L" n="83"/>et quale Deum tenemus esse. Et sic istae rationes habent
+<lb ed="#L" n="84"/>plurimum disputationis: eo quod prima via, ut in I Contra
+<lb ed="#L" n="85"/>Gent., cap. xur, dicitur, non ducit ad motorem magis 
+im<lb break="no" ed="#L" n="86"/>mobilem quam sit anima intellectiva; secunda autem, ut
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="87"/>dicit Averroes, non ducit nisi ad corpus caeleste et eius
+<lb ed="#L" n="88"/>motorem; reliquarum quoque nulla magis sursum ducere
+<lb ed="#L" n="89"/>videtur. Et ad hoc intentum non afferuntur hoc in loco
+<lb ed="#L" n="90"/>hae rationes, ut nunc nunc patebit. — Alio modo afferri
+<lb ed="#L" n="91"/>possunt ad concludendum quaedam praedicata inveniri in
+<lb ed="#L" n="92"/>rerum natura, quae secundum veritatem sunt propria Dei :
+<lb ed="#L" n="93"/>non curando quomodo vel qualiter sint, etc. Et ad hoc
+<lb ed="#L" n="94"/>intentum hic afferuntur: et sunt nihil fere difficultatis 
+ha<lb break="no" ed="#L" n="95"/>bentes secundum philosophiam.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e838">
+                  <lb ed="#L" n="96"/>Et ut melius intelligatur quod dicimus, singillatim 
+ex<lb break="no" ed="#L" n="97"/>planando dicitur, quod primae viae, ex parte motus, sat
+<lb ed="#L" n="98"/>est quod inferatur, ergo datur primum movens immobile,
+<lb ed="#L" n="99"/>non curando utrum illud sit anima caeli aut mundi: hoc
+<lb ed="#L" n="100"/>enim quaeretur in sequenti quaestione. Secundae quoque
+<lb ed="#L" n="101"/>viae, ex parte efficientis, sat est quod ducat ad primum
+<lb ed="#L" n="102"/>efficiens, non curando an illud sit corpus vel incorporeum :
+<lb ed="#L" n="103"/>hoc enifn quaeretur in sequenti quaestione. Tertiae vero
+<lb ed="#L" n="104"/>viae, ex parte necessarii, sat est quod ducat ad primum 
+ne<lb break="no" ed="#L" n="105"/>cessarium non ex alio, non curando an sit unum vel plura:
+<lb ed="#L" n="106"/>hoc enim quaeretur in quaestione xi. Quartae quoque viae,
+<lb ed="#L" n="107"/>ex gradibus rerum, sat est ducere ad maxime ens, verum,
+<lb ed="#L" n="108"/>bonum, nobile, a quo sunt omnium participationes. Et 
+si<lb break="no" ed="#L" n="109"/>militer quintae viae, ex gubernatione, sat est ducere ad
+<lb ed="#L" n="110"/>primum gubernantem per intellectum, quicumque sit ille.
+<lb ed="#L" n="111"/>Omnia enim haec praedicata, scilicet movens immobile,
+<lb ed="#L" n="112"/>primum efficiens, necessarium non ex alio, maxime ens, et
+<lb ed="#L" n="113"/>primum gubernans intelligendo, sunt secundum veritatem
+<lb ed="#L" n="114"/>propria Deo: et ideo, concludendo haec inveniri in rerum
+<lb ed="#L" n="115"/>natura, concluditur directe, quasi per accidens, quod Deus
+<lb ed="#L" n="116"/>est, idest, Deus, non ut Deus, sed ut habens talem 
+con<lb break="no" ed="#L" n="117"/>ditionem, est; et consequenter ipsum substratum, scilicet
+<lb ed="#L" n="118"/>Deus ut Deus, est.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e890">
+                  <lb ed="#L" n="119"/>Ex his autem patet quod nec rationes Averrois contra
+<lb ed="#L" n="120"/>Avicennam, nec Aureoli contra has rationes,'sunt contra
+<lb ed="#L" n="121"/>intentum huius articuli, nisi obiectio contra ultimam , et
+<lb ed="#L" n="122"/>contra propositiones assumptas.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e901">
+                  <lb ed="#L" n="123"/>IV. Unde sciendum est secundo, quod in prima ratione,
+<pb ed="#L" n="33"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quae sumpta est ex VII et VIII Physic., sunt duae
+<lb ed="#L" n="2"/>propositiones impugnatae. Altera est, nihil movet seipsum
+<lb ed="#L" n="3"/>primo. Contra hanc enim Scotus, in materia de gravibus
+<lb ed="#L" n="4"/>et levibus, et voluntate, etc., arguit. Et quoniam hoc esset
+<lb ed="#L" n="5"/>exire nostros limites, erit de hoc quaestio specialis.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e921">
+                  <lb ed="#L" n="6"/>Altera est, primum est causa medii: haec enim assumitur
+<lb ed="#L" n="7"/>tam in prima quam secunda et tertia ratione, ad 
+proban<lb break="no" ed="#L" n="8"/>dum quod non proceditur in infinitum. Et contra eam, licet
+<lb ed="#L" n="9"/>sit expresse Aristotelis in II Metaphys: et VIII Physic.
+<lb ed="#L" n="10"/>arguitur sic, in substantia. Media causa seu motor, si 
+ne<lb break="no" ed="#L" n="11"/>cessario dependet a prima causa seu motore, aut hoc habet
+<lb ed="#L" n="12"/>quia media, aut quia causa, aut quia causa media: sed nihil
+<lb ed="#L" n="13"/>horum est: ergo non oportet mediam causam dependere a
+<lb ed="#L" n="14"/>prima. - Assumptum patet ex sufficienti distinctione. 
+De<lb break="no" ed="#L" n="15"/>structio vero singulorum probatur. Et primo, quod non ex
+<lb ed="#L" n="16"/>ratione medii. Quoniam medium dicitur respectu duorum,
+<lb ed="#L" n="17"/>hinc scilicet inde, quorum est medium: et non necessario
+<lb ed="#L" n="18"/>respectu primi et ultimi, ut patet in mediis partibus 
+pro<lb break="no" ed="#L" n="19"/>portionalibus circuli. Secundo, quod non ex ratione causae.
+<lb ed="#L" n="20"/>Quia causa, ut causa, respicit effectum; et non 
+dependen<lb break="no" ed="#L" n="21"/>tiam ad prius aut primum, ut patet. Zertio, quod non ex
+<lb ed="#L" n="22"/>ratione. «composita, scilicet causae mediae. Quoniam causa
+<lb ed="#L" n="23"/>media ut sic, nihil aliud exigit quam ut in causando 
+me<lb break="no" ed="#L" n="24"/>diet: sed hoc, scilicet in causando mediare, sufficienter 
+sal<lb break="no" ed="#L" n="25"/>vatur, si inter aliquam priorem causam et effectum aliqua
+<lb ed="#L" n="26"/>media causalitas sit: ergo media causa, ex ratione qua media
+<lb ed="#L" n="27"/>causa, non exigit dependentiam a prima causa, sed a priore.
+<lb ed="#L" n="28"/>Et confirmatur: quia secundum te, ista conditionalis est
+<lb ed="#L" n="29"/>vera, si procederent in infinitum causae, omnes causae 
+es<lb break="no" ed="#L" n="30"/>sent causae mediae. Ergo ad rationem causae mediae non
+<lb ed="#L" n="31"/>requiritur dependentia a prima, sed a priore, respectu cuius
+<lb ed="#L" n="32"/>et posterioris dicatur media.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e982">
+                  <lb ed="#L" n="33"/>V. Ad hoc breviter dicitur, quod causa media, ex eo
+<lb ed="#L" n="34"/>quod causa media, necessario dependet a prima. Ad cuius
+<lb ed="#L" n="35"/>evidentiam, oportet recolere quod de ratione causae est 
+effi<lb break="no" ed="#L" n="36"/>cacia: nisi enim causa aliquid efficiat, causa in actu, de qua
+<lb ed="#L" n="37"/>est sermo, dici non potest. Efficacia namque causae in illius
+<lb ed="#L" n="38"/>causalitate actuali consistit: et propterea, nisi causalitas 
+com<lb break="no" ed="#L" n="39"/>pleatur, neque causa in actu, neque efficacia seu efficientia
+<lb ed="#L" n="40"/>aliqua salvatur. Oportet ergo, ad hoc quod causae ratio
+<lb ed="#L" n="41"/>salvetur, ut causalitas illius compleatur: ac per hoc, 
+quid<lb break="no" ed="#L" n="42"/>quid repugnat complemento causalitatis alicuius causae, 
+re<lb break="no" ed="#L" n="43"/>pugnat causae illi. Cum igitur causa media vere causa sit,
+<lb ed="#L" n="44"/>oportet ipsam habere propriam causalitatem completam.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1012">
+                  <lb ed="#L" n="45"/>Tunc sic. Complementum causalitatis causae mediae
+<lb ed="#L" n="46"/>nullatenus potest esse sine dependentia a prima causa:
+<lb ed="#L" n="47"/>ergo causa media, ut est causa media, dependet a prima.
+<lb ed="#L" n="48"/>Ergo optime dicit Aristoteles, et habetur in littera, quod
+<lb ed="#L" n="49"/>primum est causa medii.- Consequentia nota. Et antecedens
+<lb ed="#L" n="50"/>probatur. Si tolleretur prima causa, sic quod ante omnem
+<lb ed="#L" n="51"/>causam esset alia causa, nunquam perficeretur causalitas
+<lb ed="#L" n="52"/>istarum causarum essentialiter dependentium: ergo 
+com<lb break="no" ed="#L" n="53"/>plementum mediarum dependet a prima. Conditionalis est
+<lb ed="#L" n="54"/>clara: quia infinitas descensus vel ascensus repugnat 
+com<lb break="no" ed="#L" n="55"/>plemento. Consequentia autem patet: quia constat quod
+<lb ed="#L" n="56"/>complementum mediae causae dependet ab aliqua 
+antece<lb break="no" ed="#L" n="57"/>dente; et non a priore tantum, ut patet ex conditionali;
+<lb ed="#L" n="58"/>ergo a prima.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1045">
+                  <lb ed="#L" n="59"/>VI. Ad obiectionem autem in oppositum, cum dicitur
+<lb ed="#L" n="60"/>causa media nihil exigit nisi quod in cqusando mediet,
+<lb ed="#L" n="61"/>conceditur: sed cum subsumitur quod hoc salvatur 
+respe<lb break="no" ed="#L" n="62"/>ctu prioris causae, negatur. Quoniam impossibile est 
+me<lb break="no" ed="#L" n="63"/>diam causalitatem perfici, nisi sustentetur in prima: si enim
+<lb ed="#L" n="64"/>ab infinitis prioribus dependet, nunquam perfici poterit.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1061">
+                  <lb ed="#L" n="65"/>Ad confirmationem vero, negatur quod illa conditionalis,
+<lb ed="#L" n="66"/>scilicet si causae essentialiter ordinatae essent infinitae,
+<lb ed="#L" n="67"/>omnes essent causae mediae, sit Aristotelis aut nostra 
+sim<lb break="no" ed="#L" n="68"/>pliciter: sed est ad hominem ponentem infinitatem in causis
+<lb ed="#L" n="69"/>huiusmodi. Apud hos namque sequitur optime quod, cum
+<lb ed="#L" n="70"/>omnes ponantur causae, et nulla prima, igitur mediae. Sed
+<lb ed="#L" n="71"/>secundum veritatem, ex illo antecedente, proceditur in 
+in<lb break="no" ed="#L" n="72"/>finitum in causis, sequitur, ergo nulla causa est, ut 
+Ari<lb break="no" ed="#L" n="73"/>stoteles et s. Thomas deducunt: quia sequitur, ergo mon
+<lb ed="#L" n="74"/>est prima: ergo nec media; quia prima est causa mediae,
+<lb ed="#L" n="75"/>ut probatum est .
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1087">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>VII. Circa illam propositionem in quarta via assumptam,
+<lb ed="#L" n="77"/>scilicet maxime tale in aliquo genere, est causa omnium
+<lb ed="#L" n="78"/>aliorum quae sunt illius generis, quoniam impugnatur ab
+<lb ed="#L" n="79"/>Aureolo, nota tres terminos. Primo, quod aliud est esse
+<lb ed="#L" n="80"/>maxime tale in aliquo genere, et aliud est esse primam
+<lb ed="#L" n="81"/>seu perfectissimam speciem alicuius generis. Unde non 
+as<lb break="no" ed="#L" n="82"/>sumitur hic quod perfectissima species sit causa ceterarum :
+<lb ed="#L" n="83"/>sed quod maxime tale, etc. Secundo, quod esse causam
+<lb ed="#L" n="84"/>contingit in proposito dupliciter: scilicet effectivam proprie,
+<lb ed="#L" n="85"/>vel exemplarem. Hoc in loco confuse assumitur esse 
+cau<lb break="no" ed="#L" n="86"/>sam: quoniam ad propositum non refert quali causalitate
+<lb ed="#L" n="87"/>maxime ens, bonum et verum sit causa esse, bonitatis et
+<lb ed="#L" n="88"/>veritatis ceterorum; esse enim causam sive exemplarem
+<lb ed="#L" n="89"/>omnium horum, sive effectivam, proprium est Dei. Tertio,
+<lb ed="#L" n="90"/>quod cetera illius generis possunt accipi dupliciter: scilicet
+<lb ed="#L" n="91"/>absolute, idest secundum totum id quod sunt; et possunt
+<lb ed="#L" n="92"/>accipi secundum rationem illius generis. In proposito non
+<lb ed="#L" n="93"/>sumuntur absolute, sed secundum quod habent illius 
+ra<lb break="no" ed="#L" n="94"/>tionem: non enim maxime calidum dicimus causam 
+reli<lb break="no" ed="#L" n="95"/>quorum calidorum secundum substantiam et totum quod
+<lb ed="#L" n="96"/>sunt, sed solum inquantum calida sunt. - Ita quod sensus
+<lb ed="#L" n="97"/>propositionis assumptae est: Maxime habens rationem 
+ali<lb break="no" ed="#L" n="98"/>quam formalem, est causa, sive exemplaris sive effectiva,
+<lb ed="#L" n="99"/>reliquorum habentium eandem rationem formalem, ut sic.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1144">
+                  <lb ed="#L" n="100"/>Ex hoc patet quod instantia Aureoli de albedine 
+respe<lb break="no" ed="#L" n="101"/>ctu colorum, nihil valet. Tum quia albedo non est maxime
+<lb ed="#L" n="102"/>color. Tum quia, si esset maxime color, non oporteret
+<lb ed="#L" n="103"/>propterea ipsam causare ceteras species coloris absolute,
+<lb ed="#L" n="104"/>sed quantum ad rationem coloris tantum. Tum quia 
+di<lb break="no" ed="#L" n="105"/>cere albedinem esse causam exemplarem reliquorum 
+colo<lb break="no" ed="#L" n="106"/>rum quatenus colores sunt, nullum inconveniens est:
+<lb ed="#L" n="107"/>cum perfectiora sint naturaliter exemplaria imperfectiorum
+<lb ed="#L" n="108"/>utsic; et colores omnes, quanto magis accedunt ad 
+albe<lb break="no" ed="#L" n="109"/>dinem, tanto plus habent lucis, et consequenter perfectionis
+<lb ed="#L" n="110"/>ratione coloris.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1170">
+                  <lb ed="#L" n="111"/>VIII. Circa quintam viam, est instantia quoque Aureoli
+<lb ed="#L" n="112"/>quam tamen prius excluserat s. Thomas, III Contra Gent.,
+<lb ed="#L" n="113"/>cap. Lx1v: scilicet quod quidditates rerum naturalium sunt
+<lb ed="#L" n="114"/>sufficientes causae effectuum, qui naturaliter apparent 
+ordi<lb break="no" ed="#L" n="115"/>nate etc. in universo. Vide ibidem, et in Qu. de Ver., qu. v
+<lb ed="#L" n="116"/>art. 2, et invenies rationem  insufficientiae esse unitatem
+<lb ed="#L" n="117"/>ordinis, utilitates mutuas, connexiones contrariorum, etc. :
+<lb ed="#L" n="118"/>praeter eam quae hic ponitur in responsione ad 2, quia
+<lb ed="#L" n="119"/>scilicet natura agit propter finem, ex II Physic.; ergo aut
+<lb ed="#L" n="120"/>a se conceptum, aut ab alio intendente directa, etc.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1195">
+                  <lb ed="#L" n="121"/>IX. Circa solutionem primi argumenti, adverte quod
+<lb ed="#L" n="122"/>responsio litterae consistit in negatione consequentiae. Quia
+<lb ed="#L" n="123"/>tamen non assignatur causa in communi, sed particulari
+<lb ed="#L" n="124"/>materia de qua est sermo, ideo, in communi loquendo,
+<lb ed="#L" n="125"/>scito primo, quod unum oppositorum excludere reliquum,
+<lb ed="#L" n="126"/>potest dupliciter intelligi::scilicet formaliter, et effective.
+<lb ed="#L" n="127"/>Formaliter quidem, unum oppositorum non excludit 
+reli<lb break="no" ed="#L" n="128"/>quum, nisi a suo receptivo, ut patet. Et sic in proposito,
+<lb ed="#L" n="129"/>quia bonum divinum infinitum est, omne malum excludit
+<lb ed="#L" n="130"/>formaliter a Deo: non autem a creatura, quia non recipitur
+<lb ed="#L" n="131"/>in creatura, sed in ipso tantum Deo. Effective vero unum
+<lb ed="#L" n="132"/>oppositorum excludit reliquum, secundum quod efficit 
+ali<lb break="no" ed="#L" n="133"/>quid sibi simile: sicut vis solaris excludit frigus ab aere,
+<lb ed="#L" n="134"/>secundum quod assimilat sibi aerem in esse calido. Et
+<lb ed="#L" n="135"/>iuxta hanc oppositionem procedit argumentum, quod si
+<lb ed="#L" n="136"/>unum oppositorum est infinitum , reliquum non solum
+<lb ed="#L" n="137"/>excluditur ab eo formaliter, sed etiam effective in 
+quo<lb break="no" ed="#L" n="138"/>cumque inventum fuerit: et hoc propter infinitatem suae
+<lb ed="#L" n="139"/>cui nihil resistere potest, nisi aliud oppositum
+<lb ed="#L" n="140"/>etiam esset infinitum. — Scito secundo, quod Scotus, in I
+<lb ed="#L" n="141"/>Sent., dist. zr, qu. r, ad r, examinans hanc conditionalem,
+<lb ed="#L" n="142"/>dicit ipsam. veram, non solum formaliter, sed effective, in
+<lb ed="#L" n="143"/>oppositis naturaliter agentibus: non autem in agentibus
+<lb ed="#L" n="144"/>voluntarie, Et solvit argumentum ad propositum, quia 
+bo<lb break="no" ed="#L" n="145"/>num infinitum agit voluntarie. - In littera autem simpliciter
+<lb ed="#L" n="146"/>negatur consequentia: et assignatur ratio, quia scilicet ex
+<lb ed="#L" n="147"/>infinita bonitate agentis sequitur esse aliqua mala, ex quibus
+<lb ed="#L" n="148"/>bonum resultet.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1258">
+                  <lb ed="#L" n="149"/>X. Sed quoniam, ut dictum est, ista responsio immiscet
+<lb ed="#L" n="150"/>modum causandi, scilicet per voluntatem, attribuendo mala
+<pb ed="#L" n="34"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>permissioni divinae, quae ad voluntatem spectat; ideo 
+par<lb break="no" ed="#L" n="2"/>ticularis est. Universaliter autem, distinguendum videtur
+<lb ed="#L" n="3"/>antecedens. Quoniam oppositum infinitum contingit 
+dupli<lb break="no" ed="#L" n="4"/>citer. Uno modo, communicabile aliis secundum eandem
+<lb ed="#L" n="5"/>rationem, sicut si ignis esset infinite calidus: calor enim
+<lb ed="#L" n="6"/>est communicabilis aliis secundum eandem rationem, qua
+<lb ed="#L" n="7"/>est in igne. Alio modo, incommunicabile aliis secundum
+<lb ed="#L" n="8"/>eandem rationem, quamvis sit participabile per quandam
+<lb ed="#L" n="9"/>analogiam: sicut esse Dei est infinitum, non tamen 
+com<lb break="no" ed="#L" n="10"/>municabile aliis secundum eandem rationem (alioquin 
+pos<lb break="no" ed="#L" n="11"/>sent esse plures dii) quamvis sit participabile ab omnibus
+<lb ed="#L" n="12"/>plus et minus.
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1295">
+                  <lb ed="#L" n="13"/>Dico igitur quod, si unum oppositorum, communicabile
+<lb ed="#L" n="14"/>secundum eandem rationem, est infinitum, reliquum non
+<lb ed="#L" n="15"/>erit nec in eodem susceptibili, nec in alio quocumque.
+<lb ed="#L" n="16"/>Si autem unum oppositorum, incommunicabile secundum
+<lb ed="#L" n="17"/>eandem rationem, participabile tamen, est infinitum, optime
+<lb ed="#L" n="18"/>sequitur quod reliquum formaliter excludet a se: sed non
+<lb ed="#L" n="19"/>sequitur, ergo reliquum effective excludet a quolibet, etiam
+<lb ed="#L" n="20"/>si ponatur naturaliter agere. Et ratio est, quia agens 
+infi<lb break="no" ed="#L" n="21"/>nitum, finite participatum, non excludit a participantibus
+<lb ed="#L" n="22"/>totaliter suum oppositum: sed oppositum infinitum 
+incom<lb break="no" ed="#L" n="23"/>municabile, seu bonum infinitum, est huiusmodi: ergo. -
+<lb ed="#L" n="24"/>Maior patet ex inductione. Si enim sol esset infinite calidus,
+<lb ed="#L" n="25"/>et calor non esset communicabilis inferioribus secundum
+<lb ed="#L" n="26"/>eandem rationem, sed secundum quandam analogam imi-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="27"/>tationem tantum ; sol, inquantum calidus, esset infinitum
+<lb ed="#L" n="28"/>agens, finite tamen participatum , quia non secundum 
+ean<lb break="no" ed="#L" n="29"/>dem rationem. Ac per hoc, non produceret in aliquo nisi
+<lb ed="#L" n="30"/>caloris finitam participationem :: et consequenter non 
+exclu<lb break="no" ed="#L" n="31"/>deret omne frigus a participantibus ipsum, quia cum 
+ca<lb break="no" ed="#L" n="32"/>lore finite impresso stat aliquis gradus frigoris. — Patet et
+<lb ed="#L" n="33"/>ratione. Quia quantaecumque virtutis sit agens, non excludit
+<lb ed="#L" n="34"/>effective oppositum, nisi inquantum est incompossibile 
+ef<lb break="no" ed="#L" n="35"/>fectui. Sed existente agente infinito in se, finite autem
+<lb ed="#L" n="36"/>participato , effectum non oportet esse incompossibilem
+<lb ed="#L" n="37"/>cuilibet gradui oppositi: quia effectus finite habet 
+ratio<lb break="no" ed="#L" n="38"/>nem unius oppositi. Ergo agens infinitum, finite tantum
+<lb ed="#L" n="39"/>participatum , non tollit effective totaliter suum 
+oppo<lb break="no" ed="#L" n="40"/>situm. )
+</p>
+               <p xml:id="TAcCaj-d1e56-d1e1360">
+                  <lb ed="#L" n="41"/>Et propterea Deus gloriosus, qui est infinitum bonum,
+<lb ed="#L" n="42"/>etiam si naturaliter ageret, non tolleret omne malum ab 
+uni<lb break="no" ed="#L" n="43"/>verso. Quoniam finite tantum participatur a quocumque: et
+<lb ed="#L" n="44"/>ex bonitate sua prodiret universitas bonitatum 
+constituen<lb break="no" ed="#L" n="45"/>tium gradus diversos in universo, ex quorum naturis necesse
+<lb ed="#L" n="46"/>est oriri malum; sicut ex natura lupi mors agni, et ex
+<lb ed="#L" n="47"/>natura elementorum corruptio mixtorum, etc. Et ideo, 
+ele<lb break="no" ed="#L" n="48"/>vando rationem in littera assignatam, merito negatur 
+con<lb break="no" ed="#L" n="49"/>sequentia: quia ex infinita bonitate Dei oritur mala esse
+<lb ed="#L" n="50"/>(propter bonum tamen universi); et non oritur mala non
+<lb ed="#L" n="51"/>esse. Etsic ad infinitam Dei bonitatem spectat, quod 
+ma<lb break="no" ed="#L" n="52"/>lum sit in effectibus suis, non in seipso.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
