@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="69"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e713"><!-- TAcCajp2p1-q8 -->
+            <head xml:id="TAcCaj-d1e713-Hd1e99">Quaestio 8</head>
+            <div xml:id="TAcCaj-d1e713-Dd1e101"><!-- caj-p2p1-q8-a1 -->
+               <head xml:id="TAcCaj-d1e713-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e713-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>Commentaria Cardihalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>CIRCA introductionem quaestionis octavae, quoniam ibi
+<lb ed="#L" n="13"/>f tagoitur actus voluntatis in eos qui sunt finis, et
+<lb ed="#L" n="14"/>in eos qui sunt eorum quae sunt ad finem; dubium 
+oc<lb break="no" ed="#L" n="15"/>currit an detur in voluntate actus neuter. Scotus enim, in
+<lb ed="#L" n="16"/>I Sent., dist. 1, qu. rr, in primo articulo, tenet dari actum
+<lb ed="#L" n="17"/>in voluntate tendentem in aliquid nec ut finem, nec ut
+<lb ed="#L" n="18"/>ad finem. Et probat sic. Voluntati potest ostendi aliquod
+<lb ed="#L" n="19"/>bonum absolute, non sub ratione propter se nec propter
+<lb ed="#L" n="20"/>aliud boni. Et voluntas potest habere aliquem actum circa
+<lb ed="#L" n="21"/>tale obiectum non inordinatum, intellectu ostendente 
+qua<lb break="no" ed="#L" n="22"/>liter illud volendum est. Ergo potest voluntas assentire illi
+<lb ed="#L" n="23"/>nec propter se nec propter aliud, sed absolute.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e144">
+                  <lb ed="#L" n="24"/>
+                  <ref xml:id="TAcCaj-d1e713-Rd1e148">
+                     <name xml:id="TAcCaj-d1e713-Nd1e150">Gregorius autem de Arimino</name>, in I Sent., dist. 1, qu. 1,
+<lb ed="#L" n="25"/>art. i</ref>, tenens oppositum, solvit hanc Scoti rationem, 
+con<lb break="no" ed="#L" n="26"/>cesso assumpto, negando sequelam. Licet, inquit, possit
+<lb ed="#L" n="27"/>ostendi voluntati bonum neutraliter, et voluntas possit
+<lb ed="#L" n="28"/>circa illud habere actum; non poterit tamen babere actum
+<lb ed="#L" n="29"/>neutralem, sed necessario aut propter se aut propter aliud. -
+<lb ed="#L" n="30"/>Mihi autem videtur quod, secundum rem, non datur actus
+<lb ed="#L" n="31"/>neuter: pie tamen interpretando, sustineri posset.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e169">
+                  <lb ed="#L" n="32"/>II. Ad cuius evidentiam, scito quod, cum inter 
+contra<lb break="no" ed="#L" n="33"/>dictoria non sit medium, et distinctio voliti penes propter
+<lb ed="#L" n="34"/>se et propter aliud, sit distinctio per contradictoria. 
+Voli<lb break="no" ed="#L" n="35"/>tum enim propter se aut intelligitur positive: et hoc est
+<lb ed="#L" n="36"/>impossibile, quia sicut nihil est a se positive, ita nihil est
+<lb ed="#L" n="37"/>propter se positive. Aut intelligitur negative, idest non
+<lb ed="#L" n="38"/>propter aliud: et sic habetur distinctio contradictoria.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e188">
+                  <lb ed="#L" n="39"/>Nec obstat si diceretur, ex Scoto, ubi supra, ad qu.
+<lb ed="#L" n="40"/>penult., quod ad rationem finis non sufficit esse volitum
+<lb ed="#L" n="41"/>non propter aliud negative, sed oportet esse volitum non
+<lb ed="#L" n="42"/>propter aliud contrarie. Hoc enim si verum est, in idem
+<lb ed="#L" n="43"/>oportet rediré. Quia cum aliquid est volitum non propter
+<lb ed="#L" n="44"/>aliud negative, tunc affirmatur quod illud est volitum, et
+<lb ed="#L" n="45"/>negatur relatio ad aliud in illo ut volito. Cum vero 
+di<lb break="no" ed="#L" n="46"/>citur quod aliquid est volitum non propter aliud 
+contra<lb break="no" ed="#L" n="47"/>rie, affirmatur quod illud est volitum; et negatur relatio
+<lb ed="#L" n="48"/>ad aliud in illo ut volito; et ponitur fundamentum 
+ne<lb break="no" ed="#L" n="49"/>gatae relationis ad aliud, aliquid repugnans relationi ad
+<lb ed="#L" n="50"/>aliud importatae in ly propter aliud; sicut cum dico non
+<lb ed="#L" n="51"/>album contrarie, pono fundamentum negatae albedinis 
+ali<lb break="no" ed="#L" n="52"/>uid repugnans albedini. Fundamentum autem negatae 
+re<lb break="no" ed="#L" n="53"/>lationis ad aliud in fine volito, cum non sit ex parte rei
+<lb ed="#L" n="54"/>nec apprehensionis, apud Scotum, erit ex ipso actu 
+voli<lb break="no" ed="#L" n="55"/>tionis: ita quod volitum ex hoc ipso habet rationem voliti
+<lb ed="#L" n="56"/>non propter aliud contrarie, quia repugnat sibi, ut sic 
+vo<lb break="no" ed="#L" n="57"/>lito, amari propter aliud. Et si hoc quidem intelligatur
+<lb ed="#L" n="58"/>quantum ad illum actum, bene dictum est, et in idem redit
+<lb ed="#L" n="59"/>cum volito non propter aliud negative: quia quilibet actus
+<lb ed="#L" n="60"/>volitionis cadens super bono absque relatione ad aliud,
+<lb ed="#L" n="61"/>ex hoc ipso quod fertur in illud bonum ut terminum, nec
+<lb ed="#L" n="62"/>tendit ultra, ponit in illo fundamentum relatae negationis ;
+<lb ed="#L" n="63"/>sicut in motu locali, ex hoc ipso quod motus utitur aliquo
+<lb ed="#L" n="64"/>loco medio ut termino actualiter terminante motum illum,
+<lb ed="#L" n="65"/>ex hoc ipso habet rationem finis et contrarii termini 
+re<lb break="no" ed="#L" n="66"/>spectu termini a quo, quantum ad illum motum. Si autem
+<lb ed="#L" n="67"/>intelligatur quantum ad omnem actum possibilem 
+super<lb break="no" ed="#L" n="68"/>venire voluntati stante illo, si stare potest, tunc falsissimum
+<lb ed="#L" n="69"/>est: quoniam cum hoc quod aliquid ametur ut finis, stat
+<lb ed="#L" n="70"/>quod ametur etiam propter alium superioris ordinis finem ;
+<lb ed="#L" n="71"/>ut patet in amore actuum speculativorum, qui amantur 
+pro<lb break="no" ed="#L" n="72"/>pter se ut fines, ut patet I Metaphys. et in X Ethic., et
+<lb ed="#L" n="73"/>amantur propter Deum ut supremum finem.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e266">
+                  <lb ed="#L" n="74"/>Licet igitur negatio, et negatio contrarie, plurimum 
+diffe<lb break="no" ed="#L" n="75"/>rant; in hac tamen materia, ubi fundamentum positivum
+<lb ed="#L" n="76"/>idem est, se inferunt. Et quandocumque aliquid amatur,
+<lb ed="#L" n="77"/>et non propter aliud amatur, propter se ut finis, et e con-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>verso, amatur, In hoc enim finem constitui dicimus, in quo
+<lb ed="#L" n="79"/>ultimus volitionis huius est terminus. Constat autem quod
+<lb ed="#L" n="80"/>quando aliquid amatur actualiter, et non propter aliud 
+ne<lb break="no" ed="#L" n="81"/>gative, quod ultimus illius volitionis terminus est illud
+<lb ed="#L" n="82"/>volitum. In hoc ergo erit finis illius actus. Et hoc procul
+<lb ed="#L" n="83"/>dubio est verum et tenendum.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e292">
+                  <lb ed="#L" n="84"/>III. Quod autem decipit oppositum dicentes, est quia
+<lb ed="#L" n="85"/>sunt quaedam absolute volita vel nolita quae neutralia
+<lb ed="#L" n="86"/>videntur, sed non sunt. Patet de hac vita martyrum, et
+<lb ed="#L" n="87"/>proiectione mercium in mare: martyres enim volunt vivere
+<lb ed="#L" n="88"/>absolute, et cum hoc volunt propter Deum privari vita; et
+<lb ed="#L" n="89"/>similiter negotiatores nolunt proiicere merces, et cum hoc
+<lb ed="#L" n="90"/>nolunt perdere vitam salvando merces. In istis enim 
+vi<lb break="no" ed="#L" n="91"/>detur quod nec propter se, nec propter aliud sint volita
+<lb ed="#L" n="92"/>aut nolita. Sed si quis diligenter inspiciat, martyr amat
+<lb ed="#L" n="93"/>hanc vitam propter se, quoniam amat eam propter 
+pro<lb break="no" ed="#L" n="94"/>priam ipsius vitae bonitatem, absque relatione ad alium
+<lb ed="#L" n="95"/>finem: sed quia magis amat Deum, et Dei gloriam ac 
+te<lb break="no" ed="#L" n="96"/>stimonium, quam propriam vitam, ideo vult oppositum
+<lb ed="#L" n="97"/>vitae. propter aliud, scilicet Deum. Et simile est de aliis
+<lb ed="#L" n="98"/>iudicium.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e327">
+                  <lb ed="#L" n="99"/>IV. Ad rationem ergo Scoti dicitur quod, licet 
+intelle<lb break="no" ed="#L" n="100"/>ctus possit aliquid praesentare ut bonum absolute, 
+abstra<lb break="no" ed="#L" n="101"/>hendo a propter se et propter aliud in actu signato; 
+im<lb break="no" ed="#L" n="102"/>possibile tamen est quod repraesentet aliquid ut bonum
+<lb ed="#L" n="103"/>absolute tali absolutione, ut scilicet abstrahat a propter se
+<lb ed="#L" n="104"/>et propter aliud in actu exercito. Quoniam oportet omne
+<lb ed="#L" n="105"/>bonum repraesentatum, aut secundum propriam bonitatem,
+<lb ed="#L" n="106"/>aut secundum alienam, aut secundum utramque 
+reprae<lb break="no" ed="#L" n="107"/>sentari. Et si quidem secundum propriam, repraesentatur
+<lb ed="#L" n="108"/>ut propter se in actu exercito: hoc enim exercet ly 
+pro<lb break="no" ed="#L" n="109"/>pter se. Quandocumque enim repraesentatur delectabile et
+<lb ed="#L" n="110"/>appetitur, non oportet quod repraesentetur cum hac 
+addi<lb break="no" ed="#L" n="111"/>tione, quod est propter se bonum, quod esset in actu 
+si<lb break="no" ed="#L" n="112"/>gnato: sed sufficit repraesentari secundum propriam 
+boni<lb break="no" ed="#L" n="113"/>tatem delectabilitatis, et tunc repraesentatur et appetitur
+<lb ed="#L" n="114"/>propter se in actu exercito. Quandocumque vero 
+reprae<lb break="no" ed="#L" n="115"/>sentatur secundum alienam, bonitatem , repraesentatur ut
+<lb ed="#L" n="116"/>propter aliud in actu exercito: exercetur enim ly propter
+<lb ed="#L" n="117"/>aliud per esse utile, aut expediens, etc., ad aliquid. Quando
+<lb ed="#L" n="118"/>autem secundum utramque bonitatem, utrumque simul
+<lb ed="#L" n="119"/>concurrit, Unde cum repraesentatur ;aliquid ut bonum 
+ab<lb break="no" ed="#L" n="120"/>solute, puta vita, salvatio mercium, conservatio membri,
+<lb ed="#L" n="121"/>delectatio, etc., dico quod repraesentatur ut bonum propter
+<lb ed="#L" n="122"/>se in actu exercito, si est bonum honestum aut delectabile ;
+<lb ed="#L" n="123"/>vel propter aliud, puta finem minus amatum, si est bonum
+<lb ed="#L" n="124"/>utile, ut salvatio mercium, quae absolute est volita quia
+<lb ed="#L" n="125"/>utilis ad exteriora bona, minus tamen amata quam vita,
+<lb ed="#L" n="126"/>quae orta tempestate est in periculo. Et eodem modo 
+ap<lb break="no" ed="#L" n="127"/>petitur ordinate.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e392">
+                  <lb ed="#L" n="128"/>Propter quod, si quis haec absolute volita, quorum tamen
+<lb ed="#L" n="129"/>opposita malumus propter finem magis amatum, dicat esse
+<lb ed="#L" n="130"/>volita nec propter se nec propter alia, propter illam 
+im<lb break="no" ed="#L" n="131"/>perfectioneni; et propterea dari actum neutrum in 
+volun<lb break="no" ed="#L" n="132"/>tate: sententiam teneat, sed linguam cohibeat. Simpliciter
+<lb ed="#L" n="133"/>igitur negato dari in voluntate actum neutrum: et cum
+<lb ed="#L" n="134"/>divo Thoma, in littera, distinguito in actum respectu finis,
+<lb ed="#L" n="135"/>aut propter finem. Jj
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e412">
+                  <lb ed="#L" n="136"/>CIRCA primum articulum octavae quaestionis, diligenter
+<lb ed="#L" n="137"/>adverte duo. Primo, quod sermo tituli et corporis 
+ar<lb break="no" ed="#L" n="138"/>ticuli de voluntate, est de actu voluntatis qui est velle.
+<lb ed="#L" n="139"/>Hic enim est inclinatio ; hic est appetitus actualis quo
+<lb ed="#L" n="140"/>potentia appetitiva inclinatur in conveniens sibi; hic 
+se<lb break="no" ed="#L" n="141"/>quitur formam apprehensam ut sic; hic est solum respectu
+<lb ed="#L" n="142"/>boni, etc.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e431">
+                  <pb ed="#L" n="70"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>II. Secundo nota non minus, in responsione ad tertium,
+<lb ed="#L" n="2"/>quod esse ens in ratione contingit dupliciter: primo, per
+<lb ed="#L" n="3"/>modum conditionis; secundo, per modum obiecti. Accipi
+<lb ed="#L" n="4"/>ut ens in ratione primo modo, convenit omni ei quod 
+in<lb break="no" ed="#L" n="5"/>telligitur: quoniam nihil actu intelligitur, nisi habeat hanc
+<lb ed="#L" n="6"/>conditionem, scilicet quod est in ratione seu intellectu,
+<lb ed="#L" n="7"/>quidquid sit illud esse. Accipi autem ut ens in ratione
+<lb ed="#L" n="8"/>secundo modo, convenit ei quod sub aliqua entis ratione
+<lb ed="#L" n="9"/>quasi vestitum consideratur: sicut cum non admiscere se
+<lb ed="#L" n="10"/>rumoribus consideratur sub ratione securi, et non 
+come<lb break="no" ed="#L" n="11"/>dere sub ratione sani, et se non peccaturum sub ratione
+<lb ed="#L" n="12"/>sancti. In hac responsione, hoc secundo modo sumitur
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>esse ens in ratione: quoniam ex eo quod negationes, 
+pri<lb break="no" ed="#L" n="14"/>vationes et futura considerantur sub aliqua entis et boni
+<lb ed="#L" n="15"/>ratione, appetuntur. Et ad hoc directe affertur auctoritas
+<lb ed="#L" n="16"/>Aristotelis, quod <quote xml:id="TAcCaj-d1e713-Qd1e474">carere malo sub boni ratione est</quote>.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e477">
+                  <lb ed="#L" n="17"/>Notanter autem de privationibus, negationibus et futuris
+<lb ed="#L" n="18"/>hoc dictum est. Quoniam reliqua bona sub entis ratione
+<lb ed="#L" n="19"/>sunt, non solum in ratione, sed in rerum natura: ac per
+<lb ed="#L" n="20"/>hoc, non sunt hac diminutiva denominatione contenta. Ista
+<lb ed="#L" n="21"/>vero, quia in rerum natura non habent entis rationem,
+<lb ed="#L" n="22"/>sed in ratione tantum, habente tamen fundamentum in re
+<lb ed="#L" n="23"/>aequivocum; ideo entia in ratione dicta sunt, et boni in
+<lb ed="#L" n="24"/>eis rationem sic salvari.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e713-Dd1e498"><!-- caj-p2p1-q8-a2 -->
+               <head xml:id="TAcCaj-d1e713-Hd1e501">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e713-d1e503">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e510">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>In articulo secundo eiusdem quaestionis, dubium occurrit
+<lb ed="#L" n="9"/>de titulo, quid scilicet significet in hoc titulo ly voluntas.
+<lb ed="#L" n="10"/>Si sumitur pro ipsa potentia volitiva, extra propositum
+<lb ed="#L" n="11"/>est: ut patet ex principio quaestionis, ubi propositum est
+<lb ed="#L" n="12"/>quod de actu voluntatis qui est velle, tractandum est. Si
+<lb ed="#L" n="13"/>sumitur pro volitione, ut in responsione ad primum 
+argu<lb break="no" ed="#L" n="14"/>mentum in primo articulo declarat littera, obstant 
+secun<lb break="no" ed="#L" n="15"/>dum argumentum et tertium, et argumentum in 
+opposi<lb break="no" ed="#L" n="16"/>tum, et distinctio posita in principio corporis articuli huius:
+<lb ed="#L" n="17"/>baec enim omnia de potentia qua volumus, loquuntur. Si
+<lb ed="#L" n="18"/>sumitur ut pro utraque, scilicet potentia et volitione, 
+ob<lb break="no" ed="#L" n="19"/>stat aequivocatio: voluntas enim aequivocum est ad 
+po<lb break="no" ed="#L" n="20"/>tentiam et operationem.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e543">
+                  <lb ed="#L" n="21"/>II. Ad hoc dicitur quod praesens titulus, sicut et 
+prae<lb break="no" ed="#L" n="22"/>cedens, intelligitur de voluntate pro volitione: et quod tam
+<lb ed="#L" n="23"/>argumentum secundum quam tertium, arguit contra hunc
+<lb ed="#L" n="24"/>sensum, sed per locum a fortiori. Si enim finis et ea quae)
+<lb ed="#L" n="25"/>sunt ad finem exigunt diversas potentias, sequitur quod
+<lb ed="#L" n="26"/>exigunt diversos actus, ut patet. Ratio autem in oppositum,
+<lb ed="#L" n="27"/>et distinctio in corpore articuli, allatae sunt et propter 
+ma<lb break="no" ed="#L" n="28"/>tertiam rationabiliter, ut dictum est, tactam in praedictis
+<lb ed="#L" n="29"/>duobus argumentis; et propter perfectionem doctrinae; et
+<lb ed="#L" n="30"/>propter proximitatem inter primum simplicemque 
+volun<lb break="no" ed="#L" n="31"/>tatis actum, scilicet velle, et potentiam volitivam, propter
+<lb ed="#L" n="32"/>quod communi nomine vocantur voluntas, non aequivoce,
+<lb ed="#L" n="33"/>sed per prius et posterius. Et haec eadem propinquitas
+<lb ed="#L" n="34"/>fuit etiam, iudicio meo, ratio et secundi et tertii 
+argumen<lb break="no" ed="#L" n="35"/>torum. Consistit autem cognatio haec in communione 
+obie<lb break="no" ed="#L" n="36"/>cti, ut in littera dicitur, et nunc nunc declarabitur.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e580">
+                  <lb ed="#L" n="37"/>III. In corpore articuli eiusdem, dubium occurrit de 
+as<lb break="no" ed="#L" n="38"/>signata communione obiecti respectu potentiae, et actus
+<lb ed="#L" n="39"/>eius simplicis: quae scilicet est differentia inter obiectum
+<lb ed="#L" n="40"/>potentiae, et secundum se obiectum potentiae: dicitur enim
+<lb ed="#L" n="41"/>in littera quod proprium obiectum simplicis actus 
+poten<lb break="no" ed="#L" n="42"/>tiae est id quod est secundum se obiectum potentiae. Aut
+<lb ed="#L" n="43"/>enim ly secundum se distinguitur contra secundum 
+ac<lb break="no" ed="#L" n="44"/>cidens; aut contra secundum aliud. Quocumque autem
+<lb ed="#L" n="45"/>modo sumatur, aequale, immo idem omnino erit proprium
+<lb ed="#L" n="46"/>obiectum potentiae, et proprium obiectum simplicis actus.
+<lb ed="#L" n="47"/>Quod est contra litteram, volentem potentiam extendere se
+<lb ed="#L" n="48"/>ad proprium obiectum actus simplicis, et obiectum actus
+<lb ed="#L" n="49"/>non simplicis, Probatur sequela: quia tam obiectum per
+<lb ed="#L" n="50"/>accidens, quam obiectum per aliud, extra formalem 
+ratio<lb break="no" ed="#L" n="51"/>nem per se obiecti potentiae est.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e616">
+                  <lb ed="#L" n="52"/>IV. Ad hoc breviter dicitur quod hic sumitur 
+secun<lb break="no" ed="#L" n="53"/>dum se, ut distinguitur contra per aliud, non 
+quomodo<lb break="no" ed="#L" n="54"/>libet, sed infra latitudinem perseitatis: ita quod secundum
+<lb ed="#L" n="55"/>se sumitur pro per se primo, et opponitur ei quod est
+<lb ed="#L" n="56"/>per se secundo. Sicut dicimus quod habere tactum 
+con<lb break="no" ed="#L" n="57"/>venit animali per se primo: homini vero per aliud, idest
+<lb ed="#L" n="58"/>per se secundo, quia propter animal. Constat autem quod
+<lb ed="#L" n="59"/>per se secundo non egreditur latitudinem per se adaequati
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="60"/>obiecti. Unde in proposito, quia bonum in sua 
+communi<lb break="no" ed="#L" n="61"/>tate est obiectum potentiae volitivae; et bonum est 
+com<lb break="no" ed="#L" n="62"/>mune ad bonum per se primo, idest finem, puta 
+hone<lb break="no" ed="#L" n="63"/>stum vel delectabile, et ad bonum per se secundo, idest
+<lb ed="#L" n="64"/>id quod est ad finem, puta utile; obiectum simplicis actus
+<lb ed="#L" n="65"/>huius potentiae, infertur quod est secundum se obiectum,
+<lb ed="#L" n="66"/>idest finis, qui solus amatur non propter aliud.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e653">
+                  <lb ed="#L" n="67"/>V. Circa probationem exclusivae conclusionis in corpore
+<lb ed="#L" n="68"/>eiusdem articuli, dubium occurrit duplex. Primo, quia 
+me<lb break="no" ed="#L" n="69"/>dium contrariatur conclusioni. Est enim medium quod ea
+<lb ed="#L" n="70"/>quae sunt ad finem, non sunt bona vel volita nisi propter
+<lb ed="#L" n="71"/>finem. Ex hoc arguitur sic. Actus qui fertur in ea quae
+<lb ed="#L" n="72"/>sunt ad finem secundum omnem rationem appetibilitatis
+<lb ed="#L" n="73"/>eorum, non est negandus ferri in ea quae sunt ad finem.
+<lb ed="#L" n="74"/>Sed volitio est huiusmodi, secundum litteram: quia fertur
+<lb ed="#L" n="75"/>in illa ratione finis, et illa non sunt appetibilia nisi 
+ra<lb break="no" ed="#L" n="76"/>tione finis.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e677">
+                  <lb ed="#L" n="77"/>Secundum dubium est quia, si volitio fertur in ea quae
+<lb ed="#L" n="78"/>sunt ad finem, inquantum in eis finem vult, volitio erit
+<lb ed="#L" n="79"/>idem quod electio: quoniam electio non est eorum quae
+<lb ed="#L" n="80"/>sunt ad finem, nisi propter finem. Infirmus enim non eligit
+<lb ed="#L" n="81"/>potionem amaram nisi sub ratione sani: et eodem modo
+<lb ed="#L" n="82"/>vult eandem, inquantum sani rationem sapit.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e693">
+                  <lb ed="#L" n="83"/>VI. Ad horum evidentiam, scito quod, sicut, quantum ad
+<lb ed="#L" n="84"/>propositum spectat, principia dupliciter se habent ad 
+con<lb break="no" ed="#L" n="85"/>clusionem, scilicet secundum habitudinem significatam. per
+<lb ed="#L" n="86"/>ly propter, et significatam per ly in; nam propter 
+princi<lb break="no" ed="#L" n="87"/>pia sciuntur conclusiones in demonstratione, et in 
+conclu<lb break="no" ed="#L" n="88"/>sionibus evidenter resolutis relucent ac videntur principia
+<lb ed="#L" n="89"/>(et primum quidem consistit in actu scientiae, secundum
+<lb ed="#L" n="90"/>vero in actu intellectus, qui est habitus principiorum): sic
+<lb ed="#L" n="91"/>proportionabiliter finis dupliciter, scilicet secundum 
+praedi<lb break="no" ed="#L" n="92"/>ctas duas habitudines, se habet ad id quod est ad finem;
+<lb ed="#L" n="93"/>est enim propter quem appetitur quod est ad finem, et
+<lb ed="#L" n="94"/>appetitur in ipso quod est ad finem. Et primum quidem,
+<lb ed="#L" n="95"/>scilicet appetere quod est ad finem propter finem, ad 
+ele<lb break="no" ed="#L" n="96"/>ctionem spectat: secundum vero, scilicet appetere in eo
+<lb ed="#L" n="97"/>quod est ad finem, ipsum finem, ad volitionem pertinet.
+<lb ed="#L" n="98"/>Unde appetere medicinam propter sanitatem, electionis est:
+<lb ed="#L" n="99"/>appetere autem in oblata medicina sanitatem, simplicis 
+vo<lb break="no" ed="#L" n="100"/>litionis est. Accidit autem hic actus volitionis, quando in
+<lb ed="#L" n="101"/>eo quod est ad finem, clare relucens desideratus finis 
+of<lb break="no" ed="#L" n="102"/>fertur.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e739">
+                  <lb ed="#L" n="103"/>Et ex hoc patet responsio ad dubia. Nam ad primum
+<lb ed="#L" n="104"/>dicitur quod recte negatur a volitiohe quod sit circa ea
+<lb ed="#L" n="105"/>quae sunt ad finem: quia non fertur in ea eo modo quo
+<lb ed="#L" n="106"/>sunt ad finem, sed simpliciter, ut est dictum. Unde 
+propo<lb break="no" ed="#L" n="107"/>sitio illa maior, Actus qui fertur secundum omnem 
+ratio<lb break="no" ed="#L" n="108"/>nem etc., eget additione, scilicet, ef omni modo quo sunt
+<lb ed="#L" n="109"/>appetibilia. Et tunc falsa est minor.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e757">
+                  <lb ed="#L" n="110"/>Ad secundum vero iam inchoative patet responsio. 
+Am<lb break="no" ed="#L" n="111"/>plius autem patebit, cum de electione tractabitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e713-Dd1e765"><!-- caj-p2p1-q8-a3 -->
+               <head xml:id="TAcCaj-d1e713-Hd1e768">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e713-d1e770">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="61"/>Commentaria Cardinalis Caietank
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e777">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>CIRCA titulum tertii articuli eiusdem octavae quaestionis,
+<lb ed="#L" n="63"/>Eum Occurrit: an scilicet quaeratur hic de ipsa 
+vo<lb break="no" ed="#L" n="64"/>li&amp;óone, aut universaliter de actu voluntatis. Si de 
+volun<lb break="no" ed="#L" n="65"/>tate sola, vana est quaestio: nam in praecedenti articulo
+<lb ed="#L" n="66"/>determinavit Auctor quod volitio est finis tantum. Si enim
+<lb ed="#L" n="67"/>volitio non est eorum quae sunt àd finem, frustra 
+quaeri<lb break="no" ed="#L" n="68"/>tur de ipsa an sit una vel plures respectu eorum quae
+<lb ed="#L" n="69"/>sunt ad finem, et in finem. Si de omni actu voluntatis,
+<lb ed="#L" n="70"/>extra limites propositi est: quia hic de volitione quaestio
+<lb ed="#L" n="71"/>est, et hoc quaesitum articulus huius quaestionis esse debet.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e803">
+                  <lb ed="#L" n="72"/>IL. Ad hoc breviter dicitur dupliciter. Primo, quod 
+voli<lb break="no" ed="#L" n="73"/>tio et habet rationem volitionis; et habet rationem motus
+<lb ed="#L" n="74"/>voluntatis in finem, Et licet inquantum volitio est, exclusa
+<lb ed="#L" n="75"/>sit ab his quae sunt ad finem; inquantum tamen est motus
+<lb ed="#L" n="76"/>voluntatis in finem, non excluditur ab his quae sunt ad
+<lb ed="#L" n="77"/>finem. Et propterea quaesitum est hic utrum motus 
+vo<lb break="no" ed="#L" n="78"/>luntatis in finem, et in id quod est ad finem, sit unus 
+nu<lb break="no" ed="#L" n="79"/>mero vel non. Et licet esse motum voluntatis in finem,
+<lb ed="#L" n="80"/>sit commune volitioni et pluribus aliis actibus voluntatis;
+<lb ed="#L" n="81"/>quia tamen volitio est primus motus voluntatis in finem,
+<lb ed="#L" n="82"/>idcirco quaestio de eodem vel diverso in motu voluntatis
+<lb ed="#L" n="83"/>in finem, ad quaestionem de primo motu spectat.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e832">
+                  <lb ed="#L" n="84"/>Secundo, et quasi in idem redit, dicitur quod, quia 
+prae<lb break="no" ed="#L" n="85"/>sens articulus non est de aliquo uno actu, sed de unitate
+<lb ed="#L" n="86"/>vel pluralitate actuum respectu horum obiectorum, scilicet
+<lb ed="#L" n="87"/>finis et: eius quod est ad finem; merito locutus est in 
+quae<lb break="no" ed="#L" n="88"/>stione de primo actu, cuius proprium obiectum est finis,
+<lb ed="#L" n="89"/>et potentiam primo ducit ad finem.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e849">
+                  <lb ed="#L" n="90"/>HI. Circa doctrinam huius tertii articuli, pro quanto 
+di<lb break="no" ed="#L" n="91"/>citur quod quando voluntas movetur in id quod est ad
+<lb ed="#L" n="92"/>finem inquantum huiusmodi, movetur quoque necessario
+<lb ed="#L" n="93"/>eodem motu in finem, occurrit dubium ex <ref xml:id="TAcCaj-d1e713-Rd1e859">Gregorio de
+<cb ed="#L" n="e"/>
+                     <lb ed="#L" n="94"/>Arimino, in I Sent., dist. 1, qu. 1, art, 2.</ref> Ex triplici 
+siqui<lb break="no" ed="#L" n="95"/>dem capite arguit, et dicit oppositum, Primo, ex eo quod
+<lb ed="#L" n="96"/>volitio finis est causa volitionis eius quod est ad finem,
+<lb ed="#L" n="97"/>Idem enim non est causa sui ipsius, - Et confirmatur. Quia
+<lb ed="#L" n="98"/>cum dicitur quod volo medicinam propter sanitatem, 
+de<lb break="no" ed="#L" n="99"/>signatur quod volo medicinam propter volitam sanitatem, —
+<lb ed="#L" n="100"/>Et confirmatur. Quia sicut conclusio nota est propter 
+prin<lb break="no" ed="#L" n="101"/>cipia, ita id quod est ad finem, est volitum propter finem:
+<lb ed="#L" n="102"/>sed ibi notitia est causa notitiae, ut patet I Poster.: ergo
+<lb ed="#L" n="103"/>baec volitio fit a volitione.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e887">
+                  <lb ed="#L" n="104"/>Secundo, ducendo ad inconveniens. Quia sequeretur
+<lb ed="#L" n="105"/>quod appetens propter finem, semper actu appeteret finem,
+<lb ed="#L" n="106"/>Quod patet. esse falsum, tum quando sunt multi fines 
+sub<lb break="no" ed="#L" n="107"/>ordinati, de quibus actualiter appetens non cogitat: tum
+<lb ed="#L" n="108"/>quando actualis de fine cogitatio desinit, ut in orante Deum
+<lb ed="#L" n="109"/>in principio in ipsum moto, deinde continuante orationega
+<lb ed="#L" n="110"/>absque actuali cogitatione de Deo.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e905">
+                  <lb ed="#L" n="111"/>"Tertio, ducendo quoque ad inconveniens. Quia 
+sequere<lb break="no" ed="#L" n="112"/>tur quod idem actus voluntatis esset simul volitio et 
+no<lb break="no" ed="#L" n="113"/>litio: ut patet cum quis odit peccatum propter Deum. Si
+<lb ed="#L" n="114"/>enim est unus áctus, erit simul velle Deum ut finem, et
+<lb ed="#L" n="115"/>nolle peccatum ut repugnans fini.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e918">
+                  <lb ed="#L" n="116"/>IV. Ad horum evidentiam, scito primo quod finis et id
+<lb ed="#L" n="117"/>quod est ad finem, et similiter conclusio et principium,
+<lb ed="#L" n="118"/>dupliciter accipi possunt, Primo, secundum se, Et sic non
+<lb ed="#L" n="119"/>sunt ad praesens propositum: nihil enim refert ad 
+propo<lb break="no" ed="#L" n="120"/>situm, an inter se haec se habeant ut causa et causatum,
+<lb ed="#L" n="121"/>an e converso. Alio ergo modo sumuntur ut volita vel
+<lb ed="#L" n="122"/>cognita a nobis: et sic de eis est praesens sermo. Et 
+ver<lb break="no" ed="#L" n="123"/>titur in dubium an, cum volitum est aliquid propter aliud
+<lb ed="#L" n="124"/>ut finem, eadem numero volitio sit circa utrumque: an
+<lb ed="#L" n="125"/>sint duae simul volitiones, quarum una est ratio alterius.
+<pb ed="#L" n="73"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Et simile est cum cognoscitur conclusio propter principia:
+<lb ed="#L" n="2"/>an scilicet sint duae cognitiones, quarum una est causa
+<lb ed="#L" n="3"/>alterius; an una circa utraque.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e953">
+                  <lb ed="#L" n="4"/>Scito secundo, quod iudicium de hac quaestione omnino
+<lb ed="#L" n="5"/>contrarium profertur ab his qui haec considerant per 
+mo<lb break="no" ed="#L" n="6"/>dum rerum naturalium, aliis censentibus esse omnino unum
+<lb ed="#L" n="7"/>motum, aliis omnino distinctos. Qui enim examinant rem
+<lb ed="#L" n="8"/>hanc per modum naturalis motus, et vident quod motus
+<lb ed="#L" n="9"/>voluntatis in eo quod est ad finem, ut sic, habet pro uno
+<lb ed="#L" n="10"/>et eodem termino utrumque diversimode, quia id quod est
+<lb ed="#L" n="11"/>ad finem ut materiale, et finem ut formale; iudicant 
+con<lb break="no" ed="#L" n="12"/>sequenter quod hic motus est omnino unus, sicut visus
+<lb ed="#L" n="13"/>coloris et luminis. Et simile est in conclusione et 
+princi<lb break="no" ed="#L" n="14"/>pio. - Qui vero rem hanc per modum naturalium causarum
+<lb ed="#L" n="15"/>examinant, et vident quod conclusio non aliter 
+cognosci<lb break="no" ed="#L" n="16"/>tur propter principium, nisi quia cognoscitur per 
+princi<lb break="no" ed="#L" n="17"/>in cognitum (omnis enim doctrina et disciplina ex 
+praee<lb break="no" ed="#L" n="18"/>xistente fit cognitione); et similiter quod id quod est ad
+<lb ed="#L" n="19"/>finem, non amatur aliter propter finem, nisi quia amatur
+<lb ed="#L" n="20"/>propter finem volitum; concludunt, attenta distinctione
+<lb ed="#L" n="21"/>causae et causati, omnimodam eorum distinctionem.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e995">
+                  <lb ed="#L" n="22"/>Divus autem Thomas media via incessit, et posuit 
+mo<lb break="no" ed="#L" n="23"/>tum voluntatis in eo quod est ad finem propter finem,
+<lb ed="#L" n="24"/>esse unum quidem numero, pluralitatem vero formalem in
+<lb ed="#L" n="25"/>eo. Vidit enim quod anima nostra tripliciter se habet ad
+<lb ed="#L" n="26"/>liste: scilicet habitualiter, actualiter et virtualiter; et quod
+<lb ed="#L" n="27"/>motum voluntatis in aliquid habitualiter et actualiter,
+<lb ed="#L" n="28"/>ihedius. est motus voluntatis in illud virtualiter. Et simile
+<lb ed="#L" n="29"/>in intellectu. Cum enim habens caritatem peccat 
+venia<lb break="no" ed="#L" n="30"/>liter, habitualiter quidem diligit Deum, sed non actualiter,
+<lb ed="#L" n="31"/>ut patet; nec virtualiter, quia peccatum non est dirigibile
+<lb ed="#L" n="32"/>in Deum. Cum autem habens caritatem ambulat vel prae
+<lb ed="#L" n="33"/>dicat, et quidquid aliud. non mali facit, quamvis de Deo
+<lb ed="#L" n="34"/>non cogitet actualiter, actus tamen ille non solum talis
+<lb ed="#L" n="35"/>utis est, sed caritatis: et voluntas tunc virtualiter fertur
+<lb ed="#L" n="36"/>in Deum, et non solum habitualiter , quod convenit 
+dor<lb break="no" ed="#L" n="37"/>mienti et peccanti venialiter. Et sic unico actu numero
+<lb ed="#L" n="38"/>voluntas fertur in propter finem, et in ipsum finem. Et
+<lb ed="#L" n="39"/>sic salvatur identitas numerali$ motus, et distinctio 
+causa<lb break="no" ed="#L" n="40"/>quodammodo, dum unus est actus numerositate 
+sub<lb break="no" ed="#L" n="41"/>bi cti, et plures numerositate formae.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e1042">
+                  <lb ed="#L" n="42"/>V. Et ex his facile respondetur ad obiecta. Ad primum
+<lb ed="#L" n="43"/>quidem dicitur quod finis et id quod est ad finem, ut 
+vo<lb break="no" ed="#L" n="44"/>lita, dupliciter se habent. Primo, formaliter, et seorsum 
+se<lb break="no" ed="#L" n="45"/>cundum. se; et sic diversis volitionibus. amantur, et una
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="46"/>est causa alterius. Secundo, ut unum virtualiter clauditur
+<lb ed="#L" n="47"/>in alio: et sic unica volitione subiecto amantur. - Et eodem
+<lb ed="#L" n="48"/>modo dicitur ad confirmationes. Est enim hoc volitum
+<lb ed="#L" n="49"/>propter illud volitum virtualiter participatum in hoc: et
+<lb ed="#L" n="50"/>conclusio nota propter principia virtualiter participata in
+<lb ed="#L" n="51"/>conclusione. Sic enim ad minus occurrunt, ut ratio videndi
+<lb ed="#L" n="52"/>conclusionem, et similiter ut ratio amandi quod est ad
+<lb ed="#L" n="53"/>finem. Dico autem ad minus, quia nihil prohibet etiam
+<lb ed="#L" n="54"/>actualiter unico actu tendere in eleemosynam propter Deum,
+<lb ed="#L" n="55"/>in illam ut materiam, in hoc ut formam: sicut unica visio
+<lb ed="#L" n="56"/>corporalis tendit in colorem et lumen. Ea namque quae
+<lb ed="#L" n="57"/>sunt ad finem, comparantur ad finem ut materia ad 
+for<lb break="no" ed="#L" n="58"/>mam, ut patet ex supradictis in qu. v. Et scito quod in
+<lb ed="#L" n="59"/>huiusmodi quae unico actu ad utrumque terminantur, ly
+<lb ed="#L" n="60"/>propter non dicit causam volitionis, sed voliti: dicit enim
+<lb ed="#L" n="61"/>causam quare illud materiale terminat actum volendi; et
+<lb ed="#L" n="62"/>non dicit aliam volitionem causantem istam, nisi 
+virtuali<lb break="no" ed="#L" n="63"/>ter. Et simile est in intellectu.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e1094">
+                  <lb ed="#L" n="64"/>Ad secundum quoque patet quid dicendum: quod 
+sci<lb break="no" ed="#L" n="65"/>licet semper appetens quod est ad finem, appetit finem
+<lb ed="#L" n="66"/>non habitualiter, sed actualiter, ut extendit se ad actualiter
+<lb ed="#L" n="67"/>et virtualiter. Est enim virtualiter uti aliquo infra 
+latitudi<lb break="no" ed="#L" n="68"/>nem actualis usus: alioquin nunquam impleretur illud
+<lb ed="#L" n="69"/>praeceptum, Omnia in gloriam Dei facite, etc.; facere
+<lb ed="#L" n="70"/>enim actualiter operari importat.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e1112">
+                  <lb ed="#L" n="71"/>Ad tertium dicitur quod nolle in Hoc differt a non velle,
+<lb ed="#L" n="72"/>quod hoc est negatio actus, illud vero est actus negativus,
+<lb ed="#L" n="73"/>idest velle non. Omnis autem actus negativus appetitus:
+<lb ed="#L" n="74"/>claudit in se virtualiter, seu participative, actum positivum
+<lb ed="#L" n="75"/>sui principium et radicem: odium enim, fuga et tristitia
+<lb ed="#L" n="76"/>amorem claudunt in se oppositorum, ut de se patet. Unde
+<lb ed="#L" n="77"/>nullum inconveniens est unum actum numero; 
+numero<lb break="no" ed="#L" n="78"/>sitate subiecti, esse velle et nolle respectu diversorum:
+<lb ed="#L" n="79"/>odium enim peccati propter Deum, est et actus caritatis
+<lb ed="#L" n="80"/>respectu Dei, et refutationis respectu peccati,
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e1136">
+                  <lb ed="#L" n="81"/>At si quis dixerit quod adversarii haec omnia 
+conce<lb break="no" ed="#L" n="82"/>derent, sed ipsi impugnant quoad actualem volitionem
+<lb ed="#L" n="83"/>utriusque, etc.: dicitur eis quod discant scribere, cum 
+impu<lb break="no" ed="#L" n="84"/>gnant opiniones; et cognoscant se errare quia non 
+distin<lb break="no" ed="#L" n="85"/>xerunt nisi actualiter et habitualiter, omittentes virtualiter,
+<lb ed="#L" n="86"/>et non videntes quod actu fertur in aliquid qui actum
+<lb ed="#L" n="87"/>facit virtualiter in illud.
+</p>
+               <p xml:id="TAcCaj-d1e713-d1e1154">
+                  <lb ed="#L" n="88"/>Et haec sint hic dicta pro luce motus voluntatis in eo
+<lb ed="#L" n="89"/>quod ad finem propter finem: quamvis magis forte 
+spe<lb break="no" ed="#L" n="90"/>ctent ad qu. xit, art. 4, ubi de intentione disputabitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

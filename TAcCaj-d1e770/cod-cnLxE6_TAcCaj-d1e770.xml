@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 19</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 19</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="141"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e770"><!-- TAcCajp2p1-q19 -->
+            <head xml:id="TAcCaj-d1e770-Hd1e99">Quaestio 19</head>
+            <div xml:id="TAcCaj-d1e770-Dd1e101"><!-- caj-p2p1-q19-a1 -->
+               <head xml:id="TAcCaj-d1e770-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e770-d1e106">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="82"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e113">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="83"/>CIRCA primum articulum quaestionis decimaenonae, 
+du<lb break="no" ed="#L" n="84"/>Criss occurrit de illa propositione: Bonum et malum
+<lb ed="#L" n="85"/>sunt per se differentiae actus voluntatis: Aut enim intendit
+<lb ed="#L" n="86"/>de actibus voluntatis simpliciter; aut in genere moris. Si de
+<lb ed="#L" n="87"/>actu voluntatis simpliciter, tunc sequeretur quod unus 
+nu<lb break="no" ed="#L" n="88"/>mero actus voluntatis substantialiter esset in duabus 
+specie<lb break="no" ed="#L" n="89"/>bus disparatis: quod non est intelligibile. Patet sequela de
+<lb ed="#L" n="90"/>consensu in adulterium propter furtum. — Si de actu 
+volun<lb break="no" ed="#L" n="91"/>tatis ut est in genere moris, cum esse in genere moris
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="92"/>accidat voluntatis actibus, sequitur quod non sint eorum
+<lb ed="#L" n="93"/>per se differentiae illae quae sunt moralium per se 
+diffe<lb break="no" ed="#L" n="94"/>rentiae, ut bonum et malum.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e146">
+                  <lb ed="#L" n="95"/>II. Ad hoc dicitur quod, cum bonum et malum, ut a
+<lb ed="#L" n="96"/>s. Thoma in Prima Parte, qu. xcvi, art. 1, ad 2, 
+didici<lb break="no" ed="#L" n="97"/>mus, in solis moralibus constituant species; et actus 
+vo<lb break="no" ed="#L" n="98"/>luntatis simpliciter sint in genere naturalium; oportet 
+di<lb break="no" ed="#L" n="99"/>cere quod bonum et malum non sunt per se differentiae
+<lb ed="#L" n="100"/>actus voluntatis; ita quod actus voluntatis non differunt
+<pb ed="#L" n="142"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>specie secundum se, secundum per se differentias boni
+<lb ed="#L" n="2"/>et mali, seu, quod idem est, secundum species moralium. —
+<lb ed="#L" n="3"/>Quod autem actus voluntatis sint in genere naturalium,
+<lb ed="#L" n="4"/>etiam specifice, patet ex tribus supradictis. Primo , ex 
+di<lb break="no" ed="#L" n="5"/>stinctione actuum voluntatis, absque admixtione moralium,
+<lb ed="#L" n="6"/>superius facta, trium circa finem, et trium circa ea quae
+<lb ed="#L" n="7"/>sunt ad finem. Secündo, ex eo quod unus numero actus
+<lb ed="#L" n="8"/>voluntatis est in diversis speciebus moralium disparatis ,
+<lb ed="#L" n="9"/>eo quod sunt eius accidentia, sicut idem pomum in 
+spe<lb break="no" ed="#L" n="10"/>ciebus albi et dulcis. Tertio, ex eo quod aliquis actus 
+vo<lb break="no" ed="#L" n="11"/>luntatis habet obiectum indifferens ad bonüm et malum
+<lb ed="#L" n="12"/>morale: extra per se autem differentias alicuius, non 
+in<lb break="no" ed="#L" n="13"/>venitur ipsum.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e194">
+                  <lb ed="#L" n="14"/>Quod áutem huius oppositum non intendat hic Auctor,
+<lb ed="#L" n="15"/>non solum .ex praedictis, sed. ex praesenti habetur littera,
+<lb ed="#L" n="16"/>volente actum voluntatis sic secundum boni et. mali 
+diffe<lb break="no" ed="#L" n="17"/>rentias distingui, sicut actus rationis secundum differentias
+<lb ed="#L" n="18"/>veri et falsi. Constat enim quod unus numero rationis
+<lb ed="#L" n="19"/>actus, püta opinio actualis quod Socrates sedet, est 
+suc<lb break="no" ed="#L" n="20"/>cessive verus et falsus, absque sui. mutatione: quod esset
+<lb ed="#L" n="21"/>impossibile, si differentia secundum. verum et falsum esset
+<lb ed="#L" n="22"/>per se divisiva ac constitutiva actus rationis; neque enim
+<lb ed="#L" n="23"/>aliquod unum individuum coloris est modo album, modo
+<lb ed="#L" n="24"/>nigrum. Sicut igitur actus rationis suam habet absolute.
+<lb ed="#L" n="25"/>speciem, differentiamque constitutivam, susceptivam veri
+<lb ed="#L" n="26"/>et falsi; ita actus voluntatis proprium habet genus, 
+diffe<lb break="no" ed="#L" n="27"/>rentias ac species in genere naturae, praevenientia genus
+<lb ed="#L" n="28"/>et species moralium.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e230">
+                  <lb ed="#L" n="29"/>III. Quomodo autem: haec litterae verbaaccipienda sunt,
+<lb ed="#L" n="30"/>videndum: restat. Difficultatem habent non solum ex. 
+per<lb break="no" ed="#L" n="31"/>seitate, sed ex perseitate tali, scilicet differentiarum. Plus
+<lb ed="#L" n="32"/>enim exigitur ad hoc quod bonum et malum sint per se
+<lb ed="#L" n="33"/>differentiae actus, quam quod sint per se. spectantia ad
+<lb ed="#L" n="34"/>actum. Facile siquidem patet quod in definitione boni et
+<lb ed="#L" n="35"/>mali moralis ponitur. voluntatis actus, quoniam sunt: circa
+<lb ed="#L" n="36"/>voluntarium: ac per hoc, ad perseitatem secundi modi 
+spe<lb break="no" ed="#L" n="37"/>ctant, Sed ad hoc quod. sint per se differentiae, perseitas
+<lb ed="#L" n="38"/>primi modi requiritur. Quae cum non sit, dupliciter dici
+<lb ed="#L" n="39"/>potest. Aut quod hic sumitur per se ut distinguitur 
+con<lb break="no" ed="#L" n="40"/>tra;per aliud, et actus: voluntatis in genere actuum: üt sit
+<lb ed="#L" n="41"/>sensus quod bonum et malum. sunt actus. voluntatis 
+dif<lb break="no" ed="#L" n="42"/>ferentiae per se, idest non per aliud, in genere actuum.
+<lb ed="#L" n="43"/>Et secundum hoc, ponitur differentia inter actus humanos
+<lb ed="#L" n="44"/>voluntatis, et aliarum potentiarum, in hoc quod bonum
+<lb ed="#L" n="45"/>et malum distinguunt actus aliarum. virium mediantibus
+<lb ed="#L" n="46"/>actibus: voluntatis, quoniam non misi quatenus ' voluntarii
+<lb ed="#L" n="47"/>sunt:.áctus autem voluntatis! distinguunt per se, idest non
+<lb ed="#L" n="48"/>per aliquid aliud. Insinuatur quoque quod, licet bonum
+<lb ed="#L" n="49"/>et malum sint per se differentiae constitutivae conditionum
+<lb ed="#L" n="50"/>supervenientium actibus yoluntariis, et non ipsorum actuum
+<lb ed="#L" n="51"/>secundum: se; applicando tamen eas ad actus ipsos, 
+respi<lb break="no" ed="#L" n="52"/>ciunt actus voluntatis per se, alios per aliud. - Aut quod
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="53"/>hic sumitur per se proprie, ut distinguitur contra per 
+ac<lb break="no" ed="#L" n="54"/>cidens; et actus voluntatis non in genere naturae, sed ut
+<lb ed="#L" n="55"/>est in genere moris: üt sit sensus quod bonum et malum
+<lb ed="#L" n="56"/>moraliter sunt per se differentiae actus voluntatis in genere
+<lb ed="#L" n="57"/>moris, Et secundum hoc, fundatur hic explicanda et hinc
+<lb ed="#L" n="58"/>deducenda in. sequenti articulo, differentia inter bonitatem
+<lb ed="#L" n="59"/>ac malitiam actus voluntatis et aliorum actuum 
+humano<lb break="no" ed="#L" n="60"/>rum, in hoc. quod bonum et malum moralia ad alios actus,
+<lb ed="#L" n="61"/>ut sunt in genere moris, se habent ut differentiae per se, et
+<lb ed="#L" n="62"/>ut ordinatae inter se per accidens, et ut circumstantiae ; ad
+<lb ed="#L" n="63"/>actum vero voluntatis in genere moris, se habent ut per
+<lb ed="#L" n="64"/>se differentiae, et non aliter, ut in sequenti articulo 
+ple<lb break="no" ed="#L" n="65"/>nius patebit. Et hic procul dubio sensus est intentus ab
+<lb ed="#L" n="66"/>Auctore, et subtilis valde est: sed difficultates eius in 
+se<lb break="no" ed="#L" n="67"/>quenti sunt clarae articulo.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e319">
+                  <lb ed="#L" n="68"/>IV. Circa corpus eiusdem articuli, dubium est an. eodem
+<lb ed="#L" n="69"/>miodo sumantur bonum et malum in responsione, cum. 
+di<lb break="no" ed="#L" n="70"/>citur, Bonum et malum sunt per se differentiae actus
+<lb ed="#L" n="71"/>voluntatis; et in eius subiuncta ratione, cum subditur, Nam
+<lb ed="#L" n="72"/>bonum et malum per se ad voluntatem pertinent , sicut
+<lb ed="#L" n="73"/>verum et falsum ad rationem. Quod enim. eodem. modo
+<lb ed="#L" n="74"/>sumantur, scilicet de bono et malo morali, tractatus ipse
+<lb ed="#L" n="75"/>moralis, et converificatio testantur: malum enim in 
+com<lb break="no" ed="#L" n="76"/>muni non constituit aliquam speciem, ut praedictum est. —
+<lb ed="#L" n="77"/>Quod autem diversimode sumantur, scilicet in responsione
+<lb ed="#L" n="78"/>pro moralibus, et in ratione pro transcendentibus, ex 
+pro<lb break="no" ed="#L" n="79"/>portionalitate adiuncta veri et falsi insinuatur: verum enim
+<lb ed="#L" n="80"/>et falsum ad nostram rationem, sicut bonum et malum in
+<lb ed="#L" n="81"/>communi ad nostram voluntatem, se habent.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e352">
+                  <lb ed="#L" n="82"/>V. Ad. hoc dicitur quod, licet in responsione bonum
+<lb ed="#L" n="83"/>et malum non nisi pro bono et malo morali. sumi possint,
+<lb ed="#L" n="84"/>quoniam in solis moralibus bonum et malum sunt per se
+<lb ed="#L" n="85"/>differentiae constitutivae; in ratione tamen utroque modo
+<lb ed="#L" n="86"/>sumi possunt, et pro moralibus, et pro transcendentibus.
+<lb ed="#L" n="87"/>Pro moralibus quidem, quia ex hoc. quod. haec. per :$e
+<lb ed="#L" n="88"/>spectant ad voluntatem, sequitur quod eorum. , lifferentiae
+<lb ed="#L" n="89"/>per se distinguant actus eius, modo, exposito. Pro 
+tran<lb break="no" ed="#L" n="90"/>scendentibus vero, quia ex hoc quod voluntas per se, in
+<lb ed="#L" n="91"/>primo modo perseitatis, respicit bonum tanquam proprium
+<lb ed="#L" n="92"/>obiectum, et conséquenter malum; ex hoc, tanquam "ex
+<lb ed="#L" n="93"/>prima radice; procedit ut ad bonum in moralibus 
+volun<lb break="no" ed="#L" n="94"/>tatis actus per se, ut. proprium susceptivum, concurrat, .
+<lb ed="#L" n="95"/>non per alios actus illorum. differentiis distinguatur, se
+<lb ed="#L" n="96"/>per se, ut exposuimus. Et hic sensus est profundior, "et
+<lb ed="#L" n="97"/>magis dignus tanto Auctore, ut in III- Contr. Gent., "-
+<lb ed="#L" n="98"/>1x, videre poteris.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e391">
+                  <lb ed="#L" n="99"/>VI. Responsionem ad tertium eiusdem primi antioull sic
+<lb ed="#L" n="100"/>intellige quod, licet obiectum voluntatis sit bonum 
+boni<lb break="no" ed="#L" n="101"/>tate naturae, idem tamen bonum, ut conveniens secundum
+<lb ed="#L" n="102"/>rationis ordinem, est bonum moris obiective. Et sic dat
+<lb ed="#L" n="103"/>bonitatem moralem formaliter actui. :
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e770-Dd1e405"><!-- caj-p2p1-q19-a2 -->
+               <head xml:id="TAcCaj-d1e770-Hd1e408">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e770-d1e410">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e417">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="56"/>IN articulo secundo eiusdem quaestionis, in responsione
+<lb ed="#L" n="57"/>Ii primum, adverte ultima verba, et scito quod tria 
+in<lb break="no" ed="#L" n="58"/>sinuant. Primo, quod differt tunc bonitas obiecti a 
+boni<lb break="no" ed="#L" n="59"/>tate finis in actu voluntatis, quando finis pendet ex fine.
+<lb ed="#L" n="60"/>Secundo, quod tunc etiam. differt, quando voluntas pendet
+<lb ed="#L" n="61"/>ex voluntate. Tertio, quod utrumque horum est per 
+acci<lb break="no" ed="#L" n="62"/>dens. - Primum significat quod, quando sunt plures fines
+<lb ed="#L" n="63"/>per se subordinati et voliti simul, ut cum quis vult 
+medici<lb break="no" ed="#L" n="64"/>nam sanativam propter adeundam militiam propter 
+victo<lb break="no" ed="#L" n="65"/>riam; formalis bonitas obiecti, puta esse sanum, differt a
+<lb ed="#L" n="66"/>bonitate alterius finis, puta militiae, - Secundum vero, quod
+<lb ed="#L" n="67"/>quando voluntas unius finis, puta adulterii, dependet ex
+<lb ed="#L" n="68"/>voluntate alterius per bccidens finis prioris, puta furti, ut
+<lb ed="#L" n="69"/>cum quis vult adulterari ut furetur; malitia quoque 
+obie<lb break="no" ed="#L" n="70"/>cti, puta adulterii, differt a malitia finis, puta furti. - Tertium
+<lb ed="#L" n="71"/>autem, scilicet quod utrumque horum est per accidens ,
+<lb ed="#L" n="72"/>significat. quod accidit actui voluntatis differentia haec 
+bo<lb break="no" ed="#L" n="73"/>nitatis utroque modo: quia accidit fini subordinari alteri
+<lb ed="#L" n="74"/>fini, et accidit voluntati dependere ex alia voluntate, sicut
+<lb ed="#L" n="75"/>accidit moventi quod moveatur. Nisi enim accideret, omni
+<lb ed="#L" n="76"/>fini et omni volitioni conveniret.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e467">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>De differentia autem utriusque bonitatis in actibus. 
+alia<lb break="no" ed="#L" n="78"/>rum virium, hic tacta, in sequenti quaestione ex proposito
+<lb ed="#L" n="79"/>erit sermo diffusus.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e478">
+                  <lb ed="#L" n="80"/>II. Circa praedicta verba dubium occurrit: quia differentia
+<lb ed="#L" n="81"/>finis et eius quod. est ad finem, non per accidens spectat
+<lb ed="#L" n="82"/>ad voluntatem; nec voluntas per accidens intendit et eligit.
+<lb ed="#L" n="83"/>Ergo non solum per accidens, sed per se differt, quoad :
+<lb ed="#L" n="84"/>voluntatem, bonitas ex fine, et ex obiecto: illa enim ad 
+in<lb break="no" ed="#L" n="85"/>tentionem, haec ad electionem spectat.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e495">
+                  <lb ed="#L" n="86"/>Ad hoc dicitur quod, licet nihil illorum assumptorum
+<lb ed="#L" n="87"/>concurrat per accidens ad voluntatem, neganda tamen est
+<lb ed="#L" n="88"/>sequela: quia bonitas finis, et eius quod est ad finem, ut
+<lb ed="#L" n="89"/>sic, est unamet, licet finis et id quod» est ad finem sudine
+<lb ed="#L" n="90"/>guantur. Unde id quod est ad finem, dupliciter 
+compa<lb break="no" ed="#L" n="91"/>rari potest ad voluntatem. Uno modo, ut sic: et non habet
+<lb ed="#L" n="92"/>aliam bonitatem, sed finis est eius ratio formalis. Alio
+<lb ed="#L" n="93"/>modo, secundum aliquam aliam propriam bonitatem: et
+<lb ed="#L" n="94"/>sic non est ut ad finem, sed ut seorsum volitum. Et tunc
+<lb ed="#L" n="95"/>differt bonitas obiecti a fine, sed per accidens, ut in littera
+<lb ed="#L" n="96"/>dicitur,
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e770-Dd1e522"><!-- caj-p2p1-q19-a5 -->
+               <head xml:id="TAcCaj-d1e770-Hd1e525">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e770-d1e527">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e534">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>CIRCA materiam quinti et sexti articuli, omisso tertio et
+<lb ed="#L" n="27"/>(gius adverte, confessor, quod depositio erroneae 
+ra<lb break="no" ed="#L" n="28"/>tionis fit non solum per oppositam rationem, aut veritatis
+<lb ed="#L" n="29"/>cognitionem; sed etiam per exclusionem ad applicationem
+<lb ed="#L" n="30"/>ad opus. Verbi gratia, mulier audiens a praedicatore quod
+<lb ed="#L" n="31"/>uti alienis capillis est peccatum mortale quia est simulatio,
+<lb ed="#L" n="32"/>concipiensque ex ratione audita et auctoritate praedicatoris, ,
+<lb ed="#L" n="33"/>talem usum esse peccatum mortale; et ex alia parte vellet
+<lb ed="#L" n="34"/>dti huiusmodi capillis; et inde ratione, hinc appetitu 
+mo<lb break="no" ed="#L" n="35"/>vente, nescit solvere motiva rationis erroneae contrariae
+<lb ed="#L" n="36"/>appetitui suo; tamen putans, absque. solutione rationis, id
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="37"/>sibi licere, utitur talibus capillis. In hoc, et similibus, non
+<lb ed="#L" n="38"/>est, proprie loquendo, voluntas discordans a ratione errante:
+<lb ed="#L" n="39"/>quia non fit contra conscientiam. Et ratio est quia, licet
+<lb ed="#L" n="40"/>maneat ratio errans in se, non manet tamen applicata ad
+<lb ed="#L" n="41"/>hoc velle, nec actualiter nec virtualiter; sed deponitur 
+appli<lb break="no" ed="#L" n="42"/>catio illa, ac per hoc, erronea conscientia, quae. in 
+appli<lb break="no" ed="#L" n="43"/>catione consistit. Licite autem hoc absque ulla alia ratione
+<lb ed="#L" n="44"/>fit, etiam si ex impetu vel libito fiat, Quia ratio erronea
+<lb ed="#L" n="45"/>non habet in se unde liget, sed quatenus acceptatur: unde
+<lb ed="#L" n="46"/>ex quacumque causa non acceptetur, vel in se vel in 
+appli<lb break="no" ed="#L" n="47"/>catione, non ligat.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e770-Dd1e590"><!-- caj-p2p1-q19-a7 -->
+               <head xml:id="TAcCaj-d1e770-Hd1e593">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e770-d1e595">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e602">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>CIRCA titulum articuli septimi, adverte quod, licet 
+ha<lb break="no" ed="#L" n="9"/>boom de voluntate, idest de actu interiori voluntatis,
+<lb ed="#L" n="10"/>in hac. quaestione tractatum. sit; in hoc. articulo quaestio
+<lb ed="#L" n="11"/>est de voluntate, idest de actu interiori voluntatis, u£ di-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="12"/>stinguitur contra intentionem. Ea autem necessitas 
+quaestio<lb break="no" ed="#L" n="13"/>nis huius fuit, quia voluntas ab intentione saepe distingui
+<lb ed="#L" n="14"/>solet, et plurimum intentio iudicari in continua morum
+<lb ed="#L" n="15"/>frequentia, voluntasque ex intentione accusari vel excusari.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e770-Dd1e628"><!-- caj-p2p1-q19-a8 -->
+               <head xml:id="TAcCaj-d1e770-Hd1e631">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e770-d1e633">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e640">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>IN titulo articuli octavi, voluntas sumitur ut in praecedenti
+<lb ed="#L" n="17"/>Dieu
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e649">
+                  <lb ed="#L" n="18"/>In corpore eiusdem articuli, adverte primo, quod Auctor
+<lb ed="#L" n="19"/>plus determinat quam quaesierit: quaesivit enim de 
+quan<lb break="no" ed="#L" n="20"/>titate voluntatis et intentionis; determinat autem de 
+quan<lb break="no" ed="#L" n="21"/>titate praedictorum, et actus etiam exterioris. Et hoc ad
+<lb ed="#L" n="22"/>perfectionem doctrinae; et propter identitatem rationis,
+<lb ed="#L" n="23"/>quoad hoc, in voluntate et actu exteriori, sublatis 
+impedi<lb break="no" ed="#L" n="24"/>mentis.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e667">
+                  <lb ed="#L" n="25"/>Adverte secundo, quod.in littera distinguitur tam 
+vo<lb break="no" ed="#L" n="26"/>luntas quam. actus exterior: respectu scilicet secundum se,
+<lb ed="#L" n="27"/>et ut stat sub intentione. Et dicitur quod nec quantitas
+<lb ed="#L" n="28"/>ex obiecto, nec quantitas ex modo intensionis, descendit ne-
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e679">
+                  <lb ed="#L" n="29"/>cessario in actum volitionis aut actus exterioris secundum
+<lb ed="#L" n="30"/>se, seu materialiter, idest ut tendunt in sua obiecta 
+pro<lb break="no" ed="#L" n="31"/>pria: sed quantitas utraque, scilicet ex obiecto et modo
+<lb ed="#L" n="32"/>intensionis, redundat in utrumque actum, scilicet 
+volunta<lb break="no" ed="#L" n="33"/>tis et exterioris, ut stant sub intentione, seu formaliter,
+<lb ed="#L" n="34"/>idest ut téndunt in finem quem respicit intentio.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e695">
+                  <lb ed="#L" n="35"/>II. In responsione ad tertium eiusdem articuli, dubium
+<lb ed="#L" n="36"/>occurrit quomodo verificetur quod quantum mala est 
+inten<lb break="no" ed="#L" n="37"/>tio, tantum mala est voluntas: an scilicet verificatur de 
+vo<lb break="no" ed="#L" n="38"/>luntate materialiter et secundum se; aut formaliter, et ut
+<lb ed="#L" n="39"/>stat sub intentione. Si secundo modo, nulla est differentia
+<lb ed="#L" n="40"/>inter quantitatem bonitatis et malitiae, in hoc: quoniam, ut
+<lb ed="#L" n="41"/>in corpore articuli patet, quantitas intentionis bonae 
+redun<lb break="no" ed="#L" n="42"/>dat in voluntatem et actum formaliter. Si primo modo, sic
+<lb ed="#L" n="43"/>convincitur falsum manifeste: quoniam neutra malitia 
+ne<lb break="no" ed="#L" n="44"/>cessario descendit ex intentione in voluntatem materialiter.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e719">
+                  <lb ed="#L" n="45"/>III. Ad hoc dicitur quod ea quae dicta sunt in corpore
+<lb ed="#L" n="46"/>articuli, verificantur de quantitate bonitatis et malitiae. Et
+<lb ed="#L" n="47"/>de bonitate quidem, in littera patet: de malitia autem, eisdem
+<lb ed="#L" n="48"/>rationibus probatur. Quod enim quantitas malae intentionis
+<lb ed="#L" n="49"/>ex obiecto, non necessario descendat in voluntatem 
+secun<lb break="no" ed="#L" n="50"/>dum se, patet ex hoc, quod intendens aliquod magnum 
+  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="51"/>malum, potest velle uti aliquo medio non sufficienter 
+con<lb break="no" ed="#L" n="52"/>sono tanto malo: sicut si quis vellet emere episcopatum,
+<lb ed="#L" n="53"/>et offerret solas preces. Quod etiam quantitas malae 
+in<lb break="no" ed="#L" n="54"/>tentionis ex modo, non descendat in quantitatem actus 
+se<lb break="no" ed="#L" n="55"/>cundum se, patet ex hoc, quod contingit intense intendentem
+<lb ed="#L" n="56"/>adulterium, minus libenter frangere murum, per quem in- :
+<lb ed="#L" n="57"/>grediatur ad intentum. habendum. Cum igitur non 
+opor<lb break="no" ed="#L" n="58"/>teat esse verum quod quantum mala est intentio, tantum
+<lb ed="#L" n="59"/>mala sit voluntas materialiter; relinquitur ut verificetur
+<lb ed="#L" n="60"/>hoc dictum de voluntate formaliter, idest ut stat sub 
+in<lb break="no" ed="#L" n="61"/>tentione.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e761">
+                  <lb ed="#L" n="62"/>Et ad obiectionem contra hoc, dicitur quod, stante hoc,
+<lb ed="#L" n="63"/>salvatur differentia inter quantitatem bonitatis et malitiae
+<lb ed="#L" n="64"/>in hoc, quod quantitas malitiae. intentionis est semper
+<lb ed="#L" n="65"/>quantitas malitiae voluntatis formaliter, sicut quod absolute
+<lb ed="#L" n="66"/>constituit eam tantum malam: quantitas vero bonitatis 
+in<lb break="no" ed="#L" n="67"/>tentionis non oportet quod sit quantitas bonitatis 
+volun<lb break="no" ed="#L" n="68"/>tatis. Et ratio differentiae est, quia sicut simpliciter ad 
+sim<lb break="no" ed="#L" n="69"/>pliciter, ita magis ad magis. Constat autem quod malitia
+<lb ed="#L" n="70"/>in intentione sufficit ad constituendam voluntatem malam;
+<lb ed="#L" n="71"/>bonitas autem non: quia bonum constat ex causa integra,
+<lb ed="#L" n="72"/>malum autem ex particularibus defectibus. Unde, dando
+<lb ed="#L" n="73"/>eleemosynam .propter inanem gloriam, non solum intentio
+<lb ed="#L" n="74"/>est mala, sed etiam actus formaliter: et consequenter, quanto
+<lb ed="#L" n="75"/>peior est intentio, tanto peior erit actus formaliter. Sicut
+<lb ed="#L" n="76"/>absolute conceditur quod actus dantis eleemosynam 
+pro<lb break="no" ed="#L" n="77"/>pter inanem gloriam, est malus; ita absolute concedendum
+<lb ed="#L" n="78"/>est. quod actus dantis eleemosynam propter maximam 
+affe<lb break="no" ed="#L" n="79"/>ctionem inanis gloriae, est peior. Et similiter si fiat propter
+<lb ed="#L" n="80"/>maius malum, puta subversionem fidei. Sed, furando 
+divi<lb break="no" ed="#L" n="81"/>tem propter subveniendum pauperibus, bonitas intentionis
+<lb ed="#L" n="82"/>non constituit bonitatem actus: et consequenter quantitas
+<lb ed="#L" n="83"/>bonitatis in intentione, non constituit quantitatem 
+bonita<lb break="no" ed="#L" n="84"/>tis in actu. In. quo enim non ponitur bonitas, in eo nec
+<lb ed="#L" n="85"/>quantitas illius cogitari potest. Et haec est intentio litterae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e770-Dd1e817"><!-- caj-p2p1-q19-a9 -->
+               <head xml:id="TAcCaj-d1e770-Hd1e820">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e770-d1e822">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e829">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>IN articulo nono, circa illa verba: Ad bonitatem 
+volunta<lb break="no" ed="#L" n="31"/>tis humanae requiritur quod ordinetur in summum 
+bo<lb break="no" ed="#L" n="32"/>num, memento quod ordinari in summum bonum 
+con<lb break="no" ed="#L" n="33"/>tingit tripliciter. Uno modo, in communi. Et hoc commune
+<lb ed="#L" n="34"/>est bonis et malis: quilibet enim propter aliquid 
+opera<lb break="no" ed="#L" n="35"/>tur apparens sibi summum bonum. —- Alio modo, in speciali,
+<lb ed="#L" n="36"/>confuse tamen: sicut si quis, nesciens in quo consistat
+<lb ed="#L" n="37"/>summum bonum, puta in visione Dei, vel in Deo, 
+opere<lb break="no" ed="#L" n="38"/>tur propter summum bonum, quod in veritate est 
+sum<lb break="no" ed="#L" n="39"/>mum bonum. Et hoc potest convenire bonis. - Tertio modo,
+<lb ed="#L" n="40"/>in speciali, et distincte: ut si quis operari intendit propter
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="41"/>Deum cognoscendum, amandum, etc. Et hoc etiam. 
+contin<lb break="no" ed="#L" n="42"/>git dupliciter: puta propter cognitionem, amoremque, etc,
+<lb ed="#L" n="43"/>ad quae natura potest; et ad quae gratia Dei elevat.
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e866">
+                  <lb ed="#L" n="44"/>In proposito igitur, ad bonitatem voluntatis humanae
+<lb ed="#L" n="45"/>requiritur quod ordinetur ad. summum bonum non 
+appa<lb break="no" ed="#L" n="46"/>renter, sed quod in veritate est summum, confuse vel 
+di<lb break="no" ed="#L" n="47"/>stincte, naturaliter vel supernaturaliter, secundum statum
+<lb ed="#L" n="48"/>personae. Quod dico propter gentiles et ignorantes. Si enim
+<lb ed="#L" n="49"/>secundum proportionem concessi sibi luminis, in verum
+<lb ed="#L" n="50"/>summum bonum ordinent actiones suas, bonae moraliter
+<lb ed="#L" n="51"/>erunt: et si non, non.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e770-Dd1e887"><!-- caj-p2p1-q19-a10 -->
+               <head xml:id="TAcCaj-d1e770-Hd1e890">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e770-d1e892">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="105"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e770-d1e899">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="106"/>IN articulo decimo, iungito verba in responsione ad 
+pri<lb break="no" ed="#L" n="107"/>Eun. verbis in corpore articuli: et memor supradictorum
+<lb ed="#L" n="108"/>in articulo sexto quaestionis primae, adverte quod, quia velle
+<lb ed="#L" n="109"/>aliquid sub ratione boni, est velle illud propter summum
+<lb ed="#L" n="110"/>bonum, ideo dicitur quod voluntas volens aliquid sub ratione
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="111"/>boni, est conformis divinae voluntati in volito formaliter,
+<lb ed="#L" n="112"/>quod est velle propter divinum et commune bonum. Sed cave
+<lb ed="#L" n="113"/>ne propterea dicas omnem voluntatem semper conformari
+<lb ed="#L" n="114"/>divinae in volito formaliter, quia nullus operatur aspiciens
+<lb ed="#L" n="115"/>ad malum, sed ad aliquam boni rationem; et consequen-
+<pb ed="#L" n="152"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ter voluntas mala conformatur divinae voluntati in. volito
+<lb ed="#L" n="2"/>formaliter. Hoc enim falsum est. Licet enim voluntas,
+<lb ed="#L" n="3"/>quantumcumque mala, inquantum habet aliquid boni, sit
+<lb ed="#L" n="4"/>conformis divinae voluntati, ac per hoc possit secundum
+<lb ed="#L" n="5"/>quid dici conformis divinae voluntati in volito formaliter,
+<lb ed="#L" n="6"/>sicut potest secundum quid dici bona; simpliciter tamen
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>illa sola voluntas est conformis divinae voluntati in. 
+vo<lb break="no" ed="#L" n="8"/>lito formaliter, quae sub ratione boni non. apparentis,
+<lb ed="#L" n="9"/>sed veri, exercetur. Ad hanc enim conformitatem tenemur.
+<lb ed="#L" n="10"/>Cum illa quae est secundum boni rationem sive veri
+<lb ed="#L" n="11"/>sive apparentis, nati sumus: in hac persistere virtutis
+<lb ed="#L" n="12"/>opus est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

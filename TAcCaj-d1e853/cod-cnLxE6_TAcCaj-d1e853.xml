@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 35</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 35</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="249"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e853"><!-- TAcCajp2p1-q35 -->
+            <head xml:id="TAcCaj-d1e853-Hd1e99">Quaestio 35</head>
+            <div xml:id="TAcCaj-d1e853-Dd1e101"><!-- caj-p2p1-q35-a4 -->
+               <head xml:id="TAcCaj-d1e853-Hd1e104">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e853-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e853-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="56"/>OMissis primis tribus articulis quaestionis 
+trigesimae<lb break="no" ed="#L" n="57"/>quintae, circa quartum duo occurrunt advertenda.
+<lb ed="#L" n="58"/>Primum est, quod. Auctor non loquitur hic de absolutis,
+<lb ed="#L" n="59"/>ut distinguuntur contra relativa: sed determinat seipsum
+<lb ed="#L" n="60"/>de quali absolutione intendit, scilicet a specificatione ab 
+ex<lb break="no" ed="#L" n="61"/>trinseco. Quod qualiter intelligatur, in Prima Parte dictum
+<lb ed="#L" n="62"/>diffuse est.
+</p>
+               <p xml:id="TAcCaj-d1e853-d1e133">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>Secundum est, quod Auctor posuit intemperantiam et
+<lb ed="#L" n="64"/>iustitiam sub absolutis, non quia non ipsae specificentur ab
+<lb ed="#L" n="65"/>extrinseco, cum sint actus aut habitus: sed vel 
+exempla<lb break="no" ed="#L" n="66"/>riter, vel accipiendo eas ut qualitates. Sicut enim potentiae
+<lb ed="#L" n="67"/>animae sumuntur ut potentiae, et ut proprietates naturae;
+<lb ed="#L" n="68"/>ita actus et habitus ut sic, et ut qualitates secundum se.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e853-Dd1e152"><!-- caj-p2p1-q35-a6 -->
+               <head xml:id="TAcCaj-d1e853-Hd1e155">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e853-d1e157">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e853-d1e164">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>ARTICULO quinto omisso, circa sextum eiusdem 
+quae<lb break="no" ed="#L" n="15"/>stionis, adverte quod superius, in qu. xxix, art. 3, ubi
+<lb ed="#L" n="16"/>odium comparatum est amori in fortitudine, duae tantum
+<lb ed="#L" n="17"/>rationes dictae sunt quare per accidens odium est fortius
+<lb ed="#L" n="18"/>amore, scilicet ex sensu, et mala coniugatione: hic autem,
+<lb ed="#L" n="19"/>cum comparatur delectationi tristitia, tres rationes 
+afferun<lb break="no" ed="#L" n="20"/>tur, scilicet ex sensu, ex mala coniugatione, et ex 
+effe<lb break="no" ed="#L" n="21"/>ctu, ut patet in littera. Quoniam non experimur odium ita
+<lb ed="#L" n="22"/>impedire amorem omnem, sicut tristitia delectationem:
+<lb ed="#L" n="23"/>quoniam nec amor ita confortat naturam sicut delectatio,
+<lb ed="#L" n="24"/>nec odium debilitat illam sicut tristitia,
+</p>
+               <p xml:id="TAcCaj-d1e853-d1e193">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="25"/>II. In responsione ad secundum, adverte quod motus ab
+<lb ed="#L" n="26"/>extrinseco, ex parte activi, est fortior in principio, ex ratione
+<lb ed="#L" n="27"/>contrarietatis, qua unumquodque et seipsum imprimere, et
+<lb ed="#L" n="28"/>opposito contrarianti obsistere nititur. Et hoc intendit littera.
+<lb ed="#L" n="29"/>Et ex hoc sequitur quod triste coniunctum fortius agit,
+<lb ed="#L" n="30"/>utpote contrarium. Et consequenter magis sentitur privatio
+<lb ed="#L" n="31"/>delectabilis, quam sentiebatur ipsius coniunctio. Et sic per
+<lb ed="#L" n="32"/>accidens vehementius fugitur tristitia quam acceptabatur
+<lb ed="#L" n="33"/>delectatio: ratione tamen cuius haec fugitur. - Ex parte 
+au<lb break="no" ed="#L" n="34"/>tem patientis, motus ab extrinseco debet esse minor in 
+prin<lb break="no" ed="#L" n="35"/>cipio: quia magis contrariatur in principio.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e853-Dd1e223"><!-- caj-p2p1-q35-a8 -->
+               <head xml:id="TAcCaj-d1e853-Hd1e226">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e853-d1e228">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e853-d1e235">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>OMIsso septimo articulo, circa octavum eiusdem 
+quae<lb break="no" ed="#L" n="15"/>(Ou adverte quod id quod de ultimis speciebus
+<lb ed="#L" n="16"/>tristitiae dicitur, sic intelligo quod, cum effectus tristitiae
+<lb ed="#L" n="17"/>consistat in appetitu fugitivo, quando contingit deesse 
+re<lb break="no" ed="#L" n="18"/>fugium aliquod, constituitur anxietas vel angustia; ubi de-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="19"/>est ly fugitivus. Quando vero intantum tristitia est, quod
+<lb ed="#L" n="20"/>nec appetibile aliquod ex illa relinquitur, sed solum 
+con<lb break="no" ed="#L" n="21"/>trarium contristans, tunc constituitur acedia: ubi etiam
+<lb ed="#L" n="22"/>deest ly appetere vel appetitus, idest actus appetendi, non
+<lb ed="#L" n="23"/>tamen tristandi actus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

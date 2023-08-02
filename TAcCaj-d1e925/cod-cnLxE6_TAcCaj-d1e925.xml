@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 49</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 49</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="312"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e925"><!-- TAcCajp2p1-q49 -->
+            <head xml:id="TAcCaj-d1e925-Hd1e99">Quaestio 49</head>
+            <div xml:id="TAcCaj-d1e925-Dd1e101"><!-- caj-p2p1-q49-a1 -->
+               <head xml:id="TAcCaj-d1e925-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e925-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>In corpore articuli primi quaestionis quadragesimaenonae,
+<lb ed="#L" n="23"/>discutienda esset natura habitus, praedicamenti et 
+post<lb break="no" ed="#L" n="24"/>praedicamenti: quod, quia alterius negotii, ideo vel ad 
+par<lb break="no" ed="#L" n="25"/>ticularem quaestionem, vel ad II Metaphys. spectabit; 
+pro<lb break="no" ed="#L" n="26"/>posito enim praesenti sat est habitum discutere, de quo est
+<lb ed="#L" n="27"/>sermo. Cuius definitio ex V Metaphys. affertur in littera,
+<lb ed="#L" n="28"/>scilicet quod est dispositio qua bene vel male disponitur
+<lb ed="#L" n="29"/>dispositum secundum se vel ad alterum. Quam 
+definitio<lb break="no" ed="#L" n="30"/>nem mandabis memoriae, et figes in ea aciem 
+intelligen<lb break="no" ed="#L" n="31"/>tiae: quoniam ex ea videbis tot habitus conditiones, quot
+<lb ed="#L" n="32"/>natura illius illucescet, ut patebit.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e142">
+                  <lb ed="#L" n="33"/>II. In responsione ad tertium in eodem, incipe ex iam
+<lb ed="#L" n="34"/>dicta definitione colligere. Ex eo namque quod habitus est
+<lb ed="#L" n="35"/>dispositio, et dispositio est ordo habentis partes, etc., 
+con<lb break="no" ed="#L" n="36"/>sequens est quod habitus sit ordo habentis partes. Cum
+<lb ed="#L" n="37"/>autem audis ordinem, non intelligas respectum ordinis, sed
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="38"/>eius radicem: est enim qualitas habens talem ordinem,
+<lb ed="#L" n="39"/>Dispositionis quippe nomen a positione ordinata partium
+<lb ed="#L" n="40"/>derivatum videtur; et propterea a partibus quantitativis,
+<lb ed="#L" n="41"/>quibus primo convenit positio, non solum ad partes 
+spi<lb break="no" ed="#L" n="42"/>rituales, sed ad habentem partes transumptum est. Unde
+<lb ed="#L" n="43"/>non videtur quod est ordo partium, sed habentis partes.
+<lb ed="#L" n="44"/>Et quamvis non sit opus omnes dispositionis modos 
+sal<lb break="no" ed="#L" n="45"/>vare in habitu, sicut nec omnes animalis species in 
+ho<lb break="no" ed="#L" n="46"/>mine; ut adductus tamen in littera Simplicius dicit, omnes
+<lb ed="#L" n="47"/>salvantur in habitu, pro quanto omnis habitus vel est 
+haben<lb break="no" ed="#L" n="48"/>tis partes corporales, sicut pulchritudo, sanitas, macies et
+<lb ed="#L" n="49"/>huiusmodi; vel partes, idest partialia requisita, aut in 
+po<lb break="no" ed="#L" n="50"/>tentia, ut contingit in habentibus scientiam vel virtutem
+<lb ed="#L" n="51"/>imperfectam; aut in actu, ut contingit in habentibus 
+per<lb break="no" ed="#L" n="52"/>fecte; illi enim in potentia habent ea quae requiruntur ad
+<lb ed="#L" n="53"/>scientiam aut prudentiam, isti vero iam possident.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e925-Dd1e193"><!-- caj-p2p1-q49-a2 -->
+               <head xml:id="TAcCaj-d1e925-Hd1e196">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e925-d1e198">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e205">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>IN articulo secundo eiusdem quaestionis, adverte quod
+<lb ed="#L" n="10"/>Iu verba in corpore: Modus autem sive determinatio
+<lb ed="#L" n="11"/>subiecti secundum esse accidentale, potest accipi vel in 
+or<lb break="no" ed="#L" n="12"/>dine ad naturam, etc., si sumantur universaliter absolute,
+<lb ed="#L" n="13"/>insolubilis apparet quaestio quomodo sit sufficiens haec
+<lb ed="#L" n="14"/>distinctio: cum quantitas ipsa determinet subiectum 
+secun<lb break="no" ed="#L" n="15"/>dum. esse accidentale, nec minus habet rationem 
+modifi<lb break="no" ed="#L" n="16"/>cantis et determinantis quam secunda species qualitatis.
+<lb ed="#L" n="17"/>Si vero sumantur universaliter quidem, sed limitate sub
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>antedictis verbis, scilicet quod qualitas importat quendam
+<lb ed="#L" n="19"/>modum substantiae, et quandam determinationem | 
+secun<lb break="no" ed="#L" n="20"/>dum aliquam mensuram, cessant obiecta: quoniam sermo
+<lb ed="#L" n="21"/>non est nisi de quadam determinatione accidentali, quae
+<lb ed="#L" n="22"/>commune nomen accidentalis differentiae, qualitatem 
+sci<lb break="no" ed="#L" n="23"/>licet, sibi usurpavit.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e244">
+                  <lb ed="#L" n="24"/>II. In responsione ad primum in eodem articulo, habes
+<lb ed="#L" n="25"/>quantum operetur ly bene vel male in definitione habitus
+<lb ed="#L" n="26"/>positum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e925-Dd1e254"><!-- caj-p2p1-q49-a3 -->
+               <head xml:id="TAcCaj-d1e925-Hd1e257">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e925-d1e259">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="105"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e266">
+                  <cb ed="#L" n="i"/>
+                  <lb ed="#L" n="106"/>In articulo tertio eiusdem quaestionis 
+quadragesimaeno<lb break="no" ed="#L" n="107"/>nae, in corpore et in responsione ad primum, dubium
+<cb ed="#L" n="j"/>
+                  <lb ed="#L" n="108"/>occurrit ex <ref xml:id="TAcCaj-d1e925-Rd1e279">Scoto, in Primo, dist. xvi, qu. 1r</ref>, ubi nititur
+<lb ed="#L" n="109"/>sustinere quod habitus nullam habeat rationem. principii
+<pb ed="#L" n="313"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>activi, ea ratione, quia non est necesse tribuere hoc 
+habi<lb break="no" ed="#L" n="2"/>tui; nec est rationabile auferre a potentia completam 
+cau<lb break="no" ed="#L" n="3"/>salitatem activam respectu actus, ut adiuvetur habitu ad
+<lb ed="#L" n="4"/>agendum; quoniam omnia quae attribuuntur habitui, 
+sal<lb break="no" ed="#L" n="5"/>vantur sine hac causalitate. Sed hoc quamvis Scotus non
+<lb ed="#L" n="6"/>nisi probabiliter sustineat, ideo attuli, ut ostendatur quod
+<lb ed="#L" n="7"/>nec probabiliter sustineri potest.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e303">
+                  <lb ed="#L" n="8"/>II. Et quoniam <ref xml:id="TAcCaj-d1e925-Rd1e307">
+                     <name xml:id="TAcCaj-d1e925-Nd1e309">Durandus</name>, in III Sen:., dist. xxi, qu. rv</ref>,
+<lb ed="#L" n="9"/>simpliciter tenet quod habitus non facit aliquid ad 
+sub<lb break="no" ed="#L" n="10"/>stantiam aut modum actus, ideo rationes primo 
+afferen<lb break="no" ed="#L" n="11"/>dae sunt; deinde veritas declaranda; et demum satisfiet
+<lb ed="#L" n="12"/>obiectis.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e322">
+                  <lb ed="#L" n="13"/>Probare autem nititur ipse quatuor: primo, quod 
+habi<lb break="no" ed="#L" n="14"/>tus non est per se principium modi actus qui est 
+inten<lb break="no" ed="#L" n="15"/>sio; secundo, quod non est per se principium modi actus
+<lb ed="#L" n="16"/>qui est determinatio actus in esse naturae; tertio, quod
+<lb ed="#L" n="17"/>non est per se principium modi actus qui est determinatio
+<lb ed="#L" n="18"/>ad bonum et malum moraliter; quarto, quod non est per
+<lb ed="#L" n="19"/>se principium modi actus qui est facilitas. - Et primum
+<lb ed="#L" n="20"/>quidem, quod scilicet habitus non concurrat ut 
+comprinci<lb break="no" ed="#L" n="21"/>pium actus ad hoc ut actus intensior seu perfectior fiat,
+<lb ed="#L" n="22"/>probat ex hoc, quia altero duorum modorum hoc esset:
+<lb ed="#L" n="23"/>scilicet aut quia potentia per habitum esset intensior, et
+<lb ed="#L" n="24"/>sic actum intensiorem produceret; aut quia potentia et 
+ha<lb break="no" ed="#L" n="25"/>bitas concurrerent ut duo immediata agentia partialia. 
+Pri<lb break="no" ed="#L" n="26"/>muni non potest dici: quia potentia non suscipit magis et
+<lb ed="#L" n="27"/>minus. Secundum quoque teneri non potest: aut enim
+<lb ed="#L" n="28"/>essent univoce principia, sicut trahentes navem ; aut 
+utrum<lb break="no" ed="#L" n="29"/>que requireretur semper ad actum eiusdem speciei. Et tenet
+<lb ed="#L" n="30"/>sequela: quia principia per se requisita ad actum perfectum
+<lb ed="#L" n="31"/>in aliqua specie, requiruntur ad omnem speciei actum, ut
+<lb ed="#L" n="32"/>patet inductive. - Et confirmatur: quia effectuum 
+differen<lb break="no" ed="#L" n="33"/>tium solum secundum magis et minus, non oportet causas
+<lb ed="#L" n="34"/>plus differre quam secundum magis et minus.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e373">
+                  <lb ed="#L" n="35"/>Secundum vero, quod scilicet habitus non sit 
+princi<lb break="no" ed="#L" n="36"/>pium actus quoad determinationem in esse naturae, 
+pro<lb break="no" ed="#L" n="37"/>bat per hoc, quia non est perse principium singularitatis
+<lb ed="#L" n="38"/>actus. Per esse enim singulare determinatur actus ad esse
+<lb ed="#L" n="39"/>in rerüm natura. Et quod actus non fiat singularis ab 
+ha<lb break="no" ed="#L" n="40"/>bitu, probat: quia esse singulare est effectus communis
+<lb ed="#L" n="41"/>omnibus actibus, et praeveniens habitum.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e391">
+                  <lb ed="#L" n="42"/>Quod autem habitus non sit per se principium esse
+<lb ed="#L" n="43"/>moralis, probat, quia tale esse est relativum, cuius nulla
+<lb ed="#L" n="44"/>est per se actio nisi ratione fundamenti. Constat autem
+<lb ed="#L" n="45"/>quod actus.in esse naturae, qui est fundamentum esse 
+mo<lb break="no" ed="#L" n="46"/>ralis, non est ab habitu: quia actus similis praeveniens
+<lb ed="#L" n="47"/>habitum, ab habitu non est.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e407">
+                  <lb ed="#L" n="48"/>Quod denique habitus non sit principium  facilitatis
+<lb ed="#L" n="49"/>ipsius actus, sed agentis, patet ex eo quod idem actus
+<lb ed="#L" n="50"/>habituato facilis, et non habituato difficilis est. - Haec de
+<lb ed="#L" n="51"/>primo. Y
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e418">
+                  <lb ed="#L" n="52"/>III. Quoad secundum, scito quod, licet Auctor in hoc
+<lb ed="#L" n="53"/>tractatu communius utatur habitus nomine quam 
+poste<lb break="no" ed="#L" n="54"/>riores; quoniam appellatione habitus in hoc tractatu 
+com<lb break="no" ed="#L" n="55"/>prehenditur species intelligibilis tam in homine quam in
+<lb ed="#L" n="56"/>angelo, ut patet diligenter consideranti: ut tamen 
+commu<lb break="no" ed="#L" n="57"/>nicemus in vocabulis cum his qui adversantur, 
+restringen<lb break="no" ed="#L" n="58"/>dum est habitus nomen in hac eee ad eas 
+qualita<lb break="no" ed="#L" n="59"/>tes quas confitentur esse habitus, ut sunt virtutes morales
+<lb ed="#L" n="60"/>et intellectuales, et huiusmodi; et de his ostendendum est
+<lb ed="#L" n="61"/>quid rei veritas habeat. Quae melius videbitur, si 
+attende<lb break="no" ed="#L" n="62"/>rimus quod causa difficultatis huius est quia potentiae
+<lb ed="#L" n="63"/>operativae, quarum sunt isti habitus, ante istos habitus 
+eli<lb break="no" ed="#L" n="64"/>ciunt suos actus, eiusdem speciei cum actibus qui sunt
+<lb ed="#L" n="65"/>post adeptum habitum: intellectus autem noster, ante 
+ade<lb break="no" ed="#L" n="66"/>ptam speciem intelligibilem, nihil potest intelligere. Si 
+nam<lb break="no" ed="#L" n="67"/>que absque habitu aliquo potentiae operativae non possent
+<lb ed="#L" n="68"/>operari, non esset locu$ specialis quaestioni huic de 
+acti<lb break="no" ed="#L" n="69"/>vitate habitus, modo autem in dubium vertitur, ut patet
+<lb ed="#L" n="70"/>ex dictis.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e462">
+                  <lb ed="#L" n="71"/>Si quis igitur perspexerit quod subiectum habitus 
+opor<lb break="no" ed="#L" n="72"/>tet esse aliquo modo in actu, et aliquo modo in potentia,
+<lb ed="#L" n="73"/>quia utitur ipso cum vult, et perficitur per ipsum; et 
+si<lb break="no" ed="#L" n="74"/>militer quod habitum ipsum oportet esse aliquo modo
+<lb ed="#L" n="75"/>in actu, et aliquo modo in potentia, quoniam perficit, et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>potentialem ad actum secundum constituit: ex his videbit
+<lb ed="#L" n="77"/>naturam habitus non esse extraneam a natura potentiae
+<lb ed="#L" n="78"/>operativae. Sed quemadmodum conveniunt in natura actus
+<lb ed="#L" n="79"/>et potentiae proportionaliter, ut patet, ita conveniunt in
+<lb ed="#L" n="80"/>natura principii respectu actus. Cum enim agere 
+sequa<lb break="no" ed="#L" n="81"/>tur actum, et pati potentiam; et potentia operativa, 
+secun<lb break="no" ed="#L" n="82"/>dum id quod habet de actu, principium est activum 
+ope<lb break="no" ed="#L" n="83"/>rationis suae; secundum id vero quod habet de potentia,
+<lb ed="#L" n="84"/>principium est passivum eiusdem: consentaneum est ut
+<lb ed="#L" n="85"/>habitus perficiens potentiam ut eius propria perfectio, 
+se<lb break="no" ed="#L" n="86"/>cundum id quod habet de actu, perficiat et compleat 
+acti<lb break="no" ed="#L" n="87"/>vitatem potentiae; et secundum id quod est in potentia,
+<lb ed="#L" n="88"/>appropriet potentiam ad susceptionem ultimae 
+perfectio<lb break="no" ed="#L" n="89"/>nis, idest operationis perfectae. Putandum est enim quod
+<lb ed="#L" n="90"/>animae potentia operativa est in potentia ad suam 
+con<lb break="no" ed="#L" n="91"/>summatam perfectionem, ordine quodam: est namque in
+<lb ed="#L" n="92"/>potentia per operationes imperfectas ad habitum; et per
+<lb ed="#L" n="93"/>habitum ad operationem perfectam, in qua consummatur
+<lb ed="#L" n="94"/>perfectio potentiae operativae. Nisi quis diceret quod 
+po<lb break="no" ed="#L" n="95"/>tentia operativa animae est per se in potentia per actus
+<lb ed="#L" n="96"/>imperfectos ad actum perfectum, sed per accidens 
+interpo<lb break="no" ed="#L" n="97"/>nitur habitus. Quod irrationabiliter dici patet ex doctrina
+<lb ed="#L" n="98"/>II Physic. <quote xml:id="TAcCaj-d1e925-Qd1e527">Unumquodque enim, sicut agitur, ita aptum
+<lb ed="#L" n="99"/>natum est agi, et e contra</quote>: constat autem potentiae 
+ani<lb break="no" ed="#L" n="100"/>mae operativae perfectionem sic agi, ut per actus 
+imperfe<lb break="no" ed="#L" n="101"/>ctos acquirat habitum, et per habitum perfectam 
+operatio<lb break="no" ed="#L" n="102"/>nem assequatur. Ex natura igitur huiusmodi potentiarum
+<lb ed="#L" n="103"/>est quod ipsae tali ordine, et talibus mediis ad 
+consum<lb break="no" ed="#L" n="104"/>matam perfectionem perveniant. Ac per hoc, habitus ipsi
+<lb ed="#L" n="105"/>per se mediant inter potentias et operationes perfectas.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e546">
+                  <lb ed="#L" n="106"/>IV. Ut autem quod dicimus de activitate habitus 
+respe<lb break="no" ed="#L" n="107"/>ctu actus, evidentius monstretur, in virtutibus 
+intellectuali<lb break="no" ed="#L" n="108"/>bus, quas constat esse habitus, manifestatur. Et quoniam
+<lb ed="#L" n="109"/>innata est nobis via ex notioribus nobis, inchoemus ab
+<lb ed="#L" n="110"/>arte. Ars est habitus, ut patet in VI Ethic.: et est 
+facti<lb break="no" ed="#L" n="111"/>vus. Et quod sit factivus in. genere causae effectivae, ut
+<lb ed="#L" n="112"/>omnis cavillatio excludatur, probatur ex IX Metaphys.,
+<lb ed="#L" n="113"/>ubi ars ponitur inter potentias activas; et distinguitur 
+po<lb break="no" ed="#L" n="114"/>tentia rationalis contra potentiam naturalem, quod illa est
+<lb ed="#L" n="115"/>activa utriusque contrarii, et propterea non agit nisi 
+de<lb break="no" ed="#L" n="116"/>terminata a proaeresi, et tunc agit unum.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e573">
+                  <lb ed="#L" n="117"/>Praeterea, domus quae fit in materia, est a domo quae
+<lb ed="#L" n="118"/>est in anima, effective: et sanitas a sanitate, et universaliter
+<lb ed="#L" n="119"/>quodlibet artificiale a sua forma in mente. Sed hoc nihil
+<lb ed="#L" n="120"/>aliud est quam esse ab arte: nihil enim aliud est sanitas
+<lb ed="#L" n="121"/>in mente medici quam ars sanandi, et similiter domus
+<lb ed="#L" n="122"/>quam ars domificandi: unde ad. utrumque contrariorum
+<lb ed="#L" n="123"/>se habet. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e591">
+                  <lb ed="#L" n="124"/>Praeterea, V Metaphys., statuifica, et, breviter, artifex,
+<lb ed="#L" n="125"/>ponitur causa efficiens per se; Polycletus autem, seu 
+subie<lb break="no" ed="#L" n="126"/>ctum, per accidens. Ergo ars ips&amp; est per se principium
+<lb ed="#L" n="127"/>activum actus. - Et, quoniam probabile est quod sapientibus
+<lb ed="#L" n="128"/>pluribus videtur, ex communi hominum consensu patet
+<lb ed="#L" n="129"/>homines, utendo suis artibus, esse causas operum; adeo quod
+<lb ed="#L" n="130"/>carentes artibus, carent facultate faciendi, et non solum
+<lb ed="#L" n="131"/>carent expeditione, delectatione, promptitudine et facilitate.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e611">
+                  <lb ed="#L" n="132"/>Sit ergo procul a probabilibus phantasia haec: et dicito,
+<lb ed="#L" n="133"/>ingrediendo interiorem hominem, quod quemadmodum ars,
+<lb ed="#L" n="134"/>cum recta ratio sit factibilium, activa est eorum; ita 
+pru<lb break="no" ed="#L" n="135"/>dentia, quae recta ratio est agibilium , activa est eorum.
+<lb ed="#L" n="136"/>Et similiter quilibet habitus existens in aliqua. potentia 
+ani<lb break="no" ed="#L" n="137"/>mae, vim activam habet, sicut potentia cuius est; ut in
+<lb ed="#L" n="138"/>corpore articuli dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e629">
+                  <lb ed="#L" n="139"/>V. Nec hoc est derogare activitati potentiae; sed 
+decla<lb break="no" ed="#L" n="140"/>rare naturas potentiarum susceptibilium ipsorum habituum.
+<lb ed="#L" n="141"/>Ad quae namque natura non sufficienter determinavit. 
+po<lb break="no" ed="#L" n="142"/>tentiam 'per seipsam, determinabilem fecit per habitum, ut,
+<lb ed="#L" n="143"/>determinata illo; agat quod per seipsam plene agere non
+<lb ed="#L" n="144"/>poterat. Ex his autem patet et quod oportet habitui 
+activi<lb break="no" ed="#L" n="145"/>tatem tribuere; et quod non possunt ea quae de habitu
+<lb ed="#L" n="146"/>aliquo dicuntur; salvari absque activitate, ut patet de arte. —
+<lb ed="#L" n="147"/>Haec de secundo.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e651">
+                  <lb ed="#L" n="148"/>VI. Ad obiecta autem in oppositum, et Durando, 
+or<lb break="no" ed="#L" n="149"/>dinate respondendo, dicitur quod potentia et habitus 
+con<lb break="no" ed="#L" n="150"/>currunt ad effective causandum actum, non sicut causae
+<pb ed="#L" n="314"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>partiales univocae, ut trahentes navem; neque sicut 
+remis<lb break="no" ed="#L" n="2"/>sum et intensum, ut maius et minus lumen in eodem 
+me<lb break="no" ed="#L" n="3"/>dio; neque sicut superius et inferius, ut sol et homo 
+ge<lb break="no" ed="#L" n="4"/>nerant hominem: sed sicut imperfectum differt a seipso
+<lb ed="#L" n="5"/>perfecto. Potentia enim animae operativa non est ita 
+de<lb break="no" ed="#L" n="6"/>terminata ad eliciendum operationem talis speciei, quod
+<lb ed="#L" n="7"/>egeat habitu. determinante ipsam: quoniam ipsa absque
+<lb ed="#L" n="8"/>habitu, cum obiecto, ad actum praevenientem habitum 
+suffi<lb break="no" ed="#L" n="9"/>cit. Sed determinatio quam ante habitum habet, est ita
+<lb ed="#L" n="10"/>remota et imperfecta, ut egeat habitu ad hoc quod 
+pro<lb break="no" ed="#L" n="11"/>pinqua et perfecta sit ad operandum perfecte in tali 
+spe<lb break="no" ed="#L" n="12"/>cie. Habet namque se potentia ad habitum respectu 
+ope<lb break="no" ed="#L" n="13"/>rationis, sicut homo in principio adolescentiae ad 
+homi<lb break="no" ed="#L" n="14"/>nem perfectum respectu generationis. Quemadmodum enim
+<lb ed="#L" n="15"/>adolescens potest quidem generare, sed imperfecte; cum.
+<lb ed="#L" n="16"/>autem perfectus vir fuerit, generare potest perfecte: ita 
+po<lb break="no" ed="#L" n="17"/>tentia sine habitu potest producere operationes in tali 
+spe<lb break="no" ed="#L" n="18"/>cie, scilicet imperfectas; perfecta autem per habitum, similes
+<lb ed="#L" n="19"/>in specie perfectas. potest elicere. Nec quaeras inter haec
+<lb ed="#L" n="20"/>proportionalém similitudinem in omnibus: sed sat est 
+pro<lb break="no" ed="#L" n="21"/>posito quod dictum est. Et quod non oportet. propterea
+<lb ed="#L" n="22"/>potentiam. suscipere magis et minus: nec est idem dicere
+<lb ed="#L" n="23"/>operationem perfectam et imperfectam in eadem specie,
+<lb ed="#L" n="24"/>et dicere remissam et intensam; sicut non est idem dicere;
+<lb ed="#L" n="25"/>homo perfectus et imperfectus in eadem specie, et 
+remis<lb break="no" ed="#L" n="26"/>sus et intensus. 
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e721">
+                  <lb ed="#L" n="27"/>VII Et ex hoc patet responsio: ad primum. Propositio
+<lb ed="#L" n="28"/>enim illa, Quaecumque principia exiguntur ad operationem
+<lb ed="#L" n="29"/>perfectam in aliqua specie, requiruntur ad quamlibet illius
+<lb ed="#L" n="30"/>speciei, dato quod sit vera de his principiis quae 
+concur<lb break="no" ed="#L" n="31"/>runt ut diversa principia, ut pater et mater respectu filii,
+<lb ed="#L" n="32"/>et sol et homo respectu hominis, et huiusmodi; non tamen
+<lb ed="#L" n="33"/>est vera de his principiis quae concurrunt ut unum 
+per<lb break="no" ed="#L" n="34"/>fectum principium, ita quod ambo simul non differunt ab
+<lb ed="#L" n="35"/>uno nisi sicut imperfectum a perfecto. Et simile omnino
+<lb ed="#L" n="36"/>esset, si adolescens fieret perfectus vir per aliquod 
+distin<lb break="no" ed="#L" n="37"/>ctum superadditum. ^
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e748">
+                  <lb ed="#L" n="38"/>Et cum dicitur. quod operationum .differentium solum
+<lb ed="#L" n="39"/>secundum magis et minus. perfectum in eadem. specie,
+<lb ed="#L" n="40"/>principia non oportet magis differre: dupliciter. potest 
+re<lb break="no" ed="#L" n="41"/>sponderi. Primo, concedendo quod potentia et habitus, licet
+<lb ed="#L" n="42"/>absolute distinguantur specie, ut patet ex Praedicamentis ;
+<lb ed="#L" n="43"/>ut tamen sunt principia talis actus, non differunt nisi 
+se<lb break="no" ed="#L" n="44"/>cundum magis et minus perfectum in. eadém specie: quia
+<lb ed="#L" n="45"/>sunt eiusdem speciei cum. actu, et. consequenter inter se.
+<lb ed="#L" n="46"/>Sicut enim. potentia visiva, ut sic, reducitut. ad genus -obie-:
+<lb ed="#L" n="47"/>cti, puta coloris; ita eadem ut videt album; reducitur ad
+<lb ed="#L" n="48"/>speciem albi; ut potentiae proportionentur actibus , iuxta
+<lb ed="#L" n="49"/>doctrinam XII. Metaphys..—' Secundo: potest. dici. quod
+<lb ed="#L" n="50"/>ila propositio non tenet in principiis: quorum unum 
+sub<lb break="no" ed="#L" n="51"/>alternatur reliquo. Quoniam principiis sic. se habentibus;
+<lb ed="#L" n="52"/>stat ad actum perfectum ütrumque. requiri, et. ad 
+imperfe<lb break="no" ed="#L" n="53"/>ctum alterum tantum: quia talia non. sunt duo. disparata
+<lb ed="#L" n="54"/>principia; sed subsequens est perfectio. primi, Sic autem se
+<lb ed="#L" n="55"/>habere constat potentiam.-et habitum: quoniam habitus
+<lb ed="#L" n="56"/>subalternatur quodammodo . potentiae ,. dum; potentia | ad
+<lb ed="#L" n="57"/>multarum specierum. actus se extendens, per habitum: 
+de<lb break="no" ed="#L" n="58"/>terminatur ut sit in tali specie perfecti operis . perfectum
+<lb ed="#L" n="59"/>principium,
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e798">
+                  <lb ed="#L" n="60"/>VIII. Ad obiecta. vero: quod habitus non sit principium
+<lb ed="#L" n="61"/>actus quoad. determinationem. in esse naturae, facile. 
+dici<lb break="no" ed="#L" n="62"/>tur, primo, quod est ibi.sophisma Consequentis. Causa enim
+<lb ed="#L" n="63"/>determinans effectum secundum esse. naturae, non oportet
+<lb ed="#L" n="64"/>quod respiciat singularitatem ut. proprium effectum: sed
+<lb ed="#L" n="65"/>sat est quod. causet illud in esse naturae secundum 
+ali<lb break="no" ed="#L" n="66"/>quid. Unde habitus, qui perfectionem. in: operatione. causat
+<lb ed="#L" n="67"/>in esse naturae, determinat operationem. ad. esse perfectum :
+<lb ed="#L" n="68"/>et hoc sufficit. — Dicitur secundo quod; quia. singularitas-est
+<lb ed="#L" n="69"/>effectus communis, et ;praeveniens multas. causas; ideo 
+re<lb break="no" ed="#L" n="70"/>cte concluditur quod non est proprius effectus huius. vel
+<lb ed="#L" n="71"/>illius causae: sed male concluditur, Ergo .non .est effectus
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="72"/>huius causae. Aliud est enim effici ab A: et aliud esse 
+pro<lb break="no" ed="#L" n="73"/>prium effectum A. Unde sicut homo. generat hominem, et
+<lb ed="#L" n="74"/>hic homo hunc hominem; ita habitus facit operationem
+<lb ed="#L" n="75"/>perfectam, et hic habitus hanc operationem perfectam.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e837">
+                  <lb ed="#L" n="76"/>IX. Ad obiecta vero quod habitus non sit per se 
+prin<lb break="no" ed="#L" n="77"/>cipium esse moralis in actu, quia illud est relativum: 
+tri<lb break="no" ed="#L" n="78"/>pliciter dicitur. Primo, negando illud esse, in actu elicito,
+<lb ed="#L" n="79"/>esse. relativum: quamvis relativum sit in actu imperato.
+<lb ed="#L" n="80"/>Quoniam quemadmodum inter habitus morales est 
+contra<lb break="no" ed="#L" n="81"/>rietas secundum esse absolutum, ut inter fortitudinem et
+<lb ed="#L" n="82"/>timiditatem, liberalitatem et avaritiam, etc.; ita inter elicitos
+<lb ed="#L" n="83"/>actus. Quae est enim maior ratio?
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e857">
+                  <lb ed="#L" n="84"/>Secundo dicitur quod esse relativum carere activo per
+<lb ed="#L" n="85"/>se, sic intelligitur, quia non habet agens faciens seorsum,
+<lb ed="#L" n="86"/>non faciendo alia. Cum quo tamen stat quod habeat per
+<lb ed="#L" n="87"/>se propriam causam activam: ut experimur cum ordinem
+<lb ed="#L" n="88"/>aliquem imponendum rebus excogitamus et imponimus, et
+<lb ed="#L" n="89"/>ad id intendimus et facimus praecipiendo et exequendo
+<lb ed="#L" n="90"/>per nos vel alios. Nec minus hoc nos per se intendere et
+<lb ed="#L" n="91"/>causare experimur, quam. medicus intendat et faciat 
+sani<lb break="no" ed="#L" n="92"/>tatém. Testes sunt duces exercitus, rectoresque aliorum, ac
+<lb ed="#L" n="93"/>artifices. Et si quis negaret sensum propter rationem aut
+<lb ed="#L" n="94"/>auctoritatem, puta quia ad relationém non est motus, etc.:
+<lb ed="#L" n="95"/>non solum ineruditus, sed inerudibilis esset. zo
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e886">
+                  <lb ed="#L" n="96"/>Tertio dicitur quod habitus causat substantiam actus
+<lb ed="#L" n="97"/>perfecti, quam consequitur esse relativum: et sic potest per
+<lb ed="#L" n="98"/>se. causare esse relativum. Et cum dicitur quia substantia
+<lb ed="#L" n="99"/>actus potest causari ante habitum: respondetur quod in
+<lb ed="#L" n="100"/>hoc videntur isti errare fundamento, quasi determinatio uno
+<lb ed="#L" n="101"/>modo- tantum inveniretur. Falluntur enim in hoc: Potentia
+<lb ed="#L" n="102"/>animae operativa non eget habitu determinante ad 
+produ<lb break="no" ed="#L" n="103"/>cendum actum, Ergo ex se est sufficienter determinata ad
+<lb ed="#L" n="104"/>producendum. actum. perfectum eiusdem speciei. 
+Determi<lb break="no" ed="#L" n="105"/>natione siquidem: egere causam aliquam, activam ad 
+agen<lb break="no" ed="#L" n="106"/>düm, multipliciter contingit: sed ad propositum sufficit 
+du<lb break="no" ed="#L" n="107"/>pliciter. Primo, ut contrahatur ad speciem talem: sicut actio
+<lb ed="#L" n="108"/>solis determinatur ad producendum hominem per hominem,
+<lb ed="#L" n="109"/>et bovem per bovem. Et sic potentia non eget habitu:
+<lb ed="#L" n="110"/>quià ante habitum, potest in actum illius speciei. Alio modo,
+<lb ed="#L" n="111"/>ut vis sua ad talem speciem perficiatur, ut iam non 
+so<lb break="no" ed="#L" n="112"/>lum possit in actum illius speciei, sed actus perfecti in illa.
+<lb ed="#L" n="113"/>specie. proprium principium sit. Et hoc modo potentia
+<lb ed="#L" n="114"/>eget habitu. determinante ipsam. — Et ut cavillationes ex-.
+<lb ed="#L" n="115"/>cludas. dubitantium an. potentia.sine habitu possit, ex toto.
+<lb ed="#L" n="116"/>conatu, in actum perfectum : memento quod de, actionibus
+<lb ed="#L" n="117"/>rerum. naturalium, et earum. principiis propriis, est sermo;
+<lb ed="#L" n="118"/>ac per hoc, attenditur hic quid ut in pluribus fit secun.
+<lb ed="#L" n="119"/>dum naturae cursum, Neque enim si adolescens unus 
+per<lb break="no" ed="#L" n="120"/>fectum generationis opus perageret, propterea falsa redditur:
+<lb ed="#L" n="121"/>illa universalis, Adolescens non potest. in - perfectum. 
+gene<lb break="no" ed="#L" n="122"/>rationis opus: quoniam physica est, et hirundo non. 
+fa<lb break="no" ed="#L" n="123"/>cit ver. - Dicendum. est ergo quod habitus determinat
+<lb ed="#L" n="124"/>potentiam ad hoc ut ipsa, habitu perfecta, sit proprium
+<lb ed="#L" n="125"/>principium perfecti operis, in quo sua consummatur .
+per<lb break="no" ed="#L" n="126"/>fectio.. Et quoniam. habitus est quo quis operatur cum.
+<lb ed="#L" n="127"/>vult., et non cum habet; et propterea est quo quis 
+ope<lb break="no" ed="#L" n="128"/>ratur, infra eius. potestatem, quantum vult, non. quantum.
+<lb ed="#L" n="129"/>potest, ut patet in artificibus: ideo non mireris si actus
+<lb ed="#L" n="130"/>potentiae habituatae non sunt semper perfectiores actibus.
+<lb ed="#L" n="131"/>potentiae non habituatae.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e967">
+                  <lb ed="#L" n="132"/>X. Et sic patet quod. habitus est causa activa per se
+<lb ed="#L" n="133"/>substantiae et modi actus triplicis, scilicet perfectionis;
+<lb ed="#L" n="134"/>determinationis inesse naturae, et determinationis in esse -
+<lb ed="#L" n="135"/>morali. Quamvis facilitatem ex parte operantis tantum prae-.
+<lb ed="#L" n="136"/>bere videatur: et si actus habituato redditus sit facilis, ex.
+<lb ed="#L" n="137"/>redundantia- facilitatis operantis, hoc provenit. - Haec de
+<lb ed="#L" n="138"/>tertio.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e986">
+                  <lb ed="#L" n="139"/>XI. In responsione ad. primum in tertio articulo, adverte.
+<lb ed="#L" n="140"/>quod. sententia. Auctoris est quod non. solum subiectum
+<lb ed="#L" n="141"/>habitus est in potentia ad operationem; sed habitus ipso
+<lb ed="#L" n="142"/>est actus permixtus potentiae ad opus, sicut actus primus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e925-Dd1e998"><!-- caj-p2p1-q49-a4 -->
+               <head xml:id="TAcCaj-d1e925-Hd1e1001">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e925-d1e1003">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="97"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e1010">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>In titulo quarti articuli, dubium occurrit: quia quaestio
+<lb ed="#L" n="99"/>an est praecedit ceteras quaestiones doctrinae ordine;
+<lb ed="#L" n="100"/>Auctor tamen tria, quaesivit antequam quaerat nunc an
+<lb ed="#L" n="101"/>habitum esse sit necesse.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e1023">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="102"/>Ad hoc dicitur quod rem aliquam esse dupliciter 
+quae<lb break="no" ed="#L" n="103"/>ritur. Primo, ut sciatur ipsam esse. Et sic oportet primo
+<lb ed="#L" n="104"/>post quid nominis, quaerere an sit: nihil enim est scibile
+<lb ed="#L" n="105"/>de non ente. Et hoc non accidit in proposito: quoniam
+<pb ed="#L" n="316"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>habitus esse est per se notum experientia; et quaestionem
+<lb ed="#L" n="2"/>movere de hoc, esset impotentis discernere inter notum
+<lb ed="#L" n="3"/>per se et notum propter aliud. — Secundo, ut sciatur causa
+<lb ed="#L" n="4"/>quare est. Et haec quaestio est posterior quaestione quid
+<lb ed="#L" n="5"/>est: quoniam prius oportet scire quidditatem in se, quam
+<lb ed="#L" n="6"/>ut causam esse rei; constat enim ex II Poster., medium
+<lb ed="#L" n="7"/>ad quaestionem an est, esse quid. Propter quod Auctor
+<lb ed="#L" n="8"/>primo praedicata quidditativa habitus, in primis tribus 
+ar<lb break="no" ed="#L" n="9"/>ticulis, quaesivit: et nunc, quarto, de ratione seu causa 
+es<lb break="no" ed="#L" n="10"/>sendi eius inquirit.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e1062">
+                  <lb ed="#L" n="11"/>II. In corpore eiusdem quarti articuli, adverte duo. 
+Pri<lb break="no" ed="#L" n="12"/>mum est, quod differentia inter secundam et tertiam 
+condi<lb break="no" ed="#L" n="13"/>tionem requisitam ad habendum habitum, consistit in hoc,
+<lb ed="#L" n="14"/>quod, prima conditione complectente utrumque, scilicet
+<lb ed="#L" n="15"/>potentiam et actum; secunda conditio, ex parte actus, 
+plu<lb break="no" ed="#L" n="16"/>ralitatem. tam. actuum quam modorum eorundem; tertia
+<lb ed="#L" n="17"/>autem, ex parte potentiae, pluralitatem tam disponentium
+<lb ed="#L" n="18"/>quam modorum ipsorum ponit.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e1083">
+                  <lb ed="#L" n="19"/>Secundum est, quod ex ipsa definitione habitus, Auctor
+<lb ed="#L" n="20"/>haec requisita habet. Ex ratione namque dispositionis, habet
+<lb ed="#L" n="21"/>distinctionem inter potentiam et actum, diversitatemque
+<lb ed="#L" n="22"/>actuum, et rursus pluralitatem disponentium. Disponitur
+<lb ed="#L" n="23"/>enim omne quod disponitur, ad actum aliquem; nec opus
+<lb ed="#L" n="24"/>est disponi quod unius tantum actus est capax; et dispositio
+<lb ed="#L" n="25"/>habentis est partes, idest partialia. Ex ratione autem 
+varie<lb break="no" ed="#L" n="26"/>tatis secundum bene vel male, diversitas habetur modorum.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e1103">
+                  <lb ed="#L" n="27"/>III. Circa requisita ad habitum, dubium in eodem 
+oc<lb break="no" ed="#L" n="28"/>currit articulo. Quoniam aut conditiones enumeratae in
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>littera sufficiunt ad necessitatem habitus, aut non. Si 
+suffi<lb break="no" ed="#L" n="30"/>ciunt, ergo in mixtis, vel saltem in vegetabilibus, 
+ponen<lb break="no" ed="#L" n="31"/>dus est habitus; contra doctrinam sequentis quaestionis.
+<lb ed="#L" n="32"/>Et tenet sequela: quia in his est distinctio potentiae et
+<lb ed="#L" n="33"/>actus, et plura concurrunt diversimode commensurabilia ad
+<lb ed="#L" n="34"/>disponendum, etc. — Si non sufficiunt, ergo littera male
+<lb ed="#L" n="35"/>probavit necessitatem habitus, post enumeratas conditiones
+<lb ed="#L" n="36"/>subiungens: <quote xml:id="TAcCaj-d1e925-Qd1e1129">Quia igitur multa sunt entium ad quorum
+<lb ed="#L" n="37"/>naturas et operationes necesse est plura concurrere quae
+<lb ed="#L" n="38"/>diversis modis commensurari possunt, ideo necesse est
+<lb ed="#L" n="39"/>habitus esse</quote>.
+</p>
+               <p xml:id="TAcCaj-d1e925-d1e1139">
+                  <lb ed="#L" n="40"/>IV. Ad hoc dicitur quod, ut ex quaestione sequenti
+<lb ed="#L" n="41"/>colligitur, habitus sumitur dupliciter. Uno modo, proprie.
+<lb ed="#L" n="42"/>Et sic non videtur extra animam rationalem inveniri. — Alio
+<lb ed="#L" n="43"/>modo, communiter pro habituali dispositione, sive ad 
+na<lb break="no" ed="#L" n="44"/>turam sive ad opus, in pluribus consistente; ut in littera
+<lb ed="#L" n="45"/>hac dicitur. Et sic, cum quadam latitudine, invenitur etiam
+<lb ed="#L" n="46"/>in mixtis inanimatis; ut patet de pulchritudine. Et quia
+<lb ed="#L" n="47"/>Auctor, imitatus naturam, paulatim ab imperfectis ad 
+per<lb break="no" ed="#L" n="48"/>fecta, a communibus ad propria doctrinam tradit; habitum
+<lb ed="#L" n="49"/>hic communissime sumpsit, distincturus postmodum. Et
+<lb ed="#L" n="50"/>ideo conceditur quod illae conditiones sufficiunt ad 
+habi<lb break="no" ed="#L" n="51"/>tum vel dispositionem, primam speciem qualitatis (sic enim
+<lb ed="#L" n="52"/>sumitur hic habitus): et ideo nulla mentio fit de difficili
+<lb ed="#L" n="53"/>mobilitate, quae est altera conditio habitus proprie dicti.
+<lb ed="#L" n="54"/>Et quod non inconvenit habitum communiter dictum 
+in<lb break="no" ed="#L" n="55"/>veniri in inanimatis, a quibus negabitur habitus proprie
+<lb ed="#L" n="56"/>sumptus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

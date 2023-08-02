@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 26</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 26</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="194"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e806"><!-- TAcCajp2p1-q26 -->
+            <head xml:id="TAcCaj-d1e806-Hd1e99">Quaestio 26</head>
+            <div xml:id="TAcCaj-d1e806-Dd1e101"><!-- caj-p2p1-q26-a4 -->
+               <head xml:id="TAcCaj-d1e806-Hd1e104">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e806-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e806-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>IN quaestione vigesimasexta, omissis primis tribus articulis,
+<lb ed="#L" n="15"/>in quarto hoc solum adverte, quod distinctio amoris in
+<lb ed="#L" n="16"/>amorem amicitiae et concupiscentiae non est tam divisio
+<lb ed="#L" n="17"/>amoris, quam amatorum: seu, et in idem redit, non est
+<lb ed="#L" n="18"/>divisio amoris secundum se, sed secundum diversimode
+<lb ed="#L" n="19"/>amata. Cum enim omne concupitum alicui concupiscatur,
+<lb ed="#L" n="20"/>nullus amor concupiscentiae est sine amore amicitiae illius
+<lb ed="#L" n="21"/>cui concupiscitur: et rursus, cum omni amico aliquod
+<lb ed="#L" n="22"/>bonum velimus, nullus amor amicitiae est sine amore 
+con<lb break="no" ed="#L" n="23"/>cupiscentiae boni concupiti amato. Non ergo distinguitur
+<lb ed="#L" n="24"/>amor in amorem amicitiae et concupiscentiae, tanquam in
+<lb ed="#L" n="25"/>diversos amores, sed tanquam in diversos modos amandi:
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="26"/>unus enim et idem amor est amicitiae respectu amici, et
+<lb ed="#L" n="27"/>concupiscentiae respectu boni illi voliti.
+</p>
+               <p xml:id="TAcCaj-d1e806-d1e150">
+                  <lb ed="#L" n="28"/>Et si quandoque invenias diversos esse amores, sane
+<lb ed="#L" n="29"/>interpretare; et denominari amorem quandoque a 
+con<lb break="no" ed="#L" n="30"/>cupiscentia, quandoque ab amicitia, scito, propter 
+obie<lb break="no" ed="#L" n="31"/>ctum de quo est sermo. Ut patet cum est sermo de
+<lb ed="#L" n="32"/>amore ad irrationalia, vel delectabilia, vel utilia: in his
+<lb ed="#L" n="33"/>enim a concupiscentia amor denominatur, qui tamen non
+<lb ed="#L" n="34"/>est sine amore amicitiae ad se vel alium. Cum vero de
+<lb ed="#L" n="35"/>amore parentum aut filiorum, ab amicitia 
+denomina<lb break="no" ed="#L" n="36"/>tio fit amoris, qui tamen eis concupiscit bonum 
+vi<lb break="no" ed="#L" n="37"/>tae, etc.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

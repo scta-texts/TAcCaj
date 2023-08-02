@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="30"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e687"><!-- TAcCajp2p1-q3 -->
+            <head xml:id="TAcCaj-d1e687-Hd1e99">Quaestio 3</head>
+            <div xml:id="TAcCaj-d1e687-Dd1e101"><!-- caj-p2p1-q3-a2 -->
+               <head xml:id="TAcCaj-d1e687-Hd1e104">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e687-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>In hac tertia quaestione, usque ad quartum articulum, 
+ni<lb break="no" ed="#L" n="11"/>hil occurrit scribendum, nisi quod in secundo articulo
+<lb ed="#L" n="12"/>tria notanda specialiter sunt. Primum in corpore, quod, cum
+<lb ed="#L" n="13"/>dicitur, Unumquodque est propter suam operationem, 
+po<lb break="no" ed="#L" n="14"/>test dupliciter intelligi. Primo, sicut propter rem quae est
+<lb ed="#L" n="15"/>eius finis: et sic falsissimum est. Alio modo, sicut proprium
+<lb ed="#L" n="16"/>complementum: et sic est verum. Ita quod unumquodque
+<lb ed="#L" n="17"/>habens operationem esse propter suam operationem, nihil
+<lb ed="#L" n="18"/>aliud est quam esse propter seipsum in actu completo et
+<lb ed="#L" n="19"/>perfecto.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e139">
+                  <lb ed="#L" n="20"/>Secundum, in responsione ad secundum, scilicet quod
+<lb ed="#L" n="21"/>cum dicitur, Beatitudo est status omnium bonorum 
+aggre<lb break="no" ed="#L" n="22"/>gatione perfectus, non est praedicatio essentialis, sed 
+cau<lb break="no" ed="#L" n="23"/>salis. Ita quod intelligatur, beatitudo ut causa, est status
+<lb ed="#L" n="24"/>talis ut effectus : quoniam ipsa beatitudinis essentia est per
+<lb ed="#L" n="25"/>quam est talis status, ut in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e155">
+                  <lb ed="#L" n="26"/>Tertium, in responsione ad tertium , quod memor sis
+<lb ed="#L" n="27"/>ambiguitatis, tam simpliciter quam apud Auctorem, de
+<lb ed="#L" n="28"/>subiecto actionis transeuntis: propter quod forte littera. 
+ap<lb break="no" ed="#L" n="29"/>posuit ly magis, dicendo quod est magis perfectio patientis.
+<lb ed="#L" n="30"/>Nam secundum veritatem, actio immanens principaliter est
+<lb ed="#L" n="31"/>propter perficiendum agens ipsum, actio vero transiens
+<lb ed="#L" n="32"/>principaliter est propter perficiendum aliud. Utrum autem,
+<lb ed="#L" n="33"/>sicut actio immanens redundat in alterum, ita quoque actio
+<lb ed="#L" n="34"/>transiens perficiat agens, non est moralis negotii, sed alibi
+<lb ed="#L" n="35"/>discutietur, si Deus dederit.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e180">
+                  <lb ed="#L" n="36"/>II. In isto quarto articulo disputatio illa consueta occurrit
+<lb ed="#L" n="37"/>de beatitudine, utrum essentialiter sit actus intellectus, vel
+<lb ed="#L" n="38"/>voluntatis, Scotus enim, in Quarto, dist. xrix, qu. tv, 
+ratio<lb break="no" ed="#L" n="39"/>nem hic allatam credit se solvere ac infringere; et 
+multipli<lb break="no" ed="#L" n="40"/>citer probat intentum suum, scilicet quod consistat in actu
+<lb ed="#L" n="41"/>voluntatis. Rationem igitur carpit in duobus. Primo, in illa
+<lb ed="#L" n="42"/>propositione, Beatitudo est consecutio finis. Distinguendo
+<lb ed="#L" n="43"/>enim, ait quod duplex est consecutio finis, altera prima via
+<lb ed="#L" n="44"/>generationis, altera prima via perfectionis: et quod beatitudo
+<lb ed="#L" n="45"/>consistit essentialiter in consecutione prima secundum 
+or<lb break="no" ed="#L" n="46"/>dinem perfectionis. Talis autem non est visio finis, sed
+<lb ed="#L" n="47"/>amor finis visi: visio enim est consecutio prima via 
+origi<lb break="no" ed="#L" n="48"/>nis. In hoc ergo, secundum ipsum, primo peccat haec ratio,
+<lb ed="#L" n="49"/>quia assumit quod beatitudo consistit in consecutione prima
+<lb ed="#L" n="50"/>via generationis.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e215">
+                  <lb ed="#L" n="51"/>Secundo, arguit illam defectus: quia scilicet non 
+suffi<lb break="no" ed="#L" n="52"/>cienter scrutatur actus voluntatis circa finem. Ponit enim
+<lb ed="#L" n="53"/>littera duos tantum, scilicet desiderium, et quietationem:
+<lb ed="#L" n="54"/>cum, si proprie de quiete loquimur, detur tertius; quoniam
+<lb ed="#L" n="55"/>quies proprie delectatio est, et praeter eam est amor, iuxta
+<lb ed="#L" n="56"/>illud Augustini, Appetitus inhiantis fit amor fruentis. Et
+<lb ed="#L" n="57"/>in hoc quietativo amore, qui etiam quies in fine dici 
+po<lb break="no" ed="#L" n="58"/>test, consistere dicit beatitudinem. Nec hoc ratio litterae 
+ex<lb break="no" ed="#L" n="59"/>cludit, sed quietem delectationis tantum.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e237">
+                  <lb ed="#L" n="60"/>III. Intentum autem suum, scilicet quod beatitudo 
+for<lb break="no" ed="#L" n="61"/>maliter sit actus voluntatis, idest amor ultimi finis visi,
+<lb ed="#L" n="62"/>probat tripliciter. Primo, sic. Beatitudo formalis consistit in
+<lb ed="#L" n="63"/>actu propinquiori ultimo fini extrinseco, qui est beatitudo
+<lb ed="#L" n="64"/>obiecta. Ergo consistit in actu voluntatis, — Antecedens patet:
+<lb ed="#L" n="65"/>quia quanto propinquius simpliciter ultimo fini, tanto 
+ma<lb break="no" ed="#L" n="66"/>gis habet rationem finis ulterioris. - Consequentia vero 
+pro<lb break="no" ed="#L" n="67"/>batur. Quia finis ultimus, ut sic, est proprium obiectum
+<lb ed="#L" n="68"/>actus voluntatis. Ex quo potest sic argui. Actus tendens
+<lb ed="#L" n="69"/>ex se in finem ut sic, est ei propinquior illo qui non ex
+<lb ed="#L" n="70"/>se ut sic in ipsum tendit. Talis est actus voluntatis 
+respe<lb break="no" ed="#L" n="71"/>ctu actus intellectus. Probatur: quia finis est proprium 
+obie<lb break="no" ed="#L" n="72"/>ctum appetitus, ut in prima quaestione didicimus.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e268">
+                  <lb ed="#L" n="73"/>Secundo, sic. Amare et intelligere ordinate se habent.
+<lb ed="#L" n="74"/>Aut igitur amare est propter intelligere ut finem: et hoc
+<lb ed="#L" n="75"/>non, quia, secundum Anselmum, libro II Cur Deus homo,
+<lb ed="#L" n="76"/>perversus esset ordo amare ut intelligeret. Ergo intelligere
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>est propter amare ut finem. Ergo amor est finis ultimus
+<lb ed="#L" n="78"/>formalis.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e286">
+                  <lb ed="#L" n="79"/>Tertio, sic. Actus voluntatis, inter intrinseca, est summe
+<lb ed="#L" n="80"/>volendus. Ergo in eo consistit beatitudo formalis seu 
+in<lb break="no" ed="#L" n="81"/>trinseca, — Consequentia nota. — Et antecedens probatur. 
+Vo<lb break="no" ed="#L" n="82"/>luntas plus appetit perfectionem sui in ultimo fine, quam
+<lb ed="#L" n="83"/>intellectus: ergo actus ille suus est summe inter intrinseca
+<lb ed="#L" n="84"/>volendus. Hoc antecedens probatur. Voluntas naturaliter
+<lb ed="#L" n="85"/>plus appetit appetitu naturali sui perfectionem, quam 
+in<lb break="no" ed="#L" n="86"/>tellectus: ergo et appetitu libero, recto tamen; quia liber
+<lb ed="#L" n="87"/>rectus consonat naturali.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e308">
+                  <lb ed="#L" n="88"/>Arguitur quoque ab aliis, quae vide, si vis, in Actipreolo,
+<lb ed="#L" n="89"/>xLIx distinctione Quarti,
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e316">
+                  <lb ed="#L" n="90"/>IV. Ad evidentiam obiectorum contra rationem litterae,
+<lb ed="#L" n="91"/>scito quod, perspicaciter advertentibus, nihil quod. 
+distin<lb break="no" ed="#L" n="92"/>guendum esset, praetermissum in littera. est. 
+Consecutio<lb break="no" ed="#L" n="93"/>nem in primis duplicem esse, nisi aequivocatio concedatur,
+<lb ed="#L" n="94"/>fictio est: quoniam, nominibus utendo ut plures, 
+consecu<lb break="no" ed="#L" n="95"/>tio non vocatur rei consecutae amor. Unde arguens, quia
+<lb ed="#L" n="96"/>illam propositionem, Beatitudo est consecutio finis, evitare
+<lb ed="#L" n="97"/>non potuit, aequivocavit consecutionis vocabulum, ut suam
+<lb ed="#L" n="98"/>prosequeretur opinionem. Quod autem amor non habeat
+<lb ed="#L" n="99"/>rationem consecutionis, ex eo probabitur, quia amor est
+<lb ed="#L" n="100"/>rei habitae et rei non habitae. Et amor quidem rei non 
+ha<lb break="no" ed="#L" n="101"/>bitae patet quod non est consecutio, ex hoc ipso quod est
+<lb ed="#L" n="102"/>rei non habitae: amor autem rei habitae ex hoc ipso non
+<lb ed="#L" n="103"/>est consecutio, quod consecutionem supponit, quia est rei
+<lb ed="#L" n="104"/>habitae, Unde prima Scoti obiectio super aequivocatione
+<lb ed="#L" n="105"/>fundatur: et ideo nihil valet. Quamvis etiam assumat 
+fal<lb break="no" ed="#L" n="106"/>sum, scilicet quod amor Dei sit perfectior eius visione, ut
+<lb ed="#L" n="107"/>in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e358">
+                  <lb ed="#L" n="108"/>Ex his autem apparet solutio alterius obiectibnist Littera
+<lb ed="#L" n="109"/>enim non praetermisit amorem, sed dupliciter illum. 
+exclu<lb break="no" ed="#L" n="110"/>sit. Primo, excludendo delectationem: quoniam in ea 
+clau<lb break="no" ed="#L" n="111"/>ditur amor; non enim delectamur praesentibus coniunctis,
+<lb ed="#L" n="112"/>nisi amatis. Secundo, excludendo desiderium et 
+delectatio<lb break="no" ed="#L" n="113"/>nem. Cum enim illud sit non habiti, hoc vero habiti, et
+<lb ed="#L" n="114"/>amor sit non habiti et habiti; inquantum est non habiti,
+<lb ed="#L" n="115"/>excluditur eadem ratione qua desiderium, quia scilicet hoc
+<lb ed="#L" n="116"/>quod amat, non habet praesens; inquantum vero est 
+ha<lb break="no" ed="#L" n="117"/>biti, excluditur eadem ratione qua delectatio, qnia scilicet
+<lb ed="#L" n="118"/>amor rei habitae advenit voluntati ex hoc quod est habita,
+<lb ed="#L" n="119"/>et non e converso. Et in nullo diminuta est littera: sed
+<lb ed="#L" n="120"/>ratione solida intentum conclusit. Et contra opinionem 
+op<lb break="no" ed="#L" n="121"/>positam militat, si sciat ea quis uti, sic. Amor abstrahit ab
+<lb ed="#L" n="122"/>habito et non habito obiecto, quia est utriusque: ut patet
+<lb ed="#L" n="123"/>de amore amicitiae et concupiscentiae, et de actu caritatis,
+<lb ed="#L" n="124"/>qui eiusdem est speciei in via et in patria. Ergo non est
+<lb ed="#L" n="125"/>consecutio obiecti beantis, Ergo non est beatitudo formalis.
+<lb ed="#L" n="126"/>Et probat haec ratio de quacumque consecutione: quia
+<lb ed="#L" n="127"/>abstrahens non est ex propria ratione ulla consecutio. Et
+<lb ed="#L" n="128"/>hoc est directe intentum litterae huius.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e406">
+                  <lb ed="#L" n="129"/>V. Ad rationem autem primam Scoti pro intento suo,
+<lb ed="#L" n="130"/>respondetur negando sequelam. Et ad probationem dicitur
+<lb ed="#L" n="131"/>quod maior est vera ceteris paribus, sicut ceterae 
+compa<lb break="no" ed="#L" n="132"/>rativae sunt intelligendae. In proposito autem cetera non
+<lb ed="#L" n="133"/>sunt paria: quoniam actus visionis est quasi pars ipsius
+<lb ed="#L" n="134"/>finis, et est finis non ponens in numerum cum fine 
+ex<lb break="no" ed="#L" n="135"/>trinsece. Deus enim visus est finis, et non sunt duo fines,
+<lb ed="#L" n="136"/>scilicet Deus et visio: sicut inductive patet in aliis finibus, etc.
+<lb ed="#L" n="137"/>Unde actus voluntatis est propinquior inter actus 
+tenden<lb break="no" ed="#L" n="138"/>tes in finem integrum: sed propinquior illo est qui est
+<lb ed="#L" n="139"/>quasi pars finis. Amamus enim non solum bonum, sed 
+bo<lb break="no" ed="#L" n="140"/>num cognitum, et propter illud etc.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e435">
+                  <lb ed="#L" n="141"/>Ad secundum dicitur quod verbum Anselmi salvatur
+<lb ed="#L" n="142"/>in via, in qua melior est Dei dilectio quam intellectio. Sed
+<lb ed="#L" n="143"/>in patria, quanquam Deus amatus non ametur. propter vi-
+<pb ed="#L" n="31"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dere ipsum, sed propter ipsum Deum, amore amicitiae; quia
+<lb ed="#L" n="2"/>tamen amatur visus, ita quod visio non concurrit ibi per
+<lb ed="#L" n="3"/>accidens, sed per se; ipse amor beatificus ordinatur in 
+vi<lb break="no" ed="#L" n="4"/>sionem ut finem: amat enim beatus visionem illam ut 
+ade<lb break="no" ed="#L" n="5"/>ptionem finis, quod est amare illam ut finem. Et amor
+<lb ed="#L" n="6"/>ut est concupiscentiae, ordinatur in visionem ut finem, et
+<lb ed="#L" n="7"/>amare est propter visionem. Nec in hoc est perversitas 
+ali<lb break="no" ed="#L" n="8"/>qua. Sed perversitas esset de amore ut est amicitiae: quia
+<lb ed="#L" n="9"/>sic Deus ordinaretur ad visionem a tali amore. Nunc 
+au<lb break="no" ed="#L" n="10"/>tem ponitur summum concupiscibile ipsa adeptio Dei, quae
+<lb ed="#L" n="11"/>est per visionem: quod est verum.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e472">
+                  <lb ed="#L" n="12"/>Ad tertium autem, negatur antecedens. Et ad 
+probatio<lb break="no" ed="#L" n="13"/>nem dicitur quod voluntas, cum sit appetitus animalis,
+<lb ed="#L" n="14"/>qui datus est a natura animalibus primo propter totum
+<lb ed="#L" n="15"/>suppositum, et non propter seipsum appetitum (quia ad
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>hoc sufficit appetitus naturalis), non summe vult actu elicito
+<lb ed="#L" n="17"/>perfectionem suam, neque intellectus ut sic, sed suppositi;
+<lb ed="#L" n="18"/>quae est consecutio ultimi finis. Unde probatio illa ab 
+ap<lb break="no" ed="#L" n="19"/>petitu naturali voluntatis ad appetitum qui est actus 
+eli<lb break="no" ed="#L" n="20"/>citus eiusdem, non valet, propter rationem dictam: quia 
+sci<lb break="no" ed="#L" n="21"/>licet inclinatio naturalis est primo propter ipsam 
+poten<lb break="no" ed="#L" n="22"/>tiam appetentem, actus autem elicitus animalis est primo
+<lb ed="#L" n="23"/>propter suppositum appetens. Et ideo, tendendo primo in
+<lb ed="#L" n="24"/>bonum intellectus, non quatenus intellectus, sed quatenus
+<lb ed="#L" n="25"/>est suppositi, maxime consonat naturae suae potentiae, 
+in<lb break="no" ed="#L" n="26"/>quantum animalis est: quia, ut dictum est, propter animal
+<lb ed="#L" n="27"/>ipsum data est primo.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e511">
+                  <lb ed="#L" n="28"/>Multa quoque scripta sunt superius in qu. Lxxxir,
+<lb ed="#L" n="29"/>art. 3, facientia ad materiam hanc. Quare transeundum
+<lb ed="#L" n="30"/>puto.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e687-Dd1e521"><!-- caj-p2p1-q3-a5 -->
+               <head xml:id="TAcCaj-d1e687-Hd1e524">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e687-d1e526">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Cornmentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e533">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>IN articulo quinto, circa illa verba, Divinum bonum non
+<lb ed="#L" n="17"/>gen obiectum intellectus practici, Scotica occurrit dubitatio
+<lb ed="#L" n="18"/>ex Prologo I Sent., ubi ex eo quod Deus est obiectum 
+re<lb break="no" ed="#L" n="19"/>ctificativum intellectus creati ad rectam operationem 
+volun<lb break="no" ed="#L" n="20"/>tatis, puta amoris ipsius Dei; et ex ipso sumuntur prima
+<lb ed="#L" n="21"/>principia praxis, utpote ex ultimo fine; vult Deum esse
+<lb ed="#L" n="22"/>obiectum intellectus practici. Cuius oppositum hic dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e553">
+                  <lb ed="#L" n="23"/>Sed ad hoc et similia facile patet responsio ex dictis in
+<lb ed="#L" n="24"/>Ilibro. Ad obiectum siquidem practici intellectus seu 
+ha<lb break="no" ed="#L" n="25"/>bitus, exigitur quod haec et similia habeat pure: si enim
+<lb ed="#L" n="26"/>habet haec elevate in re superioris ordinis, supra practicum
+<lb ed="#L" n="27"/>est. Ridiculum autem puto dicere quod etiam Trinitatis 
+my<lb break="no" ed="#L" n="28"/>steria visa practicam tantum cognitionem pariunt. Oportet
+<lb ed="#L" n="29"/>hic servare illud Philosophi: Quolibet proferente 
+con<lb break="no" ed="#L" n="30"/>traria, sollicitum esse stultum est, etc.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e573">
+                  <lb ed="#L" n="31"/>II. In eodem quinto articulo, circa illa verba, Actus 
+in<lb break="no" ed="#L" n="32"/>tellectus practici non quaeritur propter seipsum, sed 
+pro<lb break="no" ed="#L" n="33"/>pter actionem , dubium occurrit. Quoniam nobilius non
+<lb ed="#L" n="34"/>est propter ignobilius ut finem: constat autem actum 
+in<lb break="no" ed="#L" n="35"/>tellectus practici esse nobiliorem actione: ergo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e587">
+                  <lb ed="#L" n="36"/>Ad hoc, omissis aliorum responsionibus, qualescumque
+<lb ed="#L" n="37"/>sint, respondetur quod actus intellectus practici potest 
+du<lb break="no" ed="#L" n="38"/>pliciter sumi. Uno modo, ut actus est intellectus: et sic
+<lb ed="#L" n="39"/>procul dubio nobilior est actione. Alio modo, ut practicus
+<lb ed="#L" n="40"/>est: et sic est ignobilior actione.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e600">
+                  <lb ed="#L" n="41"/>III. Sed contra hoc est, quia causa activa non est 
+igno<lb break="no" ed="#L" n="42"/>bilior effectu: actus autem intellectus practici, ut sic, est
+<lb ed="#L" n="43"/>causa activa actionis: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e609">
+                  <lb ed="#L" n="44"/>Ad hoc et similia dici potest quod, quidquid sit de causa
+<lb ed="#L" n="45"/>pure activa, negandum est quod causa quodammodo activa
+<lb ed="#L" n="46"/>et quodammodo dispositiva non sit imperfectior: quoniam,
+<lb ed="#L" n="47"/>etsi non inquantum activa, inquantum tamen dispositiva,
+<lb ed="#L" n="48"/>imperfectior est, et ordinatur ad id pro quo disponit ut
+<lb ed="#L" n="49"/>finem. Sic autem est in proposito: nam actus intellectus
+<lb ed="#L" n="50"/>practici, etsi in genere causae efficientis sit causa actionis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="51"/>seu factionis, est nihilominus etiam causa eiusdem 
+dispo<lb break="no" ed="#L" n="52"/>sitiva. Disponitur enim homo per actum intellectus 
+pra<lb break="no" ed="#L" n="53"/>ctici ad recte agendum vel faciendum: cum enim tam ad
+<lb ed="#L" n="54"/>recte agendum quam. faciendum, pluribus homo indigeat,
+<lb ed="#L" n="55"/>actum practici intellectus ad hoc quaerimus, ut dispositi
+<lb ed="#L" n="56"/>simus ac propinqui ad recte agendum vel faciendum. Et
+<lb ed="#L" n="57"/>sic recte agere vel facere finis est.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e644">
+                  <lb ed="#L" n="58"/>Melius tamen, iudicio meo, dicitur quod aliud est 
+com<lb break="no" ed="#L" n="59"/>parare causam activam effectui, et aliud actioni. Quoniam
+<lb ed="#L" n="60"/>ad illum comparatur ut aeque aut magis perfecta, ad hanc
+<lb ed="#L" n="61"/>ut imperfectior: quoniam actio causae activae est actus et
+<lb ed="#L" n="62"/>perfectio eius, et consequenter causa activa comparatur ad
+<lb ed="#L" n="63"/>actionem ut potentia ad actum. Sic autem est in proposito:
+<lb ed="#L" n="64"/>quoniam actus intellectus practici, ut sic, respicit actionem
+<lb ed="#L" n="65"/>seu factionem ut actionem ipsius; est enim propter ipsam
+<lb ed="#L" n="66"/>ut suum complementum. Cum ergo dicitur quod causa non
+<lb ed="#L" n="67"/>est ignobilior effectu, etc: dico quod, etsi non est ignobilior
+<lb ed="#L" n="68"/>effectu, est tamen ignobilior actione, ut potentia est 
+igno<lb break="no" ed="#L" n="69"/>bilior actu. Et quod tam actio quam factio comparatur ad
+<lb ed="#L" n="70"/>actum intellectus practici, ut practicus 'est, ut actio et 
+per<lb break="no" ed="#L" n="71"/>fectio illius: ut etiam ipsum nomen practici testatur, sonat
+<lb ed="#L" n="72"/>enim operativum; constat enim quod operativi actus est
+<lb ed="#L" n="73"/>operari, domificativi domificare, et medici mederi. Unde
+<lb ed="#L" n="74"/>quoad actionem, in <ref xml:id="TAcCaj-d1e687-Rd1e683">principio Moralium Aristoteles</ref> dixit:
+<lb ed="#L" n="75"/>
+                  <quote xml:id="TAcCaj-d1e687-Qd1e687">Huiusmodi sermonem suscipimus, non ut scientes simus, n
+<lb ed="#L" n="76"/>sed operantes</quote>. Et idem est iudicium de scientia artium :
+<lb ed="#L" n="77"/>nam non ut scientes, sed ut operantes simus, artes 
+disci<lb break="no" ed="#L" n="78"/>mus, quarum est facere.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e697">
+                  <lb ed="#L" n="79"/>IV. In eodem articulo quinto, in responsione ad 
+pri<lb break="no" ed="#L" n="80"/>mum, recolenda sunt ea quae in primo libro, in Prologo 
+<lb ed="#L" n="81"/>et quaest. xiv, de practico et speculativo diximus: et 
+con<lb break="no" ed="#L" n="82"/>sequenter illis interpretanda sunt verba litterae huius, quod
+<lb ed="#L" n="83"/>Deus habet scientiam speculativam tantum de seipso. Est
+<lb ed="#L" n="84"/>enim hic sermo iuxta communem loquendi usum, quo
+<lb ed="#L" n="85"/>omnis scientia aut practica aut speculativa dicitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e687-Dd1e716"><!-- caj-p2p1-q3-a6 -->
+               <head xml:id="TAcCaj-d1e687-Hd1e719">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e687-d1e721">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="71"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e728">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="72"/>IN articulo sexto eiusdem quaestionis tertiae, nota quare
+<lb ed="#L" n="73"/>lprima principia (scilicet, De quolibet dicitur esse vel non
+<lb ed="#L" n="74"/>esse, etc.), licet secundum ambitum terminorum extendant
+<lb ed="#L" n="75"/>se ad omnia simpliciter; in nobis, idest in nostra cognitione,
+<lb ed="#L" n="76"/>non se extendunt ultra id quo ducere possunt sensibilia:
+<lb ed="#L" n="77"/>quia scilicet sunt accepta a sensibus, et ab eis dependent
+<lb ed="#L" n="78"/>quoad species et usum, Ex hoc enim provenit quod nisi quo
+<lb ed="#L" n="79"/>sensibilium species ducunt, cognoscere nos facere possunt.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e750">
+                  <lb ed="#L" n="80"/>II. In eodem articulo dubium occurrit circa illam. 
+pro<lb break="no" ed="#L" n="81"/>positionem: Nihil perficitur ab aliquo inferiori , nisi. 
+se<lb break="no" ed="#L" n="82"/>cundum quod in inferiori est aliqua participatio 
+superio<lb break="no" ed="#L" n="83"/>ris. Haec, quam quasi maximam littera assumit, habet
+<lb ed="#L" n="84"/>manifestas instantias: ut cum homo perficitur ab igne, dum
+<lb ed="#L" n="85"/>calefit; et, quod magis urget, cum sensus perficitur ab 
+ex<lb break="no" ed="#L" n="86"/>traneo sensibili, quod constat esse inferioris ordinis, cum
+<lb ed="#L" n="87"/>sit in genere inanimatorum, sensus autem in ordine 
+ani<lb break="no" ed="#L" n="88"/>mae sensitivae. ,
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e772">
+                  <lb ed="#L" n="89"/>III. Ad evidentiam huius, dicendum est quod propositio
+<lb ed="#L" n="90"/>illa pro maxima habenda est, sed non est intelligenda de
+<lb ed="#L" n="91"/>perfectione secundum quid, sed simpliciter; ita quod 
+sen<lb break="no" ed="#L" n="92"/>sus est: Nihil perficitur simpliciter per aliquid | inferius,
+<lb ed="#L" n="93"/>nisi etc. Et per hoc excluditur omnis instantia de 
+perfe<lb break="no" ed="#L" n="94"/>ctionibus accidentalibus: subiectum enim secundum quid
+<lb ed="#L" n="95"/>tantum perficitur ab huiusmodi perfectivis.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e791">
+                  <lb ed="#L" n="96"/>Radix autem huius propositionis est quia, cum semper
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="97"/>agens honorabilius sit patiente, oportet ut eo modo quo
+<lb ed="#L" n="98"/>aliquid est perfectibile ab aliquo agente, eodem modo sit
+<lb ed="#L" n="99"/>ignobilius illo: si est perfectibile ab eo secundum quid,
+<lb ed="#L" n="100"/>est ignobilius secundum quid; et.si est perfectibile 
+simpli<lb break="no" ed="#L" n="101"/>citer, est ignobilius simpliciter. Et quia omne agens agit
+<lb ed="#L" n="102"/>sibi simile, nec aliter agens perficit patiens nisi 
+similitu<lb break="no" ed="#L" n="103"/>dinem suam ei communicando; eiusdem rationis est 
+com<lb break="no" ed="#L" n="104"/>parare aliquid. perfectibile ad perfectionem formalem, et
+<lb ed="#L" n="105"/>proprium agens illius, quoad hoc quod est esse nobilius
+<lb ed="#L" n="106"/>vel ignobilius. Ex hoc enim provenit quod nihil perficitur
+<lb ed="#L" n="107"/>simpliciter ab aliquo inferiori, nisi quod participat 
+supe<lb break="no" ed="#L" n="108"/>rius. Nam si simpliciter perficitur ab illo, est simpliciter
+<lb ed="#L" n="109"/>inferius illo perfectivo: et si illud perfectivum est inferius,
+<lb ed="#L" n="110"/>nunquam, ut sic, perficiet simpliciter suum superius; 
+quo<lb break="no" ed="#L" n="111"/>niam esset simpliciter superius et inferius respectu 
+eius<lb break="no" ed="#L" n="112"/>dem, quod est impossibile.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e833">
+                  <lb ed="#L" n="113"/>Et quia intellectus non secundum quid, sed simpliciter
+<lb ed="#L" n="114"/>perficitur ab intelligibili (quoniam est perfectio propria, et
+<lb ed="#L" n="115"/>velut substantialis forma, non minus quam quodcumque
+<lb ed="#L" n="116"/>naturale perfectivum materiae primae, ut in III de Anima
+<lb ed="#L" n="117"/>ab Averroe exprimitur, et ab. Aristotele inchoatur), ideo
+<lb ed="#L" n="118"/>impossibile est quod aliquid inferius intellectu perficiat
+<lb ed="#L" n="119"/>ipsum, nisi inquantum participat aliquid superius. Et 
+pro<lb break="no" ed="#L" n="120"/>pter hoc Aristoteles posuit intellectum agentem, 
+superio<lb break="no" ed="#L" n="121"/>rem intellectu possibili, perfectivund ipsius.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e855">
+                  <pb ed="#L" n="34"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>IV. Ad primam igitur instantiam non oportet aliter
+<lb ed="#L" n="2"/>respondere: quia homo non nisi secundum quid perficitur
+<lb ed="#L" n="3"/>ab igne et similibus.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e868">
+                  <lb ed="#L" n="4"/>Ad secundum autem, de sensu, dicitur quod res 
+sensi<lb break="no" ed="#L" n="5"/>biles sine dubio sunt inferiores sensibus: vivens enim 
+prae<lb break="no" ed="#L" n="6"/>stantius est non vivente, praecipue in tam alto gradu 
+vi<lb break="no" ed="#L" n="7"/>tali constitutum. Sed inquantum sunt perfectivae sensus
+<lb ed="#L" n="8"/>ut sic, participant superiorem naturam quam sit sensus:
+<lb ed="#L" n="9"/>quoniam in eis est participatio aliqua substantiarum 
+im<lb break="no" ed="#L" n="10"/>materialium quas angelos dicimus. Sunt enim productivae
+<lb ed="#L" n="11"/>specierum sine materia, quarum est susceptivus sensus, et
+<lb ed="#L" n="12"/>in earum susceptione perficitur simpliciter. Signum huius
+<lb ed="#L" n="13"/>est modus agendi: cum enim modus agendi corporum ut
+<lb ed="#L" n="14"/>sic, sit ut moveant mota; incorporalium autem sit movere
+<lb ed="#L" n="15"/>non motà; ex hoc ipso quod sensibilia in perficiendo 
+sen<lb break="no" ed="#L" n="16"/>sus movent non mota, insinuatur quod in hoc naturam
+<lb ed="#L" n="17"/>superiorem natura corporea participant. Et hoc iam docuit
+<lb ed="#L" n="18"/>Auctor alibi. Stat ergo solida maxima illa, quam semper
+<lb ed="#L" n="19"/>notabis, si vis recte philosophari; et videbis voluntarie dici
+<lb ed="#L" n="20"/>quod lapis potest perficere intellectum. separatum, et alia
+<lb ed="#L" n="21"/>huiusmodi extranea a vera ratione philosophiae.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e910">
+                  <lb ed="#L" n="22"/>V. In eodem sexto articulo dubium occurrit commune
+<lb ed="#L" n="23"/>sexto, septimo et octavo articulo, circa processum litterae:
+<lb ed="#L" n="24"/>quoniam digredi videtur a perfecta beatitudine simpliciter,
+<lb ed="#L" n="25"/>ad perfectam beatitudinem hominis. Licet enim perfecta 
+bea<lb break="no" ed="#L" n="26"/>titudo simpliciter consistat in suprema coniunctione ad 
+sum<lb break="no" ed="#L" n="27"/>mum simpliciter; perfecta tamen beatitudo talis rei infimae
+<lb ed="#L" n="28"/>qualis est homo, consistit in coniunctione qualicumque, idest
+<lb ed="#L" n="29"/>sibi proportionata, ad summum. Et sic diceretur quod 
+bea<lb break="no" ed="#L" n="30"/>titudo hominis consistit in illa. cognitione Dei quam ex
+<lb ed="#L" n="31"/>sensibilibus habere potest, quia ista est sibi proportionata.
+<lb ed="#L" n="32"/>Nec oportet quod omne per aliud reducatur ad id quod
+<lb ed="#L" n="33"/>est per se in eodem; sed sufficit quod in tota latitudine
+<lb ed="#L" n="34"/>ila, puta beatitudinis, ut scilicet beans per aliud reducatur
+<lb ed="#L" n="35"/>ad beans per se. Sed non oportet quod beans per aliud
+<lb ed="#L" n="36"/>hominem, reducatur ad beans per se hominem, quia homo
+<lb ed="#L" n="37"/>est talis gradus infimi.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e947">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="38"/>VI. Ad hoc dicitur quod de homine dupliciter 
+possu<lb break="no" ed="#L" n="39"/>mus loqui. Primo, secundum id quod ex natura sua natus
+<lb ed="#L" n="40"/>est acquirere, Et sic'procul dubio dicendum esset quod
+<lb ed="#L" n="41"/>sufficit nos esse beatos ut homines, non simpliciter, ut
+<lb ed="#L" n="42"/>dicitur I Ethic.: quod consistit in cognitione Dei quam
+<lb ed="#L" n="43"/>hic, et illa quam in anima separata naturaliter habere
+<lb ed="#L" n="44"/>possumus. Alio modo, secundum id ad quod homo. est
+<lb ed="#L" n="45"/>divinitus institutus. Et sic, quia factus est ut summum. 
+bo<lb break="no" ed="#L" n="46"/>num intelligeret etc., ordinatus est ad beatitudinem 
+perfe<lb break="no" ed="#L" n="47"/>ctam simpliciter. Et quia sic considerat hominem 
+theolo<lb break="no" ed="#L" n="48"/>gus, quia in ordine ad Deum revelatum considerat omnia,
+<lb ed="#L" n="49"/>ideo nulla digressio est in littera. Et ratio efficax est quod
+<lb ed="#L" n="50"/>per aliud reducendum est ad. per se, etiam respectu 
+ho<lb break="no" ed="#L" n="51"/>minis: quia homo est infra latitudinem capacium 
+beatitu<lb break="no" ed="#L" n="52"/>dinis per se et perfectae. .
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e985">
+                  <lb ed="#L" n="53"/>VII. In eodem sexto articulo, nota quod tanta est 
+diffe<lb break="no" ed="#L" n="54"/>rentia inter obiectum per se et per aliud, quod, licet Deus
+<lb ed="#L" n="55"/>et substantiae separatae per sensibilia sic a nobis 
+intelli<lb break="no" ed="#L" n="56"/>gantur ut in huiusmodi contemplatione felicitas ab 
+Ari<lb break="no" ed="#L" n="57"/>stotele fuerit posita; quia tamen non sunt obiecta nec
+<lb ed="#L" n="58"/>intellecta a nobis hic nisi per aliud, scilicet per species
+<lb ed="#L" n="59"/>sensibilium, ideo duo in littera concluduntur; et quod 
+co<lb break="no" ed="#L" n="60"/>gnitio nostra non transcendit metas sensibilium; et quod
+<lb ed="#L" n="61"/>non potest esse felicitas, quae consistit in contemplatione
+<lb ed="#L" n="62"/>alicuius superioris, scilicet ut per se obiecti. Et hoc 
+ma<lb break="no" ed="#L" n="63"/>nifeste sequitur ad primum. Quod ideo verum est, quia
+<lb ed="#L" n="64"/>quidquid cognoscimus de superioribus, cognoscimus 
+in<lb break="no" ed="#L" n="65"/>quantum per sensibilia praesentantur per viam 
+dependen<lb break="no" ed="#L" n="66"/>tiae, vel similitudinis, vel negationis seu oppositionis, et
+<lb ed="#L" n="67"/>huiusmodi: quod nihil aliud est quam perfecte cognoscere
+<lb ed="#L" n="68"/>sensibilia perfectiva nostri intellectus. Sunt enim huiusmodi
+<lb ed="#L" n="69"/>cognoscibilia in nostris obiectis, velut effectus in causis in
+<lb ed="#L" n="70"/>cognoscendo, apud nos. Propter quod sapienter censent
+<lb ed="#L" n="71"/>qui dicunt nos per studium nunquam cognoscere de 
+su<lb break="no" ed="#L" n="72"/>perioribus nisi quia est: cognitio namque ab effectu, e
+<lb ed="#L" n="73"/>remotorum. est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e687-Dd1e1034"><!-- caj-p2p1-q3-a7 -->
+               <head xml:id="TAcCaj-d1e687-Hd1e1037">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e687-d1e1039">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e1046">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>In hoc articulo septimo nota duo. Primo, titulum: quod 
+<lb ed="#L" n="37"/>appellatione cognitionis substantiarum separatarum, 
+coin<lb break="no" ed="#L" n="38"/>telligitur etiam cognitio quae habetur de Deo, cognoscendo
+<lb ed="#L" n="39"/>substantias separatas. Sicut enim in praecedenti articulo in
+<lb ed="#L" n="40"/>cognitione sensibilium cointelligebatur cognitio Dei et 
+sub<lb break="no" ed="#L" n="41"/>stantiarum separatarum per sensibilia, ita proportionaliter
+<lb ed="#L" n="42"/>hic intelligendum est. 
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e1066">
+                  <lb ed="#L" n="43"/>Secundo, quod simile accidere potest i ddliipin de perfe-
+<lb ed="#L" n="44"/>ctione ultima intellectus, dubio praecedenti de beatitudine. 
+<lb ed="#L" n="45"/>Nam licet perfectio ultima intellectus ut sic, oportet quod 
+<lb ed="#L" n="46"/>sit verum per essentiam ; perfectio tamen ultima intellectus 
+<lb ed="#L" n="47"/>talis, puta hominis, sufficit quod sit verum tale. Et simili
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="48"/>solutione. dicendum est quod; si esset sermo de ultima
+<lb ed="#L" n="49"/>perfectione ad. quàm naturae studio veniri potest, non
+<lb ed="#L" n="50"/>oportet ad verum per essentiam pervenire, nisi 
+participa<lb break="no" ed="#L" n="51"/>tum in tali per se perfectivo proprio intellectus talis, quod
+<lb ed="#L" n="52"/>esset verum tale. Sed quia est sermo de ultima perfectione
+<lb ed="#L" n="53"/>ad quam intellectus noster institutus supponitur, ideo 
+opor<lb break="no" ed="#L" n="54"/>tet capacitatem eius per verum per essentiam perfici, non
+<lb ed="#L" n="55"/>per aliud medium obiectum. Sic enim intelligere debes 
+per<lb break="no" ed="#L" n="56"/>fectionem intellectus per ipsum verum per essentiam, in hoc
+<lb ed="#L" n="57"/>loco, relinquendo discussioni sequentis articuli et alibi,
+<lb ed="#L" n="58"/>an talis perfectio sit visio divinae essentiae, et per speciem
+<lb ed="#L" n="59"/>aut sine specie.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e687-Dd1e1110"><!-- caj-p2p1-q3-a8 -->
+               <head xml:id="TAcCaj-d1e687-Hd1e1113">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e687-d1e1115">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="31"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e1122">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="32"/>CiRCA articulos eosdem, videlicet sextum, septimum et
+<lb ed="#L" n="33"/>boot; vide III Contra Gent., ubi de felicitate 
+dif<lb break="no" ed="#L" n="34"/>fuse per multa capitula disputatur. Et adverte in octavo 
+ar<lb break="no" ed="#L" n="35"/>ticulo quod illa verba litterae, quod intellectus humanus,
+<lb ed="#L" n="36"/>non cognita prima causa nisi am es:, habet naturale 
+desi<lb break="no" ed="#L" n="37"/>derium ad cognoscendam primam. causam quid est, etc.,
+<lb ed="#L" n="38"/>non carent ambiguitate; propterea quia naturale desiderium
+<lb ed="#L" n="39"/>non excedit vim naturae, nec est ad supernaturalem 
+ope<lb break="no" ed="#L" n="40"/>rationem, non solum ipsius, sed omnis intellectus creati.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e1146">
+                  <lb ed="#L" n="41"/>Sed haec citius solvuntur, si desiderium naturale 
+dis<lb break="no" ed="#L" n="42"/>tinguitur iuxta praedicta in I libro, in principio. 
+Deside<lb break="no" ed="#L" n="43"/>rium namque potest dici naturale a natura ut subiecto
+<lb ed="#L" n="44"/>tantum: et sic naturaliter. desideramus visionem Dei. Et a
+<lb ed="#L" n="45"/>natura ut subiecto et modo: et sic procedunt obiectiones.
+<lb ed="#L" n="46"/>Nec propterea aliquid adimitur efficaciae huius rationis:
+<lb ed="#L" n="47"/>quoniam perfecta beatitudo neutrum huiusmodi desiderium
+<lb ed="#L" n="48"/>imperfectum relinquit.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e1166">
+                  <lb ed="#L" n="49"/>Posset quoque dici quod Auctor tractat de homine ut
+<lb ed="#L" n="50"/>theologus, cuius, ut in II. Contra Gent., cap. rv, dicitur,
+<lb ed="#L" n="51"/>est considerare creaturas non secundum proprias naturas,
+<lb ed="#L" n="52"/>sed ut ad Deum sunt relatae. Et sic, licet homini absolute
+<lb ed="#L" n="53"/>non insit naturale huiusmodi desiderium, est tamen na-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>turale homini ordinato a divina providentia in illam 
+pa<lb break="no" ed="#L" n="55"/>triam, etc.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e1187">
+                  <lb ed="#L" n="56"/>Et hae duae responsiones sunt generales ad omnem
+<lb ed="#L" n="57"/>huiusmodi materiam. Specialiter tamen ad hanc huius 
+ar<lb break="no" ed="#L" n="58"/>ticuli materiam descendendo, dici potest quod intellectus
+<lb ed="#L" n="59"/>humanus sciens az est de Deo et communia, desiderat
+<lb ed="#L" n="60"/>naturaliter scire de Deo quid est, inquantum sub numero
+<lb ed="#L" n="61"/>causarum comprehenditur: et non absolute, nisi per 
+quan<lb break="no" ed="#L" n="62"/>dam consequentiam. Et hoc est verum: quia inditum est
+<lb ed="#L" n="63"/>naturaliter ut, viso effectu, desideremus nosse quid est
+<lb ed="#L" n="64"/>causa, quidquid sit illa.
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e1209">
+                  <lb ed="#L" n="65"/>II. Adverte hinc, novitie, duo. Prisab; quod idem. est
+<lb ed="#L" n="66"/>cognoscere quod quid est Dei, et videre Deum per 
+essen<lb break="no" ed="#L" n="67"/>tiam: hoc enim manifeste in probatione ultimi huius. 
+at<lb break="no" ed="#L" n="68"/>ticuli habes,
+</p>
+               <p xml:id="TAcCaj-d1e687-d1e1220">
+                  <lb ed="#L" n="69"/>Secundo, quod perfecta beatitudo constituitur ex 
+quid<lb break="no" ed="#L" n="70"/>ditativa cognitione Dei. Ita quod differentia constitutiva
+<lb ed="#L" n="71"/>cognitionis in hoc quod sit cognitio quidditativa Dei, est
+<lb ed="#L" n="72"/>constitutiva in hoc quod est Dei visio: et est constitutiva
+<lb ed="#L" n="73"/>beatitudinis ultimae, in hoc quod sit perfecta. Et 
+conse<lb break="no" ed="#L" n="74"/>quenter, sicut datur latitudo in visione Dei, ita in 
+beatitu<lb break="no" ed="#L" n="75"/>dine. perfecta.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

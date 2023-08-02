@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 54</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 54</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="344"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e951"><!-- TAcCajp2p1-q54 -->
+            <head xml:id="TAcCaj-d1e951-Hd1e99">Quaestio 54</head>
+            <div xml:id="TAcCaj-d1e951-Dd1e101"><!-- caj-p2p1-q54-a1 -->
+               <head xml:id="TAcCaj-d1e951-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e951-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>IN primo articulo quaestionis quinquagesimaequartae, 
+ad<lb break="no" ed="#L" n="25"/>verte, novitie, ne fallaris in similitudine habitudinis 
+ma<lb break="no" ed="#L" n="26"/>teriae ad formam atque agens, et potentiae ad habitum
+<lb ed="#L" n="27"/>atque obiectum. Inducitur enim, et tenet, quantum ad 
+de<lb break="no" ed="#L" n="28"/>terminationem, ad unitatemque actus ab uno agente: sed
+<lb ed="#L" n="29"/>non est extendenda ad unitatem materiae. Nam oppositum
+<lb ed="#L" n="30"/>intenti sequeretur: scilicet quod sicut in una materia non
+<lb ed="#L" n="31"/>potest simul esse.nisi una forma, sic nec in üna potentia
+<lb ed="#L" n="32"/>plures habitus. Similiter non est extendenda ad 
+proportio<lb break="no" ed="#L" n="33"/>nem formae et habitus quoad simultatem, propter eandem
+<lb ed="#L" n="34"/>causam. Unde esto cautus, ut proportionalis similitudo
+<lb ed="#L" n="35"/>quoad explicita tantum in littera, intelligatur; et non falleris.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e144">
+                  <lb ed="#L" n="36"/>II. In responsione ad primum: eiusdem primi articuli,
+<lb ed="#L" n="37"/>adverte quod littera non dicit quod omnis diversitas 
+ge<lb break="no" ed="#L" n="38"/>nerica obiectorum constituat diversitatem potentiarum. Quo-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="39"/>niam hoc manifeste est falsum: nam mathematica et 
+me<lb break="no" ed="#L" n="40"/>taphysica et naturalis et moralis manifeste habent obiecta
+<lb ed="#L" n="41"/>diversorum generum. De theologia quoque in principio
+<lb ed="#L" n="42"/>Primae Partis dicitur quod distinguitur genere a 
+mathe<lb break="no" ed="#L" n="43"/>matica, Et vere sic est: quia distinguuntur genere scibili.
+<lb ed="#L" n="44"/>Sed sat est huic litterae quod diversitas aliqua obiectorum
+<lb ed="#L" n="45"/>generica constituat diversitatem potentiarum. Praesens enim
+<lb ed="#L" n="46"/>responsio in hoc stat, quod diversitas potentiarum est 
+ne<lb break="no" ed="#L" n="47"/>cessario generica: habituum. vero non est necessario 
+gene<lb break="no" ed="#L" n="48"/>rica, sed specifica. Ex hoc enim. patet quod, multiplicatis
+<lb ed="#L" n="49"/>habitibus, non oportet multiplicare potentias; sicut nec,
+<lb ed="#L" n="50"/>multiplicatis speciebus, genera. - Quae autem sit illa 
+dis<lb break="no" ed="#L" n="51"/>tinctio generica constituens diversitatem potentiarum, et
+<lb ed="#L" n="52"/>quae non, discutere alterius negotii est: et erit pmi
+<lb ed="#L" n="53"/>specialis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e951-Dd1e189"><!-- caj-p2p1-q54-a2 -->
+               <head xml:id="TAcCaj-d1e951-Hd1e192">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e951-d1e194">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e201">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>In articulo secundo dubium occurrit ex Scoto, in r quaest.
+<lb ed="#L" n="23"/>Prologi Primi Sent., verba huius articuli inducente 
+per<lb break="no" ed="#L" n="24"/>verse exposita, nescio a.se vel ab altero. Acceptum est
+<lb ed="#L" n="25"/>enim ex hac littera quod, ubi est idem scibile, puta quod
+<lb ed="#L" n="26"/>terra est rotunda, per philosophiam naturalem et 
+astrolo<lb break="no" ed="#L" n="27"/>giam, quod ibi non sint distincti habitus, sed sunt distinctae
+<lb ed="#L" n="28"/>formae: quia non distinguuntur per obiecta, sed per 
+prin<lb break="no" ed="#L" n="29"/>cipia activa. In corpore namque dicitur quod habitus, 
+in<lb break="no" ed="#L" n="30"/>quantum. habitus, distinguuntur per obiecta: et in 
+respon<lb break="no" ed="#L" n="31"/>sione ad secundum, dicitur quod media sunt principia activa.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e227">
+                  <lb ed="#L" n="32"/>Contra hanc sententiam arguit dupliciter. Primo, quia
+<lb ed="#L" n="33"/>impossibile est aliqua indistincta esse secundum inferius
+<lb ed="#L" n="34"/>praedicatum, et distincta secundum superius: forma autem
+<lb ed="#L" n="35"/>est superius ad habitum, ut patet. — Secundo, quia hoc 
+sup<lb break="no" ed="#L" n="36"/>ponit obiecta distinguere habitus in alio genere causae quam
+<lb ed="#L" n="37"/>effective: quod falsum est, si aliquo modo causant 
+distin<lb break="no" ed="#L" n="38"/>ctionem habituum.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e245">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="39"/>II. Ad haec dicitur quod falsa est, in primis, 
+interpre<lb break="no" ed="#L" n="40"/>tatio litterae: neque enim hoc somniavit: divus "Thomas.
+<lb ed="#L" n="41"/>Sed intendit quod, quia habitus et formae et habitus sunt,
+<lb ed="#L" n="42"/>utraque sortiri possunt distinctiva, scilicet propria 
+forma<lb break="no" ed="#L" n="43"/>rum et propria habituum: et non quod cum distinctione
+<lb ed="#L" n="44"/>illarum stet indistinctio horum. Unde in proposito utraque
+<lb ed="#L" n="45"/>distinctiva concurrunt, scilicet activorum et obiectorum 
+for<lb break="no" ed="#L" n="46"/>malium: terram enim esse rotundam, et est aliud obiectum
+<lb ed="#L" n="47"/>formale, et per aliud medium scitum est, respectu astrologiae
+<lb ed="#L" n="48"/>et philosophiae naturalis, ut patet. Nec opus est, afferendo
+<lb ed="#L" n="49"/>unum, afferre semper aliud. Unde patet responsio ad primum.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e275">
+                  <lb ed="#L" n="50"/>Ad secundum vero dicitur quod obiectum, ut obiectum,
+<lb ed="#L" n="51"/>non dicit causam effectivam: et propterea non prohibetur
+<lb ed="#L" n="52"/>quin distinguat aliter quam effective. Et revera potest 
+di<lb break="no" ed="#L" n="53"/>stinguere non solum effective, sed formaliter, extrinsece
+<lb ed="#L" n="54"/>tamen. Et finaliter habitus sunt de actibus, ut alias dictum
+<lb ed="#L" n="55"/>est. Idem enim est iudicium.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e951-Dd1e292"><!-- caj-p2p1-q54-a3 -->
+               <head xml:id="TAcCaj-d1e951-Hd1e295">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e951-d1e297">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e304">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>In articulo tertio, nota quod apud Auctorem hic non dicitur | 
+<lb ed="#L" n="25"/>quod impossibile est quod idem habitus transeat de bono
+<lb ed="#L" n="26"/>in malum, aut e converso: sed quod impossibile est quod | 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="27"/>sit bonus et malus, eo quod sunt bonus et malus diversarum
+<lb ed="#L" n="28"/>specierum, et contrarii. Impossibile est enim) contraria esse
+<lb ed="#L" n="29"/>simul unius individui. Et hoc bene nota pro sequentibus,
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e951-Dd1e325"><!-- caj-p2p1-q54-a4 -->
+               <head xml:id="TAcCaj-d1e951-Hd1e328">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e951-d1e330">
+                  <pb ed="#L" n="345"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e339">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo quarto dubium primo occurrit ex Scoto, in
+<lb ed="#L" n="3"/>Prologo Primi Sentent., in assignatione primi subiecti
+<lb ed="#L" n="4"/>habitus, ubi conatur solvere hanc rationem tactam hic in
+<lb ed="#L" n="5"/>littera, quod sicut potentia una ad multa se extendit propter
+<lb ed="#L" n="6"/>unitatem obiecti, ita habitus. Inquit enim Scotus quod 
+pro<lb break="no" ed="#L" n="7"/>portiones obiecti ad potentiam, et obiecti ad habitum, sunt
+<lb ed="#L" n="8"/>diversae: nam illa est activi ad passivum, ista est causae
+<lb ed="#L" n="9"/>ad effectum. Modo, ita est quod in quodcumque passum
+<lb ed="#L" n="10"/>potest aliquod agens, potest omne eiusdem rationis agens.
+<lb ed="#L" n="11"/>Prima igitur extrema proportionis activi ad passivum, sunt
+<lb ed="#L" n="12"/>communia ad omnia per se extrema illius proportionis:
+<lb ed="#L" n="13"/>nam inter illa communissima est adaequatio; quia in 
+quo<lb break="no" ed="#L" n="14"/>cumque est ratio unius, respicit quodcumque in quo est
+<lb ed="#L" n="15"/>ratio alterius. Sed prima extrema causae et effectus non
+<lb ed="#L" n="16"/>sunt communissima: quia inter illa non est adaequatio;
+<lb ed="#L" n="17"/>non enim sequitur, si commune potest causare habitum,
+<lb ed="#L" n="18"/>quod speciale possit.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e381">
+                  <lb ed="#L" n="19"/>Ad hoc dico quod miror valde de hoc viro. Constat
+<lb ed="#L" n="20"/>enim clarissime quod proportiones istae currunt, quoad
+<lb ed="#L" n="21"/>adaequationem et quaecumque nominata, pari passu. Qua
+<lb ed="#L" n="22"/>enim ratione activum et passivum sic se habent, eadem
+<lb ed="#L" n="23"/>ratione causa et effectus. Quemcumque namque effectum
+<lb ed="#L" n="24"/>potest causare aliqua causa, potest eiusdem rationis causa
+<lb ed="#L" n="25"/>producere, et e converso: et non minus speciale in quo
+<lb ed="#L" n="26"/>salvatur ratio communis, potest producere effectum illius
+<lb ed="#L" n="27"/>communis, quam possit agere in passum illius communis.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e403">
+                  <lb ed="#L" n="28"/>Non video quomodo sit intelligibile, cum activum 
+respon<lb break="no" ed="#L" n="29"/>deat effectui et patienti, et per hoc respondeat patienti quia
+<lb ed="#L" n="30"/>agit in eo suum effectum; quod extrema proportionis activi
+<lb ed="#L" n="31"/>ad passivum adaequentur, et activi et effectus non. Stat
+<lb ed="#L" n="32"/>ergo solida ratio litterae, quod quia perfectio proportionatur
+<lb ed="#L" n="33"/>perfectibili, etc.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e420">
+                  <lb ed="#L" n="34"/>II. In eodem quarto articulo dubium tritum occurrit de
+<lb ed="#L" n="35"/>habitu scientiae, quod tangitur in responsione ad tertium:
+<lb ed="#L" n="36"/>quomodo salvatur quod sit una qualitas simplex. Et est
+<lb ed="#L" n="37"/>quaestio ista et cum extraneis, et cum Thomistis. Cum
+<lb ed="#L" n="38"/>Thomistis quidem, quia quidam eorum attribuunt s. T'
+ho<lb break="no" ed="#L" n="39"/>mae quod putaverit habitum scientiae esse ordinatas 
+spe<lb break="no" ed="#L" n="40"/>cies intelligibiles ad unam formalem rationem obiecti 
+sci<lb break="no" ed="#L" n="41"/>bilis: quidam autem, esse simplicem qualitatem 
+habilitan<lb break="no" ed="#L" n="42"/>tem ad usum illarum specierum. - Cum aliis vero, dum non
+<lb ed="#L" n="43"/>sustinent habitum scientificum unum secundum speciem et
+<lb ed="#L" n="44"/>simplicem, extendere se ad tot rerum naturas quot in una
+<lb ed="#L" n="45"/>scientia tractari contingit.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e449">
+                  <lb ed="#L" n="46"/>III. Thomistae igitur tenentes habitum scientificum esse
+<lb ed="#L" n="47"/>species ordinatas etc., super auctoritatibus s. Thomae se
+<lb ed="#L" n="48"/>fundant. Quarum praecipuae sunt ex hoc Libro tres. Prima
+<lb ed="#L" n="49"/>est ex qu. Lr, art. 2, ubi Auctor vult quod scientia 
+auge<lb break="no" ed="#L" n="50"/>tur secundum se per additionem. Ex qua arguitur sic.
+<lb ed="#L" n="51"/>Scientia secundum se augetur per additionem: ergo ipsi
+<lb ed="#L" n="52"/>secundum se aliquid additur. Sed non nisi nova species
+<lb ed="#L" n="53"/>intelligibilis. Ergo species intelligibilis spectat ad 
+habitua<lb break="no" ed="#L" n="54"/>lem scientiam in seipsa. — Secunda est ex qu. Lxv, art. 1,
+<lb ed="#L" n="55"/>ad r, ubi vult quod geometer modico studio acquirit 
+scien<lb break="no" ed="#L" n="56"/>tiam conclusionis quam nunquam consideravit , etc. Ex
+<lb ed="#L" n="57"/>hoc arguitur quod aliquid novum acquiritur modico 
+stu<lb break="no" ed="#L" n="58"/>dio. — Tertia est ex qu. rxvir, art. 2, ubi vult quod 
+spe<lb break="no" ed="#L" n="59"/>cies intelligibiles se habent ad scientiam ut formales, 
+phan<lb break="no" ed="#L" n="60"/>tasmata autem ut materialia. Ex hoc arguitur: Ergo scientia
+<lb ed="#L" n="61"/>formaliter est ipsae species intelligibiles.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e486">
+                  <lb ed="#L" n="62"/>Ex Tertia Parte affertur art. 2 quaestionis xrr, ubi Auctor
+<lb ed="#L" n="63"/>expresse vult scientiam augeri per successivam generationem
+<lb ed="#L" n="64"/>specierum intelligibilium: et vocat hoc augmentum 
+secun<lb break="no" ed="#L" n="65"/>dum essentiam ipsius habitus scientiae, etc.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e497">
+                  <lb ed="#L" n="66"/>Ex Quaestionibus de Veritate, qu. vr, art. 16, ad 4, ubi
+<lb ed="#L" n="67"/>dicit quod una tota scientia comprehendit sub se diversas
+<lb ed="#L" n="68"/>scientias particulares, quibus conclusiones diversae 
+cogno<lb break="no" ed="#L" n="69"/>scuntur. - Et in qu. xxiv, art. 4, ad 9, ubi dicit quod 
+or<lb break="no" ed="#L" n="70"/>dinatio aliqualis specierum intelligibilium facit habitum. —
+<lb ed="#L" n="71"/>Et in qu. x, art. 2, approbat viam dicentium quod species
+<lb ed="#L" n="72"/>conservantur in intellectu, quarum ordinatio est habitus
+<lb ed="#L" n="73"/>scientiae.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e517">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="74"/>Ex III quoque Sent., dist. xiv, art. 2, qu 4, ubi vült
+<lb ed="#L" n="75"/>quod scientia infusa animae Christi sit unus habitus, et 
+ta<lb break="no" ed="#L" n="76"/>men multae species.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e528">
+                  <lb ed="#L" n="77"/>IV. Aliorum autem occurrit in primis Aureolus, 
+de<lb break="no" ed="#L" n="78"/>inde Gregorius de Arimino, in Prologo Primi Sent., qu. ur,
+<lb ed="#L" n="79"/>art. r, pluribus rationibus. Primo, ex parte operationis.
+<lb ed="#L" n="80"/>Quia sequeretur quod habens habitum scientificum primae
+<lb ed="#L" n="81"/>conclusionis in geometria, posset exire in actum sciendi
+<lb ed="#L" n="82"/>ceteras geometriae conclusiones, quas nunquam 
+considera<lb break="no" ed="#L" n="83"/>vit. Hoc est falsum. Ergo. - Probatur sequela. Quia 
+ha<lb break="no" ed="#L" n="84"/>bitus scientiae primae conclusionis, per te, et habitus 
+o<lb break="no" ed="#L" n="85"/>mnium reliquarum, sunt eiusdem rationis specialissimae;
+<lb ed="#L" n="86"/>licet differant secundum perfectum et imperfectum. 
+Con<lb break="no" ed="#L" n="87"/>stat autem quod in quemcumque actum potest aliqua
+<lb ed="#L" n="88"/>forma, potest quaelibet eiusdem rationis specialissimae. —
+<lb ed="#L" n="89"/>Nec valet, inquit Gregorius, si dicatur quod ista maxima
+<lb ed="#L" n="90"/>tenet solum in formis eiusdem rationis et aeque perfectis.
+<lb ed="#L" n="91"/>Quia differentia secundum perfectum et imperfectum, non
+<lb ed="#L" n="92"/>tollit aut dat substantiam actionis, sed variat actionem
+<lb ed="#L" n="93"/>etiam secundum perfectum et imperfectum: minimus enim
+<lb ed="#L" n="94"/>calor potest calefacere et exsiccare, quamvis non ita 
+per<lb break="no" ed="#L" n="95"/>fecte sicut intensus calor. — Et confirmatur auctoritate
+<lb ed="#L" n="96"/>Averrois, I Caeli, comment. xix, et in III Caeli, 
+com<lb break="no" ed="#L" n="97"/>ment. Lxxi expresse dicentis quod ubi est eadem forma,
+<lb ed="#L" n="98"/>est eadem actio secundum speciem, licet magis vel minus
+<lb ed="#L" n="99"/>perfecta.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e581">
+                  <lb ed="#L" n="100"/>Secundo, ex parte generationis. Quia habitus habentes
+<lb ed="#L" n="101"/>diversas generationes, corruptiones, intensiones et 
+remis<lb break="no" ed="#L" n="102"/>siones, sunt diversi. Sed respectu primae conclusionis 
+geo<lb break="no" ed="#L" n="103"/>metriae et centesimae, habitus scientifici sunt huiusmodi.
+<lb ed="#L" n="104"/>Ergo. - Minor, quoad intensionem et remissionem, est clara.
+<lb ed="#L" n="105"/>Quoad corruptionem, patet ex oblivione centesimae 
+demon<lb break="no" ed="#L" n="106"/>strationis, seu medii, stante prima. Et tunc patet quod 
+opor<lb break="no" ed="#L" n="107"/>tebit generationem aliam fieri.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e601">
+                  <lb ed="#L" n="108"/>Tertio, ex parte augmentationis. Habitus geometriae, per
+<lb ed="#L" n="109"/>vos, dupliciter augetur: scilicet per actus frequentatos circa
+<lb ed="#L" n="110"/>eandem conclusionem; et per actus circa diversas 
+succes<lb break="no" ed="#L" n="111"/>sive conclusiones, Aut ergo hoc duplici augmentationis
+<lb ed="#L" n="112"/>modo acquiritur diversa secundum speciem entitas absoluta
+<lb ed="#L" n="113"/>in illo habitu, aut eadem. Si diversa, ergo habitus ille non
+<lb ed="#L" n="114"/>est simplex qualitas. Si eadem, ergo sive hoc sive illo
+<lb ed="#L" n="115"/>modo generetur, ad idem inclinabit : sicut quia calor 
+eius<lb break="no" ed="#L" n="116"/>dem rationis rem suscipit quomodocumque intendatur, ideo
+<lb ed="#L" n="117"/>sive a sole sive ab igne intendatur, in idem potest 
+in<lb break="no" ed="#L" n="118"/>tensus. Et tunc sequitur et quod frequentans actus circa
+<lb ed="#L" n="119"/>primam conclusionem, acquirat seu formet notitiam 
+cen<lb break="no" ed="#L" n="120"/>tesimae; et quod demonstrans centesimam conclusionem,
+<lb ed="#L" n="121"/>intendat notitiam primae.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e634">
+                  <lb ed="#L" n="122"/>Quarto, ex parte oppositorum. Quia scientia primae 
+con<lb break="no" ed="#L" n="123"/>clusionis non opponitur ignorantiae, etiam pravae 
+disposi<lb break="no" ed="#L" n="124"/>tionis tam actualis quam habitualis, centesimae: quia stant
+<lb ed="#L" n="125"/>simul in eodem, ut patet. Ergo non est eadem simplex
+<lb ed="#L" n="126"/>qualitas habitus utriusque. - Patet sequela: quia eaedem
+<lb ed="#L" n="127"/>qualitates secundum speciem, habent eandem qualitatem
+<lb ed="#L" n="128"/>secundum speciem contrariam, etc.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e652">
+                  <lb ed="#L" n="129"/>V. Ad evidentiam huius difficultatis, quam Thomistae
+<lb ed="#L" n="130"/>multi fugere videntur, dicentes divum Thomam modo 
+de<lb break="no" ed="#L" n="131"/>clinare in unam, modo in alteram opinionem, etiam in
+<lb ed="#L" n="132"/>hac Prima Secundae, et magis declinare in opinionem 
+di<lb break="no" ed="#L" n="133"/>centem habitum scientiae esse ordinatas species: scito quod
+<lb ed="#L" n="134"/>sententia divi Thomae est quod habitus scientiae est 
+sim<lb break="no" ed="#L" n="135"/>plex qualitas extendens se ad omnes conclusiones 
+spectan<lb break="no" ed="#L" n="136"/>tes ad eandem rationem specialissimam sub hoc genere
+<lb ed="#L" n="137"/>quod est scibile. Ubi quatuor videnda sunt: primo, quod
+<lb ed="#L" n="138"/>habitus scientiae est simplex qualitas; secundo, quomodo
+<lb ed="#L" n="139"/>sé habet ad scire diversas conclusiones; tertio, quomodo
+<lb ed="#L" n="140"/>se habet ad species intelligibiles et diversitatem earum;
+<lb ed="#L" n="141"/>quarto, quid dicendum obiectis in oppositum.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e683">
+                  <lb ed="#L" n="142"/>VI. Quoad primum, supponendo pro nunc dari et 
+con<lb break="no" ed="#L" n="143"/>servari species intelligibiles in intellectu; et unitatem 
+spe<lb break="no" ed="#L" n="144"/>cificam scientiae attendi penes unitatem specificam scibilis,
+<lb ed="#L" n="145"/>non inquantum est in hoc vel in illo genere substantiae
+<pb ed="#L" n="346"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>vel quantitatis, sed inquantum est in genere scibilis; 
+quo<lb break="no" ed="#L" n="2"/>rum utrumque in doctrina Auctoris est indubitatum: 
+opor<lb break="no" ed="#L" n="3"/>tet concedere quod aliqua una habitualis scientia secundum
+<lb ed="#L" n="4"/>speciem, puta geometria, duas res ponat in intellectu 
+no<lb break="no" ed="#L" n="5"/>stro. Prima est species intelligibiles linearum, angulorum,
+<lb ed="#L" n="6"/>figurarum, etc.: secunda est habilitas ad prompte, faciliter
+<lb ed="#L" n="7"/>delectabiliterque considerandum conclusiones scitas in 
+geo<lb break="no" ed="#L" n="8"/>metria. Quod enim oportet ponere species intelligibiles 
+ordi<lb break="no" ed="#L" n="9"/>natas ad unam et eandem rationem formalem talis scibilis,
+<lb ed="#L" n="10"/>patet ex eo quod plura secundum speciem non concurrunt
+<lb ed="#L" n="11"/>aàd unum secundum speciem, nisi aliquo modo ordinata
+<lb ed="#L" n="12"/>ad illud unum: ut patet in pluralitate heterogeneorum tam
+<lb ed="#L" n="13"/>in naturalibus quam artificialibus. Quomodo enim species
+<lb ed="#L" n="14"/>intelligibiles subiecti, puta lunae, et species accidentis, puta
+<lb ed="#L" n="15"/>eclipsis, et species causae mediae, puta interpositae 
+ter<lb break="no" ed="#L" n="16"/>rae, etc, in unum secundum speciem actum sciendi 
+con<lb break="no" ed="#L" n="17"/>venient, nisi aliquo modo ordinatae? Et rursus, quomodo tot
+<lb ed="#L" n="18"/>species tot rerum contentarum sub una specie scibilis, ut
+<lb ed="#L" n="19"/>sic, convenient nisi ordinatae ? Ubi enim pluralitas sine 
+or<lb break="no" ed="#L" n="20"/>dine, ibi confusio. -.Quod autem exigatur habilitas aliqua
+<lb ed="#L" n="21"/>ad utendum prompte, faciliter, etc., speciebus istis sic 
+or<lb break="no" ed="#L" n="22"/>dinatis, ex hoc ipso patet, quod intellectus, cum sit 
+secun<lb break="no" ed="#L" n="23"/>dum se sicut tabula rasa, non est secundum se ordinatus
+<lb ed="#L" n="24"/>ad usum talem talium sic ordinatorum ad scibile unum:
+<lb ed="#L" n="25"/>sed oportet per aliquam sibi additam qualitatem respicientem
+<lb ed="#L" n="26"/>per se primo illud scibile, determinari ad prompte, 
+faci<lb break="no" ed="#L" n="27"/>liter et delectabiliter utendum quibuscumque speciebus et
+<lb ed="#L" n="28"/>actibus in ordine ad illud. Hanc autem qualitatem - 
+habi<lb break="no" ed="#L" n="29"/>litantem esse constat unam, iuxta unitatem sui obiecti; ac
+<lb ed="#L" n="30"/>per hoc, unius speciei specialissimae; et consequenter 
+qua<lb break="no" ed="#L" n="31"/>litatem. simplicem, cum species sit qualitatis.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e766">
+                  <lb ed="#L" n="32"/>His autem duobus in intellectu concurrentibus profecto
+<lb ed="#L" n="33"/>secundum aliquam scientiam, videndum restat quid horum
+<lb ed="#L" n="34"/>non habitus, sed habitus £alis, scilicet scientiae humanae,
+<lb ed="#L" n="35"/>quae est habitus per demonstrationem acquisitus, rationem
+<lb ed="#L" n="36"/>essentialiter habet. Notanter autem dixi, non habitus: quia
+<lb ed="#L" n="37"/>constat quod species intelligibiles, apud s. Thomam, sunt
+<lb ed="#L" n="38"/>habitus intellectuales. Et similiter dixi, scientiae humanae :
+<lb ed="#L" n="39"/>quia constat in angelis habitus scientiae non esse nisi 
+spe<lb break="no" ed="#L" n="40"/>cies intelligibiles. Et non advertere ad haec duo, fuit forte
+<lb ed="#L" n="41"/>occasio erroris aliquibus.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e791">
+                  <lb ed="#L" n="42"/>VII. Quod autem scientia de qua loquimur, non sit 
+es<lb break="no" ed="#L" n="43"/>sentialiter plures species intelligibiles ordinatae, sed simplex
+<lb ed="#L" n="44"/>qualitas; manifestum est ex hoc, quod habitus scientificus
+<lb ed="#L" n="45"/>est essentialiter in. prima specie qualitatis, ut una eius 
+spe<lb break="no" ed="#L" n="46"/>cies specialissima, Constat namque quod nulla species 
+qua<lb break="no" ed="#L" n="47"/>litatis est composita ex. pluribus qualitatibus diversarum
+<lb ed="#L" n="48"/>specierum, quales sunt species intelligibiles. Ergo vel 
+scien<lb break="no" ed="#L" n="49"/>tiae habitum negent esse speciem aliquam essentialiter in
+<lb ed="#L" n="50"/>genere qualitatis, ponendo ipsam esse unam ordine, sicut
+<lb ed="#L" n="51"/>exercitum, et in genere relationis formale, et materiale 
+so<lb break="no" ed="#L" n="52"/>lum in genere. qualitatis: quod repugnat toti doctrinae
+<lb ed="#L" n="53"/>huius tractatus. Vel concedant ipsam non. esse formaliter
+<lb ed="#L" n="54"/>species ordinatas, sed qualitatem .simplicem ad utendum
+<lb ed="#L" n="55"/>illis.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e824">
+                  <lb ed="#L" n="56"/>Putandum est igitur quod in una scientia, puta 
+meta<lb break="no" ed="#L" n="57"/>physica, invenitur intellectus in illa perfectus, sic dispositus
+<lb ed="#L" n="58"/>quod habet species intelligibiles elementorum, mixtorum,
+<lb ed="#L" n="59"/>plantarum, animalium, hominum, quanti, qualis, relationis,
+<lb ed="#L" n="60"/>motus, etc., bene dispositas quatenus repraesentant gradus
+<lb ed="#L" n="61"/>metaphysicales, idest spectantes ad ens inquantum ens; et
+<lb ed="#L" n="62"/>quod habet qualitatem quandam determinantem ipsum non
+<lb ed="#L" n="63"/>solum. ad utendum, sed. ponendum et ordinandum species
+<lb ed="#L" n="64"/>in tali ordine, Et haec qualitas est essentialiter habitus 
+scien<lb break="no" ed="#L" n="65"/>tiae, qui dat formaliter intellectui facultatem faciendi 
+huius<lb break="no" ed="#L" n="66"/>modi dispositionem in speciebus, et utendi illis prompte,
+<lb ed="#L" n="67"/>faciliter et delectabiliter. Et hoc habet ex hoc, quod per
+<lb ed="#L" n="68"/>se primo respicit rationem formalem. obiecti scibilis 
+speci<lb break="no" ed="#L" n="69"/>ficantem et unitatem specificam  praebentem ipsi. Primum
+<lb ed="#L" n="70"/>enim in unoquoque est causa ceterorum: unde quod illae
+<lb ed="#L" n="71"/>species ad illud unum ordinentur, ex habitu habent, cui
+<lb ed="#L" n="72"/>per se primo convenit ad illud unum ordinari, et non e
+<lb ed="#L" n="73"/>converso, - Hoc de primo.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e866">
+                  <lb ed="#L" n="74"/>VIII. Quoad. secundum, scito quod, ut patet ex V 
+Me<lb break="no" ed="#L" n="75"/>taphys., et superius allegatum | est, de ratione habitus
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>est quod habens ipsum sit partibile secundum locum, 
+po<lb break="no" ed="#L" n="77"/>tentiam vel speciem: et, ut Simplicius superius allegatus
+<lb ed="#L" n="78"/>dixit, scientia imperfecta a scientia perfecta differt in hoc,
+<lb ed="#L" n="79"/>quod illa est habentis partes in potentia, ista est habentis
+<lb ed="#L" n="80"/>partes secundum speciem. Ex his autem hoc solum pro
+<lb ed="#L" n="81"/>nunc accipito, quod habitus scientiae comparatur ad 
+di<lb break="no" ed="#L" n="82"/>versa scire diversarum conclusionum ut ad partes, in 
+po<lb break="no" ed="#L" n="83"/>tentia quidem quando est imperfectus, in actu vero quando
+<lb ed="#L" n="84"/>est perfectus. Quod ut plenius intelligas, cogita quod in
+<lb ed="#L" n="85"/>intellectu in quo oritur geometria, est potentia ad scire
+<lb ed="#L" n="86"/>primam conclusionem, et potentia ad scire secundam, et
+<lb ed="#L" n="87"/>potentia ad scire tertiam, et sic de aliis: et quod habitus
+<lb ed="#L" n="88"/>scientiae incipiens perficit intellectum. secundum primam
+<lb ed="#L" n="89"/>potentiam ; deinde per secundam demonstrationem 
+extendi<lb break="no" ed="#L" n="90"/>tur ad perficiendum intellectum secundum secundam 
+poten<lb break="no" ed="#L" n="91"/>tiam; et per tertiam extenditur ad perficiendum secundum
+<lb ed="#L" n="92"/>tertiam, et sic deinceps. — Nec refert si omnes istae potentiae
+<lb ed="#L" n="93"/>sunt multae partiales potentiae, aut sint una. Quoniam si
+<lb ed="#L" n="94"/>ponatur una sola potentia ad scire omnium conclusionum,
+<lb ed="#L" n="95"/>illa potentia, una formaliter et multae aequivalenter, eidem
+<lb ed="#L" n="96"/>habitui subiicitur paulatim, ac si essent multae potentiae,
+<lb ed="#L" n="97"/>quibus aequivalet. Si vero ponantur multae partiales, tunc
+<lb ed="#L" n="98"/>habitus scientiae habebit pro partibus subiecti non solum
+<lb ed="#L" n="99"/>actus multos sciendi, sed potentias ad illos. Quomodolibet
+<lb ed="#L" n="100"/>ergo: ponatur, referendum est ad habitus scientiae 
+compara<lb break="no" ed="#L" n="101"/>tae ad scire diversarum conclusionum, et potentias sive
+<lb ed="#L" n="102"/>distinctas sive non ad illa scire, ut ad partes habentis ipsum.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e934">
+                  <lb ed="#L" n="103"/>Et ex hoc manifestatur augmentum scientiae 
+extensi<lb break="no" ed="#L" n="104"/>vum, quod Auctor vocat per additionem. Ex hoc enim
+<lb ed="#L" n="105"/>quod intellectus, ut est in potentia ad secundam 
+conclu<lb break="no" ed="#L" n="106"/>sionem, non remanet interminatus, sed subiicitur illi qualitati
+<lb ed="#L" n="107"/>simplici respicienti obiectum primum ; extenditur habitus
+<lb ed="#L" n="108"/>ad occupandum non partem loci, sed partem potentiae,
+<lb ed="#L" n="109"/>quam prius non actuabat. -Et hoc bene nota: quoniam.
+<lb ed="#L" n="110"/>ex his solventur obiecta. - Hoc de secundo.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e954">
+                  <lb ed="#L" n="111"/>IX. Quoad tertium, scito quod habitus scientificus 
+qua<lb break="no" ed="#L" n="112"/>tuor habitudines habet ad species intelligibiles ordinatas :
+<lb ed="#L" n="113"/>prima est effectus ad causam; secunda, causae ad effectum;
+<lb ed="#L" n="114"/>tertia, complementi ad inchoationem; quarta, totius ad 
+par<lb break="no" ed="#L" n="115"/>tes non essentiales, nec integrales, sed potentiales. Et pro
+<lb ed="#L" n="116"/>manifestatione primarum . duarum, recolere oportet quod
+<lb ed="#L" n="117"/>sicut in scientia est duplex ordo: - primus est partium unius
+<lb ed="#L" n="118"/>et eiusdem demonstrationis, secundus diversarum demon--
+<lb ed="#L" n="119"/>strationum inter se; — ita est. duplex collectio ordinata 
+spe<lb break="no" ed="#L" n="120"/>cierum intelligibilium. Prima est specierum facientium unam.
+<lb ed="#L" n="121"/>demonstrationem : secunda est specierum facientium secun--
+<lb ed="#L" n="122"/>dam demonstrationem cum speciebus facientibus primam,
+<lb ed="#L" n="123"/>et sic deinceps. Prima collectio est causa habitus 
+scienti<lb break="no" ed="#L" n="124"/>fici: quia est causa ipsius actualis scire, quod est effectus
+<lb ed="#L" n="125"/>demonstrationis, quod est causa ipsius habitus scientifici;
+<lb ed="#L" n="126"/>habitus enim sciendi ex actu sciendi generatur. Et scito.
+<lb ed="#L" n="127"/>quod non solum collectio specierum pro prima 
+demon<lb break="no" ed="#L" n="128"/>stratione est causa scientifici habitus, sed singulae colle-.
+<lb ed="#L" n="129"/>ctiones pro singulis succedentibus demonstrationibus sunt
+<lb ed="#L" n="130"/>causae ipsius habitus, diversimode tamen: quia prima est
+<lb ed="#L" n="131"/>causa generativa, aliae vero sunt causae augmentativae 
+aug<lb break="no" ed="#L" n="132"/>mento extensivo; sicut prima demonstratio facit habitum,
+<lb ed="#L" n="133"/>subsequentes autem extendunt illum, — Secunda autem 
+col<lb break="no" ed="#L" n="134"/>lectio, quoad unitatem ordinis, est effectus ipsius habitus:
+<lb ed="#L" n="135"/>quia intellectus, adepto iam habitu, et determinatus iam
+<lb ed="#L" n="136"/>ad obiectum .scibile tale, efficitur potens ad ordinandum
+<lb ed="#L" n="137"/>alias species ad acquisitam rationem talis obiecti. Et sicut
+<lb ed="#L" n="138"/>prima demonstratio in scientia una est principium 
+secun<lb break="no" ed="#L" n="139"/>dae; ita, proportionaliter, habitus acquisitus prima 
+demon<lb break="no" ed="#L" n="140"/>stratione inchoat scire actuale secundae conclusionis, adu--
+<lb ed="#L" n="141"/>vando ad adunandum et ordinandum species pro secunda.
+<lb ed="#L" n="142"/>demonstratione, et sic deinceps. Et hoc, ut dictum est:,
+<lb ed="#L" n="143"/>quia per se primo respicit formale obiectum.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1028">
+                  <lb ed="#L" n="144"/>Tertia autem habitudo patet ex eo quod, cum obiectum
+<lb ed="#L" n="145"/>proprium habitus sit etiam obiectum, licet partiale, 
+po<lb break="no" ed="#L" n="146"/>tentiae; scibile, puta unitas sive numerus in arithmetica,
+<lb ed="#L" n="147"/>obiicitur prius, ordine generationis, intellectui primam 
+de<lb break="no" ed="#L" n="148"/>monstrationem formanti per ordinatas illius demonstrationis
+<lb ed="#L" n="149"/>species, quam. habitui qui relinquitur in intellectu. ex scire
+<lb ed="#L" n="150"/>facto per demonstrationem. Sed potentia intellectus. ad
+<pb ed="#L" n="347"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tale obiectum ut scibile, non nisi inchoative determinatur
+<lb ed="#L" n="2"/>per huiusmodi species ordinatas: quia non nisi ut 
+ordinan<lb break="no" ed="#L" n="3"/>tur ad scientiam illius obiecti. Unde completive 
+determi<lb break="no" ed="#L" n="4"/>natur per habitum, quo iam intellectus non ut in via,
+<lb ed="#L" n="5"/>quemadmodum per species ordinatas, sed ut in termino;
+<lb ed="#L" n="6"/>nec per modum passionis transeuntis, quemadmodum per
+<lb ed="#L" n="7"/>actum. sciendi; sed firmiter et quasi immobiliter habet
+<lb ed="#L" n="8"/>obiectum illud scibile ut sic. f
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1068">
+                  <lb ed="#L" n="9"/>Quarta vero habitudo patet ex praecedenti; et ex 
+reprae<lb break="no" ed="#L" n="10"/>sentatione specierum; et ex potentiis antedictis; et ex
+<lb ed="#L" n="11"/>actibus sciendi diversas conclusiones. Et retrogrado ordine
+<lb ed="#L" n="12"/>procedendo, si actus diversi sciendi diversas conclusiones
+<lb ed="#L" n="13"/>in una scientia, sunt velut partes habentis habitus; et 
+di<lb break="no" ed="#L" n="14"/>versae species ad diversos huiusmodi actus ordinantur, ut
+<lb ed="#L" n="15"/>patet: consequens est ut ipsae quoque species in partium
+<lb ed="#L" n="16"/>coordinationem cadant. — Idem quoque sequitur ex eo quod,
+<lb ed="#L" n="17"/>ad perficiendum potentiam intellectus respectu huius 
+con<lb break="no" ed="#L" n="18"/>clusionis, aliae species ordinantur ab illis quae otdinantur
+<lb ed="#L" n="19"/>ad perficiendum | potentiam- respectu alterius conclusionis
+<lb ed="#L" n="20"/>eiusdem scientiae et scibilis formaliter. - Cum etiam nostra
+<lb ed="#L" n="21"/>scientia duo exigat, assimilationem | intellectus ad res de
+<lb ed="#L" n="22"/>quibus est scientia, et determinationem intellectus ad 
+com<lb break="no" ed="#L" n="23"/>ponendum, dividendum discurrendumque inter huiusmodi
+<lb ed="#L" n="24"/>res; et primum fiat per species intelligibiles, secundum 
+au<lb break="no" ed="#L" n="25"/>tem per illam qualitatem habilitantem intellectum ad tale
+<lb ed="#L" n="26"/>scibile; et-constet quod primum ordinatur ad secundum,
+<lb ed="#L" n="27"/>in quo: consummatur scientia: consequens est quod: species
+<lb ed="#L" n="28"/>intelligibiles, repraesentando ea de quibus est scientia, 
+clau<lb break="no" ed="#L" n="29"/>dantur sub scientia tanquam secundaria sub principali. Ac
+<lb ed="#L" n="30"/>per hoc, scientia per seipsam habet actum componendi, etc.,
+<lb ed="#L" n="31"/>per species vero habet actum repraesentandi: sicut 
+pru<lb break="no" ed="#L" n="32"/>dentia per seipsam praecipit, et per eubuliam consiliatur.
+<lb ed="#L" n="33"/>Cum igitur determinatio intellectus ad scibile plura exigat;
+<lb ed="#L" n="34"/>et in speciebus intelligibilibus ordinatis inchoative sit, et
+<lb ed="#L" n="35"/>in qualitate illa simplici consummetur: consequens est quod
+<lb ed="#L" n="36"/>species intelligibiles tanquam partes potentiales scientiae
+<lb ed="#L" n="37"/>sint; vigilandumque sit, (cum de attributis conditionibus
+<lb ed="#L" n="38"/>seu actibus scientiae est sermo, quid ei conveniat 
+imme<lb break="no" ed="#L" n="39"/>diate et quid mediante parte potentiali, quid simpliciter
+<lb ed="#L" n="40"/>et quid secundum partem. - Haec de tertio.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1140">
+                  <lb ed="#L" n="41"/>X. Quoad quartum, prima auctoritas s. Thomae nihil
+<lb ed="#L" n="42"/>penitus obstat. Quia augmentum per additionem ibi 
+voca<lb break="no" ed="#L" n="43"/>tur augmentum extensivum : ut expresse ipsemet se 
+decla<lb break="no" ed="#L" n="44"/>rat inferius. in. qu. rxvr, art. r, ubi, repetita distinctione de
+<lb ed="#L" n="45"/>augmento formae secundum seipsam et ex parte subiecti
+<lb ed="#L" n="46"/>participantis, dicit quod. magnitudo vel parvitas formae
+<lb ed="#L" n="47"/>secündum seipsam. attenditur secundum ea ad quae se
+<lb ed="#L" n="48"/>extendit. Et quia scientia modo ad pauciora, modo ad plura
+<lb ed="#L" n="49"/>se extendit, ideo sic suscipit augmentum. Virtus autem
+<lb ed="#L" n="50"/>moralis, quia ad omnia oportet quod se extendat, ideo non
+<lb ed="#L" n="51"/>sic.augetur. Unde ex hoc quod Auctor dicit ipsam augeri
+<lb ed="#L" n="52"/>per additionem, nihil aliud habetur nisi quod augetur 
+ex<lb break="no" ed="#L" n="53"/>tensive, quia ad plura continue se extendit. Ex hoc vero
+<lb ed="#L" n="54"/>quod dicit secundum seipsam sic augeri, non habetur quod
+<lb ed="#L" n="55"/>in ipsa sua essentia. fiat additio: sed quod ex ipsa eius
+<lb ed="#L" n="56"/>specifica ratione habet quod sic augeatur, ut in illa qu. rar
+<lb ed="#L" n="57"/>declaratum. est.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1179">
+                  <lb ed="#L" n="58"/>Secunda vero auctoritas, ex qu. rxv inferius, cum 
+exem<lb break="no" ed="#L" n="59"/>plariter. ab Auctore inducatur, intelligenda procul dubio est
+<lb ed="#L" n="60"/>iuxta sensum a seipso datum, ubi ex proposito superius
+<lb ed="#L" n="61"/>hoc declaravit, scilicet qu. riv, art. 4, ad. 3. Intendit ergo
+<lb ed="#L" n="62"/>de acquisitione non. terminante generationem scientiae, sed
+<lb ed="#L" n="63"/>terminante augmentationem eiusdem: ita quod geometria:
+<lb ed="#L" n="64"/>modico studio acquirit, demonstratione augmentante 
+scien<lb break="no" ed="#L" n="65"/>tiam, notitiam conclusionis quam nunquam consideravit.
+<lb ed="#L" n="66"/>Hoc enim est acquirere scientiam novae conclusionis, 
+quam<lb break="no" ed="#L" n="67"/>vis non.sit acquirere scientiam illam simpliciter: idest, 
+ac<lb break="no" ed="#L" n="68"/>quirit illam inquantum est scientia illius conclusionis quam
+<lb ed="#L" n="69"/>nunquam consideravit, quamvis non acquirat illam 
+scien<lb break="no" ed="#L" n="70"/>tiam simpliciter.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1210">
+                  <lb ed="#L" n="71"/>Tertia quoque auctoritas, ex qu. rxvrr inferius, non obstat.
+<lb ed="#L" n="72"/>Quia, ut ex dictis patet, species intelligibiles sunt principia
+<lb ed="#L" n="73"/>actuum ex quibus fiunt virtutes intellectuales, ac per hoc,
+<lb ed="#L" n="74"/>dicuntur formales in virtutibus intellectualibus: cum quo
+<lb ed="#L" n="75"/>patet stare quod non sunt ipsae essentiae virtutum intel-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>lectualium. — Potest et aliter exponi illa auctoritas, ut ibi
+<lb ed="#L" n="77"/>dicetur. Sed hoc hic sufficit. — Ex his autem clare liquet
+<lb ed="#L" n="78"/>quod Auctor in hoc opere non declinat modo in hanc,
+<lb ed="#L" n="79"/>modo in illam viam; sed firmiter tenet quod est simplex
+<lb ed="#L" n="80"/>qualitas.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1236">
+                  <lb ed="#L" n="81"/>XI. Ad auctoritatem vero ex Tertia Parte, qu. x, 
+alla<lb break="no" ed="#L" n="82"/>tam, dicendum est in primis quod labor est in aequivoco,
+<lb ed="#L" n="83"/>Quoniam, ut ibi patet, scientia sumitur ibi pro notitia 
+in<lb break="no" ed="#L" n="84"/>tellectiva habituali qua cognoscuntur omnia quae possunt
+<lb ed="#L" n="85"/>lumine intellectus agentis cognosci. Talem autem notitiam .
+<lb ed="#L" n="86"/>acquisitam constat esse unum aggregatione, et non 
+simpli<lb break="no" ed="#L" n="87"/>citate: hic autem loquimur de aliqua una scientia 
+secun<lb break="no" ed="#L" n="88"/>dum speciem. Unde si tota geometria in nobis per unam
+<lb ed="#L" n="89"/>solam speciem naturaliter sciretur, et arithmetica per unam
+<lb ed="#L" n="90"/>aliam, et metaphysica per unam aliam, et sic deinceps, nihil
+<lb ed="#L" n="91"/>deperit illi processui qui fit in illo articulo, ex 
+proposi<lb break="no" ed="#L" n="92"/>tionibus eius: et tamen non verteretur in dubium quod
+<lb ed="#L" n="93"/>una scientia secundum speciem esset simplex qualitas. 
+Pro<lb break="no" ed="#L" n="94"/>batur hoc quod dixi: quia ex hoc quod post unam 
+spe<lb break="no" ed="#L" n="95"/>ciem generatur alia, augeri dicitur in Christo scientia 
+ac<lb break="no" ed="#L" n="96"/>quisita secundum essentiam habitus. Et vere Auctor nihil
+<lb ed="#L" n="97"/>aliud intendit nisi quod in Christo fuit augmentatio 
+ha<lb break="no" ed="#L" n="98"/>bitualis notitiae secundum essentiam, idest quod ipsa 
+es<lb break="no" ed="#L" n="99"/>sentia habitualis notitiae augebatur: et hoc probat, quia per
+<lb ed="#L" n="100"/>additionem formae ad formam.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1282">
+                  <lb ed="#L" n="101"/>Et licet haec expositio sit sufficiens, quia est litteralis,
+<lb ed="#L" n="102"/>et satisfacit proposito; posset tamen aliter dici quod, quia
+<lb ed="#L" n="103"/>augmentum scientiae intensivum occultum est, extensivum
+<lb ed="#L" n="104"/>vero etiam occultum nisi secundum annexam 
+aggeneratio<lb break="no" ed="#L" n="105"/>nem specierum intelligibilium; et Auctor scientiae 
+profe<lb break="no" ed="#L" n="106"/>ctum. secundum essentiam, distinguebat contra profectum
+<lb ed="#L" n="107"/>quoad effectum: ideo ex una et eadem parte locans 
+habi<lb break="no" ed="#L" n="108"/>tum scientiae secundum se cum speciebus intelligibilibus,
+<lb ed="#L" n="109"/>et ex alia effectum, a notioribus, scilicet speciebus 
+intelligi<lb break="no" ed="#L" n="110"/>bilibus, declaravit profectum scientiae in Christo; et vocavit
+<lb ed="#L" n="111"/>augmentum secundum essentiam, ut distinguitur contra
+<lb ed="#L" n="112"/>effectum. Et hoc sufficiebat proposito suo. - Prima tamen
+<lb ed="#L" n="113"/>expositio amplectenda omnino est.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1314">
+                  <lb ed="#L" n="114"/>XII. Ad auctoritates autem ex Qu. de Veritate et III
+<lb ed="#L" n="115"/>Sent.,quamvis posset dici quod Auctor ante compositam
+<lb ed="#L" n="116"/>Summam, usus est opinione illa quod habitus scientificus
+<lb ed="#L" n="117"/>esset ordinatio specierum, sed postmodum in Summa 
+pro<lb break="no" ed="#L" n="118"/>priam sententiam dixerit: singulae tamen auctoritates sane
+<lb ed="#L" n="119"/>intelligi possunt. Nam in qu. vir, loquitur de particularibus -
+<lb ed="#L" n="120"/>scientiis actualibus, idest diversis demonstrationibus. 
+diver<lb break="no" ed="#L" n="121"/>sarum conclusionum, ad quas, secundum species 
+intelligi<lb break="no" ed="#L" n="122"/>biles earum, se habet habitus scientiae ut totum ad partes
+<lb ed="#L" n="123"/>potentiales. Et hoc sufficit ad verificandum illud dictum
+<lb ed="#L" n="124"/>quasi exemplariter. — In qu. vero xxiv, non dicit quod 
+ordi<lb break="no" ed="#L" n="125"/>natio: specierum est habitus, sed efficit habitum: quod 
+con<lb break="no" ed="#L" n="126"/>cedimus, ut patet ex dictis. — [n. qu. autem x, expresse
+<lb ed="#L" n="127"/>patet quod recitative loquitur; et quod nihil illius opinionis
+<lb ed="#L" n="128"/>recitatae ibi approbat, nisi quod species conserventur, et
+<lb ed="#L" n="129"/>vis conservativa sit memoria intellectiva. -In Tertio demum
+<lb ed="#L" n="130"/>Sent., dist. xiv, dicta et allegata quantae sint' auctoritatis ,
+<lb ed="#L" n="131"/>manifestat ipse Auctor in Tertia Parte, qu. xr, art. ult.,
+<lb ed="#L" n="132"/>ubi iterum tractans eandem quaestionem, determinat 
+op<lb break="no" ed="#L" n="133"/>positum,
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1360">
+                  <lb ed="#L" n="134"/>Unde tu, Thomista, adverte: - ex hoc quod intellectus
+<lb ed="#L" n="135"/>habet singulas species secundum singulas naturas, sequitur
+<lb ed="#L" n="136"/>quod habeat diversos habitus ordinantes illas ad. diversa
+<lb ed="#L" n="137"/>subiecta scibilia: non tamen quod ipsae species sint habitus
+<lb ed="#L" n="138"/>scientificus, sed sunt habitus intellectus inchoantes habitum
+<lb ed="#L" n="139"/>scientiae,'et partes eius potentiales, ut dictum est. Si enim
+<lb ed="#L" n="140"/>in intellectu nostro essent universales formae, ut sunt in
+<lb ed="#L" n="141"/>angelis, non oporteret iuxta scibilium species ordinare: sed
+<lb ed="#L" n="142"/>unica. specie in totam unam scibilis speciem se haberet,
+<lb ed="#L" n="143"/>unico étiam actu sciendi. - Et haec de auctoritatibus 
+suffi<lb break="no" ed="#L" n="144"/>ciant, ex quibus, coniunctis huic doctrinae, ceteras, si quae
+<lb ed="#L" n="145"/>sunt, interpretari posse facile puto.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1389">
+                  <lb ed="#L" n="146"/>XIII. Nunc ad rationes dicendum est, allatas et firmatas
+<lb ed="#L" n="147"/>ut magis veritas elucescat. Et ad primam dicitur dupliciter.
+<lb ed="#L" n="148"/>Primo, quod illa maxima, 7n quemcumque actum potest
+<lb ed="#L" n="149"/>forma aliqua, potest quaelibet eiusdem speciei, licet non
+<lb ed="#L" n="150"/>aeque perfecte, non est vera, nec probata, nec assumpta
+<pb ed="#L" n="348"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ab Averroe, nisi in formis simplicibus secundum essentiam
+<lb ed="#L" n="2"/>et potentias, quales sunt formae homogeneorum. In 
+for<lb break="no" ed="#L" n="3"/>mis autem heterogeneorum, quae sunt simplices 
+secun<lb break="no" ed="#L" n="4"/>dum essentiam, multiplices autem secundum potentiam ,
+<lb ed="#L" n="5"/>falsa est. Manifestum enim est quod animal modo 
+geni<lb break="no" ed="#L" n="6"/>tum, et post perfectum, sunt eiusdem speciei specialissimae:
+<lb ed="#L" n="7"/>et tamen perfectum potest in actum generationis, et 
+imper<lb break="no" ed="#L" n="8"/>fectum non. Unde propositio illa sic universaliter, est 
+con<lb break="no" ed="#L" n="9"/>tra Aristotelem, IV Meteor., ponentem differentiam inter
+<lb ed="#L" n="10"/>perfectum et imperfectum in hoc, quod perfectum 
+unum<lb break="no" ed="#L" n="11"/>quodque est cum potest generare sibi simile. Unde cum
+<lb ed="#L" n="12"/>habitus sit forma simplex in essentia, et multiplex in 
+po<lb break="no" ed="#L" n="13"/>tentia (habet enim et species intelligibiles, et potentiam 
+sub<lb break="no" ed="#L" n="14"/>iecti ad diversas conclusiones, ut partes; illas ex parte sui,
+<lb ed="#L" n="15"/>istas ex parte subiecti sui); consequens est ut in ipso 
+scien<lb break="no" ed="#L" n="16"/>tifico habitu locum non habeat propositio illa; sed in 
+ali<lb break="no" ed="#L" n="17"/>quid merito potest perfectus, in quod non potest 
+imper<lb break="no" ed="#L" n="18"/>fectus.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1446">
+                  <lb ed="#L" n="19"/>Deinde dicitur ad minorem, quod hic est sophisma 
+Fi<lb break="no" ed="#L" n="20"/>gurae dictionis: quoniam mutatur quid in quantum. Cum
+<lb ed="#L" n="21"/>enim demonstrationes et conclusiones eiusdem scientiae
+<lb ed="#L" n="22"/>sint ordinatae, et una oriatur ex alia; actus sciendi 
+sequen<lb break="no" ed="#L" n="23"/>tis includit in se perfectionem praecedentis, et addit: non
+<lb ed="#L" n="24"/>enim scit, qui resolvere nescit conclusionem quintam in
+<lb ed="#L" n="25"/>primam. Et sic, posse in scire quintam conclusionem, est
+<lb ed="#L" n="26"/>posse in maius scire quam posse in scire primam 
+conclu<lb break="no" ed="#L" n="27"/>sionem. Ac per hoc, mutari patet quid in quantum, dum
+<lb ed="#L" n="28"/>sub ly in quemcumque actum subsumitur actus tantus.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1470">
+                  <lb ed="#L" n="29"/>XIV. Ad secundum dicitur quod habere diversas 
+gene<lb break="no" ed="#L" n="30"/>rationes, corruptiones et intensiones, contingit dupliciter.
+<lb ed="#L" n="31"/>Primo, ut sic sit unius, quod nullo modo mutetur alterum:
+<lb ed="#L" n="32"/>et sic, transeat distinctio realis talium. - Alio modo, ut non
+<lb ed="#L" n="33"/>possit unius esse, nisi in uno alterum redundet: et sic
+<lb ed="#L" n="34"/>non infert.distinctionem realem illorum. Cum enim animal
+<lb ed="#L" n="35"/>aliquod augetur, sic generatur nova quantitas, ut antiqua
+<lb ed="#L" n="36"/>novo modo se habeat: et similiter minuitur. Et propterea
+<lb ed="#L" n="37"/>non sequitur: Ergo est alia realiter quantitas nova ab 
+anti<lb break="no" ed="#L" n="38"/>qua. Et simile est in motu intensionis et remissionis. Et
+<lb ed="#L" n="39"/>sic accidit in habitu scientifico. Quia cum generatur scire
+<lb ed="#L" n="40"/>secundae conclusionis, habitus praecedens extenditur: et e
+<lb ed="#L" n="41"/>converso, minuitur oblivione. Similiter quod intensive 
+au<lb break="no" ed="#L" n="42"/>geatur respectu primae conclusionis et non secundae,
+<lb ed="#L" n="43"/>perinde est ac si albedo intenderetur in una parte 
+subie<lb break="no" ed="#L" n="44"/>cti et non alia, ut infra patebit.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1507">
+                  <lb ed="#L" n="45"/>XV. Ad tertiam rationem dicitur praemittendo duo. 
+Pri<lb break="no" ed="#L" n="46"/>mum est, quod actus sciendi habitus scientifici sunt 
+dupli<lb break="no" ed="#L" n="47"/>ces: quidam secundum unam et eandem demonstrationem;
+<lb ed="#L" n="48"/>quidam secundum aliam démonstrationem ac 
+conclusio<lb break="no" ed="#L" n="49"/>nem, Et hi actus sic se habent, quod primi sunt omnino
+<lb ed="#L" n="50"/>eiusdem rationis, ut patet: secundi autem aliquo modo
+<lb ed="#L" n="51"/>sunt eiusdem rationis, et aliquo modo diversae. Si enim
+<lb ed="#L" n="52"/>sumantur in ordine ad diversas species intelligibiles a 
+qui<lb break="no" ed="#L" n="53"/>bus fiunt, sic, cum species tertiae demonstrationis 
+distin<lb break="no" ed="#L" n="54"/>guantur specie a speciebus secundae, etiam ipsi actus erunt
+<lb ed="#L" n="55"/>diversarum rationum. Si vero sumantur in ordine ad 
+ha<lb break="no" ed="#L" n="56"/>bitum scientificum et eius formale obiectum, sic sunt unius
+<lb ed="#L" n="57"/>rationis: sicut et habitus et obiectum sunt unius speciei
+<lb ed="#L" n="58"/>specialissimae. Et licet ad habitum pertineant isti actus
+<lb ed="#L" n="59"/>utroque modo, quia tamen principaliter et immediate 
+per<lb break="no" ed="#L" n="60"/>tinent ad ipsum secundo modo; ideo, licet tolerari possit
+<lb ed="#L" n="61"/>sermo dicens actus istos diversarum rationum, formalius
+<lb ed="#L" n="62"/>tamen dicuntur eiusdem rationis, cum de unitate habitus
+<lb ed="#L" n="63"/>est sermo. — Secundum est, quod habitus scientificus habet
+<lb ed="#L" n="64"/>duas latitudines diversarum rationum, intensivam scilicet et
+<lb ed="#L" n="65"/>extensivam, respondentes duplicibus supradictis actibus: ita
+<lb ed="#L" n="66"/>quod quantitas intensiva eius augetur ex actibus 
+frequen<lb break="no" ed="#L" n="67"/>tibus circa idem; quantitas vero extensiva augetur ex 
+ad<lb break="no" ed="#L" n="68"/>venientibus actibus demonstrativis circa diversa. Et sicut
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="69"/>in formis materialibus calor, et latitudines eius intensiva et
+<lb ed="#L" n="70"/>extensiva, non sunt tres entitates, sed una habens duas 
+con<lb break="no" ed="#L" n="71"/>ditiones; ita in habitu.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1571">
+                  <lb ed="#L" n="72"/>Unde ad rationem dicitur quod habitus scientiae 
+auge<lb break="no" ed="#L" n="73"/>tur per utrosque actus, scilicet circa eandem, et circa 
+di<lb break="no" ed="#L" n="74"/>versas conclusiones; et quod neutrius augmentationis est
+<lb ed="#L" n="75"/>terminus aliqua omnino nova entitas, et consequenter nec
+<lb ed="#L" n="76"/>eiusdem mec diversae rationis; sed antiqua novo modo
+<lb ed="#L" n="77"/>se habens, secundum latitudines diversarum rationum. Nam
+<lb ed="#L" n="78"/>augmentum per actus circa idem, terminat habitus 
+secun<lb break="no" ed="#L" n="79"/>dum-latitudinem intensivam: augmentum vero per actus
+<lb ed="#L" n="80"/>circa aliud, terminat idem habitus secundum latitudinem
+<lb ed="#L" n="81"/>extensivam, quam constat conditionem esse alterius 
+ratio<lb break="no" ed="#L" n="82"/>nis. Ex hoc autem quod idem habitus habet utramque
+<lb ed="#L" n="83"/>quantitatem, non sequitur quod sit compositus ex duabus
+<lb ed="#L" n="84"/>rebus diversarum rationum: sed solum quod habeat duas
+<lb ed="#L" n="85"/>quantitates, non molis sed perfectionis, diversarum rationum,
+<lb ed="#L" n="86"/>identificatas realiter sibi.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1606">
+                  <lb ed="#L" n="87"/>XVI. Ad quartam rationem dicitur quod, quia habitus
+<lb ed="#L" n="88"/>scientificus comparatur ad potentias intellectus respectu
+<lb ed="#L" n="89"/>diversarum conclusionum, ut partes subiecti, ut ex V 
+Me<lb break="no" ed="#L" n="90"/>taphys. deductum est; consequens est quod habitui 
+per<lb break="no" ed="#L" n="91"/>ficienti intellectum secundum potentiam ad primam 
+conclu<lb break="no" ed="#L" n="92"/>sionem, non contrarietur etiam habitus pravae dispositionis
+<lb ed="#L" n="93"/>in eodem intellectu secundum potentiam respectu secundae
+<lb ed="#L" n="94"/>conclusionis; sicut albo secundum unam partem, non 
+con<lb break="no" ed="#L" n="95"/>trariatur nigredo eiusdem, ut est in parte propinqua.
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1628">
+                  <lb ed="#L" n="96"/>Fit quoque hoc manifestum ex ipso motu augmenti
+<lb ed="#L" n="97"/>extensivi. Cum enim augmentatio extensiva ad occupandum
+<lb ed="#L" n="98"/>novam loci partem terminetur in materialibus formis; et
+<lb ed="#L" n="99"/>scientifici habitus augmentum extensivum ad maiorem 
+per<lb break="no" ed="#L" n="100"/>fectionem extensivam eiusdem terminetur sic, quod potentia
+<lb ed="#L" n="101"/>intellectus respectu novae conclusionis actuatur per ipsum
+<lb ed="#L" n="102"/>habitum, quae prius non actuabatur; et e converso, 
+dimi<lb break="no" ed="#L" n="103"/>nutio ad minorem scientiam terminatur per hoc quod 
+po<lb break="no" ed="#L" n="104"/>tentia in intellectu respectu scire conclusionis, subducitur ab
+<lb ed="#L" n="105"/>esse sub illo habitu: consequens est ut habitus 
+augmen<lb break="no" ed="#L" n="106"/>tatione quasi occupet novam potentiam, seu partem 
+po<lb break="no" ed="#L" n="107"/>tentiae, et diminutione quasi relinquat; ac per hoc, non
+<lb ed="#L" n="108"/>magis contrarietur habitui ut perficit unam potentiam seu
+<lb ed="#L" n="109"/>partem potentiae, seu potentiam partialiter, contrarius 
+ha<lb break="no" ed="#L" n="110"/>bitus ut occupat aliam potentiam vel partem, vel eandem
+<lb ed="#L" n="111"/>partialiter, quam, ut dictum est, contrario in una parte
+<lb ed="#L" n="112"/>contrarium in altera. Proportionaliter namque hae se habent,
+<lb ed="#L" n="113"/>in indivisibilibus secundum quantitatem molis, partes 
+poten<lb break="no" ed="#L" n="114"/>tiae, sicut in rebus materialiter quantis, partes quantitativae,
+</p>
+               <p xml:id="TAcCaj-d1e951-d1e1672">
+                  <lb ed="#L" n="115"/>Hanc autem proportionem partium potentiae subiecti
+<lb ed="#L" n="116"/>habitus scientifici ad ipsum habitum, tanti facito, ut 
+affir<lb break="no" ed="#L" n="117"/>mes hinc evenire quod habitus geometriae augeri potest
+<lb ed="#L" n="118"/>intensive circa quartam conclusionem, et non erit intensus
+<lb ed="#L" n="119"/>circa quintam. Et esset etiam e converso, si quinta non
+<lb ed="#L" n="120"/>dependeret ex quarta. Provenit namque hoc ex eo quod
+<lb ed="#L" n="121"/>frequentati actus circa quartam demonstrationem, augent
+<lb ed="#L" n="122"/>intensive habitum ut perficit illam partem potentiae 
+intel<lb break="no" ed="#L" n="123"/>lectus qua respicit hanc conclusionem, et non ut perficit
+<lb ed="#L" n="124"/>aliam. Nec, ut dictum iam est, refert si sit una et eadem
+<lb ed="#L" n="125"/>potentia: quoniam est multae aequivalenter, seu partialiter. —
+<lb ed="#L" n="126"/>Nec suspiceris voluntariam aut chimaericam esse hanc 
+par<lb break="no" ed="#L" n="127"/>tium potentiae subiecti habitus adinventionem. Si namque
+<lb ed="#L" n="128"/>scripta superius ab Auctore notaveris, invenies, inter alia,
+<lb ed="#L" n="129"/>in qu. L, art. ult., ad ult., quod etiam in angelis sunt partes
+<lb ed="#L" n="130"/>potentiae, inquantum intellectus eorum per plures species
+<lb ed="#L" n="131"/>perficitur, et voluntas eorum se habet ad plura. Quid 
+cla<lb break="no" ed="#L" n="132"/>rius? Hoc est enim quod diximus: nam constat quod 
+in<lb break="no" ed="#L" n="133"/>quantum intellectus noster est in potentia ad aliam et aliam
+<lb ed="#L" n="134"/>demonstrationem et conclusionem, est in potentia ad 
+di<lb break="no" ed="#L" n="135"/>versas species, et ad proportionaliter plura, sicut voluntas.
+<lb ed="#L" n="136"/>- Et haec de quarto, et tota hac materia.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

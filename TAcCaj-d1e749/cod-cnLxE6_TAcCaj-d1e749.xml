@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="112"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e749"><!-- TAcCajp2p1-q15 -->
+            <head xml:id="TAcCaj-d1e749-Hd1e99">Quaestio 15</head>
+            <div xml:id="TAcCaj-d1e749-Dd1e101"><!-- caj-p2p1-q15-a4 -->
+               <head xml:id="TAcCaj-d1e749-Hd1e104">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e749-d1e106">
+                  <pb ed="#L" n="113"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e749-d1e115">
+                  <lb ed="#L" n="2"/>Circa decimaequintae quaestionis primos tres articulos
+<lb ed="#L" n="3"/>quid esset dicendum, in sequenti quaestione consulto
+<lb ed="#L" n="4"/>dicetur.
+</p>
+               <p xml:id="TAcCaj-d1e749-d1e124">
+                  <lb ed="#L" n="5"/>CIRCA quartum vero articulum plura occurrunt dubia.
+</p>
+               <p xml:id="TAcCaj-d1e749-d1e129">
+                  <lb ed="#L" n="6"/>Primum est, quia Auctor contradicit sibi in corpore
+<lb ed="#L" n="7"/>et in responsione ad primum. Repugnant enim haec duo,
+<lb ed="#L" n="8"/>scilicet: <quote xml:id="TAcCaj-d1e749-Qd1e137">Quandiu incertum est an secundum rationes 
+divi<lb break="no" ed="#L" n="9"/>nas resistatur vel non, nullum iudicium rationis habet 
+ra<lb break="no" ed="#L" n="10"/>tionem finalis sententiae ; et, Consensus in delectationem
+<lb ed="#L" n="11"/>cogitationis pertinet ad rationem inferiorem.</quote> Et patet 
+re<lb break="no" ed="#L" n="12"/>pugnantia, Quia consensus in delectationem cogitationis est
+<lb ed="#L" n="13"/>quandoque peccatum mortale, et consequenter finalis 
+sen<lb break="no" ed="#L" n="14"/>tentia, et contra rationes divinas quodammodo. Ergo stat
+<lb ed="#L" n="15"/>quod sit rationis inferioris, et contra rationes divinas; quod
+<lb ed="#L" n="16"/>sit mortale peccatum, et non finalis sententia. Et si est finalis
+<lb ed="#L" n="17"/>sententia, et contra rationes divinas, quomodo ad rationem
+<lb ed="#L" n="18"/>inferiorem spectat? - Et augetur dubitatio, quia Augustinus,
+<lb ed="#L" n="19"/>XII de Trin., cap. xui, unde quaestio haec manat, expresse
+<lb ed="#L" n="20"/>dicit quod talis consensus spectat ad rationem inferiorem
+<lb ed="#L" n="21"/>solam: Sic, inquit, habendum puto, quasi sola mulier 
+co<lb break="no" ed="#L" n="22"/>mederit.
+</p>
+               <p xml:id="TAcCaj-d1e749-d1e172">
+                  <lb ed="#L" n="23"/>Secundum est de distinctione quae fit in responsione
+<lb ed="#L" n="24"/>ad primum, de cogitatione ut est actio quaedam, et ut est
+<lb ed="#L" n="25"/>ad aliam actionem ordinata. Quia non videtur ad 
+propo<lb break="no" ed="#L" n="26"/>situm, sed potius ad oppositum. Non ad propositum 
+qui<lb break="no" ed="#L" n="27"/>dem, quia cogitatio delectans, in quam consentire dicitur
+<lb ed="#L" n="28"/>ratio inferior, non ordinatur ad actionem: est enim cogitatio
+<lb ed="#L" n="29"/>delectationis morosae absque voluntate operis, ut patet per
+<lb ed="#L" n="30"/>Augustinum ibidem. — Ad oppositum vero, quia cogitatio,
+<lb ed="#L" n="31"/>utest actio quaedam delectans, est ipsa cogitatio morosae
+<lb ed="#L" n="32"/>delectationis. Et si ipsa, secundum litteram praesentem, 
+spe<lb break="no" ed="#L" n="33"/>ctat ad rationem superiorem; ergo oppositum habetur eius
+<lb ed="#L" n="34"/>quod intenditur ab Augustino et ipso, scilicet quod 
+con<lb break="no" ed="#L" n="35"/>sensus in delectationem morosam spectat ad rationem 
+in<lb break="no" ed="#L" n="36"/>feriorem.
+</p>
+               <p xml:id="TAcCaj-d1e749-d1e205">
+                  <lb ed="#L" n="37"/>II. Ad evidentiam horum, scito primo quod cogitatio
+<lb ed="#L" n="38"/>quandoque secundum se habet rationem ordinati in aliquam
+<lb ed="#L" n="39"/>aliam operationem: quandoque vero secundum se habet
+<lb ed="#L" n="40"/>rationem ipsius ultimi operis. Dico autem secundum se,
+<lb ed="#L" n="41"/>ad excludendum ordinem ex parte intentionis cogitantis.
+<lb ed="#L" n="42"/>Tunc cogitatio habet rationem ultimi operis, quando ipsa ut
+<lb ed="#L" n="43"/>cogitatio est, sumitur, prout scilicet est inquisitio vel 
+co<lb break="no" ed="#L" n="44"/>gnitio veri, et huiusmodi. Tunc autem habet cogitatio 
+ra<lb break="no" ed="#L" n="45"/>tionem ordinati in aliud opus, quando ipsa ratione operis
+<lb ed="#L" n="46"/>cogitati sumitur: quia enim ratione cogitati operis sumitur,
+<lb ed="#L" n="47"/>propter ipsum opus secundum se est. Et quamvis ab hoc
+<lb ed="#L" n="48"/>cogitante non exerceatur propter opus perpetrandum, 
+exer<lb break="no" ed="#L" n="49"/>cetur tamen propter opus perpetrabile. Tanta autem est
+<lb ed="#L" n="50"/>differentia inter cogitationem hoc vel illo modo sumptam,
+<lb ed="#L" n="51"/>ut cogitatio propter opus cogitatum, sit in coordinatione
+<lb ed="#L" n="52"/>eorum quae sunt propter aliud, et propterea, ut in littera
+<lb ed="#L" n="53"/>dicitur, spectat ad inferiorem rationem: cogitatio vero 
+se<lb break="no" ed="#L" n="54"/>cundum seipsam sit in coordinatione operum, et propterea
+<lb ed="#L" n="55"/>spectet ad superiorem rationem, sicut cetera ultima opera.
+<lb ed="#L" n="56"/>Scito secundo, quod ratio inferior consideratur 
+dupli<lb break="no" ed="#L" n="57"/>citer: uno modo, secundum se; alio modo, ut participat
+<lb ed="#L" n="58"/>superiorem rationem, cui et suppositaliter et identice con-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="59"/>iuncta est. Et quod, licet ratio inferior secundum se non
+<lb ed="#L" n="60"/>habeat finalem sententiam, ut participat tamen superiorem,
+<lb ed="#L" n="61"/>iudicat finaliter et mortaliter.
+</p>
+               <p xml:id="TAcCaj-d1e749-d1e264">
+                  <lb ed="#L" n="62"/>III. Unde ad primum dubium dicitur quod consensus
+<lb ed="#L" n="63"/>in delectationem cogitati operis mortalis, puta fornicationis
+<lb ed="#L" n="64"/>vel vindictae, habet in se duo. Primum est quod caret 
+con<lb break="no" ed="#L" n="65"/>summatione quam apta nata est habere talis delectatio
+<lb ed="#L" n="66"/>secundum suum genus. Cum enim delectatio cogitati operis
+<lb ed="#L" n="67"/>sit eiusdem rationis cum delectatione perpetrati operis, et
+<lb ed="#L" n="68"/>differant tantum sicut imperfectum et perfectum, et 
+secun<lb break="no" ed="#L" n="69"/>dum se sit propter illam; si habet consensum in 
+cogita<lb break="no" ed="#L" n="70"/>tionem et operationem, habet consummatum consensum.
+<lb ed="#L" n="71"/>Si autem in cogitationem tantum, habet imperfectum 
+con<lb break="no" ed="#L" n="72"/>sensum; eo modo quo talpa est imperfecta in genere 
+ani<lb break="no" ed="#L" n="73"/>malis. Et secundum hoc dicitur deficere a finali sententia,
+<lb ed="#L" n="74"/>quam scilicet secundum se apta nata est habere; et ad
+<lb ed="#L" n="75"/>ráàtionem inferiorem spectare, utpote secundum se via ad
+<lb ed="#L" n="76"/>aliud; et quod ad solam mulierem, idest inferiorem 
+ratio<lb break="no" ed="#L" n="77"/>nem, spectat, quia scilicet deest consensus ille ordinans ad
+<lb ed="#L" n="78"/>opus, qui spectat ad virum, utpote ultimus in genere 
+agi<lb break="no" ed="#L" n="79"/>bilium. - Secundum est quod fit absque contradictione 
+su<lb break="no" ed="#L" n="80"/>perioris rationis. Et ex hoc habet rationem finalis sententiae,
+<lb ed="#L" n="81"/>et peccati mortalis, etc., ut patet in Qu. de Veritate, qu. xv,
+<lb ed="#L" n="82"/>art. 4, ad 6 et rr. Ita quod consensus iste in 
+delectatio<lb break="no" ed="#L" n="83"/>nem huiusmodi, et est rationis inferioris secundum se, quia
+<lb ed="#L" n="84"/>est in id quod secundum se est propter aliud opus; et
+<lb ed="#L" n="85"/>deficit a superiori ratione, quia non est in opus; et est
+<lb ed="#L" n="86"/>rationis inferioris ut participat superiorem, quia fit contra
+<lb ed="#L" n="87"/>regulas aeternas, illa non contradicente; et, ut in responsione
+<lb ed="#L" n="88"/>ad ultimum in littera dicitur, est rationis superioris, quia
+<lb ed="#L" n="89"/>secundum rationes aeternas non dissentit. Et hoc intendit
+<lb ed="#L" n="90"/>etiam Augustinus, circa finem illius capituli, ubi propter
+<lb ed="#L" n="91"/>coniunctionem utriusque rationis in uno homine, totum
+<lb ed="#L" n="92"/>hominem ex huiusmodi consensu damnandum concludit.
+<lb ed="#L" n="93"/>Et est finalis sententia circa cogitati operis solam 
+delecta<lb break="no" ed="#L" n="94"/>tionem; et non est finalis sententia de agendis, quia restat
+<lb ed="#L" n="95"/>ulterior sententia, quam apta nata est habere huiusmodi
+<lb ed="#L" n="96"/>delectans cogitatio, scilicet de ordine ad exercendum opus.
+<lb ed="#L" n="97"/>Propter quas duas finales sententias, in littera primo 
+no<lb break="no" ed="#L" n="98"/>minatur, in allegatis obiiciendo verbis, finalis sententia 
+ab<lb break="no" ed="#L" n="99"/>solute: deinde descenditur ad finalem sententiam de agendis,
+<lb ed="#L" n="100"/>et dicitur quod est consensus in opus. Et sic patet quod
+<lb ed="#L" n="101"/>dicta litterae consonant.
+</p>
+               <p xml:id="TAcCaj-d1e749-d1e353">
+                  <lb ed="#L" n="102"/>Ad secundum vero dubium dicendum est quod 
+pro<lb break="no" ed="#L" n="103"/>cedit ex malo intellectu litterae. Per cogitare enim ut est
+<lb ed="#L" n="104"/>actio quaedam, intendit Auctor cogitationem secundum se:
+<lb ed="#L" n="105"/>per illud vero ut in aliud ordinatur, intendit cogitationem
+<lb ed="#L" n="106"/>propter cogitatum opus, ut exposuimus. Et vult quod 
+con<lb break="no" ed="#L" n="107"/>sensus in cogitationem secundum se, spectet ad rationem
+<lb ed="#L" n="108"/>superiorem, quia est opus ultimum, ut patet de 
+contem<lb break="no" ed="#L" n="109"/>platione: consensus vero in cogitationem propter opus 
+co<lb break="no" ed="#L" n="110"/>gitatum, spectet ad inferiorem, quia est secundum se via
+<lb ed="#L" n="111"/>ad aliud. Ita quod non ponit Auctor in littera tres, sed duos
+<lb ed="#L" n="112"/>tantum ordines, scilicet operum et cogitationum. Et 
+decla<lb break="no" ed="#L" n="113"/>rat quod cogitationes secundum se clauduntur sub ordine
+<lb ed="#L" n="114"/>operum: ita quod contra opera non distinguuntur nisi 
+co<lb break="no" ed="#L" n="115"/>gitationes ratione operis cogitati, ut viae a terminis. Et de
+<lb ed="#L" n="116"/>his vide in Qu. de Veritate, quaestione et articulo praedictis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

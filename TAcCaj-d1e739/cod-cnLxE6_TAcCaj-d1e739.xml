@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="103"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e739"><!-- TAcCajp2p1-q13 -->
+            <head xml:id="TAcCaj-d1e739-Hd1e99">Quaestio 13</head>
+            <div xml:id="TAcCaj-d1e739-Dd1e101"><!-- caj-p2p1-q13-a1 -->
+               <head xml:id="TAcCaj-d1e739-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e739-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>CIRCA quaestionis decimaetertiae ordinem, et actuum 
+nu<lb break="no" ed="#L" n="9"/>meratorum numerum et ordinem, plura sunt dicenda,
+<lb ed="#L" n="10"/>sed locis propriis reservanda. Nunc illud tantum dicendum
+<lb ed="#L" n="11"/>est, quare prius de electione quam de consilio tractandum
+<lb ed="#L" n="12"/>sit, cum consilium praecedat electionem. "
+<lb ed="#L" n="13"/>Ad hoc breviter dicitur quod, licet absolute consilium
+<lb ed="#L" n="14"/>sit prius electione, et eius causa; ac per hoc, prius de con-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="15"/>silio, utpote causa, quam de electione tractandum 
+videa<lb break="no" ed="#L" n="16"/>tur; ordo tamen doctrinae habet quod prius de ipsa 
+ele<lb break="no" ed="#L" n="17"/>ctione secundum se, et deinde de eius causa tractetur. Et
+<lb ed="#L" n="18"/>merito: ut prius tractetur quid est, et deinde causa 
+extrin<lb break="no" ed="#L" n="19"/>seca illius. Unde in sequentibus prius Auctor tractat de
+<lb ed="#L" n="20"/>actibus seu passionibus, et de rebus, et deinde de causis
+<lb ed="#L" n="21"/>earum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e739-Dd1e151"><!-- caj-p2p1-q13-a2 -->
+               <head xml:id="TAcCaj-d1e739-Hd1e154">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e739-d1e156">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e163">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>CIRCA rationem, omisso primo articulo, positam in 
+se<lb break="no" ed="#L" n="17"/>cundo articulo, dubium occurrit de illius efficacia. 
+Fun<lb break="no" ed="#L" n="18"/>datur enim ratio super differentia inter appetitum 
+intelle<lb break="no" ed="#L" n="19"/>ctivum et sensitivum in hoc, quod appetitus sensitivus 
+na<lb break="no" ed="#L" n="20"/>turaliter est determinatus ad unum particulare, intellectivus
+<lb ed="#L" n="21"/>vero àd bonum in communi. Haec autem differentia aut 
+as<lb break="no" ed="#L" n="22"/>sumit falsum; aut est inefficax. Nam si intendit quod 
+appe<lb break="no" ed="#L" n="23"/>titus sensitivus est determinatus ad unum particulare, idest
+<lb ed="#L" n="24"/>unum numero, falsum assumit. Constat enim quod .
+appe<lb break="no" ed="#L" n="25"/>titus sensitivus ovis non est determinatus ad hanc numero
+<lb ed="#L" n="26"/>herbam: alioquin non posset comedere aliam. — Si autem
+<lb ed="#L" n="27"/>intendit quod est determinatus ad unum particulare, idest
+<lb ed="#L" n="28"/>speciale, puta delectabile secundum tactum, tunc inefficax
+<lb ed="#L" n="29"/>est processus. Quoniam sicut, stante determinatione 
+natu<lb break="no" ed="#L" n="30"/>rali appetitus intellectivi ad bonum in communi, stat quod
+<lb ed="#L" n="31"/>electivus sit particularium bonorum contentorum sub bono
+<lb ed="#L" n="32"/>in communi; ita, stante determinatione naturali appetitus
+<lb ed="#L" n="33"/>sensitivi ad tale bonum. in.genere velin specie, stat quod
+<lb ed="#L" n="34"/>sit electivus particularium bonorum contentorum sub illo.
+<lb ed="#L" n="35"/>communi. Sicut enim appetitus intellectivus indeterminatus
+<lb ed="#L" n="36"/>est ad particularia sui obiecti, ita appetitus sensitivus 
+inde<lb break="no" ed="#L" n="37"/>terminatus est ad particularia sui obiecti. Unde ex maiori
+<lb ed="#L" n="38"/>universalitate obiecti illius appetitus quam istius, non potest
+<lb ed="#L" n="39"/>inferri nisi quod. .electio illius ad multo plura se extendit
+<lb ed="#L" n="40"/>quam electio istius, Et tamen in littera infertur quod ille
+<lb ed="#L" n="41"/>eligit, et iste non.
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e224">
+                  <lb ed="#L" n="42"/>II. Ad evidentiam huius difficultatis, sciendum est quod
+<lb ed="#L" n="43"/>dupliciter aliqua potentia determinata invenitur ad 
+obie<lb break="no" ed="#L" n="44"/>ctum: primo, secundum seipsam; secundo, secundum suum
+<lb ed="#L" n="45"/>actum exercitum. Et determinatio quidem potentiae 
+secun<lb break="no" ed="#L" n="46"/>dum. seipsam, attenditur penes habitudinem potentiae. ad
+<lb ed="#L" n="47"/>obiectum formale adaequatum: omnis enim potentia ad
+<lb ed="#L" n="48"/>obiectum aliquod - est sic determinata. Determinatio vero
+<lb ed="#L" n="49"/>secundum actum exercitum, attenditur penes habitudinem
+<lb ed="#L" n="50"/>actus positi in rerum natura ad obiectum. Est autem, ut
+<lb ed="#L" n="51"/>a notioribus doctrina fiat, inter intellectum. et sensum 
+dif<lb break="no" ed="#L" n="52"/>ferentia in hoc, quod. intellectus nec secundum se nec, 
+se<lb break="no" ed="#L" n="53"/>cundum suum exercitum actum determinatus est nisi ad
+<lb ed="#L" n="54"/>en$ in communi: ita quod non solum intellectus, sed 
+in<lb break="no" ed="#L" n="55"/>telligere in actu exercito, ita indeterminationem retinet,
+<lb ed="#L" n="56"/>quod terminari potest ad ens in communi. Sensus vero licet
+<lb ed="#L" n="57"/>secundum se sit determinatus non ad hoc sensibile, sed .
+<lb ed="#L" n="58"/>tale genus sensibilis, puta. visibile; sentire tamen, puta 
+vi<lb break="no" ed="#L" n="59"/>dere, in actu exercito, nunquam est ad obiectum in 
+com<lb break="no" ed="#L" n="60"/>muni aut communiter, puta coloratum universale aut 
+co<lb break="no" ed="#L" n="61"/>loratum vage; sed semper est ad hoc coloratum determi-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="62"/>natum. Unde, ad partem appetitivam descendendo, dicitur
+<lb ed="#L" n="63"/>quod inter appetitum intellectivum et sensitivum tanta est
+<lb ed="#L" n="64"/>differentia, quod ille nec secundum se nec secundum suum
+<lb ed="#L" n="65"/>actum exercitum, determinatus est nisi ad bonum in 
+com<lb break="no" ed="#L" n="66"/>muni: iste vero secundum se quidem determinatus est ad
+<lb ed="#L" n="67"/>speciale bonum, puta conveniens naturae sensitivae; 
+secun<lb break="no" ed="#L" n="68"/>dum actum vero suum exercitum, determinatus est ad hoc
+<lb ed="#L" n="69"/>singulare bonum, nunc, hic, sic, etc., oblatum. Licet enim
+<lb ed="#L" n="70"/>appetitui sensitivo non adaequetur hoc singulare, sed tale
+<lb ed="#L" n="71"/>genus boni; ipsi tamen in singulis suis actibus se 
+exer<lb break="no" ed="#L" n="72"/>centi adaequantur singillatim singularia, hic, nunc, sic, 
+qui<lb break="no" ed="#L" n="73"/>bus non accidunt hae circumstantiae, sed eis quasi 
+con<lb break="no" ed="#L" n="74"/>stituuntur. Ovis enim,.ut in responsione ad secundum in
+<lb ed="#L" n="75"/>littera. dicitur, refutando illam herbam et hanc acceptando,
+<lb ed="#L" n="76"/>facit hoc quia determinatus est appetitus eius ut in actu
+<lb ed="#L" n="77"/>exercito hanc, nunc, hic, sic oblatam, prosequatur.
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e307">
+                  <lb ed="#L" n="78"/>Et haec manifeste est intentio litterae: ut praedicta ratio
+<lb ed="#L" n="79"/>clarificat. Et ex ea habetur intentam: quoniam ex ütraqué
+<lb ed="#L" n="80"/>determinatione infertur negatio utriusque libertatis inventae :
+<lb ed="#L" n="81"/>in electione. Appetitus siquidem electivus et est liber ad eli-..
+<lb ed="#L" n="82"/>gendum et non eligendum; et ad hoc vel illud eligendum.
+<lb ed="#L" n="83"/>Ex hoc autem quod appetitus sensitivus determinatus est
+<lb ed="#L" n="84"/>secundum seipsum ad speciale bonum, habetur negatio -
+<lb ed="#L" n="85"/>primae libertatis: quoniam non eligere non continetur sub -
+<lb ed="#L" n="86"/>illo. speciali-bono quod est eius adaequatum obiectum, -
+<lb ed="#L" n="87"/>ac per hoc non potest appeti tali appetitu. Ex eo: vero.
+<lb ed="#L" n="88"/>quod appetitus sensitivus secundum suum. actum exerci- -
+<lb ed="#L" n="89"/>tum necessitatuf naturaliter ad hoc determinatum 
+particu<lb break="no" ed="#L" n="90"/>lare oblatum, nunc, hic, sic, etc., habetur negatio secundae.
+<lb ed="#L" n="91"/>libertatis: quod enim ad. hoc déterririátu est, non. potest -
+<lb ed="#L" n="92"/>in. aliud ;declinare. Et. per haec patet "etg ad obiecta;:
+<lb ed="#L" n="93"/>et quam. efficax: sit litterae ratio. |... eudilem
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e345">
+                  <lb ed="#L" n="94"/>III. In responsione. ad secundum et tertium ciusdem p
+<lb ed="#L" n="95"/>secundi articuli, adverte: quod, cum ars non possit dare
+<lb ed="#L" n="96"/>add )subltintiapi &amp;ctus, sed modum; et electio non 
+si<lb break="no" ed="#L" n="97"/>gnificet modum actus, sed ipsum actum substantialiter; -
+<lb ed="#L" n="98"/>nulla arte fieri. potest ut: aliquod brutum eligat. Sed quod
+<lb ed="#L" n="99"/>apparet discretionis et electionis in operibus simiarum, -
+<lb ed="#L" n="100"/>canum, et similium, mire disciplinatorum , fit illo eodem .
+<lb ed="#L" n="101"/>modo quo a naturali instinctu aguntur. Sicut enim. natu- -
+<lb ed="#L" n="102"/>ralem instinctum sic ordinatum sortita sunt animalia 
+quae<lb break="no" ed="#L" n="103"/>dam, ut in littera dicitur; ita habitus acquisitus in illis ex ^
+<lb ed="#L" n="104"/>frequentia actuum, inclinat illos per: modum instinctus. 
+Et<lb break="no" ed="#L" n="105"/>hoc ipsum quod inclinabilia sunt animalia secundum 'huius- -.-
+<lb ed="#L" n="106"/>modi mores, ex natura habent inchoative, (69FO pi^. vero.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e739-Dd1e377"><!-- caj-p2p1-q13-a4 -->
+               <head xml:id="TAcCaj-d1e739-Hd1e380">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e739-d1e382">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="93"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e389">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="94"/>TERTIO articulo omisso, in responsione ad tertium quarti
+<lb ed="#L" n="95"/>dburticuió adverte aliquos minus perspicaces, nec 
+discer<lb break="no" ed="#L" n="96"/>nentes terminos moralium et legum, hinc dicere quod in
+<lb ed="#L" n="97"/>electionibus praedictorum singuli non eligunt, sed nominant
+<lb ed="#L" n="98"/>eligendum: cum hoc nec somniaverit hic littera, sed dicit
+<lb ed="#L" n="99"/>quod electio, quae est actus interior voluntatis, in 
+huius<lb break="no" ed="#L" n="100"/>modi electionibus est electio nominationis talis personae etc.,
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="101"/>quia electio est eorum quae sunt in potestate eligentis.
+<lb ed="#L" n="102"/>Et idem est, quoad hoc, iudicium de singulis eligentibus,
+<lb ed="#L" n="103"/>et de toto collegio, seu persona formante decretum 
+electio<lb break="no" ed="#L" n="104"/>nis nomine collegii. Licet enim dicat, Eligo talem, 
+subin<lb break="no" ed="#L" n="105"/>telligitur, Eligo ius dare, vel nominare, vel aliquid simile,
+<lb ed="#L" n="106"/>quod scilicet est in potestate eligentis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e739-Dd1e425"><!-- caj-p2p1-q13-a5 -->
+               <head xml:id="TAcCaj-d1e739-Hd1e428">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e739-d1e430">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="74"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e437">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="75"/>In responsione ad primum quinti articuli, adverte quod
+<lb ed="#L" n="76"/>distinctio ibi facta de voluntate completa et incompleta,
+<lb ed="#L" n="77"/>non.sic est accipienda, quasi voluntas incompleta sit velle
+<lb ed="#L" n="78"/>non: deliberatum, aut non capax meriti et demeriti. 
+Quo<lb break="no" ed="#L" n="79"/>niam sensus iste est falsus. Potest enim quis deliberate velle:
+<lb ed="#L" n="80"/>expellere Deum de regno suo, si posset, et similia; ubi 
+con<lb break="no" ed="#L" n="81"/>stat inveniri peccatum mortale. Sed completio et incomple-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="82"/>tio voluntatis attenditur secundum. modum motus volunta-
+<lb ed="#L" n="83"/>tis, ut in littera dicitur. Ex eo enim quod voluntatis motus
+<lb ed="#L" n="84"/>est ad rem media operatione exteriori assequendam, dispo-
+<lb ed="#L" n="85"/>nendam, etc. ; perfectus non est, perfectione apta nata 
+inve<lb break="no" ed="#L" n="86"/>niri in genere motus voluntatis, nisi terminetur ad bonum -
+<lb ed="#L" n="87"/>agibile; quamvis perfectus sit quoad consensum, 
+delibera<lb break="no" ed="#L" n="88"/>tionem, et huiusmodi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e739-Dd1e476"><!-- caj-p2p1-q13-a6 -->
+               <head xml:id="TAcCaj-d1e739-Hd1e479">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e739-d1e481">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="80"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e488">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="81"/>CIRCA corpus sexti articuli eiusdem decirnaetertiae 
+quae<lb break="no" ed="#L" n="82"/>stionis, adverte quod Auctor utramque libertatem, 
+scili<lb break="no" ed="#L" n="83"/>cet quoad exercitium actus, et quoad specificationem, tribuit
+<lb ed="#L" n="84"/>electioni, ut patet in littera; intendens ex hoc differentiam
+<lb ed="#L" n="85"/>manifestare inter actum simplicem voluntatis, et electionis.
+<lb ed="#L" n="86"/>Simplex namque actus voluntatis, scilicet volitio seu 
+volun<lb break="no" ed="#L" n="87"/>tas, de quo supra tractatum est, non est universaliter liber
+<lb ed="#L" n="88"/>quoad specificationem actus: quoniam ad aliquod obiectum
+<lb ed="#L" n="89"/>necessario terminatur, ita quod non potest ad oppositum
+<lb ed="#L" n="90"/>terminari, ut patet ex supradictis. Electio autem et quoad
+<lb ed="#L" n="91"/>exercitium actus, et quoad specificationem, semper est 
+li<lb break="no" ed="#L" n="92"/>bera, ut hic dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e519">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="93"/>II. In responsione ad primum eiusdem articuli sexti, habes
+<lb ed="#L" n="94"/>quod non quicumque vult praemissas seu antecedens, vult
+<lb ed="#L" n="95"/>conclusionem seu consequens in seipso: vel quia non 
+sem<lb break="no" ed="#L" n="96"/>per consequens est necessarium ad veritatem seu 
+volun<lb break="no" ed="#L" n="97"/>tatem antecedentis; vel quia, dato quod sic sit secundum
+<lb ed="#L" n="98"/>rem, non tamen hoc actualiter apparet et iudicatur (differt
+<lb ed="#L" n="99"/>enim nihil esse vel apparere, quoad appetitum). In sua
+<lb ed="#L" n="100"/>autem causa, quicumque vult antecedens, vult consequens
+<lb ed="#L" n="101"/>simpliciter vel ut in pluribus.
+</p>
+               <p xml:id="TAcCaj-d1e739-d1e543">
+                  <lb ed="#L" n="102"/>III. In responsione ad tertium, adverte diligenter quod
+<lb ed="#L" n="103"/>responsio formaliter satisfacit primae radici argumenti, 
+sci<lb break="no" ed="#L" n="104"/>licet de aequalibus; et insinuat satisfactionem omnibus tactis
+<pb ed="#L" n="104"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>in argumento. Intendit enim quod, duobus aequalibus 
+pro<lb break="no" ed="#L" n="2"/>positis secundum aliquam conditionem, voluntas non 
+arcte<lb break="no" ed="#L" n="3"/>tur ad neutralitatem, sed potest ad considerandam aliquam
+<lb ed="#L" n="4"/>eminentiam in altero movere, et, inventa vel apposita, 
+eli<lb break="no" ed="#L" n="5"/>gere alterum. Et eadem ratione, proposito voluntati aliquo
+<lb ed="#L" n="6"/>eligibili eminentiori aliis, non necessitatur voluntas ad 
+eli<lb break="no" ed="#L" n="7"/>gendum illud: quia potest movere ad considerandum in
+<lb ed="#L" n="8"/>altero aliquid aliud quo praestet, et sic illud eligere. Et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>haec intellige, supposito quod voluntas velit eligere: 
+sim<lb break="no" ed="#L" n="10"/>pliciter namque et absolute voluntas a toto genere 
+eligi<lb break="no" ed="#L" n="11"/>bilium libera est, ad nullumque necessario inclinatur. Sed -
+<lb ed="#L" n="12"/>sicut Auctor primis duobus argumentis libertatem eligendi
+<lb ed="#L" n="13"/>quoad exercitium actus, impugnavit; ita hoc tertio 
+argu<lb break="no" ed="#L" n="14"/>mento libertatem quoad specificationem actus, impugnavit.
+<lb ed="#L" n="15"/>Et propterea ex parte obiecti eligibilis solutionem 
+forma<lb break="no" ed="#L" n="16"/>liter dedit, ut sui moris est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

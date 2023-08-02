@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 34</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 34</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="249"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e848"><!-- TAcCajp2p1-q34 -->
+            <head xml:id="TAcCaj-d1e848-Hd1e99">Quaestio 34</head>
+            <div xml:id="TAcCaj-d1e848-Dd1e101"><!-- caj-p2p1-q34-a1 -->
+               <head xml:id="TAcCaj-d1e848-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e848-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="50"/>Omissa quaestione trigesimatertia, circa quaestionem 
+tri<lb break="no" ed="#L" n="51"/>gesimamquartam, adverte quod Auctor, post tractatum
+<lb ed="#L" n="52"/>de bonitate et malitia passionum in communi, examinare
+<lb ed="#L" n="53"/>volens bonitatem et malitiam passionum in speciali, circa
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>duas tantum. passiones, scilicet delectationem et tristitiam,
+<lb ed="#L" n="55"/>quaestiones movet singillatim de bonitate et malitia. Et
+<lb ed="#L" n="56"/>ratio est, quia ad istas terminantur omnes aliae passiones, et
+<lb ed="#L" n="57"/>ab eis quodammodo regulantur, ut infra habetur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e848-Dd1e138"><!-- caj-p2p1-q34-a2 -->
+               <head xml:id="TAcCaj-d1e848-Hd1e141">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e848-d1e143">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e150">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>In secundo articulo trigesimaequartae quaestionis, omisso
+<lb ed="#L" n="27"/>primo, dubium occurrit circa responsionem ad primum,
+<lb ed="#L" n="28"/>pro quanto dicit quod mihil est utile quod non sit bonum.
+<lb ed="#L" n="29"/>Quia aut est sermo: de bonitate naturae, aut de bonitate
+<lb ed="#L" n="30"/>moris. Si de bonitate naturae, riulla est differentia inter utile
+<lb ed="#L" n="31"/>et delectabile: quia utrumque est bonum tali bonitate. —
+<lb ed="#L" n="32"/>Si de bonitate morali, tunc falsa quoque est differentia:
+<lb ed="#L" n="33"/>quia multa utilia bona sunt mala moraliter, utpote ad 
+ma<lb break="no" ed="#L" n="34"/>lum ducentia; sicut multa delectabilia mala sunt moraliter,
+<lb ed="#L" n="35"/>mala opera consequentia.
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e176">
+                  <lb ed="#L" n="36"/>II. Ad hoc dicitur quod hic est sermo de bonitate
+<lb ed="#L" n="37"/>morali: et quod bonum utile est secundum se rationi con-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="38"/>sonans. Cum enim dicis bonum utile, dicis aliquid 
+con<lb break="no" ed="#L" n="39"/>sonum rationi, sicut cum dicis pascere esurientem. Et in
+<lb ed="#L" n="40"/>hoc differt utile a delectabili, ut in littera dicitur, quia utile
+<lb ed="#L" n="41"/>significat aliquid consonum rationi, delectabile vero 
+con<lb break="no" ed="#L" n="42"/>sonum appetitui. Bonum autem et malum morale 
+con<lb break="no" ed="#L" n="43"/>stituitur ex consonantia et dissonantia ad rationem, et non
+<lb ed="#L" n="44"/>ad appetitum. Et ideo utile non abstrahit a bono et malo
+<lb ed="#L" n="45"/>morali, sicut delectabile, sed est bonum morale. — Nec per
+<lb ed="#L" n="46"/>hoc sequitur nullum bonum utile esse malum moraliter.
+<lb ed="#L" n="47"/>Quoniam sicut pascere esurientem potest esse malum 
+mo<lb break="no" ed="#L" n="48"/>raliter, ut si fiat propter adulterium, etc.; ita multa bona
+<lb ed="#L" n="49"/>utilia possunt mala fieri, dum ordinarentur ad malum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e848-Dd1e212"><!-- caj-p2p1-q34-a3 -->
+               <head xml:id="TAcCaj-d1e848-Hd1e215">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e848-d1e217">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e224">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>In articulo tertio dubium "Thomistis molestum occurrit
+<lb ed="#L" n="27"/>propter illa verba: Adiqua delectatio hominis potest dici
+<lb ed="#L" n="28"/>optimum inter bona humana. Repugnat siquidem hoc 
+do<lb break="no" ed="#L" n="29"/>ctrinae Auctoris, tenentis operationem praecedentem, puta
+<lb ed="#L" n="30"/>visionem Dei, esse optimum inter bona humana.
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e240">
+                  <lb ed="#L" n="31"/>II. Ad hoc licet diversimode dici possit: — puta quod 
+de<lb break="no" ed="#L" n="32"/>lectatio est optimum ut accidens, operatio autem ut 
+sub<lb break="no" ed="#L" n="33"/>stantia, iuxta dicta in qu. m, art. 6; vel quod delectatio
+<lb ed="#L" n="34"/>est optimum in genere motuum appetitivorum; vel quod
+<lb ed="#L" n="35"/>est optimum secundum se, quia habet in se unde ultimo
+<lb ed="#L" n="36"/>quietet appetitum, licet habeat aliud optimum melius ipso,
+<lb ed="#L" n="37"/>non ut bono magis bonum, sed ut optimo in uno ordine
+<lb ed="#L" n="38"/>optimum alterius ordinis, honestum enim et delectabile
+<lb ed="#L" n="39"/>duorum bonorum ordines constituunt: - ad litteram 
+ta<lb break="no" ed="#L" n="40"/>men loquendo, distinguo: quia aut est sermo de 
+boni<lb break="no" ed="#L" n="41"/>tate naturae,'aut moris. Si quis enim inspexerit quod 
+tra<lb break="no" ed="#L" n="42"/>ctatus iste de bonitate et malitia est moralis, videbit quod
+<lb ed="#L" n="43"/>quaestio est de optimo moraliter, idest summe consonante
+<lb ed="#L" n="44"/>rationi; omittendamque censebit contradictionem aliis 
+di<lb break="no" ed="#L" n="45"/>ctis s. Thomae, puta quod visio est nobilior, quod est 
+fi<lb break="no" ed="#L" n="46"/>nis etiam delectationis; haec enim omnia ad maiorem
+<lb ed="#L" n="47"/>bonitatem naturae spectant. Delectatio siquidem consequens
+<lb ed="#L" n="48"/>et operatio. eadem numero bonitate morali bonae sunt:
+<lb ed="#L" n="49"/>eadem quippe consonantia vel dissonantia consonant vel 
+dis<lb break="no" ed="#L" n="50"/>sonant rationi. Ac per hoc, optimam operationem sequens
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="51"/>delectatio, optima est non minore bonitate: et non magis
+<lb ed="#L" n="52"/>nec minus bona moraliter.
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e292">
+                  <lb ed="#L" n="53"/>III. Nec obstat huic sensui quod in responsione ad 
+se<lb break="no" ed="#L" n="54"/>cundum, in prima responsione, Auctor videtur velle quod
+<lb ed="#L" n="55"/>delectatio est melior actu virtutis, quam sequitur. Hoc
+<lb ed="#L" n="56"/>enim Auctor non dicit, nec intendit dicere. Sed prima 
+re<lb break="no" ed="#L" n="57"/>sponsio ibi data respondet maiori propositioni argumenti,
+<lb ed="#L" n="58"/>quae est communissima propositio, scilicet: Optimum nullo
+<lb ed="#L" n="59"/>adiecto fit melius. Et dicit quod est vera de optimo 
+sim<lb break="no" ed="#L" n="60"/>ence et non de optimo in genere, quale est delectatio.
+<lb ed="#L" n="61"/>Et ideo, dato etiam quod ex actu virtutis esset melior,
+<lb ed="#L" n="62"/>adhuc stat quod sit optimum in genere.
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e317">
+                  <lb ed="#L" n="63"/>Secunda vero responsio respondet minori, scilicet: 
+Dele<lb break="no" ed="#L" n="64"/>ctatio addita operationi, est melior. Et dicit quod operatio
+<lb ed="#L" n="65"/>non est adiecta delectationi, sed intranea eidem. Et haec 
+re<lb break="no" ed="#L" n="66"/>sponsio nullam patitur in se calumniam; et nihil extorquens,
+<lb ed="#L" n="67"/>omnia salvat. Sic enim et est optima moraliter inter bona
+<lb ed="#L" n="68"/>humana, summe consonans rationi: quia nihil est melius
+<lb ed="#L" n="69"/>moraliter ipsa. Et est minus bona naturaliter operatione
+<lb ed="#L" n="70"/>quam sequitur, quae est optima et in genere moris et 
+na<lb break="no" ed="#L" n="71"/>turae, in utroque ordine ultimus finis existens: quamvis
+<lb ed="#L" n="72"/>diversimode, quia in illo, communi sibi et delectationi 
+bo<lb break="no" ed="#L" n="73"/>nitate; in isto, propria. Propter quod, in isto ordine finis
+<lb ed="#L" n="74"/>est etiam delectationis: in illo autem, non.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e848-Dd1e347"><!-- caj-p2p1-q34-a4 -->
+               <head xml:id="TAcCaj-d1e848-Hd1e350">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e848-d1e352">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e359">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>In titulo articuli quarti, adverte quod, quia mensura est
+<lb ed="#L" n="37"/>certificativa quantitatis mensurabilium, et regula 
+certifica<lb break="no" ed="#L" n="38"/>tiva dispositionis; et utrumque horum exigit primitatem in
+<lb ed="#L" n="39"/>cognoscendo, et quodammodo in essendo, secundum 
+ali<lb break="no" ed="#L" n="40"/>uod genus causae: idcirco Auctor, proponendo hunc 
+ar<lb break="no" ed="#L" n="41"/>ticulum in enumeratione omnium articulorum in principio
+<lb ed="#L" n="42"/>quaestionis, quaerit utrum delectatio sit mensura secundum
+<lb ed="#L" n="43"/>quam iudicetur; hic vero absolute, utrum sit mensura;
+<lb ed="#L" n="44"/>quasi ibi primitatem in cognoscendo, hic in essendo 
+insi<lb break="no" ed="#L" n="45"/>nuans. Et in corpore articuli, mensuram secundum 
+cogni<lb break="no" ed="#L" n="46"/>tionem et iudicium determinat: in responsionibus vero ad
+<lb ed="#L" n="47"/>primum et ultimum, causalitatem finalem quodammodo ei
+<lb ed="#L" n="48"/>tribuit.
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e392">
+                  <lb ed="#L" n="49"/>Et scito quod, quia ad rationem mensurae et regulae
+<lb ed="#L" n="50"/>non sufficit primitas in essendo, sed exigitur quod sit nobis
+<lb ed="#L" n="51"/>certissima; ideo, licet bonum honestum sit secundum se
+<lb ed="#L" n="52"/>prius et certius quam delectabile, quia consequitur ad illud,
+<lb ed="#L" n="53"/>et potest esse bona et mala delectatio; quia tamen dele-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>ctatio est nobis magis certa, ideo ipsi attribuitur ratio 
+men<lb break="no" ed="#L" n="55"/>surae; et operatio ipsa mendicat, quoad hoc, a delectatione.
+<lb ed="#L" n="56"/>Propter quod Auctor studuit, in corpore articuli, ad 
+pro<lb break="no" ed="#L" n="57"/>bandum rationem mensurae in delectatione, ex cognitione
+<lb ed="#L" n="58"/>et iudicio. Et sat fuit salvare utcumque prioritatem in 
+es<lb break="no" ed="#L" n="59"/>sendo: ut patet in responsione ad tertium, ubi finis ratione
+<lb ed="#L" n="60"/>satis large, propter hoc salvandum, utitur.
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e423">
+                  <lb ed="#L" n="61"/>II. Circa calcem responsionis ad tertium, in eodem quarto
+<lb ed="#L" n="62"/>articulo, dubium occurrit novitiis: quia videtur adversari
+<lb ed="#L" n="63"/>supra dictis. Si enim bonitas delectationis est causa 
+quo<lb break="no" ed="#L" n="64"/>dammodo bonitatis in operatione, aut e converso; sequitur
+<lb ed="#L" n="65"/>non esse eandem numero bonitatem utriusque. Cuius 
+op<lb break="no" ed="#L" n="66"/>positum dictum fuit.
+</p>
+               <p xml:id="TAcCaj-d1e848-d1e440">
+                  <lb ed="#L" n="67"/>Ad hoc breviter dicitur quod, ut ex superius dictis
+<lb ed="#L" n="68"/>apparet, in analoga causalitate, seu redundantia, salvatur
+<lb ed="#L" n="69"/>identitas numeralis in causa et causato. Unde hoc nihil
+<lb ed="#L" n="70"/>obstat proposito: sicut nec bonitatibus actus exterioris et
+<lb ed="#L" n="71"/>interioris.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

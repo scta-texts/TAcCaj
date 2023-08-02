@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="69"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e708"><!-- TAcCajp2p1-q7 -->
+            <head xml:id="TAcCaj-d1e708-Hd1e99">Quaestio 7</head>
+            <div xml:id="TAcCaj-d1e708-Dd1e101"><!-- caj-p2p1-q7-a4 -->
+               <head xml:id="TAcCaj-d1e708-Hd1e104">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e708-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e708-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>CIRCA totam septimam quaestionem de circumstantiis, 
+ni<lb break="no" ed="#L" n="19"/>Coi occurrit hoc in loco dubitandum: quoniam discussio
+<lb ed="#L" n="20"/>harum circumstantiarum in speciali, puta de persona, modo,
+<lb ed="#L" n="21"/>tempore et loco sacris, ad posteriores spectat tractatus.
+<lb ed="#L" n="22"/>Summarie tamen scito quod circumstantia femporis sacri
+<lb ed="#L" n="23"/>est aggravans peccatum, non tamen apponens speciem 
+sacri<lb break="no" ed="#L" n="24"/>legii, nisi fiat in contemptum temporis sacri. — Circumstantia
+<lb ed="#L" n="25"/>vero sacri loci, quamvis omnia aggravet peccata per 
+ac<lb break="no" ed="#L" n="26"/>cidens, illa tamen sola ad sacrilegii speciem trahit, quae
+<lb ed="#L" n="27"/>sanctitati loci directe opponuntur, aut annexae immunitati:
+<lb ed="#L" n="28"/>ut effusiones sanguinis vel seminis humani, quae impediunt
+<lb ed="#L" n="29"/>exhibendum ibidem divinum cultum, ad quem directe 
+san<lb break="no" ed="#L" n="30"/>ctificatur locus; et violentae extractiones, quae immunitati
+<lb ed="#L" n="31"/>contrariantur; et his similia.— Personae quoque circumstantia
+<lb ed="#L" n="32"/>non transfert in aliam speciem, nisi peccatum voto vel statui
+<lb ed="#L" n="33"/>eius directe adversetur. Ut si religiosus fornicetur, in 
+sacri<lb break="no" ed="#L" n="34"/>legium transit: si autem blasphemat, solius blasphemiae
+<lb ed="#L" n="35"/>reus est, sicut alius blasphemans. - Quid autem, idest effectus,
+<lb ed="#L" n="36"/>quando est praevisum et volitum, trahit in ipsius speciem:
+<lb ed="#L" n="37"/>ut si mulier pergens ad ecclesiam, scit se ibidem 
+adaman<lb break="no" ed="#L" n="38"/>dam, et hoc vult, quamvis non propterea vadat, sed propter
+<lb ed="#L" n="39"/>audiendam missam, actus ille ex illo effectu mali speciem
+<lb ed="#L" n="40"/>trahit. - Circa quid, idest conditiones obiecti, ut magnum
+<lb ed="#L" n="41"/>et parvum in re ablata, et quomodo, quamvis actus 
+mul<lb break="no" ed="#L" n="42"/>tum aggravent, in aliam tamen speciem transferre actus
+<lb ed="#L" n="43"/>non video. - Cur demum manifeste dat aliam actui 
+spe<lb break="no" ed="#L" n="44"/>ciem.
+</p>
+               <p xml:id="TAcCaj-d1e708-d1e176">
+                  <lb ed="#L" n="45"/>Et si praedictis adiunxeris quod circumstantiae neces-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="46"/>sario cognoscendae a spirituali iudice, sunt transferentes in
+<lb ed="#L" n="47"/>aliam speciem, et cum hoc, aggravantes in infinitum, idest
+<lb ed="#L" n="48"/>addentes secundum se rationem peccati mortalis; scies quae
+<lb ed="#L" n="49"/>sunt circumstantiae necessariae, et quae non. Sed cave ne
+<lb ed="#L" n="50"/>illas quae multum gravant, totali silentio praetereas: et 
+ma<lb break="no" ed="#L" n="51"/>xime circumstantiam quid, quae inter principales in 4 art.
+<lb ed="#L" n="52"/>computatur. Magni enim refert abstulisse centum, et 
+abs<lb break="no" ed="#L" n="53"/>tulisse centum cum damno inde pauperis et pupillorum,
+<lb ed="#L" n="54"/>puellarum nubilium, et huiusmodi, quae spectant ad 
+circum<lb break="no" ed="#L" n="55"/>stantiam quid.
+</p>
+               <p xml:id="TAcCaj-d1e708-d1e205">
+                  <lb ed="#L" n="56"/>H. Illud autem hic notato, quod inter circumstantias
+<lb ed="#L" n="57"/>nec Aristoteles nec Tullius nec divus Thomas computavit
+<lb ed="#L" n="58"/>quoties. Et ratio est quia circumstantiae, ut in primo 
+di<lb break="no" ed="#L" n="59"/>citur articulo, circa eundem sunt actum: numerus autem
+<lb ed="#L" n="60"/>operationum non circumstat unam et eandem operationem,
+<lb ed="#L" n="61"/>sed addit aliam et aliam operationem; non enim secundum
+<lb ed="#L" n="62"/>furtum est circumstantia primi aut e converso, nec tertium
+<lb ed="#L" n="63"/>secundi, et sic deinceps. Ex quo sequitur quod, quia non
+<lb ed="#L" n="64"/>minus tenetur quis confiteri de secundo peccato quam de
+<lb ed="#L" n="65"/>primo, et non minus de centesimo quam de quocumque
+<lb ed="#L" n="66"/>alio; quod non sufficit dicere quod pluries furatus est, sed
+<lb ed="#L" n="67"/>oportet explicare quoties furatus est, si numeri meminerit.
+<lb ed="#L" n="68"/>Et si non meminit, exprimere debet quam frequenter, sic ut
+<lb ed="#L" n="69"/>verisimilis numerus habeatur.
+</p>
+               <p xml:id="TAcCaj-d1e708-d1e239">
+                  <lb ed="#L" n="70"/>III. Scito quoque demum quod id quod de fine 
+speci<lb break="no" ed="#L" n="71"/>ficante et adiuncto distinguitur in resp. ad 3, in art. 3, 
+ex<lb break="no" ed="#L" n="72"/>planabitur inferius in qu. xvrr, art. 4, ubi inchoare videtur
+<lb ed="#L" n="73"/>opposita doctrina.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

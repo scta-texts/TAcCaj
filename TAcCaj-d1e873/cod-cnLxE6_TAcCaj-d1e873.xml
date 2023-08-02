@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 39</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 39</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="261"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e873"><!-- TAcCajp2p1-q39 -->
+            <head xml:id="TAcCaj-d1e873-Hd1e99">Quaestio 39</head>
+            <div xml:id="TAcCaj-d1e873-Dd1e101"><!-- caj-p2p1-q39-a1 -->
+               <head xml:id="TAcCaj-d1e873-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e873-d1e106">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="73"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e873-d1e113">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="74"/>IN primo articulo quaestionis trigesimaenonae, dubium 
+oc<lb break="no" ed="#L" n="75"/>lini de qua bonitate vel malitia sit praesens quaestio.
+<lb ed="#L" n="76"/>Si de naturali sit, inepte in fine corporis articuli dicitur, Sed
+<lb ed="#L" n="77"/>quia sermones morales: ad moralem enim moralis malitia
+<lb ed="#L" n="78"/>spectat, — Si de morali, falsa videtur doctrina. Tum quia, si
+<lb ed="#L" n="79"/>tristitia esset simpliciter mala moraliter, nulla posset ratione
+<lb ed="#L" n="80"/>fieri bona moraliter: cuius oppositum in secundo et 
+ter<lb break="no" ed="#L" n="81"/>tio articulo habetur. Tum quia ratio inducta in littera, 
+in<lb break="no" ed="#L" n="82"/>efficax est ad hoc: nam recta ratio habet quod appetitus
+<lb ed="#L" n="83"/>quandoque privetur quiete in bono, et anxietur de praesenti
+<lb ed="#L" n="84"/>malo; ut patet in voluntarium assumentibus luctum 
+pro<lb break="no" ed="#L" n="85"/>pter Deum.
+</p>
+               <p xml:id="TAcCaj-d1e873-d1e144">
+                  <lb ed="#L" n="86"/>II. Ad hoc dicitur quod hic est sermo de bonitate et
+<lb ed="#L" n="87"/>malitia morali, sicut in superioribus tractatibus. Ad cuius
+<lb ed="#L" n="88"/>evidentiam, scito primo, ex littera, quod tristitia potest du-
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="89"/>pliciter considerari: primo, ex parte contristantis; secundo,
+<lb ed="#L" n="90"/>ex párte sentientis et repudiantis ipsum malum contristans.
+<lb ed="#L" n="91"/>Appetere tristitiam ex parte contristantis, est appetere ipsum
+<lb ed="#L" n="92"/>contristans ut sic: appetere autem tristitiam ex parte 
+sen<lb break="no" ed="#L" n="93"/>tientis et repudiantis malum, est appetere sensationem seu
+<lb ed="#L" n="94"/>cognitionem et refutationem mali. Clare autem patet quod
+<lb ed="#L" n="95"/>primo modo tristitia non est appetibilis: quoniam 
+contri<lb break="no" ed="#L" n="96"/>stans, ut sic, mali rationem habet. Secundo vero modo, 
+tri<lb break="no" ed="#L" n="97"/>stitia est appetibilis ex suppositione: supposito enim quod
+<lb ed="#L" n="98"/>contristans adsit, bonum est cognoscere et refutare illud.
+<lb ed="#L" n="99"/>Et quia tristitia includit haec omnia simul, ideo non habet
+<lb ed="#L" n="100"/>locum in Deo nec in beatis. Et inter habentes, nullus 
+ap<lb break="no" ed="#L" n="101"/>petit tristitiam quoad omnia ad illam requisita, quia nullus
+<lb ed="#L" n="102"/>appetit praesentiam contristantis: quamvis multi appetant
+<lb ed="#L" n="103"/>tristari, supposita praesentia contristantis, absentiae boni
+<pb ed="#L" n="262"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>amati, vel offensae divinae, etc. Quia igitur tristitia 
+secun<lb break="no" ed="#L" n="2"/>dum se tota non est appetibilis, consequens est ut non sit
+<lb ed="#L" n="3"/>de genere bonorum: cum bonum sit quod omnia appetunt.
+</p>
+               <p xml:id="TAcCaj-d1e873-d1e199">
+                  <lb ed="#L" n="4"/>Verum ad morale bonum descendendo, scito secundo,
+<lb ed="#L" n="5"/>ex s. Thoma in Qzodlib., quod actus humani 
+quadrifa<lb break="no" ed="#L" n="6"/>riam dicuntur, quoad bonitatem et malitiam: quidam sunt
+<lb ed="#L" n="7"/>per se mali, ut mentiri; quidam per se boni, ut colere
+<lb ed="#L" n="8"/>Deum; quidam indifferentes, ut levare festucam de terra;
+<lb ed="#L" n="9"/>quidam solitarie sumpti sonantes malum, qui tamen 
+pos<lb break="no" ed="#L" n="10"/>sunt ex adventitiis honestari ut sint boni, ut occidere 
+ho<lb break="no" ed="#L" n="11"/>minem. Hoc enim solitarie sumptum, importat aliquid 
+in<lb break="no" ed="#L" n="12"/>consonans rationi, violenta enim privatio vitae humanae
+<lb ed="#L" n="13"/>rationi dissonat: sed si addatur. propter maius bonum, ab
+<lb ed="#L" n="14"/>habente auctoritatem, etc., efficitur consonans rationi. Nec
+<lb ed="#L" n="15"/>propterea actus malus moraliter fit bonus moraliter: sed
+<lb ed="#L" n="16"/>actus qui, si secundum se, idest solitarie, fieret, esset malus
+<lb ed="#L" n="17"/>moraliter, quando fit circumdatus honestis conditionibus,
+<lb ed="#L" n="18"/>est bonus moraliter. In hoc quarto genere locatam intelligito
+<lb ed="#L" n="19"/>tristitiam. Quae in littera dicitur simpliciter et secundum se,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="20"/>idest solitarie, mala malitia morali: quia si appeteretur et
+<lb ed="#L" n="21"/>haberetur sola, mala moraliter esset, ut patet ex dictis. Et
+<lb ed="#L" n="22"/>tamen si appetatur et habeatur, supposito malo, etc; bona
+<lb ed="#L" n="23"/>moraliter esse potest, ut in secundo et tertio articulo patet.
+</p>
+               <p xml:id="TAcCaj-d1e873-d1e248">
+                  <lb ed="#L" n="24"/>III. Ad primum igitur in oppositum dicitur quod 
+ae<lb break="no" ed="#L" n="25"/>quivocatur de ly per se, ut opponitur ad per accidens, et
+<lb ed="#L" n="26"/>ut opponitur ad cum alio. Quod enim est moraliter 
+ma<lb break="no" ed="#L" n="27"/>lum per se, idest contra per accidens, habet malitiam in 
+ali<lb break="no" ed="#L" n="28"/>quo modo dicendi per se: et consequenter nunquam perdit
+<lb ed="#L" n="29"/>illam. Quod autem est malum moraliter per se, idest non
+<lb ed="#L" n="30"/>cum alio, habet solitarie malitiam, quam ex coniunctione'
+<lb ed="#L" n="31"/>cum alio perdit. Et hoc modo tristitia dicitur secundum
+<lb ed="#L" n="32"/>se mala moraliter.
+</p>
+               <p xml:id="TAcCaj-d1e873-d1e270">
+                  <lb ed="#L" n="33"/>Ad secundum dicitur quod ratio illa non concludit 
+tri<lb break="no" ed="#L" n="34"/>stitiam esse per se malam moraliter, ut dictum est: nec ad
+<lb ed="#L" n="35"/>hoc affertur ab Auctore. Sed concludit quod tristitia est
+<lb ed="#L" n="36"/>mala moraliter, si solitarie sumatur: quia importat aliquid,
+<lb ed="#L" n="37"/>solitarie sumptum, dissonans rationi, scilicet privationem
+<lb ed="#L" n="38"/>boni, inquietudinemque appetitus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e873-Dd1e287"><!-- caj-p2p1-q39-a4 -->
+               <head xml:id="TAcCaj-d1e873-Hd1e290">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e873-d1e292">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="44"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e873-d1e299">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="45"/>Omissis secundo et tertio articulis eiusdem quaestionis
+<lb ed="#L" n="46"/>trigesimaenonae, in quarto articulo, in responsione ad
+<lb ed="#L" n="47"/>primum, adverte quod dupliciter intelligi potest quod illa
+<lb ed="#L" n="48"/>duo bona, scilicet veritas iudicii et rectitudo ordinis, sint
+<lb ed="#L" n="49"/>communia delectationi et tristitiae: scilicet universaliter, vel
+<lb ed="#L" n="50"/>indefinite. Si intelligitur universaliter, glossandum est: 
+dedu<lb break="no" ed="#L" n="51"/>ctis impedimentis. Cum enim malum ex particularibus 
+defe<lb break="no" ed="#L" n="52"/>ctibus contingat, et falsum sit malum intellectus, et indebitus
+<lb ed="#L" n="53"/>ordo malum voluntatis; ex defectu aliquo necesse est 
+ac<lb break="no" ed="#L" n="54"/>cidere et in intellectu falsum iudicium de bono aut malo, et
+<lb ed="#L" n="55"/>in voluntate indebitus appetendi ordo.
+</p>
+               <p xml:id="TAcCaj-d1e873-d1e328">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="56"/>Si vero intelligitur indefinite, tunc processus litterae ad
+<lb ed="#L" n="57"/>inferendam universalem, scilicet quod in ommni tristitia est
+<lb ed="#L" n="58"/>aliquod bonum, per cuius remotionem potest fieri deterius,
+<lb ed="#L" n="59"/>interpretandus est secundum locum a maiori. Maiores enim
+<lb ed="#L" n="60"/>tristitiae et delectationes sunt quae ex vere coniunctis malis
+<lb ed="#L" n="61"/>aut bonis, et vere apprehensis, consurgunt, quam quae ex
+<lb ed="#L" n="62"/>apparentibus consurgunt: apparentia enim imitatur 
+verita<lb break="no" ed="#L" n="63"/>tem. Quasi diceret quod, quia maximis tristitiis et 
+delecta<lb break="no" ed="#L" n="64"/>tionibus communia sunt haec duo bona, consequens est
+<lb ed="#L" n="65"/>ut omni tristitia possit esse deterius, per privationem 
+ali<lb break="no" ed="#L" n="66"/>cuius illorum duorum bonorum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

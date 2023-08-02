@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 42</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 42</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="276"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e889"><!-- TAcCajp2p1-q42 -->
+            <head xml:id="TAcCaj-d1e889-Hd1e99">Quaestio 42</head>
+            <div xml:id="TAcCaj-d1e889-Dd1e101"><!-- caj-p2p1-q42-a1 -->
+               <head xml:id="TAcCaj-d1e889-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e889-d1e106">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="75"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e889-d1e113">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="76"/>IN primo articulo quaestionis quadragesimaesecundae, 
+du<lb break="no" ed="#L" n="77"/>bitationem faciunt illae duae universales affirmativae in 
+lit<lb break="no" ed="#L" n="78"/>tera positae, scilicet: Omnis motus appetitivae virtutis 
+im<lb break="no" ed="#L" n="79"/>portans prosecutionem, habet bonum pro obiecto ; et, Omnis
+<lb ed="#L" n="80"/>motus appetitivae virtutis importans fugam, habet malum
+<lb ed="#L" n="81"/>pro obiecto. Habent enim instantias manifestas. Primae 
+qui<lb break="no" ed="#L" n="82"/>dem obstat audacia, quae importat prosecutionem, et tamen
+<lb ed="#L" n="83"/>obiectum eius est malum. Secundae vero obstat 
+despera<lb break="no" ed="#L" n="84"/>tio, quae importat fugam, et obiectum eius est bonum.
+</p>
+               <p xml:id="TAcCaj-d1e889-d1e137">
+                  <cb ed="#L" n="i"/>
+                  <lb ed="#L" n="85"/>II. Ad hoc dicitur quod sermo praesens intelligitur de
+<lb ed="#L" n="86"/>omnibus per se: instantiae autem allatae sunt de omnibus
+<lb ed="#L" n="87"/>per accidens. Prosecutio enim per se sibi vindicat bonum,
+<lb ed="#L" n="88"/>et e converso: et similiter fuga per se sibi vindicat malum,
+<lb ed="#L" n="89"/>et e converso. Unde nulla prosecutio est mali nisi per 
+ac<lb break="no" ed="#L" n="90"/>cidens, scilicet propter coniunctum bonum. Et hoc modo
+<lb ed="#L" n="91"/>audacia est motus prosecutivus mali, ut infra, qu. xrv,
+<lb ed="#L" n="92"/>patet. Et similiter nulla fuga est boni nisi per accidens, 
+sci<lb break="no" ed="#L" n="93"/>licet propter coniunctum malum. Et hoc modo desperatio
+<pb ed="#L" n="277"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est fuga boni. Et hic est tertius modus accidentalitatis 
+in<lb break="no" ed="#L" n="2"/>ventae in passionibus animae respectu boni et mali, de
+<lb ed="#L" n="3"/>quo infra erit sermo.
+</p>
+               <p xml:id="TAcCaj-d1e889-d1e172">
+                  <lb ed="#L" n="4"/>III. In toto residuo quaestionis eiusdem, adverte quod,
+<lb ed="#L" n="5"/>quia obiectum timoris includit in se tria, scilicet malum,
+<lb ed="#L" n="6"/>arduum, futurum, ex his redditur ratio timendorum et non
+<lb ed="#L" n="7"/>timendorum, et magis et minus timendorum. Ex ratione
+<lb ed="#L" n="8"/>namque futuri, excluduntur multum distantia secundum
+<lb ed="#L" n="9"/>tempus, et praesentia, et inevasibilia: quae enim apprehen-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>duntur aliquo horum modorum, ut minus futura habentur,
+<lb ed="#L" n="11"/>ut patet in secundo articulo. - Ex ratione vero ardui, seu
+<lb ed="#L" n="12"/>difficilis ad evadendum vel resistendum, excluduntur mala
+<lb ed="#L" n="13"/>culpae, et timor ipse quodammodo; et insolita ac repentina
+<lb ed="#L" n="14"/>magis timentur: ut in tertio, quarto et quinto articulis
+<lb ed="#L" n="15"/>patet. - Ex ratione vero mali, non timetur per se nisi 
+ma<lb break="no" ed="#L" n="16"/>lum; et magis timetur interminabile: ut in primo et ultimo
+<lb ed="#L" n="17"/>articulo patet. - Et sic habes obiectum timoris, et ex ipso
+<lb ed="#L" n="18"/>rationes timendorum unitas; quod potes in aliis facere.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e889-Dd1e210"><!-- caj-p2p1-q42-a6 -->
+               <head xml:id="TAcCaj-d1e889-Hd1e213">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e889-d1e215">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e889-d1e222">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="48"/>IN responsione ad ultimum ultimi articuli eiusdem 
+quae<lb break="no" ed="#L" n="49"/>stionis quadragesimaesecundae, breviter scito quod 
+boni<lb break="no" ed="#L" n="50"/>tas rei est duplex: scilicet spectans ad ipsam rei 
+substan<lb break="no" ed="#L" n="51"/>tiam, et circümstans eam; sicut bonitas caloris est esse
+<lb ed="#L" n="52"/>calorem ut quatuor vel sex, etc., vel esse in tali subiecto
+<lb ed="#L" n="53"/>aut loco, etc. Duratio non auget primam bonitatem, sed
+<lb ed="#L" n="54"/>secundam. Non enim calor durans triduo, est secundum se
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="55"/>perfectior calore unius horae: sed bene est perfectior 
+se<lb break="no" ed="#L" n="56"/>cundum circumstantiam temporis. Et hoc intendit tam 
+Ari<lb break="no" ed="#L" n="57"/>stoteles ibi; quam Auctor hic: qui ideo in corpore articuli
+<lb ed="#L" n="58"/>praemisit quod malum augetur dupliciter, scilicet secundum
+<lb ed="#L" n="59"/>suam speciem, et secundum circumstantias. Praesenti enim
+<lb ed="#L" n="60"/>proposito sat est quod malum apprehendatur ut maius:
+<lb ed="#L" n="61"/>sive ex hac, sive ex illa proveniat causa, nihil refert.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

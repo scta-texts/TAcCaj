@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 66</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 66</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="431"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1013"><!-- TAcCajp2p1-q66 -->
+            <head xml:id="TAcCaj-d1e1013-Hd1e99">Quaestio 66</head>
+            <div xml:id="TAcCaj-d1e1013-Dd1e101"><!-- caj-p2p1-q66-a1 -->
+               <head xml:id="TAcCaj-d1e1013-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1013-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>In titulo primi articuli quaestionis sexagesimaesextae, 
+me<lb break="no" ed="#L" n="31"/>mento quod, cum aliqui habitus dicantur virtutes 
+secun<lb break="no" ed="#L" n="32"/>dum quid, ut de virtutibus intellectualibus in qu. rvi, et
+<lb ed="#L" n="33"/>theologicis informibus in quaestione praecedente dictum
+<lb ed="#L" n="34"/>est; et aliqui simpliciter, ut caritas, et virtutes cardinales
+<lb ed="#L" n="35"/>ac morales omnes infusae et acquisitae; et totus articuli
+<lb ed="#L" n="36"/>sermo circa has versetur: consequens est ut praesens 
+ti<lb break="no" ed="#L" n="37"/>tulus de virtutibus simpliciter accipiatur. - Et confirmatur
+<lb ed="#L" n="38"/>hoc: quia in littera virtus pir contra scientiam et .
+<lb ed="#L" n="39"/>artem.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e139">
+                  <lb ed="#L" n="40"/>II. In corpore eiusdem primi articuli, nota primo, quod
+<lb ed="#L" n="41"/>istae comparationes in littera positae inter prudentiam etc.,
+<lb ed="#L" n="42"/>habebunt in hac eadem quaestione proprios articulos: et
+<lb ed="#L" n="43"/>ideo ibi examinandas relinquo.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e150">
+                  <lb ed="#L" n="44"/>Nota secundo, quod Auctor loquitur de virtute perfecta
+<lb ed="#L" n="45"/>secundum statum, quae sola dicitur simpliciter virtus, cum
+<lb ed="#L" n="46"/>negat eam posse intendi secundum se: quod est intendi per
+<lb ed="#L" n="47"/>extensionem ad plura nunc quam prius, ut superius 
+de<lb break="no" ed="#L" n="48"/>claravimus diffuse. Et hinc manifeste habes quod de 
+in<lb break="no" ed="#L" n="49"/>tentione Auctoris est doctrina dicta de connexione, scilicet
+<lb ed="#L" n="50"/>quod virtus perficit in propria materia, etiam connexa aliis
+<lb ed="#L" n="51"/>materiis. Si enim non esset hoc, iam posset extendi ad quae
+<lb ed="#L" n="52"/>prius non se extendebat.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e173">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="53"/>Nota tertio, quod hinc habes differentiam quandam inter
+<lb ed="#L" n="54"/>virtutes intellectuales et morales in hoc, quod illae etiam
+<lb ed="#L" n="55"/>imperfectae secundum statum, dicuntur virtutes: istae autem,
+<lb ed="#L" n="56"/>nisi sint secundum statum perfectae, non dicuntur virtutes.
+<lb ed="#L" n="57"/>Dicitur enim in littera quod scientia et ars non semper 
+ex<lb break="no" ed="#L" n="58"/>tendunt se ad omnia sua; virtus autem ad omnia sua se
+<lb ed="#L" n="59"/>extendit, Et in promptu causa huius est: quia scilicet minus
+<lb ed="#L" n="60"/>exigitur ad constituendum imperfectum, quam perfectum;
+<lb ed="#L" n="61"/>virtutes autem intellectuales imperfecte habent rationem
+<lb ed="#L" n="62"/>virtutis, non enim sunt virtutes nisi secundum quid; 
+mo<lb break="no" ed="#L" n="63"/>rales autem habent perfecte rationem virtutis, ut patet ex
+<lb ed="#L" n="64"/>supradictis
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e204">
+                  <lb ed="#L" n="65"/>Nota quarto, quatuor causas in littera augmenti 
+inten<lb break="no" ed="#L" n="66"/>sivi virtutum: scilicet consuetudinem, naturalem 
+inclinatio<lb break="no" ed="#L" n="67"/>nem, iudicium perspicacius, et gratiam. Et simul nota
+<lb ed="#L" n="68"/>duas contra Stoicos rationes: alteram ex latitudine medii;
+<lb ed="#L" n="69"/>alteram ex latitudine viae ad indivisibile medium. 
+Propin<lb break="no" ed="#L" n="70"/>quior enim est, secundum se, indivisibili iustitiae medio vir
+<lb ed="#L" n="71"/>perspicacioris iudicii, quam minus acuti; et secundum opus,
+<lb ed="#L" n="72"/>distribuens aequalibus quasi aequalia, quam multum 
+dis<lb break="no" ed="#L" n="73"/>tantia ab aequalitate. Promptior quoque est ad indivisibile
+<lb ed="#L" n="74"/>medium inclinatus naturaliter ad illud, quam non 
+natura<lb break="no" ed="#L" n="75"/>liter; exercitatus, quam non exercitatus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1013-Dd1e231"><!-- caj-p2p1-q66-a2 -->
+               <head xml:id="TAcCaj-d1e1013-Hd1e234">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1013-d1e236">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="69"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e243">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="70"/>In titulo articuli secundi quaestionis sexagesimaesextae ,
+<lb ed="#L" n="71"/>scito titulum loqui de virtutibus sicut in praecedenti 
+ti<lb break="no" ed="#L" n="72"/>tulo, scilicet de virtutibus simpliciter, ut patet in processu.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e254">
+                  <lb ed="#L" n="73"/>In corpore eiusdem articuli, hoc primum declarandum
+<lb ed="#L" n="74"/>occurrit novitiis, quod ratio aequalitatis quam ex 
+Augu<lb break="no" ed="#L" n="75"/>stino littera tractat, consistit in hoc. Si virtutes non essent
+<lb ed="#L" n="76"/>aequales, oporteret quod aliqua haberet istas quatuor 
+con<lb break="no" ed="#L" n="77"/>ditiones inaequales: nam ad aequalitatem requiritur 
+aequa<lb break="no" ed="#L" n="78"/>litas omnium, sicut ad connexionem simultas omnium ;
+<lb ed="#L" n="79"/>quia aequalitas est quaedam connexio virtutum secundum
+<lb ed="#L" n="80"/>quantitatem, ut patet. Sed non potest fieri ut upa virtus
+<lb ed="#L" n="81"/>minus habeat de una istarum quatuor conditionum, quam
+<lb ed="#L" n="82"/>de aliis; Ergo. Probatur minor, ponendo duos in quorum
+<lb ed="#L" n="83"/>uno sit fortitudo minus habens de conditione prudentiae,
+<lb ed="#L" n="84"/>et in altero fortitudo magis habens prudentiae; et 
+dedu<lb break="no" ed="#L" n="85"/>cendo ad inconveniens, quod similiter sunt aequales in 
+for<lb break="no" ed="#L" n="86"/>titudine, et inaequales in fortitudine. Et patet sequela, quoad
+<lb ed="#L" n="87"/>primam partem, ex adversario: quoad secundam, ex 
+veri<lb break="no" ed="#L" n="88"/>tate, quia alterius fortitudo est prudentior, ac per hoc
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="89"/>maior. - Apparet quod etiam in uno et eodem oportet 
+ae<lb break="no" ed="#L" n="90"/>quales esse has quatuor conditiones in qualibet materia
+<lb ed="#L" n="91"/>cardinalium virtutum : idem est enim iudicium in uno et
+<lb ed="#L" n="92"/>eodem, et in duobus.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e302">
+                  <lb ed="#L" n="93"/>II. Declarandum est secundo quod, quia virtutes, 
+secun<lb break="no" ed="#L" n="94"/>dum inclinationes ad proprios actus, non sunt aequales nec
+<lb ed="#L" n="95"/>quantitative nec proportionaliter, ut in littera dicitur; ideo
+<lb ed="#L" n="96"/>in responsione ad secundum dicitur: Unus et idem homo
+<lb ed="#L" n="97"/>promptior est ad actum unius virtutis, quam ad actum
+<lb ed="#L" n="98"/>alterius. Et ad hunc sensum reducenda videntur dicta alibi
+<lb ed="#L" n="99"/>ab Auctore. Ita quod non dicam virtutes aequales secundum
+<lb ed="#L" n="100"/>habitum, et non secundum actum; ut in xxxvi distinctione
+<lb ed="#L" n="101"/>Tertii, hoc dicentes sequi videtur Auctor. Sed dicam
+<lb ed="#L" n="102"/>quod virtutes secundum formale in habitu, sunt aequales;
+<lb ed="#L" n="103"/>secundum vero materiale, sunt inaequales. Quod est dicere:
+<lb ed="#L" n="104"/>Habitus virtutum, ut perficiunt subiecta. ut mota a 
+pru<lb break="no" ed="#L" n="105"/>dentia vel caritate, sunt aequales proportionaliter; ut vero
+<lb ed="#L" n="106"/>perficiunt eadem ut tendentia in proprias materias, sunt
+<lb ed="#L" n="107"/>inaequales.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1013-Dd1e338"><!-- caj-p2p1-q66-a3 -->
+               <head xml:id="TAcCaj-d1e1013-Hd1e341">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1013-d1e343">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="87"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e350">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>IN articulo tertio eiusdem sexagesimaesextae quaestionis ,
+<lb ed="#L" n="89"/>Toti primo occurrit circa distinctionem in littera 
+fa<lb break="no" ed="#L" n="90"/>ctam de virtute, quod sumitur dupliciter, scilicet secundum
+<lb ed="#L" n="91"/>rationem speciei in ordine ad obiectum, et secundurn 
+ordi<lb break="no" ed="#L" n="92"/>nem ad actum. Haec namque distinctio coincidentia habet
+<lb ed="#L" n="93"/>membra: nam virtus secundum rationem speciei habet 
+or<lb break="no" ed="#L" n="94"/>dinem ad actum, et e converso; quia potentiae et habitus
+<lb ed="#L" n="95"/>specificantur ex actibus, et actus ex obiectis, ut habetur in
+<lb ed="#L" n="96"/>II de Anima.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e374">
+                  <lb ed="#L" n="97"/>II. Ad hoc dicitur quod virtus dupliciter respicit actum:
+<lb ed="#L" n="98"/>primo, ut specificantem ipsam; secundo, ut effectum ipsius.
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="99"/>Et primo: modo, actus cadit sub primo membro implicite,
+<lb ed="#L" n="100"/>ut obiectio probat: secundo autem modo; spectat ad 
+se<lb break="no" ed="#L" n="101"/>cundum membrum. Intendit enim Auctor quod virtus 
+po<lb break="no" ed="#L" n="102"/>test considerari dupliciter: primo, secundum specificam 
+dif<lb break="no" ed="#L" n="103"/>ferentiam, seu rationem, ut sic; secundo, secundum hanc
+<lb ed="#L" n="104"/>conditionem, scilicet esse principium actus recti. Et vult
+<lb ed="#L" n="105"/>quod prima consideratio iudicet virtutem simpliciter, quia
+<lb ed="#L" n="106"/>secundum proprium constitutivum essentialiter; secunda
+<lb ed="#L" n="107"/>iudicet eam secundum quid, quia secundum communia.
+<lb ed="#L" n="108"/>Et consequenter vult quod virtutes intellectuales sint 
+no<lb break="no" ed="#L" n="109"/>biliores simpliciter quam morales: quia habent nobilius
+<pb ed="#L" n="432"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>obiectum. Morales autem sunt nobiliores secundum quid:
+<lb ed="#L" n="2"/>quia dant non solum facultatem actus recti, sed facultatem
+<lb ed="#L" n="3"/>recte utendi ipsa facultate; quod est manifeste esse 
+perfe<lb break="no" ed="#L" n="4"/>ctius principium actus. Et hoc habet virtus moralis, quia
+<lb ed="#L" n="5"/>perficit appetitum, cuius est movere seipsum et ceteras
+<lb ed="#L" n="6"/>potentias. Haec autem ideo breviter transeo, quia superius
+<lb ed="#L" n="7"/>declarata sunt.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e426">
+                  <lb ed="#L" n="8"/>III. In eodem tertio articulo dubium est de ratione in
+<lb ed="#L" n="9"/>littera assignata quare obiectum rationis nobilius est 
+obie<lb break="no" ed="#L" n="10"/>cto appetitus: quia scilicet ratio apprehendit aliquid in
+<lb ed="#L" n="11"/>universali, appetitus autem tendit in res, quae habent esse
+<lb ed="#L" n="12"/>particulare. 'Tum quia et ratio apprehendit particulare, et
+<lb ed="#L" n="13"/>appetitus tendit in universalia: appetimus enim famam et
+<lb ed="#L" n="14"/>gloriam in communi, et odimus latronum genus. — Tum
+<lb ed="#L" n="15"/>quia res habent nobilius esse in particularibus quam in
+<lb ed="#L" n="16"/>universali: quia illud est reale, hoc rationis; illud 
+simpli<lb break="no" ed="#L" n="17"/>citer, hoc secundum quid. :
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e451">
+                  <lb ed="#L" n="18"/>IV. Ad hoc dicitur quod, quia de nobilitate intellectus
+<lb ed="#L" n="19"/>et voluntatis in Prima Parte dictum est, ideo Auctor
+<lb ed="#L" n="20"/>breviter pertransiens hanc rationem 'affert. In qua duo 
+tan<lb break="no" ed="#L" n="21"/>guntur: scilicet modus operandi utriusque, et conditiones
+<lb ed="#L" n="22"/>obiectorum. Universalitas namque et particularitas extra,
+<lb ed="#L" n="23"/>conditiones sunt obiectorum rationis et appetitus: tendere
+<lb ed="#L" n="24"/>autem ad extra, et habere in se, modi sunt operandi, ille
+<lb ed="#L" n="25"/>appetitus, iste intellectus. Et ille quidem in littera 
+expri<lb break="no" ed="#L" n="26"/>mitur: iste autem non; sed insinuatur et ex opposito, et
+<lb ed="#L" n="27"/>ex conditione obiecti, quia universale in anima est. Est
+<lb ed="#L" n="28"/>igitur nobilior ratio appetitu, quia apprehendit in 
+univer<lb break="no" ed="#L" n="29"/>sali: idest quia respicit res secundum esse elevatum, in
+<lb ed="#L" n="30"/>quo uniuntur omnia particufaria quae in re divisa sunt.
+<lb ed="#L" n="31"/>Cum enim dispersa in inferioribus, unita sint in superiori ;
+<lb ed="#L" n="32"/>et particularia in universali uniantur, in seipsis 
+dispergan<lb break="no" ed="#L" n="33"/>tur: consequens est ut universale altioris sit ordinis. Et
+<lb ed="#L" n="34"/>hoc directe intendit littera, quae ex obiecto testatur se
+<lb ed="#L" n="35"/>procedere. Modus autem operandi, qui optimam quoque
+<lb ed="#L" n="36"/>constitueret rationem, hic non est intentus. Sed tu uti illo
+<lb ed="#L" n="37"/>memento, cum de voluntate et intellectu respectu Dei in
+<lb ed="#L" n="38"/>patria loqueris: ibi enim, stante paritate obiecti, ex modo
+<lb ed="#L" n="39"/>praeeminet intellectus.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e501">
+                  <lb ed="#L" n="40"/>V. Ad obiecta autem in oppositum dicitur quod 
+prae<lb break="no" ed="#L" n="41"/>sens sermo non comparat rationem. appetitui intellectivo
+<lb ed="#L" n="42"/>in specie: sed appetitui communi voluntati, irascibili et
+<lb ed="#L" n="43"/>concupiscibili. Unde patet quod, sicut ratio per se primo
+<lb ed="#L" n="44"/>est universalis, et reflexe particularis; ita appetitus per se
+<lb ed="#L" n="45"/>respicit res in particulari; permissive, inquantum 
+intellecti<lb break="no" ed="#L" n="46"/>vus est, respicit universale. Comparatio autem fit 
+secun<lb break="no" ed="#L" n="47"/>dum primaria, non secundum secundaria obiecta. — Dicitur
+<lb ed="#L" n="48"/>secundo quod, quia appetitus hoc. ipsum quod tendat in
+<lb ed="#L" n="49"/>universale, habet a ratione; ideo ratio, quae ex seipsa hoc
+<lb ed="#L" n="50"/>habet, etiam in hoc est nobilior. Et ut excludatur omnis
+<lb ed="#L" n="51"/>cavillatio, dicito quod vis rationis consistit in hoc, quod
+<lb ed="#L" n="52"/>ratio tendit ex se in universale, ita quod habet ipsum ut
+<lb ed="#L" n="53"/>proprium. Quod nulli alteri convenit; quia appetitus, si
+<lb ed="#L" n="54"/>tendit in universale, habet hoc ex alio, et ut 
+communica<lb break="no" ed="#L" n="55"/>tum, et participative. In cuius signum, appetitus tendit in
+<lb ed="#L" n="56"/>universale magis ex ea parte qua distribuitur in 
+particu<lb break="no" ed="#L" n="57"/>laria; quam inquantum in se unit illa: cuius oppositum
+<lb ed="#L" n="58"/>accidit in intellectu , et est magis de ratione universalis.
+<lb ed="#L" n="59"/>Appetimus enim gloriam in universali, pro quanto vellemus
+<lb ed="#L" n="60"/>gloriam extendi ad omnem gloriam; et similiter odio 
+habe<lb break="no" ed="#L" n="61"/>mus latronum genus, pro quanto ad omnes latrones odium
+<lb ed="#L" n="62"/>extendimus. Intelligimus haec in universali, e converso: pro
+<lb ed="#L" n="63"/>quanto scilicet divisa ad unum contemplando tenemus.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e556">
+                  <lb ed="#L" n="64"/>Ad secundam autem obiectionem dicitur quod esse in
+<lb ed="#L" n="65"/>universali non sumitur pro denominatione quae dicitur
+<lb ed="#L" n="66"/>universalitas: sed pro esse immateriali, a quo, in anima 
+exi<lb break="no" ed="#L" n="67"/>stente, res extra denominatur extrinsece universalis. 
+Con<lb break="no" ed="#L" n="68"/>stat autem. quod esse immateriale est reale, et nobilioris
+<lb ed="#L" n="69"/>ac altioris ordinis; adeo ut unum individuum immaterialis
+<lb ed="#L" n="70"/>ordinis aequivaleat infinitis particularibus materialiter. — Et
+<lb ed="#L" n="71"/>licet esse immateriale rerum  materialium sit esse earum
+<lb ed="#L" n="72"/>secundum quid, est tamen in se, et in ordine universi, esse
+<lb ed="#L" n="73"/>simpliciter et eminentius: sicut bos in sole non est bos
+<lb ed="#L" n="74"/>simpliciter, tamen esse solis, quod est eminenter bos, est
+<lb ed="#L" n="75"/>esse simpliciter nobilius. Unde consuevit dici quod bos est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>simpliciter bos in particulari, et bos secundum quid in
+<lb ed="#L" n="77"/>anima: est tamen ens nobilius in anima quam in 
+parti<lb break="no" ed="#L" n="78"/>culari. Et hoc sufficit proposito, ubi de nobilitate 
+simpli<lb break="no" ed="#L" n="79"/>citer obiecti, et non respectu huius nec illius specialis
+<lb ed="#L" n="80"/>praedicati, puta bovis, equi, etc., est sermo.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e598">
+                  <lb ed="#L" n="81"/>VI. In eodem articulo tertio dubium est, quia Auctor
+<lb ed="#L" n="82"/>videtur in calce articuli quasi retractare conclusionem huius
+<lb ed="#L" n="83"/>articuli, scilicet quod virtutes intellectuales sunt, simpliciter
+<lb ed="#L" n="84"/>loquendo, nobiliores quam morales; dum dicit quod ratio
+<lb ed="#L" n="85"/>virtutis magis competit morali, et quod virtutes 
+intelle<lb break="no" ed="#L" n="86"/>ctuales sunt nobiliores habitus; quasi dicat quod non sunt
+<lb ed="#L" n="87"/>nobiliores virtutes, quamvis sint nobiliores habitus. — Et
+<lb ed="#L" n="88"/>confirmatur haec sententia ex supradictis in art. 3 
+quae<lb break="no" ed="#L" n="89"/>stionis Lvr, ubi dictum est quod virtutes intellectuales sunt
+<lb ed="#L" n="90"/>virtutes secundum quid, morales autem sunt virtutes 
+sim<lb break="no" ed="#L" n="91"/>pliciter, propter rationem hic tactam, et ibi explicatam; quia
+<lb ed="#L" n="92"/>scilicet moralis perficit ad rectitudinem actus in se et in
+<lb ed="#L" n="93"/>eius usu, intellectualis.autem in se tantum. Ex hoc enim
+<lb ed="#L" n="94"/>arguitur facile sic. Quod est tale simpliciter, est nobilius
+<lb ed="#L" n="95"/>in esse tali quam quod est tale secundum. quid: sed 
+mo<lb break="no" ed="#L" n="96"/>ralis est virtus simpliciter, intellectualis secundum quid:
+<lb ed="#L" n="97"/>ergo moralis est nobilior virtus quam intellectualis.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e637">
+                  <lb ed="#L" n="98"/>VII. Ad hoc dicitur concedendo quod Auctor in calce
+<lb ed="#L" n="99"/>articuli declaraverit intentionem suam, quod intendit has
+<lb ed="#L" n="100"/>tres propositiones esse veras, et stare simul: Virtutes 
+intel<lb break="no" ed="#L" n="101"/>lectuales sunt nobiliores moralibus; Virtutes intellectuales
+<lb ed="#L" n="102"/>sunt nobiliores habitus quam morales; Virtutes morales
+<lb ed="#L" n="103"/>sunt nobiliores virtutes quam intellectuales. Quoniam in
+<lb ed="#L" n="104"/>prima fit comparatio non secundum hanc vel illam 
+ratio<lb break="no" ed="#L" n="105"/>nem, sed simpliciter; in secunda, in ratione habitus; in
+<lb ed="#L" n="106"/>tertia, in ratione virtutis.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e659">
+                  <lb ed="#L" n="107"/>Sed huic expositioni obstat primo, quia sermo Auctoris
+<lb ed="#L" n="108"/>debet esse formalis; ac per hoc, in tractatu de virtütibus,
+<lb ed="#L" n="109"/>conclusio dicens quod intellectuales virtutes sunt nobiliores
+<lb ed="#L" n="110"/>moralibus, debet verificari formaliter, scilicet de virtutibus
+<lb ed="#L" n="111"/>inquantum virtutes sunt. — Obstat secundo, quia Auctor
+<lb ed="#L" n="112"/>ipse in hac littera vult quod virtus, inquantum virtus, 
+ha<lb break="no" ed="#L" n="113"/>bet speciem ex obiecto, et ex hoc iudicetur nobilior 
+sim<lb break="no" ed="#L" n="114"/>pliciter. Si enim a doctrina sensus formalis tollitur, obiecta
+<lb ed="#L" n="115"/>incertitudinis plena sunt, ut dicitur in IV Metaphys.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e682">
+                  <lb ed="#L" n="116"/>VIII. Dicendum est ergo quod intentio Auctoris hic
+<lb ed="#L" n="117"/>est duas tantum propositiones construere, scilicet primam
+<lb ed="#L" n="118"/>simpliciter, et tertiam secundum quid, idest cum 
+determi<lb break="no" ed="#L" n="119"/>natione, ut declarabitur. Secunda enim incidit cum prima,
+<lb ed="#L" n="120"/>ut declarabitur: in sensu enim exposito, impertinens (non
+<lb ed="#L" n="121"/>enim hic de habitus ratione tractatur) est. Ad quorum 
+evi<lb break="no" ed="#L" n="122"/>dentiam, sciendum est quod dupliciter exponi potest sermo
+<lb ed="#L" n="123"/>de virtutibus inquantum virtutes: potest namque ibi 
+iz<lb break="no" ed="#L" n="124"/>quantum. determinare rationem communem virtutis; et 
+po<lb break="no" ed="#L" n="125"/>test determinare specificas differentias virtutum. Si 
+deter<lb break="no" ed="#L" n="126"/>minetur communis ratio virtutis, sic virtutes morales sunt
+<lb ed="#L" n="127"/>nobiliores intellectualibus: quia communis ratio virtutis ,
+<lb ed="#L" n="128"/>ut in littera dicitur, sumitur éx ordine ad actum, in quo
+<lb ed="#L" n="129"/>praestant morales intellectualibus. Si vero deferminentur
+<lb ed="#L" n="130"/>specificae differentiae virtutum, sic intellectuales. praestant
+<lb ed="#L" n="131"/>moralibus: quia habent nobilius obiectum, unde specificas
+<lb ed="#L" n="132"/>sortiuntur differentias. Et totum oppositum est eius quod
+<lb ed="#L" n="133"/>praecedens expositio credidit. Quia virtutes intellectuales
+<lb ed="#L" n="134"/>sunt simpliciter non solum nobiliora entia, sed nobiliores
+<lb ed="#L" n="135"/>virtutes, moralibus: licet sint ignobiliores secundum 
+com<lb break="no" ed="#L" n="136"/>munem rationem virtutis, quae magis convenit moralibus;
+<lb ed="#L" n="137"/>immo eis simpliciter, et intellectualibus secundum quid.
+<lb ed="#L" n="138"/>Sed haec maior nobilitas, scilicet habere communem 
+ratio<lb break="no" ed="#L" n="139"/>nem virtutis simpliciter, non dat maiorem nobilitatem 
+sim<lb break="no" ed="#L" n="140"/>pliciter, sed secundum quid: quia spectat ad esse 
+princi<lb break="no" ed="#L" n="141"/>pium actus, unde, ut in littera dicitur, non sumitur nobilitas
+<lb ed="#L" n="142"/>simpliciter maior, sed secundum quid. Et similiter ex eo
+<lb ed="#L" n="143"/>quod intellectuales virtutes sunt secundum quid virtutes
+<lb ed="#L" n="144"/>secundum communem virtutis rationem, non nisi 
+secun<lb break="no" ed="#L" n="145"/>dum quid ignobiliores censentur. Et propterea in littera
+<lb ed="#L" n="146"/>concluditur quod virtutes intellectuales, licet minus 
+com<lb break="no" ed="#L" n="147"/>munem virtutis rationem habeant, sunt nobiliores habitus
+<lb ed="#L" n="148"/>simpliciter, et non in ratione habitus. Si enim essent 
+no<lb break="no" ed="#L" n="149"/>biliores in ratione habitus tantum, essent nobiliores 
+secun<lb break="no" ed="#L" n="150"/>dum quid: cum sit praedicatum valde commune.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e760">
+                  <pb ed="#L" n="433"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>IX. Unde prima propositio est simpliciter vera, et 
+for<lb break="no" ed="#L" n="2"/>malis, scilicet: Virtutes intellectuales sunt nobiliores 
+mora<lb break="no" ed="#L" n="3"/>libus: quia ex propriis rationibus specificis vindicant sibi
+<lb ed="#L" n="4"/>maiorem nobilitatem quam morales. — Tertia autem 
+propo<lb break="no" ed="#L" n="5"/>sitio est vera cum determinatione. Unde et in littera non
+<lb ed="#L" n="6"/>habetur. Nec acceptarem eam nisi cum determinatione, hoc
+<lb ed="#L" n="7"/>modo: Virtutes morales sunt nobiliores virtutes, secundum
+<lb ed="#L" n="8"/>communem rationem virtutis, quam intellectuales. Sine hac
+<lb ed="#L" n="9"/>enim determinatione, contradictoriam concederem.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e786">
+                  <lb ed="#L" n="10"/>Nec obstat doctrina superius habita in qu. rvi, et
+<lb ed="#L" n="11"/>pluries repetita, de virtute simpliciter, et secundum quid:
+<lb ed="#L" n="12"/>quia secundum communem virtutis rationem intelligitur.
+<lb ed="#L" n="13"/>Et hunc sensum memento reducere, ubi similia invenies.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e797">
+                  <lb ed="#L" n="14"/>X. In corpore eiusdem articuli, adverte primo, quod 
+Sco<lb break="no" ed="#L" n="15"/>tus, cum sequacibus, quia tenet voluntatem nobiliorem 
+in<lb break="no" ed="#L" n="16"/>tellectu, consequenter ponit virtutem moralem nobiliorem
+<lb ed="#L" n="17"/>prudentia, quae est intellectualis. Et non solum in hoc
+<lb ed="#L" n="18"/>principio discordat; sed quia ponit prudentiam et virtutem
+<lb ed="#L" n="19"/>moralem circa idem obiectum, ac per hoc aequa est, apud
+<lb ed="#L" n="20"/>ipsum, nobilitas ex parte obiecti. Et aperte errat. Quia licet
+<lb ed="#L" n="21"/>sit idem obiectum materiale, puta agibile; prudentiae 
+ta<lb break="no" ed="#L" n="22"/>men obiectum est sub ratione veri, virtutis autem moralis
+<lb ed="#L" n="23"/>sub ratione boni. Veri autem ratio nobilior est simpliciter:
+<lb ed="#L" n="24"/>quia absolutior.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e823">
+                  <lb ed="#L" n="25"/>Adverte secundo, ne te decipiat materia intellectualis
+<lb ed="#L" n="26"/>virtutis, puta artis; et propterea neges eam nobiliorem 
+sim<lb break="no" ed="#L" n="27"/>pliciter. Respice ad rationem litterae, quia scilicet est de
+<lb ed="#L" n="28"/>eis in universali; et quiesces, non abnegando ignobilitatem
+<lb ed="#L" n="29"/>secundum quid, pro quanto ad vilia experiendo descendit.
+<lb ed="#L" n="30"/>Utrumque 'enim arti convenit, ut in I Metaphys. dicitur:
+<lb ed="#L" n="31"/>iudicare scilicet, et agere. Et propterea sic suscipere 
+me<lb break="no" ed="#L" n="32"/>mento quod prudentia et ars sint circa singularia, ut prius
+<lb ed="#L" n="33"/>et essentialius, inquantum cognoscitivae, sint circa 
+univer<lb break="no" ed="#L" n="34"/>salia: unde nobilitatem simpliciter trahunt, ut in littera
+<lb ed="#L" n="35"/>dicitur. :
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e849">
+                  <lb ed="#L" n="36"/>XI. In responsione ad tertium eiusdem articuli, dubium
+<lb ed="#L" n="37"/>arduum occurrit in via Auctoris, et simpliciter: quomodo
+<lb ed="#L" n="38"/>scilicet sit verum prudentiam dirigere morales virtutes
+<lb ed="#L" n="39"/>etiam in praestituendo finem. Et simpliciter quidem in
+<lb ed="#L" n="40"/>IF II discutiendum erit, in qu. xrvit. Ad hominem vero
+<lb ed="#L" n="41"/>nunc duplici ratione disserendum puto. Primo, quia hoc
+<lb ed="#L" n="42"/>repugnare videtur superius dictis; et inferius in IT II", loco
+<lb ed="#L" n="43"/>allegato. Superioribus quidem, pro quanto dictum fuit
+<lb ed="#L" n="44"/>quod prudentia principium, quod est finis, habet a virtute
+<lb ed="#L" n="45"/>morali, quia qualis unusquisque est, talis ei finis videtur.
+<lb ed="#L" n="46"/>Inferioribus autem, quia expresse negabitur ex proposito,
+<lb ed="#L" n="47"/>prudentiam praestituere finem moralibus virtutibus. — 
+Se<lb break="no" ed="#L" n="48"/>cundo, quia ex hoc pendet principale intentum huius 
+arti<lb break="no" ed="#L" n="49"/>culi quoad prudentiam, an scilicet nobilior sit prudentia
+<lb ed="#L" n="50"/>virtute morali; ut vis argumenti tangit,
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e885">
+                  <lb ed="#L" n="51"/>XII. Ad huius difficultatis evidentiam, ponendus ante
+<lb ed="#L" n="52"/>oculos est progressus nostrae mentis in istis, ut ex eo 
+ra<lb break="no" ed="#L" n="53"/>tionem dictorum sumere et reddere valeamus; et quid 
+sim<lb break="no" ed="#L" n="54"/>pliciter, et quid secundum quid intelligatur, discernamus.
+<lb ed="#L" n="55"/>In mente nostra primo omnium est synderesis, qua non
+<lb ed="#L" n="56"/>solum omne bonum prosequendum et malum fugiendum,
+<lb ed="#L" n="57"/>felicitatem appetendam et miseriam fugiendam; sed bonum
+<lb ed="#L" n="58"/>rationis prosequendum, et malum oppositum vitandum,
+<lb ed="#L" n="59"/>iudicamus naturaliter. Et hinc in- appetitu etiam naturaliter
+<lb ed="#L" n="60"/>inest non solum inclinatio ad bonum prosequendum et 
+ma<lb break="no" ed="#L" n="61"/>lum vitandum, ad beatitudinem appetendam et miseriam. 
+fu<lb break="no" ed="#L" n="62"/>giendam; sed imperfecta quaedam inclinatio ad vivendum
+<lb ed="#L" n="63"/>secundum rectam rationem. Et licet synderesis sit virtus,
+<lb ed="#L" n="64"/>quia est intellectus principiorum; inclinatio tamen haec 
+ap<lb break="no" ed="#L" n="65"/>petitus non est virtus, quia imperfecta est. - Ratio autem
+<lb ed="#L" n="66"/>quare in appetitu non est perfecta naturalis inclinatio, ut sit
+<lb ed="#L" n="67"/>sufficiens ad virtutem, sicut in ratione est iudicatorium 
+na<lb break="no" ed="#L" n="68"/>turale sufficiens ad virtutem; est quia apprehensio trahit res
+<lb ed="#L" n="69"/>ad se, et iudicium perficitur secundum esse quod res 
+ha<lb break="no" ed="#L" n="70"/>bent in nobis; appetitus autem tendit ad res in se, et 
+per<lb break="no" ed="#L" n="71"/>ficitur in adeptione rei. Ex hoc enim provenit quod 
+in<lb break="no" ed="#L" n="72"/>clinatio ad bonum eget habitu rectificante electionem, in
+<lb ed="#L" n="73"/>voluntate quidem quoad bonum rationis in operationibus,
+<lb ed="#L" n="74"/>in appetitu vero sensitivo quoad bonum rationis in 
+pas<lb break="no" ed="#L" n="75"/>sionibus, qua adipiscatur finem; et ipsa, impotens ad hoc,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>a ratione virtutis deficiat: lumen autem naturalis iudicii
+<lb ed="#L" n="77"/>circa principia, tali adminiculo non egeat, sed in seipso
+<lb ed="#L" n="78"/>manens, recte semper sit principium actus perfecti, qui est
+<lb ed="#L" n="79"/>iudicare.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e953">
+                  <lb ed="#L" n="80"/>Synderesi igitur in intellectu iudicante et proponente
+<lb ed="#L" n="81"/>non solum finem ultimum, sed fines proprios virtutum
+<lb ed="#L" n="82"/>moralium, dum in passionibus et operationibus secundum
+<lb ed="#L" n="83"/>rationem. vivendum iudicat; et appetitu inchoative inclinato
+<lb ed="#L" n="84"/>ad hos fines, scilicet bonum rationis in operationibus, 
+bo<lb break="no" ed="#L" n="85"/>num rationis in timoribus et audaciis, bonum rationis in
+<lb ed="#L" n="86"/>delectationibus, etc.: discurritur ex huiusmodi principiis 
+fir<lb break="no" ed="#L" n="87"/>matis in intellectu et inchoatis in appetitu, subsumendo
+<lb ed="#L" n="88"/>aliquod minus universale, puta abstinere a delectationibus
+<lb ed="#L" n="89"/>venereis, rempublicam defendendam; et concluditur modus
+<lb ed="#L" n="90"/>in delectationibus, et sic de aliis. Hic autem discursus 
+pru<lb break="no" ed="#L" n="91"/>dentiae generativus est. Et conclusio eius est modus in
+<lb ed="#L" n="92"/>operationibus seu passionibus servandus, qui nil aliud est
+<lb ed="#L" n="93"/>quam medium rationis in materia morali. Principium 
+au<lb break="no" ed="#L" n="94"/>tem eius est synderesis ex parte apprehensiva; et naturalis
+<lb ed="#L" n="95"/>inclinatio ad bonum rationis in concupiscentiis et 
+delecta<lb break="no" ed="#L" n="96"/>tionibus, ex parte appetitiva. - Ad hunc quoque discursum,
+<lb ed="#L" n="97"/>perfectum iudicio scilicet et praecepto, sequitur in 
+appe<lb break="no" ed="#L" n="98"/>titu conclusio electionis, qua scilicet eligimus delectationes
+<lb ed="#L" n="99"/>in ordine ad modum illum, medium illud, bonum illud
+<lb ed="#L" n="100"/>rationis. In hac enim electione potes perspicere simul duo
+<lb ed="#L" n="101"/>ex parte obiecti, scilicet passiones ipsas modificatas, et
+<lb ed="#L" n="102"/>modum ipsum: et intueri quod modus spectat ad finem
+<lb ed="#L" n="103"/>moralis virtutis, quia est ipsum rationis bonum 
+participa<lb break="no" ed="#L" n="104"/>tum in materia morali; passiones autem ipsae spectant ad
+<lb ed="#L" n="105"/>id quod est ad finem; utuntur enim eis virtutes propter
+<lb ed="#L" n="106"/>bonum rationis. Et sicut prudentia generatur frequenti 
+dis<lb break="no" ed="#L" n="107"/>cursu ex fine, sic praeexistente et concludente medium; ita
+<lb ed="#L" n="108"/>virtus moralis generatur ex frequenti electione subsequente.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1018">
+                  <lb ed="#L" n="109"/>Simul genita autem iam utraque virtus sic connectitur,
+<lb ed="#L" n="110"/>ut humana ratio, non solum synderesi, sed prudentia 
+re<lb break="no" ed="#L" n="111"/>ctificata de fine virtutis (illa rectificante eam de fine illo
+<lb ed="#L" n="112"/>absolute, ista rectificante eandem de eodem applicato ad
+<lb ed="#L" n="113"/>minus universale quam sit universale synderesis; vel etiam
+<lb ed="#L" n="114"/>ad singulare, quoniam prudentia est etiam singularium) ;
+<lb ed="#L" n="115"/>et rursus mota non solum ab appetitu naturali talis finis,
+<lb ed="#L" n="116"/>sed perfecto virtute inclinante in talem finem; discurrit ad
+<lb ed="#L" n="117"/>ulteriores conclusiones, donec perveniatur ad perfectionem
+<lb ed="#L" n="118"/>status virtutis, vel ad firmandum easdem. Et 
+proportiona<lb break="no" ed="#L" n="119"/>liter ad eligendum movetur appetitus.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1044">
+                  <lb ed="#L" n="120"/>XIII. Hic est progressus mentis nostrae. In quo 
+tripli<lb break="no" ed="#L" n="121"/>cem advertere potes distinctionem, unde clarificari ambigua
+<lb ed="#L" n="122"/>occurrentia possunt. Prima est de fine virtutis moralis, quod
+<lb ed="#L" n="123"/>sumitur dupliciter: scilicet absolute, seu in sua 
+communi<lb break="no" ed="#L" n="124"/>tate; et applicate ad speciales actus occurrentes in 
+exerci<lb break="no" ed="#L" n="125"/>tio vitae humanae. — Secunda est de virtutibus moralibus
+<lb ed="#L" n="126"/>et prudentia, quod sumuntur dupliciter: scilicet in fieri, et
+<lb ed="#L" n="127"/>in facto esse, secundum essentiam. — T'ertia est de dare
+<lb ed="#L" n="128"/>et accipere finem, quod sumitur «lupliciter: scilicet primo,
+<lb ed="#L" n="129"/>et non primo.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1068">
+                  <lb ed="#L" n="130"/>Ex his namque liquet, primo, quod finis virtutis moralis
+<lb ed="#L" n="131"/>absolute praestituitur primo, non a prudentia, sed a 
+syn<lb break="no" ed="#L" n="132"/>deresi. Et hoc clarum est: quia prudentia ex illo fit.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1077">
+                  <lb ed="#L" n="133"/>Secundo, quod finis idem absolute non prius intenditur a
+<lb ed="#L" n="134"/>virtute morali, quam sit prudentia. Et hoc clarum est: quia
+<lb ed="#L" n="135"/>virtus moralis non fit ab illo fine nisi mediante prudentia.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1087">
+                  <lb ed="#L" n="136"/>Tertio, quod prudentia in fieri non dependet a virtute
+<lb ed="#L" n="137"/>morali; sed eius fine, et appetitu recto illius, naturali 
+in<lb break="no" ed="#L" n="138"/>clinatione, quae non est virtus, sed inchoatio virtutis. Et
+<lb ed="#L" n="139"/>hoc clarum est: quia intentio recta finis est principium 
+pru<lb break="no" ed="#L" n="140"/>dentiae; et constat quod ante prudentiam non est virtus
+<lb ed="#L" n="141"/>moralis.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1103">
+                  <lb ed="#L" n="142"/>Quarto, quod virtus moralis in fieri dependet non 
+so<lb break="no" ed="#L" n="143"/>lum a synderesi et recta intentione finis nunc dicta; sed
+<lb ed="#L" n="144"/>prudentia afferente finem, inveniendo medium prius 
+na<lb break="no" ed="#L" n="145"/>tura quam sequatur electio generans virtutem moralem.
+<lb ed="#L" n="146"/>Et hoc clarum est ex ordine dicto, et definitione virtutis
+<lb ed="#L" n="147"/>moralis.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1119">
+                  <lb ed="#L" n="148"/>Quinto quod, comparando prudentiam ad virtutem 
+mo<lb break="no" ed="#L" n="149"/>ralem in fieri, sic simpliciter verum est quod prudentia
+<lb ed="#L" n="150"/>dirigit virtutem moralem praestituendo illi finem, non primo
+<pb ed="#L" n="434"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>et absolute, sed applicando illum ad specialem materiam
+<lb ed="#L" n="2"/>occurrentem, Et sic verificantur verba Auctoris hic, quae
+<lb ed="#L" n="3"/>propter inventionem medii, prudentiae praestitutionem finis
+<lb ed="#L" n="4"/>dant. Et non contradicunt superioribus, nec dictis in II II",
+<lb ed="#L" n="5"/>quae de prima praestitutione finis, et de fine absolute 
+vir<lb break="no" ed="#L" n="6"/>tutis. moralis, loquuntur.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1145">
+                  <lb ed="#L" n="7"/>Sexto quod, comparando iam genitas prudentiam et 
+vir<lb break="no" ed="#L" n="8"/>tutem moralem, utraque in facto esse alteri finem 
+appli<lb break="no" ed="#L" n="9"/>cite praebet, diversimode. Declaratur hoc quoad singula.
+<lb ed="#L" n="10"/>Prudentiam in primis constat medium morali virtuti semper
+<lb ed="#L" n="11"/>ostendere, et conservare virtutem. Deinde moralem constat
+<lb ed="#L" n="12"/>finis appetitum rectum facere; ac per hoc, prudentiae 
+prin<lb break="no" ed="#L" n="13"/>cipium firmare.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1163">
+                  <lb ed="#L" n="14"/>Ex hoc autem quod appetitus virtute morali rectificatur
+<lb ed="#L" n="15"/>ad eligendum consona bono rationis; quia electio claudit
+<lb ed="#L" n="16"/>in se intentionem, consequens est ut eadem virtute 
+rectifi<lb break="no" ed="#L" n="17"/>cetur ad intendendum illum finem etiam absolute. Ita quod
+<lb ed="#L" n="18"/>intentio finis, quae prius ex synderesi et inclinatione 
+na<lb break="no" ed="#L" n="19"/>turali tantum erat recta, ex virtute morali, a prudentia 
+ge<lb break="no" ed="#L" n="20"/>nita, fit et est recta recte. Et sic virtus moralis in facto
+<lb ed="#L" n="21"/>esse dat prudentiae in facto esse finem absolute; et non
+<lb ed="#L" n="22"/>e contra. Et hoc est septimum. Declaratur quod non est
+<lb ed="#L" n="23"/>e contra: quia in parte apprehensiva synderesis est virtus
+<lb ed="#L" n="24"/>sufficiens respectu finis absolute. Et propter hoc, magis 
+vul<lb break="no" ed="#L" n="25"/>gatum et cantatum est quod virtus moralis dat finem 
+pru<lb break="no" ed="#L" n="26"/>dentiae, quam e contra.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1194">
+                  <lb ed="#L" n="27"/>XIV. Ex his autem patet quomodo argumento satisfiat
+<lb ed="#L" n="28"/>in proposito, de nobilitate secundum veritatem, et hanc 
+ra<lb break="no" ed="#L" n="29"/>tionem. Consistit enim vis argumenti in hoc. Virtus finis est
+<lb ed="#L" n="30"/>nobilior virtute eorum quae sunt ad finem, sicut habitus
+<lb ed="#L" n="31"/>principiorum est nobilior habitu conclusionum : sed virtus
+<lb ed="#L" n="32"/>moralis est respectu finis, prudentia respectu eorum quae
+<lb ed="#L" n="33"/>sunt ad finem: ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1213">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="34"/>Responsio litterae est ad minorem, dicens quod 
+pruden<lb break="no" ed="#L" n="35"/>tia est eorum quae sunt ad finem, et finis. Et ideo non 
+se<lb break="no" ed="#L" n="36"/>quitur quod sit ignobilior; sicut sequeretur si esset eorum
+<lb ed="#L" n="37"/>quae sunt ad finem tantum. — Et per hoc solvitur illa 
+con<lb break="no" ed="#L" n="38"/>firmatio de habitu principiorum: quia scilicet habitus 
+prin<lb break="no" ed="#L" n="39"/>cipiorum est nobilior habitu conclusionum tantum; non
+<lb ed="#L" n="40"/>autem habitu principiorum et conclusionum, sicut est in
+<lb ed="#L" n="41"/>proposito, ubi secundum veritatem utraque est 
+principio<lb break="no" ed="#L" n="42"/>rum et conclusionum. Moralis namque virtus est finis, et
+<lb ed="#L" n="43"/>eorum quae sunt ad finem: facit enim rectam intentionem
+<lb ed="#L" n="44"/>et electionem. Et similiter prudentia est finis, et eorum quae
+<lb ed="#L" n="45"/>sunt ad finem; dum, inveniendo medium, applicat ipsum
+<lb ed="#L" n="46"/>rationis bonüim, quod est finis, ad operationes et passiones,
+<lb ed="#L" n="47"/>quae sunt propter finem.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1248">
+                  <lb ed="#L" n="48"/>Et nota quod Auctor non solum intendit prudentiam
+<lb ed="#L" n="49"/>esse finis, sed etiam dirigere morales respectu finium, 
+in<lb break="no" ed="#L" n="50"/>sinuans alteram responsionem: scilicet quod ad hoc quod
+<lb ed="#L" n="51"/>habitus respectu finis sit nobilior, requiritur quod sit 
+per<lb break="no" ed="#L" n="52"/>fectus absque mendicatione ab illo qui est respectu eorum
+<lb ed="#L" n="53"/>quae sunt ad finem. Si enim ab illo perficeretur, iam sub
+<lb ed="#L" n="54"/>illo esset; nec esset independens, sicut finis independens
+<lb ed="#L" n="55"/>est ab aliis quae sunt ad finem, Sic autem accidit in 
+pro<lb break="no" ed="#L" n="56"/>posito: quia licet virtus moralis sit finis etiam absolute,
+<lb ed="#L" n="57"/>quo modo ipsius non est prudentia, sed synderesis; attamen
+<lb ed="#L" n="58"/>dependet in fieri et esse a prudentia, quae est finis 
+appli<lb break="no" ed="#L" n="59"/>cate, et eorum quae sunt ad finem. Et propterea non 
+se<lb break="no" ed="#L" n="60"/>quitur quod sit nobilior prudentia.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1279">
+                  <lb ed="#L" n="61"/>XV. Reliqua in II II" tractanda sunt. Ubi rationes Scoti,
+<lb ed="#L" n="62"/>in III Sent., dist. xxxvi, quod prudentia sit respectu finis,
+<lb ed="#L" n="63"/>videbuntur. Et quare, in ratione duabus existentibus 
+virtu<lb break="no" ed="#L" n="64"/>tibus, scilicet synderesi et prudentia, in appetitu una 
+re<lb break="no" ed="#L" n="65"/>spondeat moralis virtus respectu finis et eorum quae sunt
+<lb ed="#L" n="66"/>ad finem, intendens et eligens.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1013-Dd1e1296"><!-- caj-p2p1-q66-a4 -->
+               <head xml:id="TAcCaj-d1e1013-Hd1e1299">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1013-d1e1301">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="45"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1308">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="46"/>IN articulo quarto eiusdem sexagesimaesextae quaestionis,
+<lb ed="#L" n="47"/>dubium novitiorum occurrit, quomodo fortitudini 
+prae<lb break="no" ed="#L" n="48"/>feratur iustitia. Quia fortitudo rectificat circa mortem et
+<lb ed="#L" n="49"/>vitam, iustitia autem circa operationes ad alterum: nulla
+<lb ed="#L" n="50"/>namque operatio est maior ipsa vita; sed pellem pro pelle,
+<lb ed="#L" n="51"/>et cuncta quae habet, dabit homo pro anima sua.
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1326">
+                  <lb ed="#L" n="52"/>Sed hoc facile solvitur ex eo quod iustitia, rectificando
+<lb ed="#L" n="53"/>animum in omnibus operationibus quae sunt ad alterum,
+<lb ed="#L" n="54"/>rectificat etiam respectu vitae et mortis. Ad iustitiam enim
+<lb ed="#L" n="55"/>spectat ponere vitam pro altero, puta pro republica, cui
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="56"/>hoc debet. Nec inconvenit eundem actum spectare ad 
+iu<lb break="no" ed="#L" n="57"/>stitiam et fortitudinem diversimode. Ut, in proposito, 
+po<lb break="no" ed="#L" n="58"/>nere vitam, inquantum habet rationem debiti, spectat ad
+<lb ed="#L" n="59"/>iustitiam, quae sicut dat alia bona debita, ita et vitam: 
+in<lb break="no" ed="#L" n="60"/>quantum vero habet rationem terribilis, spectat ad 
+fortitu<lb break="no" ed="#L" n="61"/>dinem, cuius est firmare animum ne timeat hoc, sed 
+au<lb break="no" ed="#L" n="62"/>deat, etc. Iustitia tanto est nobilior, quanto universalior,
+<lb ed="#L" n="63"/>circa altiora scilicet et plura rectificans in his quae sunt
+<lb ed="#L" n="64"/>ad alterum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1013-Dd1e1361"><!-- caj-p2p1-q66-a5 -->
+               <head xml:id="TAcCaj-d1e1013-Hd1e1364">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1013-d1e1366">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="79"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1373">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="80"/>IN articulo quinto eiusdem sexagesimaesextae quaestionis,
+<lb ed="#L" n="81"/>responsione ad quartum, nota auream doctrinam, quare
+<lb ed="#L" n="82"/>sapientia rationes terminorum maxime universalium 
+consi<lb break="no" ed="#L" n="83"/>derat, ut fit in V Metaphys.: quia scilicet ens est 
+pro<lb break="no" ed="#L" n="84"/>prius effectus primae causae; quod in Prima Parte 
+decla<lb break="no" ed="#L" n="85"/>ratum est, — Et quare iudicat de principiis: quia scilicet 
+eo<lb break="no" ed="#L" n="86"/>rum causas considerat, rationes terminorum; iudicium enim
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="87"/>rei per illius causas fit, Iudicat autem. sapientia de 
+princi<lb break="no" ed="#L" n="88"/>piis ex rationibus terminorum, non tanquam explicans 
+me<lb break="no" ed="#L" n="89"/>dium terminum latentem, quo fiat assensus principiis, aut
+<lb ed="#L" n="90"/>reddatur altera causa veritati eorum : sed tanquam dans eis
+<lb ed="#L" n="91"/>intrinseca constitutiva eorum, rationes scilicet terminorum,
+<lb ed="#L" n="92"/>et in eadem resolvens illa, etc, Et propterea defendit illa,
+<lb ed="#L" n="93"/>ex summa arce videns.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1013-Dd1e1411"><!-- caj-p2p1-q66-a6 -->
+               <head xml:id="TAcCaj-d1e1013-Hd1e1414">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1013-d1e1416">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="77"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1013-d1e1423">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>In articulo sexto eiusdem sexagesimaesextae quaestionis, 
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="79"/>nihil scribendum occurrit, nisi quod omnia notanda sunt.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

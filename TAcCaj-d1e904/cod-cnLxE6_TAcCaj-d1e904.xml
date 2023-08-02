@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 45</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 45</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="287"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e904"><!-- TAcCajp2p1-q45 -->
+            <head xml:id="TAcCaj-d1e904-Hd1e99">Quaestio 45</head>
+            <div xml:id="TAcCaj-d1e904-Dd1e101"><!-- caj-p2p1-q45-a1 -->
+               <head xml:id="TAcCaj-d1e904-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e904-d1e106">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="64"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e904-d1e113">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="65"/>IN tota quaestione quadragesimaquinta unum occurrit 
+du<lb break="no" ed="#L" n="66"/>dnion: quomodo scilicet malum sit obiectum audaciae. —
+<lb ed="#L" n="67"/>Aut enim est obiectum eius per se, aut per accidens. Si
+<lb ed="#L" n="68"/>per se, ergo motus appetitus prosecutivus est per se 
+respe<lb break="no" ed="#L" n="69"/>ctu mali. Cuius oppositum dictum est; et omnes 
+faten<lb break="no" ed="#L" n="70"/>tur, dicentes malum esse quod omnia fugiunt, sicut bonum
+<lb ed="#L" n="71"/>quod omnia appetunt. - Si per accidens, ergo habet aliquid
+<lb ed="#L" n="72"/>aliud per se obiectum: sicut patet in ceteris operationibus
+<lb ed="#L" n="73"/>sensus, intellectus et appetitus; dicuntur enim. aliqua per
+<lb ed="#L" n="74"/>accidens visa, audita, intellecta, appetita, quia propter alia
+<lb ed="#L" n="75"/>visa, sensata, cognita, desiderata, attinguntur. Et tunc 
+quae<lb break="no" ed="#L" n="76"/>ratur: Quod est obiectum per se audaciae, an bonum, an
+<lb ed="#L" n="77"/>malum? - Et augetur difficultas, quia Auctor varie loqui
+<lb ed="#L" n="78"/>videtur: in art. 2, ad 3, expresse dicens audaciam respicere
+<lb ed="#L" n="79"/>malum; et in art. 4, ad 2, dicens obiectum audaciae esse
+<lb ed="#L" n="80"/>compositum ex bono et malo.
+</p>
+               <p xml:id="TAcCaj-d1e904-d1e152">
+                  <lb ed="#L" n="81"/>II. Ad huius difficultatis evidentiam, primo, referendus
+<lb ed="#L" n="82"/>est actus audaciae purus ad proprium obiectum ; secundo,
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="83"/>referendus est idem et secundum se, et ut participans 
+vir<lb break="no" ed="#L" n="84"/>tualiter spem, in suum obiectum: sic enim melius elucescet
+<lb ed="#L" n="85"/>veritas, Quoad primum, istae duae passiones, scilicet. 
+auda<lb break="no" ed="#L" n="86"/>cia et desperatio, similem ingerunt difficultatem: quia ista
+<lb ed="#L" n="87"/>est ad malum, et illa a bono; ac per hoc, contra naturae
+<lb ed="#L" n="88"/>ordinem videntur se habere. Si quis tamen advertat quod
+<lb ed="#L" n="89"/>in concupiscibili, cuius obiectum est bonum vel malum
+<lb ed="#L" n="90"/>absolute, nulla est hoc modo passio, sed respectu boni
+<lb ed="#L" n="91"/>omnes sunt prosecutivae, et respectu mali refutativae vel
+<lb ed="#L" n="92"/>fugitivae; coniiciet quod aliquid habet tam bonum quam
+<lb ed="#L" n="93"/>malum ex ly arduo, per quod contrahitur bonum et 
+ma<lb break="no" ed="#L" n="94"/>lum. ad obiectum irascibilis habentis tales passiones. Et
+<lb ed="#L" n="95"/>vere sic est: et propterea in concupiscibili nulla talis 
+pas<lb break="no" ed="#L" n="96"/>sio invenitur. Quid autem sit illud, non oportet in extraneo
+<lb ed="#L" n="97"/>genere quaerere. Quoniam sicut aedificationes, picturae et
+<lb ed="#L" n="98"/>structurae difficiles non reponuntur in aliquo alio genere
+<lb ed="#L" n="99"/>ex difficultate, sed modum quendam sortiuntur illius 
+eius<lb break="no" ed="#L" n="100"/>dem naturae quae difficilis dicitur (difficultas enim aedifica-
+</p>
+               <p xml:id="TAcCaj-d1e904-d1e200">
+                  <pb ed="#L" n="288"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tionis ad artem aedificandi, et difficultas picturae ad artem
+<lb ed="#L" n="2"/>pingendi spectat); ita bonum difficile ex difficultate non
+<lb ed="#L" n="3"/>intrat latitudinem mali, sed infra boni latitudinem sistit;
+<lb ed="#L" n="4"/>et similiter malum difficile non exit mali latitudinem. Quia
+<lb ed="#L" n="5"/>tamen arduum seu difficile in respectu dicitur bonum 
+diffi<lb break="no" ed="#L" n="6"/>cile excedens mensuram in maius, eo ipso quod tam 
+diffi<lb break="no" ed="#L" n="7"/>cile est, habet unde a se avertat illum cui est vel videtur
+<lb ed="#L" n="8"/>sic excessivum: et hoc modo bonum arduum est obiectum
+<lb ed="#L" n="9"/>desperationis. Et similiter malum difficile non excedens 
+men<lb break="no" ed="#L" n="10"/>suram in maius, licet ex eo quod est malum, habeat unde
+<lb ed="#L" n="11"/>avertat; ex eo tamen quod est velut quoddam magnum
+<lb ed="#L" n="12"/>non excedens mensuram, habet unde trahat: unde Auctor
+<lb ed="#L" n="13"/>superius, in qu. xxi, art, 2, dixit quod malum arduum
+<lb ed="#L" n="14"/>habet ut in ipsum tendatur, sicut in quoddam arduum. Et
+<lb ed="#L" n="15"/>sic modus mali importatus per ly arduum mensurate, habet
+<lb ed="#L" n="16"/>attrahere non concupiscibilem, cuius est fugere magis maius
+<lb ed="#L" n="17"/>malum quam minus, sed irascibilem, cuius est tam bona
+<lb ed="#L" n="18"/>quam mala ardua prosequi ut oportet. Et hoc modo 
+sal<lb break="no" ed="#L" n="19"/>vatur quod audacia respicit per se aliquo modo suum 
+pro<lb break="no" ed="#L" n="20"/>prium obiectum: nec video aliter perseitatem in ipsa et
+<lb ed="#L" n="21"/>desperatione pure sumptis, respectu propriorum obiectorum.
+<lb ed="#L" n="22"/>Quod enim obiectum audaciae sit difficile malum, ex eo
+<lb ed="#L" n="23"/>patet quod, sicut nullus desperat nisi a desiderato, ac per
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>hoc bono; ita nullus audet nisi ad timenda, ac per hoc
+<lb ed="#L" n="25"/>mala. Haec de primo.
+</p>
+               <p xml:id="TAcCaj-d1e904-d1e264">
+                  <lb ed="#L" n="26"/>III. Quoad secundum, facile patet quomodo salvatur hic
+<lb ed="#L" n="27"/>per se et per accidens, et quare. Salvatur siquidem per se obie- "
+<lb ed="#L" n="28"/>ctum prosecutionis, idest bonum, et per accidens obiectum
+<lb ed="#L" n="29"/>eiusdem, idest malum, ex eo quod obiectum audaciae, ut
+<lb ed="#L" n="30"/>participantis spem, ut in littera dicitur, compositum est ex
+<lb ed="#L" n="31"/>bono et malo: ita quod bonum victoriae, seu repulsae 
+sub<lb break="no" ed="#L" n="32"/>lectionis imminentis , respicit rationé spei, quod perinde
+<lb ed="#L" n="33"/>est ac dicere quod respicit ex participata spe; malum 
+au<lb break="no" ed="#L" n="34"/>tem respicit ratione sui, propter illud tamen bonum; est
+<lb ed="#L" n="35"/>enim audaciae motus spei effectus ex parte obiecti. Unde
+<lb ed="#L" n="36"/>provida natura, cum egerent animalia non solum consonà
+n<lb break="no" ed="#L" n="37"/>tibus per se motibus ad obiecta appetitus, bonum scilicet
+<lb ed="#L" n="38"/>et malum; sed etiam dissonantibus ab eisdem, quoniam
+<lb ed="#L" n="39"/>quandoque expedit et fugere bonum aliquod, et prosequi
+<lb ed="#L" n="40"/>malum aliquod; nec potuerit fieri ut perseitatem secundum
+<lb ed="#L" n="41"/>propriam comparationem haberent: effecit ut saltem 
+respe<lb break="no" ed="#L" n="42"/>ctu concurrentium ad motum, perseitas salvaretur; ut sic
+<lb ed="#L" n="43"/>motus omnis appetitus, etsi non secundum se consideratus,
+<lb ed="#L" n="44"/>ut tamen exercitus cum requisitis ad ipsum, per se 
+gbie<lb break="no" ed="#L" n="45"/>ctum sortiatur. 
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e904-Dd1e311"><!-- caj-p2p1-q45-a2 -->
+               <head xml:id="TAcCaj-d1e904-Hd1e314">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e904-d1e316">
+                  <pb ed="#L" n="289"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e904-d1e325">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>CIRCA dicta in secundo articulo eiusdem 
+quadragesi<lb break="no" ed="#L" n="3"/>ssequintae quaestionis, specialiter dubium occurrit ,
+<lb ed="#L" n="4"/>quia. Auctor sibi ipsi contrarius est. Superius enim, in
+<lb ed="#L" n="5"/>qu. Xxv, art. 3, expresse dixit quod desperatio est prior
+<lb ed="#L" n="6"/>timore, et quod timor sequitur desperationem victoriae,
+<lb ed="#L" n="7"/>sicut audacia. spem eiusdem: hic vero aperte vult quod
+<lb ed="#L" n="8"/>desperatio sit effectus timoris, sicut audacia spei.
+</p>
+               <p xml:id="TAcCaj-d1e904-d1e345">
+                  <lb ed="#L" n="9"/>II. Ad hoc dicitur quod desperatio et timor' possunt
+<lb ed="#L" n="10"/>dupliciter considerari: scilicet ex parte obiecti; et ex parte
+<lb ed="#L" n="11"/>modi attingendi obiectum, Si considerentur ex parte 
+obie<lb break="no" ed="#L" n="12"/>cti, cum obiectum desperationis sit bonum, timoris vero
+<lb ed="#L" n="13"/>malum; et bonum naturaliter sit prius malo; sic desperatio
+<lb ed="#L" n="14"/>est prior timore, ut superius in qu. Xxv declaratum fuit.
+<lb ed="#L" n="15"/>Et ex hac parte, timor nascitur ex desperatione: quia 
+sci<lb break="no" ed="#L" n="16"/>licet obiectum desperationis natum est parere obiectum 
+ti<lb break="no" ed="#L" n="17"/>moris; bonum enim arduum aestimatum impossibile, 
+na<lb break="no" ed="#L" n="18"/>tum. est proponere privationem sui ut quoddam malum
+<lb ed="#L" n="19"/>superexcedens, quod est obiectum timoris. — Non est tamen
+<lb ed="#L" n="20"/>ista derivatio timoris ex desperatione ex parte obiecti, sic
+<lb ed="#L" n="21"/>accipienda ut oporteat obiectum timoris ex penitus obiecto
+<lb ed="#L" n="22"/>desperationis procedere , quoniam hoc est manifeste 
+fal<lb break="no" ed="#L" n="23"/>s$um dum. sumus inter spem ét metum: sed quia obiectum
+<lb ed="#L" n="24"/>timoris sapit .semper aliquid de obiecto desperationis. 
+Nul<lb break="no" ed="#L" n="25"/>Ium- enim malum habet rationem timendi, nisi quia bonum
+<lb ed="#L" n="26"/>oppositum existimatur vel dubitatur superexcedens: quod
+<lb ed="#L" n="27"/>est obiectum desperationis.
+</p>
+               <p xml:id="TAcCaj-d1e904-d1e389">
+                  <lb ed="#L" n="28"/>III. Si autem considerentur ex parte modi attingendi
+<lb ed="#L" n="29"/>obiectum, cum utriusque modus consistat in fugiendo; et
+<lb ed="#L" n="30"/>timori per se, desperationi autem per accidens conveniat
+<lb ed="#L" n="31"/>suum fugere obiectum; et quod est per accidens dépendeat
+<lb ed="#L" n="32"/>ab eo quod est per se: consequens est ut timor sit, ex hac
+<lb ed="#L" n="33"/>parte, causa desperationis. Non ita quod obiectum 
+despera<lb break="no" ed="#L" n="34"/>tionis sit compositum ex bono et malo, sicut obiectum
+<lb ed="#L" n="35"/>audaciae: quoniam, ut superius in qu. xr, art. 4, ad 2,
+<lb ed="#L" n="36"/>patet, desperatio ex solo superexcessu boni esse potest.
+<lb ed="#L" n="37"/>Sed ita quod in ipsum bonum superexcedens aestimatum
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="38"/>impossibile, feratur timor et desperatio: timor quidem in
+<lb ed="#L" n="39"/>superexcessum, inquantum impeditivum boni, ac per hoc
+<lb ed="#L" n="40"/>malum; desperatio vero in ipsum bonum superexcedens ,
+<lb ed="#L" n="41"/>fugiendo ipsum. - Est autem ratio movens ad 
+praeponen<lb break="no" ed="#L" n="42"/>dum ex hac parte timorem, ut habeatur per se obiectum 
+fu<lb break="no" ed="#L" n="43"/>gae in desperante, sicut in audace. Cum enim bonum ab
+<lb ed="#L" n="44"/>omnibus appetatur, et a desperante fugiatur, palam est
+<lb ed="#L" n="45"/>quod non fugitur inquantum bonum, nec inquantum maius
+<lb ed="#L" n="46"/>bonum, sed ratione alicuius impedimenti (saltem est 
+ex<lb break="no" ed="#L" n="47"/>cessus aestimatus impossibilis). Et quia impediens bonum
+<lb ed="#L" n="48"/>mali rationem induit, ex hac parte timor inchoat 
+despera<lb break="no" ed="#L" n="49"/>tionem.
+</p>
+               <p xml:id="TAcCaj-d1e904-d1e442">
+                  <lb ed="#L" n="50"/>Timoris autem nomine, hoc in loco, non intelligo 
+timo<lb break="no" ed="#L" n="51"/>rem proprie dictum, ut est passio irascibilis distincta contra
+<lb ed="#L" n="52"/>fugam, quae est quarta passio concupiscibilis contraria 
+de<lb break="no" ed="#L" n="53"/>siderio: sed ut includit illam, Ita quod desperatio fugit 
+bo<lb break="no" ed="#L" n="54"/>num excedens, propter fugam mali impedientis, puta ipsius
+<lb ed="#L" n="55"/>excessus, quae includitur in timore: et non proprie propter
+<lb ed="#L" n="56"/>timorem illius excessus difficilis impedientis, impossibilis, etc.
+<lb ed="#L" n="57"/>Experimur enim quod, cognita impossibilitate consequendi
+<lb ed="#L" n="58"/>aliquid, desperamus ab illo, nihil timentes. Et ratio huius
+<lb ed="#L" n="59"/>est, quia impossibilitas seu. difficultas consequendi, etsi ex
+<lb ed="#L" n="60"/>hoc ipso quod impedit bonum consequendum, statim 
+ha<lb break="no" ed="#L" n="61"/>beat unde induat rationem mali, ac per hoc sit obiectum
+<lb ed="#L" n="62"/>abominationis seu fugae inclusae in timore; non tamen
+<lb ed="#L" n="63"/>habet unde induat rationem mali ardui. Quia tamen est
+<lb ed="#L" n="64"/>impedimentum boni ardui, licet non sit malum arduum,
+<lb ed="#L" n="65"/>Auctor timoris nomine usus est.
+</p>
+               <p xml:id="TAcCaj-d1e904-d1e479">
+                  <lb ed="#L" n="66"/>IV. Desperatio igitur ex parte obiecti, causa est timoris:
+<lb ed="#L" n="67"/>timor vero ex parte modi attingendi obiectum, causa est
+<lb ed="#L" n="68"/>desperationis. Quo fit ut non aequaliter fiant desperatio
+<lb ed="#L" n="69"/>et audacia a timore et spe. Nam audacia a spe et ex parte
+<lb ed="#L" n="70"/>obiecti, bonum enim est prius malo; et ex parte modi, quia
+<lb ed="#L" n="71"/>prosecutio boni est ratio prosecutionis mali, oritur. 
+De<lb break="no" ed="#L" n="72"/>speratio autem ex parte modi tantum, ex timore seu 
+abo<lb break="no" ed="#L" n="73"/>minatione nascitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

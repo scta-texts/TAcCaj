@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 22</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 22</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="168"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e786"><!-- TAcCajp2p1-q22 -->
+            <head xml:id="TAcCaj-d1e786-Hd1e99">Quaestio 22</head>
+            <div xml:id="TAcCaj-d1e786-Dd1e101"><!-- caj-p2p1-q22-a1 -->
+               <head xml:id="TAcCaj-d1e786-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e786-d1e106">
+                  <pb ed="#L" n="169"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e115">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>CIRCA rationem passionis magis proprie, assignatam in
+<lb ed="#L" n="3"/>primo articulo vigesimaesecundae quaestionis, dubium
+<lb ed="#L" n="4"/>occurrit: quia cum omnis passio animae, de qua est sermo,
+<lb ed="#L" n="5"/>sit cum aliqua disconvenienti transmutatione corporali, 
+quo<lb break="no" ed="#L" n="6"/>niam oportet motum cordis a naturali suo motu aliqualiter
+<lb ed="#L" n="7"/>recedere ; sequitur quod omnis passio est cum 
+transmuta<lb break="no" ed="#L" n="8"/>tione in deterius, et nulla sit in melius.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e135">
+                  <lb ed="#L" n="9"/>II. Ad hoc dicitur quod, absolute loquendo, 
+conceden<lb break="no" ed="#L" n="10"/>dum est quod omnis passio animae est cum aliqua 
+prae<lb break="no" ed="#L" n="11"/>ternaturali mutatione, quia cordis motus intenditur aut
+<lb ed="#L" n="12"/>remittitur a suo naturali motu: et ex hoc illa opera 
+ani<lb break="no" ed="#L" n="13"/>mae quae vocamus eius passiones, habent rationem et 
+no<lb break="no" ed="#L" n="14"/>men passionis. Verum quia inter praeternaturales 
+mutatio<lb break="no" ed="#L" n="15"/>nes datur latitudo, et minus mala, respectu magis malae,
+<lb ed="#L" n="16"/>habet rationem melioris; ideo passiones illae quae ad peius
+<lb ed="#L" n="17"/>declinant, magis proprie passiones dicuntur. Declinant 
+au<lb break="no" ed="#L" n="18"/>tem in peius mutationes illae quae sunt materia passionum
+<lb ed="#L" n="19"/>consistentium in fuga seu retractione, ut timor et tristitia;
+<lb ed="#L" n="20"/>quam illae quae sunt materia passionum consistentium in
+<lb ed="#L" n="21"/>extensione seu prosecutione, ut amor et laetitia: quia vita
+<lb ed="#L" n="22"/>humana consistit in vitali extensione cordis ad totum 
+cor<lb break="no" ed="#L" n="23"/>pus, Et propterea in littera dicitur quod tristitia habet
+<lb ed="#L" n="24"/>magis rationem passionis quam laetitia: ista enim 
+praeter<lb break="no" ed="#L" n="25"/>naturalitatem solam intensionis motus, habet; illa, ultra 
+prae<lb break="no" ed="#L" n="26"/>ternaturalitatem remissionis motus, habet motum 
+contra<lb break="no" ed="#L" n="27"/>rium vitali extensioni cordis ad corporis partes. Ex eadem
+<lb ed="#L" n="28"/>quoque radice, scilicet maioris recessus a naturali, passiones
+<lb ed="#L" n="29"/>quaecumque intensae habent magis rationem passionis quam
+<lb ed="#L" n="30"/>remissae: motus enim corporalis maior ibi intervenit.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e185">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="31"/>Haec autem quae dicimus, notanter diximus absolute
+<lb ed="#L" n="32"/>dici. Quoniam si esset sermo non absolute, sed in ordine
+<lb ed="#L" n="33"/>ad hunc melancholice vel sic quomodolibet dispositum,
+<lb ed="#L" n="34"/>nihil prohibere videtur quod transmutatio oppositae 
+pas<lb break="no" ed="#L" n="35"/>sionis, puta laetitiae, sit naturalis simpliciter etiam illi;
+<lb ed="#L" n="36"/>praeternaturalis autem huic sic nunc invento. Alteri enim
+<lb ed="#L" n="37"/>extremo non solum extremum, sed medium opponitur, ut
+<lb ed="#L" n="38"/>dicitur in V Physic.: et motus cordis qui huic nunc,
+<lb ed="#L" n="39"/>sic, etc., est intensior, simpliciter etiam ipsi bene disposito
+<lb ed="#L" n="40"/>potest esse naturalis; ut infirmis videtur contingere, cum,
+<lb ed="#L" n="41"/>ad aliqualem laetitiam excitati, a cordis pressura levantur. —
+<lb ed="#L" n="42"/>Signum autem quod in omni passione animae fit 
+transmu<lb break="no" ed="#L" n="43"/>tatio aliqua praeternaturalis in corde, est neminem. in 
+pas<lb break="no" ed="#L" n="44"/>sione eadem actualiter diutius perdurare, sine corporali
+<lb ed="#L" n="45"/>laesione aut curatione.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e223">
+                  <lb ed="#L" n="46"/>III. In responsione ad primum et secundum, adverte
+<lb ed="#L" n="47"/>quod, quia motus animi qui vocantur animae passiones,
+<lb ed="#L" n="48"/>scilicet amor, timor, ira, et alia huiusmodi, habent 
+ratio<lb break="no" ed="#L" n="49"/>nem passionis proprie, secundum quod intervenit in eis
+<lb ed="#L" n="50"/>aliqua transmutatio corporalis, et huiusmodi transmutatio
+<lb ed="#L" n="51"/>est annexa motui animae; ideo huiusmodi actus 
+appe<lb break="no" ed="#L" n="52"/>titus animalis habent quidem rationem passionis, ratione
+<lb ed="#L" n="53"/>annexi; habent autem rationem appetitivi motus, et talis,
+<lb ed="#L" n="54"/>puta irae vel timoris, secundum se. Propter quod in 
+lit<lb break="no" ed="#L" n="55"/>tera dicitur quod animae convenit huiusmodi pati per
+<lb ed="#L" n="56"/>accidens: et alibi, scilicet in xxvi qu. de Veritate, dicitur
+<lb ed="#L" n="57"/>quod irasci, timere, etc., conveniunt animae per se. Et
+<lb ed="#L" n="58"/>revera hoc habet compositum ratione animae, illud ratione
+<lb ed="#L" n="59"/>corporis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e786-Dd1e257"><!-- caj-p2p1-q22-a2 -->
+               <head xml:id="TAcCaj-d1e786-Hd1e260">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e786-d1e262">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e269">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>AD corpore articuli secundi, adverte quod, cum 
+determi<lb break="no" ed="#L" n="55"/>natum fuerit in primo articulo quod motus animi habet
+<lb ed="#L" n="56"/>rationem passionis ex adiuncta transmutatione corporali ,
+<lb ed="#L" n="57"/>putaret quispiam quod ex maiori propinquitate ad 
+huius<lb break="no" ed="#L" n="58"/>modi transmutationem, debuisset definiri an appetitiva vel
+<lb ed="#L" n="59"/>apprehensiva pars sapiat passionem. Et licet hoc licitum
+<lb ed="#L" n="60"/>fuisset, et eadem conclusio ab Auctore alibi ex hac radice
+<lb ed="#L" n="61"/>habeatur, eo quod nulla vis apprehensiva causat 
+transmu<lb break="no" ed="#L" n="62"/>tationem corporalem nisi mediante appetitiva, ac per hoc,
+<lb ed="#L" n="63"/>appetitiva, propinquior passioni, magis eam participat, ita
+<lb ed="#L" n="64"/>quod materialiter cadat in eius ratione, ut in responsione
+<lb ed="#L" n="65"/>ad tertium in littera dicitur; altius tamen exorsus, Auctor
+<lb ed="#L" n="66"/>ex propriis rationibus motuum apprehensivae et appetitivae,
+<lb ed="#L" n="67"/>intentum venatus est; ita quod, seclusa transmutatione 
+cor<lb break="no" ed="#L" n="68"/>porali, invenit appetitivum motum habere magis rationem
+<lb ed="#L" n="69"/>passionis. Cum enim, secluso corpore, pati consistat in 
+re<lb break="no" ed="#L" n="70"/>cipere ab agente et trahi in illud (omne enim agens, 
+assi<lb break="no" ed="#L" n="71"/>milando sibi patiens, trahit illud ad se); et pars apprehensiva
+<lb ed="#L" n="72"/>minus trahatur ad agens quam pars appetitiva: consequens
+<lb ed="#L" n="73"/>est quod passionis communiter dictae magis habeat 
+ratio<lb break="no" ed="#L" n="74"/>nem pars appetitiva quam apprehensiva. Et probatur minor
+<lb ed="#L" n="75"/>in littera: quia pars appréhensiva trahitur ab agente ad hoc
+<lb ed="#L" n="76"/>ut sit ipsum secundum esse intentionale; pars vero 
+appe<lb break="no" ed="#L" n="77"/>titiva trahitur ab agente ad hoc ut iungatur sibi secundum
+<lb ed="#L" n="78"/>esse naturale.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e328">
+                  <lb ed="#L" n="79"/>II. Sed accidit dubitatio. Quia aut hic est sermo de 
+pas<lb break="no" ed="#L" n="80"/>sione, ut est ab agente: aut communiter, ut est sive ab
+<lb ed="#L" n="81"/>agente sive a fine. Si primo modo, tunc ambigua videtur
+<lb ed="#L" n="82"/>ratio: quoniam de appetibili, an moveat effective appetitum,
+<lb ed="#L" n="83"/>magna quaestio est. - Si secundo modo, tunc nihil valet
+<lb ed="#L" n="84"/>ratio: quia magis patitur qui proprie patitur, quam qui
+<lb ed="#L" n="85"/>metaphorice; finis autem metaphorice agit. Ex hoc igitur
+<lb ed="#L" n="86"/>quod appetitus. magis: trahitur ad suum obiectum, quam
+<lb ed="#L" n="87"/>pars apprehensiva ad suum, non sequitur quod magis 
+pa<lb break="no" ed="#L" n="88"/>tiatur: quoniam apprehensiva patitur vere, idest a vere
+<lb ed="#L" n="89"/>agente; appetitiva autem non patitur vere.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e354">
+                  <lb ed="#L" n="90"/>Ad hoc dicitur quod sumitur passio vere, et non 
+me<lb break="no" ed="#L" n="91"/>taphorice: et quod appetibile, ut dicit Averroes, in XII Me-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>taphys., commento xxxvr, secundum quod est in anima,
+<lb ed="#L" n="93"/>est agens desiderium, et trahit ad se finem ut est in re. Ita
+<lb ed="#L" n="94"/>quod differentia assignata in littera consistit in hoc, quod
+<lb ed="#L" n="95"/>agens in. partem apprehensivam, trahit ipsum. ad se in
+<lb ed="#L" n="96"/>esse intentionale, et hic sistit: ad hoc enim actio haec et
+<lb ed="#L" n="97"/>passio ordinatur. Appetibile autem agens in partem 
+appe<lb break="no" ed="#L" n="98"/>titivam, trahit ipsam effective ad hoc ut iungatur sibi 
+rea<lb break="no" ed="#L" n="99"/>liter, quovis modo contingat ista coniunctio realis: sufficit
+<lb ed="#L" n="100"/>enim quod passio illa per se ordinetur ad. realem 
+coniun<lb break="no" ed="#L" n="101"/>ctionem. — Quod autem a multis vertatur in dubium, an
+<lb ed="#L" n="102"/>appetibile agat in appetitum, eis relinquatur haec dubitatio :.
+<lb ed="#L" n="103"/>nos enim experimur incuti nobis a malis futuris 
+appre<lb break="no" ed="#L" n="104"/>hensis timorem, a praesentibus tristitiam, et a delectabilibus
+<lb ed="#L" n="105"/>coniunctis delectationem, etiam si nolimus, sicut a MépHid
+<lb ed="#L" n="106"/>libus sensationes.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e397">
+                  <lb ed="#L" n="107"/>III. In responsione ad primum, dubium occurrit. (des
+<lb ed="#L" n="108"/>si in his quae pertinent ad defectum, intensio non 
+atten<lb break="no" ed="#L" n="109"/>ditur penes accessum ad aliquod maius, oportet falsam 
+red<lb break="no" ed="#L" n="110"/>dere, aut excipere tam a doctrina tradita in II Metapltys.,
+<lb ed="#L" n="111"/>allegata in argumento, quam in I Poster., scilicet, 
+Pro<lb break="no" ed="#L" n="112"/>pter quod unumquodque tale, illud magis. — Deinde quia. 5
+<lb ed="#L" n="113"/>videmus quod potentia maior est penes accessum ad. 
+ma<lb break="no" ed="#L" n="114"/>teriam primam. Constat autem potentiam defectum sonare.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e417">
+                  <lb ed="#L" n="115"/>IV. Ad hoc dicitur quod doctrina hic tradita non solum.
+<lb ed="#L" n="116"/>dicta, sed probata ratione est: quia scilicet ratio privationis
+<lb ed="#L" n="117"/>et defectus consistit in hoc, scilicet in recessu a perfecto.
+<lb ed="#L" n="118"/>Regulare quippe est quod unumquodque est magis et minus.
+<lb ed="#L" n="119"/>tale, secundum sui constitutivi propriam latitudinem, ut.
+<lb ed="#L" n="120"/>patet inductive. Defectiva igitur, cum constituantur per hoc.
+<lb ed="#L" n="121"/>quod est deficere ab aliquo, quanto magis ab illo deficiunt,
+<lb ed="#L" n="122"/>tanto magis erunt defectiva: haec enim est propria latitudo
+<lb ed="#L" n="123"/>deficientis ut sic. Ex hoc autem quod defectiva ut sic,
+<lb ed="#L" n="124"/>penes maiorem elongationem a perfectione magis defectiva
+<lb ed="#L" n="125"/>sunt; consequens est quod maior defectus non sit a minori
+<lb ed="#L" n="126"/>defectu ut propria causa, sed ex ipsa elongatione 
+inter<lb break="no" ed="#L" n="127"/>venit. Sicut enim in perfectionibus intensio est penes 
+ac<lb break="no" ed="#L" n="128"/>cessum ad causam, quia perfectio effectus est ex causa; ita
+<lb ed="#L" n="129"/>si in malis defectus consequens esset ex praecedente in sua
+<pb ed="#L" n="171"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>causa, ut propria causa defectus, effectus intenderetur 
+se<lb break="no" ed="#L" n="2"/>cundum accessum ad causam.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e461">
+                  <lb ed="#L" n="3"/>Et ex hoc patet solutio primae obiectionis. In defectivis
+<lb ed="#L" n="4"/>enim causa defectiva non est propria causa effectus 
+defe<lb break="no" ed="#L" n="5"/>ctivi quoad defectum: sed ex hoc ipso quod magis 
+elon<lb break="no" ed="#L" n="6"/>gatur a perfectiori, magis defectivum est. Unde licet pars
+<lb ed="#L" n="7"/>apprehensiva sit causa appetitivae, et potentialitas in 
+appre<lb break="no" ed="#L" n="8"/>hensiva causet potentialiÀtatem in appetitiva; maior tamen
+<lb ed="#L" n="9"/>potentialitas invenitur in appetitiva, ex hoc ipso quod magis
+<lb ed="#L" n="10"/>recedit ab actu quam apprehensiva. Quod est dictu quod
+<lb ed="#L" n="11"/>potentialitas sua non tota est a potentialitate 
+apprehensi<lb break="no" ed="#L" n="12"/>vae, sed ex necessitate adveniens.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e485">
+                  <lb ed="#L" n="13"/>Ad secundam autem obiectionem dicitur quod, quia, ut
+<lb ed="#L" n="14"/>dicitur X Metaphys., mensura debet esse certissima, nihil
+<lb ed="#L" n="15"/>prohibet quoad nos defectus mensurari penes accessum ad
+<lb ed="#L" n="16"/>aliquod positum summe deficiens: sicut infirmitates 
+maio<lb break="no" ed="#L" n="17"/>res et minores dicimus per accessum ad mortem, et similiter
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>potentialia apud nos per accessum ad materiam primam;
+<lb ed="#L" n="19"/>cum in rei veritate, illae per recessum a vita, et istae per
+<lb ed="#L" n="20"/>recessum ab actu, maiores vel minores sunt.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e507">
+                  <lb ed="#L" n="21"/>V. In responsione ad secundum, adverte quod non
+<lb ed="#L" n="22"/>concedit Auctor quod vis appetitiva sit magis activa 
+sim<lb break="no" ed="#L" n="23"/>pliciter, sed quoad principiandum actum exteriorem. Vis
+<lb ed="#L" n="24"/>enim apprehensiva, cum moveat appetitivam, est magis in
+<lb ed="#L" n="25"/>actu simpliciter, et magis activa quodammodo : appetitiva
+<lb ed="#L" n="26"/>autem efficacior est ad actum exteriorem, quia ei obediunt
+<lb ed="#L" n="27"/>vires executivae, et quia primum movens est ad exercitium
+<lb ed="#L" n="28"/>actus. Quod tamen totum, ut in littera dicitur, habet ex
+<lb ed="#L" n="29"/>eodem ex quo habet quod sit magis passiva: ex natura
+<lb ed="#L" n="30"/>namque appetitus est et quod tendat in bonum, in finem,
+<lb ed="#L" n="31"/>in rem secündum seipsam. Constat namque quod ex hoc
+<lb ed="#L" n="32"/>quod finis est obiectum appetitus, supremus appetitus habet
+<lb ed="#L" n="33"/>quod sit motivus simpliciter ad exercitium, et universaliter
+<lb ed="#L" n="34"/>quod appetitus movet membra, ut patet ex III de Anima.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e786-Dd1e541"><!-- caj-p2p1-q22-a3 -->
+               <head xml:id="TAcCaj-d1e786-Hd1e544">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e786-d1e546">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="100"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e553">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="101"/>In articulo tertio dubium hic solvendum occurrit, quod
+<lb ed="#L" n="102"/>in pluribus locis moveri potest. Et est dubium ad 
+homi<lb break="no" ed="#L" n="103"/>nem, scilicet s. Thomam: scilicet quo pacto ipse in Prima
+<lb ed="#L" n="104"/>Parte, qu. 1xxxr, art. 4, ponit differentiam inter motionem
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="105"/>intellectus a voluntate et e converso, in hoc quod 
+intelle<lb break="no" ed="#L" n="106"/>ctus finaliter, voluntas vero effective movet; et hic vult
+<lb ed="#L" n="107"/>quod bonum intellectum est activum in voluntatem.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e575">
+                  <lb ed="#L" n="108"/>II. Ad hoc dicitur quod bonum apprehensum movet
+<pb ed="#L" n="172"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>appetitum dupliciter, effective scilicet, et finaliter: effective
+<lb ed="#L" n="2"/>quidem, causando ipsum actum appetitus; finaliter vero,
+<lb ed="#L" n="3"/>quoniam ipse actus in appetitu causatus, tendit in bonum
+<lb ed="#L" n="4"/>apprehensum ut finem. Differenter tamen apprehensum 
+bo<lb break="no" ed="#L" n="5"/>num causat utroque modo: quia ad causandum effective,
+<lb ed="#L" n="6"/>utitur esse ut forma; ad caüsandum vero finaliter, utitur
+<lb ed="#L" n="7"/>esse ut esse. Appetibile enim, puta sanitas apprehensa, 
+ra<lb break="no" ed="#L" n="8"/>tione sui esse quasi forma, facit in appetitu desiderium sui
+<lb ed="#L" n="9"/>ut sit in esse reali ; iuxta illud Averrois, in XII Metaphys.
+<lb ed="#L" n="10"/>commento xxxvi: Balneum in anima agit desiderium, etc.
+<lb ed="#L" n="11"/>Unde inter ceteras causalitates effectivas, et hanc qua 
+appe<lb break="no" ed="#L" n="12"/>tibile movet appetitum, duplex est differentia. Prima, licet
+<lb ed="#L" n="13"/>occulta, est quia reliquis forma est ratio agendi, unde et
+<lb ed="#L" n="14"/>passum assimilatur agenti: in hac vero, ut bonum 
+invenia<lb break="no" ed="#L" n="15"/>tur omnifariam obiectum formale appetitus, esse induit 
+ra<lb break="no" ed="#L" n="16"/>tionem formae; unde appetitus non suscipit similitudinem
+<lb ed="#L" n="17"/>agentis, sed conveniens sibi in ordine ad tale appetibile.
+<lb ed="#L" n="18"/>Secunda est manifesta: quia in ceteris causa effectiva non
+<lb ed="#L" n="19"/>per se est nisi effectiva; in hac vero necessario ipsa 
+effe<lb break="no" ed="#L" n="20"/>ctiva est finalis non per accidens, sed per se; quoniam per
+<lb ed="#L" n="21"/>se effectus eius est actus per se tendens in causam illam
+<lb ed="#L" n="22"/>ut finem. Propter quod Averroes, in de Substantia Orbis,
+<lb ed="#L" n="23"/>reprehendit dicentes finem non esse agens, dicendo quod
+<lb ed="#L" n="24"/>finis significat agens significatione necessaria. Quia vero
+<lb ed="#L" n="25"/>causalitas ista non est, nec potest esse pure effectiva, sed est
+<lb ed="#L" n="26"/>effectiva et finalis; connumerata est cum finali a s. Thoma
+<lb ed="#L" n="27"/>in Prima Parte et alibi. Quia autem in veritate 
+inter<lb break="no" ed="#L" n="28"/>venit causalitas effectiva, ideo hic et alibi quandoque 
+ex<lb break="no" ed="#L" n="29"/>primitur quod bonum apprehensum est activum, et 
+appe<lb break="no" ed="#L" n="30"/>titus est passivus, etc.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e649">
+                  <lb ed="#L" n="31"/>Est ergo differentia inter intellectum et voluntatem in
+<lb ed="#L" n="32"/>movendo in hoc, quod voluntas movet effective intellectum
+<lb ed="#L" n="33"/>et alias animae vires quoad exercitium actus: intellectus
+<lb ed="#L" n="34"/>autem movet illam finaliter, et cum hoc effective, ad 
+spe<lb break="no" ed="#L" n="35"/>cificationem actus, et illa efficientia quae necessario 
+iun<lb break="no" ed="#L" n="36"/>gitur fini. Propter quod, ut dictum est, finalis tantum 
+cau<lb break="no" ed="#L" n="37"/>salitas expressa est.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e668">
+                  <lb ed="#L" n="38"/>III. Quod autem haec sit Auctoris mens, non solum ex
+<lb ed="#L" n="39"/>dictis nunc haberi potest, sed ex superius dictis, scilicet
+<lb ed="#L" n="40"/>quod intellectus ratione obiecti movet appetitum in genere
+<lb ed="#L" n="41"/>causae formalis: de quo tamen nulla in Prima Parte, loco
+<lb ed="#L" n="42"/>allegato, fit mentio. Ex hoc enim habeo quod, si etiam
+<lb ed="#L" n="43"/>cum dictione exclusiva Auctor dixisset intellectum movere
+<lb ed="#L" n="44"/>voluntatem finaliter solum, adhuc starent quae diximus:
+<lb ed="#L" n="45"/>eo quod exclusio non fit a concomitantibus, et, ut 
+di<lb break="no" ed="#L" n="46"/>ctum est, causam finalem concomitatur efficiens supra
+<lb ed="#L" n="47"/>dicto modo, et formalis respectu actuum, ut superius 
+ex<lb break="no" ed="#L" n="48"/>planatum fuit.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e694">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="49"/>In articulo tertio dubium occurrit de hoc quod etiam in
+<lb ed="#L" n="50"/>primo articulo dictum est, scilicet quod in sola anima et
+<lb ed="#L" n="51"/>appetitu intellectivo nulla est proprie passio. Est autem
+<lb ed="#L" n="52"/>ratio dubii quia Scotus, in I Sent., dist. r, qu. rr, et in IV
+<lb ed="#L" n="53"/>Sent., dist, x.1x, qu. vir, ponit in voluntate non solum 
+ope<lb break="no" ed="#L" n="54"/>rationes, sed passiones spirituales, Et quantum ipse 
+insi<lb break="no" ed="#L" n="55"/>nuare videtur, intendit quod voluntas tunc operatur, quando
+<lb ed="#L" n="56"/>contingit obiectum: tunc autem patitur, quando recipit ab
+<lb ed="#L" n="57"/>obiecto. Ita quod operatio coniungit potentiam obiecto:
+<lb ed="#L" n="58"/>passio autem non, sed ab obiecto est ut causa efficiente
+<lb ed="#L" n="59"/>tantum. Nulla autem haec ratione probat in generali: sed
+<lb ed="#L" n="60"/>forte, super ipsius passionis nomen innixus, et auctoritate
+<lb ed="#L" n="61"/>Aristotelis usus, quod delectatio sequitur operationem ,
+<lb ed="#L" n="62"/>quasi per se notum accepit quod falsum credimus.
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e729">
+                  <lb ed="#L" n="63"/>Passionis enim nomen, in primis, in immaterialibus vel
+<lb ed="#L" n="64"/>ad solam receptionem, ut in intellectu, vel ad receptionem
+<lb ed="#L" n="65"/>per modum rei quae trahitur in aliud, ut in appetitu 
+intelle<lb break="no" ed="#L" n="66"/>ctivo, constat inveniri, ex III de Anima, et V Metaphys.
+<lb ed="#L" n="67"/>Et hoc, proprie loquendo: metaphorice enim consuevimus
+<lb ed="#L" n="68"/>actus voluntatis similes passionibus appetitus sensitivi, 
+vo<lb break="no" ed="#L" n="69"/>care passiones, ut velle vindictam vocamus iram, et velle
+<lb ed="#L" n="70"/>malum alicui vocamus odium. Et haec locutio multos, 
+iu<lb break="no" ed="#L" n="71"/>dicio meo, fefellit. ;
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e751">
+                  <lb ed="#L" n="72"/>Quod autem delectatio sequatur operationem, hoc accidit
+<lb ed="#L" n="73"/>ei inquantum est passio: non enim omnis passio sequitur
+<lb ed="#L" n="74"/>sic operationem ; immo stat quod passio sit prima operatio
+<lb ed="#L" n="75"/>appetitus; ut patet de amore. Et tu potes sic inspicere quod
+<lb ed="#L" n="76"/>dicimus. Amor est passio, immo prima omnium 
+passio<lb break="no" ed="#L" n="77"/>num: et tamen amor est operatio tam in appetitu 
+sensi<lb break="no" ed="#L" n="78"/>tivo quam intellectivo: ergo distinctio inter passionem et
+<lb ed="#L" n="79"/>operationem appetitus nulla est. Minor patet: quia amor
+<lb ed="#L" n="80"/>maxime contingit obiectum; et, apud Scotum, est ipsa
+<lb ed="#L" n="81"/>essentia beatitudinis. — Praeterea, delectatio est passio: et
+<lb ed="#L" n="82"/>habet pro obiecto, et non solum pro causa, delectabile:
+<lb ed="#L" n="83"/>ergo delectatio est coniungens obiecto. Probatur 
+assum<lb break="no" ed="#L" n="84"/>ptum. Quia videns Deum, delectatur de Deo tanquam 
+obie<lb break="no" ed="#L" n="85"/>cto summo delectabili: et qui habet delectationem 
+moro<lb break="no" ed="#L" n="86"/>sam, delectatur de re cogitata turpi ut obiecto delectabili,
+<lb ed="#L" n="87"/>ac si esset in re, et non solum ut causa efficiente. -
+</p>
+               <p xml:id="TAcCaj-d1e786-d1e788">
+                  <lb ed="#L" n="88"/>Dicito ergo quod passiones in appetitu sensitivo sunt
+<lb ed="#L" n="89"/>verae operationes, causatae tamen ab appetibili, et 
+haben<lb break="no" ed="#L" n="90"/>tes pro obiecto appetibile. Sed differentia consistit in hoc,
+<lb ed="#L" n="91"/>quod in appetitu sensitivo sunt permixtae cum passione
+<lb ed="#L" n="92"/>corporali: in appetitu vero intellectivo, non. Et per 
+exclu<lb break="no" ed="#L" n="93"/>sionem huius compositionis, dicuntur in eo simplices actus,
+<lb ed="#L" n="94"/>similes tamen passionibus sensitivi appetitus, Haec nunc
+<lb ed="#L" n="95"/>sufficiant in communi: in speciali autem inferius, cum de
+<lb ed="#L" n="96"/>delectatione et tristitia tractabitur, sermo erit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 52</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 52</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="332"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e941"><!-- TAcCajp2p1-q52 -->
+            <head xml:id="TAcCaj-d1e941-Hd1e99">Quaestio 52</head>
+            <div xml:id="TAcCaj-d1e941-Dd1e101"><!-- caj-p2p1-q52-a1 -->
+               <head xml:id="TAcCaj-d1e941-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e941-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>IN articulo primo quaestionis quinquagesimaesecundae,
+<lb ed="#L" n="11"/>Lois sunt dubia dilucidanda, cum Dei gratia. Est in 
+pri<lb break="no" ed="#L" n="12"/>mis dubium circa sensum distinctionis factae in corpore
+<lb ed="#L" n="13"/>articuli, quod perfectio et augmentum formae dicitur 
+du<lb break="no" ed="#L" n="14"/>pliciter, secundum ipsam formam, et secundum 
+participa<lb break="no" ed="#L" n="15"/>tionem formae in subiecto. Aut enim intendit de forma
+<lb ed="#L" n="16"/>in abstracto, vel concreto. Et hoc est extra propositum:
+<lb ed="#L" n="17"/>quia spectat distinctio haec ad modos significandi; 
+quae<lb break="no" ed="#L" n="18"/>stio autem est de re. — Aut de forma specifice, et 
+numera<lb break="no" ed="#L" n="19"/>liter. Et hoc non: quia haec scientia est parva vel magna
+<lb ed="#L" n="20"/>secundum seipsam. - Aut de essentia formae, et 
+participa<lb break="no" ed="#L" n="21"/>tione eius in subiecto, ut littera innuere videtur. Et implicat
+<lb ed="#L" n="22"/>contradictionem, ut Auctor dicit in II II", qu. xxtv, art. 4,
+<lb ed="#L" n="23"/>ad 3: quoniam si participatio formae in subiecto intenditur,
+<lb ed="#L" n="24"/>ipsa quoque substantia formae intenditur, ut ibi dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e150">
+                  <lb ed="#L" n="25"/>II. Ad hoc dicitur quod obscuritatem in hac re facit
+<lb ed="#L" n="26"/>ly secundum quod. Dupliciter enim sumi potest. Primo, ut
+<lb ed="#L" n="27"/>denotat rem denominatam tantum: ut cum dicitur, 
+Socra<lb break="no" ed="#L" n="28"/>tes est albus secundum dentes. Et sic non sumitur in
+<lb ed="#L" n="29"/>proposito: sic enim implicat contradictoria formam augeri
+<lb ed="#L" n="30"/>secundum esse in subiecto, et non secundum seipsam;
+<lb ed="#L" n="31"/>utrumque enim est auctum. — Alio modo sumitur ut denotat
+<lb ed="#L" n="32"/>causam seu radicem: ut cum dicitur quod /omo secundum
+<lb ed="#L" n="33"/>quod rationalis, est artifex. Et hoc modo sumitur in 
+pro<lb break="no" ed="#L" n="34"/>posito. Et est sensus quod perfectio et augmentum formae
+<lb ed="#L" n="35"/>aut oritur ex ipsa natura specifica formae, aut ex 
+partici<lb break="no" ed="#L" n="36"/>patione eius in. subiecto. Ita quod utraque perfectio, et
+<lb ed="#L" n="37"/>utrumque augmentum, ubi invenitur, commune est formae
+<lb ed="#L" n="38"/>et subiecto ut habet formam: differentia autem est in causa
+<lb ed="#L" n="39"/>originis, ut clare habes inferius in qu. rrr, art. 2, ad 2, de
+<lb ed="#L" n="40"/>diminutione, de qua idem est quod de augmento iudicium.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e187">
+                  <lb ed="#L" n="41"/>III. Circa illam propositionem: Z/lud. secundum. quod
+<lb ed="#L" n="42"/>sortitur aliquid speciem, oportet esse indivisibile, in eodem
+<lb ed="#L" n="43"/>corpore articuli subiunctam, dubium occurrit de qua 
+indi<lb break="no" ed="#L" n="44"/>visibilitate est sermo. Aut enim est sermo de indivisibilitate
+<lb ed="#L" n="45"/>omnimoda. Et hoc non: quia constat quandoque esse 
+di<lb break="no" ed="#L" n="46"/>visibile virtualiter, et materialiter. - Aut de indivisibilitate
+<lb ed="#L" n="47"/>formali. Et hoc, licet sit verum, non tamen est ad 
+propo<lb break="no" ed="#L" n="48"/>situm: quoniam loquimur de augmento, quod stat cum
+<lb ed="#L" n="49"/>indivisibilitate formali. - Aut de indivisibilitate materiali, 
+vo<lb break="no" ed="#L" n="50"/>cando omnem divisionem sive quantitativam, sive 
+gradua<lb break="no" ed="#L" n="51"/>lem, sive quomodolibet absque varietate specifica, 
+materia<lb break="no" ed="#L" n="52"/>lem. Et hoc esset ad propositum: sed est falsum. Quia, cum
+<lb ed="#L" n="53"/>multae species suscipientes magis et minus, sint simplices,
+<lb ed="#L" n="54"/>ut calor et albedo; non potest intelligi ut calor dividatur
+<lb ed="#L" n="55"/>secundum magis et minus, et A eius differentia non 
+in<lb break="no" ed="#L" n="56"/>tendatur et remittatur sicut ipse calor.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e225">
+                  <lb ed="#L" n="57"/>IV. Ad hoc dicitur quód, proprie loquendo, sermo est
+<lb ed="#L" n="58"/>de indivisibilitate latitudinis, opposita divisibilitati qua 
+ali<lb break="no" ed="#L" n="59"/>quid latitudinem habet; sive habeat latitudinem ut calor,
+<lb ed="#L" n="60"/>sive ut animal, sive quovis alio simili modo. Sed attribuitur
+<lb ed="#L" n="61"/>in littera huiusmodi indivisibilitas specificanti ut sic; ita
+<lb ed="#L" n="62"/>quod sensus est quod specificans, inquantum specificans,
+<lb ed="#L" n="63"/>stat in indivisibili, idest caret latitudine, idest non habet
+<lb ed="#L" n="64"/>in se aliqua plura. Et ratio est, quia specificans, ut sic,
+<lb ed="#L" n="65"/>constituit speciem ut ultimum et terminus. Ultimo autem
+<lb ed="#L" n="66"/>et termino, ut sic, repugnat latitudo. Si enim divisionem
+<lb ed="#L" n="67"/>aliquam habet, secundum alterum eorum non determinabit,
+<lb ed="#L" n="68"/>Et rursus secundum aliquid constituet, et secundum aliquid
+<lb ed="#L" n="69"/>non. Et rursus non constituet speciem in certo loco, sed
+<lb ed="#L" n="70"/>secundum aliquid in uno, et secundum aliquid in altero:
+<lb ed="#L" n="71"/>et sic species rerum non haberent fixa loca, sicut numeri ;
+<lb ed="#L" n="72"/>nec constitutiva earum essent sicut constitutiva numerorum
+<lb ed="#L" n="73"/>invariabiliter. Cum his tamen stat quod res specificantes
+<lb ed="#L" n="74"/>habeant latitudinem; ut obiiciendo de calore probatur.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="75"/>Sermo enim noster formalis est: et nihil aliud intendimus
+<lb ed="#L" n="76"/>nisi quod res specificans, ut sic, stat in indivisibili; licet
+<lb ed="#L" n="77"/>ipsamet res, non ut specificans, sed quomodolibet aliter,
+<lb ed="#L" n="78"/>habeat latitudinem, — Quomodo autem hoc sit ad 
+proposi<lb break="no" ed="#L" n="79"/>tum negotium pertinens, in sequenti patebit dubio.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e280">
+                  <lb ed="#L" n="80"/>V. Circa distinctionem et differentiam formarum in 
+lit<lb break="no" ed="#L" n="81"/>tera subiunctam, quod quaedam secundum se vel aliquid
+<lb ed="#L" n="82"/>sui sortiuntur speciem, et quaedam ex. alio, ad quod 
+ordi<lb break="no" ed="#L" n="83"/>nantur; et illae secundum se habent. determinatam 
+ratio<lb break="no" ed="#L" n="84"/>nem neque in plus neque in minus declinabilem, istae
+<lb ed="#L" n="85"/>vero possunt secundum se diversificari in plus et minus,
+<lb ed="#L" n="86"/>salva unitate specifica, propter unitatem eius ad quod 
+or<lb break="no" ed="#L" n="87"/>dinantur: dubium est et de sensu verborum, et de efficacia
+<lb ed="#L" n="88"/>ad propositum. De sensu quidem, quia, cum differentia sit
+<lb ed="#L" n="89"/>intrinsecum constitutivum omnis formae, nulla est forma
+<lb ed="#L" n="90"/>quae sic sortiatur speciem ab extraneo: quia omnis forma
+<lb ed="#L" n="91"/>secundum se, vel aliquid sui, puta differentiam propriam,
+<lb ed="#L" n="92"/>sortitur speciem; ac per hoc, omnis forma clauditur sub
+<lb ed="#L" n="93"/>primo membro, et nulla restat sub secundo.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e313">
+                  <lb ed="#L" n="94"/>De efficacia vero, quoniam revera omnis forma habet
+<lb ed="#L" n="95"/>propriam differentiam, secundum quam nec in plus nec
+<lb ed="#L" n="96"/>in minus specifice declinare potest; sed sub illa differentia,
+<lb ed="#L" n="97"/>in plus et minus aliqua forma declinat; ut patet de calore
+<lb ed="#L" n="98"/>et albedine, Nec aliter est in motu, puta calefactione, quam
+<lb ed="#L" n="99"/>in calore: sicut enim calefactio, salva sua specifica unitate,
+<lb ed="#L" n="100"/>undecumque illam habeat, intenditur et remittitur, ita et
+<lb ed="#L" n="101"/>calor. Unde specificatio secundum se vel ex alio in formis,
+<lb ed="#L" n="102"/>nihil videtur facere ad propositum, etc.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e335">
+                  <lb ed="#L" n="103"/>VI. Ad hoc dicitur quod non est sensus quod 
+forma<lb break="no" ed="#L" n="104"/>rum quaedam includunt in se differentiam  constitutivam,
+<lb ed="#L" n="105"/>et quaedam non: quoniam differentia est quae conducit
+<lb ed="#L" n="106"/>ad esse, et eius quod est esse rei, pars est, ut in 
+Praedi<lb break="no" ed="#L" n="107"/>cabilibus dicitur; et stultum est hoc vertere in dubium.
+<lb ed="#L" n="108"/>Sed sensus est quod quaedam formae habent suam 
+diffe<lb break="no" ed="#L" n="109"/>rentiam sine ordine ad aliquod extraneum, ut calor, albedo
+<lb ed="#L" n="110"/>et huiusmodi: quaedam vero habent suas differentias cum
+<lb ed="#L" n="111"/>ordine ad aliquod extraneum, ita quod non sunt 
+absolu<lb break="no" ed="#L" n="112"/>biles ab illo extraneo, ut motus, potentiae, habitus, et si
+<lb ed="#L" n="113"/>quid est huiusmodi, de quibus in Primo libro diffuse
+<lb ed="#L" n="114"/>sermo est habitus. Et hic sensus nullam pastor calumniam 5
+<lb ed="#L" n="115"/>aut falsitatem; ut ibi ostensum est.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e366">
+                  <lb ed="#L" n="116"/>Efficacia autem sunt haec ad intentum. Quoniam formae,
+<lb ed="#L" n="117"/>ex sua natura specifica tantum, nihil habent nisi quod 
+sor<lb break="no" ed="#L" n="118"/>tiuntur ex suo specificativo: quod in indivisibili consistere
+<lb ed="#L" n="119"/>dictum est. Illae igitur formae quae suum . specificans 
+in<lb break="no" ed="#L" n="120"/>divisibile sic intus obtinent quod ad nihil extra ordinantur,
+<lb ed="#L" n="121"/>nihil habent ex hoc nisi indivisibile: ac per hoc, secundum
+<lb ed="#L" n="122"/>se non habent augmentum. Illae autem quae secundum
+<lb ed="#L" n="123"/>suam propriam differentiam aliquod extraneum, licet 
+indi<lb break="no" ed="#L" n="124"/>visibile, respiciunt, ex ipsa sua natura accessum ad illud,.
+<lb ed="#L" n="125"/>ac per hoc, augmentum in huiusmodi accessu, sortiuntur.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e390">
+                  <lb ed="#L" n="126"/>Ad quorum maiorem evidentiam, scito quod, cum 
+aug<lb break="no" ed="#L" n="127"/>mentum circa quantitatem variabilem in plus aut minus
+<lb ed="#L" n="128"/>sit, sicut forma se habet ad quantitatem huiusmodi, ita se
+<lb ed="#L" n="129"/>habet ad augmentum. Formae autem quae extraneum 
+ali<lb break="no" ed="#L" n="130"/>quod specificativum non respiciunt, nullam secundum suas
+<lb ed="#L" n="131"/>specificas naturas quantitatem mutabilem sortiuntur: sed
+<lb ed="#L" n="132"/>quantitatem tantum perfectionis specificae, ut sic in 
+indivi<lb break="no" ed="#L" n="133"/>sibili consistentem. Formae autem quae aliquod extraneum
+<lb ed="#L" n="134"/>specificativum respiciunt, praeter illam specificam 
+perfectio<lb break="no" ed="#L" n="135"/>nem, sortiuntur aliam quantitatem mutabilem, scilicet 
+secun<lb break="no" ed="#L" n="136"/>dum accessum maiorem vel minorem ad illud specificans. Et
+<lb ed="#L" n="137"/>ideo illae secundum se non augentur aut minuuntur: istae,
+<lb ed="#L" n="138"/>sic. - Et consistit tota vis in hoc quod, licet utrobique 
+spe<lb break="no" ed="#L" n="139"/>cificans, ut sic, consistat in indivisibili, nec habeat latitudi-
+<pb ed="#L" n="333"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nem; et propterea commune est utrisque quod specifice
+<lb ed="#L" n="2"/>nihil potest addi aut subtrahi quin varietur species: 
+ha<lb break="no" ed="#L" n="3"/>bentibus tamen differentiam mendicantem ab extraneo 
+spe<lb break="no" ed="#L" n="4"/>cificante, ex hoc ipso respectu convenienti formae secundum
+<lb ed="#L" n="5"/>suam naturam specificam pure sumptam, annexus est motus
+<lb ed="#L" n="6"/>accessus ad illud maior et minor, secundum quem 
+huius<lb break="no" ed="#L" n="7"/>modi formae secundum se dicuntur augeri vel minui. Tales
+<lb ed="#L" n="8"/>autem accessus non possunt poni in aliis formis: quoniam
+<lb ed="#L" n="9"/>nihil extra. respiciunt specificans, cui divisibilis hic accessus
+<lb ed="#L" n="10"/>annecti possit. Verbi gratia, scientia, quia secundum suam
+<lb ed="#L" n="11"/>naturam respicit scibile, ex hoc ipso quod non abstrahit a
+<lb ed="#L" n="12"/>scibili specificante, consequitur quod plus et minus ad ipsum
+<lb ed="#L" n="13"/>scibile accedere possit, plura vel pauciora de ipso 
+attin<lb break="no" ed="#L" n="14"/>gendo: calor autem, nihil praeter specificam naturam 
+in<lb break="no" ed="#L" n="15"/>trinsecam dicens, nihil habet, ut sic, variabile. Et haec est
+<lb ed="#L" n="16"/>intentio Auctoris de augmento et diminutione formarum
+<lb ed="#L" n="17"/>secundum se.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e465">
+                  <lb ed="#L" n="18"/>VII. Circa augmentum et diminutionem formarum 
+se<lb break="no" ed="#L" n="19"/>cundum participationem in subiecto, secundo loco in 
+cor<lb break="no" ed="#L" n="20"/>pore articuli posita, adverte quod, quia suscipere magis
+<lb ed="#L" n="21"/>et minus latitudinem quandam importat, idcirco. Auctor
+<lb ed="#L" n="22"/>ex indivisibilitate excludente huiusmodi latitudinem, 
+diffe<lb break="no" ed="#L" n="23"/>rentiam manifestat inter formas sic augmentabiles et non
+<lb ed="#L" n="24"/>augmentabiles. Et dupliciter hoc contingit. Primo, si forma
+<lb ed="#L" n="25"/>indivisibiliter se habeat ad subiectum: tunc enim constat
+<lb ed="#L" n="26"/>quod. participatio eius latitudinem non habet, Et hoc 
+in<lb break="no" ed="#L" n="27"/>venitur inter omnem formam substantialem et eius 
+subie<lb break="no" ed="#L" n="28"/>ctum. Et ratio in littera ponitur, quia scilicet specificat
+<lb ed="#L" n="29"/>subiectum: specificare enim actus est in indivisibili 
+consi<lb break="no" ed="#L" n="30"/>stens, ut dictum est, Et est sermo de specificatione subiecti
+<lb ed="#L" n="31"/>non in tali aut tali specie, sed simpliciter: quod solum
+<lb ed="#L" n="32"/>invenitur in forma substantiali; ceterae enim. specificant
+<lb ed="#L" n="33"/>secundum quid.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e502">
+                  <lb ed="#L" n="34"/>Secundo contingit, si de ratione Dr tte sit 
+indivisibi<lb break="no" ed="#L" n="35"/>litas, non in partes quantitativas, sicut numerus et circulus
+<lb ed="#L" n="36"/>partes habent: sed in plura, quorum aliquo adiuncto vel
+<lb ed="#L" n="37"/>adempto, perfectior aut minus perfecta sit: quod est 
+ca<lb break="no" ed="#L" n="38"/>rere latitudine. Et est sermo de forma, non de specificante
+<lb ed="#L" n="39"/>ipsam: iam enim dictum est quod omne specificans, ut
+<lb ed="#L" n="40"/>Sic, consistit in indivisibili. Nunc autem dicimus quod non
+<lb ed="#L" n="41"/>omnis forma consistit in indivisibili: sed quaedam sic, ut
+<lb ed="#L" n="42"/>species figurarum et numerorum; et quaedam non, ut 
+mul<lb break="no" ed="#L" n="43"/>tae qualitates primae et tertiae speciei. Calori enim adempto
+<lb ed="#L" n="44"/>aliquo gradu suae latitudinis, remissior est, ét apposito, 
+in<lb break="no" ed="#L" n="45"/>tensior est: circulus autem, quocumque variato, aut non
+<lb ed="#L" n="46"/>remanet circulus, aut aeque.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e533">
+                  <lb ed="#L" n="47"/>Et sic habes et quare quaedam formae secundum suas
+<lb ed="#L" n="48"/>specificas naturas augentur, et quaedam non (et hoc 
+pro<lb break="no" ed="#L" n="49"/>pter antiquos) : et quare quaedam formae suscipiunt magis
+<lb ed="#L" n="50"/>et minus ut respiciunt: subiectum, et quaedam. non.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e544">
+                  <lb ed="#L" n="51"/>VIII. Circa rationem assignatam in eodem primo arti-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="52"/>culo quaestionis quinquagesimaesecundae, quare quaedam
+<lb ed="#L" n="53"/>formae, ut participabiles in subiecto, suscipiunt magis et
+<lb ed="#L" n="54"/>minus, et quaedam non: dubium duplex restat. Primo, de
+<lb ed="#L" n="55"/>speciebus quantitatis continuae infra latitudinem continui,
+<lb ed="#L" n="56"/>scilicet linea, superficie et corpore. Hae enim in littera
+<lb ed="#L" n="57"/>non tractantur nisi ut induunt discreti rationem, puta 
+bi<lb break="no" ed="#L" n="58"/>cubiti, tricubiti, etc. Et tamen hae neque specificant, neque
+<lb ed="#L" n="59"/>indivisibilitatem de sua ratione sortiuntur: et consequenter
+<lb ed="#L" n="60"/>suscipere deberent magis et minus, si ratio litterae esset
+<lb ed="#L" n="61"/>sufficiens. Constat autem quod non suscipiunt magis et
+<lb ed="#L" n="62"/>minus.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e575">
+                  <lb ed="#L" n="63"/>Secundo, de naturalibus potentiis quae ponuntur in 
+se<lb break="no" ed="#L" n="64"/>cunda specie qualitatis, ut intellectus, voluntas, 
+concupisci<lb break="no" ed="#L" n="65"/>bilis, etc. Quae etiam sunt absque magis et minus: et tamen
+<lb ed="#L" n="66"/>nec specificant, nec indivisibilitatem habent.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e586">
+                  <lb ed="#L" n="67"/>IX. Ad primum, ex duplici capite dici potest. Primo,
+<lb ed="#L" n="68"/>quod huiusmodi quantitates computatae sunt cum formis
+<lb ed="#L" n="69"/>specificantibus, quoad hoc, propter earum propinquitatem
+<lb ed="#L" n="70"/>ad substantiam, a Simplicio, ut patet in littera, Et 
+pro<lb break="no" ed="#L" n="71"/>pterea. Auctor, cum dictum Simplicii non refutaverit, sed
+<lb ed="#L" n="72"/>explanaverit et ampliaverit, in illa computatione eas 
+di<lb break="no" ed="#L" n="73"/>misit, qua ille posuit: et cum hoc, conatus est ex sua 
+ex<lb break="no" ed="#L" n="74"/>plicatione de eisdem sub alia ratione reddere rationem.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e607">
+                  <lb ed="#L" n="75"/>Secundo, quod subiectum praesentis discussionis est 
+for<lb break="no" ed="#L" n="76"/>ma non essentialiter quanta quantitate molis, ut in 
+prin<lb break="no" ed="#L" n="77"/>cipio. corporis articuli innuitur: quoniam magnitudo 
+for<lb break="no" ed="#L" n="78"/>marum de qua est quaestio, circa quam est augmentum
+<lb ed="#L" n="79"/>et diminutio quae vocatur intensio et remissio, 
+distin<lb break="no" ed="#L" n="80"/>guitur in littera contra magnitudinem quantitatis molis. ' Et
+<lb ed="#L" n="81"/>sic quantitas molis, tanquam habens alterius generis 
+magni<lb break="no" ed="#L" n="82"/>tudinem et augmentum et diminutionem, extra praesentem
+<lb ed="#L" n="83"/>disputationem a principio articuli remansit. Erit ergo, 
+se<lb break="no" ed="#L" n="84"/>cundum hoc, ratio litterae de formis non essentialiter quantis
+<lb ed="#L" n="85"/>quantitate molis, quare quaedam suscipiunt magis et minus,
+<lb ed="#L" n="86"/>et quaedam non. Et merito: quia de istis est dubium; illas
+<lb ed="#L" n="87"/>enim constat non suscipere magis et minus. Nec obstat
+<lb ed="#L" n="88"/>quod Auctor etiam ad quantitatis continuae species aliquas
+<lb ed="#L" n="89"/>sermonem. extenderit: quoniam hoc ad perfectionem spectat
+<lb ed="#L" n="90"/>doctrinae, etc.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e644">
+                  <lb ed="#L" n="91"/>X. Ad secundum dicitur quod naturales potentiae quae
+<lb ed="#L" n="92"/>consequuntur immutabiliter substantias, cum formis 
+specifi<lb break="no" ed="#L" n="93"/>cantibus connumerantur: unde hoc nihil obstat. Dico autem
+<lb ed="#L" n="94"/>immutabiliter, quia si aliquae consequerentur mutabiliter,
+<lb ed="#L" n="95"/>ut durum et. molle, nihil prohibet eas suscipere magis et
+<lb ed="#L" n="96"/>minus: alteratione enim facta, fiet magis molle aut minus. -
+<lb ed="#L" n="97"/>Et sic universalis regula videtur stare in formis absolutis:
+<lb ed="#L" n="98"/>respectivae enim absolutarum naturas consequuntur, et 
+se<lb break="no" ed="#L" n="99"/>candum eas suscipiunt vel non suscipiunt magis et minus,
+<lb ed="#L" n="100"/>Duplum enim non suscipit magis et minus: simile autem
+<lb ed="#L" n="101"/>suscipit magis et minus, quia qualitas suscipit magis et
+<lb ed="#L" n="102"/>minus, etc. b
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e941-Dd1e674"><!-- caj-p2p1-q52-a2 -->
+               <head xml:id="TAcCaj-d1e941-Hd1e677">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e941-d1e679">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="93"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e686">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="94"/>In articulo secundo eiusdem quaestionis, dubia duo sunt.
+<lb ed="#L" n="95"/>Primum est circa distinctionem factam in littera, scilicet
+<lb ed="#L" n="96"/>quod si intensio in formis intelligitur per additionem, hoc
+<lb ed="#L" n="97"/>non potest esse nisi dupliciter, scilicet vel ex parte ipsius
+<lb ed="#L" n="98"/>formae, vel ex parte subiecti, etc. Est enim distinctio haec,
+<lb ed="#L" n="99"/>secundum sensum litterae intellecta, insufficiens. Quoniam
+<lb ed="#L" n="100"/>secundum litteram, additio ex. parte formae nihil aliud. 
+si<lb break="no" ed="#L" n="101"/>gnificat quam additionem specificam. Constat autem quod
+<lb ed="#L" n="102"/>praeter additionem specificam et ex parte subiecti, datur
+<lb ed="#L" n="103"/>tertius modus additionis, scilicet gradus ad gradum: qui in
+<lb ed="#L" n="104"/>littera omittitur, et in proposito ponitur a dicentibus quod
+<lb ed="#L" n="105"/>intensio et remissio fit per additionem gradus ad gradum
+<lb ed="#L" n="106"/>vel remotionem gradus a gradu. Insufficiens ergo videtur
+<lb ed="#L" n="107"/>distinctio.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e721">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="108"/>Secundum dubium, valde arduum et. non, nisi uia
+<lb ed="#L" n="109"/>Thomae adiutorio solubile, est de efficacia huius proc
+<lb ed="#L" n="110"/>sus ad excludendum intensióriem formarum non fieri
+<lb ed="#L" n="111"/>additionem gradus ad grádum. Ratio enim in littera -
+<lb ed="#L" n="112"/>cte posita contra additionem, non videtur locum iabsrpid
+<lb ed="#L" n="113"/>istis gradibus: quoniam nec distinguuntur specie, nec 
+subie<lb break="no" ed="#L" n="114"/>cto. - Et augetur dubitatio. Quia aut Auctor intendit 
+exclu<lb break="no" ed="#L" n="115"/>dere opinionem dicentem quod intensio fit per additionem Á"
+<lb ed="#L" n="116"/>gradus ad gradum: aut non. Si non, contra quos ergo 
+dis<lb break="no" ed="#L" n="117"/>putat? Et rursus, diminute tractat materiam hanc, 
+omit<lb break="no" ed="#L" n="118"/>tendo hanc principalem difficultatem. Si sic, cum talis 
+opi<lb break="no" ed="#L" n="119"/>nio non ponat additionem secundum speciem nec 
+secun<lb break="no" ed="#L" n="120"/>dum subiectum, sed secundum generationem novi gradus;
+<lb ed="#L" n="121"/>quomodo ex his excluditur?
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e756">
+                  <pb ed="#L" n="335"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>II. Ad primum dubium facile respondetur, dicendo quod
+<lb ed="#L" n="2"/>distinctio est sufficiens: et quod verum est quod per 
+aug<lb break="no" ed="#L" n="3"/>mentum ex parte formae, intendit varietatem specificam;
+<lb ed="#L" n="4"/>quoniam utitur hoc termino sicut in articulo praecedente.
+<lb ed="#L" n="5"/>Sed sciendum est quod, quia formae accidentales 
+intensi<lb break="no" ed="#L" n="6"/>biles et remissibiles non distinguuntur nisi aut formaliter
+<lb ed="#L" n="7"/>aut materialiter; et distinctio specifica ex forma est, 
+mate<lb break="no" ed="#L" n="8"/>rialis autem ex subiecto: ideo Auctor per illam 
+distinctio<lb break="no" ed="#L" n="9"/>nem non intendit aliam .quam consuetam, scilicet: Aut
+<lb ed="#L" n="10"/>additio est specifice differentis, aut numeraliter. Nec datur
+<lb ed="#L" n="11"/>secundus modus: quoniam additio gradus ad gradum 
+in<lb break="no" ed="#L" n="12"/>telligitur gradus numeraliter distincti, ut tractando 
+secun<lb break="no" ed="#L" n="13"/>dum dubium clarius patebit. Quomodo autem licuerit 
+ad<lb break="no" ed="#L" n="14"/>ditionem numeralem solum secundum additionem subiecti
+<lb ed="#L" n="15"/>exercere, in secundo dicetur dübio.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e796">
+                  <lb ed="#L" n="16"/>III. Ad evidentiam. secundae ambiguitatis, sciendum est
+<lb ed="#L" n="17"/>quod tribus modis potest quis imaginari additionem 
+gra<lb break="no" ed="#L" n="18"/>dus ad gradum in qualitatibus. Primo, ut gradus aliquis
+<lb ed="#L" n="19"/>praeexistens secundum rem actu in aliquo, adiungatur 
+for<lb break="no" ed="#L" n="20"/>mae existenti in aliquo gradu non in summo: sicut 
+quan<lb break="no" ed="#L" n="21"/>titas alimenti additur animali quod augetur. — Secundo, ut
+<lb ed="#L" n="22"/>gradus aliquis praeexistens non secundum rem 'sed 
+secun<lb break="no" ed="#L" n="23"/>dum intellectum et potentiam activam, deforis apponatur
+<lb ed="#L" n="24"/>formae non in summo: sicut aeri illaminato una candela,
+<lb ed="#L" n="25"/>additur aliud. lumen ex alia candela postmodum, et fit
+<lb ed="#L" n="26"/>magis illuminatus. — Tertio, ut gradus aliquis praeexistens
+<lb ed="#L" n="27"/>in potentia subiecti, educatur de eius potentia, et addatur
+<lb ed="#L" n="28"/>praeexistenti: sicut cum forma educitur de potentia subiecti,
+<lb ed="#L" n="29"/>additur subiecto. Praeter hos modos, nescio alium qui ad
+<lb ed="#L" n="30"/>istos non reducatur.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e831">
+                  <lb ed="#L" n="31"/>Sciendum est deinde quod, quia additio non potest 
+in<lb break="no" ed="#L" n="32"/>telligi, ut s. Thomas in II II, qu. xxiv, dicit, absque 
+in<lb break="no" ed="#L" n="33"/>tellectu duorum, scilicet eius cui additur, et eius quod 
+ad<lb break="no" ed="#L" n="34"/>ditur; dualitas autem sine distinctione fingi nequit: oportet
+<lb ed="#L" n="35"/>omnem opinionem ponentem intensionem fieri per 
+addi<lb break="no" ed="#L" n="36"/>tionem, distinctionem horum duorum proponere vel in re,
+<lb ed="#L" n="37"/>vel secundum imaginationem: quamvis, additione facta,
+<lb ed="#L" n="38"/>possit fieri ex utroque unum, ut patet. - Nec te lateat
+<lb ed="#L" n="39"/>quod idem est iudicium de additione magis ad minus, et
+<lb ed="#L" n="40"/>additione gradus ad gradum, et formae ad formam in 
+ea<lb break="no" ed="#L" n="41"/>dem. specie : ut patet in lumine. Est enim aer prius ex 
+can<lb break="no" ed="#L" n="42"/>dela lucente ut duo, illuminatus, verbi gratia, ut duo. Et si
+<lb ed="#L" n="43"/>apponatur alia candela aequae virtutis, etc., erit illuminatus
+<lb ed="#L" n="44"/>ut quatuor: ut patet ex hoc quod melius ibi legimus, et 
+uni<lb break="no" ed="#L" n="45"/>versaliter videmus; quod non esset, si esset factum lumen
+<lb ed="#L" n="46"/>maius extensive, puta plura lumina, et non maius 
+inten<lb break="no" ed="#L" n="47"/>sive. Et tamen constat quod. aliud numero lumen feret,
+<lb ed="#L" n="48"/>si subiectum occupatum non inveniretur. Et propterea 
+Au<lb break="no" ed="#L" n="49"/>ctor, loquens de additione formae ad formam eiusdem
+<lb ed="#L" n="50"/>speciei , loquitur etiam de additione gradus ad gradum:
+<lb ed="#L" n="51"/>gradus enim caloris ut duo, calor quidam est, et sic de
+<lb ed="#L" n="52"/>aliis.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e881">
+                  <lb ed="#L" n="53"/>IV. Examinando igitur modos imaginatos additionis in
+<lb ed="#L" n="54"/>formis, videamus quomodo additionis ratio et veritas 
+in<lb break="no" ed="#L" n="55"/>veniatur. In primo modo, ratio additionis vere salvatur, sed
+<lb ed="#L" n="56"/>nulla:.veritas. Est enim impossibile quod gradus existens
+<lb ed="#L" n="57"/>addatur. existenti, nisi. subiectum subiecto addatur, et tunc
+<lb ed="#L" n="58"/>non fieret magis, sed maius: vel accidens migraret de 
+subie<lb break="no" ed="#L" n="59"/>cto in subiectum, quod est impossibile.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e899">
+                  <lb ed="#L" n="60"/>In secundo modo, ratio additionis apparenter salvatur.
+<lb ed="#L" n="61"/>Est enim in eo non additio, sed additionis modus quidam:
+<lb ed="#L" n="62"/>ut apparet tum ex. eo quod deforis venit secundum 
+veri<lb break="no" ed="#L" n="63"/>tatem, ut in formarum infusarum intensione; vel secundum
+<lb ed="#L" n="64"/>aestimationem, ut in lumine. Tum ex eo quod id quod
+<lb ed="#L" n="65"/>deforis venit, intelligitur ut quoddam. individuum eiusdem  
+<lb ed="#L" n="66"/>speciei, non quod est, sed quod esset si seorsum fieret.
+<lb ed="#L" n="67"/>Et sic salvatur quodammodo distinctio numeralis eius quod
+<lb ed="#L" n="68"/>additur, ad id cui additur. — Veritas autem deficit. Tum 
+quo<lb break="no" ed="#L" n="69"/>niam nulla forma naturalis intensibilis venit deforis, nisi
+<lb ed="#L" n="70"/>apud ponentes formas creari (licet quoad formas 
+superna<lb break="no" ed="#L" n="71"/>turales, caritatem scilicet et huiusmodi, verificetur adventus
+<lb ed="#L" n="72"/>deforis: sed praesens sermo est communis). Tum quoniam
+<lb ed="#L" n="73"/>non est etiam hic vera additio nisi secundum extranea,
+<lb ed="#L" n="74"/>prout scilicet agens additur agenti; ut Auctor in xxiv qu.-
+<lb ed="#L" n="75"/>II" II", art. 5, ad 2, dicit. Et haec etiam additio est per
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>accidens: quia plura lucentia aut calefacientia concurrunt
+<lb ed="#L" n="77"/>in vi unius totalis agentis.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e943">
+                  <lb ed="#L" n="78"/>In tertio autem, additionis ratio eo solo modo apparet,
+<lb ed="#L" n="79"/>quo quidquid novi quomodolibet adgenitum antiquo, 
+ad<lb break="no" ed="#L" n="80"/>venire dicimus. Sed veritas est quod ibi nulla est additio
+<lb ed="#L" n="81"/>nec quoad fieri, nec quoad factum esse. Non quoad fieri,
+<lb ed="#L" n="82"/>quia non additio est, sed. eductio. Nec quoad factum esse,
+<lb ed="#L" n="83"/>quia non salvatur distinctio inter additum et cui additur,
+<lb ed="#L" n="84"/>sicut inter formam in facto esse et materiam. - Ad cuius
+<lb ed="#L" n="85"/>clariorem notitiam, scito quod additio per eductionem de
+<lb ed="#L" n="86"/>potentia subiecti, gradus ad. gradum per intensionem in
+<lb ed="#L" n="87"/>formis, dupliciter aestimari potest. Primo, quod se habeant
+<lb ed="#L" n="88"/>gradus ad invicem sicut unitas superveniens unitati in 
+nu<lb break="no" ed="#L" n="89"/>meris, non quoad discretionem, sed quoad distinctionem.
+<lb ed="#L" n="90"/>Et hanc phantasiam sequi videntur ponentes formas 
+in<lb break="no" ed="#L" n="91"/>tendi per additionem gradus ad gradum. Aestimant enim
+<lb ed="#L" n="92"/>formam compatientem multos eiusdem speciei gradus 
+ad<lb break="no" ed="#L" n="93"/>venientes et recedentes, ac si fingeremus quod numerus
+<lb ed="#L" n="94"/>aliquis invariatus secundum substantiam, perderet et 
+acqui<lb break="no" ed="#L" n="95"/>reret diversas unitates, continuas tamen. Et hoc reputatur
+<lb ed="#L" n="96"/>chimaera. — Unde, secundo, aestimatur quod ipsa simplex
+<lb ed="#L" n="97"/>essentia formae perfectior sit in hoc ipso quod subiectum
+<lb ed="#L" n="98"/>sibi magis subiicit formaliter. Et hoc est ipsam intendi: et
+<lb ed="#L" n="99"/>quanto magis hoc habet, tanto est magis intensa. Et 
+pro<lb break="no" ed="#L" n="100"/>pterea dicere oportet, loquendo de intensione formae ut
+<lb ed="#L" n="101"/>corporaliter respicit subiectum, quod sémper quando est
+<lb ed="#L" n="102"/>intensior, sit perfectior secundum essentiam et. esse et inesse
+<lb ed="#L" n="103"/>in subiecto, et e converso. Nec aliqua ibi intervenit 
+cor<lb break="no" ed="#L" n="104"/>ruptio; sed sola omnium praedictorum augmentatio.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e1004">
+                  <lb ed="#L" n="105"/>V. Divus ergo Thomas, de additione formaliter, iuxta 
+phi<lb break="no" ed="#L" n="106"/>losophicum morem, tractans, primum modum, qui solus
+<lb ed="#L" n="107"/>additionem formalem praefert, distinxit contra alios duos: £^
+<lb ed="#L" n="108"/>quos et pro unico computavit, quia quoad intrinseca, in
+<lb ed="#L" n="109"/>hoc proposito non differunt. Et quodammodo distinctionis
+<lb ed="#L" n="110"/>eorum meminit in II' II^, in loco allegato. Et illum 
+sem<lb break="no" ed="#L" n="111"/>per improbavit: immo in I Sent., dist. xvir, dicit se non
+<lb ed="#L" n="112"/>posse illum intelligere formaliter. Hos autem, seu hunc
+<lb ed="#L" n="113"/>firmavit. Et hic quidem, quia tractat in communi, primo
+<lb ed="#L" n="114"/>ex communibus, quia- forma non fit, sed compositum:
+<lb ed="#L" n="115"/>additio enim nonnulla esset, si forma fieret. Secundo, ex
+<lb ed="#L" n="116"/>propriis additionis: quia scilicet additum distinguitur etc.;
+<lb ed="#L" n="117"/>ut patet in littera.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e1036">
+                  <lb ed="#L" n="118"/>Et per haec patet solutio ad obiecta. - Et tu qui 
+gra<lb break="no" ed="#L" n="119"/>duum additione uteris disputando, si hanc expressurus dicis
+<lb ed="#L" n="120"/>sententiam, a lapsu solo linguae cohibendus restas;. etc.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e1045">
+                  <lb ed="#L" n="121"/>VI. Circa eandem difficultatem de intensione et, 
+remis<lb break="no" ed="#L" n="122"/>sione formarum, in eodem secundo articulo 
+quinquagesimae<lb break="no" ed="#L" n="123"/>secundae quaestionis, dubium adhuc occurrit ex Scoto, in
+<lb ed="#L" n="124"/>ultima quaest. decimaeseptimae distinctionis Primi Sent.
+<lb ed="#L" n="125"/>Ipse siquidem (non solus, ut opinor), sensum non intentum
+<lb ed="#L" n="126"/>adivo Thoma sic impugnavit, ut in aliquo dissentiat 
+se<lb break="no" ed="#L" n="127"/>cundum rem. Duo enim. creduntur ,affirmari, Primum est,
+<lb ed="#L" n="128"/>quod formae intendantur proprie, et remittantur, tantum
+<lb ed="#L" n="129"/>secundum habitudinem ad subiectum. Secundum est, quod
+<lb ed="#L" n="130"/>res illa quae est forma, quando intenditur et remittitur,
+<lb ed="#L" n="131"/>nihil sui reale. absolutum acquirit aut perdit, sed solum
+<lb ed="#L" n="132"/>aliquid in ordine ad subiectum. Et utrumque Scotus 
+im<lb break="no" ed="#L" n="133"/>pugnat.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e1076">
+                  <lb ed="#L" n="134"/>Secundum veritatem autem, secundum dictum non est
+<lb ed="#L" n="135"/>s. Thomae, sed contra ipsum, ut ex supradictis patet.
+<lb ed="#L" n="136"/>Unde non oportet respondere obiectis contra illud. — 
+Pri<lb break="no" ed="#L" n="137"/>mum vero dictum assertum a; divo Thoma est. Nec est
+<lb ed="#L" n="138"/>mirum quod impugnetur a Scoto: quoniam discordavit a
+<lb ed="#L" n="139"/>principio. Divus enim "Thomas posuit formas habere 
+quid<lb break="no" ed="#L" n="140"/>quid habent, aut ex ratione formali, idest specifica, aut ex
+<lb ed="#L" n="141"/>subiecto, seu materia , ita quod quidquid materiale, idest
+<lb ed="#L" n="142"/>non specificum, est in eis, ex materia posuit: ille autem
+<lb ed="#L" n="143"/>non. Et propterea . Auctor latitudinem | formae secundum
+<lb ed="#L" n="144"/>magis et minus, cum infra speciem sit, materialeque 
+ali<lb break="no" ed="#L" n="145"/>quid id sit in specie, ad subiectum reduxit; sicut et cetera
+<lb ed="#L" n="146"/>materialia et individualia. Scotus autem, sequens suas 
+pro<lb break="no" ed="#L" n="147"/>prietates individuales, vult quod' si, per impossibile, forma
+<lb ed="#L" n="148"/>ita abstraheretur a subiecto quod nec etiam. 
+aptitudinali<lb break="no" ed="#L" n="149"/>ter respiceret subiectum, susciperet magis et minus: ita
+<lb ed="#L" n="150"/>quod hoc nec convenit formae in ordine 'ad subiectum;
+<pb ed="#L" n="336"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nec oritur quoquo modo ex subiecto: sicut quantitas molis,
+<lb ed="#L" n="2"/>si, per impossibile, non haberet inclinationem ad subiectum,
+<lb ed="#L" n="3"/>adhuc esset maior vel minor.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e1126">
+                  <lb ed="#L" n="4"/>Probat autem hoc sic. Contraria in summo sunt 
+incom<lb break="no" ed="#L" n="5"/>possibilia: remissa vero, compossibilia. Ergo 
+incompossibi<lb break="no" ed="#L" n="6"/>litas formarum consurgit ex gradibus. Ergo gradus 
+conve<lb break="no" ed="#L" n="7"/>niunt formis priusquam respiciant subiecta. - Prima 
+con<lb break="no" ed="#L" n="8"/>sequentia est per se nota. - Secunda probatur: quia prior
+<lb ed="#L" n="9"/>est incompossibilitas formarum in se, quam sit earum in
+<lb ed="#L" n="10"/>subiecto recipiente; quia enim sibi invicem repugnant, ideo
+<lb ed="#L" n="11"/>non possunt recipi in eodem, et non e converso. Ergo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e1146">
+                  <lb ed="#L" n="12"/>VII. Ad hoc dicitur primo, quod antecedens est falsum,
+<lb ed="#L" n="13"/>loquendo, ut loquimur, de contrariis formaliter, non 
+vir<lb break="no" ed="#L" n="14"/>tualiter inventis, ut in medio; et secundum se, non 
+secun<lb break="no" ed="#L" n="15"/>dum extrinseca, puta animam, vel caelum, vel formam
+<lb ed="#L" n="16"/>mixti. Contraria enim, cum ex specifica differentia contraria
+<lb ed="#L" n="17"/>sint, ut patet X Metaphys., per hoc idem sunt 
+incompos<lb break="no" ed="#L" n="18"/>sibilia in eodem, ut patet ibidem. Unde Aristoteles omnes
+<lb ed="#L" n="19"/>conditiones contrariorum, inter quas est incompossibilitas
+<lb ed="#L" n="20"/>in eodem, reducit ad perfectam differentiam; ut patet ibi.
+<lb ed="#L" n="21"/>Contraria ergo, in quocumque sunt gradu, contraria sunt
+<lb ed="#L" n="22"/>et incompossibilia in eodem, et alterum contra alterum
+<lb ed="#L" n="23"/>pugnat. Quod autem in mixtis maneant remissa, hoc facit
+<lb ed="#L" n="24"/>forma mixti continens: et nihilominus mutuo contra se
+<lb ed="#L" n="25"/>nituntur remissa, sicut in summo, proportionaliter.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e1179">
+                  <lb ed="#L" n="26"/>Dicitur secundo quod, dato antecedente, prima 
+conse<lb break="no" ed="#L" n="27"/>quentia non valet. Quia incompossibilitas formarum 
+pone<lb break="no" ed="#L" n="28"/>retur duplex. Una ex contrarietate: et haec convenit formis
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>secundum se, ex specificis naturis, Et haec non consurgit
+<lb ed="#L" n="30"/>ex gradibus, sed abstrahit ab eis; sicut et ipsa forma. Et
+<lb ed="#L" n="31"/>haec incompossibilitas est prior in formis secundum se,
+<lb ed="#L" n="32"/>quam in subiecto. Quae tamen nihil facit ad arguentem. —
+<lb ed="#L" n="33"/>Altera ex gradibus: et haec convenit formis ex illo respectu
+<lb ed="#L" n="34"/>ad subiectum, ex quo convenit eis latitudo. In littera 
+au<lb break="no" ed="#L" n="35"/>tem patet quod formae de quarum ratione non est 
+indi<lb break="no" ed="#L" n="36"/>visibiliÀtas, participabiles a subiectis absque specificatione
+<lb ed="#L" n="37"/>eorum, habent latitudinem. Unde neque latitudo , neque
+<lb ed="#L" n="38"/>gradus, neque incompossibilitas consurgens ex eis, est prior
+<lb ed="#L" n="39"/>quam sit talis participabilitas formae in subiecto. - Et cum
+<lb ed="#L" n="40"/>dicitur quod ista incompossibilitas est prior inter formas in
+<lb ed="#L" n="41"/>se quam in subiecto: respondetur quod hic est sophisma
+<lb ed="#L" n="42"/>ab una habitudine ad subiectum, ad omnes; seu a negatione
+<lb ed="#L" n="43"/>prioritatis in una, ad negationem prioritatis in omnibus.
+<lb ed="#L" n="44"/>Aliud est enim dicere quod incompossibilitas ista formarum
+<lb ed="#L" n="45"/>sit prior in se quam incompossibilitas in subiecto: aliud est
+<lb ed="#L" n="46"/>dicere quod incompossibilitas formarum in se sit prior omni
+<lb ed="#L" n="47"/>respectu ad subiectum: quia est posterior participabilitate
+<lb ed="#L" n="48"/>tali formarum in subiecto, ex qua consurgit 
+incompossibi<lb break="no" ed="#L" n="49"/>litas secundum gradus in formis in se, et in subiecto.
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e1237">
+                  <lb ed="#L" n="50"/>Ad exemplum autem Scoti de quantitate molis, dicitur
+<lb ed="#L" n="51"/>quod quantitati convenit esse maiorem et minorem in 
+ea<lb break="no" ed="#L" n="52"/>dem. specie, non ex hoc quod est participabilis a subiecto;
+<lb ed="#L" n="53"/>et ideo non est simile: sed ex hoc ipso quia participat
+<lb ed="#L" n="54"/>naturam materiae. Unde si auferatur ab ea id quod habet
+<lb ed="#L" n="55"/>ex hoc quod participat naturam materiae, neque 
+indivi<lb break="no" ed="#L" n="56"/>duum secundum se, nec maius nec minus haberet, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e941-Dd1e1256"><!-- caj-p2p1-q52-a3 -->
+               <head xml:id="TAcCaj-d1e941-Hd1e1259">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e941-d1e1261">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="107"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e941-d1e1268">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="108"/>In articulo tertio eiusdem quaestionis 
+quinquagesimaese<lb break="no" ed="#L" n="109"/>Lui nihil scribendum occurrit nisi, pro novitiis, quod
+<lb ed="#L" n="110"/>sicut ante genitum habitum in anima, potuit anima 
+inten<lb break="no" ed="#L" n="111"/>siori actu generare ipsum; ità post genitum, potest, 
+inten<lb break="no" ed="#L" n="112"/>siori actu quam sit ille etiam ad quem se extendit 
+prae<lb break="no" ed="#L" n="113"/>sens habitus, augere eundem, eodem utens principio activo
+<lb ed="#L" n="114"/>intensius quam. prius usus fuerit: ex hac namque parte
+<lb ed="#L" n="115"/>habet vim augmentativam, unde habet generativam. 
+Quam<lb break="no" ed="#L" n="116"/>vis &amp;d augendum nonnihil operetur iam inchoatus habitus:
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="117"/>non ea ratione, quia nihil prohibet augere aliquid seipsum,
+<lb ed="#L" n="118"/>ut patet ex II de Anima (quoniam hoc de augmento
+<lb ed="#L" n="119"/>proprie sumpto dicitur: hoc autem de quo loquimur 
+aug<lb break="no" ed="#L" n="120"/>mentum, metaphorice dicitur augmentum; proprie vero
+<lb ed="#L" n="121"/>est motus intensionis); sed ea potius ratione, quia actus
+<lb ed="#L" n="122"/>elicitus ab habitu inchoato, et subiectum. disponit, 
+prae<lb break="no" ed="#L" n="123"/>parans ipsum ad perfectius sortiendum habitum; et 
+perfe<lb break="no" ed="#L" n="124"/>ctior est cum ex tota virtute habitus procedit, ita ut ad
+<lb ed="#L" n="125"/>perfectionem maiorem deducere possit habitum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

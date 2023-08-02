@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 30</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 30</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="210"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e827"><!-- TAcCajp2p1-q30 -->
+            <head xml:id="TAcCaj-d1e827-Hd1e99">Quaestio 30</head>
+            <div xml:id="TAcCaj-d1e827-Dd1e101"><!-- caj-p2p1-q30-a2 -->
+               <head xml:id="TAcCaj-d1e827-Hd1e104">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e827-d1e106">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="85"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e113">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>IN quaestione trigesima, omisso primo articulo, in secundo
+<lb ed="#L" n="87"/>Tae quatuor. Primo, quod distinctio in littera facta
+<lb ed="#L" n="88"/>superius declarata est, et in sequenti articulo amplius
+<lb ed="#L" n="89"/>patefiet.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e126">
+                  <lb ed="#L" n="90"/>Secundo, quod Auctor, propter annexam causalitatem
+<lb ed="#L" n="91"/>activam finali, superius declaratam, incipit a virtute activa,
+<lb ed="#L" n="92"/>et descendit ad virtutem motivam finis. Et quia finis 
+de<lb break="no" ed="#L" n="93"/>terminat activam sui virtutem ; et finem constat aliter 
+fina<lb break="no" ed="#L" n="94"/>lizare praesentem , aliter absentem: ideo etiam aliter agit
+<lb ed="#L" n="95"/>praesens et absens. Et non se habent absens et praesens
+<lb ed="#L" n="96"/>ut approximatio et elongatio se habent in agentibus 
+natu<lb break="no" ed="#L" n="97"/>ralibus, scilicet ut conditiones sine quibus actio non fit:
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="98"/>sed se habent ut virtutes activae. Ubi scito, novitie, 
+com<lb break="no" ed="#L" n="99"/>mune esse omni activo, si agit, proximum esse passo, nec
+<lb ed="#L" n="100"/>ab hoc exorbitat activum in appetitum tam sensitivum
+<lb ed="#L" n="101"/>quam intellectivum: et approximationem ipsam, quidquid
+<lb ed="#L" n="102"/>sit, non esse rationem aut virtutem activam, sed 
+condi<lb break="no" ed="#L" n="103"/>tionem sine qua non. Et de hac, utpote ad 
+communissi<lb break="no" ed="#L" n="104"/>mum artificem spectante, non est sermo hic. Sed de 
+prae<lb break="no" ed="#L" n="105"/>sentia et absentia reali dicitur quod concurrunt ad activum
+<lb ed="#L" n="106"/>in appetitum, ut rationes partiales agendi, ita quod 
+dis<lb break="no" ed="#L" n="107"/>tinguunt specie passiones. Integratur enim ratio obiecti
+<lb ed="#L" n="108"/>passionis appetitus sensitivi ex bonitate vel malitia, 
+prae<lb break="no" ed="#L" n="109"/>sentia vel absentia vel indifferentia, et apprehensione. Et
+<pb ed="#L" n="211"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>bonitas quidem et malitia ex natura appetitus exigitur,
+<lb ed="#L" n="2"/>omnis enim appetitus per se appetit bonum, et fugit 
+ma<lb break="no" ed="#L" n="3"/>lum; absentia vero vel praesentia, ut in responsione ad
+<lb ed="#L" n="4"/>primum littera dicit, particularitati potentiae respondet;
+<lb ed="#L" n="5"/>apprehensio vero, animalitati eiusdem.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e189">
+                  <lb ed="#L" n="6"/>Tertio, quod sermo praesens est de distinctione 
+passio<lb break="no" ed="#L" n="7"/>num in genere naturae tantum. Concupiscere enim 
+dele<lb break="no" ed="#L" n="8"/>ctabile in propria vel aliena uxore, in genere naturae 
+distin<lb break="no" ed="#L" n="9"/>guuntur solo numero, sub eadem naturae specie existentes:
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>sed in genere moris sunt diversarum specierum, immo 
+di<lb break="no" ed="#L" n="11"/>versorum generum, virtutis et vitii.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e208">
+                  <lb ed="#L" n="12"/>Quarto, quod ex responsione ad secundum, mirandum
+<lb ed="#L" n="13"/>est de Gregorio de Arimino, in I Sent., dist. r, qu. rr, art. 2,
+<lb ed="#L" n="14"/>dicente quod nullus doctorum quos vidit, tenet 
+cupidita<lb break="no" ed="#L" n="15"/>tem seu desiderium distingui essentialiter ab amore: patet
+<lb ed="#L" n="16"/>enim expresse hic, et superius. Sed forte excusari potest
+<lb ed="#L" n="17"/>in voluntate: in qua tamen manifeste errat, ponens etiam
+<lb ed="#L" n="18"/>delectationem esse amorem, ut superius dictum est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e827-Dd1e227"><!-- caj-p2p1-q30-a3 -->
+               <head xml:id="TAcCaj-d1e827-Hd1e230">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e827-d1e232">
+                  <pb ed="#L" n="212"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e241">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo tertio dubium occurrit, quia male videtur 
+as<lb break="no" ed="#L" n="3"/>lábint distinctio concupiscentiae. Omne enim delectabile
+<lb ed="#L" n="4"/>animaliter est conveniens apprehensum. Cibus enim et
+<lb ed="#L" n="5"/>potus, si non apprehendantur, non concupiscuntur 
+anima<lb break="no" ed="#L" n="6"/>liter, quamvis appetantur a natura: ut patet in 
+melancho<lb break="no" ed="#L" n="7"/>licis nolentibus comedere; valde enim egent cibo, et tamen
+<lb ed="#L" n="8"/>non concupiscunt illum, apprehendentes vel se mortuos,
+<lb ed="#L" n="9"/>vel non egentes, etc.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e263">
+                  <lb ed="#L" n="10"/>II. Ad hoc dicitur quod obiectio procedit ex malo 
+in<lb break="no" ed="#L" n="11"/>tellectu distinctionis. Non enim distinguitur delectabile 
+na<lb break="no" ed="#L" n="12"/>turale a delectabili rationali, propterea quod illud est 
+con<lb break="no" ed="#L" n="13"/>veniens non apprehensum, et hoc est conveniens 
+appre<lb break="no" ed="#L" n="14"/>hensum: commune enim est omni delectabili delectatione
+<lb ed="#L" n="15"/>quae est passio appetitus, esse delectabile apprehensum.
+<lb ed="#L" n="16"/>Nec in hoc ponitur differentia in littera. Sed hac communi
+<lb ed="#L" n="17"/>conditione "delectabilis praesupposita, distinctio in littera
+<lb ed="#L" n="18"/>fit. Ad cuius intellectum, recolito doctrinam. de amore 
+su<lb break="no" ed="#L" n="19"/>perius traditam, scilicet quod similitudo seu proportio
+<lb ed="#L" n="20"/>est propria causa ex parte subiecti, disponens ad amorem.
+<lb ed="#L" n="21"/>Et dicito quod, cum nec concupiscatur nec delectet nisi
+<lb ed="#L" n="22"/>amatum, sicut dupliciter aliquis disponitur ad amandum,
+<lb ed="#L" n="23"/>ita ad concupiscendum et delectandum. Est siquidem 
+ali<lb break="no" ed="#L" n="24"/>quis dispositus et ex natura, et ex aestimatione, ad 
+aman<lb break="no" ed="#L" n="25"/>dum aliquid: ex natura quidem, ad amandum consonum
+<lb ed="#L" n="26"/>naturae, ut cibum ; ex aestimatione vero, ad amandum 
+con<lb break="no" ed="#L" n="27"/>sonum aestimanti, ut adorari. Et similiter aliqua 
+concupi<lb break="no" ed="#L" n="28"/>scentia inest nobis ex natura, qua scilicet concupiscimus
+<lb ed="#L" n="29"/>consona naturae nostrae, apprehensa tamen: et aliqua inest
+<lb ed="#L" n="30"/>nobis ex aestimatione, qua scilicet consona concupiscimus
+<lb ed="#L" n="31"/>nobis reputantibus illa esse bona. Et prima quidem. 
+con<lb break="no" ed="#L" n="32"/>cupiscentia est naturalis, secunda rationalis: quia in prima,
+<lb ed="#L" n="33"/>delectabile quod est obiectum concupiscentiae, consonat
+<lb ed="#L" n="34"/>naturae; in secunda, rationi. Unde cum in littera 
+distin<lb break="no" ed="#L" n="35"/>guitur delectabile in conveniens secundum naturam, et 
+se<lb break="no" ed="#L" n="36"/>cundum apprehensionem, ly secundum denotat causam
+<lb ed="#L" n="37"/>convenientiae ex parte subiecti, et non ex parte obiecti.
+<lb ed="#L" n="38"/>Commune enim est omni delectabili, ut dictum est, esse
+<lb ed="#L" n="39"/>conveniens secundum apprehensionem, ex parte obiecti: si
+<lb ed="#L" n="40"/>enim non apprehenditur ut conveniens, non delectat, ut
+<lb ed="#L" n="41"/>experientia testatur. Unde in concupiscentia rationali 
+ap<lb break="no" ed="#L" n="42"/>prehensio concurrit dupliciter: scilicet obiective, ut concurrit
+<lb ed="#L" n="43"/>in aliis; et dispositive, ex parte subiecti. Propter quod 
+Ari<lb break="no" ed="#L" n="44"/>stoteles, in I Rhetoric., cap. xiu, ponit aestimationem vel
+<lb ed="#L" n="45"/>persuasionem esse causam huius concupiscentiae, illius vero
+<lb ed="#L" n="46"/>naturam.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e346">
+                  <lb ed="#L" n="47"/>III. Circa differentiam positam in littera inter utramque
+<lb ed="#L" n="48"/>concupiscentiam secundum communitatem et proprietatem,
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>dubium occurrit: quia concupiscentiae propriae sunt etiam
+<lb ed="#L" n="50"/>naturales, secundum naturam individualem ; ut patet in his
+<lb ed="#L" n="51"/>quos naturaliter delectat comedere talem vel talem cibum,
+<lb ed="#L" n="52"/>qui aliis abominabilis est.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e365">
+                  <lb ed="#L" n="53"/>Ad hoc dicitur quod delectationes propriae in 
+indivi<lb break="no" ed="#L" n="54"/>duo sunt duplices: quaedam consonae naturae individuali ;
+<lb ed="#L" n="55"/>et quaedam aestimationi, seu, quod idem est, consuetudini
+<lb ed="#L" n="56"/>ex aestimatione. Primae ad naturales concupiscentias 
+spe<lb break="no" ed="#L" n="57"/>ctant: ut ipsemet Aristoteles videtur eas locasse, in I R/
+te<lb break="no" ed="#L" n="58"/>toric., cap. xut, dum concupiscentiam alimenti secundum
+<lb ed="#L" n="59"/>unamquamque speciem, naturalem posuit: et in III Ethic.
+<lb ed="#L" n="60"/>dixit quod aliquid naturalitatis habent, quia alia aliis sunt
+<lb ed="#L" n="61"/>delectabilia. Alterae vero ad rationales concupiscentias 
+spe<lb break="no" ed="#L" n="62"/>ctant: iuxta illud quod in hac littera dicitur, in calce corporis
+<lb ed="#L" n="63"/>articuli, scilicet, Quia diversi diversimode ratiocinantur, ideo
+<lb ed="#L" n="64"/>huiusmodi delectationes propriae et appositae dicuntur.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e394">
+                  <lb ed="#L" n="65"/>IV. In responsione ad secundum, adverte quod Auctor,
+<lb ed="#L" n="66"/>indefesse dispositionem specificam ex obiecto sequens; quia
+<lb ed="#L" n="67"/>in obiecto appetitus duo sunt, res et apprehensio, et ex
+<lb ed="#L" n="68"/>doctrina praecedenti constat quod distinctio rei 
+materia<lb break="no" ed="#L" n="69"/>liter concurrit; ad distinctionem apprehensionis confugit.
+<lb ed="#L" n="70"/>Apprehensio autem prima distinctione dividitur in 
+absolu<lb break="no" ed="#L" n="71"/>tam et discursivam: intellectus enim et ratio primo 
+distin<lb break="no" ed="#L" n="72"/>guunt apprehensionem intellectivam, et his proportionaliter
+<lb ed="#L" n="73"/>respondentia distinguunt apprehensionem. Igitur Auctor illa
+<lb ed="#L" n="74"/>quae absolute apprehensa delectant, naturaliter concupisci;
+<lb ed="#L" n="75"/>et illa quae ratiocinatione apprehensa delectant, rationaliter
+<lb ed="#L" n="76"/>concupisci; ac per hoc specie distingui infert, ut patet in
+<lb ed="#L" n="77"/>littera. - Absoluta autem apprehensio, hoc in loco, excludit
+<lb ed="#L" n="78"/>non solum actualem discursum, sed omnem collationem,
+<lb ed="#L" n="79"/>tam formaliter quam virtualiter, communiter requisitam.
+<lb ed="#L" n="80"/>Dico autem hoc propter persuasos ex consuetudine vel 
+le<lb break="no" ed="#L" n="81"/>vitate, qui etsi absoluta apprehensione formaliter ad 
+con<lb break="no" ed="#L" n="82"/>cupiscentiam rationalem moveantur, videtur tamen ibi esse
+<lb ed="#L" n="83"/>apprehensio discursiva virtualiter, vel ex praecedentium
+<lb ed="#L" n="84"/>efficacia, vel ex dispositione subiecti.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e440">
+                  <lb ed="#L" n="85"/>Ex hac autem responsione manifeste liquet quod 
+ap<lb break="no" ed="#L" n="86"/>prehensio respectu obiecti appetitus, non se habeat ut 
+ap<lb break="no" ed="#L" n="87"/>proximatio activi vel passivi, sed ut ratio obiectiva. Et hoc
+<lb ed="#L" n="88"/>sine dubio oportet omnes fateri, ex eo quod mihil differt
+<lb ed="#L" n="89"/>bonum, vel apparens bonum: et ex eo quod appetitus
+<lb ed="#L" n="90"/>est malus tendens in vere bonum apprehensum ut malum.
+<lb ed="#L" n="91"/>Et haec bene notabis contra Scotum et quoscumque 
+po<lb break="no" ed="#L" n="92"/>nentes apprehensionem ut praevium quid ad appetitum ,
+<lb ed="#L" n="93"/>quasi approximationem activi ad passivum; et appetitum
+<lb ed="#L" n="94"/>ad cognitionem quasi solo ordine praesuppositionis 
+con<lb break="no" ed="#L" n="95"/>sequi. Quod longe est a philosophia.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e827-Dd1e467"><!-- caj-p2p1-q30-a4 -->
+               <head xml:id="TAcCaj-d1e827-Hd1e470">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e827-d1e472">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e479">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="58"/>In articuli quarti titulo, adverte quod concupiscentiam
+<lb ed="#L" n="59"/>esse infinitam, potest intelligi dupliciter: scilicet obiective,
+<lb ed="#L" n="60"/>et subiective; seu ex parte obiecti, et ex parte actus. Ex
+<lb ed="#L" n="61"/>parte quidem actus, esset infinita vel intensive, vel 
+secun<lb break="no" ed="#L" n="62"/>dum successionem: et neutro modo hic directe quaeritur,
+<lb ed="#L" n="63"/>communia namque haec sunt naturalibus. Ex parte autem
+<lb ed="#L" n="64"/>obiecti infinita esset, si haberet obiectum infinitum vel 
+se<lb break="no" ed="#L" n="65"/>cundum perfectionem, vel secundum numerum, vel 
+secun<lb break="no" ed="#L" n="66"/>dum quantitatem continuam manentem vel successivam.
+<lb ed="#L" n="67"/>Et in hoc sensu hic quaeritur an concupiscentia sit infinita.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e505">
+                  <lb ed="#L" n="68"/>II. In. corpore articuli eiusdem , adverte quod duplex
+<lb ed="#L" n="69"/>ratio infinitatis concupiscentiae in littera assignata, 
+dupli<lb break="no" ed="#L" n="70"/>cem non solum causam, sed modum infinitatis, in obiecto
+<lb ed="#L" n="71"/>concupiscibilis insinuat. Est in primis duplex causa: altera
+<lb ed="#L" n="72"/>se tenens ex parte concupiscentis, altera ex parte concupiti.
+<lb ed="#L" n="73"/>Ex parte siquidem concupiscentis, duplex assignata est causa
+<lb ed="#L" n="74"/>concupiscendi: scilicet dispositio naturalis, et rationalis. Et
+<lb ed="#L" n="75"/>ex differentia inter naturam et rationem, redditur ratio 
+infi<lb break="no" ed="#L" n="76"/>nitatis concupiscentiae rationalis: quia natura determinata
+<lb ed="#L" n="77"/>est ad' certum; ratio vero non, sed in infinitum procedit.
+<lb ed="#L" n="78"/>Et sic ex eo quod obiectum concupiscentiae rationalis 
+con<lb break="no" ed="#L" n="79"/>sonat rationi, infinitatem compatitur: sicut etiam ratio, 
+ap<lb break="no" ed="#L" n="80"/>prehendens infinitas divitias, infinitum honorem, infinitum
+<lb ed="#L" n="81"/>tempus, etc., ut quaedam bona. - Ex parte autem concupiti,
+<lb ed="#L" n="82"/>duplex assignatum est obiectum, scilicet finis, et id quod.
+<lb ed="#L" n="83"/>est ad finem: et ex horum differentia redditur ratio 
+infi<lb break="no" ed="#L" n="84"/>nitatis concupiscentiae rationalis. Ex eo enim quod id quod
+<lb ed="#L" n="85"/>est ad finem, commensuratum oportet esse fini, omne 
+con<lb break="no" ed="#L" n="86"/>cupitum propter finem est finitum. Ac per hoc, omne 
+na<lb break="no" ed="#L" n="87"/>turaliter concupitum est finitum: quia propter naturam ut
+<lb ed="#L" n="88"/>finem. Ex eo autem quod finis sine mensura appetitur; et
+<lb ed="#L" n="89"/>ratio de eo quod secundum se est ad finem, facit finem;
+<lb ed="#L" n="90"/>consequens est ut rationalis concupiscentia sit quandoque
+<lb ed="#L" n="91"/>infiniti. - Non est autem utrobique idem infinitatis modus,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>scilicet in honore infinito concupito, et in honore ut fine
+<lb ed="#L" n="93"/>concupito. In primo enim, infinitas est quasi pars rei 
+ap<lb break="no" ed="#L" n="94"/>petitae: in secundo vero, est modus quo res appetita 
+ter<lb break="no" ed="#L" n="95"/>minat appetitum. In primo namque, reputante aliquo fore
+<lb ed="#L" n="96"/>sibi bonum habere infinitas divitias, concupiscit hoc totum,
+<lb ed="#L" n="97"/>scilicet divitias infinitas. In secundo vero, reputante aliquo
+<lb ed="#L" n="98"/>summum bonum in voluptate vel divitiis, etc., concupiscit
+<lb ed="#L" n="99"/>talia ut finem: quod est concupiscere absque 
+determina<lb break="no" ed="#L" n="100"/>tione alicuius quantitatis; et est talia absque mensura 
+ali<lb break="no" ed="#L" n="101"/>qua terminare appetitum. Et haec infinitas attenditur penes
+<lb ed="#L" n="102"/>negationem termini in obiecto: illà vero quasi penes 
+po<lb break="no" ed="#L" n="103"/>sitionem infinitatis in eodem.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e588">
+                  <lb ed="#L" n="104"/>III. Circa secundam rationem dubium occurrit: quia
+<lb ed="#L" n="105"/>secundum illam, concupiscentia naturalis est infinita. 
+Pro<lb break="no" ed="#L" n="106"/>batur. Concupiscentia naturalis aut tendit in aliquid ut 
+fi<lb break="no" ed="#L" n="107"/>nem, aut non. Si tendit in aliquid ut finem, ergo est 
+infi<lb break="no" ed="#L" n="108"/>nita: quia finis infinite appetitur. - Si in nihil tendit ut
+<lb ed="#L" n="109"/>finem, sequitur primo, quod est infinita: quia omnis actus
+<lb ed="#L" n="110"/>tendens ad aliquid sine fine, est infinitus. Sequitur secundo,
+<lb ed="#L" n="111"/>quod nullum delectabile appetitur naturali concupiscentia:
+<lb ed="#L" n="112"/>quia delectabile per se appetitur, ut patet in X Ethic.,
+<lb ed="#L" n="113"/>et finis rationem habet.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e613">
+                  <lb ed="#L" n="114"/>IV. Ad hoc dicitur quod concupiscentia naturalis et 
+ra<lb break="no" ed="#L" n="115"/>tionalis conveniunt in hoc, quod utraque est passio 
+ani<lb break="no" ed="#L" n="116"/>malis, et tendit in bonum secundum utramque rationem
+<lb ed="#L" n="117"/>boni, scilicet finis et propter finem, seu per se et per aliud:
+<lb ed="#L" n="118"/>ut patet in operibus animalium. Hirundo enim appetit 
+ap<lb break="no" ed="#L" n="119"/>prehensam paleam ut bonum utile ad nidum, etc.: appetit
+<lb ed="#L" n="120"/>vero apprehensum delectabile in cibo et generatione, 
+pro<lb break="no" ed="#L" n="121"/>pter se. — Differunt autem in hoc, quod illa a natura 
+diri<lb break="no" ed="#L" n="122"/>gitur, haec a ratione. Directio autem appetitus a natura,
+<lb ed="#L" n="123"/>manifeste patet in appetitu naturali. In quo liquet ad 
+nul<lb break="no" ed="#L" n="124"/>lam rem esse inclinationem, nisi commensuratam naturae:
+<lb ed="#L" n="125"/>non enim materia appetit formam, nisi proportionatam
+<pb ed="#L" n="214"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sibi; neque gravitas inclinat ad locum, nisi proportionatum
+<lb ed="#L" n="2"/>sibi; nec corpus animalis inclinatur in calidum et frigidum,
+<lb ed="#L" n="3"/>nisi proportionatum sibi. Unde obiectum appetitus 
+natu<lb break="no" ed="#L" n="4"/>ralis est commensuratum seu proportionatum naturae: et
+<lb ed="#L" n="5"/>non est res secundum se; nisi forte per accidens res aliqua
+<lb ed="#L" n="6"/>per se sit proportionata illi naturae, ut esse deorsum per
+<lb ed="#L" n="7"/>se commensuratur gravi, ac per hoc magis et maxime 
+ap<lb break="no" ed="#L" n="8"/>petitur. Concupiscentia autem naturalis non differt ab 
+ap<lb break="no" ed="#L" n="9"/>petitu naturali quoad obiectum, sed quoad modum. 
+Natu<lb break="no" ed="#L" n="10"/>raliter siquidem, et animaliter appetere cibum necessarium,
+<lb ed="#L" n="11"/>in modo differunt: quia animaliter appetere, est appetere 
+il<lb break="no" ed="#L" n="12"/>Ium apprehendendo, et per actum proprium; naturaliter vero,
+<lb ed="#L" n="13"/>est absque cognitione et proprio actu, inclinationem habere
+<lb ed="#L" n="14"/>in illum. Quatenus igitur concupiscentia naturalis in 
+obie<lb break="no" ed="#L" n="15"/>ctum tendit apprehensum, in finem et propter finem tendit:
+<lb ed="#L" n="16"/>quatenus vero a natura dirigitur, finis ille modificatur 
+com<lb break="no" ed="#L" n="17"/>mensuratione ad naturam, quod est ordinari ad naturam
+<lb ed="#L" n="18"/>ut ad finem non apprehensum, sed inditum. Et propterea
+<lb ed="#L" n="19"/>repugnat obiecto concupiscentiae naturalis appeti ut finis
+<lb ed="#L" n="20"/>simpliciter: sicut repugnat ei appeti absque 
+commensura<lb break="no" ed="#L" n="21"/>tione ad naturam. Concupiscentia autem rationalis, quia
+<lb ed="#L" n="22"/>ad obiectum apprehensum secundum se tendere 
+permitti<lb break="no" ed="#L" n="23"/>tur, reputante aliquo id sibi pro bono, ex ipsa 
+commen<lb break="no" ed="#L" n="24"/>suratione obiecti ad rationem, infinitate modificatum 
+sor<lb break="no" ed="#L" n="25"/>titur obiectum: ex eo enim quod in voluptate constituit
+<lb ed="#L" n="26"/>quis finem, voluptas non commensuratur illius rationi ut
+<lb ed="#L" n="27"/>appetibile, nisi ut infinite appetibile, ut patet. Est ergo 
+dif<lb break="no" ed="#L" n="28"/>ferentia inter rationalis et naturalis concupiscentiae 
+obie<lb break="no" ed="#L" n="29"/>ctum, non quod alterius finis, alterius id quod est ad finem,
+<lb ed="#L" n="30"/>obiectum est: sed quod alterius, scilicet rationalis, obiectum
+<lb ed="#L" n="31"/>et est finis, et habet totaliter rationem finis; alterius vero,
+<lb ed="#L" n="32"/>scilicet naturalis, obiectum, etsi sit finis, non tamen habet
+<lb ed="#L" n="33"/>totaliter rationem finis, tum quia habet rationem modificati
+<lb ed="#L" n="34"/>ad naturam, tum quia ordinatur ad alium finem inditum,
+<lb ed="#L" n="35"/>scilicet naturam.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e722">
+                  <lb ed="#L" n="36"/>V. Ad obiectionem ergo primam patet quid dicendum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="37"/>est. Formaliter tamen dicito quod concupiscentia naturalis
+<lb ed="#L" n="38"/>tendit in aliquid dupliciter: scilicet ut apprehensum, et ut
+<lb ed="#L" n="39"/>inditum, Et concedito quod, stando in apprehensis, tendit
+<lb ed="#L" n="40"/>in aliquid ut finem, sed non ut totaliter exercentem 
+ratio<lb break="no" ed="#L" n="41"/>nem finis: quia tota latitudo suorum obiectorum 
+appre<lb break="no" ed="#L" n="42"/>hensorum subordinatur naturae ut fini. Et propterea non
+<lb ed="#L" n="43"/>est infinita, sed terminata ad obiectum apprehensum 
+ter<lb break="no" ed="#L" n="44"/>minum et finem, ut dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e746">
+                  <lb ed="#L" n="45"/>Ad secundam vero dicitur eodem modo, quod 
+delecta<lb break="no" ed="#L" n="46"/>bile est secundum se formaliter obiectum et finis naturalis
+<lb ed="#L" n="47"/>concupiscentiae, modificatum tamen commensuratione ad
+<lb ed="#L" n="48"/>naturam, et subordinatum fini indito, qui est natura. 
+Pro<lb break="no" ed="#L" n="49"/>pter quod concupiscentia naturalis ipsius delectabilis, 
+satia<lb break="no" ed="#L" n="50"/>tur. Rationalis autem concupiscentia delectabilis, insatiabilis
+<lb ed="#L" n="51"/>est; ut patet in personis deditis venereis.
+</p>
+               <p xml:id="TAcCaj-d1e827-d1e764">
+                  <lb ed="#L" n="52"/>VI. Circa responsionem ad primum in eodem articulo,
+<lb ed="#L" n="53"/>adverte quod illa verba litterae, prout concupiscitur semel
+<lb ed="#L" n="54"/>in actu, replicanda sunt super secundo membro. Ita quod
+<lb ed="#L" n="55"/>sensus est quod concupiscibile, prout concupiscitur semel
+<lb ed="#L" n="56"/>in actu, est finitum, vel quia est finitum secundum rem;
+<lb ed="#L" n="57"/>vel quia est finitum secundum apprehensionem. Potest
+<lb ed="#L" n="58"/>enim concupisci semel in actu tam finitum quam infinitum
+<lb ed="#L" n="59"/>secundum rem: ut patet in concupiscente simul infinitam
+<lb ed="#L" n="60"/>pecuniam. Apponit autem has duas conditiones, scilicet
+<lb ed="#L" n="61"/>unitatis et actualitatis, quia plurium concupiscentiarum nihil
+<lb ed="#L" n="62"/>prohibet infinitum concupiscibile esse obiectum; et similiter
+<lb ed="#L" n="63"/>concupitum in potentia potest infiniti rationem [habere] :
+<lb ed="#L" n="64"/>sed semel et in actu concupitum, non nisi finitum, vel ut
+<lb ed="#L" n="65"/>finitum, est. Apposuit autem Auctor verba illa inter primum
+<lb ed="#L" n="66"/>et secundüm membrum in littera, cum tamen utrique 
+mem<lb break="no" ed="#L" n="67"/>bro praeposita clariorem effecissent sensum praedictum, ut
+<lb ed="#L" n="68"/>merita ipsius finiti secundum rem, a finito secundum 
+ra<lb break="no" ed="#L" n="69"/>tionem discerneret. Finitum enim secundum rem, ex parte
+<lb ed="#L" n="70"/>sui habet quod semel in actu concupiscatur: infinitum
+<lb ed="#L" n="71"/>autem, non ex parte sui, sed rationis apprehendentis ut 
+fi<lb break="no" ed="#L" n="72"/>nitum, habet ut semel in actu. concupiscatur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

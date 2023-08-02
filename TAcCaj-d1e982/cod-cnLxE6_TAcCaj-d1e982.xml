@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 60</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 60</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="386"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e982"><!-- TAcCajp2p1-q60 -->
+            <head xml:id="TAcCaj-d1e982-Hd1e99">Quaestio 60</head>
+            <div xml:id="TAcCaj-d1e982-Dd1e101"><!-- caj-p2p1-q60-a1 -->
+               <head xml:id="TAcCaj-d1e982-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e982-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>IN corpore articuli primi quaestionis sexagesimae, dubium
+<lb ed="#L" n="9"/>locis quomodo stet quod hic dicitur, quod ratio est
+<lb ed="#L" n="10"/>sicut imperans et movens, appetitiva autem vis sicut mota
+<lb ed="#L" n="11"/>et imperata, cum doctrina superius posita, quod 
+impe<lb break="no" ed="#L" n="12"/>rium est actus rationis motae ab appetitu. Si enim in 
+im<lb break="no" ed="#L" n="13"/>perando appetitus est primum movens, non est ratio ut
+<lb ed="#L" n="14"/>imperans et appetitus imperatus a ratione simpliciter, sed
+<lb ed="#L" n="15"/>ut mota est ab appetitu: ac per hoc, appetitus imperatur
+<lb ed="#L" n="16"/>a seipso principaliter. Et consequenter ruit totus processus
+<lb ed="#L" n="17"/>litterae, fundatus super hoc, quod ratio est velut agens 
+ae<lb break="no" ed="#L" n="18"/>quivocum, et appetitus velut patiens aequivoce a ratione.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e142">
+                  <lb ed="#L" n="19"/>II. Ad hoc dicitur quod aliud est loqui de ratione et
+<lb ed="#L" n="20"/>appetitu in genere naturae: et aliud loqui de eis in genere
+<lb ed="#L" n="21"/>moris. In genere namque naturae, iam dictum fuit quod
+<lb ed="#L" n="22"/>distinguendum est de motione vel ad specificationem, vel
+<lb ed="#L" n="23"/>ad exercitium actus: et quod primum movens ad 
+specifi<lb break="no" ed="#L" n="24"/>cationem, pertinet ad intellectum; primum vero ad 
+exerci<lb break="no" ed="#L" n="25"/>tium, pertinet ad appetitum.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e160">
+                  <lb ed="#L" n="26"/>In genere autem moris, quia supponitur voluntarium,
+<lb ed="#L" n="27"/>ratio moventis et moti, imperantis et imperati, non 
+quae<lb break="no" ed="#L" n="28"/>ritur in actibus absolute, sed in actibus voluntariis. Ita quod
+<lb ed="#L" n="29"/>attenditur quis infer actus voluntarios, sive sint 
+essentiali<lb break="no" ed="#L" n="30"/>ter intellectus, sive voluntatis, sive appetitus sensitivi, habet
+<lb ed="#L" n="31"/>rationem moventis et moti. Et quoniam hic supponitur
+<lb ed="#L" n="32"/>ratio voluntarii ut communis omnibus, non attenditur 
+dif<lb break="no" ed="#L" n="33"/>ferentia moventis et moti penes dependentiam a voluntate.
+<lb ed="#L" n="34"/>Sed quoniam distinguitur penes rationale per essentiam,
+<lb ed="#L" n="35"/>et rationale per participationem; et constat quod rationale
+<lb ed="#L" n="36"/>per participationem derivatur a rationali per essentiam; et
+<lb ed="#L" n="37"/>ratio est rationalis per essentiam, et appetitus rationalis est
+<lb ed="#L" n="38"/>per participationem: ideo ratio dicitur movens et 
+impe<lb break="no" ed="#L" n="39"/>rans, et appetitiva vis mota et imperata, non simpliciter,
+<lb ed="#L" n="40"/>sed in moralibus. Moralia enim voluntario constituuntur
+<lb ed="#L" n="41"/>ut materia, ratione autem ut forma: et in rationali tantum
+<lb ed="#L" n="42"/>animae parte ut sic, fiunt, ut subiecto.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e200">
+                  <lb ed="#L" n="43"/>III. Sed haec responsio non satisfacit: quia nihil 
+spe<lb break="no" ed="#L" n="44"/>ciale dicit in moralibus. Quod sic patet. Aut sermo 
+litte<lb break="no" ed="#L" n="45"/>rae, cum dicit manifestum esse quod in moralibus ratio
+<lb ed="#L" n="46"/>est. moyens .et imperans, appetitiva autem vis mota et 
+im<lb break="no" ed="#L" n="47"/>perata, est de motione ad speciem; aut ad exercitium; aut
+<lb ed="#L" n="48"/>ad utrumque. Si de motione ad speciem, hoc commune
+<lb ed="#L" n="49"/>est tam moralibus quam non moralibus. — Et rursus, ex
+<lb ed="#L" n="50"/>hoc non haberetur intentum. Nam ex hoc quod bonum
+<lb ed="#L" n="51"/>intellectum movet appetitum, non habetur pluralitas 
+spe<lb break="no" ed="#L" n="52"/>cifica appetitionum magis quam intellectionum, nisi quia
+<lb ed="#L" n="53"/>intellectiones sunt causae, et appetitiones causatae. Immo
+<lb ed="#L" n="54"/>potius haberetur forte aequa distinctio: quia obiecta 
+adae<lb break="no" ed="#L" n="55"/>quata appetitionibus "diversarum specierum, sunt 
+diversa<lb break="no" ed="#L" n="56"/>rum rationum ; intellectio autem obiecti pars formalis est,
+<lb ed="#L" n="57"/>quia bonum: ut cognitum, movet.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e235">
+                  <lb ed="#L" n="58"/>Si. vero. de. motione ad exercitium, etiam hoc commune
+<lb ed="#L" n="59"/>est tam: moralibus quam non moralibus: quoniam semper
+<lb ed="#L" n="60"/>imperat ut mota.a voluntate, ut patet superius in 
+quae<lb break="no" ed="#L" n="61"/>stione de Imperio. — Et rursus, ex hoc non apparet unde
+<lb ed="#L" n="62"/>sequatur intentum : cum in littera ex motione rationis supra
+<lb ed="#L" n="63"/>appetitum, non inferatur, Ergo appetitiones ; sed, Ergo 
+ap<lb break="no" ed="#L" n="64"/>petibilia sunt diversarum rationum, quae constat non 
+spe<lb break="no" ed="#L" n="65"/>cificare ad. motionem. exercitii,
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e255">
+                  <lb ed="#L" n="66"/>IV. Ad haec ergo dicitur quod, quia proportio utitur
+<lb ed="#L" n="67"/>rebus quas comparat, ut distinctis; et proportione rationis
+<lb ed="#L" n="68"/>ad appetitum, Auctor pro medio utitur: oportet ut utraque
+<lb ed="#L" n="69"/>vis sumatur secundum sibi propria; infra latitudinem tamen
+<lb ed="#L" n="70"/>moraliutm, quoniam de huius speciebus generis quaestio
+<lb ed="#L" n="71"/>est. Ac per hoc, cum principium proprium moralis esse sit
+<lb ed="#L" n="72"/>ratio, eo quod, ut Dionysius dicit, bonum hominis est. 
+se<lb break="no" ed="#L" n="73"/>cundum rationem esse; oportet ut tam appetitiva quam
+<lb ed="#L" n="74"/>cognoscitiva vis sumatur inquantum rationalis; et in 
+utra<lb break="no" ed="#L" n="75"/>que ut rationalis est, spectemus quid proprium rationi, et
+<lb ed="#L" n="76"/>quid appetitui; et secundum haec iudicium fiat de distin-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>ctione specierum moralium, Et propter hoc Auctor in 
+lit<lb break="no" ed="#L" n="78"/>tera procedit ex hoc, quod ratio est rationalis per 
+essen<lb break="no" ed="#L" n="79"/>tiam, appetitus per participationem. Quamvis autem movere
+<lb ed="#L" n="80"/>appetitum obiective et imperative conveniat intellectui tam
+<lb ed="#L" n="81"/>respectu moralium quam non moralium; movere tamen
+<lb ed="#L" n="82"/>appetitum regulative, proprium est ei respectu moralium.
+<lb ed="#L" n="83"/>Et de hac motione est hic sermo. In ratione enim oportet
+<lb ed="#L" n="84"/>esse legem regulativam appetitus; et habet movere et 
+im<lb break="no" ed="#L" n="85"/>perare eo modo quo lex movet et imperat; et propterea in
+<lb ed="#L" n="86"/>littera. uterque actus ei tribuitur. Movet autem: non quoad
+<lb ed="#L" n="87"/>exercitium actus, ut. patet: sed quoad specificationem, non
+<lb ed="#L" n="88"/>qualemcumque, ut communiter facit, sed regulativam 
+ap<lb break="no" ed="#L" n="89"/>petitus, quod solum in moralibus obtinet. Imperat quoque
+<lb ed="#L" n="90"/>speciem appetitus et exercitii eius et aliorum: quoniam in
+<lb ed="#L" n="91"/>moralibus oportet legem principari, et ei appetitum omnem
+<lb ed="#L" n="92"/>obedire; alioquin, si voluntas principatur, accideret illud,
+<lb ed="#L" n="93"/>Cui nimium licuit, licitum: cui prava voluntas Ius erat,
+<lb ed="#L" n="94"/>et sensus pro ratione fuit. Et quoniam ratio regulat 
+ap<lb break="no" ed="#L" n="95"/>petitum mediante appetibili consonanti ipsi rationi; idcirco
+<lb ed="#L" n="96"/>huius motio non est extra latitudinem motionum ad 
+spe<lb break="no" ed="#L" n="97"/>cificationem. Et rursus idcirco Auctor non immediate 
+in<lb break="no" ed="#L" n="98"/>tulit, Ergo virtutes morales sunt diversae: sed vitando 
+sal<lb break="no" ed="#L" n="99"/>tum, et gradatim descendendo, a ratione ad appetibile, et
+<lb ed="#L" n="100"/>inde ad morales virtutes devenit. Et merito: quia ratio 
+for<lb break="no" ed="#L" n="101"/>mas dat appetibilibus, quibus morale genus ingrediuntur;
+<lb ed="#L" n="102"/>ex hoc namque quod appetibilia consonant vel dissonant
+<lb ed="#L" n="103"/>rationi, moralia sunt, ut ex supradictis patet. Appetibilia
+<lb ed="#L" n="104"/>autem rationi consona, adaequata obiecta sunt speciebus
+<lb ed="#L" n="105"/>moralium appetitionum et virtutum.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e346">
+                  <lb ed="#L" n="106"/>V. Et per haec patet solutio omnium obiectorum.
+<lb ed="#L" n="107"/>Quoniam non loquuntur de imperio regulativo ut sic, quod
+<lb ed="#L" n="108"/>spectat ad specificationem actus et habitus; nec de motione
+<lb ed="#L" n="109"/>et cognitione regulativa unita in se, quia est superioris 
+or<lb break="no" ed="#L" n="110"/>dinis, et participata in obiectis moralium, in quibus 
+dis<lb break="no" ed="#L" n="111"/>tinguitur et implicatur ut pars formalis eorundem : sed de
+<lb ed="#L" n="112"/>imperio ad exercitium actus, et de cognitione absolute.
+<lb ed="#L" n="113"/>Aliud est enim loqui de obiecto cognito; et aliud, de obiecto
+<lb ed="#L" n="114"/>consono rationi. Cognitio namque et consonantia, licet in
+<lb ed="#L" n="115"/>hoc conveniant quod multiplicantur secundum obiecta; 
+re<lb break="no" ed="#L" n="116"/>gula tamen cui consonant consonantia, non multiplicatur;
+<lb ed="#L" n="117"/>et ad hanc dicitur consonans obiectum. Cognitum. autem,
+<lb ed="#L" n="118"/>ut sic, regulam non connotat. ;
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e377">
+                  <lb ed="#L" n="119"/>VI. Circa responsionem ad primum in eodem primo
+<lb ed="#L" n="120"/>articulo, dubium occurrit duplex. Primo, de veritate eius
+<lb ed="#L" n="121"/>quod dicitur, scilicet quod prudentia directiva in omnibus
+<lb ed="#L" n="122"/>moralibus virtutum actibus, est una secundum speciem 
+spe<lb break="no" ed="#L" n="123"/>cialissimam: de tali enim unitate et diversitate est sermo. —
+<lb ed="#L" n="124"/>Secundo, penes quid attenditur unitas specifica rationis 
+for<lb break="no" ed="#L" n="125"/>malis veri obiecti prudentiae. ua
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e395">
+                  <lb ed="#L" n="126"/>VII. Contra primum enim est Scotus, in III Sent., dist.
+<lb ed="#L" n="127"/>xxxvi, art. rt, volens quod, sicut factibilia omnia non subsunt
+<lb ed="#L" n="128"/>arti uni secundum speciem, ita nec agibilia uni prudentiae:
+<lb ed="#L" n="129"/>est enim prudentia recta agibilium ratio, sicut ars factibilium..
+<lb ed="#L" n="130"/>- Oppositum autem, cum Aristotele, VI Ethic., divus Tho-.
+<lb ed="#L" n="131"/>mas hic tenet. Et quod ita sit, probatur efficaciter sic. Recta
+<lb ed="#L" n="132"/>ratio agibilium iudicat inter agibilia diversarum virtutum.
+<lb ed="#L" n="133"/>moralium. Ergo est una respectu omnium virtutum 
+mo<lb break="no" ed="#L" n="134"/>ralium.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e418">
+                  <lb ed="#L" n="135"/>Antecedens patet in bonis et in malis. Nam ad rectam.
+<lb ed="#L" n="136"/>rationem spectat discernere quid nunc, hic, etc., magis
+<lb ed="#L" n="137"/>expediat, punitio iusta acceptae iniuriae, an tolerare illam ;
+<lb ed="#L" n="138"/>similiter, an magis expediat bellare, an voluptates oblatas
+<lb ed="#L" n="139"/>prosequi; et sic de aliis spectantibus ad diversas virtutes.
+<lb ed="#L" n="140"/>vitiaque moralia, etc. — Consequentia patet ex ratione et
+<lb ed="#L" n="141"/>auctoritate II de Anima, de sensu communi. Unde sicut.
+<lb ed="#L" n="142"/>nullus sensus proprius sufficit ad iudicandum inter sen-.
+<lb ed="#L" n="143"/>sibilia propria, nec omnes simul; ita nulla recta ratio 
+ali<lb break="no" ed="#L" n="144"/>cuius agibilis, nec omnes simul sufficiunt ad iudicandum
+<lb ed="#L" n="145"/>inter omnia agibilia; quae tamen experimur nos iudicare
+<pb ed="#L" n="387"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>recta ratione. Aut ergo numerandae sunt prudentiae 
+pro<lb break="no" ed="#L" n="2"/>priae iuxta species agibilium, et praeter has prudentias 
+po<lb break="no" ed="#L" n="3"/>nenda est communis prudentia iudicans inter omnia, sicut
+<lb ed="#L" n="4"/>praeter sensus proprios ponitur communis: aut ponenda
+<lb ed="#L" n="5"/>est una sola prudentia, iudicans propria singulariter, et inter
+<lb ed="#L" n="6"/>omnia. Primum nullus hactenus posuit, quantum vidi, Nec
+<lb ed="#L" n="7"/>rationabiliter tanta multitudo ponitur: quoniam illa sola
+<lb ed="#L" n="8"/>sufficit. Sicut si natura potuisset facere sensum communem
+<lb ed="#L" n="9"/>sine propriis attingentem sensibilia exteriora, utique ipsum
+<lb ed="#L" n="10"/>solum fecisset. Unde cum nihil prohibeat prudentiam illam
+<lb ed="#L" n="11"/>unam iudicantem inter diversas agibilium species, 
+cogno<lb break="no" ed="#L" n="12"/>scere singulas species, cum etiam ad singularia se 
+exten<lb break="no" ed="#L" n="13"/>dat, ut patet VI Ethic.; rationabile, immo necessarium est
+<lb ed="#L" n="14"/>unam solam esse prudentiam respectu omnium agibilium.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e479">
+                  <lb ed="#L" n="15"/>Putandum est ergo quod prudentia est virtus altioris
+<lb ed="#L" n="16"/>ordinis quam sint virtutes morales: sicut ratio per 
+essen<lb break="no" ed="#L" n="17"/>tiam est altioris ordinis rationalibus per participationem.
+<lb ed="#L" n="18"/>Propter quod in littera prudentia comparatur ad virtutes
+<lb ed="#L" n="19"/>morales, ut sol ad species a se productas in materiis 
+infe<lb break="no" ed="#L" n="20"/>rioribus. Et simul dum ostenditur ratio diversitatis 
+virtu<lb break="no" ed="#L" n="21"/>tum moralium, quia participationes sunt, insinuatur ratio
+<lb ed="#L" n="22"/>unitatis prudentiae: quia per essentiam est ratio, et 
+parti<lb break="no" ed="#L" n="23"/>cipata ab aliis. Virtus autem altioris ordinis oportet quod
+<lb ed="#L" n="24"/>habeat obiectum proprium quoque altioris ordinis. Et 
+pro<lb break="no" ed="#L" n="25"/>pterea singulae virtutes morales habent pro obiectis singula
+<lb ed="#L" n="26"/>agibilis, quaedam enim sunt obiecta unius, et quaedam
+<lb ed="#L" n="27"/>terius, ut patet: ipsius autem prudentiae obiectum est
+<lb ed="#L" n="28"/>totum agibile. Propter quod littera, assignans prudentiae
+<lb ed="#L" n="29"/>obiectum, in responsione ad primum, dicit quod est 
+con<lb break="no" ed="#L" n="30"/>tingens agibile, et non tale vel tale agibile. Contingens
+<lb ed="#L" n="31"/>autem agibile, quia dupliciter est obiectum prudentiae, 
+sci<lb break="no" ed="#L" n="32"/>licet ut verum et ut obiectum: - ut verum quidem, 
+inquan<lb break="no" ed="#L" n="33"/>tum iudicatur ab ipsa, et hoc spectat ad prudentiam ex
+<lb ed="#L" n="34"/>parte intellectus; ut bonum autem, inquantum est finis ad
+<lb ed="#L" n="35"/>quem praecipit, et hoc spectat ad prudentiam ex parte 
+ap<lb break="no" ed="#L" n="36"/>petitus: - omnibus modis unitatem formalem retinet, ac 
+pru<lb break="no" ed="#L" n="37"/>dentiae specificam dat. Sicut enim sensibile, obiectum sensus
+<lb ed="#L" n="38"/>communis, licet in se commune genericum sit, unitatem
+<lb ed="#L" n="39"/>specificam dat sensui communi; ita agibile, obiectum 
+pru<lb break="no" ed="#L" n="40"/>dentiae, Et rursus, sicut bonum rationis in delectationibus
+<lb ed="#L" n="41"/>tactus est finis unus temperantiae, et in timoribus et 
+au<lb break="no" ed="#L" n="42"/>daciis finis unus fortitudinis, et sic de aliis; ita bonum
+<lb ed="#L" n="43"/>rationis in universo genere agibilium, est finis unicus 
+pru<lb break="no" ed="#L" n="44"/>dentiae. Oportet enim altioris ordinis virtuti respondere
+<lb ed="#L" n="45"/>finem altioris ordinis. Immo ordo moventium exigit ut 
+al<lb break="no" ed="#L" n="46"/>tiori motori respondeat finis ad quem ordinentur omnes
+<lb ed="#L" n="47"/>fines inferiorum. Et sic accidit in proposito, dum bonum
+<lb ed="#L" n="48"/>rationis in istis, et bonum rationis in illis passionibus, 
+or<lb break="no" ed="#L" n="49"/>dinantur ad bonum rationis simpliciter, idest totaliter. - Et
+<lb ed="#L" n="50"/>sic tam ex actu, quam ex materia et obiecto ut vero-bono,
+<lb ed="#L" n="51"/>habetur unitas atoma prudentiae.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e562">
+                  <lb ed="#L" n="52"/>VIII. Nunc superest respondere secundo quaesito; et
+<lb ed="#L" n="53"/>deinde satisfiet argumento Scoti. Cum quaeritur: Ergo
+<lb ed="#L" n="54"/>penes quid attenditur ista unitas rationis veri obiecti 
+pru<lb break="no" ed="#L" n="55"/>dentiae? responderi potest et ex parte obiecti, et ex parte
+<lb ed="#L" n="56"/>subiecti. Si loquimur ex parte obiecti, unitas ista attenditur
+<lb ed="#L" n="57"/>penes unitatem rationis formalis, quod est contingens agi-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="58"/>bile, ut in littera, in responsione ad primum, dicitur. 
+Con<lb break="no" ed="#L" n="59"/>tingens enim, quod commune est factibili et agibili, 
+deter<lb break="no" ed="#L" n="60"/>minatum ad agibile, unicam rationem formalem sortitur,
+<lb ed="#L" n="61"/>quae est obiectum prudentiae, sicut ens mobile physicae.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e588">
+                  <lb ed="#L" n="62"/>Ex parte vero subiecti, unitas ista attenditur penes 
+uni<lb break="no" ed="#L" n="63"/>tatem modi iudicandi, scilicet secundum dispositionem 
+ap<lb break="no" ed="#L" n="64"/>petitus; ut Auctor insinuat in quaestione de Virtutibus in
+<lb ed="#L" n="65"/>communi, art. xui, Omnia enim agibilia in particulari 
+fre<lb break="no" ed="#L" n="66"/>quenter iudicamus secundum dispositionem appetitus, Nec
+<lb ed="#L" n="67"/>haec unitas est sic ex parte subiecti, quin inchoet ab obiecti
+<lb ed="#L" n="68"/>natura: quia ex hoc quod agibilia consistunt in 
+operatio<lb break="no" ed="#L" n="69"/>nibus et passionibus quae in nobis sunt, consurgit quod
+<lb ed="#L" n="70"/>secundum affectum iudicemus ea. Unde factibilia, quia sunt
+<lb ed="#L" n="71"/>extra nos, non ex affectu, sed intellectu iudicamus. Quia
+<lb ed="#L" n="72"/>ergo alia ratione verum decernimus circa agibilia, et alia
+<lb ed="#L" n="73"/>circa factibilia et scientifica; et haec specialis ratio consistit
+<lb ed="#L" n="74"/>in hoc quod est iudicare secundum dispositionem 
+appe<lb break="no" ed="#L" n="75"/>titus; et in hoc omnia agibilia conveniunt: ideo omnia
+<lb ed="#L" n="76"/>agibilia sub una veri ratione ab intellectu conspiciuntur;
+<lb ed="#L" n="77"/>ac per hoc, una est intelligibilis virtus dirigens ea, - Nec
+<lb ed="#L" n="78"/>obstat quod dispositiones appetitus, secundum quas fit
+<lb ed="#L" n="79"/>iudicium, sunt diversae: sicut non obstat unitati scientiae
+<lb ed="#L" n="80"/>diversitas principiorum eius. Dispositiones namque istae,
+<lb ed="#L" n="81"/>cum sint affectiones ad fines operum, et fines in 
+operabi<lb break="no" ed="#L" n="82"/>libus sint sicut principia in speculabilibus; sunt principia,
+<lb ed="#L" n="83"/>non partes rectae rationis, quae est virtus intellectualis;
+<lb ed="#L" n="84"/>vocata prudentia.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e640">
+                  <lb ed="#L" n="85"/>IX. Ad motivum autem Scoti dicitur quod similitudo
+<lb ed="#L" n="86"/>de arte et prudentia non currit quatuor pedibus. Constat
+<lb ed="#L" n="87"/>enim ex VI Ethic., quod ars est in ratione solum, et ideo
+<lb ed="#L" n="88"/>contingit eius oblivisci, sicut et scientiarum: prudentia
+<lb ed="#L" n="89"/>autem non, et ideo eius non est oblivio. Unde ad 
+pro<lb break="no" ed="#L" n="90"/>positum dicitur quod factibilia non sunt nec inter se, nec
+<lb ed="#L" n="91"/>in suis principiis connexa, ut patet: agibilia autem et inter
+<lb ed="#L" n="92"/>se, et in principiis connexa esse oportet ad unicam rectam
+<lb ed="#L" n="93"/>eorum rationem. Et quod inter se quidem adeo 
+concur<lb break="no" ed="#L" n="94"/>rant ut hoc exigant, patet ex frequentibus operationibus
+<lb ed="#L" n="95"/>eorum occurrentibus in humana vita, quas oportet. recta
+<lb ed="#L" n="96"/>ratione agibilium iudicari et eligi. Quod non contingit in
+<lb ed="#L" n="97"/>disparatis artibus: non enim oportet ponere unam artem
+<lb ed="#L" n="98"/>discernentem inter actus artis sutoriae, et navigativae; 
+quo<lb break="no" ed="#L" n="99"/>niam haec discretio non eget regula practica, sed scientia,
+<lb ed="#L" n="100"/>ut patet. Electio autem huius artis magis quam illius, ad
+<lb ed="#L" n="101"/>prudentiam spectat; sicut aliae electiones quarumcumque
+<lb ed="#L" n="102"/>operationum. — [n principiis autem connexionem exigere
+<lb ed="#L" n="103"/>manifestat quod error in proprio principio rectae rationis
+<lb ed="#L" n="104"/>respectu delectabilium, redundat in errorem principii et 
+con<lb break="no" ed="#L" n="105"/>clusionis in terribilibus, et e converso. Si quis enim recte
+<lb ed="#L" n="106"/>dispositus sit ad pericula belli subeunda, et male circa 
+ve<lb break="no" ed="#L" n="107"/>nerea; et praevalere contigerit dispositionem ad venerea,
+<lb ed="#L" n="108"/>oblato obiecto delectabili; omittet prosequi pericula belli,
+<lb ed="#L" n="109"/>impedientia delectationem. Et e tonverso, recte dispositus
+<lb ed="#L" n="110"/>ad abstinentiam a venereis, et male circa timorem 
+pericu<lb break="no" ed="#L" n="111"/>lorum; imminente periculo, si timor praevaluerit, omittet
+<lb ed="#L" n="112"/>castitatem, ne incidat in formidatum malum; ut de 
+Lu<lb break="no" ed="#L" n="113"/>cretia dicitur, et quotidiana experientia docere potest. Et
+<lb ed="#L" n="114"/>hoc quia prudentia est in ratione ut subest appetitui.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e982-Dd1e709"><!-- caj-p2p1-q60-a2 -->
+               <head xml:id="TAcCaj-d1e982-Hd1e712">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e982-d1e714">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="61"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e721">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>In titulo articuli secundi eiusdem sexagesimae quaestionis,
+<lb ed="#L" n="63"/>quod, sicut dispositio est superius ad habitum,
+<lb ed="#L" n="64"/>et tamen dispositio distinguitur contra habitum, appropriato
+<lb ed="#L" n="65"/>communioris nomine sibi; ita operatio genus est ad actus
+<lb ed="#L" n="66"/>appetitus sensitivi, qui vocantur passiones, et alias 
+opera<lb break="no" ed="#L" n="67"/>tiones, et tamen operationes aliae ab operationibus 
+appe<lb break="no" ed="#L" n="68"/>titus sensitivi, appropriaverunt sibi operationis nomen, et
+<lb ed="#L" n="69"/>contra passiones distinguuntur sub operationis vocabulo; ea,
+<lb ed="#L" n="70"/>ut puto, ratione, quia actus appetitus sensitivi hoc speciale
+<lb ed="#L" n="71"/>sortiti sunt, quod passionem. corporalem annexam habent;
+<lb ed="#L" n="72"/>alii vero, hoc non. exigentes, in communi. remanserunt 
+vo<lb break="no" ed="#L" n="73"/>cabulo. Sumitur ergo hic operatio non communiter , sed
+<lb ed="#L" n="74"/>ut contra passionem distinguitur: et continet sub se actus
+<lb ed="#L" n="75"/>exteriores voluntarios, ut clarius, patebit.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e756">
+                  <lb ed="#L" n="76"/>II. In. corpore articuli nota quatuor. Primo, quod Auctor,
+<lb ed="#L" n="77"/>distinguens bonitatis rationem in passionibus et 
+operatio<lb break="no" ed="#L" n="78"/>nibus penes habere bonitatem secundum 
+commensuratio<lb break="no" ed="#L" n="79"/>nem ad affectum operantis, et habere bonitatem secundum
+<lb ed="#L" n="80"/>se; appellat primo operationes secundum se bonas, et 
+de<lb break="no" ed="#L" n="81"/>inde secundum commensurationem ad alterum bonas. Ubi
+<lb ed="#L" n="82"/>videtur sibi ipsi oppositus, eo quod a medio in extremum
+<lb ed="#L" n="83"/>alterum declinat. Operatio namque tripliciter potest 
+consi<lb break="no" ed="#L" n="84"/>derari: primo, secundum commensurationem ad affectum
+<lb ed="#L" n="85"/>operantis; secundo, secundum se; tertio, secundum 
+com<lb break="no" ed="#L" n="86"/>mensurationem ad alterum. Et omnia ista membra in littera
+<lb ed="#L" n="87"/>tanguntur. Et tamen Auctor secundum membrum confundit
+<lb ed="#L" n="88"/>cum tertio. Si enim hoc licet, quare non licebit confundere
+<lb ed="#L" n="89"/>etiam ipsum secundum cum primo ?
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e789">
+                  <lb ed="#L" n="90"/>Sed. hoc non te moveat: quoniam iuxta subiectam 
+mate<lb break="no" ed="#L" n="91"/>riam sermo. fit. Operationes. namque distinctae contra 
+pas<lb break="no" ed="#L" n="92"/>siones, sunt operationes ad alterum. In his autem quae sunt
+<lb ed="#L" n="93"/>ad alterum, idem est dicere secundum se, et in ordine ad
+<lb ed="#L" n="94"/>alterum :- quia secundum se sunt ad alterum. Et propterea
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>licuit Auctori non confundere, sed explanare secundum
+<lb ed="#L" n="96"/>membrum. per tertium ; ut clarius in sequenti articulo: 
+ex<lb break="no" ed="#L" n="97"/>plicat, dicens quod secundum convenientiam operationis in
+<lb ed="#L" n="98"/>seipsa accipitur ratio debiti, quod constat esse ad alterum.
+<lb ed="#L" n="99"/>Unde non est idem iudicium de coincidentia secundi 
+mem<lb break="no" ed="#L" n="100"/>bri cum primo, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e819">
+                  <lb ed="#L" n="101"/>III. Secundo nota, in calce articuli, ly principaliter. 
+In<lb break="no" ed="#L" n="102"/>ductive namque in temperantia, fortitudine et iustitia patet
+<lb ed="#L" n="103"/>passiones operationibus, et e converso, coniungi. In 
+tempe<lb break="no" ed="#L" n="104"/>rantia namque, concupiscentiis iunguntur comestio, potio,
+<lb ed="#L" n="105"/>generatio; in fortitudine, timori et audaciae aggressio 
+pericu<lb break="no" ed="#L" n="106"/>lorum, praelia; in iustitia, restitutionibus, emptionibus,. etc.,
+<lb ed="#L" n="107"/>iungitur saltem amor. Quia igitur ut plurimum. passiones
+<lb ed="#L" n="108"/>et operationes nostrae iunguntur, insinuavit Auctor per ly
+<lb ed="#L" n="109"/>principaliter quod virtutes a virtutibus non sic distinguuntur
+<lb ed="#L" n="110"/>quod aliquae circa solas passiones, aliquae circa solas 
+ope<lb break="no" ed="#L" n="111"/>rationes; sed quia principaliter circa passiones, vel 
+princi<lb break="no" ed="#L" n="112"/>paliter circa operationes, ut materiam propriam, sunt.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e848">
+                  <lb ed="#L" n="113"/>IV. Tertio. nota, ex corpore articuli, quomodo ex 
+con<lb break="no" ed="#L" n="114"/>cursu passionis et operationis circa idem, plures virtutes
+<lb ed="#L" n="115"/>pollutae fiunt; ut postmodum, cum de. vitiis tractabitur,
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e857">
+.quomodo specificationes eorum fiant, melius ipse discu-
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e859">
+                  <lb ed="#L" n="116"/>tere scias. Hinc enim habes quod percussor ex ira duabus
+<lb ed="#L" n="117"/>contrariatur virtutibus, iustitiae et mansuetudini: similiter
+<lb ed="#L" n="118"/>adulter temperantiam et iustitiam violat; et sic de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e868">
+                  <lb ed="#L" n="119"/>V. Quarto. nota quod ex his quae dicuntur in hoc 
+ar<lb break="no" ed="#L" n="120"/>ticulo, duo habentur. Primum est, quod bonum et t 1a
+<lb ed="#L" n="121"/>in operationibus sic attenditur secundum seipsas, ut n
+<lb ed="#L" n="122"/>referat qualitercumque homo operans afficiatur ad ipsas, —
+<lb ed="#L" n="123"/>Secundum est, quod. virtutes morales omnes sunt circa
+<lb ed="#L" n="124"/>utrasque, passiones scilicet et operationes: sed differentia
+<lb ed="#L" n="125"/>est quia aliquae principaliter operationes, aliquae. 
+princi<lb break="no" ed="#L" n="126"/>paliter passiones bonificant.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e888">
+                  <pb ed="#L" n="389"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Haec autem duo etsi prima facie videantur sibi 
+adver<lb break="no" ed="#L" n="2"/>sari: — quia si non refert in bono iustitiae, quomodo pars 
+af<lb break="no" ed="#L" n="3"/>ficiatur, oportet iustitiam non principaliter, sed solum 
+ope<lb break="no" ed="#L" n="4"/>rationes respicere. Non apparet etiam quomodo verificetur
+<lb ed="#L" n="5"/>quod iustitia sit secundario circa passiones: cum restituens
+<lb ed="#L" n="6"/>debitum satisfaciat iustitiae, quocumque id animo faciat: —
+<lb ed="#L" n="7"/>Sed si diligentius doctrina Auctoris inspiciatur, videbuntur
+<lb ed="#L" n="8"/>omnia consona et vera. In operatione namque. ad alterum,
+<lb ed="#L" n="9"/>puta emptione, restitutione, etc., est duo considerare: primo,
+<lb ed="#L" n="10"/>bonitatem propriam; secundo, communem. Communis 
+bo<lb break="no" ed="#L" n="11"/>nitas est quae ad omnes actus virtutum exigitur: et 
+con<lb break="no" ed="#L" n="12"/>sistit in. illis quatuor generalibus conditionibus insinuatis
+<lb ed="#L" n="13"/>per quatuor virtutes cardinales, requisitis ad omnes virtutis
+<lb ed="#L" n="14"/>perfectae actus, ut ponitur in II Ezhic., scilicet rectitudine,
+<lb ed="#L" n="15"/>firmitate, moderatione et discretione. Propria autem bonitas
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>est quam ex propria ratione, ut contra alios distinguitur,
+<lb ed="#L" n="17"/>sortitur. Et.secundum propriam bonitatem actus iustitiae,
+<lb ed="#L" n="18"/>nihil refert quo quis animo actum faciat, dummodo 
+com<lb break="no" ed="#L" n="19"/>mensuratum alteri faciat. Secundum vero omnem 
+bonita<lb break="no" ed="#L" n="20"/>tem ad actum iustitiae virtutis requisitam, refert quo quis
+<lb ed="#L" n="21"/>animo restituat, emat, vendat, etc. Et sic iustitia, et 
+uni<lb break="no" ed="#L" n="22"/>versaliter virtus bonificativa operationum, est principaliter
+<lb ed="#L" n="23"/>circa operationes, et secundario circa passiones: quia est
+<lb ed="#L" n="24"/>principaliter circa bonitatem propriam operationi, 
+secunda<lb break="no" ed="#L" n="25"/>rio circa communem. - Quomodo autem virtutés circa 
+pas<lb break="no" ed="#L" n="26"/>siones sint principaliter, secundario circa operationes, clarum
+<lb ed="#L" n="27"/>est: temperantia enim et. liberalitas. principaliter respiciunt
+<lb ed="#L" n="28"/>affectum, et consequenter operationes ut provenientes ab
+<lb ed="#L" n="29"/>affectibus. Propterea in huiusmodi maxime consideretur 
+af<lb break="no" ed="#L" n="30"/>fectus: in illis àutem, opus ipsum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e982-Dd1e963"><!-- caj-p2p1-q60-a5 -->
+               <head xml:id="TAcCaj-d1e982-Hd1e966">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e982-d1e968">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="34"/>Commentaria Cardinalis Coiotami
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e975">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="35"/>Omissis singillatim articulis tertio et quarto, quia ille in
+<lb ed="#L" n="36"/>secundo articulo, hic in quinto tangitur; in articulo 
+<lb ed="#L" n="37"/>quinto dubium primo occurrit simpliciter, et ad hominem, |
+<lb ed="#L" n="38"/>de subiecto numeratarum virtutum. Sed discussio 
+simpli<lb break="no" ed="#L" n="39"/>citer singularum in propriis tractatibus, in II II", erit: 
+di<lb break="no" ed="#L" n="40"/>scussio vero ad hominem hic occurrit; Videtur enim Auctor 
+<lb ed="#L" n="41"/>sibi ipsi contrarius de subiecto liberalitatis et magnificentiae. 
+<lb ed="#L" n="42"/>Nam hic utramque ponit in appetitu sensitivo, illam in 
+<lb ed="#L" n="43"/>concupiscibili, hanc in irascibili; et circa passiones, sicut 
+<lb ed="#L" n="44"/>alias enumeratas virtutes. In Tertio autem Sent., dist. xxxi,  
+<lb ed="#L" n="45"/>qu. m, arf. 1v, qu' 3, et in I Contra Gent., cap. xcur, et, 
+<lb ed="#L" n="46"/>quod plus urget, superius in I Parte, qu. xxt, art. 1, ad 1, 
+<lb ed="#L" n="47"/>expresse ponit eas in voluntate, et non in parte sensitiva; 
+<lb ed="#L" n="48"/>et circa operationes, ut distinguuntur contra passiones.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e1010">
+                  <lb ed="#L" n="49"/>II. Ad hoc dicitur quod tam liberalitas quam 
+magnifi<lb break="no" ed="#L" n="50"/>centia respicit passionem et operationem, illam propinque, 
+<lb ed="#L" n="51"/>hanc remote: et quod inquantum respicit operationem cum 
+<lb ed="#L" n="52"/>sua materia, puta sumptus pecuniae, est in voluntate; pro  
+<lb ed="#L" n="53"/>quanto respicit passionem, est in concupiscibili, - Et proba.  
+<lb ed="#L" n="54"/>tur hanc esse mentem Auctoris; quia uti pecunia, quod est 
+<lb ed="#L" n="55"/>principalis actus istarum virtutum, est actus voluntatis; quia  
+<lb ed="#L" n="56"/>uti est actus voluntatis, ut patet superius. 
+<lb ed="#L" n="57"/>Sed ista solutio nihil valet. Quia, cum una virtus non 
+<lb ed="#L" n="58"/>possit esse in duabus potentiis subiective aequaliter, aut 
+li<lb break="no" ed="#L" n="59"/>beralitas erit in concupiscibili ut subest voluntati; aut e 
+con<lb break="no" ed="#L" n="60"/>verso. Non secundum, ut patet. Nec primum, nisi ratione 
+<lb ed="#L" n="61"/>electionis participatae: quod est commune omnibus 
+virtuti<lb break="no" ed="#L" n="62"/>bus appetitus sensitivi. Ergo. — Praeterea, Auctor in I Parte 
+<lb ed="#L" n="63"/>non solum affirmat has esse in voluntate, sed negat eas esse 
+<lb ed="#L" n="64"/>in parte sensitiva, Uride ponere utrumque subiectum, 
+con<lb break="no" ed="#L" n="65"/>tradicit illi. - Praeterea, stante ista solutione, pari ratione
+<lb ed="#L" n="66"/>potuisset poni fortitudo in voluntate: et consequenter 
+pro<lb break="no" ed="#L" n="67"/>prie in Deo. Quoniam ipsa respicit passionem audaciae, et 
+<lb ed="#L" n="68"/>operationem, puta debellationem hostium: et secundum 
+<lb ed="#L" n="69"/>istam operationem, constat quod potest attribui Deo. Et 
+<lb ed="#L" n="70"/>tamen Auctor expresse negat de fortitudine, quia est circa 
+<lb ed="#L" n="71"/>passiones. 
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e1062">
+                  <lb ed="#L" n="72"/>Dicendum ést ergo, ut mihi videtur, quod Auctor aliena, 
+<lb ed="#L" n="73"/>opinione superius in I Parte, et in libro Contra Gent. , 
+<lb ed="#L" n="74"/>ubi ex proposito haéc non tractantur; et sequens alios in  
+<lb ed="#L" n="75"/>anterioribus scriptis, antequam ad summam speculam huius  
+<lb ed="#L" n="76"/>Summae ascenderit; illa dixit. Nunc. vero secundum .
+pro<lb break="no" ed="#L" n="77"/>priam sententiam determinat, sic quod in IT II", in qua  
+<lb ed="#L" n="78"/>etiam altius prospexit, confirmat hanc determinationem, Et  
+<lb ed="#L" n="79"/>ratio est, ut ibi dicitur, quia istae virtutes non respiciunt  
+<lb ed="#L" n="80"/>operationes secundum se, ut respicit iustitia et partes eius:  
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="81"/>sed ut aliqualiter se habent ad passiones; amoris scilicet
+  <lb ed="#L" n="82"/>pecuniae, et spei in illa. Et propterea nec istae virtutes sunt
+  <lb ed="#L" n="83"/>in Deo nisi metaphorice, aut secundum aliquid. - Et eodem
+  <lb ed="#L" n="84"/>modo dicendum est de veritate, quam in I Contra Gent.,
+  <lb ed="#L" n="85"/>numerat inter virtutes circa actiones, et non passiones.
+  <lb ed="#L" n="86"/>Omnes enim hic dicuntur circa passiones, ^ ^^ ^"^
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e1100">
+                  <lb ed="#L" n="87"/>III. In eodem quinto articulo, nota, novitie, duo in 
+lit<lb break="no" ed="#L" n="88"/>tera. Primum est, quod cum ibi dicitur quod unum hu
+  <lb ed="#L" n="89"/>ctum. passionis apprehenditur sensu vel ima ient
+  <lb ed="#L" n="90"/>etiam ratione, non est sermo de aliqua re obiecta una
+  <lb ed="#L" n="91"/>cundum numerum aut speciem: sed de unitate obiecti me
+  <lb ed="#L" n="92"/>sionis, ut obiectum est illius. Verbi gratia, de amabili, de
+  <lb ed="#L" n="93"/>concupiscibili, de delectabili, etc.: quorum quodlibet, unum
+  <lb ed="#L" n="94"/>specie obiectum. passionis, multa rerum genera est ids
+  <lb ed="#L" n="95"/>prehendens.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e1122">
+                  <lb ed="#L" n="96"/>Secundum est, quod cum in littera concluditur quod
+  <lb ed="#L" n="97"/>virtutes morales distinguuntur vel secundum diver. i ril:
+  <lb ed="#L" n="98"/>ferias, vel. diversas passiones, vel diversa obiecta, iode d
+  <lb ed="#L" n="99"/>dos enumeravit non subordinatos, sed disparatos ,. 
+coinci<lb break="no" ed="#L" n="100"/>dentes tamen quandoque. Diversitas namque materiae abs- -
+  <lb ed="#L" n="101"/>que diversitate passionis 'et obiecti, faciens diversitatem
+  <lb ed="#L" n="102"/>virtutum, invenitur in magnificentia et magnanimitate: 
+qua<lb break="no" ed="#L" n="103"/>rum utraque est circa spem, utraque circa arduum, sed
+  <lb ed="#L" n="104"/>in diversa materia, pecunia et honore. Et idem apparet in
+  <lb ed="#L" n="105"/>liberalitate et philotimia, - Diversitas vero passionis absque
+  <lb ed="#L" n="106"/>diversitate materiae et obiecti, faciens diversas. virtutes, 
+in<lb break="no" ed="#L" n="107"/>venitur in fortitudine et , mansuetudine : :j quarum utra
+  <lb ed="#L" n="108"/>circa tale malum, et utráque circa arduum, secundum
+  <lb ed="#L" n="109"/>versam passionem, timorem atque audaciam, et trc Mq
+  <lb ed="#L" n="110"/>satur. - Diversitas demum obiecti absque diversitate materiae
+  <lb ed="#L" n="111"/>et. passionis, diversitatem virtutum faciens, invenitur in 
+ve<lb break="no" ed="#L" n="112"/>ritate, amicitia et eutrapelia seu urbanitate; omnes , enim.
+  <lb ed="#L" n="113"/>circa dicta et facta humana, et delectationem seu amorem,
+  <lb ed="#L" n="114"/>secundum distincta sunt obiecta, scilicet manifestationem ,
+  <lb ed="#L" n="115"/>affabilitatem et delectationem. - Coincidentia autem. 
+mahife<lb break="no" ed="#L" n="116"/>sta est in temperantia et fortitudine: quarum. materia et
+  <lb ed="#L" n="117"/>passio et obiectum diversificantur.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e1172">
+                  <lb ed="#L" n="118"/>IV. In eodem articulo, in calce corporis articuli,
+<lb ed="#L" n="119"/>quod littera corrupta est, nec in aliquo codice inv
+<lb ed="#L" n="120"/>potui verum textum. Unde, quia Aristotelem
+<lb ed="#L" n="121"/>Efthic. corrigendum duxi quoad tres dictiones: b auae
+<lb ed="#L" n="122"/>sunt mutandae, et una delenda. Ubi igitur in littera. dicitur
+<lb ed="#L" n="123"/>quod secundum Aristotelem sunt undecim virtutes 
+mora<lb break="no" ed="#L" n="124"/>les circa passiones, mutetur numerus undenarius in 
+nume<lb break="no" ed="#L" n="125"/>rum denarium, et legatur: sunt. decem. — Übi vero, 
+enume<lb break="no" ed="#L" n="126"/>rando virtutes, ultimo loco dicit, et iustitia; delendum est,
+<pb ed="#L" n="393"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ut eutrapelia sit ultima. - Cum vero post subiungit, Si igitur
+<lb ed="#L" n="2"/>addatur iustitia, quae est circa operationes, erunt omnes
+<lb ed="#L" n="3"/>duodecim, mutetur duodenarius in undenarium, et legatur:
+<lb ed="#L" n="4"/>erunt omnes undecim.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e1207">
+                  <lb ed="#L" n="5"/>Ratio autem quare littera salvari non potest, est tum
+<lb ed="#L" n="6"/>quia refert se ad Aristotelem: qui, ut patet in II Ethic.,
+<lb ed="#L" n="7"/>duodecim medietates ponit, sed decem virtutes et duas 
+pas<lb break="no" ed="#L" n="8"/>siones, et ultra has iustitiam et virtutes rationales. Tum
+<lb ed="#L" n="9"/>quia iustitia non est virtus circa passiones, sed operationes;
+<lb ed="#L" n="10"/>ut patet V Ethic., et hic in articulo tertio. — Et scito,
+<lb ed="#L" n="11"/>novitie, quod Auctor, cum nota illationis concludens 
+nu<lb break="no" ed="#L" n="12"/>merum virtutum moralium, dicendo, :Sic igitur patet quod
+<lb ed="#L" n="13"/>secundum Aristotelem etc.; non infert ex hoc articulo solo,
+<lb ed="#L" n="14"/>sed iuncto praecedenti, in quo fortitudinem et 
+mansuetu<lb break="no" ed="#L" n="15"/>dinem distinxit, ex III et IV Ethic. Et propterea, 
+enume<lb break="no" ed="#L" n="16"/>rando virtutes, has connumeravit, licet earum in hoc articulo
+<lb ed="#L" n="17"/>non meminerit.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e1238">
+                  <lb ed="#L" n="18"/>V. In responsionibus ad argumenta eiusdem articuli,
+<lb ed="#L" n="19"/>diligentius notato primam, tertiam et ultimam. Primam
+<lb ed="#L" n="20"/>quidem, quia ex ea habes differentiam inter unicam 
+ope<lb break="no" ed="#L" n="21"/>rationem et unicam passionem, in diversificando 
+virtu<lb break="no" ed="#L" n="22"/>tem; ex hoc quod passio repugnat rationi, operatio autem
+<lb ed="#L" n="23"/>non. Et subtiliter dixit: quia cum habitudo ad rationem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>constituat virtutis obiectum, et diversa habitudo diversum
+<lb ed="#L" n="25"/>obiectum; passio, quae secundum se importat aliquid 
+ab<lb break="no" ed="#L" n="26"/>ducens a ratione, importat aliquid egens virtute ad 
+con<lb break="no" ed="#L" n="27"/>sonam reddendam ipsam rationi, et secundum diversas
+<lb ed="#L" n="28"/>proprii obiecti materias diversimode ad rationem se 
+ha<lb break="no" ed="#L" n="29"/>bere potest, et sic diversa virtutum obiecta constituet. 
+Ope<lb break="no" ed="#L" n="30"/>ratio autem, quia secundum se rationi non repugnat, 
+se<lb break="no" ed="#L" n="31"/>cundum omnem sui obiecti materiam, eodem modo ad
+<lb ed="#L" n="32"/>rationem se habet.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e1275">
+                  <lb ed="#L" n="33"/>Tertiam autem, quia hic habes quasi exceptionem ab illa
+<lb ed="#L" n="34"/>maxima, Magis et minus non variant speciem. Dico autem
+<lb ed="#L" n="35"/>quasi exceptionem: quia revera non est exceptio, sed per
+<lb ed="#L" n="36"/>accidens magis et minus variant hic speciem; quia per
+<lb ed="#L" n="37"/>adiunctam eis diversam specifice habitudinem ad rationem,
+<lb ed="#L" n="38"/>ut in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e982-d1e1292">
+                  <lb ed="#L" n="39"/>Ultimam autem, quia aurea est tota, et semper 
+memo<lb break="no" ed="#L" n="40"/>riae mandanda. Unum tamen restat mirandum in hac 
+ma<lb break="no" ed="#L" n="41"/>teria: quare Aristoteles nullam virtutem moralem posuit
+<lb ed="#L" n="42"/>circa passionem tristitiae, propriam illi, et tot circa 
+delecta<lb break="no" ed="#L" n="43"/>tionis passionem. Si suscepta esset hic provincia assignandae
+<lb ed="#L" n="44"/>sufficientiae virtutum moralium, reddenda esset ratio. Sed
+<lb ed="#L" n="45"/>quia nec Auctor hoc suscepit, nec Aristoteles modo 
+expo<lb break="no" ed="#L" n="46"/>nitur, alteri loco reservetur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

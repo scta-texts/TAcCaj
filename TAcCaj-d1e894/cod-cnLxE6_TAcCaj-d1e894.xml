@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 43</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 43</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="287"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e894"><!-- TAcCajp2p1-q43 -->
+            <head xml:id="TAcCaj-d1e894-Hd1e99">Quaestio 43</head>
+            <div xml:id="TAcCaj-d1e894-Dd1e101"><!-- caj-p2p1-q43-a1 -->
+               <head xml:id="TAcCaj-d1e894-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e894-d1e106">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="81"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e894-d1e113">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="82"/>In quaestione quadragesimatertia tota nihil scribendum 
+oc<lb break="no" ed="#L" n="83"/>currit, nisi ex utroque articulo attentum te reddere, ut 
+di<lb break="no" ed="#L" n="84"/>Scas causas passionum cognoscere et discernere ex parte
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="85"/>obiecti, et subiecti; et secundum singulas conditiones 
+obie<lb break="no" ed="#L" n="86"/>cti, proprias causas; et diversimode constituendo eas, scire
+<lb ed="#L" n="87"/>respondere ad quaesita de causis passionum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

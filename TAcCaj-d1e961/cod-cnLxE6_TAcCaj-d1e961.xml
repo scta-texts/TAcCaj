@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 56</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 56</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="357"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e961"><!-- TAcCajp2p1-q56 -->
+            <head xml:id="TAcCaj-d1e961-Hd1e99">Quaestio 56</head>
+            <div xml:id="TAcCaj-d1e961-Dd1e101"><!-- caj-p2p1-q56-a3 -->
+               <head xml:id="TAcCaj-d1e961-Hd1e104">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e961-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="77"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="78"/>In articulo tertio quaestionis quinquagesimaesextae, omissis
+<lb ed="#L" n="79"/>duobus primis, dubium occurrit de sensu et veritate. 
+lit<lb break="no" ed="#L" n="80"/>terae, cum ponit differentiam inter virtutem simpliciter et
+<lb ed="#L" n="81"/>intellectualem, ex hoc quod aliquis habitus dat facultatem
+<lb ed="#L" n="82"/>faciendi bonum opus, sed non dat quod semper operetur
+<lb ed="#L" n="83"/>recte, ut grammatica, etc.; aliquis autem dat et facultatem
+<lb ed="#L" n="84"/>faciendi bonum opus, et dat quod aliquis recte utatur 
+fa<lb break="no" ed="#L" n="85"/>cultate, ut iustitia.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e135">
+                  <lb ed="#L" n="86"/>Est autem hic multipliciter dubium. Primo, de qua 
+re<lb break="no" ed="#L" n="87"/>ctitudine seu bonitate est sermo, cum dicitur quod aliquis
+<lb ed="#L" n="88"/>habitus dat quod recte utatur facultate: an scilicet de 
+bo<lb break="no" ed="#L" n="89"/>nitate propria illi habitui, an de bonitate morali. Si de
+<lb ed="#L" n="90"/>bonitate morali, obstat littera obiiciens usui grammaticae
+<lb ed="#L" n="91"/>non errorem in moribus, sed in grammatica, barbarismum
+<lb ed="#L" n="92"/>scilicet et soloecismum, ut patet in littera. - Si de bonitate
+<lb ed="#L" n="93"/>propria illi habitui, nulla videtur inter habitus differentia :
+<lb ed="#L" n="94"/>quilibet enim, cum quis eo utitur, dat suam bonitatem actui
+<lb ed="#L" n="95"/>apto nato suscipere illam bonitatem.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e159">
+                  <lb ed="#L" n="96"/>II. Deinde dubium est propter diversitatem vocabulorum,
+<lb ed="#L" n="97"/>qua littera utitur: quid intendit cum dicit quod dat quod
+<lb ed="#L" n="98"/>semper recte operetur, et sub aliis verbis, quod recte utatur
+<lb ed="#L" n="99"/>facultate, vel sub aliis verbis, quod reddit bonum opus in
+<lb ed="#L" n="100"/>actu: an scilicet intendat de opere in actu quod informatur
+<lb ed="#L" n="101"/>habitu, puta de locutione in actu respectu grammaticae,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="102"/>concupiscentia respectu temperantiae, etc.; an de actu 
+vo<lb break="no" ed="#L" n="103"/>luntatis qui vocatur. 4£/, quo omnibus habitibus utimur,
+<lb ed="#L" n="104"/>applicando eos ad operandum in actu: cum. volumus. — Et
+<lb ed="#L" n="105"/>rursus, an intendat semper: an cum utimur habitu illo.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e186">
+                  <lb ed="#L" n="106"/>Si namque intendit semper, sive loquatur de uti sive
+<lb ed="#L" n="107"/>de opere, falsa manifeste est differentia: quia possum contra
+<lb ed="#L" n="108"/>et praeter quemcumque habitum acquisitum et infusum, uti
+<lb ed="#L" n="109"/>et operari, ut patet in peccantibus.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e197">
+                  <lb ed="#L" n="110"/>Si vero intendit de ipso opere quando utitur habitu,
+<lb ed="#L" n="111"/>par quoque videtur iudicium de arte et virtute morali. Sicut
+<lb ed="#L" n="112"/>namque contingit utentem grammatica, quia non utitur
+<lb ed="#L" n="113"/>totaliter ea, barbarizare; ita utentem iustitia vel 
+temperan<lb break="no" ed="#L" n="114"/>tia, quia non totaliter utitur ea, secundum aliquid deficere.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e210">
+                  <lb ed="#L" n="115"/>Si autem intendit de uti ipso actu voluntatis, aut respectu
+<lb ed="#L" n="116"/>operis: et hoc non, quia nulla esset differentia; contingit
+<lb ed="#L" n="117"/>enim uti concupiscentia contra vel praeter temperantiam
+<lb ed="#L" n="118"/>quam habeo, sicut locutione contra grammaticam vel praeter
+<lb ed="#L" n="119"/>eam. - Aut respectu habitus: et obstant tria. Primum est
+<lb ed="#L" n="120"/>quod in littera dicitur quod ista secunda perfectio est 
+re<lb break="no" ed="#L" n="121"/>spectu operis in actu; prima autem est respectu operis in
+<lb ed="#L" n="122"/>facultate, quod est esse in potentia. Modo, opus in actu
+<lb ed="#L" n="123"/>ab opere in potentia non distinguuntur genere, immo sunt
+<lb ed="#L" n="124"/>eiusdem speciei specialissimae: uti autem et opüs 
+gram<lb break="no" ed="#L" n="125"/>maticae vel temperantiae distinguuntur genere, vel specie
+<pb ed="#L" n="358"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>saltem, ut patet: ergo. - Secundum est quod hoc, scilicet
+<lb ed="#L" n="2"/>rectificare ipsum uti, non convenit omnibus moralibus 
+vir<lb break="no" ed="#L" n="3"/>tutibus: quia nec fortitudini nec temperantiae, quia sunt
+<lb ed="#L" n="4"/>infra voluntatem. Et littera vult quod conveniat omnibus
+<lb ed="#L" n="5"/>moralibus, dicendo, quia est iustus vel temperatus, et eadem
+<lb ed="#L" n="6"/>ratio est de similibus. — 'Tertium est, quia aut dat recte
+<lb ed="#L" n="7"/>uti habitu sic quod non potest illo uti et non recte: et
+<lb ed="#L" n="8"/>hoc est exclusum, ex eo quod prudens uti potest prudentia,
+<lb ed="#L" n="9"/>et deficere in aliqua circumstantia, sicut grammaticus 
+bar<lb break="no" ed="#L" n="10"/>barizare. Aut quia dat recte uti quando vult: et hoc etiam
+<lb ed="#L" n="11"/>invenitur in artibus, deductis impedimentis organorum, etc.;
+<lb ed="#L" n="12"/>et sic nulla esset differentia assignata.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e267">
+                  <lb ed="#L" n="13"/>III. Ad hoc dicitur quod hic est sermo de bonitate 
+se<lb break="no" ed="#L" n="14"/>cundum illum habitum, et de uti qui est actus voluntatis.
+<lb ed="#L" n="15"/>Nec refert utrum ad actum vel habitum, utrum semper
+<lb ed="#L" n="16"/>vel quando utitur habitu vel quando vult, interpreteris:
+<lb ed="#L" n="17"/>nulla enim harum limitationum opus est. Intendit enim
+<lb ed="#L" n="18"/>Auctor quod differentia inter habitus, in proposito, haec est,
+<lb ed="#L" n="19"/>quod quidam sunt quorum perficere non se extendit ad
+<lb ed="#L" n="20"/>uti ipso habitu, quidam vero sic. Verbi gratia, ars 
+gram<lb break="no" ed="#L" n="21"/>maticae est talis quod eius perficere non se extendit ad
+<lb ed="#L" n="22"/>uti grammatica: quia uti est actus voluntatis, quem nullo
+<lb ed="#L" n="23"/>pacto perficit ars grammaticae. Et si ars grammaticae 
+per<lb break="no" ed="#L" n="24"/>ficeret ipsum uti, tunc habens grammaticam, ex ipso habitu
+<lb ed="#L" n="25"/>inclinaretur et determinaretur ad utendum recte, 
+rectitu<lb break="no" ed="#L" n="26"/>dine grammaticali, ipsa grammatica; et si non recte 
+ute<lb break="no" ed="#L" n="27"/>retur, imputaretur defectui grammaticae: modo autem non.
+<lb ed="#L" n="28"/>Iustitia vero quia rectificativa est ipsius uti, ideo voluntas
+<lb ed="#L" n="29"/>determinatur ad recte, idest iuste, utendum iustitia: et 
+pro<lb break="no" ed="#L" n="30"/>pterea, si iniuste facit, iustitiae defectus imputatur. Ex hac
+<lb ed="#L" n="31"/>igitur differentia innascitur quod defectus in artibus et
+<lb ed="#L" n="32"/>scientia ex usu proveniens, non imputatur ipsis, sed 
+volun<lb break="no" ed="#L" n="33"/>tati: in moralibus autem, defectui ipsorum habituum.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e315">
+                  <lb ed="#L" n="34"/>Rursus, ut melius novitii doctrinam hanc imbibant, et
+<lb ed="#L" n="35"/>quilibet hinc fructum referat agnitionis sui ipsius, an habeat
+<lb ed="#L" n="36"/>virtutem aliquam moralem; scito quod in actibus 
+potentia<lb break="no" ed="#L" n="37"/>rum rationabilium (de. his enim est sermo) et habituum,
+<lb ed="#L" n="38"/>est considerare duo. Unum est proportio ipsius actus ad
+<lb ed="#L" n="39"/>ipsam potentiam seu habitum: puta locutionis ad 
+imagina<lb break="no" ed="#L" n="40"/>tivam, appetitumque motivum organi etc., et grammaticam.
+<lb ed="#L" n="41"/>Alterum est usus, quo haec principia a voluntate libere 
+ap<lb break="no" ed="#L" n="42"/>plicata sunt ad. hunc actum eliciendum. Nunquam namque
+<lb ed="#L" n="43"/>potentiae animae, aut habitus, ponerent operationes proprias
+<lb ed="#L" n="44"/>in actu, nisi voluntas applicaret eas et eos ad eliciendas
+<lb ed="#L" n="45"/>operationes: ipsa enim est quae utitur omnibus, et hoc
+<lb ed="#L" n="46"/>est uti, ut patet ex superius dictis in quaestione de Uti.
+<lb ed="#L" n="47"/>Dupliciter ergo comparatur operatio ad potentiam: primo,
+<lb ed="#L" n="48"/>secundum se absolute, prout ipsa potentia est apta nata
+<lb ed="#L" n="49"/>elicere talem actum; secundo, ad ipsammet potentiam ut
+<lb ed="#L" n="50"/>stat sub voluntate utente, seu applicante ipsam potentiam :
+<lb ed="#L" n="51"/>ad eliciendam operationem in actu secundo. Et sic 
+diffe<lb break="no" ed="#L" n="52"/>rentia in proposito habituum est, quod quidam habitus
+<lb ed="#L" n="53"/>sunt perfectivi potentiarum absolute in ordine ad sua opera;
+<lb ed="#L" n="54"/>et hoc vocatur in littera quod dant facultatem faciendi
+<lb ed="#L" n="55"/>opus bonum; sed non perficiunt easdem potentias ut stant
+<lb ed="#L" n="56"/>sub voluntate utente. Et istae sunt artes et scientiae, 
+qua<lb break="no" ed="#L" n="57"/>rüm non interest perficere usum, neque in voluntate 
+im<lb break="no" ed="#L" n="58"/>perante, neque in potentiis exequentibus ut sic. Quidam
+<lb ed="#L" n="59"/>vero habitus perficiunt potentias non solum absolute, sed
+<lb ed="#L" n="60"/>etiam ut usuales, sive imperative sive executive. Et hi sunt
+<lb ed="#L" n="61"/>virtutes morales. Et dicuntur in littera dare non solum 
+fa<lb break="no" ed="#L" n="62"/>cultatem boni operis, sed rectum usum facultatis: quia
+<lb ed="#L" n="63"/>perficiunt quoad utrumque. Dicuntur etiam reddere opus
+<lb ed="#L" n="64"/>bonum in actu: quia perficiunt usum, qui est immediata
+<lb ed="#L" n="65"/>ratio quod sint in actu.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e387">
+                  <lb ed="#L" n="66"/>IV. Ad evidentiam autem solutionum dandarum 
+quae<lb break="no" ed="#L" n="67"/>sitis, oportet recolere superius determinata. In primis, cum
+<lb ed="#L" n="68"/>dicitur quod habitus dat facultatem, et dat rectum usum,
+<lb ed="#L" n="69"/>non est intelligendum nisi eo modo quo habitus est natus
+<lb ed="#L" n="70"/>dare. Non enim habitus dat bonitatem cogendo ad illam;
+<lb ed="#L" n="71"/>aut ita plene etiam immobiliter subiiciendo sibi potentiam,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="72"/>quod non possit in oppositum: sed per modum inclinantis.
+<lb ed="#L" n="73"/>Unde differentia consistit in hoc, quod ars ex sua ratione
+<lb ed="#L" n="74"/>non inclinat voluntatem, aut aliquam. potentiam ut substat
+<lb ed="#L" n="75"/>voluntati, ad usum grammaticae: quia nec respicit volun- -
+<lb ed="#L" n="76"/>tatem aut potentias sic. Moralis autem virtus ex propria 
+ra<lb break="no" ed="#L" n="77"/>tione inclinat voluntatem ad rectum sui usum: quamvis
+<lb ed="#L" n="78"/>voluntas non sequatur quandoque huiusmodi inclinationes
+<lb ed="#L" n="79"/>habituum. Et tunc peccat, et virtus moralis culpatur: quia
+<lb ed="#L" n="80"/>ab opere proprio, scilicet perfectione debita actui utendi,
+<lb ed="#L" n="81"/>deficit; minus enim perfecte habetur virtus, a qua 
+subdu<lb break="no" ed="#L" n="82"/>citur actus qui debet illi submitti.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e430">
+                  <lb ed="#L" n="83"/>Et ex hoc patet quod oportet non limitare, quando
+<lb ed="#L" n="84"/>utitur, aut vult, aut non semper, etc. Ars enim nunquam;
+<lb ed="#L" n="85"/>moralis virtus semper ex se, per modum inclinantis, dat
+<lb ed="#L" n="86"/>rectum usum sui. Quia quoque in idem redit applicare
+<lb ed="#L" n="87"/>habitum actui, et actum supponere habitui; et similiter,
+<lb ed="#L" n="88"/>non uti habitu, aut subducere actum ab habitu: non refert
+<lb ed="#L" n="89"/>utrum ad habitum vel actum uti referas, etc.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e448">
+                  <lb ed="#L" n="90"/>V. Ad primam obiectionem in oppositum contra hoc
+<lb ed="#L" n="91"/>quod intelligitur de uti illo habitu, dicitur quod, licet
+<lb ed="#L" n="92"/>verum sit quod operatio quam perficit aliqua virtus 
+mora<lb break="no" ed="#L" n="93"/>lis, puta concupiscentia, differat specie ab uti; 
+concupi<lb break="no" ed="#L" n="94"/>scere tamen libere exercitum, ut sic, coincidit cum uti,
+<lb ed="#L" n="95"/>immo est ipsum uti in executiva potentia. Unde magna
+<lb ed="#L" n="96"/>aequivocatio est, aut figura dictionis, comparare 
+concupi<lb break="no" ed="#L" n="97"/>scentiam in actu ad concupiscentiam in potentia; et 
+com<lb break="no" ed="#L" n="98"/>parare concupiscentiam libere exercitam ut sic, ad 
+concu<lb break="no" ed="#L" n="99"/>piscentiam ut est in facultate concupiscibilis. Argumentum
+<lb ed="#L" n="100"/>enim primo modo procedit; et Auctor loquitur secundo
+<lb ed="#L" n="101"/>modo. Unde verbum Auctoris nihil obstat proposito: quia
+<lb ed="#L" n="102"/>vocat operationem in actu, non ipsam absolute, sed ipsam
+<lb ed="#L" n="103"/>ut in actu, idest secundum id unde habet quod sit in actu,
+<lb ed="#L" n="104"/>idest secundum usum; ex hoc enim habet quod sit in actu.
+<lb ed="#L" n="105"/>Et propterea, quia scilicet ex usu est operatio in actu,
+<lb ed="#L" n="106"/>comparat secundam perfectionem habitus potentiae, sicut
+<lb ed="#L" n="107"/>actum potentiae. Et vere sic est: habitus enim dans solam
+<lb ed="#L" n="108"/>facultatem bene operandi, dat bonitatem operationis in 
+po<lb break="no" ed="#L" n="109"/>tentia; habitus autem dans etiam rectum usum eius, dat.
+<lb ed="#L" n="110"/>bonitatem operationis in actu; quia usus constituit 
+ope<lb break="no" ed="#L" n="111"/>rationem in actu, quia est applicatio potentiae ad ipsam.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e498">
+                  <lb ed="#L" n="112"/>Ad secundum dicitur dupliciter. Primo, quod virtutes in
+<lb ed="#L" n="113"/>irascibili et concupiscibili, scilicet. temperantia et fortitudo,
+<lb ed="#L" n="114"/>rectificant uti, quia stabiliunt fines prudentiae. regulativae
+<lb ed="#L" n="115"/>ipsius uti ex illis finibus ut principiis. Et sic extendunt se
+<lb ed="#L" n="116"/>ad voluntatem mediate. — Secundo, quod huiusmodi 
+vir<lb break="no" ed="#L" n="117"/>tutes rectificant uti, pro quanto eget rectificatione. Non ege
+<lb ed="#L" n="118"/>autem rectificatione uti his virtutibus, ut est in voluntate:
+<lb ed="#L" n="119"/>sed ut estin ipsis potentiis inferioribus, Et ideo rectificant
+<lb ed="#L" n="120"/>irascibilem et concupiscibilem ut subsunt usui voluntatis.
+<lb ed="#L" n="121"/>Ipsa autem voluntas non eget rectificativo ad hoc: quia ex
+<lb ed="#L" n="122"/>se determinata est ad rectitudinem omnis sui actus circa
+<lb ed="#L" n="123"/>bonum fortitudinis et temperantiae, ut inferius dicetur,
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e527">
+                  <lb ed="#L" n="124"/>Ad tertium autem iam dictum est quod dat, per 
+mo<lb break="no" ed="#L" n="125"/>dum inclinantis , quod semper recte utatur; et non cum.
+<lb ed="#L" n="126"/>hac vel illa limitatione. Quod non facit ars. Cum hoc 
+ta<lb break="no" ed="#L" n="127"/>men stat, ut dictum est, quod non utatur illo, quod agat
+<lb ed="#L" n="128"/>contra, et praeter illum agat, etc.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e540">
+                  <lb ed="#L" n="129"/>VI. In eodem articulo adverte subiectum fidei et pruden-.
+<lb ed="#L" n="130"/>tiae, ut in locis propriis fundamenta hic Lig ubi 
+tracta<lb break="no" ed="#L" n="131"/>bitur quidquid hinc difficultatis occurrerit. Et si vis videre
+<lb ed="#L" n="132"/>quomodo intellectus. in ordine ad "roftiitin sit talium. i Cow
+<lb ed="#L" n="133"/>habituum subiectum , conspice naturam actuum propter art.
+<lb ed="#L" n="134"/>quos ponuntur. Quia enim credere est actus intellectus.
+<lb ed="#L" n="135"/>non absolute, sed a voluntate moti, quia nullus credit nisi
+<lb ed="#L" n="136"/>volens; consequens est ut habitus fidei inclinans 
+intelle<lb break="no" ed="#L" n="137"/>ctum ad credendum, perfectio sit eius ut a voluntate 
+mo<lb break="no" ed="#L" n="138"/>bilis. Et similiter, quia praecipere actus est intellectus a
+<lb ed="#L" n="139"/>voluntate moti, ut superius in quaestione de Imperio 
+pa<lb break="no" ed="#L" n="140"/>tet; oportet ut prudentia, cuius praeciputus et pro rius actus
+<lb ed="#L" n="141"/>est recte praecipere in agibilibus, sit perfectio intellectus non
+<lb ed="#L" n="142"/>absolute, sed ut a voluntate moti. Et haec bene nota.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e961-Dd1e574"><!-- caj-p2p1-q56-a4 -->
+               <head xml:id="TAcCaj-d1e961-Hd1e577">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e961-d1e579">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e586">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>IN articulo quarto eiusdem quinquagesimaesextae 
+quae<lb break="no" ed="#L" n="11"/>Lus dubium occurrit ex Scoto, in III Sent., dist. xxx,
+<lb ed="#L" n="12"/>negante in concupiscibili et irascibili, quae sunt potentiae
+<lb ed="#L" n="13"/>partis sensitivae, virtutes: — et volens quod, licet possit 
+con<lb break="no" ed="#L" n="14"/>cedi quod in istis potentiis sit aliquis habitus inclinans ad
+<lb ed="#L" n="15"/>delectabiliter obsequendum rectae rationi, non tamen 
+ha<lb break="no" ed="#L" n="16"/>bitus ille est proprie virtus, quia non est. habitus electivus,
+<lb ed="#L" n="17"/>nec inclinans ad rectas electiones.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e608">
+                  <lb ed="#L" n="18"/>II. Ad evidentiam huius, mirum, primo, videtur de hoc
+<lb ed="#L" n="19"/>homine, cum fortitudinem et temperantiam, virtutes 
+enu<lb break="no" ed="#L" n="20"/>meratas in II Ethic., posuerit aperte Aristoteles in parte
+<lb ed="#L" n="21"/>irrationali; quare non respondit Aristoteli. Et similiter,
+<lb ed="#L" n="22"/>cum fundamentum suum fuerit argumentum a s. Thoma
+<lb ed="#L" n="23"/>hic quarto loco factum et solutum; quare non confutavit
+<lb ed="#L" n="24"/>responsionem.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e626">
+                  <lb ed="#L" n="25"/>Dicito ergo, cum Aristotele et Auctore, quod appetitus
+<lb ed="#L" n="26"/>sensitivus, distinctus per irascibilem et concupiscibilem, est
+<lb ed="#L" n="27"/>subiectum virtutis moralis proprie, temperantiae scilicet
+<lb ed="#L" n="28"/>et fortitudinis, non inquantum communis est nobis et 
+bru<lb break="no" ed="#L" n="29"/>tis, sed ut obedibilis rationi. Et quod sibi convenit 
+defini<lb break="no" ed="#L" n="30"/>tio virtutis posita in II Ethic., scilicet quod est habitus
+<lb ed="#L" n="31"/>electivus, dupliciter. Primo, quia est principium electionis
+<lb ed="#L" n="32"/>participatae in ipsa potentia inferiore: inclinat enim tem-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="33"/>perantia concupiscibilem ad electam abstinentiam, ita quod
+<lb ed="#L" n="34"/>non inclinat solum ad abstinentiam, sed ad abstinentiam
+<lb ed="#L" n="35"/>electam ut sic, Et ratio est in promptu: quia perficit eam
+<lb ed="#L" n="36"/>ut substat electioni, sicut ante dictum est de usu, Electio
+<lb ed="#L" n="37"/>enim, licet sit partis superioris ut principaliter eligentis,
+<lb ed="#L" n="38"/>est tamen partium obsequentium ut exequentium: et ad
+<lb ed="#L" n="39"/>hoc egent virtute, ut ad participabilem in eis electionem
+<lb ed="#L" n="40"/>proprii actus, determinatae sint. Et hoc est idem ei quod
+<lb ed="#L" n="41"/>consuevit dici de actibus istis ut imperatis, - Secundo, quia
+<lb ed="#L" n="42"/>est principium electionis in voluntate mediate, mediante
+<lb ed="#L" n="43"/>scilicet intentione, ut in littera dicitur. Cum enim qualis
+<lb ed="#L" n="44"/>unusquisque est, talis finis ei videatur, ut dicitur III Ethic.;
+<lb ed="#L" n="45"/>ex hoc quod aliquis est talis ex bona dispositione 
+tempe<lb break="no" ed="#L" n="46"/>rantiae, videbitur ei medium in huiusmodi passionibus dis
+<lb ed="#L" n="47"/>bonus; et sic in illo formatur intentio talis boni. Ex 
+in<lb break="no" ed="#L" n="48"/>tentione autem finis subsequitur, medio discursu 
+pruden<lb break="no" ed="#L" n="49"/>tiae ex stabilito fine discurrentis, conclusio electionis. Et
+<lb ed="#L" n="50"/>haec est solutio litterae.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e688">
+                  <lb ed="#L" n="51"/>Unde et habitus est electivus in proprio subiecto 
+ele<lb break="no" ed="#L" n="52"/>ctionis participatae. Et est inclinans ad bonas electiones,
+<lb ed="#L" n="53"/>dando earum principium, quod est intentio finis, quae in
+<lb ed="#L" n="54"/>electione clauditur ut principium in conclusione.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e961-Dd1e700"><!-- caj-p2p1-q56-a5 -->
+               <head xml:id="TAcCaj-d1e961-Hd1e703">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e961-d1e705">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e712">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>IN articulo quinto eiusdem quinquagesimaesextae 
+quae<lb break="no" ed="#L" n="23"/>stionis, adverte, novitie, propter rationem quae fit in 
+cor<lb break="no" ed="#L" n="24"/>pore articuli, duo. Primum, quod haec duo repugnant, quod
+<lb ed="#L" n="25"/>aliquis habitus sit virtus; et quod subiectum eius sit altera
+<lb ed="#L" n="26"/>potentia ab illa quae est consummativa operis illius ad
+<lb ed="#L" n="27"/>quod perficiendum ponitur ila virtus. Et repugnantia 
+fun<lb break="no" ed="#L" n="28"/>datur super hoc, quod virtus sic reddit opus suum bonum,
+<lb ed="#L" n="29"/>quod non contingit opus illud, virtute habente suum 
+per<lb break="no" ed="#L" n="30"/>ficere, malum. esse, ut in littera breviter dicitur. Ex hoc
+<lb ed="#L" n="31"/>enim statim patet quod, si-opus aliquod ad quod ponitur
+<lb ed="#L" n="32"/>virtus, sit consummandum a potentia B, et virtus illa 
+po<lb break="no" ed="#L" n="33"/>natur in potentia A; quod quantumcumque virtus illa 
+ha<lb break="no" ed="#L" n="34"/>beat suum perficere in potentia A et actu eius, adhuc
+<lb ed="#L" n="35"/>opus illud male consummabitur a potentia. B. Oportet
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="36"/>ergo, si virtus illa debet illud opus bonum sic reddere ut
+<lb ed="#L" n="37"/>non relinquatur quod fiat malus; quod sit in potentia 
+con<lb break="no" ed="#L" n="38"/>summativa operis, ut in subiecto.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e756">
+                  <lb ed="#L" n="39"/>Secundum est pro minore, quod vires interiores 
+appre<lb break="no" ed="#L" n="40"/>hensivae dupliciter sumuntur. Primo, secundum naturam:
+<lb ed="#L" n="41"/>et sic a natura, et non a virtute nec habitu determinantur. —
+<lb ed="#L" n="42"/>Alio modo, üt subsunt rationi: et sic ordinantur ad 
+intel<lb break="no" ed="#L" n="43"/>lectus perfectionem. Propter quod, ipsi habitus qui sunt in
+<lb ed="#L" n="44"/>his partibus, sunt praeparatorii ad intellectus actum ; et non
+<lb ed="#L" n="45"/>sunt perfectivi earum ad proprios actus secundum se. Et
+<lb ed="#L" n="46"/>ideo in littera dicitur quod cognitio veri, ad quam 
+ordi<lb break="no" ed="#L" n="47"/>natur omnis virtus bonum cognitionis faciens, 
+consumma<lb break="no" ed="#L" n="48"/>tur in intellectu tantum. Et propterea in his viribus nulla
+<lb ed="#L" n="49"/>est virtus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e961-Dd1e783"><!-- caj-p2p1-q56-a6 -->
+               <head xml:id="TAcCaj-d1e961-Hd1e786">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e961-d1e788">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e795">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>In articulo sexto eiusdem quinquagesimaesextae quaestionis,
+<lb ed="#L" n="25"/>in quo concluditur quod in voluntate est aliqua virtus,
+<lb ed="#L" n="26"/>scilicet respectu boni divini et proximi; et aliqua non, 
+sci<lb break="no" ed="#L" n="27"/>licet respectu boni proprii: dubium: occurrit ex Scoto, in
+<lb ed="#L" n="28"/>III Sent., dist. xxxiii, contra secundam partem. Putat enim
+<lb ed="#L" n="29"/>quod temperantia et fortitudo in voluntate sint, et ibi 
+pro<lb break="no" ed="#L" n="30"/>prie virtutes: in concupiscibili autem. et irascibili non sunt
+<lb ed="#L" n="31"/>virtutes. Sed de hoc, quantum ad concupiscibilem
+<lb ed="#L" n="32"/>et irascibilem spectat, tractavimus: unde relinquitur 
+quan<lb break="no" ed="#L" n="33"/>tum ad. voluntatem discutere rationes et conclusiones.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e821">
+                  <lb ed="#L" n="34"/>II. Est igitur dubium circa rationem allatam in littera
+<lb ed="#L" n="35"/>ad probandum quod in voluntate non sit aliqua virtus ad
+<lb ed="#L" n="36"/>proprium volentis bonum, primo, quia falsum videtur quod
+<lb ed="#L" n="37"/>voluntas ex propria ratione sit sufficienter. determinata ad
+<lb ed="#L" n="38"/>bonum rationis proprium volentis. Quia si sic esset, 
+vo<lb break="no" ed="#L" n="39"/>luntas, ut in pluribus saltem, eligeret tale bonum rationis.
+<lb ed="#L" n="40"/>Et rursus prompte, faciliter et delectabiliter tale bonum
+<lb ed="#L" n="41"/>eligeret. Et rursus ad tale bonum eligendum recte, eodem,
+<lb ed="#L" n="42"/>modo determinata esset. Haec sunt falsa. Ergo. — Sequela
+<lb ed="#L" n="43"/>probatur: quia determinatio naturae excludens habitum,
+<lb ed="#L" n="44"/>supplet quidquid daret habitus in subiecto apto nato; et
+<lb ed="#L" n="45"/>tanto melius, quanto habitus imitatur naturam, et non e
+<lb ed="#L" n="46"/>converso. - Falsitas autem. consequentis experientia 
+proba<lb break="no" ed="#L" n="47"/>tur: nam in nobis ipsis haec experimur.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e854">
+                  <lb ed="#L" n="48"/>Et ratione confirmatur. Quia si voluntas esset ex 
+pro<lb break="no" ed="#L" n="49"/>pria ratione determinata ad tale bonum, non opus esset
+<lb ed="#L" n="50"/>continentiae- habitu in voluntate. Si enim voluntas ex se
+<lb ed="#L" n="51"/>magis aut aeque determinata est ad' bonum tale, ac si 
+ha<lb break="no" ed="#L" n="52"/>beret habitum virtutis; et habendo habitum virtutis, puta
+<lb ed="#L" n="53"/>temperantiae, non egeret continentia: ergo, inclinata ex 
+pro<lb break="no" ed="#L" n="54"/>pria ratione, non eget continentia, Sed per te, eget 
+conti<lb break="no" ed="#L" n="55"/>nentia. Ergo voluntas non est ex se inclinata ad tale bonum.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e875">
+                  <lb ed="#L" n="56"/>III. Deinde dubitatur quia, si voluntas determinata ex
+<lb ed="#L" n="57"/>propria ratione est ad bonum rationis, ergo nec virtus 
+iu<lb break="no" ed="#L" n="58"/>stitiae in ea esset. — Probatur sequela: quia bonum 
+iusti<lb break="no" ed="#L" n="59"/>tiae est secundum. rationem, et est proprium. exercentis
+<lb ed="#L" n="60"/>iustitiam; iustitia enim bonum. reddit habentem, et opus
+<lb ed="#L" n="61"/>eius bonum.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e891">
+                  <lb ed="#L" n="62"/>IV. Deinceps arguit Scotus, quia, cum iustitia sit virtus
+<lb ed="#L" n="63"/>moralis, etin voluntate; rationes quae militant de voluntate
+<lb ed="#L" n="64"/>et. virtute morali, non concludunt.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e900">
+                  <lb ed="#L" n="65"/>Praeterea, voluntas est indeterminata non solum ad 
+op<lb break="no" ed="#L" n="66"/>posita obiecta; sed modos agendi, scilicet recte et non 
+re<lb break="no" ed="#L" n="67"/>cte. Ergo eget inclinatione ad recte agendum. Et haec est
+<lb ed="#L" n="68"/>virtus.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e911">
+                  <lb ed="#L" n="69"/>Praeterea, voluntas non. magis est determinata ad unum,
+<lb ed="#L" n="70"/>quam . intellectus. Ergo ex írequentibus rectis electionibus
+<lb ed="#L" n="71"/>generatur in ea virtus; sicut in intellectu. ex frequentibus
+<lb ed="#L" n="72"/>actibus, gr
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e922">
+                  <lb ed="#L" n="73"/>Praeterea voluntas non facile, prompte et delectabiliter
+<lb ed="#L" n="74"/>se habet, sine virtutis habitu. Ergo eget virtute. — Sequela
+<lb ed="#L" n="75"/>patet.— Et antecedens probatur in vitioso. nuper: converso;
+<lb ed="#L" n="76"/>qui difficultatem, patitur in. perseverando, quia. non .habet
+<lb ed="#L" n="77"/>habitum acquisitum virtutis.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e935">
+                  <lb ed="#L" n="78"/>V. Ad hoc dicitur quod, cum naturaliter amabile sit
+<lb ed="#L" n="79"/>bonum, unicuique autem proprium, ut experientia testatur;
+<lb ed="#L" n="80"/>consequens est ut voluntati, quae appetitus est rationalis,
+<lb ed="#L" n="81"/>amabile sit naturaliter et bonum, et bonum proprium. Cum
+<lb ed="#L" n="82"/>autem apud Dionysium, rv cap. de-Div. Nom., bonum ho-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>minis sit secundum rationem esse; et hoc non conveniat
+<lb ed="#L" n="84"/>homini secundum appetitum sensitivum: oportet quod
+<lb ed="#L" n="85"/>conveniat secundum. appetitum rationalem; bonum enim
+<lb ed="#L" n="86"/>appetitus alicuius obiectum constat esse. Igitur obiectum
+<lb ed="#L" n="87"/>voluntatis est bonum rationis, Et si huic addatur. proprietas,
+<lb ed="#L" n="88"/>concludetur quod proprium. bonum secundum rationem
+<lb ed="#L" n="89"/>est naturale obiectum voluntatis: ac per hoc, voluntas. est
+<lb ed="#L" n="90"/>ex propria natura inclinata ad proprium bonum secundum
+<lb ed="#L" n="91"/>rationem, Et quia rationis medium in passionibus 
+concu<lb break="no" ed="#L" n="92"/>piscibilis et irascibilis non est alienum, sed proprium 
+bo<lb break="no" ed="#L" n="93"/>num, secundum rationem ipsius. habentis passiones; ideo
+<lb ed="#L" n="94"/>naturaliter voluntas habentis passiones, qualis est voluntas
+<lb ed="#L" n="95"/>humana, ex se determinata est ad tale bonum. |... - i
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e980">
+                  <lb ed="#L" n="96"/>VI. Sed adverte quod aliud est voluntatem esse 
+natu<lb break="no" ed="#L" n="97"/>raliter inclinatam, quantum est ex se, ad. proprium volentis
+<lb ed="#L" n="98"/>bonum secundum rationem: et aliud est volentem esse 
+na<lb break="no" ed="#L" n="99"/>turaliter inclinatum ad hoc. Primum enim sonat in 
+volun<lb break="no" ed="#L" n="100"/>tate tantum talem determinationem: secundum, simpliciter.
+<lb ed="#L" n="101"/>Et tanta est inter haec distantia, ut ex hac radice omnia
+<lb ed="#L" n="102"/>fere solvenda sint: ut nunc videbitur. Si enim volens, puta
+<lb ed="#L" n="103"/>Socrates, esset determinatus ita quod non egeret habitu ad
+<lb ed="#L" n="104"/>medium rationis in passionibus; pronus esset ad opera 
+tem<lb break="no" ed="#L" n="105"/>perantiae et fortitudinis, sicut temperati et fortes. Sed 
+quo<lb break="no" ed="#L" n="106"/>niam proni sunt in malum ab adolescentia sua sensus 
+ho<lb break="no" ed="#L" n="107"/>minum, et caro concupiscit adversus spiritum; no
+<lb ed="#L" n="108"/>simpliciter, sed in voluntate tantum inclinatio haec ad tale
+<lb ed="#L" n="109"/>bonum ponitur. Et quoniam exercitatio hominis in.
+<lb ed="#L" n="110"/>diis non fit sola. voluntate, sed concurrente parte
+<lb ed="#L" n="111"/>naturaliter secundum. se inclinata ad concupiscibile sine 
+Ta<lb break="no" ed="#L" n="112"/>luntate quod, ut in pluribus, eligamus talia bona, aut quo
+<lb ed="#L" n="113"/>prompte, faciliter et delectabiliter, et quod recte semp
+<lb ed="#L" n="114"/>voluntas ad huiusmodi se habeat: sed bene sequitur cum
+<lb ed="#L" n="115"/>hac specificatione, quod voluntas, quantum est ex se, recte
+<lb ed="#L" n="116"/>se haberet ad huiusmodi, ut in pluribus eligeret talia hona.
+<lb ed="#L" n="117"/>et prompte, faciliter atque. delectabiliter.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1030">
+                  <lb ed="#L" n="118"/>VIL. Ad id vero quod de continentia obiicitur, dicitur
+<lb ed="#L" n="119"/>quod continentia non eget voluntas, ut inclinetur, i inquant
+<lb ed="#L" n="120"/>in-se est, in tale bonum: sed ut resistat 
+insurgentibus<lb break="no" ed="#L" n="121"/>sionibus sensitivi appetitus. fro
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1041">
+                  <lb ed="#L" n="122"/>Et si contra hoc instetur, quia per eundem habitum
+<lb ed="#L" n="123"/>potentia aliqua inclinatur in unum oppositorum, et reliqu
+<lb ed="#L" n="124"/>resistit: - Et rursus, naturalis determinatio non est minor
+<lb ed="#L" n="125"/>efficaciae quam determinatio habitus; constat autem quox
+<lb ed="#L" n="126"/>Si voluntas esset habituata, non egeret continentia ad 
+resi<lb break="no" ed="#L" n="127"/>stendum; ergo: — respondetur ordine retrogrado, quod 
+de<lb break="no" ed="#L" n="128"/>tionis freno; ideo. non sequitur ex illa inclinatione in vod
+<lb ed="#L" n="129"/>terminatio naturae non est minus efficax quam. determi-.
+<lb ed="#L" n="130"/>natio habitus: est tamen minus faciens et explicans opus
+<lb ed="#L" n="131"/>suum, quam determinatio habitus acquisiti. Et in prom tu
+<lb ed="#L" n="132"/>causa est: quia acquisitus habitus in ipsa acquisitione 
+<lb ed="#L" n="133"/>pulit insurgentia contraria; naturalis autem - désriimiatio
+<lb ed="#L" n="134"/>non. Unde assimilatur habitui infuso potius quam : 
+acqui<lb break="no" ed="#L" n="135"/>sito. - Ad primum autem dicitur quod voluntas sumitur
+<lb ed="#L" n="136"/>dupliciter; uno modo, secundum se; alio modo, ut 
+coniun<lb break="no" ed="#L" n="137"/>cta contrario appetitui sensitivo. Et quod, quemadmodum
+<lb ed="#L" n="138"/>ipsa secundum se est determinata ad tale bonum, ita 
+se<lb break="no" ed="#L" n="139"/>cundum se est potens resistere contrario obiecto. Et quod,
+<lb ed="#L" n="140"/>quemadmodum ipsa ut coniuncta contrario appetitui, non
+<lb ed="#L" n="141"/>est determinata ad tale bonum, pro quanto impedibilis est
+<pb ed="#L" n="363"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>a tendentia in tale bonum, ad quod est ex se inclinata;
+<lb ed="#L" n="2"/>ita, ut sic, eget habitu ad resistendum huiusmodi 
+impe<lb break="no" ed="#L" n="3"/>dimentis. :
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1098">
+                  <lb ed="#L" n="4"/>Et si hic instetur, quia voluntas, ut iuncta appetitui 
+sen<lb break="no" ed="#L" n="5"/>sitivo, est determinata ab bonum in passionibus appetitus
+<lb ed="#L" n="6"/>sensitivi, per te; et voluntas, ut iuncta appetitui sensitivo,
+<lb ed="#L" n="7"/>eget habitu ad resistendum passionibus, etiam per te: ergo
+<lb ed="#L" n="8"/>falsum est quod voluntas est ex se determinata ad tale
+<lb ed="#L" n="9"/>bonum, et iuncta sensui eget habitu; sed ut iuncta 
+appe<lb break="no" ed="#L" n="10"/>titui sensitivo, habet utrumque: et sic omnia ruunt: - 
+Pro<lb break="no" ed="#L" n="11"/>batur assumptum: quia voluntas separata non est 
+deter<lb break="no" ed="#L" n="12"/>minata ad bonum eligendum in passionibus, ut patet in
+<lb ed="#L" n="13"/>angelis; et ex ratione, quia non est proprium bonum 
+vo<lb break="no" ed="#L" n="14"/>lentis: - A
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1124">
+                  <lb ed="#L" n="15"/>Respondetur quod falsum assumitur quoad hoc, quod
+<lb ed="#L" n="16"/>voluntas, ut iuncta sensui, determinetur ad bonum in 
+pas<lb break="no" ed="#L" n="17"/>sionibus. Aliud est enim dicere, Voluntas, ut iüancta sensui,
+<lb ed="#L" n="18"/>habet inclinationem ad bonum proprium passionum: aliud
+<lb ed="#L" n="19"/>est dicere, Voluntas, ut iuncta sensui, habet quod inclinatio
+<lb ed="#L" n="20"/>sua naturalis terminetur ad bonum in passionibus. Primum
+<lb ed="#L" n="21"/>enim significat quod coniunctio voluntatis ad partem 
+sen<lb break="no" ed="#L" n="22"/>sitivam, sit ratio quod voluntati conveniat inclinatio talis:
+<lb ed="#L" n="23"/>secundum autem, quod coniunctio non sit ratio quod 
+incli<lb break="no" ed="#L" n="24"/>natio conveniat, sed quod inclinatio quam habet, terminetur
+<lb ed="#L" n="25"/>ad tale bonum. Et primum quidem falsum est, formaliter
+<lb ed="#L" n="26"/>loquendo: secundum autem, verum. — Ad cuius 
+eviden<lb break="no" ed="#L" n="27"/>tiam, scito quod voluntati humanae ex suo genere 
+conve<lb break="no" ed="#L" n="28"/>nit quod naturaliter inclinetur in proprium bonum tam sui
+<lb ed="#L" n="29"/>quam volentis, ut superius in qu. x patet: hoc enim 
+com<lb break="no" ed="#L" n="30"/>mune est omni voluntati. Sed quod proprium bonum sit
+<lb ed="#L" n="31"/>in tali materia, scilicet in passionibus volentis, hoc est ex
+<lb ed="#L" n="32"/>coniunctione voluntatis ad partem sensitivam. Unde 
+incli<lb break="no" ed="#L" n="33"/>natio ipsa voluntatis in proprium bonum secundum 
+ratio<lb break="no" ed="#L" n="34"/>nem, in quacumque materia sit, est ei naturalis ex propria
+<lb ed="#L" n="35"/>ratione: sed quod haec sua inclinatio terminetur ad bonum
+<lb ed="#L" n="36"/>in passionibus sensitivis habentis voluntatem, est ex 
+con<lb break="no" ed="#L" n="37"/>iunctione voluntatis ad partem sensitivam. Est igitur in 
+vo<lb break="no" ed="#L" n="38"/>luntate nostra, quantum ex parte voluntatis est, sufficiens
+<lb ed="#L" n="39"/>determinatio ipsius ad proprium bonum; ac per hoc, ad
+<lb ed="#L" n="40"/>bonum secundum rationem ipsius volentis. Et cum hoc, ex
+<lb ed="#L" n="41"/>coniunctione ad partem sensitivam, sortitur necessitatem 
+ha<lb break="no" ed="#L" n="42"/>bitus ad resistendum contrariis, quibus iungitur.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1187">
+                  <lb ed="#L" n="43"/>Et haec intelligito, sustinendo continentiam esse in 
+vo<lb break="no" ed="#L" n="44"/>luntate: quod inferius discutietur. Si enim continentia in
+<lb ed="#L" n="45"/>ratione ponitur, patet quod nulla est difficultas in 
+propo<lb break="no" ed="#L" n="46"/>sito. Et tamen utilem disputationem hanc habes: cuius etsi -
+<lb ed="#L" n="47"/>dicta. conclusio non teneatur, multa tamen alia vera et
+<lb ed="#L" n="48"/>certa in ea dicta, tenenda sunt.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1204">
+                  <lb ed="#L" n="49"/>VIII. Ad secundum vero dicitur quod ibi est 
+aequivo<lb break="no" ed="#L" n="50"/>catio de bono iustitiae obiective, vel formaliter. Ad bonum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="51"/>enim iustitiae obiective non naturaliter inclinatur voluntas :
+<lb ed="#L" n="52"/>quia non est proprium, sed alterius; iustitia enim in his
+<lb ed="#L" n="53"/>quae sunt ad alterum, est. Et de tali virtute, et de bono
+<lb ed="#L" n="54"/>secundum rationem, est sermo, cum dicitur quod, quia 
+po<lb break="no" ed="#L" n="55"/>tentia naturaliter inclinatur in aliquod bonum, non eget
+<lb ed="#L" n="56"/>babitu virtutis: potentia enim, utsic, obiectum per se primo
+<lb ed="#L" n="57"/>respicit; et habitus operativus, de quo est sermo, et virtus
+<lb ed="#L" n="58"/>obiectum respiciunt; nec virtutis est virtus, nec habitus 
+ha<lb break="no" ed="#L" n="59"/>bitus. Obiectio autem procedit de bono iustitiae formaliter,
+<lb ed="#L" n="60"/>quod est formaliter ipse habitus iustitiae: ad quod constat
+<lb ed="#L" n="61"/>potentiam inclinari non mediante alio habitu, ut patet. Hoc
+<lb ed="#L" n="62"/>enim est commune omni virtuti: illud autem non est 
+com<lb break="no" ed="#L" n="63"/>mune omni obiecto virtutis, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1241">
+                  <lb ed="#L" n="64"/>IX. Ad obiectiones autem ex Scoto sumptas: - non quod
+<lb ed="#L" n="65"/>ipse afferat eas contra s. Thomam; sed quoniam ipse, ut
+<lb ed="#L" n="66"/>dictum est, dissentiat a s. Thoma, et has rationes contra
+<lb ed="#L" n="67"/>oppositam positionem affert: — cuius rationes, licet non sint
+<lb ed="#L" n="68"/>nostrae, veruntamen ut novitii cauti sint, proderunt. Ad
+<lb ed="#L" n="69"/>primam ergo. dicitur quod rationes militantes de moralibus
+<lb ed="#L" n="70"/>virtutibus circa passiones, non militant de iustitia: quia
+<lb ed="#L" n="71"/>bonum illarum est proprium volentis, iustitiae vero alterum.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1261">
+                  <lb ed="#L" n="72"/>Ad secundam dicitur quod, quia bonum rationis in 
+pas<lb break="no" ed="#L" n="73"/>sionibus est medium secundum rationem, et non secundum
+<lb ed="#L" n="74"/>rem in passionibus, ut patet in II Ezhic.; et medium 
+ra<lb break="no" ed="#L" n="75"/>tionis non attenditur secundum quantitatem intensivàm 
+so<lb break="no" ed="#L" n="76"/>lam, sed secundum omnes circumstantias, scilicet quando
+<lb ed="#L" n="77"/>oportet, ubi, propter quid, etc.; et in hoc manifeste 
+inclu<lb break="no" ed="#L" n="78"/>ditur recte eligere: ideo voluntas, determinata ex propria
+<lb ed="#L" n="79"/>ratione ad bonum secundum rationem in passionibus, est
+<lb ed="#L" n="80"/>eo ipso. eodem modo determinata ad recte eligere; eiusdem
+<lb ed="#L" n="81"/>enim rationis est inclinatio ad utrumque, et defectus in
+<lb ed="#L" n="82"/>altero alteri defectum inducit.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1287">
+                  <lb ed="#L" n="83"/>Ad tertiam dicitur quod est manifeste sophisma. 
+Con<lb break="no" ed="#L" n="84"/>cesso enim, sicut verum est, quod in voluntate ex 
+frequen<lb break="no" ed="#L" n="85"/>tibus rectis electionibus fit habitus virtutis; non sequitur:
+<lb ed="#L" n="86"/>Ergo ex frequentibus electionibus rectis circa talem 
+mate<lb break="no" ed="#L" n="87"/>riam, scilicet passiones proprias, fit in voluntate habitus 
+vir<lb break="no" ed="#L" n="88"/>tutis; ut patet. Et ratio physica est: quia voluntas non est
+<lb ed="#L" n="89"/>determinabilis ex se, sed determinata ad tale bonum, quod
+<lb ed="#L" n="90"/>frequenter eligit; habitus autem talis virtutis non est natus
+<lb ed="#L" n="91"/>fieri nisi in subiecto apto nato, scilicet indeterminato.
+</p>
+               <p xml:id="TAcCaj-d1e961-d1e1309">
+                  <lb ed="#L" n="92"/>Ad quartam iam patet responsio: quod nuper conversus,
+<lb ed="#L" n="93"/>quantum est ex parte voluntatis, secundum se prompte, 
+fa<lb break="no" ed="#L" n="94"/>ciliter et delectabiliter eligeret bonum in passionibus ; 
+sim<lb break="no" ed="#L" n="95"/>pliciter autem ipse volens difficile eligit, propter habitus
+<lb ed="#L" n="96"/>priores derelictos. Iam enim dictum est quod inclinatio
+<lb ed="#L" n="97"/>haec voluntatis intrinseca assimilatur habitui infuso; quem
+<lb ed="#L" n="98"/>experimur non auferre a nobis difficultatem bene operandi;
+<lb ed="#L" n="99"/>quamvis quantum est ex parte ipsius, prompte, faciliter et
+<lb ed="#L" n="100"/>delectabiliter det operari.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

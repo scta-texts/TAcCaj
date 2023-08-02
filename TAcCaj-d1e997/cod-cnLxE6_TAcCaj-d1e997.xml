@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 63</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 63</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="408"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e997"><!-- TAcCajp2p1-q63 -->
+            <head xml:id="TAcCaj-d1e997-Hd1e99">Quaestio 63</head>
+            <div xml:id="TAcCaj-d1e997-Dd1e101"><!-- caj-p2p1-q63-a1 -->
+               <head xml:id="TAcCaj-d1e997-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e997-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="31"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="32"/>IN corpore primi articuli quaestionis sexagesimaetertiae,
+<lb ed="#L" n="33"/>quod illud verbum litterae, Principia naturaliter
+<lb ed="#L" n="34"/>cognita sunt seminaria virtutum, potest dupliciter exponi :
+<lb ed="#L" n="35"/>Scilicet- simpliciter, vel accommode. Si enim interpretentur
+<lb ed="#L" n="36"/>secundum distributionem accommodam, clarum est quod
+<lb ed="#L" n="37"/>principia consummata dicuntur seminaria ceterarum 
+vir<lb break="no" ed="#L" n="38"/>tutum, sicut caelum dicitur continere omnia corpora. - Si
+<lb ed="#L" n="39"/>autem intelligantur simpliciter, idest quod sint seminaria
+<lb ed="#L" n="40"/>omnium simpliciter virtutum, tunc sumuntur principia 
+se<lb break="no" ed="#L" n="41"/>cundum naturalem eorum inchoationem in anima. Et sic
+<lb ed="#L" n="42"/>constat quod sunt seminaria omnium virtutum 
+intellectua<lb break="no" ed="#L" n="43"/>lium et moralium, quamvis diversimode: quia intellectus
+<lb ed="#L" n="44"/>sunt inchoationes; scientiae autem et reliquarum sunt activa
+<lb ed="#L" n="45"/>principia mediate vel immediate, ut patet. Semen "—
+<lb ed="#L" n="46"/>et inchoationis et principii rationem habet.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e150">
+                  <lb ed="#L" n="47"/>IL. In eodem articulo primo eiusdem quaestionis 
+sexa<lb break="no" ed="#L" n="48"/>gesimaetertiae, dubium occurrit de causa reddita in littera
+<lb ed="#L" n="49"/>quare consummatio virtutum non est a natura, quia 
+na<lb break="no" ed="#L" n="50"/>tura est determinata ad unum; consummatio autem 
+vir<lb break="no" ed="#L" n="51"/>tutum non est secundum unum modum actionis, sed 
+di<lb break="no" ed="#L" n="52"/>versimode, secundum diversas materias in quibus virtutes
+<lb ed="#L" n="53"/>operantur, et secundum diversas circumstantias. Dubium,
+<lb ed="#L" n="54"/>inquam, est non de arte et virtutibus moralibus, sed de
+<lb ed="#L" n="55"/>intellectu et scientia. Tam nempe ars, quam virtus moralis,
+<lb ed="#L" n="56"/>principium est actus diversimode se habentis ad diversas vel
+<lb ed="#L" n="57"/>materias vel circumstantias: temperantia enim principium
+<lb ed="#L" n="58"/>est concupiscendi aliter potum, aliter cibum, aliter nunc,
+<lb ed="#L" n="59"/>aliter post, etc. Et hoc ex parte agentis: nam ex parte
+<lb ed="#L" n="60"/>passi, etiam natura aliter et aliter efficit. Et propterea in
+<lb ed="#L" n="61"/>littera notanter dicitur, secundum unum modum actionis :
+<lb ed="#L" n="62"/>actio enim ex parte agentis se tenet. - Sed quo pacto 
+in<lb break="no" ed="#L" n="63"/>tellectus principiorum, et similiter scientia aliqua, 
+diversi<lb break="no" ed="#L" n="64"/>mode agit secundum diversas materias aut, circumstantias,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>non apparet. Nam intellectus, tam in speculativis quam
+<lb ed="#L" n="66"/>practicis, uno modo operatur, scilicet, cognitis terminis, solo
+<lb ed="#L" n="67"/>naturali lumine. Quaelibet autem scientia, demonstrando ex
+<lb ed="#L" n="68"/>uno primo [uno] modo, unam tantum materiam circa quam
+<lb ed="#L" n="69"/>versatur, habet. - Et rursus in angelis tam intellectus quam
+<lb ed="#L" n="70"/>scientia a natura etiam secundum consummationem 
+exi<lb break="no" ed="#L" n="71"/>stens, manifestat quod neutri dissonat a natura esse, scilicet
+<lb ed="#L" n="72"/>consummationem: natura enim est determinata ad unum
+<lb ed="#L" n="73"/>non solum in nobis, sed in angelis et in Deo. Ratio igitur
+<lb ed="#L" n="74"/>litterae deficere videtur.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e215">
+                  <lb ed="#L" n="75"/>III. Ad hoc dicitur quod, quia virtutum istarum, scilicet
+<lb ed="#L" n="76"/>intellectus et scientiae, actus in compositione consistit, ut
+<lb ed="#L" n="77"/>patet; et compositio secundum diversas materias diversimode
+<lb ed="#L" n="78"/>a recto fit intellectu: — aliter enim componit scientia rem
+<lb ed="#L" n="79"/>aliquam cum materia remota, et aliter cum materia 
+neces<lb break="no" ed="#L" n="80"/>saria; et similiter intellectus aliter componit ens cum non
+<lb ed="#L" n="81"/>ente, et aliter totum cum parte, aliter bonum et aliter 
+ma<lb break="no" ed="#L" n="82"/>lum cum prosecutione et fuga: — ideo consummatio harum
+<lb ed="#L" n="83"/>virtutum non est secundum unum modum actionis, sed
+<lb ed="#L" n="84"/>diversimode secundum diversas materias, Et quamvis unico
+<lb ed="#L" n="85"/>generalissimo modo, scilicet componendo, et una. 
+secun<lb break="no" ed="#L" n="86"/>dum rationem formalem materia, idest obiecto, unica virtus
+<lb ed="#L" n="87"/>utatur; cum unitate tamen horum stat diversitas specialium
+<lb ed="#L" n="88"/>modorum actionis ex parte agentis secundum diversas 
+spe<lb break="no" ed="#L" n="89"/>ciales materias, ut patet ex dictis. — Et quoniam in angelis
+<lb ed="#L" n="90"/>est notitia evidens et principiorum et conclusionum non
+<lb ed="#L" n="91"/>componendo, sed sicut nos intelligimus quod quid est prima
+<lb ed="#L" n="92"/>operatione intellectus; ideo in eis non est habitus nec 
+prin<lb break="no" ed="#L" n="93"/>cipiorum. nec conclusionum, superadditus speciebus 
+intelli<lb break="no" ed="#L" n="94"/>gibilibus. Et quoniam species intelligibiles possunt esse a
+<lb ed="#L" n="95"/>natura, consequens est quod in eis habitus intellectualis
+<lb ed="#L" n="96"/>potest esse naturalis etiam secundum consummationem :
+<lb ed="#L" n="97"/>in nobis autem, non.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e997-Dd1e268"><!-- caj-p2p1-q63-a2 -->
+               <head xml:id="TAcCaj-d1e997-Hd1e271">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e997-d1e273">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="75"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e280">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="76"/>IN articulo secundo eiusdem quaestionis 
+sexagesimaeter<lb break="no" ed="#L" n="77"/>tiae, adverte quod, licet prima facie Auctor videatur 
+di<lb break="no" ed="#L" n="78"/>minutus, quia ad conclusionem universalem, scilicet de
+<lb ed="#L" n="79"/>omnibus virtutibus, particularem rationem, scilicet 
+haben<lb break="no" ed="#L" n="80"/>tem locum in practicis tantum, inducit; dum ex hoc quod
+<lb ed="#L" n="81"/>virtutes humanae ad bonum modificatum regula rationis
+<lb ed="#L" n="82"/>humanae ordinant, ostendit eas ab actibus humanis in 
+po<lb break="no" ed="#L" n="83"/>testate rationis existentibus causari: in practicis enim 
+vir<lb break="no" ed="#L" n="84"/>tutibus constat bonum earum regulandum humana ratione;
+<lb ed="#L" n="85"/>in speculativis autem, bonum attenditur secundum 
+confor<lb break="no" ed="#L" n="86"/>mitatem ad rem, quia bonum earum est verum, quod 
+con<lb break="no" ed="#L" n="87"/>stat ab eo quod res est vel non est pendere; et sic 
+me<lb break="no" ed="#L" n="88"/>dium non videtur adaequare conclusionem: - licet, inquam,
+<lb ed="#L" n="89"/>sic appareat, profundius tamen si speculati fuerimus, 
+in<lb break="no" ed="#L" n="90"/>veniemus medium adaequare conclusionem. Nam scientiae
+<lb ed="#L" n="91"/>actus, in quo eius bonitas consistit, examinatur a ratione
+<lb ed="#L" n="92"/>humana in principiis: et actus intellectus principiorum a
+<lb ed="#L" n="93"/>principio humanae rationis etiam, quod vocatur lumen 
+in<lb break="no" ed="#L" n="94"/>tellectus agentis; in quo est status. Et sicut actus 
+cogno<lb break="no" ed="#L" n="95"/>scendi verum. dependet a duobus, scilicet a cognoscente et
+<lb ed="#L" n="96"/>cognito; ita non inconvenit habere duas mensuras, alteram
+<lb ed="#L" n="97"/>hinc, alteram inde, - Rursus, quia ratio veri, ut patet in IV
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>Metaphys., consistit in ens esse, et non ens non esse; ethoc
+<lb ed="#L" n="99"/>nisi in dicere, accipere, cognoscere, etc., invenitur: 
+conse<lb break="no" ed="#L" n="100"/>quens est ut verum ipsum in unoquoque dicente, accipiente,
+<lb ed="#L" n="101"/>cognoscente, secundum proprii luminis facultatem dicatur,
+<lb ed="#L" n="102"/>accipiatur, seu cognoscatur; et sic ex parte dicentis, seu
+<lb ed="#L" n="103"/>scientis; a propria ratione mensuretur. Et quoniam nunc
+<lb ed="#L" n="104"/>est quaestio de causa virtutum ex parte habentis ipsas, 
+quo<lb break="no" ed="#L" n="105"/>niam est quaestio an ex propriis habentis actibus 
+generen<lb break="no" ed="#L" n="106"/>tur; ideo Auctor, suppositis dependentiis actuum ab obiectis,
+<lb ed="#L" n="107"/>et commensurationibus eorum ad illa; ex hoc quod sunt
+<lb ed="#L" n="108"/>ad bonum habentis, et consequenter in aliquali zumero,
+<lb ed="#L" n="109"/>pondere et mensura ipsius habentis; posuit principium 
+ea<lb break="no" ed="#L" n="110"/>rum ex parte nostri habere rationem regulae numerantis,
+<lb ed="#L" n="111"/>ponderantis et commensurantis; ut ex hoc discerneremus
+<lb ed="#L" n="112"/>quae possunt ex nostris actibus in nobis causari virtutes,
+<lb ed="#L" n="113"/>et quae non, Virtutes enim, ut sic, rationem boni 
+rationa<lb break="no" ed="#L" n="114"/>lis habent: principium autem rationalis boni ut sic, regula
+<lb ed="#L" n="115"/>est. - In sequenti tamen quaestione amplior erit de hoc
+<lb ed="#L" n="116"/>sermo.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e376">
+                  <lb ed="#L" n="117"/>II. In responsione ad secundum eiusdem articuli, pro
+<lb ed="#L" n="118"/>nunc tantummodo nota quod dupliciter Auctor salvat 
+quo<lb break="no" ed="#L" n="119"/>modo stant haec duo simul, 7Zomo non potest vitare pec-
+<pb ed="#L" n="409"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>catum mortale sine gratia; et, Homo potest habere 
+virtu<lb break="no" ed="#L" n="2"/>tes ex assuetudine operum suorum. Primo, quia actus 
+pec<lb break="no" ed="#L" n="3"/>cati mortalis stat cum virtute acquisita. Et hoc quoad actus
+<lb ed="#L" n="4"/>vitiorum contrariorum virtutibus acquisitis, Secundo, quia
+<lb ed="#L" n="5"/>sunt aliqua peccata mortalia alterius ordinis a vitiis 
+con<lb break="no" ed="#L" n="6"/>trariis virtutibus acquisitis, ea scilicet quae contrariantur
+<lb ed="#L" n="7"/>praeceptis de actibus virtutum theologicarum. Ex hac enim
+<lb ed="#L" n="8"/>doctrina, iuncta responsioni ad primum, habes quid de vir-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>tutibus infidelium sentiendum sit. De hoc tamen latior erit
+<lb ed="#L" n="10"/>sermo in qu. Lxv, art. ir.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e413">
+                  <lb ed="#L" n="11"/>III. In responsione ad tertium eiusdem articuli, nota 
+quo<lb break="no" ed="#L" n="12"/>modo Auctor, nulli philosophorum secundus, optime 
+inve<lb break="no" ed="#L" n="13"/>nit in omnium genere virtutum nobilius semper esse 
+ge<lb break="no" ed="#L" n="14"/>nerans. Ita quod, licet actus praecedentes habitum virtutis
+<lb ed="#L" n="15"/>sint secundum se imperfecti, ut tamen ex altiori oriuntur
+<lb ed="#L" n="16"/>principio, generativi sunt virtutis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e997-Dd1e430"><!-- caj-p2p1-q63-a3 -->
+               <head xml:id="TAcCaj-d1e997-Hd1e433">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e997-d1e435">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="72"/>Commentaria Cardinalis Caietani "
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e442">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="73"/>In articulo tertio eiusdem quaestionis sexagesimaetertiae ,
+<lb ed="#L" n="74"/>dubium ex <ref xml:id="TAcCaj-d1e997-Rd1e450">Scoto, in III Sent., dist. xxxvi</ref>, occurrit, 
+ne<lb break="no" ed="#L" n="75"/>gante has virtutes morales infusas; non tamen solvente 
+ra<lb break="no" ed="#L" n="76"/>tionem s. Thomae. Movetur autem, quia ponere ipsas nec
+<lb ed="#L" n="77"/>oportet ex parte finis, quoniam finis supernaturalis 
+suffi<lb break="no" ed="#L" n="78"/>cienter habetur in anima per virtutes theologicas: nec ex
+<lb ed="#L" n="79"/>parte modi, vel medii, quia fides modum dat operandi 
+in<lb break="no" ed="#L" n="80"/>ferioribus in ordine ad Deum, et caritas ordinat ad ipsum
+<lb ed="#L" n="81"/>omnia.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e468">
+                  <lb ed="#L" n="82"/>Ex parte quoque obiecti, posset ex ipso Scoto argui, ex
+<lb ed="#L" n="83"/>xxxiv distinctione eiusdem Tertii, ubi impugnat dona. Quia
+<lb ed="#L" n="84"/>quatuor virtutes cardinales, et tres theologicae, si 
+perfectis<lb break="no" ed="#L" n="85"/>sime habeantur, sufficienter perficiunt animam nostram 
+re<lb break="no" ed="#L" n="86"/>spectu omnis obiecti pertinentis ad partem practicam 
+agi<lb break="no" ed="#L" n="87"/>bilium: ut facile est deducere tam de obiecto naturali, quam
+<lb ed="#L" n="88"/>supernaturali; tam de fine ultimo, quam de his quae sunt
+<lb ed="#L" n="89"/>ad finem. Theologicae namque virtutes finem 
+supernatura<lb break="no" ed="#L" n="90"/>lem sufficienter respiciunt; et ad ipsum — actus suos,
+<lb ed="#L" n="91"/>et aliarum virtutum.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e492">
+                  <lb ed="#L" n="92"/>II. Sed ut omnibus liqueat quod istas virtutes morales
+<lb ed="#L" n="93"/>infusas oportet in anima ponere praeter theologicas, ex
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="94"/>multis capitibus ostenditur. Primo, ex supernaturalis 
+perfe<lb break="no" ed="#L" n="95"/>ctionis complemento. Inchoatur enim in nobis 
+supernatu<lb break="no" ed="#L" n="96"/>ralis perfectio per gratiam et virtutes theologicas: et nisi
+<lb ed="#L" n="97"/>consequerentur virtutes morales supernaturales, perfectio
+<lb ed="#L" n="98"/>supernaturalis incompleta remaneret; sicut si perfectio 
+na<lb break="no" ed="#L" n="99"/>turalis haberet tantum primas virtutes, circa finem scilicet,
+<lb ed="#L" n="100"/>et non eas quae sunt ad finem. — Secundo, ex proportione
+<lb ed="#L" n="101"/>effectus ad causam. Oportet enim causis naturalibus effectus
+<lb ed="#L" n="102"/>naturales, et supernaturalibus supernaturales respondere.
+<lb ed="#L" n="103"/>Ergo principiis supernaturalibus, qualia sunt virtutes 
+theo<lb break="no" ed="#L" n="104"/>logicae, oportet assignare effectus supernaturales , quales
+<lb ed="#L" n="105"/>sunt morales: sicut naturalibus naturales. Et haec est ratio
+<lb ed="#L" n="106"/>litterae. Et ex hac ratione habes quod huic principio quod
+<lb ed="#L" n="107"/>est caritas, non est proportionatus actus temperantiae 
+acqui<lb break="no" ed="#L" n="108"/>sitae, sed infusae. — T'ertio, ex parte obiecti. Quia modus
+<lb ed="#L" n="109"/>impositus in passionibus et operationibus secundum divinam
+<lb ed="#L" n="110"/>regulam, et impositus secundum humanam rationem, sunt
+<lb ed="#L" n="111"/>obiecta formaliter distincta: et utrumque oportet habere:
+<lb ed="#L" n="112"/>et primum ad infusas, secundum ad acquisitas morales 
+spe<lb break="no" ed="#L" n="113"/>ctat. Et haec ratio tangitur in sequenti articulo. — Quarto,
+<lb ed="#L" n="114"/>ex ordine ad finem. Quia infusae ordinant ad vitam divi-
+<pb ed="#L" n="410"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nam, acquisitae ad humanam: ut in eodem sequenti 
+arti<lb break="no" ed="#L" n="2"/>culo patet.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e556">
+                  <lb ed="#L" n="3"/>Et quamvis Scotus nullam istarum solvat, ac propterea
+<lb ed="#L" n="4"/>non esset opus ampliori firmitate; ut tamen Scotistae ex
+<lb ed="#L" n="5"/>propriis se cognoscant, vide quod, si ratio Scoti ex parte
+<lb ed="#L" n="6"/>obiecti approbaretur, sequeretur in primis quod nec 
+theo<lb break="no" ed="#L" n="7"/>logicas virtutes oportet ponere infusas. Probatur. Quia ad
+<lb ed="#L" n="8"/>idem obiectum perficiunt fides, spes et caritas acquisitae
+<lb ed="#L" n="9"/>de Deo, ad quod perficiunt infusae: et nihil creditur, nihil
+<lb ed="#L" n="10"/>speratur, nihil amatur infusis, quod non acquisitis. Et 
+qua<lb break="no" ed="#L" n="11"/>cumque ratione solvent hoc, solvemus etiam de moralibus
+<lb ed="#L" n="12"/>infusis. Verbi gratia, si dixerint quod non aeque perfecte fit
+<lb ed="#L" n="13"/>per acquisitas sicut per infusas; ita etiam hic. Et sic de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e582">
+                  <lb ed="#L" n="14"/>Praeterea, si non ponerentur virtutes morales infusae,
+<lb ed="#L" n="15"/>sequeretur quod baptizato puéro, vel adulto quasi neutrali
+<lb ed="#L" n="16"/>secundum virtutem vel vitium acquisita, non sufficienter
+<lb ed="#L" n="17"/>provisum esset. Quia perfectus esset respectu finis tantum,
+<lb ed="#L" n="18"/>ex quo nullam moralem infusam aut acquisitam haberet
+<lb ed="#L" n="19"/>virtutem, Et sic non posset sequi operatio perfecta in 
+ap<lb break="no" ed="#L" n="20"/>petitu inferiori: quia ipso existente imperfecto, operatio non
+<lb ed="#L" n="21"/>potest sequi perfecta; sequitur enim deteriorem partem, ut
+<lb ed="#L" n="22"/>conclusio in syllogismo. - Dicito ergo quod, sicut ex 
+arti<lb break="no" ed="#L" n="23"/>culis fidei multa deducimus credenda ex illis, ita ex 
+theo<lb break="no" ed="#L" n="24"/>logicis virtutibus revelatis virtutes morales deducimus 
+po<lb break="no" ed="#L" n="25"/>nendas in anima, ut patet ex dictis,
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e611">
+                  <lb ed="#L" n="26"/>III. Ad rationes ergo in oppositum dicitur quod 
+neces<lb break="no" ed="#L" n="27"/>sitas ponendi has virtutes est ex fine originaliter, non in se,
+<lb ed="#L" n="28"/>sed in his quae sunt propter se. Oportet enim animam 
+di<lb break="no" ed="#L" n="29"/>vine se habentem ad finem, divine quoque se habere ad
+<lb ed="#L" n="30"/>ea quae sunt ad finem, si proportionata omnia esse 
+de<lb break="no" ed="#L" n="31"/>bent. - Oportet etiam ponere easdem propter modum, seu
+<lb ed="#L" n="32"/>medium, Nam sicut in virtutibus acquisitis synderesis non
+<lb ed="#L" n="33"/>ponit medium nisi mediante prudentia, et morales 
+appeti<lb break="no" ed="#L" n="34"/>tivae medium illud exequuntur; ita in infusis fides, finem
+<lb ed="#L" n="35"/>ultimum firmans et largiens, mediante prudentia infusa, me-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="36"/>dium moralibus infusis imponit, et illas oportet medium
+<lb ed="#L" n="37"/>illud habilitare. Fides ergo medium non dat nisi remote:
+<lb ed="#L" n="38"/>prudentia autem infusa proxime. Oportet autem Dei opera
+<lb ed="#L" n="39"/>perfecta esse; ut et prima et proxima habeantur principia.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e646">
+                  <lb ed="#L" n="40"/>Ex parte quoque obiecti, oportet easdem ponere. Quia
+<lb ed="#L" n="41"/>aliud est loqui de obiecto formali; et aliud de materia 
+vir<lb break="no" ed="#L" n="42"/>tutum, Et licet per septem illas virtutes perficiamur circa
+<lb ed="#L" n="43"/>omnem materiam; non tamen circa omne obiectum 
+for<lb break="no" ed="#L" n="44"/>male. Idest, perficimur circa omne obiectum, sed non 
+se<lb break="no" ed="#L" n="45"/>cundum omnem rationem formalem, ut patet ex dictis.
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e662">
+                  <lb ed="#L" n="46"/>Ad id autem quod additur, quod virtutes morales 
+acqui<lb break="no" ed="#L" n="47"/>sitae, ut imperantur a caritate, ordinantur ad ultimum finem
+<lb ed="#L" n="48"/>supernaturalem: respondetur quod hoc verum est, sed non
+<lb ed="#L" n="49"/>sufficit. Quod dupliciter patet. Primo, quia ad ipsum non
+<lb ed="#L" n="50"/>ordinantur acquisitae ut ad proportionatum secundum se,
+<lb ed="#L" n="51"/>sed ex parte ordinantis tantum : virtutes autem morales
+<lb ed="#L" n="52"/>infusae ordinantur ut secundum se proportionatae ad 
+ta<lb break="no" ed="#L" n="53"/>lem finem supernaturalem. Cum enim utroque modo 
+con<lb break="no" ed="#L" n="54"/>tingat aliquid ordinari ad supernaturalem finem, ille actus
+<lb ed="#L" n="55"/>ordinatur in illum ut proportionatus secundum se, cuius
+<lb ed="#L" n="56"/>proximus finis in illum ordinatur. Constat autem quod 
+bo<lb break="no" ed="#L" n="57"/>num secundum regulam divinam, quod est proprius finis
+<lb ed="#L" n="58"/>moralis infusae, et bonum secundum humanam regulam,
+<lb ed="#L" n="59"/>quod est proximus finis acquisitae, ita se habent quod hoc
+<lb ed="#L" n="60"/>est humani, illud divini ordinis: et consequenter hoc ex
+<lb ed="#L" n="61"/>alio tantum, illud etiam ex se habet quod ad Deum 
+su<lb break="no" ed="#L" n="62"/>pernaturalem finem ordinetur. — Secundo quia, ut ex 
+supra<lb break="no" ed="#L" n="63"/>dictis patet, virtutes morales ordinantur a caritate ad Deum,
+<lb ed="#L" n="64"/>ut res improportionatae ipsi caritati, utpote inferioris 
+ordi<lb break="no" ed="#L" n="65"/>nis. Oportet autem caritatem media habere sui ordinis, etc.
+<lb ed="#L" n="66"/>- Accedit ad hoc, in <ref xml:id="TAcCaj-d1e997-Rd1e709" target="http://scta.info/resource/kdhaWs-d1e65-d1e122">Clementin. de Sum. Trin. et Fid.
+<lb ed="#L" n="67"/>Cath., cap. <quote xml:id="TAcCaj-d1e997-Qd1e713" source="http://scta.info/resource/kdhaWs-d1e65-d1e122@6-7" type="incipit">Fidei catholicae</quote>
+                  </ref>, auctoritas decernens virtutes 
+in<lb break="no" ed="#L" n="68"/>fundi in baptismo. Et quia non dicit has vel illas virtutes,
+<lb ed="#L" n="69"/>omnes quas theologi infundi in baptismo unitas tenent, 
+in<lb break="no" ed="#L" n="70"/>tellige.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e997-Dd1e726"><!-- caj-p2p1-q63-a4 -->
+               <head xml:id="TAcCaj-d1e997-Hd1e729">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e997-d1e731">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="31"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e997-d1e738">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="32"/>In articulo quarto, nihil addendum occurrit supradictis ,
+<lb ed="#L" n="33"/>nisi quod ex responsione ad tertium memor sis colligere
+<lb ed="#L" n="34"/>quod infusio dupliciter se habet ad virtutes: scilicet per se,
+<lb ed="#L" n="35"/>et per accidens. Nam virtutibus acquisibilibus per actus 
+no<lb break="no" ed="#L" n="36"/>stros, accidit infundi: quia si infundantur, ordinantur ad
+<lb ed="#L" n="37"/>actum eundem specie ad quem ordinantur acquisitae, sicut
+<lb ed="#L" n="38"/>oculi miraculose dati. Virtutibus autem non acquisibilibus,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="39"/>cum ordinentur ad actus distinctos specie ab his qui nati
+<lb ed="#L" n="40"/>sunt fieri ab acquisitis, non accidit, sed per se convenit 
+in<lb break="no" ed="#L" n="41"/>fundi; ita quod ex natura sua habent quod vindicent sibi
+<lb ed="#L" n="42"/>infusibilitatem. Et propterea in definitione virtutis sumpta
+<lb ed="#L" n="43"/>ab Augustino, dicitur: quam Deus in nobis sine nobis
+<lb ed="#L" n="44"/>operatur. Et hoc scito applicare, cum tractatur an, vel 
+quo<lb break="no" ed="#L" n="45"/>modo infusio variet speciem rei infusae.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

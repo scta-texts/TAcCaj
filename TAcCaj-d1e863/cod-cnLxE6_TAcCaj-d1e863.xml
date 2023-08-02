@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 37</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 37</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="255"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e863"><!-- TAcCajp2p1-q37 -->
+            <head xml:id="TAcCaj-d1e863-Hd1e99">Quaestio 37</head>
+            <div xml:id="TAcCaj-d1e863-Dd1e101"><!-- caj-p2p1-q37-a4 -->
+               <head xml:id="TAcCaj-d1e863-Hd1e104">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e863-d1e106">
+                  <pb ed="#L" n="256"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e863-d1e115">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>CIRCA quaestionem trigesimamseptimam nihil occurrit
+<lb ed="#L" n="3"/>nisi ut qui volunt videre naturas 
+passio<lb break="no" ed="#L" n="4"/>num, advertant ad regulam in quarto articulo traditam: 
+sci<lb break="no" ed="#L" n="5"/>licet quod, duplici existente motu in qualibet passione, sci-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="6"/>licet appetitus et corporis, motus corporis similis est motui
+<lb ed="#L" n="7"/>animi, in hoc quod est se: habere per modum prosecutionis
+<lb ed="#L" n="8"/>velfugae. Et si his attenderis, videbis non dari illas duas
+<lb ed="#L" n="9"/>tristitias, quas superius reprobavimus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

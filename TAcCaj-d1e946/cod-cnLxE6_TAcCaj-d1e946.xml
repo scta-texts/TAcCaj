@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 53</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 53</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="339"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e946"><!-- TAcCajp2p1-q53 -->
+            <head xml:id="TAcCaj-d1e946-Hd1e99">Quaestio 53</head>
+            <div xml:id="TAcCaj-d1e946-Dd1e101"><!-- caj-p2p1-q53-a1-3 -->
+               <head xml:id="TAcCaj-d1e946-Hd1e104">Articuli 1-3</head>
+               <!-- ? 1-3? -->
+               <p xml:id="TAcCaj-d1e946-d1e108">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e946-d1e115">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="92"/>In quaestione quinquagesimatertia adverte, ex primo 
+arti<lb break="no" ed="#L" n="93"/>culo, quod apud Auctorem idem est iudicium de speciebus
+<lb ed="#L" n="94"/>intelligibilibus et habitibus principiorum, quoad 
+corruptibi<lb break="no" ed="#L" n="95"/>litatem et incorruptibilitatem: et non est idem iudicium de
+<lb ed="#L" n="96"/>praedictis et habitu scientiae et virtutum. Et causa est, ut
+<lb ed="#L" n="97"/>patet in littera, quia illa sunt a solo intellectu agente, ista
+<lb ed="#L" n="98"/>vero ab aliis causis, habentibus contraria. Neque enim phan-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="99"/>tasmata ex parte causae computanda censuit, qui alias
+<lb ed="#L" n="100"/>docuit non causam, sed materiam causae esse ea quae
+<lb ed="#L" n="101"/>sunt in parte sensitiva, ad ea quae sunt intellectus. 
+Pro<lb break="no" ed="#L" n="102"/>pter quod etiam hic ex parte subiecti posuit hoc, 
+secun<lb break="no" ed="#L" n="103"/>darium subiectum ipsa vocans. Quae tu, celsi ingenii, non
+<lb ed="#L" n="104"/>pertransibis ieiunus.
+</p>
+               <p xml:id="TAcCaj-d1e946-d1e150">
+                  <lb ed="#L" n="105"/>Adverte quoque ex eodem articulo, quod hic expresse
+<pb ed="#L" n="340"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>pluries habes unde habitum scientiae in nobis non esse
+<lb ed="#L" n="2"/>species intelligibiles accipias. Illae enim et singulae et omnes
+<lb ed="#L" n="3"/>carent contrariis: scientia autem non, ut in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e946-d1e167">
+                  <lb ed="#L" n="4"/>II. Adverte tertio, ex secundo articulo, quod Auctor,
+<lb ed="#L" n="5"/>undique affluens propriis rationibus, non solum ad 
+natu<lb break="no" ed="#L" n="6"/>ram rei reddit rationem intensionis et remissionis; sed ad
+<lb ed="#L" n="7"/>res sic significatas, puta concrete vel abstracte, ex eadem
+<lb ed="#L" n="8"/>radice descendit.
+</p>
+               <p xml:id="TAcCaj-d1e946-d1e180">
+                  <lb ed="#L" n="9"/>III. In responsione ad tertium, postremo, in articulo
+<lb ed="#L" n="10"/>tertio, scrupulus occurrens novitiis removendus est. 
+Vi<lb break="no" ed="#L" n="11"/>detur enim contrariari hic tertius articulus primo, in resp.
+<lb ed="#L" n="12"/>ad 3, dum ibi dicitur quod scientia ex corporalibus 
+mo<lb break="no" ed="#L" n="13"/>tibus non corrumpitur in se, sed in suo actu impeditur, ut
+<lb ed="#L" n="14"/>patet in ebriis: hic vero confirmatur, in responsione ad
+<lb ed="#L" n="15"/>ultimum, quod scientia corrumpitur propter mutationem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>cui subiacent vires apprehensivae interiores, quae subsunt
+<lb ed="#L" n="17"/>tempori.
+</p>
+               <p xml:id="TAcCaj-d1e946-d1e204">
+                  <lb ed="#L" n="18"/>Ad hoc enim dicendum est quod, diligentius perspecta,
+<lb ed="#L" n="19"/>verba litterae sibi invicem non adversantur. Primum enim
+<lb ed="#L" n="20"/>dictum loquitur de motibus partis interioris sensitivae 
+tan<lb break="no" ed="#L" n="21"/>tum: secundus autem de eisdem ut pariunt, vel non 
+con<lb break="no" ed="#L" n="22"/>pescunt contrarias causas habituum, Et intendit Auctor quod
+<lb ed="#L" n="23"/>impedimenta partis sensitivae, si non ultra progrediantur,
+<lb ed="#L" n="24"/>non corrumpunt scientiam, sed actum eius: et ideo 
+rema<lb break="no" ed="#L" n="25"/>net post mortem. Si autem vel per diuturnam cessationem,
+<lb ed="#L" n="26"/>vel positivam imaginationem, ad hoc progrediantur quod
+<lb ed="#L" n="27"/>propositiones contrariae aut syllogismus fiat; quamvis ex
+<lb ed="#L" n="28"/>parte sensitiva inchoet tantum corruptio haec, efficaciter
+<lb ed="#L" n="29"/>tamen corrumpitur scientia per huiusmodi oblivionem vel
+<lb ed="#L" n="30"/>deceptionem, ut in littera dicitur in primo articulo.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 21</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 21</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="168"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e780"><!-- TAcCajp2p1-q21 -->
+            <head xml:id="TAcCaj-d1e780-Hd1e99">Quaestio 21</head>
+            <div xml:id="TAcCaj-d1e780-Dd1e101"><!-- caj-p2p1-q21-a1 -->
+               <head xml:id="TAcCaj-d1e780-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e780-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e780-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>IN titulo omnium articulorum quaestionis xxr, adverte quod,
+<lb ed="#L" n="13"/>cum quaeritur utrum actus humanus, inquantum bonus
+<lb ed="#L" n="14"/>vel malus, habeat hoc vel illud; potest intelligi illa 
+redupli<lb break="no" ed="#L" n="15"/>cationis nota, primo, ut determinat bonitatem vel malitiam
+<lb ed="#L" n="16"/>absolute. Et sic non sumitur hic: quia hoc esset idem quod
+<lb ed="#L" n="17"/>quaerere de convenientibus bono vel malo absolute, quod
+<lb ed="#L" n="18"/>non spectat ad moralem, sed metaphysicum; et essent 
+fal<lb break="no" ed="#L" n="19"/>sae responsiones. — Alio modo, ut determinat bonitatem vel
+<lb ed="#L" n="20"/>malitiam propriam, seu contractam ad actum humanum.
+<lb ed="#L" n="21"/>Et hic est intentus sensus quaestionum et responsionum.
+<lb ed="#L" n="22"/>Ita quod intendit Auctor quaerere an actus humanus ex sua
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="23"/>bonitate vel malitia, ut sic, habeat rationem recti, laudabilis,
+<lb ed="#L" n="24"/>meritorii, etiam apud Deum: et similiter peccati, culpabilis,
+<lb ed="#L" n="25"/>demeritorii, etiam apud Deum. Et, ut patet in littera, 
+de<lb break="no" ed="#L" n="26"/>terminat partem affirmativam. Ita quod actus humanus 
+con<lb break="no" ed="#L" n="27"/>stituitur in esse boni vel mali, quasi ex causa formali; et
+<lb ed="#L" n="28"/>super hoc fundatur quod ex ordine ad finem, recti vel 
+pec<lb break="no" ed="#L" n="29"/>cati; ex ordine ad efficiens, laudabilis vel culpabilis; ex
+<lb ed="#L" n="30"/>ordine ad alterum, meritorii vel demeritorii rationem habet.
+<lb ed="#L" n="31"/>Et non sunt haec sumenda ut disparata, sed ut ex additione
+<lb ed="#L" n="32"/>se habentia: meritorium namque supponit et praeexigit
+<lb ed="#L" n="33"/>laudabile, et laudabile rectum, et rectum bonum moraliter.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e780-Dd1e169"><!-- caj-p2p1-q21-a4 -->
+               <head xml:id="TAcCaj-d1e780-Hd1e172">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e780-d1e174">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="82"/>Commentaria Cardinalis. Caietani
+</p>
+               <p xml:id="TAcCaj-d1e780-d1e181">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>IN calce ultimi articuli eiusdem quaestionis, adverte illa
+<lb ed="#L" n="84"/>lido verba: quantum est ex ipsa ratione actus. 
+Dupli<lb break="no" ed="#L" n="85"/>citer enim 'omnis alicuius actus humanus potest habere
+<lb ed="#L" n="86"/>rationem meritorii vel demeritorii: primo, ex ipsa ratione
+<lb ed="#L" n="87"/>actus; secundo, ex statu personae agentis. Et hoc quidem
+<lb ed="#L" n="88"/>secundo modo, non omnis actus humianus est meritorius
+<lb ed="#L" n="89"/>vel demeritorius, sed existentis in statu gratiae: primo vero
+<lb ed="#L" n="90"/>modo, omnis actus humanus est meritorius vel 
+demerito<lb break="no" ed="#L" n="91"/>rius. Et ut praeservaret se, Auctor addidit, quantum est ex
+<lb ed="#L" n="92"/>ipsa ratione actus. Et hoc intellige, loquendo de merito vi-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="93"/>tae aeternae, seu simpliciter apud Deum. Latissime enim
+<lb ed="#L" n="94"/>loquendo de merito, omnis actus bonus retributionem, et
+<lb ed="#L" n="95"/>malus punitionem exposcit. - Et quoniam difficultas illa, an
+<lb ed="#L" n="96"/>omnis actus existentis in gratia sit meritorius vel 
+demeri<lb break="no" ed="#L" n="97"/>torius respectu vitae aeternae, ex praecepto caritatis pendet;
+<lb ed="#L" n="98"/>etinferius de his erit sermo in quaestione centesima; 
+id<lb break="no" ed="#L" n="99"/>circo illucusque differantur solvenda argumenta Scoti, in
+<lb ed="#L" n="100"/>Quolibetis, qu. XVII, et in II Sent., dist. xr, et <name xml:id="TAcCaj-d1e780-Nd1e226">Durandi</name>, i in
+<lb ed="#L" n="101"/>xL distinctione Secundi
+</p>
+               <p xml:id="TAcCaj-d1e780-d1e231">
+                  <lb ed="#L" n="102"/>In reliquis huius quaestionis nihil occurrit scribendum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

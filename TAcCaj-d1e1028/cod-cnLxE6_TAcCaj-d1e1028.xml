@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 69</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 69</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1028"><!-- TAcCajp2p1-q69 -->
+            <head xml:id="TAcCaj-d1e1028-Hd1e99">Quaestio 69</head>
+            <div xml:id="TAcCaj-d1e1028-Dd1e101"><!-- caj-p2p1-q69-a1 -->
+               <head xml:id="TAcCaj-d1e1028-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1028-d1e106">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="79"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1028-d1e113">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="80"/>QUAESTIO sexagesimanona et septuagesima lectione 
+fre<lb break="no" ed="#L" n="81"/>quenti, meditationeque iugi egent, non expositione.
+<lb ed="#L" n="82"/>Duo tamen novitii, quoad speculationem, advertant. 
+Alte<lb break="no" ed="#L" n="83"/>rum in sexagesimanona: scilicet quod, licet dona omnia
+<lb ed="#L" n="84"/>supra dicta sint se habere ut exequentia in ordine ad 
+in<lb break="no" ed="#L" n="85"/>stinctum Spiritus Sancti, sicut morales virtutes in ordine
+<lb ed="#L" n="86"/>ad rationem; si comparentur tamen dona inter se, aliqua
+<lb ed="#L" n="87"/>dicuntur dirigentia, ut sapientia, scientia et consilium; et
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="88"/>aliqua exequentia, ut reliqua. - Alterum in quaestione 
+se<lb break="no" ed="#L" n="89"/>ptuagesima: quod delectari in aliquo propter se formaliter,
+<lb ed="#L" n="90"/>non distinguitur i in littera contra delectari propter se 
+finali<lb break="no" ed="#L" n="91"/>ter quomodolibet, sed finaliter ultimate; et hoc vel 
+simpli<lb break="no" ed="#L" n="92"/>citer, vel in illo ordine. Omne enim delectans propter se
+<lb ed="#L" n="93"/>formaliter, est etiam propter se finaliter aliquo modo: 
+po<lb break="no" ed="#L" n="94"/>test tamen subordinari alteri ut finis, ut in eodem primo
+<lb ed="#L" n="95"/>articulo dicitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

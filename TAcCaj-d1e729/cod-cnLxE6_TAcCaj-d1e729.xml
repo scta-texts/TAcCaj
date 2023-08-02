@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="90"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e729"><!-- TAcCajp2p1-q11 -->
+            <head xml:id="TAcCaj-d1e729-Hd1e99">Quaestio 11</head>
+            <div xml:id="TAcCaj-d1e729-Dd1e101"><!-- caj-p2p1-q11-a1 -->
+               <head xml:id="TAcCaj-d1e729-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e729-d1e106">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="78"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e729-d1e113">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="79"/>In primo articulo quaestionis undecimae, adverte quod
+<lb ed="#L" n="80"/>Auctor, in corpore articuli, ex ratione fructus intulit 
+so<lb break="no" ed="#L" n="81"/>lum quod fruitio ad appetitivam partem pertinet, nec 
+deter<lb break="no" ed="#L" n="82"/>minavit an amorem an delectationem significet: quoniam
+<lb ed="#L" n="83"/>sat erat suae quaestioni quod ad appetitum spectaret. 
+Ae<lb break="no" ed="#L" n="84"/>quivocari tamen scito vocabulum hoc apud TThomistas et
+<lb ed="#L" n="85"/>Scotistas. Nos enim fruitionis nomine significamus 
+delecta<lb break="no" ed="#L" n="86"/>tionem, formaliter loquendo, amorem autem connotative et
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="87"/>causaliter: illi vero significant formaliter amorem amicitiae.
+<lb ed="#L" n="88"/>Unde oportet, cum disputant, se invicem praedeclarare, ne
+<lb ed="#L" n="89"/>de se invicem rideant, quolibet putante alterum extra 
+pro<lb break="no" ed="#L" n="90"/>positum loqui. :
+</p>
+               <p xml:id="TAcCaj-d1e729-d1e146">
+                  <lb ed="#L" n="91"/>Suasio autem <ref xml:id="TAcCaj-d1e729-Rd1e150">Scoti, in I Sent., dist. 1, qu. iii</ref> ex 
+con<lb break="no" ed="#L" n="92"/>structione: scilicet quia fruor construitur cum ablativo 
+si<lb break="no" ed="#L" n="93"/>gnificante obiectum ex vi transitionis; ergo significat actum,
+<lb ed="#L" n="94"/>puta amorem, et non passionem, puta delectationem (di-
+<pb ed="#L" n="91"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>citur enim fruor Deo, sicut amo Deum, et non sicut 
+de<lb break="no" ed="#L" n="2"/>lector de Deo): haec, inquam, suasio nihil habet suasionis,
+<lb ed="#L" n="3"/>quoniam constructio haec transitiva non est nisi possessive,
+<lb ed="#L" n="4"/>grammatice loquendo. Construitur enim cum ablativo vel
+<lb ed="#L" n="5"/>genitivo, ex eo quod est deponens possessivum. Unde ex
+<lb ed="#L" n="6"/>hoc non habetur quod significat actum, sed stat quod 
+si<lb break="no" ed="#L" n="7"/>gnificet passionem per modum possessionis. Et vere sic est:
+<lb ed="#L" n="8"/>frui enim, importando delectationem, denotat rem qua 
+frui<lb break="no" ed="#L" n="9"/>mur, a nobis possideri.
+</p>
+               <p xml:id="TAcCaj-d1e729-d1e183">
+                  <lb ed="#L" n="10"/>Longe autem perspicuum magis erat a grammaticis et
+<lb ed="#L" n="11"/>oratoribus persuaderi quod nos dicimus: nominibus enim
+<lb ed="#L" n="12"/>utendum est ut plures. Constat autem frequentissimo
+<lb ed="#L" n="13"/>grammaticorum usu non nisi ad. delectationem spectare :
+<lb ed="#L" n="14"/>unde et dicunt quod significat cum gaudio uti. Non enim
+<lb ed="#L" n="15"/>dicimus Jruor cantu, idest amo cantum ; sed, idest 
+delecta<lb break="no" ed="#L" n="16"/>ctionem percipio de cantu. Neque cum dicitur: Veni, 
+frua<lb break="no" ed="#L" n="17"/>mur cupitis amplexibus, Proverb. cap. vm, invitamur ad
+<lb ed="#L" n="18"/>amandum: sed ad delectationem percipiendam. Et Paulus,
+<lb ed="#L" n="19"/>cum Philemoni dicit: <quote xml:id="TAcCaj-d1e729-Qd1e206">Ego te fruar in Domino, non ego
+<lb ed="#L" n="20"/>te amabo, sed ego de te delectabor in Domino</quote>, sonat. Abu-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>sive igitur frui pro amore formaliter sumi potest: proprie
+<lb ed="#L" n="22"/>autem. non, nisi aequivocando ad placitum.
+</p>
+               <p xml:id="TAcCaj-d1e729-d1e220">
+                  <lb ed="#L" n="23"/>II. In responsione ad secundum eiusdem primi articuli,
+<lb ed="#L" n="24"/>disce quod, quia bonum est commune ad omnia genera,
+<lb ed="#L" n="25"/>sicut et ens; sicut quaelibet perfectio, quilibet finis, 
+quod<lb break="no" ed="#L" n="26"/>libet obiectum, secundum suam specialem rationem habet
+<lb ed="#L" n="27"/>rationem entis, ita et boni: videre enim et visibile, ut sic,
+<lb ed="#L" n="28"/>sunt entia et bona. Et notificatio huius est, quia quaelibet
+<lb ed="#L" n="29"/>potentia appetit naturaliter suam perfectionem, suum finem,
+<lb ed="#L" n="30"/>suum obiectum, ut sic. Unde verum, inquantum verum,
+<lb ed="#L" n="31"/>quia est naturali appetitu appetitum ab intellectu, est 
+spe<lb break="no" ed="#L" n="32"/>cies boni: et similiter visibile, et intelligere, et Videre; et
+<lb ed="#L" n="33"/>reliqua. Quia ergo ista sunt boni species, et continentur sub
+<lb ed="#L" n="34"/>bono in communi, quod est obiectum voluntatis, ut 
+pro<lb break="no" ed="#L" n="35"/>pria. sub communi, dupliciter appetuntur: primo, appetitu
+<lb ed="#L" n="36"/>naturali, ab his quorum sunt bona propria; secundo, 
+appe<lb break="no" ed="#L" n="37"/>titu animali, a voluntate, sub cuius obiecto continentur.
+<lb ed="#L" n="38"/>Et propterea sequuntur illa duo quae in littera exprimuntur.
+</p>
+               <p xml:id="TAcCaj-d1e729-d1e257">
+                  <lb ed="#L" n="39"/>In reliquis quaestionis undecimae articulis nihil 
+scriben<lb break="no" ed="#L" n="40"/>dum occurrit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 64</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 64</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="415"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1003"><!-- TAcCajp2p1-q64 -->
+            <head xml:id="TAcCaj-d1e1003-Hd1e99">Quaestio 64</head>
+            <div xml:id="TAcCaj-d1e1003-Dd1e101"><!-- caj-p2p1-q64-a1 -->
+               <head xml:id="TAcCaj-d1e1003-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1003-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>In titulo quaestionis sexagesimaequartae mox dubium 
+oc<lb break="no" ed="#L" n="27"/>currit, quomodo consistere in medio inter proprietates
+<lb ed="#L" n="28"/>virtutis computetur: cum expresse in II Ethic. ponatur in
+<lb ed="#L" n="29"/>definitione virtutis moralis, quae in littera, in argumento ad
+<lb ed="#L" n="30"/>oppositum, affertur, quamvis non tota. — Sed hoc facile 
+sol<lb break="no" ed="#L" n="31"/>vitur a recolentibus quod saepe proprietates notiores 
+ad<lb break="no" ed="#L" n="32"/>mittuntur in definitionibus, ut latentes differentiae 
+insi<lb break="no" ed="#L" n="33"/>nuentur..
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e135">
+                  <lb ed="#L" n="34"/>In titulo primi articuli, adverte quod virtutem consistere
+<lb ed="#L" n="35"/>in medio contingit dupliciter: scilicet essentialiter, et 
+cau<lb break="no" ed="#L" n="36"/>saliter. Secundum essentiam virtus est in medio, quae est
+<lb ed="#L" n="37"/>in medio duorum vitiorum : sicut temperantia inter 
+luxu<lb break="no" ed="#L" n="38"/>riam et insensibilitatem. Et hoc non convenit omni virtuti:
+<lb ed="#L" n="39"/>quía non convenit iustitiae, ut patet in V Erhic. Et de tali
+<lb ed="#L" n="40"/>medio non est hic quaestio. — Secundum vero effectum 
+di<lb break="no" ed="#L" n="41"/>citur esse virtus in medio, quae in materia propria circa
+<lb ed="#L" n="42"/>uam est, medium facit inter plus et minus illius, seu in
+<lb ed="#L" n="43"/>Pis ad illám, illi, etc. Sicut iustitia in emptione medium
+<lb ed="#L" n="44"/>ponit inter me in emptore et minus in venditore, pretium
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="45"/>aequivalens dando venditori, vel e converso: et temperantia
+<lb ed="#L" n="46"/>medium ponit inter plus et minus delectari, delectationem
+<lb ed="#L" n="47"/>capiendo quando, ubi, sicut oportet, etc. Et hoc, ut patebit,
+<lb ed="#L" n="48"/>convenit omni virtuti, exceptis theologicis. Et de tali medio
+<lb ed="#L" n="49"/>est quaestio. ómnium articulorum huius quaestionis.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e174">
+                  <lb ed="#L" n="50"/>II. In responsione ad tertium primi articuli, non te 
+con<lb break="no" ed="#L" n="51"/>turbet quod Auctor ponat tam virginitatem quam 
+pauper<lb break="no" ed="#L" n="52"/>tatem mediam inter superfluum et diminutum alterius 
+or<lb break="no" ed="#L" n="53"/>dinis; dum superfluum ponit in superstitione vel vana
+<lb ed="#L" n="54"/>gloria, et diminutum in transgressione voti, quae constat
+<lb ed="#L" n="55"/>esse secundum se vitia extrema alterius virtutis, puta 
+reli<lb break="no" ed="#L" n="56"/>gionis et philotimiae seu. magnanimitatis. Fecit namque hoc
+<lb ed="#L" n="57"/>Auctor, quia nec virginitas nec paupertas habet specialem
+<lb ed="#L" n="58"/>rationem virtutis, et consequenter specialia extrema inter
+<lb ed="#L" n="59"/>quae mediet, infra proprias materias in ordine ad regulam
+<lb ed="#L" n="60"/>tam humanam quam divinam; sed ex extrinseco fine et
+<lb ed="#L" n="61"/>religionis actu, scilicet voto, ut in II' II tractabitur 
+ple<lb break="no" ed="#L" n="62"/>nius. Quia igitur ex extrinseco rationem sümit specialis
+<lb ed="#L" n="63"/>virtutis, consequens fuit ut ex extrinseco extrema 
+adhibe<lb break="no" ed="#L" n="64"/>rentur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1003-Dd1e210"><!-- caj-p2p1-q64-a2 -->
+               <head xml:id="TAcCaj-d1e1003-Hd1e213">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1003-d1e215">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e222">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>IN secundo articulo eiusdem sexagesimaequartae 
+quaestio<lb break="no" ed="#L" n="15"/>nis, nota terminos quibus in virtutibus utimur: scilicet
+<lb ed="#L" n="16"/>medium rationis, et medium rei, Medium rationis, cum sit
+<lb ed="#L" n="17"/>modus in materia alicuius virtutis secundum conditiones
+<lb ed="#L" n="18"/>regulae, exigit duo: scilicet. materiam, et conditiones 
+ra<lb break="no" ed="#L" n="19"/>tionis. Ita quod consistit medium rationis in affirmatione
+<lb ed="#L" n="20"/>utriusque, scilicet materiae propriae, et omnium 
+conditio<lb break="no" ed="#L" n="21"/>num spectantium ad rationem rectam: verbi gratia, 
+me<lb break="no" ed="#L" n="22"/>dium rationis in temperantia est delectari. quando, sicut,
+<lb ed="#L" n="23"/>quare.oportet, etc. - Extrema autem sumuntur penes 
+nega<lb break="no" ed="#L" n="24"/>tionem unius, et affirmationem alterius: ita quod superfluum
+<lb ed="#L" n="25"/>affirmat materiam, negatis conditionibus; diminutum vero
+<lb ed="#L" n="26"/>negat materiam, affirmatis conditionibus. Verbi gratia, uti
+<lb ed="#L" n="27"/>delectationibus non quando, non quare, non ubi 
+opor<lb break="no" ed="#L" n="28"/>tet, etc., superfluum est: est enim delectationibus, quae sunt
+<lb ed="#L" n="29"/>temperantiae materia, plusquam oportet uti. Non uti autem
+<lb ed="#L" n="30"/>delectationibus quando oportet, quare oportet, etc., 
+dimi<lb break="no" ed="#L" n="31"/>nutum: est namque minus delectari quam oportet.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e266">
+                  <lb ed="#L" n="32"/>Medium autem rei consistit in aequalitate rei ad rem,
+<lb ed="#L" n="33"/>seu ad personam alteram. Aequalitas autem cum duplex
+<lb ed="#L" n="34"/>sit, scilicet duarum quantitatum, sicut duo pedalia sunt
+<lb ed="#L" n="35"/>aequalia, et quinque et quinque sunt aequalia, et haec 
+vo<lb break="no" ed="#L" n="36"/>catur aequalitas arithmetica; et duarum proportionum, sicut
+<lb ed="#L" n="37"/>proportio sex ad quatuor, et duodecim ad octo, sunt 
+aequa<lb break="no" ed="#L" n="38"/>les utrobique, utrobique enim est sesquialtera proportio,
+<lb ed="#L" n="39"/>idest continentia totius et dimidii: utraque invenitur in 
+iusti<lb break="no" ed="#L" n="40"/>tia. Nam commutativa iustitia observat medium secundum
+<lb ed="#L" n="41"/>aequalitatem quantitatum: nam quantum valet quod accipit,
+<lb ed="#L" n="42"/>tantum valet quod dat; ut patet in emptione. Iustitia vero
+<lb ed="#L" n="43"/>distributiva observat medium secundum aequalitatem 
+pro<lb break="no" ed="#L" n="44"/>portionum: nam eandem proportionem facit inter. bona
+<lb ed="#L" n="45"/>quae distribuit, quam habent inter se personae quibus 
+di<lb break="no" ed="#L" n="46"/>stribuitur. - Extrema autem in aequalitate quantitatum, sunt
+<lb ed="#L" n="47"/>plus et minus secundum quantitatem, ut patet. Extrema
+<lb ed="#L" n="48"/>autem in aequalitate proportionum, sunt plus et minus
+<lb ed="#L" n="49"/>secundum proportionem: ita quod si, verbi gratia, inter 
+per<lb break="no" ed="#L" n="50"/>sonas est proportio sesquialtera, superfluum erit si inter res
+<lb ed="#L" n="51"/>distributas sit proportio dupla, in qua continetur totum bis;
+<lb ed="#L" n="52"/>diminutum vero, si inter res distributas esset proportio 
+ses<lb break="no" ed="#L" n="53"/>quitertia, aut sesquiquarta, in qua continetur totum et tertia
+<lb ed="#L" n="54"/>pars vel quarta tantum.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e318">
+                  <lb ed="#L" n="55"/>II. Et quoniam medium rei ad alterum est, consequens
+<lb ed="#L" n="56"/>est ut sit medium inter plus uni, et minus alteri: vel ita
+<lb ed="#L" n="57"/>quod. plus sit mihi et minus alteri, ut in commutationibus;
+<lb ed="#L" n="58"/>vel ita quod plus uni parti et minus alteri, ut in 
+distri<lb break="no" ed="#L" n="59"/>butionibus. - Medium autem rationis, quia continet sub se
+<lb ed="#L" n="60"/>commensuratum sibi et commensuratum alteri, abstrahit
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>et sibi et alteri: sicut animal ab homine et leone. Propter
+<lb ed="#L" n="62"/>quod, medium rationis in communi, consistit inter plus et
+<lb ed="#L" n="63"/>minus secundum rationem: in speciali autem, dissimiliter.
+<lb ed="#L" n="64"/>Nam in virtutibus circa passiones, medium rationis 
+con<lb break="no" ed="#L" n="65"/>sistit inter plus et minus mihi ipsi eligenti, sicut medium
+<lb ed="#L" n="66"/>consistit in commensuratione ad meipsum: et propter hoc
+<lb ed="#L" n="67"/>dicitur in littera quod medium in passionibus sumitur
+<lb ed="#L" n="68"/>quoad nos. In iustitia autem, medium rationis consistit. inter
+<lb ed="#L" n="69"/>plus uni et minus alteri, sicut et medium rei, Quia non
+<lb ed="#L" n="70"/>solum aequalitatem eandem quam rei medium exigit, recta
+<lb ed="#L" n="71"/>ratio imponit iustitiae; sed. conditiones etiam nullas ei
+<lb ed="#L" n="72"/>apponit nisi redundantes in aequalitatem vel 
+inaequalita<lb break="no" ed="#L" n="73"/>tem rei: reddere namque debitum recta ratio dictat 
+iusti<lb break="no" ed="#L" n="74"/>tiae, quando et ubi oportet, pro quanto faciunt vel tollunt
+<lb ed="#L" n="75"/>rationem debiti. - Et propterea esto cautus, ut discernas
+<lb ed="#L" n="76"/>circumstantias in materia iustitiae dupliciter inveniri : primo,
+<lb ed="#L" n="77"/>ut redundant in aequale vel inaequale, idest ut pertinent
+<lb ed="#L" n="78"/>ad rationem debiti; alio modo, ut sunt communes 
+circum<lb break="no" ed="#L" n="79"/>stantiae ,actus virtuosi. Verbi gratia, sun mutuo 
+acce<lb break="no" ed="#L" n="80"/>impertinens est iustitiae; non enim iniusti, sed. iiprodenis d
+<lb ed="#L" n="81"/>est haec electio. Et propterea in littera dicitur. meo mar;
+<lb ed="#L" n="82"/>dium rationis in iustitia est medium rei,
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e384">
+                  <lb ed="#L" n="83"/>Et ex hoc provenit quod extrema, scilicet plus et: us,
+<lb ed="#L" n="84"/>in iustitia non sumuntur secundum affirmationem r materiae
+<lb ed="#L" n="85"/>et negationem conditionum, et e contra, ut in aliis mo ibus.
+<lb ed="#L" n="86"/>virtutibus; sed secundum plus uni et minus alteri. — Et hinc
+<lb ed="#L" n="87"/>etiam provenit quod iustitia non est media inter duas 
+ma<lb break="no" ed="#L" n="88"/>litias, sicut aliae virtutes morales, quae mediant inter 
+affir<lb break="no" ed="#L" n="89"/>mationem materiae et negationem conditionum ut 
+super<lb break="no" ed="#L" n="90"/>fluum, et negationem materiae et affirmatas conditiones
+<lb ed="#L" n="91"/>ut diminutum. Nam si medium rationis et extrema in iustitia
+<lb ed="#L" n="92"/>sumerentur secundum conditiones, ut in aliis, et non 
+prae<lb break="no" ed="#L" n="93"/>cise ut redundant in. medium rei; cóntingeret accipere 
+ex<lb break="no" ed="#L" n="94"/>trema vitia, ut in aliis. - Et haec sint hic dicta pro intellectu
+<lb ed="#L" n="95"/>medii et extremorum. in virtutibus, pro- lasficenda, .
+novi<lb break="no" ed="#L" n="96"/>tiorum. mente.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e417">
+                  <lb ed="#L" n="97"/>III. In eodem. secundo articulo eiusdem sex: ae
+<lb ed="#L" n="98"/>quartae quaestionis, declarandum. occurrit. novii s quod
+<lb ed="#L" n="99"/>prima ratio pro tanto dicitur in littera quod procedit de.
+<lb ed="#L" n="100"/>medio rationis 'subiective, quia concludit quod medium
+<lb ed="#L" n="101"/>rationis, quia bonum est indian est in ipsis actibus 
+ra<lb break="no" ed="#L" n="102"/>tionis tanquam in rebus ipsis: sicut medium rationis cau-.
+<lb ed="#L" n="103"/>saliter, quod scilicet a ratione impositum est operationibus
+<lb ed="#L" n="104"/>et passionibus, est in DaitioniBUs et operationibus tanquam
+<lb ed="#L" n="105"/>in rebus ipsis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1003-Dd1e440"><!-- caj-p2p1-q64-a3 -->
+               <head xml:id="TAcCaj-d1e1003-Hd1e443">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1003-d1e445">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="77"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e452">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="78"/>IN articulo tertio eiusdem sexagesimaequartae quaestionis,
+<lb ed="#L" n="79"/>multa dubia simul solvenda occurrunt. Primum est, 
+quo<lb break="no" ed="#L" n="80"/>modo virtus intellectualis quae vocatur intellectus, sit in
+<lb ed="#L" n="81"/>medio: cum careat contrario. Non enim contingit oppositum
+<lb ed="#L" n="82"/>primorum principiorum opinari, affirmando aut negando.
+<lb ed="#L" n="83"/>Secundum est, quomodo stant haec duo simul: quod
+<lb ed="#L" n="84"/>verum intellectus practici consistit in comfesse se habere
+<lb ed="#L" n="85"/>appetitui recto, ut superius ex VI Ethic. dicitur; et quod
+<lb ed="#L" n="86"/>veritas eiusdem habeat pro mensura res, et sit mensura 
+ap<lb break="no" ed="#L" n="87"/>petitus. Ex primo enim habetur quod dependet ab 
+appe<lb break="no" ed="#L" n="88"/>titu, et consequenter mensuratur ab eo.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e481">
+                  <lb ed="#L" n="89"/>Tertium est, quomodo hic dicitur quod virtutis 
+intelle<lb break="no" ed="#L" n="90"/>ctualis mensura non est aliquod genus virtutis, ut patet in
+<lb ed="#L" n="91"/>responsione ad secundum: et tamen superius in qu. Lx,
+<lb ed="#L" n="92"/>art. 2, dictum est quod duplex est regula boni hominis, ad
+<lb ed="#L" n="93"/>quod ordinatur virtus, scilicet humana ratio et lex divina.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e494">
+                  <lb ed="#L" n="94"/>II. Ad: evidentiam horum omnium, distingue quod 
+vir<lb break="no" ed="#L" n="95"/>tutes omnes dupliciter possunt accipi, scilicet secundum se,
+<lb ed="#L" n="96"/>et ex parte nostri: et utroque modo regulam habent. Et in
+<lb ed="#L" n="97"/>littera quidem quamvis de solis theologicis virtutibus fiat
+<lb ed="#L" n="98"/>ista distinctio, in articulo sequenti; veritatem tamen habet
+<lb ed="#L" n="99"/>extensa ad omnes virtutes, diversimode applicata. Nam virtus
+<lb ed="#L" n="100"/>intellectualis, quoad cognoscere, secundum se consideratur,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="101"/>quando in ordine ad rem cognitam sumitur: ex parte vero
+<lb ed="#L" n="102"/>nostri; cum secundum modum quo in nobis fit aut est,
+<lb ed="#L" n="103"/>accipitur. Quoad dirigere vero, quod addunt practicae supra
+<lb ed="#L" n="104"/>speculativas, secundum se sunt ipsae regulae, et respiciunt
+<lb ed="#L" n="105"/>regulabilia per eas: unde ex parte tantum nostri regulam
+<lb ed="#L" n="106"/>habere possunt, secundum quam in nobis fiunt aut sunt.
+<lb ed="#L" n="107"/>Virtutes quoque morales secundum se obiecta respiciunt:
+<lb ed="#L" n="108"/>ex parte autem nostri, principia quibus in nobis fiunt et
+<lb ed="#L" n="109"/>sunt. Et quia Auctor sic de virtutum mensura et medio
+<lb ed="#L" n="110"/>secundum se loquitur, ut in art. 4 manifestatur; ideo 
+obie<lb break="no" ed="#L" n="111"/>cta omnia, quae ex parte nostri se tenent, nihil officiunt 
+pro<lb break="no" ed="#L" n="112"/>posito.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e541">
+                  <lb ed="#L" n="113"/>III. Et ut ad singula descendamus, cognitio in primis
+<lb ed="#L" n="114"/>principiorum secundum se est in medio duorum 
+contrario<lb break="no" ed="#L" n="115"/>rum: verbi gratia, huic acceptioni, Zoftum est maius sua
+<lb ed="#L" n="116"/>parte, contrariatur secundum se, ut superfluum, Zotum est
+<lb ed="#L" n="117"/>minus sua parte, et ut deficiens, Totum non est maius sua
+<lb ed="#L" n="118"/>parte: quamvis ex modo quo haec cognitio est in nobis,
+<lb ed="#L" n="119"/>quia scilicet naturaliter est in nobis, contraria loca habere
+<lb ed="#L" n="120"/>non possunt.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e561">
+                  <lb ed="#L" n="121"/>Verum quoque intellectus practici secundum se quidem
+<lb ed="#L" n="122"/>a rebus pendet, quoad cognoscere: ex parte autem nostri,
+<lb ed="#L" n="123"/>ab appetitu recto, qui facit nobis apparere finem secun-
+<pb ed="#L" n="416"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dum ipsius appetitus dispositionem. Quoad dirigere vero,
+<lb ed="#L" n="2"/>ut dictum est, ipsa intellectualis virtus est regula; et 
+no<lb break="no" ed="#L" n="3"/>stro lumini rationis naturalis et appetitui commensuratur,
+<lb ed="#L" n="4"/>Ut Superius declaratum fuit. 
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e583">
+                  <lb ed="#L" n="5"/>Eadem etiam ratione, virtutis intellectualis secundum se
+<lb ed="#L" n="6"/>mensura, nec practicae nec speculativae est aliquod virtutis
+<lb ed="#L" n="7"/>genus; procederetur enim in infinitum, Sed virtutum 
+mo<lb break="no" ed="#L" n="8"/>ralium mensura quia est obiectum nostra vel divina regula
+<lb ed="#L" n="9"/>modificatum, ideo aliud virtutum genus, ad quod pertinet
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>mensura illa, mensura est. Aliquarum autem virtutum 
+in<lb break="no" ed="#L" n="11"/>tellectualium, puta prudentiae et scientiae, quae ad 
+prin<lb break="no" ed="#L" n="12"/>cipia per se nota examinantur, mensura quoque aliud 
+vir<lb break="no" ed="#L" n="13"/>tutum genus secundum se et ex parte nostra est. 
+Prima<lb break="no" ed="#L" n="14"/>rum autem virtutum intellectualium, scilicet intellectus et
+<lb ed="#L" n="15"/>synderesis, mensura etiam ex parte nostri non est aliqua
+<lb ed="#L" n="16"/>virtus: sed solum naturale lumen ex parte nostra, et res
+<lb ed="#L" n="17"/>cognita secundum se. - Et sic patet responsio ad omnia
+<lb ed="#L" n="18"/>obiecta.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1003-Dd1e619"><!-- caj-p2p1-q64-a4 -->
+               <head xml:id="TAcCaj-d1e1003-Hd1e622">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1003-d1e624">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="103"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e631">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="104"/>In articulo quarto eiusdem sexagesimaequartae quaestionis,
+<lb ed="#L" n="105"/>dubium occurrit de illa propositione universali assumpta
+<lb ed="#L" n="106"/>in littera, arguendo in oppositum, scilicet: Zn omnibus in
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="107"/>quibus virtus consistit in medio, contingit peccare per 
+ex<lb break="no" ed="#L" n="108"/>cessum, sicut et per defectum. Videtur enim hoc falsum de
+<lb ed="#L" n="109"/>iustitia; nam consistit in medio, et non contingit peccare
+<pb ed="#L" n="417"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nisi uno modo, scilicet per defectum. Quilibet enim 
+iniu<lb break="no" ed="#L" n="2"/>stitiam faciens, violat aequalitatem quia declinat in minus
+<lb ed="#L" n="3"/>alteri, cui debetur aequale. Si enim declinaret in maius illi,
+<lb ed="#L" n="4"/>non esset iniustitia, ut patet in commutativa iustitia: et
+<lb ed="#L" n="5"/>etiam in distributiva, in qua si quis maius quam persona
+<lb ed="#L" n="6"/>mereatur det, ideo violat aequalitatem, quia alterum minuit
+<lb ed="#L" n="7"/>hic excessus.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e670">
+                  <lb ed="#L" n="8"/>II. Ad hoc dicitur quod medium iustitiae contingit 
+vio<lb break="no" ed="#L" n="9"/>lari utroque modo, scilicet per excessum et defectum. 
+Di<lb break="no" ed="#L" n="10"/>versimode tamen contingit hoc circa medium iustitiae, et
+<lb ed="#L" n="11"/>aliaum virtutum, Nam extrema medii aliarum virtutum
+<lb ed="#L" n="12"/>constituunt diversa vitia, inter quae media est virtus ipsa,
+<lb ed="#L" n="13"/>ut patet in II E?hic.: et propterea alio vitio peccatur 
+se<lb break="no" ed="#L" n="14"/>cundum excessum, et alio peccatur secundum defectum.
+<lb ed="#L" n="15"/>Extrema autem medii iustitiae non constituunt diversa 
+vi<lb break="no" ed="#L" n="16"/>tia: et propterea uno et eodem vitio peccatur per excessum
+<lb ed="#L" n="17"/>et defectum. Et non solum uno vitio, sed uno actu 
+nu<lb break="no" ed="#L" n="18"/>mero, ut patet in furto: simul enim violat medium minus
+<lb ed="#L" n="19"/>alteri, et plus sibi faciendo. Et simile est in distributionis
+<lb ed="#L" n="20"/>violatione: simul enim minus uni, et plus alteri tribuitur.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e701">
+                  <lb ed="#L" n="21"/>Nec obstat si quandoque solum minus videatur fieri 
+al<lb break="no" ed="#L" n="22"/>teri, et nulli plus; ut in incendiis et huiusmodi. Hoc enim
+<lb ed="#L" n="23"/>ostendit quod medium iustitiae principaliter violatur in
+<lb ed="#L" n="24"/>minus. Et vere sic est: quia, cum aequale sit ad alterum,
+<lb ed="#L" n="25"/>per minus illi directe violatur. Sed tamen semper 
+conco<lb break="no" ed="#L" n="26"/>mitatur plus alicui, vel in re vel in potestate. — Sat est
+<lb ed="#L" n="27"/>ergo litterae quod, ubicumque est virtus in medio, contingit
+<lb ed="#L" n="28"/>et per excessum et per defectum peccare: sive simul sive
+<lb ed="#L" n="29"/>separatim, sive uno sive pluribus vitiis, non est curae.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e724">
+                  <lb ed="#L" n="30"/>III. In eodem quarto articulo dubium primo occurrit ex
+<lb ed="#L" n="31"/>Scoto, in III Sent, dist. xxvi, docente quod potest concedi
+<lb ed="#L" n="32"/>quod virtus theologica est proprie in medio, non ex parte
+<lb ed="#L" n="33"/>obiecti, sed actus: ita quod, licet non possit tendere in ni-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="34"/>mis verum aut bonum, quia tendit in infinitum obiectum,
+<lb ed="#L" n="35"/>potest tamen nimis tendere in illud; et sic virtus 
+theolo<lb break="no" ed="#L" n="36"/>gica moderatur actum, ut medio modo tendat. Et 
+conse<lb break="no" ed="#L" n="37"/>quenter fides est media inter levitatem, iuxta illud; <quote xml:id="TAcCaj-d1e1003-Qd1e745">Qui
+<lb ed="#L" n="38"/>cito credit, levis est corde</quote>, et pertinaciam violantis 
+ra<lb break="no" ed="#L" n="39"/>tionem; et spes inter praesumptionem et desperationem.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e753">
+                  <lb ed="#L" n="40"/>Dubium secundo occurrit specialiter de medio respectu
+<lb ed="#L" n="41"/>fidei. Videtur enim quod secundum se habeat medium:
+<lb ed="#L" n="42"/>quia obiectum suum, quod est quid complexum, puta Deum
+<lb ed="#L" n="43"/>esse trinum, et huiusmodi, habet extrema, scilicet Deum
+<lb ed="#L" n="44"/>non esse trinum, et Deum esse trinum essentialiter ; hoc
+<lb ed="#L" n="45"/>enim est superfluum, illud diminutum.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e769">
+                  <lb ed="#L" n="46"/>IV. Ad primum horum dicitur, primo, quod positio illa
+<lb ed="#L" n="47"/>Scotica est contra divum Thomam, et veritatem. Contra
+<lb ed="#L" n="48"/>divum quidem Thomam, expresse dicentem hic de modo
+<lb ed="#L" n="49"/>actus, quod non potest esse excessivus: seilicet quod non
+<lb ed="#L" n="50"/>potest quis nimis credere, nimis sperare, nimis amare, 
+ten<lb break="no" ed="#L" n="51"/>dendo in Deum. Contra veritatem vero, quia constat quod
+<lb ed="#L" n="52"/>non potest Deus amari nimis, ita quod actus amandi Deum
+<lb ed="#L" n="53"/>ita excessivus: immo modus amandi Deum, secundum 
+Ber<lb break="no" ed="#L" n="54"/>nardum, est sine modo amare. — Nec est verum quod de
+<lb ed="#L" n="55"/>fide dicitur. Quoniam licet qui cito credit, levis sit corde;
+<lb ed="#L" n="56"/>non tamen qui cito credit Deo, levis est corde. Praesumptio
+<lb ed="#L" n="57"/>quoque, ut patet in responsione ad tertium, non est vitium
+<lb ed="#L" n="58"/>quia nimis speret in Deum: sed quia sperat bonum 
+exce<lb break="no" ed="#L" n="59"/>dens propriam conditionem. — Unde concessio ista non 
+so<lb break="no" ed="#L" n="60"/>lum ut falsa, sed ut mala, utpote ponens modum dilectionis
+<lb ed="#L" n="61"/>Dei, procul abiiciatur.
+</p>
+               <p xml:id="TAcCaj-d1e1003-d1e806">
+                  <lb ed="#L" n="62"/>Ad secundum autem dicitur quod fides secundum se est
+<lb ed="#L" n="63"/>de Deo, cuius non sunt extrema. Ex parte autem nostri,
+<lb ed="#L" n="64"/>est de Deo per modum compositionis et divisionis, ut in
+<lb ed="#L" n="65"/>II II" dicitur. Et propterea ex parte nostri est in medio;
+<lb ed="#L" n="66"/>et non secundum se.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

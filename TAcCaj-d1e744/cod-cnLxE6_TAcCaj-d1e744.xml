@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 14</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 14</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="105"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e744"><!-- TAcCajp2p1-q14 -->
+            <head xml:id="TAcCaj-d1e744-Hd1e99">Quaestio 14</head>
+            <div xml:id="TAcCaj-d1e744-Dd1e101"><!-- caj-p2p1-q14-a1 -->
+               <head xml:id="TAcCaj-d1e744-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e744-d1e106">
+                  <pb ed="#L" n="106"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e744-d1e115">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN quaestione decimaquarta nihil occurrit scribendum usque
+<lb ed="#L" n="3"/>quintum articulum, nisi reddere attentos lectores, ut in
+<lb ed="#L" n="4"/>primo articulo meminerint quod consilium significat 
+inqui<lb break="no" ed="#L" n="5"/>sitionem completam, idest usque ad iudicium inclusive. Non
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="6"/>enim ipsa inquisitio absque iudicio consilium est, nisi 
+in<lb break="no" ed="#L" n="7"/>choative: ut manifeste patet ex responsione ad secundum
+<lb ed="#L" n="8"/>et tertium, et ex usu loquendi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e744-Dd1e138"><!-- caj-p2p1-q14-a5 -->
+               <head xml:id="TAcCaj-d1e744-Hd1e141">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e744-d1e143">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e744-d1e150">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="48"/>In quinto autem articulo dubium est, quia littera 
+contra<lb break="no" ed="#L" n="49"/>dicere sibi ipsi videtur. Ait enim et quod processus a
+<lb ed="#L" n="50"/>causis ad effectus est compositivus; et quod processus 
+con<lb break="no" ed="#L" n="51"/>silii est a fine ad id quod est ad finem; et tamen 
+conclu<lb break="no" ed="#L" n="52"/>dit quod processus consilii non est compositivus, sed 
+re<lb break="no" ed="#L" n="53"/>solutivus, ac si finis non esset causa, et id quod est ad
+<lb ed="#L" n="54"/>finem non esset effectus, sed e converso.
+</p>
+               <p xml:id="TAcCaj-d1e744-d1e170">
+                  <lb ed="#L" n="55"/>Ad hoc dicitur quod, cum inter finem acquisibilem et
+<lb ed="#L" n="56"/>id quod est ad finem, sit duplex simplex habitudo, et una
+<lb ed="#L" n="57"/>modificetur in altera; potest tripliciter procedi ratiocinando
+<lb ed="#L" n="58"/>a fine ad ea quae sunt ad finem. Primo, secundum 
+sim<lb break="no" ed="#L" n="59"/>plicem habitudinem causae finalis ad suum effectum, ut
+<lb ed="#L" n="60"/>sic. Et hic est processus a fine ut sic, ad id quod est ad
+<lb ed="#L" n="61"/>finem ut sic. Et hic est compositivus, et suus oppositus
+<lb ed="#L" n="62"/>est resolutivus; sicut universaliter verificatur de processu
+<lb ed="#L" n="63"/>a causa ad effectum, et e converso. - Secundo, secundum
+<lb ed="#L" n="64"/>simplicem habitudinem effectus efficiendi ad causam a qua
+<lb ed="#L" n="65"/>effici debet. Et hic est processus ab effectu ad causam: et
+<lb ed="#L" n="66"/>est resolutivus, et suus oppositus est compositivus, quia
+<lb ed="#L" n="67"/>a causa ad effectum. Neuter autem horum est processus
+<lb ed="#L" n="68"/>consili. Non primus, quia consilium est de efficiendis a
+<lb ed="#L" n="69"/>nobis, ut patet in art. 3 et 4: in processu autem primo
+<lb ed="#L" n="70"/>nihil dicitur de agendo, sed tantum de fine et ad finem
+<lb ed="#L" n="71"/>ut sic. — Nec secundus, quia consilium est de his quae sunt
+<lb ed="#L" n="72"/>ad finem, ut patet in art. 2. Et adeo hoc in responsione ad
+<lb ed="#L" n="73"/>tertium huius quinti articuli, ponderavit Auctor, ut agenda
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>a nobis non cadere sub consilio voluit an sint possibilia,
+<lb ed="#L" n="75"/>nisi ut congrua et praecongrua fini. In secundo autem 
+pro<lb break="no" ed="#L" n="76"/>cessu nihil dicitur de fine et ad finem ut sic: sed tantum
+<lb ed="#L" n="77"/>de agenda re et causa illius.
+</p>
+               <p xml:id="TAcCaj-d1e744-d1e225">
+                  <lb ed="#L" n="78"/>Tertio igitur potest procedi secundum quod tam finis
+<lb ed="#L" n="79"/>quam id quod .est ad finem, invenitur in agendis: ita quod
+<lb ed="#L" n="80"/>non procedatur nec a fine puro, nec ab agendo puro; sed
+<lb ed="#L" n="81"/>a fine assequendo ad id quod est agendum ad finem, et sic
+<lb ed="#L" n="82"/>deinceps retrocedendo. Et hic processus est processus 
+con<lb break="no" ed="#L" n="83"/>silii, quod est de agendis ut ad finem, et de his quae sunt
+<lb ed="#L" n="84"/>ad finem ut agenda, resolutorie. Et licet processus iste
+<lb ed="#L" n="85"/>mixtus videatur, et non nisi secundum partes iudicandus
+<lb ed="#L" n="86"/>compositivus et resolutivus; dicitur tamen simpliciter 
+reso<lb break="no" ed="#L" n="87"/>lutivus, quoniam de fine et eo quod est ad finem, 
+ratioci<lb break="no" ed="#L" n="88"/>natur tantum in materia agenda, et propter agendum, 
+reso<lb break="no" ed="#L" n="89"/>lutorie, idest a posterioribus secundum esse. Ita quod, sicut
+<lb ed="#L" n="90"/>musica, licet consideret numerum ut in sonis, et e 
+con<lb break="no" ed="#L" n="91"/>verso sonos ut proportionales secundum numerum, et 
+pro<lb break="no" ed="#L" n="92"/>pter hoc media ponitur scientia; quia tamen de numero
+<lb ed="#L" n="93"/>non nisi in materia soni, et propter sonum, tractat, 
+simpli<lb break="no" ed="#L" n="94"/>citer dici potest scientia physica, et sub ea comprehenditur,
+<lb ed="#L" n="95"/>eo quod non abstrahit a materia sensibili: ita in proposito
+<lb ed="#L" n="96"/>consilium, quia, ut dictum est, finem et ad finem in 
+ma<lb break="no" ed="#L" n="97"/>teria agenda tantum, et propter agendum, et quomodo
+<lb ed="#L" n="98"/>agendum, a posterioribus secundum esse in priora 
+consi<lb break="no" ed="#L" n="99"/>derat, resolvere simpliciter dicitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

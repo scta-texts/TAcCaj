@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 51</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 51</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="326"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e935"><!-- TAcCajp2p1-q51 -->
+            <head xml:id="TAcCaj-d1e935-Hd1e99">Quaestio 51</head>
+            <div xml:id="TAcCaj-d1e935-Dd1e101"><!-- caj-p2p1-q51-a1 -->
+               <head xml:id="TAcCaj-d1e935-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e935-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>IN corpore articuli primi quaestionis 
+quinquagesimaepri<lb break="no" ed="#L" n="55"/>eem duplex. occurrit dubium, Primum . est circa 
+differen<lb break="no" ed="#L" n="56"/>tiam inter inchoationem habitus ex parte animae in parte
+<lb ed="#L" n="57"/>apprehensiva, et appetitiva: quare in intellectu ponitur 
+in<lb break="no" ed="#L" n="58"/>choatio quantum ad ipsam substantiam habitus, in 
+volun<lb break="no" ed="#L" n="59"/>tate non. Aut enim per inchoationem talem intendit aliquid
+<lb ed="#L" n="60"/>actuale super ipsum. intellectum: aut non. Si intendit 
+ali<lb break="no" ed="#L" n="61"/>quid actuale, sequitur quod intellectus possibilis non est a
+<lb ed="#L" n="62"/>principio sicut tabula rasa et pura potentia: quia habet
+<lb ed="#L" n="63"/>huiusmodi actum supperadditum. - Si non, sequitur quod
+<lb ed="#L" n="64"/>par sit ratio de intellectu et appetitu: in utroque enim modo
+<lb ed="#L" n="65"/>sunt semina virtutum, et ad principia naturalis 
+prompti<lb break="no" ed="#L" n="66"/>tudo, propter quam videntur naturaliter inesse nobis 
+se<lb break="no" ed="#L" n="67"/>cundum cognitionem et appetitum.
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e148">
+                  <lb ed="#L" n="68"/>Secundum est de causa huius assignata in littera. Videtur
+<lb ed="#L" n="69"/>enim implicare et in se, et cum supradictis. In se quidem,
+<lb ed="#L" n="70"/>quia ponit inclinationem ad propria obiecta spectare ad 
+ha<lb break="no" ed="#L" n="71"/>bitum; et non spectare ad ipsum, sed ad potentiam. Cum
+<lb ed="#L" n="72"/>praedictis autem, quia in art. 5 quaest. praec., dictum est
+<lb ed="#L" n="73"/>habitum in voluntate poni propter inclinationem ad propria
+<lb ed="#L" n="74"/>obiecta: quód hic negatur.
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e166">
+                  <lb ed="#L" n="75"/>II. Ad primam dubitationem dicitur quod, praesupposito
+<lb ed="#L" n="76"/>quod intellectus agens non est habitus principiorum qui 
+po<lb break="no" ed="#L" n="77"/>nitur unus ex quinque habitibus intellectualibus, VI Ezhic.
+<lb ed="#L" n="78"/>quod .non est difficile persuadere: duo errores cavendi sunt
+<lb ed="#L" n="79"/>hic. Alter, ne putemus pueriliter unam partem habitus qui
+<lb ed="#L" n="80"/>dicitur intellectus, fieri ab intra, et alteram ab extra; et 
+pro<lb break="no" ed="#L" n="81"/>pterea inchoationem eius poni a natura, perfectionem quae
+<lb ed="#L" n="82"/>nuncupatur, ab extra. Alter, ne putemus totam illam quidem
+<lb ed="#L" n="83"/>qualitatem quae est habitus, congenitam, ut coaevam 
+intel<lb break="no" ed="#L" n="84"/>lectus, sed impeditam propter absentem notitiam 
+termino<lb break="no" ed="#L" n="85"/>rum. Primum enim repugnat indivisibilitati intelligibilis
+<lb ed="#L" n="86"/>qualitatis: secundum vero purae potentiae, qua intellectus
+<lb ed="#L" n="87"/>in principio est sicut tabula rasa. - Putandum autem magis
+<lb ed="#L" n="88"/>est quod, sicut nutrire augereque naturales sunt actus 
+ani<lb break="no" ed="#L" n="89"/>mae non qualitercumque, sed adveniente alimento decocto;
+<lb ed="#L" n="90"/>sic notitia principiorum habitualis naturaliter inest animae,
+<lb ed="#L" n="91"/>advenientibus ab extra terminis, Ita quod ad intelligibilem
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>praesentiam eorum, inditum est quod ab anima in 
+intel<lb break="no" ed="#L" n="93"/>lectu possibili, sub lumine agentis, fluat qualitas illa quae
+<lb ed="#L" n="94"/>est habitus principiorum; sicut motus gravium. et levium
+<lb ed="#L" n="95"/>a natura gravium et levium. Et, ut semel effluxit, semper
+<lb ed="#L" n="96"/>perseverat; quamvis non exeat in actum, impedita phantasia.
+<lb ed="#L" n="97"/>Differentia igitur inter intellectum et voluntatem in hoc
+<lb ed="#L" n="98"/>est, quod in intellectu fluit naturaliter habitus quidam, 
+prae<lb break="no" ed="#L" n="99"/>sentibus ab extra terminis principiorum: in voluntate autem
+<lb ed="#L" n="100"/>non, sed sola promptitudo ipsius ad principia, scilicet
+<lb ed="#L" n="101"/>bonum prosequendum et malum fugiendum, et huiusmodi,
+<lb ed="#L" n="102"/>invenitur a natura.
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e232">
+                  <lb ed="#L" n="103"/>III. Ad secundam dubitationem dicitur dupliciter, 
+secun<lb break="no" ed="#L" n="104"/>dum quod dupliciter exponi possunt verba litterae. Primo,
+<lb ed="#L" n="105"/>intelligendo per ly propria obiecta, specialia obiecta 
+con<lb break="no" ed="#L" n="106"/>tenta sub communi obiecto illius potentiae; quae in 
+quae<lb break="no" ed="#L" n="107"/>stione praecedenti vocavit aliquod determinatum. Verbi
+<lb ed="#L" n="108"/>gratia, in voluntate commune obiectum est bonum : speci:
+<lb ed="#L" n="109"/>sunt bonum in passionibus timoris et audaciae, bonum in
+<lb ed="#L" n="110"/>delectationibus et tristitiis, bonum in commutationibus, et
+<lb ed="#L" n="111"/>huiusmodi. Et sic ratio litterae alludit dictis in. resp. ad. 3,
+<lb ed="#L" n="112"/>in art. 5 praec. quaest.: scilicet quod, quia in intellectu 
+ha<lb break="no" ed="#L" n="113"/>bitus est necessarius simpliciter, quia est determinativus
+<lb ed="#L" n="114"/>potentiae ad obiecta; i in voluntate autem est necessarius ad
+<lb ed="#L" n="115"/>bene esse, quia non determinat ad obiecta, sed facit 
+prom<lb break="no" ed="#L" n="116"/>ptiorem, etc.; ideo ibi est habitus naturalis, hic. non, — Sed
+<lb ed="#L" n="117"/>haec responsio. non valet. Quia intellectus non. solum. ad
+<lb ed="#L" n="118"/>specialia, sed ad communissimum obiectum attingendum
+<lb ed="#L" n="119"/>determinatur ab habitu: ac per hoc, extra propositum est
+<lb ed="#L" n="120"/>loqui de specialibts obiectis.
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e274">
+                  <lb ed="#L" n="121"/>Dicendum est ergo quod sermo litterae est formalis: et
+<lb ed="#L" n="122"/>per propria obiecta intendit ipse vera, propria et adaequata
+<lb ed="#L" n="123"/>obiecta potentiarum appetitivarum, de quibus loquitur..
+<lb ed="#L" n="124"/>quod ratio consistit in hoc, quod quia officium naturi
+<lb ed="#L" n="125"/>habitus ad operationem, in communi loquendo, est deir.
+<lb ed="#L" n="126"/>minare potentiam ad obiectum attingendum; et in intellectu
+<lb ed="#L" n="127"/>opus est ista determinatione, quia nisi aliqua specie 
+deter<lb break="no" ed="#L" n="128"/>minetur, nihil intelligere potest; in voluntate autem, et
+<lb ed="#L" n="129"/>universaliter appetitu, non est opus ista determinatione,
+<pb ed="#L" n="327"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quia praevenitur ab ipsa appetitiva potentia, quoniam eius
+<lb ed="#L" n="2"/>officium, immo natura, est inclinatio in obiectum proprium
+<lb ed="#L" n="3"/>(nihil enim aliud est appetitus quam inclinatio): ideo in
+<lb ed="#L" n="4"/>potentiis appetitivis non est inchoatio naturalis habitus, ac
+<lb ed="#L" n="5"/>per hoc, nullus est in eis naturalis habitus; in apprehensivis
+<lb ed="#L" n="6"/>autem, sic.
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e313">
+                  <lb ed="#L" n="7"/>Et sic omnia consonant. Quoniam affirmatio et negatio
+<lb ed="#L" n="8"/>non cadunt super idem. Affirmatur enim de habitu naturali
+<lb ed="#L" n="9"/>absolute, quod eius est inclinare ad propria obiecta: et
+<lb ed="#L" n="10"/>negatur quod hoc convenire possit habitui in appetitu,
+<lb ed="#L" n="11"/>quia hoc convenit ipsi appetitui. Et sic a negatione officii
+<lb ed="#L" n="12"/>ipsius habitus naturalis, proceditur ad negationem ipsius
+<lb ed="#L" n="13"/>habitus naturalis in appetitu. - Nec contradicit supradictis.
+<lb ed="#L" n="14"/>Quoniam hic, comparans potentias appetitivas ad propria
+<lb ed="#L" n="15"/>obiecta, negat habitus: quod etiam tunc dixit. Ibi vero, 
+com<lb break="no" ed="#L" n="16"/>parans potentiam ad specialia seu determinata obiecta sub
+<lb ed="#L" n="17"/>obiecto communi, posuit habitus inclinantes ad illa 
+prom<lb break="no" ed="#L" n="18"/>pte, faciliter, etc. Quae duo in nullo dissonant.
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e342">
+                  <lb ed="#L" n="19"/>IV. In responsione ad secundum, adverte rationem 
+quae<lb break="no" ed="#L" n="20"/>stionis motae in Prima Parte, qu. nv. Et nota duo: 
+pri<lb break="no" ed="#L" n="21"/>mo, differentem perfectionem; secundo, rationem. Tantum,
+<lb ed="#L" n="22"/>in primis, distat essentiam angeli per seipsam esse 
+similitu<lb break="no" ed="#L" n="23"/>dinem omnium, et per adiunctas species, ut primum ponat
+<lb ed="#L" n="24"/>perfectionem altissimam, secundum diminutam. Et ratio est,
+<lb ed="#L" n="25"/>quia primum ponit essentiam illam unite habere species
+<lb ed="#L" n="26"/>rerum: secundum vero, divisim. Constat enim quod unite
+<lb ed="#L" n="27"/>habere quae divisa sunt in aliis, altioris perfectionis est:
+<lb ed="#L" n="28"/>praesertim quia primum ponit sic unite habere, quod in una
+<lb ed="#L" n="29"/>substantia habeatur; secundum, quod in substantia et in
+<lb ed="#L" n="30"/>accidente. »
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e371">
+                  <lb ed="#L" n="31"/>Ratio autem in littera posita pro affirmatione, quia sci-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>licet per participationem divinae sapientiae potest intellectus
+<lb ed="#L" n="33"/>angelicus esse actu ea quae intelligit; non sic interpretanda
+<lb ed="#L" n="34"/>est, quasi intellectus angelicus, iam factus, discat a divina
+<lb ed="#L" n="35"/>sapientia, aut suscipiat species intelligibiles: sed quia ipse
+<lb ed="#L" n="36"/>angelus, sicut est ens, ita intelligens; idest, sicut est 
+per<lb break="no" ed="#L" n="37"/>fectus in esse substantiali, ita est perfectus in habendo 
+in<lb break="no" ed="#L" n="38"/>tellectum in actu. Constat autem quod ens est per 
+parti<lb break="no" ed="#L" n="39"/>cipationem divinae essentiae: ac per hoc, cum divisione
+<lb ed="#L" n="40"/>essentiae ab esse est, ut unitum superius dividatur inferius.
+<lb ed="#L" n="41"/>Ergo est in intelligendo in actu perfectus, participando 
+di<lb break="no" ed="#L" n="42"/>vinam sapientiam: et consequenter cum divisione suscipit
+<lb ed="#L" n="43"/>perfectum intellectum in actu, eadem ratione. Unde in 
+ul<lb break="no" ed="#L" n="44"/>timo art. praec. quaest., ad 2, dicitur de angelis: Quia non
+<lb ed="#L" n="45"/>ita sunt per seipsos entes, quin participent sapientiam et
+<lb ed="#L" n="46"/>bonitatem divinam; ideo inquantum participare indigent ab
+<lb ed="#L" n="47"/>exteriori, intantum necesse est in eis ponere habitus.
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e413">
+                  <lb ed="#L" n="48"/>Quia ergo essentiae angelicae participationes quaedam
+<lb ed="#L" n="49"/>sunt divinae essentiae et in esse naturali et in esse 
+intel<lb break="no" ed="#L" n="50"/>ligibili; et entia per participationem divisim suscipiunt
+<lb ed="#L" n="51"/>quod in superiori participato unitum est: sequitur quod,
+<lb ed="#L" n="52"/>quemadmodum ad hoc ut essentia complementum essendi
+<lb ed="#L" n="53"/>habeat, indiget esse distincto a se; ita ad hoc quod 
+com<lb break="no" ed="#L" n="54"/>plementum in esse formae intelligibilis obtineat, ut 
+spe<lb break="no" ed="#L" n="55"/>cies habeat adiunctas rerum aliarum. Et sicut esse ab 
+ex<lb break="no" ed="#L" n="56"/>trinseco habet, non tamen sic quasi essentia praefuerit 
+abs<lb break="no" ed="#L" n="57"/>que esse, et accipiat esse ab alio; sed quia per hoc est,
+<lb ed="#L" n="58"/>quod ab alio est: ita species additas ab extrinseco habet,
+<lb ed="#L" n="59"/>non sic quasi praefuerit, et suscipiat a Deo species; sed quia
+<lb ed="#L" n="60"/>per hoc illas habet, quia a Deo congenitas naturali sequela
+<lb ed="#L" n="61"/>ad propriam essentiam possidet. — Et est sermo praesens de
+<lb ed="#L" n="62"/>naturali scientia angelorum, qua sciunt alia.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e935-Dd1e449"><!-- caj-p2p1-q51-a2 -->
+               <head xml:id="TAcCaj-d1e935-Hd1e452">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e935-d1e454">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e461">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>AD articulo secundo eiusdem quaestionis 
+quinquagesimae<lb break="no" ed="#L" n="15"/>primae, notato diligenter quod nobilitas operationis active
+<lb ed="#L" n="16"/>pensatur ex forma quae est actionis principium. Et pro-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="17"/>pterea, ut expresse patet, licet actus praecedens habitum. sit
+<lb ed="#L" n="18"/>secundum se imperfectus, est tamen perfectior secundum
+<lb ed="#L" n="19"/>suum principium: et hoc sufficit. Quod bene notabis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e935-Dd1e482"><!-- caj-p2p1-q51-a4 -->
+               <head xml:id="TAcCaj-d1e935-Hd1e485">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e935-d1e487">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="71"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e935-d1e494">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="72"/>IN responsione ad tertium quarti articuli, omisso tertio ,
+<lb ed="#L" n="73"/>adverte quod, cum duorum ordinum sint infusi habitus,
+<lb ed="#L" n="74"/>quidam scilicet per accidens, et quidam per se infusi : - Illi
+<lb ed="#L" n="75"/>namque habitus qui possunt ex nostris actibus aut natura
+<lb ed="#L" n="76"/>acquiri,sunt per accidens infusi: accidit enim eis infundi.
+<lb ed="#L" n="77"/>Et isti sunt eiusdem rationis specialissimae, quando 
+infun<lb break="no" ed="#L" n="78"/>duntur, cum acquisitis: geometria enim infusa et acquisita
+<lb ed="#L" n="79"/>eiusdem sunt speciei; sicut oculi dati caeco nato, et oculi
+<lb ed="#L" n="80"/>aliorum. Et de istis in corpore dicitur quod infunduntur
+<lb ed="#L" n="81"/>quia Deus producit quandoque effectus causarum 
+secunda<lb break="no" ed="#L" n="82"/>rum absque ipsis. Illi vero habitus qui sola infusione fieri
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="83"/>possunt, sunt per se infusi: eo quod non accidit 
+acquisi<lb break="no" ed="#L" n="84"/>tioni eorum infusio, immo ipsam per se sibi vindicant. Et
+<lb ed="#L" n="85"/>isti sunt habitus essentialiter supernaturales, ut in principio
+<lb ed="#L" n="86"/>corporis articuli dicitur: - Et de utrisque verificatur haec
+<lb ed="#L" n="87"/>responsio ad tertium, quod actus procedentes ex habitu
+<lb ed="#L" n="88"/>infuso non causant aliquem habitum, sed confirmant 
+prae<lb break="no" ed="#L" n="89"/>existentem. Et in promptu causa est: de per se infusis 
+qui<lb break="no" ed="#L" n="90"/>dem, quia improducibiles sunt nisi per infusionem, ac per
+<lb ed="#L" n="91"/>hoc ex actibus nostris; de per accidens vero infusis, quia
+<lb ed="#L" n="92"/>duo accidentia eiusdem speciei sunt incompossibilia in
+<lb ed="#L" n="93"/>eodem.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

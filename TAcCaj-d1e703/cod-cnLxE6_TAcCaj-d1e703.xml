@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="56"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e703"><!-- TAcCajp2p1-q6 -->
+            <head xml:id="TAcCaj-d1e703-Hd1e99">Quaestio 6</head>
+            <div xml:id="TAcCaj-d1e703-Dd1e101"><!-- caj-p2p1-q6-a1 -->
+               <head xml:id="TAcCaj-d1e703-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e703-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="92"/>QUIA IGITUR. In divisione, seu praefatione sextae 
+quae<lb break="no" ed="#L" n="93"/>stionis, adverte quod Auctor, tractanda omnia 
+prae<lb break="no" ed="#L" n="94"/>concdipiens, prima distinctione separat totum hunc librum
+<lb ed="#L" n="95"/>a Secunda Secundae; deinde. secunda distinctione separat
+<lb ed="#L" n="96"/>tractatum. de actibus humanis in universali, a reliqua libri
+<lb ed="#L" n="97"/>parte incipiente in qu. xix; tertia autem distinctione 
+tra<lb break="no" ed="#L" n="98"/>ctatum ipsum de actibus distinguit, ita quod primo de 
+pro<lb break="no" ed="#L" n="99"/>priis homini, deinde de communibus, in qu. xxi et 
+sequen<lb break="no" ed="#L" n="100"/>tibus, tractandum dicit. Sequentes autem distinctiones dant
+<lb ed="#L" n="101"/>loca conditionibus, circumstantiis, et actibus: propriis 
+ho<lb break="no" ed="#L" n="102"/>mini, quibusque sua, usque ad xxr qu. inclusive.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e142">
+                  <lb ed="#L" n="103"/>II. Circa primum articulum quaestionis sextae, dubium
+<lb ed="#L" n="104"/>occurrit de illa propositione in corpore posita, scilicet:
+<lb ed="#L" n="105"/>Quod nullam habet notitiam finis, etsi in eo sit principium
+<lb ed="#L" n="106"/>actionis vel motus, non tamen eius quod est agere vel mo-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="107"/>veri propter finem est principium in ipso, sed in alio.
+<lb ed="#L" n="108"/>Adversatur siquidem huic sententiae tam auctoritas, quam
+<lb ed="#L" n="109"/>ratio. Auctoritas quidem <ref xml:id="TAcCaj-d1e703-Rd1e161">Aristotelis, II Physic.</ref>, probantis
+<lb ed="#L" n="110"/>ex proposito quod natura agit propter finem. Unde arguitur
+<lb ed="#L" n="111"/>sic. Naturalia agunt propter finem : naturalia agunt a 
+prin<lb break="no" ed="#L" n="112"/>cipio intrinseco sine notitia finis: ergo agentia a principio
+<lb ed="#L" n="113"/>intrinseco sine finis notitia, agunt propter finem. Cuius 
+op<lb break="no" ed="#L" n="114"/>positum in littera dicitur. - Et confirmatur. Quia si in 
+na<lb break="no" ed="#L" n="115"/>turalibus ratione carentibus est principium agendi, et non
+<lb ed="#L" n="116"/>est principium de ly propter finem; cum tota dissensio
+<lb ed="#L" n="117"/>Aristotelis ab aliis, contra quos disputat in II PAysic., 
+con<lb break="no" ed="#L" n="118"/>sistat non in hoc quod naturalia agant vel non agant (de
+<lb ed="#L" n="119"/>hoc enim non disputatur) sed in hoc quod agant propter
+<lb ed="#L" n="120"/>finem vel non propter finem, et concludatur pars 
+affirma<lb break="no" ed="#L" n="121"/>tiva: oportet dicere quod natura, quae est intrinsecum
+<pb ed="#L" n="57"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>agendi principium, non solum est principium agendi, sed
+<lb ed="#L" n="2"/>agendi propter finem; naturalia enim, ut sic, agunt propter
+<lb ed="#L" n="3"/>finem.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e201">
+                  <lb ed="#L" n="4"/>III. Circa illam aliam propositionem in eodem corpore,
+<lb ed="#L" n="5"/>scilicet: Quodcumque sic agit vel movetur a principio 
+in<lb break="no" ed="#L" n="6"/>trinseco, quod habet aliquam notitiam finis, habet in 
+se<lb break="no" ed="#L" n="7"/>ipso principium sui actus non solum ut agat, sed etiam
+<lb ed="#L" n="8"/>ut agat propter finem, dubium occurrit, quia contradicit
+<lb ed="#L" n="9"/>determinationi factae in 2 art. qu. r, ubi conclusum est
+<lb ed="#L" n="10"/>esse proprium rationalis naturae agere propter finem, ita
+<lb ed="#L" n="11"/>ut moveat se ad finem. Hic enim expresse dicitur quod
+<lb ed="#L" n="12"/>huiusmodi, ut animalia, movent se ad finem, quia aliquam
+<lb ed="#L" n="13"/>cognitionem finis habent. Quomodo stant haec simul?
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e226">
+                  <lb ed="#L" n="14"/>IV. Circa deductam in eodem corpore propositionem ex
+<lb ed="#L" n="15"/>praedicta, scilicet: Unde huiusmodi dicuntur non movere
+<lb ed="#L" n="16"/>seipsa, sed ab aliis moveri, dubium quoque occurrit, 
+quo<lb break="no" ed="#L" n="17"/>niam constat quod vegetabilia movent seipsa motu 
+aug<lb break="no" ed="#L" n="18"/>menti ad omnes differentias positionis, et tamen carent
+<lb ed="#L" n="19"/>notitia finis. Falsum ergo est quod huiusmodi, scilicet
+<lb ed="#L" n="20"/>carentia finis notitia, non dicuntur movere seipsa. — Et
+<lb ed="#L" n="21"/>confirmatur: quia in Prima Parte, qu. xvi, art. 1, in 
+re<lb break="no" ed="#L" n="22"/>sponsione ad 2, expresse dixit Auctor quod haec movent
+<lb ed="#L" n="23"/>seipsa.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e250">
+                  <lb ed="#L" n="24"/>V. Ad primae dubitationis evidentiam, scito quod hoc
+<lb ed="#L" n="25"/>quod est agere propter finem, potest habere principium
+<lb ed="#L" n="26"/>duplicis ordinis: alterum scilicet proprii ordinis; alterum
+<lb ed="#L" n="27"/>propria virtute hoc facit: subordinati vero, quod superioris
+<lb ed="#L" n="28"/>virtutis participatione solum hoc facit. Et quoniam agere
+<lb ed="#L" n="29"/>propter finem collationem: quandam eius quod est ad 
+fi<lb break="no" ed="#L" n="30"/>nem, ad ipsum finem, manifeste importat; conferri autem
+<lb ed="#L" n="31"/>in finem absque cognitione, etsi fingendi detur licentia, 
+in<lb break="no" ed="#L" n="32"/>telligi nequit: oportet ut de ratione principii propria virtute
+<lb ed="#L" n="33"/>activi propter finem, sit cognitio. Ac per hoc, principium
+<lb ed="#L" n="34"/>propria virtute agens propter finem, constat necessario ex
+<lb ed="#L" n="35"/>gradu cognoscitivo. Et consequenter si quid non 
+cogno<lb break="no" ed="#L" n="36"/>scitivum agit propter finem, etsi habeat principium agendi
+<lb ed="#L" n="37"/>propter finem, non habet principium nisi sübordinati 
+or<lb break="no" ed="#L" n="38"/>dinis, quod scilicet ex hoc quod est impressio quaedam a
+<lb ed="#L" n="39"/>cognoscitivo, principiat propter finem.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e287">
+                  <lb ed="#L" n="40"/>Et hoc modo naturalia agunt propter finem. Ita quod
+<lb ed="#L" n="41"/>aequivocatio est hic inter litteram hanc, et secundum 
+PAy<lb break="no" ed="#L" n="42"/>sicorum ac rationes. Auctor siquidem loquitur de principio
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="43"/>agente propter finem propria virtute. Et de tali verissimum
+<lb ed="#L" n="44"/>est dicere quod in solis cognoscitivis est principium agendi
+<lb ed="#L" n="45"/>propter finem: quia, ut in littera dicitur, ad hoc quod 
+ali<lb break="no" ed="#L" n="46"/>quid fiat propter finem, requiritur aliqualis notitia finis.
+<lb ed="#L" n="47"/>Propter quod a philosophis dicitur quod opus naturae est
+<lb ed="#L" n="48"/>opus intelligentiae. In I1 autem Phy'sic., et aliis, est sermo
+<lb ed="#L" n="49"/>de qualicumque principio. Et sic late loquendo, concedimus
+<lb ed="#L" n="50"/>et quod in naturalibus est principium agendi, et agendi
+<lb ed="#L" n="51"/>propter finem. Natura enim, ab intelligentia veniens, est
+<lb ed="#L" n="52"/>principium subordinati ordinis agendi propter finem: et
+<lb ed="#L" n="53"/>non est principium propria virtute directivum in finem. Et
+<lb ed="#L" n="54"/>sic omnia consonant.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e324">
+                  <lb ed="#L" n="55"/>VI. Ad secundam autem dubitationem dicitur quod,
+<lb ed="#L" n="56"/>quia animalia imperfecte cognoscunt finem, ut in 2 art. huius
+<lb ed="#L" n="57"/>quaestionis dicitur, ideo etiam imperfecte movent se ad 
+fi<lb break="no" ed="#L" n="58"/>nem. Et est tanta imperfectio ista, ut non nisi 
+participa<lb break="no" ed="#L" n="59"/>tione quadam moveant se ad finem, sicut prudentia sunt
+<lb ed="#L" n="60"/>et ordinant in finem. Propter quod simpliciter negari 
+po<lb break="no" ed="#L" n="61"/>test quod movent se ad finem, sicut quod ordinant aliquid
+<lb ed="#L" n="62"/>in finem; quamvis concedatur simpliciter quod movent se.
+<lb ed="#L" n="63"/>Et potest nihilominus cum additione dici quod imperfecte
+<lb ed="#L" n="64"/>movent se propter finem. Et sic in proposito accidit: nam
+<lb ed="#L" n="65"/>superius fuit sermo simpliciter; hic autem est sermo 
+se<lb break="no" ed="#L" n="66"/>cundum quid manifestatum in 2 art.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e353">
+                  <lb ed="#L" n="67"/>Posset quoque dici, ut dicetur ad tertium dubium;
+<lb ed="#L" n="68"/>quod quia habentia cognitionem sensitivam. medium 
+1o<lb break="no" ed="#L" n="69"/>cum tenent inter naturalia, quae nullo. modo cognoscunt
+<lb ed="#L" n="70"/>finem, et rationalia, quae omnino cognoscunt finem; modo
+<lb ed="#L" n="71"/>in hoc, modo in illud extremum declinant. In prima 
+nam<lb break="no" ed="#L" n="72"/>que quaestione, quia de agere propter finem simpliciter et
+<lb ed="#L" n="73"/>per se erat sermo, cum naturalibus computata sunt: hic
+<lb ed="#L" n="74"/>vero, .quia de voluntario communiter sumpto, ut etiam
+<lb ed="#L" n="75"/>ad brutorum participationem se extendit, inchoat doctrina;
+<lb ed="#L" n="76"/>cum rationalibus connumerata sunt.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e377">
+                  <lb ed="#L" n="77"/>VII. Ad tertiam dubitationem dicitur quod, quia 
+me<lb break="no" ed="#L" n="78"/>dium utrumque sapit extremum, et modo illud, modo
+<lb ed="#L" n="79"/>alterum subinduit; ideo accidit ut vegetabilia, quae media
+<lb ed="#L" n="80"/>sunt inter pure naturalia, quae non movent se, et animalia,
+<lb ed="#L" n="81"/>quae movent se, modo dicantur movere se, et modo 
+di<lb break="no" ed="#L" n="82"/>cantur non movere se. Quando enim distinguuntur 
+vege<lb break="no" ed="#L" n="83"/>tabilia contra naturalia, ut ibi fit, dicitur quod movent se:
+<lb ed="#L" n="84"/>quando autem contra animalia, quae cognoscitiva sunt, ut
+<lb ed="#L" n="85"/>hic, dicitur quod non movent se.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e703-Dd1e400"><!-- caj-p2p1-q6-a2 -->
+               <head xml:id="TAcCaj-d1e703-Hd1e403">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e703-d1e405">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e412">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>IN secundo articulo, adverte quod id quod superius, in
+<lb ed="#L" n="35"/>lene scilicet quaestione, art. 2, appellavit Auctor unico
+<lb ed="#L" n="36"/>vocabulo cognoscere rationem finis, et nos exposuimus
+<lb ed="#L" n="37"/>consistere in cognitione proportionis inter finem et id quod
+<lb ed="#L" n="38"/>est ad finem; modo explicatur ex parte utriusque extremi,
+<lb ed="#L" n="39"/>scilicet finis, et eius quod est ad finem. Et dicitur quod est
+<lb ed="#L" n="40"/>cognoscere, ex parte finis, rationem finis: ex parte vero eius
+<lb ed="#L" n="41"/>quod est ad finem, proportionem illius ad finem. Et intendit
+<lb ed="#L" n="42"/>per rationem finis, non quod quid est ut distinguitur contra
+<lb ed="#L" n="43"/>individuum; sed rationem formalem, sive universaliter sive
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="44"/>particulariter, ut distinguitur contra rem; idest, quod oportet
+<lb ed="#L" n="45"/>cognoscere rem quae denominatur finis, ut stat sub 
+deno<lb break="no" ed="#L" n="46"/>minatione finis. Verbi gratia, mulier praeparatura pro 
+pran<lb break="no" ed="#L" n="47"/>dio, non solum novit hoc futurum prandium, sed novit
+<lb ed="#L" n="48"/>ipsum ut finem tunc, ibi, etc., suae praeparationis: alioquin
+<lb ed="#L" n="49"/>non ratiocinaretur ex prandio ad praeparanda, nec 
+move<lb break="no" ed="#L" n="50"/>retur ad praeparationem. Et similiter novit non solum has
+<lb ed="#L" n="51"/>carnes, hanc horam, etc., sed ut proportionatas nunc, hic,
+<lb ed="#L" n="52"/>sic, etc., ad talem finem. Et hoc est perfecte cognoscere
+<lb ed="#L" n="53"/>finem, et nosse rationem finis. ;
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e703-Dd1e463"><!-- caj-p2p1-q6-a3 -->
+               <head xml:id="TAcCaj-d1e703-Hd1e466">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e703-d1e468">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e475">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>CIRCA ceteros quaestionis articulos usque ad ultimum 
+<lb ed="#L" n="19"/>opirccnÜea nihil occurrit scribendum.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e484">
+                  <lb ed="#L" n="20"/>Advertendum tamen est quod tertius articulus 
+funda<lb break="no" ed="#L" n="21"/>mentum est multarum veritatum cum de peccatis 
+dispu<lb break="no" ed="#L" n="22"/>tatur, et specialiter omissionum: unde et eo in locis 
+pro<lb break="no" ed="#L" n="23"/>priis utemur. Singulariter tamen nunc ex hoc articulo 
+com<lb break="no" ed="#L" n="24"/>mendandum est memoriae quod ad rationem voluntarii
+<lb ed="#L" n="25"/>indirecte non sufficit potestas in voluntate et negatio 
+pro<lb break="no" ed="#L" n="26"/>visionis, sed oportet tria concurrere: scilicet posse, debere,
+<lb ed="#L" n="27"/>et non velle aut non imperare. Et propterea non valet 
+ar<lb break="no" ed="#L" n="28"/>gumentum: Hoc potuit a voluntate prohiberi, et non est
+<lb ed="#L" n="29"/>prohibitum, ergo est voluntarium. Et hoc est valde 
+notan<lb break="no" ed="#L" n="30"/>dum propter actus qui sunt ab anima sensitiva et 
+genera<lb break="no" ed="#L" n="31"/>tiva, et non ex praecepto intellectus: oportet enim diligenter
+<lb ed="#L" n="32"/>attendere si debet, et quando debet impedire.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e515">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="33"/>II. Quartus vero, in secundo argumento, iuncto suae
+<lb ed="#L" n="34"/>responsioni, occasionem dat disputandi an obiectum 
+mo<lb break="no" ed="#L" n="35"/>veat voluntatem active. Sed quia de motivo voluntatis erit
+<lb ed="#L" n="36"/>specialis quaestio in littera, illucusque differtur.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e529">
+                  <lb ed="#L" n="37"/>III. Sextus regulam tradit in iudicandis votis, contra--
+<lb ed="#L" n="38"/>cibus, etc., factis ex metu etiam cadente in constantem
+<lb ed="#L" n="39"/>virum; dum omnia huiusmodi vere voluntaria docemur,
+<lb ed="#L" n="40"/>quamvis aliquid habeant involuntarii admixtum. Ac per hoc,
+<lb ed="#L" n="41"/>si mala sunt ardua, ut periuria, infamiae, et similia, 
+pec<lb break="no" ed="#L" n="42"/>cata sunt mortalia.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e545">
+                  <lb ed="#L" n="43"/>Esto tamen cautus in materia matrimonii: quia Ecclesia
+<lb ed="#L" n="44"/>vult quod non solum sit voluntarium, sed plene 
+volunta<lb break="no" ed="#L" n="45"/>rium, ut in IV Sent. habes. Compatiuntur quoque 
+hu<lb break="no" ed="#L" n="46"/>mana iura his quae metu fiunt, libertatem plenam fovendo,
+<lb ed="#L" n="47"/>non voluntarium in his. negando.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e703-Dd1e559"><!-- caj-p2p1-q6-a8 -->
+               <head xml:id="TAcCaj-d1e703-Hd1e562">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e703-d1e564">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="59"/>Commentaria Cardinalis Caietani.
+</p>
+               <p xml:id="TAcCaj-d1e703-d1e571">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>In octavo articulo, diligenter advertendum est quod, cum
+<lb ed="#L" n="61"/>ignorantia consequens voluntatem tripliciter ponatur, 
+sci<lb break="no" ed="#L" n="62"/>licet affectata, malae electionis, et iuris; et prima differat
+<lb ed="#L" n="63"/>ab aliis in hoc, quod ipsa est obiectum actus voluntatis
+<lb ed="#L" n="64"/>(est enim volita), aliae vero sunt quasi obiectum voluntatis
+<lb ed="#L" n="65"/>potentis et debentis ipsas abiicere (sunt enim ideo 
+volunta<lb break="no" ed="#L" n="66"/>riae, quia voluntas potest et debet actualiter considerare et
+<lb ed="#L" n="67"/>applicare ad opus, et sic excludere ignorantiam malae 
+ele<lb break="no" ed="#L" n="68"/>ctionis; et similiter velle acquirere scientiam sibi 
+necessa<lb break="no" ed="#L" n="69"/>riam tempore debito, et sic excludere ignorantiam iuris);
+<lb ed="#L" n="70"/>inter has autem duas differentia sit quod ignorantia 
+electio<lb break="no" ed="#L" n="71"/>nis consistit in ipsa voluntaria actuali inconsideratione, i 
+igno<lb break="no" ed="#L" n="72"/>rantia vero iuris in voluntaria habituali privatione scientiae:
+<lb ed="#L" n="73"/>quandocumque aliquis ex actuali oblivione eius quod scit
+<lb ed="#L" n="74"/>et habitualiter meminit, operatur, neutram ignorantiam 
+in<lb break="no" ed="#L" n="75"/>currit; quoniam omnium reminisci supra hominis est 
+fa<lb break="no" ed="#L" n="76"/>cultatem. Quocirca si quis, certa intentione perseverans nullo
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>modo peccandi mortaliter, et sciens contractum talem sapere
+<lb ed="#L" n="78"/>usuram, et nihilominus non recolens actualiter eius quod
+<lb ed="#L" n="79"/>habitualiter scit, facit talem contractum, non peccavit 
+mor<lb break="no" ed="#L" n="80"/>taliter. Et similiter sciens Socratem, sibi notum, esse 
+no<lb break="no" ed="#L" n="81"/>minatim excommunicatum, et tamen communicans cum eo
+<lb ed="#L" n="82"/>in divinis, ex hoc quod non actualiter sibi occurrit hunc
+<lb ed="#L" n="83"/>esse excommunicatum, excusatur a mortali. Quilibet enim
+<lb ed="#L" n="84"/>in seipso experitur non esse in potestate sua quod 
+recor<lb break="no" ed="#L" n="85"/>detur eorum quae habitualiter meminit. Propter quod 
+in<lb break="no" ed="#L" n="86"/>consideratio haec, cum non sit concomitans nec 
+conse<lb break="no" ed="#L" n="87"/>quens, quia non est omnino in potestate nostra, locanda
+<lb ed="#L" n="88"/>est sub antecedente: causat enim involuntarium simpliciter,
+<lb ed="#L" n="89"/>et ipsa nullo modo est volita. Ac per hoc, excusat non solum
+<lb ed="#L" n="90"/>a peccato, sed a censuris consequentibus culpam. Et haec
+<lb ed="#L" n="91"/>pro consolatione bonarum mentium ibi culpam timentium
+<lb ed="#L" n="92"/>ubi nón reperitur, notanda applicandaque sunt 
+occurren<lb break="no" ed="#L" n="93"/>tibus casibus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

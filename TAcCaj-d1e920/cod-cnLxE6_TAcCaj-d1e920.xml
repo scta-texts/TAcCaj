@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestiones 46-48</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestiones 46-48</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="307"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e920"><!-- TAcCajp2p1-q48 -->
+            <head xml:id="TAcCaj-d1e920-Hd1e99">Quaestiones 46-48</head>
+            <!-- 46-48, but note there is also a specific set of responses to articles in 46 -->
+            <p xml:id="TAcCaj-d1e920-d1e103">
+               <pb ed="#L" n="307"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e112">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>CIRCA quaestionem quadragesimamsextam, 
+quadragesi<lb break="no" ed="#L" n="3"/>mamseptimam et quadragesimamoctavam simul, nota
+<lb ed="#L" n="4"/>definitionem irae positam ab Aristotele in II Rhetoric.: Ira
+<lb ed="#L" n="5"/>est appetitus cum tristitia ac spe punitionis apparentis ,
+<lb ed="#L" n="6"/>propter apparentem parvipensionem eorum quae in ipsum
+<lb ed="#L" n="7"/>aut in ipsius aliqua, non convenientem. Ex qua definitione
+<lb ed="#L" n="8"/>videre potes in primis iram. passionem compositam ex 
+tri<lb break="no" ed="#L" n="9"/>stitia et spe ut causis; et consequenter ex malo et bono.
+<lb ed="#L" n="10"/>Ac per hoc, ex parte tristitiae, mala, defectus, et 
+universa<lb break="no" ed="#L" n="11"/>liter contristantia, disponunt ad iram. Et in quibus tristitia
+<lb ed="#L" n="12"/>accepta permanet, aut renovatur, ira quoque facile surgit. —
+<lb ed="#L" n="13"/>Ex parte vero spei, audacia delectatioque consequitur, tam
+<lb ed="#L" n="14"/>in cogitando, quam in sperata praesentia vindictae. Ex parte
+<lb ed="#L" n="15"/>autem successus speratae vindictae ad tristitiam, delectatio
+<lb ed="#L" n="16"/>tanto est maior, quanto et medicinae contrapositae habet
+<lb ed="#L" n="17"/>rationem.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e151">
+               <lb ed="#L" n="18"/>Deinde habes obiectum utrumque, scilicet rem. et 
+per<lb break="no" ed="#L" n="19"/>sonam: res est punitio apparens, persona est is qui 
+parvi<lb break="no" ed="#L" n="20"/>pendit. Ex parte punitionis appetitae et speratae, vide quod
+<lb ed="#L" n="21"/>non est ira ad excellentes personas, quas non speramus
+<lb ed="#L" n="22"/>posse punire; nisi pro quanto cum alieno adiutorio, puta
+<lb ed="#L" n="23"/>divino, speramus punire. Et tunc, licet esset excellens 
+per<lb break="no" ed="#L" n="24"/>sona respectu irati absolute, non tamen respectu eius cum
+<lb ed="#L" n="25"/>adiutorio: quae enim per amicos possumus, per nos aliquo
+<lb ed="#L" n="26"/>modo possumus, ut dicitur III. Ezhic. Et quod ira non
+<lb ed="#L" n="27"/>est nisi ad quos est iustitia: punitio enim ad iustitiam
+<lb ed="#L" n="28"/>spectat. Et quod est finita et mensurata: punitio enim 
+puni<lb break="no" ed="#L" n="29"/>bili commensuratur. Et hinc, multis factis, placatur iratus. —
+<lb ed="#L" n="30"/>Ex parte vero apparentiae, vide quod ira non est ad 
+mor<lb break="no" ed="#L" n="31"/>tuos, secundum se, nec ad insensibilia, quibus non potest
+<lb ed="#L" n="32"/>apparere punitio. Et quód iratus appetat punitionem sic u£
+<lb ed="#L" n="33"/>sciat punitus quid, a quo, et pro quo patitur, ut in II
+<lb ed="#L" n="34"/>Rhetoric. dicitur. - Ex persona vero habes quod ira non
+<lb ed="#L" n="35"/>est nisi ad singulares personas: quoniam singularium 
+tan<lb break="no" ed="#L" n="36"/>tum est parvipendere.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e196">
+               <lb ed="#L" n="37"/>Habes deinceps causam irae, apparentem parvipensionem,
+<lb ed="#L" n="38"/>Unde vides, ex parte irati, causam irae aliquam excellentiam,
+<lb ed="#L" n="39"/>quam laedit parvipensio: et ex parte eius cui irascimur,
+<lb ed="#L" n="40"/>defectum, quem dedecet parvipendere excellentem. - 
+Deni<lb break="no" ed="#L" n="41"/>que habes iram non ex qualibet, sed ex contra se vel sua
+<lb ed="#L" n="42"/>apparente parvipensione consurgere. Vindicta enim pro se
+<lb ed="#L" n="43"/>vel suis aliquo modo, fit: extraneas enim omnino iniurias
+<lb ed="#L" n="44"/>non curamus. - Et demum inconvenientem, seu iniustam
+<lb ed="#L" n="45"/>oportere apparere parvipensionem, vides, si ira excitari 
+de<lb break="no" ed="#L" n="46"/>bet: quae enim iuste pati credimus, non quaerimus 
+vindi<lb break="no" ed="#L" n="47"/>care; ut experientia continua testatur in iudiciis.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e222">
+               <lb ed="#L" n="48"/>Ex quibus nulla mihi videtur clarior differentia qua
+<lb ed="#L" n="49"/>possit odium ab ira discerni, quam quod ira est appetitus
+<lb ed="#L" n="50"/>mali ita quod sentiat se punitum pro tali re: in odio autem
+<lb ed="#L" n="51"/>appetitus est solius mali. Et si nesciunt exprimere affectus
+<lb ed="#L" n="52"/>suos, saltem in hoc discernetur, si appetierunt malum pro
+<lb ed="#L" n="53"/>vindicta seu punitione, aut simpliciter ut habeat malum:
+<lb ed="#L" n="54"/>illud enim ad iram, hoc ad odium spectat.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e240">
+               <lb ed="#L" n="55"/>ET haec de passionibus dicta sufficiant: nihil enim aliud
+<lb ed="#L" n="56"/>Ee nunc scribendum occurrit in particulari. Restant in
+<lb ed="#L" n="57"/>calce totius tractatus de actibus appetitus tam intellectivi
+<lb ed="#L" n="58"/>quam: sensitivi, aliqua dubia simpliciter, et ad hominem
+<lb ed="#L" n="59"/>divum Sanctum "Thomam.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e253">
+               <lb ed="#L" n="60"/>Primum est, an praeter decem et septem actus appetitus
+<lb ed="#L" n="61"/>iam tractatos, sex proprios rationalibus et undecim 
+commu<lb break="no" ed="#L" n="62"/>nes, sint alii actus appetitus distincti specie in esse 
+natu<lb break="no" ed="#L" n="63"/>rae ab istis: an sint soli supradicti. Quod enim non sint
+<lb ed="#L" n="64"/>plures, ex hoc suadetur, quia diminutus Auctor fuisset
+<lb ed="#L" n="65"/>omittendo illos. - Quod vero sint plures, ex duobus 
+proba<lb break="no" ed="#L" n="66"/>tur. Primo, quia praeter omnes dictos, est actus nolitionis,
+<lb ed="#L" n="67"/>seu nolle, in voluntate, de quo non est tractatum.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e273">
+               <lb ed="#L" n="68"/>Secundo, quia praeter. omnes dictos, est in voluntate
+<lb ed="#L" n="69"/>actus neuter, quo voluntas vult bonum absolute, non 
+pro<lb break="no" ed="#L" n="70"/>pter se nec propter aliud. Et « quod sit ponendus in 
+volun<lb break="no" ed="#L" n="71"/>tate hic actus neuter, probatur », inquit Scotus, in I Sent.,
+<lb ed="#L" n="72"/>dist. 1, qu. rr, art. 1. « Voluntati potest ostendi aliquod obie-
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="73"/>ctum bonum absolute apprehensum, non sub ratione per
+<lb ed="#L" n="74"/>se, nec propter aliquid aliüd boni. Et voluntas potest 
+ha<lb break="no" ed="#L" n="75"/>bere circa tale obiectum aliquem actum, et non necessario
+<lb ed="#L" n="76"/>inordinatum. Ergo potest habere aliquem actum volendi
+<lb ed="#L" n="77"/>neutrum, idest nec. propter se nec propter aliud ». De hoc
+<lb ed="#L" n="78"/>autem actu non est tractatum, Ergo. - Assumptum patet:
+<lb ed="#L" n="79"/>cum quandoque primo offeratur bonum; et deinde 
+discutia<lb break="no" ed="#L" n="80"/>turan sit bonum propter se an propter aliud.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e306">
+               <lb ed="#L" n="81"/>II. Secundum dubium est, an omnes undecim actus 
+ap<lb break="no" ed="#L" n="82"/>petitus quos passiones dicimus, ut sunt in voluntate, sint
+<lb ed="#L" n="83"/>actus voluntatis specifice distincti in esse naturae: an nulli:
+<lb ed="#L" n="84"/>an aliqui sic, et aliqui non. - Et an coincidant cum illis
+<lb ed="#L" n="85"/>sex in esse naturae: an sint alii specifice ab illis.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e320">
+               <lb ed="#L" n="86"/>Quod enim distinguantur specie, ex distinctione 
+obie<lb break="no" ed="#L" n="87"/>ctorum apparet. - Quod vero non distinguantur, ex 
+eleva<lb break="no" ed="#L" n="88"/>tione inferiorum in superiorem naturam, videtur: dispersa
+<lb ed="#L" n="89"/>enim in inferioribus, uniuntur in superiori.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e331">
+               <lb ed="#L" n="90"/>Quod coincidant cum illis sex, inductive manifestari 
+po<lb break="no" ed="#L" n="91"/>test: amare enim, desiderare, sperare, audere, irasci, velle
+<lb ed="#L" n="92"/>quoddam est. - Quod non coincidant, apparet ex eo quod
+<lb ed="#L" n="93"/>seorsum tractatae sunt. Ut enim patet in qu. xxvrr,, art. 6,
+<lb ed="#L" n="94"/>et per totum immediate hunc tractatum de passionibus,
+<lb ed="#L" n="95"/>examinatae sunt non solum ut in appetitu sensitivo , sed
+<lb ed="#L" n="96"/>etiam in intellectivo sunt.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e349">
+               <lb ed="#L" n="97"/>III. Ad primum dubium dicitur quod praeter dictos 
+de<lb break="no" ed="#L" n="98"/>cem et septem actus, nullus est alius actus: quoniam nolle
+<lb ed="#L" n="99"/>non est alius a praedictis; et actus neuter non datur, ut
+<lb ed="#L" n="100"/>patebit; nec alus aliquis apparet. De zo//e in primis 
+du<lb break="no" ed="#L" n="101"/>pliciter dici potest. Primo, quod nolle coincidit cum velle:
+<lb ed="#L" n="102"/>quoniam nihil aliud significat nolle quam velle non. Et ad
+<lb ed="#L" n="103"/>hoc est auctoritas s. Thomae superius, in qu. vr, art. 3, ad
+<lb ed="#L" n="104"/>2, et in I Sent., dist. vi, in expos. litt., et dist. xrvr, art. 4,
+<lb ed="#L" n="105"/>ad 2: in omnibus enim his locis vult quod nolle 
+signifi<lb break="no" ed="#L" n="106"/>cat actum volendi cum negatione obiecti.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e373">
+               <lb ed="#L" n="107"/>Sed quoniam bonum et malum sunt obiecta appetitus,
+<lb ed="#L" n="108"/>quamvis malum secundario; et bonum est quod omnia 
+ap<lb break="no" ed="#L" n="109"/>petunt, malum vero quod omnia fugiunt: rationabile est
+<lb ed="#L" n="110"/>ut in primo appetitu, quotus est rationalis, sit actus 
+conso<lb break="no" ed="#L" n="111"/>nus utrique obiecto, prosecutio scilicet respectu boni, et fuga
+<lb ed="#L" n="112"/>respectu mali. Ac per hoc, sicut velle inest pro 
+prosecu<lb break="no" ed="#L" n="113"/>tione, ita nolle pro fuga: illius enim obiectum proprium
+<lb ed="#L" n="114"/>est bonum, huius autem malum. Et hoc est tenendum et .
+<lb ed="#L" n="115"/>secundum rem, et secundum [mentem Auctoris: ut patet
+<lb ed="#L" n="116"/>superius in qu. vnr, art. t, ad r, ubi ex proposito hoc
+<lb ed="#L" n="117"/>tractat, tanquam in proprio loco. Nec oppositum sensit in
+<lb ed="#L" n="118"/>locis praeinductis: sed tantummodo exposuit per velle, 
+tan<lb break="no" ed="#L" n="119"/>quam notius, significatum per nolle. - Dic ergo quod nolle
+<lb ed="#L" n="120"/>significat actum positivum refutativum obiecti. Et quia fuga
+<lb ed="#L" n="121"/>in appetitu est sicut negatio in injellectu, ut dicitur in VI
+<lb ed="#L" n="122"/>Ethic.; ideo hic actus declaratus est per velle non.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e410">
+               <lb ed="#L" n="123"/>Non fuit tamen tacitus ab Auctore in hoc tractatu actus
+<lb ed="#L" n="124"/>istius nolitionis. Sed inquantum est proprius voluntati, 
+tra<lb break="no" ed="#L" n="125"/>ctatus est cum suo contrario, scilicet velle: oppositorum
+<lb ed="#L" n="126"/>enim eadem est disciplina. Et assignatum est ei obiectum,
+<lb ed="#L" n="127"/>scilicet malum; et dictum quid est, scilicet fuga; ut patet in
+<lb ed="#L" n="128"/>loco allegato. - Inquantum vero rationem habet 
+commu<lb break="no" ed="#L" n="129"/>nem cum passionibus, tractatus est in tractatu de odio, et
+<lb ed="#L" n="130"/>opposito desiderii, desperatione ac timore. Sunt enim in
+<lb ed="#L" n="131"/>voluntate haec nolitiones. Et, ut dictum est, universaliter
+<lb ed="#L" n="132"/>passiones tractatae sunt tam pro passionibus, quam pro
+<lb ed="#L" n="133"/>actibus voluntatis similibus passionibus.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e436">
+               <lb ed="#L" n="134"/>IV. De actu autem neutro, quod non detur, facile 
+ma<lb break="no" ed="#L" n="135"/>nifestum fit ex hoc. Cum appetitur;bonum absolute, 
+con<lb break="no" ed="#L" n="136"/>currunt duae conditiones in obiecto: scilicet bonitas 
+termi<lb break="no" ed="#L" n="137"/>nans actum appetitus; et negatio ordinis ad aliud, propter
+<lb ed="#L" n="138"/>quod appetatur. Fertur enim voluntas in bonum absolute
+<lb ed="#L" n="139"/>repraesentatum, sic quod appetit ipsum, et non appetit
+<lb ed="#L" n="140"/>ipsum propter aliud. Ex hoc autem ulterius procedendo,
+<lb ed="#L" n="141"/>adiuncto quod bomum propter se non exponitur positive,
+<lb ed="#L" n="142"/>sed negative (quia sicut nihil est a se positive, sed 
+ne<lb break="no" ed="#L" n="143"/>gative, idest non ab alio; ita nihil est propter se 
+positi<lb break="no" ed="#L" n="144"/>ve, sed negative, idest non propter aliud), videbis quod,
+<pb ed="#L" n="308"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cum bonum absolute appetitur, verus assensus voluntatis
+<lb ed="#L" n="2"/>est ad bonum ut finem et propter se, et non est actus
+<lb ed="#L" n="3"/>neuter.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e474">
+               <lb ed="#L" n="4"/>Et per hoc patet solutio rationis. lam enim patet quod
+<lb ed="#L" n="5"/>est implicatio in adiecto dicere quod bonum repraesentatur
+<lb ed="#L" n="6"/>absolute, et non propter se nec propter aliud. Bonum enim
+<lb ed="#L" n="7"/>absolute est propter se negative: et hoc modo intelligitur
+<lb ed="#L" n="8"/>propter se, ut distinguitur contra propter aliud; sicut 
+in<lb break="no" ed="#L" n="9"/>telligitur cum distinguitur ems a se contra ens ab alio.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e490">
+               <lb ed="#L" n="10"/>Sed adverte, novitie, quod semper subintelligitur bonum
+<lb ed="#L" n="11"/>substratum , alioquin propter se diceretur de chimaera:
+<lb ed="#L" n="12"/>quod enim est bonum non propter aliud, est bonum 
+pro<lb break="no" ed="#L" n="13"/>pter se. Quod si contendat quis quod sumit propter se 
+po<lb break="no" ed="#L" n="14"/>sitive, manifeste distinguit bonum propter aliud contra 
+nul<lb break="no" ed="#L" n="15"/>lum bonum: non datur enim bonum propter se positive,
+<lb ed="#L" n="16"/>nisi fingatur aliquid quod sit positive finis sui ipsius.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e508">
+               <lb ed="#L" n="17"/>V. Ad secundum dubium dico quod non video in re,
+<lb ed="#L" n="18"/>aut in Auctore, distinctionem specificam in esse naturae
+<lb ed="#L" n="19"/>actuum qui passiones dicuntur, in voluntate positorum:
+<lb ed="#L" n="20"/>sed omnes praeter tristitiam, ad supra nominatos septem
+<lb ed="#L" n="21"/>actus, scilicet velle, nolle, frui, intendere, eligere, consentire
+<lb ed="#L" n="22"/>et uti, reduci puto. Auctor siquidem superius, in qu. xxx,
+<lb ed="#L" n="23"/>art. 2, ad r, particulares conditiones distinguere passiones
+<lb ed="#L" n="24"/>partis sensitivae, affirmans; oppositumque in parte intel-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="25"/>lectiva insinuans; amorem et desiderium in parte sensitiva,
+<lb ed="#L" n="26"/>non intellectiva, distingui secundum speciem innuit. Et si
+<lb ed="#L" n="27"/>de delectatione in voluntate et aliis passionibus idem 
+sen<lb break="no" ed="#L" n="28"/>sisset, non posuisset fruitionem solam specie distinctam ab
+<lb ed="#L" n="29"/>aliis actibus voluntatis; sed tractasset de ea in tractatu
+<lb ed="#L" n="30"/>de delectatione, cum sit eius species. - Ad naturam autem
+<lb ed="#L" n="31"/>rerum aspiciendo, nescio iram in voluntate, nisi velle 
+vin<lb break="no" ed="#L" n="32"/>dictam; et amorem, nisi velle bonum sibi vel alteri, etc.
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e547">
+               <lb ed="#L" n="33"/>Tristiiam autem ideo excepi, quia contraria eiusdem
+<lb ed="#L" n="34"/>generis sunt, et eadem est eorum disciplina: ac per hoc,
+<lb ed="#L" n="35"/>cum delectatio in voluntate distinctus sit specie actus a
+<lb ed="#L" n="36"/>velle et aliis actibus, consequens est ut tristitia, quae ei
+<lb ed="#L" n="37"/>est contraria, sit etiam specie distinctus actus a nolle et
+<lb ed="#L" n="38"/>ceteris. Nec propterea diminutus est Auctor. Quoniam et,
+<lb ed="#L" n="39"/>ponendo fruitionem speciem per se in voluntate, insinuavit
+<lb ed="#L" n="40"/>tristitiam: oppositorum enim eadem est disciplina. Et, 
+tra<lb break="no" ed="#L" n="41"/>ctando de delectatione et tristitia, expresse tradidit 
+tristi<lb break="no" ed="#L" n="42"/>tiam contrariam delectationi in voluntate, ut patet superius
+<lb ed="#L" n="43"/>in qu. xxxv. :
+</p>
+            <p xml:id="TAcCaj-d1e920-d1e573">
+               <lb ed="#L" n="44"/>Et sic, si decem et septem supradictis addantur hi duo
+<lb ed="#L" n="45"/>actus, scilicet nolle et tristari; erunt in universo actus 
+de<lb break="no" ed="#L" n="46"/>cem et novem appetitus distincti specie in esse naturae,
+<lb ed="#L" n="47"/>comprehendendo sub fruitione, omnem delectationem 
+vo<lb break="no" ed="#L" n="48"/>luntatis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

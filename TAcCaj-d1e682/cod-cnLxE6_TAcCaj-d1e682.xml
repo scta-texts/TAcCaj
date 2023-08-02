@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="23"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e682"><!-- TAcCajp2p1-q2 -->
+            <head xml:id="TAcCaj-d1e682-Hd1e99">Quaestio 2</head>
+            <div xml:id="TAcCaj-d1e682-Dd1e101"><!-- caj-p2p1-q2-a1 -->
+               <head xml:id="TAcCaj-d1e682-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e682-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e682-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>Ir articulo primo quaestionis secundae, in argumento in
+<lb ed="#L" n="21"/>oppositum, adverte quod, licet beatius sit dare quam 
+ac<lb break="no" ed="#L" n="22"/>cipere, iuxta Domini sententiam, simpliciter loquendo,
+<lb ed="#L" n="23"/>quia dare est affluentiae, accipere indigentiae; in hominis:
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="24"/>tamen beatitudine, quia beatitudine indiget, substantia 
+bea<lb break="no" ed="#L" n="25"/>titudinis consistit in accipiendo seu retinendo, et ex ipsa
+<lb ed="#L" n="26"/>emanat erogatio ut consequens.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e682-Dd1e136"><!-- caj-p2p1-q2-a2 -->
+               <head xml:id="TAcCaj-d1e682-Hd1e139">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e682-d1e141">
+                  <cb ed="#L" n="i"/>
+                  <lb ed="#L" n="85"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e682-d1e148">
+                  <cb ed="#L" n="j"/>
+                  <lb ed="#L" n="86"/>In articulo secundo, in corpore, nota quod ipsa felicitas
+<lb ed="#L" n="87"/>constituit excellentiam; ut per hoc videas quod angeli,
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="88"/>appetendo beatitudinem, appetierunt excellentiam, quae est 
+<lb ed="#L" n="89"/>obiectum superbiae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e682-Dd1e165"><!-- caj-p2p1-q2-a3 -->
+               <head xml:id="TAcCaj-d1e682-Hd1e168">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e682-d1e170">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="81"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e682-d1e177">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>In articulo tertio, adverte quod Auctor non affirmat 
+beati<lb break="no" ed="#L" n="83"/>tudinem nostram consistere in gloria, etiam apud Deum:
+<lb ed="#L" n="84"/>sed dicit dependere illam ex cognitione divina quam habet
+<lb ed="#L" n="85"/>de nobis, in qua consistit gloria nostra apud Deum. Et me-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="86"/>rito: quia, ut patebit, beatitudo nostra non consistit in
+<lb ed="#L" n="87"/>cognosci, sed in. cognoscere: quamvis dependeat a cognosci
+<lb ed="#L" n="88"/>a Deo, quia scientia Dei est causa rerum; et perficiatur, seu
+<lb ed="#L" n="89"/>decoretur, per cognosci ab Angelis et Sanctis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e682-Dd1e202"><!-- caj-p2p1-q2-a4 -->
+               <head xml:id="TAcCaj-d1e682-Hd1e205">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e682-d1e207">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="79"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e682-d1e214">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>In articulo quarto nihil occurrit.
+<lb ed="#L" n="81"/>In quinto autem speculabilia in I Parte declarata sunt.
+</p>
+               <p xml:id="TAcCaj-d1e682-d1e223">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="82"/>In sexto vero, responsio ad primum habet quaestionem,
+<lb ed="#L" n="83"/>quae in qu. 1v, art, 2, tractabitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e682-Dd1e234"><!-- caj-p2p1-q2-a7-8 -->
+               <head xml:id="TAcCaj-d1e682-Hd1e237">Articuli 7-8</head>
+               <p xml:id="TAcCaj-d1e682-d1e239">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="97"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e682-d1e246">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="98"/>IN articulo septimo et octavo dubium occurrit de 
+funda<lb break="no" ed="#L" n="99"/>dft utriusque, scilicet: Obiectum voluntatis nostrae
+<lb ed="#L" n="100"/>est universale bonum. Quoniam aut intendit per universale
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="101"/>bonum, totum seu omne bonum ; aut bonum in universali.
+<lb ed="#L" n="102"/>Si secundo modo, verum est, et bene probatur quod, sicut
+<lb ed="#L" n="103"/>obiectum intellectus est verum, non tamen in hoc particu-
+<pb ed="#L" n="24"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>lari, sed in universali; ita obiectum voluntatis est bonum non
+<lb ed="#L" n="2"/>in hoc particulari, sed in universali. Sed ex hoc sensu non
+<lb ed="#L" n="3"/>sequitur: Ergo obiectum voluntatis est bonum universale in
+<lb ed="#L" n="4"/>essendo, quod est Deus. — Si primo modo, tunc non 
+proba<lb break="no" ed="#L" n="5"/>tur per hoc quod obiectum intellectus est verum universale.
+<lb ed="#L" n="6"/>Quoniam hoc verificatur de vero universali in praedicando;
+<lb ed="#L" n="7"/>et non de omni vero, nec ipsa veritate divina, quae est omne
+<lb ed="#L" n="8"/>verum. Quoniam nec hoc verum, Deus est trinus, cadit
+<lb ed="#L" n="9"/>sub obiecto intellectus; nec ea quae non licet homini loqui,
+<lb ed="#L" n="10"/>et in cor hominis non ascendunt, nec ascendere possent.
+<lb ed="#L" n="11"/>II. Ad hoc dicitur quod, proprie loquendo, neutro modo
+<lb ed="#L" n="12"/>intelligitur fundamentum illud. Sed sensus est quod, sicut
+<lb ed="#L" n="13"/>obiectum intellectus est. verum universale, idest non 
+con<lb break="no" ed="#L" n="14"/>tractum ad tale vel tale verum, sed absolute; ita obiectum
+<lb ed="#L" n="15"/>voluntatis est bonum universale, idest non contractum
+<lb ed="#L" n="16"/>ad tale vel tale bonum, sed absolute. Et si huic fuerit
+<lb ed="#L" n="17"/>adiuncta subintellecta differentia inter bonum et verum, ex
+<lb ed="#L" n="18"/>VI Metaphys., scilicet quod verum et falsum sunt in
+<lb ed="#L" n="19"/>anima, bonum autem et malum in rebus; sequitur quod
+<lb ed="#L" n="20"/>in illa re sola erit beatitudo nostra, quae est obiectum
+<lb ed="#L" n="21"/>voluntatis humanae, in qua est bonum absolute. Ac per
+<lb ed="#L" n="22"/>hoc in solo Deo est: quia in ceteris non est bonum nisi
+<lb ed="#L" n="23"/>contractum, Et haec est manifesta intentio litterae.
+</p>
+               <p xml:id="TAcCaj-d1e682-d1e320">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>III, Quae contra obiectum intellectus obiiciuntur de
+<lb ed="#L" n="25"/>limitatione veri, facillime solvuntur, dicendo quod, sicut
+<lb ed="#L" n="26"/>nullum est ens ad quod non possit actus intellectus 
+ter<lb break="no" ed="#L" n="27"/>minari aliquo modo, ita nullum est verum quod ipsum .
+<lb ed="#L" n="28"/>omnino subterfugiat: Deum . namque et omnia attingere
+<lb ed="#L" n="29"/>potest. Sed quia non potest noster intellectus tali modo
+<lb ed="#L" n="30"/>Deum cognoscere, etc., ideo committitur fallacia Figurae
+<lb ed="#L" n="31"/>dictionis, mutando quid in quomodo. Ex impotentia 
+siqui<lb break="no" ed="#L" n="32"/>dem modi cognoscendi provenit quod oportet aliquid 
+la<lb break="no" ed="#L" n="33"/>tere omnem intellectum creatum: et non ex limitatione
+<lb ed="#L" n="34"/>veri obiecti intellectus, quasi tale verum debeat esse 
+obie<lb break="no" ed="#L" n="35"/>ctum. Cuius signum infallibile est quia, quibuscumque
+<lb ed="#L" n="36"/>veris oblatis intellectui, adhuc posset intellectus aliud 
+no<lb break="no" ed="#L" n="37"/>vum verum oblatum cognoscere vel credere: intellectus
+<lb ed="#L" n="38"/>enim non fit minor ex cognitione praecedentium, ut 
+dici<lb break="no" ed="#L" n="39"/>tur III de Anima. Quod impossibile esset, si verum 
+li<lb break="no" ed="#L" n="40"/>mitatum esset adaequatum obiectum intellectus.
+</p>
+               <p xml:id="TAcCaj-d1e682-d1e362">
+                  <lb ed="#L" n="41"/>IV. In responsione ad primum in articulo octavo, vide,
+<lb ed="#L" n="42"/>novitie, Auctoris intentum de illa propositione , 
+Supre<lb break="no" ed="#L" n="43"/>mum infimi attingit infimum supremi : quod intelligitur
+<lb ed="#L" n="44"/>de attinctione secundum proximitatem naturae, quae in 
+si<lb break="no" ed="#L" n="45"/>militudine earum propinqua consistit; et non de ordinati
+<lb ed="#L" n="46"/>in finem attinctione ad finem ultimum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

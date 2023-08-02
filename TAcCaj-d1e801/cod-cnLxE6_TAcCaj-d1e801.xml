@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 25</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 25</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="186"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e801"><!-- TAcCajp2p1-q25 -->
+            <head xml:id="TAcCaj-d1e801-Hd1e99">Quaestio 25</head>
+            <div xml:id="TAcCaj-d1e801-Dd1e101"><!-- caj-p2p1-q25-a1 -->
+               <head xml:id="TAcCaj-d1e801-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e801-d1e106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>CIRCA titulum quaestionis vigesimaequintae, adverte quod
+<lb ed="#L" n="21"/>Conc quaestio est de ordine naturae, non hoc vel
+<lb ed="#L" n="22"/>illo modo, sed simpliciter. Et quoniam in ordine naturae
+<lb ed="#L" n="23"/>applicato ad generabilia, invenitur dupliciter aliquid prius
+<lb ed="#L" n="24"/>vel posterius, scilicet secundum intentionem, vel secundum
+<lb ed="#L" n="25"/>executionem ; ideo in littera utrumque traditur.
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e131">
+                  <lb ed="#L" n="26"/>II. In responsione ad primum primi articuli, adverte
+<lb ed="#L" n="27"/>quod alia est distinctio proprii a proprio, et proprii a 
+com<lb break="no" ed="#L" n="28"/>muni. Commune enim non distinguitur contra proprium
+<lb ed="#L" n="29"/>per aliquod positivum in se, quod non sit in proprio: duo
+<lb ed="#L" n="30"/>autem disparata distinguuntur ab invicem suis positivis 
+dis<lb break="no" ed="#L" n="31"/>tinctivis, quorum alterum unum, alterum reliquum 
+consti<lb break="no" ed="#L" n="32"/>tuit. Unde quia bonum et bonum arduum se habent sicut
+<lb ed="#L" n="33"/>commune et proprium, et non sicut duo propria; ideo in
+<lb ed="#L" n="34"/>littera dicitur quod ratio in oppositum allata, scilicet, 
+Bo<lb break="no" ed="#L" n="35"/>num arduum est supremum bonum, haberet locum si 
+bo<lb break="no" ed="#L" n="36"/>num quod obiectum est concupiscibilis, aliquid oppositum
+<lb ed="#L" n="37"/>diceret, idest si distingueretur contra bonum arduum ut
+<lb ed="#L" n="38"/>quoddam aliud particulare seu proprium bonum; sic enim
+<lb ed="#L" n="39"/>diceret aliquid bono arduo oppositum, suum scilicet 
+pro<lb break="no" ed="#L" n="40"/>prium distinctivum. Tunc enim haberent se sicut duo par-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="41"/>tialia bona, quorum superius procul dubio esset naturaliter
+<lb ed="#L" n="42"/>prius; sicut universaliter apparet in ceteris. Sed quia. se
+<lb ed="#L" n="43"/>habent sicut commune et proprium, ideo, quamvis bonum
+<lb ed="#L" n="44"/>arduum sit quid excellentius bono absolute, est tamen 
+po<lb break="no" ed="#L" n="45"/>sterius: quia illud commune, hoc proprium; illud 
+abso<lb break="no" ed="#L" n="46"/>lute, hoc contractum. Illud enim. dicit bonum commune
+<lb ed="#L" n="47"/>ad bonum in motu et bonum in quiete: hoc tantummodo
+<lb ed="#L" n="48"/>bonum in motu, ut in corpore articuli ostenditur.
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e186">
+                  <lb ed="#L" n="49"/>Cum autem audis obiectum concupiscibilis comparari
+<lb ed="#L" n="50"/>ad obiectum irascibilis ut commune ad proprium, et ad
+<lb ed="#L" n="51"/>plura se extendere, etc.: non intelligas se habere sicut 
+uni<lb break="no" ed="#L" n="52"/>versale et particulare, ut animal et homo, hoc enim falsum
+<lb ed="#L" n="53"/>est; sed scito se habere sicut motus simpliciter, de quo
+<lb ed="#L" n="54"/>est habitus libri Physicorum,.et motus ad ubi, de quo
+<lb ed="#L" n="55"/>est habitus libri de Caelo et Mundo. Bonum enim 
+sensi<lb break="no" ed="#L" n="56"/>bile simpliciter, spectat ad concupiscibilem: bonum autem
+<lb ed="#L" n="57"/>sensibile determinatum ad arduitatem, spectat ad 
+irascibi<lb break="no" ed="#L" n="58"/>lem. — Et sic omnia consonant: scilicet.et distinctio 
+obiecto<lb break="no" ed="#L" n="59"/>rum ac potentiarum, et habitudo communis ad proprium,
+<lb ed="#L" n="60"/>et maior ambitus illius quam huius, ut patet in simili 
+ad<lb break="no" ed="#L" n="61"/>ducto.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e801-Dd1e218"><!-- caj-p2p1-q25-a2 -->
+               <head xml:id="TAcCaj-d1e801-Hd1e221">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e801-d1e223">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="41"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e230">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="42"/>IN secundo articulo, adverte quam incongrue passionum
+<lb ed="#L" n="43"/>notitiam tradiderit Scotus, dicens, in Primo, dist. r, qu. v,
+<lb ed="#L" n="44"/>quod appetitus sensitivi proprie non est amare. Cum enim
+<lb ed="#L" n="45"/>amor sit prima passio appetitus sensitivi, si amare non
+<lb ed="#L" n="46"/>conveniret proprie appetitui sensitivo, ergo nec delectari
+<lb ed="#L" n="47"/>nec timere proprie conveniet. A primo enim reliqua 
+pen<lb break="no" ed="#L" n="48"/>dent, et amorem ipsum reliquae passiones includunt: nam
+<lb ed="#L" n="49"/>delectamur amato, timemus malum amati, desperamus ab
+<lb ed="#L" n="50"/>amato, ulciscimur conturbans amatum. Unde si amatum
+<lb ed="#L" n="51"/>est improprie, reliquae erunt passiones improprie, sicut in
+<lb ed="#L" n="52"/>rebus naturalibus. Et tunc ultra, si passiones sunt 
+imipro<lb break="no" ed="#L" n="53"/>prie in appetitu sensitivo; et, secundum veritatem, sunt 
+mi<lb break="no" ed="#L" n="54"/>nus proprie in appetitu intellectivo; nullibi erunt proprie.
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e263">
+                  <lb ed="#L" n="55"/>IL. In corpore secundi articuli eiusdem quaestionis, 
+no<lb break="no" ed="#L" n="56"/>vitiorum dubium occurrit, quomodo vulgatum est inter
+<lb ed="#L" n="57"/>philosophos quod omnis appetitus est boni, et quod nullus
+<lb ed="#L" n="58"/>operatur aspiciens ad malum: et nunc in littera dicitur
+<lb ed="#L" n="59"/>quod obiecta concupiscibilis sunt bonum et malum.
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e276">
+                  <lb ed="#L" n="60"/>III. Ad hoc.breviter dicitur quod, quia malum non est
+<lb ed="#L" n="61"/>obiectum appetitus ut prosequendum, sed ut fugiendum ;
+<lb ed="#L" n="62"/>et eadem ratione qua bonum appetitur, malum refutatur;
+<lb ed="#L" n="63"/>ideo utrumque verificatur: scilicet et quod utrumque est
+<lb ed="#L" n="64"/>obiectum diversimode, et quod bonum communiter 
+assi<lb break="no" ed="#L" n="65"/>gnatur et divulgatur; quia bonum per se, malum verum
+<lb ed="#L" n="66"/>per accidens, idest per aliud, scilicet bonum, est obiectum.
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e295">
+                  <lb ed="#L" n="67"/>Veruntamen esto cautus in re hac. Dupliciter enim 
+in<lb break="no" ed="#L" n="68"/>venitur accidentalitas in istis: scilicet referendo potentiam
+<lb ed="#L" n="69"/>ad obiectum, et referendo actum ad obiectum. Si 
+conside<lb break="no" ed="#L" n="70"/>retur namque potentia in ordine ad suum per se primo
+<lb ed="#L" n="71"/>obiectum, sic bonum est per se obiectum omnis appetitus,
+<lb ed="#L" n="72"/>malum vero per accidens. Et hoc est quod resonat 
+com<lb break="no" ed="#L" n="73"/>muniter in ore philosophorum. Et ratio assignatur in 
+ar<lb break="no" ed="#L" n="74"/>ticulo sequenti, in responsione ad tertium. — Si vero 
+consi<lb break="no" ed="#L" n="75"/>deretur aliquis specialis actus appetitus in ordine ad suum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="76"/>proprium obiectum, sic et respectu boni et respectu mali,
+<lb ed="#L" n="77"/>invenitur per se et per accidens. Actus enim tendens per
+<lb ed="#L" n="78"/>se in bonum, est per modum prosequentis: et tendens per
+<lb ed="#L" n="79"/>se in malum, est per modum recedentis: bonum enim est
+<lb ed="#L" n="80"/>quod omnia appetunt, malum vero quod omnia fugiunt.
+<lb ed="#L" n="81"/>Unde docet in hoc tractatu Auctor quod desperatio est
+<lb ed="#L" n="82"/>actus appetitus per accidens respectu boni, quia recedit a
+<lb ed="#L" n="83"/>bono; et audacia est actus per accidens respectu mali, quia
+<lb ed="#L" n="84"/>accedit ad malum; timor vero est actus per se respectu
+<lb ed="#L" n="85"/>mali, quia fugit ipsum. Inter speciales ergo actus differentia
+<lb ed="#L" n="86"/>est, quod alii per se, alii per accidens respectu boni vel
+<lb ed="#L" n="87"/>mali sunt: potentia autem ipsa per se solum bonum 
+re<lb break="no" ed="#L" n="88"/>spicit. Et non est hic sermo de ly per accidens ut 
+distin<lb break="no" ed="#L" n="89"/>guitur contra per se, sicut dicimus quod album aedificat
+<lb ed="#L" n="90"/>non per se, sed per accidens: sed ut distinguitur contra
+<lb ed="#L" n="91"/>per aliud, quod stat, esse per se secundo, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e354">
+                  <lb ed="#L" n="92"/>IV. In responsione ad primum eiusdem secundi articuli,
+<lb ed="#L" n="93"/>dubium. occurrit circa illa verba: Znmter omnes passiones
+<lb ed="#L" n="94"/>concupiscibilis, magis est sensibilis concupiscentia. Falsum
+<lb ed="#L" n="95"/>enim hoc videtur, experientia teste: nam tristitia manifeste
+<lb ed="#L" n="96"/>magis sentitur, ut patet in cruciatibus corporis; et 
+delecta<lb break="no" ed="#L" n="97"/>tiones tactum consequentes vehementissime sentiuntur. 
+Con<lb break="no" ed="#L" n="98"/>stat autem has esse passiones concupiscibilis. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e372">
+                  <lb ed="#L" n="99"/>Ad hoc dicitur quod passiones esse magis sensibiles
+<lb ed="#L" n="100"/>contingit dupliciter: primo, ut se tenent ex parte animae;
+<lb ed="#L" n="101"/>secundo, ut se tenent ex parte corporis. Et quod, licet
+<lb ed="#L" n="102"/>secundo modo concupiscentia non sit magis sensibilis, sed
+<lb ed="#L" n="103"/>dolor, et forte delectatio; primo tamen modo 
+concupiscen<lb break="no" ed="#L" n="104"/>tia inter passiones concupiscibilis est maxime sensibilis:
+<lb ed="#L" n="105"/>absque corporali namque coniunctione, experimur 
+concupi<lb break="no" ed="#L" n="106"/>scere magis sensibiliter quam amare, odisse, etc. Et quia
+<lb ed="#L" n="107"/>quod se tenet ex parte animae, est formale in passionibus;
+<lb ed="#L" n="108"/>ideo, de passionibus istis formaliter loquendo, dictum est
+<lb ed="#L" n="109"/>quod concupiscentia est magis sensibilis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e801-Dd1e399"><!-- caj-p2p1-q25-a3 -->
+               <head xml:id="TAcCaj-d1e801-Hd1e402">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e801-d1e404">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="97"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e411">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>IN articulo tertio eiusdem quaestionis, in responsione ad
+<lb ed="#L" n="99"/>condoths dubium occurrit ad hominem. Quia ipse 
+Au<lb break="no" ed="#L" n="100"/>ctor superius, in qu. xxr, art. 2, expresse vult quod arduum
+<lb ed="#L" n="101"/>habet rationem ut in ipsum tendatur, et sic audacia tendit
+<lb ed="#L" n="102"/>in ipsum: hic vero docet oppositum, dicens quod arduum
+<lb ed="#L" n="103"/>non est ratio accedendi vel appetendi, et ideo spes est prior.
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e429">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="104"/>Ad hoc dicitur quod, quia obiectum irascibilis est totum
+<lb ed="#L" n="105"/>contractum , scilicet bonum arduum et malum arduum;
+<lb ed="#L" n="106"/>et harum duarum rationum, scilicet bonitatis et arduitatis,
+<lb ed="#L" n="107"/>magis habet rationem tractivi bonitas quam arduitas, ut
+<lb ed="#L" n="108"/>de se patet: ideo in littera non simpliciter, sed comparative
+<lb ed="#L" n="109"/>interpretandum est quod arduum non est ratio accedendi.
+<pb ed="#L" n="187"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Et hoc subiuncta verba insinuant, scilicet, sed potius bonum.
+<lb ed="#L" n="2"/>In cuius signum, in nulla passione assignatur arduum pro
+<lb ed="#L" n="3"/>ratione accedendi, nisi in audacia: in qua oportuit hoc
+<lb ed="#L" n="4"/>fieri, quia, obiecto eius existente malo arduo, et malum
+<lb ed="#L" n="5"/>est magis repulsivum quam arduum, consequens fuit quod
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>arduum ratio poneretur accessus, Est igitur, si recte 
+con<lb break="no" ed="#L" n="7"/>sideretur, arduum comparatum ad bonum, ratio recessus:
+<lb ed="#L" n="8"/>et comparatum ad malum, ratio accessus. Et propterea
+<lb ed="#L" n="9"/>non est mirum si modo affirmatur aut negatur hoc, modo
+<lb ed="#L" n="10"/>illud.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e801-Dd1e476"><!-- caj-p2p1-q25-a4 -->
+               <head xml:id="TAcCaj-d1e801-Hd1e479">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e801-d1e481">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="88"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e488">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="89"/>IN articulo quarto eiusdem quaestionis, ut resolute scias et
+<lb ed="#L" n="90"/>Endesa primatum illarum quatuor passionum, colligito
+<lb ed="#L" n="91"/>quod passiones primariae exigunt duas conditiones. Prima
+<lb ed="#L" n="92"/>est quod sint per se; idest, nihil per accidens habentes 
+ad<lb break="no" ed="#L" n="93"/>mixtum, tam in se quam. in suis causis. Secunda est quod
+<lb ed="#L" n="94"/>sint ultimae in singulis generibus. Sunt autem, si bene
+<lb ed="#L" n="95"/>distinguitur, quatuor genera passionum: scilicet motus in
+<lb ed="#L" n="96"/>bonum, motus a malo, quies in bono, et inquietudo in
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="97"/>malo. Ultima in primo genere est spes; in secundo, timor;
+<lb ed="#L" n="98"/>in tertio, delectatio; in quarto, tristitia; et omnes sunt per
+<lb ed="#L" n="99"/>se, tam in se quam in suis causis.
+</p>
+               <p xml:id="TAcCaj-d1e801-d1e519">
+                  <lb ed="#L" n="100"/>Et sic cessant omnes obiectiones, specialiter de ira,
+<lb ed="#L" n="101"/>quae est ulterior motus in bonum quam spes: est enim
+<lb ed="#L" n="102"/>post spem. Quia tamen consurgit ex per accidens, 
+sci<lb break="no" ed="#L" n="103"/>licet ex audacia, ut in littera dicitur, ideo primatu 
+pri<lb break="no" ed="#L" n="104"/>vatur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

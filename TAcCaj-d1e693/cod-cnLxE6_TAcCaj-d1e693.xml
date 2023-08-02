@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="37"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e693"><!-- TAcCajp2p1-q4 -->
+            <head xml:id="TAcCaj-d1e693-Hd1e99">Quaestio 4</head>
+            <div xml:id="TAcCaj-d1e693-Dd1e101"><!-- caj-p2p1-q4-a1 -->
+               <head xml:id="TAcCaj-d1e693-Hd1e104">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e693-d1e106">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="79"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e113">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="80"/>IN hoc articulo primo quartae quaestionis, novitiorum 
+du<lb break="no" ed="#L" n="81"/>bium occurrit, quomodo littera salvetur, dicens quod 
+de<lb break="no" ed="#L" n="82"/>lectatio causatur ex hoc quod appetitus requiescit in bono
+<lb ed="#L" n="83"/>adepto; cum, apud Auctorem, delectatio sit quies appetitus,
+<lb ed="#L" n="84"/>ut hic etiam, in responsione ad primum, expresse dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e129">
+                  <cb ed="#L" n="i"/>
+                  <lb ed="#L" n="85"/>Ad hoc dicitur quod, cum constat de certa conclusione:
+<lb ed="#L" n="86"/>verba quae apparent quandoque dissona, pie interpretanda
+<lb ed="#L" n="87"/>sunt. Et sic est sensus litterae huius, quod delectatio 
+cau<lb break="no" ed="#L" n="88"/>satur ex hoc quod appetitus requiescit in bono adepto,
+<lb ed="#L" n="89"/>idest: Delectatio, quae est ipsa actualis quies, causatur ex
+<pb ed="#L" n="38"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>hoc quod appetitus se habet ad bonum adeptum, ut 
+quie<lb break="no" ed="#L" n="2"/>scens ad id in quo est quies. Ex hoc namque quod 
+ap<lb break="no" ed="#L" n="3"/>petitus pervenit ad talem statum quod bonum adeptum
+<lb ed="#L" n="4"/>sit, sequitur quies, quae est delectatio. Littera autem 
+cir<lb break="no" ed="#L" n="5"/>
+                  <lb ed="#L" n="6"/>cumloquitur ly esse in tali statu, nomine requiescentis,
+<lb ed="#L" n="7"/>ea ratione quia quies significat esse in termino. Et ex hoc
+<lb ed="#L" n="8"/>quod appetitus est ut in termino sui motus, adepto bono,
+<lb ed="#L" n="9"/>constat sequi delectationem.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e693-Dd1e169"><!-- caj-p2p1-q4-a2 -->
+               <head xml:id="TAcCaj-d1e693-Hd1e172">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e693-d1e174">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="76"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e181">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="77"/>IN secundo articulo, circa responsionem ad secundum,
+<lb ed="#L" n="78"/>dubia occurrunt et de ratione reddita differentiae inter 
+or<lb break="no" ed="#L" n="79"/>dinem appetitus sensitivi et intellectivi, et de consonantia
+<lb ed="#L" n="80"/>dictorum. Superius enim, in qu. rr, art. 6, ad 1, dixit quod
+<lb ed="#L" n="81"/>delectatio propter se, et non propter aliud appetitur, si ly
+<lb ed="#L" n="82"/>propter dicat causam finalem: hic vero et alibi ex 
+propo<lb break="no" ed="#L" n="83"/>sito, ut in III Contra Gent., cap. xxvr, vult quod 
+delectatio<lb break="no" ed="#L" n="84"/>nes sunt propter operationes.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e203">
+                  <lb ed="#L" n="85"/>Non consonat quoque quod naturalis ordo 
+appetibi<lb break="no" ed="#L" n="86"/>lium ab appetitu sensitivo, sit contrarius ordini statuto ab
+<lb ed="#L" n="87"/>Institutore naturae. Nam absque errore res naturales 
+di<lb break="no" ed="#L" n="88"/>riguntur. Si ergo Institutor naturae delectationes sensibiles
+<lb ed="#L" n="89"/>instituit propter operationes ut finem, ergo ab appetitu
+<lb ed="#L" n="90"/>sensitivo naturaliter appetenda est, et consequenter 
+appe<lb break="no" ed="#L" n="91"/>titur, delectatio sensibilis propter operationem, et non e
+<lb ed="#L" n="92"/>converso.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e223">
+                  <lb ed="#L" n="93"/>Difficile quoque est videre quomodo ex hoc quod ap-
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="94"/>prehensio sensitiva non attingit ad communem rationem
+<lb ed="#L" n="95"/>boni, sed particularis boni quod est delectabile, sequitur,
+<lb ed="#L" n="96"/>et sicut effectus ex causa, quod appetitus sensitivus feratur
+<lb ed="#L" n="97"/>in operationem propter delectationem. Et quia falsum 
+vi<lb break="no" ed="#L" n="98"/>detur assumptum: quoniam cognitio sensitiva extendit se
+<lb ed="#L" n="99"/>ad bonum non delectabile secundum sensum, ut patet cum
+<lb ed="#L" n="100"/>hirundo colligit paleas et lutum pro nido, non quia 
+de<lb break="no" ed="#L" n="101"/>lectet eam tactus aut visus paleae aut luti, sed propter 
+uti<lb break="no" ed="#L" n="102"/>litatem. - Et quia non solum causalitas, sed connexio medii
+<lb ed="#L" n="103"/>cum conclusione non apparet.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e253">
+                  <lb ed="#L" n="104"/>II. Ad evidentiam harum quatuor dubitationum, 
+scien<lb break="no" ed="#L" n="105"/>dum est primo, quod delectatio et operatio, seu bonum
+<lb ed="#L" n="106"/>coniunctum causans delectationem, de quo est delectatio,
+<lb ed="#L" n="107"/>dupliciter possunt considerari : primo, secundum se 
+abso<lb break="no" ed="#L" n="108"/>lute; secundo, in respectu ad invicem. Et hoc dupliciter:
+<lb ed="#L" n="109"/>vel scilicet ut unum appetibile formaliter; vel ut multa 
+ap<lb break="no" ed="#L" n="110"/>petibilia formaliter. Si absolute considerentur, utrumque
+<pb ed="#L" n="39"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>eorum est propter se appetibile, ita quod neutrum propter
+<lb ed="#L" n="2"/>alterum. ut finem. Et ratio est, quia utrumque habet in se
+<lb ed="#L" n="3"/>unde finiat simpliciter appetituum motum, absque ordine
+<lb ed="#L" n="4"/>ad alterum ut finem: diviso enim bono trifariam in 
+ho<lb break="no" ed="#L" n="5"/>nestum, delectabile et utile, solum utile secundum se est
+<lb ed="#L" n="6"/>propter aliud ut finem. — Et hoc intendebat Auctor in qu. rt
+<lb ed="#L" n="7"/>superius, ubi dixit delectationem appeti non propter aliud
+<lb ed="#L" n="8"/>ut finem; et Aristoteles in X Ethic., deridens 
+quaeren<lb break="no" ed="#L" n="9"/>tem propter quid quis delectatur.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e295">
+                  <lb ed="#L" n="10"/>Si autem. sumuntur haec duo ut unum appetibile 
+for<lb break="no" ed="#L" n="11"/>maliter, sic non est quaestio an hoc propter illud, aut e
+<lb ed="#L" n="12"/>converso: sed totum appetitur sub ratione illius quod 
+for<lb break="no" ed="#L" n="13"/>male est. Et hoc, ut patebit, accidit in appetitu sensitivo.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e306">
+                  <lb ed="#L" n="14"/>Si vero comparentur ad invicem, aut ex parte 
+appe<lb break="no" ed="#L" n="15"/>tibilis: et tunc delectatio est propter operationem. Quia
+<lb ed="#L" n="16"/>maius bonum est honestum quam delectabile; et, ut diffuse
+<lb ed="#L" n="17"/>probatur in praedicto loco Contra Gent., et hic 
+aliquali<lb break="no" ed="#L" n="18"/>ter tangitur, natura apposuit delectationes propter 
+opera<lb break="no" ed="#L" n="19"/>tiones ut finem. Et hoc intendit hic Auctor, et in praedicto
+<lb ed="#L" n="20"/>libro. - Aut ex parte appetentis. Et sic, si appetitus est 
+in<lb break="no" ed="#L" n="21"/>ordinatus, non est sollicitandum de ordine. Si autem est
+<lb ed="#L" n="22"/>ordinatus, tunc videtur secundum litteram, quod appetitus
+<lb ed="#L" n="23"/>sensitivus tendit in operationes propter delectationes, 
+in<lb break="no" ed="#L" n="24"/>tellectivus autem e converso appetit delectationes propter
+<lb ed="#L" n="25"/>operationes. Sed quid de hoc sentiendum sit, in hac 
+dispu<lb break="no" ed="#L" n="26"/>tatione dicetur. - Et ex his patet solutio primi dubii.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e337">
+                  <lb ed="#L" n="27"/>III. Scito secundo, quod de appetitu sensitivo. duplex
+<lb ed="#L" n="28"/>est dicendi modus. Potest enim dici quod appetitus 
+sen<lb break="no" ed="#L" n="29"/>sitivus appetit bonum sensibile ut unum appetibile, et 
+de<lb break="no" ed="#L" n="30"/>lectationem consequentem ut aliud appetibile. Et potest
+<lb ed="#L" n="31"/>dici quod appetitus sensitivus appetit quidem utrumque
+<lb ed="#L" n="32"/>horum, sed sub ratione unius appetibilis, scilicet boni 
+de<lb break="no" ed="#L" n="33"/>lectabilis. - Et si haec secunda via sustinetur, facile est 
+sol<lb break="no" ed="#L" n="34"/>vere secundum dubium, dicendo quod appetitus sensitivus
+<lb ed="#L" n="35"/>non appetit operationes propter delectationes, ut unum 
+ap<lb break="no" ed="#L" n="36"/>petibile propter aliud finaliter: sed operationes propter 
+de<lb break="no" ed="#L" n="37"/>lectationes formaliter, ita quod delectatio est ratio formalis
+<lb ed="#L" n="38"/>quod operatio sit finis appetitus sensitivi; sicut accidit cum
+<lb ed="#L" n="39"/>aliquis, secundum appetitum intellectivum, recte desiderat
+<lb ed="#L" n="40"/>aliquid solum ut delectabile, quaerens delectationem ut
+<lb ed="#L" n="41"/>medicinam. Et secundum hoc, appetitus sensitivus non 
+ten<lb break="no" ed="#L" n="42"/>dit in appetibilia ordine contrario naturali ordini. Quoniam
+<lb ed="#L" n="43"/>etsi naturalis ordo diligat delectationes propter 
+operatio<lb break="no" ed="#L" n="44"/>nes finaliter, non prohibet tamen quin operationes appeti
+<lb ed="#L" n="45"/>possint sub ratione delectabilis, ut unum appetibile, ab eo
+<lb ed="#L" n="46"/>qui nullum natum est appetere finem nisi bonum 
+dele<lb break="no" ed="#L" n="47"/>ctabile.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e385">
+                  <lb ed="#L" n="48"/>Si vero sustineatur prima via, tunc nulla apparet via
+<lb ed="#L" n="49"/>evadendi, nisi dicendo quod, licet secundum se haec sint
+<lb ed="#L" n="50"/>sic ordinata, tamen in ordine ad appetitum sensitivum
+<lb ed="#L" n="51"/>praepostere se habent: sicut, licet substantia sit secundum
+<lb ed="#L" n="52"/>se prius cognita accidente, tamen in ordine ad 
+cognitio<lb break="no" ed="#L" n="53"/>nem nostram praepostere se habent. Sed tunc oportet 
+red<lb break="no" ed="#L" n="54"/>dere causam huius praeposteri ordinis in appetitu sensitivo,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="55"/>sicut patet causa in exemplo dato de cognitione nostra.
+<lb ed="#L" n="56"/>Et non apparet causa, nisi dicatur quod delectabile: est
+<lb ed="#L" n="57"/>magis conveniens appetitui sensitivo, quam coniunctum
+<lb ed="#L" n="58"/>bonum de quo est delectatio. Sed hoc nihil est: hoc enim
+<lb ed="#L" n="59"/>est quod quaeritur, quare delectabile tenet primum locum
+<lb ed="#L" n="60"/>respectu appetitus sensitivi, et secundum naturae ordinem
+<lb ed="#L" n="61"/>non debetur ei primus locus.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e420">
+                  <lb ed="#L" n="62"/>IV. Et quamvis littera hanc primam viam sonet, dum
+<lb ed="#L" n="63"/>alium ordinem inter operationem et delectationem dicit
+<lb ed="#L" n="64"/>respectu appetitus sensitivi et simpliciter; mihi tamen 
+vi<lb break="no" ed="#L" n="65"/>detur quod secunda via sola sit intenta in littera. Et 
+mo<lb break="no" ed="#L" n="66"/>veor ad hoc ex assignata ratione in littera, quia scilicet
+<lb ed="#L" n="67"/>sensitiva cognitio non se extendit ad communem boni 
+ra<lb break="no" ed="#L" n="68"/>tionem, sed delectabilis tantum. Ita quod, licet sensitiva
+<lb ed="#L" n="69"/>pars appetat appetitu naturali operationem ut unum 
+appe<lb break="no" ed="#L" n="70"/>tibile, et delectationem ut aliud appetibile, quia ambo sunt
+<lb ed="#L" n="71"/>secundum se bona illi convenientia; et nihilominus etiam
+<lb ed="#L" n="72"/>appetat delectationem propter operationem, sicut grave
+<lb ed="#L" n="73"/>quietem deorsum. propter esse deorsum: appetitu tamen
+<lb ed="#L" n="74"/>animali, qui est actus elicitus, et non fertur nisi in 
+appre<lb break="no" ed="#L" n="75"/>hensum sensitive ut sic, non appetit operationes et 
+delecta<lb break="no" ed="#L" n="76"/>tiones ut duo appetibilia, sed ut unum formaliter, scilicet
+<lb ed="#L" n="77"/>operationes ut delectabiles; quia sensitiva cognitio, etsi
+<lb ed="#L" n="78"/>extendat se ad operationes, ut patet in III de Anima, non
+<lb ed="#L" n="79"/>tamen extendit se ad eas sub ratione boni, nisi delectabilis.
+<lb ed="#L" n="80"/>Et sic appetere operationes propter delectationes formaliter,
+<lb ed="#L" n="81"/>vocatur in littera appetitus operationum propter 
+delectatio<lb break="no" ed="#L" n="82"/>nes finaliter, non quia operatio ordinetur in delectationem,
+<lb ed="#L" n="83"/>sed quia non appetitur nisi sub ratione illius. Quod est
+<lb ed="#L" n="84"/>appeti propter illam finaliter et negative, quia non propter
+<lb ed="#L" n="85"/>alium finem; et positive, tanquam materia finis, non 
+tan<lb break="no" ed="#L" n="86"/>quam ordinata materialiter ad finem. - Et ex his patet 
+so<lb break="no" ed="#L" n="87"/>utio secundi dubii.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e480">
+                  <lb ed="#L" n="88"/>V. Scito tertio quod, cum bonum dividatur in bonum
+<lb ed="#L" n="89"/>per se et propter aliud; et propter se distinguatur in 
+de<lb break="no" ed="#L" n="90"/>lectabile et honestum: cognoscere bonum secundum 
+com<lb break="no" ed="#L" n="91"/>munem rationem boni, est apprehendere bonum secundum
+<lb ed="#L" n="92"/>omnes sui differentias. Sensitiva autem cognitio, ut sic, quia
+<lb ed="#L" n="93"/>non propter se sed propter salutem data est, ut patet in de
+<lb ed="#L" n="94"/>Sensu et Sensato, solum ad bonum propter aliud, idest
+<lb ed="#L" n="95"/>utile, et propter se ut delectabile, se extendit. Non enim
+<lb ed="#L" n="96"/>appetunt animalia, animali appetitu, videre propter hoc 
+bo<lb break="no" ed="#L" n="97"/>num quod est visio, aut odorare propter bonum quod est
+<lb ed="#L" n="98"/>odorare: sed inquantum utilia aut delectabilia sunt. In cuius
+<lb ed="#L" n="99"/>signum, non pugnant animalia nisi propter delectabilia, 
+ira<lb break="no" ed="#L" n="100"/>scibili testimonium reddente de fine concupiscibilis.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e511">
+                  <lb ed="#L" n="101"/>Et ex his patet solutio ultimorum dubiorum. Iam enim
+<lb ed="#L" n="102"/>patet et quod sensus cognitio non se. extendit nisi ad 
+de<lb break="no" ed="#L" n="103"/>lectabile ut finem: ad utile enim tendit propter delectabile. —
+<lb ed="#L" n="104"/>Et quomodo ex hoc ipso manifeste sequitur quod 
+operatio<lb break="no" ed="#L" n="105"/>nes appetit ut delectabiles. Et propter quid hoc est: quia 
+sci<lb break="no" ed="#L" n="106"/>licet sensitivae cognitionis gradus primus existens 
+delecta<lb break="no" ed="#L" n="107"/>bile non transcendit bonum, ut finem cognitum, quod est
+<lb ed="#L" n="108"/>obiectum appetitus animalis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e693-Dd1e532"><!-- caj-p2p1-q4-a3 -->
+               <head xml:id="TAcCaj-d1e693-Hd1e535">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e693-d1e537">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="61"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e544">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>In hoc articulo tertio, adverte, novitie, primo, in corpore
+<lb ed="#L" n="63"/>articuli, quod per realem habitudinem amantis ad 
+ama<lb break="no" ed="#L" n="64"/>tum non intelligitur habitudo realis, ut distinguitur contra
+<lb ed="#L" n="65"/>habitudinem rationis: quoniam, cum sit ad impossibile 
+ha<lb break="no" ed="#L" n="66"/>beri quandoque, ut in littera dicitur, et ad futurum, non
+<lb ed="#L" n="67"/>potest esse realis relatio. Sed sumitur realis, ut distinguitur
+<lb ed="#L" n="68"/>contra affectionalem : est namque amatum in amante per
+<lb ed="#L" n="69"/>amorem ipsum secundum affectum, et desideratur ut sit
+<lb ed="#L" n="70"/>iunctum eidem secundum rem. Unde habitudo de qua est
+<lb ed="#L" n="71"/>sermo, dicitur realis denominata a termino: ita quod habi-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="72"/>tudo realis nihil aliud sonat, in proposito, quam 
+habitudi<lb break="no" ed="#L" n="73"/>nem ad coniunctionem secundum rem.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e577">
+                  <lb ed="#L" n="74"/>Secundo, quod ex responsione ad ultimum non habes
+<lb ed="#L" n="75"/>quod comprehensio spectat ad intellectum: sed quod nullam
+<lb ed="#L" n="76"/>operationem addit supra visionem, sed solam relationem
+<lb ed="#L" n="77"/>resultantem in voluntate ex visione quae est in intellectu.
+<lb ed="#L" n="78"/>Visio enim, ponens Deum in esse praesentiali, facit per hoc
+<lb ed="#L" n="79"/>alterum extremum huius relationis: est enim visio velut
+<lb ed="#L" n="80"/>unio rei tenendae cum eo quod tenebit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e693-Dd1e596"><!-- caj-p2p1-q4-a4 -->
+               <head xml:id="TAcCaj-d1e693-Hd1e599">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e693-d1e601">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e608">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>In articulo quarto, pro quanto probatur in corpore quod
+<lb ed="#L" n="55"/>ad beatitudinem concomitanter necesse exigitur rectitudo
+<lb ed="#L" n="56"/>voluntatis, quia videtur ipsa essentia bonitatis, etc., adverte
+<lb ed="#L" n="57"/>tria: primo, rationem ipsam; secundo, eius efficaciam;
+<lb ed="#L" n="58"/>tertio, aliorum defectum.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e624">
+                  <lb ed="#L" n="59"/>Quoad primum, ratio consistit in hoc. Ipsa essentia 
+bo<lb break="no" ed="#L" n="60"/>nitatis ita se habet ad videntem Deum, sicut ratio boni
+<lb ed="#L" n="61"/>ad creaturam rationalem: sed creatura rationalis non potest
+<lb ed="#L" n="62"/>divertere a ratione boni: ergo videns Deum non potest
+<lb ed="#L" n="63"/>divertere ab essentia bonitatis. Sed hoc est habere 
+volun<lb break="no" ed="#L" n="64"/>tatem rectam. Ergo. — Prima propositio fundatur super hoc,
+<lb ed="#L" n="65"/>quod ipsa bonitatis essentia in se quidem continet omnem
+<lb ed="#L" n="66"/>boni rationem longe excellentius quam ratio boni. Ex quo
+<lb ed="#L" n="67"/>ponitur clare actualiterque visa etc., oportet ut non minoris
+<lb ed="#L" n="68"/>sit efficaciae in continendo ac circumdando omnem 
+volun<lb break="no" ed="#L" n="69"/>tatis motum, quam ratio boni. — Secunda vero patet 
+in<lb break="no" ed="#L" n="70"/>ductive. Quia, cum actus voluntatis sit velle aut nolle, et
+<lb ed="#L" n="71"/>nolle aliquid includat velle sui oppositi; et velle non possit
+<lb ed="#L" n="72"/>esse nisi respectu boni in re vel in apparentia, ut 
+expe<lb break="no" ed="#L" n="73"/>rimur in nobis; consequens est quod voluntas non possit
+<lb ed="#L" n="74"/>aliquo pacto resilire a boni ratione.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e661">
+                  <lb ed="#L" n="75"/>II. Quoad efficaciam autem rationis, scito quod sat est
+<lb ed="#L" n="76"/>huic rationi ad propositum, quod voluntas necessitetur ab
+<lb ed="#L" n="77"/>essentia bonitatis visa, quoad communem specificationem
+<lb ed="#L" n="78"/>actus, quae tamen constituit rectitudinem in actibus 
+vo<lb break="no" ed="#L" n="79"/>lIuntatis. Intendit namque littera quod, sicut voluntas omnis
+<lb ed="#L" n="80"/>a boni ratione necessitatur quoad specificationem 
+commu<lb break="no" ed="#L" n="81"/>nem actus, quia omnis voluntas tendit in bonum in re
+<lb ed="#L" n="82"/>vel in apparentia, si aliquid vult; ita voluntas videntis Deum,
+<lb ed="#L" n="83"/>si quid vult, oportet quod velit ratione essentiae bonitatis
+<lb ed="#L" n="84"/>visae, quoniam est ei ratio omnia volendi et nolendi. Et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="85"/>sicut voluntas omnis libere potest velle quodcumque 
+obie<lb break="no" ed="#L" n="86"/>ctum in specie, sub boni tamen in communi ratione; ita
+<lb ed="#L" n="87"/>voluntas videntis Deum, sub ratione tamen bonitatis 
+divi<lb break="no" ed="#L" n="88"/>nae. In hoc autem est differentia, quod communis ratio
+<lb ed="#L" n="89"/>boni, ex hoc quod est ratio voluntatis, non rectificat eam:
+<lb ed="#L" n="90"/>quoniam potest voluntas sub illa etiam apparens bonum
+<lb ed="#L" n="91"/>appetere. Ipsa vero bonitatis essentia, ex hoc ipso quod
+<lb ed="#L" n="92"/>est ratio voluntatis, est rectificatio eius: recte enim velle
+<lb ed="#L" n="93"/>nihil aliud est quam secundum Deum velle. Et sic patet
+<lb ed="#L" n="94"/>vis rationis,
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e710">
+                  <lb ed="#L" n="95"/>III. Ex qua tertio habetur, et sufficienter, quod beatus
+<lb ed="#L" n="96"/>non potest peccare, non solum in sensu composito et 
+pro<lb break="no" ed="#L" n="97"/>pter causam extrinsecam, idest Deum perpetuo 
+rectifica<lb break="no" ed="#L" n="98"/>turum voluntatem beati: sed propter intrinsecam causam,
+<lb ed="#L" n="99"/>ipsam scilicet voluntatis naturam, jpproximato sibi sic,
+<lb ed="#L" n="100"/>idest per actualem visionem, tali obiecto, scilicet bonitate
+<lb ed="#L" n="101"/>per essentiam. Unde vitanda est hic Scoti phantasia, in 
+Quar<lb break="no" ed="#L" n="102"/>to, dist, xrix, quaest. vr, tenentis quod ab extrinseco tantum
+<lb ed="#L" n="103"/>beatus est impeccabilis. Nec tamen respondet huic rationi,
+<lb ed="#L" n="104"/>nec arguit: sed remittit se ad I Sent., cuius argumenta in
+<lb ed="#L" n="105"/>I libro, qu. rxxxu, art. 2, soluta sunt. Et si ex verbis eius
+<lb ed="#L" n="106"/>responderetur huic rationi quod, quantumcumque 
+videa<lb break="no" ed="#L" n="107"/>tur bonitas Dei, adhuc voluntas remanet libera: iam patet
+<lb ed="#L" n="108"/>quod concessio huius consequentis nihil obstat proposito.
+<lb ed="#L" n="109"/>Quoniam, ut iam dictum est, sat est impeccabilitati quod
+<lb ed="#L" n="110"/>voluntas, si vult, velit autem quidquid vult, oporteat quod
+<lb ed="#L" n="111"/>velit ratione bonitatis divinae: sicut modo si vult, oportet
+<lb ed="#L" n="112"/>quod velit ratione boni, Huiusmodi enim necessitates nihil
+<lb ed="#L" n="113"/>obstant libertati, quamvis prima auferat libertatem peccandi;
+<lb ed="#L" n="114"/>quae tamen non est libertas, nec libertatis pars, sed libertas
+<lb ed="#L" n="115"/>peccandi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e693-Dd1e760"><!-- caj-p2p1-q4-a5 -->
+               <head xml:id="TAcCaj-d1e693-Hd1e763">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e693-d1e765">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e772">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>In articulo quinto, in responsione ad quintum, occurrit 
+du<lb break="no" ed="#L" n="67"/>bium ad hominem, et simpliciter. Ad hominem quidem,
+<lb ed="#L" n="68"/>quia s. Thomas in IV Sent., dist. xuix, qu. r, art. 4, qu' 1,
+<lb ed="#L" n="69"/>expresse beatitudinem animae augeri etiam intensive, 
+resum<lb break="no" ed="#L" n="70"/>pto corpore, sustinet: cuius oppositum hic docet.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e788">
+                  <lb ed="#L" n="71"/>Simpliciter autem, quia ratio ad illud ducit, scilicet:
+<lb ed="#L" n="72"/>Anima, resumpto corpore, erit perfectior in se secundum
+<lb ed="#L" n="73"/>maturam. Ergo operatio eius erit perfectior. Ergo et 
+beati<lb break="no" ed="#L" n="74"/>tudo erit in se perfectior. Ergo non solum extensive. — Et
+<lb ed="#L" n="75"/>augetur ex hac ratione dubium, quia in corpore huius 
+ar<lb break="no" ed="#L" n="76"/>ticuli assumitur haec ratio, et concluditur operatio in qua
+<lb ed="#L" n="77"/>consistit beatitudo, perfectior.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e806">
+                  <lb ed="#L" n="78"/>II. Ad hoc simul dicendum est simpliciter, et secundum
+<lb ed="#L" n="79"/>hominem. Sciendum est igitur, ex praesenti articulo, quod
+<lb ed="#L" n="80"/>tripliciter intelligi potest animam separatam impediri ex
+<lb ed="#L" n="81"/>appetitu corporis a perfecta beatitudine. Primo, per modum
+<lb ed="#L" n="82"/>contrarietatis: ita quod, sicut videns corporaliter impeditur
+<lb ed="#L" n="83"/>propter dolorem pedis, ita anima séparata propter affectum
+<lb ed="#L" n="84"/>corporis distrahatur aliqualiter a perfecta visione Dei. — Et
+<lb ed="#L" n="85"/>hoc in littera reprobatur.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e827">
+                  <lb ed="#L" n="86"/>Secundo, per modum defectus intensivi: ita quod ex
+<lb ed="#L" n="87"/>hoc quod anima separata deficit in perfectione suae 
+natu<lb break="no" ed="#L" n="88"/>rae, deficiat etiam in attentione suae operationis, defectu
+<lb ed="#L" n="89"/>in essendo causante defectum in operando. Et quoniam,
+<lb ed="#L" n="90"/>ceteris paribus, operatio attentior est magis intensa, et 
+mi<lb break="no" ed="#L" n="91"/>nus habens intentionis est remissior, ut patet in visu et
+<lb ed="#L" n="92"/>auditu; ex hoc sequitur quod anima beata, resumpto 
+cor<lb break="no" ed="#L" n="93"/>pore, est beatior intensive, non ex parte obiecti aut luminis
+<lb ed="#L" n="94"/>gloriae, sed ex parte attentioris visionis consequente per-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>fectionem animae in essendo. —- Et hanc viam tanquam
+<lb ed="#L" n="96"/>probabilem sustineri posse dixit Auctor in IV .Sent.: unde
+<lb ed="#L" n="97"/>ibi, inchoans huiusmodi intentionem, dicit: Potest etiam
+<lb ed="#L" n="98"/>dici quod etiam beatitudo intensive etc. Verum hanc 
+opi<lb break="no" ed="#L" n="99"/>nionem in hoc loco ut falsam negavit, ipsaque negatione
+<lb ed="#L" n="100"/>ex sua officina illam haberi minime voluit. Et merito, ut
+<lb ed="#L" n="101"/>patebit. f
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e866">
+                  <lb ed="#L" n="102"/>Tertio, per modum defectus extensivi: ita quod ex hoc
+<lb ed="#L" n="103"/>quod anima separata deficit in perfectione extensiva suae
+<lb ed="#L" n="104"/>naturae, dum non se extendit ad corpus et integritatem
+<lb ed="#L" n="105"/>humanae naturae, ad quae nata est se extendere, et pertinet
+<lb ed="#L" n="106"/>hoc ad perfectionem eius, quoniam haec ipsius natura 
+re<lb break="no" ed="#L" n="107"/>quirit; deficiat quoque in perfectione extensiva suae 
+ope<lb break="no" ed="#L" n="108"/>rationis qua beatur. Pertinet enim ad perfectionem 
+opera<lb break="no" ed="#L" n="109"/>tionis beantis animam, quod ex ipsa redundet beatitudo in
+<lb ed="#L" n="110"/>corpus; ut Augustinus dicit in epistola ad Dioscorum, Tam
+<lb ed="#L" n="111"/>potenti natura Deus fecit animam etc., ut habes in 
+arti<lb break="no" ed="#L" n="112"/>culo sequenti. - Et haec est doctrina tradita in hoc articulo.
+<lb ed="#L" n="113"/>Et rationabiliter: quoniam defectus perfectionis in anima
+<lb ed="#L" n="114"/>separata non est defectus perfectionis intensivae, quoniam
+<lb ed="#L" n="115"/>haec anima non suscipit magis et minus secundum 
+sub<lb break="no" ed="#L" n="116"/>stantiam ; sed est defectus perfectionis extensivae. 
+Consen<lb break="no" ed="#L" n="117"/>taneum autem est ut defectus animae defectum operationis,
+<lb ed="#L" n="118"/>et extensivus extensivum causet, et non intensivum.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e905">
+                  <lb ed="#L" n="119"/>III. Ad rationem ergo in oppositum dicitur quod est
+<lb ed="#L" n="120"/>ibi sophisma Consequentis, a magis perfecta operatione ad
+<lb ed="#L" n="121"/>magis intensam descendendo. Perfectum enim communius
+<lb ed="#L" n="122"/>est quam intensum: quoniam, ut patet in V Metaphys.,
+<lb ed="#L" n="123"/>est id cui nihil deest de requisitis ad ipsum ; et consequen-
+<pb ed="#L" n="44"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ter penes accessum cuiuscumque requisiti, operatio seu res
+<lb ed="#L" n="2"/>perfectior est. Intensior autem, non nisi penes augmentum
+<lb ed="#L" n="3"/>intrinsecum, etc. Et per haec omnia clara remanent.
+</p>
+               <p xml:id="TAcCaj-d1e693-d1e929">
+                  <lb ed="#L" n="4"/>IV. In reliquis autem huius quaestionis tribus articulis,
+<lb ed="#L" n="5"/>nihil scribendum occurrit, nisi quod in ultimo articulo, ad
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>primum, gloria essentialis beatitudinis non est intelligenda
+<lb ed="#L" n="7"/>intrinsece, tanquam de essentia beatitudinis; sed tanquam
+<lb ed="#L" n="8"/>causa essentialis illius. Quoniam ex hoc quod Deus 
+com<lb break="no" ed="#L" n="9"/>mendat hunc tali dignum gradu, beatus fit et est: scientia
+<lb ed="#L" n="10"/>namque Dei, cum laude, causa est perfectiva rerum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
