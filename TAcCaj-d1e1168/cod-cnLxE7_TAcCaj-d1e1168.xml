@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 96</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 96</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="183"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1168"><!-- TAcCajp2p1-q96 -->
+            <head xml:id="TAcCaj-d1e1168-Hd1e101">Quaestio 96</head>
+            <div xml:id="TAcCaj-d1e1168-Dd1e103"><!-- caj-p2p1-q96-a3 -->
+               <head xml:id="TAcCaj-d1e1168-Hd1e106">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1168-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="61"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="62"/>DE articulis primo, secundo et tertio nonagesimaesextae 
+quae<lb break="no" ed="#L" n="63"/>stionis, hoc notandum occurrit primo, quod cum in 
+se<lb break="no" ed="#L" n="64"/>cundo articulo concluditur negativa de prohibitione omnium
+<lb ed="#L" n="65"/>vitiorum, intelligitur de omnibus vitiis secundum totam suam
+<lb ed="#L" n="66"/>latitudinem, idest omnes eorum actus; et non de omnibus
+<lb ed="#L" n="67"/>vitiis, idest habitibus vitiosis: ut patet ex responsione ad
+<lb ed="#L" n="68"/>primum in articulo tertio, ubi dicitur quod prohibentur
+<lb ed="#L" n="69"/>omnia vitia, sed non secundum omnes actus eorum.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e137">
+                  <lb ed="#L" n="70"/>II. In articulo tertio specialiter occurrit dubium de illa
+<lb ed="#L" n="71"/>propositione: Omnia obiecta virtutum referri possunt ad
+<lb ed="#L" n="72"/>bonum privatum alicuius personae, vel ad bonum commune
+<lb ed="#L" n="73"/>multitudinis. Nam obiectum supremae virtutis, in cuius
+<lb ed="#L" n="74"/>attinctione consistit felicitas, non potest referri ad bonum
+<lb ed="#L" n="75"/>privatum aut commune, quia est superioris naturae, ut
+<lb ed="#L" n="76"/>patet in X Ethic. 
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e155">
+                  <lb ed="#L" n="77"/>III. Ad hoc dupliciter dicitur. Primo, quod Auctor non
+<lb ed="#L" n="78"/>loquitur de omnibus virtutibus, sed illis quorum opposita
+<lb ed="#L" n="79"/>sunt vitia: ut patet in toto processu articuli. Virtutes autem
+<lb ed="#L" n="80"/>intellectuales speculativae, de quibus fit obiectio, non 
+oppo<lb break="no" ed="#L" n="81"/>nuntur vitiis, sed ignorantiae pravae dispositionis. — Sed haec
+<lb ed="#L" n="82"/>responsio dissonat ab universali simpliciter, ut in littera fit:
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="83"/>et a calce corporis articuli, ubi dicitur quod a legislatore
+<lb ed="#L" n="84"/>ordinantur pertinentia ad bonam disciplinam, per quam
+<lb ed="#L" n="85"/>cives informantur ut commune bonum iustitiae et pacis
+<lb ed="#L" n="86"/>conservent; constat enim non nihil ad haec conferre 
+disci<lb break="no" ed="#L" n="87"/>plinam speculativam, licet mediate.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e185">
+                  <lb ed="#L" n="88"/>IV. Secundo ergo dicitur quod obiecta virtutum possunt
+<lb ed="#L" n="89"/>dupliciter sumi. Primo, secundum se: et sic falsum est
+<lb ed="#L" n="90"/>quod possunt recte referri in bonum privatum aut 
+publi<lb break="no" ed="#L" n="91"/>cum. - Secundo, secundum actus quibus homo attingit illa.
+<lb ed="#L" n="92"/>Et sic nihil prohibet omnium virtutum obiecta ad. 
+priva<lb break="no" ed="#L" n="93"/>tum vel publicum bonum recte referri posse. Nam licet
+<lb ed="#L" n="94"/>Deus gloriosus non sit referibilis recte in meum vel 
+cuius<lb break="no" ed="#L" n="95"/>que creaturae bonum, actus tamen quibus contemplamur
+<lb ed="#L" n="96"/>illum, in nostrum bonum recte referuntur et secundum se,
+<lb ed="#L" n="97"/>et secundum utilitates consequentes. Et hoc sufficit 
+prae<lb break="no" ed="#L" n="98"/>senti intentioni ad concludendum quod lex humana de
+<lb ed="#L" n="99"/>actibus omnium virtutum intellectualium et moralium 
+dis<lb break="no" ed="#L" n="100"/>ponere potest. Et disponit de speculativa sapientia, dum
+<lb ed="#L" n="101"/>homines aliquos illi vacare iubet, ut, sapientes facti, etiam
+<lb ed="#L" n="102"/>ad minora iudicanda potentiores sint, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1168-Dd1e221"><!-- caj-p2p1-q96-a4 -->
+               <head xml:id="TAcCaj-d1e1168-Hd1e224">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1168-d1e226">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="93"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e233">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>IN articulo quarto eiusdem quaestionis, adverte diligenter,
+<lb ed="#L" n="95"/>ut scias applicare conditiones legis iustae vel iniustae ad
+<lb ed="#L" n="96"/>particulares leges. Quia inde multos casus conscientiae in
+<lb ed="#L" n="97"/>gabellis et gravaminibus, et huiusmodi publicis, clarificabis:
+<lb ed="#L" n="98"/>praesertim ex fine, et aequalitate proportionali, quàm 
+te<lb break="no" ed="#L" n="99"/>netur servare iustitia distributiva.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e251">
+                  <lb ed="#L" n="100"/>II. In eodem articuló quarto dubium occurrit an lex
+<lb ed="#L" n="101"/>humana ita obliget in foro conscientiae, quod homo 
+te<lb break="no" ed="#L" n="102"/>neatur mori pro eius observatione. Et est occasio dubi-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="103"/>tandi quia quidam dicunt quod ius positivum non habet
+<lb ed="#L" n="104"/>hanc potestatem, nisi in causa fidei, vel tuendae 
+reipubli<lb break="no" ed="#L" n="105"/>cae. Propterea inquiunt quod licite, propter evitandam 
+mor<lb break="no" ed="#L" n="106"/>tem, celebrare quis potest coram excommunicatis 
+nomina<lb break="no" ed="#L" n="107"/>tir, etc.; et omnia positiva iura non servare.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e273">
+                  <lb ed="#L" n="108"/>III. Sed hanc opinionem esse erroneam multipliciter
+<lb ed="#L" n="109"/>monstratur. Primo, ex ratione tacta in littera: scilicet quia
+<lb ed="#L" n="110"/>quilibet homo non solum secundum id quod habet, sed
+<lb ed="#L" n="111"/>hoc ipsum quod est, multitudinis est; sicut quaelibet pars
+<pb ed="#L" n="184"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>id quod est, totius est. Ex hoc namque sequitur quod lex
+<lb ed="#L" n="2"/>humana, quae, sicut quaelibet alia lex, ad commune bonum
+<lb ed="#L" n="3"/>respicit, potestatem habet supra id quod est quilibet homo,
+<lb ed="#L" n="4"/>ac per hoc super vitam ipsius. Ac per-hoc, potest 
+dispo<lb break="no" ed="#L" n="5"/>nere et ordinare de expositione vitae cuiusque pro 
+com<lb break="no" ed="#L" n="6"/>muni bono, pro quo fit omnis lex, ut in qu. cx, art. 2,
+<lb ed="#L" n="7"/>dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e305">
+                  <lb ed="#L" n="8"/>Amplius, lex humana est praeceptiva et bbligativa ad
+<lb ed="#L" n="9"/>peccatum mortale: ut manifeste patet cum praecipitur 
+ali<lb break="no" ed="#L" n="10"/>quid sub poena excommunicationis latae sententiae, vel sub:
+<lb ed="#L" n="11"/>poena capitis. Ergo. est constitutiva alicuius actus in hoc
+<lb ed="#L" n="12"/>uod sit peccatum mortale. Ergo est obligativa ad 
+evitan<lb break="no" ed="#L" n="13"/>dis magis actum illum quam mortem corporalem: quia
+<lb ed="#L" n="14"/>mors animae fugienda est magis quam mors corporis. 
+Pet<lb break="no" ed="#L" n="15"/>inde est ergo dicere quod lex humana non potest obligare
+<lb ed="#L" n="16"/>hominem ad mortem pro sui observatione, et dicere quod
+<lb ed="#L" n="17"/>lex humana. non potest constituere aliquem actum in hoc
+<lb ed="#L" n="18"/>quod sit peccatum mortale: immo in hoc quod sit 
+pecca<lb break="no" ed="#L" n="19"/>tum, quia etiam pro vitando veniali tenetur homo mori.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e334">
+                  <lb ed="#L" n="20"/>Et confirmatur. Quia homo tenetur potius mori quam
+<lb ed="#L" n="21"/>contrahere matrimonium sine dispensatione cum sorore 
+con<lb break="no" ed="#L" n="22"/>sobrina: et tamen hoc solo positivo iure est prohibitum,
+<lb ed="#L" n="23"/>Similiter sacerdos tenetur mori potius quam missam 
+cele<lb break="no" ed="#L" n="24"/>brare absque calice, corporali, altari et lumine, vestibus
+<lb ed="#L" n="25"/>sacerdotalibus, et aliis requisitis ex iure humano. — Accedit
+<lb ed="#L" n="26"/>ad haec cap. Sacris, De his quae vi metusve causa fiunt,
+<lb ed="#L" n="27"/>ubi in materia iuris positivi, scilicet de incursu 
+excom<lb break="no" ed="#L" n="28"/>municationis propter participationem cum excommunicato,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>Innocentius IH. dicit quod metus non excusat ab 
+excom<lb break="no" ed="#L" n="30"/>quia potius debet mori quam peccare 
+mor<lb break="no" ed="#L" n="31"/>taliter.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e365">
+                  <lb ed="#L" n="32"/>IV. Unde totum oppositum illius opinionis est verum.
+<lb ed="#L" n="33"/>Illa namque putat quod regulariter lex positiva non obligat
+<lb ed="#L" n="34"/>ad mortem pro. sui observatione, quantumcumque 
+praeci<lb break="no" ed="#L" n="35"/>piat; in casu autem, scilicet pro fide vel patria, sie. Nos
+<lb ed="#L" n="36"/>autem, secundum veritatem, dicimus quod universaliter lex
+<lb ed="#L" n="37"/>praeceptiva obligat ad mortem pro sui observatione; in
+<lb ed="#L" n="38"/>casu autem non, ex benignitate legum, ut forte accidit in
+<lb ed="#L" n="39"/>lege de vitandis excommunicatis. De qua, quia non est ad. '
+<lb ed="#L" n="40"/>propositum nisi exemplariter, nihil dico nisi quod dicentes.
+<lb ed="#L" n="41"/>quod ideo licet ex metu cadente in constantem virum 
+ce<lb break="no" ed="#L" n="42"/>lebrare coram excommunicatis, quia lex humana non 
+obli<lb break="no" ed="#L" n="43"/>gat ad mortem pro sui observantia, errant: et nisi aliunde
+<lb ed="#L" n="44"/>huic metui subveniant, falsa est doctrina excusans 
+partici<lb break="no" ed="#L" n="45"/>pationem ex metu, sicut de aliis dictum est. Num. praeced.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e398">
+                  <lb ed="#L" n="46"/>V. Et adverte hic diligentissime quod, quia lex positiva,
+<lb ed="#L" n="47"/>praecipiendo seu statuendo, facit de actibus indifferentibus
+<lb ed="#L" n="48"/>virtuosos vel vitiosos, dum 'sub aliqua virtute aut vitio 
+<lb ed="#L" n="49"/>actum determinat fore: praecipiendo «enim abstinentiam,
+<lb ed="#L" n="50"/>ponit actum illum sub temperantia; praecipiendo 
+solutio<lb break="no" ed="#L" n="51"/>nem gabellae, ponit actum illum sub iustitia; praecipiendo
+<lb ed="#L" n="52"/>cultum divinum, ponit sub religione; et sic de aliis; Tfi
+<lb ed="#L" n="53"/>propterea, sicut in foro conscientiae tenetur quis ad actus
+<lb ed="#L" n="54"/>virtutum, et ad evitandos actus vitiorum, nec excusatur
+<lb ed="#L" n="55"/>metu, etc.; ità non excusatur ab iniustitia, a sacrilegio, etc,
+<lb ed="#L" n="56"/>qui determinata sic a lege contemnit aut incurrit, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1168-Dd1e425"><!-- caj-p2p1-q96-a5 -->
+               <head xml:id="TAcCaj-d1e1168-Hd1e428">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1168-d1e430">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="36"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e437">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="37"/>IN articulo quinto eiusdem quaestionis nonagesimaesextae,
+<lb ed="#L" n="38"/>nota quod, cum in littera dicitur quod iusti non subsunt
+<lb ed="#L" n="39"/>legi ut coactivae, potest dupliciter intelligi. Primo, quod
+<lb ed="#L" n="40"/>lex non habet vim coactivam super iustos. Et hic sensus
+<lb ed="#L" n="41"/>est falsus: quia super omnes subditos tam lex viva, quam
+<lb ed="#L" n="42"/>promulgata, habet potestatem coactivam; quamvis in iustos
+<lb ed="#L" n="43"/>non exerceat coactionem, quia non oportet. - Secundo, quod
+<lb ed="#L" n="44"/>iustus ex parte sua non subiicitur legi ut coactus. Et hic
+<lb ed="#L" n="45"/>sensus est verus et intentus: quia iustus voluntarie legi
+<lb ed="#L" n="46"/>subiicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e463">
+                  <lb ed="#L" n="47"/>II. In eodem quinto articulo, in responsione ad tertium,
+<lb ed="#L" n="48"/>dubium. occurrit quomodo stant haec duo. simul: quod
+<lb ed="#L" n="49"/>princeps obligetur quoad Deum, ita quod. peccat non 
+ser<lb break="no" ed="#L" n="50"/>vando legem; et quod lex non habet vim coactivam super
+<lb ed="#L" n="51"/>eum..Si enim peccat humanam legem transgrediendo, 
+obli<lb break="no" ed="#L" n="52"/>gatus est legi, procul dubio obliganti eum, ac per hoc vim
+<lb ed="#L" n="53"/>coactivam. in eum habenti, quamvis non. exercenti. Et si
+<lb ed="#L" n="54"/>eum non potest cogere, lex eum non obligat. Et si non
+<lb ed="#L" n="55"/>obligat lex principem, princeps non obligatur. Et si non
+<lb ed="#L" n="56"/>obligatur, non peccat non servando eam.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e487">
+                  <lb ed="#L" n="57"/>Et confirmatur declarando. Quia quantumcumque 
+sa<lb break="no" ed="#L" n="58"/>piens. aliquis, ut Plato vel Aristoteles, leges excogitet 
+opti<lb break="no" ed="#L" n="59"/>mas pro bono. communi, et divulgentur; quia. non habent
+<lb ed="#L" n="60"/>vim coactivam, sed ostensivam tantum, constat quod non
+<lb ed="#L" n="61"/>obligant principem aut alios. Ergo lex a principe condita,
+<lb ed="#L" n="62"/>licet ostensivam vim habeat quomodo. debeat ipse se 
+ha<lb break="no" ed="#L" n="63"/>bere; non tamen obligat eum, quia coactivam vim super
+<lb ed="#L" n="64"/>eum non. habet. (i
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e508">
+                  <lb ed="#L" n="65"/>III. Et augetur dubium. ex ratione in littera assignata de
+<lb ed="#L" n="66"/>vi coactiva legis, arguendo sic. Lex non habet vim 
+directi<lb break="no" ed="#L" n="67"/>vam. nisi ex principis potestate, Ergo secundum vim. 
+dire<lb break="no" ed="#L" n="68"/>ctivam.. non obligat principem, - Assumptum patet: quia se--
+<lb ed="#L" n="69"/>clusa. potestate. principis, lex non est lex nisi aequivoce,
+<lb ed="#L" n="70"/>ut leges Platonis, quae monstrant tantum. - Consequentia
+<lb ed="#L" n="71"/>est nota: quia nullus a propria potestate obligatur, sicut
+<lb ed="#L" n="72"/>nec cogitur, ut in littera dicitur..; i
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e528">
+                  <lb ed="#L" n="73"/>Et confirmatur. Quia afferenda est causa obligativa 
+prin<lb break="no" ed="#L" n="74"/>cipis ad observantiam suae legis. Deus immediate non est:
+<lb ed="#L" n="75"/>quia nullum est ibi opus Dei immediate, ut patet. 
+Com<lb break="no" ed="#L" n="76"/>munitas multitudinis non est: quia subiecta est principi, ut
+<lb ed="#L" n="77"/>suppohitur; de tali enim principe est sermo, vel saltem de
+<lb ed="#L" n="78"/>lege propria principis, quae non fit a multitudine. Voluntas
+<lb ed="#L" n="79"/>propria non. pacto, non voto, non iuramento, et breviter
+<lb ed="#L" n="80"/>non contractu aut vinculo quocumque interveniente, est.
+<lb ed="#L" n="81"/>Ergo etc. — Confirmatur hoc. Quia non est minus libera in
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>se voluntas principis ex hoc quod praecepit subditis, quam
+<lb ed="#L" n="83"/>si non praecepisset eisdem. Sed lex nihil aliud est quam
+<lb ed="#L" n="84"/>praeceptum ad subditos: quia est effectus potestatis 
+guber<lb break="no" ed="#L" n="85"/>nativae, quae est principium dirigendi aliud. inquantum
+<lb ed="#L" n="86"/>aliud, ut patet in V et IX Metaphys. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e563">
+                  <lb ed="#L" n="87"/>IV. Ad hoc dubium, tanto difficilius quanto littera sola
+<lb ed="#L" n="88"/>auctoritate doctrinam dedit hanc, dicitur quod, cum princeps
+<lb ed="#L" n="89"/>non subiiciatur legi nisi quoad Deum, quod idem est quod
+<lb ed="#L" n="90"/>subiici legi in foro conscientiae; ex eodem habet vim lex
+<lb ed="#L" n="91"/>obligandi principem, unde habet vim obligandi in foro
+<lb ed="#L" n="92"/>conscientiae. Ut autem in art. 4 dictum est, lex habet vim
+<lb ed="#L" n="93"/>obligativam in foro conscientiae ab aeterna lege, a qua 
+de<lb break="no" ed="#L" n="94"/>rivatur. Oportet igitur ut lex habeat vim obligativam 
+prin<lb break="no" ed="#L" n="95"/>cipis ab aeterna lege. Et quemadmodum lex humana non
+<lb ed="#L" n="96"/>derivatur ab aeterna immediate, sed mediante lege naturae;
+<lb ed="#L" n="97"/>ita habet mediante ila vim obligativam' in foro 
+conscien<lb break="no" ed="#L" n="98"/>tiae. Est namque de iure naturae ut quod tibi non vis
+<lb ed="#L" n="99"/>fieri, alteri ne feceris: et consequenter ut ius quod tibi
+<lb ed="#L" n="100"/>non vis, alteri non statuas. Ac per hoc, cum quis alteri
+<lb ed="#L" n="101"/>legem ponit et non sibi, naturae ius violat. Sicut etiam
+<lb ed="#L" n="102"/>subditus inobediens principis legi, naturae ius, dictans quod
+<lb ed="#L" n="103"/>iustis ad commune bonum ab habente potestatem statutis
+<lb ed="#L" n="104"/>parendum est, violat, ab aeterna lege vim humanae legi
+<lb ed="#L" n="105"/>tribuens. Et hanc rationem, quoad primam eius partem,
+<lb ed="#L" n="106"/>Auctor in littera sub auctoritate canonis induxit.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e609">
+                  <lb ed="#L" n="107"/>V. Ex hac autem radice, quod scilicet lex humana est
+<lb ed="#L" n="108"/>obligativa. in foro conscientiae et principis et subditorum
+<lb ed="#L" n="109"/>ex lege aeterna medio iure naturae, provenit quod, cum in
+<lb ed="#L" n="110"/>lege sint duae vires, scilicet directiva et coactiva; et inter eas
+<lb ed="#L" n="111"/>Sit habita superius ex art. 2, qu. xci, differentia talis quod
+<lb ed="#L" n="112"/>vis directiva respicit ipsos actus licitos vel illicitos aut 
+indif<lb break="no" ed="#L" n="113"/>ferentes, coactiva autem poenam inductivam ad 
+observan<lb break="no" ed="#L" n="114"/>tiam legis: —provenit, inquam, primo, quod vis obligativa
+<lb ed="#L" n="115"/>humanae legis in foro conscientiae, ad vim directivam legis;
+<lb ed="#L" n="116"/>impositiva autem poenae, ad vim coactivam legis spectat.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e633">
+                  <lb ed="#L" n="117"/>Provenit secundo quod, licet utraque vis, directiva 
+sci<lb break="no" ed="#L" n="118"/>licet et coactiva, super potestate principis fundetur, quia
+<lb ed="#L" n="119"/>neutra vis in suo. robore est nisi ab habente potestatem;
+<lb ed="#L" n="120"/>differunt tamen. multum quoad actum. Quia vis coactiva
+<lb ed="#L" n="121"/>actum suum, qui est cogere ac punire invitum, non 
+po<lb break="no" ed="#L" n="122"/>test exercere nisi sola. potestate principis: nemo enim 
+po<lb break="no" ed="#L" n="123"/>test aliquem. punire invitum nisi principis auctoritate. Vis
+<lb ed="#L" n="124"/>autem. directiva actum suum, qui est dirigere, exercet ex
+<lb ed="#L" n="125"/>aeternae legis auctoritate, ex quo semel ab humana 
+pote<lb break="no" ed="#L" n="126"/>state lex est condita. Et quia frustra est potentia quae non
+<pb ed="#L" n="186"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est reducibilis ad actum, ideo vis coactiva legis liumanae
+<lb ed="#L" n="2"/>non extendit se ad eum respectu cuius non est 
+reducibi<lb break="no" ed="#L" n="3"/>lis ad actum; ac per hoc, non extendit se ad principem,
+<lb ed="#L" n="4"/>qui non potest a sua potestate cogi, ut in littera dicitur;
+<lb ed="#L" n="5"/>sed ad alios, qui, etsi non puniantur, puniri tamen possunt
+<lb ed="#L" n="6"/>a principis potestate inviti, Vis autem directiva eiusdem
+<lb ed="#L" n="7"/>extendit se ad omnes, principes scilicet et subditos: quia
+<lb ed="#L" n="8"/>actus eius respectu omnium exercetur; dirigitur enim quis
+<lb ed="#L" n="9"/>a seipso et ab alio. Et rursus non est amplius potestate
+<lb ed="#L" n="10"/>principis opus ad actum directionis, ex quo condita est
+<lb ed="#L" n="11"/>lex; sed auctoritate aeternae legis, humana lex actum 
+dire<lb break="no" ed="#L" n="12"/>ctionis exercet.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e688">
+                  <lb ed="#L" n="13"/>VI. Ex his autem facile patet solutio obiectorum. Ad 
+pri<lb break="no" ed="#L" n="14"/>mum siquidem dicitur quod nulla repugnantia est 
+dicto<lb break="no" ed="#L" n="15"/>rum: quia altera est vis obligativa legis humanae in foro
+<lb ed="#L" n="16"/>conscientiae, seu quoad Deum; et altera vis coactiva 
+eius<lb break="no" ed="#L" n="17"/>dem, qua homo hominem puniendo iudicat. Et quod prima
+<lb ed="#L" n="18"/>habet locum in principe, non secunda: quia hominem non
+<lb ed="#L" n="19"/>babet supra se, ut in littera dicitur. Et ex hoc provenit
+<lb ed="#L" n="20"/>quod Papa nulla iuris humani poena ligatur, 
+quantumcum<lb break="no" ed="#L" n="21"/>que contra leges faciat. !
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e711">
+                  <lb ed="#L" n="22"/>Ad confirmationem, seu declarationem, dicitur quod 
+le<lb break="no" ed="#L" n="23"/>ges scriptae a sapientibus non habentibus curam 
+commu<lb break="no" ed="#L" n="24"/>nitatis, non solum carent vi coactiva, sed etiam directiva.
+<lb ed="#L" n="25"/>Habent enim solum vim -ostensivam, ut ex dictis patet.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e722">
+                  <lb ed="#L" n="26"/>VI. Ad augmentum dubii. dicitur quod vis directiva
+<lb ed="#L" n="27"/>legis humanae potest sumi vel quoad substantiam, vel quoad
+<lb ed="#L" n="28"/>operationem. Et secundum substantiam, non est nisi a 
+po<lb break="no" ed="#L" n="29"/>testate principis, sicut vis coactiva. Secundum vero 
+opera<lb break="no" ed="#L" n="30"/>tionem, falsum est quod non est nisi a potestate principis:
+<lb ed="#L" n="31"/>quoniam, ut ostensum fuit, ex quo lex condita est a
+<lb ed="#L" n="32"/>potestate principis, vis directiva dirigit obligando in 
+con<lb break="no" ed="#L" n="33"/>scientiae foro auctoritate legis aeternae, absque quacumque
+<lb ed="#L" n="34"/>operatione potestatis principis. Quod non accidit in vi 
+coa<lb break="no" ed="#L" n="35"/>ctiva quoad eius operationem, ut ex dictis patet, - Dicitur
+<lb ed="#L" n="36"/>secundo, quod esse a sola potestate principis, licet sit ratio
+<lb ed="#L" n="37"/>quod vis coactiva non se extendit ad principem, non 
+ta<lb break="no" ed="#L" n="38"/>men est ratio quod vis directiva non se extendat ad 
+eun<lb break="no" ed="#L" n="39"/>dem: quia nemo cogitur a seipso, sed dirigitur et obligatur
+<lb ed="#L" n="40"/>a seipso. — Prima responsio negat assumptum quoad actum:
+<lb ed="#L" n="41"/>secunda, sequelam.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e759">
+                  <lb ed="#L" n="42"/>Ad confirmationem petentem causam obligativam 
+princi<lb break="no" ed="#L" n="43"/>pis ad observantiam propriae legis, dicitur quod est causa 
+du<lb break="no" ed="#L" n="44"/>plex: scilicet propria voluntas, et lex aeterna. Propria autem
+<lb ed="#L" n="45"/>voluntas non quae eligit obligationem libere, vel contractu
+<lb ed="#L" n="46"/>aliquo; sed quae eligit legem promulgare. Ex hoc namque
+<lb ed="#L" n="47"/>ipso quod voluntarie legem promulgat, vult ordinationem
+<lb ed="#L" n="48"/>illam. habere vim legis. Et quia ordinationem aliquam. 
+ob<lb break="no" ed="#L" n="49"/>tinere vim legis, est sortiri ab aeterna lege vim directivam
+<lb ed="#L" n="50"/>in foro conscientiae, cui etiam princeps subiicitur; ideo ex
+<lb ed="#L" n="51"/>propria voluntate principis, et ex aeterna lege, vim 
+obliga<lb break="no" ed="#L" n="52"/>tivam principis in foro conscientiae lex; humana habet:
+<lb ed="#L" n="53"/>quamvis diversimode, quia ab aeterna lege sicut a causa a
+<lb ed="#L" n="54"/>qua est vis obligativa huiusmodi; a voluntate vero principis
+<lb ed="#L" n="55"/>sicut a determinante causam universalem ad effectum 
+specia<lb break="no" ed="#L" n="56"/>lem. Sicut in. naturalibus causa universalis, puta Saturnus
+<lb ed="#L" n="57"/>respectu rerum fixarum, determinatur ad specialem: effectum,
+<lb ed="#L" n="58"/>puta ossa, a semine talis animalis producentis animal 
+ha<lb break="no" ed="#L" n="59"/>bens ossa. Sicut enim producere tale animal sub: Saturno,
+<lb ed="#L" n="60"/>est determinare ipsum ad: ossa producenda in illo; ita 
+con<lb break="no" ed="#L" n="61"/>stituere legem sub Deo, est determinare Deum ad 
+commu<lb break="no" ed="#L" n="62"/>nicandam vim obligativam. in foro. conscientiae legi. Et
+<lb ed="#L" n="63"/>sicut ossa reducuntur in Saturnum ut causam, ita vis ista
+<lb ed="#L" n="64"/>obligativa in legem aeternam. - Et per hoc patet responsio
+<lb ed="#L" n="65"/>tam ad id quod dicitur, quod Deus nihil hic agit 
+imme<lb break="no" ed="#L" n="66"/>diate; non; enim. oportet hoc dicere, sed sufficit quod 
+di<lb break="no" ed="#L" n="67"/>ctum est: quam ad'id quod dicitur de voluntate principis.
+<lb ed="#L" n="68"/>Patet enim. quod, ex suppositione quod legem. voluerit,
+<lb ed="#L" n="69"/>obligatus remanet;.et non minus liber quoad velle et nolle,
+<lb ed="#L" n="70"/>sed quoad bene vel male velle. id-quod lege positum est.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e824">
+                  <lb ed="#L" n="71"/>Advertendum tamen est hic quod leges sunt duplices:
+<lb ed="#L" n="72"/>quaedam de communibus toti multitudini; quaedam de 
+pro<lb break="no" ed="#L" n="73"/>pris aliquorum actibus, puta de- militibus. Cum. dicitur
+<lb ed="#L" n="74"/>quod princeps subiicitur legi, non intelligitur: de lege 
+spe<lb break="no" ed="#L" n="75"/>ciali, puta militum, nisi ipse sit miles: sed intelligitur de
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>lege communi. — Rursus, cum princeps subiicitur legi, 
+in<lb break="no" ed="#L" n="77"/>telligitur subiici proportionaliter, ut decet principem, et non
+<lb ed="#L" n="78"/>sicut alios subditos; ut ex dicendis manifestum est.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e846">
+                  <lb ed="#L" n="79"/>VIII. In calce eiusdem responsionis ad tertium, dubium
+<lb ed="#L" n="80"/>etiam difficile occurrit quomodo stant ista simul: quod
+<lb ed="#L" n="81"/>princeps potest legem tollere, mutare, et in ea dispensare;
+<lb ed="#L" n="82"/>et quod ipse in foro conscientiae subdatur legi, ut 
+deter<lb break="no" ed="#L" n="83"/>minatum est. Si enim potest legem tollere, tollet eam. E
+<lb ed="#L" n="84"/>se, et sic facjet quod non habeat vim legis respectu sui:
+<lb ed="#L" n="85"/>ac per hoc, absque scrupulo conscientiae, non servabit D
+<lb ed="#L" n="86"/>utpote non obligatus.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e866">
+                  <lb ed="#L" n="87"/>Et confirmatur hoc. Quia non deterioris conditionis est
+<lb ed="#L" n="88"/>ipse quam aliquis subditus. Sed princeps potest eximere
+<lb ed="#L" n="89"/>unum. subditum a lege communi, qui apud Deum non erit
+<lb ed="#L" n="90"/>reus violatae legis de cetero non servans eam. Ergo potest
+<lb ed="#L" n="91"/>eximere seipsum. Et si hoc potest, sua obligatio ad legem
+<lb ed="#L" n="92"/>stat in voluntate sua sola; et non est ex lege aeterna ut
+<lb ed="#L" n="93"/>ex vera causa. Cuius oppositum conclusum: est.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e885">
+                  <lb ed="#L" n="94"/>IX. Ad hoc dubium praemittenda sunt aliqua certa 
+ac<lb break="no" ed="#L" n="95"/>ceptata ab omnibus: deinde singuli modi dicendi. Certum
+<lb ed="#L" n="96"/>et confessum ab omnibus est quod princeps potest secum
+<lb ed="#L" n="97"/>dispensare sicut cum aliis, proprie loquendo 'de 
+dispensa<lb break="no" ed="#L" n="98"/>tione. Et quod potest, quando et quantum expediens fuerit,
+<lb ed="#L" n="99"/>eximere aliquem subditum, et seipsum, a lege. Et quod 
+po<lb break="no" ed="#L" n="100"/>test legem mutare, sive aliam, condendo loco eius, sive 
+to<lb break="no" ed="#L" n="101"/>taliter tollendo. Et nihil horum contradicit determinationi
+<lb ed="#L" n="102"/>factae, scilicet quod princeps subiicitur legi in foro 
+con<lb break="no" ed="#L" n="103"/>scientiae: subiicitur namque ut princeps, potestatem habens
+<lb ed="#L" n="104"/>praecepta faciendi. Haec sunt confessa communiter.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e911">
+                  <lb ed="#L" n="105"/>X. Sed de mota dubitatione triplex est opinio. Prima
+<lb ed="#L" n="106"/>est quod princeps, licet subiiciatur legi humanae simplici:
+<lb ed="#L" n="107"/>ter et absolute habenti vim legis, non subditur tamen le
+<lb ed="#L" n="108"/>habenti vim legis cum exceptione suae personae. Et sicut
+<lb ed="#L" n="109"/>princeps a principio, constituendo legem, potuisset excipere
+<lb ed="#L" n="110"/>principem; ita post legem conditam potest se excipere;
+<lb ed="#L" n="111"/>Sicut et aliquem alium subditum. Et sic si^ princeps non:
+<lb ed="#L" n="112"/>tollit a se legem, obligatur: si autem tollit, non obligatur. 
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e931">
+                  <lb ed="#L" n="113"/>Sed contra hanc opinionem est quia, si princeps potest se
+<lb ed="#L" n="114"/>eximere a lege, obligatio sua ad legem est ridiculosa. 
+Pos<lb break="no" ed="#L" n="115"/>set namque, eximendo se, dicenti, Patere legem quam i,
+<lb ed="#L" n="116"/>tuleris, et, Quare alligas onera gravia in humeros 
+hdini<lb break="no" ed="#L" n="117"/>num, et digito tuo non moves ea? respondere cum bona
+<lb ed="#L" n="118"/>conscientia: Quia exemi meipsum. Quod est ridiculum.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e947">
+                  <lb ed="#L" n="119"/>XI. Alia opinio est quod, quandiu lex non'est totaliter"
+<lb ed="#L" n="120"/>sublata, princeps obligatur. Et licet possit secum dispensare,
+<lb ed="#L" n="121"/>et tollere eam totaliter, non potest eam tollere quoad se ad.
+<lb ed="#L" n="122"/>libitum. Unde si vult se absolvere a vinculo legis, tollat eam.
+<lb ed="#L" n="123"/>absolute: alioquin illi subiacet, Et fundatur haec opinio 
+su<lb break="no" ed="#L" n="124"/>per hoc, quia aliter edito prinqpsa ad. observantiam:
+<lb ed="#L" n="125"/>legis esset ridiculosa.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e965">
+                  <lb ed="#L" n="126"/>Contra hanc autem opinionem est deisoptiksipe PM,
+<lb ed="#L" n="127"/>etiam sine causa, quia sibi placet, eximere unum
+<lb ed="#L" n="128"/>a communi lege. Ergo potest seipsum eximere: cum. 
+<lb ed="#L" n="129"/>deterioris conditionis quam suus subditus. ^ uv
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e976">
+                  <lb ed="#L" n="130"/>XII. Inter has autem extremas opiniones, tibdia:« 
+occur<lb break="no" ed="#L" n="131"/>rit opinio, quae sóla vera est: scilicet quod princeps potest
+<lb ed="#L" n="132"/>ad libitum se, et subditum aliquem; eximere a lege 
+com<lb break="no" ed="#L" n="133"/>muni iam promulgata, sic quod exemptus non sit reus
+<lb ed="#L" n="134"/>violati praecepti legis non servando illam;; non tamen 
+po<lb break="no" ed="#L" n="135"/>test eximere sic ut ipse eximens et exemptus ad libitum,
+<lb ed="#L" n="136"/>non sit reus violati iuris naturae, quo quaelibet pars. 
+con<lb break="no" ed="#L" n="137"/>sonare debet suo toti, et praecipue caput. Haec opinio duo
+<lb ed="#L" n="138"/>dicit, ut patet. Et in primo 'convenit cum prima opinione,
+<lb ed="#L" n="139"/>et discrepat. a secunda: in secundo autem convenit cum
+<lb ed="#L" n="140"/>secunda aliqualiter,'et' discrepat a prima, Et' si bene 
+con<lb break="no" ed="#L" n="141"/>sideretur opinio haec, apparebit quod salvat utrumque quod:
+<lb ed="#L" n="142"/>mentibus humanis impressum videtur: scilicet et quod 
+prin<lb break="no" ed="#L" n="143"/>ceps male facit eximendo se vel alium ad libitum, a legis
+<lb ed="#L" n="144"/>iugo; et quod nihilominus exemptus non est. reus fractae.
+<lb ed="#L" n="145"/>legis. Si enim Papa licentiet se. vel alium, quia;placet, ad
+<lb ed="#L" n="146"/>non dicendum horas canonicas, vel carnes comedendum in
+<lb ed="#L" n="147"/>Quadragesima, licentiatus male facit non dicendo horas, aut
+<lb ed="#L" n="148"/>carnes: comedendo: quia turpis est pars quae non consonat
+<lb ed="#L" n="149"/>suo toti, ex naturae iure, quod violatur a subdito, et multo
+<lb ed="#L" n="150"/>magis a capite; cui etiam a divino iure improperatur: Di-
+<pb ed="#L" n="187"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cis, et non facis: alligas onus grave, etc. (Matth. xxur). Et
+<lb ed="#L" n="2"/>nihilominus, licet peccet sic licentiatus, non tamen est reus
+<lb ed="#L" n="3"/>violati praecepti de horis canonicis dicendis, aut de 
+carni<lb break="no" ed="#L" n="4"/>bus non. comedendis.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e1038">
+                  <lb ed="#L" n="5"/>Fundatur haec opinio, quoad primam partem, super 
+po<lb break="no" ed="#L" n="6"/>testate principis, qua. potest tollere legem et simpliciter,
+<lb ed="#L" n="7"/>et quoad aliquem: ut quotidiana experientia testatur in 
+pri<lb break="no" ed="#L" n="8"/>vilegiis eximentibus hos vel illos a. solutione. decimarum,
+<lb ed="#L" n="9"/>in quibus, etiam si nulla causa exprimatur, sed solo motu
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>principis fiant, robur non deest. Quoad secundam vero 
+par<lb break="no" ed="#L" n="11"/>tem, super naturali iure, quo £urpis est omnis pars quae
+<lb ed="#L" n="12"/>non consonat suo toti ; et quo in moralibus magis movent
+<lb ed="#L" n="13"/>exempla quam verba; et princeps non solum ut. praesit,
+<lb ed="#L" n="14"/>sed prosit, creatur ; et aliis huiusmodi, quae naturalis ratio
+<lb ed="#L" n="15"/>dictat. Et. secundum hanc opinionem, nihil est ridiculum,
+<lb ed="#L" n="16"/>omnia consonant, omnes obiectiones solvuntur, 
+observan<lb break="no" ed="#L" n="17"/>tiarum.et reprehensionum ratio reddetur. Unde ut sententia
+<lb ed="#L" n="18"/>vera, in medio posita, amplectenda est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1168-Dd1e1074"><!-- caj-p2p1-q96-a6 -->
+               <head xml:id="TAcCaj-d1e1168-Hd1e1077">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1168-d1e1079">
+                  <pb ed="#L" n="188"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani:
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e1088">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo sexto eiusdem nonagesimaesextae quaestionis,
+<lb ed="#L" n="3"/>aiat quod quadrupliciter occurrere potest casus agendi
+<lb ed="#L" n="4"/>contra legis verba, pro servanda eius intentione. Primo,
+<lb ed="#L" n="5"/>ambiguus, et impatiens morae. Et tunc servanda sunt verba
+<lb ed="#L" n="6"/>legis, ut dicitur in responsione ad secundum. - Secundo,
+<lb ed="#L" n="7"/>ambiguus, et sustinens moram. Et tunc. consulendus. est
+<lb ed="#L" n="8"/>superior, qui propter huiusmodi casus habet auctoritatem
+<lb ed="#L" n="9"/>interpretandi legem. Et hoc intendit littera in corpore 
+ar<lb break="no" ed="#L" n="10"/>ticuli.- Tertio, manifestus, et impatiens morae. Et tunc 
+con<lb break="no" ed="#L" n="11"/>stat quod debet non servare verba legis, sed intentionem. —
+<lb ed="#L" n="12"/>Quarto, manifestus, sed sustinens moram. Et tunc, duce
+<lb ed="#L" n="13"/>gnome et epieikeia, sine superioris consultatione, 
+praeter<lb break="no" ed="#L" n="14"/>mittuntur verba legis, et servatur intentio eius: quia <quote xml:id="TAcCaj-d1e1168-Qd1e1120">in
+<lb ed="#L" n="15"/>manifestis non est opus interpretatione, quae spectat ad
+<lb ed="#L" n="16"/>superiorem, sed executione</quote>, ut in <ref xml:id="TAcCaj-d1e1168-Rd1e1127">II II, qu. de Epieikeia</ref>,
+<lb ed="#L" n="17"/>Auctor dicit. Quod ergo in littera dicitur quod extra 
+subi<lb break="no" ed="#L" n="18"/>tum periculum, non pertinet ad quemlibet interpretari, in
+<lb ed="#L" n="19"/>casu dubio est sermo: interpretatione enim non est opus
+<lb ed="#L" n="20"/>in manifestis.
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e1139">
+                  <lb ed="#L" n="21"/>II. Sed tunc insurgit quaestio quo pacto salvatur 
+dis<lb break="no" ed="#L" n="22"/>tinctio facta in corpore articuli, inter casum necessitatis
+<lb ed="#L" n="23"/>habentis dispensationem annexam; et casum non-
+necessi<lb break="no" ed="#L" n="24"/>tatis, quo recurrendum est ad interpretationem superioris.
+<lb ed="#L" n="25"/>Si namque de ambiguis casibus est sermo, contradicit 
+di<lb break="no" ed="#L" n="26"/>ctis ex responsione ad secundum, scilicet quod secundum
+<lb ed="#L" n="27"/>verba agendum est in necessitatis casu ambiguo. Si de 
+ma<lb break="no" ed="#L" n="28"/>nifestis, contradicit dictis ex II II, quod in manifestis,
+<lb ed="#L" n="29"/>extra casum necessitatis, non est opus interpretatione, sed
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="30"/>virtus epieikeiae sufficit. Si in primo membro de ambiguis,
+<lb ed="#L" n="31"/>et in secundo de manifestis est sermo, distinctio est 
+inu<lb break="no" ed="#L" n="32"/>tilis et extra artem, tacens principale in differentia, scilicet
+<lb ed="#L" n="33"/>esse manifestum vel ambiguum. s
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e1172">
+                  <lb ed="#L" n="34"/>Verum quaestio haec citius solvetur, si viderimus quod
+<lb ed="#L" n="35"/>in ambiguis datur latitudo. Nam quaedam sic occurrunt
+<lb ed="#L" n="36"/>ambigua, ut in sua ambiguitate remaneant: quaedam vero
+<lb ed="#L" n="37"/>sic sunt ambigua, ut rationabile sit quod, si legislator 
+ad<lb break="no" ed="#L" n="38"/>esset, hanc procul dubio partem determinaret nunc, hic, 
+ser<lb break="no" ed="#L" n="39"/>vandam. Sermo ergo litterae est de ambiguis. Et de eis 
+uni<lb break="no" ed="#L" n="40"/>versaliter docet quod interpretatio spectat ad superiores,
+<lb ed="#L" n="41"/>quando potest ad eos recurri. Quando vero norm potest
+<lb ed="#L" n="42"/>recurri, si sunt ambigua secundo modo, necessitas habet
+<lb ed="#L" n="43"/>dispensationem annexam. Si vero sunt ambigua primo modo,
+<lb ed="#L" n="44"/>tunc secundum verba legis agendum est. Et quod mens
+<lb ed="#L" n="45"/>Auctoris sit ista, patet ex hoc quod dicit, scilicet quod 
+ze<lb break="no" ed="#L" n="46"/>cessitas habet dispensationem annexam. Constat enim quod
+<lb ed="#L" n="47"/>dispensatio ex interpretatione legis procedit. Interpretatio
+<lb ed="#L" n="48"/>autem locum non habet in manifestis. De ambiguis igitur
+<lb ed="#L" n="49"/>secundo modo, intendit.. ng
+</p>
+               <p xml:id="TAcCaj-d1e1168-d1e1210">
+                  <lb ed="#L" n="50"/>III. In responsione ad tertium, collige causas quare leges
+<lb ed="#L" n="51"/>humanae fiunt secundum id quod ut in pluribus agendum
+<lb ed="#L" n="52"/>est, et non dearticulantur omnia in omni eventu. Prima
+<lb ed="#L" n="53"/>est ex defectu humani ingenii. - Secunda est ex parte 
+con<lb break="no" ed="#L" n="54"/>fusionis vitandae. — Tertia, quae in littera tacetur, ponitur
+<lb ed="#L" n="55"/>tamen V Ethic. esse ex variabilitate rerum. de quibus fit
+<lb ed="#L" n="56"/>lex humana. Et haec variabilitas materiae inculpabilem 
+red<lb break="no" ed="#L" n="57"/>dit humanum intellectum in statuendo leges ut in pluribus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 111</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 111</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="324"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1245"><!-- TAcCajp2p1-q111 -->
+            <head xml:id="TAcCaj-d1e1245-Hd1e101">Quaestio 111</head>
+            <div xml:id="TAcCaj-d1e1245-Dd1e103"><!-- caj-p2p1-q111-a2 -->
+               <head xml:id="TAcCaj-d1e1245-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1245-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>IN articulo secundo quaestionis centesimaeundecimae, 
+o<lb break="no" ed="#L" n="15"/>Lon primo, dubium Occurrit circa differentiam. inter
+<lb ed="#L" n="16"/>gratiam operantem et cooperantem, pro gratuita Dei 
+mo<lb break="no" ed="#L" n="17"/>tione sumptam. Implicantur siquidem duo contraria simul.
+<lb ed="#L" n="18"/>Nam assignando differentiam, dicitur quod operans dicitur
+<lb ed="#L" n="19"/>quando mens nostra se habet uti mota tantum; cooperans
+<lb ed="#L" n="20"/>vero, quando mens nostra se habet ut movens et mota.
+<lb ed="#L" n="21"/>Applicando autem ad actus nostros, subiungitur quod cum
+<lb ed="#L" n="22"/>movemur ad velle, est gratia operans; cum vero movemur
+<lb ed="#L" n="23"/>ad exterius opus, est gratia cooperans. Constat autem quod
+<lb ed="#L" n="24"/>ad velle voluntas se habet non ut mota tantum: nam velle
+<lb ed="#L" n="25"/>a voluntate est et in voluntate; alioquin non esset liberum.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e146">
+                  <lb ed="#L" n="26"/>Et confirmatur. Quia movere ad velle, nihil aliud est
+<lb ed="#L" n="27"/>quam facere ut velimus: ut Augustinus, allatus in littera,
+<lb ed="#L" n="28"/>testatur. Facere autem ut velimus, est facere ut moti. 
+mo<lb break="no" ed="#L" n="29"/>veamus nos ad volendum.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e157">
+                  <lb ed="#L" n="30"/>Praeterea, aut Auctor intendit quod mens nostra se 
+ha<lb break="no" ed="#L" n="31"/>beat sic respectu actus interioris et exterioris: aut 
+respe<lb break="no" ed="#L" n="32"/>ctu formae actus, puta bonitatis meritoriae. Si respectu
+<lb ed="#L" n="33"/>actus, cum uterque sit a voluntate imperatus, respectu 
+utri<lb break="no" ed="#L" n="34"/>usque gratia dicetur cooperans, iuxta doctrinam litterae. — Si
+<lb ed="#L" n="35"/>respectu bonitatis meritoriae, cum utraque sit a voluntate
+<lb ed="#L" n="36"/>informata caritate et gratia, par est etiam ratio de utraque
+<lb ed="#L" n="37"/>quoad hoc, quod est a voluntate mota a Deo.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e178">
+                  <lb ed="#L" n="38"/>II. Ad hoc dicitur dupliciter. Primo, quod nulla est 
+in<lb break="no" ed="#L" n="39"/>ter dicta contrarietas. Quoniam non dicitur in littera quod
+<lb ed="#L" n="40"/>respectu omnis actus interioris voluntatis dicitur gratia 
+ope<lb break="no" ed="#L" n="41"/>rans; sed dicitur indefinite, remittendo se ad supradicta in
+<lb ed="#L" n="42"/>qu. 1x, art. 4. Ibi enim habuimus quod respectu primi actus
+<lb ed="#L" n="43"/>voluntas se habet ut mota tantum, et Deus ut movens.
+<lb ed="#L" n="44"/>Et nomine primi actus non intelligitur solus ille quem
+<lb ed="#L" n="45"/>voluntas in principio operationum suarum omnium habet:
+<lb ed="#L" n="46"/>sed quicumque primus absque consilio et praevio motivo
+<lb ed="#L" n="47"/>ad bonum. Et propterea Auctor, dixit: e? praesertim cum
+<lb ed="#L" n="48"/>voluntas incipit bonum velle, quae prius malum volebat.
+<lb ed="#L" n="49"/>Similiter igitur se habet voluntas mota a Deo lad 
+huius<lb break="no" ed="#L" n="50"/>modi velle, sicut grave ad motum deorsum. Et propterea
+<lb ed="#L" n="51"/>sicut grave non movet seipsum ad descensum, sed est 
+mo<lb break="no" ed="#L" n="52"/>tum a generante; ita voluntas mota a Deo ad huiusmodi
+<lb ed="#L" n="53"/>novum velle, non movet seipsam ad hoc, sed est tantum
+<lb ed="#L" n="54"/>mota a Deo. Est tamen tale velle ipsius elicitive, sicut 
+de<lb break="no" ed="#L" n="55"/>scendere est motus gravis. Et est liberum, quia potest 
+dis<lb break="no" ed="#L" n="56"/>sentire a tali velle: Deus enim movet suaviter liberum 
+ar<lb break="no" ed="#L" n="57"/>bitrium secundum conditionem eius.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e224">
+                  <lb ed="#L" n="58"/>Et per hoc patet responsio ad cetera. Nam facere ut
+<lb ed="#L" n="59"/>velimus, non contingit uno modo, sed duobus: scilicet ut
+<lb ed="#L" n="60"/>velimus movendo nos ipsos ad hoc; et ut velimus moti
+<lb ed="#L" n="61"/>tantum ab ipso Deo. Secundo modo, spectat ad gratiam
+<lb ed="#L" n="62"/>operantem; primo, ad cooperantem; iuxta calcem corporis
+<lb ed="#L" n="63"/>articuli de opere meritorio.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e240">
+                  <lb ed="#L" n="64"/>Et similiter non omnis actus elicitus a voluntate est
+<lb ed="#L" n="65"/>imperatus ab ea. Et propterea non est eadem aut par ratio
+<lb ed="#L" n="66"/>de actu et bonitate meritoria intus et extra.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e249">
+                  <lb ed="#L" n="67"/>III. Secundo: dicitur quod, quia ín littera, distinguendo
+<lb ed="#L" n="68"/>gratiam, gratuitam Dei motionem, etc., expresse dicitur, qua
+<lb ed="#L" n="69"/>movemur ad bonum meritorium; intentio Auctoris est loqui
+<lb ed="#L" n="70"/>de bono meritorio. Ita quod dupliciter invenitur voluntas
+<lb ed="#L" n="71"/>se habere ad bonum meritorium, scilicet ut mota tantum,
+<lb ed="#L" n="72"/>et ut movens mota: quidquid sit de actu substrato. Et quia
+<lb ed="#L" n="73"/>etiam in littera manifeste distinguitur inter actum 
+interio<lb break="no" ed="#L" n="74"/>rem. meritorium ut est ex gratia, idest habituali dono, et
+<lb ed="#L" n="75"/>ut est a gratia, idest gratuita Dei motione; et primo modo
+<lb ed="#L" n="76"/>attribuitur gratiae cooperanti, secundo vero operanti: et
+<lb ed="#L" n="77"/>quia etiam ex littera habetur quod effectus gratiae operantis
+<lb ed="#L" n="78"/>habet rationem primi boni meritorii, effectus vero coope-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="79"/>rantis habet rationem secundarii, extenso nomine boni 
+me<lb break="no" ed="#L" n="80"/>ritorii etiam ad esse quo constituitur aliquis in statu 
+me<lb break="no" ed="#L" n="81"/>ritorio: consequens est quod intentio Auctoris est dicere
+<lb ed="#L" n="82"/>quod tunc voluntas se habet ad bonum meritorium ut 
+mo<lb break="no" ed="#L" n="83"/>vens mota, quando ex praecedenti esse vel actu meritorio
+<lb ed="#L" n="84"/>facta in actu, iam movet se ad meritorium bonum; sunt
+<lb ed="#L" n="85"/>enim tunc duo operantes, scilicet Deus, et voluntas facta in
+<lb ed="#L" n="86"/>actu in tali esse. Et propterea gratia cooperans dicitur tam
+<lb ed="#L" n="87"/>confirmans voluntatem ad exterius opus, facultatemque 
+ex<lb break="no" ed="#L" n="88"/>terioris operis praebens; quam ut est principium interioris
+<lb ed="#L" n="89"/>operis meritorii secundum habituale donum iam datum
+<lb ed="#L" n="90"/>facultati liberi arbitrii ad utendum cum vult. Tunc autem
+<lb ed="#L" n="91"/>voluntas se habet ut mota tantum in hoc esse, quando
+<lb ed="#L" n="92"/>non ex praecedenti merito aut esse meritorio, ad actum
+<lb ed="#L" n="93"/>vel statum meritorium ducitur. Et propterea gratia operans
+<lb ed="#L" n="94"/>dicitur tam gratuita Dei motio ad actum interiorem 
+meri<lb break="no" ed="#L" n="95"/>torium qui.non procedit ex habitu vel actu altero 
+meri<lb break="no" ed="#L" n="96"/>torio; quam gratia ipsa habitualis ut dat esse. Ad nihil
+<lb ed="#L" n="97"/>enim horum sunt duo operantes, proprie loquendo, sed
+<lb ed="#L" n="98"/>unus tantum, scilicet Deus: voluntas autem, etsi ad actus
+<lb ed="#L" n="99"/>substratos se habeat ut operans, ad rationem tamen 
+meri<lb break="no" ed="#L" n="100"/>torii, cum eam non praehabeat in actu, non se habet ut
+<lb ed="#L" n="101"/>operans, sed ut obsequens; ut in responsione ad secundum
+<lb ed="#L" n="102"/>in littera habes.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e332">
+                  <lb ed="#L" n="103"/>Unde patet responsio ad obiecta. Quoniam in aequivoco
+<lb ed="#L" n="104"/>laboratur de esse a voluntate. Aliud quippe est esse a 
+vo<lb break="no" ed="#L" n="105"/>luntate: et aliud, esse a voluntate in actu in tali esse, ita
+<lb ed="#L" n="106"/>ut moveat se ad meritum. Longe plus ad hoc exigitur
+<lb ed="#L" n="107"/>quam ad illud, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e345">
+                  <lb ed="#L" n="108"/>Ex hoc etiam patet quod primo modo primus actus
+<lb ed="#L" n="109"/>voluntatis est ab ea, ut praedictum est, et tamen non est
+<lb ed="#L" n="110"/>ab ea ut movente se: sicut nec descensus deorsum est a
+<lb ed="#L" n="111"/>gravi ut movente se, proportionaliter loquendo semper.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e357">
+                  <lb ed="#L" n="112"/>IV. Unum superest dubium: an actus idem interior
+<lb ed="#L" n="113"/>possit simul esse a gratia operante et cooperante. Verbi
+<lb ed="#L" n="114"/>gratia, Deus gratuita sua motione excitat Petrum iam 
+exi<lb break="no" ed="#L" n="115"/>stentem in gratia, ad interiorem actum caritatis, et consentit
+<lb ed="#L" n="116"/>Petrus novo cuidam zelo honoris Dei: an actus ille sit ab
+<lb ed="#L" n="117"/>utraque gratia, et ut est ab habitu, sit cooperantis, ut a
+<lb ed="#L" n="118"/>gratuita Dei motione, sit operantis gfatiae; an ipsa gratuita
+<lb ed="#L" n="119"/>Dei motio, propter praecedentem habitum, spectet ad 
+gra<lb break="no" ed="#L" n="120"/>tiam cooperantem.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e379">
+                  <lb ed="#L" n="121"/>Sed hoc non est difficile solvere intuenti rationem 
+lit<lb break="no" ed="#L" n="122"/>terae, et formaliter rationes actuum consideranti, Nam 
+ac<lb break="no" ed="#L" n="123"/>tus meritorius praeexistentis in gratia, aut est imperatus
+<lb ed="#L" n="124"/>a gratia: et tunc sine dubio ad solam gratiam cooperantem
+<lb ed="#L" n="125"/>spectat, sicut et actus exterior. Aut non imperatus a gratia,
+<lb ed="#L" n="126"/>sed gratia se habet ad illum obsecutive: ut contingere 
+vi<lb break="no" ed="#L" n="127"/>detur in novis actibus excedentibus proportionem gratiae,
+<lb ed="#L" n="128"/>qui illam valde augent. Et tunc gratuita Dei motio 
+ope<lb break="no" ed="#L" n="129"/>rantis gratiae rationem habet ad talem actum sub tali 
+ra<lb break="no" ed="#L" n="130"/>tione: quamvis sub communi ratione meritorii, etiam a
+<lb ed="#L" n="131"/>gratia cooperante sit, quando ut sic a gratia habituali 
+im<lb break="no" ed="#L" n="132"/>peratur propter praeexistentem finem in eo. Et ex hoc 
+ha<lb break="no" ed="#L" n="133"/>bes quod gratia operans non solum invenitur in infusione
+<lb ed="#L" n="134"/>gratiae et iustificatione impii, sed post acceptam gratiam
+<lb ed="#L" n="135"/>pluries; quamvis manifestius in iustificatione impii. Et 
+pro<lb break="no" ed="#L" n="136"/>pterea in littera dicitur quod, quantum ad actum interioris
+<lb ed="#L" n="137"/>meriti, voluntas se habet ut mota, Deus autem ut movens,
+<lb ed="#L" n="138"/>praesertim. quando voluntas quae prius malum: volebat,
+<lb ed="#L" n="139"/>incipit bonum velle.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e423">
+                  <lb ed="#L" n="140"/>V. Haec secunda solutio principalis dubii magis videtur
+<lb ed="#L" n="141"/>ad mentem Auctoris. Una tamen aliam clarificat.
+</p>
+               <p xml:id="TAcCaj-d1e1245-d1e430">
+                  <lb ed="#L" n="142"/>In reliquis tribus huius quaestionis articulis nihil 
+scri<lb break="no" ed="#L" n="143"/>bendum occurrit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 75</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 75</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="52"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1059"><!-- TAcCajp2p1-q75 -->
+            <head xml:id="TAcCaj-d1e1059-Hd1e101">Quaestio 75</head>
+            <div xml:id="TAcCaj-d1e1059-Dd1e103"><!-- caj-p2p1-q75-a1 -->
+               <head xml:id="TAcCaj-d1e1059-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1059-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>In corpore primi articuli quaestionis septuagesimaequintae,
+<lb ed="#L" n="11"/>lions est, quia Auctor sub disiunctionis nota dicit quod
+<lb ed="#L" n="12"/>malum habet causam deficientem, vel agentem per 
+acci<lb break="no" ed="#L" n="13"/>dens, an idem intelligat per utrumque, an diversa. Et si
+<lb ed="#L" n="14"/>idem, quomodo explanat? Et similiter, si diversa, quomodo
+<lb ed="#L" n="15"/>prosequitur? Non enim liquet.
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e133">
+                  <lb ed="#L" n="16"/>II. Ad hoc dicitur quod Auctor concludit illam 
+disiun<lb break="no" ed="#L" n="17"/>ctionem secundum veritatem disiunctionis. Et intendit quod
+<lb ed="#L" n="18"/>propterea, cum causa propria mali assignatur, aut assignatur
+<lb ed="#L" n="19"/>causa deficiens, aut assignatur causa per accidens. Et hoc
+<lb ed="#L" n="20"/>quia causam efficientem per se habere non potest. 
+Positi<lb break="no" ed="#L" n="21"/>vam enim habere non potest negatio: negativa autem, quae
+<lb ed="#L" n="22"/>per se est causa negationis, non sufficit ad privationem;
+<lb ed="#L" n="23"/>quia oportet aliquam causam aliam a negatione ponere 
+im<lb break="no" ed="#L" n="24"/>pedientem oppositum habitum, ut fiat privatio. Verum quia
+<lb ed="#L" n="25"/>causa deficiens et causa per accidens sunt idem subiecto
+<lb ed="#L" n="26"/>et distinctae formaliter, in uno sensu; et sunt idem 
+subie<lb break="no" ed="#L" n="27"/>cto et formaliter, in alio sensu: ideo Auctor simul 
+prose<lb break="no" ed="#L" n="28"/>quitur, et omnia explanavit.
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e164">
+                  <lb ed="#L" n="29"/>Ad cuius evidentiam, recolere oportet quod causa per
+<lb ed="#L" n="30"/>accidens dupliciter dicitur, scilicet accidente in causa, et 
+ac<lb break="no" ed="#L" n="31"/>cidente in effectu: et quod uterque modus in proposito
+<lb ed="#L" n="32"/>invenitur. Voluntas namque carens directione legis, 
+inten<lb break="no" ed="#L" n="33"/>densque aliquod bonum commutabile, causat actum 
+pec<lb break="no" ed="#L" n="34"/>cati per se, et inordinationem per accidens, ita quod 
+defe<lb break="no" ed="#L" n="35"/>ctus ordinis in actu est ex defectu directionis in voluntate,
+<lb ed="#L" n="36"/>ut in littera dicitur. Ubi habes primo, quod voluntas, per se
+<lb ed="#L" n="37"/>causa actus, est causa per accidens ex parte effectus, respectu
+<lb ed="#L" n="38"/>inordinationis, dum causat actum cui coniungitur 
+inordi<lb break="no" ed="#L" n="39"/>natio. Habes secundo, quod voluntas, causando actum et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="40"/>non dando ei ordinem illi debitum, est causa deficiens 
+re<lb break="no" ed="#L" n="41"/>spectu inordinationis: deficit enim a dando illi debitum
+<lb ed="#L" n="42"/>ordinem, cum teneatur ad hoc. Habes tertio quod, quia 
+de<lb break="no" ed="#L" n="43"/>fectus directionis in voluntate est causa defectus ordinis in
+<lb ed="#L" n="44"/>actu; et non per se, ut dictum est, nisi in ratione negationis:
+<lb ed="#L" n="45"/>ergo per accidens ex parte causae, quia est coniunctus 
+vo<lb break="no" ed="#L" n="46"/>luntati. Defectus igitur in voluntate, unde voluntas est causa
+<lb ed="#L" n="47"/>deficiens, est idem subiecto et formaliter causae per accidens
+<lb ed="#L" n="48"/>ex parte causae: quia est ipsamet. Et est idem subiecto 
+tan<lb break="no" ed="#L" n="49"/>tum causae per accidens ex parte effectus tantum: quia est
+<lb ed="#L" n="50"/>idem subiecto voluntati, et dat voluntati esse causam 
+defi<lb break="no" ed="#L" n="51"/>cientem, non dando causalitatem, sed deficientiam. Haec est
+<lb ed="#L" n="52"/>doctrina Auctoris, et vera, et manifestata in littera breviter.
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e222">
+                  <lb ed="#L" n="53"/>III. Sed contra eam afferuntur multa a Scoto, in II Sent.,
+<lb ed="#L" n="54"/>dist. xxxrv. Verum quia ipse in uno tantum quoad 
+propo<lb break="no" ed="#L" n="55"/>situm discordare videtur, ideo, ceteris omissis, affero illud.
+<lb ed="#L" n="56"/>Non vult ipse quod defectus in voluntate sit causa per
+<lb ed="#L" n="57"/>accidens, accidentalitate ex parte causae, inordinati actus,
+<lb ed="#L" n="58"/>accipiendo defectum proprie, ita quod ex ipso et nostra
+<lb ed="#L" n="59"/>voluntate fiat unum per accidens, sicut ex homine et non
+<lb ed="#L" n="60"/>albo. Et unam tantum rationem adducit: quia ante primum
+<lb ed="#L" n="61"/>defectum voluntatis, esset defectus.
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e244">
+                  <lb ed="#L" n="62"/>Sed hoc facillime solvitur negando sequelam, utendo
+<lb ed="#L" n="63"/>terminis ut significant. Quia est status in defectu regulae.
+<lb ed="#L" n="64"/>praeveniente secundum se rationem mali tam culpae quam
+<lb ed="#L" n="65"/>poenae, ut in responsione ad tertium in littera dicitur, —
+<lb ed="#L" n="66"/>Utendo autem terminis ad bonum sensum, idest, Ante 
+pri<lb break="no" ed="#L" n="67"/>mum defectum in actu peccati, esset defectus: patet 
+respon<lb break="no" ed="#L" n="68"/>sio, quod non inconvenit ante talem primum defectum,
+<lb ed="#L" n="69"/>dari defectum absque ratione mali culpae et poenae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1059-Dd1e265"><!-- caj-p2p1-q75-a2 -->
+               <head xml:id="TAcCaj-d1e1059-Hd1e268">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1059-d1e270">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e277">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>In articulo secundo eiusdem septuagesimaequintae 
+quae<lb break="no" ed="#L" n="35"/>stionis, collige causas interiores peccati, distinguendo eas
+<lb ed="#L" n="36"/>ex parte peccantis, et obiecti. Et intuere causas ex parte
+<lb ed="#L" n="37"/>peccantis, quatuor: duas proximas, rationem et voluntatem,-
+<lb ed="#L" n="38"/>inter quas voluntas est proximior; et duas remotas, sensum
+<lb ed="#L" n="39"/>et eius appetitum, inter quas sensus est remotior. Ex parte
+<lb ed="#L" n="40"/>vero obiecti, unam, iuxta unitatem completi obiecti; plura
+<lb ed="#L" n="41"/>tamen complectentis, respondentia praedictis potentiis. Ita
+<lb ed="#L" n="42"/>tamen quod tres peccantis potentiae, scilicet sensus, 
+appe<lb break="no" ed="#L" n="43"/>titus sensitivus et ratio, sunt velut praeparantes et facientes
+<lb ed="#L" n="44"/>obiectum peccati, bonum scilicet apparens dissonans 
+ra<lb break="no" ed="#L" n="45"/>tioni; voluntas autem est perficiens ipsum peccatum. 
+Pro<lb break="no" ed="#L" n="46"/>pter quod illae concurrunt ad peccatum ex parte obiecti,
+<lb ed="#L" n="47"/>voluntas ex parte subiecti: illae causant peccatum quoad
+<lb ed="#L" n="48"/>specificationem actus, voluntas quoad exercitium. Propterea
+<lb ed="#L" n="49"/>simul in littera traduntur causae praedictae unitae in 
+obie<lb break="no" ed="#L" n="50"/>cto, ut in littera clare patet. Et fecit hoc Auctor ut haberes
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="51"/>resolutionem peccati usque ad primam causam: appetibile
+<lb ed="#L" n="52"/>enim est movens non motum, ut patet in III de Anima.
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e325">
+                  <lb ed="#L" n="53"/>Cum autem audis bonum apparens in obiecto spectare
+<lb ed="#L" n="54"/>ad sensum et eius appetitum, intellige non semper, sed
+<lb ed="#L" n="55"/>quando sensus et appetitus sensitivus causant peccatum.
+<lb ed="#L" n="56"/>Potest namque bonum apparens dissonans legi rationis vel
+<lb ed="#L" n="57"/>Dei, movere ad peccatum, et peccari, absque concursu 
+appe<lb break="no" ed="#L" n="58"/>tibilis secundum sensitivam partem: ut patet de infidelitate.
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e341">
+                  <lb ed="#L" n="59"/>II. In responsione ad primum, cum legis quod voluntas
+<lb ed="#L" n="60"/>reducitur ad actum per praecedentes actus, intellige ex parte
+<lb ed="#L" n="61"/>obiecti. Nam ad exercitium actus a seipsa reducitur in
+<lb ed="#L" n="62"/>actum, ut superius dictum est: praesente tamen obiecto
+<lb ed="#L" n="63"/>obiective movente, ita quod nec a seipsa potest voluntas
+<lb ed="#L" n="64"/>exire in actum, nisi concurrat obiectum. Et propterea in
+<lb ed="#L" n="65"/>littera concluditur quod, quia praecedentes motus, qui se
+<lb ed="#L" n="66"/>tenent ex parte obiecti, non sunt semper in actu, peccatum
+<lb ed="#L" n="67"/>non semper est in actu.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1059-Dd1e364"><!-- caj-p2p1-q75-a3 -->
+               <head xml:id="TAcCaj-d1e1059-Hd1e367">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1059-d1e369">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e376">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>IN articulo tertio eiusdem quaestionis, occurrit 
+suggeren<lb break="no" ed="#L" n="25"/>dum primo, quod colligas extraneas causas peccati. Et ex
+<lb ed="#L" n="26"/>parte subiecti, nullam, quia solus Deus hinc est extra: ex
+<lb ed="#L" n="27"/>parte obiecti, duas retineas, scilicet persuasorem, et 
+sensi<lb break="no" ed="#L" n="28"/>bilia. De aliis autem obiectis, quae non movent nisi in
+<lb ed="#L" n="29"/>anima, nulla fit mentio: quia inter causas interiores 
+com<lb break="no" ed="#L" n="30"/>putantur. Haec enim differentia ab Aristotele, in II de
+<lb ed="#L" n="31"/>Anima, data est, quod obiecta intellectus sunt intus, 
+sen<lb break="no" ed="#L" n="32"/>sus vero extra.
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e400">
+                  <lb ed="#L" n="33"/>Secundo, quod ideo Auctor dicit sensibilia non 
+neces<lb break="no" ed="#L" n="34"/>sario movere appetitum sensitivum, 7z1i$i forte aliquo modo
+<lb ed="#L" n="35"/>dispositum, quia appetitus sensitivus in nobis est liber par-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="36"/>ticipative, ut dictum est; et ideo non necessitatur ab 
+ap<lb break="no" ed="#L" n="37"/>petibili extra obiecto. Verum quia non est sic liber quin
+<lb ed="#L" n="38"/>habeat multum naturalitatis, si habitu superinducto, vel
+<lb ed="#L" n="39"/>naturali aliqua inclinatione, vel applicatione praedominante
+<lb ed="#L" n="40"/>sit aliquis dispositus, necessitari videmus appetitum: ut
+<lb ed="#L" n="41"/>patet in timoribus, doloribus et delectationibus 
+involunta<lb break="no" ed="#L" n="42"/>ris, praesentibus motivis. Dixit autem Auctor forte, vel
+<lb ed="#L" n="43"/>quia determinandi de hoc locus hic non erat: vel quia
+<lb ed="#L" n="44"/>huiusmodi dispositio forte, idest nom per se, invenitur 
+ap<lb break="no" ed="#L" n="45"/>petitui, ut liber est, convenire. Unde tales motus, 
+inquan<lb break="no" ed="#L" n="46"/>tum alieni sunt a nostra potestate, etiam alieni a ratione
+<lb ed="#L" n="47"/>peccati sunt.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1059-Dd1e438"><!-- caj-p2p1-q75-a4 -->
+               <head xml:id="TAcCaj-d1e1059-Hd1e441">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1059-d1e443">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1059-d1e450">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>IN articulo quarto, in responsione ad secundum, nota 
+<lb ed="#L" n="31"/>quod, quia species et differentiae bonorum et malorum  
+<lb ed="#L" n="32"/>moralium sunt entia positiva, et verae naturae in 
+latitu<lb break="no" ed="#L" n="33"/>dine entium; ideo Auctor dicit quod peccatum ex parte 
+<lb ed="#L" n="34"/>conversionis habet perfectionem naturae, et hinc causat 
+<lb ed="#L" n="35"/>active et finaliter, ut in responsione ad primum dicitur. 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="36"/>Inordinatio autem quia est privatio moralis rectitudinis,
+<lb ed="#L" n="37"/>ideo hic dicit peccatum imperfectum imperfectione 
+mo<lb break="no" ed="#L" n="38"/>rali. Haec autem dixerim, ut cesset admiratio quare 
+Au<lb break="no" ed="#L" n="39"/>ctor inordinationem in genere moris, et conversionem in
+<lb ed="#L" n="40"/>genere naturae posuerit, cum utrumque ad genus moris
+<lb ed="#L" n="41"/>spectet.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 80</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 80</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="88"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1085"><!-- TAcCajp2p1-q80 -->
+            <head xml:id="TAcCaj-d1e1085-Hd1e101">Quaestio 80</head>
+            <div xml:id="TAcCaj-d1e1085-Dd1e103"><!-- caj-p2p1-q80-a1 -->
+               <head xml:id="TAcCaj-d1e1085-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1085-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1085-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>IN articulo primo quaestionis octogesimae, dubium occurrit
+<lb ed="#L" n="15"/>circa propositionem in littera positam, scilicet; Esse cau--
+<lb ed="#L" n="16"/>sam directe alicuius actus non contingit nisi per hoc quod
+<lb ed="#L" n="17"/>proprium principium illius actus movet ad agendum. Aut
+<lb ed="#L" n="18"/>namque haec propositio intelligitur absolute, ut sonat, 
+sci<lb break="no" ed="#L" n="19"/>licet, Nihil est directe. causa actus nisi etc.: aut limitate ad
+<lb ed="#L" n="20"/>actum alterius, propter materiam subiectam de qua est
+<lb ed="#L" n="21"/>sermo, causa scilicet extrinseca quod homo peccet. Si primo
+<lb ed="#L" n="22"/>modo, obstat illi illa maxima, Deus potest supplere vicem
+<lb ed="#L" n="23"/>causae secundae. — Si secundo modo, obstat littera, quae
+<lb ed="#L" n="24"/>principium actus voluntarii, voluntatem scilicet, ad 
+agen<lb break="no" ed="#L" n="25"/>dum moveri subiungit non solum a Deo, sed a se: si enim
+<lb ed="#L" n="26"/>de extrinseco tantum motore esset sermo in illa 
+proposi<lb break="no" ed="#L" n="27"/>tione, ipsummet non connumeraretur subsumendo.
+</p>
+               <p xml:id="TAcCaj-d1e1085-d1e150">
+                  <lb ed="#L" n="28"/>II. Ad hoc dicitur quod neutro modo propositio litterae
+<lb ed="#L" n="29"/>intelligitur. Quod enim non intelligatur primo modo, patet
+<lb ed="#L" n="30"/>ex hoc quod nullum principium mere naturale esset causa
+<lb ed="#L" n="31"/>directe actus proprii: eo quod nullum tale movet seipsum
+<lb ed="#L" n="32"/>ad agendum. Si enim ad causandum directe actum, 
+exigi<lb break="no" ed="#L" n="33"/>tur quod moveat ad agendum proprium illius actus 
+prin<lb break="no" ed="#L" n="34"/>cipium; absque ulla ambiguitate sequitur quod nec calor
+<lb ed="#L" n="35"/>sit directe causa calefaciendi, nec frigus frigefaciendi, nec
+<lb ed="#L" n="36"/>lux illuminandi, etc. - Quod vero nec secundo modo 
+intel<lb break="no" ed="#L" n="37"/>ligatur, ex ipsa subsumptione patet. Quamvis namque 
+di<lb break="no" ed="#L" n="38"/>ceret quispiam quod ad bonitatem doctrinae addidit Auctor
+<lb ed="#L" n="39"/>etiam voluntatem moveri a se; si tamen formaliter contextus
+<lb ed="#L" n="40"/>litterae conspiciatur, apparebit quod est vera et formalis
+<lb ed="#L" n="41"/>subsumptio. Ac per hoc, oportet maiorem propositionem
+<lb ed="#L" n="42"/>communem esse ad causas intus et extra, Et vere sic est.
+</p>
+               <p xml:id="TAcCaj-d1e1085-d1e185">
+                  <lb ed="#L" n="43"/>Intendit igitur Auctor quod ad esse directe causam actus
+<lb ed="#L" n="44"/>qui est alicuius actus, sive illud aliquid sit idem sive 
+di<lb break="no" ed="#L" n="45"/>versum a causa, exigitur quod causa proprium principium
+<lb ed="#L" n="46"/>illius actus moveat ad agendum, Ita quod in hac 
+propo<lb break="no" ed="#L" n="47"/>sitione duo continentur. Alterum quod supponitur, scilicet
+<lb ed="#L" n="48"/>actum existere alicuius principii executivi: et per hoc 
+in<lb break="no" ed="#L" n="49"/>cluduntur omnia principia propria actuum tam naturalium
+<lb ed="#L" n="50"/>quam animalium. Alterum quod docemur, scilicet quid 
+re<lb break="no" ed="#L" n="51"/>quiratur ad esse causam directe actus existentis ab aliquo
+<lb ed="#L" n="52"/>principio executivo. Et discimus quod exigitur quod 
+mo<lb break="no" ed="#L" n="53"/>veat illud proprium principium ad agendum, sive hoc sit
+<lb ed="#L" n="54"/>idem cum illo principio executivo, sive diversum. Est igitur
+<lb ed="#L" n="55"/>sensus propositionis quod, praesupposito quod actus sit 
+ali<lb break="no" ed="#L" n="56"/>cuius principii principiantis ipsum. executive, ut calor 
+ca<lb break="no" ed="#L" n="57"/>lefacit, oculus videt, voluntas vult, et huiusmodi; ad hoc
+<lb ed="#L" n="58"/>quod aliquid, sive idem sive diversum, sit causa directe 
+ca<lb break="no" ed="#L" n="59"/>lefactionis, visionis, volitionis illius, ultra illud principium
+<lb ed="#L" n="60"/>non absolute, sed inquantum est causa executiva; oportet
+<lb ed="#L" n="61"/>quod moveat principium illud exequens ad agendum. Et
+<lb ed="#L" n="62"/>hunc sensum insinuant verba litterae in ly alicuius: non
+<lb ed="#L" n="63"/>enim ly alicuius cadit supra ly actus, sed cadit supra 
+sub<lb break="no" ed="#L" n="64"/>intellectum principium; ac si dixisset, actus.qui est 
+ali<lb break="no" ed="#L" n="65"/>cuius.
+</p>
+               <p xml:id="TAcCaj-d1e1085-d1e238">
+                  <lb ed="#L" n="66"/>Et per hoc solvuntur obiectiones. Nam neque 
+natu<lb break="no" ed="#L" n="67"/>ralia principia excluduntur a directa causalitate executiva
+<lb ed="#L" n="68"/>actuum; nec omnipotentiae divinae aliquid adimitur. 
+Opor<lb break="no" ed="#L" n="69"/>tet enim, si ipsa causat actum meum, quod me moveat ad
+<lb ed="#L" n="70"/>agendum: quamvis actus qui esset meus, posset sine me
+<lb ed="#L" n="71"/>causare.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1085-Dd1e255"><!-- caj-p2p1-q80-a2 -->
+               <head xml:id="TAcCaj-d1e1085-Hd1e258">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1085-d1e260">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="59"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1085-d1e267">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>In articulo secundo, nota quod hinc habes quomodo in
+<lb ed="#L" n="61"/>Tontcste istis quae dicuntur visiones habere, causari
+<lb ed="#L" n="62"/>ex daemonum illusione aut humorum et spirituum 
+com<lb break="no" ed="#L" n="63"/>mutatione potest ut vigilantes imaginentur, et appareat eis
+<lb ed="#L" n="64"/>sic esse in re, sicut contingit dormientibus quando so-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>mniant. Accidit enim quod aliquis patiatur vigilans quod
+<lb ed="#L" n="66"/>alter patitur dormiens: ut manifeste patet in phreneticis.
+<lb ed="#L" n="67"/>Notent autem hoc rectores religiosarum personarum, ne
+<lb ed="#L" n="68"/>divinitati tribuentes quod naturae aut. daemonis est, errent,
+<lb ed="#L" n="69"/>errareque alios faciant.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1085-Dd1e297"><!-- caj-p2p1-q80-a3 -->
+               <head xml:id="TAcCaj-d1e1085-Hd1e300">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1085-d1e302">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1085-d1e309">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="38"/>DE articulo tertio, in responsione ad tertium, dubium 
+oc<lb break="no" ed="#L" n="39"/>currit: nam haec doctrina retractatur inferius in Tertia
+<lb ed="#L" n="40"/>Parte, in quaestione de Tentatione Christi, ubi ex istamet
+<lb ed="#L" n="41"/>auctoritate Augustini Auctor dicit quod som potest esse
+<lb ed="#L" n="42"/>absque peccato tentatio a carne: non enim compatiuntur
+<lb ed="#L" n="43"/>se dicta hic et ibi. Nam ibi dicitur quod concupiscentia
+<lb ed="#L" n="44"/>carnis adversus spiritum non potest esse absque peccato:
+<lb ed="#L" n="45"/>hic dicitur quod zn est peccatum, quando ei ratio 
+actua<lb break="no" ed="#L" n="46"/>liter resistit; non semper ergo est peccatum.
+</p>
+               <p xml:id="TAcCaj-d1e1085-d1e333">
+                  <lb ed="#L" n="47"/>II. Ad hoc dicitur quod ista non contrariantur ad invicem.
+<lb ed="#L" n="48"/>Ibi namque dicitur quod semper est peccatum, cum caro
+<lb ed="#L" n="49"/>concupiscit adversus spiritum: quod ibi discutiendum est,
+<lb ed="#L" n="50"/>Domino concedente. Hic autem nihil contra dictam 
+univer<lb break="no" ed="#L" n="51"/>salem dicitur. Non enim dicitur quod aliquando non est
+<lb ed="#L" n="52"/>peccatum: sed dicitur quod quando ei ratio actualiter 
+resi<lb break="no" ed="#L" n="53"/>stit, non est peccatum. Quod nihil repugnat illi: quoniam
+<lb ed="#L" n="54"/>utrum tale quandoque inveniatur, non affirmatur. Nam
+<lb ed="#L" n="55"/>non asseritur quod concupiscenti carni adversus spiritum,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="56"/>aliquando ratio totaliter resistit, hoc enim illi universali 
+con<lb break="no" ed="#L" n="57"/>tradiceret: sed asseritur quod quando ratio resistit, non est
+<lb ed="#L" n="58"/>peccatum; quod aequivalet conditionali, Si ratio resistit,
+<lb ed="#L" n="59"/>non est peccatum. Et intendit Auctor hic solum satisfacere
+<lb ed="#L" n="60"/>argumento pro praesenti materia, qua tractatur de potestate
+<lb ed="#L" n="61"/>diaboli; et dicere quod, concupiscente carne adversus 
+spi<lb break="no" ed="#L" n="62"/>ritum, non consurgit peccatum ex concupiscentia, quam
+<lb ed="#L" n="63"/>potest facere diabolus, sed ex non resistentia rationis, quae
+<lb ed="#L" n="64"/>non subiacet potestati daemonis; quia concupiscentia ista,
+<lb ed="#L" n="65"/>si ratio ei resistit, non est peccatum, sed materia exercendae
+<lb ed="#L" n="66"/>virtutis. Et hoc sat est argumento: quia, dato quod semper
+<lb ed="#L" n="67"/>sit peccatum, ut Augustinus dicit, non tamen ad illud 
+ne<lb break="no" ed="#L" n="68"/>cessitat daemon, qui ad non resistentiam rationis 
+necessi<lb break="no" ed="#L" n="69"/>tare nequit. Utrum autem possibile sit rationem 
+concupi<lb break="no" ed="#L" n="70"/>scenti actualiter carni totaliter resistere, indiscussum 
+dimit<lb break="no" ed="#L" n="71"/>titur ut impertinens.
+</p>
+               <p xml:id="TAcCaj-d1e1085-d1e392">
+                  <lb ed="#L" n="72"/>De quarto articulo eiusdem octogesimae quaestionis, nihil
+<lb ed="#L" n="73"/>occurrit scribendum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 78</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 78</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="77"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1075"><!-- TAcCajp2p1-q78 -->
+            <head xml:id="TAcCaj-d1e1075-Hd1e101">Quaestio 78</head>
+            <div xml:id="TAcCaj-d1e1075-Dd1e103"><!-- caj-p2p1-q78-a1 -->
+               <head xml:id="TAcCaj-d1e1075-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1075-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>IN articulo primo quaestionis septuagesimaeoctavae, 
+ad<lb break="no" ed="#L" n="19"/>osi quod, licet omne peccatum humanum reducatur in
+<lb ed="#L" n="20"/>baec tria principia, ignorantiam; passionem et malitiam; in
+<lb ed="#L" n="21"/>omni tamen peccato invenitur mala voluntas et ignorantia.
+<lb ed="#L" n="22"/>Et de ignorantia quidem, in responsione ad primum habes
+<lb ed="#L" n="23"/>ultimam resolutionem. Et semper aliqua trium 
+ignorantia<lb break="no" ed="#L" n="24"/>rum actualium, sive sit ignorantia privative sive contrarie,
+<lb ed="#L" n="25"/>intervenit. Et quoniam privatio per habitum: cognoscitur;
+<lb ed="#L" n="26"/>distingue pro novitiis triplicem scientiam actualem 
+particu<lb break="no" ed="#L" n="27"/>laris prosequendi vel fugiendi: primam, qua scitur hoc esse
+<lb ed="#L" n="28"/>malum; secundam, qua scitur hoc nunc esse malum; 
+ter<lb break="no" ed="#L" n="29"/>tiam, qua scitur hoc nunc malum relatum ad illud aliud,
+<lb ed="#L" n="30"/>esse sibi peius. Et respice quod peccans ex ignorantia, 
+la<lb break="no" ed="#L" n="31"/>borat ignorantia opposita primae scientiae; peccans ex 
+pas<lb break="no" ed="#L" n="32"/>sione seu infirmitate, laborat ignorantia opposita secundae
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="33"/>scientiae; peccans vero ex malitia, laborat ignorantia 
+oppo<lb break="no" ed="#L" n="34"/>sita tertiae scientiae. Et sic errant intellectu omnes qui
+<lb ed="#L" n="35"/>operantur malum.
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e161">
+                  <lb ed="#L" n="36"/>De malitia autem voluntatis, in responsione ad tertium,
+<lb ed="#L" n="37"/>singulariter specificatur, quando quis peccat ex certa 
+ma<lb break="no" ed="#L" n="38"/>litia, quod oportet ipsum peccare ex ipsa, electione mali:
+<lb ed="#L" n="39"/>idest non ex ignorantia nec ex infirmitate, sed ex ipsa 
+vo<lb break="no" ed="#L" n="40"/>luntaria electione mali, scienter praeponendo bonum sibi
+<lb ed="#L" n="41"/>coniunctum, bono coniuncto illius praeamati boni 
+absen<lb break="no" ed="#L" n="42"/>tiae, Praeponit enim malitiose iniustus bonum lucri 
+iun<lb break="no" ed="#L" n="43"/>ctum malo iniustitiae, bono iustitiae iuncto absentiae lucri.
+<lb ed="#L" n="44"/>Ita quod electio mali non ex ignorantia aut passione, est
+<lb ed="#L" n="45"/>malitia qua peccatur ex industria; electio autem 
+quomo<lb break="no" ed="#L" n="46"/>dolibet mala, communis est omni peccato perfecto; ut clare
+<lb ed="#L" n="47"/>habes inferius, art. 4, in responsione ad ultimum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1075-Dd1e191"><!-- caj-p2p1-q78-a2 -->
+               <head xml:id="TAcCaj-d1e1075-Hd1e194">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1075-d1e196">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="24"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e203">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="25"/>In articulo secundo eiusdem quaestionis 
+septuagesimae<lb break="no" ed="#L" n="26"/>octavae, adverte diligenter quod, quia peccatum ex certa
+<lb ed="#L" n="27"/>malitia et ex passione non specie, sed gradu perfectionis et
+<lb ed="#L" n="28"/>imperfectionis differunt; provenit quod in eadem specie, qui
+<lb ed="#L" n="29"/>prius adulterium ex passione commisit, postmodum, 
+habi<lb break="no" ed="#L" n="30"/>tuatus, ex certa malitia adulteratur. Et quod prius a parte
+<lb ed="#L" n="31"/>inferiori perturbatus, privabitur, per modum transeuntis,
+<lb ed="#L" n="32"/>actuali iudicio quod hic actus delectabilis nunc est malus:
+<lb ed="#L" n="33"/>postmodum a superiori inchoans ipse, scilicet electione, non
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="34"/>turbatus, sed connaturalitate pronus, ad tale delectabile, solo
+<lb ed="#L" n="35"/>actuali iudicio verae comparationis huius boni delectabilis ad
+<lb ed="#L" n="36"/>bonum rationis, caritatis, privatus, fertur. Unde tales 
+habi<lb break="no" ed="#L" n="37"/>tuati verum aiunt, dicentes se cognoscere quod male faciunt,
+<lb ed="#L" n="38"/>et quod volunt nihilominus facere: sciunt enim actualiter
+<lb ed="#L" n="39"/>hoc esse nunc malum. Quod in ipsa passione positi, dicentes
+<lb ed="#L" n="40"/>se scire, mentiuntur. Quamvis etiam habituati, ut dictum
+<lb ed="#L" n="41"/>est, laborent, velint nolint, ignorantia privativa actualis recti
+<lb ed="#L" n="42"/>iudicii practici comparationis prosequendae vel fugiendae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1075-Dd1e250"><!-- caj-p2p1-q78-a3 -->
+               <head xml:id="TAcCaj-d1e1075-Hd1e253">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1075-d1e255">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e262">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>IN articulo tertio eiusdem septuagesimaeoctavae 
+quaestio<lb break="no" ed="#L" n="37"/>nis dubium occurrit quomodo stant haec duo simul, quod
+<lb ed="#L" n="38"/>peccare ex malitia nihil aliud sit quam voluntatem ex 
+se<lb break="no" ed="#L" n="39"/>ipsa moveri ad malum: et quod peccat ex malitia qui ex
+<lb ed="#L" n="40"/>aegritudinali habitudine corporis ad malum movetur. 
+Utrum<lb break="no" ed="#L" n="41"/>que enim in hoc articulo dicitur. Et non consone. Quia.
+<lb ed="#L" n="42"/>magis distat a voluntate infirmitas corporis quam infirmitas
+<lb ed="#L" n="43"/>animae, quae in deordinatione appetitus sensitivi consistit,
+<lb ed="#L" n="44"/>ut in quaestione praecedenti dictum est: et constat quod
+<lb ed="#L" n="45"/>peccans ex infirmitate animi, peccat non ex malitia, sed ex
+<lb ed="#L" n="46"/>passione. Igitur peccans ex aegritudinali dispositione 
+cor<lb break="no" ed="#L" n="47"/>poris, non peccat ex malitia.
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e293">
+                  <lb ed="#L" n="48"/>Et confirmatur. Quia neutra infirmitas ponit aliquid in
+<lb ed="#L" n="49"/>voluntate per quod inclinetur seipsa in malum. - Quod est
+<lb ed="#L" n="50"/>igitur ad primum modum in littera positum, quo voluntas
+<lb ed="#L" n="51"/>ex seipsa movetur in malum.
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e304">
+                  <lb ed="#L" n="52"/>II. Ad hoc dicitur quod, quia inter appetitum animalem
+<lb ed="#L" n="53"/>et naturalem haec est differentia, quod naturalis est primo
+<lb ed="#L" n="54"/>partis, animalis vero est primo totius; appetitus enim oculi
+<lb ed="#L" n="55"/>ad videndum est primo oculi, voluntas autem irascibilis
+<lb ed="#L" n="56"/>et concupiscibilis sunt primo totius: ideo appetitus 
+natu<lb break="no" ed="#L" n="57"/>ralis non variatur nisi secundum dispositionem illius 
+par<lb break="no" ed="#L" n="58"/>tis; qualiterrumque enim homo sit dispositus, modo non
+<lb ed="#L" n="59"/>redundet in oculum, eodem modo se habebit appetitus oculi
+<lb ed="#L" n="60"/>ad videndum et non videndum. Appetitus autem animalis
+<lb ed="#L" n="61"/>non solum secundum propriam dispositionem variatur, sed
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="62"/>secundum totius, seu suppositi, dispositionem: nam. non.
+<lb ed="#L" n="63"/>solum aliter se habet voluntas dispositione vel habitu. in
+<lb ed="#L" n="64"/>seipsa affecta, et non affecta; sed etiam aliter se habet 
+vo<lb break="no" ed="#L" n="65"/>luntas hominis affecti aliqua dispositione vel habitu. Et inde
+<lb ed="#L" n="66"/>provenit quod homo tam secundum appetitum sensitivum
+<lb ed="#L" n="67"/>habituatus aliquo vitio, quam secundum corporalem 
+com<lb break="no" ed="#L" n="68"/>plexionem inclinatus in aliquod delectabile contrarium 
+rec<lb break="no" ed="#L" n="69"/>tae rationi, aliter se habet secundum voluntatem, quam sit
+<lb ed="#L" n="70"/>non habituatus aut inclinatus. Quia enim qualis unusquisque
+<lb ed="#L" n="71"/>est, talia ei consonant; et naturale est voluntati ferri in 
+con<lb break="no" ed="#L" n="72"/>sonans ipsi volenti: ideo etiam si voluntas ipsa IERI se
+<lb ed="#L" n="73"/>non sit aliter disposita, quia tamen secundum suum;
+<lb ed="#L" n="74"/>situm est aliter disposita habitu vel plus quam. habi
+<lb ed="#L" n="75"/>rali scilicet aegritudine, dicitur ex seipsa moveri. n mal
+<lb ed="#L" n="76"/>Utroque namque modo, scilicet ex propria siti
+<lb ed="#L" n="77"/>ex dispositione suppositi, recte dicitur ex seipsa Wem
+<lb ed="#L" n="78"/>moveri: quoniam. voluntati non solum - ipsamet, A
+<lb ed="#L" n="79"/>positum, intrinsecum in ratione moventis est, quid
+<lb ed="#L" n="80"/>ferenter; quia primum convenit ei ut convenit cum 
+ap<lb break="no" ed="#L" n="81"/>petitu naturali, secundum autem ut est appetitus Mm
+<lb ed="#L" n="82"/>praesertim intellectualis. Unde ly. ex ipsa. non distinguitur
+<lb ed="#L" n="83"/>contra suppositum: sed contra alias partes, ut sic, quae snnt
+<lb ed="#L" n="84"/>principia humanorum actuum, intellectum. scilicet et.
+<lb ed="#L" n="85"/>petitum sensitivum. — Et si non intelligis inclinationes
+<lb ed="#L" n="86"/>corporales, vide superius in qu. xxxr, art. 7.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1075-Dd1e386"><!-- caj-p2p1-q78-a4 -->
+               <head xml:id="TAcCaj-d1e1075-Hd1e389">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1075-d1e391">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e398">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>In articulo quarto, in responsione ad primum, occurrit
+<lb ed="#L" n="67"/>dubium, quoniam videtur contrariari supradictis in primo
+<lb ed="#L" n="68"/>articulo huiusmet quaestionis. Dictum namque fuit quod
+<lb ed="#L" n="69"/>maior est ignorantia peccantis ex passione, quam ex 
+ma<lb break="no" ed="#L" n="70"/>litia: quia ille ignorat hoc nunc esse malum; iste vero scit
+<lb ed="#L" n="71"/>hoc nunc esse malum, quamvis ignoret hoc nunc esse peius
+<lb ed="#L" n="72"/>sibi. Modo autem dicitur quod maior est ignorantia 
+pec<lb break="no" ed="#L" n="73"/>cantis ex malitia.
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e420">
+                  <lb ed="#L" n="74"/>II. Ad hoc dicitur tripliciter. Quod ignorantia potest 
+re<lb break="no" ed="#L" n="75"/>ferri 'ad-duo: scilicet ad ipsum peccatum, vel ad rationem
+<lb ed="#L" n="76"/>peccandi, Si referatur ad ipsum peccatum, sic maior est
+<lb ed="#L" n="77"/>ignorantia peccantis ex passione: quia ignorat hunc actum
+<lb ed="#L" n="78"/>nunc esse malum, quod non latet peccantem ex malitia.
+<lb ed="#L" n="79"/>Si vero referatur ad rationem peccandi, sic ignorantia 
+pec<lb break="no" ed="#L" n="80"/>cantis ex malitia est maior: quia ex affectu nimio ad 
+mi<lb break="no" ed="#L" n="81"/>nus bonum, errat circa finem praeponendum, quod est ratio
+<lb ed="#L" n="82"/>peccandi. Ex hoc namque quod affectus quis est plus ad
+<lb ed="#L" n="83"/>lucrum quam ad bonum iustitiae, iudicatur bonum lucri
+<lb ed="#L" n="84"/>magis. sectandum: et inde provenit quod scienter eligit
+<lb ed="#L" n="85"/>privari iustitia, ut lucretur. Scit ergo iste lucrum esse nunc
+<lb ed="#L" n="86"/>iniustum, quod ex passione peccans ignorat: sed ex nimio
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="87"/>amore lucri, nescit postponendum esse bono iustitiae, quod
+<lb ed="#L" n="88"/>est magis ignorare quoad rationem peccandi; quia in 
+pas<lb break="no" ed="#L" n="89"/>sione existens non ex ipso amore minus boni, sed ex 
+im<lb break="no" ed="#L" n="90"/>pulsu passionis perturbantis iudicium nunc respectu huius,
+<lb ed="#L" n="91"/>peccat.
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e464">
+                  <lb ed="#L" n="92"/>Et ex hoc sequitur secunda responsio, scilicet quod
+<lb ed="#L" n="93"/>ignorantia peccantis ex malitia est maior formaliter: quia
+<lb ed="#L" n="94"/>formaliter ignoratur tam conclusio quam principium, ut
+<lb ed="#L" n="95"/>etiam ex VII Ethic. habetur; quod in peccante ex passione
+<lb ed="#L" n="96"/>non accidit, ut patet. Ignorantia autem peccantis ex 
+pas<lb break="no" ed="#L" n="97"/>sione est maior quasi virtualiter, seu concomitanter, pro
+<lb ed="#L" n="98"/>quanto est respectu prioris obiecti: prius enim est hoc 
+ma<lb break="no" ed="#L" n="99"/>lum nunc, quam hoc malum nunc esse peius altero; ac
+<lb ed="#L" n="100"/>per hoc, ignorans formaliter hoc nunc esse malum, ex 
+con<lb break="no" ed="#L" n="101"/>sequenti nescit hoc nunc esse peius, et non e converso.
+</p>
+               <p xml:id="TAcCaj-d1e1075-d1e489">
+                  <lb ed="#L" n="102"/>Tertio potest dici quod ignorantia peccantis ex malitia
+<lb ed="#L" n="103"/>est maior, quia per modum habitus: ignorantia autem 
+pec<lb break="no" ed="#L" n="104"/>cantis ex passione est per modum interruptionis. Malus
+<lb ed="#L" n="105"/>enim circa finem malum in affectu et in ratione est male
+<lb ed="#L" n="106"/>dispositus: passione vero ductus male se habet circa finem,
+<lb ed="#L" n="107"/>dum passio tantum intercipit, ut in corpore articuli dicitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

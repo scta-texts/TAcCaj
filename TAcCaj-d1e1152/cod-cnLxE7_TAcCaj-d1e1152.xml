@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 93</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 93</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="168"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1152"><!-- TAcCajp2p1-q93 -->
+            <head xml:id="TAcCaj-d1e1152-Hd1e101">Quaestio 93</head>
+            <div xml:id="TAcCaj-d1e1152-Dd1e103"><!-- caj-p2p1-q93-a3 -->
+               <head xml:id="TAcCaj-d1e1152-Hd1e106">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1152-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="71"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1152-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="72"/>OMISSO primo articulo, cuius difficultates in Prima Parte 
+<lb ed="#L" n="73"/>clarae sunt; et secundo, quia clarus est: in tertio 
+du<lb break="no" ed="#L" n="74"/>bium occurrit, quia Auctor deficere videtur ab intento,
+<lb ed="#L" n="75"/>aut falsum dicere, cum. dicit: Rationes inferiorum 
+guber<lb break="no" ed="#L" n="76"/>nantium sunt quaecumque aliae leges praeter aeternam. Si
+<lb ed="#L" n="77"/>namque de omni lege praeter aeternam loquitur, falsum
+<lb ed="#L" n="78"/>dicit: quia lex divina non est ratio inferioris gubernatoris,
+<lb ed="#L" n="79"/>sed Dei, et est alia ab aeterna, ut patet in qu. xcr Si au- -
+<lb ed="#L" n="80"/>tem non intendit de lege divina, non habetur conclusio
+<lb ed="#L" n="81"/>intenta, scilicet quod omnis lex ab aeterna derivatur.
+</p>
+               <p xml:id="TAcCaj-d1e1152-d1e141">
+                  <lb ed="#L" n="82"/>II. Ad hoc dicitur quod Auctor intendit etiam de lege 
+di<lb break="no" ed="#L" n="83"/>vina quod derivatur ab aeterna. Quia ponit ipsam esse per
+<lb ed="#L" n="84"/>participationem legis aeternae; ut expresse patet superius
+<lb ed="#L" n="85"/>in qu. xcr, art. 4, ad 1, ubi dixit: Et ideo superadditur
+<lb ed="#L" n="86"/>lex divinitus data, per quam lex aeterna participatur 
+al<lb break="no" ed="#L" n="87"/>tiori modo. - Nec est verum quod lex divina non sit ratio
+<lb ed="#L" n="88"/>inferiorum gubernantium. Quoniam lex divina non dicitur
+<lb ed="#L" n="89"/>divina a subiecto, tanquam sit aliquid in Deo: sola enim lex
+<lb ed="#L" n="90"/>aeterna est formaliter in Deo. Sed dicitur divina ab aucto-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="91"/>ritate, a modo et a fine: est namque a Deo 
+supernatura<lb break="no" ed="#L" n="92"/>liter data ad ducendum in Deum supernaturalem find
+<lb ed="#L" n="93"/>Et est lex divina ratio supernaturalis data homini ut 
+se<lb break="no" ed="#L" n="94"/>ipsum gubernet: et proprie ea est ratio inferiorum 
+guber<lb break="no" ed="#L" n="95"/>nantium, scilicet hominum, non ab eis adinventa, sed a Deo
+<lb ed="#L" n="96"/>suscepta. Et de lege veteri patet Act. vm; Accepistis
+<lb ed="#L" n="97"/>legem in dispositione angelorum. De nova autem inferius 
+<lb ed="#L" n="98"/>habebitur quod est ipsa gratia Spiritus Sancti. Neutrum
+<lb ed="#L" n="99"/>autem horum est in Deo nisi causaliter: sed in hominis
+<lb ed="#L" n="100"/>anima utrumque, primum per intellectum et memoriam,
+<lb ed="#L" n="101"/>secundum per essentiam animae et voluntatem. Et. per hoc
+<lb ed="#L" n="102"/>patet quod tam lex aeterna quam naturalis et divina, sit
+<lb ed="#L" n="103"/>rationis ordinatio ad bonum commune a Deo, qui curam
+<lb ed="#L" n="104"/>habet communitatis, promulgata. Et inter aeternam et alias
+<lb ed="#L" n="105"/>haec est differentia, quod aeterna est in Deo, ac per hoc
+<lb ed="#L" n="106"/>est ipse Deus; aliae autem non sunt in Deo, sed effectus
+<lb ed="#L" n="107"/>eius in creaturis rationalibus. Ac per hoc, illa est causa,
+<lb ed="#L" n="108"/>ceterae sunt participationes illius: illa aeterna, reliquae 
+tem<lb break="no" ed="#L" n="109"/>porales.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1152-Dd1e207"><!-- caj-p2p1-q93-a5 -->
+               <head xml:id="TAcCaj-d1e1152-Hd1e210">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1152-d1e212">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1152-d1e219">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="56"/>In articulis quarto, quinto et sexto eiusdem quaestionis,
+<lb ed="#L" n="57"/>nihil aliud occurrit scribendum nisi quod in quinto 
+ar<lb break="no" ed="#L" n="58"/>ticulo notes illud: Nullus, proprie loquendo, suis actibus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="59"/>legem imponit. Et hoc pro difficultate illa, utrum princeps
+<lb ed="#L" n="60"/>subdatur legibus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

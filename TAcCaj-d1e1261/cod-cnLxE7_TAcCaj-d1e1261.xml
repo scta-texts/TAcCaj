@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 114</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 114</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="346"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1261"><!-- TAcCajp2p1-q114 -->
+            <head xml:id="TAcCaj-d1e1261-Hd1e101">Quaestio 114</head>
+            <div xml:id="TAcCaj-d1e1261-Dd1e103"><!-- caj-p2p1-q114-a1 -->
+               <head xml:id="TAcCaj-d1e1261-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1261-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>In titulo primi articuli quaestionis 
+centesimaedecimaequar<lb break="no" ed="#L" n="25"/>tae et ultimae, adverte tres terminos: ly homo, ly mereri,
+<lb ed="#L" n="26"/>ly a Deo. Nam sermo est de homine: et non de homine
+<lb ed="#L" n="27"/>e adoptato in filium Dei, non de homine in statu pens vel
+<lb ed="#L" n="28"/>gratiae, sed absolute.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e131">
+                  <lb ed="#L" n="29"/>Mereri autem primo in servitiis inventum videtur, 
+qui<lb break="no" ed="#L" n="30"/>bus mercedem merentur, in quibus primo merces nominata
+<lb ed="#L" n="31"/>apparet. Unde et mercenarii dicti sunt qui ut mereantur
+<lb ed="#L" n="32"/>mercedem, serviunt. Verum a servitiis ad obsequia et 
+be<lb break="no" ed="#L" n="33"/>neficia extensum experimur, dum et obsequentes et 
+bene<lb break="no" ed="#L" n="34"/>facientes benemeritos de nobis seu republica vocamus. Et
+<lb ed="#L" n="35"/>ce: multipliciter meriti ratio contingat, hic sumitur in
+<lb ed="#L" n="36"/>uni, ut comprehendit sub se meritum congrui et
+<lb ed="#L" n="37"/>condigni.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e153">
+                  <lb ed="#L" n="38"/>Et quia experientia testatur aliquem communi iudicio
+<lb ed="#L" n="39"/>mereri bonum aliquod propter suà opera, vel poenam 
+ali<lb break="no" ed="#L" n="40"/>quam, sed non a me vel illo; ideo adiungitur ly a Deo,
+<lb ed="#L" n="41"/>ut determinetur retributor mercedis. Est igitur sensus tituli:
+<lb ed="#L" n="42"/>Utrum homo possit aliquid facere cui debeatur. merces a Deo.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e167">
+                  <lb ed="#L" n="43"/>II. In corpore articuli adverte quod, in communi 
+lo<lb break="no" ed="#L" n="44"/>quendo, in merito concurrunt quatuor: scilicet persona 
+me<lb break="no" ed="#L" n="45"/>rens seu merita, ipsum meritum, merces, et persona reddens
+<lb ed="#L" n="46"/>mercedem. Et licet ista quatuor exequantur, nom. solum
+<lb ed="#L" n="47"/>um sed praemium, tamen ordo ad haec omnia 
+exigi<lb break="no" ed="#L" n="48"/>tur: rationem. meriti, Oportet enim meritum esse 
+ali<lb break="no" ed="#L" n="49"/>cuius ut merentis, et alicuius ut debitae mercedis, et ad
+<lb ed="#L" n="50"/>aliquem redditorem mercedis: frustra enim operatur et 
+la<lb break="no" ed="#L" n="51"/>borat quis pro mercede a nullo habenda. Exhibitió autem
+<lb ed="#L" n="52"/>meriti et redditio mercedis actus ad alterum sunt 
+secun<lb break="no" ed="#L" n="53"/>dum aequalitatem rei ad rem, scilicet meriti ad mercedem
+<lb ed="#L" n="54"/>et e OBVEFSO.. Ideo ad rationem meriti e r ratio iusti:
+<lb ed="#L" n="55"/>quamvis. 'non sufficiat, plus namque ad rationem meriti
+<lb ed="#L" n="56"/>exigitur. Nàm iusti et debiti ratio sine libero arbitrio 
+in<lb break="no" ed="#L" n="57"/>veniuntur ii rebus: iustum namque est aquilae naturae
+<lb ed="#L" n="58"/>ut habeat rostrum, homini ut habeat manus, et gravibus
+<lb ed="#L" n="59"/>et levibus ut sint in locis suis, feminino sexui ut 
+iunga<lb break="no" ed="#L" n="60"/>tur masculo, etc.; et haec sunt debita illis, Sed ad rationem
+<lb ed="#L" n="61"/>meriti exigitur voluntarium: nullus enim meretur aut 
+de<lb break="no" ed="#L" n="62"/>meretur naturalibus vel invitis passionibus, vel 
+acciden<lb break="no" ed="#L" n="63"/>tibus. Et quoniam dustum inter duos est, et ad diversos
+<lb ed="#L" n="64"/>diversimode; et voluntarium, nisi ad aliquem alterum 
+ordi<lb break="no" ed="#L" n="65"/>netur, nullum alterum respicit: ideo ratio meriti ex ratione
+<lb ed="#L" n="66"/>iusti voluntarii et ordinis ad alterum integrari dicitur in
+<lb ed="#L" n="67"/>littera, dum primo de iusto, inde de praeordinatione Dei,
+<lb ed="#L" n="68"/>et demum de libero arbitrio intentum concluditur.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e226">
+                  <lb ed="#L" n="69"/>III. Et quoniam in speciali de merito a Deo quaestio
+<lb ed="#L" n="70"/>est, et redditor mercedis debitor est, et omnis debitor 
+ali<lb break="no" ed="#L" n="71"/>cuius debitor est, et Deus nulli potest esse debitor nisi sibi;
+<lb ed="#L" n="72"/>idcirco, sicut in rebus naturalibus Deus, dando manus 
+ho<lb break="no" ed="#L" n="73"/>mini, marem feminae, etc., dat debita rebus ex ordinatione
+<lb ed="#L" n="74"/>sua, scilicet ipsius Dei, ac per hoc quasi sibi ipsi solvit 
+debi<lb break="no" ed="#L" n="75"/>tum, et sic ibi est ratio iusti, ut in II Contra Gent., cap. xxix,
+<lb ed="#L" n="76"/>hafise diffuse; ita in redditióhe mercedis debitae merito 
+hu<lb break="no" ed="#L" n="77"/>mano, Deus non aliter potest constitui debitor nisi pro
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>quanto ab ipsomet Deo praesupponitur ordinatus actus ille
+<lb ed="#L" n="79"/>ad consequendum mercedem illam; sic enim Deus 
+consti<lb break="no" ed="#L" n="80"/>tuitur debitor sibi ipsi, et reddendo nobis mercedem, suae
+<lb ed="#L" n="81"/>satisfacit ordinationi. Unde et paterfamilias redditurus 
+mer<lb break="no" ed="#L" n="82"/>cedem operariis vineae, prius conduxit eos conventione vel
+<lb ed="#L" n="83"/>promissione facta de mercede per. seipsum. Propter quod
+<lb ed="#L" n="84"/>in littera Auctor rationem meriti humani impossibilem esse
+<lb ed="#L" n="85"/>constituit nisi ex praeordinatione divina, ex qua meritorius
+<lb ed="#L" n="86"/>actus habet quod respiciat Deum ut debitorem.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e270">
+                  <lb ed="#L" n="87"/>IV. In eodem articulo; circa rationem iusti inventam in
+<lb ed="#L" n="88"/>merito hominis apud. Deum, adverte quod meritum tale,
+<lb ed="#L" n="89"/>ultra respectus quos habet ad hominem merentem et Deum
+<lb ed="#L" n="90"/>ut praeordinantem, habet duos alios: alterum ad 
+merce<lb break="no" ed="#L" n="91"/>dem, alterum. ad redditorem mercedis. Et quidem si 
+com<lb break="no" ed="#L" n="92"/>paretur meritum hominis ad Deum, nunquam invenietur
+<lb ed="#L" n="93"/>iustum simpliciter, ut in littera dicitur. Sed si comparetur
+<lb ed="#L" n="94"/>meritum hominis ad mercedem debitam secundum se, sic
+<lb ed="#L" n="95"/>non inconvenit inveniri iustum simpliciter: quoniam non
+<lb ed="#L" n="96"/>inconyenit aequivalere meritum praemio reddendo, et 
+or<lb break="no" ed="#L" n="97"/>dinari a Deo actum meriti tanti valoris ad aequivalens
+<lb ed="#L" n="98"/>praemium. Et quoniam merces reddenda a Deo, 
+quantum<lb break="no" ed="#L" n="99"/>cumque secundum se sit aequivalens merito, ut tamen 
+red<lb break="no" ed="#L" n="100"/>ditur a Deo; excedit. meritum hominis, cuius ad Deum non
+<lb ed="#L" n="101"/>potest esse aequalitas simpliciter in aliquo; ideo simpliciter
+<lb ed="#L" n="102"/>hominis ad Deum non potest esse meritum simpliciter, sed
+<lb ed="#L" n="103"/>secundum proportionem, ut in littera dicitur; quamvis 
+ho<lb break="no" ed="#L" n="104"/>minis ad ipsam mercedem absolute possit esse meritum
+<lb ed="#L" n="105"/>simpliciter, sicut et iustum.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e314">
+                  <lb ed="#L" n="106"/>V. In eodem primo articulo, circa ordinationem divinam
+<lb ed="#L" n="107"/>concurrentem ad. rationem. meriti apud Deum, dubium 
+oc<lb break="no" ed="#L" n="108"/>currit an talis praeordinatio divina fiat universaliter per
+<lb ed="#L" n="109"/>communicatum principium operis. meritorii: an ratio 
+meri<lb break="no" ed="#L" n="110"/>torii quandoque fiat per solam divinam ordinationem actus
+<lb ed="#L" n="111"/>ad tale: praemium. Sed quoniam in articulo tertio res haec
+<lb ed="#L" n="112"/>in speciali de merito vitae aeternae discutienda est, ideo
+<lb ed="#L" n="113"/>sat sit pro nunc scire dubitare; et notare quod id dicitur
+<lb ed="#L" n="114"/>esse merces reddenda a Deo nostro merito, ad quod 
+con<lb break="no" ed="#L" n="115"/>sequendum. Deus dedit nobis virtutem operativam liberam.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e338">
+                  <lb ed="#L" n="116"/>VI. In eodem primo articulo adverte, novitie, quod 
+prae<lb break="no" ed="#L" n="117"/>ordinationem divinam nostri actus in ratione meritorii, nec
+<lb ed="#L" n="118"/>ab ipso Deo, nec ab alio retributore, oportet sortiri illam
+<lb ed="#L" n="119"/>mercedem: ut patet in eo qui, aliquanto tempore 
+perse<lb break="no" ed="#L" n="120"/>verans:in bono, obicem ponit praemio ante retributionis
+<lb ed="#L" n="121"/>tempus. Et ratio est quia non omnis praeordinatio est
+<lb ed="#L" n="122"/>praeordinatio praedestinationis, quae effectum infallibiliter
+<lb ed="#L" n="123"/>consequitur: sed aliqua praeordinatio est providentiae non
+<lb ed="#L" n="124"/>eventus, sed causae. Et propterea mater benemerita de filio,
+<lb ed="#L" n="125"/>quandoque mercedem honoris debiti a filio, nec ab ipso
+<lb ed="#L" n="126"/>filio sortitur; nec a Deo, qui praeordinavit matri 
+beneme<lb break="no" ed="#L" n="127"/>ritae talem honorem deberi, fit ut filius honorem 
+huius<lb break="no" ed="#L" n="128"/>modi impendat. Et ex eadem radice evenit ut Iudas, post
+<lb ed="#L" n="129"/>multa merita vitae aeternae, non consecutus fuerit eam.
+<lb ed="#L" n="130"/>Nihil enim ex huiusmodi eventibus divinae ordinationi 
+de<lb break="no" ed="#L" n="131"/>perit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1261-Dd1e376"><!-- caj-p2p1-q114-a2 -->
+               <head xml:id="TAcCaj-d1e1261-Hd1e379">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1261-d1e381">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="89"/>Commentaria Cardinalis Caietani,
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e388">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="90"/>IN articulo secundo eiusdem quaestionis, dubium occurrit
+<lb ed="#L" n="91"/>de superfluitate: quia Auctor in quaestione 
+centesima<lb break="no" ed="#L" n="92"/>nona eundem articulum movit.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e399">
+                  <lb ed="#L" n="93"/>Ad hoc dicitur quod non inconvenit diversis rationibus
+<lb ed="#L" n="94"/>in diversis locis eandem quaestionem movere, ut 
+unusquis<lb break="no" ed="#L" n="95"/>que tractatus integer fiat. Haec ergo quaestio de merito
+<lb ed="#L" n="96"/>vitae aeternae per gratiam, potest dupliciter occurrere. 
+Pri<lb break="no" ed="#L" n="97"/>mo, de merito huiusmodi ut habet rationem finis respectu
+<lb ed="#L" n="98"/>gratiae. Et sic spectat ad quaestionem de necessitate 
+gra<lb break="no" ed="#L" n="99"/>tiae, quae est necessitas ex suppositione, scilicet ad haben-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="100"/>dum tale quid: quae vocatur necessitas finis. Et hoc modo
+<lb ed="#L" n="101"/>superius haec quaestio integravit tractatum de necessitate
+<lb ed="#L" n="102"/>gratiae. - Secundo, de merito huiusmodi ut habet rationem.
+<lb ed="#L" n="103"/>effectus respectu gratiae. Et sic hic tractatur, ad 
+integrita<lb break="no" ed="#L" n="104"/>tem tractatus de secundo effectu gratiae, quod est meritum;
+<lb ed="#L" n="105"/>ut patet et ex initio tractatus huius, et praecedentis 
+quae<lb break="no" ed="#L" n="106"/>stionis.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e434">
+                  <lb ed="#L" n="107"/>II. In eodem articulo secundo adverte quod, quia nec
+<lb ed="#L" n="108"/>ex titulo articuli, nec ex ratione allata in littera, habetur
+<lb ed="#L" n="109"/>quod hic sit sermo de potentia Dei absoluta; sed titulus
+<pb ed="#L" n="347"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est de potentia meritoria vitae aeternae, an sit propria 
+gra<lb break="no" ed="#L" n="2"/>tiae, ità quod ipsa sola hoc possit inter creatas naturas
+<lb ed="#L" n="3"/>(hoc est enim quaerere: An sine gratia etc.); ratio quoque
+<lb ed="#L" n="4"/>litterae super divina providentia, quae statuit actum non
+<lb ed="#L" n="5"/>ordinari ad aliquid excedens proportionem virtutis quae
+<lb ed="#L" n="6"/>est principium actus, fundatur: ideo ex hoc loco nullus
+<lb ed="#L" n="7"/>sumat esse doctrinam Auctoris quod homo sine gratiae
+<lb ed="#L" n="8"/>habituali dono, per divinam potentiam, non possit mereri
+<lb ed="#L" n="9"/>vitam aeternam. Dicet forte quispiam non esse contra 
+Au<lb break="no" ed="#L" n="10"/>ctoris doctrinam quod homo, ex gratuita Dei ordinatione,
+<lb ed="#L" n="11"/>absque habituali dono, mereatur per actum liberi arbitrii,
+<lb ed="#L" n="12"/>puta opera pietatis, vitam aeternam.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e474">
+                  <lb ed="#L" n="13"/>III. In responsione ad tertium eiusdem-articuli, dubium
+<lb ed="#L" n="14"/>occurrit circa illud, scilicet quod homo non potest mereri
+<lb ed="#L" n="15"/>ab alio homine quem prius offendit, nisi ei satisfaciens
+<lb ed="#L" n="16"/>reconcilietur. Videtur enim hoc falsum. Nam potest quis
+<lb ed="#L" n="17"/>operari pro eo quem offendit, ante reconciliationem, sic ut
+<lb ed="#L" n="18"/>constituat eundem sibi debitorem ad reddendum 
+merce<lb break="no" ed="#L" n="19"/>dem: ut patet si ponamus Ioannem offendisse Petrum 
+con<lb break="no" ed="#L" n="20"/>tumelia vel rapina, et postmodum, videns eiusdem Petri
+<lb ed="#L" n="21"/>filium invasum ab inimicis ad mortem, liberet illum, 
+peri<lb break="no" ed="#L" n="22"/>culo mortis seipsum exponens pro hoc. Constat namque
+<lb ed="#L" n="23"/>quod tunc Ioannes meretur a Petro, quem prius offenderat:
+<lb ed="#L" n="24"/>et tamen non erat sibi reconciliatus.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e503">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>Praeterea, aliquis potest servire locando operas suas ei
+<lb ed="#L" n="26"/>quem offendit contumelia vel furto, manente offensa: et
+<lb ed="#L" n="27"/>meretur mercedem ab eo. Alioquin operarius qui servivit
+<lb ed="#L" n="28"/>pro centum, posset privari ab illo propter furtum decem,
+<lb ed="#L" n="29"/>vel propter contumeliam.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e519">
+                  <lb ed="#L" n="30"/>IV. Ad hoc dicitur breviter quod in his et similibus,
+<lb ed="#L" n="31"/>licet non prius tempore, tamen prius natura intelligitur
+<lb ed="#L" n="32"/>satisfactio et reconciliatio facta, quam meritum. Nam quia
+<lb ed="#L" n="33"/>in maiore clauditur minus, Petro satisfecisse intelligitur
+<lb ed="#L" n="34"/>Ioannes, qui pro eo vitam discrimini exposuit. Et sic 
+me<lb break="no" ed="#L" n="35"/>retur veniam ac amicitiam a Petro, a quibus offensa 
+exclu<lb break="no" ed="#L" n="36"/>debat.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e537">
+                  <lb ed="#L" n="37"/>Ad secundum dicitur quod, quia offensa pro tanto
+<lb ed="#L" n="38"/>excludit meritum, pro quanto excludit debitum mercedis
+<lb ed="#L" n="39"/>ab offenso; si offensa praecedens non purgatur per sequens
+<lb ed="#L" n="40"/>servitium, nunquam merebitur mercedem; sed servitium
+<lb ed="#L" n="41"/>suum, per modum solutionis debiti, satisfacit in toto vel in
+<lb ed="#L" n="42"/>parte. Si autem purgatur et abundat, iam redit primi 
+ar<lb break="no" ed="#L" n="43"/>gumenti solutio. Et sic homo ab homine offenso non 
+po<lb break="no" ed="#L" n="44"/>test mereri antequam satisfaciat.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e557">
+                  <lb ed="#L" n="45"/>Posset quoque dici ad hoc dubium unico verbo, quod
+<lb ed="#L" n="46"/>Auctor intendat de merito apud amicum seu patrem, quale
+<lb ed="#L" n="47"/>est meritum nostrum apud Deum: ut sic simile sit de Deo
+<lb ed="#L" n="48"/>et homine offenso. Prima tamen responsio formalis est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1261-Dd1e569"><!-- caj-p2p1-q114-a3 -->
+               <head xml:id="TAcCaj-d1e1261-Hd1e572">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1261-d1e574">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e581">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>IN articuli tertii titulo, scito quod mereri ex condigno est
+<lb ed="#L" n="13"/>Iun sic ut secundum iustitiam sibi debeatur: ita quod
+<lb ed="#L" n="14"/>iniustum esset non reddi mercedem merito ex condigno.
+<lb ed="#L" n="15"/>Unde et nomen accepit ab aequa dignitate meriti ad 
+mer<lb break="no" ed="#L" n="16"/>cedem.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e597">
+                  <lb ed="#L" n="17"/>II. In corpore articuli, adverte quod illa duo, scilicet
+<lb ed="#L" n="18"/>motio Spiritus Sancti et gratia; non sunt duae disparatae
+<lb ed="#L" n="19"/>causae meriti, sed sunt causae subordinatae: motio quidem
+<lb ed="#L" n="20"/>Spiritus Sancti ut actio causae primae, et gratia ut causa
+<lb ed="#L" n="21"/>secunda operis inquantum meritorii. Movet enim Spiritus
+<lb ed="#L" n="22"/>Sanctus hominem ad merendum mediante gratia: propter
+<lb ed="#L" n="23"/>quod littera, de motione Spiritus Sancti loquens, affert illud
+<lb ed="#L" n="24"/>Ioan. 1v: Fit in eo fons aquae.salientis in vitam. 
+aeter<lb break="no" ed="#L" n="25"/>nam. Et intendit Auctor quod, quia opus elicitur.a gratia,
+<lb ed="#L" n="26"/>habet quod sit meritorium ex condigno ex utraque sui 
+pro<lb break="no" ed="#L" n="27"/>pria causa, scilicet prima et proxima. Nec altera superfluit:
+<lb ed="#L" n="28"/>quoniam non sunt eiusdem ordinis.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e626">
+                  <lb ed="#L" n="29"/>III. Et contra primae quidem causae sufficientiam non
+<lb ed="#L" n="30"/>occurrunt contradictores. Contra secundam autem occurrit.
+<lb ed="#L" n="31"/>Scotus, in I Sent., dist. xvir, qu. 1, tenens quod actus 
+eli<lb break="no" ed="#L" n="32"/>citus a gratia non est meritorius simpliciter vitae aeternae;
+<lb ed="#L" n="33"/>sed oportet quod, ultra hoc quod sit informatus gratia, sit
+<lb ed="#L" n="34"/>acceptus Deo, idest ordinatus a Deo ad consequendam 
+vi<lb break="no" ed="#L" n="35"/>tam aeternam. Et in tali ordinatione seu. acceptione 
+pas<lb break="no" ed="#L" n="36"/>siva compleri dicit rationem meriti ex condigno.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e647">
+                  <lb ed="#L" n="37"/>Arguitque primo, sic. Si actus ex solis intrinsecis agenti.
+<lb ed="#L" n="38"/>esset sic ordinatus ad beatitudinem, sequeretur quod Deus
+<lb ed="#L" n="39"/>non posset ei qui sic operatus est, non retribuere 
+beati<lb break="no" ed="#L" n="40"/>tudinem, nisi iniuste eam subtrahendo. Hoc est falsum. Ergo
+<lb ed="#L" n="41"/>talis ordo est ex sola voluntate divina.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e660">
+                  <lb ed="#L" n="42"/>Secundo, sic. Praemium semper est maius bonum 
+me<lb break="no" ed="#L" n="43"/>rito. Et iustitia stricta non reddit melius pro minus bono.
+<lb ed="#L" n="44"/>Ergo actus meritorius non est dignus tali praemio ex 
+bo<lb break="no" ed="#L" n="45"/>nitate quam habet ex suis principiis.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e671">
+                  <lb ed="#L" n="46"/>IV. Sed haec facile solvuntur. Nam ad primum dicitur
+<lb ed="#L" n="47"/>quod iniuste subtraheretur merces, tempore debito, ei qui
+<lb ed="#L" n="48"/>operatus est ex gratia, Et Deus, qui est debitor sibi ipsi,
+<lb ed="#L" n="49"/>qui ordinavit, non per superadditam ordinationem, ut 
+Sco<lb break="no" ed="#L" n="50"/>tus putavit, sed per ipsam gratiam, eius actum esse 
+merito<lb break="no" ed="#L" n="51"/>rium ex hoc ipso solo quod est a gratia, quod est talis 
+na<lb break="no" ed="#L" n="52"/>turae, sicut non potest contra seipsum facere, ita non potest
+<lb ed="#L" n="53"/>subtrahere mercedem. Cum quo tamen stat quod potest
+<lb ed="#L" n="54"/>etiam beatos omnes annihilare de potentia absoluta. Sed
+<lb ed="#L" n="55"/>hoc est extra quaestionem praesentem.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e695">
+                  <lb ed="#L" n="56"/>Ad secundum dicitur quod liberalitas divina remunerans
+<lb ed="#L" n="57"/>supra meritum, non adimit merito vim suam, Ex hoc 
+nam<lb break="no" ed="#L" n="58"/>que quod Deus actui merenti gloriam ut unum, reddit 
+glo<lb break="no" ed="#L" n="59"/>riam ut duo, non adimitur actui illi quin meruerit secundum
+<lb ed="#L" n="60"/>strictam iustitiam gloriam ut unum. Unde ratio illa non
+<lb ed="#L" n="61"/>probat quod actus non sit meritorius: sed hoc, quod non
+<lb ed="#L" n="62"/>sit meritorius totius praemii quod dat Deus, supposita tali
+<lb ed="#L" n="63"/>liberalitate.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e715">
+                  <lb ed="#L" n="64"/>V. Et tu habes in littera pro doctrina s. Thomae 
+au<lb break="no" ed="#L" n="65"/>ctoritatem Apostoli, Si filii, heredes, etc.: ubi potes 
+fun<lb break="no" ed="#L" n="66"/>dare rationem. Quia filio. obedienti et ut filio operanti, 
+de<lb break="no" ed="#L" n="67"/>betur hereditas paterna ex solo ipso iure stricto, ita quod
+<lb ed="#L" n="68"/>non nisi iniuste potest privari. Sed sola gratia constituit
+<lb ed="#L" n="69"/>filios Dei, seclusa quacumque ordinatione. Ergo. Superflua
+<lb ed="#L" n="70"/>quoque est superaddita ordinatio illa. Quoniam. quidquid
+<lb ed="#L" n="71"/>per illam fit, salvatur melius per motionem Spiritus Sancti
+<lb ed="#L" n="72"/>mediante gratia. - Vilificat quoque gratiam positio. illa, dum
+<lb ed="#L" n="73"/>ei proprium opus subtrahit, scilicet meritum; et nos non
+<lb ed="#L" n="74"/>posse per gratiam mereri nisi dispositive, ponit. Quae omnia
+<lb ed="#L" n="75"/>aliena a theologia reali sunt.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e744">
+                  <lb ed="#L" n="76"/>V. Et tu potes scire hanc esse veram mentem Auctoris, ex
+<lb ed="#L" n="77"/>doctrina eius in qu. xxr superius, ubi ostensum est quod
+<lb ed="#L" n="78"/>actus humanus, ex hoc quod est bonus vel malus 
+mora<lb break="no" ed="#L" n="79"/>liter, habet rationem meriti vel demeriti etiam apud Deum. -
+<lb ed="#L" n="80"/>Ex hoc namque sequitur quod ex hoc ipso quod actus est
+<lb ed="#L" n="81"/>bonus, est ordinatus a Deo ad praemium: et hoc, ut ibi 
+<lb ed="#L" n="82"/>dicitur, quantum est ex ratione actus; nec oportet aliam
+<lb ed="#L" n="83"/>ordinationem superaddere.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e765">
+                  <lb ed="#L" n="84"/>VI. In eodem articulo dubium occurrit quo pacto. vc
+<lb ed="#L" n="85"/>homo per gratiam mereri ex condigno vitam aeternai
+<lb ed="#L" n="86"/>cum inter Deum et creaturam quamcumque, multo minus
+<lb ed="#L" n="87"/>quam inter patrem et filium, possit esse iustum simpliciter.
+<lb ed="#L" n="88"/>Constat enim quod homo in gratia creatura pura est; et
+<lb ed="#L" n="89"/>filius adoptivus non plus iusti sortitur apud patrem quam
+<lb ed="#L" n="90"/>simpliciter spectat.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e783">
+                  <lb ed="#L" n="91"/>Ad hoc dicitur quod opus meritorium ex gratia et 
+Spi<lb break="no" ed="#L" n="92"/>ritu Sancto procedens, potest comparari ad Deum 
+retribu<lb break="no" ed="#L" n="93"/>torem. Et sic, propter rationes allatas, solam rationem iusti
+<lb ed="#L" n="94"/>dominativi seu paterni video; iuxta, illud Apostoli, II. ad
+<lb ed="#L" n="95"/>Tim. IV: quam reddet. Dominus, iustus iudex, — Si autem
+<lb ed="#L" n="96"/>referatur ad mercedem, scilicet vitam aeternam, sic est ratio
+<lb ed="#L" n="97"/>iusti simpliciter et aequalitas, Et ad hanc aequalitatem 
+ten<lb break="no" ed="#L" n="98"/>dunt verba litterae, ut patet in responsione ad tertium, -
+<lb ed="#L" n="99"/>Quod si quis dicere velit quod inter opus meritorium ut
+<lb ed="#L" n="100"/>est a Spiritu Sancto, et Deum, est iustum simpliciter: 
+ad<lb break="no" ed="#L" n="101"/>vertat quod iustum quaeritur inter retributorem et 
+opera<lb break="no" ed="#L" n="102"/>torem qui remuneratur, et non inter primam. causam 
+mer<lb break="no" ed="#L" n="103"/>cedis et meriti.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1261-Dd1e815"><!-- caj-p2p1-q114-a6 -->
+               <head xml:id="TAcCaj-d1e1261-Hd1e818">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1261-d1e820">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e827">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>In articulis quarto, quinto et sexto, nihil occurrit 
+scriben<lb break="no" ed="#L" n="9"/>dum, nisi quod in quarto, et clarius in sexto, apparet
+<lb ed="#L" n="10"/>quod diximus esse de mente Auctoris: scilicet quod divina
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="11"/>motio ad meritum per gratiam, est etiam in Christo; et ut
+<lb ed="#L" n="12"/>una meriti radix computata, distinguitur contra aliam, 
+sci<lb break="no" ed="#L" n="13"/>licet liberum arbitrium.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1261-Dd1e849"><!-- caj-p2p1-q114-a7 -->
+               <head xml:id="TAcCaj-d1e1261-Hd1e852">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1261-d1e854">
+                  <cb ed="#L" n=""/>
+                  <lb ed="#L" n="86"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e861">
+                  <cb ed="#L" n=""/>
+                  <lb ed="#L" n="87"/>IN articulo septimo dubium occurrit circa rationem litterae
+<lb ed="#L" n="88"/>Ds probandum quod nullus potest mereri ex condigno
+<lb ed="#L" n="89"/>sibi reparationem post lapsum, quia scilicet motio divinae
+<lb ed="#L" n="90"/>gratiae interrumpitur per lapsum. Contra hanc siquidem
+<lb ed="#L" n="91"/>rationem instatur, primo, quia non exigitur ad hoc quod
+<lb ed="#L" n="92"/>aliqua sit merces reddenda ex condigno, quod motio 
+divi<lb break="no" ed="#L" n="93"/>nae gratiae non interrumpatur. Ergo ratio litterae, quae ex
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="94"/>interruptione infert non meritum, nihil valet. - Assumptum
+<lb ed="#L" n="95"/>patet: quia Iudas quandoque meruit vitam aeternam ex 
+con<lb break="no" ed="#L" n="96"/>digno; et tamen motio divinae gratiae fuit interrupta.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e890">
+                  <lb ed="#L" n="97"/>Et confirmatur. Quia tantum est dicere quod interruptio
+<lb ed="#L" n="98"/>gratiae facit vel exigit aliquod non cadere sub merito 
+con<lb break="no" ed="#L" n="99"/>digni, quantum dicere: Nihil meremur ex condigno, nisi ad
+<lb ed="#L" n="100"/>quod continuata gratia pervenimus. Quod est falsum.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e901">
+                  <pb ed="#L" n="352"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>II. Ad evidentiam huius difficultatis, sciendum est quod
+<lb ed="#L" n="2"/>gratia dupliciter concurrit ad meritum, Primo, ut 
+consti<lb break="no" ed="#L" n="3"/>tuens hominem in statu remunerabili. Et hoc facit gratia
+<lb ed="#L" n="4"/>constituendo hominem divinae naturae consortem. — 
+Secun<lb break="no" ed="#L" n="5"/>do, ut principium actus meritorii. Et quia secundum non
+<lb ed="#L" n="6"/>solum praesupponit primum in ratione principii, sicut agere
+<lb ed="#L" n="7"/>praesupponit esse; sed coexigit in ratione constituentis 
+sta<lb break="no" ed="#L" n="8"/>tum remunerabilis, ita quod nullus ex condigno meretur
+<lb ed="#L" n="9"/>sibi homini, sed sibi constituto in.gratia, mercedem vel
+<lb ed="#L" n="10"/>praemium simpliciter: ideo de ratione meriti ex condigno
+<lb ed="#L" n="11"/>sibi, est constituere mercedem debitam sibi in statu gratiae.
+<lb ed="#L" n="12"/>Ita quod gratia non solum exigitur ad constituendam 
+per<lb break="no" ed="#L" n="13"/>sonam quae meretur et cui meretur, sed cui exhibendum
+<lb ed="#L" n="14"/>sit praemium. Et ratio huius est universalis, quia scilicet
+<lb ed="#L" n="15"/>quodlibet meritum efficit mercedem debitam sibi in solo
+<lb ed="#L" n="16"/>statu digno mercede: nullus enim meretur aliquid 
+exhiben<lb break="no" ed="#L" n="17"/>dum sibi in statu indigno mercede.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e946">
+                  <lb ed="#L" n="18"/>Ex hoc autem quod status dignus mercede debita 
+me<lb break="no" ed="#L" n="19"/>rito ex condigno, constituitur gratia, sequitur quod 
+impo<lb break="no" ed="#L" n="20"/>ssibile est habere rationem mercedis debitae merito ex
+<lb ed="#L" n="21"/>condigno, quod in ratione sua claudit statum oppositum,
+<lb ed="#L" n="22"/>ut patet. Et quia reparatio post lapsum in ratione sua
+<lb ed="#L" n="23"/>claudit subiectum in statu opposito, quia in peccato 
+mor<lb break="no" ed="#L" n="24"/>tali per lapsum; ideo impossibile est quod reparatio post
+<lb ed="#L" n="25"/>lapsum habeat rationem mercedis debitae merito ex 
+con<lb break="no" ed="#L" n="26"/>digno. Et hoc intendit Auctor in paucissimis verbis 
+lit<lb break="no" ed="#L" n="27"/>terae.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e970">
+                  <lb ed="#L" n="28"/>III. Quod ut clarius intelligas, simul cum dictis nunc,
+<lb ed="#L" n="29"/>scito interruptionem gratiae dupliciter inveniri posse. Primo,
+<lb ed="#L" n="30"/>ut impedimentum ad consequendam mercedem merito 
+de<lb break="no" ed="#L" n="31"/>bitam. Et de tali interruptione loquitur Auctor hic in re-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>sponsione ad tertium. De qua etiam loquuntur obiectiones
+<lb ed="#L" n="33"/>in oppositum allatae: qua et Iudas non assecutus est vitam
+<lb ed="#L" n="34"/>aeternam, quam meruerat, si aliquando fuit bonus. Et talis
+<lb ed="#L" n="35"/>interruptio, ut in littera dicitur, impedit consecutionem 
+mer<lb break="no" ed="#L" n="36"/>cedis, sicut universaliter causa naturalis impedibilis, puta
+<lb ed="#L" n="37"/>semen perfectum aliquanto tempore operans proprium 
+effe<lb break="no" ed="#L" n="38"/>ctum, si eradicetur vel aliter occupetur, impeditur a 
+conse<lb break="no" ed="#L" n="39"/>cutione effectus ad quem secundum naturam suam erat
+<lb ed="#L" n="40"/>ordinatum. Iam enim dictum est quod actus meritorius Art. r, 5.
+<lb ed="#L" n="41"/>est ordinatus per gratiae semen a Deo ad causandum vitam
+<lb ed="#L" n="42"/>aeternam, sicut alii actus naturales ad suos terminos. Et
+<lb ed="#L" n="43"/>huiusmodi interruptio per accidens se habet ad meritum et
+<lb ed="#L" n="44"/>mercedem: quamvis per se se habeat ad consecutionem,
+<lb ed="#L" n="45"/>utpote directe contraria illi.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1014">
+                  <lb ed="#L" n="46"/>Secundo autem modo invenitur interruptio ut clausa
+<lb ed="#L" n="47"/>in ratione termini, Et sic est implicatio in adiecto dicere
+<lb ed="#L" n="48"/>quod est merces in statu corruptionis, sicut dicere lumen
+<lb ed="#L" n="49"/>in opaco, ut patet ex dictis. Et de huiusmodi interruptione Num. praeced.
+<lb ed="#L" n="50"/>loquitur littera in hac ratione, quae motionem divinae 
+gra<lb break="no" ed="#L" n="51"/>tiae interruptam per sequens peccatum, ut inclusam in 
+ra<lb break="no" ed="#L" n="52"/>tione mercedis, affert pro causa quare non cadit reparatio
+<lb ed="#L" n="53"/>post lapsum in merito.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1034">
+                  <lb ed="#L" n="54"/>IV. Et per hoc patet responsio ad obiecta, Nam et vita '
+<lb ed="#L" n="55"/>aeterna, et augmentum gratiae, et quidquid cadit simpliciter
+<lb ed="#L" n="56"/>sub merito condigni, ad consecutionem quidem sui exigit
+<lb ed="#L" n="57"/>continuitatem seu perseverantiam status: ad hoc autem quod
+<lb ed="#L" n="58"/>sit merces debita, non. Nec interruptio quia impedit talem.
+<lb ed="#L" n="59"/>continuitatem, impedit reparationem habere rationem mer-.
+<lb ed="#L" n="60"/>cedis: sed quia reparatio post lapsum includit in ratione
+<lb ed="#L" n="61"/>sua interruptionem, ut lumen diaphanum. Non sic autem
+<lb ed="#L" n="62"/>est de vita aeterna et alis quae meremur ex condigno.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1261-Dd1e1057"><!-- caj-p2p1-q114-a8 -->
+               <head xml:id="TAcCaj-d1e1261-Hd1e1060">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1261-d1e1062">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1069">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>In articulo octavo eiusdem quaestionis, nota quod Auctor
+<lb ed="#L" n="13"/>uti videtur gratia quasi motore, in principio corporis 
+arti<lb break="no" ed="#L" n="14"/>culi, quia gratia est velut organum seu medium quo Spiritus
+<lb ed="#L" n="15"/>Sanctus movet nos: ac per hoc, eadem motio attribuitur
+<lb ed="#L" n="16"/>Spiritui Sancto et gratiae, et ad idem se extendere dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1085">
+                  <lb ed="#L" n="17"/>II. In responsione ad secundum eiusdem articuli, dubium
+<lb ed="#L" n="18"/>occurrit duplex: primo, circa id quod dicitur; secundo,
+<lb ed="#L" n="19"/>circa id quod supponitur. Falsum quidem videtur quod
+<lb ed="#L" n="20"/>augmentum gratiae sit supra quantitatem, et non supra 
+vir<lb break="no" ed="#L" n="21"/>tutem praeexistentis gratiae. Nam im his quae non mole
+<lb ed="#L" n="22"/>magna sunt, idem est maius et melius, ut Augustinus 
+di<lb break="no" ed="#L" n="23"/>cit. Et constat quod in maiori quantitate gratiae est maior
+<lb ed="#L" n="24"/>virtus quam in minori. Ac per hoc, augmentum gratiae, sicut
+<lb ed="#L" n="25"/>excedit quantitatem, ita excedit virtutem praeexistentis 
+gra<lb break="no" ed="#L" n="26"/>tiae. Non sic autem est de semine et arbore, et animali
+<lb ed="#L" n="27"/>parvo crescente in magnum; in quibus virtus augmentativa
+<lb ed="#L" n="28"/>distinguitur a quantitate perfecta, ad quam movet.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1114">
+                  <lb ed="#L" n="29"/>Falsum quoque suppositum videtur, scilicet quod gratia
+<lb ed="#L" n="30"/>augeat seipsam: cum solus Deus effective causet et augeat
+<lb ed="#L" n="31"/>gratiam.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1124">
+                  <lb ed="#L" n="32"/>III. Ad hoc dicitur quod, quia augmentum non nisi 
+me<lb break="no" ed="#L" n="33"/>taphorice in formis extra quantitatem dicitur; est enim
+<lb ed="#L" n="34"/>motus intensionis augmentatio gratiae, sicut et aliarum 
+for<lb break="no" ed="#L" n="35"/>marum: ideo non oportet hoc attendere quod, sicut animal
+<lb ed="#L" n="36"/>aut animatum auget seipsum, ita gratia auget seipsam, ut
+<lb ed="#L" n="37"/>de semine et arbore similitudo affertur. Sed in huiusmodi
+<lb ed="#L" n="38"/>augmento gratiae, quae vere intensio est, attendendum est
+<lb ed="#L" n="39"/>quod causa agens, quae efficit formam in subiecto disposito,
+<lb ed="#L" n="40"/>auget eam mediante seipsa cooperante per actum suum
+<lb ed="#L" n="41"/>ad disponendum capaxque reddendum subiectum maioris
+<lb ed="#L" n="42"/>gratiae, et ad faciendum sibi debitum, idest merendum,
+<lb ed="#L" n="43"/>huiusmodi augmentum. Et licet augmentum gratiae sit
+<lb ed="#L" n="44"/>maioris quantitatis ac virtutis quam gratia praeexistens, ut
+<lb ed="#L" n="45"/>manifeste patet cum augetur usque ad consummationem
+<lb ed="#L" n="46"/>patriae; non tamen excedit efficaciam gratiae praeexistentis in
+<lb ed="#L" n="47"/>disponendo ac merendo eam, sed est proportionatus 
+termi<lb break="no" ed="#L" n="48"/>nus illius. Et hoc est non excedere illam in virtute, quamvis
+<lb ed="#L" n="49"/>in quantitate.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1166">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="50"/>Unde obiectio primi dubii in aequivoco laborat. Nam
+<lb ed="#L" n="51"/>dupliciter intelligi potest esse supra virtutem: uno modo,
+<lb ed="#L" n="52"/>habere maiorem virtutem; alio modo, esse 
+improportiona<lb break="no" ed="#L" n="53"/>tum effectum seu terminum illius virtutis. Et in secundo
+<lb ed="#L" n="54"/>sensu sumitur in littera, non in primo: quia primus 
+co<lb break="no" ed="#L" n="55"/>incidit cum alio membro litterae, scilicet esse supra 
+quanti<lb break="no" ed="#L" n="56"/>tatem; nam eiusdem rationis est esse supra quantitatem et
+<lb ed="#L" n="57"/>virtutem, in primo sensu.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1188">
+                  <lb ed="#L" n="58"/>IV. Ad secundum dicitur quod littera non supponit 
+gra<lb break="no" ed="#L" n="59"/>tiam augere seipsam: sed ita se habere ad augmentum suum
+<lb ed="#L" n="60"/>causandum, ac si causaret illud, sicut actus habitus acquisiti
+<lb ed="#L" n="61"/>auget ipsum. Et hoc est verum. Quoniam in solo actu 
+gra<lb break="no" ed="#L" n="62"/>tiae augetur gratia; qui ita se habet ad augmentum, quod
+<lb ed="#L" n="63"/>si esset causabile per actum nostrum, tunc causaretur. 
+Sta<lb break="no" ed="#L" n="64"/>tuit siquidem tunc Deus augmentum causare, quando vis
+<lb ed="#L" n="65"/>nostra causaret illud, si in nostra esset potestate.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1208">
+                  <lb ed="#L" n="66"/>Et haec dicta sunt de gratia inquantum efficiente 
+aug<lb break="no" ed="#L" n="67"/>mentum: ut exponeretur etiam verbaliter responsio ad 
+se<lb break="no" ed="#L" n="68"/>cundum. Sed loquendo de gratia ut merente augmentum,
+<lb ed="#L" n="69"/>quomodo loquitur totus articulus, et argumentum 
+secun<lb break="no" ed="#L" n="70"/>dum: facilius patet meritum augmenti non esse supra 
+vir<lb break="no" ed="#L" n="71"/>tutem gratiae modo exposito; et non praesupponi 
+augmen<lb break="no" ed="#L" n="72"/>tum fieri a gratia, sed meritum illius ex condigno esse a
+<lb ed="#L" n="73"/>gratia.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1228">
+                  <lb ed="#L" n="74"/>V. In responsione ad tertium, adverte quod Auctor, qui
+<lb ed="#L" n="75"/>in II Sent., dist. xxvrr, qu. 1, art. 5, augmentum gratiae 
+con<lb break="no" ed="#L" n="76"/>sideravit solum ut effectum gratiae, et propterea posuit
+<lb ed="#L" n="77"/>ipsum ut praemium concomitans actum meritorium; hic,
+<lb ed="#L" n="78"/>perspicacius intuitus augmentum esse terminum medium
+<lb ed="#L" n="79"/>motus meritori, posuit ipsum esse praemium redditum
+<lb ed="#L" n="80"/>merito directe, sicut et vitam aeternam. Et propterea licet
+<lb ed="#L" n="81"/>ibi, in resp. ad 2, non posuerit quolibet actu meritorio 
+me<lb break="no" ed="#L" n="82"/>reri nos augmentum gratiae; hic hoc affirmat, suo tamen
+<lb ed="#L" n="83"/>tempore reddendum, cum scilicet aliquis fuerit sufficienter
+<lb ed="#L" n="84"/>dispositus ad augmentum gratiae. Quod tunc solum est,
+<lb ed="#L" n="85"/>cum aliquis ita utitur accepta gratia secundum 
+proportio<lb break="no" ed="#L" n="86"/>nem virium suarum, ut in nullo gratiae Dei desit per 
+ne<lb break="no" ed="#L" n="87"/>gligentiam, ut ibidem Auctor dicit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1261-Dd1e1262"><!-- caj-p2p1-q114-a9 -->
+               <head xml:id="TAcCaj-d1e1261-Hd1e1265">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e1261-d1e1267">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="34"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1274">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="35"/>IN articulo nono eiusdem quaestionis, dubium statim 
+oc<lb break="no" ed="#L" n="36"/>currit circa rationem litterae quare perseverantia non 
+ca<lb break="no" ed="#L" n="37"/>dit sub merito, quia dependet solum ex motione divina, etc.
+<lb ed="#L" n="38"/>Si enim haec ratio valet, augmentum gratiae non caderet
+<lb ed="#L" n="39"/>sub merito: quia dependet solum ex motione divina. Nec
+<lb ed="#L" n="40"/>valet dicere quod dependet ex nobis dispositive: quia etiam
+<lb ed="#L" n="41"/>perseverantia dependet ex nobis dispositive.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1294">
+                  <lb ed="#L" n="42"/>Ad hoc dicitur quod ratio litterae non consistit in 
+de<lb break="no" ed="#L" n="43"/>pendentia solum ex motione divina effective; sed consistit
+<lb ed="#L" n="44"/>in hoc. quod. dependet solum ex motione divina quae est
+<lb ed="#L" n="45"/>principium gratiae. Ita quod, duobus existentibus membris
+<lb ed="#L" n="46"/>distinctionis in littera, scilicet esse terminum, et esse 
+prin<lb break="no" ed="#L" n="47"/>cipium actionis gratiae; et primo cadente sub merito, 
+se<lb break="no" ed="#L" n="48"/>cundo non: cum perseverantia viae consistat in primo. so-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="49"/>lum, ita quod ly solum excludit ab opposito membro, scilicet
+<lb ed="#L" n="50"/>terminare motionem; consequens est quod perseverantia viae
+<lb ed="#L" n="51"/>non cadit sub merito. Et ex hoc apparet differentia inter
+<lb ed="#L" n="52"/>augmentum gratiae et perseverantiam viae. Quia licet 
+conve<lb break="no" ed="#L" n="53"/>niant in hoc quod utrumque ex solo Deo dependet 
+effe<lb break="no" ed="#L" n="54"/>ctive, differunt tamen in hoc, quod augmentatio est talis
+<lb ed="#L" n="55"/>actio Dei quae habet terminum terminantem motum gratiae
+<lb ed="#L" n="56"/>prius datae, ut patet: perseverantia vero, quia consistit in
+<lb ed="#L" n="57"/>sola gratiae conservatione, et conservatio gratiae nihil aliud
+<lb ed="#L" n="58"/>est quam productio eius continuata seu non interrupta,
+<lb ed="#L" n="59"/>nullum habet terminum novum qui sit terminus motus
+<lb ed="#L" n="60"/>gratiae iam existentis. Constat enim quod ipsa prima gratia,
+<lb ed="#L" n="61"/>non novo modo se habens, sed eodem modo se habens,
+<lb ed="#L" n="62"/>terminat conservationem. Et ideo non cadit sub merito..
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1261-Dd1e1345"><!-- caj-p2p1-q114-a10 -->
+               <head xml:id="TAcCaj-d1e1261-Hd1e1348">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e1261-d1e1350">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1357">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>IN articulo decimo eiusdem quaestionis, et ultimo totius
+<lb ed="#L" n="69"/>libri huius,.nota tria. Primo, quod cum dicitur omnia
+<lb ed="#L" n="70"/>illa quibus homo adiuvatur ad perveniendum ad 
+beatitu<lb break="no" ed="#L" n="71"/>dinem post primam gratiam, cadere sub merito simpliciter,
+<lb ed="#L" n="72"/>intelligendum est de omnibus habentibus rationem termini:
+<lb ed="#L" n="73"/>ne sit quaestio de conservatione et perseverantia; quae 
+ta<lb break="no" ed="#L" n="74"/>men ad primam gratiam spectare dici possunt.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1377">
+                  <lb ed="#L" n="75"/>Secundo, quod sicut bonum est duplex, simpliciter et
+<lb ed="#L" n="76"/>secundum quid, ita meritum. Et merito simpliciter, quod
+<lb ed="#L" n="77"/>est meritum gratiae, respondet bonum simpliciter: merito
+<lb ed="#L" n="78"/>secundum quid respondet bonum secundum quid, scilicet
+<lb ed="#L" n="79"/>bonum temporale secundum se.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1390">
+                  <lb ed="#L" n="80"/>Tertio quod, quemadmodum in merito simpliciter 
+inve<lb break="no" ed="#L" n="81"/>nitur prima radix ordinatio divina per gratiae donum, et
+<lb ed="#L" n="82"/>secunda liberum arbitrium; ita in merito secundum quid
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>invenitur ordinatio divina, non per gratiam, quia non est
+<lb ed="#L" n="84"/>aliquid excedens naturam, sed per propositum consequendi
+<lb ed="#L" n="85"/>illud temporale; et liberum arbitrium operans pro 
+conse<lb break="no" ed="#L" n="86"/>cutione illius. Ut sic sit meritum»«secundum quid hominis
+<lb ed="#L" n="87"/>apud Deum proportionaliter sicut meritum simpliciter; et
+<lb ed="#L" n="88"/>merces ab eodem reddatur, qui tanta bonitate affluit, ut
+<lb ed="#L" n="89"/>etiam inter malas nostras voluntates, gaudeat se ordinare
+<lb ed="#L" n="90"/>opera quae remuneret. Cur stir HONOR ET GLORIA IN SAECULA
+<lb ed="#L" n="91"/>SAECULORUM,. AMEN.
+</p>
+               <p xml:id="TAcCaj-d1e1261-d1e1422">
+                  <lb ed="#L" n="92"/>Et haec quoad praesentis operis expositionem, secundum
+<lb ed="#L" n="93"/>proprii ingenioli facultatem, dicta sunt ad exaltationem 
+ve<lb break="no" ed="#L" n="94"/>ritatis et doctrinae divi Thomae. Romae, anno salutis wpxr,
+<lb ed="#L" n="95"/>aetatis vero meae xrimr, die xxix mensis Decembris. Do,
+<lb ed="#L" n="96"/>DIVAE ManRiaE, DIVO THOMAE, UNIVERSAEQUE CAELESTI CURIAE
+<lb ed="#L" n="97"/>GRATIAS. AMEN.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

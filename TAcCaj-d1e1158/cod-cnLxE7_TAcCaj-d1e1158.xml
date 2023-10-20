@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 94</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 94</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="168"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1158"><!-- TAcCajp2p1-q94 -->
+            <head xml:id="TAcCaj-d1e1158-Hd1e101">Quaestio 94</head>
+            <div xml:id="TAcCaj-d1e1158-Dd1e103"><!-- caj-p2p1-q94-a1 -->
+               <head xml:id="TAcCaj-d1e1158-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1158-d1e108">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="84"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1158-d1e115">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="85"/>IN quaestione nonagesimaquarta, primo notandum est
+<lb ed="#L" n="86"/>pro intellectu multorum articulorum communiter; deinde
+<lb ed="#L" n="87"/>singillatim dicetur. In communi igitur scito quod, 
+quemad<lb break="no" ed="#L" n="88"/>modum in speculativis, praeter prima principia 
+communis<lb break="no" ed="#L" n="89"/>sima, inveniuntur prima principia per se nota in 
+geome<lb break="no" ed="#L" n="90"/>tria, in arithmetica, etc.; ita in practicis, praeter communis-
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="91"/>sima praecepta prima, scilicet esse bonum prosequendum,
+<lb ed="#L" n="92"/>malum esse vitandum, sunt propria praecepta etiam prima
+<lb ed="#L" n="93"/>in illo ordine; ita quod secundum unumquemque 
+incli<lb break="no" ed="#L" n="94"/>nationis naturalis gradum, sunt aliqua praecepta prima, ut
+<lb ed="#L" n="95"/>principia propria per se nota, et reliqua praecepta secunda,
+<lb ed="#L" n="96"/>ut conclusiones ex eis dependentes. Verbi gratia, in homine
+<pb ed="#L" n="169"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sunt tres inclinationes naturales: scilicet ad esse et vivere,
+<lb ed="#L" n="2"/>ad generationem, et ad rationaliter se habendum ad se et
+<lb ed="#L" n="3"/>alios. Prima praecepta in singulis inclinationibus sunt de
+<lb ed="#L" n="4"/>fine primario illius habendo, conservando, consequendo, et
+<lb ed="#L" n="5"/>de illius contrariis vitandis; secunda autem praecepta sunt
+<lb ed="#L" n="6"/>de fine secundario eiusdem inclinationis et illius contrariis,
+<lb ed="#L" n="7"/>et etiam facilitatem et difficultatem praebentibus primario
+<lb ed="#L" n="8"/>fini. Verbi gratia, in inclinatione nostra ad esse et vivere, 
+co<lb break="no" ed="#L" n="9"/>medere, non comedere, pertinent ad prima praecepta: quia
+<lb ed="#L" n="10"/>comestione conservatur vita, quae est primarius finis illius,
+<lb ed="#L" n="11"/>et non comedendo absque dubio destruitur. Tali autem
+<lb ed="#L" n="12"/>cibo vel potu uti, quibus homo ad promptitudinem vitae,
+<lb ed="#L" n="13"/>quae est finis secundarius eiusdem, utitur, pertinet ad 
+se<lb break="no" ed="#L" n="14"/>cundaria praecepta eiusdem inclinationis; ad quae etiam
+<lb ed="#L" n="15"/>spectat moderamen cibi, potus et exercitii, quibus facilius
+<lb ed="#L" n="16"/>vita conservatur, et horum contraria; iuxta doctrinam 
+Au<lb break="no" ed="#L" n="17"/>ctoris in IV Sent., dist. xxxrr, qu. 1.
+</p>
+               <p xml:id="TAcCaj-d1e1158-d1e189">
+                  <lb ed="#L" n="18"/>Propter quod, quando legis aliquid esse contra prima
+<lb ed="#L" n="19"/>praecepta legis naturae, non recurras statim ad 
+communis<lb break="no" ed="#L" n="20"/>sima praecepta, quae sunt prima simpliciter; sed respice in
+<lb ed="#L" n="21"/>qua materia est sermo, et recurre ad praecepta prima in
+<lb ed="#L" n="22"/>illo ordine; et intuendo primarium finem non quoad bene
+<lb ed="#L" n="23"/>esse, sed quoad esse, perspicies quid veritatis habeant quae
+<lb ed="#L" n="24"/>legis, etc. — Et quoniam principia prima in tali ordine 
+redu<lb break="no" ed="#L" n="25"/>cuntur ad prima simpliciter, et dependent ab eis, et 
+de<lb break="no" ed="#L" n="26"/>fenduntur ab illis; et rursus principia prima in tali '
+or<lb break="no" ed="#L" n="27"/>dine, licet secundum se sint per se nota, non oportet esse
+<lb ed="#L" n="28"/>per se nota quoad nos, ac per hoc contingit quae sunt
+<lb ed="#L" n="29"/>secundum se principia per se nota, esse quoad nos: con-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="30"/>clusiones: idcirco prima praecepta propria illi inclinationi ad
+<lb ed="#L" n="31"/>vivere, appellantur quandoque conclusiones, vel quasi 
+con<lb break="no" ed="#L" n="32"/>clusiones, et secundaria praecepta, respectu primorum 
+sim<lb break="no" ed="#L" n="33"/>pliciter, et quoad nos.
+</p>
+               <p xml:id="TAcCaj-d1e1158-d1e228">
+                  <lb ed="#L" n="34"/>II. Ad singulos autem articulos deveniendo, in primo,
+<lb ed="#L" n="35"/>manda memoriae quod synderesis est habitus legis 
+natu<lb break="no" ed="#L" n="36"/>ralis, non lex ipsa, proprie loquendo.
+</p>
+               <p xml:id="TAcCaj-d1e1158-d1e238">
+                  <lb ed="#L" n="37"/>In secundo, quod omnia praecepta legis naturae 
+radi<lb break="no" ed="#L" n="38"/>cantur in uno primo, ratione cuius dicitur lex una.
+</p>
+               <p xml:id="TAcCaj-d1e1158-d1e245">
+                  <lb ed="#L" n="39"/>In tertio, quod actus secundum suam speciem vocantur
+<lb ed="#L" n="40"/>materialiter sumpti. Verbi gratia, comedere in coena aut
+<lb ed="#L" n="41"/>prandio gallinam, est actus virtuosus uni, et vitiosus alteri:
+<lb ed="#L" n="42"/>et sic de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1158-d1e256">
+                  <lb ed="#L" n="43"/>In quarto, quod resolutio doctrinae Auctoris ex calce
+<lb ed="#L" n="44"/>corporis articuli sumenda est, quomodo scilicet rectitudo
+<lb ed="#L" n="45"/>in propriis conclusionibus naturalis legis non est eadem
+<lb ed="#L" n="46"/>apud omnes: scilicet propter defectum in paucioribus. Et
+<lb ed="#L" n="47"/>cave ne misceas ius humanum: sed infra latitudinem 
+natu<lb break="no" ed="#L" n="48"/>ralis iuris, vel contra aut praeter illud, morare et discurre.
+</p>
+               <p xml:id="TAcCaj-d1e1158-d1e272">
+                  <lb ed="#L" n="49"/>In quinto, quod proprie loquitur de primis praeceptis et
+<lb ed="#L" n="50"/>secundis. Non solum namque prima simpliciter, sed prima
+<lb ed="#L" n="51"/>in quolibet ordine, sunt immutabilia omnino: salva tamen
+<lb ed="#L" n="52"/>dispensatione divina, ut infra diffusius patebit, cui natura
+<lb ed="#L" n="53"/>omnis subiecta est.
+</p>
+               <p xml:id="TAcCaj-d1e1158-d1e285">
+                  <lb ed="#L" n="54"/>In sexto autem articulo, secundaria praecepta etiam pro
+<lb ed="#L" n="55"/>primis principiis in tali ordine supponunt: et delebilia 
+dicun<lb break="no" ed="#L" n="56"/>tur a cordibus hominum, quia non apud omnes per se nota
+<lb ed="#L" n="57"/>sunt, ut praecepta prima simpliciter. Ex tali namque 
+igno<lb break="no" ed="#L" n="58"/>rantia emanat illud: Omne iuvans statuit Iupiter esse pium.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 73</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 73</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="32"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1049"><!-- TAcCajp2p1-q73 -->
+            <head xml:id="TAcCaj-d1e1049-Hd1e101">Quaestio 73</head>
+            <div xml:id="TAcCaj-d1e1049-Dd1e103"><!-- caj-p2p1-q73-a4 -->
+               <head xml:id="TAcCaj-d1e1049-Hd1e106">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1049-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="72"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>In quaestione septuagesimatertia, usque ad septimum 
+ar<lb break="no" ed="#L" n="74"/>ticulum inclusive, nihil scribendum occurrit: nisi quod in
+<lb ed="#L" n="75"/>quarto articulo, responsio ad tertium non te fallat in 
+quae<lb break="no" ed="#L" n="76"/>stione de felicitate, an consistat in actu voluntatis; eo quod,
+<lb ed="#L" n="77"/>pessimo cum opponatur optimum, et odium Dei sit 
+pes<lb break="no" ed="#L" n="78"/>simum et amor caritatis optimum, et felicitas consistat in
+<lb ed="#L" n="79"/>optimo, in amore erit felicitas. Propositio namque dicens
+<lb ed="#L" n="80"/>quod pessimum optimo contrarium est, intelligitur in rebus
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="81"/>habentibus contrarium: in carentibus autem contrarietate,
+<lb ed="#L" n="82"/>non habet locum. Unde lumen gloriae, quod caret contrario,
+<lb ed="#L" n="83"/>non propterea desinit esse melior habitus quam sit caritas.
+<lb ed="#L" n="84"/>Immo hoc ipsum quod est esse talem habitum 
+disponen<lb break="no" ed="#L" n="85"/>tem ad deitatem absque contrarietate, videtur suae 
+excel<lb break="no" ed="#L" n="86"/>lentiae attestari, quasi propinquissime se habeat ad 
+deita<lb break="no" ed="#L" n="87"/>tem, cui non est fas cogitare contrarium. T
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1049-Dd1e155"><!-- caj-p2p1-q73-a8 -->
+               <head xml:id="TAcCaj-d1e1049-Hd1e158">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1049-d1e160">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="161"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e167">
+                  <cb ed="#L" n=""/>
+                  <lb ed="#L" n="162"/>IN articulo octavo eiusdem septuagesimaetertiae quaestionis,
+<lb ed="#L" n="163"/>Tactics occurrit ex multis inter responsionem ad tertium
+<lb ed="#L" n="164"/>et membra distinctionis in corpore articuli. Procurans, in
+<lb ed="#L" n="165"/>primis, consensum fornicationis, ita intendit nocumentum
+<lb ed="#L" n="166"/>sicut fur. Quia aut est sermo de per se primo intento 
+tan<lb break="no" ed="#L" n="167"/>tum; aut de primo et necessario consequente. Si de per se
+<lb ed="#L" n="168"/>primo tantum, etiam fur non intendit nocumentum, sed
+<lb ed="#L" n="169"/>utilitati suae consulere, sicut ille delectationi. Si de 
+utro<lb break="no" ed="#L" n="170"/>que, manifestum est quod suadens alicui fornicari, intendit
+<lb ed="#L" n="171"/>consequenter nocumentum spiritualis mortis illius.
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e193">
+                  <lb ed="#L" n="172"/>Non potest, deinde, negari quin nocumentum tale sit 
+prae<lb break="no" ed="#L" n="173"/>visum ab huiusmodi persuadente, sicut nocumentum illatum
+<lb ed="#L" n="174"/>seminibus a transeunte per agrum, quod tamen aggravare
+<lb ed="#L" n="175"/>dicitur in secundo membro: immo sicut nocumentum per
+<lb ed="#L" n="176"/>se consequens ex actu peccati, quod directe peccatum 
+ag<lb break="no" ed="#L" n="177"/>gravat, ut in secunda parte tertii membri dicitur. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e209">
+                  <lb ed="#L" n="178"/>Est praeterea secunda ratio in eadem responsione 
+assi<lb break="no" ed="#L" n="179"/>gnata, contraria nunc ultimo allato membro distinctionis in
+<lb ed="#L" n="180"/>corpore, ubi dicitur quod quaecumque per se sequuntur ad
+<lb ed="#L" n="181"/>peccatum, pertinent quodammodo ad ipsam speciem 
+pec<lb break="no" ed="#L" n="182"/>cati, et propterea directe aggravant peccatum. Et intendit
+<lb ed="#L" n="183"/>Auctor etiam de consequentibus non efficaciter, sed 
+suffi<lb break="no" ed="#L" n="184"/>cienter quantum est ex parte agentis: ut patet in exemplo
+<lb ed="#L" n="185"/>de scandalo. Si enim hoc est verum, sequitur quod 
+pro<lb break="no" ed="#L" n="186"/>curans fornicationem aggravetur directe ex morte spirituali
+<lb ed="#L" n="187"/>alterius: quoniam per se consequitur ad eius peccatum 
+suf<lb break="no" ed="#L" n="188"/>fidenter quantum est ex parte procurantis, quamvis non
+<lb ed="#L" n="189"/>efficaciter. Et si mors ista spiritualis non imputatur 
+procu<lb break="no" ed="#L" n="190"/>ratori tali; quomodo scandalum non praevisum nec 
+inten<lb break="no" ed="#L" n="191"/>tum, imputabitur fornicanti publice?
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e243">
+                  <lb ed="#L" n="192"/>II. Ad evidentiam horum, sciendum est quod, ut ex
+<lb ed="#L" n="193"/>praecedentibus articulis patet, gravitas peccati est duplex.
+<lb ed="#L" n="194"/>Quaedam substantialis: et ista attenditur penes per se primo
+<lb ed="#L" n="195"/>obiectum. Et quaedam circa substantiam: et haec est 
+mul<lb break="no" ed="#L" n="196"/>tiplex; nam quaedam consequitur directe ad peccatum,
+<lb ed="#L" n="197"/>quaedam indirecte; quaedam supervenit, quaedam comita-
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="198"/>tur; et multis, breviter, modis accidens gravitas variatur, sicut
+<lb ed="#L" n="199"/>cetera accidentia. In proposito autem, quia argumentum
+<lb ed="#L" n="200"/>tertium inferebat quod, si nocumentum maius aggravaret,
+<lb ed="#L" n="201"/>quod fornicator procurando gravius peccaret quam 
+homi<lb break="no" ed="#L" n="202"/>cida; argumentum peccat a gravitate ad gravitatem 
+substan<lb break="no" ed="#L" n="203"/>tialem: stat ehim quod peccatum inferat maius nocumentum
+<lb ed="#L" n="204"/>nón substantialiter, et sit minus grave substantialiter. Et sic
+<lb ed="#L" n="205"/>est in proposito: quia fornicatio, etiam procurata, 
+substan<lb break="no" ed="#L" n="206"/>tialiter non respicit nocumentum; homicida autem sic.
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e280">
+                  <lb ed="#L" n="207"/>III. Unde ad primam obiectionem dicitur quod sermo
+<lb ed="#L" n="208"/>est de per se primo intento a peccante ut sic, quod est
+<lb ed="#L" n="209"/>obiectum unde constituitur in specie et substantiali 
+gravi<lb break="no" ed="#L" n="210"/>tate peccatum. Unde per se primo intentum furis ut sic,
+<lb ed="#L" n="211"/>non est utilitas propria (licet haec sit primaria intentio 
+ho<lb break="no" ed="#L" n="212"/>minis qui furatur), sed est res aliena, sicut adulterii mulier
+<lb ed="#L" n="213"/>aliena: ubi manifeste patet damnum vel iniuriam alterius
+<lb ed="#L" n="214"/>cadere sub primaria intentione peccantis; quamvis directius
+<lb ed="#L" n="215"/>et gravius sub intentione furis caderet nocumentum, si non
+<lb ed="#L" n="216"/>ob propriam utilitatem, sed solum ut noceat alteri in bonis
+<lb ed="#L" n="217"/>huiusmodi, furetur; tunc enim undique nocumento plenum
+<lb ed="#L" n="218"/>est furtum. Non sic autem est de hoc fornicario. Quoniam
+<lb ed="#L" n="219"/>obiectum eius unde habet speciem et substantialem 
+gravi<lb break="no" ed="#L" n="220"/>tatem, est mulier non sua trahenda ad voluntarium coitum
+<lb ed="#L" n="221"/>extra matrimonium: ubi patet non intendi tam ab homine
+<lb ed="#L" n="222"/>quaerente delectationem, quam a peccante quaerente 
+ean<lb break="no" ed="#L" n="223"/>dem in non sua, nocumentum spiritualis mortis.
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e319">
+                  <lb ed="#L" n="224"/>Verum tamen est quod, si talis intenderet ideo mulierem
+<lb ed="#L" n="225"/>ad fornicationem provocare, ut peccaret mortaliter, quod
+<lb ed="#L" n="226"/>gravius peccaret quam homicida: quia obiectum talis esset
+<lb ed="#L" n="227"/>ipsum nocumentum mortis spiritualis illius. Nec hoc esset
+<lb ed="#L" n="228"/>peccatum fornicationis: sed esset peccatum odii, vel 
+scan<lb break="no" ed="#L" n="229"/>dali activi, directe oppositum caritati, qua amamus vitam
+<lb ed="#L" n="230"/>spiritualem proximi et procuramus istam, Et iste esset sicut
+<lb ed="#L" n="231"/>qui fornicatur ut occidat.
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e339">
+                  <lb ed="#L" n="232"/>IV. Ad secundum vero dicitur quod nocumentum 
+spi<lb break="no" ed="#L" n="233"/>ritualis mortis in procurante fornicationem est praevisum,
+<pb ed="#L" n="33"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>non minus quam. nocumentum seminum in casu. posito:
+<lb ed="#L" n="2"/>et concedo quod non minus aggravat quam illud. Sed sicut
+<lb ed="#L" n="3"/>illud non pertinet ad speciem. peccati, nec mutat illam,
+<lb ed="#L" n="4"/>quia est praeter intentionem; ita nec hoc. — Et conceditur
+<lb ed="#L" n="5"/>nihilominus quod nocumentum spiritualis mortis in hoc
+<lb ed="#L" n="6"/>casu per se consequitur ad actum peccati, non minus quam
+<lb ed="#L" n="7"/>scandalum ad fornicationem | publice: ac per hoc, quod 
+di<lb break="no" ed="#L" n="8"/>recte aggravat tale peccatum. Non tamen dat aut mutat
+<lb ed="#L" n="9"/>speciem nec hic nec ibi, quia est praeter intentionem: sed
+<lb ed="#L" n="10"/>est effectus per se consequens utrobique.
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e372">
+                  <lb ed="#L" n="11"/>V. Ad ultimam instantiam dicitur quod ibi allata omnia
+<lb ed="#L" n="12"/>sunt bene dicta: et, ut iam patet, concedendum est quod
+<lb ed="#L" n="13"/>peccatum. procurantis. est gravius directe ex illato 
+nocu<lb break="no" ed="#L" n="14"/>mento, quam si fornicatus fuisset absque inductione illius.
+<lb ed="#L" n="15"/>Nec huius oppositum dicitur in littera: sed, comparando
+<lb ed="#L" n="16"/>ipsum ad homicidam quantum ad nocumentum illatum,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>Auctor dicit duas: differentias. Prima, quoad actum 
+interio<lb break="no" ed="#L" n="18"/>rem, et speciem ac gravitatem substantialem:. scilicet quod
+<lb ed="#L" n="19"/>homicida intendit per se primo mortem corporalem; hic
+<lb ed="#L" n="20"/>autem non sic se habet ad mortem spiritualem. Secunda
+<lb ed="#L" n="21"/>est quoad actum exteriorem: quod actus exterior homicidae
+<lb ed="#L" n="22"/>est causa per se sufficiens efficaciter mortis corporalis; actus
+<lb ed="#L" n="23"/>autem exterior istius non est per se sufficiens secundum
+<lb ed="#L" n="24"/>efficaciam, Nec putes hanc secundam differentiam esse per
+<lb ed="#L" n="25"/>accidens: sed memento superioris tractatus de duplici 
+bo<lb break="no" ed="#L" n="26"/>nitate et malitia 1314 interioris et exterioris, scilicet ex fine
+<lb ed="#L" n="27"/>et secundum se, etc.; et videbis quod homicidium 
+quan<lb break="no" ed="#L" n="28"/>tum ad malitiam actus exterioris secundum se, et quantum
+<lb ed="#L" n="29"/>ad actum intentionis, probatum est gravius; nec in aliquo
+<lb ed="#L" n="30"/>contradictum est corpori articuli. huius.
+</p>
+               <p xml:id="TAcCaj-d1e1049-d1e420">
+                  <lb ed="#L" n="31"/>In articulis nono et decimo. eiusdem quaestionis 
+septua<lb break="no" ed="#L" n="32"/>gesimaetertiae, nihil scribendum occurrit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

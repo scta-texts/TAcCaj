@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 79</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 79</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="77"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1080"><!-- TAcCajp2p1-q79 -->
+            <head xml:id="TAcCaj-d1e1080-Hd1e101">Quaestio 79</head>
+            <div xml:id="TAcCaj-d1e1080-Dd1e103"><!-- caj-p2p1-q79-a1et2 -->
+               <head xml:id="TAcCaj-d1e1080-Hd1e106">Articuli 1 et 2</head>
+               <!--seems to be about both article 1 and 2 -->
+               <p xml:id="TAcCaj-d1e1080-d1e110">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="96"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e117">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="97"/>In articulis primo et secundo quaestionis 
+septuagesimae<lb break="no" ed="#L" n="98"/>nonae, arduum occurrit dubium, in doctrina praecipue
+<lb ed="#L" n="99"/>Auctoris, quomodo possunt haec duo simul stare, quod
+<lb ed="#L" n="100"/>actus peccati sit a Deo, et defectus concomitans nullo modo
+<lb ed="#L" n="101"/>sita Deo, sed a causa creata sola. Et quamvis multae 
+affe<lb break="no" ed="#L" n="102"/>rantur in xxxvm distinctione II Sent., in Capreolo, ex
+<lb ed="#L" n="103"/>
+                  <name xml:id="TAcCaj-d1e1080-Nd1e136">Aureolo</name> et <name xml:id="TAcCaj-d1e1080-Nd1e138">Durando</name> obiectiones; duae tamen solummodo
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="104"/>afferendae sunt, quibus discussis, omnia, ut puto, propria
+<lb ed="#L" n="105"/>clara erunt. Prima est ex parte habitudinis entitatis 
+posi<lb break="no" ed="#L" n="106"/>tivae actus ad deformitatem peccati. Secunda, ex parte 
+ha<lb break="no" ed="#L" n="107"/>bitudinis entitatis positivae actus ad causam effectivam.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e152">
+                  <lb ed="#L" n="108"/>II. Ex prima igitur via est talis difficultas. Deformitas
+<lb ed="#L" n="109"/>peccati est privatio contrariae rectitudinis positivae speciei
+<lb ed="#L" n="110"/>moralis vitii inhaerentis actui substrato. Érgo necessario
+<pb ed="#L" n="78"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>causatur a causante illam positivam speciem moralis vitii
+<lb ed="#L" n="2"/>in substrato actu. Ergo causatur a Deo, si ab ipso causatur
+<lb ed="#L" n="3"/>omnis positiva entitas actus peccati.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e173">
+                  <lb ed="#L" n="4"/>Antecedens declaratur resumendo quod in peccato sunt
+<lb ed="#L" n="5"/>tria, actus, species moralis vitii, et deformitas; verbi 
+gra<lb break="no" ed="#L" n="6"/>tia, in intemperantia sunt tria, actus interior vel exterior,
+<lb ed="#L" n="7"/>entitas positiva reposita in specie intemperantiae, afficiens
+<lb ed="#L" n="8"/>actum, et deformitas privativa: et cum constet quod entitas
+<lb ed="#L" n="9"/>intemperantiae est contraria entitati temperantiae, ut frigus
+<lb ed="#L" n="10"/>calori; et quod ad unum contrarium positum in aliquo,
+<lb ed="#L" n="11"/>necessario sequitur privatio alterius contrarii in eodem, ut
+<lb ed="#L" n="12"/>ad positum frigus in manu sequitur privatio caloris in 
+ea<lb break="no" ed="#L" n="13"/>dem; ac per hoc, ad oppositam entitatem intemperantiae
+<lb ed="#L" n="14"/>in actu, sequitur privatio temperantiae in eodem; et quod
+<lb ed="#L" n="15"/>in hac privatione consistit deformitas peccati 
+intemperan<lb break="no" ed="#L" n="16"/>tiae, quia consistit in privatione rectitudinis debitae inesse
+<lb ed="#L" n="17"/>substrato actui, constat enim quod rectitudo debita inesse
+<lb ed="#L" n="18"/>actui substrato intemperantiae, est rectitudo temperantiae.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e208">
+                  <lb ed="#L" n="19"/>Consequentia autem probatur inductione et ratione. 
+In<lb break="no" ed="#L" n="20"/>ductione quidem, quia discurrendo nullam invenimus 
+in<lb break="no" ed="#L" n="21"/>stantiam, quin efficiens unum contrariorum in aliquo, privet
+<lb ed="#L" n="22"/>consequenter reliquo illudmet subiectum: ut patet in 
+cale<lb break="no" ed="#L" n="23"/>faciente, dealbante, et aliis. - Ratione autem, quia agens,
+<lb ed="#L" n="24"/>quantum dat de esse, tantum dat de privatione contrarii
+<lb ed="#L" n="25"/>ili esse. In cuius signum, agens, quando non potest 
+pri<lb break="no" ed="#L" n="26"/>vare subiectum contrario, non dat illud intentum esse: 
+ca<lb break="no" ed="#L" n="27"/>lefactivum namque non calefacit, si non potest calefactibile
+<lb ed="#L" n="28"/>privare frigore. Eiusdem enim rationis est ponere unum
+<lb ed="#L" n="29"/>contrariorum in aliquo, et privare illud altero, quamvis
+<lb ed="#L" n="30"/>differenti gradu et modo: quia ponere est principaliter et
+<lb ed="#L" n="31"/>per se, privare vero ex consequenti et per accidens.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e239">
+                  <lb ed="#L" n="32"/>III. Ex secunda vero via difficultas talis est. Actus 
+pec<lb break="no" ed="#L" n="33"/>cati, quoad suam moralem entitatem, est a Deo mediate.
+<lb ed="#L" n="34"/>Ergo potest esse ab eodem immediate. Ergo potest Deus
+<lb ed="#L" n="35"/>immediate causare peccatum, et peccare, inquit Durandus,
+<lb ed="#L" n="36"/>quantum videt. — Antecedens est conclusio Auctoris. — Prima
+<lb ed="#L" n="37"/>vero sequela patet per illam maximam: Quidquid potest
+<lb ed="#L" n="38"/>Deus mediante causa secunda effectiva, etc. - Secunda 
+au<lb break="no" ed="#L" n="39"/>tem, quoad primam, probatur. Quia ipsa privatio, in qua
+<lb ed="#L" n="40"/>consistit malum peccati, pertinet ad speciem actus 
+conse<lb break="no" ed="#L" n="41"/>quenter, ut etiam in littera dicitur, in responsione ad 
+ter<lb break="no" ed="#L" n="42"/>tium; et sequitur inseparabiliter ad eam absolute, ut etiam
+<lb ed="#L" n="43"/>ex supradictis patet. Sunt namque quidam actus 
+secun<lb break="no" ed="#L" n="44"/>dum suam speciem absolute mali, qui non possunt bene
+<lb ed="#L" n="45"/>fieri, ut negare Deum, odio habere Deum, quae omnino
+<lb ed="#L" n="46"/>sunt indispensabilia: et ipse Deus seipsum negare nequit,
+<lb ed="#L" n="47"/>ut Apostolus dicit, II ad 7m. - Quoad reliquam demum
+<lb ed="#L" n="48"/>partem, scilicet, Ergo potest peccare, probatur. Quia omnis
+<lb ed="#L" n="49"/>defectus culpabilis imputatur agenti immediate habenti 
+do<lb break="no" ed="#L" n="50"/>minium super actum, et non ignoranti.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e283">
+                  <lb ed="#L" n="51"/>IV. Ad evidentiam huius difficultatis, sciendum est quod
+<lb ed="#L" n="52"/>peccatum morale, de quo solo est sermo, claudit tria: 
+sci<lb break="no" ed="#L" n="53"/>licet actum, speciem moralem, et deformitatem. Et de 
+duo<lb break="no" ed="#L" n="54"/>bus extremis, scilicet de actu absolute, et de deformitate,
+<lb ed="#L" n="55"/>non est dubium. Sed de specie, idest actu specificato 
+ma<lb break="no" ed="#L" n="56"/>litia morali, quaestio est an sit a Deo. Propter quod tria
+<lb ed="#L" n="57"/>agenda sunt; primo, quomodo se habet actus malus 
+mo<lb break="no" ed="#L" n="58"/>raliter ad deformitatem peccati; secundo, quomodo se habet
+<lb ed="#L" n="59"/>ad agens; tertio, satisfiet obiectis.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e305">
+                  <lb ed="#L" n="60"/>Quoad primum, quia peccatum constat ex conversione
+<lb ed="#L" n="61"/>ad obiectum contrarium obiecto virtutis, et ex aversione a
+<lb ed="#L" n="62"/>lege, sunt in peccato duae malitiae:. primo, malitia ex 
+obie<lb break="no" ed="#L" n="63"/>cto; secundo, malitia in ipsa privatione observationis legis.
+<lb ed="#L" n="64"/>Prima est positiva, et in certo entis genere: quia mala 
+mo<lb break="no" ed="#L" n="65"/>ralia species entium sunt, ut praedictum fuit. Secunda est
+<lb ed="#L" n="66"/>privativa: et est ipsa deformitas peccati, in qua consistit
+<lb ed="#L" n="67"/>ratio mali simpliciter. Ad primam necessario sequitur 
+se<lb break="no" ed="#L" n="68"/>cunda: ad odium namque et negationem Dei absolute 
+sum<lb break="no" ed="#L" n="69"/>pta, secundum has proprie species formaliter sumptas, 
+con<lb break="no" ed="#L" n="70"/>sequitur necessario privatio.observationis legis, ita quod
+<lb ed="#L" n="71"/>oppositum non est intelligibile. Et hoc est quod 
+commu<lb break="no" ed="#L" n="72"/>niter dicitur, quod sunt quidam. actus specifici in. 
+morali<lb break="no" ed="#L" n="73"/>bus qui sunt secundum se mali, et non possunt bene ulla
+<lb ed="#L" n="74"/>ratione fieri. - Haec. de primo.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e340">
+                  <lb ed="#L" n="75"/>V. Quoad. secundum, quia de ratione peccati. moralis
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>est voluntarium voluntate mala: — oppositum enim non est
+<lb ed="#L" n="77"/>intelligibile: nec morale enim absque voluntario intelligi,
+<lb ed="#L" n="78"/>nec peccatum morale absque moraliter peccante potest,
+<lb ed="#L" n="79"/>cum peccare nihil aliud sit quam aliquem voluntarie 
+de<lb break="no" ed="#L" n="80"/>clinare: — quia, inquam, de ratione peccati moralis est 
+vo<lb break="no" ed="#L" n="81"/>luntarium voluntate mala moraliter, oportet ut de ratione
+<lb ed="#L" n="82"/>peccati moralis sit esse a voluntate deficiente; ac per hoc,
+<lb ed="#L" n="83"/>impossibile sit ipsum esse.a Deo immediate. Et si huic
+<lb ed="#L" n="84"/>adiunxeris quod dictum est, scilicet quod conversio actus
+<lb ed="#L" n="85"/>mali parit necessario aversionem, videbis quod de ratione
+<lb ed="#L" n="86"/>talis conversionis est etiam voluntarium voluntate deficiente;
+<lb ed="#L" n="87"/>ac per hoc, impossibile sit ipsam esse a Deo immediate.
+<lb ed="#L" n="88"/>Et vere sic est. Nam actus malus, puta odium vel negatio
+<lb ed="#L" n="89"/>Dei, secundum suam moralem speciem, et includit ly 
+vo<lb break="no" ed="#L" n="90"/>luntarium directe, et ly voluntate deficiente ex consequenti:
+<lb ed="#L" n="91"/>sicut ipse actus est secundum se essentialiter voluntarius,
+<lb ed="#L" n="92"/>deficiens autem ex consequenti.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e385">
+                  <lb ed="#L" n="93"/>VI. Ex hoc autem quod de ratione talis actus est esse ab
+<lb ed="#L" n="94"/>agente deficiente, sequitur quod, pro quanto est ab agente,
+<lb ed="#L" n="95"/>sit a Deo, primo agente; pro quanto a deficiente, non sit a
+<lb ed="#L" n="96"/>Deo. - Sequitur secundo, quod dicere deformitatem peccati
+<lb ed="#L" n="97"/>comitari actum talem absolute, et dicere ipsam comitari
+<lb ed="#L" n="98"/>talem actum ut est ab agente deficiente, idem est: quia de
+<lb ed="#L" n="99"/>ratione talis actus est esse ab agente deficiente. — Sequitur
+<lb ed="#L" n="100"/>tertio, quod non est idem concurrere ad talem actum 
+se<lb break="no" ed="#L" n="101"/>cundum id quod habet ab agente ut sic, et secundum.
+<lb ed="#L" n="102"/>quod habet ab agente ut deficiente: sicut non est ic
+<lb ed="#L" n="103"/>esse agens et esse deficiens, nec esse ab agente et esse a
+<lb ed="#L" n="104"/>deficiente. - Ex quo sequitur quartum, quod non valet: A
+<lb ed="#L" n="105"/>est causa actus moralis mali secundum suam speciem, Erg
+<lb ed="#L" n="106"/>est causa peccati seu deformitatis, Sed bene valet: A est
+<lb ed="#L" n="107"/>causa deficiens actus moralis mali secundum suam speciem,
+<lb ed="#L" n="108"/>Ergo est causa peccati et deformitatis. Quia deformitas, et
+<lb ed="#L" n="109"/>completa ratio peccati, sequitur ad speciem mali more is
+<lb ed="#L" n="110"/>ut est ab agente deficiente; et non ut est ab agente.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e427">
+                  <lb ed="#L" n="111"/>VII. Ex his autem habes quod, cum actus moralis malus
+<lb ed="#L" n="112"/>secundum suam speciem, possit dupliciter distingui: primo,
+<lb ed="#L" n="113"/>ut sumptus absolute distinguatur contra seipsum sumptum
+<lb ed="#L" n="114"/>ut est ab agente deficiente, dicendo quod species moralis
+<lb ed="#L" n="115"/>mali sumitur dupliciter, absolute, et ut est a libero arbitrio
+<lb ed="#L" n="116"/>humano: et sic distinguunt quidam, dicentes quod 
+defor<lb break="no" ed="#L" n="117"/>mitas consequitur actum malum moralem non absolute,
+<lb ed="#L" n="118"/>sed ut est a libero arbitrio; et propterea deformitas actus
+<lb ed="#L" n="119"/>non est a Deo, quia non sequitur ipsum absolute: — verius
+<lb ed="#L" n="120"/>tamen distinguitur secundo modo, scilicet ut absolute 
+sum<lb break="no" ed="#L" n="121"/>ptus distinguatur contra seipsum ut est ab agente ut sic;
+<lb ed="#L" n="122"/>quia absolute sumptus vindicat sibi duo, scilicet quod si
+<lb ed="#L" n="123"/>ab agente, et sit a deficiente; ac per hoc, cum sumitur ut
+<lb ed="#L" n="124"/>est ab agente ut sic, sumitur quasi secundum quid. Vel,
+<lb ed="#L" n="125"/>et in idem redit, distinguatur sic actus moralis malus 
+se<lb break="no" ed="#L" n="126"/>cundum suam speciem, dupliciter: primo, absolute, seu
+<lb ed="#L" n="127"/>simpliciter; secundo, secundum id quod habet 
+perfectio<lb break="no" ed="#L" n="128"/>nis. Et primo modo, sequitur ad eam deformitas: 
+secun<lb break="no" ed="#L" n="129"/>do, non. Primo modo, est ab agente deficiente: secundo,
+<lb ed="#L" n="130"/>ab agente tantum, ac per hoc a Deo. Et sic totum 
+oppo<lb break="no" ed="#L" n="131"/>situm videtur esse eius quod illi dicunt. Comparavi tamen
+<lb ed="#L" n="132"/>utramque viam in veritate, dicendo verius secundo modo
+<lb ed="#L" n="133"/>distingui: quia ad bonum sensum salvari creditur, ut 
+pa<lb break="no" ed="#L" n="134"/>tebit €. Quod autem haec sint de mente Auctoris, ex hoc
+<lb ed="#L" n="135"/>loco patet, ubi, in responsione ad tertium, articulo secundo,
+<lb ed="#L" n="136"/>dicitur quod defectus, qui dicitur non esse a Deo, pertinet
+<lb ed="#L" n="137"/>ad speciem actus consequenter, Quid clarius? Si consequitur
+<lb ed="#L" n="138"/>ad speciem actus tanquam pertinens consequenter ad eu
+<lb ed="#L" n="139"/>igitur ad eam simpliciter consequitur. - Haec de secundo.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e492">
+                  <lb ed="#L" n="140"/>VIII. Quoad tertium, primae rationis in oppositum
+<lb ed="#L" n="141"/>negatur antecedens. Nam unum contrarium directe privat
+<lb ed="#L" n="142"/>reliquo, ex ea parte qua est illi contrarium. Vitium autem
+<lb ed="#L" n="143"/>virtuti contrariatur ex parte conversionis: quia ad contraria
+<lb ed="#L" n="144"/>obiecta convertuntur. Et sic vitii species in actu posita,
+<lb ed="#L" n="145"/>privat, per se loquendo, conversione ad. obiectum virtutis:
+<lb ed="#L" n="146"/>quod est privare rectitudine conversionis inventa in virtutis
+<lb ed="#L" n="147"/>actu in ordine ad proprium obiectum. Talem autem. 
+pri<lb break="no" ed="#L" n="148"/>vationem sic. causari a Deo nullum inconveniens est, sicut
+<lb ed="#L" n="149"/>nec causari ipsam vitii speciem: dico autem sic, quia secus
+<lb ed="#L" n="150"/>est ut substat aversioni. Deformitas autem peccati in ipsa
+<pb ed="#L" n="79"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>aversione consistit. Cuius signum: est quod habituatum 
+in<lb break="no" ed="#L" n="2"/>temperantiae. vitio, statim ut poenitet, non comitatur 
+de<lb break="no" ed="#L" n="3"/>formitas, quia sublata est aversio; et. perseverat privatio
+<lb ed="#L" n="4"/>habitus temperantiae acquisitae, perseverante pronitate 
+con<lb break="no" ed="#L" n="5"/>versionis ad obiectum intemperantiae; non enim statim
+<lb ed="#L" n="6"/>desinit.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e536">
+                  <lb ed="#L" n="7"/>Ad probationem vero; quia consistit in. privatione 
+recti<lb break="no" ed="#L" n="8"/>tudinis debitae inesse actui, dicitur quod est sophisma 
+Con<lb break="no" ed="#L" n="9"/>sequentis. Concesso. enim hot, non sequitur: Ergo in 
+pri<lb break="no" ed="#L" n="10"/>vatione huius rectitudinis, sc licet obiectivae. Dico enim
+<lb ed="#L" n="11"/>quod' consistit in privatione rectitudinis debitae inesse 
+sub<lb break="no" ed="#L" n="12"/>strato actui it ordine ad legem, quae vocatur conformitas
+<lb ed="#L" n="13"/>ad legem, cuius privatio: vocatur aversio, in qua consistit
+<lb ed="#L" n="14"/>deformitas peccati.. )
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e556">
+                  <lb ed="#L" n="15"/>Et si propter hanc veritatem mutetur argumentum, et
+<lb ed="#L" n="16"/>arguatur de deformitate seu aversione, ex hoc quod 
+insepa<lb break="no" ed="#L" n="17"/>rabiliter sequitur ad speciem absolute: iam patet responsio,
+<lb ed="#L" n="18"/>quod quando aliqua species vindicat sibi non solum agens,
+<lb ed="#L" n="19"/>sed agens deficiens, non oportet omne agens causans illam
+<lb ed="#L" n="20"/>speciem, causare defectum comitantem illam, quia stat quod
+<lb ed="#L" n="21"/>defectus ille adveniat ex deficiente; sicut, si exigeret duo
+<lb ed="#L" n="22"/>agentia, non oportet omne agens causare totum quod 
+inye<lb break="no" ed="#L" n="23"/>nitur in illo. —Et si instetur, quia species moralis mali non
+<lb ed="#L" n="24"/>'est diVisibili?in plura, quorum unum fiat ab agente 
+defi<lb break="no" ed="#L" n="25"/>ciente, et alterum ab altero: facilis est responsio, quod in
+<lb ed="#L" n="26"/>resolutione effectuum in causas non consideratur distinctio
+<lb ed="#L" n="27"/>rei, sed rationum rei. Et sic species mali moralis 
+simplici<lb break="no" ed="#L" n="28"/>ter resolvitur in agens deficiens: secundum id autem quod 
+<lb ed="#L" n="29"/>perfectionis habet, ut sic, resolvitur solum in agens.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e591">
+                  <lb ed="#L" n="30"/>IX. Ad obiectionem ex secunda via, negatur prima 
+se<lb break="no" ed="#L" n="31"/>quela. Et ad probationem, Quidquid Deus etc., 
+responde<lb break="no" ed="#L" n="32"/>tur: Quando est ibi sola habitudo effectus ad efficiens. Secus
+<lb ed="#L" n="33"/>autem est ubi alia intervenit habitudo. Comedere namque
+<lb ed="#L" n="34"/>facit Deus in animalibus comedentibus mediante causa 
+se<lb break="no" ed="#L" n="35"/>cunda: nec potest tamen fieri comedere. sine comedente.
+<lb ed="#L" n="36"/>Implicat namque contradictionem vitaliter operari, quod
+<lb ed="#L" n="37"/>importat comedere, et nullum vivens illo vitali opere ope-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="38"/>rantem esse. Unde licet possit fieri comestionis similitudo,
+<lb ed="#L" n="39"/>ut fit in corporibus assumptis ab Angelis, non tamen vera
+<lb ed="#L" n="40"/>vitalis comestio, absque vere comedente.
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e621">
+                  <lb ed="#L" n="41"/>Et si dicatur: Deus potest conservare opus vitale, puta
+<lb ed="#L" n="42"/>comedere, vel actuale odium Dei, in actu exercito posito,
+<lb ed="#L" n="43"/>nunc annihilando comedentem vel odientem: ergo potest
+<lb ed="#L" n="44"/>etiam immediate talia facere, quidquid namque potest 
+im<lb break="no" ed="#L" n="45"/>mediate conservare, potest immediate facere: — respondetur
+<lb ed="#L" n="46"/>quod, si Deus conservaret ista sic, non remanerent 
+eius<lb break="no" ed="#L" n="47"/>dem rationis. Non enim remanerent in ratione actuum 
+vi<lb break="no" ed="#L" n="48"/>talium in actu exercito, sed per modum formarum: sicut
+<lb ed="#L" n="49"/>si conservaretur albedo sine omni quantitate, non remaneret
+<lb ed="#L" n="50"/>eiusdem rationis, quia non remaneret in ratione sensibilis.
+<lb ed="#L" n="51"/>Et ad hunc sensum accipiendo has species absolute, 
+cre<lb break="no" ed="#L" n="52"/>ditur salvari via supradicta, scilicet quod ad speciem. 
+mo<lb break="no" ed="#L" n="53"/>ralem actus mali absolute non sequitur deformitas. Si enim
+<lb ed="#L" n="54"/>sic conservaretur aut fieret, non comitaretur deformitas:
+<lb ed="#L" n="55"/>quoniam deformitas sequitur. speciem moralis actus mali in
+<lb ed="#L" n="56"/>actu suo exercito, et non separatam in alia ratione essendi. —
+<lb ed="#L" n="57"/>Haec de tertio.;
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e660">
+                  <lb ed="#L" n="58"/>In corpore secundi articuli, in calce, nota, novitie, 
+decla<lb break="no" ed="#L" n="59"/>rationem litterae quod Deus est causa actus qui est 
+pec<lb break="no" ed="#L" n="60"/>catum, tam secundum esse naturae quam moris, non 
+ta<lb break="no" ed="#L" n="61"/>men est causa peccati quia non est causa quod actus sit
+<lb ed="#L" n="62"/>cum defectu: idest, non est causa concomitantiae seu con.
+<lb ed="#L" n="63"/>iunctionis defectus cum actu. Coniunctio namque ista non
+<lb ed="#L" n="64"/>undecumque provenit, sed ex deficiente libero arbitrio: nec
+<lb ed="#L" n="65"/>convenit actui quomodolibet sumpto, sed ut a deficiente
+<lb ed="#L" n="66"/>pendet. Unde et in Qq. de Malo, qu. rri, art. 2, ad 2, dicit
+<lb ed="#L" n="67"/>quod deformitas consequitur speciem actus secundum quod
+<lb ed="#L" n="68"/>est moralis, prout causatur ex libero arbitrio: quasi diceret
+<lb ed="#L" n="69"/>quod deformitas sequitur speciem moralem non 
+quomodo<lb break="no" ed="#L" n="70"/>libet sumptam, quia non secundum quod est ab agente
+<lb ed="#L" n="71"/>perfectio. quaedam; sed prout causatur ex libero arbitrio
+<lb ed="#L" n="72"/>deficiente. Sic enim sequitur ratio mali culpae in privatione
+<lb ed="#L" n="73"/>virtutis, et aversio.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1080-Dd1e698"><!-- caj-p2p1-q79-a3 -->
+               <head xml:id="TAcCaj-d1e1080-Hd1e701">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1080-d1e703">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1080-d1e710">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>IN articulo tertio eiusdem septuagesimaenonae quaestionis, 
+<lb ed="#L" n="37"/>bed novitie, ordinem causalitatis. Primo enim, homo
+<lb ed="#L" n="38"/>ponit obstaculum divino lumini, et est causa meritoria quod
+<lb ed="#L" n="39"/>Sol iustitiae,subtrahat radios efficaces ad illuminandum, re-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="40"/>movendo obstaculum. Quod. est poena, secundo loco 
+con<lb break="no" ed="#L" n="41"/>veniens. Tertio, ex hac poena sequitur excaecatio, Men
+<lb ed="#L" n="42"/>vatio et obduratio, propter bonum divinae gloriae ad mini
+<lb ed="#L" n="43"/>ut in quarto articulo dicitur (in quo nihil aliud occurrit).
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

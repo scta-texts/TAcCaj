@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 99</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 99</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="201"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1183"><!-- TAcCajp2p1-q99 -->
+            <head xml:id="TAcCaj-d1e1183-Hd1e101">Quaestio 99</head>
+            <div xml:id="TAcCaj-d1e1183-Dd1e103"><!-- caj-p2p1-q99-a2et3 -->
+               <head xml:id="TAcCaj-d1e1183-Hd1e106">Articuli 2 et 3</head>
+               <p xml:id="TAcCaj-d1e1183-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="76"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="77"/>IN articulo secundo et tertio. quaestionis 
+nonagesimaeno<lb break="no" ed="#L" n="78"/>nae, omisso primo articulo, dubium occurrit de 
+differen<lb break="no" ed="#L" n="79"/>tia assignata inter legem. humanam et divinam in hoc, quod
+<lb ed="#L" n="80"/>divina intendit principaliter amicitiam ad Deum, humana
+<lb ed="#L" n="81"/>autem intendit principaliter amicitiam hominum inter se.
+<lb ed="#L" n="82"/>Videtur enim: quod lex humana necessario est perversa ex
+<lb ed="#L" n="83"/>tali fine. Nam lex humana de actu religionis » quo Deus
+<lb ed="#L" n="84"/>colitur, disponit sicut de actibus aliarum virtutum. Et cum
+<lb ed="#L" n="85"/>omnia disponat in ordine ad principalem finem, quoniam
+<lb ed="#L" n="86"/>reliqua sunt propter illum; sequitur quod cultum Dei, in
+<lb ed="#L" n="87"/>quo consistit amicitia hominis ad Deum, ordinet ad 
+ami<lb break="no" ed="#L" n="88"/>citiam hominum. inter se, quae est eius principalis finis.
+<lb ed="#L" n="89"/>Et hoc etiam in corpore tertii articuli littera sonat, dicens:
+<lb ed="#L" n="90"/>Leges humanae non curaverunt aliquid instituere de cultu
+<lb ed="#L" n="91"/>divino nisi in ordine ad bonum commune hominum. —
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e152">
+                  <lb ed="#L" n="92"/>II. Ad evidentiam huius ambiguitatis, duo oportet 
+de<lb break="no" ed="#L" n="93"/>clarare: scilicet quomodo amicitia hominum inter se ponitur
+<lb ed="#L" n="94"/>recte finis principalis humanae legis; et quomodo divinus
+<lb ed="#L" n="95"/>cultus, vel amicitia hominis ad Deum, ordinabilis. sit ad
+<lb ed="#L" n="96"/>amicitiam hominum inter se, et e contra. Scito ergo quod,
+<lb ed="#L" n="97"/>quemadmodum ars aliqua, puta domificativa, habet pro
+<lb ed="#L" n="98"/>principali fine opus suum; ul domum, nec aliud ad ipsam
+<lb ed="#L" n="99"/>spectat; cum quo tamen stat quod artifex ipse, puta do-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="100"/>mificator, ut movetur a iustitia legali, ordinet opus artis
+<lb ed="#L" n="101"/>ad bonum commune; huiusmodi namque ordinatio non
+<lb ed="#L" n="102"/>spectat ad artem secundum se, sed ut stat sub lege, cuius
+<lb ed="#L" n="103"/>est ad bonum commune ordinare: ita proportionaliter
+<lb ed="#L" n="104"/>contingit in lege humana quod principalis finis intentus
+<lb ed="#L" n="105"/>ab ea secundum seipsam. est commune bonum hominum,
+<lb ed="#L" n="106"/>amicitia et pax hominum inter se; nec ad ipsam spectat
+<lb ed="#L" n="107"/>ordinare hoc in amicitiam et pacem hominis ad. Deum,
+<lb ed="#L" n="108"/>sed hoc spectat ad legem. divinam, quae est superior. Et
+<lb ed="#L" n="109"/>propterea lex humana non. secundum se, sed ut 
+sub<lb break="no" ed="#L" n="110"/>stat divinae legi, dirigit amicitiam hominum in amicitiam
+<lb ed="#L" n="111"/>Dei.
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e200">
+                  <lb ed="#L" n="112"/>III. Amicitia autem - hominis ad Deum dupliciter potest
+<lb ed="#L" n="113"/>sumi: primo, simpliciter, quae scilicet est per.gratiam et
+<lb ed="#L" n="114"/>caritatem; secundo, secundum quid, quae scilicet, seclusa
+<lb ed="#L" n="115"/>gratia, esse potest inter hominem in puris naturalibus et
+<lb ed="#L" n="116"/>Deum. Et utraque potest sumi dupliciter: scilicet ex parte
+<lb ed="#L" n="117"/>Dei' amati, et ex parte hominis amantis. Quomodocumque
+<lb ed="#L" n="118"/>amicitia. sumatur, si ex parte. Dei sumitur; non potest recte
+<lb ed="#L" n="119"/>ordinari in bonum humanum: esset enim perversitas 
+ma<lb break="no" ed="#L" n="120"/>gna uti fruendis. Si autem sumatur ex parte hominis, 
+po<lb break="no" ed="#L" n="121"/>test recte ordinari ad bonum commune humanum: tum
+<lb ed="#L" n="122"/>quia homo secundum id quod est et sua, est pars civita-
+<pb ed="#L" n="202"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tis; tum quia utile honesto tali annexum, ad augmentum
+<lb ed="#L" n="2"/>seu conservationem boni communis spectat.
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e236">
+                  <lb ed="#L" n="3"/>IV. Ad obiectionem ergo in oppositum dicitur quod,
+<lb ed="#L" n="4"/>si lex humana disponeret de cultu divino ex parte Dei,
+<lb ed="#L" n="5"/>ordinando illum ad pacem hominum, puta quod propter
+<lb ed="#L" n="6"/>hoc principaliter colatur Deus; perversa esset. Sed hoc non
+<lb ed="#L" n="7"/>facit lex humana: quamvis forte multi legislatores impii
+<lb ed="#L" n="8"/>hoc intenderint, et adinvenerint multas fabulas propter hoc,
+<lb ed="#L" n="9"/>ut in II. Metaphys. innuitur. Sed lex humana, multis
+<lb ed="#L" n="10"/>existentibus rationibus divini cultus, de illis quae ad ipsam
+<lb ed="#L" n="11"/>spectant, disponit ad finem suum, commune bonum, ab aliis
+<lb ed="#L" n="12"/>abstrahens utpote ad se non pertinentibus. Abstrahentium
+<lb ed="#L" n="13"/>autem non est mendacium, nec perversitas. Unde quia 
+gra<lb break="no" ed="#L" n="14"/>tia perficit, non destruit naturam, lex humana sic habet
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>pro fine principali bonum commune hominum inter se, ut
+<lb ed="#L" n="16"/>non repugnet illi subordinatio ad altiorem finem ex altiori
+<lb ed="#L" n="17"/>principio, ut de arte dictum est: et sic disponit de aliis ad 
+<lb ed="#L" n="18"/>finem, ut non excedat limites ordinabilium recte in illud.
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e275">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>V. In eisdem articulis adverte diligentissime, rector 
+ec<lb break="no" ed="#L" n="20"/>clesiastice, quia secundum divinas leges principaliter regere
+<lb ed="#L" n="21"/>teneris, et finis principalis divinae legis est amicitia 
+homi<lb break="no" ed="#L" n="22"/>nis ad Deum, ut ad animarum salutem principaliter 
+respi<lb break="no" ed="#L" n="23"/>cias, studeas et solliciteris: nec sat est tibi extrinseca 
+tran<lb break="no" ed="#L" n="24"/>quillitas ecclesiae tibi commissae, quae sufficit rectori 
+sae<lb break="no" ed="#L" n="25"/>culari in suo populo. Oportet namque te arie artium uti
+<lb ed="#L" n="26"/>in regimine animarum, et secundum eam vigilare super PEORES. Pal.
+<lb ed="#L" n="27"/>gregem tuum, et in singulis amicitiam ad Deum procurare Lf. cep. 1
+<lb ed="#L" n="28"/>et in universis, ut possit illi dici: Pulchra es, amica mea, vers. 1. —
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1183-Dd1e302"><!-- caj-p2p1-q99-a4et5 -->
+               <head xml:id="TAcCaj-d1e1183-Hd1e305">Articuli 4 et 5</head>
+               <p xml:id="TAcCaj-d1e1183-d1e307">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="104"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e314">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="105"/>IN quarto et quinto articulis eiusdem nonagesimaenonae
+<lb ed="#L" n="106"/>quaestionis, adverte primo, quod. hic habes expositionem
+<lb ed="#L" n="107"/>terminorum frequenter in Psalmis positorum: ut possis et
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="108"/>in eis et in reliqua Scriptura clare inspicere testimonia,
+<lb ed="#L" n="109"/>praecepta, mandata, iustificationes, iudicia.
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e332">
+                  <lb ed="#L" n="110"/>Adverte secundo, in responsione ad primum articuli
+<pb ed="#L" n="204"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quinti, doctrinam universalem quod moralia omnia 
+deter<lb break="no" ed="#L" n="2"/>minantur lege inquantum habent rationem debiti. Ac per
+<lb ed="#L" n="3"/>hoc lex humana, ut perfecte consequatur finem suum, 
+sci<lb break="no" ed="#L" n="4"/>licet commune bonum integrum, disponere debet de divino
+<lb ed="#L" n="5"/>cultu ut debito Deo a civitate et civibus, sicut disponit de
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>debitis exhibendis aliis, ut commune bonum perfectionem
+<lb ed="#L" n="7"/>integram habeat. Et sic clare vides quod ante diximus, 
+<lb ed="#L" n="8"/>quod universaliter divinus cultus ordinatur in bonum 
+com<lb break="no" ed="#L" n="9"/>mune ut pars in totum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1183-Dd1e364"><!-- caj-p2p1-q99-a6 -->
+               <head xml:id="TAcCaj-d1e1183-Hd1e367">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1183-d1e369">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e376">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>IN articulis quinto et sexto dubium occurrit. Nam 
+supe<lb break="no" ed="#L" n="9"/>rius in qu. xcu, art. 2, ad 3, expresse dictum est quod
+<lb ed="#L" n="10"/>praemiare non est actus legis, sed punire tantum. Modo
+<lb ed="#L" n="11"/>autem dicitur quod legis est non solum ex poena, sed
+<lb ed="#L" n="12"/>praemio, inducere ad observantiam sui. Quomodo stant
+<lb ed="#L" n="13"/>haec simul? SP
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e394">
+                  <lb ed="#L" n="14"/>Ad hoc breviter dicitur quod ibi de propriis actibus
+<lb ed="#L" n="15"/>legis agebatur, inter quos non est praemiare: quia, ut ibi
+<lb ed="#L" n="16"/>dictum est, quilibet potest hoc facere. Hic autem est sermo
+<lb ed="#L" n="17"/>non solum de propriis, sed de communibus: et ideo 
+prae<lb break="no" ed="#L" n="18"/>miare, quod est commune legi et privatae personae, et 
+con<lb break="no" ed="#L" n="19"/>sulere, quod est etiam commune utrique, legi attribuuntur.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="20"/>Et vere: sicut homini vere attribuitur videre, quamvis sit
+<lb ed="#L" n="21"/>commune sibi et aliis animalibus; et negatur quod sit 
+pro<lb break="no" ed="#L" n="22"/>prius actus hominis.
+</p>
+               <p xml:id="TAcCaj-d1e1183-d1e418">
+                  <lb ed="#L" n="23"/>II. In eodem sexto articulo flenda occurrit miseria 
+no<lb break="no" ed="#L" n="24"/>stra, cum offertur status hominum Novi Testamenti: quod
+<lb ed="#L" n="25"/>scilicet non sufficit quod desideremus bona temporalia,
+<lb ed="#L" n="26"/>salvo tamen ordine ad Deum, quia hoc imperfectorum,
+<lb ed="#L" n="27"/>et sub veteri lege est; sed oportet ut, contemptis 
+tempo<lb break="no" ed="#L" n="28"/>ralibus, spiritualibus inhaereamus, hic enim novae legis
+<lb ed="#L" n="29"/>perfectionis est status. Heu, heu, quam pauci hodie ad. 
+no<lb break="no" ed="#L" n="30"/>vae legis statum spectant! Et utinam ad veteris statum
+<lb ed="#L" n="31"/>saltem pertineremus!
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

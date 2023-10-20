@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="201"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1178"><!-- TAcCajp2p1-q98 -->
+            <head xml:id="TAcCaj-d1e1178-Hd1e101">Quaestio 98</head>
+            <div xml:id="TAcCaj-d1e1178-Dd1e103"><!-- caj-p2p1-q98-a3 -->
+               <head xml:id="TAcCaj-d1e1178-Hd1e106">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1178-d1e108">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="95"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1178-d1e115">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="96"/>IN quaestionis nonagesimaeoctavae primis tribus articulis
+<lb ed="#L" n="97"/>Lui aliud scribendum occurrit nisi ut caute intelligas
+<lb ed="#L" n="98"/>dicta in responsione ad secundum tertii articuli. Possunt
+<lb ed="#L" n="99"/>siquidem dupliciter intelligi: primo, ut negent Moysen 
+vi<lb break="no" ed="#L" n="100"/>disse divinam essentiam; secundo, ut negent Moysen 
+vi<lb break="no" ed="#L" n="101"/>disse divinam essentiam in illa visione qua loquebatur facie
+<lb ed="#L" n="102"/>ad faciem. Iste secundus sensus est intentus ab Auctore, et
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="103"/>non primus; ut inferius in II I, qu. crxxrv, aperitur, ubi
+<lb ed="#L" n="104"/>ex hoc quod Moyses palam et non per aenigmata Deum
+<lb ed="#L" n="105"/>vidisse dicitur Num. xu, concluditur, interveniente 
+Augu<lb break="no" ed="#L" n="106"/>stino, ipsum vidisse Deum per essentiam. Cum quo tamen
+<lb ed="#L" n="107"/>stat quod legem per angelos accepit in. aliis visionibus; ut
+<lb ed="#L" n="108"/>hic dicitur ex auctoritate sacrae Scripturae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1178-Dd1e151"><!-- caj-p2p1-q98-a4 -->
+               <head xml:id="TAcCaj-d1e1178-Hd1e154">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1178-d1e156">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1178-d1e163">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>In articulo quarto eiusdem quaestionis, in calce responsionis
+<lb ed="#L" n="9"/>ad secundum,, accipe rationem Augustini, scilicet quod
+<lb ed="#L" n="10"/>ex peccato primi parentis provenit quosdam non doceri a
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="11"/>Deo, ut rationem particularem, scilicet post naturam lapsam.
+<lb ed="#L" n="12"/>Simpliciter nulla reddi alia ratio potest nisi sicut 
+reproba<lb break="no" ed="#L" n="13"/>tionis: de qua in Prima Parte diffuse tractatum est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1178-Dd1e184"><!-- caj-p2p1-q98-a6 -->
+               <head xml:id="TAcCaj-d1e1178-Hd1e187">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1178-d1e189">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="89"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1178-d1e196">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="90"/>In articulis quinto et sexto eiusdem nota quod, licet in 
+<lb ed="#L" n="91"/>sexto articulo quaestio sit de tempore Moysi, et in 
+cor<lb break="no" ed="#L" n="92"/>pore articuli non concludatur determinate tempus Moysi,  
+<lb ed="#L" n="93"/>nec ratione durorum et superborum, nec ratione bonorum, 
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="94"/>sed tempus medium inter legem naturae et legem gratiae;
+<lb ed="#L" n="95"/>in responsionibus tamen argumentorum determinatur illud
+<lb ed="#L" n="96"/>tempus medium ad tempus Moysi, quando primo domus
+<lb ed="#L" n="97"/>Israel fuit populus liber; ut patet in littera.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

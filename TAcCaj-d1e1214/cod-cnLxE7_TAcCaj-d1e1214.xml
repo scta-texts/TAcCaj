@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 105</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 105</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="268"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1214"><!-- TAcCajp2p1-q105 -->
+            <head xml:id="TAcCaj-d1e1214-Hd1e101">Quaestio 105</head>
+            <div xml:id="TAcCaj-d1e1214-Dd1e103"><!-- caj-p2p1-q105-a2 -->
+               <head xml:id="TAcCaj-d1e1214-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1214-d1e108">
+                  <pb ed="#L" n="269"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1214-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN quaestione centesimaquinta hoc solum scribendum 
+oc<lb break="no" ed="#L" n="3"/>currit, quod. tam ex lege veteri, quam ex auctoritate 
+Ari<lb break="no" ed="#L" n="4"/>stotelis et Auctoris, apparet quod non irrationabiliter 
+or<lb break="no" ed="#L" n="5"/>dinaretur quod tam. ecclesia, quam quicumque alius, non
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="6"/>posset ultra tantum agri in civitatis territorio ut proprium
+<lb ed="#L" n="7"/>habere; sed donatum vel successione vel quomodolibet aliter
+<lb ed="#L" n="8"/>obveniens plus quilibet teneretur vendere; ne possessiones ad
+<lb ed="#L" n="9"/>paucos deveniant, ut hoc videtur pluribus in locis accidere.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

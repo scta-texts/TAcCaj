@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 106</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 106</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="290"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1220"><!-- TAcCajp2p1-q106 -->
+            <head xml:id="TAcCaj-d1e1220-Hd1e101">Quaestio 106</head>
+            <div xml:id="TAcCaj-d1e1220-Dd1e103"><!-- caj-p2p1-q106-a2 -->
+               <head xml:id="TAcCaj-d1e1220-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1220-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="85"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1220-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>In quaestione centesimasexta duo occurrunt scribenda. 
+Pri<lb break="no" ed="#L" n="87"/>mum est ut, in articulo tertio, memor sis quod non est
+<lb ed="#L" n="88"/>quaestio de lege nova quoad suum principale, idest 
+gra<lb break="no" ed="#L" n="89"/>tiam Spiritus Sancti, haec enim ab initio mundi data est:
+<lb ed="#L" n="90"/>sed de lege nova secundum se totam, ut claudit in se et
+<lb ed="#L" n="91"/>gratiam Spiritus Sancti,et doctrinam Novi Testamenti; haec
+<lb ed="#L" n="92"/>enim abundantiam gratiae, et perfectionem vitae, et 
+sacra<lb break="no" ed="#L" n="93"/>menta gratiae continet.
+</p>
+               <p xml:id="TAcCaj-d1e1220-d1e137">
+                  <lb ed="#L" n="94"/>Secundum est, ut non mireris si audis novam reperiri
+<lb ed="#L" n="95"/>gentem, quae nihil sciat de Christo. Sufficit enim quod ante
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="96"/>mundi consummationem, Evangelium susceptum in 
+uni<lb break="no" ed="#L" n="97"/>verso fuerit orbe secundum veritatem. Praedicatum quippe
+<lb ed="#L" n="98"/>dicitur etiam tempore Apostolorum in orbe universo 
+se<lb break="no" ed="#L" n="99"/>cundum reputationem: sicut et exiit edictum a Caesare
+<lb ed="#L" n="100"/>Augusto ut describeretur universus orbis. De orbe enim
+<lb ed="#L" n="101"/>secundum nostram notitiam habitato, haec et similia 
+intel<lb break="no" ed="#L" n="102"/>liguntur: quamvis secundum possibilem veritatem, in aliis
+<lb ed="#L" n="103"/>terrae quartis affirmari possint antipodes. Et, nisi fallor,
+<lb ed="#L" n="104"/>iam inventa dicitur quarta meridionalis habitata: quoniam
+<lb ed="#L" n="105"/>polus antarcticus elevatur eis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

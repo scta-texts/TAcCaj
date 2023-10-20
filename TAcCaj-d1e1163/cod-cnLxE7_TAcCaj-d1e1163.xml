@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 95</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 95</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="178"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1163"><!-- TAcCajp2p1-q95 -->
+            <head xml:id="TAcCaj-d1e1163-Hd1e101">Quaestio 95</head>
+            <div xml:id="TAcCaj-d1e1163-Dd1e103"><!-- caj-p2p1-q95-a2 -->
+               <head xml:id="TAcCaj-d1e1163-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1163-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="18"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>In articulo secundo quaestionis nonagesimaequintae, omisso
+<lb ed="#L" n="20"/>Duis dubium occurrit de secundo modo derivationis a
+<lb ed="#L" n="21"/>lege naturali, scilicet per modum determinationis, 
+inquan<lb break="no" ed="#L" n="22"/>tum dicitur quod est similis determinationi formae 
+artifi<lb break="no" ed="#L" n="23"/>cialis communis ad specialem, sicut artifex formam domus
+<lb ed="#L" n="24"/>ad hanc vel illam figuram determinat. Quia aut intendit
+<lb ed="#L" n="25"/>de determinatione universalis ad minus universale vel 
+sin<lb break="no" ed="#L" n="26"/>gulare. Et hoc non. Tum quia frustra de artificialibus esset
+<lb ed="#L" n="27"/>sermo magis quam de aliis. Tum quia tam minus 
+univer<lb break="no" ed="#L" n="28"/>sale quam singulare, ex universali derivatur ut conclusio
+<lb ed="#L" n="29"/>ex principio: ex hoc namque quod omne malum est 
+fu<lb break="no" ed="#L" n="30"/>giendum, deducitur syllogistice conclusio quod tale malum,
+<lb ed="#L" n="31"/>et hoc malum, est fugiendum, Et sic secundus modus 
+coin<lb break="no" ed="#L" n="32"/>cideret cum primo. — Aut intendit determinationem formae
+<lb ed="#L" n="33"/>ad materiam, vel e converso. Et hoc non. Quia utrique
+<lb ed="#L" n="34"/>contradicit declaratio sua: sicut artifex determinat formam
+<lb ed="#L" n="35"/>communem domus ad hanc vel illam figuram domus.
+<lb ed="#L" n="36"/>Forma namque domus, et talis figura domus, non se 
+ha<lb break="no" ed="#L" n="37"/>bent ut materia et forma, sed ut magis et minus commune,
+<lb ed="#L" n="38"/>ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e163">
+                  <lb ed="#L" n="39"/>II. Ad hoc dicitur quod in lege considerari possunt
+<lb ed="#L" n="40"/>tria: primo, ipsa materia legis, puta quia est de punitione,
+<lb ed="#L" n="41"/>vel de tali poena; secundo, ipsa vis legis, de qua iam 
+di<lb break="no" ed="#L" n="42"/>ctum est in quo consistit; tertio, actus praeceptus vel
+<lb ed="#L" n="43"/>prohibitus a lege. Si consideremus originem legis pure 
+po<lb break="no" ed="#L" n="44"/>sitivae a naturali quoad materiam, verificatum invenimus
+<lb ed="#L" n="45"/>quod oritur a naturali per modum determinationis, ut in
+<lb ed="#L" n="46"/>littera dicitur; ut patet facile inductive. Ex hoc enim iure
+<lb ed="#L" n="47"/>naturae quod mali sunt puniendi, derivatur, determinando
+<lb ed="#L" n="48"/>punitionem ad talem punitionem, et malos ad tales malos,
+<lb ed="#L" n="49"/>quod fures sunt suspendendi. Simihter ex hoc iure naturae
+<lb ed="#L" n="50"/>quod abstinendum est propter contemplationem, etc., 
+deri<lb break="no" ed="#L" n="51"/>vatur, determinando abstinentiam ad privationem esus 
+car<lb break="no" ed="#L" n="52"/>nium, etc., quod ieiunandum est. Et similiter ex hoc 
+na<lb break="no" ed="#L" n="53"/>turae iure quod Dei cultui tempus aliquod impendendum
+<lb ed="#L" n="54"/>est, derivatur, determinatione temporis et cultus, quod die
+<lb ed="#L" n="55"/>Dominica audiatur missa. Et sic de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e202">
+                  <lb ed="#L" n="56"/>III. Et si huic coniungas quod huiusmodi determinatio
+<lb ed="#L" n="57"/>non condat vim legis, nisi fiat ad commune bonum ab
+<lb ed="#L" n="58"/>habente curam multitudinis ratiocinante et eligente magis
+<lb ed="#L" n="59"/>hoc quam illud sub illo communi; videbis et quod per
+<lb ed="#L" n="60"/>modum artis, scilicet per rationem et proaeresim, haec 
+de<lb break="no" ed="#L" n="61"/>terminatio fit; et quod hac determinatione non solum 
+ma<lb break="no" ed="#L" n="62"/>teria legis pure positivae [ut] derivatur a iure naturae ut
+<lb ed="#L" n="63"/>speciale a communi, sed etiam ipsa vis legis positivae, ut
+<lb ed="#L" n="64"/>dearticulatio quaedam iuris naturae, proficiscitur eodem
+<lb ed="#L" n="65"/>modo: ut merito in littera non dicatur quod ius positivum
+<lb ed="#L" n="66"/>quoad materiam, aut quoad vim, derivatur a naturali, sed
+<lb ed="#L" n="67"/>absolute, ut complecteretur utrumque. Ex illis enim 
+com<lb break="no" ed="#L" n="68"/>munibus conceptionibus habentibus vim legis a natura, 
+de<lb break="no" ed="#L" n="69"/>terminando per electionem auctoritatem habentis, veniunt
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="70"/>propositiones minus communes habentes vim legis ab ipsa
+<lb ed="#L" n="71"/>determinatione artis gubernativae, quae a naturali lege 
+pro<lb break="no" ed="#L" n="72"/>ficiscitur.
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e245">
+                  <lb ed="#L" n="73"/>IV. Si autem actus praeceptos vel prohibitos a pure
+<lb ed="#L" n="74"/>positiva lege intuitus fueris, videbis quod, dum conditur
+<lb ed="#L" n="75"/>lex positiva, determinatur ius naturale ad positivum ut
+<lb ed="#L" n="76"/>forma ad materiam. Ex hoc enim quod abstinentia a 
+car<lb break="no" ed="#L" n="77"/>nibus et lacticiniis etc., iure ponitur esse ieiunium, 
+sup<lb break="no" ed="#L" n="78"/>ponitur virtuti temperantiae talis actus, et vitio 
+intempe<lb break="no" ed="#L" n="79"/>rantiae contrarius actus: et sic determinatur forma virtutis
+<lb ed="#L" n="80"/>temperantiae ad talem materiam. Et si huic iunxeris quod
+<lb ed="#L" n="81"/>formale in virtute est de iure naturae, ut in quaestione
+<lb ed="#L" n="82"/>praecedente habitum est; clarum erit quod iuxta istam
+<lb ed="#L" n="83"/>terminationem ius positivum determinat naturale ut 
+for<lb break="no" ed="#L" n="84"/>mam ad materiam. pum d
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e274">
+                  <lb ed="#L" n="85"/>V. Et scito quod haec tria quae diximus, licet sic 
+ordi<lb break="no" ed="#L" n="86"/>nata videantur quod prius natura est determinatio materiae
+<lb ed="#L" n="87"/>specialis sub communi, deinde applicatio formae [virtutis].
+<lb ed="#L" n="88"/>vel vitii ad materiam, tertio est vis legis: nam prius est 
+con<lb break="no" ed="#L" n="89"/>stituere hos actus esse virtuosos vel vitiosos, quam 
+prae<lb break="no" ed="#L" n="90"/>cipere vel prohibere illos: — si diligenter tamen considerata
+<lb ed="#L" n="91"/>fuerit differentia inter intellectum practicum et 
+speculati<lb break="no" ed="#L" n="92"/>vum, et inter mala ex se et quia prohibita; apparebit quod
+<lb ed="#L" n="93"/>secundo loco est vis legis, quae praecipiendo constituit.
+<lb ed="#L" n="94"/>bona, et prohibendo mala; et sic tertio loco fit applicatio
+<lb ed="#L" n="95"/>virtutis ad materiam, Et quoniam commune formale 
+re<lb break="no" ed="#L" n="96"/>spectu specialis est; et in ipsa determinatione communis ad
+<lb ed="#L" n="97"/>speciale gubernatoris arte auctoritative facta, applicatio
+<lb ed="#L" n="98"/>formae virtutis ad materiam consistit; consequens est quod,
+<lb ed="#L" n="99"/>dum Auctor ius positivum a naturali originari dicit per
+<lb ed="#L" n="100"/>modum determinationis quo ars formam communem ad
+<lb ed="#L" n="101"/>specialem determinat, nihil dictorum praetermisit; sed dicta
+<lb ed="#L" n="102"/>omnia sub illo determinationis modo conclusit, quo et 
+spe<lb break="no" ed="#L" n="103"/>ciale formali quodam fluxu a communiori, et materiale a
+<lb ed="#L" n="104"/>formali derivatur.
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e320">
+                  <lb ed="#L" n="105"/>VI. Ad obiecta autem dicitur quod aliud est loqui de
+<lb ed="#L" n="106"/>communi, et aliud de eodem universaliter distributo: nam
+<lb ed="#L" n="107"/>in primo sophisma Consequentis, ad minus commune 
+de<lb break="no" ed="#L" n="108"/>terminate descendendo, committitur; in secundo, non. Lex
+<lb ed="#L" n="109"/>autem naturae, relata ad ius positivum, non communis 
+uni<lb break="no" ed="#L" n="110"/>versaliter distributi, sed communis indefinite rationem 
+ha<lb break="no" ed="#L" n="111"/>bet. Verbi gratia, non est lex naturae quod malus puniatur
+<lb ed="#L" n="112"/>omni poena, sed quod puniatur indefinite. Et ex hoc cessat
+<lb ed="#L" n="113"/>secunda obiectio. Meminit autem artificialium, quia 
+deter<lb break="no" ed="#L" n="114"/>minatio ista per rationem et electionem fit, dum arte 
+gu<lb break="no" ed="#L" n="115"/>bernativa fit, sicut et alia artificialia.
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e346">
+                  <lb ed="#L" n="116"/>VII. In. eodem secundo articulo nota quod quid est
+<lb ed="#L" n="117"/>iuris pure positivi, ex V Ethic., scilicet quod a principio
+<lb ed="#L" n="118"/>nihil differt: ut ex eo scias discernere quando aliquid est
+<lb ed="#L" n="119"/>solum de iure positivo, et quando de iure naturae vel
+<lb ed="#L" n="120"/>gentium.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1163-Dd1e360"><!-- caj-p2p1-q95-a4 -->
+               <head xml:id="TAcCaj-d1e1163-Hd1e363">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1163-d1e365">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="87"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e372">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="88"/>IN articulo quarto eiusdem quaestionis, omisso tertio, 
+du<lb break="no" ed="#L" n="89"/>bium est circa illa verba: Est et aliquod regimen ex istis
+<lb ed="#L" n="90"/>commixtum, quod est optimum. Quia hoc adversatur 
+do<lb break="no" ed="#L" n="91"/>ctrinae Auctoris in pluribus locis: ut patet in Prima Parte,
+<lb ed="#L" n="92"/>qu. cnr, art. 3, et in IV Contra Gent., cap. rxxvr, ubi tenet
+<lb ed="#L" n="93"/>quod optimum regimen est regimen unius, et probat, ut
+<lb ed="#L" n="94"/>patet ibidem.
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e392">
+                  <lb ed="#L" n="95"/>II. Ad hoc multipliciter respondetur. Primo, quod 
+re<lb break="no" ed="#L" n="96"/>gimen unius est optimum respectu aliorum regiminum
+<lb ed="#L" n="97"/>simplicium; non autem commixtorum. Et ideo nulla est
+<lb ed="#L" n="98"/>contrarietas,
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e403">
+                  <lb ed="#L" n="99"/>Secundo, quod regimen unius est optimum secundum
+<lb ed="#L" n="100"/>speciem regiminis. Regimen autem commixtum est 
+opti<lb break="no" ed="#L" n="101"/>mum secundum partium dispositionem: ut inferius in qu. cv,
+<lb ed="#L" n="102"/>art. I, explicatur, dum littera ista ibi explanatur, dicendo
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="103"/>quod regimen compositum ex regimine unius propter 
+vir<lb break="no" ed="#L" n="104"/>tutem, et appositione multorum sub ipso principantium
+<lb ed="#L" n="105"/>propter virtutem, per electionem populi, est optimum, 
+ut<lb break="no" ed="#L" n="106"/>pote mixtum ex regno, aristocratia et democratia.
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e426">
+                  <lb ed="#L" n="107"/>Tertio dicitur quod, quia comparatio est inter distincta
+<lb ed="#L" n="108"/>secundum id in quo distinguuntur, propterea cum unum
+<lb ed="#L" n="109"/>et idem clauditur in utroque comparatorum, ne comparetur |
+<lb ed="#L" n="110"/>idem ad seipsum, comparatio intelligitur secundum 
+ad<lb break="no" ed="#L" n="111"/>iuncta. Ac per hoc, cum regimen unius, et regimen 
+com<lb break="no" ed="#L" n="112"/>mixtum ex regimine unius et maiorum et plebis, 
+comparan<lb break="no" ed="#L" n="113"/>tur; ex una parte sumitur regimen unius, et ex alia 
+regi<lb break="no" ed="#L" n="114"/>men mixtum, non quatenus includit regimen unius et addit
+<lb ed="#L" n="115"/>aliam bonitatem, sed secundum bonitates adiunctas. Et
+<lb ed="#L" n="116"/>dicitur quod regimen unius est optimum; ut in pluribus 
+lo<lb break="no" ed="#L" n="117"/>cis a Philosopho et divo Thoma habes. Cum hoc tamen
+<pb ed="#L" n="179"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>stat quod, loquendo de regimine pure humano, consideratis
+<lb ed="#L" n="2"/>omnibus quae sunt in mixto, regimen mixtum est optimum;
+<lb ed="#L" n="3"/>ut hic, et inferius loco allegato, habetur. - Verum quia in
+<lb ed="#L" n="4"/>primo sensu comparatio formaliter et simpliciter exercetur,
+<lb ed="#L" n="5"/>in secundo autem comparatur unum et idem secundum se
+<lb ed="#L" n="6"/>ad seipsum cum adiunctis bonitatibus, comparatio non est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>multum artificiosa. Ideo primus sermo, scilicet quod 
+re<lb break="no" ed="#L" n="8"/>gimen unius est optimum, amplectendus est simpliciter:
+<lb ed="#L" n="9"/>secundus autem, scilicet quod regimen commixtum est
+<lb ed="#L" n="10"/>optimum, pie exponendus, et non extendendus est, ne sit
+<lb ed="#L" n="11"/>causa erroris.
+</p>
+               <p xml:id="TAcCaj-d1e1163-d1e483">
+                  <lb ed="#L" n="12"/>Et hanc tertiam responsionem sequere, vir docte.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

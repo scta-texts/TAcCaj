@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestiones 107 et 108</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestiones 107 et 108</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="290"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1225"><!-- TAcCajp2p1-q107et108 -->
+            <head xml:id="TAcCaj-d1e1225-Hd1e101">Quaestiones 107 et 108</head>
+            <!-- NOTE: the article division could be removed since this is a general note
+      it just appears in the Leonine edition directly after artcle 1 of question 107 -->
+            <div xml:id="TAcCaj-d1e1225-Dd1e105"><!-- caj-p2p1-q107-a1 -->
+               <head xml:id="TAcCaj-d1e1225-Hd1e108">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1225-d1e110">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="73"/>Commentaria Cardinalis. Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1225-d1e117">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="74"/>In centesimaseptima et centesimaoctava nihil
+<lb ed="#L" n="75"/>scribendum occurrit, nisi ut mandes eas memoriae, ut
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="76"/>intelligas Evangelii legem, et reddere scias rationem 
+Chri<lb break="no" ed="#L" n="77"/>stianae legis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

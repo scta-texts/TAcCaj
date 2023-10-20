@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 74</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 74</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="35"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1054"><!-- TAcCajp2p1-q74 -->
+            <head xml:id="TAcCaj-d1e1054-Hd1e101">Quaestio 74</head>
+            <div xml:id="TAcCaj-d1e1054-Dd1e103"><!-- caj-p2p1-q74-a1 -->
+               <head xml:id="TAcCaj-d1e1054-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1054-d1e108">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e115">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="92"/>IN articulo primo dubium est de illa propositione: Omnes
+<lb ed="#L" n="93"/>actus morales sunt actus immanentes. Haec enim 
+pro<lb break="no" ed="#L" n="94"/>positio destruere videtur doctrinam superius datam de bo- 
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="95"/>nitate et malitia morali actuum exteriorum; et veritatem,
+<lb ed="#L" n="96"/>quam continue sonamus, dum percussiones, homicidia, et
+<lb ed="#L" n="97"/>alia huiusmodi, actus morales et malos dicimus.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e135">
+                  <pb ed="#L" n="36"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>II. Ad hoc dicitur quod praeseus propositio nec 
+veri<lb break="no" ed="#L" n="2"/>tati, nec doctrinae Auctoris contrariatur; sed est vera 
+for<lb break="no" ed="#L" n="3"/>maliter intellecta. Ad cuius evidentiam, sciendum est quod,
+<lb ed="#L" n="4"/>cum subiectum moralitatis sit actus voluntarius, oportet
+<lb ed="#L" n="5"/>actum inquantum voluntarium sumi, cum sumitur 
+inquan<lb break="no" ed="#L" n="6"/>tum moralis: ac per hoc, ex negatione voluntarii optime
+<lb ed="#L" n="7"/>infertur negatio moralis actus. Cum autem voluntarius
+<lb ed="#L" n="8"/>actus exterior, puta mala percussio, a pluribus causetur
+<lb ed="#L" n="9"/>principiis subordinatis, puta voluntate, irascibili et manu;
+<lb ed="#L" n="10"/>si comparatur ad manum, non est ab ea ut voluntarius
+<lb ed="#L" n="11"/>actus: quia manus non est secundum se principium aliquo
+<lb ed="#L" n="12"/>modo liberum, sed subest imperio serviliter. Si comparatur
+<lb ed="#L" n="13"/>ad irascibilem, sic est ab ea ut voluntarius actus 
+impera<lb break="no" ed="#L" n="14"/>tus: quia irascibilis subest imperio civiliter. Si comparatur
+<lb ed="#L" n="15"/>ad voluntatem, sic est ab ea ut actus voluntarius 
+quodam<lb break="no" ed="#L" n="16"/>modo elicitus, ut patebit. Quia ergo nullus actus 
+exte<lb break="no" ed="#L" n="17"/>rior, ut est a principio unde est ut actio transiens, exit
+<lb ed="#L" n="18"/>ab eo sub ratione voluntarii; consequens est quod nec exeat
+<lb ed="#L" n="19"/>ab eodem sub ratione moralis; et consequenter nulla actio
+<lb ed="#L" n="20"/>transiens, ut sic, pure sit voluntaria aut moralis, sed ut
+<lb ed="#L" n="21"/>substat actioni alicui immanenti liberae. Et propterea in 
+lit<lb break="no" ed="#L" n="22"/>tera dicitur quod omnes actus morales, sive boni sive mali,
+<lb ed="#L" n="23"/>sunt immanentes. Et sic esse manifestat formalis effectus:
+<lb ed="#L" n="24"/>actibus enim moralibus bonis soli operantes sunt in 
+se<lb break="no" ed="#L" n="25"/>ipsis boni, et mali sunt in seipsis mali. Cuius oppositum
+<lb ed="#L" n="26"/>accidit in transeuntibus: quoniam acta bene vel male 
+dis<lb break="no" ed="#L" n="27"/>ponuntur bonis vel malis actionibus transeuntibus, ut patet
+<lb ed="#L" n="28"/>in aedificatione, pictura, scriptura.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e203">
+                  <lb ed="#L" n="29"/>III. Ad rationes autem in oppositum dicitur quod actus
+<lb ed="#L" n="30"/>exteriores dicuntur boni vel mali moraliter, ut subsunt
+<lb ed="#L" n="31"/>alicui actui immanenti, et non aliter. Quod patet ex hoc
+<lb ed="#L" n="32"/>quod non nisi inquantum induunt rationem. voluntarii,
+<lb ed="#L" n="33"/>boni vel mali moraliter sunt et dicuntur: constat namque
+<lb ed="#L" n="34"/>volitum actum immanentem voluntatis afferre. Cum hoc
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="35"/>tamen stat quod huiusmodi actus voluntarii sunt 
+secun<lb break="no" ed="#L" n="36"/>dum se mali, aliter quam actus interiores, ut superius 
+<lb ed="#L" n="37"/>dictum fuit: nihil enim obstat magis ratio actus 
+immanen<lb break="no" ed="#L" n="38"/>tis quam voluntarii, quod superius discussum est.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e230">
+                  <lb ed="#L" n="39"/>IV. In eodem articulo primo quaestionis 
+septuagesimae<lb break="no" ed="#L" n="40"/>quartae, diligenter adyerte quod ex hoc articulo, ut testatur
+<lb ed="#L" n="41"/>responsio ad primum in articulo sexto huius quaestionis,
+<lb ed="#L" n="42"/>habes non solum quod peccatum est subiective in 
+volun<lb break="no" ed="#L" n="43"/>tate, sed quod omne peccatum est subiective in voluntate.
+<lb ed="#L" n="44"/>Ex hoc namque loco habes quod omne peccatum est actus
+<lb ed="#L" n="45"/>immanens, et a voluntate, et consequenter in voluntate,
+<lb ed="#L" n="46"/>quia omnis actus immanens est in eo a quo est; Et 
+quo<lb break="no" ed="#L" n="47"/>niam in secundo articulo determinatur quod non sola 
+vo<lb break="no" ed="#L" n="48"/>luntas est subiectum peccati, sed plures aliae potentiae sunt
+<lb ed="#L" n="49"/>subiectae peccatis, ut in sequentibus patet articulis; nosse
+<lb ed="#L" n="50"/>debes quod non inconvenit idem peccatum esse in pluribus
+<lb ed="#L" n="51"/>subiective secundum diversa, sicut potest diversimode esse
+<lb ed="#L" n="52"/>a pluribus: paria namque in actionibus immanentibus sunt
+<lb ed="#L" n="53"/>esse in et esse ab operante. Cum enim in omni peccato
+<lb ed="#L" n="54"/>concurrat actio voluntatis positive vel privative, oportet
+<lb ed="#L" n="55"/>omne peccatum ratione huius esse in voluntate: cum etiam
+<lb ed="#L" n="56"/>peccatum quandoque sit actus "alicuius potentiae sub imperio
+<lb ed="#L" n="57"/>voluntatis, ut male diligere, male irasci, male concupiscere,
+<lb ed="#L" n="58"/>oportet peccatum secundum illum actum esse in illa 
+po<lb break="no" ed="#L" n="59"/>tentia elicitiva illius actus. Et si contingat ad eundem actum
+<lb ed="#L" n="60"/>malum concurrere tres potentias defectuose, puta 
+volun<lb break="no" ed="#L" n="61"/>tatem, rationem et concupiscibilem; illud peccatum 
+subie<lb break="no" ed="#L" n="62"/>ctive, secundum diversa, erit in tribus. Et quoniam 
+quan<lb break="no" ed="#L" n="63"/>doque assignatur pro subiecto proximum elicitivum actus,
+<lb ed="#L" n="64"/>quandoque primum movens, quandoque primum dirigens;
+<lb ed="#L" n="65"/>ideo diligens lector discernat dicendi. rationem, ubi 
+diver<lb break="no" ed="#L" n="66"/>sitatem invenire contingat de subiecto alicuius poem et
+<lb ed="#L" n="67"/>non damnet, sed exponat.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1054-Dd1e296"><!-- caj-p2p1-q74-a2 -->
+               <head xml:id="TAcCaj-d1e1054-Hd1e299">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1054-d1e301">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="10"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e308">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="11"/>In articulo secundo eiusdem septuagesimaequartae 
+quae<lb break="no" ed="#L" n="12"/>stionis, adverte quod hinc patet apud Auctorem actus
+<lb ed="#L" n="13"/>aliaaum potentiarum quae sunt principia actuum 
+volun<lb break="no" ed="#L" n="14"/>tariorum ut sic, esse quandoque peccata formaliter: ita
+<lb ed="#L" n="15"/>quod actus voluntatis est primo malus formaliter; actus
+<lb ed="#L" n="16"/>autem aliarum virium formaliter mali, sed non primo, sed
+<lb ed="#L" n="17"/>secundario. Et hoc ex ratione litterae probatur: quia actus
+<lb ed="#L" n="18"/>immanens voluntarius inordinatus est formaliter malus et
+<lb ed="#L" n="19"/>ex subiecto simul et principio, quia principium talis actus
+<lb ed="#L" n="20"/>est subiectum peccati formaliter. Actus autem transeuntes,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="21"/>ut sic, non nisi materialiter mali sunt, et ad substantiam
+<lb ed="#L" n="22"/>peccati pertinent in actu exercito: quia non nisi mediante
+<lb ed="#L" n="23"/>actu immanente, qui est subiectum bonitatis et malitiae
+<lb ed="#L" n="24"/>moralis, ut patet ex dictis,
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e345">
+                  <lb ed="#L" n="25"/>Unde Scotus, in II Sent., dist. xri, absque ratione 
+intu<lb break="no" ed="#L" n="26"/>lit peccatum esse formaliter in sola voluntate. Hoc enim
+<lb ed="#L" n="27"/>non minus est falsum quam actualem iustitiam, idest 
+bo<lb break="no" ed="#L" n="28"/>nitatem, ut distinguitur contra actuale peccatum, esse in
+<lb ed="#L" n="29"/>sola voluntate: quamvis utrumque sit formaliter in sola
+<lb ed="#L" n="30"/>ipsa primo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1054-Dd1e362"><!-- caj-p2p1-q74-a3 -->
+               <head xml:id="TAcCaj-d1e1054-Hd1e365">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1054-d1e367">
+                  <pb ed="#L" n="38"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e376">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo tertio eiusdem septuagesimaequartae 
+quaestio<lb break="no" ed="#L" n="3"/>dubium occurrit ex Scoto, in xri distinctione II Sent.,
+<lb ed="#L" n="4"/>qu. rr, inferente quod, si in motibus praecedentibus actus
+<lb ed="#L" n="5"/>voluntatis est peccatum quia voluntas non praevenit, quod
+<lb ed="#L" n="6"/>sit peccatum omissionis: cum tamen hic ponatur peccatum
+<lb ed="#L" n="7"/>commissionis. 
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e394">
+                  <lb ed="#L" n="8"/>Sed hoc facile solvitur a perspicientibus quod, quando
+<lb ed="#L" n="9"/>committitur aliquis actus inordinatus voluntarie, sive 
+vo<lb break="no" ed="#L" n="10"/>luntarie sit positive sive negative, est peccatum 
+commis<lb break="no" ed="#L" n="11"/>sionis; ut patet in delectationibus malis perceptis non 
+im<lb break="no" ed="#L" n="12"/>peratis, sed nec exclusis; incuria namque nautae 
+submer<lb break="no" ed="#L" n="13"/>sionis peccatum committitur, quamvis negative. Unde cum
+<lb ed="#L" n="14"/>concupiscentia carnis adversus spiritum sit malus actus, et
+<lb ed="#L" n="15"/>voluntarius negative; sequitur quod sit peccatum 
+commis<lb break="no" ed="#L" n="16"/>sionis, quando peccatum est.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e416">
+                  <lb ed="#L" n="17"/>II. In eodem articulo adverte quod circa motus 
+sensua<lb break="no" ed="#L" n="18"/>litatis est aliquid certum, et aliquid videtur incertum. Cer-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>tum est quod omnes motus mali quos voluntas potest et
+<lb ed="#L" n="20"/>debet praevenire, si non praevenit, quando, sicut, etc., sunt
+<lb ed="#L" n="21"/>peccata. Sed quod voluntas possit et debeat semper 
+sin<lb break="no" ed="#L" n="22"/>gulos motus sensualitatis aut vanitatis praevenire, non 
+vi<lb break="no" ed="#L" n="23"/>detur consonum: eo quod videtur quod sit obligatio ad
+<lb ed="#L" n="24"/>impossibile in reali executione singularum praeventionum.
+<lb ed="#L" n="25"/>Si tamen auctoritas Augustini et Auctoris veneranda 
+pen<lb break="no" ed="#L" n="26"/>setur, et ratio in littera insinuata, non apparebit hoc 
+dis<lb break="no" ed="#L" n="27"/>sonum, Cum enim peccatum veniale sit imperfectum quid:
+<lb ed="#L" n="28"/>in genere moris et peccati, propter quod et sine 
+delibera<lb break="no" ed="#L" n="29"/>tione committitur; consequens est quod imperfecta. ratio
+<lb ed="#L" n="30"/>potentiae et debiti sufficiat ad commissionem ipsius. Unde
+<lb ed="#L" n="31"/>concederem quod est in nobis imperfecta potentia ad 
+re<lb break="no" ed="#L" n="32"/>primendum vel obviandum singulis motibus malis, quia
+<lb ed="#L" n="33"/>dum attendo uni et do operam rei sanctae, insurgit alius:
+<lb ed="#L" n="34"/>attamen talis imperfecta potentia, cum aliquali debito, 
+suffi<lb break="no" ed="#L" n="35"/>cit ad rationem talis peccati imperfecti.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1054-Dd1e463"><!-- caj-p2p1-q74-a4 -->
+               <head xml:id="TAcCaj-d1e1054-Hd1e466">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1054-d1e468">
+                  <pb ed="#L" n="39"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e477">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo. quarto eiusdem septuagesimaequartae 
+quae<lb break="no" ed="#L" n="3"/>stionis, adverte quod sensualitas, idest pars appetitiva
+<lb ed="#L" n="4"/>sensus, tripliciter sumitur. Primo, ut sensitiva est absolute:
+<lb ed="#L" n="5"/>et sic nullum habet in se peccatum, sicut nec in brutis.
+<lb ed="#L" n="6"/>Secundo, ut est volentis: et sic est principium, et 
+conse<lb break="no" ed="#L" n="7"/>quenter subiectum peccati venialis, dum habens ipsam non
+<lb ed="#L" n="8"/>praevenit voluntate coniuncta motus eius insurgentes contra
+<lb ed="#L" n="9"/>rationis bonum. Tertio, ut est mota a deliberatione: et sic
+<lb ed="#L" n="10"/>principium est et subiectum virtutis et vitii, actus virtuosi
+<lb ed="#L" n="11"/>et peccati mortalis, ut ex superius dictis patet. Et 
+secun<lb break="no" ed="#L" n="12"/>dum hoc habes unde videas quod, sicut superius 
+simpli<lb break="no" ed="#L" n="13"/>Citer concessum est in appetitu sensitivo ut moto a 
+volun<lb break="no" ed="#L" n="14"/>tate, esse virtutem; ita nunc conceditur quod in sensualitate
+<lb ed="#L" n="15"/>ut mota a voluntate, est peccatum mortale, Et sicut non
+<lb ed="#L" n="16"/>est concessum quod in appetitu sensitivo est virtus mm
+<lb ed="#L" n="17"/>nunc negatur in eo mortale peccatum. Par enim est ratio,
+<lb ed="#L" n="18"/>ut in. littera dicitur, in responsione ad secundum. Quamvis
+<lb ed="#L" n="19"/>vocabulum sensualitatis, quia nominare videtur. appetitum
+<lb ed="#L" n="20"/>sensitivum ex parte depressionis eius, nonnihil favoris 
+ne<lb break="no" ed="#L" n="21"/>ganti in ea peccatum mortale, tribuat.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e525">
+                  <lb ed="#L" n="22"/>II. In hoc eodem quarto articulo est dubium, quia 
+do<lb break="no" ed="#L" n="23"/>etrina Auctoris non videtur rationi consona, dum peccatum
+<lb ed="#L" n="24"/>veniale concedit in sensualitate, idest appetitu sensitivo,
+<lb ed="#L" n="25"/>et mortale negat in eadem. Nam si intendit de sensualitate
+<lb ed="#L" n="26"/>secundum id quod est ei proprium, utrumque peccatum
+<lb ed="#L" n="27"/>negandum est: quia omne peccatum est aut in voluntate,
+<lb ed="#L" n="28"/>aut in aliqua potentia ut subest voluntati. Si vero intendat
+<lb ed="#L" n="29"/>de sensualitate ut subest voluntati, utrumque concedendum
+<lb ed="#L" n="30"/>est, quamvis diversimode: quia veniale ut imperfecte, 
+mor<lb break="no" ed="#L" n="31"/>tale ut perfecte.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e549">
+                  <lb ed="#L" n="32"/>III. Ad hoc dicitur quod procul dnbio, cum de subiecto
+<lb ed="#L" n="33"/>peccati est sermo, oportet vel de voluntate vel de potentia
+<lb ed="#L" n="34"/>ut subest voluntati, intelligi. Sed quia subesse voluntati
+<lb ed="#L" n="35"/>contingit dupliciter, scilicet ut moventi, et ut non 
+repri<lb break="no" ed="#L" n="36"/>menti; actus qui fit a sensualitate ut subest voluntati 
+mo<lb break="no" ed="#L" n="37"/>venti, est peccatum mortale, et non sibi, sed voluntati 
+tri<lb break="no" ed="#L" n="38"/>buitur; actus vero qui fit ab ea ut subest voluntati non
+<lb ed="#L" n="39"/>reprimenti, est suus, et est peccatum veniale, et sibi 
+tri<lb break="no" ed="#L" n="40"/>buitur.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e572">
+                  <lb ed="#L" n="41"/>Sed haec ratio nihil valet. Quoniam constat passiones
+<lb ed="#L" n="42"/>membrorum, quae remotiores sunt a ratione peccati quam
+<lb ed="#L" n="43"/>passiones appetitus sensitivi, esse peccata mortalia, quando
+<lb ed="#L" n="44"/>sunt voluntaria voluntate non reprimente: ut patet in 
+mu<lb break="no" ed="#L" n="45"/>liere quae etiam voluntate taceret, alio ipsam cognoscente. -
+<lb ed="#L" n="46"/>Ratio quoque in promptu est contra hanc responsionem:
+<lb ed="#L" n="47"/>quia eiusdem rationis est movere et non movere, quando
+<lb ed="#L" n="48"/>oportet, ubi oportet, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e592">
+                  <lb ed="#L" n="49"/>IV. Dicendum est ergo quod ratio quare veniale 
+attri<lb break="no" ed="#L" n="50"/>buitur sensualitati, et mortale non nisi cum specificatione,
+<lb ed="#L" n="51"/>ut scilicet motae a voluntate, potest esse duplex. Prima,
+<lb ed="#L" n="52"/>quae tacta est in praecedenti notato: quia scilicet 
+mor<lb break="no" ed="#L" n="53"/>tale est a sensualitate ut subest deliberationi, veniale autem
+<lb ed="#L" n="54"/>est ab ea ut subest quomodolibet voluntati. Hinc enim fit
+<lb ed="#L" n="55"/>ut, quia deliberatio est proprius actus partis superioris, ut
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>actus ex ea pendentes non tribuantur inferioribus nisi cum
+<lb ed="#L" n="57"/>specificatione participatae motionis: actus autem ex ea non
+<lb ed="#L" n="58"/>pendentes, relinquantur inferioribus.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e618">
+                  <lb ed="#L" n="59"/>Secunda est profunda, et intenta ab Auctore, ex natura
+<lb ed="#L" n="60"/>virium animae, et resolutionis actuum in propria principia.
+<lb ed="#L" n="61"/>Vires namque animae nostrae in parte sensitiva, sicut in
+<lb ed="#L" n="62"/>cognoscendo sunt secundum se excellentes totam. naturam
+<lb ed="#L" n="63"/>brutorum, ut patet in cogitativa et reminiscentia habentibus
+<lb ed="#L" n="64"/>collativam vim particularium; ita in appetendo sunt 
+secun<lb break="no" ed="#L" n="65"/>dum se excellentes totam naturam brutorum, per hoc quod
+<lb ed="#L" n="66"/>appetunt cum quadam libertate. Ita quod non solum ex
+<lb ed="#L" n="67"/>hoc quod actualiter moventur vel non moventur a 
+volun<lb break="no" ed="#L" n="68"/>tate; sed seipsis, quia sunt tales, quod superius vocavimus
+<lb ed="#L" n="69"/>quia sunt volentis, sunt quodammodo liberae. Dico autem
+<lb ed="#L" n="70"/>quodammodo, quia non habent tantum libertatis ut possint
+<lb ed="#L" n="71"/>in actum deliberatum; sed vestigium quoddam libertatis
+<lb ed="#L" n="72"/>sortitae sunt ex elevatione in naturam rationalem, a qua
+<lb ed="#L" n="73"/>fluunt. Eaedem autem vires appetitivae sensitivae, ut 
+actua<lb break="no" ed="#L" n="74"/>liter motae et moventes a parte superiori, tantum libertatis
+<lb ed="#L" n="75"/>participant ut etiam in deliberatos actus possint. Unde fit
+<lb ed="#L" n="76"/>ut actus voluntarius sensualitatis, quamvis totus elicitive ab
+<lb ed="#L" n="77"/>ipso appetitu sensitivo, si resolvendus sit in sua propria
+<lb ed="#L" n="78"/>principia, secundum illam tantum rationem resolvetur in
+<lb ed="#L" n="79"/>sensualitatem, quam habet ab ea secundum se: secundum
+<lb ed="#L" n="80"/>illam vero quam habet ab eadem non secundum seipsam
+<lb ed="#L" n="81"/>sed ut mota est ab altero, resolvetur in illud alterum, vel
+<lb ed="#L" n="82"/>in ipsam ut mota est ab illo altero. Et quia peccare 
+con<lb break="no" ed="#L" n="83"/>sistit in agere, et propterea ad hoc quod aliqua potentia
+<lb ed="#L" n="84"/>peccet moraliter, non sufficit quod sit mota a voluntate (sic
+<lb ed="#L" n="85"/>enim manus peccaret percutiendo), sed oportet ut 
+secun<lb break="no" ed="#L" n="86"/>dum se libere agat; oportet quod secundum modum 
+pro<lb break="no" ed="#L" n="87"/>priae libertatis potentiae, attribuamus ei peccare. Quo fit
+<lb ed="#L" n="88"/>ut, quia sensualitas secundum se habet tantum libertatis ut
+<lb ed="#L" n="89"/>sufficiat ad peccatum veniale, ideo peccatum veniale ei 
+tri<lb break="no" ed="#L" n="90"/>buitur: quia vero non habet tantum rationalitatis ut possit
+<lb ed="#L" n="91"/>in peccatum mortale, quia non est eius respicere bonum
+<lb ed="#L" n="92"/>rationis ut finem, ideo ei non attribuitur peccatum mortale.
+<lb ed="#L" n="93"/>Et quia eius ut motae à superiori, est tendere ordinate in
+<lb ed="#L" n="94"/>bonum rationis ut finem; ideo etiam sibi ut motae a 
+ra<lb break="no" ed="#L" n="95"/>tione, peccatum mortale et virtutis actus tribuitur ut 
+prin<lb break="no" ed="#L" n="96"/>cipio, et consequenter ut subiecto, ut jam dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e703">
+                  <lb ed="#L" n="97"/>V. Ad obiecta ergo dicitur quod Auctor loquitur de '
+<lb ed="#L" n="98"/>sensualitate nostra secundum id quod est ei proprium, ut
+<lb ed="#L" n="99"/>patet in responsione ad primum: et propterea negavit ab
+<lb ed="#L" n="100"/>ea mortale, cui prius tribuerat veniale. Ideo patet non esse
+<lb ed="#L" n="101"/>parem rationem. Ex articulis autem secundo et tertio 
+di<lb break="no" ed="#L" n="102"/>ligenter inspectis, facile patere potest hanc esse veram
+<lb ed="#L" n="103"/>mentem Auctoris.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e721">
+                  <lb ed="#L" n="104"/>VI. In responsione ad tertium eiusdem quarti articuli,
+<lb ed="#L" n="105"/>non turberis ex exemplo caloris disponentis ad formam
+<lb ed="#L" n="106"/>ignis, pro eo quod dicitur esse in eodem subiecto. 
+Exem<lb break="no" ed="#L" n="107"/>plum in primis est. Et verificatur de subiecto partiali, idest
+<lb ed="#L" n="108"/>materia, quae disponitur ad formam ignis calore, et suscipit
+<lb ed="#L" n="109"/>illam.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1054-Dd1e739"><!-- caj-p2p1-q74-a5 -->
+               <head xml:id="TAcCaj-d1e1054-Hd1e742">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1054-d1e744">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="44"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e751">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="45"/>IN articulo quinto eiusdem septuagesimaequartae 
+quae<lb break="no" ed="#L" n="46"/>stionis; hoc solum dicendum occurrit, quod quia ratio
+<lb ed="#L" n="47"/>secundum se est sui ipsius et aliorum ordinativa in finem,
+<lb ed="#L" n="48"/>et deordinativa ab illo, libere libertate perfecta, radicaliter
+<lb ed="#L" n="49"/>tamen (libertas enim formaliter est primo voluntatis); 
+id<lb break="no" ed="#L" n="50"/>circo actus rationis inordinatus est moraliter malus, si 
+in<lb break="no" ed="#L" n="51"/>ordinatio in potestate nostra est. Propter quod utroque
+<lb ed="#L" n="52"/>modo contingit moralem malitiam in ratione inveniri 
+subie<lb break="no" ed="#L" n="53"/>ctive: scilicet in cognoscendo, et in dirigendo.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e775">
+                  <lb ed="#L" n="54"/>Sed defectus in cognoscendo, tam negativus, qui vocatur
+<lb ed="#L" n="55"/>ignorantia, quam positivus, qui vocatur error, non semper
+<lb ed="#L" n="56"/>habet rationem mali moraliter: sed negativus solum quando
+<lb ed="#L" n="57"/>potest et debet quis scire; positivus autem, quando potest.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="58"/>Non est enim absque peccato habere scienter opinionem
+<lb ed="#L" n="59"/>falsam de triangulo, cum potest haberi vera, vel non falsa
+<lb ed="#L" n="60"/>saltem, suspendendo credulitatem: cum nonnullum malum
+<lb ed="#L" n="61"/>intellectus sit falsa opinio de quocumque. Propter quod in
+<lb ed="#L" n="62"/>littera, in responsione ad secundum, concluditur quod in
+<lb ed="#L" n="63"/>ratione est peccatum, ut defectus eius est voluntarius. —
+<lb ed="#L" n="64"/>fectus autem in dirigendo, ut in littera dicitur, semper est
+<lb ed="#L" n="65"/>malus moraliter: quia de ratione sua claudit voluntarium
+<lb ed="#L" n="66"/>formaliter. Directio enim imperando fit: imperium autem,
+<lb ed="#L" n="67"/>ut supra didicimus, actus est rationis motae a voluntate
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e810">
+                  <lb ed="#L" n="68"/>Est igitur a ratione et in ratione peccatum, ut proximo
+<lb ed="#L" n="69"/>et elicitivo principio inordinati actus voluntarii, multo
+<lb ed="#L" n="70"/>quam in appetitu inferiori, qui rationem solum put
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1054-Dd1e820"><!-- caj-p2p1-q74-a6 -->
+               <head xml:id="TAcCaj-d1e1054-Hd1e823">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1054-d1e825">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="31"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e832">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="32"/>In articulo sexto eiusdem septuagesimaequartae 
+quaestio<lb break="no" ed="#L" n="33"/>nis, videtur mihi quod Auctor ob reverentiam divi 
+Augu<lb break="no" ed="#L" n="34"/>stini, articulum hunc et sequentem apposuerit. Cum enim
+<lb ed="#L" n="35"/>ex dictis iam constet omne peccatum esse in illa potentia
+<lb ed="#L" n="36"/>quae est proximum eius principium liberum seu rationale
+<lb ed="#L" n="37"/>aliquo modo; et delectatio morosa sit in concupiscibili,
+<lb ed="#L" n="38"/>saltem quandoque, ut mota est a superiori: si cetera 
+pec<lb break="no" ed="#L" n="39"/>cata intemperantiae, et consensus in eam sit in voluntate,
+<lb ed="#L" n="40"/>et imperium vel non imperium reprehensionis illius sit in
+<lb ed="#L" n="41"/>ratione; consequens est quod non oportebat simpliciter 
+sol<lb break="no" ed="#L" n="42"/>licitari de subiecto huius peccati magis quam aliorum. Sed
+<lb ed="#L" n="43"/>quoniam beatissimus ac doctissimus Augustinus attribuerat
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="44"/>peccatum morosae delectationis rationi inferiori, idcirco, ut
+<lb ed="#L" n="45"/>hoc salvaret, hunc docuit articulum, ex quo enucleare 
+sub<lb break="no" ed="#L" n="46"/>stantiam peccati discimus diversimode, ut dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e871">
+                  <lb ed="#L" n="47"/>II. In responsione ad primum in eodem articulo, duo
+<lb ed="#L" n="48"/>scito, novitie. Primo, quod delectatio dicitur esse in ratione
+<lb ed="#L" n="49"/>ut in primo motivo, eo modo quo imperium dicitur 
+pri<lb break="no" ed="#L" n="50"/>mum movens. - Secundo quod, quia Auctor intendit 
+sal<lb break="no" ed="#L" n="51"/>vare quod huiusmodi peccatum sit in ratione ut in 
+subie<lb break="no" ed="#L" n="52"/>cto, ideo repetit regulam superius habitam, scilicet quod
+<lb ed="#L" n="53"/>aequa est extensio principii et subiecti in materia 
+peccato<lb break="no" ed="#L" n="54"/>rum; ut inde discas quod delectatio est in ratione subiective
+<lb ed="#L" n="55"/>tanquam imperante, in appetitu autem tanquam in eliciente.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1054-Dd1e894"><!-- caj-p2p1-q74-a7 -->
+               <head xml:id="TAcCaj-d1e1054-Hd1e897">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1054-d1e899">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e906">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>In titulo articuli septimi, adverte quod sensus quaestionis
+<lb ed="#L" n="69"/>Le de actu exteriori malo tam venialiter quam 
+morta<lb break="no" ed="#L" n="70"/>liter: ita quod intenditur an peccatum consensus in actum,
+<lb ed="#L" n="71"/>ut distinguitur contra cogitationem et delectationem 
+inte<lb break="no" ed="#L" n="72"/>rius, sit in ratione superiori ut in subiecto.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e922">
+                  <lb ed="#L" n="73"/>II. In eodem septimo articulo dubium occurrit, quia
+<lb ed="#L" n="74"/>voluntaria, immo nulla videtur differentia inter subiectum
+<lb ed="#L" n="75"/>consensus in actum, et subiectum consensus in 
+delectatio<lb break="no" ed="#L" n="76"/>nem: et tamen in littera, ex intentione Augustini, consensus
+<lb ed="#L" n="77"/>in actum rationi superiori, consensus in delectationem 
+ra<lb break="no" ed="#L" n="78"/>tioni inferiori tribuitur. Qua enim ratione per temporales
+<lb ed="#L" n="79"/>rationes possum consentire delectationi cogitatae 
+fornica<lb break="no" ed="#L" n="80"/>tionis, eadem possum consentire cogitato actui. Et qua
+<lb ed="#L" n="81"/>ratione, dum deliberat inferior ratio et consentit actui,
+<lb ed="#L" n="82"/>superior obviare tenetur, et propterea consensus in actum
+<lb ed="#L" n="83"/>ei imputatur, ut in responsione ad quartum dicitur; eadem
+<lb ed="#L" n="84"/>ratione, dum deliberat eadem inferior ratio et consentit
+<lb ed="#L" n="85"/>delectationi, tenetur superior ratio obviare. Et consequenter
+<lb ed="#L" n="86"/>eidem superiori rationi attribuendus est uterque consensus,
+<lb ed="#L" n="87"/>et uterque etiam quandoque rationi inferiori: et non unus
+<lb ed="#L" n="88"/>uni, et alter alteri.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e959">
+                  <lb ed="#L" n="89"/>III. Ad hoc dicitur quod uterque consensus, secundum
+<lb ed="#L" n="90"/>rem, quando fit secundum rationes temporales, est rationis
+<lb ed="#L" n="91"/>inferioris: quando vero fit secundum rationes aeternas solas,
+<lb ed="#L" n="92"/>ut si quis ex solo contemptu aeternae legis consentit in
+<lb ed="#L" n="93"/>delectationem. vel in actum, non reputans aliter 
+prohibi<lb break="no" ed="#L" n="94"/>tum, est rationis superioris. In hoc tamen differentia est,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>quia quando est inferioris, est etiam superioris, saltem 
+ne<lb break="no" ed="#L" n="96"/>gative: quia tenetur obviare dirigendo secundum legem
+<lb ed="#L" n="97"/>aeternam, et non obviat. Quando vero est superioris, non
+<lb ed="#L" n="98"/>oportet quod sit inferioris: quia non spectat ad inferiorem
+<lb ed="#L" n="99"/>de propriis superiori iudicare: ut contingit cum quis 
+mo<lb break="no" ed="#L" n="100"/>rose delectatur de iniuriis fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e991">
+                  <lb ed="#L" n="101"/>Secundum appropriationem autem quae in littera 
+tan<lb break="no" ed="#L" n="102"/>gitur, scilicet quando duo ordinata iudicanda occurrunt;
+<lb ed="#L" n="103"/>ultimum superiori, et praeambulum inferiori attribuitur.
+<lb ed="#L" n="104"/>Deliberatio, iudicium ac consensus unius, scilicet 
+delecta<lb break="no" ed="#L" n="105"/>tionis, ad inferiorem: alterius vero, idest actus, ad 
+supe<lb break="no" ed="#L" n="106"/>riorem spectat. Et hoc, iudicio meo, intendit Auctor in
+<lb ed="#L" n="107"/>littera, propter reverentiam tanti Doctoris, ut dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e1009">
+                  <lb ed="#L" n="108"/>IV. Et per hoc patet responsio ad obiecta. Nam 
+pro<lb break="no" ed="#L" n="109"/>cedunt de consensu utroque secundum rem: cuius 
+oppo<lb break="no" ed="#L" n="110"/>situm non invenio in littera, quae loquitur secundum 
+ap<lb break="no" ed="#L" n="111"/>propriationem, et secundum eam disparitatem ponit. - Nec
+<lb ed="#L" n="112"/>obstat quod in responsione ad tertium in hoc articulo, dicitur
+<lb ed="#L" n="113"/>quod quando consensus rationis inferioris in delectationem,
+<lb ed="#L" n="114"/>etiam secundum rationes aeternas perseverat, pertinet etiam.
+<lb ed="#L" n="115"/>ad rationem superiorem: quasi velit dicere quod, si non
+<lb ed="#L" n="116"/>acceptetur secundum aeternas rationes, non spectet ad 
+su<lb break="no" ed="#L" n="117"/>periorem. Hoc enim verum est, quod non spectat ad 
+supe<lb break="no" ed="#L" n="118"/>riorem secundum appropriationem: quamvis spectaret ad
+<lb ed="#L" n="119"/>ipsam secundum rem, negative. Et hunc sensum exprimit
+<lb ed="#L" n="120"/>ipse Auctor in sequenti articulo, in responsione ad primum,
+<lb ed="#L" n="121"/>ut ibi declarabitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1054-Dd1e1043"><!-- caj-p2p1-q74-a8 -->
+               <head xml:id="TAcCaj-d1e1054-Hd1e1046">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1054-d1e1048">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="61"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e1055">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>IN articulo octavo, in responsione ad primum, habes id
+<lb ed="#L" n="63"/>leu diximus, dum duas responsiones vides: primam,
+<lb ed="#L" n="64"/>quod consensus in delectationem potest esse utriusque 
+ra<lb break="no" ed="#L" n="65"/>tionis; secundam, quod quando est rationis inferioris, est
+<lb ed="#L" n="66"/>eius aversae ab aeternis regulis, quia deficit in ea ordinatio
+<lb ed="#L" n="67"/>superioris rationis, per rationes aeternas. Ex hoc enim 
+ma<lb break="no" ed="#L" n="68"/>nifeste patet quod dictum est, scilicet consensum in 
+de<lb break="no" ed="#L" n="69"/>lectationem morosam inferioris rationis, semper esse etiam
+<lb ed="#L" n="70"/>superioris, saltem negative; alioquin non salvaretur definitio
+<lb ed="#L" n="71"/>peccati supradicta , quod est contra legem aeternam.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e1081">
+                  <lb ed="#L" n="72"/>II. In responsione ad quartum eiusdem articuli, iuncta
+<lb ed="#L" n="73"/>corpori articuli, habes quod et quare delectatio morosa
+<lb ed="#L" n="74"/>coniugati de actu matrimonii cogitato non est peccatum
+<lb ed="#L" n="75"/>mortale. Eadem enim ratio est de consensu in actum, et
+<lb ed="#L" n="76"/>in delectationem cogitati actus. Et propterea sicut coniugi
+<lb ed="#L" n="77"/>consensus in actum non prohibetur, ita nec delectatio eius
+<lb ed="#L" n="78"/>tam in opere quam in cogitatione, per se loquendo. Secus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="79"/>autem, per accidens, puta quia vane cogitat, quia 
+pericu<lb break="no" ed="#L" n="80"/>lose in absentia, peccaret.
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e1105">
+                  <lb ed="#L" n="81"/>III. In responsione ad quintum, adverte quod inter 
+ma<lb break="no" ed="#L" n="82"/>teriam luxuriae et irae licet in veritate non sit differentia
+<lb ed="#L" n="83"/>quoad rationem peccati mortalis, quia tam in his quam in
+<lb ed="#L" n="84"/>ceteris materiis mortalibus consensus in delectationem 
+co<lb break="no" ed="#L" n="85"/>gitati actus ratione cogitationis non est mortale sed veniale
+<lb ed="#L" n="86"/>quandoque vel nullum, ratione vero cogitati actus semper
+<lb ed="#L" n="87"/>est mortale: tamen, quia in materia luxuriae maxime 
+ti<lb break="no" ed="#L" n="88"/>metur hoc peccatum, multoties forte creditur peccatum ubi
+<lb ed="#L" n="89"/>non est; et e contra, ubi est delectatio de cogitata vindicta,
+<lb ed="#L" n="90"/>quam tamen facere non vult, non aestimatur. Propter quod
+<lb ed="#L" n="91"/>Auctor, in corpore articuli, affectum hominis ad actum
+<lb ed="#L" n="92"/>secundum se, pensandum docet in huiusmodi discretione:
+<lb ed="#L" n="93"/>inclinatus enim ad vindictam, facile de illa cogitata 
+dele<lb break="no" ed="#L" n="94"/>ctatur; et alienus a venereis, non facile de cogitatis eius
+<lb ed="#L" n="95"/>delectatur, quamvis caro concupiscat adversus spiritum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1054-Dd1e1141"><!-- caj-p2p1-q74-a10 -->
+               <head xml:id="TAcCaj-d1e1054-Hd1e1144">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e1054-d1e1146">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1054-d1e1153">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>IN articulis nono et decimo eiusdem septuagesimaequartae 
+<lb ed="#L" n="53"/>qausestionis, nihil scribendum occurrit: terminorum enim
+<lb ed="#L" n="54"/>notitiam habentibus omnia clara sunt. Opus est ut novitius
+<lb ed="#L" n="55"/>lector distinguat ex Augustino, allata in littera, duas 
+ope<lb break="no" ed="#L" n="56"/>rationes superioris rationis: scilicet intuitum, et 
+consulta<lb break="no" ed="#L" n="57"/>tionem. Et ad hanc secundam spectat deliberatio et 
+con<lb break="no" ed="#L" n="58"/>sensus. Et secundum hanc dirigit inferiora, et reflectitur
+<lb ed="#L" n="59"/>super seipsam. Et vocatur in littera altior consideratio de 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="60"/>proprio obiecto ut attingibili ab eadem: altius enim 
+con<lb break="no" ed="#L" n="61"/>sideratur Deus ut non creditus per deliberationem, quam
+<lb ed="#L" n="62"/>per subitum motum; quoniam hic Deus est tantum 
+obie<lb break="no" ed="#L" n="63"/>ctum, ibi est obiectum et lex. Et propterea hic contra 
+pri<lb break="no" ed="#L" n="64"/>mam operationem, ibi contra secundam: hic non est 
+con<lb break="no" ed="#L" n="65"/>sensus, ibi consensus, quia legis consultatio: hic non est
+<lb ed="#L" n="66"/>peccatum mortale, ibi mortale.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

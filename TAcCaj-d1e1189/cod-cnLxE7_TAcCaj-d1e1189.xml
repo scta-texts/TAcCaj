@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 100</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 100</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="215"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1189"><!-- TAcCajp2p1-q100 -->
+            <head xml:id="TAcCaj-d1e1189-Hd1e101">Quaestio 100</head>
+            <div xml:id="TAcCaj-d1e1189-Dd1e103"><!-- caj-p2p1-q100-a1 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1189-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>In primo articulo quaestionis centesimae, nota quod 
+ap<lb break="no" ed="#L" n="11"/>pellatione moralium in hoc loco intelliguntur non solum
+<lb ed="#L" n="12"/>ea quae ex ratione naturali pura derivantur ut 
+conclusio<lb break="no" ed="#L" n="13"/>nes ex principiis; sed etiam quae eidem, adiuncto illi 
+lu<lb break="no" ed="#L" n="14"/>mine fidei, consonant. Et propterea cum in littera dicitur
+<lb ed="#L" n="15"/>quod moralia sunt de illis quae secundum. se ad bonos
+<lb ed="#L" n="16"/>mores pertinent, ly secundum se non distinguit contra ad-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="17"/>iunctam fidem, sed contra institutionem, Ita quod moralia
+<lb ed="#L" n="18"/>sunt quae, si nunquam essent lege aliqua statuta, servanda
+<lb ed="#L" n="19"/>sunt ex naturali ratione vel sola, vel fidei lumine adiuta:
+<lb ed="#L" n="20"/>caeremonialia autem et iudicialia quae, antequam lege 
+po<lb break="no" ed="#L" n="21"/>nerentur, indifferens erat sic vel aliter poni; puta quod
+<lb ed="#L" n="22"/>blasphemus lapidaretur magis quam decapitaretur, et quod
+<lb ed="#L" n="23"/>offeratur agnus magis quam haedus, et huiusmodi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1189-Dd1e153"><!-- caj-p2p1-q100-a2 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e156">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1189-d1e158">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e165">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>IN articulo secundo eiusdem quaestionis, nota differentias
+<lb ed="#L" n="11"/>laus in littera inter legem humanam et divinam, quoad
+<lb ed="#L" n="12"/>disponendum de omnium virtutum actibus, ex substantiali
+<lb ed="#L" n="13"/>earum diversitate illatas. Prima est quia lex humana 
+dis<lb break="no" ed="#L" n="14"/>ponit de sola iustitia formaliter, de aliis autem virtutibus
+<lb ed="#L" n="15"/>ut induunt rationem iustitiae: lex autem divina disponit
+<lb ed="#L" n="16"/>de omnibus virtutibus absolute. Et ratio huius est quia illa
+<lb ed="#L" n="17"/>attendit rationem debiti respectu communis boni: ista autem
+<lb ed="#L" n="18"/>attendit rationem coniunctionis ad Deum; coniunctio 
+au<lb break="no" ed="#L" n="19"/>tem ad Deum omni virtute absolute sumpta fit, quia bene
+<lb ed="#L" n="20"/>disponitur mens secundum suam totam latitudinem.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e194">
+                  <lb ed="#L" n="21"/>II. Secunda est quod, quia infitiari non potest quin
+<lb ed="#L" n="22"/>omnis ad aliquam debiti rationem non se vertat, quia nisi
+<lb ed="#L" n="23"/>debitum esset aut fieret, lege positum sub lege non 
+ca<lb break="no" ed="#L" n="24"/>deret; lex humana rationem debiti proprie dicti respicit:
+<lb ed="#L" n="25"/>lex autem divina rationem debiti metaphorice, vel debiti
+<lb ed="#L" n="26"/>obedientiae.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e210">
+                  <lb ed="#L" n="27"/>Quod si non penetras, scito quod ista triplex debiti
+<lb ed="#L" n="28"/>ratio ita se habet quod debitum obedientiae est commune
+<lb ed="#L" n="29"/>omni legi, et consurgit ex ratione principantis et subditi.
+<lb ed="#L" n="30"/>Et de tali debito non est sermo cum quaeritur sub qua
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="31"/>ratione actus virtutum cadant sub lege: quia debitum: 
+obe<lb break="no" ed="#L" n="32"/>dientiae non ponit in actibus rationem qua ordinantur in
+<lb ed="#L" n="33"/>finem legis, sed obligationem ad exequendum lege posita.
+<lb ed="#L" n="34"/>Debitum autem inferiorum ad superius in eodem homine,
+<lb ed="#L" n="35"/>quod metaphorice debitum dicitur, iustitiam proprie dictam
+<lb ed="#L" n="36"/>non fundat, ut ex V Ethic. habetur. Debitum demum
+<lb ed="#L" n="37"/>proprie dictum unius hominis ad alterum et ad commune
+<lb ed="#L" n="38"/>bonum, ad iustitiam proprie dictam spectat. Et propterea
+<lb ed="#L" n="39"/>lex humana, quae debiti proprie dicti rationem dirigit,
+<lb ed="#L" n="40"/>nullius virtutis actus nisi sub ratione iustitiae, imperat. Lex
+<lb ed="#L" n="41"/>autem divina, quae totum hominem sanat secundum 
+se<lb break="no" ed="#L" n="42"/>ipsum, quia secundum seipsum iungitur Deo, omnium 
+vir<lb break="no" ed="#L" n="43"/>tutum actus ordinat absolute sub ratione debiti 
+metapho<lb break="no" ed="#L" n="44"/>rice, et concurrente communissimo debito obedientiae ut
+<lb ed="#L" n="45"/>obligante ad parendum. Et propterea in littera. utriusque
+<lb ed="#L" n="46"/>Auctor meminit, in responsionibus argumentorum.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e259">
+                  <lb ed="#L" n="47"/>Et scito quod i in eisdem responsionibus, nomine 
+ratio<lb break="no" ed="#L" n="48"/>nis Auctor intendit supremum in homine; nomine vero 
+vir<lb break="no" ed="#L" n="49"/>tutum inferiorum, reliqua quae sunt hominis; ut responsio
+<lb ed="#L" n="50"/>ad primum, iuncta responsioni ad secundum, aperit. 
+Opor<lb break="no" ed="#L" n="51"/>tet enim supremae regulae consonare reliqua.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1189-Dd1e273"><!-- caj-p2p1-q100-a3 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e276">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1189-d1e278">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e285">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>ARTICULUM tertium eiusdem quaestionis centesimae si non
+<lb ed="#L" n="21"/>plene discernis, vide articulum undecimum eiusdem,
+<lb ed="#L" n="22"/>et intelliges differentiam inter prima principia moralia et
+<lb ed="#L" n="23"/>praecepta decalogi, quae sunt prima legis elementa. Illa
+<lb ed="#L" n="24"/>enim statim notis terminis, ex natura vel fide infusa, 
+co<lb break="no" ed="#L" n="25"/>gnoscimus: ista autem statim ex primis praedictis cogno-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="26"/>scimus. Et propterea illa Deum per naturam vel fidem 
+di<lb break="no" ed="#L" n="27"/>citur indidisse vel infudisse; ista autem per nos ipsos, 
+tan<lb break="no" ed="#L" n="28"/>quam a Deo proposita mediantibus illis, cognoscere; reliqua
+<lb ed="#L" n="29"/>autem per instructionem humanam, diligenti investigatione
+<lb ed="#L" n="30"/>aut disciplina..
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1189-Dd1e317"><!-- caj-p2p1-q100-a4 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e320">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1189-d1e322">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e329">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>In articulo quarto eiusdem quaestionis, in responsione ad
+<lb ed="#L" n="35"/>primum, nota duo. Primo, quod Auctor excludit fidei et
+<lb ed="#L" n="36"/>caritatis actus a praeceptis decalogi, quoniam vult ea 
+per<lb break="no" ed="#L" n="37"/>tinere ad principia praeceptorum decalogi, sicut prima 
+prin<lb break="no" ed="#L" n="38"/>cipia naturaliter nota. Et de caritate quidem patet ex eo
+<lb ed="#L" n="39"/>quod finis praecepti est caritas, Vad Tim.1: de fide autem,
+<lb ed="#L" n="40"/>ad Heb. x: Accedentem ad Deum etc. Ratio in littera af-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="41"/>fertur, quia non egent alia promulgatione, sed ex ipsa 
+na<lb break="no" ed="#L" n="42"/>tura vel infusione adsunt.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e355">
+                  <lb ed="#L" n="43"/>Secundo quod, licet praecepta non sint distinguenda 
+se<lb break="no" ed="#L" n="44"/>cundum distinctionem fidei a latria, aut e contra, sunt 
+ta<lb break="no" ed="#L" n="45"/>men distinguenda penes diversa pertinentia ad latriam seu
+<lb ed="#L" n="46"/>religionem: quia ista est pars iustitiae, et spectat ad ipsum
+<lb ed="#L" n="47"/>decalogum. Unde tria prima praecepta decalogi de actibus
+<lb ed="#L" n="48"/>religionis sunt. Et propterea Auctor hoc dixit in littera.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1189-Dd1e373"><!-- caj-p2p1-q100-a5 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e376">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1189-d1e378">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e385">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>IN articulo quinto eiusdem quaestionis, nota quod illa
+<lb ed="#L" n="69"/>verba litterae. In sabbati sanctificatione, secundum quod
+<lb ed="#L" n="70"/>est morale praeceptum, praecipitur quies cordis in Deum, |
+<lb ed="#L" n="71"/>intelliguntur quoad finem praecepti; non autem quoad rem
+<lb ed="#L" n="72"/>praeceptam. Quies enim cordis in Deum per gratiam et
+<lb ed="#L" n="73"/>vacationem interiorem ad Deum, est finis illius praecepti,
+<lb ed="#L" n="74"/>ut est morale: quoniam ad hoc ratio dictat tempus aliquod
+<lb ed="#L" n="75"/>eximendum ab aliis operibus impedientibus. Et quod haec
+<lb ed="#L" n="76"/>sit mens Auctoris, non solum ex qu. cxxi, art. 4, ITI»
+<lb ed="#L" n="77"/>II, sed ex dictis in hac quaestione patet, scilicet quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>caritas est finis praeceptorum decalogi, et non spectat ad
+<lb ed="#L" n="79"/>ea -. Ethinc habes quod contritio peccatorum mortalium
+<lb ed="#L" n="80"/>prius non contritorum, non est in praecepto sanctificationis
+<lb ed="#L" n="81"/>sabbati, ut morale est, nisi ut finis praecepti. 
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e422">
+                  <lb ed="#L" n="82"/>In articulo septimo et quarto, vide vigesimum 
+capitu<lb break="no" ed="#L" n="83"/>Ii Exodi, ut perspicias quid Auctor allegat aut 
+sup<lb break="no" ed="#L" n="84"/>ponit. Quoniam ibi omnia praecepta simul ponuntur, et
+<lb ed="#L" n="85"/>praemia et comminationes, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e433">
+                  <lb ed="#L" n="86"/>Sextus articulus notandus, non exponendus, occurrit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1189-Dd1e439"><!-- caj-p2p1-q100-a8 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e442">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1189-d1e444">
+                  <pb ed="#L" n="216"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e453">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo octavo dubium occurrit ex Scoto, in xxxvi
+<lb ed="#L" n="3"/>dist. III Sent., tenente quod praecepta secundae tabulae
+<lb ed="#L" n="4"/>non sunt de iure naturae sive ut principia, sive ut 
+con<lb break="no" ed="#L" n="5"/>clusiones necessariae, sed solum ut valde consona iuri 
+na<lb break="no" ed="#L" n="6"/>turae. Probat autem haec praecepta non esse de iure 
+na<lb break="no" ed="#L" n="7"/>turae ut conclusiones necessarias a principiis naturae, primo,
+<lb ed="#L" n="8"/>quia sequeretur quod essent omnino indispensabilia: cuius
+<lb ed="#L" n="9"/>oppositum apparet in opere Abrahae. — Probat sequelam.
+<lb ed="#L" n="10"/>Quia conclusiones tales prius sunt secundum se verae,
+<lb ed="#L" n="11"/>quam relate ad quemcumque intellectum vel voluntatem.
+<lb ed="#L" n="12"/>Ac per hoc, voluntas divina non potest esse recta respectu
+<lb ed="#L" n="13"/>earum, volendo opposita. Et consequenter non potest 
+dis<lb break="no" ed="#L" n="14"/>pensare.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e486">
+                  <lb ed="#L" n="15"/>Secundo, quia sequeretur quod voluntas divina 
+deter<lb break="no" ed="#L" n="16"/>minarefur necessario simpliciter circa aliqua volibilia alia
+<lb ed="#L" n="17"/>a se. - Tenet sequela. Quia ad haec praecepta necessario
+<lb ed="#L" n="18"/>bona, et opposita mala, determinata esset; sicut intellectus
+<lb ed="#L" n="19"/>ad intelligendum ipsa necessario vera.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e499">
+                  <lb ed="#L" n="20"/>Tertio, quia in his quae praecipiuntur, non est 
+boni<lb break="no" ed="#L" n="21"/>tas necessaria ad bonitatem ultimi finis, convertens ad 
+ul<lb break="no" ed="#L" n="22"/>timum finem; et similiter in his quae prohibentur, non est
+<lb ed="#L" n="23"/>malitia necessario avertens a fine ultimo: quia si bonum
+<lb ed="#L" n="24"/>illud non esset praeceptum, posset finis ultimus amari et
+<lb ed="#L" n="25"/>attingi; et si illud malum non esset prohibitum, staret cum
+<lb ed="#L" n="26"/>eo acquisitio finis ultimi. Ergo non sunt conclusiones 
+ne<lb break="no" ed="#L" n="27"/>cessario deductae ex primis principiis naturalibus.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e520">
+                  <lb ed="#L" n="28"/>Haec sunt ex quibus Scotus movetur contra sententiam
+<lb ed="#L" n="29"/>veritatis, scilicet quod praecepta omnia decalogi sunt 
+con<lb break="no" ed="#L" n="30"/>clusiones necessariae, et necessario deductae ex principiis
+<lb ed="#L" n="31"/>naturalibus, ita quod ideo sunt praecepta quia bona, et
+<lb ed="#L" n="32"/>prohibita quia mala, et non e converso.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e533">
+                  <lb ed="#L" n="33"/>II. Ad primam autem. eius rationem, scilicet quia 
+se<lb break="no" ed="#L" n="34"/>queretur quód essent indispensabilia etiam a Deo, dicitur
+<lb ed="#L" n="35"/>quod praecepta decalogi, ut in littera dicitur, possunt 
+du<lb break="no" ed="#L" n="36"/>pliciter considerari. Primo, secundum. ordinem iustitiae
+<lb ed="#L" n="37"/>quem. continent. Et sic conceditur quod sunt 
+indispensabi<lb break="no" ed="#L" n="38"/>lia etiam a Deo, ut in responsione ad secundum Auctor
+<lb ed="#L" n="39"/>probat. —- Secundo, secundum applicationem ad aliquem 
+sin<lb break="no" ed="#L" n="40"/>gularern actum. Et sic dicitur quod praecepta secundae 
+ta<lb break="no" ed="#L" n="41"/>bulae, de. quibus est quaestio, sunt dispensabilia a Deo.
+<lb ed="#L" n="42"/>Sed talis dispensatio non est relaxatio praecepti, aut 
+decla<lb break="no" ed="#L" n="43"/>ratio illius in hoc casu seu actu, ut Scotus arguit: sed est
+<lb ed="#L" n="44"/>facere quod iste actus non est homicidium, qui sine hac
+<lb ed="#L" n="45"/>auctoritate esset homicidium, et simile est de aliis; ut in
+<lb ed="#L" n="46"/>littera dicitur, in responsione ad tertium.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e566">
+                  <lb ed="#L" n="47"/>Nec fallaris, intelligens per ordinem iustitiae in 
+praece<lb break="no" ed="#L" n="48"/>ptis istis contentum, rationem debiti vel indebiti in 
+com<lb break="no" ed="#L" n="49"/>muni: hoc enim non constitueret praecepta in speciali, sed
+<lb ed="#L" n="50"/>duo communia praecepta, Nulli faciendum est indebitum,
+<lb ed="#L" n="51"/>et, Cuilibet faciendum est debitum. Sed intellige specialem
+<lb ed="#L" n="52"/>rationem debiti vel indebiti: iuxta materiam. subiectam, Verbi
+<lb ed="#L" n="53"/>gratia, Norm occides: ordo iustitiae in hoc praecepto est
+<lb ed="#L" n="54"/>quod non occidas hominem innocentem, cum ceteris 
+con<lb break="no" ed="#L" n="55"/>ditionibus requisitis: sic enim continet ordinem iustitiae
+<lb ed="#L" n="56"/>quem Deus negare non potest. Nec unquam in ordine isto
+<lb ed="#L" n="57"/>fit dispensatio: impossibile quippe est ut actus iste, scilicet
+<lb ed="#L" n="58"/>occidere ex deliberatione, non se vel alium. defendendo,
+<lb ed="#L" n="59"/>privata auctoritate, hominem innocentem, dispensationem
+<lb ed="#L" n="60"/>recipiat. Sed cum Deus dispensare dicitur, ut quando 
+prae<lb break="no" ed="#L" n="61"/>cepit Abrahae immolationem Isaac, non relaxavit aut 
+de<lb break="no" ed="#L" n="62"/>claravit hoc. praeceptum, Non occides: sed fecit ut actus
+<lb ed="#L" n="63"/>ille immolationis non esset homicidium, quia erat occisio
+<lb ed="#L" n="64"/>imperata a suprema potestate, qui sine tali auctoritate
+<lb ed="#L" n="65"/>fuisset homicidium. '
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e610">
+                  <lb ed="#L" n="66"/>Et ut plenius intelligas, scito quod, sicut haec enunciatio,
+<lb ed="#L" n="67"/>Mortui non possunt resurgere, est necessaria, et ex 
+princi<lb break="no" ed="#L" n="68"/>piis primis naturaliter notis demonstrative concludi potest;
+<lb ed="#L" n="69"/>et in sensu. in quo fit et concluditur, scilicet quod. ly. 
+po<lb break="no" ed="#L" n="70"/>test dicit potentiam naturalem, impossibile est quod aliter
+<lb ed="#L" n="71"/>sit; et quando Deus resuscitat aliquem, non falsificat illam
+<lb ed="#L" n="72"/>propositionem aut excipit ab illa, sed operatur non 
+con<lb break="no" ed="#L" n="73"/>tra, sed supra naturam: ita in proposito haec conclusio, Non
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="74"/>est occidendum, in sensu in quo fit, scilicet privata 
+aucto<lb break="no" ed="#L" n="75"/>ritate cum ceteris conditionibus, est conclusio necessaria,
+<lb ed="#L" n="76"/>et necessario consequens ex primis principiis practicis per
+<lb ed="#L" n="77"/>se notis, ità quod est impossibile aliter se habere; nec
+<lb ed="#L" n="78"/>Deus unquam eam. falsificat, aut ab ea excipit; sed cum
+<lb ed="#L" n="79"/>iubet fieri actum qui sine iussu suo esset homicidium,
+<lb ed="#L" n="80"/>adulterium vel furtum, operari iubet non praeter aut 
+con<lb break="no" ed="#L" n="81"/>tra praeceptum, sed quasi supra illud, dum a superiori 
+po<lb break="no" ed="#L" n="82"/>testate actum imperatum exerceri iubet. Omnia siquidem
+<lb ed="#L" n="83"/>praecepta haec subintellectam habent hanc clausulam 
+ge<lb break="no" ed="#L" n="84"/>neralem, scilicet quod ex naturali mensura actus isti fiant
+<lb ed="#L" n="85"/>vel non fiant: sic enim ordinem iustitiae insolubilem 
+con<lb break="no" ed="#L" n="86"/>tinent. Ita quod sensus est non esse naturali ratione 
+com<lb break="no" ed="#L" n="87"/>mittendum actum substratum rationi homicidii, adulterii,
+<lb ed="#L" n="88"/>furti, etc. Hoc enim est idem quod dicere non esse 
+occi<lb break="no" ed="#L" n="89"/>dendum, adulterandum, furandum: quoniam actus illi
+<lb ed="#L" n="90"/>substrati, relati ad naturalem rationem. et mensuram, a
+<lb ed="#L" n="91"/>qua discordant, homicidii, adulterii, furti, etc., rationem
+<lb ed="#L" n="92"/>induunt. Hoc autem omnino indispensabile esse constat,
+<lb ed="#L" n="93"/>ut scilicet actus illi, naturali ratione exerciti, homicidia, adul-.
+<lb ed="#L" n="94"/>teria, etc., non sint: quamvis fieri possit ut actus illi, 
+di<lb break="no" ed="#L" n="95"/>vina ratione exerciti, non. sint homicidia, adulteria, etc., et
+<lb ed="#L" n="96"/>per hoc nec peccata. Sicut enim fieri nequit ut mortuus
+<lb ed="#L" n="97"/>naturali potentia resurgat, ita fieri nequit ut homo naturali
+<lb ed="#L" n="98"/>ratione occidat licite: quamvis divina potentia mortuus 
+re<lb break="no" ed="#L" n="99"/>surgat, et divina ratione homo occidat licite. Sed haec non
+<lb ed="#L" n="100"/>esse contraria, liquido constat. Unde patet quod ista duo
+<lb ed="#L" n="101"/>stant simul: Praecepta decalogi sunt conclusiones. 
+necessa<lb break="no" ed="#L" n="102"/>riae ex iure naturae strictissime; et ipsa sunt a Deo 
+dispen<lb break="no" ed="#L" n="103"/>sabilia quodammodo. Verius tamen dicuntur 
+indispensabi<lb break="no" ed="#L" n="104"/>lia omnino: et pie exponantur auctoritates dicentes Deum
+<lb ed="#L" n="105"/>in praeceptis secundae tabulae dispensare, ut dictum est.
+<lb ed="#L" n="106"/>III. Ad secundam rationem dicitur quod voluntatem 
+di<lb break="no" ed="#L" n="107"/>vinam determinari ad aliquid, potest intelligi dupliciter.
+<lb ed="#L" n="108"/>Primo, ut determinetur ad volendum aliquid extra se esse
+<lb ed="#L" n="109"/>vel non esse. Et sic est impossibile quod determinetur nisi
+<lb ed="#L" n="110"/>a seipsa libere. Et hoc determinatur in libro Sententiarum, 
+<lb ed="#L" n="111"/>et gratis conceditur. - Alio modo, ut determinetur ad 
+re<lb break="no" ed="#L" n="112"/>ctitudinem. vel obliquitatem. alicuius. Et sic, respectu 
+coni<lb break="no" ed="#L" n="113"/>plexorum, non inconvenit voluntatem divinam esse detern "
+<lb ed="#L" n="114"/>natam. Et hoc oportet etiam ipsum Scotum et omnes fateri
+<lb ed="#L" n="115"/>dicentes dari aliqua praecepta per se bona, et prohibita
+<lb ed="#L" n="116"/>se mala, ut prima praecepta iuris naturae, et prima 
+praece<lb break="no" ed="#L" n="117"/>pta decalogi. Ad haec quippe, non quod sint vel non sint,
+<lb ed="#L" n="118"/>sed ad eorum rectitudinem et obliquitatem, voluntas divina
+<lb ed="#L" n="119"/>est determinata sic ut a rectis non possit dissonare, nec 
+ob<lb break="no" ed="#L" n="120"/>liquis possit concordari.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e734">
+                  <lb ed="#L" n="121"/>Si tamen cum debita reverentia loquendum, et altiori
+<lb ed="#L" n="122"/>veritate utendum est, dicere debemus quod, sicut divinus
+<lb ed="#L" n="123"/>intellectus. naturaliter determinatus. est ad. Deum. ipsum
+<lb ed="#L" n="124"/>tantum intelligendum, et in.se omnia naturaliter 
+relucen<lb break="no" ed="#L" n="125"/>tia; ita divina voluntas ad Deum ipsum tantum volendum,
+<lb ed="#L" n="126"/>et in seipsa omnia naturaliter recta, qualia sunt huiusmodi,
+<lb ed="#L" n="127"/>quae non nisi in Deo sunt, antequam ab ipso' 
+communi<lb break="no" ed="#L" n="128"/>carentur.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e754">
+                  <lb ed="#L" n="129"/>IV. Ad tertiam rationem dicitur quod argumentum 
+ma<lb break="no" ed="#L" n="130"/>nifeste peccat, a bonitate et malitia praeceptorum in seipsis,
+<lb ed="#L" n="131"/>ad bonitatem vel malitiam nobis necessariam: quamvis.
+<lb ed="#L" n="132"/>etiam sic non concludat intentum. Ad quorum evidentiam,
+<lb ed="#L" n="133"/>scito quod, quemadmodum in speculativis primum 
+princi<lb break="no" ed="#L" n="134"/>pium et conclusiones necessariae sic.se habent quod. prin-:
+<lb ed="#L" n="135"/>cipi veritas non eget veritate conclusionis (sed e converso):
+<lb ed="#L" n="136"/>nec secundum se. nec quoad. cognitionem nostram, quia:
+<lb ed="#L" n="137"/>veritas principii est causa veritatis conclusionis, et notit
+<lb ed="#L" n="138"/>principii per se noti est causa notitiae conclusionis notae
+<lb ed="#L" n="139"/>ex illo; ad contradictoria autem conclusionum necessariarum
+<lb ed="#L" n="140"/>ita se habet principium primum quod cum ipsis non stat
+<lb ed="#L" n="141"/>nec secundum se, nec quoad. nos si nota est connexio ad.
+<lb ed="#L" n="142"/>invicem, ut patet: ita in practicis moralibus finis ultimus,
+<lb ed="#L" n="143"/>et ea quae sunt simpliciter necessaria ex illo, sic se habent
+<lb ed="#L" n="144"/>quod finis bonitas non dependet a bonitate aliorum nec
+<lb ed="#L" n="145"/>in esse nec in amari, sed e converso; ad opposita autem
+<pb ed="#L" n="217"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>mala se habet ultimus finis sic quod tam bonitas quam
+<lb ed="#L" n="2"/>amor eius ab illis necessario discordat.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e803">
+                  <lb ed="#L" n="3"/>Cum ergo dicit arguens quod in istis non est 
+neces<lb break="no" ed="#L" n="4"/>saria bonitas ad ultimum finem etc., tripliciter. intelligi
+<lb ed="#L" n="5"/>potest. Primo, quod in istis non est bonitas necessariam 
+con<lb break="no" ed="#L" n="6"/>nexionem habens cum ultimo fine, et similiter malitia 
+ne<lb break="no" ed="#L" n="7"/>cessariam aversionem habens ab eodem. Et sic negatur 
+as<lb break="no" ed="#L" n="8"/>sumptum. Quoniam sicut in conclusionibus necessariis est
+<lb ed="#L" n="9"/>necessaria veritas necessario connexa primo principio, ita
+<lb ed="#L" n="10"/>in istis est bonitas necessaria necessario connexa ultimo
+<lb ed="#L" n="11"/>fini. - Et ad probationem: Si ista non essent praecepta, 
+pos<lb break="no" ed="#L" n="12"/>set amari et attingi ultimus finis in esse et amari absque istis:
+<lb ed="#L" n="13"/>dicitur quod non probat contingentem connexionem. Ex
+<lb ed="#L" n="14"/>hoc enim quod principia prima sunt vera et scita absque
+<lb ed="#L" n="15"/>conclusionibus necessariis, non probatur quod conclusiones
+<lb ed="#L" n="16"/>non sunt necessario connexae principiis, et in se 
+necessa<lb break="no" ed="#L" n="17"/>riae: sed quod nec veritas nec notitia principiorum 
+pen<lb break="no" ed="#L" n="18"/>det ex eis. Sic autem est in proposito. Unde in dicto sensu
+<lb ed="#L" n="19"/>nihil probatur: quoniam antecedens est falsum, et probatio
+<lb ed="#L" n="20"/>non concludit illud.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e845">
+                  <lb ed="#L" n="21"/>Secundo potest intelligi quod in istis non est bonitas
+<lb ed="#L" n="22"/>necessaria ad esse vel amorem ultimi finis. Et huiusmodi
+<lb ed="#L" n="23"/>sensus est verus: quoniam ultimus finis nec in esse nec
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>in amari dependet ab istorum bonitate, sed e converso. Sed
+<lb ed="#L" n="25"/>ex hoc sensu non valet sequela, Ergo non sunt 
+conclusio<lb break="no" ed="#L" n="26"/>nes necessariae: ut patet in speculativis conclusionibus 
+re<lb break="no" ed="#L" n="27"/>spectu principiorum primorum.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e865">
+                  <lb ed="#L" n="28"/>Tertio potest intelligi quod in istis non est bonitas 
+ne<lb break="no" ed="#L" n="29"/>cessario convertens ad ultimum finem, nec malitia necessario
+<lb ed="#L" n="30"/>avertens ab illo. Et in hoc sensu assumptum est falsum.
+<lb ed="#L" n="31"/>Quoniam sicut in conclusionibus necessariis est veritas 
+ine<lb break="no" ed="#L" n="32"/>cessario ducens a posteriori in prima principia, ita in istis
+<lb ed="#L" n="33"/>est bonitas necessario ducens in ultimum finem eis 
+propor<lb break="no" ed="#L" n="34"/>tionatum. Quod dico, ne ingrediamur quaestionem de Deo
+<lb ed="#L" n="35"/>ut fine naturali vel supernaturali, et quomodo sit istis Deus
+<lb ed="#L" n="36"/>proportionatus finis. - Et ad probationem, quia si non essent
+<lb ed="#L" n="37"/>haec praecepta vel prohibita, nihilominus ultimus finis 
+pos<lb break="no" ed="#L" n="38"/>set amari et attingi: dicitur quod hic est sophisma 
+Conse<lb break="no" ed="#L" n="39"/>quentis. Quoniam licet ista sint necessario convertentia vel
+<lb ed="#L" n="40"/>avertentia, conversio tamen vel aversio non dependet ab
+<lb ed="#L" n="41"/>his solis, sed aliunde esse potest: haec enim, ut dictum est,
+<lb ed="#L" n="42"/>a posteriori convertunt vel avertunt, ut conclusiones 
+respe<lb break="no" ed="#L" n="43"/>ctu principiorum. Et tamen cum his teneas quod haec sunt
+<lb ed="#L" n="44"/>adeo necessario connexa fini ultimo, ut saltem in 
+praepa<lb break="no" ed="#L" n="45"/>ratione animi, conversio ad haec bona, et aversio ab his
+<lb ed="#L" n="46"/>malis, inseparabilis sit ab amore finis ultimi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1189-Dd1e910"><!-- caj-p2p1-q100-a9 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e913">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e1189-d1e915">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="41"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e922">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="42"/>IN articulo nono eiusdem centesimae quaestionis, nota
+<lb ed="#L" n="43"/>Tow actus interiores dupliciter sumi possunt. Primo, puri:
+<lb ed="#L" n="44"/>et sic non subiacent humanis legibus et iudiciis. Secundo,
+<lb ed="#L" n="45"/>iuncti actibus exterioribus: et sic subiacent humanis 
+legi<lb break="no" ed="#L" n="46"/>bus et iudiciis, Et utrumque in littera insinuatur. Primum,
+<lb ed="#L" n="47"/>cum dicitur quod volentem occidere et non occidentem, lex
+<lb ed="#L" n="48"/>humana non punit. Secundum, cum dicitur quod aliter se
+<lb ed="#L" n="49"/>habet lex ad facientem aliquid ex ignorantia, et ad 
+facien<lb break="no" ed="#L" n="50"/>tem scienter. Et simile est de faciente ex metu vel sponte,
+<lb ed="#L" n="51"/>deliberate vel subito.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e948">
+                  <lb ed="#L" n="52"/>II. In eodem nono articulo dubium occurrit, quia 
+Au<lb break="no" ed="#L" n="53"/>ctor male probare videtur quod modus ille virtutis, scilicet.
+<lb ed="#L" n="54"/>volens et eligens, non cadat sub humana lege. Manifeste
+<lb ed="#L" n="55"/>enim digreditur a voluntate et electione ut sunt modi actus
+<lb ed="#L" n="56"/>virtuosi, ad voluntatem et electionem absolute; dum debet
+<lb ed="#L" n="57"/>probare quod haec ut modus, non subsunt legi humanae;
+<lb ed="#L" n="58"/>et probat quod haec absolute non subsunt legi humanae,
+<lb ed="#L" n="59"/>dum affert pro ratione quod lex humana non punit 
+vo<lb break="no" ed="#L" n="60"/>lentem occidere et non occidentem.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e970">
+                  <lb ed="#L" n="61"/>III. Et confirmatur. Quia aut Auctor intendit de istis
+<lb ed="#L" n="62"/>modis, ut modi sunt; [aut] absolute; aut utroque modo. Si
+<lb ed="#L" n="63"/>de istis absolute, aut utroque modo, dicendum erat de primo
+<lb ed="#L" n="64"/>modo, scilicet quod sciens non cadit sub lege humana 
+ab<lb break="no" ed="#L" n="65"/>solute, quia est actus interior: non enim lex humana punit
+<lb ed="#L" n="66"/>ignorantem legem, si nihil operetur contra eam. - Si ut modi
+<lb ed="#L" n="67"/>sunt, qua ratione aliter iudicatur ad poenam vel ad veniam
+<lb ed="#L" n="68"/>a lege humana ignoranter faciens, pari ratione male libenter
+<lb ed="#L" n="69"/>faciens et non ex intentione deliberata; ut patet in lege de
+<lb ed="#L" n="70"/>civitatibus refugii.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e995">
+                  <lb ed="#L" n="71"/>IV. Ad hoc dicitur quod, quia doctrinam oportet esse
+<lb ed="#L" n="72"/>formalem, et quaestio est de modo virtutis, sermo litterae
+<lb ed="#L" n="73"/>est de istis ut sunt modi, et non absolute. Et quoniam
+<lb ed="#L" n="74"/>legi humanae subsunt actus virtutum sub ratione iustitiae,
+<lb ed="#L" n="75"/>ut supra dictum est; et ad actus iustitiae non refert, quoad
+<lb ed="#L" n="76"/>exterius forum, qua quis voluntate aut intentione faciat,
+<lb ed="#L" n="77"/>dummodo debitum reddat, ut patet in actibus iustitiae 
+com<lb break="no" ed="#L" n="78"/>mutativae et distributivae; nihil enim refert, quoad 
+iusti<lb break="no" ed="#L" n="79"/>tiam, si mala intentione reddas mihi debitam pecuniam vel
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>honorem, et huiusmodi: ideo modus iste, scilicet 
+volun<lb break="no" ed="#L" n="81"/>tarie ex intentione finis illius virtutis operari, non cadit sub
+<lb ed="#L" n="82"/>lege humana, quae actus omnes praecipit sub ratione 
+de<lb break="no" ed="#L" n="83"/>bit. Unde lex humana non punit militem in bello 
+occi<lb break="no" ed="#L" n="84"/>dentem hostem, si ex odio vel ob avaritiam pugnet vel
+<lb ed="#L" n="85"/>Occidat. Et simile est in aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e1032">
+                  <lb ed="#L" n="86"/>V. Ad primam autem obiectionem dicitur quod velle
+<lb ed="#L" n="87"/>occidere potest sumi dupliciter. Primo, ut est actus 
+volun<lb break="no" ed="#L" n="88"/>tatis habens pro obiecto occisionem intellectam: et sic 
+su<lb break="no" ed="#L" n="89"/>mitur absolute, et non est ad propositum. - Secundo, ut est
+<lb ed="#L" n="90"/>modus occisionis ulterius exercendae, quasi inchoans i ipsam:
+<lb ed="#L" n="91"/>et sic est ad propositum. Et intendit littera quod, quia 
+Oc<lb break="no" ed="#L" n="92"/>cisio in tali modo, scilicet voluntarie et ex intentione 
+exi<lb break="no" ed="#L" n="93"/>stens, non cadit sub praecepto homicidii inquantum est a
+<lb ed="#L" n="94"/>lege humana, consequens est quod modus iste non cadat
+<lb ed="#L" n="95"/>sub lege humana. Unde nulla est digressio.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e1056">
+                  <lb ed="#L" n="96"/>VI. Ad secundam autem obiectionem dicitur negando
+<lb ed="#L" n="97"/>quod lex humana, inquantum est coactiva, aliter se habeat
+<lb ed="#L" n="98"/>ad operantem voluntarie et ex intentione, et aliter ad 
+ope<lb break="no" ed="#L" n="99"/>rantem non voluntarie vel non ex intentione. Quia, ut 
+di<lb break="no" ed="#L" n="100"/>ctum est, ad debiti rationem respicit, ad quod non est
+<lb ed="#L" n="101"/>impertinens scienter vel ignoranter, sicut volendo et 
+inten<lb break="no" ed="#L" n="102"/>dendo, ut declaratum est. — Instantiae autem quae. 
+affe<lb break="no" ed="#L" n="103"/>runtur de homicida ex occurrente ira, et operantibus metu
+<lb ed="#L" n="104"/>vel subito, non sunt ad propositum. Quia in his non 
+at<lb break="no" ed="#L" n="105"/>tenditur differentia secundum velle et non velle, intendere
+<lb ed="#L" n="106"/>et non intendere: in omnibus enim salvatur et velle. et
+<lb ed="#L" n="107"/>intendere. Sed differentia est in causa voluntarii, vel in
+<lb ed="#L" n="108"/>modo, vel aliquo huiusmodi.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e1087">
+                  <lb ed="#L" n="109"/>VII. In responsione ad secundum in eodem articulo, nota
+<lb ed="#L" n="110"/>has regulas, quibus toties uti oportet: scilicet non esse
+<lb ed="#L" n="111"/>idem finem praecepti et id de quo praeceptum datur, quia
+<lb ed="#L" n="112"/>illud finis, hoc ad finem; qui finis praecepti non cadit sub
+<lb ed="#L" n="113"/>praecepto ut id quod praecipitur, sed ut intentum a 
+legis<lb break="no" ed="#L" n="114"/>latore. Quoniam ex his habes solutionem multarum 
+quae<lb break="no" ed="#L" n="115"/>stionum pro minus eruditis et bonis mentibus timent
+<lb ed="#L" n="116"/>culpam ubi non est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1189-Dd1e1108"><!-- caj-p2p1-q100-a10 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e1111">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e1189-d1e1113">
+                  <pb ed="#L" n="220"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e1122">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo decimo eiusdem centesimae quaestionis, nota
+<lb ed="#L" n="3"/>duo. Primo, quia Auctor tendit ad demonstrandum quod
+<lb ed="#L" n="4"/>modus caritatis non cadit sub aliis praeceptis, ideo 
+separa<lb break="no" ed="#L" n="5"/>tionem temporum obligantium ad diversa praecepta docet,
+<lb ed="#L" n="6"/>in responsione ad secundum. Cum hac tamen separatione,
+<lb ed="#L" n="7"/>quae ut plurimum accidit, contingere potest simultas 
+tem<lb break="no" ed="#L" n="8"/>poris, quo scilicet simul teneatur ad praeceptum caritatis
+<lb ed="#L" n="9"/>et aliud. Et tunc, servando illud aliud et non praeceptum
+<lb ed="#L" n="10"/>caritatis, reus est omissionis istius, ut in corpore articuli
+<lb ed="#L" n="11"/>dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e1148">
+                  <lb ed="#L" n="12"/>II. Secundo, quia sub praecepto caritatis cadit dilectio
+<lb ed="#L" n="13"/>Dei ex toto corde, quod comprehendit directionem omnium
+<lb ed="#L" n="14"/>ad Deum, ac per hoc modificationem omnium 
+praecepto<lb break="no" ed="#L" n="15"/>rum a caritate; consequens est quod, pro quocumque 
+tem<lb break="no" ed="#L" n="16"/>pore obligat praeceptum caritatis, pro eodem modus 
+cari<lb break="no" ed="#L" n="17"/>tatis in aliis observandis praeceptis obliget; non ex vi 
+alio<lb break="no" ed="#L" n="18"/>rum praeceptorum, sed ex vi praecepti caritatis, ad quam
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>non solum spectat proprius actus secundum se, sed ut
+<lb ed="#L" n="20"/>modus ceterorum. Et quoniam sub caritatis praecepto non
+<lb ed="#L" n="21"/>clauditur ordinare peccata in Deum, sed omnia referibilia
+<lb ed="#L" n="22"/>in Deum, qualia sunt. quaecumque in nostra sunt potestate
+<lb ed="#L" n="23"/>et non sunt mala culpae; et quilibet habens caritatem, ex
+<lb ed="#L" n="24"/>hoc ipso quod est in caritate, diligit procul dubio Deum ex
+<lb ed="#L" n="25"/>toto corde, habens ipsum pro ultimo fine, ac per hoc sui
+<lb ed="#L" n="26"/>ipsius, et consequenter suorum omnium fine, alioquin in
+<lb ed="#L" n="27"/>caritate non esset: idcirco non oportet pias mentes 
+scru<lb break="no" ed="#L" n="28"/>pulo agitari quomodo praeceptum impleant ut omnis i in
+<lb ed="#L" n="29"/>gloriam Dei faciant."
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e1192">
+                  <lb ed="#L" n="30"/>Hic tractandum esset. promissum dubium in qu. Inv
+<lb ed="#L" n="31"/>de indifferentia actus existentis in caritate, nisi inferius in
+<lb ed="#L" n="32"/>II Il, qu. xLtv, art. 4, ex proposito disserendum esset id
+<lb ed="#L" n="33"/>unde pendet tota vis, an scilicet sub praecepto caritatis
+<lb ed="#L" n="34"/>claudatur totalitas referibilium. Propter quod, illucusque
+<lb ed="#L" n="35"/>differetur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1189-Dd1e1209"><!-- caj-p2p1-q100-a11 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e1212">Articulus 11</head>
+               <p xml:id="TAcCaj-d1e1189-d1e1214">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e1221">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>In articulo undecimo dubium occurrit ex eo quod superius,
+<lb ed="#L" n="69"/>in articulo sexto huius quaestionis, dictum est quod ordo
+<lb ed="#L" n="70"/>praeceptorum divinae legis attenditur secundum maiorem
+<lb ed="#L" n="71"/>et minorem gravitatem, quia quanto aliquod malum 
+con<lb break="no" ed="#L" n="72"/>trarium est gravius, tanto magis repugnat rationi, et 
+op<lb break="no" ed="#L" n="73"/>positum bonum magis a ratione suscipitur ut consonans.
+<lb ed="#L" n="74"/>Nunc vero minora mala locantur sub praeceptis decalogi,
+<lb ed="#L" n="75"/>et graviora sub praeceptis adiunctis: ut patet de blasphemo
+<lb ed="#L" n="76"/>respectu periurii, et de peccato contra naturam et 
+bestiali<lb break="no" ed="#L" n="77"/>tatis respectu adulterii, et de rapina respectu furti. Debebant
+<lb ed="#L" n="78"/>siquidem graviora haec, utpote magis dissona, et 
+consequen<lb break="no" ed="#L" n="79"/>ter magis susceptibilia a ratione, in praeceptis decalogi poni,
+<lb ed="#L" n="80"/>et minus gravia ad haec reduci, si secundum gravitatem
+<lb ed="#L" n="81"/>praeceptorum ordo est, ut. Auctor. docuit.
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e1256">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>II. Ad hoc dicitur quod ad rationem praeceptorum 
+de<lb break="no" ed="#L" n="83"/>calogi, quia sunt prima: elementa legis communia omnibus
+<lb ed="#L" n="84"/>de populo, exigitur communitas: idest quod sint de illis
+<lb ed="#L" n="85"/>quae communius singulis conveniunt, Ita quod principalia
+<lb ed="#L" n="86"/>inter communia, praecepta decalogi constituere videntur; et
+<lb ed="#L" n="87"/>inter ipsa principalia ac communia, quanto gravius, tanto
+<lb ed="#L" n="88"/>prius. Et propterea licet rapina, bestialitas et blasphemia sint
+<lb ed="#L" n="89"/>graviora quam furtum, adulterium et periurium; quia tamen
+<lb ed="#L" n="90"/>haec graviora non ita facile communiter accidunt sicut illa
+<lb ed="#L" n="91"/>minus gravia; ideo illa, utpote communiora, primum locum
+<lb ed="#L" n="92"/>in elementis legis obtinuerunt. Et haec ad illa, non ut 
+gra<lb break="no" ed="#L" n="93"/>yiora, sed ut priora. secundum extensionem, reducuntur in
+<lb ed="#L" n="94"/>hoc articulo: et illa inter se secundum gravitatem ordinata
+<lb ed="#L" n="95"/>sunt in articulo sexto. Nihil ergo contrarietatis intervenit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1189-Dd1e1292"><!-- caj-p2p1-q100-a12 -->
+               <head xml:id="TAcCaj-d1e1189-Hd1e1295">Articulus 12</head>
+               <p xml:id="TAcCaj-d1e1189-d1e1297">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="75"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1189-d1e1304">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="76"/>IN articulo duodecimo eiusdem centesimae quaestionis, 
+ad<lb break="no" ed="#L" n="77"/>Bes quod omnes quos vidi codices, scripti et impressi,
+<lb ed="#L" n="78"/>falsi sunt. Habent enim in corpore articuli haec verba: Si
+<lb ed="#L" n="79"/>vero accipiatur iustitia pro executione iustitiae, sic 
+prae<lb break="no" ed="#L" n="80"/>cepta moralia iustificabant, inquantum continebant. id quod
+<lb ed="#L" n="81"/>est secundum se iustum: sed sacramenta illa veteris legis
+<lb ed="#L" n="82"/>gratiam non conferebant, sicut. conferunt sacramenta no-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>vae legis, quae propter hoc iustificare dicuntur. Et statim
+<lb ed="#L" n="84"/>subditur: S; vero accipiatur iustitia pro executione 
+iusti<lb break="no" ed="#L" n="85"/>tiae etc. Ubi patet quod aut omnia illa superflua sunt: aut,
+<lb ed="#L" n="86"/>cum dixisset quod moralia iustificare non poterant iustitiam
+<lb ed="#L" n="87"/>causando, addebat quod nec caeremonialia hoc poterant.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 83</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 83</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="113"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1101"><!-- TAcCajp2p1-q83 -->
+            <head xml:id="TAcCaj-d1e1101-Hd1e101">Quaestio 83</head>
+            <div xml:id="TAcCaj-d1e1101-Dd1e103"><!-- caj-p2p1-q83-a1 -->
+               <head xml:id="TAcCaj-d1e1101-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1101-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1101-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="50"/>In articulo primo quaestionis octogesimaetertiae, ad 
+secun<lb break="no" ed="#L" n="51"/>dum, adverte quod. peccatum originale in Adam. fuit et
+<lb ed="#L" n="52"/>actuale, et originale formaliter: nam Adam peccavit actuali
+<lb ed="#L" n="53"/>aversione voluntatis à Deo; et privata est natura sua in ipso
+<lb ed="#L" n="54"/>dono iustitiae. originalis debitae sibi, cum inordinatione 
+vi<lb break="no" ed="#L" n="55"/>rium, etc. Unde minus correcte loqui videtur qui peccatum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="56"/>originale ab Adam. negat, eo quod in eo non. fuerit. per
+<lb ed="#L" n="57"/>originem: modus. enim quo fit peccatum originale, non est
+<lb ed="#L" n="58"/>de essentia, sicut nec ipsum fieri;;quia non consistit in fieri,
+<lb ed="#L" n="59"/>sicut peccatum. actuale, sed in esse, sicut habitus. 
+Dicen<lb break="no" ed="#L" n="60"/>dum ergo est quod in Adam fuit peiori modo inductum,.
+<lb ed="#L" n="61"/>et peius: quia per actum proprium, et in actu proprio.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1101-Dd1e149"><!-- caj-p2p1-q83-a2 -->
+               <head xml:id="TAcCaj-d1e1101-Hd1e152">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1101-d1e154">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1101-d1e161">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>In articulo secundo octogesimaetertiae quaestionis, dubium
+<lb ed="#L" n="31"/>occurrit circa principalem conclusionem, ex duplici capite.
+<lb ed="#L" n="32"/>Primo, ex Scoto, in xxxn distinctione Secundi, ex eo quod
+<lb ed="#L" n="33"/>essentia animae, ut essentia, non est susceptiva culpae. Non
+<lb ed="#L" n="34"/>igitur in ea est primo peccatum originale.
+</p>
+               <p xml:id="TAcCaj-d1e1101-d1e177">
+                  <lb ed="#L" n="35"/>II. Secundo, ex Auctore, quia conclusum est in articulo
+<lb ed="#L" n="36"/>tertio quaestionis praecedentis, quod sola privatio originalis
+<lb ed="#L" n="37"/>iustitiae per quam voluntas subdebatur Deo, est formale
+<lb ed="#L" n="38"/>in peccato originali. Ex hoc namque sequitur quod 
+pec<lb break="no" ed="#L" n="39"/>catum originale formale aut est in sola voluntate, aut est in
+<lb ed="#L" n="40"/>ea principaliter. Probatur sequela: quia iustitia originalis,
+<lb ed="#L" n="41"/>qua voluntas subdebatur Deo, erat aut in sola voluntate,
+<lb ed="#L" n="42"/>aut in ea principaliter. — Et confirmatur. Quia voluntas est
+<lb ed="#L" n="43"/>praecipuum in mente subiecta Deo, et praecipuum in mente
+<lb ed="#L" n="44"/>non subiecta Deo: propter quod ex parte eius sumpta est
+<lb ed="#L" n="45"/>causa et formalitas peccati originalis in quaestione 
+praece<lb break="no" ed="#L" n="46"/>dente. Ergo in voluntate est principaliter, et non in essentia
+<lb ed="#L" n="47"/>animae, — Et haec confirmatio est etiam directe obiectio
+<lb ed="#L" n="48"/>contra responsionem ad secundum et tertium huius 
+arti<lb break="no" ed="#L" n="49"/>culi, et ad secundum sequentis articuli. Si namque ex parte
+<lb ed="#L" n="50"/>voluntatis est causa originalis iustitiae et peccati, non ergo
+<lb ed="#L" n="51"/>primordialiter et principaliter est in essentia; nec ab 
+essen<lb break="no" ed="#L" n="52"/>tia, generationis et perfectionis ordine, ad voluntatem 
+de<lb break="no" ed="#L" n="53"/>rivatur.
+</p>
+               <p xml:id="TAcCaj-d1e1101-d1e221">
+                  <lb ed="#L" n="54"/>III. Ad primum horum, negatur quod essentia animae,
+<lb ed="#L" n="55"/>ut essentia, idest ut distincta contra potentias, non sit capax
+<lb ed="#L" n="56"/>culpae. Et declaratur hoc. Quia anima secundum 
+essen<lb break="no" ed="#L" n="57"/>tiam, cum sit rationalis, et primum principium ac subiectum
+<lb ed="#L" n="58"/>actuum. moralium malorum, oportet esse subiectum culpae
+<lb ed="#L" n="59"/>mediatum, mediante scilicet potentia: ita quod potentia
+<lb ed="#L" n="60"/>est subiectum quo, et anima subiectum quod; iuxta illud
+<lb ed="#L" n="61"/>III de Anima, De parte autem animae qua intelligit et
+<lb ed="#L" n="62"/>' sapit anima. Et si anima esset absque media potentia 
+princi<lb break="no" ed="#L" n="63"/>pium culpae actualis, immediate esset capax culpae actualis.
+<lb ed="#L" n="64"/>Tota ergo ratio quare essentia animae non est subiectum
+<lb ed="#L" n="65"/>actualis culpae, est quia mediante potentia illam habet: et
+<lb ed="#L" n="66"/>non incapacitas eius respectu culpae. Si igitur est aliqua
+<lb ed="#L" n="67"/>culpa ad quam non requiritur mediatio potentiae, per se-.
+<lb ed="#L" n="68"/>ipsam subiectum illius esse potest. Et quia culpa originalis
+<lb ed="#L" n="69"/>est huiusmodi, quoniam per originem et non per actum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="70"/>proprium habetur, relinquitur quod culpae originalis. anima
+<lb ed="#L" n="71"/>secundum essentiam capax sit, ut in littera monstratur. -
+</p>
+               <p xml:id="TAcCaj-d1e1101-d1e266">
+                  <lb ed="#L" n="72"/>IV. Ad secundum dicitur quod voluntas non est causa
+<lb ed="#L" n="73"/>principalis originalis iustitiae aut peccati simpliciter, sed
+<lb ed="#L" n="74"/>inter partes animae: ut patet ex ratione in littera reddita
+<lb ed="#L" n="75"/>in allegato articulo, quia scilicet ipsa voluntas est motiva
+<lb ed="#L" n="76"/>omnium animae partium in finem, Obiectiones autem 
+pro<lb break="no" ed="#L" n="77"/>cedunt ac si voluntas esset prima causa simpliciter in anima.
+</p>
+               <p xml:id="TAcCaj-d1e1101-d1e282">
+                  <lb ed="#L" n="78"/>Privatio quoque originalis iustitiae per quam voluntas
+<lb ed="#L" n="79"/>subdebatur Deo, quae est formale in peccato originali, no
+<lb ed="#L" n="80"/>sumitur pro privatione iustitiae originalis in voluntate. prat
+<lb ed="#L" n="81"/>cise: sed pro privatione iustitiae originalis in ipsa vol
+<lb ed="#L" n="82"/>tate, et praecedentibus naturaliter eam. Dictio namque ex--
+<lb ed="#L" n="83"/>clusiva non excludit a concomitantibus et praesuppositis,,
+<lb ed="#L" n="84"/>ut patet. Unde et Auctor non dixit quod privatio iusti
+<lb ed="#L" n="85"/>originalis in voluntate, sed per quam voluntas subdebatur
+<lb ed="#L" n="86"/>Deo: haec enim claudit in se primordialem privationem
+<lb ed="#L" n="87"/>in essentia usque ad voluntatem; et haec est formale in
+<lb ed="#L" n="88"/>peccato originali. Putandum est enim quod, sicut gratia
+<lb ed="#L" n="89"/>et caritas in anima, in ordine ad meritum. vel demeritum,
+<lb ed="#L" n="90"/>pro eodem computantur; et cum hoc quod gratia est causa
+<lb ed="#L" n="91"/>caritatis secundum se, stat quod voluntas, in qua est 
+ca<lb break="no" ed="#L" n="92"/>ritas, est conservativa et destructiva gratiae ex parte nostri,
+<lb ed="#L" n="93"/>quia ipsa est prima pars animae: ita in proposito iustitia
+<lb ed="#L" n="94"/>originalis i in anima, pro quanto ex ea manat voluntatis. 
+sub<lb break="no" ed="#L" n="95"/>iectio, non ponit in numerum cum eius in voluntate
+<lb ed="#L" n="96"/>ctu; et cum hoc quod illa est huius causa secundum se,
+<lb ed="#L" n="97"/>voluntas dicitur causa, quia ab i ipsa ex parte nostri. det
+<lb ed="#L" n="98"/>conservari et desinere iustitiae totius. Et simile est de.
+<lb ed="#L" n="99"/>vatione opposita.
+</p>
+               <p xml:id="TAcCaj-d1e1101-d1e332">
+                  <lb ed="#L" n="100"/>Et per haec patet solutio obiectorum, Voluntas Gut
+<lb ed="#L" n="101"/>non est simpliciter, sed ex parte nostri, seu inter partes
+<lb ed="#L" n="102"/>animae, posita est causa iustitiae et peccati originalis. 
+Es<lb break="no" ed="#L" n="103"/>sentia autem ponitur causa simpliciter ex parte rei 
+secun<lb break="no" ed="#L" n="104"/>dum se.- Et licet voluntas sit in supremo animae praeci--
+<lb ed="#L" n="105"/>puum inter partes animae in movendo ad actum, si tamen
+<lb ed="#L" n="106"/>in ipso supremo voluntas ad essentiam comparetur, inferior
+<lb ed="#L" n="107"/>invenitur.
+</p>
+               <p xml:id="TAcCaj-d1e1101-d1e352">
+                  <lb ed="#L" n="108"/>De tertio et quarto articulis eiusdem quaestionis, nihil
+<lb ed="#L" n="109"/>nunc necessario scribendum occurrit. upus
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

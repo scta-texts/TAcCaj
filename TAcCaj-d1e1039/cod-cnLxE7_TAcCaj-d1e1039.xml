@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 71</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 71</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="9"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1039"><!-- caj-p2p1-q71 -->
+            <head xml:id="TAcCaj-d1e1039-Hd1e101">Quaestio 71</head>
+            <div xml:id="TAcCaj-d1e1039-Dd1e103"><!-- caj-p2p1-q71-a1 -->
+               <head xml:id="TAcCaj-d1e1039-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1039-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="57"/>IN titulo quaestionis septuagesimaeprimae et articulorum,
+<lb ed="#L" n="58"/>adverte, novitie, quod licet, tractando de virtutibus, non
+<lb ed="#L" n="59"/>fuerit distinctum de virtutis habitu et actu eius in 
+voca<lb break="no" ed="#L" n="60"/>bulis, quia caremus illis nominibus; tamen in hoc tractatu
+<lb ed="#L" n="61"/>habemus nomina, et viti? quidem nomine habitum. vitii 
+si<lb break="no" ed="#L" n="62"/>gnificamus, peccati autem nomine actum ipsum vitii. 
+Pro<lb break="no" ed="#L" n="63"/>pter quod Auctor utrumque proponit in principio 
+quae<lb break="no" ed="#L" n="64"/>stionis, et in articulis distincte quaerit de eis. Attentus
+<lb ed="#L" n="65"/>ergo esto quando de vitio, et quando de peccato est sermo.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e139">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="66"/>IN primo articulo, memor esto doctrinae Posterioristicae de
+<lb ed="#L" n="67"/>per se primo et per se secundo etiam essentialiter: et
+<lb ed="#L" n="68"/>videre poteris quod, sicut homini convenit primo rationale
+<lb ed="#L" n="69"/>et consequenter animal, ita virtuti sua differentia 
+constitu<lb break="no" ed="#L" n="70"/>tiva, et consequenter commune praedicatum essentiale, 
+sci<lb break="no" ed="#L" n="71"/>licet esse bonitatem.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e157">
+                  <lb ed="#L" n="72"/>Manda quoque memoriae oppositionem et distinctionem
+<lb ed="#L" n="73"/>horum trium, vitii, peccati et malitiae; ut possis intelligere
+<lb ed="#L" n="74"/>sequentia.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1039-Dd1e167"><!-- caj-p2p1-q71-a2 -->
+               <head xml:id="TAcCaj-d1e1039-Hd1e170">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1039-d1e172">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="64"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e179">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="65"/>IN articulo secundo eiusdem septuagesimaeprimae 
+quae<lb break="no" ed="#L" n="66"/>stionis, in responsione ad tertium, adverte quod 
+argumen<lb break="no" ed="#L" n="67"/>tum est arduum, et flebilem ingerens difficultatem de ea
+<lb ed="#L" n="68"/>quam experimur in nostra specie, singulari miseria. 
+Admi<lb break="no" ed="#L" n="69"/>randum quippe est quod, cum omnibus speciebus quas
+<lb ed="#L" n="70"/>videmus tam infra quam supra hominem, statutum sit
+<lb ed="#L" n="71"/>bonum ut in pluribus; sola humana natura in hac iacet
+<lb ed="#L" n="72"/>miseria, ut malum habeat ut pluribus, et bonum ut 
+pau<lb break="no" ed="#L" n="73"/>cioribus. Et est sermo de malo contra naturam, et bono
+<lb ed="#L" n="74"/>Cf. Fx, en secundum naturam, Et Auctor ex <name xml:id="TAcCaj-d1e1039-Nd1e205">Aristotele</name>, IX. <title>Ethic.</title>,
+<lb ed="#L" n="75"/>solvit, dicens quod causa huius exorbitantiae est dualitas
+<lb ed="#L" n="76"/>naturarum subordinatarum in homine, quarum una 
+contra<lb break="no" ed="#L" n="77"/>riatur alteri. Ex hoc namque quod in homine est ratio et
+<lb ed="#L" n="78"/>sensus, et <quote xml:id="TAcCaj-d1e1039-Qd1e218">caro concupiscit adversus spiritum</quote>, et a bono
+<lb ed="#L" n="79"/>sensus inchoamus; adiuncto illo alio principio, <quote xml:id="TAcCaj-d1e1039-Qd1e222">Sed plures
+<lb ed="#L" n="80"/>sunt inchoantes quam consummantes</quote>; manifeste sequitur
+<lb ed="#L" n="81"/>quod plures sequuntur bona secundum naturam sensitivam,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>quam pervenientes ad sequendum bonum secundum 
+natu<lb break="no" ed="#L" n="83"/>ram rationalem. Ex hoc autem aliquis malum contra 
+na<lb break="no" ed="#L" n="84"/>turam rationalem incurrit, quia in sensitivae naturae bonis
+<lb ed="#L" n="85"/>quiescit.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e241">
+                  <lb ed="#L" n="86"/>Est etiam et alia ex eadem radice ratio. Quia scilicet
+<lb ed="#L" n="87"/>naturae sensitivae bona sunt quoad nos magis connaturalia,
+<lb ed="#L" n="88"/>utpote ab ineunte aetate in usu; et magis nota, utpote 
+evi<lb break="no" ed="#L" n="89"/>denti experientia sensuum; et magis moventia, et ratione
+<lb ed="#L" n="90"/>promptae delectationis, et ratione imminentis oppositi 
+con<lb break="no" ed="#L" n="91"/>tristantis in promptu. Rationis autem bonum post aetatem
+<lb ed="#L" n="92"/>percipitur; et parum cognoscitur; et parum movet tam
+<lb ed="#L" n="93"/>ipsum quam oppositum malum, tam culpae quam poenae,
+<lb ed="#L" n="94"/>ut experimur.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e263">
+                  <lb ed="#L" n="95"/>Ostendit autem haec humanae naturae infelicitas ipsam
+<lb ed="#L" n="96"/>non esse eiusdem naturae cum aliis quas videmus; sed
+<lb ed="#L" n="97"/>altiorem ingredi rerum ordinem, parum tamen de illo 
+par<lb break="no" ed="#L" n="98"/>ticipando.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1039-Dd1e275"><!-- caj-p2p1-q71-a3 -->
+               <head xml:id="TAcCaj-d1e1039-Hd1e278">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1039-d1e280">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e287">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="56"/>In articulo tertio, in responsione ad primum, nota quid
+<lb ed="#L" n="57"/>per se et quid per accidens in habitu et actu, iuxta 
+do<lb break="no" ed="#L" n="58"/>ctrinam in corpore articuli; ut scias discernere, cum de
+<lb ed="#L" n="59"/>nobilitate habitus et actus est disceptatio. Propter quod 
+re<lb break="no" ed="#L" n="60"/>sponsio ad tertium etsi solum loquatur comparando actum
+<lb ed="#L" n="61"/>et habitum in nobilitate et malitia, non tamen negatum
+<lb ed="#L" n="62"/>inde putes actum esse simpliciter nobiliorem habitu. Ex
+<lb ed="#L" n="63"/>ratione enim allata in corpore, et explanata ad primum,
+<lb ed="#L" n="64"/>patet quod actus simpliciter est nobilior et melior habitu:
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>sicut actus simpliciter actu permixto potentiae, et finis eo
+<lb ed="#L" n="66"/>quod est ad finem simpliciter. Secundum quid autem, 
+in<lb break="no" ed="#L" n="67"/>quantum permanet in subiecto, et habet in se virtualiter
+<lb ed="#L" n="68"/>actum ut causa efficiens, non inconvenit excellere. Non enim
+<lb ed="#L" n="69"/>proprie causa est univoca, ut Socrates Platonis: sed potius
+<lb ed="#L" n="70"/>sicut semen, quod est secundaria causa infra univocam. Ad
+<lb ed="#L" n="71"/>eandem enim speciem spectat semen et effectus, et habitus
+<lb ed="#L" n="72"/>et actus: sed effectus et actus perfectiores sunt res talibus
+<lb ed="#L" n="73"/>instrumentalibus causis, quam suis effectibus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1039-Dd1e334"><!-- caj-p2p1-q71-a4 -->
+               <head xml:id="TAcCaj-d1e1039-Hd1e337">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1039-d1e339">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e346">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="48"/>IN articulo quarto, in responsione ad secundum, adverte |
+<lb ed="#L" n="49"/>ps argumento consistente in hoc, quod si virtus non
+<lb ed="#L" n="50"/>est compossibilis - minori malo, puta vitio, ergo nec 
+ma<lb break="no" ed="#L" n="51"/>iori, puta actui, etc.: respondet Auctor quod incompossi-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="52"/>bilitas non consurgit ex maiori vel minori bonitate vel
+<lb ed="#L" n="53"/>malitia, sed ex directa oppositione; magis autem 
+opponi<lb break="no" ed="#L" n="54"/>tur vitium virtuti quam peccatum; et ideo, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1039-Dd1e370"><!-- caj-p2p1-q71-a6 -->
+               <head xml:id="TAcCaj-d1e1039-Hd1e373">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1039-d1e375">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="79"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e382">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="80"/>IN articulo sexto dubium occurrit ex Gregorio de Arimino,
+<lb ed="#L" n="81"/>in II Sent., dist. xxxiv, volente quod peccatum proprie,
+<lb ed="#L" n="82"/>quo quis dicitur formaliter peccans, non est actus, nec est
+<lb ed="#L" n="83"/>aliquid incomplexe significabile. Et hoc probatur dupliciter.
+<lb ed="#L" n="84"/>Primo, quia peccatum consistit in hoc quod aliquis agit
+<lb ed="#L" n="85"/>contra rectam rationem: sed hoc non est nisi complexe 
+si<lb break="no" ed="#L" n="86"/>gnificabile: ergo. — Et quia in praeceptis affirmativis et 
+ne<lb break="no" ed="#L" n="87"/>gativis prohibentur peccata, et affirmantur eorum opposita,
+<lb ed="#L" n="88"/>ut patet. Sed in his sola complexe enuntiabilia iubentur
+<lb ed="#L" n="89"/>aut prohibentur: quia cum praecipitur, Non moechaberis,
+<lb ed="#L" n="90"/>nec vir nec mulier nec actus prohibetur, sed facere actum
+<lb ed="#L" n="91"/>commixtionis; quod sola oratione est enuntiabile, 
+forma<lb break="no" ed="#L" n="92"/>liter vel aequivalenter.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e415">
+                  <lb ed="#L" n="93"/>II. Sed haec Gregorii phantasia a divo Thoma, post
+<lb ed="#L" n="94"/>Augustinum et Aristotelem, excluditur, dicente hic quod
+<lb ed="#L" n="95"/>peccatum nil aliud est quam actus humanus malus. 
+Con<lb break="no" ed="#L" n="96"/>stat namque quod actus humanus malus est quid 
+incom<lb break="no" ed="#L" n="97"/>plexe significabile: significatur namque infinitis nominibus
+<lb ed="#L" n="98"/>incomplexis, ut fornicationis, blasphemiae, et aliis 
+huius<lb break="no" ed="#L" n="99"/>modi nominibus. Peccatum namque, cum voluntarium sit
+<lb ed="#L" n="100"/>in actu secundo consistens secundum veritatem, aut 
+sumi<lb break="no" ed="#L" n="101"/>tur materialiter, aut formaliter, aut pro toto composito. Et 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="102"/>si quidem sumitur materialiter, constat quod actus 
+secun<lb break="no" ed="#L" n="103"/>dus est, quidquid sit illud: et potest et nominaliter et 
+ver<lb break="no" ed="#L" n="104"/>baliter significari; verbaliter quidem per modum actus, 
+no<lb break="no" ed="#L" n="105"/>minaliter autem per modum substantiae. Si vero sumitur
+<lb ed="#L" n="106"/>formaliter, constat quod est privatio, quae eodem modo
+<lb ed="#L" n="107"/>est significabilpis. Et similiter totum compositum. - Sed quod
+<lb ed="#L" n="108"/>forte decipit, est quia non discernitur inter peccatum in
+<lb ed="#L" n="109"/>actu exercito et in actu signato, et peccatum in re, idest
+<lb ed="#L" n="110"/>secundum se, ut praevenit significabilitatem utramque. In
+<lb ed="#L" n="111"/>actu namque exercito non nisi verbo significatur; in actu
+<lb ed="#L" n="112"/>vero signato, nomine: sed quaestio theologorum et 
+philo<lb break="no" ed="#L" n="113"/>sophorum de re est, ut abstrahit ab his significandi modis.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e465">
+                  <lb ed="#L" n="114"/>Et per haec patet responsio ad obiecta. Falsum namque
+<lb ed="#L" n="115"/>utrobique assumitur, nisi in actu exercito, cum dicitur quod
+<lb ed="#L" n="116"/>agere contra rationem, quod moechari, etc., non sint 
+in<lb break="no" ed="#L" n="117"/>complexe significabilia. - Male quoque exponitur 
+Augusti<lb break="no" ed="#L" n="118"/>nus in definitione ista, Peccatum est dictum, factum, nisi
+<lb ed="#L" n="119"/>verificetur quod peccatum est dictio, factio, concupiscentia,
+<lb ed="#L" n="120"/>volitio. contra. legem Dei.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e484">
+                  <lb ed="#L" n="121"/>III. In eodem articulo, pro quanto hic tractatur quid est
+<lb ed="#L" n="122"/>peccatum in moralibus, et dicitur quod est actus 
+volunta<lb break="no" ed="#L" n="123"/>rius malus, scito, vir docte, quod, ut ex supra dictis in
+<pb ed="#L" n="10"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>qu. xviii habes, malum aequivoce dicitur de malo 
+abso<lb break="no" ed="#L" n="2"/>lute, et de malo morali: quoniam malum absolute est 
+for<lb break="no" ed="#L" n="3"/>maliter nullius naturae, sed privatio et nihil; malum autem
+<lb ed="#L" n="4"/>morale est multarum naturarum, sicut color et alia genera.
+<lb ed="#L" n="5"/>Vitium enim intemperantiae formaliter est una species in
+<lb ed="#L" n="6"/>rerum natura; et similiter actus intemperantiae formaliter:
+<lb ed="#L" n="7"/>est operatio in certa specie positiva; idem enim iudicium
+<lb ed="#L" n="8"/>est de intemperantia habituali et actuali, quoad hoc. Et
+<lb ed="#L" n="9"/>quoniam illa vitium, haec peccatum est, ideo cave, in 
+tra<lb break="no" ed="#L" n="10"/>ctatu de vitiis et peccatis, ne erres in principio, putans 
+vi<lb break="no" ed="#L" n="11"/>tium et peccatum habere tantum rationem mali ratione
+<lb ed="#L" n="12"/>privationis. Oportet namque dicere quod peccatum est actus
+<lb ed="#L" n="13"/>malus dupliciter, scilicet contrarie, et privative: 
+intempe<lb break="no" ed="#L" n="14"/>rantia enim est actus malus contrarie, pro quanto est actus
+<lb ed="#L" n="15"/>habens contrarium obiectum formale obiecto temperantiae;
+<lb ed="#L" n="16"/>est vero actus malus privative, pro quanto est actus 
+pri<lb break="no" ed="#L" n="17"/>vatus rectitudine quam deberet habere.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e534">
+                  <lb ed="#L" n="18"/>Est autem inter has duas mali rationes tanta 
+differen<lb break="no" ed="#L" n="19"/>tia, quod prima, ut dictum fuit, est res quaedam positiva,
+<lb ed="#L" n="20"/>et a Deo, etc.: secunda est privatio, est nihil, et non a
+<lb ed="#L" n="21"/>Deo. Prima quoque est prior naturaliter secunda, et est
+<lb ed="#L" n="22"/>fundamentum eius: quod omne peccatum est actus 
+contra<lb break="no" ed="#L" n="23"/>rius alicui virtuti, et ad huiusmodi contrarietatem sequitur
+<lb ed="#L" n="24"/>privatio debitae rectitudinis. Prima rursus spectat ad 
+con<lb break="no" ed="#L" n="25"/>versionem: secunda autem ad aversionem inventam in 
+pec<lb break="no" ed="#L" n="26"/>cato. Utraque etiam vocatur inordinatio, sed prima 
+contra<lb break="no" ed="#L" n="27"/>rie, secunda privative: quamvis, usitato vocabulo cum de
+<lb ed="#L" n="28"/>peccato est disputatio, inordinatio, deformitas, malitia, ratio
+<lb ed="#L" n="29"/>mali, et si quid est huiusmodi, privative sumantur in 
+lit<lb break="no" ed="#L" n="30"/>tera, Ergo cum dicitur quod peccatum est actus humanus
+<lb ed="#L" n="31"/>malus, intellige quod malus et inordinatus utroque modo:
+<lb ed="#L" n="32"/>utramque enim inordinationem habet actus ex 
+incommen<lb break="no" ed="#L" n="33"/>suratione ad suam regulam; nam inordinationem contrarie
+<lb ed="#L" n="34"/>habet ex obiecto, quod est aliquid appetitum dissonans 
+re<lb break="no" ed="#L" n="35"/>gulae; et ex hoc comitatur inordinatio privative, quia ex hoc
+<lb ed="#L" n="36"/>actus privatur rectitudine regulae, qua deberet informari. —
+<lb ed="#L" n="37"/>Et hoc bene nota, et fige menti, si vis Auctorem intelligere,
+<lb ed="#L" n="38"/>et si vis contradictores convincere. Naturas vitiorum 
+op<lb break="no" ed="#L" n="39"/>pone: et cum oportebit fateri vitia esse vere contrarias 
+na<lb break="no" ed="#L" n="40"/>turas positivas virtutibus in genere qualitatis, et contraria
+<lb ed="#L" n="41"/>sint formaliter contraria, cogentur idem dicere de actibus
+<lb ed="#L" n="42"/>eorum formaliter, ex quibus generantur et quos eliciunt.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e591">
+                  <lb ed="#L" n="43"/>IV. In eodem articulo, quoniam ibi dicitur quod 
+inor<lb break="no" ed="#L" n="44"/>dinatio est quasi formale in peccato, et actus humanus est
+<lb ed="#L" n="45"/>quasi materiale: dubitari potest, primo, de sensu litterae;
+<lb ed="#L" n="46"/>secundo, de re. De sensu quidem, an loquatur de 
+inordina<lb break="no" ed="#L" n="47"/>tione utraque: an de altera tantum, scilicet privativa. Et
+<lb ed="#L" n="48"/>similiter per substantiam actus, an intelligat actum ipsum
+<lb ed="#L" n="49"/>in genere naturae: an etiam secundum speciem moralem. -
+<lb ed="#L" n="50"/>Sed haec quaestio, quia de verbis et de rebus constat, non
+<lb ed="#L" n="51"/>magni facienda est. Verificari namque potest de 
+inordina<lb break="no" ed="#L" n="52"/>tione utraque quod est quasi formale in peccato; et 
+sub<lb break="no" ed="#L" n="53"/>stantia actus voluntarii in genere naturae, ut materiale. Et
+<lb ed="#L" n="54"/>rursus verificari potest quod substantia actus in genere
+<lb ed="#L" n="55"/>naturae et moris, est ut materiale; et inordinatio privative
+<lb ed="#L" n="56"/>est ut formale; ut ex dicendis clarius patet. Secunda tamen
+<lb ed="#L" n="57"/>expositio magis videtur litteraliter intenta.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e626">
+                  <lb ed="#L" n="58"/>V. De re igitur ipsa dubium est, quae duarum 
+inordi<lb break="no" ed="#L" n="59"/>nationum sit magis de ratione peccati, an inordinatio 
+po<lb break="no" ed="#L" n="60"/>sitiva, an inordinatio privativa. Et hoc est idem quod 
+quae<lb break="no" ed="#L" n="61"/>rere quid est magis de ratione peccati, aversio vel 
+con<lb break="no" ed="#L" n="62"/>versio. Oportet enim hic, ubi quid est peccatum 
+funda<lb break="no" ed="#L" n="63"/>mus, peccati quidditatem diligenter investigare: quoniam
+<lb ed="#L" n="64"/>principium omnis scientiae est quod quid est. Et scito quod
+<lb ed="#L" n="65"/>non facio difficultatem in peccatorum nominibus propriis,
+<lb ed="#L" n="66"/>puta intemperantia, iniustitia, vel communi, puta culpa,
+<lb ed="#L" n="67"/>peccatum: quoniam esset quaestio non de rebus absolute,
+<lb ed="#L" n="68"/>sed ut significantur sub vocabulis, et rediret quaestio de
+<lb ed="#L" n="69"/>nominibus. Dico autem hoc, ne quis arguat ex hoc quod,
+<lb ed="#L" n="70"/>sicut album puram qualitatem significat, ita malum puram
+<lb ed="#L" n="71"/>malitiam, et peccatum puram privationem. Si enim ex 
+no<lb break="no" ed="#L" n="72"/>minum significationibus arguimus, iniustitia actualis, 
+con<lb break="no" ed="#L" n="73"/>trarie sumendo ly impuram qualitatem. Igitur et sic 
+oppo<lb break="no" ed="#L" n="74"/>sitas habemus determinationes de genere et speciebus: quod
+<lb ed="#L" n="75"/>est ridiculum afferre inter viros doctos.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e668">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>De ipsa ergo re quam peccatum dicimus, quocumque
+<lb ed="#L" n="77"/>nomine vocetur, quaestio est. Et Scotus, in II Sent., dist.
+<lb ed="#L" n="78"/>xxxv, tenet quod inordinatio privativa, seu aversio, est 
+ma<lb break="no" ed="#L" n="79"/>gis de ratione peccati: quia est ipsa essentialis ratio 
+pec<lb break="no" ed="#L" n="80"/>cati. Et hoc manifestat per oppositum: quia rectitudo 
+op<lb break="no" ed="#L" n="81"/>posita est ipsa essentialis ratio virtutis. Et deducit hanc
+<lb ed="#L" n="82"/>suam positionem ex illo capite, scilicet quod peccatum est
+<lb ed="#L" n="83"/>formaliter privatio: ad quod sunt tot auctoritates, — A divo
+<lb ed="#L" n="84"/>Thoma non habeo explicite, quantum recolo, oppositum:
+<lb ed="#L" n="85"/>sed distinguit ipse; et tandem oppositum videtur mihi esse
+<lb ed="#L" n="86"/>verum secundum doctrinam eius, ut in sequenti quaestione,
+<lb ed="#L" n="87"/>in primo articulo, clare insinuat,
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e699">
+                  <lb ed="#L" n="88"/>VI. Distinguo igitur in primis, ex ipso in II' I", qu. x,
+<lb ed="#L" n="89"/>art. 5, quod peccatum est in duobus generibus: scilicet
+<lb ed="#L" n="90"/>in genere mali simpliciter; et est in genere voluntarii seu
+<lb ed="#L" n="91"/>moralis mali. Et in genere quidem mali simpliciter, 
+re<lb break="no" ed="#L" n="92"/>ponitur formaliter per inordinationem privative, seu 
+aver<lb break="no" ed="#L" n="93"/>sionem: in genere autem voluntarii seu moralis mali, per
+<lb ed="#L" n="94"/>suam differentiam, quam ex obiecto malo moraliter habet,
+<lb ed="#L" n="95"/>reponitur. Et quoniam obiectum tale et differentiam talem,
+<lb ed="#L" n="96"/>in qua inordinatio contrarie consistit, sortitur peccatum ex
+<lb ed="#L" n="97"/>intentione peccantis, unde habet peccatum quod sit 
+volun<lb break="no" ed="#L" n="98"/>tarium; aversionem autem seu inordinationem non 
+sorti<lb break="no" ed="#L" n="99"/>tur ex intentione, sed consequitur: ideo peccato, 
+inquan<lb break="no" ed="#L" n="100"/>tum voluntarium, intimius inest inordinatio contrarie quam
+<lb ed="#L" n="101"/>privative, et conversio quam aversio; inquantum vero 
+ma<lb break="no" ed="#L" n="102"/>lum simpliciter, intimius inest inordinatio privative et 
+aver<lb break="no" ed="#L" n="103"/>sio quam conversio.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e737">
+                  <lb ed="#L" n="104"/>Et si quaeras: Absolute et sine distinctione loquendo,
+<lb ed="#L" n="105"/>quid est dicendum? - dico quod, quia peccatum, absolute
+<lb ed="#L" n="106"/>loquendo, est in genere mali simpliciter, et est voluntarium,
+<lb ed="#L" n="107"/>ideo utrumque absolute recte dicitur: scilicet et quod 
+aver<lb break="no" ed="#L" n="108"/>sio est de ratione peccati, et formale in peccato; et quod
+<lb ed="#L" n="109"/>conversio est de ratione peccati, et formans peccatum. —
+<lb ed="#L" n="110"/>Ad comparativam autem: Quid magis absolute? — dico
+<lb ed="#L" n="111"/>quod conversio. Et ratio est duplex. Prima, quia peccatum
+<lb ed="#L" n="112"/>est magis voluntarium quam malum: quia est 
+volunta<lb break="no" ed="#L" n="113"/>rium secundum se totum, quamvis diversimode, quia 
+con<lb break="no" ed="#L" n="114"/>versio principaliter, aversio secundario; non est autem 
+ma<lb break="no" ed="#L" n="115"/>lum secundum se totum, sed secundum partem tantum,
+<lb ed="#L" n="116"/>scilicet privationem. - Secunda est, quia conversio dat 
+pec<lb break="no" ed="#L" n="117"/>cato veram speciem, aversio vero dat privationem speciei:
+<lb ed="#L" n="118"/>intemperantia enim ex conversione ad obiectum, sortitur
+<lb ed="#L" n="119"/>differentiam verae speciei in genere qualitatis; ex aversione
+<lb ed="#L" n="120"/>autem privationem habet speciei temperantiae. Magis 
+au<lb break="no" ed="#L" n="121"/>tem convenit peccato differentia vere specifica, quam 
+pri<lb break="no" ed="#L" n="122"/>vatio speciei.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e781">
+                  <lb ed="#L" n="123"/>VII. Auctoritates autem allatae a Scoto, et ratio inducta,
+<lb ed="#L" n="124"/>nihil aliud probant nisi quod peccato ut est in genere mali
+<lb ed="#L" n="125"/>simpliciter, magis insit aversio: sic enim essentialis peccati
+<lb ed="#L" n="126"/>ratio in privatione consistit. Sed, ut dictum est, magis
+<lb ed="#L" n="127"/>urget ratio peccati inquantum est voluntarium, secundum
+<lb ed="#L" n="128"/>quam non est essentialis ratio peccati in privatione, sed
+<lb ed="#L" n="129"/>in contrario, ad quod sequitur privatio illa. 1
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e799">
+                  <lb ed="#L" n="130"/>Dixi autem pluries malum simpliciter ad differentiam
+<lb ed="#L" n="131"/>mali moralis, quod non est malum simpliciter, sed huic;
+<lb ed="#L" n="132"/>ut divo Thomae, in locis superius allegatis, placet. Sicut
+<lb ed="#L" n="133"/>enim frigus est in se bonum quoddam, et est malum 
+ca<lb break="no" ed="#L" n="134"/>lido; ita intemperantia est in se bonum quoddam, est 
+ta<lb break="no" ed="#L" n="135"/>men malum rationali vitae. Et sicut ad frigidum, quod est
+<lb ed="#L" n="136"/>contrarium calido, sequitur privatio calidi non quia frigus
+<lb ed="#L" n="137"/>non est calor, sed quia frigidum non est calidum; et haec
+<lb ed="#L" n="138"/>privatio habet rationem mali in subiecto cui debetur 
+bo<lb break="no" ed="#L" n="139"/>num calidi, quando, sicut, etc., ut patet in corporibus 
+in<lb break="no" ed="#L" n="140"/>firmis ex frigore: ita ad intemperantiam sequitur privatio
+<lb ed="#L" n="141"/>non quia non est temperantia (haec est enim negatio 
+im<lb break="no" ed="#L" n="142"/>pertinens), sed quia actus voluntarius subiectus formae 
+in<lb break="no" ed="#L" n="143"/>temperantiae, non est temperatus; et quoniam debetur tali
+<lb ed="#L" n="144"/>actui subiecto bonum temperantiae, ideo huiusmodi privatio
+<lb ed="#L" n="145"/>habet rationem mali simpliciter. Et sic inordinatio haec, et
+<lb ed="#L" n="146"/>aversio, pertinet ad peccatum inquantum malum 
+simpli<lb break="no" ed="#L" n="147"/>citer: inordinatio autem contrarie, et conversio, pertinet
+<lb ed="#L" n="148"/>ad peccatum inquantum habet rationem mali moralis et
+<lb ed="#L" n="149"/>voluntarii. Et quotiam inordinatio privative est ultimum
+<lb ed="#L" n="150"/>superveniens peccato, ideo forte in littera dicitur quod est
+<pb ed="#L" n="11"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quasi formale in peccato, et non dixit absolute quod est
+<lb ed="#L" n="2"/>formale: et eadem ratione, actus denominatus ab illa dicitur
+<lb ed="#L" n="3"/>quod est quasi materiale in peccato. - Utrum autem 
+pec<lb break="no" ed="#L" n="4"/>catum, quia includit haec duo, sit unum per accidens, aut
+<lb ed="#L" n="5"/>unum per se et alterum sit annexum; quamvis hic esset
+<lb ed="#L" n="6"/>dicendum, ubi de quod quid est peccati tractatur; in 
+se<lb break="no" ed="#L" n="7"/>quenti tamen articulo, ubi de specifica distinctione 
+pec<lb break="no" ed="#L" n="8"/>catorum tractatur, dicetur.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e869">
+                  <lb ed="#L" n="9"/>VIII. In eodem sexto articulo, in responsione ad 
+ulti<lb break="no" ed="#L" n="10"/>mum, occurrit dubium, an peccatum in moralibus ex hoc
+<lb ed="#L" n="11"/>ipso quod est peccatum, sit offensivum Dei, et similiter 
+aver<lb break="no" ed="#L" n="12"/>sivum a Deo: an ex alio habeat quod sit contra rationem,
+<lb ed="#L" n="13"/>et ex alio quod sit offensivum Dei. In littera enim 
+distin<lb break="no" ed="#L" n="14"/>guitur peccatum secundum has duas rationes, et dicitur
+<lb ed="#L" n="15"/>quod inquantum est contra rationem, tractatur a philosopho
+<lb ed="#L" n="16"/>morali; inquantum est offensivum Dei, a theologo. Quod
+<lb ed="#L" n="17"/>enim ex diversis haec proveniant, suadet primo ipsa 
+distin<lb break="no" ed="#L" n="18"/>ctio facta: deinde ratio. Quia ratio nostra est quoddam ens
+<lb ed="#L" n="19"/>participatum: Deus autem est ipsum esse per essentiam.
+<lb ed="#L" n="20"/>Constat autem quod contrarium vel privatio entis 
+partici<lb break="no" ed="#L" n="21"/>pati, non est contrarium nec privatio entis per essentiam.
+<lb ed="#L" n="22"/>Peccatum igitur ex hoc quod est contra rationem humanam,
+<lb ed="#L" n="23"/>non est offensivum Dei. - Nec sufficit ad evadendum hoc,
+<lb ed="#L" n="24"/>dicere quod, quia ratio humana derivatur a divina, quod est
+<lb ed="#L" n="25"/>contra rationem humanam, est contra divinam. Tum quia
+<lb ed="#L" n="26"/>cognitio sensitiva derivatur etiam a divina cognitione: non
+<lb ed="#L" n="27"/>tamen contrarium cognitioni sensitivae, est contrarium 
+co<lb break="no" ed="#L" n="28"/>gnitioni divinae. Tum quia ex hoc nihil aliud habetur nisi
+<lb ed="#L" n="29"/>quod peccatum est contra rationem divinam inquantum
+<lb ed="#L" n="30"/>participata est in ratione humana, quod nihil aliud est
+<lb ed="#L" n="31"/>quam esse contra effectum Dei: et quaestio est de esse
+<lb ed="#L" n="32"/>contra ipsum Deum, ut offensivum eius, non suorum 
+effe<lb break="no" ed="#L" n="33"/>ctuum.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e926">
+                  <lb ed="#L" n="34"/>Praeterea, si peccatum, ut sic, esset offensivum Dei et
+<lb ed="#L" n="35"/>aversivum ab eo, posset hoc cognosci naturali ratione, et
+<lb ed="#L" n="36"/>a philosophis deberet tractari. Quorum neutrum apparet.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e935">
+                  <lb ed="#L" n="37"/>In oppositum est, quia odium Dei et blasphemia Dei
+<lb ed="#L" n="38"/>sunt peccata mortalia, seclusa omni fide et gratia; et 
+na<lb break="no" ed="#L" n="39"/>turaliter cognoscibilia non solum quod sunt peccata, sed
+<lb ed="#L" n="40"/>quod sunt offensiva Dei. Et hoc non nisi quia contra 
+ra<lb break="no" ed="#L" n="41"/>tionem rectam actus odii habet obiectum, Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e949">
+                  <lb ed="#L" n="42"/>IX. Ad hoc dicitur quod istae duae rationes in peccato
+<lb ed="#L" n="43"/>distinguuntur non ut disparatae, sed ut subordinatae: ita
+<lb ed="#L" n="44"/>quod peccatum esse contra rationem, subordinatur ad esse
+<lb ed="#L" n="45"/>contra Deum; et illud infert hoc, quasi ut inferius suum
+<lb ed="#L" n="46"/>superius. Ad cuius evidentiam, sciendum est quod finis
+<lb ed="#L" n="47"/>ultimus creaturae rationalis, ut sic, est Deus dupliciter:
+<lb ed="#L" n="48"/>primo, ut obiectum beatitudinis possibilis naturaliter; 
+se<lb break="no" ed="#L" n="49"/>cundo, ut obiectum beatitudinis revelatae. Nec Deus sic et
+<lb ed="#L" n="50"/>sic sese habet ut duo disparati fines ultimi: sed quoniam.
+<lb ed="#L" n="51"/>gratia praesupponit et perficit naturam, Deus ut finis 
+natu<lb break="no" ed="#L" n="52"/>ralis, est finis ultimus quasi in genere, et quasi 
+subordi<lb break="no" ed="#L" n="53"/>natur sibi ipsi ut finis est beatitudinis revelatae, tanquam
+<lb ed="#L" n="54"/>fini ultimo simpliciter. Propter quod quidquid contrariatur
+<lb ed="#L" n="55"/>Deo ut fini naturali rationalis creaturae, repugnat 
+conse<lb break="no" ed="#L" n="56"/>quenter eidem ut fini supernaturali: quamvis non quidquid
+<lb ed="#L" n="57"/>ordinatur ad Deum ut finem naturalem, ordinetur ad 
+eun<lb break="no" ed="#L" n="58"/>dem ut supernaturalem. Et ratio disparitatis est quia 
+bo<lb break="no" ed="#L" n="59"/>num consurgit ex causa integra, malum autem ex 
+parti<lb break="no" ed="#L" n="60"/>culari quocumque defectu. Cum autem finis moralium
+<lb ed="#L" n="61"/>virtutum sit bonum rationis ordinatum ad Deum finem 
+na<lb break="no" ed="#L" n="62"/>turalem, ut medium necessarium ad consequendum illum;
+<lb ed="#L" n="63"/>ita quod inter bonum rationis et Deum finem rationalis
+<lb ed="#L" n="64"/>creaturae, haec est connexio necessaria et in ratiocinando et
+<lb ed="#L" n="65"/>in exequendo: - nam inchoando a fine, et ex eo accipiendo
+<lb ed="#L" n="66"/>rationem operis, ad bonum rationis devenitur, tanquam
+<lb ed="#L" n="67"/>a principio ad conclusionem necessariam; et similiter 
+in<lb break="no" ed="#L" n="68"/>choando ab exequendo bono rationis, proceditur ad Deum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="69"/>ultimum finem: manifeste enim constat quod ex summo
+<lb ed="#L" n="70"/>bono mentis non deducitur malum rationis, sed bonum;
+<lb ed="#L" n="71"/>et quod ad summum mentis bonum non ducit malum 
+ra<lb break="no" ed="#L" n="72"/>tionis, sed bonum: — connexo igitur bono rationis cum Deo
+<lb ed="#L" n="73"/>fine naturali, oportet quod peccatum, quod est malum 
+ra<lb break="no" ed="#L" n="74"/>tionis, ex eo ipso quod-contrariatur bono rationis, abducat
+<lb ed="#L" n="75"/>a Deo fine naturali; et consequenter, ut dictum est, 
+super<lb break="no" ed="#L" n="76"/>naturali.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e1030">
+                  <lb ed="#L" n="77"/>Et confirmatur. Quia peccans, puta intemperatus, 
+con<lb break="no" ed="#L" n="78"/>stituit sibi ultimum finem in bono sensibili, puta 
+delecta<lb break="no" ed="#L" n="79"/>tione contraria rationi: ac per hoc, cum non possit unus
+<lb ed="#L" n="80"/>habere simul duos ultimos fines, ut in qu. 1 determinatum
+<lb ed="#L" n="81"/>est, praeponit rem vilissimam Deo, dans ei dignitatem 
+di<lb break="no" ed="#L" n="82"/>vinam ultimi finis, iuxta illud Apostoli, ad Philipp. m,
+<lb ed="#L" n="83"/>Quorum deus venter est. Et per hoc avertitur manifeste a
+<lb ed="#L" n="84"/>Deo, summo bono; et offendit ipsum, quantum est ex parte
+<lb ed="#L" n="85"/>sua, auferens illi dignitatem propriam, esse ultimum finem
+<lb ed="#L" n="86"/>operum rationalis creaturae, et praeponens illi aliud, magis
+<lb ed="#L" n="87"/>diligens illud aliud quam ipsum, quia finis ultimus est 
+ma<lb break="no" ed="#L" n="88"/>xime amatus. Et hoc est quod ex Prima Parte, qu. xr.vm,
+<lb ed="#L" n="89"/>habetur, scilicet quod malum culpae contrariatur bono 
+di<lb break="no" ed="#L" n="90"/>vino in se, quoniam contrariatur amori quo Deus amatur
+<lb ed="#L" n="91"/>in seipso, non solum caritate infusa, sed acquisita. Unde
+<lb ed="#L" n="92"/>inferius, in qu. 1xxrr, art. 7, ad 3, dicitur quod aversionem
+<lb ed="#L" n="93"/>a regula rationis sequitur aversio a Deo, cui homo debet
+<lb ed="#L" n="94"/>coniungi per rectam rationem.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e1072">
+                  <lb ed="#L" n="95"/>Peccatum igitur, seclusa omni fide et pertinente ad 
+il<lb break="no" ed="#L" n="96"/>lam, est contra bonum rationis tanquam proximum finem,
+<lb ed="#L" n="97"/>et contra bonum divinum tanquam ultimum finem, ex hoc
+<lb ed="#L" n="98"/>ipso quod est peccatum: et inordinatio eius est privatio
+<lb ed="#L" n="99"/>formalis rectitudinis actus, ferens aversionem ab 
+incommu<lb break="no" ed="#L" n="100"/>tabili bono, et offensam illius. Et quoniam beatitudo 
+su<lb break="no" ed="#L" n="101"/>pernaturalis supponit naturalem, ex consequenti, quantum
+<lb ed="#L" n="102"/>est ex se, est contra Deum ut obiectum beatitudinis 
+super<lb break="no" ed="#L" n="103"/>naturalis, et aversivum ab eo, et offensivum eius. — 
+Suppo<lb break="no" ed="#L" n="104"/>sita autem fide, peccatum ipsum privat rectitudine non 
+so<lb break="no" ed="#L" n="105"/>lum legis naturae seu rationis, sed divinae: opponitur enim
+<lb ed="#L" n="106"/>ordini caritatis infusae, et est offensivum Dei ultimi finis
+<lb ed="#L" n="107"/>simpliciter. Has enim conditiones non haberent actualiter
+<lb ed="#L" n="108"/>peccata mortalia, si Deus creaturam rationalem in suis puris
+<lb ed="#L" n="109"/>naturalibus praeceptis ac finibus reliquisset: quamvis 
+quan<lb break="no" ed="#L" n="110"/>tum est ex se, ut dictum est, repugnarent etiam 
+superna<lb break="no" ed="#L" n="111"/>turalibus, utpote praesupponentibus naturalia.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e1111">
+                  <lb ed="#L" n="112"/>X. Ad primam autem obiectionem in oppositum patet
+<lb ed="#L" n="113"/>responsio. Distinctio enim, ex hoc quod est distinctio, habet
+<lb ed="#L" n="114"/>magnam latitudinem. — Quamvis posset dici quod Auctor
+<lb ed="#L" n="115"/>intendit de ratione offensivi inquantum est contra Deum
+<lb ed="#L" n="116"/>supernaturalem finem, quod purae est theologiae 
+conside<lb break="no" ed="#L" n="117"/>rare. Sed hoc parvi refert: quia theologus etiam considerat
+<lb ed="#L" n="118"/>peccata inquantum sunt contra rationem, in ordine ad
+<lb ed="#L" n="119"/>abductionem a Deo; sicut etiam considerat de moralibus
+<lb ed="#L" n="120"/>virtutibus acquisitis in ordine ad Deum.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e1133">
+                  <lb ed="#L" n="121"/>Ad secundam dicitur quod peccatum aliter contrariatur
+<lb ed="#L" n="122"/>rationali vitae, et aliter Deo. Nam vitae rationali 
+contra<lb break="no" ed="#L" n="123"/>riatur formaliter, sicut calidum frigido, vel tenebra lumini:
+<lb ed="#L" n="124"/>Deo autem contrariatur obiective, non efficaciter, sed 
+affe<lb break="no" ed="#L" n="125"/>ctuose, idest, non quod Deo ipsi in se aliquid ex tali 
+con<lb break="no" ed="#L" n="126"/>trarietate adimatur, sed quantum est ex affectu peccantis;
+<lb ed="#L" n="127"/>explicite, ut in odio Dei, implicite, ut in adulterio, furto
+<lb ed="#L" n="128"/>et huiusmodi. Unde ex hoc ipso quod peccatum est 
+con<lb break="no" ed="#L" n="129"/>trarium rationi formaliter, habet quod est contrarium Deo
+<lb ed="#L" n="130"/>obiective modo dicto: non enim est contrarium rationi 
+for<lb break="no" ed="#L" n="131"/>maliter, nisi quia voluntarium. Propter quod argumentum,
+<lb ed="#L" n="132"/>quod de contrarietate formali loquitur, non obstat.
+</p>
+               <p xml:id="TAcCaj-d1e1039-d1e1162">
+                  <lb ed="#L" n="133"/>Ad tertiam dicitur concedendo quod hoc potuit 
+natu<lb break="no" ed="#L" n="134"/>raliter cognosci et dici a philosophis, ut manifeste patet de
+<lb ed="#L" n="135"/>odio Dei: quamvis, negantes divinam providentiam circa
+<lb ed="#L" n="136"/>humanos actus, de his non fuerint solliciti.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

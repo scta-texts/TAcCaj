@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 92</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 92</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="160"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1147"><!-- TAcCajp2p1-q92 -->
+            <head xml:id="TAcCaj-d1e1147-Hd1e101">Quaestio 92</head>
+            <div xml:id="TAcCaj-d1e1147-Dd1e103"><!-- caj-p2p1-q92-a1 -->
+               <head xml:id="TAcCaj-d1e1147-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1147-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>In articulo primo quaestionis nonagesimaesecundae, 
+du<lb break="no" ed="#L" n="17"/>bium occurrit circa rationem, ex eo quod aut falsum 
+as<lb break="no" ed="#L" n="18"/>sumit, aut intentum non infert. Propositio namque fundans
+<lb ed="#L" n="19"/>rationem litterae est ista: Virtus cuiuslibet subditi est ut
+<lb ed="#L" n="20"/>bene subiiciatur principanti. Haec autem propositio aut 
+in<lb break="no" ed="#L" n="21"/>telligitur formaliter de subdito inquantum subditus: aut
+<lb ed="#L" n="22"/>materialiter de eo qui est subditus. Si formaliter, 
+propo<lb break="no" ed="#L" n="23"/>sitio est vera: sed non infert nisi quod lex facit subditos,
+<lb ed="#L" n="24"/>inquantum subditos, bonos. Hoc autem non est facere 
+ho<lb break="no" ed="#L" n="25"/>mines bonos: quia sicut aliud est esse hominem et aliud
+<lb ed="#L" n="26"/>esse subditum, ita alia est bonitas hominis et alia est 
+bo<lb break="no" ed="#L" n="27"/>nitas subditi. Et tamen titulus articuli quaerit an sit legis
+<lb ed="#L" n="28"/>facere homines bonos: etin corpore articuli infertur ex ista
+<lb ed="#L" n="29"/>propositione quod legis est inducere subiectos ad propriam
+<lb ed="#L" n="30"/>ipsorum virtutem. — Si vero materialiter intelligitur, tunc,
+<lb ed="#L" n="31"/>licet inferret intentum, ipsa tamen universaliter est falsa, Et
+<lb ed="#L" n="32"/>subversionem pareret totius doctrinae: materialis enim 
+ser<lb break="no" ed="#L" n="33"/>mo a doctrina alienus est.
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e159">
+                  <lb ed="#L" n="34"/>II. Ad hoc dicitur quod sermo est formalis, verus et
+<lb ed="#L" n="35"/>efficax ad intentum inferendum. Advertendum namque est
+<lb ed="#L" n="36"/>quod non est sermo de hac vel illa lege, sed de lege in
+<lb ed="#L" n="37"/>communi, continente aeternam, divinam, etc.: et quod homo
+<lb ed="#L" n="38"/>non solum in ordine ad hoc vel illud, sed etiam in ordine
+<lb ed="#L" n="39"/>ad felicitatem naturalem et propriam et politicam, et 
+su<lb break="no" ed="#L" n="40"/>pernaturalem, est subditus, Ex his namque habetur quod
+<lb ed="#L" n="41"/>bonitas hominis inquantum homo, et bonitas hominis 
+in<lb break="no" ed="#L" n="42"/>quantum subditi, licet universaliter non coincidant, 
+quan<lb break="no" ed="#L" n="43"/>doque tamen coincidunt, scilicet respectu legis ordinantis
+<lb ed="#L" n="44"/>hominem ad veram felicitatem, sive naturalem sive 
+super<lb break="no" ed="#L" n="45"/>naturalem: ac per hoc, quod lex factiva bonitatis in subdito
+<lb ed="#L" n="46"/>in ordine ad felicitatem, est. etiam factiva bonitatis propriae
+<lb ed="#L" n="47"/>in homine, quoniam illamet est qua.subditus ordinatur ad
+<lb ed="#L" n="48"/>veram felicitatem.
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e194">
+                  <lb ed="#L" n="49"/>Est ergo propositio litterae formaliter intelligenda. Quod
+<lb ed="#L" n="50"/>ex eo patet quod Auctor sub illa subsumit de bona et
+<lb ed="#L" n="51"/>mala lege, et concludit quod legis est facere subditos bonos
+<lb ed="#L" n="52"/>simpliciter vel secundum quid, ut bonos latrones. Et cum
+<lb ed="#L" n="53"/>dicitur quod non infert intentum, quia alia est ratio 
+sub<lb break="no" ed="#L" n="54"/>diti et hominis: iam patet responsio, quod licet 
+universa<lb break="no" ed="#L" n="55"/>liter non sit eadem ratio, respectu tamen legis ad veram
+<lb ed="#L" n="56"/>felicitatem, sub qua infert Auctor fieri homines bonos, 
+ea<lb break="no" ed="#L" n="57"/>dem est ratio hominis et subditi, non secundum relationem
+<lb ed="#L" n="58"/>significatam per ly subditus, sed secundum rationem 
+fun<lb break="no" ed="#L" n="59"/>dantem. subiectionem; homo enim, ex hoc quod homo, 
+or<lb break="no" ed="#L" n="60"/>dinem habet ad felicitatem mediante virtute propria.
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e224">
+                  <lb ed="#L" n="61"/>III. In responsione ad tertium eiusdem articuli primi,
+<lb ed="#L" n="62"/>dubium occurrit ex eo quod Auctor videtur et contradicere
+<lb ed="#L" n="63"/>sibi, et falsum dicere. Contradicere quidem sibi, quia in
+<lb ed="#L" n="64"/>principio illius responsionis dicit quod zmpossibile est ut.
+<lb ed="#L" n="65"/>aliquis homo. sit bonus, nisi sit bene proportionatus bono
+<lb ed="#L" n="66"/>communi; et in calce dicit quod alia est virtus boni viri.
+<lb ed="#L" n="67"/>et boni civis. Si namque diversa est virtus viri et civis,
+<lb ed="#L" n="68"/>potest esse vir bonus et civis non bonus: et e converso
+<lb ed="#L" n="69"/>civis bonus et vir non bonus. Et si impossibile est aliquem
+<lb ed="#L" n="70"/>esse virum bonum et non bonum civem, quomodo alia
+<lb ed="#L" n="71"/>est virtus boni viri et boni civis?
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e250">
+                  <lb ed="#L" n="72"/>Falsum autem dicitur, quia vir solitarius, sapientiae 
+con<lb break="no" ed="#L" n="73"/>templatione contentus, est bonus vir, utpote virtutis 
+he<lb break="no" ed="#L" n="74"/>roicae: et tamen non est bonus civis, quia nec est civis.
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e259">
+                  <lb ed="#L" n="75"/>IV. In eadem responsione est aliud dubium, quia 
+fal<lb break="no" ed="#L" n="76"/>sum. videtur quod eadem sit virtus boni viri et boni 
+prin<lb break="no" ed="#L" n="77"/>cipis: nam virtus boni viri est monastica, principis vero
+<lb ed="#L" n="78"/>politica. - Et nihilominus voluntaria etiam videtur 
+diffe<lb break="no" ed="#L" n="79"/>rentia inter necessitatem virtutis simpliciter in principe, et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>non in cive. Nam sicut ad bonum communitatis sufficit quod
+<lb ed="#L" n="81"/>cives subditi principum mandatis obediant, ita sufficit quod
+<lb ed="#L" n="82"/>princeps recta, opportuna ad bonum communitatis, mandet,
+<lb ed="#L" n="83"/>et exequatur, quantum sua interest, proportionaliter sicut
+<lb ed="#L" n="84"/>alii. Quid enim ad communitatem magis de malitia privata
+<lb ed="#L" n="85"/>rectorum quam civium, si ad commune omnes faciunt quod
+<lb ed="#L" n="86"/>oportet? Nulla enim apparet formalis differentia, sed solum
+<lb ed="#L" n="87"/>secundum magis et minus. Constat enim quod principis
+<lb ed="#L" n="88"/>privata malitia magis nocet, quia conspectius in se crimen
+<lb ed="#L" n="89"/>habet: sed non quod noceat per se communi bono, et 
+ma<lb break="no" ed="#L" n="90"/>litia civium per accidens.
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e298">
+                  <lb ed="#L" n="91"/>V. Ad primum dubium dicitur quod non falsitas, nec
+<lb ed="#L" n="92"/>contradictio est in littera. Ad cuius evidentiam; recolendum
+<lb ed="#L" n="93"/>est ex Prima Parte quod bonum. simpliciter EN.
+<lb ed="#L" n="94"/>secundum ultimam perfectionem: et quod non refert, quo
+<lb ed="#L" n="95"/>dici et esse bonum simpliciter, an illa ultima perfec o sit
+<lb ed="#L" n="96"/>distincta a praecedente, an sit eadem cum praecedente. Unde
+<lb ed="#L" n="97"/>homo dicitur bonus simpliciter non secundum 
+perfectio<lb break="no" ed="#L" n="98"/>nem substantialem, sed accidentalem, non quamcumque,
+<lb ed="#L" n="99"/>sed virtutis moralis. Propter quod quaestio de identitate
+<lb ed="#L" n="100"/>et diversitate virtutis hominis et civis, non repugnat, 
+pro<lb break="no" ed="#L" n="101"/>positioni primae in responsione positae, scilicet quod 
+m<lb break="no" ed="#L" n="102"/>possibile est quod aliquis sit bonus, et non sit bene 
+pro<lb break="no" ed="#L" n="103"/>portionaius bono communi. Sive enim eadem, sive alia sit
+<lb ed="#L" n="104"/>virtus boni hominis et boni civis, impossibile est quod
+<lb ed="#L" n="105"/>homo sit bonus sine additione aliqua, et non bonus civis.
+<lb ed="#L" n="106"/>civilitate ordinata ad felicitatem veram. Quia homo, i 
+inquan<lb break="no" ed="#L" n="107"/>tum homo, est pars civitatis, quia est animal politicum;.
+<lb ed="#L" n="108"/>sicut homo inquantum homo, est disciplinabilis. Ac per hoc,
+<lb ed="#L" n="109"/>et in habendo bonitatem hominis, oportet quod habeat
+<lb ed="#L" n="110"/>proportionem ad bonum commune civitatis, saltem in 
+prae<lb break="no" ed="#L" n="111"/>paratione animi: non enim est recte dispositus secundum.
+<lb ed="#L" n="112"/>prudentiam et alias cardinales virtutes, qui non est 
+prae<lb break="no" ed="#L" n="113"/>paratus ad id ad quod tenetur. Et in habendo bonitatem
+<lb ed="#L" n="114"/>simpliciter, oportet quod habeat bonitatem primam, qua est
+<lb ed="#L" n="115"/>in se bonus, et consequentem, qua est pars bona: aliter
+<lb ed="#L" n="116"/>non posset talis homo dici bonus nisi secundum quid. Si
+<lb ed="#L" n="117"/>ergo homo est bonus, cum bonitas.sua sit aut pars aut
+<lb ed="#L" n="118"/>parens bonitatis civilis, impossibile est quin sit recte 
+com<lb break="no" ed="#L" n="119"/>mensuratus communitati, quod est esse bonum civem.
+<lb ed="#L" n="120"/>Quamvis e contra eveniat, ut scilicet aliquis sit bonus 
+ci<lb break="no" ed="#L" n="121"/>vis et non simpliciter bonus. Quia bonum simpliciter con--
+<lb ed="#L" n="122"/>surgit ex causa integra, bonum autem secundum quid ex
+<lb ed="#L" n="123"/>aliquo. particulari: civis autem. bonus non nisi bonitatem
+<lb ed="#L" n="124"/>secundum quid importat. Et ideo in littera dicitur quod.
+<lb ed="#L" n="125"/>sufficit quod obediant mandatis principum, Unde patet 
+nul<lb break="no" ed="#L" n="126"/>lam esse contradictionem.
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e379">
+                  <lb ed="#L" n="127"/>Quod etiam nulla sit falsitas propter hominem 
+heroi<lb break="no" ed="#L" n="128"/>cum, ex eo patet quia de hominibus sermo est: heroicus
+<lb ed="#L" n="129"/>autem huiusmodi plus quam homo est, divinam vitam 
+imi<lb break="no" ed="#L" n="130"/>tatus. Et quia etiam heroicus in praeparatione. animi est.
+<lb ed="#L" n="131"/>recte dispositus ad communitatis bonum. Et rursus est
+<lb ed="#L" n="132"/>optime commensuratus caelesti patriae. x
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e395">
+                  <lb ed="#L" n="133"/>VI. Ad secundum dubium dicitur quod i in Secunda 
+Se<lb break="no" ed="#L" n="134"/>cundae, Domino concedente, ex proposito tractabitur de. 
+<lb ed="#L" n="135"/>identitate et diversitate prudentiae monasticae et politicae, ^.
+<lb ed="#L" n="136"/>in quadragesimaseptima quaestione ubi dicetur quare.
+<lb ed="#L" n="137"/>magis virtus boni viri identificatur virtuti principis quam.
+<lb ed="#L" n="138"/>civis, cum in virtute boni viri claudatur utrumque, scilicet
+<lb ed="#L" n="139"/>posse bene praeesse et bene subesse.
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e414">
+                  <lb ed="#L" n="140"/>De necessitate vero virtutis monasticae in place magis
+<lb ed="#L" n="141"/>quam in cive, de qua hic tractatur, dicendum est quod,
+<lb ed="#L" n="142"/>cum inter principem et cives tantum intersit quod princeps,
+<lb ed="#L" n="143"/>vices totius multitudinis in se gerit, utpote curam illius
+<pb ed="#L" n="161"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>habens, cives autem partes sunt; consequens est quod 
+pri<lb break="no" ed="#L" n="2"/>vata malitia principis ad male praecipiendum toti 
+multitu<lb break="no" ed="#L" n="3"/>dini eum inducet, et sic communi bono sufficiens est 
+no<lb break="no" ed="#L" n="4"/>cere. Privata autem malitia civium, bono existente principe,
+<lb ed="#L" n="5"/>communi bono? etsi dissonet, non tamen nocere sufficit:
+<lb ed="#L" n="6"/>quia efficacem actionem ad commune non habet, sed di-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>minutam. Propter quod oportet, si commune bonum 
+pu<lb break="no" ed="#L" n="8"/>blicum recte se habet, habere principem qui sit et vir et
+<lb ed="#L" n="9"/>princeps bonus. Unde Eccle, x dicitur: Vae terrae cuius
+<lb ed="#L" n="10"/>rex est puer, et cuius principes mane comedunt, idest sine
+<lb ed="#L" n="11"/>prudentia, ut puer, et sine temperantia, indulgentes primum
+<lb ed="#L" n="12"/>ventri: utraque autem virtus est monastica.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1147-Dd1e459"><!-- caj-p2p1-q92-a2 -->
+               <head xml:id="TAcCaj-d1e1147-Hd1e462">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1147-d1e464">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1147-d1e471">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="92"/>In articulo secundo nihil aliud scribendum occurrit nisi
+<lb ed="#L" n="93"/>quod advertas quod, quia de propriis actibus legis est
+<lb ed="#L" n="94"/>sermo, ut responsiones ad argumenta insinuant; et 
+permit<lb break="no" ed="#L" n="95"/>tere inter legis actus ponitur; quod solius superioris 
+pro<lb break="no" ed="#L" n="96"/>prie est permittere. Alii autem non obviantes malo, cum
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="97"/>possunt, negligentis aut tacentis potius quam permittentis
+<lb ed="#L" n="98"/>exercent officium. Nisi utendo lege participative, dicantur
+<lb ed="#L" n="99"/>permittere: sicut accidit in fratre permittente monitum 
+fra<lb break="no" ed="#L" n="100"/>trem reincidere in malum; ut adhibeat secum testes, 
+secun<lb break="no" ed="#L" n="101"/>dum legem Domini, pro communi bono, et similibus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

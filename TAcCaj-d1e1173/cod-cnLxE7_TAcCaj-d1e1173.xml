@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 97</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 97</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="201"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1173"><!-- TAcCajp2p1-q97 -->
+            <head xml:id="TAcCaj-d1e1173-Hd1e101">Quaestio 97</head>
+            <div xml:id="TAcCaj-d1e1173-Dd1e103"><!-- caj-p2p1-q97-a2 -->
+               <head xml:id="TAcCaj-d1e1173-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1173-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="63"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1173-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>In articulis primo et secundo non occurrit aliud 
+scriben<lb break="no" ed="#L" n="65"/>dum quam quod optime notentur causae mutationis 
+le<lb break="no" ed="#L" n="66"/>gum, ut et quando oportet, mutentur; et quando non
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="67"/>oportet, resistentia fiat mutationi. Necessitas vel utilitas
+<lb ed="#L" n="68"/>pensanda est non ad praesens tantum. tempus, sed 
+perpe<lb break="no" ed="#L" n="69"/>tuum, seu diuturnum, pro quo lex fit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1173-Dd1e136"><!-- caj-p2p1-q97-a3 -->
+               <head xml:id="TAcCaj-d1e1173-Hd1e139">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1173-d1e141">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1173-d1e148">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>IN articulo tertio, in responsione ad secundum, adverte
+<lb ed="#L" n="69"/>quod, licet Auctor satisfaciat argumento, dum manifestat
+<lb ed="#L" n="70"/>non oportere ab actu illicito inchoare consuetudinem 
+de<lb break="no" ed="#L" n="71"/>rogantem legi; si tamen ab illicitis tunc actibus inchoasset,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="72"/>ex quo convaluit, et iam consuetudinis vim habet, legi
+<lb ed="#L" n="73"/>scriptae derogat. Non oportet namque posteros sollicitos
+<lb ed="#L" n="74"/>esse an licite vel illicite introducta sit consuetudo, quam
+<lb ed="#L" n="75"/>sine dubio licite inveniunt observari, relicta lege scripta.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1173-Dd1e173"><!-- caj-p2p1-q97-a4 -->
+               <head xml:id="TAcCaj-d1e1173-Hd1e176">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1173-d1e178">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1173-d1e185">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>In titulo articuli quarti adverte quod non de principe 
+spe<lb break="no" ed="#L" n="55"/>cialiter, sed de rectore multitudinis, sive princeps sit sive
+<lb ed="#L" n="56"/>non, quaestio. est.
+</p>
+               <p xml:id="TAcCaj-d1e1173-d1e196">
+                  <lb ed="#L" n="57"/>In corpore articuli eiusdem adverte duo. Primo, quid
+<lb ed="#L" n="58"/>subiacet dispensationi rectoris. Exprimitur namque in 
+lit<lb break="no" ed="#L" n="59"/>tera quod hoc est defectus legis in persona vel casu. Quando
+<lb ed="#L" n="60"/>enim nón est, nec apparet, nec dubitatur defectus legis,
+<lb ed="#L" n="61"/>nulla est ratio licentiam. tribuendi quod non servetur legis
+<lb ed="#L" n="62"/>praeceptum: ac per hoc, nulla est ratio dispensandi. Quando
+<lb ed="#L" n="63"/>autem apparet quod lex in hoc casu impediret maius 
+bo<lb break="no" ed="#L" n="64"/>num, vel cederet in malum, et huiusmodi; tunc deficere
+<lb ed="#L" n="65"/>dicitur lex in casu illo. Unde pro sola voluntate non fit
+<lb ed="#L" n="66"/>dispensatio, sed dissipatio.
+</p>
+               <p xml:id="TAcCaj-d1e1173-d1e220">
+                  <lb ed="#L" n="67"/>II. Secundo, quis rector in qua lege possit dispensare.
+<lb ed="#L" n="68"/>In littera enim nihil aliud exprimitur nisi quod rector 
+mul<lb break="no" ed="#L" n="69"/>titudinis abet potestatem dispensandi in lege humana
+<lb ed="#L" n="70"/>quae suae auctoritati innititur. Et in responsione ad 
+ter<lb break="no" ed="#L" n="71"/>tium, in lege humana publica non potest dispensare nisi
+<lb ed="#L" n="72"/>ille a. quo lex. auctoritatem habet, vel is cui ipse 
+com<lb break="no" ed="#L" n="73"/>miserit, Videtur autem. mihi quod, seclusa consuetudine,
+<lb ed="#L" n="74"/>quae auctoritatem dispensandi inferioribus rectoribus 
+com<lb break="no" ed="#L" n="75"/>mittit et adimit; ex hoc ipso quod aliquis constitutus est
+<lb ed="#L" n="76"/>rector multitudinis, commissa quoque est sibi auctoritas
+<lb ed="#L" n="77"/>dispensandi in lege superioris quoad tria: scilicet quoad
+<lb ed="#L" n="78"/>levia, quoad frequentia, quoad propria.
+</p>
+               <p xml:id="TAcCaj-d1e1173-d1e250">
+                  <lb ed="#L" n="79"/>Leve autem est quodcumque, ceteris paribus, non 
+prae<lb break="no" ed="#L" n="80"/>cepto proprie dicto, sed simplici statuto positum est. Non
+<lb ed="#L" n="81"/>enim est rationi consonum ut ad principem pro 
+dispen<lb break="no" ed="#L" n="82"/>satione in levi recurrendum sit.
+</p>
+               <p xml:id="TAcCaj-d1e1173-d1e261">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>Frequenter quoque occurrentibus, grave nimis esset ad.
+<lb ed="#L" n="84"/>principem, saepe valde remotum loco vel commoditate, 
+re<lb break="no" ed="#L" n="85"/>currere, ubi lex ipsa vindicanda tandem esset, non servanda.
+<lb ed="#L" n="86"/>Ut patet in lege ieiunii ecclesiastici, quod crebro solvendum
+<lb ed="#L" n="87"/>accidit ex rationabili, secundum existimationem saltem, 
+cau<lb break="no" ed="#L" n="88"/>sa; nec est rationi consonum ut semidebilis, aut volens
+<lb ed="#L" n="89"/>quis equitare aut pedes ire sine necessitate cogente, et
+<lb ed="#L" n="90"/>putans se non posse servare ieiunium, debeat ad Papam
+<lb ed="#L" n="91"/>recurrere; sed sat videtur quod arbitrio episcopi in. aliud.
+<lb ed="#L" n="92"/>pium opus commutetur, salvo legis fine.
+</p>
+               <p xml:id="TAcCaj-d1e1173-d1e287">
+                  <lb ed="#L" n="93"/>Aequum etiam est ut ea quae sunt ita propria alicui
+<lb ed="#L" n="94"/>multitudini quod non redundant in communitatem totius
+<lb ed="#L" n="95"/>regni, vel reipublicae christianae, illius multitudinis rectori,
+<lb ed="#L" n="96"/>qui notitiam specialem eius habet, moderanda relicta sint:
+<lb ed="#L" n="97"/>nisi forte adeo notabilis casus sit ut merito superior 
+con<lb break="no" ed="#L" n="98"/>sulendus occurrat. Unde si lex superioris de civitate sit,
+<lb ed="#L" n="99"/>cum. esse civem munus sit ita proprium huic civitati quod
+<lb ed="#L" n="100"/>nihil ad alias spectet, potest rector dispensare in lege illa.
+<lb ed="#L" n="101"/>Secus autem est de communibus, quae scilicet, licet hic
+<lb ed="#L" n="102"/>fiant, redundant in alios: ut si lex superioris sit de 
+docto<lb break="no" ed="#L" n="103"/>ratu aut de. matrimonio, cum doctor et coniux ubique,
+<lb ed="#L" n="104"/>et non in ista tantum civitate munus suum exerceat, non
+<lb ed="#L" n="105"/>spectat ad rectorem huius multitudinis, sed totius, 
+di<lb break="no" ed="#L" n="106"/>spensare.
+</p>
+               <p xml:id="TAcCaj-d1e1173-d1e320">
+                  <lb ed="#L" n="107"/>In quibus autem Ecclesiae legibus possit episcopus did
+<lb ed="#L" n="108"/>pensare, non est praesentis negotii, ubi in communi est
+<lb ed="#L" n="109"/>sermo de legibus et rectoribus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

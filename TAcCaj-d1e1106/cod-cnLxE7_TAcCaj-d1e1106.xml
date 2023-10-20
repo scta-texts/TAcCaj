@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 84</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 84</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="113"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1106"><!-- TAcCajp2p1-q84 -->
+            <head xml:id="TAcCaj-d1e1106-Hd1e101">Quaestio 84</head>
+            <div xml:id="TAcCaj-d1e1106-Dd1e103"><!-- caj-p2p1-q84-a1 -->
+               <head xml:id="TAcCaj-d1e1106-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1106-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="14"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1106-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>IN articulo primo quaestionis octogesimaequartae, dubium
+<lb ed="#L" n="16"/>looi ex <name xml:id="TAcCaj-d1e1106-Nd1e123">Durando</name>, in II Sent., dist. xri. Quia aut 
+ser<lb break="no" ed="#L" n="17"/>mo est formalis: aut materialis. Si formalis, falsus est, Quia
+<lb ed="#L" n="18"/>cupiditas est inordinatus amor habendi pecunias ad 
+reti<lb break="no" ed="#L" n="19"/>nendum, non ad expendendum. Constat autem quod 
+pe<lb break="no" ed="#L" n="20"/>cunia non ut retinenda, sed ut expendenda, est cui obediunt
+<lb ed="#L" n="21"/>omnia. Ergo cupiditas non est radix omnium malorum, ut
+<lb ed="#L" n="22"/>est speciale peccatum. Immo ex hoc sequitur quod 
+cupi<lb break="no" ed="#L" n="23"/>ditas impediat multa mala: quia contrariatur distractioni
+<lb ed="#L" n="24"/>pecuniae, unde multa mala oriuntur. Unde et avaros 
+vide<lb break="no" ed="#L" n="25"/>mus a multis malis abstinere, ne expendant. — Si materialis,
+<lb ed="#L" n="26"/>tunc ab arte receditur. Et quia sensus esset quod materia
+<lb ed="#L" n="27"/>cupiditatis, scilicet pecunia, est radix omnium malorum;
+<lb ed="#L" n="28"/>pari, vel maiori ratione, posset dici quod prodigalitas est
+<lb ed="#L" n="29"/>radix omnium malorum.
+</p>
+               <p xml:id="TAcCaj-d1e1106-d1e154">
+                  <lb ed="#L" n="30"/>II. Ad hoc dicitur quod. sermo est formalis. Pecunia
+<lb ed="#L" n="31"/>namque est materia non solum vitiorum, sed virtutum: et
+<lb ed="#L" n="32"/>propterea non est vituperanda hoc cognomine, ut sit 
+ra<lb break="no" ed="#L" n="33"/>dix omnium malorum. Sed inordinatus amor habendi eam,
+<lb ed="#L" n="34"/>quae cupiditas vocatur, cum sit quoddam malum, quod
+<lb ed="#L" n="35"/>non potest esse.via ad bonum, dicente Apostolo, Non sunt
+<lb ed="#L" n="36"/>facienda mala ut eveniat bonum, radix omnium malorum
+<lb ed="#L" n="37"/>est metaphorice, quia velut os corporis seu arboris 
+vitio<lb break="no" ed="#L" n="38"/>rum est, per quod alimentum suscipiunt, scilicet pecuniam
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="39"/>sub mala intentione. Ita quod, sicut habens pecuniam habet
+<lb ed="#L" n="40"/>pabulum omnium desideriorum, quia pecunia utimur quasi
+<lb ed="#L" n="41"/>fideiussore ad omnia, secundum Aristotelem, V Ethic. ; ita
+<lb ed="#L" n="42"/>inordinate volens eam habere, vult, ex ipsa sua 
+inordina<lb break="no" ed="#L" n="43"/>tione, habere pabulum omnium vitiorum. Manifeste namque
+<lb ed="#L" n="44"/>patet discurrendo quod ipsum inordinate habere pecunias,
+<lb ed="#L" n="45"/>et superbiae et inani gloriae, et luxuriae et gulae, irae et
+<lb ed="#L" n="46"/>invidiae, et acediae, et suo contrario, scilicet prodigalitati,
+<lb ed="#L" n="47"/>fomentum praestat.
+</p>
+               <p xml:id="TAcCaj-d1e1106-d1e198">
+                  <lb ed="#L" n="48"/>Cum autem dicitur quod pecuniae non ut retentae, sed
+<lb ed="#L" n="49"/>ut distractae, etc.: respondetur quod retentionem et 
+distra<lb break="no" ed="#L" n="50"/>ctionem praecedit habere; et nihil horum est proprium 
+cu<lb break="no" ed="#L" n="51"/>pidi nisi habere. Nam cupidus non semper vult habere ut
+<lb ed="#L" n="52"/>retineat, sed quandoque ut det: ut patet in male 
+congre<lb break="no" ed="#L" n="53"/>gantibus ut solvant militibus vel meretricibus, etc. Unde
+<lb ed="#L" n="54"/>non est iudicanda cupiditas ex retentione, ut argumentum
+<lb ed="#L" n="55"/>credidit, sed ex possessionis inordinatione; quae licet in hoc
+<lb ed="#L" n="56"/>vel illo ordinetur ad vitandum multa. mala, ut 
+experien<lb break="no" ed="#L" n="57"/>tia docet in quibusdam, iuxta illud Eccle., Homo cui
+<lb ed="#L" n="58"/>Deus etc.; quantum tamen est ex se, apta nata est nutrire
+<lb ed="#L" n="59"/>omnia mala. Et propterea dicta est radix omnium malorum
+<lb ed="#L" n="60"/>secundum se. - Quomodo autem cupiditas sit vitium 
+ca<lb break="no" ed="#L" n="61"/>pitale, alia quaestio est, et ex fine pensabitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1106-Dd1e232"><!-- caj-p2p1-q84-a2 -->
+               <head xml:id="TAcCaj-d1e1106-Hd1e235">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1106-d1e237">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1106-d1e244">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="44"/>IN articulo secundo octogesimaequartae quaestionis, 
+du<lb break="no" ed="#L" n="45"/>bium occurrit ex Durando, conveniente cum Scoto; in vr
+<lb ed="#L" n="46"/>distinctione Secundi, ad 1, in hoc quod superbia initium
+<lb ed="#L" n="47"/>omnis peccati, non est speciale peccatum, ut littera dicit.
+<lb ed="#L" n="48"/>Sed de Scoto in Prima Parte, cum de peccato angelorum
+<lb ed="#L" n="49"/>esset quaestio, sermo habitus est. Nunc Durandi motivum
+<lb ed="#L" n="50"/>et contra conclusionem, et contra responsionem ad tertium,
+<lb ed="#L" n="51"/>qua dicitur quod ad idem pertinet quod ponatur initium
+<lb ed="#L" n="52"/>omnis peccati superbia, et amor proprius, in II Sent.,
+<lb ed="#L" n="53"/>dist. xit. Contra conclusionem arguit, quia nec appetitus
+<lb ed="#L" n="54"/>turpium delectationum, nec fuga tristium in rebus bellicis,
+<lb ed="#L" n="55"/>ex superbia oritur. Probatur. Quia ex superbia illa sola
+<lb ed="#L" n="56"/>oriuntur vitia, quae circa promoventia vel impedientia 
+pro<lb break="no" ed="#L" n="57"/>priam excellentiam sunt: neutrum horum est huiusmodi:
+<lb ed="#L" n="58"/>ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1106-d1e281">
+                  <lb ed="#L" n="59"/>II. Contra responsionem vero ad tertium, arguit, quia
+<lb ed="#L" n="60"/>inordinatus amor sui, et inordinatus amor propriae 
+excel<lb break="no" ed="#L" n="61"/>lentiae, se habent ut magis commune et minus commune,
+<lb ed="#L" n="62"/>ut patet. Et ille, utpote communissimus, est initium omnis
+<lb ed="#L" n="63"/>peccati: iste, utpote particularis, non. Unde sophisma 
+Con<lb break="no" ed="#L" n="64"/>sequentis est ab illo ad istum procedere, quod si ille est
+<lb ed="#L" n="65"/>initium peccati omnis, quod iste etiam sit initium peccati
+<lb ed="#L" n="66"/>omnis.
+</p>
+               <p xml:id="TAcCaj-d1e1106-d1e301">
+                  <lb ed="#L" n="67"/>III. Ad utramque obiectionem ex eodem fundamento 
+lit<lb break="no" ed="#L" n="68"/>terae respondendum est: ex hoc scilicet quod superbia 
+ini<lb break="no" ed="#L" n="69"/>tium omnis peccati dicitur secundum ordinem intentionis,
+<lb ed="#L" n="70"/>ex parte scilicet finis; quia obiectum suum est finis omnium
+<lb ed="#L" n="71"/>bonorum commutabilium, ad quae alia vitia convertuntur.
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="72"/>Ex hoc namque dicitur primo, quod intemperantia et 
+ti<lb break="no" ed="#L" n="73"/>miditas oriuntur ex superbia: et quod tam bonum 
+delecta<lb break="no" ed="#L" n="74"/>bile, ad quod convertitur intemperatus, quam bonum 
+eva<lb break="no" ed="#L" n="75"/>sionis, ad quod convertitur timidus, cum bonum quoddam
+<lb ed="#L" n="76"/>sit, natum est apparere ut conferens ad propriam 
+excel<lb break="no" ed="#L" n="77"/>lentiam.
+</p>
+               <p xml:id="TAcCaj-d1e1106-d1e331">
+                  <lb ed="#L" n="78"/>Dicitur secundo quod, licet totum et pars non sint
+<lb ed="#L" n="79"/>idem, aequivalent tamen, quoad aliquid, totum et prima
+<lb ed="#L" n="80"/>pars virtualiter extensa ad reliquas: ut patet de toto 
+cor<lb break="no" ed="#L" n="81"/>pore et corde respectu motus. Ac per hoc amor sui ut
+<lb ed="#L" n="82"/>totum, et amor propriae excellentiae ut prima pars, quia
+<lb ed="#L" n="83"/>est tespectu finis ceterorum, recte ponitur initium omnis
+<lb ed="#L" n="84"/>peccati ex eadem parte; et unum inferre reliquum absque
+<lb ed="#L" n="85"/>ullo sophismate. In littera tamen nec identitas nec 
+conver<lb break="no" ed="#L" n="86"/>tibilitas habetur: sed solum quod ad idem pertinet, quia
+<lb ed="#L" n="87"/>secundum est pars primi. Si tamen diceretur, recte 
+dicere<lb break="no" ed="#L" n="88"/>tur, ut ostensum est, — Et hinc habere potes quod in Prima
+<lb ed="#L" n="89"/>Parte dictum est, quod primum bonum concupitum est
+<lb ed="#L" n="90"/>propria excellentia, tanquam ceterorum finis: ac per hoc,
+<lb ed="#L" n="91"/>primum peccatum est Superbun Unde Evae propositum
+<lb ed="#L" n="92"/>primo est: Eritis sicut dii.
+</p>
+               <p xml:id="TAcCaj-d1e1106-d1e366">
+                  <lb ed="#L" n="93"/>Et per haec patet solutio obiectorum omnium quae
+<lb ed="#L" n="94"/>superius a. me, quam brevissime potui, tacta fuere. Quae
+<lb ed="#L" n="95"/>an sufficienter a me soluta fuerint, lectoris iudicio 
+relin<lb break="no" ed="#L" n="96"/>quatur: qui si recte omnia pensitaverit, profecto videbit
+<lb ed="#L" n="97"/>me nihil quod ad materiam attinet necessarium, 
+indiscus<lb break="no" ed="#L" n="98"/>sum reliquisse. Ideo amplius circa istam materiam non
+<lb ed="#L" n="99"/>insistam.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1106-Dd1e385"><!-- caj-p2p1-q84-a3et4 -->
+               <head xml:id="TAcCaj-d1e1106-Hd1e388">Articuli 3 et 4</head>
+               <p xml:id="TAcCaj-d1e1106-d1e390">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="93"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1106-d1e397">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="94"/>In articulis tertio et quarto eiusdem octogesimaequartae
+<lb ed="#L" n="95"/>quaestionis, nihil aliud occurrit scribendum, nisi reddere
+<lb ed="#L" n="96"/>te attentum. quod aliud est loqui de sufficientia vitiorum
+<lb ed="#L" n="97"/>absolute, et aliud de sufficientia vitiorum capitalium: hoc
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>enim hic quaeritur, non illud. Et, ut in responsione ad 
+quin<lb break="no" ed="#L" n="99"/>tum in littera dicitur, non oportet hanc capitalium 
+sufficien<lb break="no" ed="#L" n="100"/>tiam sic intelligere, quin aliquod: peccatum possit a nullo
+<lb ed="#L" n="101"/>horum oriri: sed quia frequentius ex aliquo horum oritur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

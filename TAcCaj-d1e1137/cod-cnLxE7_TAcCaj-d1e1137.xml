@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 90</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 90</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="150"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1137"><!-- TAcCajp2p1-q90 -->
+            <head xml:id="TAcCaj-d1e1137-Hd1e101">Quaestio 90</head>
+            <div xml:id="TAcCaj-d1e1137-Dd1e103"><!-- caj-p2p1-q90-a1 -->
+               <head xml:id="TAcCaj-d1e1137-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1137-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1137-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>IN responsione ad secundum primi articuli quaestionis
+<lb ed="#L" n="9"/>Toosieitiine, nota proportionem inter syllogismum 
+spe<lb break="no" ed="#L" n="10"/>culativum et practicum: quod ille totus in intellectu est;
+<lb ed="#L" n="11"/>iste autem in intellectu principia, quae sunt leges, 
+conclu<lb break="no" ed="#L" n="12"/>sionem autem in operatione habet. Quod de practico in
+<lb ed="#L" n="13"/>actu practici exercito intelligitur, utex supradictis patet:
+<lb ed="#L" n="14"/>in actu siquidem. cognitionis, habet suam singularem 
+con<lb break="no" ed="#L" n="15"/>clusionem, sicut et speculativus intellectus. Propter quod
+<lb ed="#L" n="16"/>electio, quae est voluntatis actus, conclusio dicitur consilii,
+</p>
+               <p xml:id="TAcCaj-d1e1137-d1e139">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="17"/>II. In responsione ad tertium eiusdem articuli, nota
+<lb ed="#L" n="18"/>quod intellectus opus, ad hoc quod lex sit, sola motione
+<lb ed="#L" n="19"/>voluntatis eget. Voluntatis autem opus, ad hoc quod lex
+<lb ed="#L" n="20"/>sit, eget et motione et regulatione intellectus: motione
+<lb ed="#L" n="21"/>quidem, quia voluntas non movetur nisi a cognito; 
+re<lb break="no" ed="#L" n="22"/>gulatione autem, quia voluntas irregulata est iniquitas.
+<lb ed="#L" n="23"/>Et est sermo de voluntate creata: divina enim est lex
+<lb ed="#L" n="24"/>legum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1137-Dd1e162"><!-- caj-p2p1-q90-a2 -->
+               <head xml:id="TAcCaj-d1e1137-Hd1e165">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1137-d1e167">
+                  <pb ed="#L" n="151"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis
+</p>
+               <p xml:id="TAcCaj-d1e1137-d1e176">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo secundo eiusdem quaestionis, in responsione
+<lb ed="#L" n="3"/>ad primum, nota in quo differunt praecepta et in lege
+<lb ed="#L" n="4"/>contenta, et a principibus seu praelatis facta. Lex ordinem
+<lb ed="#L" n="5"/>ad commune bonum continet: praeceptum autem ordinem
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="6"/>illum applicat ad singulares fines subordinatos bono 
+com<lb break="no" ed="#L" n="7"/>muni. Propter quod praecepta quae bono communi non
+<lb ed="#L" n="8"/>subordinantur, praecepti vim non habent..
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1137-Dd1e199"><!-- caj-p2p1-q90-a3 -->
+               <head xml:id="TAcCaj-d1e1137-Hd1e202">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1137-d1e204">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="71"/>Commentario Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1137-d1e211">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="72"/>IN articulo tertio eiusdem quaestionis, dubium occurrit
+<lb ed="#L" n="73"/>circa illa verba: Ordinare aliquid in bonum commune
+<lb ed="#L" n="74"/>est totius multitudinis, vel alicuius vicem. gerentis totius
+<lb ed="#L" n="75"/>multitudinis. Hoc enim esse falsum constat non solum in
+<lb ed="#L" n="76"/>Deo, qui ordinat in bonum commune totius universi, et
+<lb ed="#L" n="77"/>non est vicarius universi: sed in Papa, qui nec est 
+mul<lb break="no" ed="#L" n="78"/>titudo populi Christiani, nec est eius vicarius, sed lesu 
+Chri<lb break="no" ed="#L" n="79"/>sti, et legem ponit Ecclesiae cunctae; et in patrefamilias,
+<lb ed="#L" n="80"/>qui ordinat ad commune bonum familiae, et non est eius
+<lb ed="#L" n="81"/>vicarius.
+</p>
+               <p xml:id="TAcCaj-d1e1137-d1e237">
+                  <lb ed="#L" n="82"/>II. Ad hoc dicitur quod dupliciter possunt Auctoris
+<lb ed="#L" n="83"/>verba intelligi. Primo, ut significant ex vi verborum. Et tunc
+<lb ed="#L" n="84"/>dicitur quod non loquitur universaliter: sed in multitudine
+<lb ed="#L" n="85"/>humana perfecta, et secundum humanum ordinem. Seclusa
+<lb ed="#L" n="86"/>namque divina lege, in multitudine generis humani nullus
+<lb ed="#L" n="87"/>est princeps, sed ipsa multitudo commune bonum primo
+<lb ed="#L" n="88"/>respicit per seipsam, vel committit alteri: alioquin non 
+prin<lb break="no" ed="#L" n="89"/>ceps, sed tyrannus esset, qui multitudini praeesset. Obie-
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="90"/>ctiones autem de Deo. et Papa, extra humanum sunt 
+or<lb break="no" ed="#L" n="91"/>dinem: de patre autem familias, extra communitatem 
+per<lb break="no" ed="#L" n="92"/>fectam.
+</p>
+               <p xml:id="TAcCaj-d1e1137-d1e266">
+                  <lb ed="#L" n="93"/>Secundo dicitur, et altius et formalius, quod per 
+ge<lb break="no" ed="#L" n="94"/>rentem vices multitudinis non limitat se Auctor ad vicarium
+<lb ed="#L" n="95"/>multitudinis: sed ad eum qui quovis modo vices 
+multi<lb break="no" ed="#L" n="96"/>tudinis in hoc quod est ordinare in commune bonum,
+<lb ed="#L" n="97"/>supplere potest. Constat autem quod Deus praeeminenter
+<lb ed="#L" n="98"/>potest ordinare in bonum commune multitudinis, multo
+<lb ed="#L" n="99"/>melius quam ipsa multitudo posset in illud ordinare. Et
+<lb ed="#L" n="100"/>similiter lesus Christus per suum vicarium vices 
+multitu<lb break="no" ed="#L" n="101"/>dinis supplet. Et similiter paterfamilias respectu suae 
+fa<lb break="no" ed="#L" n="102"/>miliae. Unde Auctor, conclusionem formaliter inferendo,
+<lb ed="#L" n="103"/>declarat quid per vices gerentem intellexerit, cum dicit: Et
+<lb ed="#L" n="104"/>ideo condere legem pertinet ad totam multitudinem, vel ad
+<lb ed="#L" n="105"/>personam publicam quae totius multitudinis curam habet:
+<lb ed="#L" n="106"/>ubi manifeste aperit quod idem intellexit per gerere vicem
+<lb ed="#L" n="107"/>multitudinis, et per habere curam illius.
+</p>
+               <p xml:id="TAcCaj-d1e1137-d1e302">
+                  <pb ed="#L" n="152"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>III. In eodem articulo adverte quod, quia legislator apud
+<lb ed="#L" n="2"/>Auctorem est vel multitudo tota, vel multitudinis totius
+<lb ed="#L" n="3"/>curam habens; et constat quod nulla est hic variatio ter-.
+<lb ed="#L" n="4"/>minorum; et quod Papa est legislator in multitudine tota
+<lb ed="#L" n="5"/>populi Christiani: oportet dicere quod est habens curam
+<lb ed="#L" n="6"/>totius multitudinis populi Christiani, eo modo accipiendo
+<lb ed="#L" n="7"/>totam multitudinem, quo posset condere legem, si non
+<lb ed="#L" n="8"/>subdita esset. Constat autem quod condere legem pertinet
+<lb ed="#L" n="9"/>ad multitudinem totam non secundum singulas partes, sed
+<lb ed="#L" n="10"/>collective, idest ad communitatem multitudinis. Papa ergo
+<lb ed="#L" n="11"/>est habens curam non solum singulorum, sed communitatis\
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>totius multitudinis Christianorum. - Et haec dixerim pro-
+<lb ed="#L" n="13"/>pter sciolos quosdam, qui Papam pastorem singularum 
+ec<lb break="no" ed="#L" n="14"/>clesiarum, non communitatis totius Ecclesiae Christianae,
+<lb ed="#L" n="15"/>esse contendunt. Errant quippe. graviter.
+</p>
+               <p xml:id="TAcCaj-d1e1137-d1e344">
+                  <lb ed="#L" n="16"/>Et hinc habes quod tota multitudo, ut legislatoris offi- 
+offi<lb break="no" ed="#L" n="17"/>cium habet, est sub cura illius qui legislator est. Quod
+<lb ed="#L" n="18"/>etiam ex ratione convincitur. Quia finis proprius 
+communi<lb break="no" ed="#L" n="19"/>tatis, scilicet commune bonum, est proprius finis 
+legisla<lb break="no" ed="#L" n="20"/>toris: quamvis diversimode, quia communitatis ut 
+ordina<lb break="no" ed="#L" n="21"/>tae, et legislatoris ut ordinantis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1137-Dd1e361"><!-- caj-p2p1-q90-a4 -->
+               <head xml:id="TAcCaj-d1e1137-Hd1e364">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1137-d1e366">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="70"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1137-d1e373">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="71"/>In articulo quarto, in responsione ad secundum, nota quod,
+<lb ed="#L" n="72"/>ob illa verba vel devenire potest, non intelligitur de 
+po<lb break="no" ed="#L" n="73"/>tentia logica, quia scilicet non implicat contradictionem:
+<lb ed="#L" n="74"/>sed de potentia politica, idest secundum ordinem seu 
+cur<lb break="no" ed="#L" n="75"/>sum politicum. Unde devenire potest coniungitur cum ly
+<lb ed="#L" n="76"/>per alios. Et intendit Auctor quod absentes a 
+promulga<lb break="no" ed="#L" n="77"/>tione obligantur vel quia per alios promulgatio ad eos
+<lb ed="#L" n="78"/>devenit; vel per alios devenire potuit, sed ex parte absen-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="79"/>tium consecutum est ut nescirent, vel quia noluerunt, vel
+<lb ed="#L" n="80"/>quia neglexerunt facere quod in eis erat ad sciendum. 
+Alio<lb break="no" ed="#L" n="81"/>quin absentes nescii promulgatae legis, non ligantur. 
+Pro<lb break="no" ed="#L" n="82"/>pter quod,si Romae nova lex promulgatur, et nec curia ipsa
+<lb ed="#L" n="83"/>procurat ut promulgatio ad ecclesias cathedrales deveniat,
+<lb ed="#L" n="84"/>nec praelati qui ibi sunt, insinuant suis ecclesiis; accusari
+<lb ed="#L" n="85"/>nec apud Deum nec apud homines ignorantiae 
+<lb ed="#L" n="86"/>absentes nescii.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

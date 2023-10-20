@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 89</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 89</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="146"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1132"><!-- TAcCajp2p1-q89 -->
+            <head xml:id="TAcCaj-d1e1132-Hd1e101">Quaestio 89</head>
+            <div xml:id="TAcCaj-d1e1132-Dd1e103"><!-- caj-p2p1-q89-a3 -->
+               <head xml:id="TAcCaj-d1e1132-Hd1e106">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1132-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>OMISSIS articulis primis quaestionis octogesimaenonae,
+<lb ed="#L" n="19"/>in tertio articulo dubium occurrit ex Scoto, in xxi
+<lb ed="#L" n="20"/>distinctione II Sent., tenente quod in statu innocentiae 
+po<lb break="no" ed="#L" n="21"/>tuit homo peccare venialiter, absque mortali peccato. 
+Ar<lb break="no" ed="#L" n="22"/>guitque quadrupliciter ad hoc. Primo, quia donum 
+origi<lb break="no" ed="#L" n="23"/>nalis iustitiae non perfectius coniungebat hominem ultimo
+<lb ed="#L" n="24"/>fini; quam quaecumque gratia gratum faciens coniungit
+<lb ed="#L" n="25"/>nunc viatorem. Sed cum gratia quacumque viatoris nunc
+<lb ed="#L" n="26"/>stat veniale peccatum: quia si dixerimus quia peccatum
+<lb ed="#L" n="27"/>non habemus, etc. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e141">
+                  <lb ed="#L" n="28"/>Praeterea, Adam tunc potuit committere veniale ex 
+ge<lb break="no" ed="#L" n="29"/>nere, puta dicere verbum otiosum. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e148">
+                  <lb ed="#L" n="30"/>Praeterea, sequeretur quod mortale et veniale aeque 
+re<lb break="no" ed="#L" n="31"/>pugnarent rectitudini status innocentiae. Quia utrumque est
+<lb ed="#L" n="32"/>ei impossibile, et corrumperet eum.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e158">
+                  <lb ed="#L" n="33"/>Praeterea, ab extremo ad extremum non fit transitus
+<lb ed="#L" n="34"/>nisi per medium. Sed veniale medium est inter iustitiam
+<lb ed="#L" n="35"/>et mortale. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e167">
+                  <lb ed="#L" n="36"/>II. Ad primum horum dicitur quod peccat secundum non
+<lb ed="#L" n="37"/>causam ut causam; et secundum Figuram dictionis, mutando
+<lb ed="#L" n="38"/>sic vel plura in magis, vel e converso. lustitia enim 
+ori<lb break="no" ed="#L" n="39"/>ginalis, non quia magis, sed quia sic, vel pluribus modis,
+<lb ed="#L" n="40"/>coniungebat ultimo fini, repugnat peccato veniali: quia sic
+<lb ed="#L" n="41"/>coniungebat ultimo fini, ut omnino inferius infallibiliter 
+or<lb break="no" ed="#L" n="42"/>dinaretur sub suo superiore. - Et cum contra hanc rationem
+<lb ed="#L" n="43"/>instat Scotus, quia peccatum veniale committitur etiam
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="44"/>in parte superiori, ut patet de primis motibus infidelitatis:
+<lb ed="#L" n="45"/>patet responsio ex littera, scilicet quod i ipsa pars superior,
+<lb ed="#L" n="46"/>ut habens motus indeliberatos, habet rationem inferioris
+<lb ed="#L" n="47"/>respectu sui ipsius ut deliberans est. Unde per inferius et
+<lb ed="#L" n="48"/>superius hic non ipsae partes animae intelligendae sunt,
+<lb ed="#L" n="49"/>sed officia. Ita quod ille status habeat quod, quandiu 
+su<lb break="no" ed="#L" n="50"/>premum officium Deo suberat, inferiora officia 
+cuiuscum<lb break="no" ed="#L" n="51"/>que partis infallibili ordine recte superiori officio 
+subde<lb break="no" ed="#L" n="52"/>bantur. Unde Scotus ab officio ad portionem animae 
+de<lb break="no" ed="#L" n="53"/>clinavit. Et quoniam haec doctrina, ut patet in littera, ex
+<lb ed="#L" n="54"/>Augustino, XIV de Civ. Dei, est, recte sic exponitur: quia
+<lb ed="#L" n="55"/>apud ipsum inferius et superius officio distinguuntur.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e215">
+                  <lb ed="#L" n="56"/>Ad secundum dicitur quod Adam in illo statu non
+<lb ed="#L" n="57"/>potuit dicere verbum otiosum, propter rationem dictam,
+<lb ed="#L" n="58"/>antequam peccasset mortaliter.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e224">
+                  <lb ed="#L" n="59"/>Ad tertium, negatur sequela. Et ad. probationem dicitur
+<lb ed="#L" n="60"/>quod, licet utrumque sit ei impossibile; mortale autem,
+<lb ed="#L" n="61"/>ultra hoc, est corruptivum illius status, veniale autem non;
+<lb ed="#L" n="62"/>ut in littera dicitur, in responsione ad tertium.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e235">
+                  <lb ed="#L" n="63"/>Ad quartum dicitur quod maior est vera, ubi est vere
+<lb ed="#L" n="64"/>medium essentialiter ordinatum. Veniale autem non est
+<lb ed="#L" n="65"/>medium secundum veritatem, sed extremum: sub malo
+<lb ed="#L" n="66"/>namque, et peccato, et huiusmodi, clauditur utrumque 
+pec<lb break="no" ed="#L" n="67"/>catum, mortale scilicet et veniale. Iustitia autem est is
+<lb ed="#L" n="68"/>altero extremo, scilicet bono, recto, et huiusmodi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1132-Dd1e252"><!-- caj-p2p1-q89-a4 -->
+               <head xml:id="TAcCaj-d1e1132-Hd1e255">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1132-d1e257">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="27"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e264">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>IN articulo quarto adverte duo. Primo, quod Auctor plus
+<lb ed="#L" n="29"/>laeecaiost quam quaesiverat. Nam ratio allata in littera
+<lb ed="#L" n="30"/>non solum: concludit de angelo bono et malo, sed 
+abso<lb break="no" ed="#L" n="31"/>lute: quoniam super conditione suae naturae fundatur.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e277">
+                  <lb ed="#L" n="32"/>Secundo, quod aliud est loqui de peccare mortaliter,
+<lb ed="#L" n="33"/>et aliud de demereri: sicut aliud est loqui de actu cari-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="34"/>tatis, et aliud de merito. Quoniam meritum et demeritum
+<lb ed="#L" n="35"/>viatoris sunt, quia in expectatione consistunt: male autem
+<lb ed="#L" n="36"/>et bene agere voluntarie agentis sunt. Propter quod, 
+li<lb break="no" ed="#L" n="37"/>cet daemones in omnibus suis actibus peccent mortaliter,
+<lb ed="#L" n="38"/>non tamen demerentur: quia extra viam iam in termino
+<lb ed="#L" n="39"/>sunt.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1132-Dd1e300"><!-- caj-p2p1-q89-a5 -->
+               <head xml:id="TAcCaj-d1e1132-Hd1e303">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1132-d1e305">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e312">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>IN articulo quinto nota titulum, quod loquitur tantum de
+<lb ed="#L" n="9"/>primis motibus sensualitatis, et non de omnibus motibus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="10"/>infidelium. Et non mireris si differo disputationem de aliis
+<lb ed="#L" n="11"/>in locum proprium.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1132-Dd1e329"><!-- caj-p2p1-q89-a6 -->
+               <head xml:id="TAcCaj-d1e1132-Hd1e332">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1132-d1e334">
+                  <cb ed="#L" n=""/>
+                  <lb ed="#L" n="82"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e341">
+                  <cb ed="#L" n=""/>
+                  <lb ed="#L" n="83"/>IN articulo sexto eiusdem octogesimaenonae quaestionis,
+<lb ed="#L" n="84"/>laibium duplex occurrit circa illa verba: Multo magis
+<lb ed="#L" n="85"/>excusat eum a peccato veniali, etc. Primum, quia aut 
+Au<lb break="no" ed="#L" n="86"/>ctor intendit simpliciter de veniali: aut tantum de veniali
+<lb ed="#L" n="87"/>ex genere. Si simpliciter, falsum est quod defectus rationis
+<lb ed="#L" n="88"/>excusans a mortali, excuset a veniali; ut patet in primis
+<lb ed="#L" n="89"/>motibus, quos defectus rationis deliberantis excusat a 
+mor<lb break="no" ed="#L" n="90"/>tali, et non a veniali. — Si de veniali ex genere tantum, non
+<lb ed="#L" n="91"/>infert intentum, quod originale cum veniali solo non 
+in<lb break="no" ed="#L" n="92"/>veniri possit. Dicet enim quispiam quod puer in originali
+<lb ed="#L" n="93"/>existens, ante plenum usum liberi arbitrii, incipiens 
+aliqua<lb break="no" ed="#L" n="94"/>liter semi-uti libero arbitrio, ut contingit in somnolentis,
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="95"/>peccare potest appetendo aliquod delectabile illicitum, puta
+<lb ed="#L" n="96"/>concubitum puellae, quod propter imperfectionem. actus
+<lb ed="#L" n="97"/>indeliberati erit veniale.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e380">
+                  <lb ed="#L" n="98"/>II. Secundum dubium est, unde valet ly multo magis.
+<lb ed="#L" n="99"/>Videtur enim aut aequale, attendendo ad "usum rationis:
+<lb ed="#L" n="100"/>aut minus, attendendo quod minus requiritur ad faciendum
+<lb ed="#L" n="101"/>aliquid imperfectum quam perfectum. Peccatum enim 
+mor<lb break="no" ed="#L" n="102"/>tale constat esse perfectum, et veniale imperfectum: et quod
+<lb ed="#L" n="103"/>non omne excusans a maiore, excusat a minore, ut patet
+<lb ed="#L" n="104"/>in infidelibus, qui excusantur ab infidelitatis peccato, si nihil
+<lb ed="#L" n="105"/>audierunt, et non ab aliis, a quibus caverent, si essent 
+Chri<lb break="no" ed="#L" n="106"/>stiani.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e402">
+                  <pb ed="#L" n="147"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>III. Ad haec dubia dicitur quod, cum in littera explicite
+<lb ed="#L" n="2"/>dicatur: Multo magis excusat a veniali, si committat 
+ali<lb break="no" ed="#L" n="3"/>quid quod sit ex genere suo tale, dubium non est quod
+<lb ed="#L" n="4"/>de veniali ex genere in illis verbis loquitur. Et intendit
+<lb ed="#L" n="5"/>quod, puero committente aliquid mortale ex genere, et
+<lb ed="#L" n="6"/>aliquid veniale ex genere, si defectus aetatis excusat eum a
+<lb ed="#L" n="7"/>mortali, excusat etiam a veniali, et multo magis. Et quod
+<lb ed="#L" n="8"/>excuset etiam a veniali, in promptu est ratio. Quia 
+utrum<lb break="no" ed="#L" n="9"/>que libertatem exigit, et convenit in hoc quod est fieri
+<lb ed="#L" n="10"/>posse deliberate et indeliberate: potest enim quis 
+delibe<lb break="no" ed="#L" n="11"/>rate verbum otiosum dicere, et habere primum motum ad
+<lb ed="#L" n="12"/>dicendum illud et desistere. Unde si impedita libertas 
+ex<lb break="no" ed="#L" n="13"/>cusat ab actu mortali, quia constituit ipsum extra morale
+<lb ed="#L" n="14"/>genus; excusat quoque, eadem ratione, ab actu veniali, quia
+<lb ed="#L" n="15"/>extra morale quoque genus constituit ipsum.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e442">
+                  <lb ed="#L" n="16"/>Quod autem multo magis excuset a veniali, ratio est
+<lb ed="#L" n="17"/>quia in maiori includitur minus. Constat autem quod, 
+ce<lb break="no" ed="#L" n="18"/>teris paribus ex parte agentis, peccatum veniale et mortale
+<lb ed="#L" n="19"/>ex genere se habent sicut maius et minus. Propter quod,
+<lb ed="#L" n="20"/>si impedimentum libertatis sat est ad faciendum quod actus
+<lb ed="#L" n="21"/>tam. malus, scilicet ex genere mortalis, commissus a puero,
+<lb ed="#L" n="22"/>sibi non imputatur; a fortiori sufficit ad faciendum quod
+<lb ed="#L" n="23"/>actus minus malus ei non imputetur: sicut si quis in bello
+<lb ed="#L" n="24"/>occidendo excusatur ab homicidio, depraedarido excusatur
+<lb ed="#L" n="25"/>a rapina, eadem ratione.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e466">
+                  <lb ed="#L" n="26"/>IV. Et cum contra hanc responsionem obiicitur, quia
+<lb ed="#L" n="27"/>non habetur intentum universaliter de omni peccato 
+ve<lb break="no" ed="#L" n="28"/>niali: respondetur quod ex hoc habetur intentum 
+univer<lb break="no" ed="#L" n="29"/>saliter. Quia peccatum veniale ex imperfectione actus, 
+prae<lb break="no" ed="#L" n="30"/>supponit libertatem sufficientem ad peccatum mortale: quia
+<lb ed="#L" n="31"/>praesupponit quod possit a libera ratione impediri. Unde
+<lb ed="#L" n="32"/>puero qui a commisso actu mortali excusatur propter 
+de<lb break="no" ed="#L" n="33"/>fectum libertatis, non imputatur etiam quicumque motus
+<lb ed="#L" n="34"/>in actum peccati mortalis vel venialis, propter defectum
+<lb ed="#L" n="35"/>libertatis exactae ad praeveniendum, impediendum et 
+do<lb break="no" ed="#L" n="36"/>minandum his motibus. Et simile esset de somnolento, si
+<lb ed="#L" n="37"/>nulla praecessisset culpabilis occasio vel superfluitatis somni,
+<lb ed="#L" n="38"/>vel occurrentis cogitationis. Quae in proposito non habent
+<lb ed="#L" n="39"/>locum: quia defectus aetatis prohibens libertatem, 
+incul<lb break="no" ed="#L" n="40"/>pabilis omnino est. Sufficienter igitur Auctor docuit, de
+<lb ed="#L" n="41"/>perfectis actibus moralibus in genere mortalis et venialis
+<lb ed="#L" n="42"/>tractans, ut ex illis imperfectos etiam sciremus, ut 
+decla<lb break="no" ed="#L" n="43"/>ratum est.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e508">
+                  <lb ed="#L" n="44"/>V. Ad obiectiones autem contra secundum dubium,
+<lb ed="#L" n="45"/>dicitur quod, licet ad peccandum venialiter minus libertatis
+<lb ed="#L" n="46"/>sufficiat in exercitio quam in mortali, quia absque 
+delibe<lb break="no" ed="#L" n="47"/>ratione peccatur venialiter; non tamen minus sufficit in 
+fa<lb break="no" ed="#L" n="48"/>cultate. Quia non peccatur venialiter absque libera facultate
+<lb ed="#L" n="49"/>dominandi super singulos motus, quae facultas absque plena
+<lb ed="#L" n="50"/>libertate non est. - Nec recte instatur contra illam regulam,
+<lb ed="#L" n="51"/>Excusans a maiore, excusat a minore. Quoniam intelligitur,
+<lb ed="#L" n="52"/>ceteris paribus. Constat autem quod non sunt cetera paria
+<lb ed="#L" n="53"/>in instantia: quia lumen rationis est in infidelibus ostendens
+<lb ed="#L" n="54"/>ills bona moralia, quae non sequuntur. Unde illi qui 
+ex<lb break="no" ed="#L" n="55"/>cusantur a peccato infidelitatis, quod est maius, excusantur
+<lb ed="#L" n="56"/>quoque a peccato omissionis sacramenta fidei non 
+reci<lb break="no" ed="#L" n="57"/>piendo, quod est minus, quia hic cetera sunt paria, neutrum
+<lb ed="#L" n="58"/>enim est alias cognitum, etc.: et non a peccato 
+fornicatio<lb break="no" ed="#L" n="59"/>nis, quod est ratione naturali prohibitum.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e545">
+                  <lb ed="#L" n="60"/>VI. In eodem sexto articulo quaestionis 
+octogesimaeno<lb break="no" ed="#L" n="61"/>nae, circa illa verba: Primum quod tunc homini cogitandum
+<lb ed="#L" n="62"/>occurrit, est deliberare de seipso, dubia duo occurrunt.
+<lb ed="#L" n="63"/>Primum est, an hoc intelligatur de facto, an de debito:
+<lb ed="#L" n="64"/>idest, an ita sit quod homini incipienti habere usum liberi
+<lb ed="#L" n="65"/>arbitrii, occurrat de facto haec cogitatio; an occurrere 
+de<lb break="no" ed="#L" n="66"/>beat, quia scilicet tenetur ad hoc cogitandum. Si enim 
+in<lb break="no" ed="#L" n="67"/>telligitur quod de facto ita est, in primis falsum assumitur:
+<lb ed="#L" n="68"/>nam primum occurrens est bonum, quod naturaliter 
+ap<lb break="no" ed="#L" n="69"/>petitur. - Deinde hoc aut voluntarie dicitur: aut propter 
+ra<lb break="no" ed="#L" n="70"/>tionem in responsione ad tertium allatam, quia scilicet finis
+<lb ed="#L" n="71"/>est prior in intentione, ipse autem met est finis, ad quem
+<lb ed="#L" n="72"/>alia ordinat. Sed haec responsio non concludit illud. Tum
+<lb ed="#L" n="73"/>quia falsum est quod ipsemet sit finis: cum sit propter
+<lb ed="#L" n="74"/>aliud. Tum quia ex hoc quod ipsemet occurrit ut finis, non
+<lb ed="#L" n="75"/>sequitur quod de ipso sit deliberatio. - Demum quia non
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>experimur in nobis quod nobis primo haec cogitatio 
+oc<lb break="no" ed="#L" n="77"/>currat.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e589">
+                  <lb ed="#L" n="78"/>Si autem intelligitur de debito, probandum esset hoc. Et
+<lb ed="#L" n="79"/>si ratio in littera posita affertur, tunc insurgit secundum
+<lb ed="#L" n="80"/>dubium. Quia aut intendit quod ipsemet primo occurrit ut
+<lb ed="#L" n="81"/>finis: aut ut ad finem. Si ut finis, non oportet quod 
+deli<lb break="no" ed="#L" n="82"/>beret de seipso: sed sufficit quod non amet se plus quam
+<lb ed="#L" n="83"/>Deum. Et sic nullo praecepto affirmativo tenebitur pro tunc
+<lb ed="#L" n="84"/>ad ordinandum se, sed negativo, scilicet non inordinate
+<lb ed="#L" n="85"/>amandum se: cuius observatio stat cum peccato veniali, et
+<lb ed="#L" n="86"/>voluntate studendi in grammatica. - Si sicut ad finem, verba
+<lb ed="#L" n="87"/>corporis articuli consonant, scilicet deliberare de seipso: sed
+<lb ed="#L" n="88"/>ratio allata in littera, in responsione ad tertium, nil valet. Et
+<lb ed="#L" n="89"/>cum sola sit allata, omnia sine rationis fundamento restant.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e618">
+                  <lb ed="#L" n="90"/>VII. Ad has dubitationes simul respondendo, dicitur quod
+<lb ed="#L" n="91"/>verba litterae intelliguntur non solum de debito, sed de
+<lb ed="#L" n="92"/>facto: et de seipso quodammodo ut fine, et quodammodo
+<lb ed="#L" n="93"/>ut ad finem. Ad cuius evidentiam, advertendum est quod
+<lb ed="#L" n="94"/>in occurrente primo fine inveniuntur duo: scilicet quod
+<lb ed="#L" n="95"/>appetitur, et cui appetitur. Primum est amatum amore
+<lb ed="#L" n="96"/>concupiscentiae: secundum, amore amicitiae. Et quia 
+ama<lb break="no" ed="#L" n="97"/>bile quidem bonum, unicuique autem proprium, et 
+ami<lb break="no" ed="#L" n="98"/>cabilia quae sunt ad alios, veniunt ex amicabili ad se;
+<lb ed="#L" n="99"/>primum cui appetitur, est ipsemet appetens. Et quia 
+con<lb break="no" ed="#L" n="100"/>cupitum ordinatur ad amatum amicitia, et non e converso;
+<lb ed="#L" n="101"/>ideo primus simpliciter finis occurrens appetenti est 
+ipse<lb break="no" ed="#L" n="102"/>met, qui est finis omnium concupiscibilium, ad quem omnia
+<lb ed="#L" n="103"/>concupiscibilia naturaliter ordinantur. Quia ergo finis est
+<lb ed="#L" n="104"/>prior in intentione; et ipsemet puer est finis primo amatus
+<lb ed="#L" n="105"/>amicitia, cui primo concupiscitur de facto; oportet quod
+<lb ed="#L" n="106"/>primum de facto occurrens pueri voluntati sit ipsemet, ad
+<lb ed="#L" n="107"/>quem alia concupiscibilia ordinet.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e661">
+                  <lb ed="#L" n="108"/>Completo autem hoc naturali occursu, quo puer vult
+<lb ed="#L" n="109"/>naturaliter sibi bonum ac beatitudinem, consequens est ut
+<lb ed="#L" n="110"/>statim de praecipue amato, quod iam occurrit, idest de
+<lb ed="#L" n="111"/>seipso, sollicitus sit quid ei appetendum sit: ex hoc enim
+<lb ed="#L" n="112"/>pendet quid operandum, quid sollicitandum, quid 
+patien<lb break="no" ed="#L" n="113"/>dum, et quidquid aliud subest eius potestati. Et quoniam
+<lb ed="#L" n="114"/>ipse secundum seipsum est magis amatus quam ipsemet
+<lb ed="#L" n="115"/>secundum partes, seu partiales rationes suas; consequens est
+<lb ed="#L" n="116"/>quod primum sollicitans puerum est deliberare quid sibi
+<lb ed="#L" n="117"/>secundum seipsum totum, non secundum hunc vel illum
+<lb ed="#L" n="118"/>respectum, appetendum est. Hoc autem est deliberare de
+<lb ed="#L" n="119"/>seipso, et ordinare se ad finem: quia id quod sibi ipsi 
+prae<lb break="no" ed="#L" n="120"/>cipue amato secundum se totum, est appetendum, est finis
+<lb ed="#L" n="121"/>ad quem ipse ordinatur. Unde si sibi appetendum censuerit
+<lb ed="#L" n="122"/>bonum honestum in confuso, ut aetas illa consuevit, bene
+<lb ed="#L" n="123"/>deliberavit de seipso, finem suum in vera beatitudine 
+col<lb break="no" ed="#L" n="124"/>locans, quamvis imperfecte et inchoative: non plus enim
+<lb ed="#L" n="125"/>exigitur a puero. Si non, omissioniS reus erit, ut in littera
+<lb ed="#L" n="126"/>dicitur, in responsione ad tertium.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e705">
+                  <lb ed="#L" n="127"/>VIII. Ex his autem dicitur ad obiecta contra primum,
+<lb ed="#L" n="128"/>quod de facto occurrere seipsum ut finem amatum 
+ami<lb break="no" ed="#L" n="129"/>citia, dum primo concupiscitur bonum, ratione 
+convinci<lb break="no" ed="#L" n="130"/>tur. Quia omne concupitum alicui concupiscitur: et cum
+<lb ed="#L" n="131"/>constet quod non alteri, ergo sibi. - Similiter quod de facto
+<lb ed="#L" n="132"/>occurrit ipsemet ut deliberabilis, quantum est ex rerum 
+or<lb break="no" ed="#L" n="133"/>dine, probatum est: quia est praecipue amatus. Et quia
+<lb ed="#L" n="134"/>rerum ordo nulla tunc culpa perversus est, ideo naturae
+<lb ed="#L" n="135"/>ordinem facti series, quantum ad occursum, sequitur. Verum
+<lb ed="#L" n="136"/>tamen est quod occursum illum non necessario voluntas
+<lb ed="#L" n="137"/>amplectitur, sed potest non cogitare et omittere, ut in 
+lit<lb break="no" ed="#L" n="138"/>tera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e734">
+                  <lb ed="#L" n="139"/>Unde nihil obstat quod bonum aut beatitudo primo 
+oc<lb break="no" ed="#L" n="140"/>currat: quia ut concupiscibile utrumque occurrit. - Nec quod
+<lb ed="#L" n="141"/>ipse primo occurrit ut finis. Immo ex hoc habetur ratio
+<lb ed="#L" n="142"/>quod non voluntarie dicitur: quia finis est praecipue amatus,
+<lb ed="#L" n="143"/>et de ipso primo sollicitudo sequitur; et sic esse finem 
+ama<lb break="no" ed="#L" n="144"/>tum amicitia, sequitur ipsum esse primum deliberabile; est
+<lb ed="#L" n="145"/>enim sic finis, quod potest esse ad alium finem. Et propterea
+<lb ed="#L" n="146"/>non est falsum. ipsum esse finem: nec impertinens intentae
+<lb ed="#L" n="147"/>conclusioni, — Et per hoc patet solutio reliquarum 
+obie<lb break="no" ed="#L" n="148"/>ctionum.:
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e758">
+                  <lb ed="#L" n="149"/>IX. In eodem sexto articulo quaestionis 
+octogesimaeno<lb break="no" ed="#L" n="150"/>nae, dubium adhuc superest in tertii argumenti responsione.
+<pb ed="#L" n="148"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quia cum deliberatio de seipso fiat in tempore, quia 
+deli<lb break="no" ed="#L" n="2"/>berare in tempore fit; intra tempus deliberationem 
+mensu<lb break="no" ed="#L" n="3"/>rans, potest puer peccare venialiter, puta curiose videndo
+<lb ed="#L" n="4"/>transeuntem equum, inter deliberandum de fine. Et sic, cum
+<lb ed="#L" n="5"/>non teneatur ad eligendum finem debitum ante terminatam
+<lb ed="#L" n="6"/>deliberationem, sequitur quod poterit peccare venialiter ante
+<lb ed="#L" n="7"/>peccatum mortale, et tamen quam cito potest, dat operam
+<lb ed="#L" n="8"/>deliberationi de seipso.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e787">
+                  <lb ed="#L" n="9"/>Ad hoc dicitur quod non quam citius potest deliberat,
+<lb ed="#L" n="10"/>qui inter deliberandum ad aliud divertit. Cum enim virtus
+<lb ed="#L" n="11"/>unita sit maior seipsa dispersa; et a maiori virtute citius
+<lb ed="#L" n="12"/>fiat aliquid quam a minore, ceteris partibus; consequens
+<lb ed="#L" n="13"/>est ut citius deliberet non divertens quam divertens. Ac
+<lb ed="#L" n="14"/>per hoc, qui ad aliud aspicit vane, non quam cito potest
+<lb ed="#L" n="15"/>deliberat, libere vim suam minuens. Et sic reus est 
+omissio<lb break="no" ed="#L" n="16"/>nis praecepti, divertendo, non quam cito potest deliberando.
+<lb ed="#L" n="17"/>Et quamvis non teneatur ante terminum deliberationis 
+eli<lb break="no" ed="#L" n="18"/>gere, tenetur tamen ante terminum nullum impedimentum
+<lb ed="#L" n="19"/>apponere caritati. Et propterea apponendo peccat mortaliter,
+<lb ed="#L" n="20"/>ante terminum: sicut deliberationi operam non dans ante
+<lb ed="#L" n="21"/>instans quod terminasset deliberationem, peccat omissione.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e818">
+                  <lb ed="#L" n="22"/>X. Circa eundem articulum sextum quaestionis 
+octoge<lb break="no" ed="#L" n="23"/>simaenonae, duplex quaestio ex dictis insurgit. Prima est an
+<lb ed="#L" n="24"/>infans baptizatus teneatur in principio suae discretionis ad
+<lb ed="#L" n="25"/>conversionem in Deum, sicut de non baptizato dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e830">
+                  <lb ed="#L" n="26"/>Secunda est, quod si tenetur, an quilibet baptizatus sit
+<lb ed="#L" n="27"/>de hac praecepti observatione dubius; et teneatur 
+conse<lb break="no" ed="#L" n="28"/>quenter confiteri tanquam de dubio.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e839">
+                  <lb ed="#L" n="29"/>XI. Ad primam quaestionem dicendum est quod, cum
+<lb ed="#L" n="30"/>praeceptum illud fundetur super processu naturae; et gratia
+<lb ed="#L" n="31"/>perficiat naturam per modum naturae: absque dubio tenetur
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>puer baptizatus ad deliberandum de seipso in principio
+<lb ed="#L" n="33"/>suae discretionis, una ratione, scilicet propter impletionem
+<lb ed="#L" n="34"/>praecepti. Non baptizatus vero, duabus rationibus: scilicet
+<lb ed="#L" n="35"/>propter praeceptum, et propter delendum peccatum 
+ori<lb break="no" ed="#L" n="36"/>ginale.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e861">
+                  <lb ed="#L" n="37"/>XII. Ad secundam vero libentius audirem quid 
+dicen<lb break="no" ed="#L" n="38"/>dum, quam dicerem. Videtur tamen mihi quod, quia 
+nun<lb break="no" ed="#L" n="39"/>quam est amor Dei otiosus, caritas infusa baptizato infanti
+<lb ed="#L" n="40"/>exit in actum in primo actu naturali: sicut de angelis,
+<lb ed="#L" n="41"/>creatis in gratia, dictum fuit. Et quod statim occurrente
+<lb ed="#L" n="42"/>seipso ut deliberabili, infusa fides deliberandi sollicitudinem
+<lb ed="#L" n="43"/>foveat, ad bonum honestum praesentandum cooperando,
+<lb ed="#L" n="44"/>inclinando ad hoc intellectum; et consequenter caritas 
+in<lb break="no" ed="#L" n="45"/>clinet appetitum ad honestum prosequendum. Et sic 
+consti<lb break="no" ed="#L" n="46"/>tuet sibi verum ultimum finem, quamvis confuse. — Et licet
+<lb ed="#L" n="47"/>hoc videatur verum ut in pluribus, non oportet tamen in
+<lb ed="#L" n="48"/>omnibus sic esse: non solum propter libertatem; sed 
+pro<lb break="no" ed="#L" n="49"/>pter complexionem, et malam assuetudinem ante actus 
+dis<lb break="no" ed="#L" n="50"/>cretionis, unde fit quod pars sensitiva magis movebit ad
+<lb ed="#L" n="51"/>assueta delectabilia mala, quam fides et caritas ad 
+hone<lb break="no" ed="#L" n="52"/>stum. Propter quod non parvi refert ut assuescat puer ad
+<lb ed="#L" n="53"/>audiendum spiritualia et honesta: determinatur enim 
+ha<lb break="no" ed="#L" n="54"/>bitus fidei infusus ex propositis ex auditu, et caritas illam
+<lb ed="#L" n="55"/>sequitur.
+</p>
+               <p xml:id="TAcCaj-d1e1132-d1e905">
+                  <lb ed="#L" n="56"/>De confessionis autem necessitate patet quid dicendum.
+<lb ed="#L" n="57"/>Debet enim conteri et confiteri quis sicut de aliis incertis.
+<lb ed="#L" n="58"/>Nisi quod aliquid minus ad confessionem huius sufficere
+<lb ed="#L" n="59"/>videtur, scilicet in communi confiteri de occultis, 
+inten<lb break="no" ed="#L" n="60"/>dendo de omnibus: quia incertitudo ista communis est
+<lb ed="#L" n="61"/>toti generi humano, propter quod memo scit utrum odio. pu, uy
+<lb ed="#L" n="62"/>vel amore dignus sit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

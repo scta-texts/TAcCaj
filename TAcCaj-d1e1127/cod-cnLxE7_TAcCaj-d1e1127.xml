@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 88</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 88</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="133"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1127"><!-- TAcCajp2p1-q88 -->
+            <head xml:id="TAcCaj-d1e1127-Hd1e101">Quaestio 88</head>
+            <div xml:id="TAcCaj-d1e1127-Dd1e103"><!-- caj-p2p1-q88-a1 -->
+               <head xml:id="TAcCaj-d1e1127-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1127-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>In primo articulo quaestionis octogesimaeoctavae, dubium
+<lb ed="#L" n="53"/>occurrit ex Scoto, in xxI distinctione II Sent., expresse 
+im<lb break="no" ed="#L" n="54"/>pugnante, quod veniale et mortale non distinguuntur ex
+<lb ed="#L" n="55"/>eo quod mortale inordinationem circa finem, veniale 
+au<lb break="no" ed="#L" n="56"/>tem circa ea quae sunt ad finem, importent, quia 
+utrum<lb break="no" ed="#L" n="57"/>que potest esse et circa finem, et circa ea quae sunt ad
+<lb ed="#L" n="58"/>finem: cum tamen Auctor hic distinguat veniale contra
+<lb ed="#L" n="59"/>mortale ex dicta differentia.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e137">
+                  <lb ed="#L" n="60"/>II. Ad hoc dicitur dupliciter. Primo, quod Auctor non 
+in<lb break="no" ed="#L" n="61"/>tendit nisi de veniali et mortali ex genere: haec enim 
+distin<lb break="no" ed="#L" n="62"/>guuntur ex obiectis, scilicet fine et his quae sunt ad finem.
+<lb ed="#L" n="63"/>Obiectio autem procedit de mortali et veniali quomodolibet.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e148">
+                  <lb ed="#L" n="64"/>Sed remanet tunc quaestio, quare absolute Auctor de
+<lb ed="#L" n="65"/>mortali et veniali tractans, ad veniale et mortale ex genere
+<lb ed="#L" n="66"/>descendit: in hoc enim errasse videtur manifeste, quod in
+<lb ed="#L" n="67"/>communi tractans, de specialibus determinat, relicto 
+com<lb break="no" ed="#L" n="68"/>muni. Propterea, licet dicta responsio sit vera quoad 
+ma<lb break="no" ed="#L" n="69"/>teriam, formaliter tamen dicendum est quod Auctor 
+loqui<lb break="no" ed="#L" n="70"/>tur de per se mortali et per se veniali (semper enim ly
+<lb ed="#L" n="71"/>per se subintelligitur): et quod haec per se sumpta, ex 
+obie<lb break="no" ed="#L" n="72"/>ctis. distinguuntur, fine et his quae sunt ad finem. Et cum
+<lb ed="#L" n="73"/>dicitur quod utrumque potest esse circa utrumque, 
+respon<lb break="no" ed="#L" n="74"/>detur quod hoc non est per se, sed per accidens. Motus
+<lb ed="#L" n="75"/>enim animi ad adulterium vel infidelitatem, per accidens
+<lb ed="#L" n="76"/>tantum est veniale: quia scilicet est imperfectus ex parte
+<lb ed="#L" n="77"/>agentis, utpote non deliberatus. Et similiter motus animi
+<lb ed="#L" n="78"/>in superfluum risum, per accidens est mortale: quia 
+scili<lb break="no" ed="#L" n="79"/>cet ordinatur ad hoc in: contemptum fidei. Per se. enim
+<lb ed="#L" n="80"/>loquendo, et iudicando actus secundum proprias materias
+<lb ed="#L" n="81"/>et fines eorundem, nec mortale circa id quod ad finem
+<lb ed="#L" n="82"/>pure, nec veniale circa finem inordinatus est actus. Et 
+for<lb break="no" ed="#L" n="83"/>maliter littera salvatur, dum de mortali et veniali in 
+com<lb break="no" ed="#L" n="84"/>muni, per se tamen, doctrina tradita est. Et quia per se
+<lb ed="#L" n="85"/>mortale et veniale, et ex genere mortale et veniale, 
+coin<lb break="no" ed="#L" n="86"/>cidunt; ideo prima responsio fuit vera, quamvis non 
+ex<lb break="no" ed="#L" n="87"/>plicaret formalem processum. »
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e204">
+                  <lb ed="#L" n="88"/>III. In. responsione ad primum in eodem articulo 
+quae<lb break="no" ed="#L" n="89"/>stionis octogesimaeoctavae, dubium occurrit ex <ref xml:id="TAcCaj-d1e1127-Rd1e210" target="http://scta.info/resource/jsnvu6-e144310"><!-- ref seems to apply to much of what follows -->Durando,
+<lb ed="#L" n="90"/>in II Sent., dist. XLII</ref>, impugnante hanc responsionem et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="91"/>quoad analogiam secundum rem, et secundum nominis 
+ra<lb break="no" ed="#L" n="92"/>tionem, et secundum expositionem de ly contra legem et
+<lb ed="#L" n="93"/>praeter legem. Arguit primo, quod divisio peccati in 
+mor<lb break="no" ed="#L" n="94"/>tale et veniale non sit divisio analogi in perfectum et 
+im<lb break="no" ed="#L" n="95"/>perfectum, simpliciter et secundum quid. Quia actus 
+vo<lb break="no" ed="#L" n="96"/>luntarius simpliciter, idest deliberatus, cadens super 
+mate<lb break="no" ed="#L" n="97"/>riam simpliciter indebitam, puta vocem significativam 
+con<lb break="no" ed="#L" n="98"/>tra id quod est in mente, est simpliciter peccatum. Sed
+<lb ed="#L" n="99"/>mendacium iocosum scienter et deliberate, est huiusmodi.
+<lb ed="#L" n="100"/>Ergo peccatum veniale ex genere, seu per se, est 
+simpli<lb break="no" ed="#L" n="101"/>citer et perfecte peccatum.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e243">
+                  <lb ed="#L" n="102"/>Praeterea, si in peccatis est simpliciter et secundum quid,
+<lb ed="#L" n="103"/>ergo et in actibus virtutum: quia si unum oppositorum
+<lb ed="#L" n="104"/>multiplicatur, oportet reliquum multiplicari.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e252">
+                  <lb ed="#L" n="105"/>IV. Arguit deinde contra nominis rationem. Quia 
+secun<lb break="no" ed="#L" n="106"/>dum hoc, peccatum veniale non diceretur peccatum nisi
+<lb ed="#L" n="107"/>in ordine ad mortale: sicut accidens non dicitur ens nisi
+<lb ed="#L" n="108"/>quia entis. Sed hoc est falsum: quia si peccatum mortale
+<lb ed="#L" n="109"/>non esset, nihilominus esset veniale. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e265">
+                  <lb ed="#L" n="110"/>V. Arguit demum contra illam. expositionem quod 
+mor<lb break="no" ed="#L" n="111"/>tale est contra legem, veniale praeter, Quia omne peccatum
+<lb ed="#L" n="112"/>est contra aliquam legem; ut patet de mendacio iocoso,
+<lb ed="#L" n="113"/>quod est directe contra dictamen. naturalis. legis.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e276">
+                  <lb ed="#L" n="114"/>VI. Ad primum horum, neganda est minor. Nullius enim
+<lb ed="#L" n="115"/>peccati venialis per se materia est simpliciter indebita, sed
+<lb ed="#L" n="116"/>secundum quid tantum, Quia enim. principium in 
+opera<lb break="no" ed="#L" n="117"/>bilibus est finis, et id quod est ad finem est sicut 
+conclu<lb break="no" ed="#L" n="118"/>sio in speculabilibus; oportet perspicere quod, 
+quemadmo<lb break="no" ed="#L" n="119"/>dum ad perfectionem simpliciter intellectus non. spectant
+<lb ed="#L" n="120"/>conclusiones contingentes, quae secundum se non habent
+<lb ed="#L" n="121"/>necessariam connexionem cum principiis, sed sola principia
+<lb ed="#L" n="122"/>et conclusiones necessariae, quae natae sunt esse evidentes,
+<lb ed="#L" n="123"/>spectant ad perfectionem simpliciter intellectus, reliqua 
+au<lb break="no" ed="#L" n="124"/>tem. ad perfectionem et imperfectionem secundum quid
+<lb ed="#L" n="125"/>eiusdem (adiuyant enim, et nonnihil perfectionis est recte
+<lb ed="#L" n="126"/>se habere circa illa): ita ad appetitus moralem 
+perfectio<lb break="no" ed="#L" n="127"/>nem et imperfectionem simpliciter, solus finis et fini 
+ne<lb break="no" ed="#L" n="128"/>cessario cohaerentia spectant, circa quae est peccatum 
+mor<lb break="no" ed="#L" n="129"/>tale; reliqua autem, quae sunt ad finem contingenter, circa
+<pb ed="#L" n="134"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quae est peccatum veniale, non spectant ad perfectionem
+<lb ed="#L" n="2"/>et imperfectionem simpliciter, sed secundum quid, eiusdem.
+<lb ed="#L" n="3"/>Unde uterque modus venialium peccatorum ponit 
+imper<lb break="no" ed="#L" n="4"/>fectum peccatum. Indeliberati namque motus in mala 
+mor<lb break="no" ed="#L" n="5"/>talia, sunt peccata imperfecta ex parte agentis: quia actus
+<lb ed="#L" n="6"/>non ex deliberatione fit. Deliberati autem motus in mala
+<lb ed="#L" n="7"/>venialia, sunt imperfecta peccata ex parte obiecti: quia 
+obie<lb break="no" ed="#L" n="8"/>ctum non est ita indebita materia appetitus, ut 
+contrarie<lb break="no" ed="#L" n="9"/>tur fini. Materia namque actus mortalis oportet quod sit
+<lb ed="#L" n="10"/>indebita in ordine ad finem, idest contraria debito ad 
+fi<lb break="no" ed="#L" n="11"/>nem: debito autem necessario, non contingenti. Quod in
+<lb ed="#L" n="12"/>materia venialium non habet locum: indebiti enim ratio in
+<lb ed="#L" n="13"/>eis inventi, non tollit debitum necessarium ad finem. Et
+<lb ed="#L" n="14"/>propter lianc imperfectionem, materia venialis peccati non
+<lb ed="#L" n="15"/>dicitur indebita nisi secundum quid.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e350">
+                  <lb ed="#L" n="16"/>Ad confirmationem dicitur quod etiam in virtutum 
+acti<lb break="no" ed="#L" n="17"/>bus dici potest simpliciter et secundum quid. Eutrapelus
+<lb ed="#L" n="18"/>namque secundum quid, in hoc scilicet, et non simpliciter
+<lb ed="#L" n="19"/>virtuosus dicitur: sicut sanus pede non simpliciter, sed 
+se<lb break="no" ed="#L" n="20"/>cundum hanc partem sanus dicitur. - Quamvis melius 
+di<lb break="no" ed="#L" n="21"/>catur quod non est eadem ratio de virtute et vitio, sicut
+<lb ed="#L" n="22"/>nec de bono et malo: quia bonum uno modo, ex causa 
+sci<lb break="no" ed="#L" n="23"/>licet integra, malum autem omnifariam contingit. Et 
+pro<lb break="no" ed="#L" n="24"/>pterea appetitus bonus circa materias huiusmodi 
+contin<lb break="no" ed="#L" n="25"/>gentes, proprie loquendo, non ad bonitatem secundum quid,
+<lb ed="#L" n="26"/>sed bonitatis consummationem spectat. Appetitus autem
+<lb ed="#L" n="27"/>malus in huiusmodi non ad consummationem malitiae, sed
+<lb ed="#L" n="28"/>ad secundum quid malitiam spectat, propter rationem 
+di<lb break="no" ed="#L" n="29"/>ctam. — Allata autem regula de oppositis non tenet, quando
+<lb ed="#L" n="30"/>non est eadem ratio multiplicationis utrinque. Non enim
+<lb ed="#L" n="31"/>oportet ens simpliciter, scilicet substantiam, multiplicare,
+<lb ed="#L" n="32"/>sicut ens secundum quid, scilicet accidens, in novem genera
+<lb ed="#L" n="33"/>distinguitur: quia non est utrinque eadem ratio. Et sic est
+<lb ed="#L" n="34"/>in proposito, ut patet ex dictis.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e395">
+                  <lb ed="#L" n="35"/>VII. Ad secundum dicitur quod, sicut omnis morbus
+<lb ed="#L" n="36"/>dicitur infirmitas in ordine ad privationem vitae, quae est
+<lb ed="#L" n="37"/>infirmitas mortalis et simpliciter; ita omne peccatum 
+dici<lb break="no" ed="#L" n="38"/>tur peccatum in ordine ad peccatum quod privat fine,
+<lb ed="#L" n="39"/>quod est principium vitae moralis. Et ut ex definitione in
+<lb ed="#L" n="40"/>littera ex Augustino patet, cum peccatum sit dictum, 
+fa<lb break="no" ed="#L" n="41"/>ctum vel concupitum contra legem Dei; et mortale sit
+<lb ed="#L" n="42"/>contra legem Dei sine additione aliqua, veniale vero cum -
+<lb ed="#L" n="43"/>additione, scilicet secundum quid, est enim contra legem
+<lb ed="#L" n="44"/>Dei secundum quid; et constat quod contra legem Dei
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="45"/>secundum quid non potest intelligi, non praeintellecto 
+con<lb break="no" ed="#L" n="46"/>tra legem Dei absolute, sicut nec album secundum quid,
+<lb ed="#L" n="47"/>sine albo simpliciter: oportet ut peccatum veniale non 
+so<lb break="no" ed="#L" n="48"/>lum secundum rem, sed secundum nominis rationem, in
+<lb ed="#L" n="49"/>ordine ad mortale dicatur. Propter quod in littera dicitur
+<lb ed="#L" n="50"/>quod veniale dicitur peccatum secundum rationem 
+imper<lb break="no" ed="#L" n="51"/>fectam, et in ordine ad peccatum mortale,
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e437">
+                  <lb ed="#L" n="52"/>Et licet peccatum veniale possit esse in hoc vel illo 
+abs<lb break="no" ed="#L" n="53"/>que mortali, simpliciter tamen non potest esse absque 
+mor<lb break="no" ed="#L" n="54"/>tali: sicut nec infirmitas curabilis absque incurabili, qualis
+<lb ed="#L" n="55"/>est mortalis. Immo si non esset peccatum mortale, nec
+<lb ed="#L" n="56"/>veniale esset: sicutsi non esset mors, non esset aegritudo.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e450">
+                  <lb ed="#L" n="57"/>VIII. Ad tertium dicitur quod in verbis laborat 
+argumen<lb break="no" ed="#L" n="58"/>tum. Concedimus gratis omne peccatum veniale esse 
+con<lb break="no" ed="#L" n="59"/>tra legem secundum quid: et hoc est esse praeter legem. Est
+<lb ed="#L" n="60"/>enim contra legem quidquid a legis fine discordat: si 
+sim<lb break="no" ed="#L" n="61"/>pliciter, simpliciter; si secundum quid, secundum quid. Sed
+<lb ed="#L" n="62"/>simpliciter a fine non discordat nisi quod contrarium 
+in<lb break="no" ed="#L" n="63"/>ducit finem: secundum quid vero, quod finis assecutionem
+<lb ed="#L" n="64"/>impedit. Illud in mortali, hoc in veniali requiritur. Et 
+ve<lb break="no" ed="#L" n="65"/>nialia quidem ex imperfectione actus, sunt secundum quid,
+<lb ed="#L" n="66"/>idest secundum imperfectum motum, contra legem Dei: ut
+<lb ed="#L" n="67"/>primus motus infidelitatis et adulterii testantur. Venialia
+<lb ed="#L" n="68"/>autem ex genere, sunt secundum quid, idest secundum 
+im<lb break="no" ed="#L" n="69"/>perfectam materiam, contra legem Dei: ut mendacium 
+io<lb break="no" ed="#L" n="70"/>cosum et risus superfluus testantur. Hoc autem contra 
+se<lb break="no" ed="#L" n="71"/>cundum quid, vocatur uno vocabulo praeter legem. —
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e485">
+                  <lb ed="#L" n="72"/>Ad pleniorem tamen doctrinam, scito quod, cum dicitur
+<lb ed="#L" n="73"/>veniale ex genere esse praeter, non contra legem, potest
+<lb ed="#L" n="74"/>dupliciter intelligi. Primo, ut ita sit praeter legem, ut 
+con<lb break="no" ed="#L" n="75"/>tra nullam sit legem. Et in hoc sensu falsum est. Nam
+<lb ed="#L" n="76"/>mendacium est secundum se pravum, et contrarium 
+vir<lb break="no" ed="#L" n="77"/>tuti, ac per hoc contra legem illius virtutis: et tamen non
+<lb ed="#L" n="78"/>est mortale ex genere suo. — Alio modo, ut sit praeter
+<lb ed="#L" n="79"/>legem et non contra, quia non est contra intentum finem
+<lb ed="#L" n="80"/>legis. Et hoc modo contra nullam legem est veniale: quia -
+<lb ed="#L" n="81"/>finis cuiusque legis est dilectio Dei, sui ac proximi, conti
+<lb ed="#L" n="82"/>cuiusvis bonum, nisi secundum quid, non fit per d]
+<lb ed="#L" n="83"/>Praeter autem legem est quia, ut in littera dicitur, debitus
+<lb ed="#L" n="84"/>modus rationis, a lege intentus, non servatur. In venialibus
+<lb ed="#L" n="85"/>quidem ex imperfectione actus, violatur debitus modus 
+ra<lb break="no" ed="#L" n="86"/>tionis, praeveniendo rationem vel deliberationem: in 
+venia<lb break="no" ed="#L" n="87"/>libus vero ex genere, violatur debitus modus quo 
+secun<lb break="no" ed="#L" n="88"/>dum rationem referenda est materia illa ad finem. ^
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1127-Dd1e525"><!-- caj-p2p1-q88-a2 -->
+               <head xml:id="TAcCaj-d1e1127-Hd1e528">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1127-d1e530">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e537">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>In articulo secundo eiusdem octogesimaeoctavae 
+quaestio<lb break="no" ed="#L" n="67"/>nis, nota distinctionem peccati tam venialis quam 
+mor<lb break="no" ed="#L" n="68"/>talis, ex genere, et ex parte agentis. Et memento 
+respon<lb break="no" ed="#L" n="69"/>sionis ad 2, qu. LXXII superius, art. 5, qua dictum est
+<lb ed="#L" n="70"/>quod ex hoc, quod veniale et mortale inveniuntur differre
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="71"/>genere ex parte obiecti, non. habetur quod differentia 
+ve<lb break="no" ed="#L" n="72"/>nialis et mortalis sit specifica, idest constitutiva generis
+<lb ed="#L" n="73"/>vel speciei subalternae; sed quod consequatur distinctionem
+<lb ed="#L" n="74"/>specificam, seu genericam in his.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1127-Dd1e564"><!-- caj-p2p1-q88-a3 -->
+               <head xml:id="TAcCaj-d1e1127-Hd1e567">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1127-d1e569">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e576">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>In articulo tertio eiusdem octogesimaeoctavae quaestionis,
+<lb ed="#L" n="45"/>recole nunc nunc dictam distinctionem. Et quatuor 
+exi<lb break="no" ed="#L" n="46"/>stentibus membris, scilicet mortali ex. genere, mortali ex
+<lb ed="#L" n="47"/>agente, veniali ex genere, veniali ex agente seu imperfectione
+<lb ed="#L" n="48"/>actus, littera hoc ultimum membrum praetermittit: quia
+<lb ed="#L" n="49"/>constat quod huiusmodi veniale per se disponit ad mortale,
+<lb ed="#L" n="50"/>utpote eiusdem speciei; frequenter enim. motus adulterii
+<lb ed="#L" n="51"/>negligenter habens, per se disponitur ad illud, Et de veniali
+<lb ed="#L" n="52"/>ex genere loquens, comparat illud ad mortale utroque modo:
+<lb ed="#L" n="53"/>primo, ad mortale ex parte agentis; secundo, ad mortale
+<lb ed="#L" n="54"/>ex genere. Et docet quod disponit per quandam 
+conse<lb break="no" ed="#L" n="55"/>quentiam ad mortale ex parte agentis; et ut removendo
+<lb ed="#L" n="56"/>prohibens, ad mortale ex. genere.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e609">
+                  <lb ed="#L" n="57"/>Ubi sciendum est quod in veniali ex genere, puta 
+ver<lb break="no" ed="#L" n="58"/>bis iocosis, concurrunt duo: primum est affectio ad dele- |
+<lb ed="#L" n="59"/>ctabile in verbis iocosis; alterum, declinatio affectus a 
+re<lb break="no" ed="#L" n="60"/>gula. Primum est conversio ad commutabile bonum: 
+se<lb break="no" ed="#L" n="61"/>cundum est quasi aversio. Ex primo peccatum veniale 
+dis<lb break="no" ed="#L" n="62"/>ponit animum ad constituendum finem suum in tali bono,
+<lb ed="#L" n="63"/>ut patet per rationem litterae: et sic disponit manifeste ad
+<lb ed="#L" n="64"/>peccatum mortale non ex genere, sed ex parte agentis. Qui
+<lb ed="#L" n="65"/>enim intantum delectaretur verbis iocosis quod finem in tali
+<lb ed="#L" n="66"/>delectabili constitueret, peccaret quidem mortaliter, 
+prae<lb break="no" ed="#L" n="67"/>ferendo creaturam Creatori: sed hoc non esset ex natura
+<lb ed="#L" n="68"/>obiecti, quoniam non est contraria caritatis fini, sed ex
+<lb ed="#L" n="69"/>dispositione agentis sic affecti. Ex secundo peccatum 
+ve<lb break="no" ed="#L" n="70"/>niale disponit ad mortale ex genere: quia quasi-aversio 
+<lb ed="#L" n="71"/>disponit ad aversionem quae tollit subiectionem 
+volunta<lb break="no" ed="#L" n="72"/>tis ad. Deum, quae subiectio prohibet voluntatem ferri in.
+<lb ed="#L" n="73"/>Obiecta contraria caritatis obiecto. NR
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e648">
+                  <lb ed="#L" n="74"/>IT. In responsione ad secundum, dubium occurrit quo-,
+<lb ed="#L" n="75"/>módo veniale et mortale modo dicantur convenire in 
+ge<lb break="no" ed="#L" n="76"/>nere: et in articulo praecedente dictum est quod 
+distin<lb break="no" ed="#L" n="77"/>guuntur genere; et in hoc eodem articulo, in responsione
+<lb ed="#L" n="78"/>ad primum, 'dicitur quod non. distinguuntur sicut species
+<lb ed="#L" n="79"/>unius generis, sed sicut substantia. et,accidens.. id
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e665">
+                  <lb ed="#L" n="80"/>Ad hoc breviter dicitur quod convenientia in genere non
+<lb ed="#L" n="81"/>affirmatur in littera simpliciter, sed cum specificatione, 
+in<lb break="no" ed="#L" n="82"/>quantum utrumque importat defectum debiti ordinis. Hoc:
+<lb ed="#L" n="83"/>est enim. convenire in genere analogo mali, dum utrumque
+<lb ed="#L" n="84"/>ex parte aversionis. in mali ratione convenit: aliter tameri
+<lb ed="#L" n="85"/>et aliter, quia in mortali est aversio simpliciter, hic. secun:
+<lb ed="#L" n="86"/>dum quid. Cum hoc tamen stat quod distinguantur genere
+<lb ed="#L" n="87"/>ex parte- obiecti, et-quod ordinem Habeant' inter se sicut
+<lb ed="#L" n="88"/>substantia et accidens, ut patet ex dictis
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e687">
+                  <lb ed="#L" n="89"/>III. In responsione ad tertium; dubium occurrit quo pacto
+<lb ed="#L" n="90"/>verum. sit quod. veniale per se disponit ad mortale: cum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="91"/>non nisi per quandam consequentiam, vel removendo 
+prohi<lb break="no" ed="#L" n="92"/>bens, concurrat, ut in corpore articuli dictum est. Quod enim
+<lb ed="#L" n="93"/>per consequentiam ab. aliquo emanat, per. accidens 
+deri<lb break="no" ed="#L" n="94"/>vatur. Et similiter removens prohibens movet PE. de
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e705">
+                  <lb ed="#L" n="95"/>Ad hoc dicitur quod littera intendit quod veniale per
+<lb ed="#L" n="96"/>se disponit primo tantum modo. Quia illa dispositio
+<lb ed="#L" n="97"/>per modum similis, ut patet;in exemplo allato de verbis
+<lb ed="#L" n="98"/>locosis: eiusdem namque, speciei sunt secundum. se verba
+<lb ed="#L" n="99"/>iocosa minus amata, ut sunt obiectum peccati venialis; e
+<lb ed="#L" n="100"/>maxime amata, ut sunt obiectum peccati mortalis ex P t
+<lb ed="#L" n="101"/>agentis. Dicitur autem dispositio esse per quandam 
+conse<lb break="no" ed="#L" n="102"/>quentiam ad mortale ex parte agentis, quia non est 
+dispo<lb break="no" ed="#L" n="103"/>sitio necessitans ad talem appetitum cum: aversione 
+sim<lb break="no" ed="#L" n="104"/>pliciter, sicut necessitat ad' similem appetitum iocandi 
+ab<lb break="no" ed="#L" n="105"/>solute: sed quando. est intensa valde, natum est consequi
+<lb ed="#L" n="106"/>ut appetitus in tale mortale trahatur. Sic autem disponere
+<lb ed="#L" n="107"/>non est omnino extra per se disponere, quia actibus ahir
+<lb ed="#L" n="108"/>disponere ad similes convenit per se, per suam propri
+<lb ed="#L" n="109"/>naturam et virtutem: quamvis aliquid imperfecti habeat,
+<lb ed="#L" n="110"/>quia non sunt similes in aversione isti actus veniales actui
+<lb ed="#L" n="111"/>mortali, ad quem, propter aversionem dictàm; per 
+conse<lb break="no" ed="#L" n="112"/>quentiam quandam dicuntur disponere. Ita quod veniale
+<lb ed="#L" n="113"/>inquantum simile ex parte conversionis, disponit per se:
+<lb ed="#L" n="114"/>inquantum vero dissimile ex parte aversionis, disponit 
+se<lb break="no" ed="#L" n="115"/>cundum quandam consequentiam ad idem mortale ex parte
+<lb ed="#L" n="116"/>agentis.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e755">
+                  <lb ed="#L" n="117"/>Secundus autem modus licet possit dici per se, quia
+<lb ed="#L" n="118"/>quasi-aversio similis generice est aversioni, ac per hoc per
+<lb ed="#L" n="119"/>se etiam disponit ad illam; Auctor tamen, non recedens
+<lb ed="#L" n="120"/>formali sermone et fundamento, dicit quod est. pe acci -
+<lb ed="#L" n="121"/>quia cum stabilisset quod peccatum genus et sj
+<lb ed="#L" n="122"/>per hoc naturam suam, in ordine ad obiectum sortitum est
+<lb ed="#L" n="123"/>quod causat peccatum ex parte aversionis, ponit causare
+<lb ed="#L" n="124"/>illud ut removens prohibens, quia removet subiectionem.
+<lb ed="#L" n="125"/>Deo prohibentem animum. ferri in obiectum ium.
+<lb ed="#L" n="126"/>Deo. Tu tamen potes distinguere, et dicere, quod. veniale
+<lb ed="#L" n="127"/>ex genere ad mortale ex agente disponit per se, ex
+<lb ed="#L" n="128"/>conversionis ad commutabile bonum: ad mortale vero ex
+<lb ed="#L" n="129"/>genere disponit removendo prohibens, quoad conversionem, )nem,
+<lb ed="#L" n="130"/>et per se quoad aversionem secundum consequentiam, ut
+<lb ed="#L" n="131"/>in primo modo declaratum est.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e790">
+                  <lb ed="#L" n="132"/>Et hinc, habemus quantum. a venialium consuetudine, 
+ca<lb break="no" ed="#L" n="133"/>vendum sit, cum tot modis, et illis periculosis, disponant
+<lb ed="#L" n="134"/>ad mortale. Propter quod frequentibus contrition, non
+<lb ed="#L" n="135"/>superficietenus, singula secundum suas species: distinguenda
+<lb ed="#L" n="136"/>sunt: ne habituatis nobis in illis occurrentes tentationes
+<lb ed="#L" n="137"/>animos dispositos propinque ad mortale inveniant.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1127-Dd1e807"><!-- caj-p2p1-q88-a4 -->
+               <head xml:id="TAcCaj-d1e1127-Hd1e810">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1127-d1e812">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="81"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e819">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>In articulo quarto eiusdem octogesimaeoctavae quaestionis,
+<lb ed="#L" n="83"/>occurrunt illa verba litterae notanda: licet forte quantum
+<lb ed="#L" n="84"/>ad poenam ignis, non sint improportionabiles poenae. Dixit
+<lb ed="#L" n="85"/>hoc quia, cum utriusque, scilicet mortalis et venialis, poena
+<lb ed="#L" n="86"/>ignis sit intensive finita; et omnis finiti ad omne finitum
+<lb ed="#L" n="87"/>sit aliqua proportio: consequens est ut poenae utriusque,
+<lb ed="#L" n="88"/>quantum ad ignem, sint proportionabiles. Et hoc est dicere
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="89"/>quod non est infinitus excessus inter poenam ignis pro
+<lb ed="#L" n="90"/>mortali, et pro veniali. Immo, procedendo iuxta doctrinam
+<lb ed="#L" n="91"/>VIII Physic., tantum possent multiplicari poenae 
+venia<lb break="no" ed="#L" n="92"/>lium, ut simul iunctae excedant poenam unius mortalis, de 5
+<lb ed="#L" n="93"/>hac sola poena loquendo. Nec ly forte est dubitantis, sed
+<lb ed="#L" n="94"/>non determinantis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1127-Dd1e856"><!-- caj-p2p1-q88-a5 -->
+               <head xml:id="TAcCaj-d1e1127-Hd1e859">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1127-d1e861">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e868">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>In articulo quinto eiusdem octogesimaeoctavae quaestionis,
+<lb ed="#L" n="9"/>dubium occurrit quo pacto dictum est quod de veniali
+<lb ed="#L" n="10"/>ex genere fit mortale ex parte agentis, dum constituitur in
+<lb ed="#L" n="11"/>eo finis: et nunc dicitur quod circumstantia non facit de
+<lb ed="#L" n="12"/>veniali mortale, nisi mutando speciem. Manente namque
+<lb ed="#L" n="13"/>obiecto peccati venialis solo, impossibile est esse 
+mutatio<lb break="no" ed="#L" n="14"/>nem speciei: quia omnis mutatio specifica est ex obiectiva
+<lb ed="#L" n="15"/>aliqua differentia. Constat autem quod in proposito sic est:
+<lb ed="#L" n="16"/>nam cum quis intantum delectatur in verbis iocosis quod
+<lb ed="#L" n="17"/>finem in eis constituit, manet idem obiectum, et non 
+ap<lb break="no" ed="#L" n="18"/>onitur aliqua differentia obiectiva; ut patet ex hoc quod
+<lb ed="#L" n="19"/>in illamet sola specie peccati reponitur, non enim facile est
+<lb ed="#L" n="20"/>fingere ad quam aliam speciem reducitur. Non igitur oportet,
+<lb ed="#L" n="21"/>quoties de veniali ex genere fit mortale, mutari speciem.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e903">
+                  <lb ed="#L" n="22"/>II. Ad evidentiam huius, sciendum est quod, sicut in 
+spe<lb break="no" ed="#L" n="23"/>culabilibus principia et conclusiones habent duas rationes
+<lb ed="#L" n="24"/>formales, alteram secundum res significatas, alteram 
+secun<lb break="no" ed="#L" n="25"/>dum quod sunt cognoscibilia: patet namque alietas 
+ratio<lb break="no" ed="#L" n="26"/>num formalium ex hoc quod principia inter se, et 
+conclu<lb break="no" ed="#L" n="27"/>siones inter se, in diversis naturis constituuntur; omnia
+<lb ed="#L" n="28"/>tamen principia conveniunt in hoc quod uno modo 
+cogno<lb break="no" ed="#L" n="29"/>scibilia sunt, scilicet per seipsa, et similiter omnes 
+conclu<lb break="no" ed="#L" n="30"/>siones sunt cognoscibiles per aliud: - ita in appetibilibus
+<lb ed="#L" n="31"/>finis et quod est ad finem, duas habent rationes formales,
+<lb ed="#L" n="32"/>alteram secundum res quae sunt finis et' ad finem, 
+alte<lb break="no" ed="#L" n="33"/>ram secundum quod sunt appetibilia. Nam omnes fines
+<lb ed="#L" n="34"/>distinguuntur secundum diversas naturas rerum, et 
+conve<lb break="no" ed="#L" n="35"/>niunt in uno modo appetitus, scilicet per se: et similiter
+<lb ed="#L" n="36"/>ea quae sunt ad finem, secundum naturas suas 
+distinguun<lb break="no" ed="#L" n="37"/>tur, et conveniunt in uno modo appetibilitatis, scilicet 
+pro<lb break="no" ed="#L" n="38"/>pter aliud.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e942">
+                  <lb ed="#L" n="39"/>Considerandum quoque est quod, sicut in speculabilibus
+<lb ed="#L" n="40"/>dupliciter contingit aliquid esse cognitum secundum se vel
+<lb ed="#L" n="41"/>per aliud, scilicet ex parte rei, vel ex parte cognoscentis:
+<lb ed="#L" n="42"/>nam principia quae sunt ex se principia, sunt cognita per
+<lb ed="#L" n="43"/>se ex meritis rei; propositiones autem quae a nobis ut
+<lb ed="#L" n="44"/>per se notae accipiuntur, secundum se autem habent me-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="45"/>dium, ex parte cognoscentis sunt cognitae per se: — et sicut
+<lb ed="#L" n="46"/>propositio quae ex meritis rei significatae est conclusio, ex
+<lb ed="#L" n="47"/>parte cognoscentis transit in naturam principii, non 
+secun<lb break="no" ed="#L" n="48"/>dum rem, sed secundum cognoscibilis rationem, quod est
+<lb ed="#L" n="49"/>mutare speciem non rei, sed cognoscibilis: — ita in 
+appetibi<lb break="no" ed="#L" n="50"/>libus duobus modis contingit aliquid esse appetitum per se
+<lb ed="#L" n="51"/>vel per aliud: scilicet ex meritis rei, ut bonum honestum
+<lb ed="#L" n="52"/>et amabile per se, et utile propter aliud; vel ex parte 
+ap<lb break="no" ed="#L" n="53"/>petentis, ef sic contingit appetibile propter se transire in
+<lb ed="#L" n="54"/>appetibile propter aliud, et e converso, ut patet in perversis
+<lb ed="#L" n="55"/>appetitibus utentibus fruendis et fruentibus utendis. Et sic
+<lb ed="#L" n="56"/>contingit unum appetibile transire in speciem alterius 
+ap<lb break="no" ed="#L" n="57"/>petibilis, non secundum mutationem rei, sed secundum 
+mu<lb break="no" ed="#L" n="58"/>tationem rationis appetibilis in ordine ad appetentem. Et
+<lb ed="#L" n="59"/>sic est in proposito. Nam cum quis ponit finem in 
+pec<lb break="no" ed="#L" n="60"/>cato veniali, puta in verbis iocosis, verba iocosa, quae ex
+<lb ed="#L" n="61"/>meritis rei sunt in specie appetibilis propter aliud, ex mala
+<lb ed="#L" n="62"/>dispositione appetentis mutantur in appetibile per se, dum
+<lb ed="#L" n="63"/>in eis finis constituitur: et sic intervenit ibi mutatio speciei,
+<lb ed="#L" n="64"/>non secundum rem appetitam, sed rationem appetibilis in
+<lb ed="#L" n="65"/>ordine ad appetentem.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e1006">
+                  <lb ed="#L" n="66"/>III. Et per hoc patet responsio ad obiectionem. Nam
+<lb ed="#L" n="67"/>cum hoc quod peccatum illud mortale est in illamet et sola
+<lb ed="#L" n="68"/>specie in qua est veniale, secundum rationem rei obiectae,
+<lb ed="#L" n="69"/>stat quod sit in alia specie secundum rationem formalem
+<lb ed="#L" n="70"/>appetibilis ut sic. Et propterea et prius et nunc dicta sunt
+<lb ed="#L" n="71"/>vera, diversimode intellecta. Merito autem sic dicimus. Quia
+<lb ed="#L" n="72"/>circumstantia finis, quae vocatur Cur, sicut dupliciter 
+su<lb break="no" ed="#L" n="73"/>pervenit veniali ex genere, faciendo de veniali mortale; ita
+<lb ed="#L" n="74"/>dupliciter variat speciem, proportionalitate servata. Verbum
+<lb ed="#L" n="75"/>namque iocosum dupliciter fit ex fine mortale: primo, ex
+<lb ed="#L" n="76"/>parte obiecti, puta si ordinatur ad adulterium; secundo, ex
+<lb ed="#L" n="77"/>parte agentis, puta si constituatur in eo finis. Et sicut
+<lb ed="#L" n="78"/>nunc fit mortale ex parte agentis, ita species apponitur ex
+<lb ed="#L" n="79"/>parte appetentis. Ita quod de veniali ex genere fit mortale
+<lb ed="#L" n="80"/>ex parte agentis, et mutat speciem in ordine ad agens: quod
+<lb ed="#L" n="81"/>est mutare speciem appetibilis ut sic.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1127-Dd1e1044"><!-- caj-p2p1-q88-a6 -->
+               <head xml:id="TAcCaj-d1e1127-Hd1e1047">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1127-d1e1049">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e1056">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>IN articulo sexto eiusdem octogesimaeoctavae quaestionis,
+<lb ed="#L" n="45"/>Taustusi occurrit circa ultima verba corporis articuli, 
+sci<lb break="no" ed="#L" n="46"/>licet quod per subtractionem deliberationis solvitur species
+<lb ed="#L" n="47"/>actus moralis. Si enim hoc est verum, sequitur quod 
+in<lb break="no" ed="#L" n="48"/>deliberati motus infidelitatis, adulterii, furti, et huiusmodi,
+<lb ed="#L" n="49"/>non sint eiusdem speciei cum ipsis peccatis perfectis. Cuius
+<lb ed="#L" n="50"/>oppositum dictum est, et constat esse verum: quia ad
+<lb ed="#L" n="51"/>obiectum idem tendunt. Et si indeliberati motus praedicti
+<lb ed="#L" n="52"/>sunt eiusdem speciei cum perfectis, ergo non solvitur 
+spe<lb break="no" ed="#L" n="53"/>cies moralium actuum ex subtractione deliberationis, ut in
+<lb ed="#L" n="54"/>littera nunc dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1127-d1e1085">
+                  <lb ed="#L" n="55"/>II. Ad hoc dicitur quod, quia iuxta quadruplicem bonitatem 
+<lb ed="#L" n="56"/>actus moralis, quadruplex species sumi potest, ut in qu. xvi 
+<lb ed="#L" n="57"/>superius patet; ideo de entitate actus moralis, inquantum
+<lb ed="#L" n="58"/>actus moralis est, vere dici potest quod species, seu ratio
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="59"/>formalis, sumitur a ratione deliberata: quoniam ex hoc 
+ha<lb break="no" ed="#L" n="60"/>bet actus hominis quod sit moralis. Unde ista species 
+sub<lb break="no" ed="#L" n="61"/>alterna, puta actus moralis, sub genere actus constituitur
+<lb ed="#L" n="62"/>per esse a ratione deliberata. Et propterea actus imperfectus
+<lb ed="#L" n="63"/>ex defectu deliberationis, non est eiusdem speciei ut habens
+<lb ed="#L" n="64"/>naturam illius speciei: quamvis sit eiusdem speciei ut 
+ten<lb break="no" ed="#L" n="65"/>dens ad illam, sicut embryo est in specie hominis 
+gene<lb break="no" ed="#L" n="66"/>randi. Et solvitur ergo species actus moralis ut sic, ex
+<lb ed="#L" n="67"/>subtractione deliberationis: et eiusdem tamen speciei est
+<lb ed="#L" n="68"/>actus indeliberatus cum deliberato reductive, sicut 
+imper<lb break="no" ed="#L" n="69"/>fecti ad perfectum, et via ad termini speciem reducitur.
+<lb ed="#L" n="70"/>III. In eodem articulo, nota responsionem ad secundum,
+<lb ed="#L" n="71"/>iunctam aureae responsioni ad primum praecedentis articuli,
+<lb ed="#L" n="72"/>Quoniam hic habes manifeste unde videre potes decisionem
+<lb ed="#L" n="73"/>superius factam de speciebus peccatorum ex ignorantia.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

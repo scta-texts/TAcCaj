@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 82</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 82</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="94"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1096"><!-- TAcCajp2p1-q82 -->
+            <head xml:id="TAcCaj-d1e1096-Hd1e101">Quaestio 82</head>
+            <div xml:id="TAcCaj-d1e1096-Dd1e103"><!-- caj-p2p1-q82-a1 -->
+               <head xml:id="TAcCaj-d1e1096-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1096-d1e108">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="88"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e115">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="89"/>IN titulo primi articuli quaestionis octogesimaesecundae,
+<lb ed="#L" n="90"/>Dunior habitus proprie, et non solum ut distinguitur
+<lb ed="#L" n="91"/>contra actum: ut patet ex corpore, ubi distinguit de habitu
+<lb ed="#L" n="92"/>proprie sumpto, de quo superius dictum fuit. Et est 
+quae<lb break="no" ed="#L" n="93"/>stio singularis.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e131">
+                  <lb ed="#L" n="94"/>In corpore articuli dubium primo est, an inordinatio dis-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="95"/>positionis quae in littera dicitur, sit inordinatio privative,
+<lb ed="#L" n="96"/>an contrarie. Si enim privative sumitur inordinata dispositio,
+<lb ed="#L" n="97"/>idest dispositio privata tali ordine; sequitur quod non sit
+<lb ed="#L" n="98"/>habitus, sed privatio peccatum originale, i in tali inordinatione
+<lb ed="#L" n="99"/>consistens. Si vero sumitur contrarie, oportet assignare quid
+<lb ed="#L" n="100"/>sit illud positivum fundans hanc contrarietatem.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e151">
+                  <pb ed="#L" n="95"/>
+                  <!-- page 95 -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>II. Dubium secundo est, quomodo peccatum originale sit
+<lb ed="#L" n="2"/>vere habitus, loquendo de habitu in ordine ad naturam:
+<lb ed="#L" n="3"/>quia nulla est in nobis ex peccato originali qualitas 
+super<lb break="no" ed="#L" n="4"/>addita sive in essentia sive in potentiis animae, ubi ponitur
+<lb ed="#L" n="5"/>originale peccatum. Constat enim habitum esse speciem
+<lb ed="#L" n="6"/>qualitatis. -
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e174">
+                  <lb ed="#L" n="7"/>III. Dubium tertio est, quomodo peccatum originale est
+<lb ed="#L" n="8"/>languor naturae. Aut enim hoc dicitur de natura nostra
+<lb ed="#L" n="9"/>absolute: aut donata iustitia originali. Non absolute: quia
+<lb ed="#L" n="10"/>natura privata originali iustitia, nullam habet imbecilitatem,
+<lb ed="#L" n="11"/>sed est sibi ipsi relicta quoad animam et quoad corpus;
+<lb ed="#L" n="12"/>et sicut tendentia elementorum in propria:non est languor
+<lb ed="#L" n="13"/>naturae absolute, ita nec tendentia partium animae in 
+pro<lb break="no" ed="#L" n="14"/>pria. Nec de donata iustitia originali: quia cum natura 
+no<lb break="no" ed="#L" n="15"/>stra non differat a seipsa donata iustitia originali, nisi 
+pri<lb break="no" ed="#L" n="16"/>vatione illius voluntate Adae, non apparet in quo consista
+<lb ed="#L" n="17"/>iste languor.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e200">
+                  <lb ed="#L" n="18"/>IV. Dubium quarto est in responsione ad primum, 
+quo<lb break="no" ed="#L" n="19"/>modo peccatum originale est habitus corruptus. Nam 
+ha<lb break="no" ed="#L" n="20"/>bitus corruptus non est habitus: sicut nec albedo corrupta
+<lb ed="#L" n="21"/>est albedo. Si igitur peccatum originale est habitus 
+corru<lb break="no" ed="#L" n="22"/>ptus, falso dictum est in corpore quod est habitus: ly enim
+<lb ed="#L" n="23"/>corruplus est conditio diminuens.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e216">
+                  <lb ed="#L" n="24"/>V Ad primum horum dicitur quod inordinatio 
+su<lb break="no" ed="#L" n="25"/>mitur contrarie. Est enim in nobis considerare partes animae
+<lb ed="#L" n="26"/>dispositas dupliciter: scilicet cum harmonia conformi 
+natu<lb break="no" ed="#L" n="27"/>rae nostrae rationali, et sine illa. Et cum sunt sine tali 
+har<lb break="no" ed="#L" n="28"/>monia, pronae sunt ut ferantur secundum proprios impetus,
+<lb ed="#L" n="29"/>praeter consonantiam ad harmoniam illam. Hoc autem est
+<lb ed="#L" n="30"/>partes animae esse inordinatas contrarie: sicut humores 
+cor<lb break="no" ed="#L" n="31"/>ris, cum sunt sine regimine virtutis animae, moventur
+<lb ed="#L" n="32"/>secundum proprias inclinationes. non solum extra 
+harmo<lb break="no" ed="#L" n="33"/>niam sanitatis, sed contra illam. Fundatur igitur inordinatio
+<lb ed="#L" n="34"/>contrarie super pronitate ad ea quae sunt contra 
+harmo<lb break="no" ed="#L" n="35"/>niam: concupiscibilis enim ex hoc ipso quod prona est ad
+<lb ed="#L" n="36"/>delectabile secundum sensum plus quam oportet secundum
+<lb ed="#L" n="37"/>rationem rectam, est contrarie disposita.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e249">
+                  <lb ed="#L" n="38"/>VI. Ad secundum dubium dicitur quod Auctor non
+<lb ed="#L" n="39"/>putavit peccatum originale esse habitum: sed quandam
+<lb ed="#L" n="40"/>habitualem pronitatem non positive, sed per subtractionem
+<lb ed="#L" n="41"/>retinentis, ut in II Sent., et in Qq. de Malo, patet. -
+<lb ed="#L" n="42"/>Sed haec responsio non notavit in Auctore hunc singularem
+<lb ed="#L" n="43"/>articulum, cum responsione ad tertium. Ex hoc namque
+<lb ed="#L" n="44"/>apparet quod Auctor, altius contemplans naturam peccati
+<lb ed="#L" n="45"/>originalis, novam tradidit doctrinam, alterius non oblitus.
+<lb ed="#L" n="46"/>Distinxit siquidem habitum vel ad opus, vel ad naturam.
+<lb ed="#L" n="47"/>Et dixit duo. Primum est, quod peccatum originale non est
+<lb ed="#L" n="48"/>habitus in ordine ad opus, nisi indirecte per remotionem
+<lb ed="#L" n="49"/>prohibentis: et sic glossavit seipsum alibi. Alterum est, quod
+<lb ed="#L" n="50"/>peccatum originale est habitus in ordine ad naturam, sicut
+<lb ed="#L" n="51"/>aegritudo. Et ad motam difficultatem, quia habitus 
+signi<lb break="no" ed="#L" n="52"/>ficat quid positivum distinctum contra privationem, dixit in
+<lb ed="#L" n="53"/>responsione ad primum, quod pro positivo hic sunt partes
+<lb ed="#L" n="54"/>animae inordinatae contrarie.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e288">
+                  <lb ed="#L" n="55"/>Quod dictum, secundum triplicem de habitu ad naturam
+<lb ed="#L" n="56"/>opinionem, tripliciter salvat habitum. Nam secundum 
+te<lb break="no" ed="#L" n="57"/>nentes habitum huiusmodi, puta sanitatem vel 
+pulchritu<lb break="no" ed="#L" n="58"/>dinem, formaliter consistere in relatione, et materialiter in
+<lb ed="#L" n="59"/>qualitatibus consonantibus; facile patet quomodo peccatum
+<lb ed="#L" n="60"/>originale est qualitas. - Sed haec via non est secundum viam
+<lb ed="#L" n="61"/>Auctoris, expresse superius, in qu. xcix, ponentis sanitatem
+<lb ed="#L" n="62"/>esse essentialiter et formaliter qualitatem, non relationem.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e308">
+                  <lb ed="#L" n="63"/>Secundum dicentes vero habitum esse collectionem 
+or<lb break="no" ed="#L" n="64"/>dinatam partialium dispositionum, facile quoque patet 
+pecca<lb break="no" ed="#L" n="65"/>tum originale esse qualitatem, idest collectionem qualitatum
+<lb ed="#L" n="66"/>inordinatarum. - Sed haec quoque via superius confutata
+<lb ed="#L" n="67"/>est. Quia habitus non esset qualitatis species: collectio 
+nam<lb break="no" ed="#L" n="68"/>que qualitatum non est qualitas.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e325">
+                  <lb ed="#L" n="69"/>Secundum autem tenentes habitum esse qualitatem 
+exi<lb break="no" ed="#L" n="70"/>stentem subiective in uno principali, non absolute, sed ut
+<lb ed="#L" n="71"/>consonanti vel dissonanti aliis; subtilius salvatur de 
+pec<lb break="no" ed="#L" n="72"/>cato originali quod est qualitas, sicut et de sanitate et 
+ae<lb break="no" ed="#L" n="73"/>gritudine. Ita quod sicut aegritudo est qualitas non 
+compo<lb break="no" ed="#L" n="74"/>sita aut collecta ex pluribus qualitatibus dissonis in ordine
+<lb ed="#L" n="75"/>ad naturam, sed consurgens tali dissonantia in principali
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>parte; sic originale peccatum non est collectio aut ordo
+<lb ed="#L" n="77"/>inordinatarum pronitatum in partibus animae; sed 
+inordi<lb break="no" ed="#L" n="78"/>nata pronitas primae partis animae, non absolute, sed ut
+<lb ed="#L" n="79"/>illa prima pars aliis inordinatis cohaeret, qualitatis quae est
+<lb ed="#L" n="80"/>habitus rationem habet. Et hoc est idem dicere quod ut
+<lb ed="#L" n="81"/>est in toto primo: aequivalet enim esse in parte ut 
+co<lb break="no" ed="#L" n="82"/>haeret aliis, et esse in toto; cohaeret namque propter 
+to<lb break="no" ed="#L" n="83"/>tum. Unde et in V Metaphys. habitus ponitur dispositio
+<lb ed="#L" n="84"/>non partium, sed Ahabentis partes. Non, ut aliqui 
+interpre<lb break="no" ed="#L" n="85"/>tantur, quia ex dispositionibus partium resultat in toto 
+qua<lb break="no" ed="#L" n="86"/>litas quae est habitus, puta sanitas vel pulchritudo: sed
+<lb ed="#L" n="87"/>quia qualitas primae partis in ordine ad alias, seu ut est
+<lb ed="#L" n="88"/>habentis illas sic dispositas, est habitus. In cuius signum,
+<lb ed="#L" n="89"/>Aristoteles in prima specie qualitatis posuit calorem ut
+<lb ed="#L" n="90"/>commensuratum naturae, in Praedicamentis. Et inferius
+<lb ed="#L" n="91"/>in hac eadem quaestione dicitur quod peccatum originale
+<lb ed="#L" n="92"/>est in pluribus partibus animae, ut sunt partes unius totius:
+<lb ed="#L" n="93"/>et quod est formaliter in prima parte animae, in sequenti
+<lb ed="#L" n="94"/>quaestione dicetur, in ceteris autem materialiter. 
+Putan<lb break="no" ed="#L" n="95"/>dum est igitur quod, sicut humoribus inordinate dispositis
+<lb ed="#L" n="96"/>est infirmitas, sic quod in uno est formaliter et in reliquis
+<lb ed="#L" n="97"/>materialiter; ita et de peccato originali. Et sic qualitas quae
+<lb ed="#L" n="98"/>nata est determinare et modificare potentiam subiecti 
+ha<lb break="no" ed="#L" n="99"/>bentis partes, ut sic, in ordine ad naturam, etc., est habitus.
+<lb ed="#L" n="100"/>Et sic peccatum originale est habitus et qualitas.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e399">
+                  <lb ed="#L" n="101"/>VII. Ad tertium dubium dicitur quod peccatum 
+origi<lb break="no" ed="#L" n="102"/>nale est languor naturae etiam absolute: quoniam consistit
+<lb ed="#L" n="103"/>in contraria dispositione non solum iustitiae originali, sed
+<lb ed="#L" n="104"/>sanitati naturali ipsius hominis inquantum rationalis. In
+<lb ed="#L" n="105"/>statu namque harmoniae ilius quae erat sub iustitia 
+ori<lb break="no" ed="#L" n="106"/>ginali, duo erant: scilicet ipsa consonantia virium animae;
+<lb ed="#L" n="107"/>et supernaturale donum conservans illam harmoniam. Modo
+<lb ed="#L" n="108"/>non solum sumus privati illo supernaturali dono, sed etiam
+<lb ed="#L" n="109"/>illa harmonia, dum, nobis relictis, in propria singulis 
+par<lb break="no" ed="#L" n="110"/>tibus tendentibus, ad contrariam dissonantiam totus homo
+<lb ed="#L" n="111"/>pronus invenitur. Quod autem harmonia illa naturalis sit,
+<lb ed="#L" n="112"/>patet ex hoc, quia est secundum naturam: naturale namque,
+<lb ed="#L" n="113"/>ut in II Physic. habetur, dicitur de eo quod est secundum
+<lb ed="#L" n="114"/>naturam. Constat enim secundum naturam nostram, qua
+<lb ed="#L" n="115"/>rationales sumus, esse bonum secundum rationem in 
+omni<lb break="no" ed="#L" n="116"/>bus partibus animae rationis participibus; ut Dionysius, in
+<lb ed="#L" n="117"/>iv cap. de Div. Nom., dicit. Naturalia autem, etsi non
+<lb ed="#L" n="118"/>sint. ablata a nobis, sunt tamen infirmata. Sed de hoc 
+infe<lb break="no" ed="#L" n="119"/>rius latior erit sermo.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e443">
+                  <lb ed="#L" n="120"/>VIII. Ad quartum dubium prima fronte videtur 
+dicen<lb break="no" ed="#L" n="121"/>dum quod littera est corrupta, et quod debet legi: sed est
+<lb ed="#L" n="122"/>habitus contrarius. luxta hunc namque sensum directe 
+satis<lb break="no" ed="#L" n="123"/>facit argumento, et consonat toti illi responsioni, qua vult
+<lb ed="#L" n="124"/>quod sicut aegritudo non est pura privatio sanitatis, ita
+<lb ed="#L" n="125"/>peccatum originale non est pura privatio originalis iustitiae,
+<lb ed="#L" n="126"/>sed est habitus contrarius illi. Sed quia in sequentis articuli
+<lb ed="#L" n="127"/>corpore expresse dicitur quod peccatum originale est 
+dis<lb break="no" ed="#L" n="128"/>positio corrupta; et par est quaestio de habitu corrupto et
+<lb ed="#L" n="129"/>dispositione corrupta, quoniam corrupta est conditio 
+dimi<lb break="no" ed="#L" n="130"/>nuens utrobique: ideo aliter dicendum est, quidquid sit de
+<lb ed="#L" n="131"/>correctione huius litterae.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e472">
+                  <lb ed="#L" n="132"/>Non intendit igitur Auctor per habitum corraptum 
+ha<lb break="no" ed="#L" n="133"/>bitum qui desiit, sicut per hominem mortuum intelligitur
+<lb ed="#L" n="134"/>homo qui desiit: sic enim corruptum est conditio 
+dimi<lb break="no" ed="#L" n="135"/>nuens. Sed intendit peccatum originale esse tam habitum
+<lb ed="#L" n="136"/>quam dispositionem in corruptione consistentem: sicut etim
+<lb ed="#L" n="137"/>aegritudo est habitus consistens in corruptione humorum,
+<lb ed="#L" n="138"/>ita peccatum. originale est habitus consistens in corruptione
+<lb ed="#L" n="139"/>partium animae. Corruptionis enim nomen, ut patet in VIIT
+<lb ed="#L" n="140"/>Physic., ad omnem alicuius desitionem extenditur. Et sic
+<lb ed="#L" n="141"/>corruptio contra puram privationem distinguitur in littera:
+<lb ed="#L" n="142"/>privatio enim dicit negationem in subiecto apto nato; 
+cor<lb break="no" ed="#L" n="143"/>ruptio vero addit positivum contrarium, fundans illam 
+ne<lb break="no" ed="#L" n="144"/>gationem. Non-sanum enim privative dicit sanitatis 
+nega<lb break="no" ed="#L" n="145"/>tionem in corpore capaci sanitatis: aegrum vero dicit 
+hu<lb break="no" ed="#L" n="146"/>mores corruptos per contrarias dispositiones ad sanitatem;
+<lb ed="#L" n="147"/>ac per hoc et dicit aliquid positivum, et est habitus 
+cor<lb break="no" ed="#L" n="148"/>ruptus, idest in corruptione consistens; cum quo stat quod
+<lb ed="#L" n="149"/>est habitus. Et simile est de peccato originali, qui languor
+<lb ed="#L" n="150"/>est naturae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1096-Dd1e517"><!-- caj-p2p1-q82-a2et3 -->
+               <head xml:id="TAcCaj-d1e1096-Hd1e520">Articuli 2 et 3</head>
+               <!-- really covers articles 2 and 3 -->
+               <p xml:id="TAcCaj-d1e1096-d1e524">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="63"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e531">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="64"/>IN articulis secundo et tertio eiusdem quaestionis, dubia
+<lb ed="#L" n="65"/>duo occurrunt. Primum est, de qua causa est sermo in
+<lb ed="#L" n="66"/>illa propositione secundi articuli, In omni inordinata 
+dispo<lb break="no" ed="#L" n="67"/>sitione unitas specifica sumitur ex parte causae: 
+extrinse<lb break="no" ed="#L" n="68"/>cae vel intrinsecae, effectivae vel formalis? Non enim liquet:
+<lb ed="#L" n="69"/>quin potius littera affert causam materialem, puta calorem
+<lb ed="#L" n="70"/>excedentem respectu febris, et similia. - Secundum est, quo
+<lb ed="#L" n="71"/>pacto privatio originalis iustitiae ponitur causa originalis:
+<lb ed="#L" n="72"/>peccati in secundo articulo; et in tertio ponitur quod est
+<lb ed="#L" n="73"/>formale in ipso peccato originali.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e557">
+                  <lb ed="#L" n="74"/>Ad evidentiam horum, scito quod, cum dispositio sit
+<lb ed="#L" n="75"/>ordo habentis partes, in omni inordinata dispositione plura
+<lb ed="#L" n="76"/>concurrere oportet spectantia ad illam quasi partes 
+inte<lb break="no" ed="#L" n="77"/>grales, et aliquid tanquam radicem vel totius dispositionis
+<lb ed="#L" n="78"/>vel reliquarum | partium: verbi gratia, in febre cholerica
+<lb ed="#L" n="79"/>excessivus calor est et quasi pars febris, et radix febris in
+<lb ed="#L" n="80"/>reliquis partibus corporis, Inter has autem quasi partes illa
+<lb ed="#L" n="81"/>vim causae obtinet, unde talis dispositio simpliciter 
+poni<lb break="no" ed="#L" n="82"/>tur in esse. Et de tali causa verificatur littera, quamvis 
+in<lb break="no" ed="#L" n="83"/>distincte loquatur. Est namque huiusmodi quasi pars causa
+<lb ed="#L" n="84"/>et active et formaliter, ut patet in exemplis litterae: 
+ex<lb break="no" ed="#L" n="85"/>cessivus namque calor et facit febrem, et formalis in febre
+<lb ed="#L" n="86"/>est. Unde littera de intrinseca, vel quasi intrinseca causa
+<lb ed="#L" n="87"/>propria verificatur: non materiali ut sic, quoniam nulla
+<lb ed="#L" n="88"/>res ponitur in esse per materiam; sed ex qua ponitur in
+<lb ed="#L" n="89"/>esse, quae est ut formalis et activa (et non solum materiae
+<lb ed="#L" n="90"/>rationem habens) diversimode.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e597">
+                  <lb ed="#L" n="91"/>Et sic patet solutio primi dubii simul et secundi. Nam ex
+<lb ed="#L" n="92"/>hoc patet quod privatio originalis iustitiae, quia est prima
+<lb ed="#L" n="93"/>intrinseca radix originalis peccati, causa eius ponitur non
+<lb ed="#L" n="94"/>qualitercumque, sed formalis, ut ex discursu litterae patet.
+</p>
+               <!-- article 3 discussed here -->
+               <p xml:id="TAcCaj-d1e1096-d1e610">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>IN articulo tertio duo occurrunt dubia. Primo, quomodo
+<lb ed="#L" n="96"/>Iu habeat inordinatio voluntatis ad peccatum originale
+<lb ed="#L" n="97"/>materialiter, et ad privationem originalis iustitiae. In littera
+<lb ed="#L" n="98"/>namque nihil videtur de hac exprimi. Materiale enim in
+<lb ed="#L" n="99"/>peccato originali ponitur concupiscentia, quam in aliis 
+vi<lb break="no" ed="#L" n="100"/>ribus consistere ex eo patet quod litter&amp;, reddens rationem
+<lb ed="#L" n="101"/>quare dicatur concupiscentia, inquit: /nordinatio aliarum
+<lb ed="#L" n="102"/>virium animae praecipue in hoc attenditur, quod ad bonum
+<lb ed="#L" n="103"/>commutabile convertuntur. Et in Qq. de Malo, qu. 1v, art. 2,
+<lb ed="#L" n="104"/>aperte ponitur malitia ex parte formalis in peccato 
+origi<lb break="no" ed="#L" n="105"/>nali, defectus autem aliarum virium materialiter. Sed per
+<lb ed="#L" n="106"/>formale in littera hac non concluditur inordinatio 
+volun<lb break="no" ed="#L" n="107"/>tatis, sed privatio iustitiae originalis, quam constat aliud
+<lb ed="#L" n="108"/>esse ab inordinatione voluntatis.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e645">
+                  <lb ed="#L" n="109"/>II. Secundum dubium est, an formale in peccato originali
+<lb ed="#L" n="110"/>sit privatio iustitiae originalis totius: an in hoc, puta in
+<lb ed="#L" n="111"/>voluntate. Littera enim, in calce corporis articuli, infert 
+sim<lb break="no" ed="#L" n="112"/>pliciter quod privatio iustitiae originalis: in corpore illatum
+<lb ed="#L" n="113"/>erat de privatione iustitiae originalis per quam voluntas
+<lb ed="#L" n="114"/>subdita erat Deo. — Et confirmatur hoc. Quia aliter vanus
+<lb ed="#L" n="115"/>fuisset tantus labor de voluntate, quod est causa. Et si sic
+<lb ed="#L" n="116"/>est, quare intulit in fine absolute quod est privatio 
+origi<lb break="no" ed="#L" n="117"/>nalis iustitiae?
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e667">
+                  <lb ed="#L" n="118"/>III. Ad evidentiam horum, sciendum est quod originalis
+<lb ed="#L" n="119"/>iustitia dicit tria: scilicet donum supernaturale; subiectionem
+<lb ed="#L" n="120"/>mentis ad Deum; rectum ordinem voluntatis et omnium
+<lb ed="#L" n="121"/>potentiarum animae ad bonum. Et per oppositum privatio
+<lb ed="#L" n="122"/>iustitiae originalis multipliciter potest sumi, ut privat hoc
+<lb ed="#L" n="123"/>vel illo. Et licet Auctor alibi dixerit quod uterque 
+de<lb break="no" ed="#L" n="124"/>fectus voluntatis, scilicet subiectionis ad Deum et 
+disposi<lb break="no" ed="#L" n="125"/>tionis ad bonum obiectum, spectat ad formale originalis
+<pb ed="#L" n="98"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>peccati; in hoc tamen. loco aut defectum. nullum 
+volunta<lb break="no" ed="#L" n="2"/>tis, aut solius subiectionis ad Deum, posuit claudi sub 
+for<lb break="no" ed="#L" n="3"/>mali originalis peccati, Si enim discursus litterae formaliter
+<lb ed="#L" n="4"/>inspiciatur, apparebit quod, cum Auctor debuisset inferre
+<lb ed="#L" n="5"/>sic, Ergo aversio voluntatis a Deo est formale in 
+origi<lb break="no" ed="#L" n="6"/>nali peccato, quia talis aversio est directe contraria 
+sub<lb break="no" ed="#L" n="7"/>iectioni voluntatis ad Deum, quae erat causa originalis
+<lb ed="#L" n="8"/>iustitiae; non intulit hoc, sed intulit sic, Ergo privatio
+<lb ed="#L" n="9"/>iustitiae originalis, per quam voluntas subdebatur Deo,
+<lb ed="#L" n="10"/>est formale in originali peccato; insinuans per hoc quod
+<lb ed="#L" n="11"/>non ipsius subiectionis privatio, quam significat aversio,
+<lb ed="#L" n="12"/>sed sola doni facientis illam subiectionem privatio, formale
+<lb ed="#L" n="13"/>in peccato originali est. Et secundum hoc, nullum 
+volun<lb break="no" ed="#L" n="14"/>tatis defectum in formali originalis peccati clausit. Si tamen
+<lb ed="#L" n="15"/>subiuncta verba quis consideraverit, scilicet, Omnis autem
+<lb ed="#L" n="16"/>alia inordinatio virium animae ad materiale spectat; 
+con<lb break="no" ed="#L" n="17"/>iectura fiet quod intenderit quod quaedam inordinatio 
+vi<lb break="no" ed="#L" n="18"/>rium animae spectat ad formale, et omnis alia spectat ad
+<lb ed="#L" n="19"/>materiale. Nisi enim hoc intenderit, non dixisset, omnis
+<lb ed="#L" n="20"/>alia, sed dixisset, omnis inordinatio virium, etc. Et 
+secun<lb break="no" ed="#L" n="21"/>dum hoc, defectus subiectionis humanae mentis, 
+praeci<lb break="no" ed="#L" n="22"/>pue secundum voluntatem, ad formale originalis peccati
+<lb ed="#L" n="23"/>spectat.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e741">
+                  <lb ed="#L" n="24"/>Videtur mihi quod, sicut cum loquimur de iustitia 
+ori<lb break="no" ed="#L" n="25"/>ginali, non de illo tantum dono loquimur, sed de ipsa
+<lb ed="#L" n="26"/>subiectione mentis ad Deitm quae per illam fit, dum 
+di<lb break="no" ed="#L" n="27"/>citur quod iustitia originalis consistit in subiectione mentis
+<lb ed="#L" n="28"/>ad Deum, ab effectu donum illud declarantes; ita cum 
+di<lb break="no" ed="#L" n="29"/>citur privatio originalis iustitiae, potest intelligi cum 
+pri<lb break="no" ed="#L" n="30"/>vatione primi effectus. Et potest littera concordari 
+distin<lb break="no" ed="#L" n="31"/>guendo quod ad formale peccati originalis aliquid spectat
+<lb ed="#L" n="32"/>primo, et aliquid secundario. Et quod formale primo est
+<lb ed="#L" n="33"/>sola privatio doni illius quod subdebat mentkm, et praecipue
+<lb ed="#L" n="34"/>voluntatem, Deo; secundario autem est etiam ipsa privatio
+<lb ed="#L" n="35"/>ipsius subiectionis. Et quod propter primum Auctor in 
+lit<lb break="no" ed="#L" n="36"/>tera, concludendo, divertit ab aversione voluntatis ad 
+pri<lb break="no" ed="#L" n="37"/>vationem iustitiae; et propter secundum subiunxit, Omnis
+<lb ed="#L" n="38"/>autem alia inordinatio, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e777">
+                  <lb ed="#L" n="39"/>IV. Ex his autem facile solvuntur mota dubia. Et ad 
+pri<lb break="no" ed="#L" n="40"/>mum dicitur quod inordinatio voluntatis est duplex: 
+quae<lb break="no" ed="#L" n="41"/>dam opposita subiectioni ad Deum; quaedam rectae 
+con<lb break="no" ed="#L" n="42"/>versioni ad obiectum. Prima significatur per aversionem:
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="43"/>secunda, per conversionem. Prima spectat secundario ad
+<lb ed="#L" n="44"/>formale peccati originalis absolute: secunda autem. spectat
+<lb ed="#L" n="45"/>ad materiale, secundum hanc litteram dicentem, omnis alia
+<lb ed="#L" n="46"/>inordinatio virium animae; et non dixit, omnis aliarum
+<lb ed="#L" n="47"/>virium inordinatio. Constat namque quod pronitas 
+volun<lb break="no" ed="#L" n="48"/>tatis est alia inordinatio ab inordinatione aversionis, et est
+<lb ed="#L" n="49"/>alicuius potentiae. animae, ipsius scilicet voluntatis. Cum
+<lb ed="#L" n="50"/>hoc tamen stat quod pronitas haec voluntatis ad. malum,
+<lb ed="#L" n="51"/>inter materialia peccati originalis se habeat ut formale:
+<lb ed="#L" n="52"/>quia id quod se tenet ex parte activi, se habet ut formale.
+<lb ed="#L" n="53"/>Ut dicamus quod de formali et materiali peccati 
+origina<lb break="no" ed="#L" n="54"/>lis dupliciter loqui possumus. Primo, absolute: et sic 
+dici<lb break="no" ed="#L" n="55"/>tur quod formale est privatio originalis iustitiae, materiale
+<lb ed="#L" n="56"/>est habitus concupiscentiae, constans, ut dictum est, ex 
+in<lb break="no" ed="#L" n="57"/>ordinata dispositione virium animae. Secundo, ut est 
+ha<lb break="no" ed="#L" n="58"/>bitus: et sic formale in eo est inordinatio voluntatis 
+pri<lb break="no" ed="#L" n="59"/>vans originali iustitia. Et sic potest verificari quod alibi 
+<lb ed="#L" n="60"/>dicitur ab Auctore.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e829">
+                  <lb ed="#L" n="61"/>V. Ad secundum dubium dicitur quod, cum totus 
+pro<lb break="no" ed="#L" n="62"/>cessus litterae ad hoc tendat ut formale in peccato originali
+<lb ed="#L" n="63"/>sumatur ex parte causae; et causa ad mentem. et 
+volunta<lb break="no" ed="#L" n="64"/>tem spectare praecipue dicatur; et ipsa mentis et voluntatis
+<lb ed="#L" n="65"/>aversio non sit primo ipsum formale in peccato originali,
+<lb ed="#L" n="66"/>sed privatio doni facientis subiectionem: consequens est
+<lb ed="#L" n="67"/>ut sola privatio iustitiae originalis non in quacumque parte
+<lb ed="#L" n="68"/>animae, sed in suprema, quae exprimitur per primum 
+effe<lb break="no" ed="#L" n="69"/>ctum, scilicet privationem subiectionis voluntatis ad Deum,
+<lb ed="#L" n="70"/>sit formale in originali peccato. Privatio autem eiusdem
+<lb ed="#L" n="71"/>iustitiae in reliquis subsecuta, ad materiale spectat, cum
+<lb ed="#L" n="72"/>ipsis inordinationibus privantibus ea. Si enim privatio 
+to<lb break="no" ed="#L" n="73"/>tius, ut sic, ad formale spectaret, frustra ad privationem
+<lb ed="#L" n="74"/>causae investigandam oportere recurri dictum fuisset, et 
+re<lb break="no" ed="#L" n="75"/>cursum esset in littera. Unde in littera expresse 
+concludi<lb break="no" ed="#L" n="76"/>tur ex causa originalis iustitiae, quod privatio iustitiae 
+ori<lb break="no" ed="#L" n="77"/>ginalis, per quam voluntas subdebatur Deo, est formale:
+<lb ed="#L" n="78"/>ly enim per quam voluntas restringitur, applicando ad 
+su<lb break="no" ed="#L" n="79"/>premum animae. Et quoniam privatio iustitiae originalis
+<lb ed="#L" n="80"/>in supremo animae, non est eius privatio secundum quid,
+<lb ed="#L" n="81"/>immo est privatio principalis, et totius virtualiter, quoniam
+<lb ed="#L" n="82"/>ex illa sequitur totius privatio; ideo absolute verum est
+<lb ed="#L" n="83"/>quod privatio originalis iustitiae est formale in peccato
+<lb ed="#L" n="84"/>originali, ut in calce corporis articuli concluditur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1096-Dd1e885"><!-- caj-p2p1-q82-a4 -->
+               <head xml:id="TAcCaj-d1e1096-Hd1e888">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1096-d1e890">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e897">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="36"/>In articulo quarto eiusdem octogesimaesecundae 
+quaestio<lb break="no" ed="#L" n="37"/>Anis, dubium est cur Auctor, qui posuit peccatum 
+origi<lb break="no" ed="#L" n="38"/>nale esse habitum et concupiscentiam, et componi ex 
+mate<lb break="no" ed="#L" n="39"/>riali et formali; in corpore huius articuli sola duo distinguit
+<lb ed="#L" n="40"/>in peccato originali, quorum utrumque spectat ad formale,
+<lb ed="#L" n="41"/>nullam de aliis faciens memoriam.
+</p>
+               <p xml:id="TAcCaj-d1e1096-d1e915">
+                  <lb ed="#L" n="42"/>Ad hoc breviter dicitur quod in peccato originali sunt
+<lb ed="#L" n="43"/>quaedam communia peccato et naturae; et quaedam 
+pro<lb break="no" ed="#L" n="44"/>pria ipsi peccato. Communia sunt inordinationes virium
+<lb ed="#L" n="45"/>animae: quoniam haec, ut infra patebit, ex natura aliquo 
+<lb ed="#L" n="46"/>modo sunt, sicut mors et infirmitas corporalis. Propria
+<lb ed="#L" n="47"/>vero sunt privatio doni iustitiae originalis, et ratio culpae.
+<lb ed="#L" n="48"/>Propter quod, ut ex propriis peccati originalis ostenderetur
+<lb ed="#L" n="49"/>ipsum non inesse inaequaliter, propria tantum distinxit
+<lb ed="#L" n="50"/>Auctor in littera, in qua ostenditur intentum; et communia
+<lb ed="#L" n="51"/>reservata sunt responsionibus argumentorum, in quibus
+<lb ed="#L" n="52"/>obiectiones solvuntur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

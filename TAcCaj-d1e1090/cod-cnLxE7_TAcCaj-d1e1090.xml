@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 81</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 81</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="88"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1090"><!-- TAcCajp2p1-q81 -->
+            <head xml:id="TAcCaj-d1e1090-Hd1e101">Quaestio 81</head>
+            <div xml:id="TAcCaj-d1e1090-Dd1e103"><!-- caj-p2p1-q81-a1 -->
+               <head xml:id="TAcCaj-d1e1090-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1090-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="89"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="90"/>In articulo primo quaestionis octogesimaeprimae, dubium
+<lb ed="#L" n="91"/>primo novitiorum occurrit, quo pacto stat declaratio 
+Au<lb break="no" ed="#L" n="92"/>ctoris de modo quo originale peccatum traducitur. 
+Propor<lb break="no" ed="#L" n="93"/>tionalis namque similitudo de peccato membri ac 
+volun<lb break="no" ed="#L" n="94"/>tatis moventis illud, et huius hominis ad primum parentem
+<lb ed="#L" n="95"/>generantem ipsum, inconsona est. Nam quia voluntas 
+mem<lb break="no" ed="#L" n="96"/>brum quod est, movet ad executionem culpae, ideo 
+mem<lb break="no" ed="#L" n="97"/>brum culpae particeps fit. Generans autem non movet 
+ge<lb break="no" ed="#L" n="98"/>nerationis motione hunc hominem existentem, ad culpam:
+<lb ed="#L" n="99"/>sed facit hunc hominem esse cum tali defectu, quo non fit
+<lb ed="#L" n="100"/>participatio culpae, sed poenae vel defectus potius.
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e144">
+                  <lb ed="#L" n="101"/>II. Ad hoc dicitur quod similitudo consonat, et optime
+<lb ed="#L" n="102"/>declarat intentum, si attendimus ad illud quod est per se.
+<lb ed="#L" n="103"/>In motione enim membri a voluntate, per se fit quod 
+mem<lb break="no" ed="#L" n="104"/>brum constituitur in hoc quod est esse instrumentum vo-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="105"/>luntatis ad tale opus: et ex hoc ipso, supposito quod sit
+<lb ed="#L" n="106"/>capax culpae, instrumentum illud culpae fit particeps. Et
+<lb ed="#L" n="107"/>similiter in generatione huius hominis ab Adam, per se
+<lb ed="#L" n="108"/>fit quod hic homo constituitur in hoc quod est esse 
+mem<lb break="no" ed="#L" n="109"/>brum Adae ut capitis: ex hoc namque quod per semen
+<lb ed="#L" n="110"/>ab ipso generatur, eius membrum fit; adeo quod, si aliter
+<lb ed="#L" n="111"/>generaretur aut fieret, non esset eius membrum, Ex hoc
+<lb ed="#L" n="112"/>autem quod eius membrum est, supposito quod 
+susce<lb break="no" ed="#L" n="113"/>ptivum culpae, particeps fit culpae, et non solum poenae.
+<lb ed="#L" n="114"/>Generativa ergo motio respondet motioni imperativae in
+<lb ed="#L" n="115"/>hoc quod est utramque constituere motum in hoc quod est
+<lb ed="#L" n="116"/>esse aliquid moventis, ut sic possit ei imputari ad culpam,
+<lb ed="#L" n="117"/>praesupposita eius capacitate.
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e186">
+                  <lb ed="#L" n="118"/>Quod autem ibi membrum praesit, et hic non, nihil
+<lb ed="#L" n="119"/>efficit: immo proportionalitatem adiuvat. Quia sicut ad cul-
+<pb ed="#L" n="89"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>pam actualem movet praeexistens; ita movens ad culpam 
+<lb ed="#L" n="2"/>originalem, moyet, idest ducit de potentia ad actum, non 
+<lb ed="#L" n="3"/>praeexistens. Contra rationem namque eius quod oritur, est 
+<lb ed="#L" n="4"/>praeexistere. 
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e207">
+                  <lb ed="#L" n="5"/>III. In eodem articulo, adverte quod Auctor positionem  
+<lb ed="#L" n="6"/>quam in II Sent., dist. xxx, secutus est, licet non 
+tota<lb break="no" ed="#L" n="7"/>liter, arguere videatur: si tamen diligentius consideretur 
+<lb ed="#L" n="8"/>littera, dum arguitur insufficientiae secunda via, positio illa  
+<lb ed="#L" n="9"/>olim sua reprehenditur. Nam ibi tenuit peccatum originale  
+<lb ed="#L" n="10"/>contrahi per originem sicut podagram vel stoliditatem, 
+re<lb break="no" ed="#L" n="11"/>dundante in formam conditione materiae; et habere 
+ratio<lb break="no" ed="#L" n="12"/>nem culpae propter voluntatem parentis. Hic autem licet  
+<lb ed="#L" n="13"/>de isto voluntario non fiat mentio referendo illam 
+opinio<lb break="no" ed="#L" n="14"/>nem, subintelligitur tamen, ut puto, tanquam commune 
+<lb ed="#L" n="15"/>confessum ab omnibus, quod hoc est voluntarium aliena 
+<lb ed="#L" n="16"/>voluntate. Reprehenditur autem haec positio tanquam 
+in<lb break="no" ed="#L" n="17"/>sufficiens, quia non salvat rationem voluntarii etiam aliena  
+<lb ed="#L" n="18"/>voluntate, sic quod sufficiat ad rationem: culpae in hoc  
+<lb ed="#L" n="19"/>genito. Quoniam totum hoc quod illa positio dicit 
+accepta<lb break="no" ed="#L" n="20"/>tum, verificatur de Socrate secundum se: est namque 
+se<lb break="no" ed="#L" n="21"/>cundum se habens conditiones formae coaptatas materiae  
+<lb ed="#L" n="22"/>conditionibus, voluntarie Adae voluntate contractas ab eo.  
+<lb ed="#L" n="23"/>Et tamen defectus iste non est culpa Socratis secundum se.  
+<lb ed="#L" n="24"/>Quia ergo oportet ad salvandum voluntarium requisitum  
+<lb ed="#L" n="25"/>"ad culpam huius absque propria voluntate, ponere hunc 
+<lb ed="#L" n="26"/>hominem esse aliquid alienae voluntatis, ut sic sit 
+volun<lb break="no" ed="#L" n="27"/>tarius defectus voluntate propria non secundum se, sed se-  
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>cundum quad membrum alterius, a quo inchoat haec culpa;
+<lb ed="#L" n="29"/>et hoc non positum esta praedictis positionibus: ideo 
+ar<lb break="no" ed="#L" n="30"/>guuntur. Et ponitur alia yia, qua salvatur sufficienter ratio
+<lb ed="#L" n="31"/>voluntarii per hoc quod ponitur in Socrate hoc peccatum
+<lb ed="#L" n="32"/>ut est membrum Adae, et ex consequenti in ipso 
+secun<lb break="no" ed="#L" n="33"/>dum se.
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e275">
+                  <lb ed="#L" n="34"/>IV. In responsione ad tertium in eodem articulo, nota
+<lb ed="#L" n="35"/>quod culpam esse virtualiter in semine, accipiendum est
+<lb ed="#L" n="36"/>concomitanter, et non principaliter: in semine namque est
+<lb ed="#L" n="37"/>virtualiter natura humana, quam concomitatur culpa 
+ori<lb break="no" ed="#L" n="38"/>ginalis. Ita quod non oportet aliquam intentionalem 
+qua<lb break="no" ed="#L" n="39"/>litatem in semine fingere, qua productivum sit culpae. Hoc
+<lb ed="#L" n="40"/>enim nec somniavit Auctor: cum culpa nihil entitatis sit,
+<lb ed="#L" n="41"/>et concomitanter fiat, et sufficiens sit semen decisum a
+<lb ed="#L" n="42"/>natura destituta iustitia originali. - Verba autem Auctoris
+<lb ed="#L" n="43"/>in Qu. de Malo, qu. tv, art. 1, ad 9, non significant 
+oppo<lb break="no" ed="#L" n="44"/>situm: sed quod privatio iustitiae originalis in semine, illo
+<lb ed="#L" n="45"/>modo quo in semine salvatur ex defectu, spectat ad genus
+<lb ed="#L" n="46"/>moris virtualiter, non quia est actu moralis, sed quia tendit
+<lb ed="#L" n="47"/>ad morale peccatum, et sic ista privatio est quaedam 
+in<lb break="no" ed="#L" n="48"/>tentio mali moralis, et malum morale est in ea 
+intentiona<lb break="no" ed="#L" n="49"/>liter, sicut color in aere et anima in semine. Et tenet 
+si<lb break="no" ed="#L" n="50"/>militudo quoad hoc, quia intentio ordinatur ad illud cuius
+<lb ed="#L" n="51"/>dicitur intentio: non quoad esse entia positiva, cum hoc de
+<lb ed="#L" n="52"/>privatione dici non possit, etiam si fingendi detur licentia.
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e319">
+                  <lb ed="#L" n="53"/>Et haec de ista materia dicta sufficiant: quoniam 
+eva<lb break="no" ed="#L" n="54"/>cuant omnes difficultates necessarias.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1090-Dd1e327"><!-- caj-p2p1-q81-a3 -->
+               <head xml:id="TAcCaj-d1e1090-Hd1e330">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1090-d1e332">
+                  <pb ed="#L" n="91"/>
+                  <!-- pg 91 -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e343">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo tertio eiusdem octogesimaeprimae quaestionis,
+<lb ed="#L" n="3"/>omisso secundo, adverte duo circa universalitatem 
+pec<lb break="no" ed="#L" n="4"/>cati originalis. Primum est, quod ad fidem catholicam 
+spe<lb break="no" ed="#L" n="5"/>ctat quod omnes praeter solum Christum, contrahant 
+pec<lb break="no" ed="#L" n="6"/>catum originale. Quod dictum non intelligendum est aliter
+<lb ed="#L" n="7"/>quam de morte, quae est poena peccati originalis: ita quod
+<lb ed="#L" n="8"/>sicut omnes incurrunt mortem, idest necessitatem moriendi,
+<lb ed="#L" n="9"/>ita omnes incurrunt peccatum originale, idest necessitatem
+<lb ed="#L" n="10"/>habendi peccatum originale. Et sicut non spectat ad fidem
+<lb ed="#L" n="11"/>an singuli moriantur actualiter, an divina dispositione 
+ali<lb break="no" ed="#L" n="12"/>quis non moriatur; ita non spectat ad fidem an aliquis, ex
+<lb ed="#L" n="13"/>speciali praerogativa gratiae, non incurrat actualiter 
+origi<lb break="no" ed="#L" n="14"/>nale peccatum. De utroque enim simul inquit Apostolus,
+<lb ed="#L" n="15"/>ad Rom. v: Per unum hominem peccatum introivit. in
+<lb ed="#L" n="16"/>mundum, et per peccatum mors. Est igitur necessarium
+<lb ed="#L" n="17"/>secundum catholicam fidem, credere quod omnis utriusque
+<lb ed="#L" n="18"/>sexus ab Adam secundum rationem seminalem proveniens,
+<lb ed="#L" n="19"/>ex ipsa sua generatione sit obnoxius peccato originali. Et
+<lb ed="#L" n="20"/>contra Pelagianos dicentes oppositum, Augustinus disserit
+<lb ed="#L" n="21"/>et definit. De solo autem lesu Christo verum est quod ex
+<lb ed="#L" n="22"/>ipsa generatione nulli obnoxius est peccato: iuxta verbum
+<lb ed="#L" n="23"/>Angeli ad beatam Virginem ante Filii conceptionem, quae
+<lb ed="#L" n="24"/>vocatur nativitas in utero, dicentis: Quod ex te nascetur
+<lb ed="#L" n="25"/>sanctum. Et iuxta hunc sensum militat ratio Auctoris,
+<lb ed="#L" n="26"/>scilicet quia aliter non indigerent redemptione quae per
+<lb ed="#L" n="27"/>Iesum Christum facta est. Si enim peccatum originale, vel
+<lb ed="#L" n="28"/>in actu vel in necessitate habendi illud, quis non 
+incur<lb break="no" ed="#L" n="29"/>reret, non egeret redemptione: quod haereticum esset 
+di<lb break="no" ed="#L" n="30"/>cere. Sed si omnes obnoxii sunt peccato originali, sufficit
+<lb ed="#L" n="31"/>ad indigentiam redemptionis: neque enim solum 
+redem<lb break="no" ed="#L" n="32"/>eget actualiter captivus, sed etiam obnoxius 
+capti<lb break="no" ed="#L" n="33"/>vitai. Et haec bene notabis tu, Thomista, ne nimio zelo,
+<lb ed="#L" n="34"/>non secundum scientiam, accensus, erronea dicas quae er-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>ronnes non sunt, cum de beatissimae Virginis Conceptione
+<lb ed="#L" n="36"/>disputas aut praedicas.
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e426">
+                  <lb ed="#L" n="37"/>III. Secundum notandum est quod licet, ut dictum est, ad
+<lb ed="#L" n="38"/>fidem non spectet tanquam necessario credendum, utrum
+<lb ed="#L" n="39"/>aliquis actualiter non habuerit, ex speciali gratia, originale
+<lb ed="#L" n="40"/>peccatum; per hoc non excluditur quin spectare possit 
+tan<lb break="no" ed="#L" n="41"/>quam probabile, propter auctoritates Sanctorum. In 
+prin<lb break="no" ed="#L" n="42"/>cipio namque Primae Partis distinxit Auctor quomodo
+<lb ed="#L" n="43"/>multipliciter aliqua spectent ad sacram Theologiam. 
+Pro<lb break="no" ed="#L" n="44"/>pter quod oportet sobrie se habere hominem in re hac, sicut
+<lb ed="#L" n="45"/>et de actuali morte eorum de quibus loquitur Apostolus I
+<lb ed="#L" n="46"/>ad Thess. iv; et diabolicas aemulationes, detractiones
+<lb ed="#L" n="47"/>rixasque, tam sub zeli quam sub pietatis umbra, evitare; ac
+<lb ed="#L" n="48"/>Spiritui Sancto obicem non ponere, iureiurando firmando
+<lb ed="#L" n="49"/>hoc vel illud.
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e457">
+                  <lb ed="#L" n="50"/>III. In responsione ad secundum in eodem articulo, scito
+<lb ed="#L" n="51"/>quod peccatum originale in baptizato dicitur remanere actu,
+<lb ed="#L" n="52"/>et transire reatu. Quia et vere actu remanet privatio 
+iu<lb break="no" ed="#L" n="53"/>stitiae originalis: sumus enim adhuc illa privati. Quoniam
+<lb ed="#L" n="54"/>quamvis habeamus gratiam gratum facientem coniungentem
+<lb ed="#L" n="55"/>supremum hominis Deo, non tamen babemus eam 
+secun<lb break="no" ed="#L" n="56"/>dum hunc effectum qui est iustitia originalis, in statu isto.
+<lb ed="#L" n="57"/>Gratia enim, ut in Prima Parte dictum fuit, est radix 
+ori<lb break="no" ed="#L" n="58"/>ginalis iustitiae; quae, olim cum suo fructu perdita, per
+<lb ed="#L" n="59"/>baptismum reparatur secundum se, tantum fructum factura
+<lb ed="#L" n="60"/>iustitiae originalis post resurrectionem. Et vere transit reatu.
+<lb ed="#L" n="61"/>Quia non remanet in baptizatis privatio originalis iustitiae
+<lb ed="#L" n="62"/>sub ratione culpae: non enim amplius eis imputatur ad
+<lb ed="#L" n="63"/>culpam, nec reservatur punienda. Et sic brevibus hic 
+col<lb break="no" ed="#L" n="64"/>ligere poteris quomodo originale peccatum in baptizato
+<lb ed="#L" n="65"/>actu remaneat, reatu vero transeat; et alia multa 
+necessa<lb break="no" ed="#L" n="66"/>ria pro declaratione eorum quae sanctus Doctor dicit in
+<lb ed="#L" n="67"/>littera.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1090-Dd1e500"><!-- caj-p2p1-q81-a4 -->
+               <head xml:id="TAcCaj-d1e1090-Hd1e503">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1090-d1e505">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e512">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>IN articulo quarto eiusdem octogesimaeprimae quaestionis,  
+<lb ed="#L" n="11"/>in responsione ad secundum, dubium occurrit, quia 
+Au<lb break="no" ed="#L" n="12"/>ctor in II Sent., et hic in art. 1, ad 4, tenet animam infici  
+<lb ed="#L" n="13"/>ex carne quae est pars geniti, quam constat non esse 
+prin<lb break="no" ed="#L" n="14"/>cipium activum in generatione: nunc vero dicit quod caro  
+<lb ed="#L" n="15"/>non inficit nisi inquantum est principium activum in 
+ge<lb break="no" ed="#L" n="16"/>neratione. Non enim stant haec duo simul. 
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e532">
+                  <lb ed="#L" n="17"/>II. Ad hoc dicitur quod carnis nomine quatuor accipere 
+<lb ed="#L" n="18"/>possumus: corpus paternum, ex quo deciditur semen ipsum;  
+<lb ed="#L" n="19"/>semen, secundum virtutem activam in spiritu spumoso; 
+<lb ed="#L" n="20"/>carnem quae fit pars prolis in ipsa unione ad animam; 
+<lb ed="#L" n="21"/>et carnem ut perseverantem in prole. Et retrogrado ordine  
+<lb ed="#L" n="22"/>procedendo, caro perseverans inficit animam mediante 
+pro<lb break="no" ed="#L" n="23"/>prio consensu, dum concupiscit adversus, spiritum. Caro 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="24"/>vero in unione, ut stat sub actione. seminis generando, 
+vi<lb break="no" ed="#L" n="25"/>ventis, inficere dici potest ut materia, cui coaptatur forma
+<lb ed="#L" n="26"/>in principio in constitutione naturae. Magis tamen, et 
+ve<lb break="no" ed="#L" n="27"/>rius, dicitur quod semen inficit, cui proprie convenit actio
+<lb ed="#L" n="28"/>naturae: et eadem ratione, licet remote, paternum corpus,
+<lb ed="#L" n="29"/>inquantum mediante semine active generat. Ex quibus patet
+<lb ed="#L" n="30"/>quod. verissimum est quod caro non inficit sola (quod dico
+<lb ed="#L" n="31"/>propter carnem ut perseverantem), nisi pro quanto est 
+prin<lb break="no" ed="#L" n="32"/>cipium activum: quia si caro in unione inficit, hoc habet
+<lb ed="#L" n="33"/>ut stat sub principio activo. Et sic verificatur etiam. illud 
+<lb ed="#L" n="34"/>comparativum magis, in primo articulo positum, ad 
+quar<lb break="no" ed="#L" n="35"/>tum: magis namque inficit semen quam caro in unione,
+<lb ed="#L" n="36"/>quia propter illud; et quam. caro perseverans, quia non
+<lb ed="#L" n="37"/>nisi diminute inficit, ut dictum est, concupiscendo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1090-Dd1e583"><!-- caj-p2p1-q81-a5 -->
+               <head xml:id="TAcCaj-d1e1090-Hd1e586">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1090-d1e588">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="14"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1090-d1e595">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>In articulo quinto eiusdem quaestionis octogesimaeprimae, in responsione, adverte Auctorem reprehendere opinionem
+<lb ed="#L" n="16"/>quam secutus fuerat in II Sent., dist. XXXI
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

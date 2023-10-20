@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 112</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 112</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="324"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1251"><!-- TAcCajp2p1-q112 -->
+            <head xml:id="TAcCaj-d1e1251-Hd1e101">Quaestio 112</head>
+            <div xml:id="TAcCaj-d1e1251-Dd1e103"><!-- caj-p2p1-q112-a1 -->
+               <head xml:id="TAcCaj-d1e1251-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1251-d1e108">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="77"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1251-d1e115">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="78"/>IN articulo primo quaestionis centesimaeduodecimae 
+du<lb break="no" ed="#L" n="79"/>bium occurrit, quoniam in Prima Parte, qu. xrv, art, 5,
+<lb ed="#L" n="80"/>definitum est quod nulla creatura potest creare sive 
+princi<lb break="no" ed="#L" n="81"/>paliter sive instrumentaliter: nunc autem dicitur quod 
+ali<lb break="no" ed="#L" n="82"/>qua res creata potest instrumentaliter causare gratiam; quod
+<lb ed="#L" n="83"/>est creare, cum gratia non educatur de potentia subiecti.
+</p>
+               <p xml:id="TAcCaj-d1e1251-d1e133">
+                  <lb ed="#L" n="84"/>Ad hoc dicitur negando quod gratia proprie creetur.
+<lb ed="#L" n="85"/>Quia. ut in Prima Parte, qu. xrv, art. 4, dictum fuit, creari
+<lb ed="#L" n="86"/>est proprie subsistentium: gratia autem, licet non educatur
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="87"/>de potentia subiecti, sicut nec anima intellectiva, differt ab
+<lb ed="#L" n="88"/>ea in hoc quod non subsistit sicut anima. Et ideo, ut paulo
+<lb ed="#L" n="89"/>ante in qu. cx, art. 2, ad 3, dictum est, non proprie fit, et
+<lb ed="#L" n="90"/>consequenter nec creatur; sed dicitur creari, quia non 
+edu<lb break="no" ed="#L" n="91"/>citur de potentia subiecti, nec datur ex meritis. Proprie enim
+<lb ed="#L" n="92"/>homo fit gratus ex aliquo, scilicet ex homine non grato.
+<lb ed="#L" n="93"/>Cum ergo dicitur quod nec principaliter nec 
+instrumenta<lb break="no" ed="#L" n="94"/>liter potest res creata creare, proprie intelligitur de creare.
+<lb ed="#L" n="95"/>proprie sumpto; ut patet diffuse in II Contra Gent., cap. xxi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1251-Dd1e165"><!-- caj-p2p1-q112-a2 -->
+               <head xml:id="TAcCaj-d1e1251-Hd1e168">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1251-d1e170">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="87"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1251-d1e177">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>In articulo secundo eiusdem quaestionis, dubium occurrit
+<lb ed="#L" n="89"/>circa illud, scilicet quod gratiae donum habituale exigit
+<lb ed="#L" n="90"/>praeparationem, quia nulla forma potest esse nisi in 
+ma<lb break="no" ed="#L" n="91"/>teria disposita. Videtur enim hoc esse falsum: propterea
+<lb ed="#L" n="92"/>quod gratia est forma secundum se non exigens 
+disposi<lb break="no" ed="#L" n="93"/>tionem. Nam si exigeret dispositionem, sequeretur quod
+<lb ed="#L" n="94"/>non posset conferri infanti, in quo non est usus liberi 
+ar<lb break="no" ed="#L" n="95"/>bitrii. Nec est fingere aliquam qualitatem in essentia 
+ani<lb break="no" ed="#L" n="96"/>mae, aut in quacumque potentia, disponentem pro gratia.
+</p>
+               <p xml:id="TAcCaj-d1e1251-d1e201">
+                  <lb ed="#L" n="97"/>II. Ad hoc dicitur quod, cum gratia sit deificativa forma-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="98"/>liter naturae rationalis, consequens est ut, sicut quaelibet
+<lb ed="#L" n="99"/>forma constitutiva alicuius in aliqua natura requirit 
+mate<lb break="no" ed="#L" n="100"/>riam dispositam ad illam, ita gratia. Si enim homo in 
+di<lb break="no" ed="#L" n="101"/>vinam elevari debet naturam, oportet ut primo in illam
+<lb ed="#L" n="102"/>naturam divinam per proprium actum se convertat, aut
+<lb ed="#L" n="103"/>per alterius actum, puta sui capitis. Et propterea nunquam
+<lb ed="#L" n="104"/>datur gratia nisi disposito per actum ey si est 
+adul<lb break="no" ed="#L" n="105"/>tus; vel per actum Christi, si est in
+</p>
+               <p xml:id="TAcCaj-d1e1251-d1e225">
+                  <lb ed="#L" n="106"/>Verum quia naturas formarum describentes non 
+inten<lb break="no" ed="#L" n="107"/>dunt divinam potentiam discutere, ideo in praesenti loco,
+<pb ed="#L" n="325"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ubi de gratia absolute est sermo, dicitur quod exigit 
+ma<lb break="no" ed="#L" n="2"/>teriam dispositam; et propria dispositio assignatur actus
+<lb ed="#L" n="3"/>liberi arbitrii conversi in Deum. Cum hoc tamen stat et
+<lb ed="#L" n="4"/>quod Deus suppleat talem dispositionem in infantibus per
+<lb ed="#L" n="5"/>meritum lesu Christi; et quod posset, de potentia 
+abso<lb break="no" ed="#L" n="6"/>luta, etiam sine tali merito et supplemento illam dare. Pro-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>pterea in littera nec de gratia data infantibus cum 
+supple<lb break="no" ed="#L" n="8"/>mento dispositionis, nec de potentia Dei fit mentio, nisi
+<lb ed="#L" n="9"/>negative; dum scilicet in responsione ad tertium dicitur
+<lb ed="#L" n="10"/>quod nulla praeparatio exigitur a divina potentia quae
+<lb ed="#L" n="11"/>non fiat ab ipso; et non affirmatur quod semper exigatur
+<lb ed="#L" n="12"/>dispositio.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1251-Dd1e265"><!-- caj-p2p1-q112-a5 -->
+               <head xml:id="TAcCaj-d1e1251-Hd1e268">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1251-d1e270">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="81"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1251-d1e277">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="82"/>In articulis tertio et quarto nihil occurrit scribendum.
+</p>
+               <p xml:id="TAcCaj-d1e1251-d1e284">
+                  <lb ed="#L" n="83"/>In quinto autem adverte primo, quod notitia 
+experimen<lb break="no" ed="#L" n="84"/>talis. per actus, de qua fit mentio pluries in littera, licet
+<lb ed="#L" n="85"/>sufficiens. sit ad certe sciendum nos habere animam. et 
+in<lb break="no" ed="#L" n="86"/>tellectum etc.; non tamen sufficit ad certe sciendum. nos
+<lb ed="#L" n="87"/>habere gratiam, propter similitudinem actuum in gratia, et
+<lb ed="#L" n="88"/>extra gratiam ex naturalibus provenientium.
+</p>
+               <p xml:id="TAcCaj-d1e1251-d1e300">
+                  <lb ed="#L" n="89"/>II. Adverte secundo, quod id quod in responsione ad 
+se<lb break="no" ed="#L" n="90"/>cundum dicitur, quod habens fidem. scit certe se habere
+<lb ed="#L" n="91"/>fidem, potest intelligi multipliciter. Primo, de fide acquisita.
+<lb ed="#L" n="92"/>Et hoc est manifestum. — Secundo, de fide infusa. Et tunc
+<lb ed="#L" n="93"/>distingue certitudinem, et dic quod certitudine scientiae
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>nemo scit se habere fidem ex actu fidei, puta credere:
+<lb ed="#L" n="95"/>quoniam hoc potest ex propria voluntate et intellectu 
+pro<lb break="no" ed="#L" n="96"/>venire. Certitudine autem fidei, quilibet scit certe se habere
+<lb ed="#L" n="97"/>donum infusum fidei. Et in hoc. differt. certitudo 
+experi<lb break="no" ed="#L" n="98"/>mentalis fidei et gratiae: quia ex actibus gratiae quamvis
+<lb ed="#L" n="99"/>homo putet se esse in gratia, stat tamen cum formidine
+<lb ed="#L" n="100"/>partis oppositae; ex actibus vero fidei homo credit absque
+<lb ed="#L" n="101"/>formidine alterius partis, se habere fidem, sicut etiam 
+cre<lb break="no" ed="#L" n="102"/>dit alia credita, scilicet incarnationem Christi, etc. Et 
+quo<lb break="no" ed="#L" n="103"/>niam littera in responsione ad secundum loquitur de 
+cer<lb break="no" ed="#L" n="104"/>titudine quae est de ratione fidei, ideo de hac certitudine
+<lb ed="#L" n="105"/>intelligenda est quoad fidem infusam.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
