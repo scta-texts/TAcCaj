@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="61"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1303"><!-- TAcCajp2p2-q6 -->
+            <head xml:id="TAcCaj-d1e1303-Hd1e101">Quaestio 6</head>
+            <div xml:id="TAcCaj-d1e1303-Dd1e103"><!-- caj-p2p2-q6a1 -->
+               <head xml:id="TAcCaj-d1e1303-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1303-d1e108">
+                  <pb ed="#L" n="62"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN titulo articuli primi quaestionis sextae nota quod 
+quae<lb break="no" ed="#L" n="3"/>stio est de fide simpliciter et absolute, et non sic vel sic:
+<lb ed="#L" n="4"/>ut patet ex littera sequentis articuli.
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e128">
+                  <lb ed="#L" n="5"/>In corpore articuli dubium occurrit, an assentire his quae
+<lb ed="#L" n="6"/>sunt fidei elevet hominem supra naturam suam, Si namque
+<lb ed="#L" n="7"/>hoc asseritur, iam certitudo non fidei, sed experimentalis
+<lb ed="#L" n="8"/>habebitur de habitu fidei nobis infuso, ex isto actu quem
+<lb ed="#L" n="9"/>experimur in nobis. Et rursus doctrina superius habita in
+<lb ed="#L" n="10"/>praecedenti Libro ruit. Et experientia comprobari potest
+<lb ed="#L" n="11"/>oppositum: ut dicunt Durandus, in II .Sent., dist. xxvi,
+<lb ed="#L" n="12"/>qu. r, art. :; et Scotus, in dist. xxr, III Sent., qu. 1. —
+<lb ed="#L" n="13"/>Si autem hoc negatur, ruit ratio littefae.
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e150">
+                  <lb ed="#L" n="14"/>II. Ad hoc dicitur quod, sicut fides sumitur dupliciter,
+<lb ed="#L" n="15"/>scilicet simpliciter et secundum quid,. ita actus proprius
+<lb ed="#L" n="16"/>eius, qui est assentire his quae sunt fidei. Fides enim 
+sim<lb break="no" ed="#L" n="17"/>pliciter loquendo est virtus theologica: ac per hoc, cum
+<lb ed="#L" n="18"/>de ipsa absolute est sermo, de ipsa ut virtus est theologica
+<lb ed="#L" n="19"/>intelligendus est. Cum autem iam determinatum: sit quod
+<lb ed="#L" n="20"/>fides non nisi formata est virtus, liquido patet quod idem
+<lb ed="#L" n="21"/>est loqui de fide absolute, et de ea ut virtus theologica,
+<lb ed="#L" n="22"/>et formata. Et propterea non sunt immiscenda huiusmodi
+<lb ed="#L" n="23"/>sermoni ea quae conveniunt fidei secundum quid, ut 
+mor<lb break="no" ed="#L" n="24"/>tuae.
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e177">
+                  <lb ed="#L" n="25"/>Et similiter distinguendum est de actu fidei, qui est
+<lb ed="#L" n="26"/>assentire. Quoniam potest sumi dupliciter: scilicet quantum
+<lb ed="#L" n="27"/>ad substantiam operis; et quantum ad modum, ut scilicet
+<lb ed="#L" n="28"/>ex fidesit. Et dicendum est quod, cum hic sit sermo de
+<lb ed="#L" n="29"/>fide simpliciter, ac per hoc de fide ut est virtus theologica
+(ut etiam ipsa Apostoli auctoritas inducta testatur, scilicet:
+<lb ed="#L" n="30"/>Gratia estis salvati per fidem, etc.; ubi, effectum fidei 
+po<lb break="no" ed="#L" n="31"/>nendo salvationem, manifestat quod non mortuam, sed 
+vi<lb break="no" ed="#L" n="32"/>vam fidem appellat simpliciter et absolute fidem, quam
+<lb ed="#L" n="33"/>dicit esse donum Dei), consequens est quod de assensu
+<lb ed="#L" n="34"/>modificato; et non quantum: ad solam substantiam operis,
+<lb ed="#L" n="35"/>loquitur littera; Huiusmodi autem. assensum constat elevare
+<lb ed="#L" n="36"/>hominem. supra hominis et angelorum etiam naturam. Et
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37"/>propterea Auctor absque probatione alia pertransivit, 
+se<lb break="no" ed="#L" n="38"/>quentis articuli discussioni reservans an fides informis sit
+<lb ed="#L" n="39"/>donum Dei. In quo, non ex actu fidei informis, sed aliunde
+<lb ed="#L" n="40"/>arguens, confirmat hanc esse mentem suam.
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e216">
+                  <lb ed="#L" n="41"/>Sed haec responsio fuga potius est quam expositio 
+lit<lb break="no" ed="#L" n="42"/>terae. Quoniam littera ex propriis fidei procedit: ut patet
+<lb ed="#L" n="43"/>intuenti omnes eius causas in littera allatas. Immo, ut ex
+<lb ed="#L" n="44"/>sequenti patet articulo, hic est sermo de fide simpliciter:
+<lb ed="#L" n="45"/>et non de fide ut est virtus simpliciter, aut informis. Fides
+<lb ed="#L" n="46"/>autem est fides simpliciter et perfecta simpliciter , 
+perfe<lb break="no" ed="#L" n="47"/>ctione fidei non perfectione virtutis, ex hoc quod est fides,
+<lb ed="#L" n="48"/>abstrahendo a formatione vel non formatione caritatis: ut
+<lb ed="#L" n="49"/>in corpore sequentis articuli et in responsione ad primum
+<lb ed="#L" n="50"/>dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e240">
+                  <lb ed="#L" n="51"/>III. Dicendum est ergo quod actus fidei, hoc est 
+assen<lb break="no" ed="#L" n="52"/>tire veritati primae secundum Scripturas et sensum 
+Eccle<lb break="no" ed="#L" n="53"/>siae, elevat hominem supra suam naturam: et hoc qui
+<lb ed="#L" n="54"/>negat propriam ignorat vocem. Nam actus iste ex nulla
+<lb ed="#L" n="55"/>naturali cognitione, ex nullo naturali appetitu natus est
+<lb ed="#L" n="56"/>sequi: sed ex appetitu beatitudinis aeternae, et ex 
+adhae<lb break="no" ed="#L" n="57"/>sione ad Deum supernaturaliter revelantem et conservantem
+<lb ed="#L" n="58"/>Ecclesiam suam. Et hoc experimur; nec eget probatione.
+<lb ed="#L" n="59"/>Sed ex hoc non sequitur, Ergo experimur habitum in nobis
+<lb ed="#L" n="60"/>fidei infusae, ut obiectio infert: sed ex hoc credimus 
+ra<lb break="no" ed="#L" n="61"/>tonabiliter in nobis esse habitum fidei infusum. Sicut 
+do<lb break="no" ed="#L" n="62"/>lere de peccatis propter Deum crucifixum beantem in patría
+<lb ed="#L" n="63"/>est actus elevans hominem supra suam naturam, et 
+cre<lb break="no" ed="#L" n="64"/>dimus quod sit ex poenitentia infusa a. Deo: non tamen
+<lb ed="#L" n="65"/>hoc scimus.. Et similiter ire devote ad communionem, post
+<lb ed="#L" n="66"/>probationem sui, etc., est actus supra naturam humanam,
+<lb ed="#L" n="67"/>et credimus quod sit ex divina caritate etiam infusa: et
+<lb ed="#L" n="68"/>tamen hoc nescimus. Aliud est ergo dicere quod experimur
+<lb ed="#L" n="69"/>in nobis actus excedentes naturam humanam: et aliud, quod
+<lb ed="#L" n="70"/>experimur propterea in nobis infusos habitus illorum  
+prin<lb break="no" ed="#L" n="71"/>cipia, aut Deum. Primum affirmat littera, non secundum,
+<lb ed="#L" n="72"/>Et per haec patet responsio ad omnia obiecta. 
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1303-Dd1e291"><!-- caj-p2p2-q6a2 -->
+               <head xml:id="TAcCaj-d1e1303-Hd1e294">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1303-d1e296">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e303">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="50"/>In articulo secundo eiusdem sextae quaestionis, in 
+respon<lb break="no" ed="#L" n="51"/>sione ad secundum, dubium occurrit, quomodo 
+defor<lb break="no" ed="#L" n="52"/>mitas actus sit de ratione speciei ipsius actus secundum
+<lb ed="#L" n="53"/>quod est actus moralis. Videtur enim hoc contrarium 
+do<lb break="no" ed="#L" n="54"/>ctrinae datae in Prima Secundae, ubi dictum est quod
+<lb ed="#L" n="55"/>privativa actus peccati non est de integritate
+<lb ed="#L" n="56"/>speciei ipsius peccati, sed consequens ad speciem mali 
+mo<lb break="no" ed="#L" n="57"/>is. Quomodo stant haec duo simul?
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e325">
+                  <lb ed="#L" n="58"/>Ad hoc dicitur quod littera non dicit quod privatio 
+si<lb break="no" ed="#L" n="59"/>iniuicina per deformitatem sit de ratione speciei simpliciter
+<lb ed="#L" n="60"/>et absolute, sed cum modificatione, scilicet ut supra dictum
+<lb ed="#L" n="61"/>est. Ubi, propter subiunctam rationem, scilicet, Dicitur
+<lb ed="#L" n="62"/>enim actus deformis per privationem formae intrinsecae etc.,
+<lb ed="#L" n="63"/>scito quod comimmensuratio intrinsece debita actui morali
+<lb ed="#L" n="64"/>dupliciter, quantum ad propositum spectat, potest inveniri
+<lb ed="#L" n="65"/>deesse in actu. morali. Uno modo, per modum purae 
+pri<lb break="no" ed="#L" n="66"/>vationis: sicut tenebra invenitur in diaphano per solam
+<lb ed="#L" n="67"/>absentiam luminis. Et si hoc modo inveniri concederetur
+<lb ed="#L" n="68"/>actus moralis deformis, tunc procul dubio deformitas 
+pri<lb break="no" ed="#L" n="69"/>vative esset intrinsece de ratione speciei actus moraliter
+<lb ed="#L" n="70"/>mali. Et quoniam ex dictis in Primo Libro et Secundo
+<lb ed="#L" n="71"/>patet mali moralis speciem positivam esse, et non in 
+pri<lb break="no" ed="#L" n="72"/>vatione, sed in contrarietate consistere; ideo hic sensus
+<lb ed="#L" n="73"/>non est huic litterae tribuendus.
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e362">
+                  <lb ed="#L" n="74"/>Alio ergo modo contingit per modum privationis 
+con<lb break="no" ed="#L" n="75"/>sequentis contrariam formam: sicut caecitas sequitur ad
+<lb ed="#L" n="76"/>formam contrariam visui vel oculo. Et hoc modo dictum
+<lb ed="#L" n="77"/>fuit quod deformitas privative invenitur in actu malo 
+mo<lb break="no" ed="#L" n="78"/>raliter. Et dicitur esse de ratione speciei actus moralis non
+<lb ed="#L" n="79"/>ut differentia intrinseca, sed ut passio consequens ad 
+dif<lb break="no" ed="#L" n="80"/>ferentiam intrinsecam. Et dicitur etiam privatio formae 
+in<lb break="no" ed="#L" n="81"/>trinsecae: quia est privatio formae intrinsecae actui morali.
+<lb ed="#L" n="82"/>Et quantum ad praesentem quaestionem spectat, idem est
+<lb ed="#L" n="83"/>iudicium sive illa privatio sit de ratione speciei ut 
+diffe<lb break="no" ed="#L" n="84"/>rentia sive ut passio: ab eodem enim agente sunt.
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e389">
+                  <lb ed="#L" n="85"/>Potest autem et debet, secundum intentionem litterae
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>et planum illius sensum, aliter exponi littera ista: ut sit
+<lb ed="#L" n="87"/>sermo non de specie mali moralis quod est genus 
+positi<lb break="no" ed="#L" n="88"/>vum in genere qualitatis; sed sit sermo de actu quidem
+<lb ed="#L" n="89"/>morali, et eius specie moraliter, sub malo simpliciter 
+tran<lb break="no" ed="#L" n="90"/>scendenter sumpto. Et tunc esset sensus quod deformitas est
+<lb ed="#L" n="91"/>intrinsece de ratione speciei actus moralis inquantum malus.
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e409">
+                  <lb ed="#L" n="92"/>Et quoniam haec responsio non attingit ad 
+deformita<lb break="no" ed="#L" n="93"/>tem specificam actus moralis in proprio genere usque ad
+<lb ed="#L" n="94"/>ultimas species simpliciter, ut ex supra dictis contra 
+Sco<lb break="no" ed="#L" n="95"/>tum patet; sicut iuxta primum sensum ad deformitatem
+<lb ed="#L" n="96"/>consequentem speciem  deventum est, et deformitas 
+dupli<lb break="no" ed="#L" n="97"/>citer sumi potest, privative et contrarie: ideo secundam
+<lb ed="#L" n="98"/>addidit responsionem de deformitate contrarie sumpta. In
+<lb ed="#L" n="99"/>qua vides quomodo actus contrarius virtuti non est a Deo,
+<lb ed="#L" n="100"/>in suo exemplo, sicut nec falsa fides, quae etiam contrarie
+<lb ed="#L" n="101"/>opponitur verae fidei, ut patet in II Periherm.
+</p>
+               <p xml:id="TAcCaj-d1e1303-d1e433">
+                  <lb ed="#L" n="102"/>II. In responsione ad tertium eiusdem articuli adverte
+<lb ed="#L" n="103"/>quod hinc habes quomodo debeat intelligi simultanea 
+in<lb break="no" ed="#L" n="104"/>fusio virtutum: quod scilicet intelligitur in esse virtutis
+<lb ed="#L" n="105"/>simpliciter. Habes enim hinc quod fides informis 
+quando<lb break="no" ed="#L" n="106"/>que datur a Deo sine caritate: ac per hoc, datur ille
+<lb ed="#L" n="107"/>fidei habitus qui sine caritate est vera fides infusa, non
+<lb ed="#L" n="108"/>tamen simpliciter virtus, ut patet ex dictis. Cum autem
+<lb ed="#L" n="109"/>infunditur una aliqua virtus simpliciter in esse virtutis, tunc
+<lb ed="#L" n="110"/>simul omnes virtutis habitus in esse virtutis infunduntur.
+<lb ed="#L" n="111"/>Et hac distinctione oportet uti propter virtutes quae 
+pos<lb break="no" ed="#L" n="112"/>sunt esse informes. Nam in aliis non distinguitur esse et
+<lb ed="#L" n="113"/>esse virtutem simpliciter: ac per hoc, non distinguitur in
+<lb ed="#L" n="114"/>eis infundi et infundi in esse virtutis simpliciter. Et haec
+<lb ed="#L" n="115"/>nota propter baptizatos in peccato mortali; et propter 
+hae<lb break="no" ed="#L" n="116"/>reticos quando convertuntur ad fidem cum peccato mortali.
+<lb ed="#L" n="117"/>Infunditur siquidem tunc a divina liberalitate fides sine 
+ca<lb break="no" ed="#L" n="118"/>ritate subiecto disposito ad fidei et non caritatis 
+susceptio<lb break="no" ed="#L" n="119"/>nem: sicut materiae dispositae ad substantiam animae et
+<lb ed="#L" n="120"/>non ad opera eius infunditur anima, ut patet in amentibus
+<lb ed="#L" n="121"/>ab utero.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

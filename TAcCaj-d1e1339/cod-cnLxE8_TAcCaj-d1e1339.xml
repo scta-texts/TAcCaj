@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="107"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1339"><!-- TAcCajp2p2-q13 -->
+            <head xml:id="TAcCaj-d1e1339-Hd1e101">Quaestio 13</head>
+            <div xml:id="TAcCaj-d1e1339-Dd1e103"><!-- caj-p2p2-q13a1 -->
+               <head xml:id="TAcCaj-d1e1339-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1339-d1e108">
+                  <pb ed="#L" n="108"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e117">
+                  <lb ed="#L" n="2"/>In articulo primo quaestionis-decimaetertiae dubium 
+mul<lb break="no" ed="#L" n="3"/>tiplex occurrit circa distinctionem in littera factam de
+<lb ed="#L" n="4"/>blasphemia in opinione tantum vel etiam cum detestatione
+<lb ed="#L" n="5"/>affectus, et illius membra. Et primo, circa ipsam 
+distinctio<lb break="no" ed="#L" n="6"/>nem, quia insuffidiens videtur: quoniam deficit tertium
+<lb ed="#L" n="7"/>membrum, scilicet in detestatione affectus tantum. Nam
+<lb ed="#L" n="8"/>contingit divinae bonitati derogare tripliciter: primo, 
+intel<lb break="no" ed="#L" n="9"/>lectu tantum, scilicet opinando de eo falsum; secundo,
+<lb ed="#L" n="10"/>addendo falsae opinioni detestationem voluntatis; tertio,
+<lb ed="#L" n="11"/>absque falsa opinione, exercendo solam detestationem 
+vo<lb break="no" ed="#L" n="12"/>luntatis, ut communiter fit a Christianis blasphemis. 
+Di<lb break="no" ed="#L" n="13"/>centes enim quod non potest facere Deus, non ideo dicunt
+<lb ed="#L" n="14"/>quia credunt Deum non posse facere: sed, in. 
+detestatio<lb break="no" ed="#L" n="15"/>nem divinae potentiae, loquuntur oppositum eius quod
+<lb ed="#L" n="16"/>credunt. Quare ergo in littera non numerantur nisi duo
+<lb ed="#L" n="17"/>prima?
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e154">
+                  <lb ed="#L" n="18"/>II. Secundum dubium est circa primum mehibrum, 
+Sci<lb break="no" ed="#L" n="19"/>licet in opinione intellectus tantum. Et dubitatur ex duplici
+<lb ed="#L" n="20"/>capite. Primo, quia derogatio quae in sola opinione. falsa
+<lb ed="#L" n="21"/>de Deo consistit non. est blasphemia, sed erroris et 
+igno<lb break="no" ed="#L" n="22"/>rantiae consecutio, Blasphemia enim, cum in genere 
+pecca<lb break="no" ed="#L" n="23"/>torum mortalium sit, non invenitur in solo actu intellectus :
+<lb ed="#L" n="24"/>quoniam absque voluntate nullum est ees in 
+mora<lb break="no" ed="#L" n="25"/>libus.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e174">
+                  <lb ed="#L" n="26"/>Secundo, derogatio quae consistit in falsa de Deo 
+opi<lb break="no" ed="#L" n="27"/>nione intellectus tantum, si est voluntaria, est peccatum
+<lb ed="#L" n="28"/>infidelitatis. Ac per hoc, aut blasphemia est species 
+infideli<lb break="no" ed="#L" n="29"/>tatis, quod non consonat supradictis: aut blasphemia non
+<lb ed="#L" n="30"/>consistit in sola opinione intellectus.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e188">
+                  <lb ed="#L" n="31"/>III. Est et tertium dubium, coincidens cum primo, 
+quo<lb break="no" ed="#L" n="32"/>modo de ratione blasphemiae sit falsitas: ut in littera 
+insi<lb break="no" ed="#L" n="33"/>nuatur in corpore et in responsione ad tertium. Et expresse
+<lb ed="#L" n="34"/>in responsione ad primum dicitur quod ille qui contra
+<lb ed="#L" n="35"/>Deum loquitur convicium inferre intendens, derogat 
+divi<lb break="no" ed="#L" n="36"/>nae bonitati non solum secundum veritatem intellectus ,
+<lb ed="#L" n="37"/>sed etiam secundum pravitatem voluntatis etc. Et est ratio
+<lb ed="#L" n="38"/>dubii quia contingit. blasphemare ignominiose nominando
+<lb ed="#L" n="39"/>pudenda membra Christi, quae habet; et etiam ipsam 
+alti<lb break="no" ed="#L" n="40"/>tudinem et iustitiam et potentiam Dei. Tunc enim nulla est
+<lb ed="#L" n="41"/>falsitas.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e214">
+                  <lb ed="#L" n="42"/>IV. Ad evidentiam horum, ex quibus pendet intellectus
+<lb ed="#L" n="43"/>totius materiae de blasphemia, tria declaranda sunt: primo;
+<lb ed="#L" n="44"/>in quo actu. consistit. blasphemia; secundo, quomodo- in
+<lb ed="#L" n="45"/>illo invenitur. semper falsitas; tertio, quomodo. se habet
+<lb ed="#L" n="46"/>ad illum fides et malignitas. Quoad primum, sicut in. fide
+<lb ed="#L" n="47"/>inveniuntur duo, scilicet assentire articulis fidei, et dicere
+<lb ed="#L" n="48"/>locutione exteriori vel interiori ea quae sunt fidei; et 
+pri<lb break="no" ed="#L" n="49"/>mum pertinet ad ipsam fidem, secundum ad- confessionem
+<lb ed="#L" n="50"/>fidei, iuxta: illud,' Credidi, propter quod locutus sum: ita
+<lb ed="#L" n="51"/>in. infidelitate inveniuntur duo, scilicet dissensus ad ea quae
+<lb ed="#L" n="52"/>sunt fidei, et dicere intus vel extra contraria his quae sunt
+<lb ed="#L" n="53"/>fidei; et primum horum spectat ad infidelitatis vitium et
+<lb ed="#L" n="54"/>illius species, secundum autem ad blasphemiae vitium. Ita
+<lb ed="#L" n="55"/>quod blasphemia: consistit in dicere intus vel extra contra
+<lb ed="#L" n="56"/>Deum. Et quoniam semper in materia morali, cum de 
+acti<lb break="no" ed="#L" n="57"/>bus est sermo, intelligitur de voluntariis; ideo intelligas
+<lb ed="#L" n="58"/>quod blasphemia consistit in dicere voluntario contra Deum.
+<lb ed="#L" n="59"/>Et quoniam dicere multipliciter contingit, scilicet 
+enuntia<lb break="no" ed="#L" n="60"/>tive, imperative et optative, quocumque modo dicat quis
+<lb ed="#L" n="61"/>contra Deum, blasphemia est.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e260">
+                  <lb ed="#L" n="62"/>V. Quoad secundum, discurrendo per singula, patet
+<lb ed="#L" n="63"/>primo in blasphemia enuntiativa semper esse falsitatem in
+<lb ed="#L" n="64"/>tribus modis in littera positis. In quarto autem (qui tamen
+<lb ed="#L" n="65"/>non est alius a praedictis), scilicet cum aliquis [blasphemat]
+<lb ed="#L" n="66"/>ignominiose nominando membra pudenda lesu Christi vel
+<lb ed="#L" n="67"/>sanctorum, quae in veritate habent; falsitas invenitur quia,
+<lb ed="#L" n="68"/>cum. non derogetur Deo ex hoc quod dicatur talia. habere,
+<lb ed="#L" n="69"/>sed ex eo quod ut vituperabilia: dicuntur in. actu exercito,
+<lb ed="#L" n="70"/>consequens est ut falsum dicatur: quoniam nihil habent
+<lb ed="#L" n="71"/>sancti vituperabile. Et licet blasphemi huiusmodi non 
+di<lb break="no" ed="#L" n="72"/>cant in actu signato sanctos habere aliquid vituperabile ,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="73"/>satis tamen hoc dicunt in actu exercito ex modo dicendi,
+<lb ed="#L" n="74"/>ignominiose enuntiando: neque enim solo vocabulo 
+signi<lb break="no" ed="#L" n="75"/>ficativo enuntiatur, sed etiam nutu et signis aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e295">
+                  <lb ed="#L" n="76"/>In blasphemia autem optativa, imperativa, et si qua est
+<lb ed="#L" n="77"/>alia eiusmodi, falsitas non consistit in enuntiatione eius
+<lb ed="#L" n="78"/>quod est vel non est: sed ut sit vel non sit quod non
+<lb ed="#L" n="79"/>potest vel decet esse, Qui enim optat Deum non esse 
+bea<lb break="no" ed="#L" n="80"/>tum aut esse maledictum, et alia huiusmodi, non dicit
+<lb ed="#L" n="81"/>Deum sic esse vel non esse: sed ut sit vel non sit quod
+<lb ed="#L" n="82"/>esse non potest aut debet. Et si optative dicantur aut 
+ex<lb break="no" ed="#L" n="83"/>ponantur nominata pudenda sanctorum in ignominiam,
+<lb ed="#L" n="84"/>patet falsitas: quia dicunt et optant ut sint vituperabilia. —
+<lb ed="#L" n="85"/>Et ex hoc patet quod non est differentia formalis inter
+<lb ed="#L" n="86"/>ignominiose dicentem pudenda, quae habet sanctus, et 
+di<lb break="no" ed="#L" n="87"/>centem ea quae non habet: quoniam in ratione 
+vitupera<lb break="no" ed="#L" n="88"/>bilis utrumque dicitur, et falso. Quamvis a secundo etiam
+<lb ed="#L" n="89"/>materiale falso dicatur; et propterea peior sit.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e328">
+                  <lb ed="#L" n="90"/>VI. Quoad tertium, blasphemia potest esse cum fide,
+<lb ed="#L" n="91"/>et sine fide. Contingit enim utroque modo dicere quod
+<lb ed="#L" n="92"/>Deus non potest facere hoc vel illud. Et hoc non solum
+<lb ed="#L" n="93"/>verbo exteriore, ut patet; sed etiam interiore. Potest enim
+<lb ed="#L" n="94"/>quis credens Deum omnipotentem velle dicere secum, ut
+<lb ed="#L" n="95"/>iniuriam Deo faciat, quod Deus non potest, et delectari
+<lb ed="#L" n="96"/>in hoc mendacio: quia potest concipere oppositum. eius
+<lb ed="#L" n="97"/>quod credit et scit, quamvis non possit tali opposito 
+as<lb break="no" ed="#L" n="98"/>sentire.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e350">
+                  <lb ed="#L" n="99"/>Et licet omnis blasphemia, ut dictum est, quia est 
+vo<lb break="no" ed="#L" n="100"/>luntaria, sit a voluntate mala; non tamen Mrs est cu:
+<lb ed="#L" n="101"/>voluntate affecta ad derogandum divinae bonitati, sed aliqua
+<lb ed="#L" n="102"/>tantum, ut in littera dicitur. Sicut omne credere est 
+volun<lb break="no" ed="#L" n="103"/>tarium, non tamen omne credere est a voluntate.
+<lb ed="#L" n="104"/>caritate Dei: habet enim malitia haec. de qn .est sermo
+<lb ed="#L" n="105"/>litterae se ad blasphemiam sicut caritas ad fidem.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e369">
+                  <lb ed="#L" n="106"/>VII. Ex his autem facile patet solutio dubiorum. Nam
+<lb ed="#L" n="107"/>ad primum dicitur quod distinctio est sufficiens si bene
+<lb ed="#L" n="108"/>intelligatur. Potest enim intelligi dupliciter. Primo, quod
+<lb ed="#L" n="109"/>ad blasphemiam omnem concurrat falsitas enuntiative. Et
+<lb ed="#L" n="110"/>in hoc sensu malo procedit argumentum, - Secundo, quod
+<lb ed="#L" n="111"/>concurrat falsitas. vel enuntiative vel quocumque jy modo.
+<lb ed="#L" n="112"/>Et sic verum est quod dicitur; et nulla est blasphemia in dr
+<lb ed="#L" n="113"/>qua non sit falsa opinio hoc modo.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e389">
+                  <lb ed="#L" n="114"/>Et per hoc etiam. patet solutio tertii dubii. Nam 
+convi<lb break="no" ed="#L" n="115"/>ciando vel irridendo nominantes potentiam, excellenti
+<lb ed="#L" n="116"/>vel quodcumque aliud divinum, dicunt. aliquo modo illud
+<lb ed="#L" n="117"/>ut vituperabile: quod longe est ab omni re divina, ut
+<lb ed="#L" n="118"/>pudendis dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e402">
+                  <lb ed="#L" n="119"/>Ad secundum vero dubium ex primo: capite, iam patet
+<lb ed="#L" n="120"/>quod ly tantum, vel ly sola, etc, non excludit a voluntate,
+<lb ed="#L" n="121"/>quia non-excludit a voluntario: sed excludit voluntate
+<lb ed="#L" n="122"/>affecta detestationis malitia.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e413">
+                  <lb ed="#L" n="123"/>Ad idem autem ex secundo capite, iam patet. quod 
+diffe<lb break="no" ed="#L" n="124"/>rentia inter assensum et dicere solvit quaestionem. 
+Pecca<lb break="no" ed="#L" n="125"/>tum namque infidelitatis consistit in dissensu ad ea quae
+<lb ed="#L" n="126"/>sunt fidei: peccatum vero blasphemiae consistit in actu 
+di<lb break="no" ed="#L" n="127"/>cendi ea quae sunt contraria fidei. Et quoniam contingit
+<lb ed="#L" n="128"/>dicere oppositum eius cui assentimus, ideo non oportet
+<lb ed="#L" n="129"/>blasphemum esse infidelem, nec blasphemiam esse speciet
+<lb ed="#L" n="130"/>infidelitatis. Propter a" blasphemia ponitur in littera 
+Op<lb break="no" ed="#L" n="131"/>posita confessioni fi quae consistit in dicere: et non
+<lb ed="#L" n="132"/>ipsi fidei, quae consistit in assensu.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e437">
+                  <lb ed="#L" n="133"/>VIII: In responsione ad secundum et ad tertium. adverte
+<lb ed="#L" n="134"/>quod, quia species blasphemiae non. diversificantur
+<lb ed="#L" n="135"/>Deum et sanctos; nec per illa tria in littera numerata; nec
+<lb ed="#L" n="136"/>per enuntiationem et desiderium; nec per honorem, fama
+<lb ed="#L" n="137"/>et huiusmodi: in una et eadem specie est blasphemia Dei
+<lb ed="#L" n="138"/>et sanctorum, sive sit per modum maledictionis, sive 
+con<lb break="no" ed="#L" n="139"/>tumeliae, sive irrisionis, sive detractionis. Cum enim 
+quod<lb break="no" ed="#L" n="140"/>libet horum respectu Dei vel sanctorum sit blasphemia; et
+<lb ed="#L" n="141"/>blasphemia non habeat plures species, proprie loquendo:
+<lb ed="#L" n="142"/>consequens est quod omnia sint eiusdem speciei. Unde 
+in<lb break="no" ed="#L" n="143"/>ferius in qu. rxxvr, art. 2, dicitur quod maledicere irratio-
+<pb ed="#L" n="109"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nalibus inquantum sunt. creaturae Dei, est peccatum 
+blas<lb break="no" ed="#L" n="2"/>phemiae; et in art. 4, ad 1, dicitur quod eadem est ratio
+<lb ed="#L" n="3"/>de detractione. Et Luc. xxu, de illudentibus Domino Iesu
+<lb ed="#L" n="4"/>et interrogantibus, Prophetiga nobis, etc., dicitur: Et alia
+<lb ed="#L" n="5"/>multa blasphemantes dicebant. Ratio autem quare iniuria
+<lb ed="#L" n="6"/>sanctorum et Dei est eiusdem speciei est quia sancti ut sic
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>ad Deum referuntur, nihilque damnationis est his qui sunt
+<lb ed="#L" n="8"/>in Christo Iesu.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e487">
+                  <lb ed="#L" n="9"/>Et hinc habes, confessor, quod varietas blasphemiarum
+<lb ed="#L" n="10"/>pro diversitate specifica non est inquirenda: sed pro maiori
+<lb ed="#L" n="11"/>gravitate iudicanda, ut in ceteris peccatorum speciebus 
+con<lb break="no" ed="#L" n="12"/>tingit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1339-Dd1e499"><!-- caj-p2p2-q13a3 -->
+               <head xml:id="TAcCaj-d1e1339-Hd1e502">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1339-d1e504">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="45"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e511">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="46"/>IN articulo tertio eiusdem decimaetertiae quaestionis, 
+prae<lb break="no" ed="#L" n="47"/>termisso secundo, dubium occurrit, quomodo blasphemia
+<lb ed="#L" n="48"/>habeat in se gravitatem infidelitatis aggravans ipsam, cum
+<lb ed="#L" n="49"/>iam dictum sit quod blasphemia frequenter fit salva fide,
+<lb ed="#L" n="50"/>et quod non est de ratione blasphemiae dissensus 
+consti<lb break="no" ed="#L" n="51"/>tuens infidelitatem. Quomodo ergo stant haec simul?
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e529">
+                  <lb ed="#L" n="52"/>Ad hoc dicitur quod de ratione blasphemiae, licet non
+<lb ed="#L" n="53"/>sit sentire falsum de Deo, est tamen dicere falsum de Deo.
+<lb ed="#L" n="54"/>Ad infidelitatis autem genus spectat non solum sentire 
+fal<lb break="no" ed="#L" n="55"/>sum de Deo, sed etiam dicere falsa de eodem: non ita
+<lb ed="#L" n="56"/>quod blasphemia sit species infidelitatis; sed quia est 
+spe<lb break="no" ed="#L" n="57"/>cies cognata illi, et naturali ordine ab illa emanans. Qui
+<lb ed="#L" n="58"/>enim blasphemat, quamvis non sentiat verum esse quod
+<lb ed="#L" n="59"/>dicit, dicendo tamen induit personam sentientis sic esse ut
+<lb ed="#L" n="60"/>dicit: dicit enim tanquam si crederet sic esse aut sic esse
+<lb ed="#L" n="61"/>possibile, prout diversimode dicit.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e553">
+                  <lb ed="#L" n="62"/>II. Et quoniam littera non dicit quod blasphemia habet
+<lb ed="#L" n="63"/>in se infidelitatem, sed habet in se gravitatem infidelitatis ;
+<lb ed="#L" n="64"/>scito quod, quemadmodum sentire falsum de Deo, ut 
+infi<lb break="no" ed="#L" n="65"/>delis sentit, est actus secundum se malus quia cadit super
+<lb ed="#L" n="66"/>materia indebita, et constituit infidelitatis peccatum in tali
+<lb ed="#L" n="67"/>gradu; ita dicere falsum de Deo, ut blasphemus dicit, 
+con<lb break="no" ed="#L" n="68"/>stituit blasphemiae peccatum in tali gradu quia dicere cadit
+<lb ed="#L" n="69"/>super materia indebita. Et quia materia haec, quae est 
+ma<lb break="no" ed="#L" n="70"/>teria circa quam, quae obiectum est, eadem est; consequens
+<lb ed="#L" n="71"/>est ut gravitas una sit, Et propterea in littera dicitur quod
+<lb ed="#L" n="72"/>habet gravitatem infidelitatis, et quod peccatum maximum
+<lb ed="#L" n="73"/>est ex genere suo sicut et infidelitas. Et consequenter quod
+<lb ed="#L" n="74"/>aggravat gravitatem in qua communicat cum infidelitate, si
+<lb ed="#L" n="75"/>superveniat detestatio voluntatis. Quamvis enim semper in
+<lb ed="#L" n="76"/>blasphemia inveniatur voluntas consentiens in hoc quod est
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>falsum dicere de Deo (aliter peccatum non esset), sicut
+<lb ed="#L" n="78"/>semper in infidelitate est voluntas consentiens in hoc quod
+<lb ed="#L" n="79"/>est sentire falsum de Deo; non tamen semper adest 
+volun<lb break="no" ed="#L" n="80"/>tas affecta ad detestandum, quae in littera dicitur aggravare,
+<lb ed="#L" n="81"/>Propter dictam autem differentiam inter sentire et dicere
+<lb ed="#L" n="82"/>falsum de Deo, in responsione ad secundum sub. 
+disiun<lb break="no" ed="#L" n="83"/>ctione dicitur quod qui periurat non dicit aut sentit aliquid
+<lb ed="#L" n="84"/>falsum de Deo, sicut blasphemus.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e609">
+                  <lb ed="#L" n="85"/>III. Si quis autem contendat perfectam blasphemiam 
+<lb ed="#L" n="86"/>praesupponere et claudere infidelitatem, distinguendo de 
+<lb ed="#L" n="87"/>blasphemia secundum perfectam vel imperfectam rationem 
+<lb ed="#L" n="88"/>blasphemiae, pro eo quod confessio fidei perfecta fidem 
+<lb ed="#L" n="89"/>praesupponit et claudit; advertat primo, quod bonum ex 
+<lb ed="#L" n="90"/>causa integra, malum autem ex particulari consurgit 
+de<lb break="no" ed="#L" n="91"/>fectu. Ac per hoc, quamvis ad perfectam fidei 
+confes<lb break="no" ed="#L" n="92"/>sionem exigatur fides, quia aliter virtuosa non est; 
+blasphe<lb break="no" ed="#L" n="93"/>mia tamen est vitiosa absque infidelitate.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e631">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="94"/>Advertat secundo, quod blasphemia perfectior est cu
+<lb ed="#L" n="95"/>ex intentione profertur in Deum quam cum ex ignorantia :
+<lb ed="#L" n="96"/>quoniam tunc est blasphemia ex utraque parte , scilicet ex
+<lb ed="#L" n="97"/>parte Dei et ex parte blasphemi. Quando autem non credit
+<lb ed="#L" n="98"/>quis contra Deum se dicere, blasphemia est solum ex parte
+<lb ed="#L" n="99"/>Dei blasphemati. Constat autem quod blasphemia non 
+cre<lb break="no" ed="#L" n="100"/>dentis in Christum est solum blasphemia secundum se:
+<lb ed="#L" n="101"/>blasphemia autem credentis in Christum est et secundum
+<lb ed="#L" n="102"/>se et secundum blasphemantem blasphemia. Ac per hoc
+<lb ed="#L" n="103"/>blasphemia perfectior est sine infidelitate quam cum  
+infi<lb break="no" ed="#L" n="104"/>delitate. 
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e660">
+                  <lb ed="#L" n="105"/>Et confirmatur auctoritate II Pet. II: <quote xml:id="TAcCaj-d1e1339-Qd1e664">Melius erat eis
+<lb ed="#L" n="106"/>veritatem non cognoscere quam post agnitam retroire</quote>: et
+<lb ed="#L" n="107"/>multo magis, iniuriari. 
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1339-Dd1e673"><!-- caj-p2p2-q13a4 -->
+               <head xml:id="TAcCaj-d1e1339-Hd1e676">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1339-d1e678">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="59"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e685">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="60"/>In articulo quarto eiusdem quaestionis dubium occurrit,
+<lb ed="#L" n="61"/>ras .eex omnibus quae in littera numerantur non 
+con<lb break="no" ed="#L" n="62"/>cluditur in damnatis actus blasphemiae: ut patet 
+discur<lb break="no" ed="#L" n="63"/>rendo per singula et omnia simul. Aversio in primis a 
+iu<lb break="no" ed="#L" n="64"/>stitia Dei in hoc quod. amantur quae ab illa odio habentur,
+<lb ed="#L" n="65"/>non constituit blasphemiam: alioquin committens 
+fornica<lb break="no" ed="#L" n="66"/>tionem et amans illam, quam scit odio haberi a Deo, 
+blas<lb break="no" ed="#L" n="67"/>phemaret. In hoc etiam quod odiunt poenas, blasphemia
+<lb ed="#L" n="68"/>non est, ut patet: quia odium hoc a natura inditum est.
+<lb ed="#L" n="69"/>In utroque autem simul, quia scilicet amare peccata pro
+<lb ed="#L" n="70"/>quibus puniuntur et dolere de poenis nulla blasphemia
+<lb ed="#L" n="71"/>est, sed obstinatio. Nulla ergo blasphemia ex his 
+con<lb break="no" ed="#L" n="72"/>cluditur.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e718">
+                  <lb ed="#L" n="73"/>Ad hoc dicitur quod amare malum culpae; « et odio 
+ha<lb break="no" ed="#L" n="74"/>bere. malum. poenae, contingit dupliciter. Primo, absolute.
+<lb ed="#L" n="75"/>Et sic non spectat ad blasphemiam, ut obiiciendo 
+manife<lb break="no" ed="#L" n="76"/>statur. - Secundo, in ordine ad Deum ut prohibitorem mali
+<lb ed="#L" n="77"/>culpae et inflictorem mali poenae. Et sic est blasphemia,
+<lb ed="#L" n="78"/>Quoniam nihil aliud est amare mala culpae ut prohibita a
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="79"/>Deo quam odio habere prohibitorem ; et similiter odio 
+ha<lb break="no" ed="#L" n="80"/>bere malum poenae ut inflictum a Deo, quam odio habere
+<lb ed="#L" n="81"/>punitorem, Et hoc modo intendit littera in. damnatis esse
+<lb ed="#L" n="82"/>odium divinae iustitiae. Et ad hoc insinuandum, non dicit
+<lb ed="#L" n="83"/>absolute quod amant mala aut odiunt poenas, sed dicit:
+<lb ed="#L" n="84"/>Amant ea pro quibus puniuntur, et odiunt poenas quae
+<lb ed="#L" n="85"/>pro huiusmodi peccatis infliguntur: quasi diceret: Amant
+<lb ed="#L" n="86"/>punita, ac per hoc detestantur punitorem et prohibitorem ;
+<lb ed="#L" n="87"/>et odiunt inflicta, ac per hoc inflictorem.
+</p>
+               <p xml:id="TAcCaj-d1e1339-d1e755">
+                  <lb ed="#L" n="88"/>Fundatur autem hoc super consummata damnatorum
+<lb ed="#L" n="89"/>voluntate in malo: ut scilicet amor culpae consummatus,
+<lb ed="#L" n="90"/>qui hic interpretative erat detestatio prohibitoris, ibi iam
+<lb ed="#L" n="91"/>fiat consummatione detestatio eiusdem; et similiter odium
+<lb ed="#L" n="92"/>mali poenae, quod hic in impoenitente erat interpretative
+<lb ed="#L" n="93"/>detestatio. punitoris, ibi consummatione fiat detestatio 
+eius<lb break="no" ed="#L" n="94"/>dem; iuxta inductam in littera auctoritatem ex Apoc. et 
+<lb ed="#L" n="95"/>Glossa. Et hoc modo responsio ad tertium intelligenda 
+vi<lb break="no" ed="#L" n="96"/>detur: quae, adiuta ex responsione ad primum, clariorem
+<lb ed="#L" n="97"/>reddit expositum sensum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

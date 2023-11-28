@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 40</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 40</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="313"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1479"><!-- TAcCajp2p2-q40 -->
+            <head xml:id="TAcCaj-d1e1479-Hd1e101">Quaestio 40</head>
+            <div xml:id="TAcCaj-d1e1479-Dd1e103"><!-- caj-p2p2-q40a1 -->
+               <head xml:id="TAcCaj-d1e1479-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1479-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>In articulo primo quaestionis quadragesimae, circa primam |
+<lb ed="#L" n="45"/>conditionem belli iusti, dubium occurrit, an appellatione
+<lb ed="#L" n="46"/>principis in hoc loco intelligantur soli illi principes qui non
+<lb ed="#L" n="47"/>habent superiorem. Et videtur quod sic. Quia habentes
+<lb ed="#L" n="48"/>superiorem possunt recurrere ad superiorem et prosequi
+<lb ed="#L" n="49"/>jus suum coram eo: sicut de privatis personis in littera
+<lb ed="#L" n="50"/>dicitur propter hanc rationem.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e135">
+                  <lb ed="#L" n="51"/>Et confirmatur. Quia aliter contemneretur auctoritas
+<lb ed="#L" n="52"/>superioris. Si enim cuilibet principi liceret movere bellum
+<lb ed="#L" n="53"/>contra alterum, iam licitum esset unicuique principi ius
+<lb ed="#L" n="54"/>sibi ipsi dicere contra alterum principem: et sic superioris
+<lb ed="#L" n="55"/>auctoritas contempta postponeretur.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e148">
+                  <lb ed="#L" n="56"/>In oppositum autem est quia princeps in littera 
+sumi<lb break="no" ed="#L" n="57"/>tur ut distinguitur contra privatam personam, ut patet in
+<lb ed="#L" n="58"/>littera. Constat autem quod non omnis taliter princeps caret
+<lb ed="#L" n="59"/>superiore.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e160">
+                  <lb ed="#L" n="60"/>Praeterea, in littera dicitur quod ad eos spectat gladium
+<lb ed="#L" n="61"/>movere bellicum contra extraneos ad quos spectat gladio
+<lb ed="#L" n="62"/>materiali uti contra intraneos. Sed contra intraneos non
+<lb ed="#L" n="63"/>requiritur princeps carens superiori. Ergo nec ad 
+moven<lb break="no" ed="#L" n="64"/>dum bellum.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e173">
+                  <lb ed="#L" n="65"/>II. Ad evidentiam auctoritatis requisitae ad bellum, 
+scien<lb break="no" ed="#L" n="66"/>dum est quod non est quaestio de bello defensivo, quando
+<lb ed="#L" n="67"/>scilicet aliquis bellum facit defendendo se ab indicto sibi
+<lb ed="#L" n="68"/>bello: hoc enim a naturae iure quilibet populus habet. Sed
+<lb ed="#L" n="69"/>quaestio est de indictione belli: quae scilicet auctoritas ad
+<lb ed="#L" n="70"/>hoc exigatur. Et licet varia in hoc videatur opinio, si 
+ta<lb break="no" ed="#L" n="71"/>men recte discernamus, una est sententia.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e191">
+                  <lb ed="#L" n="72"/>Cum enim bellum sit reipublicae invasio, et hoc active
+<lb ed="#L" n="73"/>(quia legitima quantum est ex parte auctoritatis bella a
+<lb ed="#L" n="74"/>republica sunt), tanta differentia est inter auctoritatem 
+mo<lb break="no" ed="#L" n="75"/>vendi gladium bellicum et gladium privatum, quanta 
+dif<lb break="no" ed="#L" n="76"/>ferentia est inter rem publicam et privatam in 
+defensio<lb break="no" ed="#L" n="77"/>nis et vindictae iure. Ad privatam namque personam non
+<lb ed="#L" n="78"/>spectat nisi vim vi repellere cum moderamine inculpatae
+<lb ed="#L" n="79"/>tutelae. Extra moderamen autem inculpatae tutelae est ut
+<lb ed="#L" n="80"/>quis privatus se vel alios ulciscatur: propter quod non
+<lb ed="#L" n="81"/>licet privato occidere occisorem sui patris, Respublica autem
+<lb ed="#L" n="82"/>et suorum membrorum et suisic curam habet ut non 
+so<lb break="no" ed="#L" n="83"/>lum possit moderate vim vi repellere, sed etiam vindicare
+<lb ed="#L" n="84"/>iniurias sui vel suorum, non solum contra sibi subditos,
+<lb ed="#L" n="85"/>sed extraneos. Et de subditis quidem patet: quoniam pu-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>nitiva iustitia ad rempublicam spectat. De extraneis vero
+<lb ed="#L" n="87"/>probatur ex eo quod respublica debet esse sibi sufficiens,
+<lb ed="#L" n="88"/>ut patet in III Polit.: constat autem quod nisi posset
+<lb ed="#L" n="89"/>licite de extraneis populis et principibus se vindicare, valde
+<lb ed="#L" n="90"/>esset imperfecta et deficeret. Nam tyranni et iniusti 
+rapien<lb break="no" ed="#L" n="91"/>tes, occidentes, capientes, et quomodolibet iniuriam 
+facien<lb break="no" ed="#L" n="92"/>tes alienae reipublicae civibus, remanerent naturaliter inulti,
+<lb ed="#L" n="93"/>et naturalis ratio deficeret in necessariis. In naturae 
+nam<lb break="no" ed="#L" n="94"/>que legibus sistendo, non oportet respublicas diversas
+<lb ed="#L" n="95"/>communicare in uno principe. Et si una alteram 
+oppri<lb break="no" ed="#L" n="96"/>meret in suis membris, capiendo, dilaniando, si altera 
+in<lb break="no" ed="#L" n="97"/>nocens non posset vindicare se et suos contra 
+opprimen<lb break="no" ed="#L" n="98"/>tem pugnando, et inulti mali naturaliter manerent, et 
+na<lb break="no" ed="#L" n="99"/>turalis ratio, quae universalioris est providentiae quam
+<lb ed="#L" n="100"/>naturalis instinctus animalium, defecisset non providendo
+<lb ed="#L" n="101"/>reipublicae de armis ultionis. Attestantur hoc gesta Ionathae
+<lb ed="#L" n="102"/>et Simonis contra filios Iambri, in vindictam sanguinis 
+Ioan<lb break="no" ed="#L" n="103"/>nis fratris sui, I Machab. 1x. Approbare hoc communis
+<lb ed="#L" n="104"/>omnium gentium usus videtur, tanquam a natura inditum.
+<lb ed="#L" n="105"/>Verba quoque Auctoris in littera hac manifeste hoc 
+signi<lb break="no" ed="#L" n="106"/>ficant, cum auctoritate Augustini.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e272">
+                  <lb ed="#L" n="107"/>Probatur quoque hoc idem aliter. Quia si respublica
+<lb ed="#L" n="108"/>non posset indicere bellum, sed ad hoc esset opus 
+aucto<lb break="no" ed="#L" n="109"/>ritas alterius superioris, aut esset opus superiori respectu
+<lb ed="#L" n="110"/>sui tantum; aut respectu illius tantum contra quem est
+<lb ed="#L" n="111"/>movendum bellum; aut respectu utriusque. Non respectu
+<lb ed="#L" n="112"/>sui tantum. Quia quaecumque respublica est sic 
+dispo<lb break="no" ed="#L" n="113"/>sita quod non potest sibi ipsi de omnibus providere, sed
+<lb ed="#L" n="114"/>ab aliquo, puta rege, dependet, hoc ideo est quia rex ille
+<lb ed="#L" n="115"/>est pars illius reipublicae: est enim caput illius. Unde hoc
+<lb ed="#L" n="116"/>non arguit rempublicam non posse: sed rempublicam 
+im<lb break="no" ed="#L" n="117"/>perfectam, absque scilicet suo capite, non posse. Et 
+pro<lb break="no" ed="#L" n="118"/>pterea oportet te, lectorem, sane intelligere quae dicimus:
+<lb ed="#L" n="119"/>quia de republica perfecta loquimur. - Nec a superiori 
+il<lb break="no" ed="#L" n="120"/>lius contra quem movendum est bellum. Tum quia ut
+<lb ed="#L" n="121"/>plurimum contingit illum carere superiori; vel, si habet,
+<lb ed="#L" n="122"/>esse complicem, saltem negligendo vindictam. Tum quia
+<lb ed="#L" n="123"/>licet, antequam bellum indicatur, si spes est iustitiae, 
+pe<lb break="no" ed="#L" n="124"/>tenda est iustitia a superiori illius, quia actor sequitur
+<lb ed="#L" n="125"/>forum rei (ut fecit populus Israel petens iustitiam a tribu
+<lb ed="#L" n="126"/>Beniamin de viris Gabaa, Iudic. xx); et si fecerit iustitiam,
+<lb ed="#L" n="127"/>non est movendum bellum, et si neglexerit, potest moveri
+<pb ed="#L" n="314"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>bellum: hoc tamen non propterea est ut habeatur 
+aucto<lb break="no" ed="#L" n="2"/>ritas indicendi bellum (quoniam nec ille hostium superior
+<lb ed="#L" n="3"/>hanc dat, nec haec petitur); sed ut actus activorum fiant
+<lb ed="#L" n="4"/>in patiente disposito; passum enim dispositum ad hoc ut
+<lb ed="#L" n="5"/>contra ipsum bellum fiat, est nolens satisfacere; si enim
+<lb ed="#L" n="6"/>satisfacere vellet, iustum bellum non moveretur. - Nec a
+<lb ed="#L" n="7"/>superiori utriusque. Tum quia hoc est per accidens. Tum
+<lb ed="#L" n="8"/>quia ex neutra parte ostensum est opus esse auctoritate.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e342">
+                  <lb ed="#L" n="9"/>Cum igitur dicitur quod ad indicendum iustum bellum
+<lb ed="#L" n="10"/>requiritur auctoritas principis, intelligendum est vel de 
+re<lb break="no" ed="#L" n="11"/>publica perfecta; vel perfecte gerente vices reipublicae, ut
+<lb ed="#L" n="12"/>sunt reges vel alii similes principatus. Unde et rationes
+<lb ed="#L" n="13"/>utriusque. partis solvendae sunt.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e355">
+                  <lb ed="#L" n="14"/>III. Ad primam igitur de principibus carentibus 
+supe<lb break="no" ed="#L" n="15"/>riore dicitur quod inter privatam et publicam personam
+<lb ed="#L" n="16"/>haec est differentia, quod privatus habet proprium 
+supe<lb break="no" ed="#L" n="17"/>riorem, cum sit pars alicuius reipublicae (homo enim est
+<lb ed="#L" n="18"/>animal politicum), ad quem superiorem potest recurrere
+<lb ed="#L" n="19"/>pro ultione inimicorum suorum sive intus sive extra: et
+<lb ed="#L" n="20"/>propterea ex sua natura non habet auctoritatem 
+vindica<lb break="no" ed="#L" n="21"/>tivam. Ipsa autem respublica, seu princeps, ex suae 
+na<lb break="no" ed="#L" n="22"/>turae perfectione, ut ostensum est, habet auctoritatem 
+vin<lb break="no" ed="#L" n="23"/>dicativam: et ideo non oportet quod recurrat ad 
+superio<lb break="no" ed="#L" n="24"/>rem pro tali auctoritate. Et ratio litterae optime habet
+<lb ed="#L" n="25"/>locum in privata persona et non in publica: quia illa est
+<lb ed="#L" n="26"/>pars, haec totum, ut dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e387">
+                  <lb ed="#L" n="27"/>Ad confirmationem dicitur quod principes sunt in 
+du<lb break="no" ed="#L" n="28"/>plici differentia. Quidam enim sunt simpliciter capita et
+<lb ed="#L" n="29"/>domini, perfecte gerentes vices reipublicae: quidam vero
+<lb ed="#L" n="30"/>sunt secundum quid capita et domini, imperfecte 
+reipu<lb break="no" ed="#L" n="31"/>blicae vices gerentes. Primi habent auctoritatem 
+vindicati<lb break="no" ed="#L" n="32"/>vam intus et extra: secundi autem habent tantum 
+quan<lb break="no" ed="#L" n="33"/>tum eis tributum est. In hoc secundo ordine sunt comites,
+<lb ed="#L" n="34"/>marchiones et duces, qui sunt partes unius regni. Rex 
+si<lb break="no" ed="#L" n="35"/>quidem est caput et dominus non solum regni, sed cuiuslibet
+<lb ed="#L" n="36"/>reipublicae ipsius: dicti autem - domini sunt capita et 
+do<lb break="no" ed="#L" n="37"/>mini secundum quid. In cuius. signum, omnes respublicae
+<lb ed="#L" n="38"/>unius regni communicant in uno tribunali regio; et omnes
+<lb ed="#L" n="39"/>stipendia regia solvunt. Sunt etiam in hoc eodem ordine
+<lb ed="#L" n="40"/>communitates omnes quae subsunt alteri tanquam regi:
+<lb ed="#L" n="41"/>quales videntur esse omnes quae subsunt Romanae 
+Ec<lb break="no" ed="#L" n="42"/>clesiae. In. primo autem ordine sunt communiter reges
+<lb ed="#L" n="43"/>omnes, et communitates simpliciter liberae. Et de his 
+qui<lb break="no" ed="#L" n="44"/>dem communitatibus planum est: quia quaelibet est 
+per<lb break="no" ed="#L" n="45"/>fecta respublica. De regibus quoque eadem ratione patet:
+<lb ed="#L" n="46"/>quia scilicet regnum perfectam rempublicam significat, et
+<lb ed="#L" n="47"/>rex vices illius perfecte gerit; licet alicubi statuta sint talia
+<lb ed="#L" n="48"/>utreges fere solo nomine sint reges; sed nos de rege qui
+<lb ed="#L" n="49"/>est simpliciter dominus loquimur. - Ex hac autem 
+assi<lb break="no" ed="#L" n="50"/>gnata differentia inter principes patet quod illi domini qui
+<lb ed="#L" n="51"/>ob imperfectionem dominii habent superiorem, non 
+pos<lb break="no" ed="#L" n="52"/>sunt indicere bellum absque sui superioris auctoritate.
+<lb ed="#L" n="53"/>Facerent siquidem ei iniuriam, usurpantes sibi superiorum
+<lb ed="#L" n="54"/>auctoritatem, prae se ferentes capita simpliciter et dominos
+<lb ed="#L" n="55"/>simpliciter reipublicae , cum non sint. Illi autem. domini
+<lb ed="#L" n="56"/>qui perfecte capita et domini sunt, licet habeant 
+superio<lb break="no" ed="#L" n="57"/>rem, puta Imperatorem, nullam faciunt ei iniuriam bellum
+<lb ed="#L" n="58"/>propria auctoritate indicendo, quia utuntur iure suo: sunt
+<lb ed="#L" n="59"/>enim sub eo sicut una perfecta causa universalis sub alia
+<lb ed="#L" n="60"/>universaliori, et non sicut imperfecta sub perfecta, sicut
+<lb ed="#L" n="61"/>illi de secundo ordine; vel potius sunt sub eo secundum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="62"/>quid, et non simpliciter. - Et hoc videtur verius ex 
+prae<lb break="no" ed="#L" n="63"/>scripta consuetudine. Unitas enim Imperatoris et illius 
+do<lb break="no" ed="#L" n="64"/>minium, de iure positivo cum sit: — quia nec naturalis 
+ra<lb break="no" ed="#L" n="65"/>tio nec auctoritas sacrae Scripturae cogit omnes quartas
+<lb ed="#L" n="66"/>terrae, nec omnes nationes unius quartae, ad electionem
+<lb ed="#L" n="67"/>unius principis temporalis, ut patet: et constat ex electione
+<lb ed="#L" n="68"/>pendere naturaliter principatum temporalem. alicuius, misi
+<lb ed="#L" n="69"/>sit tyrannicus: — cum, inquam, de iure positivo sit, potest
+<lb ed="#L" n="70"/>per consuetudinem abrogari et tolli. Propter quod 
+prin<lb break="no" ed="#L" n="71"/>cipes et communitates quae consueverunt consuetudine 
+an<lb break="no" ed="#L" n="72"/>tiquissima uti auctoritate indictiva belli, possunt licite illa
+<lb ed="#L" n="73"/>uti: si tamen bona fide in pacifica possessione fuerunt et
+<lb ed="#L" n="74"/>sunt. Quod dico propter usurpantes sibi hoc ex 
+magnitu<lb break="no" ed="#L" n="75"/>dine potentiae, et rebelles suis dominis, [qui]. non 
+potue<lb break="no" ed="#L" n="76"/>runt nec possunt coerceri.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e500">
+                  <lb ed="#L" n="77"/>IV. Ad rationes autem pro omnibus principibus , 
+di<lb break="no" ed="#L" n="78"/>citur. Et ad primam, quod verum est quod littera accipit
+<lb ed="#L" n="79"/>prindipem ut personam publicam, sic enim. distinguitur
+<lb ed="#L" n="80"/>contra privatam: sed non accipit personam publicam 
+im<lb break="no" ed="#L" n="81"/>perfecte, sed perfecte. Et ideo non extenditur littera nisi
+<lb ed="#L" n="82"/>ad principes perfecte.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e516">
+                  <lb ed="#L" n="83"/>Ad secundam vero dicitur quod contra interiores et
+<lb ed="#L" n="84"/>exteriores spectat ad eosdem ex natura officii. Ad multos
+<lb ed="#L" n="85"/>tamen spectat ex commissione uti gladio contra internos
+<lb ed="#L" n="86"/>quibus non conceditur indicere bellum. contra externos:
+<lb ed="#L" n="87"/>ut patet in rectoribus, civitatibus et multis dominis qui
+<lb ed="#L" n="88"/>in dominio suo iudicant in causa sanguinis. Facilius enim
+<lb ed="#L" n="89"/>conceditur hoc a perfecte principibus quam auctoritas 
+con<lb break="no" ed="#L" n="90"/>tra externos. Littera ergo loquitur de his qui ex propria
+<lb ed="#L" n="91"/>hoc possunt auctoritate: quales non sunt omnes domini,
+<lb ed="#L" n="92"/>sed tantum perfecte domini.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e540">
+                  <lb ed="#L" n="93"/>V. In eodem articulo, circa iustitiam causae belli, 
+ad<lb break="no" ed="#L" n="94"/>verte quod, quia amici ac socii unum censentur, ideo iusta
+<lb ed="#L" n="95"/>causa indicendi bellum est pro ultione sociorum. Nec 
+mi<lb break="no" ed="#L" n="96"/>nus potest socios et extraneos ad bellum gerendum 
+prin<lb break="no" ed="#L" n="97"/>ceps invitare quam ad exercendam iustitiam intus 
+mini<lb break="no" ed="#L" n="98"/>stros extraneos conducere.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e556">
+                  <lb ed="#L" n="99"/>In eodem articulo, circa rectitudinem intentionis, scita.
+<lb ed="#L" n="100"/>quod, quemadmodum carnifices iudicum, si ex odio vel
+<lb ed="#L" n="101"/>feritate occidunt damnatos iuste, peccant quidem 
+mortali<lb break="no" ed="#L" n="102"/>ter, sed non tenentur ad restitutionem laesis ex morte, nec
+<lb ed="#L" n="103"/>vestium. occisorum; ita milites bellum iustum exercentes
+<lb ed="#L" n="104"/>et concessa auferentes, quamvis pessimo animo faciant,
+<lb ed="#L" n="105"/>peccant, sed non tenentur restituere.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e574">
+                  <lb ed="#L" n="106"/>In responsione ad primum, scito quod iam solum.
+<lb ed="#L" n="107"/>est dubium quod apud multos videtur esse, quomodo 
+res<lb break="no" ed="#L" n="108"/>publica non accipit gladium quando bellum indicit. Iam
+<lb ed="#L" n="109"/>enim monstratum est quod concessa est ei a iure 
+natu<lb break="no" ed="#L" n="110"/>ralis rationis auctoritas vindicativa suorum tam contra 
+in<lb break="no" ed="#L" n="111"/>traneos quam extraneos perturbatores.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e591">
+                  <lb ed="#L" n="112"/>In responsione ad quartum, scito. quod exercitia bellica
+<lb ed="#L" n="113"/>periculosa in hoc discernuntur a non periculosis, quod in
+<lb ed="#L" n="114"/>ilis ut in pluribus laesiones notabiles eveniunt; in istis
+<lb ed="#L" n="115"/>autem vel raro vel nunquam. Moralia enim. iudicantur
+<lb ed="#L" n="116"/>secundum id quod in. pluribus invenitur. Propterea oportet
+<lb ed="#L" n="117"/>prudenter arbitrari, circumspecta natura exercitii, quae sint
+<lb ed="#L" n="118"/>iliicita exercitia in particulari. Gladiatoriae enim exercitia
+<lb ed="#L" n="119"/>artis procul dubio licita sunt, cum enses ipsi absque acumine
+<lb ed="#L" n="120"/>sint. Et similiter hastiludia illa quae cum lanceis 
+propor<lb break="no" ed="#L" n="121"/>tionaliter dispositis ut. de ensibus. diximus fiunt, eadem. 
+ra<lb break="no" ed="#L" n="122"/>tione.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1479-Dd1e618"><!-- caj-p2p2-q40a2 -->
+               <head xml:id="TAcCaj-d1e1479-Hd1e621">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1479-d1e623">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="109"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e630">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="110"/>IN articulo secundo, circa calcem corporis articuli, dubium
+<lb ed="#L" n="111"/>Ius. an liceat clericis in articulo necessitatis pugnare
+<lb ed="#L" n="112"/>manu propria in bello.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e641">
+                  <lb ed="#L" n="113"/>Ad hoc dicitur quod articulus necessitatis dupliciter con-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="114"/>tingere potest in bello: primo scilicet, defensive, ut scilicet,
+<lb ed="#L" n="115"/>nisi clerici aliqui pugnent, civitas vel exercitus evertitur
+<lb ed="#L" n="116"/>ab hoste; secundo, ratione victoriae, quia scilicet, nisi 
+cle<lb break="no" ed="#L" n="117"/>rici aliqui pugnent, non haberetur victoria tunc parta. In
+<pb ed="#L" n="316"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>primo casu clerici non peccant pugnando manu propria.
+<lb ed="#L" n="2"/>Quia lex positiva qua clerici arcentur ne pugnent manu
+<lb ed="#L" n="3"/>propria, venit ad casum in quo, si legislator adesset, 
+dis<lb break="no" ed="#L" n="4"/>pensaret. Cum enim finis legis sit commune bonum; et
+<lb ed="#L" n="5"/>legis spiritualis bonum spirituale; et bonum commune 
+tem<lb break="no" ed="#L" n="6"/>porale et spirituale, quod iusto bello defensivo servatur,
+<lb ed="#L" n="7"/>praestet bono particulari alicuius quo habilis est ad altaris
+<lb ed="#L" n="8"/>ministerium: consequens est ut licite clericus sciens bene
+<lb ed="#L" n="9"/>dirigere bombardas, aliis ad hoc non existentibus, vel alio |
+<lb ed="#L" n="10"/>simili casu, manu propria salvet patriam vel exercitum sine
+<lb ed="#L" n="11"/>tali auxilio pereuntem. Nec solum videtur quod hoc 
+pos<lb break="no" ed="#L" n="12"/>sit clericus, sed etiam quod ad hoc teneatur in tali articulo,
+<lb ed="#L" n="13"/>propter eandem rationem: praesertim si cum infidelibus
+<lb ed="#L" n="14"/>agitur. - Nec obstat quod fiant et remaneant irregulares.
+<lb ed="#L" n="15"/>Quia irregularitas sine peccato, et cum merito aeternae 
+vi<lb break="no" ed="#L" n="16"/>tae, incurri potest. Propter quod, sicut laicus ad hoc 
+te<lb break="no" ed="#L" n="17"/>netur, sic et clericus, in casu in quo lex quoad peccatum
+<lb ed="#L" n="18"/>locum non habet: licet semper habeat locum quoad 
+irre<lb break="no" ed="#L" n="19"/>gularitatem, quia irregularitas sequitur factum. — Nec obstat
+<lb ed="#L" n="20"/>dictis ratio litterae, scilicet: Nulli deputato ad aliquod 
+offi<lb break="no" ed="#L" n="21"/>cium licet id per quod suo officio incongruus. redditur.
+<lb ed="#L" n="22"/>Quoniam hoc est verum regulariter: secus autem est in
+<lb ed="#L" n="23"/>singulari casu.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e711">
+                  <lb ed="#L" n="24"/>In secundo autem casu non videtur communiter lici-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>tum. Et ratio diversitatis est quia victoria est necessaria
+<lb ed="#L" n="26"/>propter recuperationem rerum, vel punitionem aut 
+expul<lb break="no" ed="#L" n="27"/>sionem. hostium; quae non sunt necessaria sicut salus,
+<lb ed="#L" n="28"/>quae in primo casu defenditur. Dixi autem communiter.
+<lb ed="#L" n="29"/>Quia si, parta tunc victoria, esset pax universalis Ecclesiae,
+<lb ed="#L" n="30"/>aut fidei christianae magna protectio; crederem clericum
+<lb ed="#L" n="31"/>licite manu. propria pugnando illam facere. Et haec 
+intel<lb break="no" ed="#L" n="32"/>ligo, salvis aliis conditionibus iusti belli, scilicet quod 
+cle<lb break="no" ed="#L" n="33"/>rici publica auctoritate hoc faciant, et constet de iustitia
+<lb ed="#L" n="34"/>belli: quoniam in eis non habet locum obedientia excusans.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e741">
+                  <lb ed="#L" n="35"/>II. In eodem articulo, in responsione ad tertium, 
+ad<lb break="no" ed="#L" n="36"/>verte quod quia alia conditio belli iusti est iustitia causae,
+<lb ed="#L" n="37"/>et alia auctoritas qua indicitur; attendere oportet in bellis
+<lb ed="#L" n="38"/>non solum auctoritatem indicentis, sed etiam causam; et
+<lb ed="#L" n="39"/>hinc sumere quod nulla auctoritas sufficit ad iustitiam belli
+<lb ed="#L" n="40"/>si iustitia desit in causa. Unde licet ad Papam spectet 
+in<lb break="no" ed="#L" n="41"/>ducere ad bellum, ut in hac littera dicitur; si tamen Papa
+<lb ed="#L" n="42"/>indiceret bellum, non propterea iustum oportet illud esse:
+<lb ed="#L" n="43"/>cum persona quae Papatus auctoritate fungitur possit esse
+<lb ed="#L" n="44"/>iniusta et libidine dominandi vel vindictae affecta, sicut et
+<lb ed="#L" n="45"/>alia enormia crimina habere. Nec excusantur dantes ei
+<lb ed="#L" n="46"/>auxilium in bello sine iusta causa: sicut nec ministrantes 
+<lb ed="#L" n="47"/>eidem ad rapinam, homicidia, veneficia, adulteria, luxurias
+<lb ed="#L" n="48"/>et huiusmodi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1479-Dd1e775"><!-- caj-p2p2-q40a4 -->
+               <head xml:id="TAcCaj-d1e1479-Hd1e778">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1479-d1e780">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e787">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>In articulo quarto eiusdem quaestionis, omisso tertio,
+<lb ed="#L" n="35"/>dubia duo occurrunt. Primum est, an necessitas 
+excu<lb break="no" ed="#L" n="36"/>sans bellum a peccato in die festo sit sola necessitas 
+de<lb break="no" ed="#L" n="37"/>fensionis. Et hoc propter id quod in littera dicitur, scilicet,
+<lb ed="#L" n="38"/>pro tuitione reipublicae. Et Machabaei dixerunt 
+pugnan<lb break="no" ed="#L" n="39"/>dum in sabbato contra venientes adversus se. - Et Nicolaus
+<lb ed="#L" n="40"/>Papa, ut habetur <ref xml:id="TAcCaj-d1e1479-Rd1e806">XXIII, qu. vnr, Si nulla</ref>, dicit, <quote xml:id="TAcCaj-d1e1479-Qd1e808">si 
+ine<lb break="no" ed="#L" n="41"/>vitabilis urget importunitas, licere omni tempore bellum,
+<lb ed="#L" n="42"/>ne tentetur Deus</quote>.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e816">
+                  <lb ed="#L" n="43"/>Secundum est de qualitate illiciti: an scilicet absque
+<lb ed="#L" n="44"/>necessitate bellare in festo sit sic illicitum quod sit 
+mor<lb break="no" ed="#L" n="45"/>tale peccatum, an veniale.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e825">
+                  <lb ed="#L" n="46"/>II. Ad primum horum dicitur quod non solum 
+defensio<lb break="no" ed="#L" n="47"/>nis, sed victoriae causa aggredi licitum est bellando, quando
+<lb ed="#L" n="48"/>opus est. Si enim secundum iura canonica licitum est,
+<lb ed="#L" n="49"/>quando piscium temporaneus eventus occurrit, in festo
+<lb ed="#L" n="50"/>piscari, ut patet <ref xml:id="TAcCaj-d1e1479-Rd1e838">Extra, de Feriis, cap. Licet</ref>; multo 
+ma<lb break="no" ed="#L" n="51"/>gis, oblata opportunitate victoriae, quae si quis in instanti
+<lb ed="#L" n="52"/>non utitur, postea non habetur, licet aggredi hostes in die
+<lb ed="#L" n="53"/>festo. Est siquidem in hoc et in similibus casibus 
+neces<lb break="no" ed="#L" n="54"/>sitas consequendi tantum bonum, scilicet pacem, pro qua
+<lb ed="#L" n="55"/>tot incommoda suscipiuntur.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e852">
+                  <lb ed="#L" n="56"/>Nec littera oppositum sentit. Quoniam in reipublicae
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>tuitione omnis iusta causa belli intelligi potest: ultio enim
+<lb ed="#L" n="58"/>perturbatorum, et reparatio rerum, nonnulla reipublicae
+<lb ed="#L" n="59"/>tuitio est. Quamvis locus ab auctoritate negative, scilicet
+<lb ed="#L" n="60"/>ex non nominata alia causa nisi defensionis, ut etiam in
+<lb ed="#L" n="61"/>Machabaeis accidit, non valeat.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e870">
+                  <lb ed="#L" n="62"/>Nicolaus autem Papa non de necessitate exercendi actum
+<lb ed="#L" n="63"/>bellandi hoc vel illo tempore, sed de necessitate belli 
+lo<lb break="no" ed="#L" n="64"/>quitur. Unde dicit: S; nulla urget necessitas, non solum
+<lb ed="#L" n="65"/>quadragesimali tempore, sed omni tempore est a praeliis
+<lb ed="#L" n="66"/>abstinendum. Constat autem ex Augustino, ad 
+Bonifa<lb break="no" ed="#L" n="67"/>cium, ut habetur XXIII, qu. r, Noli existimare, quod 
+pa<lb break="no" ed="#L" n="68"/>cem habere est voluntatis, bellum autem debet esse 
+neces<lb break="no" ed="#L" n="69"/>sitatis. Non enim bellandum est nisi necesse sit vel 
+recu<lb break="no" ed="#L" n="70"/>perare vel ulcisci, ut ex dictis patet.
+</p>
+               <p xml:id="TAcCaj-d1e1479-d1e892">
+                  <lb ed="#L" n="71"/>III. Ad secundum dicitur quod, cum bellare non sit de
+<lb ed="#L" n="72"/>genere suo opus servile; nec secundum se malum; sed
+<lb ed="#L" n="73"/>pro tanto illicitum pro quanto fini ipsius sabbati 
+impro<lb break="no" ed="#L" n="74"/>portionatum est: nulla ratio apparet quare sit peccatum
+<lb ed="#L" n="75"/>mortale in festo absque necessitate, si divina non 
+omit<lb break="no" ed="#L" n="76"/>tantur propterea. Videmus etiam <sic>hastiludia</sic> ordinata et 
+cho<lb break="no" ed="#L" n="77"/>reas et nuptias, et huiusmodi inquietantia mentem, in festis
+<lb ed="#L" n="78"/>fieri absque scrupulo mortalis peccati.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

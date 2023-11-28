@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="41"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1287"><!-- TAcCajp2p2-q3 -->
+            <head xml:id="TAcCaj-d1e1287-Hd1e101">Quaestio 3</head>
+            <div xml:id="TAcCaj-d1e1287-Dd1e103"><!-- caj-p2p2-q3a2 -->
+               <head xml:id="TAcCaj-d1e1287-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1287-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>In quaestione tertia, omisso primo articulo, circa secundum
+<lb ed="#L" n="69"/>articulum dubium occurrit, an liceat fideli in terris 
+infi<lb break="no" ed="#L" n="70"/>delium omittere signum a Christianis solitum deferri, vel
+<lb ed="#L" n="71"/>vestem mutare, ne, cognitus Christianus, occidatur. Et est
+<lb ed="#L" n="72"/>ratio dubii quia quod liceat patet ex eo quod licitum est
+<lb ed="#L" n="73"/>clerico nutrire comam ut tutius Romam veniat non 
+co<lb break="no" ed="#L" n="74"/>gnitus clericus, sed laicus reputatus. Ergo a simili. — In
+<lb ed="#L" n="75"/>oppositum est littera huius articuli dicens quod, si quis
+<lb ed="#L" n="76"/>taciturnitate putaretur quod non haberet fidem, 
+transgres<lb break="no" ed="#L" n="77"/>sor esset praecepti confessionis fidei. Tacere autem verbo
+<lb ed="#L" n="78"/>vel alio signo, puta veste, eiusdem est rationis. Ergo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e144">
+                  <lb ed="#L" n="79"/>II. Ad hoc dicitur quod aliud est occultare propriam 
+fi<lb break="no" ed="#L" n="80"/>dem, et aliud profiteri alienam fidem: sive accidat 
+utrum<lb break="no" ed="#L" n="81"/>que verbo sive alio signo. Et profiteri alienam fidem nullo
+<lb ed="#L" n="82"/>pacto licet. Et propterea, sicut mortaliter peccaret si quis
+<lb ed="#L" n="83"/>diceret se esse Iudaeum aut Mahumetanum, ita mortaliter
+<lb ed="#L" n="84"/>peccaret si uteretur veste aut birreto aut quocumque alio
+<lb ed="#L" n="85"/>signo proprio ludaeis in illa patria aut proprio 
+Mahume<lb break="no" ed="#L" n="86"/>tanis: verbi gratia, si quis in terra Soldani uteretur tobalia
+<lb ed="#L" n="87"/>alba in capite, quae ibi est propria Mahumetanis; aut si
+<lb ed="#L" n="88"/>quis in his partibus uteretur signo quo discernuntur Iudaei.
+<lb ed="#L" n="89"/>Occultare autem propriam fidem non est ex suo genere
+<lb ed="#L" n="90"/>malum, sed potest bene et male fieri: bene quidem, 
+tem<lb break="no" ed="#L" n="91"/>pore quo non tenetur homo confiteri; male autem, quando
+<lb ed="#L" n="92"/>homo tenetur confiteri suam fidem. Unde beatus Sebastianus
+<lb ed="#L" n="93"/>quodam tempore occulte fuit Christianus, et quodam deinde
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>tempore manifestavit fidem suam. Nolle ergo se cognosci
+<lb ed="#L" n="95"/>Christianum quandoque licitum est et quandoque illicitum,
+<lb ed="#L" n="96"/>ut in littera dicitur. Ex qua habetur, quod tunc est 
+illi<lb break="no" ed="#L" n="97"/>citum quando occultatio auferret debitum Deo honorem
+<lb ed="#L" n="98"/>aut proximis impendendam utilitatem. Et quia in proposito
+<lb ed="#L" n="99"/>casu proximis non subtrahi utilitatem aliquam supponitur,
+<lb ed="#L" n="100"/>tota difficultas restat an Deo subtrahatur ex hoc debitus
+<lb ed="#L" n="101"/>honor.
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e199">
+                  <lb ed="#L" n="102"/>III. Apparet enim quod sic. Quia signum solitum 
+Chri<lb break="no" ed="#L" n="103"/>stianorum omittit: ac per hoc facit id per quod creditur
+<lb ed="#L" n="104"/>non habere fidem Christi. - Secundum veritatem autem,
+<lb ed="#L" n="105"/>distinguendum est: quod si est alicubi lex aut consuetudo
+<lb ed="#L" n="106"/>in viridi observantia ab omnibus tam habitantibus quam
+<lb ed="#L" n="107"/>transeuntibus vel adventantibus Christianis, aliqua certa
+<lb ed="#L" n="108"/>veste aut signo certo ad professionem suae fidei uti 
+man<lb break="no" ed="#L" n="109"/>dans, non utens tali signo ut, ignotus Christianus, non
+<lb ed="#L" n="110"/>occidatur, peccat mortaliter. Quoniam tunc est locus et
+<lb ed="#L" n="111"/>tempus confitendae fidei quando interrogatur quis de sua
+<lb ed="#L" n="112"/>fide, ut in littera dicitur, ita quod si tacendo creditur non
+<lb ed="#L" n="113"/>Christianus, subtrahit Deo debitum tunc ibi honorem: in
+<lb ed="#L" n="114"/>casu autem proposito plus quam interrogatio intervenit,
+<lb ed="#L" n="115"/>dum exigitur a lege vel consuetudine talis fidei manifestatio.
+<lb ed="#L" n="116"/>Nec obstat si lex sit a tyranno facta: quoniam, exactus
+<lb ed="#L" n="117"/>tyrannice de propria fide manifestanda, tenetur Christianus
+<lb ed="#L" n="118"/>propriam manifestare fidem, ut Deo debitum reddat 
+ho<lb break="no" ed="#L" n="119"/>norem.
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e242">
+                  <pb ed="#L" n="42"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Si autem non sit lex neque consuetudo; aut non 
+ser<lb break="no" ed="#L" n="2"/>vatur ab omnibus, sed.a multis servatur et a multis non
+<lb ed="#L" n="3"/>servatur: tunc potest licite omittere tale signum ut salvet
+<lb ed="#L" n="4"/>sibi vitam corporalem; quia tunc suo relinquitur arbitrio
+<lb ed="#L" n="5"/>an manifestare velit propriam fidem. Et sicut non tenetur
+<lb ed="#L" n="6"/>tunc verbo dicere se Christianum, ita nec alio signo.
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e262">
+                  <lb ed="#L" n="7"/>Similiter si lex aut consuetudo sit non ad professionem
+<lb ed="#L" n="8"/>fidei ordinata, sed ad politicum. bonum, verum yel 
+aesti<lb break="no" ed="#L" n="9"/>matum, puta ad punitionem vel evitationem eorum, aut
+<lb ed="#L" n="10"/>ad cavendum ab eis, aut aliquid huiusmodi; ut contingit
+<lb ed="#L" n="11"/>Iudaeis inter Christianos ubi oportet eos signo aliquo 
+dis<lb break="no" ed="#L" n="12"/>cerni, non ad professionem suae fidei, sed ut cognoscantur
+<lb ed="#L" n="13"/>et cavere possimus ab eis, et in quandam etiam eorum
+<lb ed="#L" n="14"/>poenam: licitum est, ad salvandam. vitam, non uti ad 
+tem<lb break="no" ed="#L" n="15"/>pus tali Signo vel veste. Quoniam haec non nisi regulariter
+<lb ed="#L" n="16"/>ligant, sicut ceterae similes leges et consuetudines positivae.
+<lb ed="#L" n="17"/>Et huiusmodi omissio non spectat ad omissionem 
+profes<lb break="no" ed="#L" n="18"/>sionis fidei simpliciter et directe: sed ex consequenti 
+tan<lb break="no" ed="#L" n="19"/>tum, et per istud signum non necessarium.
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e293">
+                  <lb ed="#L" n="20"/>Secus autem, ut dictum est, dicendum est de 
+assu<lb break="no" ed="#L" n="21"/>mente signum alienae fidei, puta signo Iudaeorum utente.
+<lb ed="#L" n="22"/>Quoniam peccat procul dubio mortaliter profitendo se 
+Tu<lb break="no" ed="#L" n="23"/>daeum. Quoniam etsi non sit institutum signum illud ad
+<lb ed="#L" n="24"/>professionem fidei iudaicae, includit tamen professionem
+<lb ed="#L" n="25"/>illius, ita quod constat omnem utentem illo profiteri se
+<lb ed="#L" n="26"/>Iudaeum tali signo. Non constat autem: omnem non 
+uten<lb break="no" ed="#L" n="27"/>tem illo non profiteri se Iudaeum, Et similiter non 
+con<lb break="no" ed="#L" n="28"/>staret omittentem uti signo Christianorum profiteri se non
+<lb ed="#L" n="29"/>Christianum.
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e317">
+                  <lb ed="#L" n="30"/>Nec obstat si propterea creditur non Christianus. Quo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="31"/>niam non tenetur. Christianus adhoc ut sit. Christianus
+<lb ed="#L" n="32"/>manifestus nisi pro loco et tempore, quando scilicet est
+<lb ed="#L" n="33"/>necesse. Beatus enim Sebastianus , quando erat occulte
+<lb ed="#L" n="34"/>Christianus, sciebat quod alii credebant eum non esse 
+Chri<lb break="no" ed="#L" n="35"/>stianum: et non curans de hoc ad temps, propter bonum
+<lb ed="#L" n="36"/>finem, non peccavit. 
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e337">
+                  <lb ed="#L" n="37"/>Ad obiectionem. de clerico dititor quod; »,Si clericus
+<lb ed="#L" n="38"/>verbo. vel facto. mentiretur se laicum, peccaret. Sed non
+<lb ed="#L" n="39"/>utendo signo clericorum, scilicet tonsura et huiusmodi,
+<lb ed="#L" n="40"/>propter salvandam, in via vitam, excusatur ab observatione
+<lb ed="#L" n="41"/>legis: quia lex positiva non obligat ad ista signa i in omni
+<lb ed="#L" n="42"/>casu, sed regulariter. Unde etiam infirmitatis gratia omissa
+<lb ed="#L" n="43"/>signa ista non inducunt. transgressionem. legis... In. casu
+<lb ed="#L" n="44"/>autem proposito, .: si lex aut consuetudo servata ab. 
+omni<lb break="no" ed="#L" n="45"/>bus exigit, casus est necessitatis ut suam quis profiteatur
+<lb ed="#L" n="46"/>tali signo fidem.;
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e361">
+                  <lb ed="#L" n="47"/>IV. In responsione ad primum eiusdem secundi articuli
+<lb ed="#L" n="48"/>dubium occurrit novitiorum, quomodo. finis fidei referri.
+<lb ed="#L" n="49"/>debeat in finem caritatis, cum fidei. finis. et obiectum. idem
+<lb ed="#L" n="50"/>sit.quod finis caritatis, Deus scilicet, Numquid Deus in
+<lb ed="#L" n="51"/>Deum referendus est?
+</p>
+               <p xml:id="TAcCaj-d1e1287-d1e375">
+                  <lb ed="#L" n="52"/>Ad hoc dicitur quod, ut superius patet, finis est 
+du<lb break="no" ed="#L" n="53"/>plex: res, et adeptio seu possessio rei. In proposito non
+<lb ed="#L" n="54"/>est sermo de fine ut res, sic enim est Deus utriusque finis:
+<lb ed="#L" n="55"/>sed de fine ut usus rei, Et sic in littera. dicitur quod 
+con<lb break="no" ed="#L" n="56"/>iunctio mentis nostrae per fidem ad Deum, quae : consistit
+<lb ed="#L" n="57"/>in credendo ipsum, referenda est ad coniunctionem. 
+no<lb break="no" ed="#L" n="58"/>stram per caritatem ad Deum: quia referenda est ad velle
+<lb ed="#L" n="59"/>bonum, puta honorem, gloriam, amicos, etc., ipsi Deo
+<lb ed="#L" n="60"/>in quo consistit coniunctio caritatis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

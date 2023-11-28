@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 39</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 39</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="307"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1473"><!-- TAcCajp2p2-q39 -->
+            <head xml:id="TAcCaj-d1e1473-Hd1e101">Quaestio 39</head>
+            <div xml:id="TAcCaj-d1e1473-Dd1e103"><!-- caj-p2p2-q39a1 -->
+               <head xml:id="TAcCaj-d1e1473-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1473-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>In corpore primi articuli quaestionis trigesimaenonae tria
+<lb ed="#L" n="17"/>simul dubia occurrunt. Primum est, in quo consistit 
+uni<lb break="no" ed="#L" n="18"/>tas Ecclesiae cui opponitur schisma. - Secundum vero,
+<lb ed="#L" n="19"/>quomodo unitas est a caritate, ut littera dicit. — Tertium
+<lb ed="#L" n="20"/>autem, quomodo schisma opponitur illi unitati.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e131">
+                  <lb ed="#L" n="21"/>Et primi quidem dubii, in quo scilicet consistat unitas
+<lb ed="#L" n="22"/>Ecclesiae cui opponitur schisma, ratio est quia, cum unum
+<lb ed="#L" n="23"/>sequatur ens, omnis unitas oportet quod sit secundum 
+ali<lb break="no" ed="#L" n="24"/>quod esse; et omne tollens unitatem tollat aliquod esse.
+<lb ed="#L" n="25"/>Constat autem. quod, secluso esse relativo membrorum 
+Ec<lb break="no" ed="#L" n="26"/>clesiae ad.unum caput, nullum esse apparet commune
+<lb ed="#L" n="27"/>membris Ecclesiae inter se fundans unitatem Ecclesiae quae
+<lb ed="#L" n="28"/>tolli dicitur per schisma. Nam esse fidei, spei, 
+sacramen<lb break="no" ed="#L" n="29"/>torum et cultus stat cum schismate. Esse autem caritatis
+<lb ed="#L" n="30"/>indirecte. quidem per omne peccatum mortale, directe 
+au<lb break="no" ed="#L" n="31"/>tem per explicitum ipsius contemptum perditur, sed hoc
+<lb ed="#L" n="32"/>non est schismatis vitium: nam qui vult caritatem nec in
+<lb ed="#L" n="33"/>se nec in alio esse, non propterea schismaticus est.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e162">
+                  <lb ed="#L" n="34"/>Secundi vero dubii, quomodo scilicet unitas haec 
+Eccle<lb break="no" ed="#L" n="35"/>siae sit a caritate, ratio est tum quia schisma tollit illud esse
+<lb ed="#L" n="36"/>quod sine caritate possidetur: ut patet cum aliqui in peccato
+<lb ed="#L" n="37"/>mortali praeexistentes fiunt de novo schismatici. - T'um quia
+<lb ed="#L" n="38"/>schismaticus est qui renuit subesse Romano Pontifici: hoc
+<lb ed="#L" n="39"/>autem non directe caritati, sed obedientiae opponitur.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e179">
+                  <lb ed="#L" n="40"/>Tertii autem dubii ratio est quia, cum unum 
+opposi<lb break="no" ed="#L" n="41"/>torum tollat reliquum; et unitas Ecclesiae non sit ab 
+Ec<lb break="no" ed="#L" n="42"/>clesia auferibilis, sicut nec esse ipsius, quantumcumque
+<lb ed="#L" n="43"/>fiant infinita schismata (alioquin aut possent esse plures
+<lb ed="#L" n="44"/>Ecclesiae quam una; aut posset desinere esse ante 
+consum<lb break="no" ed="#L" n="45"/>mationem saeculi): consequens est quod schisma non 
+tol<lb break="no" ed="#L" n="46"/>lat unitatem Ecclesiae; et consequenter male ex hoc eius
+<lb ed="#L" n="47"/>natura monstratur.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e199">
+                  <lb ed="#L" n="48"/>II. Ad evidentiam horum sciendum est quod, cum 
+Ec<lb break="no" ed="#L" n="49"/>clesia militans, de qua sola est sermo, sit congregatio
+<lb ed="#L" n="50"/>omnium fidelium et una numero, oportet quod tam 
+enti<lb break="no" ed="#L" n="51"/>tas quam unitas eius numeralis constituatur ex aliquo esse
+<lb ed="#L" n="52"/>non quo aliquid est in se, sed quo ad aliud ordinatur.
+<lb ed="#L" n="53"/>Inter entis autem genera, solum relatio, actio et passio
+<lb ed="#L" n="54"/>separata iungunt. Esse namque substantiae, quantitatis et
+<lb ed="#L" n="55"/>qualitatis sic in uno supposito consistit quod ad aliud non
+<lb ed="#L" n="56"/>se extendit; actione autem et passione iunguntur etiam
+<lb ed="#L" n="57"/>caelum et terra; et esse relativo totum universum. Unde
+<lb ed="#L" n="58"/>Ecclesiae esse et unitas secundum haec consideranda est,
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e225">
+                  <lb ed="#L" n="59"/>Tria autem invenimus in ipsis fidelibus. Primo, 
+unita<lb break="no" ed="#L" n="60"/>tem virtutum theologicarum et sacramentorum: singuli
+<lb ed="#L" n="61"/>namque fideles credunt unum, sperant unum, amant unum,
+<lb ed="#L" n="62"/>scilicet Deum trinum et unum etc., et tenent eadem 
+sa<lb break="no" ed="#L" n="63"/>cramenta. Et si fideles non haberent aliam unitatem, 
+Ec<lb break="no" ed="#L" n="64"/>clesia non esset, proprie loquendo, una; sed fideles essent
+<lb ed="#L" n="65"/>similes in praedictis.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e243">
+                  <lb ed="#L" n="66"/>Invenimus ergo, secundo, unitatem capitis, non solum
+<lb ed="#L" n="67"/>in caelo, Christi; sed in terra, sui Vicarii. Ex qua unitate
+<lb ed="#L" n="68"/>apponitur in ipsis fidelibus esse relativum ordinis, scilicet
+<lb ed="#L" n="69"/>ad caput unum; et actionis et passionis, secundum 
+praeci<lb break="no" ed="#L" n="70"/>pere et obedire. Moventur siquidem singuli fideles a 
+Spi<lb break="no" ed="#L" n="71"/>ritu Sancto non solum ad credendum, sperandum, etc., sed
+<lb ed="#L" n="72"/>etiam ad obediendum uni et eidem capiti, Christi Vicario.
+<lb ed="#L" n="73"/>Et si apud fideles nulla alia esset unitas, Ecclesia non 
+di<lb break="no" ed="#L" n="74"/>ceretur una, sed sub uno: essent enim fideles sicut multa
+<lb ed="#L" n="75"/>regna sub uno rege.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e267">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="76"/>Invenimus igitur, tertio, unitatem collectionis 
+universo<lb break="no" ed="#L" n="77"/>rum fidelium. Ex qua unitate apponitur singulis fidelium
+<lb ed="#L" n="78"/>esse relativum: scilicet esse partem unius numero populi,
+<lb ed="#L" n="79"/>civitatis, domus. Ac per hoc dependentia apponitur 
+unicui<lb break="no" ed="#L" n="80"/>que a toto: pars enim quaelibet a suo toto pendet. Hinc
+<lb ed="#L" n="81"/>secundum actionem et passionem modus et regula 
+habe<lb break="no" ed="#L" n="82"/>tur. Moventur siquidem fideles a Spiritu Sancto ad opera
+<lb ed="#L" n="83"/>vitae spiritualis, scilicet credere, sperare, diligere, 
+sanctifi<lb break="no" ed="#L" n="84"/>care et sanctificari, obedire, praecipere, illuminare, etc., non
+<lb ed="#L" n="85"/>solum secundum substantiam, sed etiam quoad modum
+<lb ed="#L" n="86"/>operandi: ut scilicet haec operentur ut partes unius totius.
+<lb ed="#L" n="87"/>Et huius rei non est quaerenda alia causa nisi quia sic
+<lb ed="#L" n="88"/>disposuit Spiritus Sanctus, qui inter articulos fidei posuit
+<lb ed="#L" n="89"/>unam sanctam Ecclesiam, ultra Sanctorum communionem.
+<lb ed="#L" n="90"/>Ipse namque Spiritus, dividens singulis prout vult, voluit
+<lb ed="#L" n="91"/>Ecclesiam catholicam, idest universalem, esse unam et non
+<lb ed="#L" n="92"/>plures. Et propterea movet singulos ad interius et exterius
+<lb ed="#L" n="93"/>operandum ut partes unius, et propter illud unum, et
+<lb ed="#L" n="94"/>secundum illud unum. Quilibet enim fidelis credit se 
+mem<lb break="no" ed="#L" n="95"/>brum Ecclesiae, et ut membrum Ecclesiae credit, sperat,
+<lb ed="#L" n="96"/>ministrat sacramenta, suscipit, docet, discit, etc.; et propter
+<lb ed="#L" n="97"/>Ecclesiam haec facit ut pars propter totum, cuius est
+<lb ed="#L" n="98"/>quidquid est; et secundum Ecclesiae fidem et traditionem
+<lb ed="#L" n="99"/>haec operatur. Et hinc fit ut inter ecclesias quae videntur
+<lb ed="#L" n="100"/>omnino separatae, puta Scotiae et Hispaniae, non solum
+<lb ed="#L" n="101"/>sit convenientia in fide, spe, caritate, sacramentis et 
+obe<lb break="no" ed="#L" n="102"/>dientia ad unum caput; sed etiam colligatio partis ad 
+par<lb break="no" ed="#L" n="103"/>tem in una numero congregatione, quae primo et 
+princi<lb break="no" ed="#L" n="104"/>paliter regitur a Spiritu Sancto. Cuius unitas est summum
+<lb ed="#L" n="105"/>bonum, non simpliciter, sed in genere bonorum ad 
+pro<lb break="no" ed="#L" n="106"/>ximum spectantium: utpote bonum totius mundi non
+<lb ed="#L" n="107"/>qualecumque, sed spirituale; non per accidens, sed per se;
+<lb ed="#L" n="108"/>nec secundarium, sed principale; quia est ipsum esse 
+Ec<lb break="no" ed="#L" n="109"/>clesiae ut unius totius rationem babet. Signum autem huius
+<lb ed="#L" n="110"/>unius totius et partium est unitas synodi universalis.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e348">
+                  <lb ed="#L" n="111"/>Haec est Ecclesiae unitas cui opponitur schisma. Nam
+<lb ed="#L" n="112"/>ex eo aliquis est schismaticus quod renuit ut pars 
+Eccle<lb break="no" ed="#L" n="113"/>siae operari. Nec refert ex quacumque causa hoc oriatur:
+<lb ed="#L" n="114"/>dummodo enim ad hoc deveniatur quod renuit se habere
+<lb ed="#L" n="115"/>ut pars unius Ecclesiae catholicae, schisma incurritur. Ex
+<lb ed="#L" n="116"/>quacumque siquidem diversitate vel sententiarum vel 
+affe<lb break="no" ed="#L" n="117"/>ctionum intantum aliquis exorbitet ut velit sanctificare vel
+<lb ed="#L" n="118"/>sanctificari, docere vel doceri, providere vel provideri, non
+<lb ed="#L" n="119"/>ut pars Ecclesiae catholicae, sed tanquam ipsimet sint 
+vel<lb break="no" ed="#L" n="120"/>ut quoddam totum seorsum, schismatici sunt, — Et per
+<lb ed="#L" n="121"/>hoc patet solutio primi dubii. Sed responsio ad 
+obiectio<lb break="no" ed="#L" n="122"/>nem de caritate in solutione secundi dubii patebit.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e378">
+                  <lb ed="#L" n="123"/>III. Dicitur ergo ad secundum dubium quod quia
+<lb ed="#L" n="124"/>amoris est unire, et unitas Ecclesiae est unitas spiritualis,
+<lb ed="#L" n="125"/>ideo attribuitur amori spirituali, qui est caritas: non quod
+<lb ed="#L" n="126"/>ista unio sit caritas, sed quia est effectus caritatis; movet
+<lb ed="#L" n="127"/>enim Spiritus Sanctus per caritatem singulos fideles ad
+<lb ed="#L" n="128"/>volendum se esse partes unius collectionis catholicae, quam
+<lb ed="#L" n="129"/>ipse vivificat; ac per hoc, ad constituendum unam 
+Eccle<lb break="no" ed="#L" n="130"/>siam catholicam. Verum effectus caritatis sunt duplices:
+<lb ed="#L" n="131"/>quidam semper formati, ut contritio; quidam qui possunt
+<lb ed="#L" n="132"/>esse informes, ut misereri, dare eleemosynam propter 
+Chri<lb break="no" ed="#L" n="133"/>stum. Unitas autem ecclesiastica, licet simpliciter sit.
+for<lb break="no" ed="#L" n="134"/>mata, sicut Ecclesia semper est in gratia; ut tamen est in
+<lb ed="#L" n="135"/>hoc vel illo, potest esse informis. Et propterea stat uni-
+<pb ed="#L" n="308"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tatem hanc esse effectum caritatis, et tamen possideri cum
+<lb ed="#L" n="2"/>peccato mortali. Et stat aliquem nolle. caritatem esse in
+<lb ed="#L" n="3"/>se vel in alio, et non esse schismaticum: nisi ad hoc 
+de<lb break="no" ed="#L" n="4"/>veniret quod nollet hunc effectum caritatis esse qui est
+<lb ed="#L" n="5"/>unitas Ecclesiae. Et tunc etiam esset distinguendum. Quia
+<lb ed="#L" n="6"/>aliud est nolle unitatem Ecclesiae esse, et aliud. est 
+sub<lb break="no" ed="#L" n="7"/>trahere se animo ab unitate Ecclesiae: sicut aliud est nolle
+<lb ed="#L" n="8"/>fidem Christi esse, et aliud est non credere ea quae sunt
+<lb ed="#L" n="9"/>fidei. Utrobique enim primum spectat ad odium rerum
+<lb ed="#L" n="10"/>spiritualium: secundum autem ad propria vitia schismatis
+<lb ed="#L" n="11"/>et haeresis. - Ad id vero quod de obedientia obiicitur,
+<lb ed="#L" n="12"/>dicitur quod nolle pertinaciter obedire Summo Pontifici
+<lb ed="#L" n="13"/>non est schisma: sed nolle subesse sibi ut capiti totius
+<lb ed="#L" n="14"/>Ecclesiae, est schisma; sicut non credere est haeresis.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e443">
+                  <lb ed="#L" n="15"/>IV. Ad tertium autem dubium dicitur quod contra
+<lb ed="#L" n="16"/>unitatem Ecclesiae dupliciter contingit peccare. Primo, 
+se<lb break="no" ed="#L" n="17"/>cundum intellectum, scilicet non credendo Ecclesiam esse
+<lb ed="#L" n="18"/>unam capite vel collectione. Et hoc esset peccatum 
+infide<lb break="no" ed="#L" n="19"/>litatis. - Secundo, secundum voluntatem: et hoc dupliciter.
+<lb ed="#L" n="20"/>Primo, secundum intentionem: cum scilicet aliquis, licet
+<lb ed="#L" n="21"/>credat Ecclesiam esse unam, intendit tamen eius unitatem
+<lb ed="#L" n="22"/>destruere, odio vel ira concitatus in illam, vel Papam, etc.
+<lb ed="#L" n="23"/>Secundo, secundum operis voluntatem: cum scilicet 
+ali<lb break="no" ed="#L" n="24"/>quis vult potius taliter se gerere ac si non esset pars 
+Ec<lb break="no" ed="#L" n="25"/>clesiae quam a proposito desistere. Et hoc videtur 
+con<lb break="no" ed="#L" n="26"/>tingere his qui praesumunt synodos universales 
+congre<lb break="no" ed="#L" n="27"/>gare, vel congregatas sed dissolutas tenere. Et utroque
+<lb ed="#L" n="28"/>modo schisma incurritur; sicut homicidium incurrit non
+<lb ed="#L" n="29"/>solum qui directe intendit occidere, sed etiam qui potius
+<lb ed="#L" n="30"/>vult opus agere unde mors hominis sequitur quam opus
+<lb ed="#L" n="31"/>tale relinquere.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e482">
+                  <lb ed="#L" n="32"/>Duplici autem distinctione opus est ut perspiciatur 
+quo<lb break="no" ed="#L" n="33"/>modo schisma tollit unitatem Ecclesiae: altera est de 
+au<lb break="no" ed="#L" n="34"/>ferre secundum affectum, vel effectum; altera est de eo a
+<lb ed="#L" n="35"/>quo aufertur, scilicet ab Ecclesia vel a seipso. 
+Schisma<lb break="no" ed="#L" n="36"/>ticus enim secundum affectum tollit unitatem ab ipsa 
+Ec<lb break="no" ed="#L" n="37"/>clesia: sicut odio habens Deum tollit bonitatem ab ipso
+<lb ed="#L" n="38"/>quantum in se est. Secundum autem effectum tollit 
+unita<lb break="no" ed="#L" n="39"/>tem Ecclesiae a seipso: ad hoc enim efficaciter operatur
+<lb ed="#L" n="40"/>ut in ipso non sit unitas Ecclesiae, ut ipse non sit pars
+<lb ed="#L" n="41"/>collectionis catholicae.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e506">
+                  <lb ed="#L" n="42"/>V. In eodem articulo adverte quod, quia bonum 
+con<lb break="no" ed="#L" n="43"/>surgit ex causa integra, apud Dionysium, tv cap. de Div.
+<lb ed="#L" n="44"/>Nom., malum autem ex singulis defectibus; ideo ad 
+ha<lb break="no" ed="#L" n="45"/>bendum hoc bonum quod est esse membrum Ecclesiae 
+ca<lb break="no" ed="#L" n="46"/>tholicae exiguntur duo: primo, quod se habeat ut pars
+<lb ed="#L" n="47"/>illus in credendo, sperando, amando, sanctificando, etc, ;
+<lb ed="#L" n="48"/>secundo, quod subsit Romano Pontifici ut capiti Ecclesiae
+<lb ed="#L" n="49"/>catholicae. Propter quod in littera dicitur quod unitas 
+Ec<lb break="no" ed="#L" n="50"/>clesiae consistit 7n commixtione membrorum, et hoc 
+quan<lb break="no" ed="#L" n="51"/>tum ad primum (fit enim hoc per hoc quod omnes sunt
+<lb ed="#L" n="52"/>compartes unius); et im ordine omnium ad unum caput,
+<lb ed="#L" n="53"/>et hoc quantum ad secundum. Sed ad incurrendum hoc
+<lb ed="#L" n="54"/>malum quod est esse schismaticum sufficit alterum 
+illo<lb break="no" ed="#L" n="55"/>rum: scilicet vel deficere a subiectione capitis, vel 
+com<lb break="no" ed="#L" n="56"/>munione cum universis. Et propterea in littera subduntur
+<lb ed="#L" n="57"/>haec duo genera schismaticorum, ut ibi patet.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e543">
+                  <lb ed="#L" n="58"/>VI. In eodem articulo dubium occurrit, an persona veri,
+<lb ed="#L" n="59"/>certi et indubitati Papae possit esse schismatica. Et videtur
+<lb ed="#L" n="60"/>quod non. Quoniam ab unitate capitis deficere non potest:
+<lb ed="#L" n="61"/>quia ipse est caput. — Ab unitate quoque Ecclesiae deficere
+<lb ed="#L" n="62"/>non potest: quoniam Ecclesia estin ipso, iuxta illud 
+Cy<lb break="no" ed="#L" n="63"/>priani, VII, qu. r, Scire debes, ubi dicitur: Scire debes 
+Epi<lb break="no" ed="#L" n="64"/>scopum in Ecclesia esse, et Ecclesiam in Episcopo; et si
+<lb ed="#L" n="65"/>quis cum Episcopo non sit, in Ecclesia nom esse.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e563">
+                  <lb ed="#L" n="66"/>In oppositum autem est quoniam Papa potest incurrere
+<lb ed="#L" n="67"/>in haeresim, et consequenter in schisma: quia omnis 
+haere<lb break="no" ed="#L" n="68"/>ticus est schismaticus, licet non e converso.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e573">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="69"/>Ad hoc dicitur quod, licet diversae sint hic opiniones,
+<lb ed="#L" n="70"/>absque dubio tamen patet quod Papae persona crimen
+<lb ed="#L" n="71"/>schismatis, etiam sine haeresi, incurrere potest. Quod 
+pro<lb break="no" ed="#L" n="72"/>batur ex eo quod adunatio partium sine quibus totum
+<lb ed="#L" n="73"/>salvari potest cum ipso toto non est indissolubilis. Sed
+<lb ed="#L" n="74"/>adunatio personae Papae cum toto, idest Ecclesia, est talis:
+<lb ed="#L" n="75"/>scilicet quod sine ipsa Ecclesia salvatur in sua unitate,
+<lb ed="#L" n="76"/>Ergo persona Papae potest dissolvere se ab Ecclesiae 
+uni<lb break="no" ed="#L" n="77"/>tate. Hoc autem est esse schismaticum. — Minor patet ex
+<lb ed="#L" n="78"/>eo quod, sede vacante, Ecclesia est una sine ulla persona
+<lb ed="#L" n="79"/>Papae.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e602">
+                  <lb ed="#L" n="80"/>Contingeret autem hoc in animo quidem Papae, si 
+nol<lb break="no" ed="#L" n="81"/>let communicare cum Ecclesia ut pars illius, ut caput 
+il<lb break="no" ed="#L" n="82"/>lius in spiritualibus; sed habere se tantum ut dominus
+<lb ed="#L" n="83"/>temporalis. In opere vero, si facto hoc faceret; vel si
+<lb ed="#L" n="84"/>excommunicare: praesumeret Ecclesiam. Constat namque
+<lb ed="#L" n="85"/>quod in huiusmodi mala posset persona Papae incidere:
+<lb ed="#L" n="86"/>ac per hoc vere schismaticus esset.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e620">
+                  <lb ed="#L" n="87"/>Ad primum autem in oppositum dicitur quod persona
+<lb ed="#L" n="88"/>Papae potest renuere subesse officio Papae, quod per 
+ac<lb break="no" ed="#L" n="89"/>cidens est pro tunc in ipso. Et si hoc in animo 
+pertina<lb break="no" ed="#L" n="90"/>citer gereret, esset schismaticus per separationem sui ab
+<lb ed="#L" n="91"/>unitate capitis. Ligatur siquidem persona sua legibus officii
+<lb ed="#L" n="92"/>sui quoad Deum, ut in praecedenti Libro declaratum est.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e636">
+                  <lb ed="#L" n="93"/>Ad secundum dicitur quod Ecclesia est in Papa quando
+<lb ed="#L" n="94"/>ipse se habet ut Papa, ut caput Ecclesiae. Quando autem
+<lb ed="#L" n="95"/>ipse nollet se habere ut caput eius, neque Ecclesia in ipso,
+<lb ed="#L" n="96"/>neque ipse in Ecclesia esset. dO.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e647">
+                  <lb ed="#L" n="97"/>VII. In responsione ad secundum adverte diligenter
+<lb ed="#L" n="98"/>quod recusare praeceptum vel iudicium Papae contingit
+<lb ed="#L" n="99"/>tripliciter: primo, ex parte rei iudicatae seu praeceptae;
+<lb ed="#L" n="100"/>secundo, ex parte personae iudicantis; tertio, ex parte 
+of<lb break="no" ed="#L" n="101"/>ficii ipsius iudicis. Si quis enim, etiam pertinaciter, 
+con<lb break="no" ed="#L" n="102"/>temnat sententiam Papae, quia scilicet non vult exequi
+<lb ed="#L" n="103"/>quae mandavit, puta abstinere a tali bello, restituere talem
+<lb ed="#L" n="104"/>statum, etc.; licet gravissime erret, non tamen est ex hoc
+<lb ed="#L" n="105"/>schismaticus. Contingit namque, et saepe, nolle exequi
+<lb ed="#L" n="106"/>praecepta superioris, retenta tamen recognitione ipsius in
+<lb ed="#L" n="107"/>superiorem.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e673">
+                  <lb ed="#L" n="108"/>Si quis vero personam Papae suspectam rationabiliter
+<lb ed="#L" n="109"/>habet, et propterea non solum praesentiam eius, sed etiam
+<lb ed="#L" n="110"/>immediatum iudicium recusat, paratus ad non-suspectos
+<lb ed="#L" n="111"/>iudices ab eodem suscipiendos; nec schismatis nec alterius
+<lb ed="#L" n="112"/>vitii crimen incurrit. Naturale namque est evitare nociva
+<lb ed="#L" n="113"/>et cavere a periculis: potestque persona Papae tyrannice
+<lb ed="#L" n="114"/>gubernare; et tanto facilius quanto potentior est et 
+nemi<lb break="no" ed="#L" n="115"/>nem in terris timet ultorem.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e694">
+                  <lb ed="#L" n="116"/>Cum quis autem Papae praeceptum vel iudicium ex
+<lb ed="#L" n="117"/>parte sui officii recusat, non recognoscens eum ut 
+superio<lb break="no" ed="#L" n="118"/>rem, quamvis hoc credat; tunc proprie schismaticus est.
+<lb ed="#L" n="119"/>Et iuxta hunc sensum intelligenda sunt verba litterae huius
+<lb ed="#L" n="120"/>et similium. TInobedientia enim, quantumcumque pertinax,
+<lb ed="#L" n="121"/>non constituit schisma nisi sit rebellio ad officium Papae
+<lb ed="#L" n="122"/>vel Ecclesiae, ita ut renuat illi subesse, illum recognoscere
+<lb ed="#L" n="123"/>ut superiorem, etc. d
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e714">
+                  <lb ed="#L" n="124"/>VIII. In reliquis eiusdem quaestionis articulis nihil 
+scri<lb break="no" ed="#L" n="125"/>bendum occurrit nisi quod in tertio articulo notetur 
+dis<lb break="no" ed="#L" n="126"/>tinctio potestatis ordinis et iurisdictionis quoad originem
+<lb ed="#L" n="127"/>et permanentiam: quod illa per consecrationem, haec per
+<lb ed="#L" n="128"/>simplicem hominis iniunctionem fit; et ideo illa indelebilis
+<lb ed="#L" n="129"/>est, ista autem a voluntate hominis pendet.
+</p>
+               <p xml:id="TAcCaj-d1e1473-d1e730">
+                  <lb ed="#L" n="130"/>In quarto autem advertatur quod, sicut petens mutuum
+<lb ed="#L" n="131"/>ab usurario propter suam necessitatem non peccat, quia
+<lb ed="#L" n="132"/>petit opus bonum a potente illud bene exhibere si vult;
+<lb ed="#L" n="133"/>ita petens in necessitatis articulo baptismum a schismatico
+<lb ed="#L" n="134"/>excusatur. Petit namque bonum a potente illud bene 
+exhi<lb break="no" ed="#L" n="135"/>bere si vult.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

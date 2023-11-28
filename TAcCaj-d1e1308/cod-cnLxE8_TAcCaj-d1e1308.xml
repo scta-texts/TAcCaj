@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="67"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1308"><!-- TAcCajp2p2-q7 -->
+            <head xml:id="TAcCaj-d1e1308-Hd1e101">Quaestio 7</head>
+            <div xml:id="TAcCaj-d1e1308-Dd1e103"><!-- caj-p2p2-q7a1 -->
+               <head xml:id="TAcCaj-d1e1308-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1308-d1e108">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="76"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1308-d1e115">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="77"/>In quaestionis septimae utroque articulo nullum occurrit
+<lb ed="#L" n="78"/>dubium. In primo tamen articulo adverte hinc timorem
+<lb ed="#L" n="79"/>quo caelestes potestates, quamvis beatae, tremere 
+dicun<lb break="no" ed="#L" n="80"/>tur, ex visione divinae excellentiae, et sui malum aequa- 
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="81"/>litatis abhorrentes, - In secundo autem, quod puritas es
+<lb ed="#L" n="82"/>qua est sermo non est nisi puritas culpae: haec enim
+<lb ed="#L" n="83"/>dei attribuitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

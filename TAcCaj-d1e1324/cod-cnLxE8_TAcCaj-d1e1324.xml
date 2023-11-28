@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="81"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1324"><!-- TAcCajp2p2-q10 -->
+            <head xml:id="TAcCaj-d1e1324-Hd1e101">Quaestio 10</head>
+            <div xml:id="TAcCaj-d1e1324-Dd1e103"><!-- caj-p2p2-q10a1 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1324-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>In articulo primo quaestionis decimae dubium occurrit,
+<lb ed="#L" n="13"/>et specialiter in materia primi argumenti. Videtur enim
+<lb ed="#L" n="14"/>omnino quod infidelitas, idest nolle credere, non sit 
+pec<lb break="no" ed="#L" n="15"/>catum. Et ratio est quia fides non est necessaria ad bonum
+<lb ed="#L" n="16"/>naturale, sed supernaturale tantum. Ex hoc enim arguitur
+<lb ed="#L" n="17"/>sic. Nullus peccat nolendo bona quae sunt supra naturam
+<lb ed="#L" n="18"/>suam, etiam oblata: nisi forte ratione contemptus, quia
+<lb ed="#L" n="19"/>scilicet despicit offerentem vel oblata. Sed homo, salva Dei
+<lb ed="#L" n="20"/>et donorum suorum supernaturalium reverentia, potest ea
+<lb ed="#L" n="21"/>nolle, volendo stare in suis solis naturalibus. Ergo non
+<lb ed="#L" n="22"/>peccat nolendo fidem suscipere. — Maior patet in civilibus.
+<lb ed="#L" n="23"/>Nam rusticus nolens acceptare civilitatem, et civis nolens
+<lb ed="#L" n="24"/>ascendere ad nobilitatem, et alii huiusmodi non peccant. —
+<lb ed="#L" n="25"/>Minor est de se evidens. - Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e150">
+                  <lb ed="#L" n="26"/>Si dicatur quod quia homo est infirmus et per fidem 
+sa<lb break="no" ed="#L" n="27"/>natur, et ideo tenetur ad sanitatem; - vel, quia Deus 
+prae<lb break="no" ed="#L" n="28"/>cipit fidem suscipi ab omnibus, iuxta illud, Qui non
+<lb ed="#L" n="29"/>crediderit, condemnabitur, ideo peccatum est non suscipere
+<lb ed="#L" n="30"/>fidem: - Contra primum dictum est quia secundum hoc
+<lb ed="#L" n="31"/>nec homo in statu innocentiae nec angeli obligati fuissent
+<lb ed="#L" n="32"/>ad fidem. Quod est falsum. -. Contra secundum est quia
+<lb ed="#L" n="33"/>ratio praecepti vertitur in dubium. Apparet enim quod 
+in<lb break="no" ed="#L" n="34"/>iuste praecipiatur alicui: Aut ascendas supra gradum tuum,
+<lb ed="#L" n="35"/>aut occideris. Cum universae iustitiae nostrae quasi pannus
+<lb ed="#L" n="36"/>menstruatae, et misericordia Domini sit super omnia
+<lb ed="#L" n="37"/>opera eius, si inique et crudeliter rex terrestris offerret
+<lb ed="#L" n="38"/>civibus nobilitatem aut mortem, quomodo fas est dicere
+<lb ed="#L" n="39"/>quod Deus misericordiarum offerat creaturis rationalibus
+<lb ed="#L" n="40"/>fidem, cum reliquis supernaturalibus donis, cum tali 
+prae<lb break="no" ed="#L" n="41"/>cepto: Aut hoc suscipite, aut mortem? Iustitia namque
+<lb ed="#L" n="42"/>hoc potius exigere videtur: Aut haec suscipite, aut privati
+<lb ed="#L" n="43"/>eritis felicitate supernaturali, vobisque imputabitur 
+quid<lb break="no" ed="#L" n="44"/>quid vobis ex hac refutatione deerit.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e194">
+                  <lb ed="#L" n="45"/>II. Ad hoc dicitur quod, quia praecepta dantur creaturis
+<lb ed="#L" n="46"/>rationalibus secundum naturas, seu gradus naturae, quas
+<lb ed="#L" n="47"/>habent; et creaturae rationales, supra gradus naturales, 
+con<lb break="no" ed="#L" n="48"/>summantur in participatione naturae divinae, ita quod sic
+<lb ed="#L" n="49"/>institutae sunt: consequens est ut, quemadmodum iuste
+<lb ed="#L" n="50"/>subduntur praeceptis spectantibus ad alios gradus, ita iuste
+<lb ed="#L" n="51"/>subiacent praeceptis fidei, spei et caritatis, spectantibus ad
+<lb ed="#L" n="52"/>gradum quo participant divinam naturam. — Et licet haec
+<lb ed="#L" n="53"/>responsio apud doctos non egeat expositione, pro novitiis
+<lb ed="#L" n="54"/>tamen declaratur.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e219">
+                  <lb ed="#L" n="55"/>In homine est in primis natura vegetativa; est natura
+<lb ed="#L" n="56"/>sensitiva; est natura intellectiva; est demum participatio
+<lb ed="#L" n="57"/>naturae divinae. Et sicut constitutio creaturarum in suis
+<lb ed="#L" n="58"/>speciebus spectat ad primam rerum distributionem secun-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="59"/>dum divinae sapientiae rationem, ita constitutio 
+creatura<lb break="no" ed="#L" n="60"/>rum rationalium in suis naturalibus et in participatione
+<lb ed="#L" n="61"/>divinae naturae ad primam rerum conditionem spectat; et
+<lb ed="#L" n="62"/>tanto plus quanto superius, in qu. rt, art. 3, dictum est quod
+<lb ed="#L" n="63"/>perfectio naturae inferioris confirmatur ex participatione
+<lb ed="#L" n="64"/>superioris. Quia igitur in homine est pars vegetativa, ad
+<lb ed="#L" n="65"/>quam spectat conservare individuum et speciem, oportuit
+<lb ed="#L" n="66"/>hominem subiici praeceptis spectantibus ad generationem
+<lb ed="#L" n="67"/>et cibum et potum. Et similiter quia in homine est pars
+<lb ed="#L" n="68"/>sensitiva, ad. quam spectant passiones, oportet hominem
+<lb ed="#L" n="69"/>subiici praeceptis ad iram, timorem et huiusmodi. Et 
+si<lb break="no" ed="#L" n="70"/>militer quia in eo est pars rationalis, in qua est voluntas,
+<lb ed="#L" n="71"/>oportet ipsum subiici praeceptis spectantibus ad iustitiam
+<lb ed="#L" n="72"/>vel iniustitiam. Et eadem ratione, quia constitutus est ut
+<lb ed="#L" n="73"/>in ipso sit natura divina participative, ideo oportet ipsum
+<lb ed="#L" n="74"/>subiici praeceptis fidei, spei et caritatis, ad huiusmodi 
+par<lb break="no" ed="#L" n="75"/>ticipationem spectantibus. Et sicut non potest iure conqueri
+<lb ed="#L" n="76"/>de Deo quod fecerit ipsum in gradu rationali, ita non 
+po<lb break="no" ed="#L" n="77"/>test iure conqueri quod constituerit ipsum in hoc quod sit
+<lb ed="#L" n="78"/>particeps divinae naturae. Et quemadmodum, data iam  
+na<lb break="no" ed="#L" n="79"/>tura rationali, non potest quis refutare praecepta 
+spectan<lb break="no" ed="#L" n="80"/>tia ad illam; ita, data iam creaturae rationali hac 
+partici<lb break="no" ed="#L" n="81"/>patione, non potest refutare praecepta ad illam pertinentia.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e282">
+                  <lb ed="#L" n="82"/>III. Et per haec patet clare responsio et solutio 
+quae<lb break="no" ed="#L" n="83"/>stionis. Nam non est simile quod affertur pro simili. Quia
+<lb ed="#L" n="84"/>non praesupponitur quod rex possit homines constituere
+<lb ed="#L" n="85"/>in gradibus sine ipsis hominibus, sicut potest Deus, qui
+<lb ed="#L" n="86"/>creat nos sine nobis. Nec praesupponitur quod homines
+<lb ed="#L" n="87"/>sint iam constituti in gradu nobilitatis, ut in proposito 
+inve<lb break="no" ed="#L" n="88"/>nitur. Simile autem esset si, praesupposito quod iam essent
+<lb ed="#L" n="89"/>cives in gradu nobilitatis, et refutare vellent praecepta regia
+<lb ed="#L" n="90"/>spectantia ad nobiles. Creaturae namque rationales ab initio
+<lb ed="#L" n="91"/>institutae sunt ut essent et viverent non solum secundum
+<lb ed="#L" n="92"/>proprias naturas, sed secundum divinae naturae consortium:
+<lb ed="#L" n="93"/>et propterea merito praeceptis supernaturalibus subiiciuntur;
+<lb ed="#L" n="94"/>tenenturque ad maximas gratias Deo, qui eas tanti fecit ut
+<lb ed="#L" n="95"/>tam excelso gradu constitueret. Propter quod non solum
+<lb ed="#L" n="96"/>iustum est ut, non credendo, priventur bonis gratuitis; sed
+<lb ed="#L" n="97"/>etiam ut damnentur, utpote nolentes vivere secundum 
+con<lb break="no" ed="#L" n="98"/>stitutam eis divinitatis participationem a datore et 
+distri<lb break="no" ed="#L" n="99"/>butore naturarum et graduum. Propter hos enim scriptum
+<lb ed="#L" n="100"/>est: Homo, cum in honore esset, non intellexit: 
+com<lb break="no" ed="#L" n="101"/>paratus est iumentis insipientibus, dum in propriis naturae
+<lb ed="#L" n="102"/>manet opponens se altissimae causae iudicio: et ideo similis
+<lb ed="#L" n="103"/>factus est illis. - Nec excusantur a contemptu refutantes
+<lb ed="#L" n="104"/>fidem: quia, nolunt subiici praeceptis quibus tenentur, ut
+<lb ed="#L" n="105"/>iam declaratum est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e338"><!-- caj-p2p2-q10a2 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e341">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1324-d1e343">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e350">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="50"/>IN articulo secundo eiusdem quaestionis adverte quod, sicut
+<lb ed="#L" n="51"/>P his quae sunt fidei constituit. statim hominem
+<lb ed="#L" n="52"/>fidelem, ita in his quae constat spectare ad fidem dissentire
+<lb ed="#L" n="53"/>statim constituit hominem infidelem. Dissentire autem 
+con<lb break="no" ed="#L" n="54"/>tingit tripliciter. Primo, positive, sentiendo contrarium: ut
+<lb ed="#L" n="55"/>si credat quis Deum non esse incarnatum.. Secundo, 
+ne<lb break="no" ed="#L" n="56"/>gative, non sentiendo quod constat teneri a fide. Et hoc
+<lb ed="#L" n="57"/>dupliciter contingit: vel non. credendo simpliciter, ut si quis
+<lb ed="#L" n="58"/>non credat Deum esse incarnatum; vel sub dubio vacillando,
+<lb ed="#L" n="59"/>ut si quis dubitet Deum esse incarnatum. Et hoc habet
+<lb ed="#L" n="60"/>latitudinem iuxta triplicem modum dubii, scilicet opinionis,
+<lb ed="#L" n="61"/>suspicionis et neutralitatis. Quocumque autem dictorum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="62"/>modorum contingat dissentire voluntarie, idest cum 
+con<lb break="no" ed="#L" n="63"/>sensu, peccatum est infidelitatis. Et haec notanda sune;a
+<lb ed="#L" n="64"/>scrutatoribus conscientiarum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e389">
+                  <lb ed="#L" n="65"/>In eodem articulo quaestio de subiecto peccati si 
+mo<lb break="no" ed="#L" n="66"/>veatur, ad praecedentem Librum recurratur, ubi sunt
+<lb ed="#L" n="67"/>fundamenta huius.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e398">
+                  <lb ed="#L" n="68"/>In responsione ad tertium in eodem articulo nota, pro
+<lb ed="#L" n="69"/>habentibus visiones, ultima verba: cum incipit ad sua 
+ad<lb break="no" ed="#L" n="70"/>ducere, idest mala et falsa. Et memento quod appellatione
+<lb ed="#L" n="71"/>malorum veniunt hoc in loco minus bona. Cum enim
+<lb ed="#L" n="72"/>Spiritus Sanctus aemuletur charismata meliora, suadens
+<lb ed="#L" n="73"/>aut ducens ad minus bona Spiritus Sanctus non est...
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e415"><!-- caj-p2p2-q10a3 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e418">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1324-d1e420">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e427">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>In articulo tertio eiusdem quaestionis dubium quod esse
+<lb ed="#L" n="53"/>potest , quomodo omne peccatum formaliter in aversione
+<lb ed="#L" n="54"/>consistit, in praecedenti Libro solutum est, ubi dictum
+<lb ed="#L" n="55"/>est quod peccatum, ut est in genere mali simpliciter, 
+con<lb break="no" ed="#L" n="56"/>sistit in. aversione formaliter.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e443">
+                  <lb ed="#L" n="57"/>In eodem articulo dubium novitiorum occurrit, 
+quo<lb break="no" ed="#L" n="58"/>modo infidelitas ponitur gravissimum peccatum ex genere
+<lb ed="#L" n="59"/>suo, et gravitas eius pensatur ex parte aversionis. Nam
+<lb ed="#L" n="60"/>gravitas peccati ex genere suo, quae est gravitas 
+substan<lb break="no" ed="#L" n="61"/>tialis eius, attenditur penes obiectum seu finem peccati
+<lb ed="#L" n="62"/>utin qu. nxxur praecedentis Libri patet. Aversio autem
+<lb ed="#L" n="63"/>in peccato dividitur contra obiectum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e461">
+                  <lb ed="#L" n="64"/>Ad hoc breviter dicitur, ex praedicto loco, quod quia
+<lb ed="#L" n="65"/>aversio consequitur conversionem ad obiectum, quanto 
+obie<lb break="no" ed="#L" n="66"/>ctum ad quod fit conversio peius est, tanto aversio est
+<lb ed="#L" n="67"/>maior: ac per hoc peccatum gravius ex genere est gravius
+<lb ed="#L" n="68"/>secundum ayersionem. Et sic est in proposito. Nam 
+infi<lb break="no" ed="#L" n="69"/>delitas, quae consistit in dissensu contemnente veritatem
+<lb ed="#L" n="70"/>primam, convertitur ad contrarium primae veritati: ac per
+<lb ed="#L" n="71"/>hoc aversionem habet a prima veritate non solum secundum
+<lb ed="#L" n="72"/>affectum, ut vitia moralia, sed secundum cognitionem, ut
+<lb ed="#L" n="73"/>in littera dicitur. Et propterea eis omnibus gravius est.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e486">
+                  <lb ed="#L" n="74"/>II. In eodem articulo dubium ex duplici capite occurrit
+<lb ed="#L" n="75"/>Circa illa verba: Nec potest esse quod quantum ad quid
+<lb ed="#L" n="76"/>Deum cognoscat qui falsam opinionem de eo habet: quia
+<lb ed="#L" n="77"/>id quod ipse opinatur non est Deus. Primo, quia falsa 
+vi<lb break="no" ed="#L" n="78"/>dentur. Quoniam infidelis, puta Iudaeus vel philosophus,
+<lb ed="#L" n="79"/>refutans fidem Incarnationis , quantum ad aliquid. Deum
+<lb ed="#L" n="80"/>cognoscit, puta quod est super omnia, actus purus, 
+opti<lb break="no" ed="#L" n="81"/>mum omnium, prima causa, etc.: et hoc opinatum non
+<lb ed="#L" n="82"/>assumpsisse carnem est Deus. - Et confirmatur. Quia
+<lb ed="#L" n="83"/>aliter fidelitas et infidelitas non essent de eodem, scilicet
+<lb ed="#L" n="84"/>Deo. Et semper esset aequivocatio inter fidelem et infidelem
+<lb ed="#L" n="85"/>in disputando, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e515">
+                  <lb ed="#L" n="86"/>Secundo, quia praesupponunt unum v— scilicet: quod
+<lb ed="#L" n="87"/>omnis infidelitas erret circa Deum: cum contingat infidelem
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>errare in aliis, puta quod Ismael non fuit filius AO
+<lb ed="#L" n="89"/>et similibus.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e528">
+                  <lb ed="#L" n="90"/>III. Ad haec ordine retrogrado dicitur quod, quia 
+obie<lb break="no" ed="#L" n="91"/>ctum fidei est Deus, et opposita sunt circa idem, infidelitas
+<lb ed="#L" n="92"/>circa Deum est. Et quemadmodum quidquid sub fide 
+com<lb break="no" ed="#L" n="93"/>prehenditur intantum ad fidem pertinet inquantum ad Deum
+<lb ed="#L" n="94"/>reducitur, ita quidquid ad infidelitatem spectat, ut sic, ad
+<lb ed="#L" n="95"/>Deum reducitur. Qui enim negat Ismaelem esse filium
+<lb ed="#L" n="96"/>Abrahae affirmat auctorem sacrae Scripturae, Spiritum 
+San<lb break="no" ed="#L" n="97"/>ctum, esse mendacem: et simile est in aliis. Et propterea
+<lb ed="#L" n="98"/>omnis infidelis false opinatur de Deo, ut in littera 
+di<lb break="no" ed="#L" n="99"/>citur.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e552">
+                  <lb ed="#L" n="100"/>Ad primum autem dicitur quod aljud est loqui de 
+in<lb break="no" ed="#L" n="101"/>fideli ut sic; et aliud de homine infideli aliam cognitionem
+<lb ed="#L" n="102"/>habente. Non enim dicitur in littera quod homo infidelis
+<lb ed="#L" n="103"/>nullam habet cognitionem de Deo, quod obiecta impugnant:
+<lb ed="#L" n="104"/>sed dicitur quod per infidelitatem non cognoscitur Deus
+<lb ed="#L" n="105"/>nec simpliciter nec secundum quid. Non simpliciter, quia
+<lb ed="#L" n="106"/>falsa alicuius cognitio non est illius cognitio, sed error de
+<lb ed="#L" n="107"/>illo: et propterea non facit appropinquare ad illud, sed
+<lb ed="#L" n="108"/>elongari ab illo; ignorantia enim pravae dispositionis 
+elon<lb break="no" ed="#L" n="109"/>gat ab eo quod sic ignoratur. Nec secundum quid, quia
+<lb ed="#L" n="110"/>falsa enuntiatio, ut sic, affert oppositum subiecti, 
+simpli<lb break="no" ed="#L" n="111"/>citer vel secundum quid iuxta materiam necessariam vel
+<lb ed="#L" n="112"/>contingentem. Cum enim dicitur, Socrates non est risibilis,
+<lb ed="#L" n="113"/>per istam enuntiationem affertur non-Socrates: quia 
+non<lb break="no" ed="#L" n="114"/>risibile infert non-Socratem. Cum autem dicitur, Socrates
+<lb ed="#L" n="115"/>currit, ipso sedente, affertur non-Socrates-nunc: quia 
+af<lb break="no" ed="#L" n="116"/>fertur Socrates currens, qui non invenitur. Et sic in omni
+<lb ed="#L" n="117"/>materia patet quod falsa enuntiatio, ut sic, nihil cognitionis
+<lb ed="#L" n="118"/>largitur de subiecto, quia oppositum subiecti refert. - Et
+<lb ed="#L" n="119"/>Si dicatur quod largitur saltem cognitionem incomplexam
+<lb ed="#L" n="120"/>terminorum: - dicendum est quod huiusmodi cognitio non
+<lb ed="#L" n="121"/>spectat ad falsam enuntiationem,, sed praesupponitur. Ft
+<lb ed="#L" n="122"/>in proposito non spectat ad infidelitatem. Unde in littera
+<lb ed="#L" n="123"/>non dicitur quod terminus apprehensus non est Deus:
+<pb ed="#L" n="82"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sed, quia id quod ipse opinatur non est Deus. Quod enim
+<lb ed="#L" n="2"/>opinatur infidelis, ut sic, non est Deus, ut declaratum est.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e615">
+                  <lb ed="#L" n="3"/>Et per hoc. patet solutio obiectorum, Aequivocatio 
+<lb ed="#L" n="4"/>namque esset in proposito secundum terminos incomplexos
+<lb ed="#L" n="5"/>qui supponuntur, si varie sumerentur. Sed non sic est in
+<lb ed="#L" n="6"/>proposito. Aliud est enim dicere quod id quod supponitur
+<lb ed="#L" n="7"/>incarnari vel non incarnari, est Deus: et aliud est dicere
+<lb ed="#L" n="8"/>quod id quod affertur ex falsa fide incarnationis, non est
+<lb ed="#L" n="9"/>Deus. Nam infertur Deus non incarnatus, qui non est Deus.
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>Nihil ergo ex infidelitate, inquantum huiusmodi, 
+cognosci<lb break="no" ed="#L" n="11"/>tur de Deo, sed elongatio fit intellectus ab eo. Et ideo
+<lb ed="#L" n="12"/>aversio maior est in ea quam in ceteris moralibus : quia
+<lb ed="#L" n="13"/>affectum quidem a Deo, sed intellectum a creatis 
+verita<lb break="no" ed="#L" n="14"/>tibus avertunt, ut patet in virtutibus cardinalibus.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e646">
+                  <lb ed="#L" n="15"/>IV. In responsione ad tertium in eodem articulo nota
+<lb ed="#L" n="16"/>quam gravia sint scelera Christianorum; ut cognoscentes
+<lb ed="#L" n="17"/>gravitatem. peccatorum, faciamus iudicium et iustitiam de
+<lb ed="#L" n="18"/>nobis condigne.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e658"><!-- caj-p2p2-q10a4 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e661">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1324-d1e663">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="81"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e670">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="82"/>In articulo quarto eiusdem quaestionis dubium occurrit
+<lb ed="#L" n="83"/>ex <name xml:id="TAcCaj-d1e1324-Nd1e678">Gregorio de Arimino</name>, in xxxviii dist. et reliquis usque
+<lb ed="#L" n="84"/>ad xli II Sent., volente quod omnis actus infidelium
+<lb ed="#L" n="85"/>simpliciter, qui nulla fide credunt Deum, est malus 
+mo<lb break="no" ed="#L" n="86"/>raliter. Quia deest in omnibus circumstantia ultimi: finis;
+<lb ed="#L" n="87"/>quia scilicet non fit recta intentione propter Deum 
+ulti<lb break="no" ed="#L" n="88"/>mate; quia non cognoscunt Deum. ultimate. diligendum
+<lb ed="#L" n="89"/>propter se et omnia alia propter ipsum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e694">
+                  <lb ed="#L" n="90"/>Et confirmatur. Quia omnis intentio qua aliquid. aliud
+<lb ed="#L" n="91"/>a Deo diligitur propter se est mala: quia nullum aliud a
+<lb ed="#L" n="92"/>Deo est diligendum propter se, quia non est summe 
+dili<lb break="no" ed="#L" n="93"/>gendum, - Et probatur haec ultima sequela, scilicet;. Non
+<lb ed="#L" n="94"/>est summe diligendum, Ergo non est propter se diligen-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="95"/>dum. Quia propter se diligendum potest ultimate - diligi,
+<lb ed="#L" n="96"/>ita quod multa possunt propter illud ultimate. diligi : ergo
+<lb ed="#L" n="97"/>est summe diligendum. Ergo, a destructione consequentis,
+<lb ed="#L" n="98"/>non est summe: ergo nec propter se diligendum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e718">
+                  <lb ed="#L" n="99"/>Et confirmatur hoc. Quia qua ratione aliquid, puta actus
+<lb ed="#L" n="100"/>virtutis est. propter se diligendus, pari ratione alia, puta
+<lb ed="#L" n="101"/>honor et fama, quae sunt secundum se bona diligibilia
+<lb ed="#L" n="102"/>quia praecise sunt talia. Et sic ultimate operari propter
+<lb ed="#L" n="103"/>honorem. et gloriam. non esset peccatum: quod est. contta
+<lb ed="#L" n="104"/>doctrinam Sanctorum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e735">
+                  <lb ed="#L" n="105"/>Et confirmatur. Quia aliter in gentilibus fuissent verae
+<lb ed="#L" n="106"/>virtutes: contra Augustinum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e742">
+                  <lb ed="#L" n="107"/>II. Ad evidentiam horum considerandum est aliquid ex
+<pb ed="#L" n="83"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>parte ordinis rerum ; et aliquid ex parte nostri. Ex parte
+<lb ed="#L" n="2"/>siquidem rerum apparet quod, sicut cum supremo agente
+<lb ed="#L" n="3"/>stant inferiora agentia et multa prima agentia in genere
+<lb ed="#L" n="4"/>hoc vel illo, ut patet in regnis et actibus; ita cum ultimo 
+<lb ed="#L" n="5"/>fine simpliciter totius universi stant multi ultimi fines in
+<lb ed="#L" n="6"/>genere hoc et illo. Nec esse ultimum finem in hoc genere
+<lb ed="#L" n="7"/>derogat ultimo fini simpliciter: nec aufert ab ultimo fine
+<lb ed="#L" n="8"/>in genere ordinari ipsum ad ultimum finem simpliciter. Et
+<lb ed="#L" n="9"/>quoniam in agentibus agens primum in aliquo genere, puta
+<lb ed="#L" n="10"/>dux in exercitu, potest considerari dupliciter, primo ut est
+<lb ed="#L" n="11"/>caput et primum movens in illo ordine, secundo ut est
+<lb ed="#L" n="12"/>motum ab alio, scilicet a primo agente simpliciter; nec est
+<lb ed="#L" n="13"/>una et eadem ratio ducis primo et secundo modo sumpti,
+<lb ed="#L" n="14"/>quia non est eadem ratio moventis moti inquantum 
+mo<lb break="no" ed="#L" n="15"/>ventis et inquantum moti, ut patet: proportionaliter in 
+fi<lb break="no" ed="#L" n="16"/>nibus oportet dicere quod finis ultimus in genere habet
+<lb ed="#L" n="17"/>duas rationes; unam quatenus est finis ultimus in illo 
+ge<lb break="no" ed="#L" n="18"/>nere, et ex hac habet, quatenus est finis, quod omnia illius
+<lb ed="#L" n="19"/>generis sint propter ipsum, quatenus vero est ultimus in 
+<lb ed="#L" n="20"/>illo, quod ipse non sit propter aliud in illo genere; alteram
+<lb ed="#L" n="21"/>quatenus ordinatur ad finem ultimum simpliciter, et ex hac
+<lb ed="#L" n="22"/>habet quod propter aliud sit.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e799">
+                  <lb ed="#L" n="23"/>Ex parte autem nostri consideranda sunt tria. Primo,
+<lb ed="#L" n="24"/>quod cognoscere Deum esse ultimum finem universi totius,
+<lb ed="#L" n="25"/>propter se tantum diligendum et alia propter ipsum, 
+na<lb break="no" ed="#L" n="26"/>turali ratione absque omni fide patet: et ex XII Metaphys.
+<lb ed="#L" n="27"/>habetur. Cum enim pars naturaliter sit propter totum, et
+<lb ed="#L" n="28"/>totum propter Deum, "ut ibi ostenditur; consequens est
+<lb ed="#L" n="29"/>quod naturali ordine patet quod homo seipsum propter
+<lb ed="#L" n="30"/>Deum ut ultimum: finem amet, ac per hoc reliqua. quae
+<lb ed="#L" n="31"/>amat propter seipsum. - Secundo, quod diligere sic Deum
+<lb ed="#L" n="32"/>contingit dupliciter, scilicet implicite et explicite: explicite
+<lb ed="#L" n="33"/>quidem, cum ad hoc homo dirigit intentionem suam; 
+im<lb break="no" ed="#L" n="34"/>plicite autem, cum se habet secundum affectum ad res ut
+<lb ed="#L" n="35"/>sunt. Ex eo enim quod res sunt recte ordinatae, et ad
+<lb ed="#L" n="36"/>Deum mediante universo, affectus tendens in res ut sunt
+<lb ed="#L" n="37"/>in gradibus suis constitutae tendit in eas implicite ut sunt
+<lb ed="#L" n="38"/>propter universum, et ultimate propter Deum. - Tertio,
+<lb ed="#L" n="39"/>ad diligendum Deum explicite ut finem naturae seu 
+uni<lb break="no" ed="#L" n="40"/>versi homo non tenetur semper, cum sit affirmativum: nec
+<lb ed="#L" n="41"/>statim, quia non prius tenetur ad explicite diligendum quam
+<lb ed="#L" n="42"/>ad explicite cognoscendum, constat autem quod. post 
+mul<lb break="no" ed="#L" n="43"/>tum temporis advenit homini haec cognitio, naturaliter 
+lo<lb break="no" ed="#L" n="44"/>quendo. Ad implicite autem diligendum Deum ut finem
+<lb ed="#L" n="45"/>naturae tenetur homo statim: et si non semper actualiter, |
+<lb ed="#L" n="46"/>quia est affirmativum, tenetur tamen, quando operatur, 
+sem<lb break="no" ed="#L" n="47"/>per virtualiter; alioquin peccat venialiter vel: mortaliter, 
+de<lb break="no" ed="#L" n="48"/>fectu debitae circumstantiae ultimi finis.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e858">
+                  <lb ed="#L" n="49"/>III. Ex his autem facile satisfit obiectis. Nam prima 
+ra<lb break="no" ed="#L" n="50"/>tio nihil valet. Nam simpliciter infideles et possunt per 
+phi<lb break="no" ed="#L" n="51"/>losophiam nosse Deum esse finem universi: et, si nescirent,
+<lb ed="#L" n="52"/>sufficit ad evitandum peccatum in multis suis actibus 
+di<lb break="no" ed="#L" n="53"/>ligere et intendere Deum implicite, habendo se quandoque
+<lb ed="#L" n="54"/>ad res ut sunt; quamvis hoc non sufficiat ad salutem 
+ae<lb break="no" ed="#L" n="55"/>ternam, nec ad evitandum omnia peccata.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e876">
+                  <lb ed="#L" n="56"/>Ad secundum autem dicitur falsum esse quod nihil aliud
+<lb ed="#L" n="57"/>a Deo est diligibile propter se. Actus enim virtutum 
+spe<lb break="no" ed="#L" n="58"/>culativarum sunt diligibiles propter se. - Et ad 
+probatio<lb break="no" ed="#L" n="59"/>nem, quod nihil aliud a Deo est summe diligibile, 
+respon<lb break="no" ed="#L" n="60"/>detur quod sicut aliquid habet rationem ultimi finis, ita
+<lb ed="#L" n="61"/>habet rationem summe diligibilis. Quod enim est finis 
+ul<lb break="no" ed="#L" n="62"/>timus simpliciter, est diligibile summe simpliciter: quod
+<lb ed="#L" n="63"/>autem est finis ultimus in genere, est diligibille summe
+<lb ed="#L" n="64"/>in genere. Unde, exempli gratia, perfectio partis 
+intellecti<lb break="no" ed="#L" n="65"/>vae, quae propter seipsam appetibilis est, summe: appetitur
+<lb ed="#L" n="66"/>in genere tali, puta formalium perfectionum: . et propter
+<lb ed="#L" n="67"/>ipsam reliqua eius generis appetuntur. Nec hoc est 
+con<lb break="no" ed="#L" n="68"/>stituere ipsam finem ultimum simpliciter, sed in genere.
+<lb ed="#L" n="69"/>Et per hoc patet responsio ad confirmationem de fama
+<lb ed="#L" n="70"/>et honore. Quia non est par ratio de omnibus bonis. Quia
+<lb ed="#L" n="71"/>quaedam sunt ultima in aliquo genere, et quaedam non;
+<lb ed="#L" n="72"/>et quaedam sunt bona quia ipsa sunt bona, quaedam sunt
+<lb ed="#L" n="73"/>solum bona quia utilia: sicut quaedam sunt agentia prima,
+<lb ed="#L" n="74"/>quaedam non, et quaedam sunt agentia et quaedam in-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="75"/>strumenta agentium. Honor etcetera huiusmodi inter 
+mi<lb break="no" ed="#L" n="76"/>nima bona sunt: et tamen in suo. genere summe amare
+<lb ed="#L" n="77"/>summum eorum nullum malum est. Sed ubi decepti 
+vi<lb break="no" ed="#L" n="78"/>dentur isti est hoc, quod non vident quod appetere, verbi
+<lb ed="#L" n="79"/>gratia, scire philosophiam, quia est perfectio intellectus, et
+<lb ed="#L" n="80"/>nihil cogitando tam. ante. quam tunc, est appetere bonum,
+<lb ed="#L" n="81"/>puta. intellectum. perfectum; sic propter se explicite quod
+<lb ed="#L" n="82"/>tamen est appetere idem propter aliud, puta universum et
+<lb ed="#L" n="83"/>Deum, implicite, quia appetitus tendit ad rem illam ut est.
+<lb ed="#L" n="84"/>Tendit enim ad illam propter se, et ita est: sed non 
+ex<lb break="no" ed="#L" n="85"/>cludit appetitus ordinem eiusdem ad aliud, quamvis nec
+<lb ed="#L" n="86"/>includat eundem explicite. Nec ad hoc tenetur semper
+<lb ed="#L" n="87"/>quando hoc appetit. Et simile est de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e950">
+                  <lb ed="#L" n="88"/>Unde in gentilibus, quamvis non fuerint verae virtutes,
+<lb ed="#L" n="89"/>quae sunt dispositiones perfecti ad optimum simpliciter;
+<lb ed="#L" n="90"/>actus tamen virtuosi, qui sunt dispositiones ad optimum
+<lb ed="#L" n="91"/>in genere, idest felicitatem naturalem, esse, nihil negando de
+<lb ed="#L" n="92"/>Augustino, potuerunt.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e964">
+                  <lb ed="#L" n="93"/>IV. In eodem quarto articulo dubium adiunctum 
+oc<lb break="no" ed="#L" n="94"/>currit, an vendentes infidelibus ea quibus utuntur ad 
+in<lb break="no" ed="#L" n="95"/>fidelis cultus ritum servandum peccent. Et est ratio dubii
+<lb ed="#L" n="96"/>pro parte affirmativa, quia sunt digni morte non solum
+<lb ed="#L" n="97"/>qui faciunt, sed etiam qui consentiunt facientibus. 
+Con<lb break="no" ed="#L" n="98"/>stat autem quod cooperantes ad aliquid illi consentiunt.
+<lb ed="#L" n="99"/>Cooperari autem vendentes opportuna ad illud, quando
+<lb ed="#L" n="100"/>sunt conscii intenti usus, patet ex eo quod illicitum 
+iudi<lb break="no" ed="#L" n="101"/>catur vendere ballistas et alia huiusmodi tempore belli 
+iniu<lb break="no" ed="#L" n="102"/>sti, vendere taxillos et alia huiusmodi his qui abutentur eis.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e988">
+                  <lb ed="#L" n="103"/>Pro parte: autem negativa, quia vendens aliquid, ut sic,
+<lb ed="#L" n="104"/>non communicat cum emptore in futuro usu, sed solum
+<lb ed="#L" n="105"/>in contractu venditionis et emptionis. Ac per hoc, si 
+ven<lb break="no" ed="#L" n="106"/>dit iusto pretio, etc., iuste transfert dominium illius rei
+<lb ed="#L" n="107"/>in illum: De usu autem relinquit illi curam, postquam erit
+<lb ed="#L" n="108"/>translatum dominium.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1004">
+                  <lb ed="#L" n="109"/>V. Ad:hoc dicitur quod vendere pertinentia ad ritum
+<lb ed="#L" n="110"/>infidelium contingit tripliciter. Primo, ea quorum usus ad
+<lb ed="#L" n="111"/>nihil est nisi ad infidelitatem: ut sunt idola, stolae 
+sacer<lb break="no" ed="#L" n="112"/>dotales et huiusmodi. Et hoc constat esse illicitum, ut 
+in<lb break="no" ed="#L" n="113"/>ferius in qu. crx, art. 2, ad 4, dicitur. - Secundo, ea
+<lb ed="#L" n="114"/>quorum usus commmuunis est ad bonum et malum: ut res
+<lb ed="#L" n="115"/>naturales, puta. animalia, fructus, flores et huiusmodi;. et
+<lb ed="#L" n="116"/>artificiales, ut. vestes communes et alia huiusmodi. Et hoc
+<lb ed="#L" n="117"/>contingit tripliciter. Vel vendendo ad hunc effectum, ut
+<lb ed="#L" n="118"/>scilicet habeant opportuna ad cultum suum. Et hoc etiam
+<lb ed="#L" n="119"/>constat esse illicitum: quoniam hoc est cooperari 
+instru<lb break="no" ed="#L" n="120"/>menta praebendo ad peccandum. - Vel nesciendo . quod
+<lb ed="#L" n="121"/>infideles ementes utantur istis in suis sacris. Et hoc 
+nul<lb break="no" ed="#L" n="122"/>lum peccatum de se continet; cum etiam ignorantia illa
+<lb ed="#L" n="123"/>sit eorum quae fidelis non tenetur scire. — Vel sciendo
+<lb ed="#L" n="124"/>quod infideles emunt ista pro suis sacris: et in hoc casu
+<lb ed="#L" n="125"/>tota difficultas consistit. Si tamen diligenter consideretur
+<lb ed="#L" n="126"/>quod, vendendo ista communia cumscientia et sine 
+in<lb break="no" ed="#L" n="127"/>tentione usus mali futuri ex parte rei venditae, non dat
+<lb ed="#L" n="128"/>directe occasionem peccandi, ut in primo casu, quia res
+<lb ed="#L" n="129"/>talis non est principaliter ad usum malum, sed indifferens;
+<lb ed="#L" n="130"/>et ex parte voluntatis non est consensus ad hoc ut iste 
+ha<lb break="no" ed="#L" n="131"/>beat opportuna ad sacra sua, ut in secundo casu accidit, sed
+<lb ed="#L" n="132"/>sola scientia futuri usus mali intervenit: apparebit quod 
+ma<lb break="no" ed="#L" n="133"/>lus usus qui sequetur. non est respectu sic vendentis 
+volun<lb break="no" ed="#L" n="134"/>tarius, ita ut sibi imputetur; ac per hoc, non est peccatum,
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1063">
+                  <lb ed="#L" n="135"/>Manifestatur autem hoc ex distinctione voluntarii, directe
+<lb ed="#L" n="136"/>scilicet aut indirecte. Constat namque quod talis usus non
+<lb ed="#L" n="137"/>est voluntarius directe: cum non sit a voluntate vendentis
+<lb ed="#L" n="138"/>directe, ut patet. Quod autem non sit indirecte voluntarius,
+<lb ed="#L" n="139"/>quia scilicet in potestate voluntatis vendentis est non 
+ven<lb break="no" ed="#L" n="140"/>dere, ex quo evitabitur malus usus illius rei, hinc patet
+<lb ed="#L" n="141"/>quod venditor rei habentis usum indifferentem, per se 
+lo<lb break="no" ed="#L" n="142"/>quendo, non tenetur cavere de usu futuro : alioquin 
+oporte<lb break="no" ed="#L" n="143"/>ret venditores rerum sollicitari circa hoc, quod est fatuum.
+<lb ed="#L" n="144"/>Per accidens autem, puta quia sunt conscii futuri mali usus
+<lb ed="#L" n="145"/>penes istum emptorem, non tenetur nisi pro quanto potest
+<lb ed="#L" n="146"/>et debet cavere ne ille in aliis usus fiat: haec enim est 
+na<lb break="no" ed="#L" n="147"/>tura voluntarii indirecte, quod scilicet possit et debeat 
+vo<lb break="no" ed="#L" n="148"/>luntas velle. Constat autem quod, licet venditor in casu
+<pb ed="#L" n="84"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nostro cavere possit, non tamen debet: quia non tenetur
+<lb ed="#L" n="2"/>impedire eos a sacris suis.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1105">
+                  <lb ed="#L" n="3"/>Apparet autem. hanc determinationem esse veram, quia
+<lb ed="#L" n="4"/>ex ea solvuntur difficultates accidentes in huiusmodi, scilicet
+<lb ed="#L" n="5"/>de vendentibus ballistas tempore belli iniusti. In his enim
+<lb ed="#L" n="6"/>venditor non solum potest, sed tenetur, quantum in se est, |
+<lb ed="#L" n="7"/>impedire bellum iniustum: multo magis quam particularem |
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>oppressionem pauperis. Et propterea isti non excusantur:
+<lb ed="#L" n="9"/>sicut nec vendentes venenum conscii de malo usu futuro.
+<lb ed="#L" n="10"/>Sicut enim tenetur quis auferre gladium de manu furiosi,
+<lb ed="#L" n="11"/>ita tenetur ad impediendum huiusmodi: et tanto magis
+<lb ed="#L" n="12"/>quanto sola negatione venditionis hoc possunt. De 
+vendi<lb break="no" ed="#L" n="13"/>toribus autem taxillorum et aliorum huiusmodi in suo
+<lb ed="#L" n="14"/>loco inferius erit sermo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e1138"><!-- caj-p2p2-q10a5 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e1141">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1324-d1e1143">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="12"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1150">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>IN articulo quinto dubium occurrit de duplici ordine 
+spe<lb break="no" ed="#L" n="14"/>Lens diversorum vitiorum, an in utroque ordine sit
+<lb ed="#L" n="15"/>vera diversitas specifica. Nam si distinguantur specie vitia
+<lb ed="#L" n="16"/>secundum diversitatem requisitorum ad virtutem, non 
+suf<lb break="no" ed="#L" n="17"/>ficienter determinatum est superius de diversitate specifica
+<lb ed="#L" n="18"/>vitiorum et virtutum ex obiectis. Nec possent discerni 
+spe<lb break="no" ed="#L" n="19"/>cies peccatorum nisi singulariter individua cernerentur, - Si
+<lb ed="#L" n="20"/>autem non sunt verae species, male dicitur quod infinita
+<lb ed="#L" n="21"/>uni opponuntur, etc.: constat enim quod de pluralitate 
+spe<lb break="no" ed="#L" n="22"/>cifica est sermo.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1176">
+                  <lb ed="#L" n="23"/>Ad hoc dicitur quod peccatum, ut praedictum fuit,
+<lb ed="#L" n="24"/>est in duplici genere, scilicet mali simpliciter et mali 
+mo<lb break="no" ed="#L" n="25"/>ralis; et propterea species eius dupliciter assignantur. Nam
+<lb ed="#L" n="26"/>prout est in genere mali moralis, assignantur ei species
+<lb ed="#L" n="27"/>determinatae et certae: et hae sunt quae in littera dicuntur
+<lb ed="#L" n="28"/>attendi penes diversam habitudinem ad virtutem. Prout
+<lb ed="#L" n="29"/>autem. sunt in genere mali simpliciter, assignantur ei 
+spe<lb break="no" ed="#L" n="30"/>cies, infinitae; et hae sunt quae in littera dicuntur attendi
+<lb ed="#L" n="31"/>penes corruptionem. requisitorum ad virtutem. Et quoniam
+<lb ed="#L" n="32"/>species in genere mali simpliciter non sunt species, sed
+<lb ed="#L" n="33"/>privationes specierum, sicut malum ipsum est privatio 
+ge<lb break="no" ed="#L" n="34"/>neris, puta boni moralis; ideo species vitiorum secundum
+<lb ed="#L" n="35"/>corruptionem. requisitorum non sunt vere et proprie 
+spe<lb break="no" ed="#L" n="36"/>cies vitiorum simpliciter, sed secundum quid, idest in tali
+<lb ed="#L" n="37"/>ordine. Illae autem quae determinatae sunt simpliciter sunt
+<lb ed="#L" n="38"/>species vitiorum. Et propterea sufficienter superius 
+deter<lb break="no" ed="#L" n="39"/>miunatum est de specifica diversitate: et ad discretionem
+<lb ed="#L" n="40"/>peccatorum. sufficit illas certas species nosse.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1218">
+                  <lb ed="#L" n="41"/>Hanc autem esse mentem Auctoris in littera ex eo patet
+<lb ed="#L" n="42"/>quod distinctionem factam in corpore articuli de duplici
+<lb ed="#L" n="43"/>diversitate vitiorum ad distinctionem factam in responsione
+<lb ed="#L" n="44"/>ad primum de duplici formali constat pertinere. Nam omnis
+<lb ed="#L" n="45"/>disunctio specifica penes formale attenditur: ac per hoc
+<lb ed="#L" n="46"/>duplex ordo diversitatis specificae ipsius vitii penes duplex
+<lb ed="#L" n="47"/>formale in peccato attendi debet. Ac per hoc certae 
+spe<lb break="no" ed="#L" n="48"/>cies vitiorum ex parte obiecti, infinitae autem ex parte 
+re<lb break="no" ed="#L" n="49"/>cessus, ponendae sunt. Et ad hoc explicandum, in corpore
+<lb ed="#L" n="50"/>articuli, tractando de diversitate vitii infinita, duo dicuntur.
+<lb ed="#L" n="51"/>Primo, ly ut a rectitudine virtutis recedatur: ubi ostendit
+<lb ed="#L" n="52"/>quod infinitas ista consistit in recessu a bono, ex qua parte
+<lb ed="#L" n="53"/>peccata non habent veram speciem. Secundo, testimonium
+<lb ed="#L" n="54"/>Pythagoricorum, qui de malo simpliciter loquuntur.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1252">
+                  <lb ed="#L" n="55"/>Et confirmatur hoc ex praecedenti Libro, ubi didicimus
+<lb ed="#L" n="56"/>quod corruptio quorumcumque requisitorum ad virtutem
+<lb ed="#L" n="57"/>ad idem vitium spectat ad quod spectat obiectum: ut in
+<lb ed="#L" n="58"/>qu. Lxxi, art. ult, patet. Ubi etiam, im resp. ad r, patet
+<lb ed="#L" n="59"/>quod species penes corruptionem requisitorum sunt species
+<lb ed="#L" n="60"/>mali simpliciter, et non species peccatorum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1268">
+                  <lb ed="#L" n="61"/>II. In eodem quinto articulo dubium occurrit de 
+spe<lb break="no" ed="#L" n="62"/>Ciebus determinatis infidelitatis. Tum quia differentia 
+assi<lb break="no" ed="#L" n="63"/>gnata penes fidem susceptam vel non, videtur per accidens
+<lb ed="#L" n="64"/>seu materialis. Reniti enim temperantiae vel iustitiae 
+ha<lb break="no" ed="#L" n="65"/>bitae vel non habitae eiusdem rationis est. Et per idem
+<lb ed="#L" n="66"/>aliquis expellit a se susceptum per quod resistit suscipiendo:
+<lb ed="#L" n="67"/>ut patet in naturalibus, aqua enim per frigiditatem resistit
+<lb ed="#L" n="68"/>primo calido et deinde susceptum repellit; et in 
+morali<lb break="no" ed="#L" n="69"/>bus, avarus enim per tenacitatem resistit expensis suasis
+<lb ed="#L" n="70"/>et per eandem poenitet expendisse. - Tum quia distinctio
+<lb ed="#L" n="71"/>specifica infidelitatis debet penes obiectorum diversitatem
+<lb ed="#L" n="72"/>assignari. Hic autem assignatur penes diversam habitudinem
+<lb ed="#L" n="73"/>ad oppositam virtutem.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1299">
+                  <lb ed="#L" n="74"/>Ad hoc dicitur quod diversitas specierum infidelitatis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="75"/>enumeratarum in littera penes obiectum attenditur. Quod
+<lb ed="#L" n="76"/>sic patet. Cum actus fidei proprius sit assentire sententiae
+<lb ed="#L" n="77"/>verae etc.; infidelitatis autem dissentire contrarie, idest 
+sen<lb break="no" ed="#L" n="78"/>ure contrariam sententiam, et propterea infidelitas contrarie
+<lb ed="#L" n="79"/>opponatur fidei: consequens est ut species infidelitatis omnes
+<lb ed="#L" n="80"/>in contrariam sententiam ferantur diversimode. Et quia tam
+<lb ed="#L" n="81"/>fides quam infidelitas fit circa intellectum motum a 
+volun<lb break="no" ed="#L" n="82"/>tate, ideo non secundum varietatem contrariae sententiae
+<lb ed="#L" n="83"/>absolute, sed secundum quod diversimode variatur 
+volun<lb break="no" ed="#L" n="84"/>tarie sentire contrariam sententiam, species infidelitatis 
+su<lb break="no" ed="#L" n="85"/>muntur. Sunt in huiusmodi dissensu velut duo extrema
+<lb ed="#L" n="86"/>voluntarie sentire contrarium absolute, et voluntarie sentire
+<lb ed="#L" n="87"/>contrarium promissae et professae sententiae: et inter haec
+<lb ed="#L" n="88"/>mediat voluntarie sentire contrarium quodammodo 
+promis<lb break="no" ed="#L" n="89"/>sae et professae sententiae. Et primum quidem constituit
+<lb ed="#L" n="90"/>infidelitatem paganorum; secundum, haereticorum; tertium,
+<lb ed="#L" n="91"/>Iudaeorum. Et haec distinctio fit in littera: ut patet 
+in<lb break="no" ed="#L" n="92"/>tuenti responsionem ad primum, in qua diversitas 
+specie<lb break="no" ed="#L" n="93"/>rum infidelitatis dicitur ex hoc quod ad diversas falsas 
+sen<lb break="no" ed="#L" n="94"/>tentias convertuntur modo exposito, qui ex sequenti articulo
+<lb ed="#L" n="95"/>auctoritatem habet.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1351">
+                  <lb ed="#L" n="96"/>Ad primam ergo obiectionem dicitur quod in aequivoco
+<lb ed="#L" n="97"/>laboramus. Nam argumentum loquitur de suscipere vel
+<lb ed="#L" n="98"/>non. suscipere absolute formam aliquam. Littera autem 
+lo<lb break="no" ed="#L" n="99"/>quitur de susceptione professiva: haec autem variat 
+spe<lb break="no" ed="#L" n="100"/>ciem moris, ut patet. '
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1364">
+                  <lb ed="#L" n="101"/>Ad secundam autem. dicitur quod sermones. doctrinales
+<lb ed="#L" n="102"/>frequenter fiunt a notioribus: et propterea Auctor 
+manife<lb break="no" ed="#L" n="103"/>stam. habitudinem. ad virtutem assignavit pro differentia,
+<lb ed="#L" n="104"/>non false, ab effectibus differentias assignans. Nam ad 
+di<lb break="no" ed="#L" n="105"/>versitatem sententiarum professae vel non professae, 
+abso<lb break="no" ed="#L" n="106"/>lute vel quodammodo, sequitur diversa illa habitudo ad
+<lb ed="#L" n="107"/>virtutem: sicut ad obiectum excedens vel diminutum 
+se<lb break="no" ed="#L" n="108"/>quitur diversa habitudo vitiorum ad virtutem. - Quamvis
+<lb ed="#L" n="109"/>haec quae dicuntur de virtutibus et vitiis possint obiective
+<lb ed="#L" n="110"/>intelligi: sicut fides accipitur pro re credita.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1388">
+                  <lb ed="#L" n="111"/>III. In eodem quinto articulo dubium est de differentiae
+<lb ed="#L" n="112"/>specificae ratione assignata in littera inter haeresim et 
+per<lb break="no" ed="#L" n="113"/>fidiam Iudaicam, quia haeretici renituntur fidei susceptae
+<lb ed="#L" n="114"/>in manifestatione veritatis, ludaei autem fidei susceptae in
+<lb ed="#L" n="115"/>figura. Cum enim figura ut sic et figurata veritas ad 
+ean<lb break="no" ed="#L" n="116"/>dem fidem spectent, et non differant nisi sicut implicitum
+<lb ed="#L" n="117"/>et explicitum; consequens est quod reniti contra figuram,
+<lb ed="#L" n="118"/>et contra figuratum manifestatum, non differunt nisi sicut
+<lb ed="#L" n="119"/>reniti contra aliquid explicite vel implicite. Sed hoc non
+<lb ed="#L" n="120"/>variat speciem moris: quia eiusdem rationis est laedere 
+se<lb break="no" ed="#L" n="121"/>mina et segetes, quae implicite erant in seminibus; et 
+con<lb break="no" ed="#L" n="122"/>tradicere principiis et conclusionibus, quae implicite sunt
+<lb ed="#L" n="123"/>in eis; licet differentia sit secundum magis et minus. Non
+<lb ed="#L" n="124"/>ergo est bona ratio distinctionis specificae assignata in littera.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1422">
+                  <lb ed="#L" n="125"/>Ad evidentiam huius scito quod differentia secundum
+<lb ed="#L" n="126"/>explicituní et implicitum potest ad diversa referri. Et si
+<lb ed="#L" n="127"/>referatur ad id quod dicitur explicite vel implicite esse, 
+cer<lb break="no" ed="#L" n="128"/>tum est quod non variant eius speciem, sicut nec actus et
+<lb ed="#L" n="129"/>potentia: eiusdem enim speciei est homo in potentia et
+<lb ed="#L" n="130"/>homo in actu; et similiter veritas una et eadem implicita
+<lb ed="#L" n="131"/>et explicita. Si vero referatur ad ipsos modos, seu res tales
+<lb ed="#L" n="132"/>modos sibi vindicantes, sic variatur species: ut patet de
+<lb ed="#L" n="133"/>principiis et conclusionibus et habitibus eorum, et in 
+na<lb break="no" ed="#L" n="134"/>turalibus de grani herba et ipso grano. Propterea, licet
+<lb ed="#L" n="135"/>Evangelium manifestatum et obumbratum sit unum et idem
+<lb ed="#L" n="136"/>secundum speciem, ipsum tamen secundum se et illius
+<pb ed="#L" n="86"/>
+                  <!-- p. 86  -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>figura specie differunt. Et licet fides antiquorum et nostra
+<lb ed="#L" n="2"/>sit eiusdem speciei, propter unitatem obiecti; infidelitas 
+ta<lb break="no" ed="#L" n="3"/>men opposita fidei explicitae Evangelii, et fidei implicitae
+<lb ed="#L" n="4"/>eiusdem, sunt diversarum rationum. Quia, ut in littera 
+di<lb break="no" ed="#L" n="5"/>citur in responsione ad primum, aliter utitur fides, et aliter
+<lb ed="#L" n="6"/>infidelitas, illo: uno obiecto fidei: nam fides convertitur ad
+<lb ed="#L" n="7"/>illud, infidelitas avertitur ab illo. Et ideo illa recipit 
+me<lb break="no" ed="#L" n="8"/>rito inde unitatem: haec non, sed ex ipsis diversis sententiis
+<lb ed="#L" n="9"/>contrariis figurae et veritati apertae, ad quas infidelitas 
+con<lb break="no" ed="#L" n="10"/>vertitur. Iam enim ostensum est quod sunt diversarum 
+ra<lb break="no" ed="#L" n="11"/>tionum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1481">
+                  <lb ed="#L" n="12"/>Et ad obiecta in oppositum dicitur quod figura ut sic
+<lb ed="#L" n="13"/>et figuratum sunt eiusdem rationis referendo ad rem 
+figu<lb break="no" ed="#L" n="14"/>ratam: non autem ad modos habendi, propter quos 
+diver<lb break="no" ed="#L" n="15"/>simode ferimur in violationem utriusque professionis, sicut
+<lb ed="#L" n="16"/>in extremum et medium, ut declaratum est. — Nec obstat
+<lb ed="#L" n="17"/>exemplum de seminibus. Quia licet herbae et granum specie
+<lb ed="#L" n="18"/>distinguantur, in ordine tamen ad damnum laesi non 
+dis<lb break="no" ed="#L" n="19"/>tinguuntur nisi secundum magis et minus: et secundum
+<lb ed="#L" n="20"/>talem ordinem considerantur in moralibus. - Negare autem
+<lb ed="#L" n="21"/>principia et conclusiones falsum est quod sint eiusdem 
+ra<lb break="no" ed="#L" n="22"/>tionis: quoniam distinguuntur negationes penes: 
+affirma<lb break="no" ed="#L" n="23"/>tiones.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1510">
+                  <lb ed="#L" n="24"/>IV. In eodem quinto articulo dubium occurrit, an 
+prae<lb break="no" ed="#L" n="25"/>ter has tres species infidelitatis sint aliae species. Et ratio
+<lb ed="#L" n="26"/>dubii ex littera est. Tum quia dicitur quod in generali 
+pos<lb break="no" ed="#L" n="27"/>sunt hae tres species assignari: dicendo im generali, a 
+spe<lb break="no" ed="#L" n="28"/>ciebus specialissimis se praeservasse videtur. — Tum quia:
+<lb ed="#L" n="29"/>infidelitas gentilium in littera sequentis articuli dicitur 
+fi<lb break="no" ed="#L" n="30"/>dem Evangelii nullo modo suscepisse. Ex quo arguitur
+<lb ed="#L" n="31"/>quod infidelitas sectae Mahumeti, quia Evangelii fidem 
+su<lb break="no" ed="#L" n="32"/>scipere profitetur, quamvis illud pervertat, sub nulla barum
+<lb ed="#L" n="33"/>specierum contineatur: ac per hoc detur alia species 
+infi<lb break="no" ed="#L" n="34"/>delitatis praeter istas.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1536">
+                  <lb ed="#L" n="35"/>Ad hoc breviter dicitur quod, quia nulla apparet latitudo
+<lb ed="#L" n="36"/>ex parte obiecti nisi quae dicta est, et quae secundum 
+mul<lb break="no" ed="#L" n="37"/>tiplicationem sententiarum contrariarum fidei fit, et utraque
+<lb ed="#L" n="38"/>in littera tangitur; et penes primam non plures quam tres
+<lb ed="#L" n="39"/>differentiae formales assignatae appareant, cum in nullo 
+ap<lb break="no" ed="#L" n="40"/>pareat latitudo nisi materialis (sentire enim contrarium
+<lb ed="#L" n="41"/>Evangelii professi unum formale est, et sic de aliis); penes
+<lb ed="#L" n="42"/>secundam autem infinitae species constituantur, quae non
+<lb ed="#L" n="43"/>sunt tam species quam privationes diversarum sententiarum
+<lb ed="#L" n="44"/>secundum speciem requisitarum ad integritatem fidei: 
+id<lb break="no" ed="#L" n="45"/>circo praeter praedictas tres species simpliciter, et infinitas
+<lb ed="#L" n="46"/>in genere mali, nullas alias video.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1565">
+                  <lb ed="#L" n="47"/>Ad primum ergo in oppositum dicitur quod ly in ge-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="48"/>nerali non dicitur ad praeservandum se. a specialissimis ,
+<lb ed="#L" n="49"/>quia liber iste de specialissimis est: sed ad denotandum
+<lb ed="#L" n="50"/>modum diversum in his speciebus et in aliis quae 
+atten<lb break="no" ed="#L" n="51"/>duntur penes corruptionem requisitorum. Nam istae 
+assi<lb break="no" ed="#L" n="52"/>gnantur penes sententias fidem corrumpentes in speciali:
+<lb ed="#L" n="53"/>alia enim species mali est negare Verbum caro factum
+<lb ed="#L" n="54"/>est, et alia Natus ex Maria Virgine, et sic de aliis; sicut
+<lb ed="#L" n="55"/>specie distinguuntur ipsae sententiae quae negantur. Illae
+<lb ed="#L" n="56"/>autem ad sententias in specie non descendunt, sed in 
+ge<lb break="no" ed="#L" n="57"/>nerali sententiam fidei contrariam attendentes, penes 
+pro<lb break="no" ed="#L" n="58"/>fessum. vel.non, professum esse, ut declaratum est, 
+dis<lb break="no" ed="#L" n="59"/>tinguuntur. Et hoc insinuat ly in generali.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1598">
+                  <lb ed="#L" n="60"/>Ad secundam autem obiectionem dicitur quod non 
+di<lb break="no" ed="#L" n="61"/>citur professus Evangelium nisi qui Evangelium simpliciter
+<lb ed="#L" n="62"/>profitetur. Quod non fit nisi baptismus in fide Ecclesiae
+<lb ed="#L" n="63"/>suscipiatur. Et propterea <name xml:id="TAcCaj-d1e1324-Nd1e1608">Mahumeti</name>, qui illud tantum
+<lb ed="#L" n="64"/>quod dux eorum de Evangelio et de lege Moysi voluit
+<lb ed="#L" n="65"/>suscipiunt, et neutrum simpliciter profitentur, sub 
+infideli<lb break="no" ed="#L" n="66"/>tate paganorum comprehenduntur, nulloque modo supra
+<lb ed="#L" n="67"/>dictorum, scilicet explicite vel in figura, suscepisse 
+Evan<lb break="no" ed="#L" n="68"/>gelium dicuntur in littera. Soli enim duo modi constituunt
+<lb ed="#L" n="69"/>diversitatem formalem suscipiendi qui soli constituunt 
+ali<lb break="no" ed="#L" n="70"/>quam veram professionem fidei. :
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1628">
+                  <lb ed="#L" n="71"/>V. In eodem articulo quinto, in responsione ad primum,
+<lb ed="#L" n="72"/>nota quod illa verba quae dicuntur ibi de diversitate 
+vitio<lb break="no" ed="#L" n="73"/>rum oppositorum caritati uni et eidem virtuti, secundum
+<lb ed="#L" n="74"/>conversionem ad diversa bona temporalia, et iterum 
+secun<lb break="no" ed="#L" n="75"/>dum diversas habitudines inordinatas ad Deum, licet forte
+<lb ed="#L" n="76"/>exponi possint multipliciter, secundum tamen planum 
+lit<lb break="no" ed="#L" n="77"/>terae sensum monstrant duos modos multiplicandi illa vitia.
+<lb ed="#L" n="78"/>Et iuxta secundum modum constituuntur odium Dei et
+<lb ed="#L" n="79"/>acedia; iuxta primum vero reliqua vitia, scilicet invidia,
+<lb ed="#L" n="80"/>discordia, contentio, schisma, etc.; de quibus in tractatu de.
+<lb ed="#L" n="81"/>caritate erit specialis sermo inferius. aA
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1654">
+                  <lb ed="#L" n="82"/>In eodem quinto articulo nota utramque solutionem in
+<lb ed="#L" n="83"/>responsione ad tertium, Nam prima deservit speciebus de- .
+<lb ed="#L" n="84"/>terminatis infidelitatis, in quarum qualibet contingit multos
+<lb ed="#L" n="85"/>esse errores in ordine ad unum primum obiectum, a quo
+<lb ed="#L" n="86"/>infidelitas illa sumit speciem: sicut e converso in fide 
+con<lb break="no" ed="#L" n="87"/>tingit esse multas veritates. Secunda autem deservit 
+specie<lb break="no" ed="#L" n="88"/>bus infinitis infidelitatis. Quamvis contingat etiam eundem
+<lb ed="#L" n="89"/>simul pluribus determinatis speciebus infidelitatis irretiri: -
+<lb ed="#L" n="90"/>ut, si de Christiano fiat Iudaeus, reus erit haeresis ratione
+<lb ed="#L" n="91"/>fidei Evangelicae post eius professionem. negatae, et 
+perfi<lb break="no" ed="#L" n="92"/>diae Tudaicae ratione professionis Iudaicae corrumpentis
+<lb ed="#L" n="93"/>figuram Evangelii. 
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1683">
+                  <lb ed="#L" n="94"/>Et sufficiant haec etiam pro sexto articulo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e1689"><!-- caj-p2p2-q10a7 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e1692">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1324-d1e1694">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="20"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1701">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="21"/>In articulo septimo eiusdem quaestionis duo occurrunt
+<lb ed="#L" n="22"/>dubia: alterum ex parte disputantium; alterum ex parte
+<lb ed="#L" n="23"/>audientium. Ex parte quidem disputantium, quia praeter 
+le<lb break="no" ed="#L" n="24"/>gem allegatam in littera, quae habetur in lege Nemo, Cod.,
+<lb ed="#L" n="25"/>De Summa Trin., post beatum Thomam iura nova 
+ema<lb break="no" ed="#L" n="26"/>narunt prohibentia laicis, sub poena excommunicationis,
+<lb ed="#L" n="27"/>disputare de fide tam publice quam privatim: ut patet Extra,
+<lb ed="#L" n="28"/>de Haeret., in Sexto, cap. Quicumque. Et tamen saepe 
+vi<lb break="no" ed="#L" n="29"/>demus doctos laicos in publicis disputationibus respondere
+<lb ed="#L" n="30"/>et arguere in multis materiis fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1727">
+                  <lb ed="#L" n="31"/>Ex parte vero audientium, quia continue videmus 
+re<lb break="no" ed="#L" n="32"/>ligiosos disputare in capitulis generalibus coram vulgaribus
+<lb ed="#L" n="33"/>de multis materiis fidei. Et hoc in locis ubi simplices non
+<lb ed="#L" n="34"/>sunt sollicitati ab infidelibus. Et tamen in littera dicitur hoc
+<lb ed="#L" n="35"/>esse periculosum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1740">
+                  <lb ed="#L" n="36"/>II. Ad evidentiam huius materiae sciendum est quod
+<lb ed="#L" n="37"/>diversitas sententiarum in ratione disputationis clausa 
+po<lb break="no" ed="#L" n="38"/>test referri ad ipsam disputationem; et ad personas 
+dispu<lb break="no" ed="#L" n="39"/>tantes, Et quod referatur ad ipsum actum disputandi est
+<lb ed="#L" n="40"/>de ratione disputationis, sic quod aliter non esset 
+dispu<lb break="no" ed="#L" n="41"/>tatio: nisi enim propositiones essent contra conclusionem,
+<lb ed="#L" n="42"/>non esset disputatio. Sed quod referatur ad disputantes
+<lb ed="#L" n="43"/>personas, hoc non est de ratione omnis disputationis: ut
+<lb ed="#L" n="44"/>patet in disputatione gratia exercitii, ubi non est diversa
+<lb ed="#L" n="45"/>opinio disputantium, - Rursus, quia disputare de aliqua
+<lb ed="#L" n="46"/>re est diversa proferre argumenta de illa re, illud solum
+<lb ed="#L" n="47"/>est formaliter disputare de aliqua re quod intendit 
+diver<lb break="no" ed="#L" n="48"/>sitatem rationum de illa re. Ac per hoc ille solus dicitur
+<lb ed="#L" n="49"/>proprie et formaliter disputare de fide qui intendit afferre
+<lb ed="#L" n="50"/>contrariam rationem de fide pro vel contra. Quando vero
+<lb ed="#L" n="51"/>aliquis affert rationem aliquam contra fidem non propterea,
+<lb ed="#L" n="52"/>sed gratia exercitii, non disputat de fide nisi materialiter:
+<lb ed="#L" n="53"/>sicut qui profert verba detractoria non ut detrahat, non
+<lb ed="#L" n="54"/>detrahit nisi materialiter.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1785">
+                  <lb ed="#L" n="55"/>III. Ex his autem dicitur in proposito quod, quia verba
+<lb ed="#L" n="56"/>formaliter intelligenda sunt, et poenae non sunt 
+extenden<lb break="no" ed="#L" n="57"/>dae; quod iura non prohibent disputationem de fide laicae
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="58"/>personae nisi formaliter intellectam. Haec autem contingit
+<lb ed="#L" n="59"/>quando vel defendenda fides, vel confundendus error 
+con<lb break="no" ed="#L" n="60"/>trarius, vel dubium de fide occurrit. Sic enim disputare de
+<lb ed="#L" n="61"/>fide illicitum est laicis, prohibente iure. Et ratio iuris est
+<lb ed="#L" n="62"/>quia leges feruntur secundum id quod est in pluribus:
+<lb ed="#L" n="63"/>communiter autem laici non sunt docti in fide adeo ut
+<lb ed="#L" n="64"/>sint theologi sufficientes ad hoc. Unde posset licite contra
+<lb ed="#L" n="65"/>hanc legem disputari a laico docto, quando casus esset ut
+<lb ed="#L" n="66"/>non secundum verba, sed intentionem legis, agendum 
+es<lb break="no" ed="#L" n="67"/>set: prout in communi de huiusmodi interpretatione 
+le<lb break="no" ed="#L" n="68"/>gum praedictum est. — Et per hoc patet solutio primi
+<lb ed="#L" n="69"/>dubii. Nam huiusmodi laici disputant de fide materialitef
+<lb ed="#L" n="70"/>tantum, et gratia exercitii, vel potius honoris. Et propterea
+<lb ed="#L" n="71"/>a nullo praelato reprehenduntur, servata modestia 
+conclu<lb break="no" ed="#L" n="72"/>sionum, et arguendi modo in materia fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1829">
+                  <lb ed="#L" n="73"/>IV. Ad secundum autem potest primo dici quod Auctor
+<lb ed="#L" n="74"/>loquitur de disputatione formaliter, vel saltem cum 
+infideli<lb break="no" ed="#L" n="75"/>bus, ubi non est sola diversitas in argumentis, sed in
+<lb ed="#L" n="76"/>mentibus. Et propterea dicit quod non expedit ut audiant
+<lb ed="#L" n="77"/>fideles verba infidelium disputantium contra fidem.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1842">
+                  <lb ed="#L" n="78"/>Quia tamen hoc non solum propter auctoritatem 
+lit<lb break="no" ed="#L" n="79"/>terae huius, sed absolute habet difficultatem , propter 
+pe<lb break="no" ed="#L" n="80"/>riculum audientium, dum etiam fideles disputant rationes
+<lb ed="#L" n="81"/>infidelium afferentes; ideo dicitur quod in hac re 
+discre<lb break="no" ed="#L" n="82"/>tione opus est et prudentia, ut disputantes, considerata
+<lb ed="#L" n="83"/>qualitate vulgi et nobilium seu principum, talia gratia
+<lb ed="#L" n="84"/>honoris et exercitii disputent in quibus non sit periculum
+<lb ed="#L" n="85"/>ducendi eos in vacillationem. Et propterea, nisi sint bene
+<lb ed="#L" n="86"/>in philosophia exercitati, et adversariorum rationes et 
+aucto<lb break="no" ed="#L" n="87"/>ritates optime discusserint, ita ut plene audientibus 
+satisfa<lb break="no" ed="#L" n="88"/>cere sciant, abstinere debent a disputando de materiis 
+pul<lb break="no" ed="#L" n="89"/>santibus animos, ut de immortalitate animae, de creatione
+<lb ed="#L" n="90"/>mundi, de novitate eius, et huiusmodi. Contingit enim
+<lb ed="#L" n="91"/>quandoque magis apparere, percipi, satisfacere et movere
+<lb ed="#L" n="92"/>argumenta falsa quam solutiones eorum. In quo etiam
+<lb ed="#L" n="93"/>praedicantes aliquando errant.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e1880"><!-- caj-p2p2-q10a8 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e1883">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1324-d1e1885">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="83"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1892">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="84"/>In articulo octavo eiusdem quaestionis dubium occurrit
+<lb ed="#L" n="85"/>ex <ref xml:id="TAcCaj-d1e1324-Rd1e1900">Scoto, in Quarto, dist. rv, qu. ult</ref>, credente quod 
+re<lb break="no" ed="#L" n="86"/>ligiose fieret si infideles cogerentur a principibus minis et
+<lb ed="#L" n="87"/>terroribus ad fidem. Tum quia in Concilio Toletano, ut
+<lb ed="#L" n="88"/>habetur xLv dist., can. De Judaeis, commendat Sisebutum
+<lb ed="#L" n="89"/>principem, vocans eum religiosissimum in coactione ad 
+Chri<lb break="no" ed="#L" n="90"/>stianitatem. Approbat ergo eum synodus tanquam 
+religio<lb break="no" ed="#L" n="91"/>sum in hoc.- Tum quia, dato quod ficte converterentur,
+<lb ed="#L" n="92"/>maius malum est infidelibus posse libere legem suam 
+illi<lb break="no" ed="#L" n="93"/>citam servare quam non posse eam impune servare. Ac
+<lb ed="#L" n="94"/>per hoc, cogendo eos ad fidem, fiet minus malum. - Tum
+<lb ed="#L" n="95"/>quia saltem filii eorum, si bene educarentur, in tertia et
+<lb ed="#L" n="96"/>quarta progenie essent vere fideles.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1927">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="97"/>II. Ad evidentiam huius, quia videtur habere sequaces,
+<lb ed="#L" n="98"/>sciendum est quod, cum timor minuat rationem voluntarii,
+<lb ed="#L" n="99"/>adeo ut ea quae ex timore fiunt, licet sint simpliciter 
+vo<lb break="no" ed="#L" n="100"/>luntaria, sunt quodammodo involuntaria, et mixta vocentur
+<lb ed="#L" n="101"/>etsint; et apud theologos, quae ex timore servili fiunt 
+abs<lb break="no" ed="#L" n="102"/>que caritate fiant; et apud morales dicatur quod oderunt
+<lb ed="#L" n="103"/>peccare mali formidine poenae: consequens est ut coactio
+<lb ed="#L" n="104"/>principum minis et terroribus ad susceptionem fidei non
+<lb ed="#L" n="105"/>ad voluntariam omnino, sed serviliter voluntariam 
+termi<lb break="no" ed="#L" n="106"/>netur; ac per hoc ad sacrilegium. — Et tenet haec sequela,
+<lb ed="#L" n="107"/>quia suscipere sacramenta fidei serviliter est contumeliam
+<lb ed="#L" n="108"/>inferre sacramentis. - Prima autem sequela patet ex 
+com<lb break="no" ed="#L" n="109"/>muni hominum ratione. Rationabile quippe est, et ut in
+<pb ed="#L" n="90"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>pluribus, quod minis et terroribus principum coacti, 
+sa<lb break="no" ed="#L" n="2"/>cramenta fidei suscipientes, serviliter suscipiant: licet aliquis
+<lb ed="#L" n="3"/>forte de necessitate faceret virtutem. Sed in humanis 
+at<lb break="no" ed="#L" n="4"/>tendendum est quod ut in pluribus invenitur. Religioni
+<lb ed="#L" n="5"/>igitur adversatur cogere infideles omnino extraneos ab 
+Ec<lb break="no" ed="#L" n="6"/>clesia ad fidem: quia adversatur voluntario requisito ad
+<lb ed="#L" n="7"/>sacramenta fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e1979">
+                  <lb ed="#L" n="8"/>Ultra hoc quod adversatur ipsi actui fidei qui est 
+cre<lb break="no" ed="#L" n="9"/>dere, de cuius ratione est voluntarium, ut in littera dicitur.
+<lb ed="#L" n="10"/>Quod sic intellige. Medium debet esse consonum et 
+pro<lb break="no" ed="#L" n="11"/>portionatum fini. Sed credere est de genere voluntarii: et
+<lb ed="#L" n="12"/>compulsio per metum, etc., est via ad involuntarium.
+<lb ed="#L" n="13"/>Ergo. - Patet minor: quia id quod metu fit, quantum
+<lb ed="#L" n="14"/>habet de metu tantum habet de involuntario. In cuius 
+si<lb break="no" ed="#L" n="15"/>gnum, si nihil metus adesset, nihil involuntarii hic 
+pate<lb break="no" ed="#L" n="16"/>retur.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2002">
+                  <lb ed="#L" n="17"/>III. Ad primum autem Scoti dicitur quod sententia synodi
+<lb ed="#L" n="18"/>duo continet: scilicet laudem principis, et prohibitionem
+<lb ed="#L" n="19"/>facti. Et ex secundo patet quod. non approbat factum. Ac
+<lb ed="#L" n="20"/>per hoc insinuat quod laudatur princeps de intentione:
+<lb ed="#L" n="21"/>multa enim mala intentione bona fiunt.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2015">
+                  <lb ed="#L" n="22"/>Ad secundum vero dicitur quod maius malum videtur
+<lb ed="#L" n="23"/>infideliter vivere occulte post suscepta fidei sacramenta quam
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>libere infideliter vivere: quia evitatur contumelia 
+sacramen<lb break="no" ed="#L" n="25"/>torum. - Et nihilominus ad hoc, et tertium, unica 
+respon<lb break="no" ed="#L" n="26"/>sione dicitur quod zon sunt facienda mala ut veniant
+<lb ed="#L" n="27"/>bona, ut dicitur ad Rom. m: et multo minus ut eveniat
+<lb ed="#L" n="28"/>minus malum. Unde non est tanta inferenda contumelia
+<lb ed="#L" n="29"/>sacramentis ut filii in tertia et quarta progenie salventur.
+<lb ed="#L" n="30"/>Quamvis de facto timendum esset probabiliter de 
+oppo<lb break="no" ed="#L" n="31"/>sito: quia patres ficti in fide similes sibi filios nutrirent;
+<lb ed="#L" n="32"/>naturale siquidem hoc est.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2044">
+                  <lb ed="#L" n="33"/>IV. In eodem articulo octavo considera diligenter 
+cau<lb break="no" ed="#L" n="34"/>sam iustam belli contra infideles, et compulsionis eorum:
+<lb ed="#L" n="35"/>ne scilicet fidem Iesu. Christi impediant aliquo trium 
+modo<lb break="no" ed="#L" n="36"/>rum: scilicet vel blasphemiis, puta dicendo mala de Christo
+<lb ed="#L" n="37"/>Iesu aut Sanctis eius aut Ecclesia eius; vel persuasionibus
+<lb ed="#L" n="38"/>inducendo nostros ad infidelitatem; vel- persecutionibus,
+<lb ed="#L" n="39"/>sive in communi, ut quotidie videmus Turcas invadere
+<lb ed="#L" n="40"/>Christiani nominis gentes, vel in particulari, si Christianos
+<lb ed="#L" n="41"/>aut praedicatores fidei occidant. Et fabrica super illam 
+quo<lb break="no" ed="#L" n="42"/>niam ad impedimenta fidei spectat quod non sufferunt in
+<lb ed="#L" n="43"/>terris suis praedicationem publicam fidei, quod praemiant
+<lb ed="#L" n="44"/>abnegantes Christum et accedentes ad eorum fidem, et
+<lb ed="#L" n="45"/>alia huiusmodi. Ex hac quippe radice multae quaestiones
+<lb ed="#L" n="46"/>solvuntur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e2078"><!-- caj-p2p2-q10a9 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e2081">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e1324-d1e2083">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="27"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2090">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>In articulo nono eiusdem quaestionis adverte distinctionem
+<lb ed="#L" n="29"/>de iudicio spirituali vel temporali circa infideles. Et scito
+<lb ed="#L" n="30"/>quod non est sermo de spirituali vel temporali quoad 
+cul<lb break="no" ed="#L" n="31"/>pam, sed quoad poenam. Nam pro culpis spiritualibus
+<lb ed="#L" n="32"/>puniri possunt: ut in sequenti articulo de infidelitatis pu- |
+<lb ed="#L" n="33"/>nitione dicitur. Et dictum est in praecedenti quod pro 
+blas<lb break="no" ed="#L" n="34"/>phemiis et dissuasionibus et impedimentis fidei possint
+<lb ed="#L" n="35"/>compelli, etc. Sed poenae spirituales in infidelibus qui
+<lb ed="#L" n="36"/>omnino foris sunt, utpote nec fores Ecclesiae per baptis-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="37"/>mum ingressi, non exercentur; sed temporales. Et licet
+<lb ed="#L" n="38"/>Ecclesia, ut inferius dicitur, possit punire temporaliter
+<lb ed="#L" n="39"/>etiam infideles qui non delinquunt commorando inter 
+fide<lb break="no" ed="#L" n="40"/>les, ut patet ex dictis, quod scilicet propter impedimenta
+<lb ed="#L" n="41"/>fidei possunt infideles compelli et debellari; non tamen
+<lb ed="#L" n="42"/>excepto belli iudicio facit hoc, nisi in casu in littera 
+ex<lb break="no" ed="#L" n="43"/>posito, scilicet cum delinquunt commorantes inter fideles.
+<lb ed="#L" n="44"/>Et propterea haec verba Auctor dixit in corpore et in
+<lb ed="#L" n="45"/>responsione ad secundum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e2137"><!-- caj-p2p2-q10a10 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e2140">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e1324-d1e2142">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="61"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2149">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>In articulo decimo eiusdem quaestionis nota, primo, statuta
+<lb ed="#L" n="63"/>Ecclesiae in littera allegata haberi Extra, de ludaeis, 
+capi<lb break="no" ed="#L" n="64"/>tulis Cum sit, Ex speciali, et Nulli, et in Decretis, dist. riv,
+<lb ed="#L" n="65"/>can. Nulla. Allegatum vero in responsione. ad tertium. ex
+<lb ed="#L" n="66"/>capitulo Multorum tractum. videtur.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2165">
+                  <lb ed="#L" n="67"/>Nota secundo, potestatem Ecclesiae etiam super infideles
+<lb ed="#L" n="68"/>non ei subiectos temporaliter: quod scilicet potest eos 
+pri<lb break="no" ed="#L" n="69"/>vare dominio tam universali quam particulari super 
+Chri<lb break="no" ed="#L" n="70"/>stianos, quamvis non faciat.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2176">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="71"/>Nota tertio, et meditare, quod, quia proportionaliter 
+in<lb break="no" ed="#L" n="72"/>fideles domini contemnunt Christianos cognoscentes eorum
+<lb ed="#L" n="73"/>defectus, et domini Christiani contemnunt religiosos. 
+co<lb break="no" ed="#L" n="74"/>gnoscentes eorum defectus (proportionabiliter quippe se.
+<lb ed="#L" n="75"/>bent): - et propterea, sicut cavendum est, iuxta Apostoli
+<lb ed="#L" n="76"/>sententiam, Christianis coram infidelibus litigare, ita 
+ca<lb break="no" ed="#L" n="77"/>vendum est religiosis coram saecularibus contendere. Sed 
+<lb ed="#L" n="78"/>non omnes capiunt verbum istud.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e2199"><!-- caj-p2p2-q10a11 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e2202">Articulus 11</head>
+               <p xml:id="TAcCaj-d1e1324-d1e2204">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="42"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2211">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="43"/>In articulo undecimo eiusdem quaestionis perspice 
+regu<lb break="no" ed="#L" n="44"/>lam permissionum in regimine, propter bonum 
+prove<lb break="no" ed="#L" n="45"/>niens vel malum vitandum; ut inde possis circa diversa
+<lb ed="#L" n="46"/>iudicare principes spirituales et temporales in 
+permissioni<lb break="no" ed="#L" n="47"/>bus usurarum et aliorum huiusmodi. Hinc enim elicere
+<lb ed="#L" n="48"/>potes quod, cum permissio criminum non sit secundum se
+<lb ed="#L" n="49"/>mala moraliter (si enim esset mala, non conveniret Deo,
+<lb ed="#L" n="50"/>nec ulla intentione posset bene fieri), si ex rationabili causa
+<lb ed="#L" n="51"/>permissio fit, bona moraliter est, utpote rationi consona.
+<lb ed="#L" n="52"/>Causa autem rationabilis in littera ponitur ex parte boni,
+<lb ed="#L" n="53"/>ne bonum impediatur, iuxta Domini sententiam, Sinite,
+<lb ed="#L" n="54"/>ne forte simul eradicetis et triticum; et ex parte mali, ne
+<lb ed="#L" n="55"/>fiat, iuxta sententiam Augustini, Aufer meretrices etc, Et
+<lb ed="#L" n="56"/>propterea ad has causas examinanda est permissio. Sed
+<lb ed="#L" n="57"/>cave ne permissio sit admixta participationi.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2248">
+                  <lb ed="#L" n="58"/>II. In eodem articulo undecimo dubium occurrit, an 
+to<lb break="no" ed="#L" n="59"/>lerandi sint libri Iudaeorum, sicut tolerandus est cultus
+<lb ed="#L" n="60"/>eorum. Et est ratio dubii quia libri defensivi sunt fidei seu
+<lb ed="#L" n="61"/>perfidiae eorum, et consequenter cultus; et propterea, sicut
+<lb ed="#L" n="62"/>perfidia et cultus toleratur eorum, ita tolerandi sunt libri. —
+<lb ed="#L" n="63"/>In oppositum autem est quia libri eorum pleni sunt 
+bla<lb break="no" ed="#L" n="64"/>sphemiis contra Christum.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2266">
+                  <lb ed="#L" n="65"/>Ad hoc dicitur quod libri Iudaeorum sunt in duplici
+<lb ed="#L" n="66"/>differentia. Quidam competentes ludaeis absolute, ut sunt
+<lb ed="#L" n="67"/>libri Testamenti veteris et expositiones eorum: et hi procul
+<lb ed="#L" n="68"/>dubio relinquendi sunt Iudaeis. Quidam editi ad 
+confoven<lb break="no" ed="#L" n="69"/>dam suam perfidiam contra lesu Christi divinitatem, ne
+<lb ed="#L" n="70"/>convertantur Iudaei ad lesu Christi fidem, sed persistant in
+<lb ed="#L" n="71"/>sua perfidia obstinati: et hi libri, si facultas adsit, sunt per
+<lb ed="#L" n="72"/>Ecclesiam comburendi. Et est ratio differentiae inter cultum
+<lb ed="#L" n="73"/>et istos libros, quia cultus Iudaeorum est quasi testis fidei
+<lb ed="#L" n="74"/>nostrae, sicut figura veritatis et umbra corporis, ut in 
+lit<lb break="no" ed="#L" n="75"/>tera dicitur: et ideo merito tolerandus. Libri autem isti
+<lb ed="#L" n="76"/>directe blasphemi sunt, et totaliter mendaciis pleni contra
+<lb ed="#L" n="77"/>fidem lesu Christi : et propterea non tolerandi sunt, si 
+sup<lb break="no" ed="#L" n="78"/>primi possunt. Unde Auctor in art, 8 dixit quod infideles
+<lb ed="#L" n="79"/>compellendi sunt ut fidem non impediant blasphemiis vel
+<lb ed="#L" n="80"/>malis persuasionibus: constat enim tales libros et 
+blasphe<lb break="no" ed="#L" n="81"/>miis et malis persuasionibus contra fidem esse plenos. Et
+<lb ed="#L" n="82"/>in art. ro de ludaeis dixit quod, cum Iudaei sint servi 
+Ec<lb break="no" ed="#L" n="83"/>clesiae, potest Ecclesia disponere de rebus eorum. Ita quod
+<lb ed="#L" n="84"/>Ecclesia contra omnes infideles ex pritna ratione, et contra
+<lb ed="#L" n="85"/>Iudaeos etiam ex ratione servitutis, potest libros huiusmodi
+<lb ed="#L" n="86"/>supprimere.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1324-Dd1e2318"><!-- caj-p2p2-q10a12 -->
+               <head xml:id="TAcCaj-d1e1324-Hd1e2321">Articulus 12</head>
+               <p xml:id="TAcCaj-d1e1324-d1e2323">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="14"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2330">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>In articulo duodecimo eiusdem quaestionis dubium duplex
+<lb ed="#L" n="16"/>Occurrit de conclusione: primum ex Scoto, de pueris 
+in<lb break="no" ed="#L" n="17"/>fidelium universaliter; secundum ex Durando, de pueris 
+in<lb break="no" ed="#L" n="18"/>fidelium. aliquorum, scilicet ludaeorum et servorum. 
+Sco<lb break="no" ed="#L" n="19"/>tus siquidem, in Quarto, dist. 1v, qu. ult., tenet quod princeps
+<lb ed="#L" n="20"/>bene faceret si pueros infidelium invitis parentibus 
+baptiza<lb break="no" ed="#L" n="21"/>ret, adhibita cautela ne sequerentur homicidia, et quod 
+nu<lb break="no" ed="#L" n="22"/>trirentur religiose. Et ratio sua est quam Auctor tangit in
+<lb ed="#L" n="23"/>quarto argumento, quia scilicet Deus habet ius dominii
+<lb ed="#L" n="24"/>supra puerum magis quam parentes. Ergo vinculum 
+pote<lb break="no" ed="#L" n="25"/>statis paternae non obligat in his quae sunt contra 
+prae<lb break="no" ed="#L" n="26"/>ceptum Dei. Non ergo propter invitos parentes prohibentur
+<lb ed="#L" n="27"/>pueri a fide Dei.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2363">
+                  <lb ed="#L" n="28"/>Et confirmatur. Quia princeps debet cogere servum 
+plu<lb break="no" ed="#L" n="29"/>rium subordinatorum dominorum ad servitium superioris,
+<lb ed="#L" n="30"/>si inferior dominus vult eo uti contra superiorem. Ergo
+<lb ed="#L" n="31"/>maxime debet princeps zelare pro dominio servando 
+su<lb break="no" ed="#L" n="32"/>premi Domini, scilicet Dei. Et per consequens non solum
+<lb ed="#L" n="33"/>licet, sed. debet princeps auferre parvulos a dominio 
+paren<lb break="no" ed="#L" n="34"/>tum volentium eos educare contra cultum Dei.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2381">
+                  <lb ed="#L" n="35"/>II. <ref xml:id="TAcCaj-d1e1324-Rd1e2385">Durandus vero, in IV Sent., dist. rv, qu. 1m, art. 1</ref>,
+<lb ed="#L" n="36"/>tenet quod, licet non omnium, tamen eorum infidelium qui
+<lb ed="#L" n="37"/>sunt servi, licet filios invitis parentibus baptizare, auferendo
+<lb ed="#L" n="38"/>eos a parentum cura. Et ratio sua est illa quam in tertio
+<lb ed="#L" n="39"/>argumento Auctor in littera facit: scilicet quia de filiis
+<lb ed="#L" n="40"/>servorum potest dominus facere quod vult; ac. per hoc
+<lb ed="#L" n="41"/>potest eos vendere et donare prope et longe; ac per hoc,
+<lb ed="#L" n="42"/>auferre a cura parentum; et tunc poterunt baptizari. Et
+<lb ed="#L" n="43"/>quoniam. ludaei. sunt servituti addicti, ut in art. 10 Auctor
+<lb ed="#L" n="44"/>dixit, et Extra, De Iudaeis, cap. Et si Iudaeos, dicitur; ideo
+<lb ed="#L" n="45"/>de filiis Iudaeorum sequitur quod sunt invitis parentibus
+<lb ed="#L" n="46"/>ab eis auferendi et baptizandi.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2413">
+                  <lb ed="#L" n="47"/>III. HE In hac materia diligentius observandum est ut 
+dis<lb break="no" ed="#L" n="48"/>tincte loquamur. Aliud quippe est tractare an pueri 
+infide<lb break="no" ed="#L" n="49"/>lium sint invitis parentibus baptizandi: et aliud, an pueri
+<lb ed="#L" n="50"/>tales, scilicet filii servorum infidelium. Valde enim haec
+<lb ed="#L" n="51"/>distant. Et quia cum Scoto de primo est quaestio, cum
+<lb ed="#L" n="52"/>Durando vero de secundo, et primum est communius; ideo
+<lb ed="#L" n="53"/>a primo inchoandum est.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2431">
+                  <lb ed="#L" n="54"/>Ad cuius evidentiam sciendum est quod, 
+praesuppo<lb break="no" ed="#L" n="55"/>sito, sicut est rei veritas, quod in puero baptizando sufficiat
+<lb ed="#L" n="56"/>fides et intentio Ecclesiae ad hoc ut baptismus valeat (quod
+<lb ed="#L" n="57"/>in commentariis sequentis Libri, Deo dante, in loco 
+pro<lb break="no" ed="#L" n="58"/>prio, firmabitur contra Durandum), tota praesens difficultas
+<lb ed="#L" n="59"/>in hoc pendere. videtur, an sit contra naturalem iustitiam
+<lb ed="#L" n="60"/>huiusmodi pueros auferre a cura parentum infidelium 
+vo<lb break="no" ed="#L" n="61"/>lentium eos in infidelitate nutrire, an non. Si enim est
+<lb ed="#L" n="62"/>contra naturalem iustitiam, constat quod illicitum est: quia
+<lb ed="#L" n="63"/>non sunt facienda mala ut veniant bona. Et si non est
+<lb ed="#L" n="64"/>contra naturalem iustitiam, nulla videtur iniuria parentibus
+<lb ed="#L" n="65"/>fieri, quibus naturale ius curam filiorum dedit. Et Auctor
+<lb ed="#L" n="66"/>quidem in littera super parte affirmativa se fundavit: Scotus
+<lb ed="#L" n="67"/>autem super negativa.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2464">
+                  <lb ed="#L" n="68"/>Et nota quod non est dissensio in hoc, an secundum
+<lb ed="#L" n="69"/>naturalem iustitiam pueri infidelium subsint eorum curae
+<lb ed="#L" n="70"/>quoad divina exercenda in puero: hoc enim manifestum
+<lb ed="#L" n="71"/>est esse verum, quoniam sicut naturali ordine adultus per
+<lb ed="#L" n="72"/>propriam rationem, ita puer per parentum rationem 
+ordi<lb break="no" ed="#L" n="73"/>natur ad Deum. Sed quaestio est an propter abusum 
+hu<lb break="no" ed="#L" n="74"/>iusmodi iuris naturalis privari possint aut debeant parentes
+<lb ed="#L" n="75"/>ipsi abutentes tali iure. Scotus siquidem ad hoc tendit
+<lb ed="#L" n="76"/>quod, quia parentes abutuntur iure suo, quia nutriunt filios
+<lb ed="#L" n="77"/>ad cultum infidelitatis contra Deum, ideo princeps debet
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>eos privare tali iure: quia faciendum est quod conservetur
+<lb ed="#L" n="79"/>ius Dei contra ius parentum abutentium illo contra Deum,
+<lb ed="#L" n="80"/>potius quam e converso, ut scilicet servetur ius parentum
+<lb ed="#L" n="81"/>cum contumelia Dei; hic enim ordo perversus est.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2499">
+                  <lb ed="#L" n="82"/>IV. Ut autem clare veritas elucescat, opus est duplici
+<lb ed="#L" n="83"/>distinctione. Prima est quod in subordinatis dominiis potest
+<lb ed="#L" n="84"/>dominium inferioris referri ad duos dominos: scilicet ad
+<lb ed="#L" n="85"/>ipsum inferiorem dominum; et ad supremum dominum, a
+<lb ed="#L" n="86"/>quo est omne inferius dominium. Verbi gratia, dominium
+<lb ed="#L" n="87"/>unius comitis potest referri ad ipsum comitem; et potest
+<lb ed="#L" n="88"/>referri ad imperatorem, a quo est illius dominium. Et in
+<lb ed="#L" n="89"/>proposito dominium parentum supra parvulos suos potest
+<lb ed="#L" n="90"/>referri ad ipsos parentes; et potest referri ad Deum, qui
+<lb ed="#L" n="91"/>instituit ius naturale, quo parentibus convenit hoc 
+do<lb break="no" ed="#L" n="92"/>minium.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2525">
+                  <lb ed="#L" n="93"/>Secunda est quod dominium seu mandatum supremi
+<lb ed="#L" n="94"/>domini quod per seipsum mandat seu exercet, dupliciter
+<lb ed="#L" n="95"/>potest institui; primo, ut salvis dominiis inferiorum 
+im<lb break="no" ed="#L" n="96"/>pleatur; secundo, ut non obstantibus inferioribus ordinibus
+<lb ed="#L" n="97"/>impleatur. Verbi gratia, potest Caesar mandare 
+reparatio<lb break="no" ed="#L" n="98"/>nem moenium dupliciter: uno modo, ut fiat reparatio salva
+<lb ed="#L" n="99"/>immunitate civium ab oneribus et exactionibus novis; alio
+<lb ed="#L" n="100"/>modo, non obstantibus huiusmodi immunitatibus. Et in 
+pro<lb break="no" ed="#L" n="101"/>posito potest dupliciter intelligi Deum, qui est 
+universo<lb break="no" ed="#L" n="102"/>rum Dominus, dominium seu legem fidei Christianae 
+in<lb break="no" ed="#L" n="103"/>stituisse: uno modo, ut impleatur salvis naturae legibus;
+<lb ed="#L" n="104"/>alio. modo, ut non obstantibus naturae legibus impleatur.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2554">
+                  <lb ed="#L" n="105"/>V. Ex his autem, adiuncta illa maxima, Gratia perficit,
+<lb ed="#L" n="106"/>non destruit naturam; et, Ordo gratiae perficit, non 
+dis<lb break="no" ed="#L" n="107"/>solvit ordinem naturae; manifeste apparet, primo, quod
+<lb ed="#L" n="108"/>dominium parentum supra filios non est tam ipsorum
+<lb ed="#L" n="109"/>quam. naturae ac Dei, qui illam instituit. Ac per hoc, 
+com<lb break="no" ed="#L" n="110"/>paratio non est facienda inter parentes et Deum : sed inter
+<lb ed="#L" n="111"/>Deum institutorem naturae, et seipsum Deum institutorem
+<lb ed="#L" n="112"/>fidei; uterque enim ordo ab ipso et ipsius est.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2575">
+                  <lb ed="#L" n="113"/>Apparet secundo, quod Deus non sic legem fidei 
+insti<lb break="no" ed="#L" n="114"/>tuit ut voluerit pro ea servanda legem naturae solvi, 
+quam<lb break="no" ed="#L" n="115"/>vis hoc posset; sed instituit ut per media secundum 
+na<lb break="no" ed="#L" n="116"/>turae ordinem instituta lex fidei impleatur: ut patet ex
+<lb ed="#L" n="117"/>maxima allegata; et in communi, quia divina sapientia
+<lb ed="#L" n="118"/>disponit. omnia suaviter, et infima per media reducit
+<lb ed="#L" n="119"/>in summum; et in proposito, quia statuit ut adultus 
+me<lb break="no" ed="#L" n="120"/>dia propria ratione ac. voluntate legem fidei impleat, quia
+<lb ed="#L" n="121"/>suae curae naturaliter commissus est, puer autem media
+<lb ed="#L" n="122"/>ratione et voluntate parentum, quorum curae. naturaliter
+<lb ed="#L" n="123"/>commissus est,
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2601">
+                  <lb ed="#L" n="124"/>VI. Etsi diceretur quod, licet Deus instituerit legem
+<lb ed="#L" n="125"/>fidei non ad solvendam sed perficiendam legem naturae,
+<lb ed="#L" n="126"/>absolute et simpliciter; tamen in casu quo habentes ius
+<lb ed="#L" n="127"/>naturale illo abutuntur, quia merentur privari illo, statuit
+<lb ed="#L" n="128"/>legem fidei habere locum ablato ab abutentibus iure suo: -
+<lb ed="#L" n="129"/>advertant sic dicentes quod hoc nihil aliud est quam 
+di<lb break="no" ed="#L" n="130"/>cere quod Deus statuit legem fidei servandam non obstante
+<lb ed="#L" n="131"/>lege naturae. Quoniam cum lex naturae secundum se non
+<lb ed="#L" n="132"/>obstet fidei, quia verum vero non contrariatur: ad hoc
+<lb ed="#L" n="133"/>solum dicitur non obstante lege naturae, propter casum
+<lb ed="#L" n="134"/>in quo obstare potest propter admixtam abusionem. Idem
+<lb ed="#L" n="135"/>est ergo dicere quod statuit legem fidei implendam non
+<lb ed="#L" n="136"/>obstante etiam lege naturae, absolute; etin casu quo 
+pro<lb break="no" ed="#L" n="137"/>pter admixtum abusum obstat. Et propterea si primum
+<lb ed="#L" n="138"/>est falsum, secundum quoque erit falsum. Unde evasio
+<lb ed="#L" n="139"/>haec nulla est.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2638">
+                  <lb ed="#L" n="140"/>Et confirmatur. Quia in parentibus infidelium concur-
+<pb ed="#L" n="96"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>runt duo: scilicet ius naturale respectu filiorum curae; et
+<lb ed="#L" n="2"/>admixta infidelitas, qua nutriunt eos ad suum ritum. Et
+<lb ed="#L" n="3"/>licet secundum sit malum, et in eo peccent mortaliter;
+<lb ed="#L" n="4"/>et propter hoc non solum filiis, sed vita et seipsis privari
+<lb ed="#L" n="5"/>possint, ita quod possent iuste annihilari: primum tamen
+<lb ed="#L" n="6"/>iustum est naturaliter. Et propterea Deus, statuens 
+ordi<lb break="no" ed="#L" n="7"/>nem gratiae ad perfectionem ordinis naturae, illud iustum
+<lb ed="#L" n="8"/>naturale violari non vult, quamvis ipsi abutentes hoc 
+me<lb break="no" ed="#L" n="9"/>reantur.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2667">
+                  <lb ed="#L" n="10"/>VII. Ad rationem ergo Scoti dicitur quod processus suus
+<lb ed="#L" n="11"/>habet locum tunc solum quando supremus dominus vult
+<lb ed="#L" n="12"/>sibi obediri non obstante inferiori ordine. Quod non est in
+<lb ed="#L" n="13"/>proposito: quoniam Deus statuit utrumque ordinem, 
+na<lb break="no" ed="#L" n="14"/>turae scilicet et fidei; et statuit ordinem fidei implendum
+<lb ed="#L" n="15"/>ministrante sibi ordine naturae. Et propterea illis tantum
+<lb ed="#L" n="16"/>imputatur hoc peccatum qui secundum naturae ordinem
+<lb ed="#L" n="17"/>ad hoc tenentur. — Et sic patet quod exempla Scoti non
+<lb ed="#L" n="18"/>sunt contra propositum: quia praesupponunt supremum
+<lb ed="#L" n="19"/>dominum velle impleri ius supremi ordinis non obstante
+<lb ed="#L" n="20"/>inferioris ordinis iure. Hoc enim etiam ipsa ratio Scoti 
+sup<lb break="no" ed="#L" n="21"/>ponit; et propterea non concludit.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2696">
+                  <lb ed="#L" n="22"/>Haec autem esse de mente Auctoris, qui recte 
+conside<lb break="no" ed="#L" n="23"/>rat verba litterae et responsiones ad argumenta, percipere
+<lb ed="#L" n="24"/>potest. Propterea namque tam paucis quarto argumento
+<lb ed="#L" n="25"/>satisfecisse se vidit, quia medium naturale quo puer 
+redu<lb break="no" ed="#L" n="26"/>cendus est in Deum, assignavit. - Et haec de primo.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2709">
+                  <lb ed="#L" n="27"/>VIII. Quoad secundum, tota difficultas consistit in hoc,
+<lb ed="#L" n="28"/>quia filii servorum possunt iuste eis auferri: ablatis autem
+<lb ed="#L" n="29"/>iuste a cura parentum, iam nulli fit iniuria si Iesu Christo
+<lb ed="#L" n="30"/>per baptismum consecrentur. Ad veritatis autem 
+eviden<lb break="no" ed="#L" n="31"/>tiam, distinguendum est inter id quod provenit ex servitute
+<lb ed="#L" n="32"/>directe et per se; et id quod provenit ex ea per accidens
+<lb ed="#L" n="33"/>seu ex consequenti. Cum enim servitus qua homini homo
+<lb ed="#L" n="34"/>servus est civilis sit, ad ea tantum quae civilis ordinis sunt
+<lb ed="#L" n="35"/>per se et directe se extendit: ut effectus causis 
+proportio<lb break="no" ed="#L" n="36"/>nales sint. Propter quod licitum est servis comedere, colere
+<lb ed="#L" n="37"/>Deum, et alia quae sunt iuris naturae et divini invitis 
+do<lb break="no" ed="#L" n="38"/>minis exercere, Ex consequenti autem seu per accidens,
+<lb ed="#L" n="39"/>quemadmodum extenditur ad ea quae naturalis iuris sunt,
+<lb ed="#L" n="40"/>ita ad ea quae divini sunt iuris. Constat autem quod 
+do<lb break="no" ed="#L" n="41"/>minus potest vendere parvulos servorum suorum in servos;
+<lb ed="#L" n="42"/>et per hoc ex consequenti subtrahere eos curae parentum,
+<lb ed="#L" n="43"/>quae est de iure naturae. Pari, immo maiori ratione, potest
+<lb ed="#L" n="44"/>eos dare alicui Christiano ut consecrentur Creatori suo; et
+<lb ed="#L" n="45"/>per hoc invitis parentibus ea quae sunt divini iuris in 
+pue<lb break="no" ed="#L" n="46"/>TOS exercere.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2756">
+                  <lb ed="#L" n="47"/>Et haec est veritas. Et propter haec duo Auctor duabus
+<lb ed="#L" n="48"/>viis in littera processit. Ex eo enim quod per se et directe
+<lb ed="#L" n="49"/>servitus ad civilia se extendit, dixit quod filii Iudaeorum,
+<lb ed="#L" n="50"/>quos asserit esse servos Ecclesiae, non sunt invitis 
+paten<lb break="no" ed="#L" n="51"/>tibus baptizandi: et bene. Ex eo vero quod ex consequenti
+<lb ed="#L" n="52"/>seu per accidens, post iustam subtractionem a parentibus,
+<lb ed="#L" n="53"/>hoc potest esse licitum, usus est loco ab auctoritate 
+nega<lb break="no" ed="#L" n="54"/>tive: scilicet quia Ecclesia non consuevit, quia Sylvester
+<lb ed="#L" n="55"/>et Ambrosius non quaesiverunt. Super qua tamen 
+Eccle<lb break="no" ed="#L" n="56"/>siae consuetudine fundat doctrinam suam, reddendo illius
+<lb ed="#L" n="57"/>rationem.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2782">
+                  <lb ed="#L" n="58"/>IX. Ad cuius pleniorem intellectum scito quod uti hac
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="59"/>via, ut scilicet ex consequenti pueri infidelium servorum
+<lb ed="#L" n="60"/>baptizentur invitis parentibus, contingit bene et male: bene
+<lb ed="#L" n="61"/>quidem, si omnia consonant rectae rationi; male autem, si
+<lb ed="#L" n="62"/>aliquid dissonans concurrit. Et quia ut in pluribus 
+concur<lb break="no" ed="#L" n="63"/>runt multa dissona rectae rationi, ideo Ecclesia non 
+con<lb break="no" ed="#L" n="64"/>suevit hoc facere. Ideo in littera determinatur tam de pueris
+<lb ed="#L" n="65"/>Iudaeorum quam aliorum infidelium simul uno contextu
+<lb ed="#L" n="66"/>quod non sunt invitis parentibus baptizandi. Doctrina 
+nam<lb break="no" ed="#L" n="67"/>que moralis secundum id quod ut plurimum convenit 
+tra<lb break="no" ed="#L" n="68"/>denda est.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2811">
+                  <lb ed="#L" n="69"/>Interveniunt autem ad minus duo dissonantia. Primum
+<lb ed="#L" n="70"/>est periculum fidei in ipsis parvulis, cum fuerint adulti.
+<lb ed="#L" n="71"/>Quod non evitatur ex subtractione eorum a cura 
+paren<lb break="no" ed="#L" n="72"/>tum. Quia cum adulti fuerint et parentes suos in alia fide
+<lb ed="#L" n="73"/>conspexerint, naturalis amor ad parentes invitabit; et aut
+<lb ed="#L" n="74"/>vetita conversatio magis sollicitabit; aut permissa 
+conver<lb break="no" ed="#L" n="75"/>satio facilem viam perversioni dabit. - Secundum est 
+in<lb break="no" ed="#L" n="76"/>famia fidei, quasi non sit a Deo, qui corda hominum regit,
+<lb ed="#L" n="77"/>ut compellere velit Ecclesia hoc modo ad fidem: cum 
+ta<lb break="no" ed="#L" n="78"/>men oporteat sanctos ab his qui foris sunt testimonium
+<lb ed="#L" n="79"/>habere.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2837">
+                  <lb ed="#L" n="80"/>Unde dicentes quod pueri Iudaeorum possunt invitis 
+pa<lb break="no" ed="#L" n="81"/>rentibus baptizari, adhibitis cautelis, dupliciter deficere 
+vi<lb break="no" ed="#L" n="82"/>dentur. Primo, in hoc quod cautelas ex parte auctoritatis
+<lb ed="#L" n="83"/>Ecclesiae non dicunt, sed parvulorum tantum. - Secundo,
+<lb ed="#L" n="84"/>quod secundum cautelas quae ut plurimum apponi non
+<lb ed="#L" n="85"/>possunt, doctrinam faciunt. Cum tamen oppositum esset
+<lb ed="#L" n="86"/>docendum: scilicet quod communiter non licet, sed 
+quan<lb break="no" ed="#L" n="87"/>doque, exclusis inconvenientibus, potest licere.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2857">
+                  <lb ed="#L" n="88"/>X. Et per haec patet et responsio ad obiecta, et intentio
+<lb ed="#L" n="89"/>ac vis rationum litterae, Quoniam prima, ducens ad 
+incon<lb break="no" ed="#L" n="90"/>veniens, universalis est simpliciter. Secunda, ostensiva, est
+<lb ed="#L" n="91"/>universalis aut seclusa ratione servitutis: aut, et melius et
+<lb ed="#L" n="92"/>profundius, directe et per se loquendo, idest stando infra
+<lb ed="#L" n="93"/>limites eorum ad quae directe et per se se extendit 
+infide<lb break="no" ed="#L" n="94"/>lium servitus, ut praedeclaratum est.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2875">
+                  <lb ed="#L" n="95"/>Et per haec eadem patet quod, infra tales limites stando,
+<lb ed="#L" n="96"/>optime dixit Auctor quod iniuria fit Iudaeis si filii eorum
+<lb ed="#L" n="97"/>ipsis invitis baptizantur, et alia huiusmodi. Quibus non
+<lb ed="#L" n="98"/>satisfit a Durando nec aliis, infra illos limites stando: licet
+<lb ed="#L" n="99"/>egrediendo ad per accidens et id quod est ex consequent
+<lb ed="#L" n="100"/>ac ut in paucioribus, verum dicatur, nobis non contrarium,
+<lb ed="#L" n="101"/>sed consonum, Patet namque quod Auctor fatetur Iudaeos
+<lb ed="#L" n="102"/>esse servos Ecclesiae; et quod parvulus sub cura parentum
+<lb ed="#L" n="103"/>est aliqua res eius, et sicut animal irrationale; et quod
+<lb ed="#L" n="104"/>Ecclesia non facit eis iniuriam disponendo de eis et 
+alie<lb break="no" ed="#L" n="105"/>nando eos. Et quod plus est, cum parentes infideles liberos
+<lb ed="#L" n="106"/>constet dare operam continue ad impediendum fidem 
+Chri<lb break="no" ed="#L" n="107"/>stianam in filiis, ex doctrina tradita in articulo octavo
+<lb ed="#L" n="108"/>debellari possunt propter hoc.
+</p>
+               <p xml:id="TAcCaj-d1e1324-d1e2909">
+                  <lb ed="#L" n="109"/>Cum his tamen adverte, novitie, quod pueri infidelium
+<lb ed="#L" n="110"/>qui ad partes fidelium deferuntur et venduntur Christianis,
+<lb ed="#L" n="111"/>quamvis non constet de iusta ablatione eorundem a cura
+<lb ed="#L" n="112"/>parentum, quia tamen sine parentum cura, conversatione et
+<lb ed="#L" n="113"/>cognitione, etiam in spe, secundum humanum cursum, sunt,
+<lb ed="#L" n="114"/>absque parentibus censentur. Et propterea Ecclesia 
+consue<lb break="no" ed="#L" n="115"/>vit eos baptizare.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

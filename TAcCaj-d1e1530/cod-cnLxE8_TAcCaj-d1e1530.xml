@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 50</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 50</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="374"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1530"><!-- TAcCajp2p2-q50 -->
+            <head xml:id="TAcCaj-d1e1530-Hd1e101">Quaestio 50</head>
+            <div xml:id="TAcCaj-d1e1530-Dd1e103"><!-- caj-p2p2-q50a1 -->
+               <head xml:id="TAcCaj-d1e1530-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1530-d1e108">
+                  <pb ed="#L" n="375"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1530-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN quaestione quinquagesima, articulo primo, dubium 
+oc<lb break="no" ed="#L" n="3"/>non convenit aliis principatibus et populo nisi secundum
+<lb ed="#L" n="4"/>quod participant aliquid de regimine regio. Videtur enim
+<lb ed="#L" n="5"/>oppositum: quia rex participat populum, et non e contra;
+<lb ed="#L" n="6"/>quoniam rex fit naturaliter a populo, et rex quasi gerens
+<lb ed="#L" n="7"/>vicem totius populi leges ponit.
+</p>
+               <p xml:id="TAcCaj-d1e1530-d1e135">
+                  <lb ed="#L" n="8"/>Ad hoc dicitur quod, licet prima facie videatur 
+distinguen<lb break="no" ed="#L" n="9"/>dum, et dicendum quod regimen regium et populare 
+com<lb break="no" ed="#L" n="10"/>parantur dupliciter: scilicet ordine formali, et sic, cum 
+per<lb break="no" ed="#L" n="11"/>fectiora in entibus sint exemplaria imperfectiorum, regimen
+<lb ed="#L" n="12"/>regium, utpote perfectissimum, est exemplar omnis 
+regimi<lb break="no" ed="#L" n="13"/>nis, ac per hoc in littera dicitur quod alii principatus, etiam
+<lb ed="#L" n="14"/>popularis, intantum leges ponunt inquantum participant 
+re<lb break="no" ed="#L" n="15"/>gimen regium; vel ordine generationis, et sic regimen po-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="16"/>pulare secundum actum electionis est prius regimine regis,
+<lb ed="#L" n="17"/>ut obiiciendo , dicitur: — sed si diligenter consideretur quod
+<lb ed="#L" n="18"/>electio regiminis non est pars regiminis, sed praevium ad
+<lb ed="#L" n="19"/>omnem speciem regiminis, ad electionem siquidem populi
+<lb ed="#L" n="20"/>spectat, secundum naturale ius, an populare an 
+optima<lb break="no" ed="#L" n="21"/>tum an regale sit futurum regimen; manifeste patet quod
+<lb ed="#L" n="22"/>nec etiam secundum generationis ordinem regalis 
+princi<lb break="no" ed="#L" n="23"/>patus dependet a populari, qui in littera populus vocatur;
+<lb ed="#L" n="24"/>magis autem distinguendum est de populi significatione.
+<lb ed="#L" n="25"/>Quandoque enim sumitur populus pro regimine populari:
+<lb ed="#L" n="26"/>quandoque autem pro ipso populo. Regimen autem regium
+<lb ed="#L" n="27"/>a populi quidem electione dependet, qui vota sua et 
+po<lb break="no" ed="#L" n="28"/>testatem in eum transtulerunt: et propterea vices populi
+<lb ed="#L" n="29"/>gerere dicitur. Non dependet autem a regimine populari,
+<lb ed="#L" n="30"/>sed e contra, ut in littera dicitur; nec vices illius gerit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1530-Dd1e191"><!-- caj-p2p2-q50a2 -->
+               <head xml:id="TAcCaj-d1e1530-Hd1e194">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1530-d1e196">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1530-d1e203">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="92"/>In articulo secundo, in responsione ad secundum, adverte
+<lb ed="#L" n="93"/>quod politica, quae quasi manualis est, non unius, sed
+<lb ed="#L" n="94"/>multarum est specierum, iuxta multitudinem formalium
+<lb ed="#L" n="95"/>partium civitatis: sicut nautica distinguitur in eam quae
+<lb ed="#L" n="96"/>regit temonem et eam quae regit remos, etc. Propter
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="97"/>huiusmodi enim diversitatem diximus superius, ex 
+Aristo<lb break="no" ed="#L" n="98"/>tele, esse tot genera virtutum: simile enim est in omnibus
+<lb ed="#L" n="99"/>huiusmodi. Propter quod etiam oeconomica in multas 
+spe<lb break="no" ed="#L" n="100"/>cies dividitur, eadem ratione, propter diversas scilicet 
+par<lb break="no" ed="#L" n="101"/>tes formales.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1530-Dd1e233"><!-- caj-p2p2-q50a3 -->
+               <head xml:id="TAcCaj-d1e1530-Hd1e236">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1530-d1e238">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="59"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1530-d1e245">
+                  <lb ed="#L" n="60"/>IN responsione ad secundum, dubium occurrit circa illud,
+<lb ed="#L" n="61"/>citicet: Peccator non potest provide se habere ad totum
+<lb ed="#L" n="62"/>bene vivere domesticae conversationis, Tum quia non 
+<lb ed="#L" n="63"/>magis exigitur virtuosa vita ad totum bein vivere secundum
+<lb ed="#L" n="64"/>civilem conversationem quam secundum domesticam. —
+<lb ed="#L" n="65"/>Tum quia ad bene se habere secundum domesticam 
+con<lb break="no" ed="#L" n="66"/>versationem sufficit filiis suis, uxori, etc., quantum ad se
+<lb ed="#L" n="67"/>attinet, bene se habere. Sic autem bene se habere distin-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>guitur contra bene se habere simpliciter; ut patet I Polit.,
+<lb ed="#L" n="69"/>ex cap. penult.
+</p>
+               <p xml:id="TAcCaj-d1e1530-d1e271">
+                  <lb ed="#L" n="70"/>Ad hoc dicitur quod dictum Auctoris intelligendum est
+<lb ed="#L" n="71"/>de patrefamilias, cuius est providere: propter quod dixit,
+<lb ed="#L" n="72"/>provide se habere. Oportet enim patremfamilias esse 
+bo<lb break="no" ed="#L" n="73"/>num virum, sicut et principem civitatis, eadem ratione.
+</p>
+               <p xml:id="TAcCaj-d1e1530-d1e282">
+                  <lb ed="#L" n="74"/>In articulo quarto nihil aliud scribendum occurrit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

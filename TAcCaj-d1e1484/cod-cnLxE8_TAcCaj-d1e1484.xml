@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 41</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 41</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="323"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1484"><!-- TAcCajp2p2-q41 -->
+            <head xml:id="TAcCaj-d1e1484-Hd1e101">Quaestio 41</head>
+            <div xml:id="TAcCaj-d1e1484-Dd1e103"><!-- caj-p2p2-q41a2 -->
+               <head xml:id="TAcCaj-d1e1484-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1484-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="81"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1484-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>In quaestionis quadragesimaeprimae utroque articulo nihil
+<lb ed="#L" n="83"/>scribendum occurrit nisi ut advertas quod, quia 
+particu<lb break="no" ed="#L" n="84"/>lari effectui particularis causa ut propria assignanda est, ideo
+<lb ed="#L" n="85"/>rixae, quae ad malum proximi cum particularibus 
+circum<lb break="no" ed="#L" n="86"/>stantiis tendit, scilicet cognitionem et repugnantiam, ira
+<lb ed="#L" n="87"/>ponitur propria mater, utpote quae ad malum machinatur
+<lb ed="#L" n="88"/>cum scientia punitionis repugnantis; et non odium, quod
+<lb ed="#L" n="89"/>malum optat absolvendo se a sic vel sic. Inter huiusmodi
+<lb ed="#L" n="90"/>namque desiderium et rixam distantia est sicut inter 
+uni<lb break="no" ed="#L" n="91"/>versale et particulare, seu absolutum et dearticulatum. In-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="92"/>ter irati autem desiderium et rixam propinquitas tanta est
+<lb ed="#L" n="93"/>ut ex contracto irati desiderio ad malum sic, rixa statim
+<lb ed="#L" n="94"/>proveniat. Et propterea in littera dicitur, in responsione
+<lb ed="#L" n="95"/>ad quartum, quod praeter intentionem odii est rixa; et
+<lb ed="#L" n="96"/>tamen potest ab eo provenire, ut in corpore articuli 
+dici<lb break="no" ed="#L" n="97"/>tur. Est siquidem praeter intentionem odii formaliter, quia
+<lb ed="#L" n="98"/>non determinatur ex formali intento ad taliter 
+offenden<lb break="no" ed="#L" n="99"/>dum: potest tamen ex odio provenire, quia intentio odii
+<lb ed="#L" n="100"/>potest se extendere ad imperandam rixam, sicut et alia
+<lb ed="#L" n="101"/>vitia.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

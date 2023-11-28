@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 20</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 20</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="161"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1375"><!-- TAcCajp2p2-q20 -->
+            <head xml:id="TAcCaj-d1e1375-Hd1e101">Quaestio 20</head>
+            <div xml:id="TAcCaj-d1e1375-Dd1e103"><!-- caj-p2p2-q20a1 -->
+               <head xml:id="TAcCaj-d1e1375-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1375-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>IN articulo primo. quaestionis vigesimae, in responsione
+<lb ed="#L" n="11"/>Ia primum, dubium occurrit ex eo quod praesens 
+do<lb break="no" ed="#L" n="12"/>ctrina enervare videtur doctrinam habitam in praecedenti
+<lb ed="#L" n="13"/>Libro de specificatione peccati, quod scilicet specificatur
+<lb ed="#L" n="14"/>ex parte conversionis , et non ex parte aversionis. Si 
+nam<lb break="no" ed="#L" n="15"/>que excipimus peccata contra virtutes theologicas, ubi 
+uni<lb break="no" ed="#L" n="16"/>versale fundamentum praedictae doctrinae sustinebitur?
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e135">
+                  <lb ed="#L" n="17"/>Ad hoc dicitur quod praesens doctrina nec 
+contraria<lb break="no" ed="#L" n="18"/>tur superiori nec excipit ab illa, sed confirmat illam. Ad
+<lb ed="#L" n="19"/>cuius evidentiam scito quod aliud est loqui de aversione
+<lb ed="#L" n="20"/>a Deo et conversione ad obiectum, quae inveniuntur in
+<lb ed="#L" n="21"/>peccato mortali; et aliud est loqui de aversione a Deo et
+<lb ed="#L" n="22"/>conversione ad. commutabile bonum, quae etiam 
+inveniun<lb break="no" ed="#L" n="23"/>tur in peccato mortali: quamvis et alii et nos forte. 
+quan<lb break="no" ed="#L" n="24"/>doque pro eodem his usi fuerimus, et pia egeant 
+interpre<lb break="no" ed="#L" n="25"/>tatione sicubi inveniantur indistincta. Declaratur autem 
+alie<lb break="no" ed="#L" n="26"/>tas, cum universa hac materia, manifestando differentiam
+<lb ed="#L" n="27"/>in littera positam, sic. [n peccatis oppositis theologicis 
+vir<lb break="no" ed="#L" n="28"/>tutibus, verbi gratia in odio Dei, tria inveniuntur: primo,
+<lb ed="#L" n="29"/>conversio ad proprium obiectum, Deum scilicet, qui odio
+<lb ed="#L" n="30"/>habetur; secundo, aversio formalis istius actus odii a 
+di<lb break="no" ed="#L" n="31"/>vina lege, etc., sicut invenitur in quolibet alio peccato 
+mor<lb break="no" ed="#L" n="32"/>tali aversio; tertio, conversio concomitans ad commutabile
+<lb ed="#L" n="33"/>bonum, puta seipsum qui peccat, nimis amando. In aliis
+<lb ed="#L" n="34"/>autem peccatis conversio ad proprium obiectum, quae est
+<lb ed="#L" n="35"/>essentialis peccato, est ad commutabile bonum: quia 
+obie<lb break="no" ed="#L" n="36"/>ctum aliorum peccatorum non est Deus. Et ideo in aliis
+<lb ed="#L" n="37"/>aversio est ab incommutabili bono, conversio vero ad 
+com<lb break="no" ed="#L" n="38"/>mutabile bonum: in istis vero, ut dictum est, et aversio
+<lb ed="#L" n="39"/>est ab incommutabili bono; et conversio essentialis peccati
+<lb ed="#L" n="40"/>est ad incommutabile bonum. Sed quia huiusmodi mala
+<lb ed="#L" n="41"/>conversio ad incommutabile bonum, secundum 
+ordinatio<lb break="no" ed="#L" n="42"/>nem quidem actus appetitivi ad obiectum, conversio est
+<lb ed="#L" n="43"/>ad incommutabile bonum (nam qui odit Deum actum odii
+<lb ed="#L" n="44"/>ordinat directe in Deum ut illius proprium obiectum), et
+<lb ed="#L" n="45"/>propterea hinc sumit speciem huiusmodi peccatum, sicut
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e200">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="46"/>cetera ab obiectis suis; secundum vero efficaciam actus
+<lb ed="#L" n="47"/>eiusdem ad obiectum, aversio est ab incommutabili bono: -
+<lb ed="#L" n="48"/>nam qui odit Deum abnegat Deum a sua voluntate; odio
+<lb ed="#L" n="49"/>enim habere nihil aliud. est quam abnegare illud a suo 
+ap<lb break="no" ed="#L" n="50"/>petitu. Hoc autem non solum est avertere amorem ab illo,
+<lb ed="#L" n="51"/>sed contra illum etiam appetere. Unde, sicut convertens
+<lb ed="#L" n="52"/>gladium ad aliquem occidendum convertit quidem se ad
+<lb ed="#L" n="53"/>illum, sed conversione occisiva, ita in huiusmodi peccatis
+<lb ed="#L" n="54"/>est conversio ad incommutabile bonum offensiva: - et ideo
+<lb ed="#L" n="55"/>Auctor in littera dicit huiusmodi peccata principaliter 
+con<lb break="no" ed="#L" n="56"/>sistere in aversione a bono incommutabili.
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e230">
+                  <lb ed="#L" n="57"/>II. Ut ergo cuncta iuxta vocabula Auctoris clare 
+vi<lb break="no" ed="#L" n="58"/>deas, distingue aversionem ab incommutabili bono in 
+for<lb break="no" ed="#L" n="59"/>malem et obiectivam, Et perspice primo, quod aversio 
+for<lb break="no" ed="#L" n="60"/>malis est quae communis est omni peccato mortali, et 
+di<lb break="no" ed="#L" n="61"/>citur formale in peccato mortali; et non esse illam de qua
+<lb ed="#L" n="62"/>hic dicitur quod est principaliter intenta; et esse illam de
+<lb ed="#L" n="63"/>qua superius. dictum est quod non specificat peccata...
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e248">
+                  <lb ed="#L" n="64"/>Perspice secundo, quod aversio obiectiva Dei, quae 96i
+<lb ed="#L" n="65"/>sistit in conversione offensiva Dei ut propriae materiae et
+<lb ed="#L" n="66"/>obiecti illius conversionis, est de qua hic dicitur quod est
+<lb ed="#L" n="67"/>principaliter intenta. Et probatur hanc esse mentem 
+Au<lb break="no" ed="#L" n="68"/>ctoris clare ex causa subiuncta, scilicet, quia virtutes 
+theo<lb break="no" ed="#L" n="69"/>logicae habent Deum pro obiecto: hoc enim manifestat
+<lb ed="#L" n="70"/>quod. de. aversione ex parte obiecti loquitur. Et sic orn
+<lb ed="#L" n="71"/>consonant.
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e268">
+                  <lb ed="#L" n="72"/>At si novitius aut sciolus quispiam dubitet vel 
+oppo<lb break="no" ed="#L" n="73"/>nat, quia responsio iuxta argumentum intelligenda est, et
+<lb ed="#L" n="74"/>arguendo de aversione formali sermo est: — patet facile
+<lb ed="#L" n="75"/>responsio, quod argumentum de conversione ad 
+commu<lb break="no" ed="#L" n="76"/>tabile bonum principaliter quaerebat, et fuisset illi. 
+satisfa<lb break="no" ed="#L" n="77"/>ctum per illam distinctionem, principaliter vel 
+concomitan<lb break="no" ed="#L" n="78"/>ter: sed ad perfectionem doctrinae, Auctor docuit hic
+<lb ed="#L" n="79"/>aversionem ab incommutabili bono dupliciter in 
+quibus<lb break="no" ed="#L" n="80"/>dam peccatis inveniri, formaliter et obiective, ut 
+declara<lb break="no" ed="#L" n="81"/>tum est. 
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1375-Dd1e293"><!-- caj-p2p2-q20a2 -->
+               <head xml:id="TAcCaj-d1e1375-Hd1e296">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1375-d1e298">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e305">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>In articulo secundo hoc solum scribendum occurrit, ut
+<lb ed="#L" n="45"/>bene notes quomodo fides stat cum desperatione: ut
+<lb ed="#L" n="46"/>etiam hinc intelligas quomodo etiam stat cum blasphemia
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="47"/>quae inter Christianos invenitur. Uterque siquidem, 
+bla<lb break="no" ed="#L" n="48"/>sphemus et desperans, in particulari tantum sufficit quod
+<lb ed="#L" n="49"/>erret.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1375-Dd1e326"><!-- caj-p2p2-q20a3 -->
+               <head xml:id="TAcCaj-d1e1375-Hd1e329">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1375-d1e331">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e338">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>IN articulo tertio eiusdem quaestionis vigesimae dubium 
+<lb ed="#L" n="17"/>Toss ad hominem, Auctorem scilicet, Quia in qu. xvrr,
+<lb ed="#L" n="18"/>art. 6, oppositum dixit, dum assignavit differentiam inter 
+<lb ed="#L" n="19"/>caritatem et duas reliquas virtutes theologicas in hoc quod 
+<lb ed="#L" n="20"/>caritas facit hominem Deo inhaerere propter seipsum, fides 
+<lb ed="#L" n="21"/>autem et spes faciunt hominem Deo inhaerere sicut cui
+<lb ed="#L" n="22"/>dam principio ex quo aliqua nobis proveniunt. Haec 
+con<lb break="no" ed="#L" n="23"/>traria apparent praesenti litterae, ubi dicitur quod odium 
+<lb ed="#L" n="24"/>Dei et infidelitas sunt. contra Deum secundum quod in se 
+<lb ed="#L" n="25"/>est, desperatio autem secundum quod eius bonum 
+partici<lb break="no" ed="#L" n="26"/>patur a nobis. Patet namque quod, licet de caritate et spe 
+<lb ed="#L" n="27"/>consona sit sententia, de fide tamen contraria utrobique 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="28"/>est, dum ibi Deum ut principium, hic Deum secundum
+<lb ed="#L" n="29"/>quod est in se ad fidem refert.
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e375">
+                  <lb ed="#L" n="30"/>Ad hoc dicitur breviter quod Deus dupliciter respicitur
+<lb ed="#L" n="31"/>a fide, scilicet ut cui creditur, et quod creditur: propter
+<lb ed="#L" n="32"/>quod actus fidei distinctus est per credere Deo et credere
+<lb ed="#L" n="33"/>Deum. Inquantum igitur fides credit Deo, respicit Deum
+<lb ed="#L" n="34"/>ut dicentem: quod est respicere Deum ut principium 
+ve<lb break="no" ed="#L" n="35"/>ritatis quam revelat. Et hoc superius Auctor intendit.
+<lb ed="#L" n="36"/>Inquantum vero credit Deum, respicit Deum secundum
+<lb ed="#L" n="37"/>quod in se est: credit namque Deum esse Patrem 
+omni<lb break="no" ed="#L" n="38"/>potentem, etc. Et hoc intendit hic Auctor. Unde nulla est
+<lb ed="#L" n="39"/>inter dicta contrarietas.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1375-Dd1e400"><!-- caj-p2p2-q20a3 -->
+               <head xml:id="TAcCaj-d1e1375-Hd1e403">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1375-d1e405">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e412">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>IN articulo quarto eiusdem quaestionis dubium occurrit
+<lb ed="#L" n="17"/>de veritate illius rationis, in littera redditae, scilicet: 
+Pos<lb break="no" ed="#L" n="18"/>sibile est proprium obiectum spei, bonum autem et arduum
+<lb ed="#L" n="19"/>etiam ad alias passiones pertinent. Et est ratio dubii quia
+<lb ed="#L" n="20"/>etiam possibile ad alias passiones pertinet: timor enim et
+<lb ed="#L" n="21"/>audacia non sunt nisi respectu possibilium.
+</p>
+               <p xml:id="TAcCaj-d1e1375-d1e430">
+                  <lb ed="#L" n="22"/>Ad hoc breviter dicitur quod hic non est sermo de
+<lb ed="#L" n="23"/>possibili absolute, sed ut determinat bonum arduum. Tale
+<lb ed="#L" n="24"/>enim constat solius spei esse proprium obiectum ut ad
+<lb ed="#L" n="25"/>quod, et consequenter desperationis ut a quo. Et haec
+<lb ed="#L" n="26"/>intentio em ed e ex eo quod hic intendit docere
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="27"/>quod luxuria, detinendo affectum ad carnalia, ac per hoc
+<lb ed="#L" n="28"/>spiritualia aut non bona aut non magna bona afferens,
+<lb ed="#L" n="29"/>non est propria causa desperationis, sed causa communis
+<lb ed="#L" n="30"/>multarum malarum passionum erga bona spiritualia, puta
+<lb ed="#L" n="31"/>odii, abominationis, tristitiae de bonis spiritualibus, et irae
+<lb ed="#L" n="32"/>contra ingerentes spiritualia impedientia carnalia: haec enim
+<lb ed="#L" n="33"/>ex parvipensione spiritualium insurgunt. Sed acedia, 
+deii<lb break="no" ed="#L" n="34"/>ciendo spiritum sic ut videatur quod non possit ad 
+spi<lb break="no" ed="#L" n="35"/>ritualia bona pervenire, est propria causa desperationis,
+<lb ed="#L" n="36"/>quae respicit possibile determinans futurum bonum 
+ar<lb break="no" ed="#L" n="37"/>duum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="118"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1349"><!-- TAcCajp2p2-q15 -->
+            <head xml:id="TAcCaj-d1e1349-Hd1e101">Quaestio 15</head>
+            <div xml:id="TAcCaj-d1e1349-Dd1e103"><!-- caj-p2p2-q15a1 -->
+               <head xml:id="TAcCaj-d1e1349-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1349-d1e108">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="86"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1349-d1e115">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="87"/>In tota quaestione decimaquinta dubium unum tantum
+<lb ed="#L" n="88"/>occurrit, circa duos modos in littera primi articuli positos
+<lb ed="#L" n="89"/>quibus homo voluntariam caecitatem mentis incurrit non
+<lb ed="#L" n="90"/>intendendo illi intelligibili primo quo alia intelligit: scilicet
+<lb ed="#L" n="91"/>quod contingit hoc vel spontanee; vel per occupationem
+<lb ed="#L" n="92"/>mentis circa alia magis dilecta. Videntur enim membra 
+dis<lb break="no" ed="#L" n="93"/>tincuonis coincidere. Quoniam voluntaria aversio ab inten-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="94"/>tione boni debiti non est nisi propter aliud magis amatum:
+<lb ed="#L" n="95"/>et sic primum membrum incidit in secundum.
+</p>
+               <p xml:id="TAcCaj-d1e1349-d1e141">
+                  <lb ed="#L" n="96"/>Ad hoc dicitur quod distinctio membrorum horum 
+con<lb break="no" ed="#L" n="97"/>sistit in hoc quod aversio intentionis ab illo priore 
+in<lb break="no" ed="#L" n="98"/>telligibili vel principium habeat a voluntate, vel a passione.
+<lb ed="#L" n="99"/>Ita quod utraque aversio conveniat in hoc quod est propter
+<lb ed="#L" n="100"/>aliquid magis amatum, puta exercitium artis aut negotia-
+<pb ed="#L" n="119"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tionis, vel otium vel delectationem et huiusmodi: sed 
+diffe<lb break="no" ed="#L" n="2"/>rentia est in hoc quod principium aversionis quandoque est
+<lb ed="#L" n="3"/>a voluntate sine passione, quod importat illud, Noluit 
+in<lb break="no" ed="#L" n="4"/>telligere ut bene ageret; et quandoque a voluntate deducta
+<lb ed="#L" n="5"/>a passione, quod importat illud, Supercecidit ignis 
+concu<lb break="no" ed="#L" n="6"/>piscentiae, et non viderunt solem iustitiae. Et ad utrumque
+<lb ed="#L" n="7"/>horum significandum, primo distinxit Auctor haec membra
+<lb ed="#L" n="8"/>ut diximus, in primo utens nomine spontaneae voluntatis ,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>in secundo utens nomine occupatae mentis. Et deinde, in
+<lb ed="#L" n="10"/>responsione ad tertium, quia conveniunt in avertendo 
+in<lb break="no" ed="#L" n="11"/>tentionem propter aliquod magis amatum, reduxit in unum
+<lb ed="#L" n="12"/>effectum et unam rationem distractivam ex parte obiecti,
+<lb ed="#L" n="13"/>dum. respondet argumento quod per accidens potest alicui
+<lb ed="#L" n="14"/>esse odibile intelligere veritatem, inquantum per hoc homo
+<lb ed="#L" n="15"/>impeditur ab aliis. quae magis amat: hoc enim commune
+<lb ed="#L" n="16"/>est utrique membro, ut dictum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

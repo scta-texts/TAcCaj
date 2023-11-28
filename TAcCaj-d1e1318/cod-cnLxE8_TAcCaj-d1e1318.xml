@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="74"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1318"><!-- TAcCajp2p2-q9 -->
+            <head xml:id="TAcCaj-d1e1318-Hd1e101">Quaestio 9</head>
+            <div xml:id="TAcCaj-d1e1318-Dd1e103"><!-- caj-p2p2-q9a1 -->
+               <head xml:id="TAcCaj-d1e1318-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1318-d1e108">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1318-d1e115">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="87"/>In tota quaestione nona duo nota. Primo, actum doni
+<lb ed="#L" n="88"/>scientiae consistere in iudicio habente pro medio 
+crea<lb break="no" ed="#L" n="89"/>turas, pro obiecto vero credendum et agendum. Et hoc
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="90"/>ipsum iudicium ex habitu. Ita quod ad scientiam spectat
+<lb ed="#L" n="91"/>ex habitu gratiae gratum facientis iudicare quid credendum
+<lb ed="#L" n="92"/>et quid non credendum, quid agendum et quid evitandum,
+<pb ed="#L" n="75"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>secundum rationes inferiores. Hae sunt propriae 
+creatura<lb break="no" ed="#L" n="2"/>rum causae, ex quibus iudicium fit.
+</p>
+               <p xml:id="TAcCaj-d1e1318-d1e144">
+                  <lb ed="#L" n="3"/>Secundo, quod in responsione ad tertium secundi 
+ar<lb break="no" ed="#L" n="4"/>ticuli non dicitur quod scientiae mediae sunt magis 
+ma<lb break="no" ed="#L" n="5"/>thematicae quam naturales: - cum falsum sit, absolute 
+lo<lb break="no" ed="#L" n="6"/>quendo: quia simpliciter sunt scientiae naturales, utpote
+<lb ed="#L" n="7"/>non abstrahentes a materia sensibili; omnis enim scientia
+<lb ed="#L" n="8"/>non abstrahens a materia sensibili est naturalis, ut patet
+<lb ed="#L" n="9"/>VI Metaphys. Sed dicitur quod connumerantur magis cum
+<lb ed="#L" n="10"/>mathematicis, utpote eis similiores. Et de connumeratione
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>quidem liquet, quia cum geometria et arithmetica scientiae
+<lb ed="#L" n="12"/>mediae numerantur inter liberales artes. De similitudine 
+au<lb break="no" ed="#L" n="13"/>tem in modo demonstrandi manifestum est, dum 
+mensu<lb break="no" ed="#L" n="14"/>rando et quantificando conclusiones monstrantur. Verum
+<lb ed="#L" n="15"/>quia medium utrumque sapit extremum; et scientiae istae
+<lb ed="#L" n="16"/>ex parte formae ex mathematica veniunt et pendent, ex
+<lb ed="#L" n="17"/>parte vero materiae physicae sunt: sermones Doctorum pie
+<lb ed="#L" n="18"/>interpretandi sunt, Si quando ad alterum extremum nimis
+<lb ed="#L" n="19"/>declinant.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

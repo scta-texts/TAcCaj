@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="27"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1282"><!-- TAcCajp2p2-q2 -->
+            <head xml:id="TAcCaj-d1e1282-Hd1e101">Quaestio 2</head>
+            <div xml:id="TAcCaj-d1e1282-Dd1e103"><!-- caj-p2p2-q2a2 -->
+               <head xml:id="TAcCaj-d1e1282-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1282-d1e108">
+                  <pb ed="#L" n="28"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo secundo quaestionis secundae, omisso primo,
+<lb ed="#L" n="3"/>
+                  <ref xml:id="TAcCaj-d1e1282-Rd1e125">
+                     <name xml:id="TAcCaj-d1e1282-Nd1e127">Durandus</name> occurrit, in III Sent., dist. xxur, qu. m, art. 3</ref>,
+<lb ed="#L" n="4"/>reprehendens dictum hic in responsione ad primum; 
+sci<lb break="no" ed="#L" n="5"/>licet quod hi tres actus sunt unus. Inquit enim quod; licet
+<lb ed="#L" n="6"/>credere. Deo: et. credere Deum. sint. .urius actus; credere ,
+ta<lb break="no" ed="#L" n="7"/>men in Deum. sunt. duo actus: quia a. duobus. est 
+habiti<lb break="no" ed="#L" n="8"/>bus, scilicet fide et caritate, et significat credendo et amando
+<lb ed="#L" n="9"/>ire in Deum.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e144">
+                  <lb ed="#L" n="10"/>Ad hoc facile respondetur-quod, quia actus imperatus
+<lb ed="#L" n="11"/>nor multiplicatur secundum rem. ad multiplicationem 
+prin<lb break="no" ed="#L" n="12"/>cipiorum eius, sed unus et idem numero. actus a , multis
+<lb ed="#L" n="13"/>est simul virtutibus, ut ieiunare est actus unus a 
+tempe<lb break="no" ed="#L" n="14"/>rantia simul et obedientia et caritate, et sic de aliis; ideo
+<lb ed="#L" n="15"/>credere in Deum, cum sit actus fidei a caritate imperatus,
+<lb ed="#L" n="16"/>unus numero secundum rem est, quamvis a multis 
+pro<lb break="no" ed="#L" n="17"/>veniat habitibus. Et quoniam actus elicitus ab uno et 
+im<lb break="no" ed="#L" n="18"/>peratus ab altero habitu multiplex est secundum relationem .
+<lb ed="#L" n="19"/>ad multos habitus et obiecti rationes, ideo multi actus 
+ap<lb break="no" ed="#L" n="20"/>parent, et in multos actus resolvitur eius ratio seu 
+expo<lb break="no" ed="#L" n="21"/>sitio. Et propterea dicitur quod credere zm: Deum est
+<lb ed="#L" n="22"/>amando etc.. Secundum. tamen veritatem et proprietatem
+<lb ed="#L" n="23"/>loquendo, dicendum est quod huiusmodi actus est multi-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="24"/>plex, non multi: eo quod claudit. in se vim plurium
+<lb ed="#L" n="25"/>actuum, et non constituitur ex illis unum aggregatum.
+<lb ed="#L" n="26"/>Denominatione siquidem relativa actus ab actu imperatus
+<lb ed="#L" n="27"/>formatur, ut in; Prima Secundae dictum: est.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e188">
+                  <lb ed="#L" n="28"/>II In responsione ad tertium: eiusdem. articuli secundi
+<lb ed="#L" n="29"/>adverte quod.de Deo dupliciter loqui possumus. Uno modo,
+<lb ed="#L" n="30"/>ex parte ipsius Dei. Et sic, cum sit omnino simplicissima
+<lb ed="#L" n="31"/>res, non potest partim vere et partim false cognosci, sed
+<lb ed="#L" n="32"/>error falsitatis consistit in non attingendo ipsum. Qui enim
+<lb ed="#L" n="33"/>putat Deum non esse omnipotentem, .et. putat ipsum. esse
+<lb ed="#L" n="34"/>actum. purum, sapientem, etc.; quidquid intelligit per.has
+<lb ed="#L" n="35"/>affirmationes, non est illa res quae est Deus secundum
+<lb ed="#L" n="36"/>rem, sed repraesentatus illi sic putanti. Quia in re illa non
+<lb ed="#L" n="37"/>differt totum et aliquid: ac per hoc non-totum et nihil
+<lb ed="#L" n="38"/>aequivalent. Et consequenter qui in aliquo illius | fallitur
+<lb ed="#L" n="39"/>nihil illius intelligit. Alio modo, ex parte nostri: idest de
+<lb ed="#L" n="40"/>Deo secundum quod nobis repraesentatur. Et sic, quia sub
+<lb ed="#L" n="41"/>multis rationibus repraesentatur, contingit aliqua 
+enuntia<lb break="no" ed="#L" n="42"/>tione errare et aliqua vere sentire de Deo, ut patet. 
+Au<lb break="no" ed="#L" n="43"/>ctor autem in littera loquitur de errore circa divina ex parte
+<lb ed="#L" n="44"/>ipsius Dei absolute: et ideo dicit quod. infideles non vere
+<lb ed="#L" n="45"/>credunt Deum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1282-Dd1e231"><!-- caj-p2p2-q2a3 -->
+               <head xml:id="TAcCaj-d1e1282-Hd1e234">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1282-d1e236">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="27"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e243">
+                  <lb ed="#L" n="28"/>In articulo tertio eiusdem quaestionis dubium primo 
+oc<lb break="no" ed="#L" n="29"/>currit circa fundamentum assumptum in corpore articuli,
+<lb ed="#L" n="30"/>scilicet quod. in. omnibus naturis ordinatis invenitur quod
+<lb ed="#L" n="31"/>ad perfectionem naturae inferioris duo concurrunt, unum
+<lb ed="#L" n="32"/>quod est secundum proprium motum, aliud quod est 
+se<lb break="no" ed="#L" n="33"/>cundum. motum superioris naturae. Aut enim Auctor 
+in<lb break="no" ed="#L" n="34"/>tenditloqui de concursu illo quo supremum infimi attingit
+<lb ed="#L" n="35"/>infimum supremi, et quo, secundum divinam sapientiam,
+<lb ed="#L" n="36"/>fines primorum iunguntur principiis secundorum, prout
+<lb ed="#L" n="37"/>homo in sui supremo participat intelligere, quod est 
+an<lb break="no" ed="#L" n="38"/>gelis proprium. Et sic, licet propositio credatur vera, nihil
+<lb ed="#L" n="39"/>tamen probat ad propositum. Quia concursus iste duorum
+<lb ed="#L" n="40"/>motuum non est per additionem aliquam supra naturam
+<lb ed="#L" n="41"/>inferiorem: sed per hoc quod natura inferior est id quod
+<lb ed="#L" n="42"/>est, quoad propria sibi, totaliter; quoad propria vero 
+su<lb break="no" ed="#L" n="43"/>periori, participative tantum et imperfecte; utrumque tamen
+<lb ed="#L" n="44"/>est secundum simplicem essentiam suam, ex qua manat
+<lb ed="#L" n="45"/>motus uterque. Concursus autem naturae rationalis et 
+di<lb break="no" ed="#L" n="46"/>vinae per fidem fit per aliquam rem supernaturalem 
+su<lb break="no" ed="#L" n="47"/>peradditam naturae rationali.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e289">
+                  <lb ed="#L" n="48"/>Aut Auctor intendit de concursu alio quo natura 
+su<lb break="no" ed="#L" n="49"/>erior movet per suam actionem inferiorem, ut littera
+<lb ed="#L" n="50"/>sonat. Et sic propositio assumpta est falsa. Quoniam 
+uni<lb break="no" ed="#L" n="51"/>versalis est, et non probatur nisi in aqua et sphaeris 
+cae<lb break="no" ed="#L" n="52"/>lestibus aliis a prima. Habet enim instantiam in terra et
+<lb ed="#L" n="53"/>in prima sphaera caelesti et in mixtis, in quibus nulla 
+ap<lb break="no" ed="#L" n="54"/>parentia verificandi hanc propositionem relucet.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e307">
+                  <lb ed="#L" n="55"/>II. Dubium secundo est circa minorem, scilicet: 
+Na<lb break="no" ed="#L" n="56"/>tura rationalis, inquantum cognoscit universalem boni et
+<lb ed="#L" n="57"/>entis: rationem, habet immediatum ordinem ad universale
+<lb ed="#L" n="58"/>essendi principium. Natura siquidem rationalis potest 
+du<lb break="no" ed="#L" n="59"/>pliciter sumi: scilicet secundum esse; et secundum operari
+<lb ed="#L" n="60"/>operatione immanente , scilicet cognitione et appetitione.
+<lb ed="#L" n="61"/>Et hoc adhuc dupliciter sumi potest: primo, absolute; 
+se<lb break="no" ed="#L" n="62"/>cundo, secundum hanc vel illam rationem. Et quod 
+se<lb break="no" ed="#L" n="63"/>cundum esse quidem immediate sit a Deo per creationem,
+<lb ed="#L" n="64"/>in Primo Libro ostensum fatemur. Et similiter quod 
+se<lb break="no" ed="#L" n="65"/>cundum jetellecrme. et voluntatem immediate beatificetur
+<lb ed="#L" n="66"/>a Deo, superius monstratum est. Sed quod secundum
+<lb ed="#L" n="67"/>hanc specialem rationem, seu ex hac, scilicet inquantum
+<lb ed="#L" n="68"/>cognoscit entis et boni universalem rationem, habeat 
+im<lb break="no" ed="#L" n="69"/>mediatum ordinem ad universale essendi principium, non
+<lb ed="#L" n="70"/>apparet: quoniam ex universali in praedicando ad 
+univer<lb break="no" ed="#L" n="71"/>sale in essendo proceditur.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e347">
+                  <lb ed="#L" n="72"/>III. Dubium tertio novitiorum est circa aliam 
+subsum<lb break="no" ed="#L" n="73"/>ptam in eiusdem rationis progressu propositionem, scilicet
+<lb ed="#L" n="74"/>quod ad Dei visionem homo pertingere non potest nisi per
+<lb ed="#L" n="75"/>modum discentis a Deo doctore. Hoc enim falsum esse
+<lb ed="#L" n="76"/>constat ex eo. quod pueri baptizati perveniunt ad illam 
+de<lb break="no" ed="#L" n="77"/>cedentes. absque. disciplina. Et ipse Iesus Christus, 
+secun<lb break="no" ed="#L" n="78"/>dum quod homo, habuit illam absque disciplina actuali
+<lb ed="#L" n="79"/>et habituali: quia statim beatus absque fide fuit.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e367">
+                  <lb ed="#L" n="80"/>IV. Ad primum dubium dicitur quod propositio illa
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="81"/>assumpta sumitur secundo modo. Et intelligitur de naturis
+<lb ed="#L" n="82"/>quae sunt primo partes universi, quae sunt solae 
+incorru<lb break="no" ed="#L" n="83"/>ptibiles, elementa scilicet, corpora caelestia et intellectualia.
+<lb ed="#L" n="84"/>In cuius signum, in his tantum Auctor, quasi inductive,
+<lb ed="#L" n="85"/>eam manifestavit. Et ob hoc cessat obiectio de mixtis. De
+<lb ed="#L" n="86"/>terra autem dicitur quod ad terrae perfectionem duo 
+con<lb break="no" ed="#L" n="87"/>currunt: alterum secundum proprium motum, scilicet quies
+<lb ed="#L" n="88"/>in centro; alterum secundum motionem activam caelestis
+<lb ed="#L" n="89"/>corporis in eam, scilicet germinatio vegetabilium et 
+ani<lb break="no" ed="#L" n="90"/>malium; quae. pertinere ad perfectionem terrae sacra 
+Scri<lb break="no" ed="#L" n="91"/>ptura testatur dicens: igitur perfecti sunt caeli et terra
+<lb ed="#L" n="92"/>et omnis ornatus eorum. Ad id autem quod de primo
+<lb ed="#L" n="93"/>caelo obiicitur aliter dicendum est theologice et aliter 
+phy<lb break="no" ed="#L" n="94"/>sice. Nam ponendo caelum empyreum totum lucidum et
+<lb ed="#L" n="95"/>plenum angelis, etc., satis patet perfectionem illius ex 
+or<lb break="no" ed="#L" n="96"/>natu angelorum et corporum glorificatorum compleri. Non
+<lb ed="#L" n="97"/>egrediendo autem limites notorum nobis ex lumine 
+natu<lb break="no" ed="#L" n="98"/>rali, dicitur quod primi mobilis perfectio consurgit ex 
+duo<lb break="no" ed="#L" n="99"/>bus: quorum alterum ex propria manat natura, scilicet
+<lb ed="#L" n="100"/>motus de eodem, ad idem in tot horis; alterum ex actione
+<lb ed="#L" n="101"/>superioris est naturae, scilicet sempiternitas motus per se
+<lb ed="#L" n="102"/>primo, ut in quaestione quam de hoc olim fecimus 
+osten<lb break="no" ed="#L" n="103"/>sum est. Et sic manet solida maxima inducta in littera.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e424">
+                  <lb ed="#L" n="104"/>V. Ad secundum dubium dicitur quod ly inquantum
+<lb ed="#L" n="105"/>in proposito tenetur specificative. Et intendit Auctor quod,
+<lb ed="#L" n="106"/>licet natura rationalis ordinetur a Deo non immediate, sed
+<lb ed="#L" n="107"/>mediante natura intellectuali superiori, quia illuminatur per
+<lb ed="#L" n="108"/>angelos; inquantum tamen natura nostra rationalis attingit
+<lb ed="#L" n="109"/>ad verum et bonum absolute, oportet ad Deum immediate
+<lb ed="#L" n="110"/>ordinari, quia verum et bonum absolute in solo Deo est, ut in
+<lb ed="#L" n="111"/>qu. ir Secundi Libri dictum fuit. Et si diligentius 
+per<lb break="no" ed="#L" n="112"/>spexeris, percipies Auctorem in hac specificatione tria simul
+<lb ed="#L" n="113"/>fecisse: dum et determinat secundum quam rationem de
+<lb ed="#L" n="114"/>homine loquitur, scilicet secundum quod est capax boni
+<lb ed="#L" n="115"/>universalis (hanc enim capacitatem sonat cognoscere 
+uni<lb break="no" ed="#L" n="116"/>versalem boni et entis rationem: qui enim universalem
+<lb ed="#L" n="117"/>boni rationem cognoscit naturam necesse est habeat illius
+<lb ed="#L" n="118"/>capacem secundum intellectivam et appetitivam partem, licet
+<lb ed="#L" n="119"/>remote); et docet maximam praeassumptam de immediatis
+<lb ed="#L" n="120"/>intelligi; et immediatum ordinem inter illa non esse 
+exi<lb break="no" ed="#L" n="121"/>gendum nisi secundum aliquid. Sic enim omnes inferiores
+<lb ed="#L" n="122"/>sphaeras ad primum mobile, aquam ad lunam, et terram
+<lb ed="#L" n="123"/>ad caeleste corpus immediatum ordinem habere opinandum
+<lb ed="#L" n="124"/>est, quamvis multum distent, Et similiter natura rationalis,
+<lb ed="#L" n="125"/>ut capax est ipsius boni universalis, quod in solo Deo est,
+<lb ed="#L" n="126"/>immediatum ordinem habet ad universale essendi 
+princi<lb break="no" ed="#L" n="127"/>pium ut ad obiectum, finem et movens: nihil enim 
+mo<lb break="no" ed="#L" n="128"/>vere potest ad talem finem et tale obiectum nisi ipse Deus,
+<lb ed="#L" n="129"/>qui est universale essendi principium. Et in hoc quia 
+com<lb break="no" ed="#L" n="130"/>municat natura nostra rationalis cum natura intellectuali
+<lb ed="#L" n="131"/>angelorum, utramque immediate ad Deum oportet ordinem
+<lb ed="#L" n="132"/>habere secundum triplicem rationem explicatam, scilicet ut
+<lb ed="#L" n="133"/>moventem, ut finem et obiectum.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e492">
+                  <pb ed="#L" n="30"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>VI. Ad tertium. dubium dicitur quod sermo litterae
+<lb ed="#L" n="2"/>est de pertingentibus ad visionem Dei per actus proprios.
+<lb ed="#L" n="3"/>Pueri autem, licet per disciplinam fidei habitualis, non 
+ta<lb break="no" ed="#L" n="4"/>men per proprios actus, sed lesu Christi meritum: ipsa
+<lb ed="#L" n="5"/>autem Christi anima ex unione personali ad Verbum, quasi
+<lb ed="#L" n="6"/>naturali concomitantia, visione divina perfusa est. Unde
+<lb ed="#L" n="7"/>Auctor, attendens quod visio Dei est perfectio suprema
+<lb ed="#L" n="8"/>intellectus; et non est innata, ut visio principiorum, neque
+<lb ed="#L" n="9"/>per inventionem acquisibilis, ut visio conclusionum 
+scita<lb break="no" ed="#L" n="10"/>rum perfecte ab his qui pollent ingenio; et quod per actus
+<lb ed="#L" n="11"/>proprios dispositis ad illam communicatur: cum propria
+<lb ed="#L" n="12"/>dispositio et via ad visionem intellectualem sit disciplina
+<lb ed="#L" n="13"/>a doctore vidente, fultus auctoritate Scripturae, 
+necessita<lb break="no" ed="#L" n="14"/>tem fidei intulit sicut in discipulis.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e529">
+                  <lb ed="#L" n="15"/>VII. In eodem articulo tertio scito quod de facto tantus
+<lb ed="#L" n="16"/>est divinus amor erga universum ut non suffecerit Deo
+<lb ed="#L" n="17"/>communicare se per naturales participationes, creando 
+uni<lb break="no" ed="#L" n="18"/>versum ex tot essendi participationibus constitutum quot
+<lb ed="#L" n="19"/>divina bonitas naturaliter participabilis secundum ordinem
+<lb ed="#L" n="20"/>suae sapientiae erat; sed, cum videre Deum  fruique aperte
+<lb ed="#L" n="21"/>Deo soli divinae naturae naturale sit et esse possit, ac per
+<lb ed="#L" n="22"/>hoc creatae et creabiles naturae non poterant naturali 
+parti<lb break="no" ed="#L" n="23"/>cipatione habere divinam visionem ac perfectam fruitionem;
+<lb ed="#L" n="24"/>communicavit per gratiam quod. incommunicabile erat per
+<lb ed="#L" n="25"/>naturam, et effecit omnes intellectuales et rationales 
+crea<lb break="no" ed="#L" n="26"/>turas habiles ad divinam visionem et fruitionem ex hoc ipso
+<lb ed="#L" n="27"/>quod ordinavit eas ut essent divinae naturae consortes
+<lb ed="#L" n="28"/>per gratiam, et ad. id quod soli Deo naturale est, scilicet 
+vi<lb break="no" ed="#L" n="29"/>dere Deum et frui Deo, pervenire possent. Et quia 
+perve<lb break="no" ed="#L" n="30"/>nire ad visionem huiusmodi propriis actibus non possumus
+<lb ed="#L" n="31"/>nisi convenienter adiuti fuerimus divino ducatu, qui fit
+<lb ed="#L" n="32"/>docendo, ut in littera dicitur; ideo oportet credere Deo 
+do<lb break="no" ed="#L" n="33"/>centi nos ea quae visuri sumus, quae praeparavit suis electis.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e573">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="34"/>Ubi patet primo, quomodo. in natura rationali invenitur,
+<lb ed="#L" n="35"/>ultra id quod est ei naturale, perfectio supernaturalis 
+se<lb break="no" ed="#L" n="36"/>cundum motum superioris, hoc est divinae naturae, per
+<lb ed="#L" n="37"/>gratiam, — Patet secundo, quam optima ratio 'ad hoc allata
+<lb ed="#L" n="38"/>fuerit ab Auctore in littera, arguendo a conditionibus 
+na<lb break="no" ed="#L" n="39"/>turalibus creaturarum. Quae adeo est probabilis ut 
+neces<lb break="no" ed="#L" n="40"/>saria appareat. — Patet tertio, quam iuste exigatur a 
+ratio<lb break="no" ed="#L" n="41"/>nalibus creaturis quod credant supernaturalia et operentur
+<lb ed="#L" n="42"/>conformia.supernaturalibus. Par namque est iustitiae ratio
+<lb ed="#L" n="43"/>ut exigantur opera conformia supernaturali naturae, ad
+<lb ed="#L" n="44"/>quam accitae sunt per gratiam; et ut exigantur opera 
+con<lb break="no" ed="#L" n="45"/>formia naturae rationali, quam naturaliter habent... Nam
+<lb ed="#L" n="46"/>quia naturam rationalem habent, iuste exigitur ut. 
+operen<lb break="no" ed="#L" n="47"/>tur conformiter ad illam et vitent difformia ab illa. Et
+<lb ed="#L" n="48"/>eadem ratione, quia consortium divinae naturae habent
+<lb ed="#L" n="49"/>ex Dei munere, iuste exigitur ut operentur conformia 
+di<lb break="no" ed="#L" n="50"/>vino consortio et vitent quaecumque contraria sunt illi.
+<lb ed="#L" n="51"/>Et quoniam credere revelata a Deo est unum istorum,
+<lb ed="#L" n="52"/>quoniam est via ad perfectionem divini consortii; ideo
+<lb ed="#L" n="53"/>necessarium est credere et damnabile est non credere. Et
+<lb ed="#L" n="54"/>propterea in littera concluditur quod est necessarium ad
+<lb ed="#L" n="55"/>salutem. ,
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e626">
+                  <lb ed="#L" n="56"/>VIII. In responsione ad secundum. in eodem. articulo
+<lb ed="#L" n="57"/>adverte quod fidelis dupliciter considerari potest: primo, ex
+<lb ed="#L" n="58"/>parte habitus fidei; secundo, ex parte ipsius habentis dictum
+<lb ed="#L" n="59"/>lumen fidei. Si consideretur ex parte habitus, sic tutus est:
+<lb ed="#L" n="60"/>quia tale lumen, quantum est ex se, inclinat in. vere 
+cre<lb break="no" ed="#L" n="61"/>dibilia et dissentire. facit a contrariis; quamvis non cum
+<lb ed="#L" n="62"/>evidentia nostra circa particulare credibile, sicut facit 
+habi<lb break="no" ed="#L" n="63"/>tus principiorum. Et propter hoc, si sumatur ex parte
+<lb ed="#L" n="64"/>nostri, contingit fluctuare, usque ad exclusionem peus
+<lb ed="#L" n="65"/>tus fidei.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1282-Dd1e651"><!-- caj-p2p2-q2a4 -->
+               <head xml:id="TAcCaj-d1e1282-Hd1e654">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1282-d1e656">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e663">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>IN articulo quarto nota, novitie, quod postquam 
+mon<lb break="no" ed="#L" n="17"/>po est necessarium esse credere, particulariter 
+quae<lb break="no" ed="#L" n="18"/>rendum restabat an sit necessarium credere talia, puta 
+sci<lb break="no" ed="#L" n="19"/>bilia; et sic, puta explicite, etc., ut in sequentibus fit.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e676">
+                  <lb ed="#L" n="20"/>In responsione ad primum. eiusdem. quarti articuli 
+du<lb break="no" ed="#L" n="21"/>bium novitiorum occurrit: quia Deus, vel natura, defecisse
+<lb ed="#L" n="22"/>videtur in necessariis naturalibus, si vera est praesens littera.
+<lb ed="#L" n="23"/>Nam in littera dicitur quod investigatio rationis naturalis
+<lb ed="#L" n="24"/>non sufficit humano generi ad cognitionem divinorum quae
+<lb ed="#L" n="25"/>diligen sciri possunt. Si enim non sufficit, constat quod
+<lb ed="#L" n="26"/>deficit. a naturalibus.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e694">
+                  <lb ed="#L" n="27"/>Ad hoc dicitur quod ratio naturalis ad naturalia 
+huius<lb break="no" ed="#L" n="28"/>modi sufficit et non sufficit humano generi, diversimode
+<lb ed="#L" n="29"/>considerando humanum genus. Si enim sit sermo de 
+hu<lb break="no" ed="#L" n="30"/>mano genere — a singulos homines, constat quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="31"/>ratio naturalis non sufficit ad huiusmodi: ut patet in multis
+<lb ed="#L" n="32"/>ineptis et mulieribus, et propter multas occupationes 
+ra<lb break="no" ed="#L" n="33"/>tionabiles. Si autem loquamur de genere humano 
+secun<lb break="no" ed="#L" n="34"/>dum ipsius communitatem, sic dicendum est quod ratio
+<lb ed="#L" n="35"/>naturalis sufficit ad haec. Distributum quippe est ut hi ad
+<lb ed="#L" n="36"/>contemplationem sapientiae, illi ad agriculturam, alii ad
+<lb ed="#L" n="37"/>alia nati sint: sicque ut humano generi ratio sufficiat ad
+<lb ed="#L" n="38"/>hoc quod sapientia ceteraque adsint, quamvis non omnia
+<lb ed="#L" n="39"/>singulis. Et quoniam Auctor de cognitione divinorum 
+ne<lb break="no" ed="#L" n="40"/>cessaria humano generi secundum singulos loquebatur, quia
+<lb ed="#L" n="41"/>singuli singillatim salvandi vel damnandi sunt; ideo verum
+<lb ed="#L" n="42"/>dixit, quod ratio naturalis humano generi non sufficit ad
+<lb ed="#L" n="43"/>cognitionem divinorum scibilium. Et ideo eorum fides non
+<lb ed="#L" n="44"/>superflua, sed necessaria est valde multis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1282-Dd1e739"><!-- caj-p2p2-q2a5 -->
+               <head xml:id="TAcCaj-d1e1282-Hd1e742">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1282-d1e744">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e751">
+                  <lb ed="#L" n="50"/>In articulo quinto eiusdem secundae quaestionis 
+adver<lb break="no" ed="#L" n="51"/>tendum est diligenter, primo, quod Auctor adaequat
+<lb ed="#L" n="52"/>obiectum per se fidei obiecto beatifico. Ita quod ea quae
+<lb ed="#L" n="53"/>principaliter hic credimus sunt illa quae in patria visuros
+<lb ed="#L" n="54"/>speramus. Et hic, ut in art. 6 quaest. 1 dictum est
+<lb ed="#L" n="55"/>ex Apostolo, <quote xml:id="TAcCaj-d1e1282-Qd1e766">fides est sperandarum substantia rerum</quote>.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e769">
+                  <lb ed="#L" n="56"/>Notandum est secundo, quod inter principaliter credenda,
+<lb ed="#L" n="57"/>et intra per se obiectum fidei, Auctor computat mysterium
+<lb ed="#L" n="58"/>incarnationis Verbi et articulos fidei: ut patet in hoc et
+<lb ed="#L" n="59"/>praedicto articulo
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e780">
+                  <lb ed="#L" n="60"/>Ex quibus scito tertio, quod nascitur dubium quo pacto
+<lb ed="#L" n="61"/>haec possint esse simul vera. Nam obiectum beatificum est
+<lb ed="#L" n="62"/>solus Deus trinus et unus. Et consequenter mysterium 
+In<lb break="no" ed="#L" n="63"/>carnationis, sicut est extra obiectum beatificum, ita est extra
+<lb ed="#L" n="64"/>obiectum fidei. Ac per hoc, ex hac ratione, non est de 
+ex<lb break="no" ed="#L" n="65"/>plicite credendis nec de pertinentibus ad actum beatificum.
+<lb ed="#L" n="66"/>Et sic tota haec ratio ruit.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e799">
+                  <lb ed="#L" n="67"/>II. Ad hoc dicitur quod tam mysterium Incarnationis,
+<lb ed="#L" n="68"/>ut distinguitur a Deo, quam quidquid creaturae in articulis
+<lb ed="#L" n="69"/>fidei invenitur, potest considerari dupliciter: primo, 
+secun<lb break="no" ed="#L" n="70"/>dum se; secundo, ut Dei, vel in Deo, vel ad Deum, et 
+hu<lb break="no" ed="#L" n="71"/>iusmodi. Si-loquamur de istis secundum se; sic nec ad
+<lb ed="#L" n="72"/>fidei obiectum nec ad beatitudinis obiectum spectant: 
+quo<lb break="no" ed="#L" n="73"/>niam Deus utriusque est obiectum formale et materiale,
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="74"/>ut in I art. dictum fuit. Si vero loquimur de istis ut
+<lb ed="#L" n="75"/>sunt Dei, sic cadunt sub obiecto et actu beatifico, et
+<lb ed="#L" n="76"/>similiter obiecto et actu fidei. Quamvis enim solus Deus
+<lb ed="#L" n="77"/>visus beatum faciat, ipse tamen. visus non solum absolute
+<lb ed="#L" n="78"/>sed ut huius vel illius ratio, magis beat: non propter illa
+<lb ed="#L" n="79"/>alia visa, ut Augustinus dicit, in V Confess. ; sed propter
+<lb ed="#L" n="80"/>Deum magis visum. Sic ergo dicendum est quod bedih
+<lb ed="#L" n="81"/>cum obiectum et fidei idem est: et quod in Verbo 
+vide<lb break="no" ed="#L" n="82"/>bimus veritatem Incarnationis et articulorum fidei. .
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e838">
+                  <lb ed="#L" n="83"/>Et cum Scotus, in Quarto, dist. x, qu. vur, contra
+<lb ed="#L" n="84"/>haec arguere videtur, quia beatus non distinguitur .a
+<lb ed="#L" n="85"/>beato nisi videndo obiectum beati ificum ut est obiec
+<lb ed="#L" n="86"/>beatificum, et ea quae includuntur in ipso ut est obiectum
+<lb ed="#L" n="87"/>beatificum : — facile respondetur quod veritas articulorum
+<lb ed="#L" n="88"/>fidei clauditur in obiecto beatifico, quoniam. clauditur in
+<lb ed="#L" n="89"/>Deo ut supernaturalium (de quibus est fides). causa et 
+ra<lb break="no" ed="#L" n="90"/>tione; sicut veritas naturalium, de quibus est scientia, dec
+<lb ed="#L" n="91"/>ditur in Deo ut naturalium causa et ratione. Et propte a,
+<lb ed="#L" n="92"/>sicut ad fidem non spectat sub his speciebus esse corpus
+<lb ed="#L" n="93"/>Christi, sed sub speciebus rite consecratis; ita etiam ad
+<lb ed="#L" n="94"/>actum beatificum: spectat videre corpus Christi esse in 
+spe<lb break="no" ed="#L" n="95"/>ciebus rite consecratis; et similiter gratiam conferri per
+<lb ed="#L" n="96"/>sacramenta dispositis, Sed haec sunt extra praesens Rt
+<lb ed="#L" n="97"/>positum, propter Scoti tamen verba dicta.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1282-Dd1e875"><!-- caj-p2p2-q2a6 -->
+               <head xml:id="TAcCaj-d1e1282-Hd1e878">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1282-d1e880">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="61"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e887">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>IN articulo sexto eiusdem quaestionis nota, in responsione
+<lb ed="#L" n="63"/>La secundum, tu quiin patria haereticorum Christi 
+par<lb break="no" ed="#L" n="64"/>tes agis, quod simplices, ut mulieres, idiotae et huiusmodi,
+<lb ed="#L" n="65"/>si seducti errant absque pertinacia in subtilitatibus fidei,
+<lb ed="#L" n="66"/>quod non: incurrunt haereticorum culpam aut poenas.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e903">
+                  <lb ed="#L" n="67"/>In responsione ad tertium eiusdem articuli nota duo.
+<lb ed="#L" n="68"/>Primo, quod humana cognitio non est regula fidei, sed
+<lb ed="#L" n="69"/>divina doctrina. Ac per hoc, quamvis universalis Ecclesiae
+<lb ed="#L" n="70"/>cognitio fidei non possit errare, non tamen ipsa est fidei
+<lb ed="#L" n="71"/>regula; sed doctrina divina cui innititur. Et quilibet fidei
+<lb ed="#L" n="72"/>sive maiorum sive Ecclesiae innitens nihil aliud facit quam
+<lb ed="#L" n="73"/>quod doctrinae divinae innititur. Cum hac tamen 
+differen<lb break="no" ed="#L" n="74"/>tia, ut Auctor dicit, quod fidei maiorum, puta episcoporum
+<lb ed="#L" n="75"/>vel doctorum Ecclesiae, homo inniti potest bene et male:
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="76"/>bene quidem, absolute eis innitendo; male autem, 
+inni<lb break="no" ed="#L" n="77"/>tendo eis etiam si contra Ecclesiam tenerent. Ipsi autem
+<lb ed="#L" n="78"/>universali Ecclesiae non potest homo male inniti: quia
+<lb ed="#L" n="79"/>promissum est illi indefectibilis. veritas doctrinae divinae in
+<lb ed="#L" n="80"/>his quae sunt fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e938">
+                  <lb ed="#L" n="81"/>Nota secundo, quod Auctor quasi synonyme utitur 
+uni<lb break="no" ed="#L" n="82"/>versalis Ecclesiae et Petri nominibus: quia Petri in se et
+<lb ed="#L" n="83"/>successoribus suis fides est fides quam tenetur Ecclesia
+<lb ed="#L" n="84"/>tota suscipere. Et est sermo non de fide illius hominis qui
+<lb ed="#L" n="85"/>succedit Petro: sed de fide successoris ut definitive docet
+<lb ed="#L" n="86"/>quid in Ecclesia tenendum de fide. Christus enim nunquam
+<lb ed="#L" n="87"/>permisit aut permittet eum sic errare: non propter se, sed
+<lb ed="#L" n="88"/>propter Ecclesiam universalem, quae tenetur sententiam
+<lb ed="#L" n="89"/>illius sequi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1282-Dd1e961"><!-- caj-p2p2-q2a8 -->
+               <head xml:id="TAcCaj-d1e1282-Hd1e964">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1282-d1e966">
+                  <pb ed="#L" n="36"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e975">
+                  <lb ed="#L" n="2"/>In articulo octavo, omisso septimo, eiusdem quaestionis,
+<lb ed="#L" n="3"/>in responsione ad tertium, scito quod, cum ibi dicitur
+<lb ed="#L" n="4"/>quod summa bonitas Dei, secundum quod intelligitur in
+<lb ed="#L" n="5"/>seipsa, prout videtur a beatis, non potest intelligi sine
+<lb ed="#L" n="6"/>trinitate Personarum , ly non potest dupliciter sumitur:
+<lb ed="#L" n="7"/>primo, ut denotat potentiam naturalem; secundo, ut 
+de<lb break="no" ed="#L" n="8"/>notat potentiam logicam. Et primo quidem modo esset
+<lb ed="#L" n="9"/>sensus quod secundum naturalem habitudinem obiecti ad
+<lb ed="#L" n="10"/>potentiam videntis Deum, non potest aliter esse. Secundo
+<lb ed="#L" n="11"/>autem modo, quod per nullam potentiam potest aliter esse.
+<lb ed="#L" n="12"/>Et licet textus iste sufficienter salvetur secundum primum
+<lb ed="#L" n="13"/>sensum, quia sermo formalis de rebus loquens de potentia
+<lb ed="#L" n="14"/>earum ut sic interpretandus est; quia tamen etiam in sensu
+<lb ed="#L" n="15"/>secundo verus videtur, et Thomistae Scotum, in I Sent.,
+<lb ed="#L" n="16"/>dist. 1, qu. i:, sibi sentiunt infestum; ideo primo afferam
+<lb ed="#L" n="17"/>Scoti positionem et rationes; secundo, ostendetur veritas;
+<lb ed="#L" n="18"/>tertio, solventur obiecta.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1014">
+                  <lb ed="#L" n="19"/>II. Tenet igitur Scotus quod, de potentia Dei absoluta,
+<lb ed="#L" n="20"/>potest beatus videre essentiam divinam non videndo 
+Per<lb break="no" ed="#L" n="21"/>sonas, et unam Personam non videndo aliam: eo quia
+<lb ed="#L" n="22"/>actus habens obiectum primarium a quo essentialiter 
+de<lb break="no" ed="#L" n="23"/>pendet, et obiectum secundarium a quo essentialiter non
+<lb ed="#L" n="24"/>dependet, potest terminari ad primarium absque hoc quod
+<lb ed="#L" n="25"/>terminetur ad secundarium. Sic autem se habent essentia 
+<lb ed="#L" n="26"/>divina et trinitas Personarum respectu visionis quam habent
+<lb ed="#L" n="27"/>beati. Ergo. - Minor patet ex hoc quod ratio visibilitatis
+<lb ed="#L" n="28"/>et fruibilitatis in tota Trinitate una est, scilicet deitas.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1038">
+                  <lb ed="#L" n="29"/>III. Praeterea, <quote xml:id="TAcCaj-d1e1282-Qd1e1042">Pater prius origine quam generet Filium,
+<lb ed="#L" n="30"/>est perfecte beatus. Ergo habet in illo priori obiectum
+<lb ed="#L" n="31"/>perfecte beatificans. Sed non habet in illo priori essentiam
+<lb ed="#L" n="32"/>communicatam tribus ut obiectum. Ergo non est de ratione
+<lb ed="#L" n="33"/>essentiae divinae ut est obiectum beatificum, quod beatificet
+<lb ed="#L" n="34"/>inquantum est communicata tribus</quote>.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1057">
+                  <lb ed="#L" n="35"/>Si negetur minor, et dicatur quod Pater habet 
+essen<lb break="no" ed="#L" n="36"/>tiam ut communicatam tribus pro obiecto; et hoc prius
+<lb ed="#L" n="37"/>secundum originem, quia habet hoc a se (nihil enim aliud
+<lb ed="#L" n="38"/>importat prioritas originis quam a se: nam nulla est ibi
+<lb ed="#L" n="39"/>prioritas naturae, ut in aliquo priori naturae obiiciatur 
+es<lb break="no" ed="#L" n="40"/>sentia ut est in una Persona et non in alia, aut uni et non
+<lb ed="#L" n="41"/>alii; sed uni, puta Patri, ex se, Filio ex alio): - Contra,
+<lb ed="#L" n="42"/>quaelibet Persona intelligit formaliter intellectu ut est in
+<lb ed="#L" n="43"/>ipsa, non ut est in alia nec ut in tribus, Ergo quaelibet
+<lb ed="#L" n="44"/>Persona intelligit per se perfecte, intelligendo essentiam
+<lb ed="#L" n="45"/>ut est in se formaliter. Ergo perfecta intellectio, quae ibi
+<lb ed="#L" n="46"/>est beatifica, non necessario ex se requirit essentiam ut in
+<lb ed="#L" n="47"/>tribus. — Antecedens patet ex Augustino, XV de Trin.:
+<lb ed="#L" n="48"/>Quaelibet Persona intelligit sibi ipsi. - Consequentia 
+pro<lb break="no" ed="#L" n="49"/>batur. « Non minus ad intellectionem requiritur intelligibile
+<lb ed="#L" n="50"/>quam intellectus. Igitur in perfecto intelligente ex se non
+<lb ed="#L" n="51"/>minus requiritur quod habeat in se obiectum ut formaliter
+<lb ed="#L" n="52"/>intelligibile; quam quod habeat intellectum ut quo 
+intel<lb break="no" ed="#L" n="53"/>ligat.»
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1101">
+                  <lb ed="#L" n="54"/>Et confirmatur.  <quote xml:id="TAcCaj-d1e1282-Qd1e1105">Quia si Pater intelligit beatifica 
+vi<lb break="no" ed="#L" n="55"/>sione essentiam ut in Filio, igitur aliquid quasi reciperet
+<lb ed="#L" n="56"/>a Filio, vel ab aliquo ut in Filio</quote>.  Hoc est inconveniens.
+<lb ed="#L" n="57"/>Ergo. - Consequentia patet ex XII Metaphys.: 
+intelle<lb break="no" ed="#L" n="58"/>ctus divinus, si intelligeret aliquid extra se, vilesceret, quia
+<lb ed="#L" n="59"/>pateretur ab intelligibili. — Destructio consequentis 
+proba<lb break="no" ed="#L" n="60"/>tur. Quia Pater perfectionem simpliciter, beatitudinem 
+scili<lb break="no" ed="#L" n="61"/>cet, reciperet a Personis ut obiectis, vel ab aliquo ut in 
+tri<lb break="no" ed="#L" n="62"/>bus: et sequuntur duo absurda. Primum, quod non omnem
+<lb ed="#L" n="63"/>perfectionem Pater habet a se. Secundum, quod non omnis
+<lb ed="#L" n="64"/>perfectio simpliciter et essentialis sit aliquo modo prior
+<lb ed="#L" n="65"/>proprietatibus, sed aliqua quasi posterior ipsis Personis ,
+<lb ed="#L" n="66"/>puta ista quae est ab obiecto ut in tribus. - Haec de primo.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1135">
+                  <lb ed="#L" n="67"/>IV. Quoad secundum, quia Scotus in hoc potissimum
+<lb ed="#L" n="68"/>se fundat quod essentia ut distincta a personalibus sit 
+ob<lb break="no" ed="#L" n="69"/>iectum beatificum non solum respectu creaturae, sed ipsius
+<lb ed="#L" n="70"/>Dei; idcirco, primo ab ipso Deo inchoando, ad creaturas,
+<lb ed="#L" n="71"/>proportionabilitate servata, descendemus. Commune est
+<lb ed="#L" n="72"/>beatitudini divinae et creatae quod consistat in visione Dei
+<lb ed="#L" n="73"/>sicuti est. Sed ad beatitudinem divinam plus requiri quam
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="74"/>ad beatitudinem cuiuscumque creaturae ex eo patet quod
+<lb ed="#L" n="75"/>beatitudo creata mensuram compatitur (propter quod unus
+<lb ed="#L" n="76"/>altero beatior est), beatitudo autem divina exigit non 
+quam<lb break="no" ed="#L" n="77"/>cumque cognitionem deitatis, sed comprehensivam: non
+<lb ed="#L" n="78"/>enim quiesceret appetitus Dei, potentis comprehendere 
+dei<lb break="no" ed="#L" n="79"/>tatem, si illam non comprehenderet. Actus ergo beatificus
+<lb ed="#L" n="80"/>quo Deus formaliter est beatus est comprehensio suae 
+dei<lb break="no" ed="#L" n="81"/>tatis. Ergo est comprehensio deitatis non solum ut deitas, .
+<lb ed="#L" n="82"/>sed ut una et trina, et ut causa omnis possibilis, etc. —
+<lb ed="#L" n="83"/>Et confirmatur. Quia nisi comprehensio deitatis ponatur
+<lb ed="#L" n="84"/>beatitudo, aut de ratione beatitudinis, sequeretur quod
+<lb ed="#L" n="85"/>Deus posset esse beatior: beatius enim est cognoscere 
+dei<lb break="no" ed="#L" n="86"/>tatem comprehensive quam non comprehensive.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1183">
+                  <lb ed="#L" n="87"/>Ad hoc autem quod est videre Deum sicuti est, quod
+<lb ed="#L" n="88"/>sufficit ad beatitudinem creaturae, exigitur quod intuitus
+<lb ed="#L" n="89"/>videntis terminetur in Deum sicuti est in suo esse absque
+<lb ed="#L" n="90"/>abstractione, ita quod non fiat abstractio naturae a 
+sup<lb break="no" ed="#L" n="91"/>posito: non enim videret Socratem sicuti est qui videret
+<lb ed="#L" n="92"/>hanc humanitatem Socratis et non videret ipsum 
+suppo<lb break="no" ed="#L" n="93"/>situm Socratis. Et hoc exemplo, immo hac inductiva 
+ma<lb break="no" ed="#L" n="94"/>nifestatione uti debes, et non falli in exemplo Scoti de
+<lb ed="#L" n="95"/>albedine et supposito in quo est. Si albedo esset substantia
+<lb ed="#L" n="96"/>illius suppositi, non videretur certe hoc album sicuti est
+<lb ed="#L" n="97"/>si non videretur suppositum: sed quia accidens est, ideo
+<lb ed="#L" n="98"/>fallit.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1212">
+                  <lb ed="#L" n="99"/>Et confirmatur in proposito. Quia si Deus esset unus
+<lb ed="#L" n="100"/>suppositaliter, sicut est unus essentialiter, constat quod qui
+<lb ed="#L" n="101"/>videret deitatem hanc non in uno supposito, non videret
+<lb ed="#L" n="102"/>eam sicuti est, nec esset beatus: quia non videret Deum,
+<lb ed="#L" n="103"/>proprie loquendo, sed hanc deitatem; sicut de Socrate et
+<lb ed="#L" n="104"/>hac humanitate dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1228">
+                  <lb ed="#L" n="105"/>Et confirmatur. Quia cum de beatitudinis ratione sit
+<lb ed="#L" n="106"/>videre Deum sicuti est, ille modus quo Deus est clauditur
+<lb ed="#L" n="107"/>in Deo ut obiecto beatifico sine quo nullus intellectus
+<lb ed="#L" n="108"/>quiescit. Sed videns hanc deitatem in nullo supposito 
+na<lb break="no" ed="#L" n="109"/>turali inquietudine laborat quomodo Deus sit trinus 
+sup<lb break="no" ed="#L" n="110"/>positaliter. Ergo de ratione actus beatifici est videre Deum
+<lb ed="#L" n="111"/>sicuti est trinus et unus. 9d
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1247">
+                  <lb ed="#L" n="112"/>Non ergo ex diminutione divinae potentiae, sed ex 
+ra<lb break="no" ed="#L" n="113"/>tionibus terminorum sic se habentibus fit ut impossibile
+<lb ed="#L" n="114"/>sit aliquem esse vere beatum et non videre Deum trinum
+<lb ed="#L" n="115"/>et unum, Unde in littera Auctor duas radices tetigit. Prim
+<lb ed="#L" n="116"/>est quia Deus in seipso videtur: quod pertinet ad primo
+<lb ed="#L" n="117"/>inducta. Secunda est quia ipsa visio Personarum perducit
+<lb ed="#L" n="118"/>nos in beatitudinem, idest pertinet ad perfectionem 
+beati<lb break="no" ed="#L" n="119"/>tudinis nostrae: quod in ultima confirmatione allatum est. —
+<lb ed="#L" n="120"/>Haec de secundo. 3-Tn
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1269">
+                  <lb ed="#L" n="121"/>V. Quoad tertium, facile solvuntur obiecta Scoti. Ad
+<lb ed="#L" n="122"/>primum dicitur quod falsum assumitur, scilicet quod 
+tri<lb break="no" ed="#L" n="123"/>nitas Personarum spectet ad obiectum secundarium actus
+<lb ed="#L" n="124"/>beatifici. Est enim quasi pars obiecti primarii: quoniam
+<lb ed="#L" n="125"/>est quasi pars huius quod dico, Deus sicuti est. Non enim
+<lb ed="#L" n="126"/>ly sicuti est restringendum est ad existentiam ut distinguitur
+<lb ed="#L" n="127"/>contra subsistentiam, ut Scotus fingit: sed intelligendum
+<lb ed="#L" n="128"/>est de omni modo substantiae, tam scilicet essentiae quam
+<lb ed="#L" n="129"/>hypostasis. Alioquin esset visio essentiae abstractiva ab
+<lb ed="#L" n="130"/>hypostasi, et, in substantiis loquendo, non esset vere visio
+<lb ed="#L" n="131"/>intuitiva: hypostasis enim est omnia faciens, et cui omnia
+<lb ed="#L" n="132"/>tribuuntur, et quam omnia desiderant videre. i
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1298">
+                  <lb ed="#L" n="133"/>Nec contra hanc responsionem militat probatio. illa 
+al<lb break="no" ed="#L" n="134"/>lata, scilicet quia sola deitas est ratio visibilis, etc. Cum
+<lb ed="#L" n="135"/>hoc enim quod ipsa sola sit ratio beatifici obiecti stat quod
+<lb ed="#L" n="136"/>ipsa non nisi ut una et trina personaliter visa beet: 
+quo<lb break="no" ed="#L" n="137"/>niam ad obiectum beatificum non sola ratio beandi 
+exigi<lb break="no" ed="#L" n="138"/>tur, sed ipsum beans, se habens ut quod. Quo autem et
+<lb ed="#L" n="139"/>quod non sunt duo obiecta, quorum unum sit primum et
+<lb ed="#L" n="140"/>alterum secundarium: sed ex utroque quasi integratur unum
+<lb ed="#L" n="141"/>obiectum.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1320">
+                  <lb ed="#L" n="142"/>VI. Ad rationem autem Scoti quod Pater prius 
+ori<lb break="no" ed="#L" n="143"/>gine, etc., dicitur quod illa responsio est bona, quod Pater
+<lb ed="#L" n="144"/>ex se est beatus comprehendendo deitatem, ac per hoc 
+vi<lb break="no" ed="#L" n="145"/>dendo eam in tribus et causam omnium, etc.; Filius autem
+<pb ed="#L" n="37"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ex Patre beatus est comprehendendo eandem. Et cum 
+con<lb break="no" ed="#L" n="2"/>tra hoc arguitur: Quaelibet Persona intelligit intellectu ut
+<lb ed="#L" n="3"/>est in se formaliter, etc.: — concesso antecedente, neganda
+<lb ed="#L" n="4"/>est sequela in sensu quo facit ad propositum. Potest enim
+<lb ed="#L" n="5"/>duplicem sensum habere ipsa, cum sua probatione.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1346">
+                  <lb ed="#L" n="6"/>Ad cuius evidentiam, propter novitios, recolere oportet
+<lb ed="#L" n="7"/>quod ad intelligendum non solum concurrunt intellectus
+<lb ed="#L" n="8"/>et intelligibile, sicut ad sentiendum sensus et sensibile, sed
+<lb ed="#L" n="9"/>concurrit utriusque inhaesio formaliter cum intelligente.
+<lb ed="#L" n="10"/>Oportet enim intellectum formaliter esse in intelligente; et
+<lb ed="#L" n="11"/>rursus oportet intelligibile inhaerere, vel quasi inhaerere
+<lb ed="#L" n="12"/>ipsi intellectui. Intelligens ergo quilibet et intelligit 
+intel<lb break="no" ed="#L" n="13"/>lectu ut in ipso intelligente est; et intelligit intelligibile ut
+<lb ed="#L" n="14"/>in eodem intelligente est. Haec sunt vera: sed duplex 
+sen<lb break="no" ed="#L" n="15"/>sus in ista locutione latet. Cum dico, Quilibet intelligit 
+intel<lb break="no" ed="#L" n="16"/>ligibile ut est in seipso intelligente formaliter, potest ly ut
+<lb ed="#L" n="17"/>denotare conditionem sine qua intelligibile non intelligitur;
+<lb ed="#L" n="18"/>qualis est approximatio seu coniunctio intelligibilis cum
+<lb ed="#L" n="19"/>intelligente. Et sic propositio est vera. Et in hoc sensu,
+<lb ed="#L" n="20"/>si concedatur totus processus, nihil aliud concluditur nisi
+<lb ed="#L" n="21"/>quod Pater non intelligit deitatem nisi in se existat. Quod
+<lb ed="#L" n="22"/>non est ad propositum. - Potest quoque ly uf denotare
+<lb ed="#L" n="23"/>terminum intellectionis. Et sic propositio est falsissima.
+<lb ed="#L" n="24"/>Quoniam lapis intelligitur secundum conditiones quas habet
+<lb ed="#L" n="25"/>in re extra, puta gravitatem, etc.: et non solum secundum
+<lb ed="#L" n="26"/>conditiones quas habet in intelligente. Et tamen ad hunc
+<lb ed="#L" n="27"/>sensum concluderet intentum Scoti volentis probare quod
+<lb ed="#L" n="28"/>sufficiat ad beatitudinem Patris quod terminetur ad 
+essen<lb break="no" ed="#L" n="29"/>tiam ut in Patre formaliter, sicut sufficit ad hoc quod
+<lb ed="#L" n="30"/>intelligat intellectu quod intellectus sit in eo. Sed longe
+<lb ed="#L" n="31"/>aliter est. Quoniam essentia ut obiecta terminat intellectum
+<lb ed="#L" n="32"/>paternum secundum totam latitudinem suam ut 
+compre<lb break="no" ed="#L" n="33"/>ensa: et non solum secundum hanc conditionem, ut. est
+<lb ed="#L" n="34"/>in patre formaliter.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1411">
+                  <lb ed="#L" n="35"/>Et ultima probatio, scilicet: Non minus requiritur ad
+<lb ed="#L" n="36"/>intelligendum intelligibile quam intellectus, falsum assu-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="37"/>mit; et sophisma committit in illatione. .Falsa quidem est,
+<lb ed="#L" n="38"/>quia ad operationem vitalem, qualis est intelligere, magis
+<lb ed="#L" n="39"/>requiritur principium eius vitale quam non vitale. 
+Intelle<lb break="no" ed="#L" n="40"/>ctus autem est principium vitale; intelligibile vero non.
+<lb ed="#L" n="41"/>Ergo, etc. — Sophistice autem infert, quia mutatur nom 
+mi<lb break="no" ed="#L" n="42"/>nus in non aliter. Dato enim quod non minus, quia tamen
+<lb ed="#L" n="43"/>aliter requiritur, quia intellectus ut quo solum, intelligibile
+<lb ed="#L" n="44"/>ut terminus; ideo hoc exigit, ad hoc ut perfecte terminet,
+<lb ed="#L" n="45"/>ut terminet ut est in intelligente, et ut est secundum se,
+<lb ed="#L" n="46"/>et in quocumque, etc. Ille autem sufficit quod principiet
+<lb ed="#L" n="47"/>ut formaliter inest intelligenti.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1445">
+                  <lb ed="#L" n="48"/>VII. Ad confirmationem autem, qua dicitur: Si Pater
+<lb ed="#L" n="49"/>beatifica visione intelligeret essentiam in Filio, igitur quasi
+<lb ed="#L" n="50"/>reciperet aliquid a Filio, vel ab aliquo ut in Filio, 
+respon<lb break="no" ed="#L" n="51"/>detur negando sequelam quoad primam partem; et quoad
+<lb ed="#L" n="52"/>secundam, in sensu inconvenienti. Non enim ex hoc quod
+<lb ed="#L" n="53"/>Deus intelligit essentiam suam ut extendit se ad creaturas,
+<lb ed="#L" n="54"/>recipit aliquid a creaturis, aut ab essentia sua ut est 
+crea<lb break="no" ed="#L" n="55"/>turarum: quoniam ly ut denotat conditionem termini. Et
+<lb ed="#L" n="56"/>ideo nihil valet ad propositum, sed potius est ad 
+oppo<lb break="no" ed="#L" n="57"/>situm auctoritas Aristotelis, XII Metaphys., loquentis non
+<lb ed="#L" n="58"/>de conditione obiecti, sed de ipso obiecto. Vult enim,
+<lb ed="#L" n="59"/>et bene, quod si Deus intelligeret aliquid extra se, idest
+<lb ed="#L" n="60"/>obiectam essentiam suam, ita quod aliquid ab eo 
+intellige<lb break="no" ed="#L" n="61"/>retur non existens in sua essentia, vilesceret, etc. Nos etiam
+<lb ed="#L" n="62"/>dicimus idem. Quoniam dicimus quod Deus Pater, perfecte
+<lb ed="#L" n="63"/>videndo essentiam suam, comprehendit eam, ac per hoc
+<lb ed="#L" n="64"/>videt eam ut in tribus Personis, et ut omnium causam.
+<lb ed="#L" n="65"/>Et cum hoc, a nullo aliquid recipit, aut quasi recipit, nisi
+<lb ed="#L" n="66"/>ab essentia perfecte obiecta: in hoc enim clauduntur omnes
+<lb ed="#L" n="67"/>conditiones essentiae quaecumque, quomodolibet sunt, tam
+<lb ed="#L" n="68"/>ad intra, ut esse communicatum Filio et Spiritui Sancto, etc.,
+<lb ed="#L" n="69"/>quam ad extra, ut esse causam, etc. Et propterea Verbum
+<lb ed="#L" n="70"/>Dei, natum ex omnibus quae sunt in scientia Patris, est
+<lb ed="#L" n="71"/>Verbum omnium simpliciter, intus et extra, ut in Primo
+<lb ed="#L" n="72"/>Libro monstratum est. - Haec de tertio.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1282-Dd1e1503"><!-- caj-p2p2-q2a9 -->
+               <head xml:id="TAcCaj-d1e1282-Hd1e1506">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e1282-d1e1508">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1515">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>In articulo nono, in responsione ad primum, nota quod
+<lb ed="#L" n="37"/>ex calce eius habes quod actus naturae, ut comedere,
+<lb ed="#L" n="38"/>bibere, dormire et alia huiusmodi; et naturalis liberi 
+arbi<lb break="no" ed="#L" n="39"/>trii, quo volumus esse beati et non miseri, vivere et non
+<lb ed="#L" n="40"/>mori, etc.; inquantum sunt voluntarii et ordinati ad Deum
+<lb ed="#L" n="41"/>a caritate, in habente illam sunt meritorii vitae aeternae.
+<lb ed="#L" n="42"/>Et ob hoc Apostolus mandavit: Sive manducatis sive
+<lb ed="#L" n="43"/>bibitis, etc., omnia in gloriam Dei facite.
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1537">
+                  <lb ed="#L" n="44"/>In responsione ad ultimum nota tria testimonia fidei
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="45"/>Christianae: doctrinam divinam, quae in sacra Scriptura et
+<lb ed="#L" n="46"/>Ecclesia est; miracula; et interiorem instinctum Spiritus
+<lb ed="#L" n="47"/>Sancti. Quem Auctor ceteris praeponit: quia solius Dei est
+<lb ed="#L" n="48"/>agere in cor; et ipse Spiritus reddit testimonium spiritui
+<lb ed="#L" n="49"/>nostro quod fu Dei sumus; quod nemo novit nisi qui 
+ac<lb break="no" ed="#L" n="50"/>cipit. Haec autem tria sunt quidem sufficienter inductiva
+<lb ed="#L" n="51"/>ad credendum, hoc est ad voluntarie assentiendum, Et ideo
+<lb ed="#L" n="52"/>non tollunt ex sua sufficientia meritum credentis: sicut nec
+<lb ed="#L" n="53"/>tollunt voluntarium in actu credendi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1282-Dd1e1564"><!-- caj-p2p2-q2a10 -->
+               <head xml:id="TAcCaj-d1e1282-Hd1e1567">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e1282-d1e1569">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="59"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1576">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>In articulo decimo, in responsione ad secundum, adverte
+<lb ed="#L" n="61"/>quod rationes quae induci possunt ad auctoritatem fidei
+<lb ed="#L" n="62"/>sunt in duplici ordine. Nam quaedam procedunt ex 
+amba<lb break="no" ed="#L" n="63"/>bus aut altera praemissa credita. Et istae non ostendunt
+<lb ed="#L" n="64"/>non esse impossibile quod in fide proponitur nisi apud
+<lb ed="#L" n="65"/>fideles. Quaedam vero procedunt ex solo lumine naturali.
+<lb ed="#L" n="66"/>Et istae respectu eorum quae sunt fidei non faciunt 
+evi<lb break="no" ed="#L" n="67"/>dentiam: sed respectu possibilitatis logicae eorum quae
+<lb ed="#L" n="68"/>sunt fidei faciunt evidentiam. Verbi gratia, ratio 
+metaphy<lb break="no" ed="#L" n="69"/>sica sumpta ex quod quid est accidentis, puta. quod est
+<lb ed="#L" n="70"/>res cui debetur esse in subiecto, non ostendit accidens esse
+<lb ed="#L" n="71"/>sine subiecto, aut habere potentiam naturalem ad esse sine
+<lb ed="#L" n="72"/>subiecto: sed ostendit quod non implicat contradictionem
+<lb ed="#L" n="73"/>ipsum esse sine subiecto. Et simile est de aliis. Huiusmodi
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>autem demonstrationes valde prosunt fidei: et magni 
+me<lb break="no" ed="#L" n="75"/>riti est eas afferre, ad auferendam iusultationem sapientum
+<lb ed="#L" n="76"/>huius mundi, et reprimendam eorum audaciam qui 
+pos<lb break="no" ed="#L" n="77"/>sibile et impossibile suo ingenio metiri praesumunt, 
+infir<lb break="no" ed="#L" n="78"/>morumque mentes in fide firmandas,
+</p>
+               <p xml:id="TAcCaj-d1e1282-d1e1624">
+                  <lb ed="#L" n="79"/>In articulo eodem, in responsione ad ultimum, memento
+<lb ed="#L" n="80"/>dictorum in praecedenti Libro de merito, ut intelligas quod "
+<lb ed="#L" n="81"/>persecutiones martyrum et rationes philosophorum contra
+<lb ed="#L" n="82"/>fidem non augent meritum nisi augeant voluntatem. Et 
+quo<lb break="no" ed="#L" n="83"/>niam magna obstacula sunt; et, ceteris paribus, virtus potens
+<lb ed="#L" n="84"/>contra magna contraria maior est non superante: ideo 
+dici<lb break="no" ed="#L" n="85"/>tur in littera quod augent inquantum ostendunt voluntatem
+<lb ed="#L" n="86"/>magis promptam et firmam. Et quia sunt signa, non 
+cau<lb break="no" ed="#L" n="87"/>sae augmenti, propterea dicuntur augere non nisi ostensive.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 47</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 47</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="354"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1515"><!-- TAcCajp2p2-q47 -->
+            <head xml:id="TAcCaj-d1e1515-Hd1e101">Quaestio 47</head>
+            <div xml:id="TAcCaj-d1e1515-Dd1e103"><!-- caj-p2p2-q47a1 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1515-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>In quaestione quadragesimaseptima, ubi incipit quartus
+<lb ed="#L" n="17"/>huius Operis tractatus, in articulo primo, in responsione
+<lb ed="#L" n="18"/>ad tertium, adverte differentiam inter artem et prudentiam:
+<lb ed="#L" n="19"/>quod licet utraque ordinetur ad opus, et in hoc eodem
+<lb ed="#L" n="20"/>fine conveniant (quia totius practicae rationis, quae 
+com<lb break="no" ed="#L" n="21"/>prehendit artem et prudentiam, finis est opus), differentia
+<lb ed="#L" n="22"/>tamen inter eas est quod applicatio ad opus est ab ipsa
+<lb ed="#L" n="23"/>prudentia, applicatio autem artis non est ab ipsa arte. Non
+<lb ed="#L" n="24"/>enim ars medicinae applicat se ad sanandum: sed, ut 
+di<lb break="no" ed="#L" n="25"/>citur IX Metaphys., applicatur ab electione, quae est 
+ex<lb break="no" ed="#L" n="26"/>trinseca ab arte. Prudentia autem applicat seipsam ad opera:
+<lb ed="#L" n="27"/>quia ipse actus voluntatis qui est uti ipsamet ad 
+pruden<lb break="no" ed="#L" n="28"/>tiae rationem spectat, quae in ratione est non absolute,
+<lb ed="#L" n="29"/>sed ut movetur a voluntate, sicut et praeceptum. Et hinc
+<lb ed="#L" n="30"/>fit ut applicari vel non applicari ad opus voluntarie non
+<lb ed="#L" n="31"/>vituperet artem, sed prudentiam: neque enim minus do-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="32"/>ctus medicus censetur qui noluit, quando oportuit, 
+sa<lb break="no" ed="#L" n="33"/>nare; sed minus prudens habetur qui, quando oportet, ubi
+<lb ed="#L" n="34"/>oportet, etc., non vult exequi, a se vel alio, quae 
+execu<lb break="no" ed="#L" n="35"/>tioni essent mandanda. Et quia accidentia imitantur 
+sub<lb break="no" ed="#L" n="36"/>stantiam, sicut de ipsa substantia applicationis ad opus 
+di<lb break="no" ed="#L" n="37"/>ctum est, ita de qualitate applicationis contingit: ut scilicet
+<lb ed="#L" n="38"/>taliter applicari ad opus, puta male, si voluntarie fiat, 
+ar<lb break="no" ed="#L" n="39"/>tem non vituperat, sed prudentiam: tanquam artis 
+pecca<lb break="no" ed="#L" n="40"/>tum sit id solum quod in defectu cognitionis consistit,
+<lb ed="#L" n="41"/>prudentiae autem et id quod in cognitionis et id quod
+<lb ed="#L" n="42"/>in appetitus defectu consistit. Propter quod ars est 
+con<lb break="no" ed="#L" n="43"/>trariorum, ut medicina sani et aegri: prudentia autem non
+<lb ed="#L" n="44"/>est boni et mali, sed boni tantum. Haec enim claudit in
+<lb ed="#L" n="45"/>sua ratione determinatum appetitum ad bonum: illa autem
+<lb ed="#L" n="46"/>non, sed ut extrinsecum eum suscipit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e190"><!-- caj-p2p2-q47a2 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e193">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1515-d1e195">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e202">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>IN articulo secundo, in responsione ad secundum, nota,
+<lb ed="#L" n="19"/>novitie, quod actus speculationis potest referri ad res
+<lb ed="#L" n="20"/>circa quas versatur, scilicet obiectum, enuntiabilia, 
+prae<lb break="no" ed="#L" n="21"/>missas, conclusiones, discursus a tali re in talem, ut causa
+<lb ed="#L" n="22"/>in effectum vel e contra, et similia: et sic non subiacet 
+con<lb break="no" ed="#L" n="23"/>silio et prudentiae, sed regulandus est secundum logicam,
+<lb ed="#L" n="24"/>et efficaciam habet secundum lumen intellectus maius vel
+<lb ed="#L" n="25"/>minus. Potest quoque referri speculationis actus ad 
+homi<lb break="no" ed="#L" n="26"/>nem qui speculari debet. Et sic est voluntarius, et cadit
+<lb ed="#L" n="27"/>sub consilio vel prudentia: an scilicet sit speculandum in
+<lb ed="#L" n="28"/>tali materia, puta geometrica vel physica, an tali hora, etc.
+<lb ed="#L" n="29"/>Et si recte inspiciamus ad supradicta, non est ipse 
+specu<lb break="no" ed="#L" n="30"/>lationis actus qui est materia proxima consili: sed actus
+<lb ed="#L" n="31"/>voluntatis qui vocatur uti, quo voluntas exercet actum ad
+<lb ed="#L" n="32"/>speculandum. Ita quod consilium fit an intellectu 
+uten<lb break="no" ed="#L" n="33"/>dum sit ad speculationem talis rei, tali hora, tanto 
+tem<lb break="no" ed="#L" n="34"/>pore, etc. Et sic consilium est de usu, qui est actus 
+ap<lb break="no" ed="#L" n="35"/>petitus, tanquam materia proxima; et de speculationis actu
+<lb ed="#L" n="36"/>tanquam materia remota, quia scilicet est. materia usus,
+<lb ed="#L" n="37"/>qui est materia consilii.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e250">
+                  <lb ed="#L" n="38"/>II. In responsione ad tertium, adverte primo, quod
+<lb ed="#L" n="39"/>sicut facere dupliciter sumitur, scilicet ut distinguitur 
+con<lb break="no" ed="#L" n="40"/>tra agere, et ut extendit se ad actionem transeuntem et
+<lb ed="#L" n="41"/>immanentem; ita factibile sumi potest ut distinguitur 
+con<lb break="no" ed="#L" n="42"/>tra agibile, et sic est materia artis; et ut extendit se ad
+<lb ed="#L" n="43"/>factibile sive per actionem immanentem sive transeuntem.
+<lb ed="#L" n="44"/>Et sic sumitur in littera: et est communis materia artis et
+<lb ed="#L" n="45"/>speculativarum scientiarum quae vocantur artes.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e270">
+                  <lb ed="#L" n="46"/>Adverte secundo, quod. quia de facto ita est quod 
+ali<lb break="no" ed="#L" n="47"/>quae scientiae speculativae vocantur artes; et manifeste
+<lb ed="#L" n="48"/>differunt in materia ab arte quae in VI Ethic. ponitur
+<lb ed="#L" n="49"/>quinta virtus intellectualis; et nulla ponitur prudentia 
+spe<lb break="no" ed="#L" n="50"/>culativa, cum tamen materia prudentiae sit magis 
+propin<lb break="no" ed="#L" n="51"/>qua materiae illarum speculativarum artium; voluit Auctor,
+<lb ed="#L" n="52"/>sublata per intellectum, idest non considerata, differentia
+<lb ed="#L" n="53"/>materiae, scilicet agibilis et factibilis, intus scilicet et extra,
+<lb ed="#L" n="54"/>reddere rationem quare artis ratio, et non prudentiae, ad
+<lb ed="#L" n="55"/>speculativos extenditur habitus: ex hac scilicet differentia,
+<lb ed="#L" n="56"/>quia prudentia est eorum quae non sunt determinatae viae,
+<lb ed="#L" n="57"/>ars vero ut in pluribus per determinatas procedit vias. Ex
+<lb ed="#L" n="58"/>hoc enim fit ut speculativi habitus, quasi aliquid facientes
+<lb ed="#L" n="59"/>per determinatas vias, artis rationem induunt, non autem
+<lb ed="#L" n="60"/>prudentiae. Non tamen continentur sub arte: quia haec
+<lb ed="#L" n="61"/>proprie est ratio recta factibilium proprie, quae scilicet sunt
+<lb ed="#L" n="62"/>extra, quorum intellectus practicus est factivus. -
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e310">
+                  <lb ed="#L" n="63"/>III. In eadem responsione dubium occurrit quia hic 
+di<lb break="no" ed="#L" n="64"/>citur, Omnis applicatio rationis rectae ad aliquod 
+facti<lb break="no" ed="#L" n="65"/>bile pertinet ad artem: in praecedenti vero articulo 
+di<lb break="no" ed="#L" n="66"/>ctum est quod applicatio rationis rectae ad opus factibile
+<lb ed="#L" n="67"/>non est artis, sed voluntatis.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e323">
+                  <lb ed="#L" n="68"/>Ad hoc facile dicitur quod applicatio huiusmodi perd
+<lb ed="#L" n="69"/>net ad voluntatem ut applicantem; et pertinet ad artem
+<lb ed="#L" n="70"/>ut applicatam. Unde nulla est repugnantia: sed secu
+<lb ed="#L" n="71"/>diversa proposita modo huic, modo illi attribuitur. - 
+Quam<lb break="no" ed="#L" n="72"/>vis posset dici quod hoc in loco applicatio pro regulatione
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>sumitur. Hoc enim erat ad propositum litterae, quod omnis
+<lb ed="#L" n="74"/>regulatio factibilis secundum rectam rationem spectet ad
+<lb ed="#L" n="75"/>artem.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e346"><!-- caj-p2p2-q47a3 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e349">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1515-d1e351">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="24"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e358">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="25"/>IN articulo tertio, in responsione ad secundum, adverte
+<lb ed="#L" n="26"/>quod certitudo prudentiae est duplex. Quaedam in sola
+<lb ed="#L" n="27"/>cognitione consistens. Et haec in universali quidem est
+<lb ed="#L" n="28"/>eadem cum certitudine scientiae moralis, cuius universale |
+<lb ed="#L" n="29"/>est verum ut in pluribus. In particulari autem non exce- |
+<lb ed="#L" n="30"/>dit certitudinem opinionis, cum de futuris concludit aut |
+<lb ed="#L" n="31"/>absentibus. Et haec non est propria prudentiae.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e378">
+                  <lb ed="#L" n="32"/>Quaedam autem est certitudo practicae veritatis, quae
+<lb ed="#L" n="33"/>consistit in confesse se habere appetitui recto. Et haec
+<lb ed="#L" n="34"/>est propria prudentiae, quae non in sola ratione consistit.
+<lb ed="#L" n="35"/>Et talis certitudo semper adest prudentiae, etiam respectu
+<lb ed="#L" n="36"/>singularium absentium et futurorum. Quoniam prudens
+<lb ed="#L" n="37"/>praecipiens sic agendum pro republica, quamvis non 
+eve<lb break="no" ed="#L" n="38"/>niat intentus finis aut impediatur actio, habet tamen actum
+<lb ed="#L" n="39"/>praecepti verissimum, optimum et certum, utpote 
+conso<lb break="no" ed="#L" n="40"/>num rationi et appetitui rectis. Dicuntur autem providen- |
+<lb ed="#L" n="41"/>tiae nostrae incertae et propter incertitudinem eventus, et
+<lb ed="#L" n="42"/>propter occulta nobis.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e404">
+                  <lb ed="#L" n="43"/>II. In responsione ad tertium habes quod prudentia est |
+<lb ed="#L" n="44"/>principaliter in ratione, secundario autem in cogitativa. Sed
+<lb ed="#L" n="45"/>hoc habet quaestionem. Quia in illa potentia porrenda
+<lb ed="#L" n="46"/>est principaliter prudentia cuius est praecipuus prudentiae
+<lb ed="#L" n="47"/>actus. Sed praecipuus actus prudentiae est praeceptum 
+sin<lb break="no" ed="#L" n="48"/>gulare sequens minorem singularem. Haec autem 
+singula<lb break="no" ed="#L" n="49"/>ria spectant ad cogitativam directe.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e423">
+                  <lb ed="#L" n="50"/>Et confirmatur. Quia virtus ponitur in potentia consum- |
+<lb ed="#L" n="51"/>mativa operis: unde temperantia ponitur in concupiscibili;
+<lb ed="#L" n="52"/>et continentia, quae non est in illa, non est virtus, 
+quam<lb break="no" ed="#L" n="53"/>vis recte disponat partem superiorem. Sed cogitativa est
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>quae consummat discursum de singularibus. Ergo in ipsa
+<lb ed="#L" n="55"/>ponenda est.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e441">
+                  <lb ed="#L" n="56"/>III. Ad hoc dicitur quod, propter rationes dictas, oportet
+<lb ed="#L" n="57"/>tam in intellectu quam cogitativa ponere habitum quo bene
+<lb ed="#L" n="58"/>disponatur ad prudentiae actus. Et licet secundum quod
+<lb ed="#L" n="59"/>apparet VI Efhic., cap. : et cap. penult., intellectus
+<lb ed="#L" n="60"/>scientia, et in proposito morali; cogitativa autem habitu
+<lb ed="#L" n="61"/>circa singularia intellectivo et ratiocinativo perficiatur, pro
+<lb ed="#L" n="62"/>quanto recte iudicat de fine singulari et recte praecipit de
+<lb ed="#L" n="63"/>singulari opere; ac per hoc prudentia principaliter 
+yvidea<lb break="no" ed="#L" n="64"/>tur esse in cogitativa: secundum tamen Auctoris 
+doctri<lb break="no" ed="#L" n="65"/>nam in intellectu principaliter ponitur. Et probatur quod
+<lb ed="#L" n="66"/>ita sit tali ratione. Eiusdem est habitus cuius est actus:
+<lb ed="#L" n="67"/>sed actus prudentiae est intellectus: ergo. Probatur minor.
+<lb ed="#L" n="68"/>Actus prudentiae est cognoscere universale et singulare
+<lb ed="#L" n="69"/>et applicare illud huic, ut patet. Ergo est intellectus aut 
+co<lb break="no" ed="#L" n="70"/>gitativae: non enim potest esse duorum disparatorum, ut
+<lb ed="#L" n="71"/>patet in II de Anima, in processu investigativo sensus
+<lb ed="#L" n="72"/>communis. Ergo vel est cogitativae solius, utentis intellectu:
+<lb ed="#L" n="73"/>et hoc non, quia cogitativa non se extendit ad universale.
+<lb ed="#L" n="74"/>Vel est intellectus solius, vel utentis cogitativa. Et habetur
+<lb ed="#L" n="75"/>intentum: quod scilicet est principaliter in intellectu, in quo
+<lb ed="#L" n="76"/>habitus ipse est subiective; et secundario in cogitativa, in
+<lb ed="#L" n="77"/>qua. est experimentalis habitus reddens cogitativam 
+habi<lb break="no" ed="#L" n="78"/>lem. ad cooperandum intellectui in consiliando, iudicando
+<lb ed="#L" n="79"/>et praecipiendo de singularibus. Ita quod hi actus 
+principa<lb break="no" ed="#L" n="80"/>liter sunt intellectus, ministerialiter autem cogitativae. 
+Pro<lb break="no" ed="#L" n="81"/>pter quod ministerium videtur magis naturalis et aetatem
+<lb ed="#L" n="82"/>sequi prudentia quam scientia, ut dicitur in VI Efhic.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e503"><!-- caj-p2p2-q47a4 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e506">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1515-d1e508">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e515">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="38"/>IN articulo quarto adverte quod prudentia, pro quanto
+<lb ed="#L" n="39"/>sola cognitione consistit, habet communem rationem
+<lb ed="#L" n="40"/>virtutis intellectualis: quia scilicet est verorum tantum;
+<lb ed="#L" n="41"/>quia scilicet est universalium quae ut in pluribus vera sunt.
+<lb ed="#L" n="42"/>Sed quia hoc non convenit prudentiae secundum propriam
+<lb ed="#L" n="43"/>rationem qua ab aliis intellectualibus virtutibus differt, quia
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="44"/>scilicet praeceptiva operis singularis; ideo habet 
+specia<lb break="no" ed="#L" n="45"/>lem rationem virtutis, qua est virtus simpliciter, sicut virtus
+<lb ed="#L" n="46"/>moralis; et ex eadem radice, scilicet rectitudine appetitus.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e541">
+                  <lb ed="#L" n="47"/>In responsione ad tertium, conclude, novitie: Ergo ly
+<lb ed="#L" n="48"/>prudentiae est casus genitivi. Argumentum autem 
+proce<lb break="no" ed="#L" n="49"/>debat ex casu dativo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e552"><!-- caj-p2p2-q47a5 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e555">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1515-d1e557">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="31"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e564">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="32"/>IN articulo quinto, in responsione ad tertium, dubium
+<lb ed="#L" n="33"/>ccu quia hic ponitur differentia inter prudentiam et
+<lb ed="#L" n="34"/>moralem virtutem ex parte rationis formalis, quia scilicet
+<lb ed="#L" n="35"/>agibile est obiectum prudentiae sub ratione veri, moralis
+<lb ed="#L" n="36"/>autem virtutis sub ratione boni: in praecedenti autem 
+ar<lb break="no" ed="#L" n="37"/>ticulo dictum est quod prudentia respicit bonum sub 
+ra<lb break="no" ed="#L" n="38"/>tone boni, Quomodo stant haec simul?
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e584">
+                  <lb ed="#L" n="39"/>Ad hoc dicitur quod prudentia habet utrumque: et
+<lb ed="#L" n="40"/>quod respicit verum ut verum, et propterea ponitur inter
+<lb ed="#L" n="41"/>intellectuales virtutes; et respicit verum ut bonum, et 
+pro<lb break="no" ed="#L" n="42"/>pterea connumeratur virtutibus moralibus, et ponitur prima
+<lb ed="#L" n="43"/>virtus cardinalis. Et ne duas rationes formales uni habitui
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="44"/>tribuas quas uni potentiae non licet tribuere, memento quod
+<lb ed="#L" n="45"/>non secundum idem haec verificantur: sed prudentia 
+se<lb break="no" ed="#L" n="46"/>cundum cognitionem respicit verum, secundum praeceptum
+<lb ed="#L" n="47"/>seu applicationem respicit bonum. Et similiter 
+pruden<lb break="no" ed="#L" n="48"/>tia secundum id quod habet ex intellectu respicit verum:
+<lb ed="#L" n="49"/>secundum id quod habet ex appetitu respicit bonum. Est
+<lb ed="#L" n="50"/>enim perfectio intellectus ut subest appetitui recto: 
+com<lb break="no" ed="#L" n="51"/>mune est autem subordinatis posse habere plures rationes.
+<lb ed="#L" n="52"/>Optime ergo posita est differentia inter prudentiam et 
+mo<lb break="no" ed="#L" n="53"/>ralem virtutem quia illa veri, ista boni. Neque enim obstat
+<lb ed="#L" n="54"/>quod illa boni et veri, ista autem boni tantum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e624"><!-- caj-p2p2-q47a6 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e627">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1515-d1e629">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e636">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>IN articulo sexto eiusdem quaestionis 
+quadragesimaesep<lb break="no" ed="#L" n="17"/>timae, nota in titulo quod praestituere finem virtuti 
+mo<lb break="no" ed="#L" n="18"/>rali potest dupliciter intelligi. Primo, pro statuere ut virtus
+<lb ed="#L" n="19"/>moralis tendat in talem finem. Et hoc spectat ad datorem
+<lb ed="#L" n="20"/>naturae: genitor siquidem dat naturam determinatam ad
+<lb ed="#L" n="21"/>talem finem. Sic non quaeritur hic. — Alio ergo modo
+<lb ed="#L" n="22"/>sumitur pro dictare quis est ille statutus finis. Et sic 
+quae<lb break="no" ed="#L" n="23"/>ritur in proposito an prudentia primo dictet evidenter 
+fi<lb break="no" ed="#L" n="24"/>nem moralium virtutum. Et est sermo de fine proprio
+<lb ed="#L" n="25"/>earundem.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e662">
+                  <lb ed="#L" n="26"/>II. In eodem articulo sexto eiusdem tudeiiidis dubium
+<lb ed="#L" n="27"/>est simpliciter, et ad hominem. Simpliciter. quidem, 
+pro<lb break="no" ed="#L" n="28"/>pter rationes allatas a Scoto, in xxxvr dist. III Sent., art. 2,
+<lb ed="#L" n="29"/>quibus infert quod prudentia dictat de fine proprio virtutis
+<lb ed="#L" n="30"/>moralis. Et primo, sic. Virtus moralis, puta castitas, semper
+<lb ed="#L" n="31"/>sequitur, naturae ordine, prudentiam aliquam. Ergo 
+sequi<lb break="no" ed="#L" n="32"/>tur dictamen proprii finis, qui eligitur: quia virtus moralis
+<lb ed="#L" n="33"/>generatur ex electione proprii finis.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e682">
+                  <lb ed="#L" n="34"/>Secundo, quia aliter non salvaretur una prudentia 
+re<lb break="no" ed="#L" n="35"/>spondens uni virtuti proprie et per se morali. Probatur.
+<lb ed="#L" n="36"/>Quia virtus moralis est una unitate finis, ad cuius 
+electio<lb break="no" ed="#L" n="37"/>nem principaliter inclinat: et si ad dictandum de illo fine
+<lb ed="#L" n="38"/>nulla esset prudentia, quot essent dictamina mediorum, tot
+<lb ed="#L" n="39"/>essent prudentiae; quia nullum esset obiectum a quo 
+su<lb break="no" ed="#L" n="40"/>meretur unitas tot dictaminum, sublato a singulis dictamine
+<lb ed="#L" n="41"/>de fine.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e703">
+                  <lb ed="#L" n="42"/>Ad hominem autem, scilicet divum Thomam, dubium
+<lb ed="#L" n="43"/>est quoniam in I IP, qu. rxvr, art, 3, ad 3, expresse dicit
+<lb ed="#L" n="44"/>quod prudentia dirigit virtutes morales etiam in 
+praesti<lb break="no" ed="#L" n="45"/>tuendo finem. Et probat, quia finis virtutis moralis est
+<lb ed="#L" n="46"/>attingere medium, quod prudentia determinatur.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e716">
+                  <lb ed="#L" n="47"/>IIT. Ad evidentiam huius rei simpliciter, adverte quod
+<lb ed="#L" n="48"/>dupliciter verti potest in dubium propositio dicens. quod
+<lb ed="#L" n="49"/>prudentia est de his quae sunt ad finem. Primo, absolute.
+<lb ed="#L" n="50"/>Et sic dicendum est de prudentia respectu eorum quae
+<lb ed="#L" n="51"/>sunt ad finem sicut de scientia respectu conclusionum.
+<lb ed="#L" n="52"/>Scientia namque semper est conclusionum: sed tamen
+<lb ed="#L" n="53"/>scientia secundae conclusionis est materialiter scientia 
+prin<lb break="no" ed="#L" n="54"/>cipii tertiae conclusionis; quia illamet propositio quae fuit
+<lb ed="#L" n="55"/>conclusio secundae est principium tertiae. demonstrationis,
+<lb ed="#L" n="56"/>et sic de aliis. Et similiter. prudentia semper. est respectu
+<lb ed="#L" n="57"/>eorum quae sunt ad finem: sed cum hoc stat quod 
+pru<lb break="no" ed="#L" n="58"/>dentia respectu huius ad talem finem sit materialiter de
+<lb ed="#L" n="59"/>fine respectu alterius subordinati illi medio, et sic 
+de<lb break="no" ed="#L" n="60"/>inceps, prout contingit plura subordinari media ad unum
+<lb ed="#L" n="61"/>finem principalem. Quod enim fuit ad finem. in primo
+<lb ed="#L" n="62"/>discursu. fit finis in secundo discursu; et sic deinceps in
+<lb ed="#L" n="63"/>tertio et reliquis. - Est etiam unum aliud hic advertendum,
+<lb ed="#L" n="64"/>quod sicut scientia dicitur conclusionum tantum ut 
+scita<lb break="no" ed="#L" n="65"/>rum, et cum hoc stat quod est praemissarum ut 
+cogDni<lb break="no" ed="#L" n="66"/>tarum, utitur enim eis ut cognitis, applicando ad 
+conclu<lb break="no" ed="#L" n="67"/>sionem: ita prudentia est tantum eorum quae sunt ad 
+fi<lb break="no" ed="#L" n="68"/>nem ut rerum praeceptarum et electarum; et cum. hoc
+<lb ed="#L" n="69"/>stat, immo exigitur quod sit finis ut aspecti et intenti;
+<lb ed="#L" n="70"/>utitur siquidem prudentia fine, applicando ipsum ad id
+<lb ed="#L" n="71"/>quod est ad finem.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e773">
+                  <lb ed="#L" n="72"/>Secundo, potest verti in dubium respectu finium 
+pro<lb break="no" ed="#L" n="73"/>priorum virtutum moralium. .Et iuxta hunc. sensum. 
+tra<lb break="no" ed="#L" n="74"/>ctatur in littera, et impugnatur a Scoto. Auctor enim sentit
+<lb ed="#L" n="75"/>quod virtuti morali finis praestituitur .a synderesi: quia
+<lb ed="#L" n="76"/>naturalis ratio dictat quod in timoribus bonum rationis,
+<lb ed="#L" n="77"/>et similiter in concupiscentiis, et similiter in ira et 
+ope<lb break="no" ed="#L" n="78"/>rationibus sectandum est.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e791">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="79"/>IV. Ad primam ergo rationem Scoti dicitur quod licet
+<lb ed="#L" n="80"/>virtutem moralem praecedat naturaliter prudentia, non 
+ta<lb break="no" ed="#L" n="81"/>men prudentia dictativa de fine: sed sufficit naturalis ratio.
+<lb ed="#L" n="82"/>dictativa de fine, et prudentia dictativa de mediis ad finem.
+<lb ed="#L" n="83"/>Probatio autem dicens, Quia virtus moralis generatur ex
+<lb ed="#L" n="84"/>electione finis, implicat in adiecto: quia electio non est
+<lb ed="#L" n="85"/>finis, sed eorum quae sunt ad finem.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e811">
+                  <lb ed="#L" n="86"/>Ad secundum autem dicitur quod ad unitatem prudentiae
+<lb ed="#L" n="87"/>respectu omnium mediorum ad finem sufficit unitas finis
+<lb ed="#L" n="88"/>aspecti a prudentia: et non requiritur unitas finis dictati
+<lb ed="#L" n="89"/>ab illa.: Accidit; enim unitati finis respectu eorum quae
+<lb ed="#L" n="90"/>sunt ad finem, et directivi eorum in illum, quod sit dictatum
+<lb ed="#L" n="91"/>ab hoc vel altero: sufficit enim quod sit aspectum a di:
+<lb ed="#L" n="92"/>rectivo mediorum in illum. Argumentum autem procedit
+<lb ed="#L" n="93"/>ac si directivum mediorum non cognosceret finem ad quem
+<lb ed="#L" n="94"/>dictat media, — Et haec sat sunt argumentis Scoti. Ji
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e833">
+                  <lb ed="#L" n="95"/>Si quis tamen quaereret quare in parte intellectiva 
+po<lb break="no" ed="#L" n="96"/>nuntur duae virtutes respectu unius materiae moralis, 
+sci<lb break="no" ed="#L" n="97"/>licet synderesis et prudentia, altera respectu finis, altera
+<lb ed="#L" n="98"/>respectu eorum quae sunt ad finem; in parte autem alo
+<lb ed="#L" n="99"/>petitiva una tantum ponitur virtus respectu finis et eoru
+<lb ed="#L" n="100"/>quae sunt ad finem, puta castitas: - respondendum est quod
+<lb ed="#L" n="101"/>ex hoc quod cognitio perficitur secundum quod res sunt
+<lb ed="#L" n="102"/>in anima, sequitur quod alia sit virtus qua anima iudicat
+<lb ed="#L" n="103"/>aliqua secundum seipsa, et alia qua iudicat aliqua per 
+re<lb break="no" ed="#L" n="104"/>solutionem in alia: aliter siquidem oportet esse dispositum
+<lb ed="#L" n="105"/>circa. haec et circa illa, ut patet ex diversitate luminis.
+<lb ed="#L" n="106"/>Et propterea tam in. intellectu. practico quam speculativo
+<lb ed="#L" n="107"/>alia est virtus respectu principiorum, et alia respectu 
+con<lb break="no" ed="#L" n="108"/>clusionum, Ex hoc autem quod appetitio perficitur 
+secun<lb break="no" ed="#L" n="109"/>dum quod anima tendit ad res, sequitur quod sicut in
+<lb ed="#L" n="110"/>rebus per eandem naturam aliquid movetur ad ;
+<lb ed="#L" n="111"/>et terminum, ut patet in gravibus et levibus; ita appetitus
+<lb ed="#L" n="112"/>per eandem. virtutem tendat in finem ut terminum, e S
+<lb ed="#L" n="113"/>quod. est.ad. finem. ut medium.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e878">
+                  <lb ed="#L" n="114"/>Ad dubium autem ad hominem, dicta in bias h
+<lb ed="#L" n="115"/>dae approbo, adiunctis dicendis in hoc et sequenti m
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e885">
+                  <lb ed="#L" n="116"/>V. In responsione ad tertium, adverte tria. Primo, quod
+<lb ed="#L" n="117"/>formalis responsio ad argumentum consistit in hoc, quod
+<lb ed="#L" n="118"/>prudentia non praecipit. virtuti morali simpliciter, sed. dis
+<lb ed="#L" n="119"/>ponendo ea quae sunt ad finem. -
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e896">
+                  <lb ed="#L" n="120"/>Secundo, quod ex eodem medio poterat argui e contra,
+<lb ed="#L" n="121"/>subsumendo: Sed virtus moralis est de fine: ergo nn
+<lb ed="#L" n="122"/>prudentiae, ex quo ipsa non est de fine: et ex hoc sequitu
+<lb ed="#L" n="123"/>quod virtus moralis est nobilior prudentia. . Nec "dM
+<lb ed="#L" n="124"/>ut in Prima Secundae dicebatur, quia. prudentia dirigit
+<lb ed="#L" n="125"/>in praestituendo finem. ldeo Auctor haec tractat in 
+re<lb break="no" ed="#L" n="126"/>sponsione hac.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e914">
+                  <lb ed="#L" n="127"/>Tertio, quod haec difficultas de superioritate et 
+nobi<lb break="no" ed="#L" n="128"/>litate inter virtutem moralem et prudentiam, obscura 
+pro<lb break="no" ed="#L" n="129"/>pterea quia virtus moralis est de fine, prudentia autem de
+<lb ed="#L" n="130"/>his quae sunt ad finem, in praecedenti libro, loco allegato,
+<lb ed="#L" n="131"/>soluta est dupliciter: primo, quia prudentia est etiam "
+<lb ed="#L" n="132"/>de fine applicite; secundo, quia virtus moralis non est
+<lb ed="#L" n="133"/>de fine absque mendicatione a prudentia. Et quamvis
+<lb ed="#L" n="134"/>utrumque horum sit verum in se, et nonnihil respondeat
+<lb ed="#L" n="135"/>difficultati; solutio tamen difficultatis simpliciter hinc 
+su<lb break="no" ed="#L" n="136"/>menda est, quod virtutem aliquam esse finis contingit 
+du<lb break="no" ed="#L" n="137"/>pliciter: scilicet executive, et auctoritative. Virtus illa quae
+<lb ed="#L" n="138"/>est de fine executive per modum exequentis tendit in
+<lb ed="#L" n="139"/>illum, ut patet in omnibus executivis artibus: virtus autem
+<lb ed="#L" n="140"/>illa quae est de fine auctoritative intendit primo illum,
+<lb ed="#L" n="141"/>et circa illum versatur ante omnem electionem. Differentia
+<pb ed="#L" n="355"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>autem inter istas ad propositum est quod cum dicitur quod
+<lb ed="#L" n="2"/>virtuti de fine proprium est praecipere ei quae est de his
+<lb ed="#L" n="3"/>quae sunt ad finem, intelligitur de ea quae est de fine
+<lb ed="#L" n="4"/>auctoritative: haec enim est quae finem praestituit aliis et
+<lb ed="#L" n="5"/>praecipit, ut patet in artibus architectonicis et caritate 
+re<lb break="no" ed="#L" n="6"/>spectu aliarum virtutum. Virtus igitur moralis non est de
+<lb ed="#L" n="7"/>fine auctoritative, sed executive. Quod patet ex eo quod
+<lb ed="#L" n="8"/>virtus ex principali actu suo iudicanda est: constat autem |
+<lb ed="#L" n="9"/>quod praecipuus actus virtutis moralis est electio, ut patet
+<lb ed="#L" n="10"/>ex ipsa eius definitione, II Ethic., Virtus est habitus 
+ele<lb break="no" ed="#L" n="11"/>clivus etc.; electio autem ad executionem spectat, sequitur
+<lb ed="#L" n="12"/>enim praeceptum, et est ipsa executio appetitus in 
+appe<lb break="no" ed="#L" n="13"/>tibile; unde nihil restat nisi exterior executio post 
+ele<lb break="no" ed="#L" n="14"/>ctionem. Et propterea virtus moralis non praecipit 
+pru<lb break="no" ed="#L" n="15"/>dentiae, nec est ea prior naturaliter. Et tamen oporteret
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>eam praecedere naturaliter prudentiam si esset de fine 
+au<lb break="no" ed="#L" n="17"/>ctoritative. Esset autem hoc si virtus moralis esset primo
+<lb ed="#L" n="18"/>habitus intentivus finis, hoc est si primo perficeret 
+inten<lb break="no" ed="#L" n="19"/>tionem finis: quoniam intentio non dependet ab his quae
+<lb ed="#L" n="20"/>sunt ad finem. Dico autem primo, quia virtus moralis,
+<lb ed="#L" n="21"/>perficiendo primo electionem, perficit secundario 
+intentio<lb break="no" ed="#L" n="22"/>nem: propter quod in VI Ethic. dicitur quod facit 
+in<lb break="no" ed="#L" n="23"/>tentionem rectam, et quod principium prudentiae firmat
+<lb ed="#L" n="24"/>in anima. Et hoc est quod in littera a posteriori declaratur,
+<lb ed="#L" n="25"/>dicendo quod finis non pertinet ad virtutes morales 
+tan<lb break="no" ed="#L" n="26"/>quam ipsae praestituant finem. Et exclusa superioritate
+<lb ed="#L" n="27"/>virtutis moralis respectu prudentiae, declaratur superioritas
+<lb ed="#L" n="28"/>e converso: quia prudentia movet eam, disponendo ea
+<lb ed="#L" n="29"/>quae sunt ad finem, quae eliguntur a virtute morali, ut
+<lb ed="#L" n="30"/>in sequenti patebit articulo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e1022"><!-- caj-p2p2-q47a7 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e1025">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1515-d1e1027">
+                  <lb ed="#L" n="85"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1032">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="86"/>IN articulo septimo eiusdem quadragesimaeseptimae. 
+quae<lb break="no" ed="#L" n="87"/>Dotodo adverte quatuor, Primo, differentiam inter finem
+<lb ed="#L" n="88"/>et medium in virtutibus moralibus: quod licet coincidant
+<lb ed="#L" n="89"/>in unam rem, alia tamen est utriusque ratio. Medium enim
+<lb ed="#L" n="90"/>in comparatione ad extrema dicitur. Et in proposito 
+me<lb break="no" ed="#L" n="91"/>dium non secundum. quantitatem, sed rationem seu 
+pro<lb break="no" ed="#L" n="92"/>portionem, dicitur, ut in II patet Ethic.; et opponitur
+<lb ed="#L" n="93"/>utrique extremo, scilicet improportionato per excessum et
+<lb ed="#L" n="94"/>improportionato per defectum. Finis autem haec non 
+re<lb break="no" ed="#L" n="95"/>spicit. Et propterea non mireris si post quaestionem de
+<lb ed="#L" n="96"/>praestitutione finis, quaeritur de inventione medii 
+mora<lb break="no" ed="#L" n="97"/>lium virtutum.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1063">
+                  <lb ed="#L" n="98"/>Secundo, quod medium moralis virtutis dupliciter 
+in<lb break="no" ed="#L" n="99"/>terpretari possumus: primo, formaliter, pro ipsa medii ra-
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="100"/>tione; secundo, materialiter, pro re denominata media.
+<lb ed="#L" n="101"/>Si sumatur primo modo, sic est bonitas rationis: si 
+se<lb break="no" ed="#L" n="102"/>cundo modo, sic est res bona bonitate rationis. Et primo
+<lb ed="#L" n="103"/>modo est finis moralis virtutis: secundo autem, est id quod
+<lb ed="#L" n="104"/>est ad finem. Unde moralis virtus eligit operationem seu
+<lb ed="#L" n="105"/>passionem talem, tantam, etc., ut bonam secundum 
+ratio<lb break="no" ed="#L" n="106"/>nem. Materia enim est propter formam: et id quod est ad
+<lb ed="#L" n="107"/>finem ut materiale est finis; ipse autem finis formale est.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1089">
+                  <lb ed="#L" n="108"/>Tertio, quod quemadmodum naturalis ratio dictat finem
+<lb ed="#L" n="109"/>virtutum moralium, etiam dictat medium earundem 
+inquan<lb break="no" ed="#L" n="110"/>tum opponitur uni extremo, scilicet excessui: dictat 
+siqui<lb break="no" ed="#L" n="111"/>dem naturalis ratio cuilibet quod non est irascendum, 
+dele<lb break="no" ed="#L" n="112"/>ctandum, etc., plus quam oportet. Sed an sit irascendum,
+<lb ed="#L" n="113"/>tristandum, delectandum, nihil vel usque ad tantum termi-
+<pb ed="#L" n="356"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>num, non dictat naturalis ratio sufficienti evidentia absque
+<lb ed="#L" n="2"/>rationis discursu: propter quod de hoc variae dicuntur
+<lb ed="#L" n="3"/>opiniones. Et ad moralem philosophiam spectat hoc in 
+com<lb break="no" ed="#L" n="4"/>muni determinare, ut evidens nobis sit. Ad prudentiam
+<lb ed="#L" n="5"/>autem spectat uti principiis his, Non est .plus vel minus
+<lb ed="#L" n="6"/>delectandum, operandum, etc., sed moderate; et applicare
+<lb ed="#L" n="7"/>ea ad particulares passiones, scilicet hanc iram, hanc 
+tristi<lb break="no" ed="#L" n="8"/>tiam, etc., et sic determinare quae sit tristitia media, non 
+<lb ed="#L" n="9"/>maior nec minor quam oporteat, nunc, hic, mihi, in tali
+<lb ed="#L" n="10"/>casu, etc, Et haec est ratio quare prudentiae tribuitur 
+in<lb break="no" ed="#L" n="11"/>venire medium, synderesi autem praestituere finem.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1134">
+                  <lb ed="#L" n="12"/>Quarto, quod. modus inveniendi medium in moralibus
+<lb ed="#L" n="13"/>a prudentia est ex parte materiae. Ita quod sicut in 
+na<lb break="no" ed="#L" n="14"/>turalibus agens disponendo materiam inducit formam in
+<lb ed="#L" n="15"/>materiam, ita in moralibus recta ratio, determinando 
+ope<lb break="no" ed="#L" n="16"/>rationem seu passionem in qua salvatur ratio medii, et
+<lb ed="#L" n="17"/>praecipiendo quod illa operatio eligatur, facit quod 
+appe<lb break="no" ed="#L" n="18"/>titus eligens huiusmodi operationem eligit operationem in
+<lb ed="#L" n="19"/>medio consistentem, quod est eligere materiam medii et
+<lb ed="#L" n="20"/>id quod est ad finem; puta tantum talemque sumere 
+ci<lb break="no" ed="#L" n="21"/>bum propter ipsum bonum rationis, quod est medium.
+<lb ed="#L" n="22"/>Ex his autem patet et quomodo prudentia disponit ea
+<lb ed="#L" n="23"/>quae sunt ad finem, et parat per hoc viam virtuti morali
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>ut attingat finem eligendo illa quae sunt. ad finem. Et 
+pro<lb break="no" ed="#L" n="25"/>pterea in. Prima Secundae dictum est quod inveniendo
+<lb ed="#L" n="26"/>dirigit in praestituendo finem, et non simpliciter. - Et 
+quo<lb break="no" ed="#L" n="27"/>modo movet virtutem moralem, educendo illam de 
+poten<lb break="no" ed="#L" n="28"/>tia ad actum, determinando eligenda. et: praecipiendo 
+ele<lb break="no" ed="#L" n="29"/>ctionem illorum, - Et quare magis in definitione moralis 
+vir<lb break="no" ed="#L" n="30"/>tutis positum est medium quam finis, seu bonum rationis:
+<lb ed="#L" n="31"/>quia scilicet doctrina ex propriis, non ex communibus esse
+<lb ed="#L" n="32"/>debet; medium autem specificat finem et bonum rationis,
+<lb ed="#L" n="33"/>ad hoc scilicet medium; et similiter specificat qualis est
+<lb ed="#L" n="34"/>operatio eligenda, media scilicet, non extrema, et non 
+di<lb break="no" ed="#L" n="35"/>cit tantum in communi quod sit bona.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1191">
+                  <lb ed="#L" n="36"/>II. In responsione ad tertium habes unde reddere potes
+<lb ed="#L" n="37"/>aliam rationem quare virtus moralis non potest esse a 
+na<lb break="no" ed="#L" n="38"/>tura; quia scilicet medium non potest esse determinatum
+<lb ed="#L" n="39"/>a natura, quia natura determinata est ad unum, medium
+<lb ed="#L" n="40"/>autem non uno sed multis modis oportet esse; propter
+<lb ed="#L" n="41"/>quod ratione determinatur in unoquoque secundum 
+con<lb break="no" ed="#L" n="42"/>tingentia, Ex hoc namque quod medium non est a natura
+<lb ed="#L" n="43"/>determinatum sequitur quod virtus quae nata est tendere
+<lb ed="#L" n="44"/>ad medium non est a natura: quoniam natura genita 
+vir<lb break="no" ed="#L" n="45"/>tus ad unum determinata est, ut patet in habitu 
+princi<lb break="no" ed="#L" n="46"/>piorum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e1218"><!-- caj-p2p2-q47a9 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e1221">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e1515-d1e1223">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1230">
+                  <lb ed="#L" n="68"/>IN articulo nono, omisso octavo, adverte, ut penetres 
+pro<lb break="no" ed="#L" n="69"/>prium significatum sollicitudinis, quod sollicitus, sicut et
+<lb ed="#L" n="70"/>sollicito, sollicitas, a cieo derivatur, secundum 
+grammati<lb break="no" ed="#L" n="71"/>cam, mediante cito et citus. Et sicut diversimode 
+inveniun<lb break="no" ed="#L" n="72"/>tur composita, ut excito, concito, suscito, etc.; ita invenitur
+<lb ed="#L" n="73"/>sollicito a solo et cito, mutato o in i, quasi ex solo, idest
+<lb ed="#L" n="74"/>quietis loco, moveo. Sed quoniam non solum in activa,
+<lb ed="#L" n="75"/>sed passiva significatione inveniuntur composita huiusmodi,
+<lb ed="#L" n="76"/>ut patet de accitus; ideo, proprie loquendo, sollicitus 
+pas<lb break="no" ed="#L" n="77"/>sivam habet significationem, quasi solo citum, idest motum,
+<lb ed="#L" n="78"/>ad similitudinem commoti ex suo loco, inquietum 
+signi<lb break="no" ed="#L" n="79"/>ficat. Verum quia ad inquietudinem mentis circa agenda,
+<lb ed="#L" n="80"/>cavenda, eventusque, impositum est nomen sollicitudinis,
+<lb ed="#L" n="81"/>ideo proprie significare videtur inquietam attentionem:
+<lb ed="#L" n="82"/>quandiu namque solliciti sumus, inquiete attendimus; et e
+<lb ed="#L" n="83"/>converso quandiu inquiete attendimus, solliciti sumus. Et
+<lb ed="#L" n="84"/>iuxta hanc significationem omnis oratorum, poetarum ac
+<lb ed="#L" n="85"/>etiam sacrae Scripturae usus consonus invenitur. Et iuxta
+<lb ed="#L" n="86"/>hanc significationem optime spectat ad prudentiam: inquieta
+<lb ed="#L" n="87"/>siquidem attentio ad praecipiendum, ad cavendum, 
+circum<lb break="no" ed="#L" n="88"/>spiciendum, discendum, etc., maxime ad prudentiam spectat.
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="89"/>Unde Apostolus sollicitudinem omnium se habere 
+eccle<lb break="no" ed="#L" n="90"/>siarum contestatur, qui inquiete attendebat quomodo 
+pro<lb break="no" ed="#L" n="91"/>ficiebant, in quo deficerent, quo egerent, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1287">
+                  <lb ed="#L" n="92"/>Nec id dicimus ut Isidorum reprehendamus: quoniam
+<lb ed="#L" n="93"/>ille non derivationem, sed etymologiam vocabuli dixit
+<lb ed="#L" n="94"/>iuxta rei significatae vel litterarum similitudinem. Quem in
+<lb ed="#L" n="95"/>pluribus locis affert Auctor, utens etiam his minimis locis
+<lb ed="#L" n="96"/>sanctorum Patrum ad clarificandam rem his specialiter quos 
+<lb ed="#L" n="97"/>sacrorum Doctorum lectio exercet. - Explanatur 
+nihilomi<lb break="no" ed="#L" n="98"/>nus ex illa etymologia quod sollicitus est active citus, idest
+<lb ed="#L" n="99"/>festinus. Qui enim inquiete attendit alicui festine 
+exequi<lb break="no" ed="#L" n="100"/>tur, cum tempus est et potest: alioquin non inquiete 
+at<lb break="no" ed="#L" n="101"/>tendebat; quaerit enim hic quiescere.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1311">
+                  <lb ed="#L" n="102"/>II. In responsione ad primum adverte quod sollicitudo,
+<lb ed="#L" n="103"/>seu inquieta attentio, nisi sit ratione regulata, non spectat
+<lb ed="#L" n="104"/>ad prudentiam. Et propterea Auctor, sollicitudinis 
+voca<lb break="no" ed="#L" n="105"/>bulum ad bonum determinans (quamvis multi ad 
+effun<lb break="no" ed="#L" n="106"/>dendum sanguinem solliciti sint), dixit quod consistit zn
+<lb ed="#L" n="107"/>praecepto et directione rationis. Puto autem hoc ipsum
+<lb ed="#L" n="108"/>dixisse quia, licet sollicitudo absolute ad bonum et malum
+<lb ed="#L" n="109"/>sit, in morali tamen scientia ad bonum tantum usurpata est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e1332"><!-- caj-p2p2-q47a10 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e1335">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e1515-d1e1337">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="69"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1344">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="70"/>In articulo decimo, in responsione ad secundum, dubium
+<lb ed="#L" n="71"/>occurrit circa illud, Bonum proprium non potest esse
+<lb ed="#L" n="72"/>sine communi, et eius probationem. Nam potest quis 
+ha<lb break="no" ed="#L" n="73"/>bere bonum honestum, puta virtutem temperantiae; et utile,
+<lb ed="#L" n="74"/>puta divitias; et delectabile in ioco vel ludo, absque 
+com<lb break="no" ed="#L" n="75"/>muni bono. Nec ex hoc quod Romani amabant magis
+<lb ed="#L" n="76"/>communes quam proprias divitias, probatur quod propriae
+<lb ed="#L" n="77"/>non possint esse absque communibus.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1366">
+                  <lb ed="#L" n="78"/>Ad hoc dicitur quod Auctor loquitur, ad litteram, de
+<lb ed="#L" n="79"/>bono utili et delectabili. Et intendit quod. non potest 
+ha<cb ed="#L" n="f"/>
+                  <lb break="no" ed="#L" n="80"/>beri secundum rectam rationem sine bono communi, idest
+<lb ed="#L" n="81"/>sine relatione ad bonum commune. Hoc est: nisi proprium
+<lb ed="#L" n="82"/>pro communi bono sit paratum, non recta ratione 
+habe<lb break="no" ed="#L" n="83"/>tur. Et hoc probatur per Romanos. Non ex abdicatione
+<lb ed="#L" n="84"/>fatua bonorum, sed ex recta ratione. propria bona. pro
+<lb ed="#L" n="85"/>communibus sic ponebant ut mallent propria non habere,
+<lb ed="#L" n="86"/>communitate ea habente, quam communitatem non habere
+<lb ed="#L" n="87"/>et se habere. Optimum autem fuisset et ipsos et 
+commu<lb break="no" ed="#L" n="88"/>nitatem habere.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e1396"><!-- caj-p2p2-q47a11 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e1399">Articulus 11</head>
+               <p xml:id="TAcCaj-d1e1515-d1e1401">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="72"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1408">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>In articulo undecimo eiusdem quaestionis dubium 
+occur<lb break="no" ed="#L" n="74"/>rit multiplex. Primum est, quo pacto in virtute boni viri
+<lb ed="#L" n="75"/>includitur virtus principis: cum distinguantur specie, ut in
+<lb ed="#L" n="76"/>corpore articuli dicitur, prudentia monastica, quae est 
+vir<lb break="no" ed="#L" n="77"/>tus boni viri, et prudentia politica, quae est virtus 
+prin<lb break="no" ed="#L" n="78"/>cipis.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1426">
+                  <lb ed="#L" n="79"/>Secundum est, quo pacto valet ratio litterae: guia ad
+<lb ed="#L" n="80"/>bonum virum pertinet posse bene principari et bene subiici.
+<lb ed="#L" n="81"/>Ex hoc enim si sequitur quod includat virtutem principis,
+<lb ed="#L" n="82"/>sequitur etiam quod includat virtutem subditi, pari ratione.
+<lb ed="#L" n="83"/>Et cum virtus principis distinguatur specie a virtute 
+sub<lb break="no" ed="#L" n="84"/>diti, ut in littera dicitur ex Aristotele; sequitur quod 
+vir<lb break="no" ed="#L" n="85"/>tus boni viri includat oppositas virtutes.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1444">
+                  <lb ed="#L" n="86"/>Tertium. dubium est quia falsum est quod ad bonum
+<lb ed="#L" n="87"/>virum spectet posse bene praeesse et subesse, Multi enim
+<lb ed="#L" n="88"/>sunt viri boni qui non possent bene praeesse, ut 
+experien<lb break="no" ed="#L" n="89"/>tia testatur.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1456">
+                  <lb ed="#L" n="90"/>Quartum est dubium pollicitum in praecedenti Libro,
+<lb ed="#L" n="91"/>qu. XCII: quare scilicet virtus boni viri magis 
+identifica<lb break="no" ed="#L" n="92"/>tur virtuti principis quam civis, ut dicatur quod eadem
+<lb ed="#L" n="93"/>est virtus boni viri et boni principis, et quod non est
+<lb ed="#L" n="94"/>eadem virtus boni viri et boni civis; cum etiam ad 
+bo<lb break="no" ed="#L" n="95"/>num civem spectet posse bene praeesse et subesse, ut in
+<lb ed="#L" n="96"/>eodem III Polit. dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1474">
+                  <lb ed="#L" n="97"/>II. Ad horum evidentiam scito quod sunt hic quatuor
+<lb ed="#L" n="98"/>genera virtutum: scilicet virtus viri, virtus civis, virtus
+<lb ed="#L" n="99"/>subditi, et virtus principis. Et ut in I Polit., cap. penult.,
+<lb ed="#L" n="100"/>et III Polit., cap. 1t, patet, virtus viri est perfecta virtus,
+<lb ed="#L" n="101"/>quae est prudentia monastica: haec enim omnes virtutes
+<lb ed="#L" n="102"/>morales connexas habet, ut superius patuit. Virtus 
+ci<lb break="no" ed="#L" n="103"/>vis est bene se habere ad rempublicam; virtus principis
+<lb ed="#L" n="104"/>est bene praecipere simpliciter; virtus subditi est, quantum
+<lb ed="#L" n="105"/>sibi attinet, parere. Ex quibus dicitur quod in virtute boni
+<lb ed="#L" n="106"/>viri clauditur in potentia proxima et virtus subditi et 
+vir<lb break="no" ed="#L" n="107"/>tus principis. Et de virtute quidem subditi facile patet:
+<lb ed="#L" n="108"/>quia prudens non est qui subesse nescit. De virtute autem
+<pb ed="#L" n="360"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>principis ex hoc probatur , quia cui tantum naturalis 
+lu<lb break="no" ed="#L" n="2"/>minis et studiosae exercitationis concessum est ut 
+pru<lb break="no" ed="#L" n="3"/>dentiae virtutem, quae sine aliis moralibus esse nequit,
+<lb ed="#L" n="4"/>acquisierit, valde propinquus est ut etiam princeps sit.
+<lb ed="#L" n="5"/>Et per hoc patet solutio primorum duorum dubiorum.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1518">
+                  <lb ed="#L" n="6"/>Ad tertium autem dicitur quod, licet multi sint boni
+<lb ed="#L" n="7"/>viri prudentia infusa, quae sequitur gratiam, qui nesciunt
+<lb ed="#L" n="8"/>praeesse; communiter tamen boni viri prudentia acquisita
+<lb ed="#L" n="9"/>sciunt, saltem in potentia proxima, praeesse. Et de hac
+<lb ed="#L" n="10"/>prudentia loquitur Philosophus, qui hic tractatur.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1531">
+                  <lb ed="#L" n="11"/>III. Ad quartum dicitur praemittendo duo. Primum est
+<lb ed="#L" n="12"/>quod hic non est sermo de identitate qua aliqua 
+dicun<lb break="no" ed="#L" n="13"/>tur una res: sed de identitate subiecti. Ita quod non 
+in<lb break="no" ed="#L" n="14"/>tendimus dicere quod una virtus est eadem alteri 
+secun<lb break="no" ed="#L" n="15"/>dum unitatem realem cum illa: sed secundum unitatem
+<lb ed="#L" n="16"/>subiecti, ita quod virtus boni viri est eadem subiecto
+<lb ed="#L" n="17"/>virtuti principis, et e contra. Non est autem sic eadem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>virtuti civis: quia potest esse bonus civis, et non 
+bo<lb break="no" ed="#L" n="19"/>nus vir.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1555">
+                  <lb ed="#L" n="20"/>Secundum est quod cives sunt in duplici differentia:
+<lb ed="#L" n="21"/>quidam praeclari, quidam. communes. Et quod licet virtus
+<lb ed="#L" n="22"/>civis absolute et viri boni separentur, virtus tamen boni
+<lb ed="#L" n="23"/>viri et praeclari civis eadem est subiecto: quoniam ad
+<lb ed="#L" n="24"/>utrumque spectat posse et scire bene praeesse et subesse,
+<lb ed="#L" n="25"/>ut ibidem ab Aristotele dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1571">
+                  <lb ed="#L" n="26"/>Ratio ergo quare virtus boni viri et principis coeunt
+<lb ed="#L" n="27"/>est, secundum Aristotelem, quia princeps tenet locum 
+ra<lb break="no" ed="#L" n="28"/>tionis praeceptivae simpliciter, et non ad hoc vel illud
+<lb ed="#L" n="29"/>particulare; ad perfectionem autem rationis praeceptivae
+<lb ed="#L" n="30"/>simpliciter exigitur omnis moralis virtus. Unde etiam bene
+<lb ed="#L" n="31"/>subesse debet scire et posse princeps: alioquin non bene
+<lb ed="#L" n="32"/>praeest. Civis autem absolute locum tenet participantis 
+ra<lb break="no" ed="#L" n="33"/>tionem, ut nautae in navi: cui non est opus nisi 
+secun<lb break="no" ed="#L" n="34"/>dum suum officium, quod particulare est, bene se habere.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e1595"><!-- caj-p2p2-q47a12 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e1598">Articulus 12</head>
+               <p xml:id="TAcCaj-d1e1515-d1e1600">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1607">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="92"/>In articulo duodecimo dubium est de qua prudentia est
+<lb ed="#L" n="93"/>sermo, monastica an politica. Et est ratio dubii quia 
+ar<lb break="no" ed="#L" n="94"/>gumenta omnia pro et contra sunt de prudentia politica,
+<lb ed="#L" n="95"/>ut patet intuenti. Determinatio autem corporis articuli et
+<lb ed="#L" n="96"/>responsiones ad prudentiam monasticam declinant: dum
+<lb ed="#L" n="97"/>dicunt quod servus, inquantum habet rationis arbitrium,
+<lb ed="#L" n="98"/>est animal rationale, est consiliativus, habet prudentiam,
+<lb ed="#L" n="99"/>praecipit sibi ipsi; haec enim monasticae sunt prudentiae.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1629">
+                  <lb ed="#L" n="100"/>Ad hoc dicitur quod totus sermo est de prudentia 
+po<lb break="no" ed="#L" n="101"/>litica. Ita quod sensus tituli est: An prudentia politica sit
+<lb ed="#L" n="102"/>in solis principibus, an etiam in subditis. Et ratio est quia
+<lb ed="#L" n="103"/>sic solum salvatur sermo formalis in argumentis pro et
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="104"/>contra, et conclusionibus de prudentia architectonice et 
+ma<lb break="no" ed="#L" n="105"/>nualiter: haec enim distinctio non monasticae, sed 
+poli<lb break="no" ed="#L" n="106"/>ticae prudentiae est.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1649">
+                  <lb ed="#L" n="107"/>Ad obiecta autem in oppositum dicitur quod subditus
+<lb ed="#L" n="108"/>seu servus non est velut mobile et organum irrationale,
+<lb ed="#L" n="109"/>sed rationale. Et propterea secundum politicae prudentiae
+<lb ed="#L" n="110"/>rationem obsequi et servire debet, et consiliari ut ipsum
+<lb ed="#L" n="111"/>decet: ne velut brutum animal exequatur. Et similiter 
+im<lb break="no" ed="#L" n="112"/>perare: ne propter iram, ebrietatem, timiditatem, dimittat
+<lb ed="#L" n="113"/>servire, subiici, etc. Et haec inferius in qu. r, art. 2, 
+cla<lb break="no" ed="#L" n="114"/>rius patent.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e1670"><!-- caj-p2p2-q47a13 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e1673">Articulus 13</head>
+               <p xml:id="TAcCaj-d1e1515-d1e1675">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1682">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>In articulo decimotertio dubium occurrit circa illud: 
+Pru<lb break="no" ed="#L" n="93"/>dentia vera et perfecta in peccatoribus esse non potest:
+<lb ed="#L" n="94"/>cum. superius dictum sit quod virtutes morales 
+acquisi<lb break="no" ed="#L" n="95"/>tae possunt esse sine caritate, ac per hoc in peccatoribus.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1695">
+                  <lb ed="#L" n="96"/>Ad hoc dicitur quod sermo litterae huius, formaliter
+<lb ed="#L" n="97"/>intellectus, est verissimus. Et intelligendus est 
+proportio<lb break="no" ed="#L" n="98"/>naliter: quod scilicet prudentia infusa non potest esse in
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="99"/>peccatoribus simpliciter; prudentia autem acquisita non
+<lb ed="#L" n="100"/>potest esse in peccatoribus infra vitae naturalis terminos.
+<lb ed="#L" n="101"/>Qui enim peccatores sunt in his quae solo naturali lumine
+<lb ed="#L" n="102"/>dictantur. prudentes non sunt prudentia acquisita, Et qui
+<lb ed="#L" n="103"/>peccatores sunt absolute, sive in naturaliter sive in 
+super<lb break="no" ed="#L" n="104"/>naturaliter notis, prudentia infusa carent. - Sed memento
+<lb ed="#L" n="105"/>quod peccator respectu prudentiae acquisitae et infusae non
+<pb ed="#L" n="362"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>eodem modo sumitur: quia unicus actus imprudentiae 
+tol<lb break="no" ed="#L" n="2"/>lit infusam, non autem acquisitam. Et quia Auctor 
+theo<lb break="no" ed="#L" n="3"/>logice loquitur, de prudentia infusa et peccatoribus, idest
+<lb ed="#L" n="4"/>existentibus in mortali peccato etiam unico, intendere 
+vi<lb break="no" ed="#L" n="5"/>detur.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1737">
+                  <lb ed="#L" n="6"/>II. In eodem articulo, circa prudentiam imperfectam
+<lb ed="#L" n="7"/>propter defectum praecepti, nota quod deficere in praecepto
+<lb ed="#L" n="8"/>contingit dupliciter: primo, deficiendo ab his quae ita sunt
+<lb ed="#L" n="9"/>necessaria ad finem totius vitae ut sine his finis intentio
+<lb ed="#L" n="10"/>vera non salvetur; secundo, deficiendo ab his quae 
+oppor<lb break="no" ed="#L" n="11"/>tuna quidem sunt ad finem, et sine eis licet finis intentio
+<lb ed="#L" n="12"/>salvetur, impeditur tamen illius via horum privatione.
+<lb ed="#L" n="13"/>Primo modo prudentia deficeret in praecepto simpliciter,
+<lb ed="#L" n="14"/>secundo autem modo secundum quid: quia ibi a fine 
+aver<lb break="no" ed="#L" n="15"/>sio esset et peccatum mortale; hic autem citra finem, et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>veniale. Et quia Auctor. de defectu simpliciter loquitur, .
+<lb ed="#L" n="17"/>ideo dixit quod prudentia imperfecta ob defectum praecepti
+<lb ed="#L" n="18"/>non est nisi in malis.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1771">
+                  <lb ed="#L" n="19"/>III. In eodem articulo, in responsione ad secundum,
+<lb ed="#L" n="20"/>dubium esset, quomodo fides dicitur in sui ratione non
+<lb ed="#L" n="21"/>claudere appetitum recti operis: cum fides sit in intellectu
+<lb ed="#L" n="22"/>moto a voluntate ad credendum Deo, quod est opus 
+re<lb break="no" ed="#L" n="23"/>ctum. — Sed hoc cessat ex eo quod Auctor hoc in loco 
+dis<lb break="no" ed="#L" n="24"/>tinguit rectum opus contra cognitionem rectam. Et vult
+<lb ed="#L" n="25"/>prudentiam a fide differre in hoc quod ista claudit in se
+<lb ed="#L" n="26"/>appetitum recti operis rectitudine moris seu caritatis: illa
+<lb ed="#L" n="27"/>autem non, licet illa claudat in se appetitum recti operis
+<lb ed="#L" n="28"/>rectitudine intellectuali. Propter quod in sola cognitione,
+<lb ed="#L" n="29"/>non omnino sed sic rectum excludendo appetitum, 
+con<lb break="no" ed="#L" n="30"/>sistere dicitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1515-Dd1e1801"><!-- caj-p2p2-q47a16 -->
+               <head xml:id="TAcCaj-d1e1515-Hd1e1804">Articulus 16</head>
+               <p xml:id="TAcCaj-d1e1515-d1e1806">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1813">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>In tribus articulis ultimis quaestionis 
+quadragesimaesepti<lb break="no" ed="#L" n="21"/>mae nihil aliud est scribendum nisi quod pro ultimo,
+<lb ed="#L" n="22"/>quomodo scilicet passio corrumpit aestimationem 
+pruden<lb break="no" ed="#L" n="23"/>tiae, videre potes quae diffuse scripsimus in praecedenti
+<lb ed="#L" n="24"/>Libro, ubi declaravimus quomodo . qualis. unusquisque
+<lb ed="#L" n="25"/>est, talis finis ei videtur, et progressum generationis 
+pru<lb break="no" ed="#L" n="26"/>dentiae. |
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1833">
+                  <lb ed="#L" n="27"/>Pro antepenultimo vero, adverte, in responsione ad 
+se<lb break="no" ed="#L" n="28"/>cundum, divinae adoptionis sufficientiam: ut egentibus 
+con<lb break="no" ed="#L" n="29"/>silio filiis discretionem tribuerit mali et boni consilii ; et
+<lb ed="#L" n="30"/>exercentibus se in actibus infusarum virtutum 
+augmen<lb break="no" ed="#L" n="31"/>tum usque ad perfectionem solidi cibi largiatur.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1846">
+                  <lb ed="#L" n="32"/>In responsione autem ad tertium, cum legis in iuvene
+<lb ed="#L" n="33"/>non esse prudentiam secundum :habitum nec secundum
+<lb ed="#L" n="34"/>actum, intellige non de actu prudentiae secundum suam
+<lb ed="#L" n="35"/>substantiam, sed de actu formato prudentiae: hoc est quod
+<lb ed="#L" n="36"/>iuvenis non habet actum prudentiae eo modo quo 
+pru<lb break="no" ed="#L" n="37"/>dens habet ipsum, qui ex habitu prudentiae operatur; 
+quam<lb break="no" ed="#L" n="38"/>vis habeat quandoque actum prudentiae eo modo quo 
+ha<lb break="no" ed="#L" n="39"/>bet actum aliquis ante habitum; sicut multi etiam 
+operan<lb break="no" ed="#L" n="40"/>tur iusta sed non ut iusti, et multi operantur fortia sed
+<lb ed="#L" n="41"/>non ut fortes. Per hoc enim habetur differentia inter 
+in<lb break="no" ed="#L" n="42"/>fusam et acquisitam prudentiam, quod illa secundum 
+habi<lb break="no" ed="#L" n="43"/>tum potest esse in puero et iuvene, et secundum actum
+<lb ed="#L" n="44"/>etiam formatum ex habitu infuso; ista neutro modo.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1878">
+                  <lb ed="#L" n="45"/>II. In penultimo autem articulo dubium duplex occurrit.
+<lb ed="#L" n="46"/>Primum, in corpore articuli, ubi dicitur quod fines 
+virtu<lb break="no" ed="#L" n="47"/>tum sunt determinati, viae autem quae sunt ad fines sunt
+<lb ed="#L" n="48"/>indeterminatae, de qua indeterminatione est sermo. Non de
+<lb ed="#L" n="49"/>numerali: quia sic etiam fines essent indeterminati, cum
+<lb ed="#L" n="50"/>habeant infinita singularia. - Nec specifica. Tum quia non
+<lb ed="#L" n="51"/>sunt infinitae species sub prudentia unius speciei. Tum quia
+<lb ed="#L" n="52"/>differentia inter medium in Milone et Philosopho non est
+<lb ed="#L" n="53"/>nisi numeralis sub eadem specie: sicut prudentia est eiusdem
+<lb ed="#L" n="54"/>speciei in utroque.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1902">
+                  <lb ed="#L" n="55"/>Secundum autem est circa rationem redditam in 
+respon<lb break="no" ed="#L" n="56"/>sione ad tertium quare prudentia non potest esse homini 
+<lb ed="#L" n="57"/>naturalis: quia scilicet eius ratio, cum sit universalium, ad
+<lb ed="#L" n="58"/>infinita singularia se extendit. Probandum enim erat quod
+<lb ed="#L" n="59"/>ad infinitas vias ratio hominis se extendit: quoniam hoc
+<lb ed="#L" n="60"/>est oppositum eius quod invenitur in brutis, quae, per 
+de<lb break="no" ed="#L" n="61"/>terminatas vias procedendo, a natura prudentis sortita
+<lb ed="#L" n="62"/>sunt suas. In littera autem probatur quod ad infinita 
+sin<lb break="no" ed="#L" n="63"/>gularia se extendit.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1924">
+                  <lb ed="#L" n="64"/>III. Ad primum dubium dicitur quod diversitas finium
+<lb ed="#L" n="65"/>et diversitas viarum ad fines virtutum in hoc conveniunt
+<lb ed="#L" n="66"/>quod tam fines quam viae in infinitis salvantur 
+singulari<lb break="no" ed="#L" n="67"/>bus. Differunt autem in hoc quod rationes finium deter-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>minatae sunt, unde et ratione comprehenduntur quot sunt:
+<lb ed="#L" n="69"/>rationes autem viarum indeterminatae sunt. Quod ex hoc
+<lb ed="#L" n="70"/>patet quod nulla ratione. comprehendi: potest quot. sunt
+<lb ed="#L" n="71"/>modi quibus medium virtutis constituitur: sed iuxta 
+diver<lb break="no" ed="#L" n="72"/>sitatem personarum, locorum, temporum, instantium, 
+ope<lb break="no" ed="#L" n="73"/>rationum, etc., tanta fit diversitas ut non solum 
+indeter<lb break="no" ed="#L" n="74"/>minata sit nobis, sed simpliciter infinita videatur, in 
+poten<lb break="no" ed="#L" n="75"/>tia tamen. Huiusmodi autem diversitas quod specifica sit;
+<lb ed="#L" n="76"/>patet ex auctoritate huius litterae dividentis 
+indetermina<lb break="no" ed="#L" n="77"/>tionem mediorum contra. determinationem finium: constat
+<lb ed="#L" n="78"/>enim finium determinationem. esse specificam; et per hoc
+<lb ed="#L" n="79"/>insinuatur quod mediorum indeterminatio est specifica;
+<lb ed="#L" n="80"/>sicut affirmatio determinationis ponitur causa ea riilid
+<lb ed="#L" n="81"/>naturalitatis, ita negatio determinationis mediorum ponitur
+<lb ed="#L" n="82"/>causa negationis naturalitatis. - Et ratione probatur. Minus
+<lb ed="#L" n="83"/>enim. videtur quod ex finitis litterarum elementis fiant 
+in<lb break="no" ed="#L" n="84"/>finitae secundum speciem distinctae dictiones ob variam
+<lb ed="#L" n="85"/>earum compositionem, quam ex infinitis concurrentibus 
+sin<lb break="no" ed="#L" n="86"/>gularibus personarum, etc., resultent infinitae species 
+mo<lb break="no" ed="#L" n="87"/>dorum: quoniam facilius ex infinitis infinitas specifica quam
+<lb ed="#L" n="88"/>ex finitis fit. Sed constat ibi esse infinitatem specificam.
+<lb ed="#L" n="89"/>Ergo rationabile est et hic infinitatem specificam ponere.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1985">
+                  <lb ed="#L" n="90"/>Ad primam autem obiectionem in oppositum. dicitur
+<lb ed="#L" n="91"/>quod non inconvenit infinitas viarum species sub unius
+<lb ed="#L" n="92"/>speciei prudentia contineri: quia sub una formali ratione
+<lb ed="#L" n="93"/>prudentiae tota earum diversitas continetur, sicut sub una
+<lb ed="#L" n="94"/>grammatica infinitae possunt dictiones contineri. |
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e1998">
+                  <lb ed="#L" n="95"/>Ad secundam autem dicitur quod hi modi non 
+distin<lb break="no" ed="#L" n="96"/>guuntur specie in genere moris nisi secundum quod 
+di<lb break="no" ed="#L" n="97"/>versarum sunt virtutum, puta prudentiae, temperantiae, etc.:
+<lb ed="#L" n="98"/>sed distinguuntur specie in genere viae humanae. Ita quod
+<lb ed="#L" n="99"/>universae viae prudentiae sunt unius speciei, puta 
+pruden<lb break="no" ed="#L" n="100"/>tiae; sunt autem infinitarum specierum viae humanae: sicut
+<lb ed="#L" n="101"/>mas et femina sunt unius speciei in genere animalis, puta
+<lb ed="#L" n="102"/>hominis vel bovis, sunt autem diversarum specierum in
+<lb ed="#L" n="103"/>genere sexus. Distinguuntur enim ut viae, quamvis non
+<lb ed="#L" n="104"/>distinguantur termino: sicut arcus in infinitum 
+multiplica<lb break="no" ed="#L" n="105"/>biles super puncta semicirculi distinguuntur ut viae inter
+<lb ed="#L" n="106"/>eosdem terminos.
+</p>
+               <p xml:id="TAcCaj-d1e1515-d1e2027">
+                  <lb ed="#L" n="107"/>IV. Ad secundum dubium dicitur quod ex hoc quod
+<lb ed="#L" n="108"/>ratio est infinitorum singularium sequitur quod sit 
+infini<lb break="no" ed="#L" n="109"/>torum modorum qui ex varia tot singularium 
+concurren<lb break="no" ed="#L" n="110"/>tia consurgunt: ac per hoc, quod sint infinitae viae 
+ratio<lb break="no" ed="#L" n="111"/>nis ad finem. Quod erat probandum. Ex hoc enim 
+pro<lb break="no" ed="#L" n="112"/>venit quod prudentia, quae est recta ratio humanarum
+<lb ed="#L" n="113"/>viarum, non possit esse naturalis: quia natura ad 
+determina<lb break="no" ed="#L" n="114"/>tam viam, et non solum terminum inclinat; ut patet in 
+na<lb break="no" ed="#L" n="115"/>turalibus compositis et operibus animalium irrationalium.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

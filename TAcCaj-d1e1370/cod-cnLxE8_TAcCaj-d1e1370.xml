@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 19</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 19</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="138"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1370"><!-- TAcCajp2p2-q19 -->
+            <head xml:id="TAcCaj-d1e1370-Hd1e101">Quaestio 19</head>
+            <div xml:id="TAcCaj-d1e1370-Dd1e103"><!-- caj-p2p2-q19a1 -->
+               <head xml:id="TAcCaj-d1e1370-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1370-d1e108">
+                  <pb ed="#L" n="139"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo primo quaestionis decimaenonae adverte quod,
+<lb ed="#L" n="3"/>ut in Primae Partis Commentariis dictum est, malum
+<lb ed="#L" n="4"/>culpae intantum distat a malo poenae quod malum 
+cul<lb break="no" ed="#L" n="5"/>pae opponitur bono divino in.seipso ( obiective tamen ),
+<lb ed="#L" n="6"/>sicut caritas tendit in bonum divinum in seipso: malum 
+<lb ed="#L" n="7"/>vero poenae opponitur bono creato. Et propterea in littera
+<lb ed="#L" n="8"/>dicitur quod malum culpae privat ordinem ad finem ulti-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>mum, Et quia solus ultimus finis est finis simpliciter, idest
+<lb ed="#L" n="10"/>et totaliter et absque determinatione (reliqui namque fines
+<lb ed="#L" n="11"/>sunt fines in hoc vel illo ordine, respectu huius vel 
+il<lb break="no" ed="#L" n="12"/>lius), ideo in littera dicitur quod, cum bonum et malum
+<lb ed="#L" n="13"/>dicantur secundum ordinem finalem, solum malum culpae
+<lb ed="#L" n="14"/>est malum simpliciter, malum autem poenae est malum
+<lb ed="#L" n="15"/>istius.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1370-Dd1e155"><!-- caj-p2p2-q19a2 -->
+               <head xml:id="TAcCaj-d1e1370-Hd1e158">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1370-d1e160">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e167">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>In articulo secundo eiusdem quaestionis dubium occurrit
+<lb ed="#L" n="17"/>ex <ref xml:id="TAcCaj-d1e1370-Rd1e175">Durando, in xxxiv dist. III. Sent., qu. IV</ref>, pro quanto
+<lb ed="#L" n="18"/>hic dicitur quod, si aliquis convertatur ad Deum propter 
+<lb ed="#L" n="19"/>timorem culpae, erit timor filialis: nam filiorum est timere
+<lb ed="#L" n="20"/>offensam patris. Arguit siquidem Durandus quod haec 
+opi<lb break="no" ed="#L" n="21"/>nio in hoc deficere videtur quod ponit immediatum 
+obie<lb break="no" ed="#L" n="22"/>ctum timoris malum culpae. Hoc enim in proposito 
+fal<lb break="no" ed="#L" n="23"/>sum est. Quia timor dividitur hic prout per ipsum 
+con<lb break="no" ed="#L" n="24"/>vertimur ad Deum vel avertimur ab eo, fugiendo vel 
+com<lb break="no" ed="#L" n="25"/>mittendo peccatum. Ac per hoc, committere vel fugere 
+<lb ed="#L" n="26"/>peccatum non est actus elicitus timoris, sed imperatus ab
+<lb ed="#L" n="27"/>eo. Et consequenter peccatum non est immediatum 
+obie<lb break="no" ed="#L" n="28"/>ctum actus eliciti a timore.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e202">
+                  <lb ed="#L" n="29"/>Ad hoc breviter dicitur quod ratio haec non valet; quia
+<lb ed="#L" n="30"/>a perpetratione vel fuga peccati in actu executionis arguit 
+<lb ed="#L" n="31"/>ad peccare vel non peccare ut sunt in esse obiectivo. Ordo
+<lb ed="#L" n="32"/>siquidem est iste, quod timori occurrit obiective peccare
+<lb ed="#L" n="33"/>in patrem; et tunc respectu actus eliciti ab habitu timoris,
+<lb ed="#L" n="34"/>qui actus est timere, proprium obiectum: est peccare in
+<lb ed="#L" n="35"/>patrem, quod est malum, culpae; et ex hoc timens. filius
+<lb ed="#L" n="36"/>imperat fugam offensae, idest non peccare; et tunc non
+<lb ed="#L" n="37"/>peccare est actus imperatus, non elicitus, a timore. Et 
+ta<lb break="no" ed="#L" n="38"/>men arguens, ex hoc quod ad timorem spectat iste actus
+<lb ed="#L" n="39"/>imperatus, concludit, et male, respectu actus eliciti; quod
+<lb ed="#L" n="40"/>non. sit. obiectum. immediatum . malum: culpae. Ad 
+argu<lb break="no" ed="#L" n="41"/>mentum autem suum, formaliter. distinguendum . est, in
+<lb ed="#L" n="42"/>prima illatione, quod fugere peccatum dupliciter contingit:
+<lb ed="#L" n="43"/>in executione, et in appetitu. Primo modo tantum 
+conce<lb break="no" ed="#L" n="44"/>ditur prima illatio. Sed secunda illatio simpliciter est falsa,
+<lb ed="#L" n="45"/>ut patet ex dictis.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e241">
+                  <lb ed="#L" n="46"/>II. In eodem secundo articulo eiusdem quaestionis, in
+<lb ed="#L" n="47"/>responsione ad quintum, dubium occurrit, an. peccatum
+<lb ed="#L" n="48"/>commissum ex timore amittendi bona mundana distet 
+spe<lb break="no" ed="#L" n="49"/>cie a peccato commisso ex timore amittendi bonum 
+corpo<lb break="no" ed="#L" n="50"/>ris. Verbi gratia, an negans fidem ne confiscentur bona sua,
+<lb ed="#L" n="51"/>differat specie a. negante Christum ne tormenta patiatur. Et
+<lb ed="#L" n="52"/>simile est. de muliere quae permittit se opprimi propter hunc
+<lb ed="#L" n="53"/>vel illum timorem. Et est ratio dubii quia Auctor bic 
+di<lb break="no" ed="#L" n="54"/>cit quod, licet mundanus timor, quia ex parte aversionis
+<lb ed="#L" n="55"/>distinguitur contra alios tres timores, pro unico 
+compute<lb break="no" ed="#L" n="56"/>tur; peccata tamen distinguuntur specie secundum diver-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>sitatem horum obiectorum ad quae convertuntur. 
+Supe<lb break="no" ed="#L" n="58"/>rius autem, scilicet in praecedenti Libro, dictum est quod
+<lb ed="#L" n="59"/>peccata huiusmodi ex istis timoribus et attioribus 
+allevian<lb break="no" ed="#L" n="60"/>tur potius quam graventur, nec trahuntur ad aliquam mali
+<lb ed="#L" n="61"/>moralis speciem. Dictum siquidem est quod mulier 
+neces<lb break="no" ed="#L" n="62"/>sitate victus adulterio consentiens non incurrit duas 
+defor<lb break="no" ed="#L" n="63"/>mitates, avaritiae et luxuriae; sed talis luxuriae tantum,
+<lb ed="#L" n="64"/>quae alleviatur ex illa causa.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e288">
+                  <lb ed="#L" n="65"/>Ad hoc dicitur quod tendere inordinate in haec obiecta,
+<lb ed="#L" n="66"/>scilicet bonum carnis et bonum mundi, contingit uno modo
+<lb ed="#L" n="67"/>secundum se: ut contingit in his qui sunt avari vel 
+ambi<lb break="no" ed="#L" n="68"/>tiosi , quoad bona mundi, et luxuriosi vel ebrii, quoad
+<lb ed="#L" n="69"/>bona carnis. Alio modo, secundum solam comparationem
+<lb ed="#L" n="70"/>ad aliud bonum maius quod debet eis anteponi: ut. 
+con<lb break="no" ed="#L" n="71"/>tingit in his qui contenti quidem sunt suis rebus. et 
+hono<lb break="no" ed="#L" n="72"/>ribus, naturali sanitate et licitis delectationibus, sed, 
+super<lb break="no" ed="#L" n="73"/>veniente occursu quo oporteat vel aliquid horum. Lain
+<lb ed="#L" n="74"/>vel amicitiam lesu Christi, malunt haec conservare quam
+<lb ed="#L" n="75"/>Christi amicitiam, et sic adulterio vel infidelitati consentiunt:
+<lb ed="#L" n="76"/>Inter hos siquidem modos tanta est differentia. quod in 
+pri<lb break="no" ed="#L" n="77"/>mo invenitur peccatum diversificari ex horum . obiectorum
+<lb ed="#L" n="78"/>diversitate ; in secundo autem non. Et ratio est quia. in
+<lb ed="#L" n="79"/>primo obiectum illud materia est dissonans rationi resp
+<lb ed="#L" n="80"/>actus tendentis in illud absolute; in secundo autem. nc
+<lb ed="#L" n="81"/>Et propterea si quis negat fidem vel adulteratur propter
+<lb ed="#L" n="82"/>talem timorem qui ex avaritia consurgat, vitium vitio 
+ac<lb break="no" ed="#L" n="83"/>cumulat, et peccatum committit duas deformitates habens.
+<lb ed="#L" n="84"/>Si quis autem negat fidem vel adulteratur prop: ter len
+<lb ed="#L" n="85"/>timorem qui non ex avaritia, sed amore consu ir ib
+<lb ed="#L" n="86"/>malo rerum, non accumulat vitium vitio, sed « d ipso 
+adul<lb break="no" ed="#L" n="87"/>terio. vel infidelitate fit malus tam timor quam amor rerum
+<lb ed="#L" n="88"/>non alia. malitia quam ilius infidelitatis vel adulterii: ac
+<lb ed="#L" n="89"/>per hoc, non incurrit peccatum duarum deformitatum, sed
+<lb ed="#L" n="90"/>aliqualiter excusatur eius negatio vel fornicatio ex iusto
+<lb ed="#L" n="91"/>amore proveniens. Sicut universaliter ordinans. medium
+<lb ed="#L" n="92"/>malum ad finem bonum vel non malum, puta virtutem,
+<lb ed="#L" n="93"/>sanitatem. et huiusmodi, unicam deformitatem incurrit, et
+<lb ed="#L" n="94"/>aliqualiter excusatur, quamvis totus appetitus et. actus sit
+<lb ed="#L" n="95"/>malus moraliter. Et sic intelligendo dicta hic et in sequenti
+<lb ed="#L" n="96"/>articulo et alibi, omnia consonant. T
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1370-Dd1e361"><!-- caj-p2p2-q19a6 -->
+               <head xml:id="TAcCaj-d1e1370-Hd1e364">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1370-d1e366">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="74"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e373">
+                  <lb ed="#L" n="75"/>IN articulo sexto, omissis tertio, quarto et quinto, adverte
+<lb ed="#L" n="76"/>quod timor servilis secundum substantiam sic habet pro
+<lb ed="#L" n="77"/>obiecto. malum poenae ut tamen non respiciat poenam 
+se<lb break="no" ed="#L" n="78"/>cundum omnem rationem, sed secundum rationem privativi
+<lb ed="#L" n="79"/>boni proprii ut sic. Et propterea malum separationis a Deo
+<lb ed="#L" n="80"/>in littera. attribuitur utrique timori, scilicet filiali et servili,
+<lb ed="#L" n="81"/>diversa ratione. Nam timori casto attribuitur ex parte Dei,
+<lb ed="#L" n="82"/>hoc est inquantum homo timet se non vivere Deo: maxime
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="83"/>siquidem caritas facit hominem amare se ut vivat Deo.
+<lb ed="#L" n="84"/>Timori vero servili ex parte boni nostri, hoc est 
+inquan<lb break="no" ed="#L" n="85"/>tum homo timet tanto suo bono, scilicet esse cum Deo,
+<lb ed="#L" n="86"/>privari: procedit enim ille timor ex amore sui, ut patet.
+<lb ed="#L" n="87"/>Unde in littera primum explicatur dicendo quod timor
+<lb ed="#L" n="88"/>poenae includitur in caritate et timore casto: secundum
+<lb ed="#L" n="89"/>autem dicendo, in calce corporis, quod potest esse cum
+<lb ed="#L" n="90"/>caritate.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1370-Dd1e413"><!-- caj-p2p2-q19a8 -->
+               <head xml:id="TAcCaj-d1e1370-Hd1e416">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1370-d1e418">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e425">
+                  <lb ed="#L" n="48"/>IN articulo octavo, omisso septimo, dubium ex <ref xml:id="TAcCaj-d1e1370-Rd1e429">Durando, 
+<lb ed="#L" n="49"/>in xxxiv dist. III Sent., qu. v</ref>, occurrit de identitate timoris
+<lb ed="#L" n="50"/>initialis et casti. Nam et conclusionem, et responsionem
+<lb ed="#L" n="51"/>ad secundum, et processum Auctoris non hic sed in xxxiv
+<lb ed="#L" n="52"/>dist. III Sent. ad eandem conclusionem, reprehendit. 
+Con<lb break="no" ed="#L" n="53"/>clusionem quidem, quia obiectum timoris initialis 
+distin<lb break="no" ed="#L" n="54"/>guitur ab obiecto tam servilis quam casti timoris: quia
+<lb ed="#L" n="55"/>eius obiectum est utrumque malum, scilicet gehennae et
+<lb ed="#L" n="56"/>culpae, seu separationis a Deo.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e450">
+                  <lb ed="#L" n="57"/>Contra responsionem ad secundum, pro quanto ibi 
+di<lb break="no" ed="#L" n="58"/>citur quod timor initialis timet poenam pro quanto habet
+<lb ed="#L" n="59"/>aliquid de timore servili adiunctum, arguit, quia impossibile
+<lb ed="#L" n="60"/>est duos actus cognoscendi simul esse in eadem potentia
+<lb ed="#L" n="61"/>cognitiva, ut alibi probatum est: et similiter duo actus
+<lb ed="#L" n="62"/>appetendi non possunt simul esse in eadem potentia 
+ap<lb break="no" ed="#L" n="63"/>petitiva.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e468">
+                  <lb ed="#L" n="64"/>Contra processum vero. illum, quia videtur repugnantia
+<lb ed="#L" n="65"/>dicere: scilicet quod timor initialis imperet actum propter
+<lb ed="#L" n="66"/>fugam culpae et poenae; et quod timor initialis non timeat
+<lb ed="#L" n="67"/>elicitive poenam. - Et probatur repugnantia. Quia potentia
+<lb ed="#L" n="68"/>nullum actum imperat nisi mediante actu elicito. Si ergo
+<lb ed="#L" n="69"/>imperat propter utrumque, habet ergo actum elicitum
+<lb ed="#L" n="70"/>circa utrumque.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e487">
+                  <lb ed="#L" n="71"/>II. Ad haec dicitur ordinate. Et ad primum, quod 
+fal<lb break="no" ed="#L" n="72"/>sum est quod obiectum timoris initialis sit utrumque malum,
+<lb ed="#L" n="73"/>Scilicet culpae et poenae, sed culpae tantum. Et si quando
+<lb ed="#L" n="74"/>invenitur apud doctores hoc, ut etiam invenitur apud 
+Aucto<lb break="no" ed="#L" n="75"/>rem in articulo secundo huius quaestionis, in corpore 
+arti<lb break="no" ed="#L" n="76"/>culi; interpretandum. est iuxta responsionem ad secundum
+<lb ed="#L" n="77"/>hoc in loco: scilicet quod non ratione sui, sed ratione 
+adiun<lb break="no" ed="#L" n="78"/>cti sibi timoris servilis, actus suus respicit alterum 
+ma<lb break="no" ed="#L" n="79"/>lum, scilicet poenae; alterum autem, scilicet culpae, 
+ra<lb break="no" ed="#L" n="80"/>tione sui. 4
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e511">
+                  <lb ed="#L" n="81"/>Ad secundum dicitur quod, sicut contingit in intellectu
+<lb ed="#L" n="82"/>esse simul plures actus intelligendi in ordine ad unum,
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="83"/>ita etiam in appetitu contingit simul esse plures actus 
+appe<lb break="no" ed="#L" n="84"/>tendi. Et sic est in proposito: quia timor poenae et timor
+<lb ed="#L" n="85"/>culpae in ordine ad Dei conversionem concurrunt.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e527">
+                  <lb ed="#L" n="86"/>Ad tertium autem, quamvis non sit contra praesentis
+<lb ed="#L" n="87"/>Operis doctrinam, quia tamen illa hic exposita est, 
+respon<lb break="no" ed="#L" n="88"/>detur quod timorem initialem imperare propter utrumque
+<lb ed="#L" n="89"/>malum actum aliquem, potest dupliciter intelligi. Primo,
+<lb ed="#L" n="90"/>ratione sui solius. Et iuxta hunc sensum procedit 
+argu<lb break="no" ed="#L" n="91"/>mentum: sed non militat contra Auctorem. — Alio modo,
+<lb ed="#L" n="92"/>ratione sui et adiuncti timoris servilis. Et in hoc sensu
+<lb ed="#L" n="93"/>intendit hoc Auctor; ut tam hic quam ibi, in responsione
+<lb ed="#L" n="94"/>ad primum, explicite declaravit. Et iuxta hunc sensum nihil
+<lb ed="#L" n="95"/>valet argumentum. Quoniam timor initialis imperans est
+<lb ed="#L" n="96"/>non solus unus timor, sed complectitur utrumque: sed 
+<lb ed="#L" n="97"/>initiaem ut principalem, et servilem ut ministrum seu
+<lb ed="#L" n="98"/>adiuvantem.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e558">
+                  <lb ed="#L" n="99"/>III. In eodem articulo octavo, in responsione ad 
+secun<lb break="no" ed="#L" n="100"/>dum, adverte quod timor servilis secundum suam 
+sub<lb break="no" ed="#L" n="101"/>stantiam habet multos actus; et quantum ad propositum
+<lb ed="#L" n="102"/>spectat, duos: scilicet timere poenam oppositam proprio
+<lb ed="#L" n="103"/>bono timentis absolute; et timere poenam eandem ut 
+ratio<lb break="no" ed="#L" n="104"/>nem operandi. Facit, verbi gratia, quandoque timor nos 
+ti<lb break="no" ed="#L" n="105"/>mere poenam gehennae absolute: quandoque autem facit
+<lb ed="#L" n="106"/>nos sic timere poenam gehennae ut ex illo timore moveamur
+<lb ed="#L" n="107"/>ab bene agendum, ut illam, scilicet gehennam, evadamus.
+<lb ed="#L" n="108"/>Iste secundus actus est qui adiungitur timori initiali et
+<lb ed="#L" n="109"/>caritati imperfectae: ita quod timor initialis imperat talem
+<lb ed="#L" n="110"/>actum et utitur illo in ordine ad finem suum sanctum, qui
+<lb ed="#L" n="111"/>est subiici Deo. Sed adveniente caritate perfecta cessat iste
+<lb ed="#L" n="112"/>actus: quoniam perfecti in caritate non moventur ad 
+ope<lb break="no" ed="#L" n="113"/>randum ex timore proprii mali, cum proprium bonum
+<lb ed="#L" n="114"/>pro nihilo habeant; sed ex amore Dei, et timore ex parte
+<lb ed="#L" n="115"/>Dei. Primus vero actus cum perfecta caritate, viae tamen,
+<lb ed="#L" n="116"/>stare potest: quamvis minimus, eo quod crescente caritate
+<lb ed="#L" n="117"/>minuitur, ut in articulo decimo huius quaestionis dicitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1370-Dd1e604"><!-- caj-p2p2-q19a9 -->
+               <head xml:id="TAcCaj-d1e1370-Hd1e607">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e1370-d1e609">
+                  <pb ed="#L" n="147"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e618">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo nono eiusdem quaestionis duo notanda 
+occur<lb break="no" ed="#L" n="3"/>runt. Primo, ut ad hunc locum recurras cum quaestio 
+<lb ed="#L" n="4"/>Occurrit an timor sit virtus. Quoniam, ut in articulo patet,  
+<lb ed="#L" n="5"/>Auctor de dono loquitur ut distinguitur contra virtutem, 
+<lb ed="#L" n="6"/>et sic discutit.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e634">
+                  <lb ed="#L" n="7"/>Secundo, quod in responsione ad secundum dicitur, 
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="8"/>per virtutem spei non solum innitimur divino auxilio ad
+<lb ed="#L" n="9"/>consequenda quaecumque alia bona, sed ad adipiscendum
+<lb ed="#L" n="10"/>ipsum Deum, tanquam principale bonum. Hinc enim videre
+<lb ed="#L" n="11"/>potes quam bene dictum sit quod Deus ipse est principale
+<lb ed="#L" n="12"/>bonum nostrum; et non solum effectus eius, qui inter 
+quae<lb break="no" ed="#L" n="13"/>cumque alia bona computantur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1370-Dd1e655"><!-- caj-p2p2-q19a10 -->
+               <head xml:id="TAcCaj-d1e1370-Hd1e658">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e1370-d1e660">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="69"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e667">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="70"/>IN articulo decimo eiusdem quaestionis dubium occurrit 
+<lb ed="#L" n="71"/>ex <ref xml:id="TAcCaj-d1e1370-Rd1e675">
+                     <name xml:id="TAcCaj-d1e1370-Nd1e677">Durando</name>, in qu. ult. xxxrv dist. III Sent.</ref>, contradicente 
+concupi<lb break="no" ed="#L" n="72"/>conclusioni illi: Crescente caritate crescit timor castus;  
+<lb ed="#L" n="73"/>et eius rationi, scilicet: Crescente causa, scilicet caritate  
+cre<lb break="no" ed="#L" n="74"/>crescit effectus, scilicet iste timor. Et ratio sua est quia  
+poe<lb break="no" ed="#L" n="75"/>quanto separatio a patre est magis difficilis, tanto minus 
+arti<lb break="no" ed="#L" n="76"/>netur. Constat autem quod quanto magis creverit cari- 
+<lb ed="#L" n="77"/>tas, tanto difficilius potest separari a Deo. Ergo crescente 
+<lb ed="#L" n="78"/>caritate non crescit timor separationis a Deo. 
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e696">
+                  <lb ed="#L" n="79"/>Allatam autem rationem litterae solvit per hoc quod,  
+<lb ed="#L" n="80"/>licet timor castus sit effectus caritatis, exigit tamen tan-  
+<lb ed="#L" n="81"/>quam obiectum malum separationis a Deo ut possibile: 
+<lb ed="#L" n="82"/>quia timor non est de impossibili. Et quia crescente ca-  
+<lb ed="#L" n="83"/>ritate talis separatio est minus possibilis, ideo minus time-  
+<lb ed="#L" n="84"/>tur et facilius vitatur. 
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e712">
+                  <lb ed="#L" n="85"/>II. Ad evidentiam huius duo sunt notanda. Primum, 
+<lb ed="#L" n="86"/>ne fallamur in separationis. vocabulo. Separatio siquidem 
+<lb ed="#L" n="87"/>a Deo potest sumi dupliciter. Primo, ut est poenalis 
+ho<lb break="no" ed="#L" n="88"/>mini qui separatur a Deo. Et sic clauditur sub malo 
+poe<lb break="no" ed="#L" n="89"/>nae, et spectat ad timorem servilem, non secundum servi-  
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="90"/>litatem, sed secundum substantiam: quia coniungi Deo ut
+<lb ed="#L" n="91"/>opponitur huiusmodi separationi, amatur amore
+<lb ed="#L" n="92"/>scentiae, hoc est amore quo quis sibi ipsi vult tale bonum.
+<lb ed="#L" n="93"/>Et sic timor separationis a Deo crescente caritate non
+<lb ed="#L" n="94"/>scit, sed diminuitur, quemadmodum timor ceterarum
+<lb ed="#L" n="95"/>narum, propter duas rationes quas in corpore huius arti-
+<lb ed="#L" n="96"/>culi habes.
+
+<lb ed="#L" n="97"/>Secundo vero modo potest sumi separatio a Deo, ut
+<lb ed="#L" n="98"/>supra dictum est, ex parte Dei: hoc est ut amatur op-
+<lb ed="#L" n="99"/>posita coniunctio caritatis amore, quo homo amat se in
+<lb ed="#L" n="100"/>Deo et ad Deum. Et sic spectat ad timorem castum. Non
+<lb ed="#L" n="101"/>quod sit duplex separatio a Deo, una spectans ad timorem
+<lb ed="#L" n="102"/>servilem et altera ad timorem filialem: sed una et eadem
+<lb ed="#L" n="103"/>separatio, ut privativa boni proprii hominis, timetur timore
+<lb ed="#L" n="104"/>servili; et ut privativa boni divini, hoc est boni hominis
+<lb ed="#L" n="105"/>in ordine ad Deum, timetur timore filiali. Et sic est sermo
+<lb ed="#L" n="106"/>noster de timore separationis a Deo, cum dicitur quod
+<lb ed="#L" n="107"/>crescit crescente caritate in via (nam de patria est alter 
+ar<lb break="no" ed="#L" n="108"/>ticulus). Et non est praesens sermo de separatione a Deo, :
+<lb ed="#L" n="109"/>hoc est de offensa Dei. Quoniam, ut patet in littera, ti-
+<pb ed="#L" n="148"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>mori casto utrumque timendum tribuitur, scilicet offendere
+<lb ed="#L" n="2"/>Deum et separari a Deo: sed quia Durandus arguit 
+con<lb break="no" ed="#L" n="3"/>tra timoris casti augmentum pro quanto respicit 
+separa<lb break="no" ed="#L" n="4"/>tionem, ideo, ut dictum est, loquimur non de separatione
+<lb ed="#L" n="5"/>offensae, quae est malum culpae; sed de separatione quae
+<lb ed="#L" n="6"/>est malum poenae, non ut est privatio boni nostri, sed ut
+<lb ed="#L" n="7"/>est privatio boni divini, ut dictum. est.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e791">
+                  <lb ed="#L" n="8"/>III. Secundum est quod obiectum timoris multa 
+clau<lb break="no" ed="#L" n="9"/>dit: scilicet malum, arduum, futurum, possibile. Sed 
+quan<lb break="no" ed="#L" n="10"/>tum ad propositum spectat, claudit duo: scilicet. malum
+<lb ed="#L" n="11"/>et possibile. Quae ita se habent quod conveniunt primo
+<lb ed="#L" n="12"/>in hoc quod utrumque exigitur ad obiectum timoris, 
+sci<lb break="no" ed="#L" n="13"/>licet et quod sit malum et quod sit possibile, ut patet. 
+<lb ed="#L" n="14"/>Et conveniunt secundo in hoc quod, ceteris paribus, 
+quod<lb break="no" ed="#L" n="15"/>vis eorum auctum auget timendum: nam, ceteris paribus,
+<lb ed="#L" n="16"/>quod est magis malum est magis timendum; et similiter,
+<lb ed="#L" n="17"/>ceteris paribus, quod est magis possibile est magis 
+timen<lb break="no" ed="#L" n="18"/>dum. — Sed differunt in hoc quod mali latitudo est mensura
+<lb ed="#L" n="19"/>simpliciter timoris: ita quod quanto maius est malu,
+<lb ed="#L" n="20"/>tanto timor eius est simpliciter maior. Possibilis vero 
+la<lb break="no" ed="#L" n="21"/>titudo est mensura secundum quid ipsius timoris, Quod
+<lb ed="#L" n="22"/>patet ex eo quod, quantumcumque facillime evenire nobis
+<lb ed="#L" n="23"/>possit aliquod parvum malum, minus timemus quam si
+<lb ed="#L" n="24"/>magnum aliquod malum possibile immineat, quamvis non
+<lb ed="#L" n="25"/>facile eventurum. Et quoniam in huiusmodi nihil differt
+<lb ed="#L" n="26"/>esse vel apparere malum vel bonum, ut patet in II Physic, ;
+<lb ed="#L" n="27"/>eiusdem rationis est esse maius malum et appretiari ut
+<lb ed="#L" n="28"/>maius malum.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e839">
+                  <lb ed="#L" n="29"/>Ac per hoc, ad propositum descendendo, separari a
+<lb ed="#L" n="30"/>Deo tanto maioris mali rationem habet, quanto magis 
+ap<lb break="no" ed="#L" n="31"/>pretiatur. Constat autem quod tanto magis appretiatur,
+<lb ed="#L" n="32"/>quanto magis Deus amatur. Et. consequenter quanto 
+ma<lb break="no" ed="#L" n="33"/>gis crescit amantis Deum caritas , tanto magis. « crescit am |
+<lb ed="#L" n="34"/>pretiatio separationis a Deo. Et si huic adiungas quod in
+<lb ed="#L" n="35"/>via semper habet rationem possibilis, concludes quod 
+cre<lb break="no" ed="#L" n="36"/>scente caritate timor separationis a Deo crescit simpliciter,
+<lb ed="#L" n="37"/>ex augmento mensurae simpliciter; et diminuitur 
+secun<lb break="no" ed="#L" n="38"/>dum quid, ex diminutione mensurae secundum quid, 
+scili<lb break="no" ed="#L" n="39"/>cet possibilitatis, quia minus possibilis est perfectiori in
+<lb ed="#L" n="40"/>caritate quam imperfectiori.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e868">
+                  <lb ed="#L" n="41"/>Et ut clarius fiat quod dicimus, declaratur exemplo
+<lb ed="#L" n="42"/>Certum est quod quanto aliquis magis diligit amicum,
+<lb ed="#L" n="43"/>tanto magis appretiat convictum cum illo, ac per hoc tanto
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="44"/>maius malum aestimat separationem ab illo. Et quanto
+<lb ed="#L" n="45"/>minus diligit quis amicum, tanto minus facit convictum
+<lb ed="#L" n="46"/>cum illo, ac per hoc minus malum aestimat separari ab
+<lb ed="#L" n="47"/>illo. Et demum si.nihil diligit, nihil boni in convictu et
+<lb ed="#L" n="48"/>nihil mali in separatione illius aestimat. Ubi vides quod
+<lb ed="#L" n="49"/>propria mensura appretiationis mali separationis est amor
+<lb ed="#L" n="50"/>amicitiae, Et consequenter prospicere potes quod optime
+<lb ed="#L" n="51"/>Auctor infert ex augmento caritatis in via, in qua semper
+<lb ed="#L" n="52"/>salvatur obiectum timoris in separatione a Deo, quod 
+au<lb break="no" ed="#L" n="53"/>getur simpliciter timor separationis. Caritas enim est amor
+<lb ed="#L" n="54"/>amicitiae ad Deum, qua amatur coniunctio hominis cum
+<lb ed="#L" n="55"/>Deo ad Deum, cuius opposita separatio malum est possibile
+<lb ed="#L" n="56"/>semper in via. Et quanto maior est caritas, tanto magis 
+ap<lb break="no" ed="#L" n="57"/>pretiatur bonum coniunctionis et malum separationis. Ac
+<lb ed="#L" n="58"/>per hoc semper crescit simpliciter timor separationis.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e912">
+                  <lb ed="#L" n="59"/>IV. Ad obiectionem ergo Durandi: Quanto separatio
+<lb ed="#L" n="60"/>est difficilior, tanto minus timetur, — respondetur quod 
+ve<lb break="no" ed="#L" n="61"/>rum est ceteris paribus. Sed in proposito non sunt cetera
+<lb ed="#L" n="62"/>paria: quia separatio habet rationem maioris mali 
+respe<lb break="no" ed="#L" n="63"/>ctu perfectioris in caritate, quia ab eo magis appretiatur
+<lb ed="#L" n="64"/>in bono coniunctio ad Deum, et in malo opposita 
+sepa<lb break="no" ed="#L" n="65"/>ratio, ex hoc ipso quod magis diligit Deum. Et non solum
+<lb ed="#L" n="66"/>non sunt cetera paria, sed ista imparitas ex parte 
+appre<lb break="no" ed="#L" n="67"/>tiati mali longe praeeminet imparitati possibilitatis: ut patet
+<lb ed="#L" n="68"/>ex hoc quod videmus patrem magis timere separationem
+<lb ed="#L" n="69"/>filii magis amati, quamvis difficile futuram, quam 
+separa<lb break="no" ed="#L" n="70"/>tionem filii minus amati facile futuram. Et ideo crescente
+<lb ed="#L" n="71"/>caritate crescit simpliciter timor separationis, ex augmento
+<lb ed="#L" n="72"/>appretiationis mali separationis: et minuitur secun
+<lb ed="#L" n="73"/>quid, ex diminutione possibilitatis eveniendi; facile enim
+<lb ed="#L" n="74"/>et difficile species sunt possibilis.
+</p>
+               <p xml:id="TAcCaj-d1e1370-d1e949">
+                  <lb ed="#L" n="75"/>Ad solutionem rationis respondetur per idem: scilicet
+<lb ed="#L" n="76"/>quia diminutio secundum quid non tollit augmentum si d
+<lb ed="#L" n="77"/>pliciter. Unde stat solida ratio, quod crescente causa e
+<lb ed="#L" n="78"/>ctus crescit simpliciter; et crescente caritate crescit 
+appre<lb break="no" ed="#L" n="79"/>tiatio separationis, ac per hoc timor simpliciter crescit. Nec
+<lb ed="#L" n="80"/>obstat diminutio possibilis: quia cum augmento simpliciter
+<lb ed="#L" n="81"/>stat diminutio secundum quid. Et sic timor separationis
+<lb ed="#L" n="82"/>crescente caritate minuitur secundum quid: pro quam
+<lb ed="#L" n="83"/>securiores sunt de coniunctione ad Deum perfecti in cari
+<lb ed="#L" n="84"/>tate, ex hoc quod apprehendunt separationem difficile posse
+<lb ed="#L" n="85"/>evenire, attento dono perfectae caritatis percepto
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

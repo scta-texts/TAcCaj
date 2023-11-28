@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="100"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1329"><!-- TAcCajp2p2-q11 -->
+            <head xml:id="TAcCaj-d1e1329-Hd1e101">Quaestio 11</head>
+            <div xml:id="TAcCaj-d1e1329-Dd1e103"><!-- caj-p2p2-q11a1 -->
+               <head xml:id="TAcCaj-d1e1329-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1329-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>In articulo primo quaestionis undecimae dubium occurrit |
+<lb ed="#L" n="11"/>novitiorum, quia non videtur verum quod haeresis con- |
+<lb ed="#L" n="12"/>stituatur per hoc quod, supposita adhaesione ad Christum,
+<lb ed="#L" n="13"/>erretur in his quae sunt dicta ab ipso. Quoniam contingit |
+<lb ed="#L" n="14"/>Christianum recedere etiam a fide ipsius Christi, et nec
+<lb ed="#L" n="15"/>ipsum nec Deum credere. Talis est haereticus. Et tamen
+<lb ed="#L" n="16"/>non supponit Christum. Ergo male in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e135">
+                  <lb ed="#L" n="17"/>Ad hoc dicitur quod'assentire Christo contingit dupli- |
+<lb ed="#L" n="18"/>citer: scilicet actu mentis; vel professione characteris Chri- |
+<lb ed="#L" n="19"/>stiani. Ad haeresim licet saepe concurrere videatur primum,
+<lb ed="#L" n="20"/>non tamen est de ratione eius, sed sufficit secundum, 
+sci<lb break="no" ed="#L" n="21"/>licet quod charactere fidei in baptismo suscepto Christum
+<lb ed="#L" n="22"/>profiteatur. Sic enim in haeresi contingit apostatare: ut 
+in<lb break="no" ed="#L" n="23"/>ferius patet in quaestione de apostasia.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e153">
+                  <lb ed="#L" n="24"/>IL. In eodem primo. articulo adverte quod, quia haeresis |
+<lb ed="#L" n="25"/>est vitium non in intellectu absolute, sed in eo ut moto a
+<lb ed="#L" n="26"/>voluntate eligente, nulla propositio aut sententia, proprie
+<lb ed="#L" n="27"/>loquendo, potest dici secundum se haeretica, sed solum ut
+<lb ed="#L" n="28"/>denominatur ab adhaesione tali ad ipsam. Cum enim una |
+<lb ed="#L" n="29"/>et eadem propositio, puta, Mortui non resurgent, ad omnes
+<lb ed="#L" n="30"/>infidelitatis species possit pertinere, oportet quod nullam
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="31"/>illarum secundum se sibi vindicet. Dicta namque sententia
+<lb ed="#L" n="32"/>ab haeretico haeretica, a ludaeo. perfida, a pagano gentilis
+<lb ed="#L" n="33"/>denominatur. Unde propositiones ipsae secundum se sunt
+<lb ed="#L" n="34"/>contrariae fidei: et sic vocandae sunt quando contrariantur
+<lb ed="#L" n="35"/>articulis fidei vel sacrae Scripturae aut determinationi 
+Ec<lb break="no" ed="#L" n="36"/>clesiae de fide. Et istae distinguendae sunt. Quia quaedam
+<lb ed="#L" n="37"/>sunt contrariae fidei secundum se et quoad nos, quarum
+<lb ed="#L" n="38"/>scilicet contrarietas ad fidem est manifesta nobis: quaedam
+<lb ed="#L" n="39"/>secundum se tantum, quae scilicet contrariae sunt 
+propo<lb break="no" ed="#L" n="40"/>sitionibus veris pertinentibus ad fidem, sed earum 
+contra<lb break="no" ed="#L" n="41"/>rietas non est nobis manifesta, quia Ecclesia non 
+determi<lb break="no" ed="#L" n="42"/>navit. Sicut ista propositio, Spiritus Sanctus non procedit
+<lb ed="#L" n="43"/>a Filio, secundum se est contraria fidei, quia contrariatur
+<lb ed="#L" n="44"/>suae contradictoriae pertinenti ad fidem: sed. quando 
+ver<lb break="no" ed="#L" n="45"/>tebatur inter ipsos fideles in dubium, erat contraria 
+secun<lb break="no" ed="#L" n="46"/>dum se tantum; postquam autem patefacta est per 
+determi<lb break="no" ed="#L" n="47"/>nationem Ecclesiae, est contraria fidei secungutit se et quoad
+<lb ed="#L" n="48"/>nos, et sibi assensum pertinacem praestitutum, post ipsius
+<lb ed="#L" n="49"/>Evangelicam professionem, in specie haeresis reponit, ut ex
+<lb ed="#L" n="50"/>supradictis patet; Et inde haeretica denominatur: sicut 
+co<lb break="no" ed="#L" n="51"/>lumna dextera dicitur in respectu ad dexterum animalis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1329-Dd1e219"><!-- caj-p2p2-q11a2 -->
+               <head xml:id="TAcCaj-d1e1329-Hd1e222">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1329-d1e224">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e231">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="50"/>IN articulo secundo eiusdem quaestionis, et specialiter in
+<lb ed="#L" n="51"/>E ists ad tertium, adverte diligentissime. Cum 
+hae<lb break="no" ed="#L" n="52"/>resis ex tribus constituatur, scilicet errore in fide pertinaci;
+<lb ed="#L" n="53"/>et duo prima, scilicet error et sententia fidei, spectent ad
+<lb ed="#L" n="54"/>intellectum, tertium autem, scilicet pertinacia, ad 
+volunta<lb break="no" ed="#L" n="55"/>tem; et hoc, superveniens praecedentibus, ita constituat 
+ra<lb break="no" ed="#L" n="56"/>tionem haeresis ut sine eo haeresis non sit, sicut nec fides
+<lb ed="#L" n="57"/>sine voluntatis determinatione: manifestum primo est quod
+<lb ed="#L" n="58"/>si quis sententiam fidei contrariam secundum se teneret 
+pu<lb break="no" ed="#L" n="59"/>tans se recte sentire, non intendens ab Ecclesia dissentire,
+<lb ed="#L" n="60"/>talis adhaesio non est haeresis, propter defectum pertinaciae.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e260">
+                  <lb ed="#L" n="61"/>Sed et manifestum secundo est quod si quis, 
+cogno<lb break="no" ed="#L" n="62"/>scens aliquam propositionem spectare ad fidem, puta, Jesus
+<lb ed="#L" n="63"/>Nazarenus est verus Deus, credat esse falsam; idest, cum
+<lb ed="#L" n="64"/>occurrit sibi qiiod non est vera, consentit tali adhaesioni
+<lb ed="#L" n="65"/>qua non putat esse veram; talis adhaesio est vere et proprie
+<lb ed="#L" n="66"/>haeresis. Sicut namque; praesentato concubitu cum aliena
+<lb ed="#L" n="67"/>uxore, consentiens in illum crimen adulterii incurrit, et sic
+<lb ed="#L" n="68"/>de aliis; ita, praesentato errore in fide cum notitia quod
+<lb ed="#L" n="69"/>est error in fide, consensus in illum haereticum constituit.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e282">
+                  <lb ed="#L" n="70"/>Et ex hoc patet quod pertinacia quae ponitur de 
+ratio<lb break="no" ed="#L" n="71"/>ne haeresis non importat obdurationem seu obstinationem,
+<lb ed="#L" n="72"/>ut distinguitur contra infirmitatem, passionem et transitorium
+<lb ed="#L" n="73"/>seu levem consensum, sicut dicimus aliquem fornicari ex
+<lb ed="#L" n="74"/>passione, vel ex cholera consensisse in malum aliquod, et
+<lb ed="#L" n="75"/>non pertinaciter:.sed sumitur pertinacia ut aequivalet vero
+<lb ed="#L" n="76"/>consensui, praesupposita notitia quod sit error et quod sit
+<lb ed="#L" n="77"/>in fide. Sive enim ex passione, sive ex infirmitate, sive ex
+<lb ed="#L" n="78"/>quacumque alia causa perveniatur ad verum consensum in
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="79"/>assensum propositionis contrariae fidei, cum cognitione quod
+<lb ed="#L" n="80"/>sit contraria fidei, vera haeresis incurritur a Christiano. Nam
+<lb ed="#L" n="81"/>talis vere pertinax pro tunc est: quoniam cognoscit 
+Eccle<lb break="no" ed="#L" n="82"/>siam praecipere quod teneatur Christum esse verum Deum,
+<lb ed="#L" n="83"/>et ipse non vult pro tunc sic credere.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e318">
+                  <lb ed="#L" n="84"/>Si quis autem minus perspicax de hac doctrina dubitat,
+<lb ed="#L" n="85"/>animadvertat quod fides et infidelitas sunt contraria; et
+<lb ed="#L" n="86"/>quod quemadmodum illa perficitur assensu intellectus ex
+<lb ed="#L" n="87"/>consensu voluntatis, ita ista perficitur in dissensu 
+intelle<lb break="no" ed="#L" n="88"/>ctus ex consensu voluntatis; et clare videbit quod 
+consen<lb break="no" ed="#L" n="89"/>tiens non. solum opinioni contrariae fidei, sed etiam dubio
+<lb ed="#L" n="90"/>de certa propositione fidei, cognito quod certo spectat ad
+<lb ed="#L" n="91"/>fidem, est infidelis; et consequenter haereticus, si erat 
+Chri<lb break="no" ed="#L" n="92"/>stianus. Nihil enim est in genere nisi mediante specie.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e340">
+                  <lb ed="#L" n="93"/>II. In eodem secundo articulo, in responsione ad idem
+<lb ed="#L" n="94"/>tertium,' adverte quod auctoritas universalis Ecclesiae 
+de<lb break="no" ed="#L" n="95"/>terminativa de fide principaliter residet in Summo 
+Ponti<lb break="no" ed="#L" n="96"/>fice. Quod intellige inquantum Summus Pontifex est: quia
+<lb ed="#L" n="97"/>sic, et non ut singularis persona, a Deo gubernatur in his
+<lb ed="#L" n="98"/>quae sunt fidei, ita quod non potest determinare contra
+<lb ed="#L" n="99"/>fidem. Et propterea nec Hieronymus nec Augustinus 
+sen<lb break="no" ed="#L" n="100"/>tentiam. suam contra huiusmodi determinationem defendit.
+<lb ed="#L" n="101"/>Et hinc habes quantum cavere debes a Panormitano, Extra,
+<lb ed="#L" n="102"/>de Electione, in cap. Significasti, volente quod magis 
+do<lb break="no" ed="#L" n="103"/>ctoris quam Papae sententiae, in his quae sunt fidei, 
+stan<lb break="no" ed="#L" n="104"/>dum est. Vere ostendit illud: Quod medicorum est 
+pro<lb break="no" ed="#L" n="105"/>mittunt medici, tractant fabrilia fabri. — Haec autem in
+<lb ed="#L" n="106"/>tractatu quem de Comparatione Auctoritatis Papae et 
+Con<lb break="no" ed="#L" n="107"/>cilii fecimus, magis ostendimus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1329-Dd1e376"><!-- caj-p2p2-q11a3 -->
+               <head xml:id="TAcCaj-d1e1329-Hd1e379">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1329-d1e381">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="84"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e388">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="85"/>In tertio et quarto articulo eiusdem quaestionis, ubi de 
+<lb ed="#L" n="86"/>punitione haereticorum agitur, dubium occurrit, an 
+hae<lb break="no" ed="#L" n="87"/>retici in mente solum incurrant iuris positivi poenas, et 
+<lb ed="#L" n="88"/>praecipue excommunicationem. Et est ratio dubii quia 
+hae<lb break="no" ed="#L" n="89"/>resis in mente est non solum vera, sed perfecta haeresis. |
+<lb ed="#L" n="90"/>Ita quod non est de haeresi sicut de furto. Nam furtum in
+<lb ed="#L" n="91"/>mente, licet sit peccatum mortale, non tamen est furtum
+<lb ed="#L" n="92"/>perfectum. Sed haereticus in mente est perfecte haereticus:
+<lb ed="#L" n="93"/>quia sicut fides est virtus quae perficitur interius, ita 
+infi<lb break="no" ed="#L" n="94"/>delitas perficitur in' dissensu interiori ex consensu 
+volunta<lb break="no" ed="#L" n="95"/>tis. Constat autem quod excommunicantur non haeretici
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="96"/>manifesti, aut secundum actus exteriores, sed haeretici 
+ab<lb break="no" ed="#L" n="97"/>solute et simpliciter. Videtur igitur quod, quantumcumque
+<lb ed="#L" n="98"/>occulti, sint excommunicati. - Ex altera autem parte est
+<lb ed="#L" n="99"/>quia Ecclesia non iudicat occulta.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e427">
+                  <lb ed="#L" n="100"/>II. Ad evidentiam huius dubitationis, scito quod Glosss
+<lb ed="#L" n="101"/>Extra, de Haereticis, cap. Multorum, in Clementinis, refert  
+<lb ed="#L" n="102"/>Archidiaconum disputationi hoc reliquisse. Et plures affert
+<lb ed="#L" n="103"/>doctores pro parte affirmativa, quoad excommunicationem.
+<lb ed="#L" n="104"/>Affert quoque ad hoc multa iura. Et quoniam, allatorum
+<lb ed="#L" n="105"/>iurium cum multa quae in principio pro se affert, tenens
+<lb ed="#L" n="106"/>partem affirmativam indubitatam, vidissem, perspexi eius-
+<pb ed="#L" n="101"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dem minorem perspicaciam ; fultus nihilominus ratione 
+so<lb break="no" ed="#L" n="2"/>lida, ex qua solvuntur omnes: difficultates, destiti a 
+perscru<lb break="no" ed="#L" n="3"/>tatione iurium et doctorum allegatorum.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e456">
+                  <lb ed="#L" n="4"/>Duabus igitur distinctionibus in hac re utere. Prima est
+<lb ed="#L" n="5"/>de occulto, quod est duplex: quoddam per se, et quoddam
+<lb ed="#L" n="6"/>per accidens. Occultum per se est quod ex sua ratione
+<lb ed="#L" n="7"/>sibi vindicat non subesse cognitioni sensitivae, a qua 
+inci<lb break="no" ed="#L" n="8"/>pit humana. cognitio, secundum quam Ecclesia iudicat. 
+Oc<lb break="no" ed="#L" n="9"/>cultum vero per accidens est quod, licet sensui subiaceat,
+<lb ed="#L" n="10"/>testem tamen vel testes non habet.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e475">
+                  <lb ed="#L" n="11"/>Secunda est de actu interiori, quod dupliciter exerceri
+<lb ed="#L" n="12"/>potest. Primo, solus: ut cum quis vult facere malum 
+ali<lb break="no" ed="#L" n="13"/>quod, vel odio habet aliquem, vel discredit, et huiusmodi,
+<lb ed="#L" n="14"/>solum in corde suo. Secundo, potest exerceri ut causa 
+com<lb break="no" ed="#L" n="15"/>missionis vel omissionis exterioris: ut cum quis ex odio
+<lb ed="#L" n="16"/>facit vel omittit facere aliquid extra, sive illud extra sit
+<lb ed="#L" n="17"/>locutio sive operatio quaecumque.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e493">
+                  <lb ed="#L" n="18"/>Ex his siquidem sumendum tibi est quod, licet 
+occul<lb break="no" ed="#L" n="19"/>tissima per accidens, et actus. interiores ut rationes 
+exte<lb break="no" ed="#L" n="20"/>riorum commissionum vel omissionum, subiaceant 
+Eccle<lb break="no" ed="#L" n="21"/>siae iudicio et censuris; occulta tamen per se, ut sunt
+<lb ed="#L" n="22"/>actus interiores soli, ab Ecclesiae iudicio et censuris aliena
+<lb ed="#L" n="23"/>sunt. Et ratio est quia homo videt quae parent, Deus 
+au<lb break="no" ed="#L" n="24"/>tem intuetur cor, ut dicitur I Reg. xvi. Et propterea 
+Apo<lb break="no" ed="#L" n="25"/>stolus prohibet horum iudicium, dicens, I ad Cor. 1v:
+<lb ed="#L" n="26"/>Nolite ante tempus iudicare: quousque veniat Dominus,
+<lb ed="#L" n="27"/>qui manifestabit consilia cordium.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e517">
+                  <lb ed="#L" n="28"/>III. Ex his autem patet primo, quod haereticus perfectissi-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>mus in solo corde non est excommunicatus, nec aliarum
+<lb ed="#L" n="30"/>iuris humani poenarum reus. Si tamen peccatum haeresis,
+<lb ed="#L" n="31"/>non ratione censurae annexae, ut in processu annuali 
+Ro<lb break="no" ed="#L" n="32"/>manae curiae reservatur, sed absolute esset reservatum
+<lb ed="#L" n="33"/>Papae vel episcopo; non posset talis haereticus ab inferiori
+<lb ed="#L" n="34"/>absolvi: quoniam reservatio non est poena, sed negatio
+<lb ed="#L" n="35"/>vel ademptio iurisdictionis, qua superior potest uti in 
+quan<lb break="no" ed="#L" n="36"/>tumcumque occultis.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e541">
+                  <lb ed="#L" n="37"/>Patet secundo quod, si haereticus in corde exteriori 
+ali<lb break="no" ed="#L" n="38"/>quo opere vel verbo peccatum suum exequatur seu dicat,
+<lb ed="#L" n="39"/>statim est excommunicatus; etiam si nullus audiat, videat
+<lb ed="#L" n="40"/>aut quomodolibet percipiat nisi ipsemet. Quia tunc 
+hae<lb break="no" ed="#L" n="41"/>resis peccatum non nisi per accidens est occultum 
+Eccle<lb break="no" ed="#L" n="42"/>siae: per se enim habet unde possit ab Ecclesia sciri, quia
+<lb ed="#L" n="43"/>est peccatum exterius. Et propterea oportet confessores 
+in<lb break="no" ed="#L" n="44"/>quirere, cum poenitentes tepidi in fide qui victi 
+tentationi<lb break="no" ed="#L" n="45"/>bus consentiunt contra fidem occurrunt, an etiam secum
+<lb ed="#L" n="46"/>solus ore protulerit infidelitatem suam quando in illa erat.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e565">
+                  <lb ed="#L" n="47"/>Patet tertio quod, cum prohibetur inquisitoribus quod
+<lb ed="#L" n="48"/>odio vel amore, etc., non omittant procedere contra 
+hae<lb break="no" ed="#L" n="49"/>reticos, sub excommunicationis latae sententiae poena; non
+<lb ed="#L" n="50"/>excommunicatur actus interior solus, sed actus exterior,
+<lb ed="#L" n="51"/>puta impositio vel omissio, ex interiori odio vel amore 
+pro<lb break="no" ed="#L" n="52"/>cedens. Et simile est in aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1329-d1e581">
+                  <lb ed="#L" n="53"/>Et in hoc decepta videtur glossa allata, quia non 
+di<lb break="no" ed="#L" n="54"/>stinxit inter cor solum et cor ut rationem extrinseci, nec
+<lb ed="#L" n="55"/>inter occultum per se et occultum per accidens, ut nos
+<lb ed="#L" n="56"/>fecimus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

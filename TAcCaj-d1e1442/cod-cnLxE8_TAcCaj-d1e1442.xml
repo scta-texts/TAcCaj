@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 33</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 33</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="264"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1442"><!-- TAcCajp2p2-q33 -->
+            <head xml:id="TAcCaj-d1e1442-Hd1e101">Quaestio 33</head>
+            <div xml:id="TAcCaj-d1e1442-Dd1e103"><!-- caj-p2p2-q33a1 -->
+               <head xml:id="TAcCaj-d1e1442-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1442-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>IN articulo primo quaestionis trigesimaetertiae adverte quod
+<lb ed="#L" n="15"/>correctio fraterna ponitur actus caritatis mediante 
+mise<lb break="no" ed="#L" n="16"/>ricordia: quia est species eleemosynae; et, ut in quaestione
+<lb ed="#L" n="17"/>praecedenti dictum est, dare eleemosynam hoc modo est
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="18"/>actus caritatis. Ita quod tam caritas quam misericordia se
+<lb ed="#L" n="19"/>habet ut imperans: illa ut benefaciat, ista ut miseriam 
+aufe<lb break="no" ed="#L" n="20"/>rat; illa principalius, ista sub illa. Prudentia vero et 
+diri<lb break="no" ed="#L" n="21"/>git et exequitur admonitionis actum ad emendationis finem.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1442-Dd1e140"><!-- caj-p2p2-q33a2 -->
+               <head xml:id="TAcCaj-d1e1442-Hd1e143">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1442-d1e145">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="69"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e152">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="70"/>IN articulo secundo, in responsione ad. tertium, nota, pro
+<lb ed="#L" n="71"/>timoratis conscientiis, quod quando correctio fraterna
+<lb ed="#L" n="72"/>omittitur vel propter defectum spei, quia scilicet non sperat
+<lb ed="#L" n="73"/>illum se emendaturum; vel propter respectum humanum,
+<lb ed="#L" n="74"/>quia timet ne illum offendat, vel quia timet ne reputetur
+<lb ed="#L" n="75"/>praesumptuosus; vel propter ignorantiam, quia non 
+cre<lb break="no" ed="#L" n="76"/>dit se in tali casu obligari; et, breviter, ex quacumque
+<lb ed="#L" n="77"/>causa omittatur:- si hoc salvatur in praeparatione animi,
+<lb ed="#L" n="78"/>scilicet quod, si crederet probabiliter quod illum a mortali
+<lb ed="#L" n="79"/>peccato retraheret, omnia postponeret caritati fraternae,
+<lb ed="#L" n="80"/>non est peccatum mortale. Et ratio est quia in tali 
+omis<lb break="no" ed="#L" n="81"/>sione non tollitur ratio finis. Salvatur enim intentio 
+emen<lb break="no" ed="#L" n="82"/>dationis fratris, quam intendit caritas: et defectus contingit
+<lb ed="#L" n="83"/>in aliis circumstantiis, puta consideratione temporis, medii,
+<lb ed="#L" n="84"/>occursus vel debiti, et huiusmodi. Virtutis autem bonum
+<lb ed="#L" n="85"/>non tollitur substantialiter salvo bono quod est ex fine
+<lb ed="#L" n="86"/>unde specificatur, quamvis deficiat in aliqua circumstantia,
+<lb ed="#L" n="87"/>ut in littera dicitur: propter quem defectum veniale 
+pec<lb break="no" ed="#L" n="88"/>catum incurritur. Et hoc manifeste in. hac responsione 
+do<lb break="no" ed="#L" n="89"/>cemur, dum penes dominium vel non dominium. 
+passio<lb break="no" ed="#L" n="90"/>num in animo supra caritatem fraternam decernitur 
+mor<lb break="no" ed="#L" n="91"/>tale vel veniale.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e204">
+                  <lb ed="#L" n="92"/>II. In responsione ad quartum adverte quod illa verba,
+<lb ed="#L" n="93"/>Ita qui habet spiritualiter curam alicuius debet eum 
+quae<lb break="no" ed="#L" n="94"/>rere ad hoc ut eum corrigat de peccato, habent dubium
+<lb ed="#L" n="95"/>tangens etiam sequentem articulum: An praelati teneantur
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="96"/>quaerere defectus subditorum, propter praeceptum 
+correctio<lb break="no" ed="#L" n="97"/>nis fraternae. Ubi nota quod non est dubium an prael
+<lb ed="#L" n="98"/>teneatur vigilare super gregem suum, et inquirere si de E
+<lb ed="#L" n="99"/>ctus committuntur a subditis, et corrigere eos: hoc enim
+<lb ed="#L" n="100"/>constat esse verissimum, quia tenentur ad hoc ex 
+praece<lb break="no" ed="#L" n="101"/>pto iustitiae, quam profitentur ex officio. Sed dubium est
+<lb ed="#L" n="102"/>an ex praecepto caritatis debentis correctionem fraternam:
+<lb ed="#L" n="103"/>praelatus teneatur ad inquirendum. delicta subditorum, Et
+<lb ed="#L" n="104"/>est ratio dubii quia hinc littera. dicit quod habens 
+spiri<lb break="no" ed="#L" n="105"/>tualiter curam alicuius tenetur ad inquirendum eum: inde
+<lb ed="#L" n="106"/>autem dicit quod praeceptum de correctione fraterna 
+da<lb break="no" ed="#L" n="107"/>tum est cuilibet. Constat autem quod communia omnibus
+<lb ed="#L" n="108"/>praecepta obligant ad communes omnibus actus. Et sic aut
+<lb ed="#L" n="109"/>omnes aut nullum obligat ad inquirendum.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e248">
+                  <lb ed="#L" n="110"/>III. Ad huius evidentiam, sciendum est quod affinitas
+<lb ed="#L" n="111"/>inter praeceptum correctionis fraternae et praeceptum 
+corre<lb break="no" ed="#L" n="112"/>ctionis praelativae respectu huius, subditi quoad se, 
+obscuri<lb break="no" ed="#L" n="113"/>tatem parit. Praelatus enim, ut sic, non solum tenetur ad 
+pro<lb break="no" ed="#L" n="114"/>curandum commune bonum animarum sibi commissarum,
+<lb ed="#L" n="115"/>quod principaliter. intendere debet; sed etiam bonum animae
+<lb ed="#L" n="116"/>istius subditi sui. In cuius signum, tenetur ei sacramentum.
+<lb ed="#L" n="117"/>poenitentiae exhibere, quod ad ipsius solius spiritualem
+<lb ed="#L" n="118"/>emendationem fit. Et rursus praelatus, ut homo talis, 
+tene<lb break="no" ed="#L" n="119"/>tur ad emendationem fratris procurandam per correctionem
+<lb ed="#L" n="120"/>fraternam. Intendere ergo ad emendationem. proximi, qui
+<lb ed="#L" n="121"/>est principalis actus praecepti de correctione fraterna, et
+<pb ed="#L" n="265"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est secundarius actus praecepti de correctione praelativa,
+<lb ed="#L" n="2"/>in uno et eodem cum iungitur, difficultatem facit. 
+Diligen<lb break="no" ed="#L" n="3"/>tius tamen perscrutanti apparet quod, quemadmodum 
+iusti<lb break="no" ed="#L" n="4"/>tia et caritas, seu misericordia, sunt diversae virtutes, ita
+<lb ed="#L" n="5"/>et praecepta de actibus earum diversa sunt, nec coincidunt.
+<lb ed="#L" n="6"/>Et quemadmodum differentia hominis a seipso secundum
+<lb ed="#L" n="7"/>hoc quod est esse vel non esse praelatum, non affert aut
+<lb ed="#L" n="8"/>aufert novum praeceptum nisi quod ad praelationis 
+offi<lb break="no" ed="#L" n="9"/>cium ut sic spectat (ad nihil enim tenetur aliquis factus
+<lb ed="#L" n="10"/>praelatus ad quod prius non tenebatur nisi ad officium
+<lb ed="#L" n="11"/>praelationis et illud ut sic concomitans); ita non consonat
+<lb ed="#L" n="12"/>rationi ut factus quis praelatus teneatur ad inquirendum
+<lb ed="#L" n="13"/>pro correctione fraterna. Esset enim hoc novum praeceptum,
+<lb ed="#L" n="14"/>ad quod prius non tenebatur: et tamen non per se 
+spe<lb break="no" ed="#L" n="15"/>ctat ad praelationis officium, sed ad communem hominum
+<lb ed="#L" n="16"/>statum. Est autem ratio huius quia praeceptum 
+eleemo<lb break="no" ed="#L" n="17"/>synae non solum praesupponit indigentiam proximi, sed
+<lb ed="#L" n="18"/>notitiam illius indigentiae: ita quod omne eleemosynae
+<lb ed="#L" n="19"/>praeceptum consistit in hoc, Da indigenti noto; et non in
+<lb ed="#L" n="20"/>hoc quod quaerat notitiam indigentiae. Et propterea, 
+quan<lb break="no" ed="#L" n="21"/>tum estex vi istius praecepti, neque subditus neque 
+prae<lb break="no" ed="#L" n="22"/>latus tenetur inquirere.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e330">
+                  <lb ed="#L" n="23"/>Gravior tamen est cura praelatorum, ut Augustinus 
+di<lb break="no" ed="#L" n="24"/>dit. Quia si occurrat aliquis indigens correctione 
+prae<lb break="no" ed="#L" n="25"/>lato et alteri, magis tenetur praelatus ad correctionem quam 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>subditus: sicut magis tenetur praelatus ad non 
+scandali<lb break="no" ed="#L" n="27"/>zandum illum; sicut universaliter magis tenetur ad 
+obser<lb break="no" ed="#L" n="28"/>vantiam communium praeceptorum praelatus quam alii,
+<lb ed="#L" n="29"/>pro quanto tenetur ad excellentiorem vitam et doctrinam
+<lb ed="#L" n="30"/>quam alii.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e352">
+                  <lb ed="#L" n="31"/>IV. Quomodo autem praelatus ex praecepto sui officii 
+te<lb break="no" ed="#L" n="32"/>neatur etiam ad notitiam quaerendam de peccatis subditorum
+<lb ed="#L" n="33"/>ut eos corrigat, propter seipsos vel commune bonum, non
+<lb ed="#L" n="34"/>est praesentis quaestionis, ubi de praecepto correctionis
+<lb ed="#L" n="35"/>fraternae solum tractatur. Propter bonum autem ipsius 
+pec<lb break="no" ed="#L" n="36"/>catoris, praesentis est tractatus, in quo Auctor simul de
+<lb ed="#L" n="37"/>correctione fraterna et praelativa in ordine ad bonum 
+pec<lb break="no" ed="#L" n="38"/>catoris tractat. Et dicendum est quod ad hoc sufficit 
+vi<lb break="no" ed="#L" n="39"/>gilantia et custodia ad quam praelatus communiter 
+tene<lb break="no" ed="#L" n="40"/>tur; et secundum occurrentes casus, iuxta signa alicuius
+<lb ed="#L" n="41"/>particularis peccatoris, inquirere si correctione opus est. Ad
+<lb ed="#L" n="42"/>quod maxima opus est prudentia: ne multa suspicio 
+prae<lb break="no" ed="#L" n="43"/>cipitem et exosum praelatum reddat; nec incuria 
+multipli<lb break="no" ed="#L" n="44"/>cationem pariat peccatorum occultorum in iudicio. Haec
+<lb ed="#L" n="45"/>enim inquisitio, quae ad emendationem peccatoris 
+ordina<lb break="no" ed="#L" n="46"/>tur, non videtur scientifice determinanda: sed prudentiae,
+<lb ed="#L" n="47"/>quae circa particularia versatur, relinquitur considerare
+<lb ed="#L" n="48"/>qualiter et quando et cuius quaerendum est peccatum 
+sa<lb break="no" ed="#L" n="49"/>nandum.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e396">
+                  <lb ed="#L" n="50"/>Et haec pro tertio etiam articulo sufficiant.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1442-Dd1e402"><!-- caj-p2p2-q33a4 -->
+               <head xml:id="TAcCaj-d1e1442-Hd1e405">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1442-d1e407">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="81"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e414">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>In articulo quarto, in responsione ad secundum, dubium
+<lb ed="#L" n="83"/>magnum est, quomodo Paulus fuit par Petro quantum
+<lb ed="#L" n="84"/>ad fidei defensionem , cum Petrus esset solus universalis
+<lb ed="#L" n="85"/>pastor, ex papatus officio omnibus praestans etiam quoad
+<lb ed="#L" n="86"/>fidei defensionem, ut caput membris.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e430">
+                  <lb ed="#L" n="87"/>Ad hoc dicitur quod quantum ad fidei defensionem 
+exe<lb break="no" ed="#L" n="88"/>cutive Paulus erat par Petro. Unde et in littera ponitur ly
+<lb ed="#L" n="89"/>aliquo modo: quasi diceret quod non simpliciter in 
+defen<lb break="no" ed="#L" n="90"/>sione fidei, sed aliquo modo in hoc erat par. Significat
+<lb ed="#L" n="91"/>autem paritas haec universalem curam in utroque 
+defen<lb break="no" ed="#L" n="92"/>dendi fidem a Domino lesu. Christo habitam, Cum qua
+<lb ed="#L" n="93"/>aequalitate stat summa auctoritas ex officio defendendi 
+fi<lb break="no" ed="#L" n="94"/>dem in solo Petro. Sicut si Papa committeret auctoritatem
+<lb ed="#L" n="95"/>episcopalem in aliqua dioecesi archipresbytero, ille esset
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="96"/>aequalis episcopo ex delegata potestate exequendi, non
+<lb ed="#L" n="97"/>autem ex officio. -
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e459">
+                  <lb ed="#L" n="98"/>II. In eadem responsione ad secundum adverte quod,
+<lb ed="#L" n="99"/>cum doctrina apostolica non solo verbo, sed facto 
+Eccle<lb break="no" ed="#L" n="100"/>siae proponatur; ex facto Pauli docemur quod, ubi esset
+<lb ed="#L" n="101"/>periculum fidei, non informis sed formatae, in ecclesia 
+ali<lb break="no" ed="#L" n="102"/>qua; et esset spes subveniendi tali periculo non per 
+secre<lb break="no" ed="#L" n="103"/>tam monitionem, sed solum per hoc, essent praelati a
+<lb ed="#L" n="104"/>subditis publice arguendi, sicut publice errant. Factum enim
+<lb ed="#L" n="105"/>Petri non erat tam grande ut haberet etiam rationem 
+scan<lb break="no" ed="#L" n="106"/>dali activi; ut inferius in quaestione de scandalo Auctor
+<lb ed="#L" n="107"/>dicit. Et periculum caritatis periculum vitae est: quia fides
+<lb ed="#L" n="108"/>sine operibus mortua est. Et rursus totum Ecclesiae 
+stu<lb break="no" ed="#L" n="109"/>dium est ad fidem formatam generandam, nutriendam atque 
+<pb ed="#L" n="267"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tuendam: reliqua namque pars redigenda est in fasciculos
+<lb ed="#L" n="2"/>ad comburendum. Quare arguens Paulus Petrum propter
+<lb ed="#L" n="3"/>periculum salutis credentium, nec tam parvum peccatum
+<lb ed="#L" n="4"/>(scandalosum tamen) sufferens, docuit alios quam 
+magna<lb break="no" ed="#L" n="5"/>nimos se exhibere debent in sceleribus arguendis (verbis
+<lb ed="#L" n="6"/>tamen) praelatorum suorum scandalizantium Ecclesiam et
+<lb ed="#L" n="7"/>trahentium exemplo suo alios in damnationem. Et ad hoc
+<lb ed="#L" n="8"/>tenentur principes tam Ecclesiae quam orbis cum Papa
+<lb ed="#L" n="9"/>scandalizat Ecclesiam et, reverenter ad partem monitus, non
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>resipisceret. Probabile namque est quod verebitur principes
+<lb ed="#L" n="11"/>palam arguentes, quamvis subditorum salutem contemnat;
+<lb ed="#L" n="12"/>et si ipse non fiat bonus, saltem alios non scandalizabit.
+<lb ed="#L" n="13"/>Multo enim magis ad hoc tenentur qui possunt opem
+<lb ed="#L" n="14"/>ferre quam ad eruendum eos qui ducuntur ad mortem
+<lb ed="#L" n="15"/>corporalem. Debent enim opponere se murum ex adverso
+<lb ed="#L" n="16"/>pro domo Israel. Videntes enim fratres suos indigere,
+<lb ed="#L" n="17"/>et claudentes viscera suae misericordiae cum effectu ab
+<lb ed="#L" n="18"/>eis, quomodo caritatem Dei habent?
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1442-Dd1e534"><!-- caj-p2p2-q33a5 -->
+               <head xml:id="TAcCaj-d1e1442-Hd1e537">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1442-d1e539">
+                  <pb ed="#L" n="268"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e548">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo quinto nota quod quaestio ista de 
+ministra<lb break="no" ed="#L" n="3"/>tione in peccato ter in hoc opere tractatur: primo, hic,
+<lb ed="#L" n="4"/>quoad correctionem; secundo, inferius in tractatu de 
+iusti<lb break="no" ed="#L" n="5"/>tia, quoad iudicium; et demum in Tertia Parte, in 
+tra<lb break="no" ed="#L" n="6"/>ctatu de sacramentis, quoad actus sacramentales. Et vera
+<lb ed="#L" n="7"/>conclusio est quod in solis actibus sacris ministerium in
+<lb ed="#L" n="8"/>peccato mortali facit novum peccatum mortale: ut in 
+Quo<lb break="no" ed="#L" n="9"/>libet diximus ex doctrina Auctoris in Tertia Parte.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e570">
+                  <lb ed="#L" n="10"/>In proposito ergo scito quod Auctor hoc in loco 
+osten<lb break="no" ed="#L" n="11"/>dit quod etiam absque peccati venialis incursu potest 
+pec<lb break="no" ed="#L" n="12"/>cator corrigere. Et hoc ostendit sic. Peccatum non tollit
+<lb ed="#L" n="13"/>id unde homini convenit corrigere delinquentem: quia non
+<lb ed="#L" n="14"/>tollit rectum iudicium rationis, etc. Ergo non per se 
+con<lb break="no" ed="#L" n="15"/>trariatur officio correctionis fraternae. Per accidens autem
+<lb ed="#L" n="16"/>peccatum tripliciter impedire cum possit (scilicet vel ra-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>tione suppositi indigni, vel ratione superbiae, vel ratione
+<lb ed="#L" n="18"/>scandali); cum peccatum reddat hominem indignum non
+<lb ed="#L" n="19"/>contrarie, sed negative, ad corrigendum (propter quod 
+lit<lb break="no" ed="#L" n="20"/>tera, cum dixit, indignus redditur, subdidit, declarando,
+<lb ed="#L" n="21"/>non est dignus. Et ratio est quia non tollit rationem. 
+cor<lb break="no" ed="#L" n="22"/>rigendi, scilicet rectum iudicium: contraria enim. mutuo
+<lb ed="#L" n="23"/>se excludunt); et scandalum ac superbia evitabilia sunt, si
+<lb ed="#L" n="24"/>tanquam ingemiscens corrigat: consequens est ut non 
+so<lb break="no" ed="#L" n="25"/>lum per se loquendo, sed etiam per accidens, existens in
+<lb ed="#L" n="26"/>peccato mortali, qui scilicet nec contritus est, non noviter
+<lb ed="#L" n="27"/>peccat.si absque superbia et scandalo fraternam exerceat
+<lb ed="#L" n="28"/>correctionem. Immo ad ipsam sic tenetur. — Et 
+confirma<lb break="no" ed="#L" n="29"/>tur. Quia opus misericordiae facit, quo ad veniam et 
+con<lb break="no" ed="#L" n="30"/>tritionem. peccati se disponit, multo magis quam per opera
+<lb ed="#L" n="31"/>misericordiae corporalis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1442-Dd1e624"><!-- caj-p2p2-q33a6 -->
+               <head xml:id="TAcCaj-d1e1442-Hd1e627">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1442-d1e629">
+                  <pb ed="#L" n="269"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e638">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo sexto adverte imprudentiam eorum qui, 
+im<lb break="no" ed="#L" n="3"/>patienter ferentes blasphemias et alia vitia filiorum aut
+<lb ed="#L" n="4"/>domesticorum , et experti monitiones non prodesse sed
+<lb ed="#L" n="5"/>obesse, ita ut quoties monentur peius faciant; non tamen
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="6"/>cessant verbis eos arguere. Involvuntur enim potius 
+pec<lb break="no" ed="#L" n="7"/>cantium erratis, augendo indirecte eorum excessus, non
+<lb ed="#L" n="8"/>servato rationis ordine, quam caritatis praecepta 
+exe<lb break="no" ed="#L" n="9"/>quantur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1442-Dd1e663"><!-- caj-p2p2-q33a7 -->
+               <head xml:id="TAcCaj-d1e1442-Hd1e666">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1442-d1e668">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e675">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="92"/>IN articulo septimo dubium: clericorum occurrit, an 
+te<lb break="no" ed="#L" n="93"/>neantur denuntiare. notam sibi proditionem vel 
+occisio<lb break="no" ed="#L" n="94"/>nem, rapinam, etc., praeparatam, propter periculum. 
+irre<lb break="no" ed="#L" n="95"/>gularitatis: quoniam ad occisionem proditoris procedetur.
+<lb ed="#L" n="96"/>Et est ratio dubii quia ad praecepta caritatis quilibet 
+te<lb break="no" ed="#L" n="97"/>netur: et tamen nullus tenetur ad id quod inhabilem eum
+<lb ed="#L" n="98"/>reddit ad executionem sui officii. Constat autem quod, 
+se<lb break="no" ed="#L" n="99"/>cundum ius canonicum, non nisi in causa propria licet
+<lb ed="#L" n="100"/>clericis absque nota irregularitatis causam sanguinis 
+co<lb break="no" ed="#L" n="101"/>ram iudice proponere, cum protestatione expressa, etc.:
+<lb ed="#L" n="102"/>ut patet in Sexto, de Homicidio, cap. Praelatis.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e704">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="103"/>II. Ad hoc dicitur quod ius naturae, divinum et 
+Ec<lb break="no" ed="#L" n="104"/>clesiae ita se habent quod, sicut gratia perficit naturam
+<lb ed="#L" n="105"/>et non destruit illam, ita ius ecclesiasticum perficit ius. 
+di<lb break="no" ed="#L" n="106"/>vinum et non destruit illud. Et propterea, sicut nullum
+<lb ed="#L" n="107"/>praeceptum divinum est contra praecepta iuris naturae, ita
+<lb ed="#L" n="108"/>nullum praeceptum Ecclesiae est contra praeceptum iuris
+<lb ed="#L" n="109"/>divini, Cum autem tam rationalis natura quam caritatis lex
+<lb ed="#L" n="110"/>mandet ut periculo non solum reipublicae, sed cuiuscumque
+<lb ed="#L" n="111"/>proximi, si possumus, subveniamus; et in casu paratae
+<lb ed="#L" n="112"/>proditionis, homicidii, rapinae aut huiusmodi solo verbo
+<lb ed="#L" n="113"/>manifestativo. possimus consulere periculo proximi: con-
+<pb ed="#L" n="271"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sequens est ut nulla Ecclesiae lex intelligatur mandare 
+op<lb break="no" ed="#L" n="2"/>positum.. Quamvis enim ecclesiastica lex aliquid prohibeat
+<lb ed="#L" n="3"/>clericis quod alias licite fieri posset, nunquam tamen 
+pro<lb break="no" ed="#L" n="4"/>hibet eisdem, aut aliis, ad quod alias tenentur. Unde et,
+<lb ed="#L" n="5"/>in proposito, Ecclesiae praelatis habentibus iurisdictionem
+<lb ed="#L" n="6"/>temporalem, quia tenentur ad iustitiam vindicativam etiam
+<lb ed="#L" n="7"/>in causa sanguinis, nulla irregularitas imminet si, exorto
+<lb ed="#L" n="8"/>homicidio, committat iudici suo ut, veritate comperta, 
+iu<lb break="no" ed="#L" n="9"/>stitiam faciat: ut patet Extra, in cap. Episcopus, Ne clerici
+<lb ed="#L" n="10"/>vel monachi se immisceant etc.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e759">
+                  <lb ed="#L" n="11"/>In proposito ergo, cum casus accidit quo sacerdos non
+<lb ed="#L" n="12"/>potest aliter succurrere periculo proximi nisi revelando 
+prae<lb break="no" ed="#L" n="13"/>parationem et praeparantem, non debet dicerg, Capiatis
+<lb ed="#L" n="14"/>talem, etc., sed, Caveatis a tali; et praemittat expressam
+<lb ed="#L" n="15"/>protestationem quod solum cautelam proximi intendit; ut
+<lb ed="#L" n="16"/>conformet se canoni, si iudici revelat. Advertatque 
+diligen<lb break="no" ed="#L" n="17"/>ter et discernat necessitatem revelandi personam. Nam si
+<lb ed="#L" n="18"/>ad evitandum periculum sufficit revelare praeparationem,
+<lb ed="#L" n="19"/>sed princeps postmodum vult extorquere revelationem 
+per<lb break="no" ed="#L" n="20"/>sonae, non debet clericus personam manifestare: cessat enim
+<lb ed="#L" n="21"/>tunc ratio revelandi quae ipsum obligabat.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e786">
+                  <lb ed="#L" n="22"/>Et per haec patet solutio obiectorum. Canones enim
+<lb ed="#L" n="23"/>prohibentes agitationem causae sanguinis a clericis 
+prohi<lb break="no" ed="#L" n="24"/>bent actus ad quos non tenentur simpliciter aut per seipsos,
+<lb ed="#L" n="25"/>et non.eos-ad quos tenentur. - Et confirmatur hoc ex eo
+<lb ed="#L" n="26"/>quod nullus status, nullum votum, nullum praeceptum
+<lb ed="#L" n="27"/>excusat hominem potentem subvenire a subventione 
+pro<lb break="no" ed="#L" n="28"/>ximi in casu extremae necessitatis; aut inhabilem reddit ad
+<lb ed="#L" n="29"/>huiusmodi subventionem in casu extremae necessitatis : nisi
+<lb ed="#L" n="30"/>status perfectionis caritati contrarius inveniatur, quod est
+<lb ed="#L" n="31"/>impossibile. Constat autem in proposito casum esse 
+extre<lb break="no" ed="#L" n="32"/>mae necessitatis, quando aliud non est remedium, ad 
+evi<lb break="no" ed="#L" n="33"/>tandam mortem alicuius, nisi revelatio personae fiat tali,
+<lb ed="#L" n="34"/>puta iudici.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e817">
+                  <lb ed="#L" n="35"/>III. In responsione ad tertium, dubium ex Durando,
+<lb ed="#L" n="36"/>ambiguo, in qu. 4 dist. xix libri Quarti, occurrit, an 
+se<lb break="no" ed="#L" n="37"/>creta monitio praecedere debeat accusationem. Et sine 
+ar<lb break="no" ed="#L" n="38"/>gumentis, scito quod accusatio dupliciter occurrere potest:
+<lb ed="#L" n="39"/>primo, ut licita; secundo, ut debita. Et quando alicui licet
+<lb ed="#L" n="40"/>' accusare, si sperat per secretam monitionem emendationem
+<lb ed="#L" n="41"/>peccatoris; nec imminet ex dilatione punitionis illius poeni-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="42"/>tentis damnum communis boni; tunc in foro poenitentiae
+<lb ed="#L" n="43"/>tenetur praemittere correctionem secretam: quia et bonum
+<lb ed="#L" n="44"/>commune et bonum famae proximi salvari potest tunc cum
+<lb ed="#L" n="45"/>spe salutis proximi. Sed quando aliquis tenetur ad 
+accusan<lb break="no" ed="#L" n="46"/>dum, quod tunc solum est, ut inferius patebit, quando 
+bo<lb break="no" ed="#L" n="47"/>num commune hoc exigit; tunc non habet locum secretae
+<lb ed="#L" n="48"/>monitionis praemissio: quia sive emendetur sive non, 
+com<lb break="no" ed="#L" n="49"/>mune bonum non patitur dilationem. Et hoc est quod
+<lb ed="#L" n="50"/>Auctor in littera dicit in hac responsione, dum ait quod
+<lb ed="#L" n="51"/>quando imminet periculum multitudinis, non habet locum
+<lb ed="#L" n="52"/>praeceptum Domini de secreta monitione, quia non peccat
+<lb ed="#L" n="53"/>frater in te tantum. Haec enim verba dicuntur respondendo
+<lb ed="#L" n="54"/>ad argumentum de accusatione: quia accusatio solum 
+pro<lb break="no" ed="#L" n="55"/>pter periculum seu malum multitudinis est necessaria, ut
+<lb ed="#L" n="56"/>inferius patet.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e869">
+                  <lb ed="#L" n="57"/>IV. In eodem articulo, in responsione ad quintum, 
+du<lb break="no" ed="#L" n="58"/>bium occurrit an, cum proceditur per viam 
+denuntiatio<lb break="no" ed="#L" n="59"/>nis, possit. praelatus praecipere aut inquirere. Et est ratio
+<lb ed="#L" n="60"/>dubii quia inquisitio est alia via procedendi quam 
+denun<lb break="no" ed="#L" n="61"/>tiatio, et habent diversos fines: nam illa ad bonum 
+pec<lb break="no" ed="#L" n="62"/>catoris, haec ad bonum commune ordinatur, In oppositum
+<lb ed="#L" n="63"/>autem est quod Auctor hic excipit, quando per aliqua 
+in<lb break="no" ed="#L" n="64"/>dicia manifestantur.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e889">
+                  <lb ed="#L" n="65"/>Ad hoc dicitur quod inquisitio, proprie loquendo, non
+<lb ed="#L" n="66"/>habet locum in processu per denuntiationem: quoniam 
+in<lb break="no" ed="#L" n="67"/>quisitionem praecedere debet infamia. Ita quod etiam si duo
+<lb ed="#L" n="68"/>vel plures iurent vidisse se aliquem commisisse crimen
+<lb ed="#L" n="69"/>aliquod; et nulla adest infamia; non est propterea 
+inqui<lb break="no" ed="#L" n="70"/>rendum, ut in cap. Inquisitionis, Extra, de Accusationibus,
+<lb ed="#L" n="71"/>dicitur. Sed nec est puniendus iudicialiter nisi, fraterna
+<lb ed="#L" n="72"/>correctione praemissa, processum sit per denuntiationis
+<lb ed="#L" n="73"/>viam, ut praedictum est. Praecipere autem potest 
+praela<lb break="no" ed="#L" n="74"/>tus subditis inductis per testes, cum per denuntiationem
+<lb ed="#L" n="75"/>proceditur, de veritate dicenda: sicut iudex iuramentum
+<lb ed="#L" n="76"/>potest exigere. Exceptio igitur Auctoris in littera non 
+re<lb break="no" ed="#L" n="77"/>stringitur ad casum quando proceditur per denuntiationem,
+<lb ed="#L" n="78"/>sed in communi loquitur, ad perfectionem doctrinae, quando
+<lb ed="#L" n="79"/>obligat praeceptum praelati: ut patet ex eo quod dicit, puta
+<lb ed="#L" n="80"/>per. infamiam; constat namque infamiam ad formam 
+per<lb break="no" ed="#L" n="81"/>tinere inquisitionis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1442-Dd1e929"><!-- caj-p2p2-q33a8 -->
+               <head xml:id="TAcCaj-d1e1442-Hd1e932">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1442-d1e934">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e941">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="40"/>In articulo octavo adverte quod duplex remedium contra
+<lb ed="#L" n="41"/>peccatum inquantum nocet ipsi peccanti, statutum est.
+<lb ed="#L" n="42"/>Primum consummabile a quocumque: et est secreta 
+mo<lb break="no" ed="#L" n="43"/>nitio. Secundum consummabile a solo praelato: et est 
+me<lb break="no" ed="#L" n="44"/>dicinalis punitio propter ipsum sanandum, ut vel coactus
+<lb ed="#L" n="45"/>poena emendetur. Et a primo pervenitur ad ultimum per
+<lb ed="#L" n="46"/>medium, testium scilicet adhibitionem, ut in littera dicitur.
+<lb ed="#L" n="47"/>Et hinc habes affinitatem supra dictam inter praeceptum
+<lb ed="#L" n="48"/>de correctione fraterna datum cuilibet, et de correctione
+<lb ed="#L" n="49"/>praelativa ad emendationem ipsius fratris.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e967">
+                  <lb ed="#L" n="50"/>II. In eodem articulo, in responsione ad primum, 
+du<lb break="no" ed="#L" n="51"/>bium ex Durando, in praedicta quaestione, stimulat. 
+Vi<lb break="no" ed="#L" n="52"/>detur enim sequi opinionem quam Auctor hic reprobat,
+<lb ed="#L" n="53"/>quoad hoc quod, crimine fratris existente occulto, non sunt
+<lb ed="#L" n="54"/>adhibendi testes, si actus iteretur, ut convincatur. Quia non
+<lb ed="#L" n="55"/>debemus esse alienae vitae exploratores, secundum 
+Augu<lb break="no" ed="#L" n="56"/>stinum, Et quia magis est secundum caritatem in tali casu
+<lb ed="#L" n="57"/>revelare ei qui potest impedire iterationem actus quam 
+per<lb break="no" ed="#L" n="58"/>mittere et afferre testes. Et ad auctoritatem Augustini in
+<lb ed="#L" n="59"/>Regula dicit quod non videtur loqui de eo quod est 
+cri<lb break="no" ed="#L" n="60"/>men secundum se, sed occasio criminis, scilicet fixione
+<lb ed="#L" n="61"/>oculi. Nec dicit ad hoc explorandum testes induci: sed si
+<lb ed="#L" n="62"/>forte aliqui sint praesentes qui non advertunt, inducendi
+<lb ed="#L" n="63"/>sunt ut advertant.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e1000">
+                  <lb ed="#L" n="64"/>Ad hoc dicitur quod mirum est de isto homine et 
+prae<lb break="no" ed="#L" n="65"/>ceptum Domini, Matth. xvii, et verba Augustini in Regula
+<lb ed="#L" n="66"/>non advertente. Augustinus enim expresse in Regula et
+<lb ed="#L" n="67"/>de quolibet se loqui fatetur, cum dicit: Et hoc quod dixi
+<lb ed="#L" n="68"/>de oculo non figendo, etiam in ceteris inveniendis, 
+pro<lb break="no" ed="#L" n="69"/>hibendis, indicandis , convincendis, iudicandisque peccatis
+<lb ed="#L" n="70"/>diligenter et fideliter observetur; et testibus 
+demonstran<lb break="no" ed="#L" n="71"/>dum, si post admonitionem | idipsum fecerit, ut duorum
+<lb ed="#L" n="72"/>vel trium possit ore convinci, expresse dicit. Quid 
+cla<lb break="no" ed="#L" n="73"/>rius? Unde dicendum est quod, si est spes correctionis, quia
+<lb ed="#L" n="74"/>vel coram ipsis erubescens resipiscet, vel quia vexatio 
+da<lb break="no" ed="#L" n="75"/>bit intellectum, absque dubio ex caritate demonstrandum
+<lb ed="#L" n="76"/>est si iteratur peccatum, propter rationem Augustini, 
+sci<lb break="no" ed="#L" n="77"/>licet quia fratres nostros, quos indicando corrigere 
+pos<lb break="no" ed="#L" n="78"/>sumus, non debemus tacendo permittere perire.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e1036">
+                  <lb ed="#L" n="79"/>Nec hoc est exploratorem fieri alienae vitae: sed occur-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>rentem morbum proximi velle demonstrando curare, ex quo
+<lb ed="#L" n="81"/>simplex admonitio non sufficit ad curam illius. Sapiens
+<lb ed="#L" n="82"/>enim et amicus medicus infirmum si non potest leviori
+<lb ed="#L" n="83"/>remedio curare, graviori utitur ad medelam. — Nec est 
+ve<lb break="no" ed="#L" n="84"/>rum quod magis esset secundum caritatem indicare ei qui
+<lb ed="#L" n="85"/>impediret iterandum actum. Quoniam hoc remedium non
+<lb ed="#L" n="86"/>est curativum morbi: quoniam impeditus a reiterando 
+rei<lb break="no" ed="#L" n="87"/>teraret si posset. Caritas autem quaerit sanare morbum
+<lb ed="#L" n="88"/>proximi: et propterea suadet demonstrare iterandum actum,
+<lb ed="#L" n="89"/>ne putrescat occultus morbus. - Non tamen propterea 
+oc<lb break="no" ed="#L" n="90"/>casio ei danda est ut iteret actum malum: quoniam om
+<lb ed="#L" n="91"/>sunt facienda mala ut eveniant bona. Sed permittendus
+<lb ed="#L" n="92"/>est iterare, adhibitis testibus, ut vel sic curetur: omnis enim
+<lb ed="#L" n="93"/>fructus est ut auferatur peccatum.
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e1073">
+                  <lb ed="#L" n="94"/>III. In eadem responsione ad primum, dubium 
+occur<lb break="no" ed="#L" n="95"/>rit an, inductis testibus ad videndum iteratum crimen ,
+<lb ed="#L" n="96"/>si desit spes emendationis peccatoris, procedendum sit ad
+<lb ed="#L" n="97"/>publicam denuntiationem. Et est ratio dubii quia 
+appa<lb break="no" ed="#L" n="98"/>ret quod non est procedendum, ex eo quod non est spes
+<lb ed="#L" n="99"/>emendationis, ad quam ordinatur denuntiatio. Apparet
+<lb ed="#L" n="100"/>quoque oppositum, ex eo quod crimen iam non est 
+am<lb break="no" ed="#L" n="101"/>plius occultum: quoniam potest testibus convinci, ^
+</p>
+               <p xml:id="TAcCaj-d1e1442-d1e1093">
+                  <lb ed="#L" n="102"/>Ad hoc dicitur quod, cum procedere in criminibus 
+cor<lb break="no" ed="#L" n="103"/>rigendis ordinetur ad emendationem peccatoris ut ad finem,
+<lb ed="#L" n="104"/>ut ex Augustino in Regula, et Extra, de Accusationibus ,
+<lb ed="#L" n="105"/>cap. Super his, patet; et ex fine sumenda sit ratio 
+eo<lb break="no" ed="#L" n="106"/>rum quae ad finem ordinantur: si post inductionem 
+te<lb break="no" ed="#L" n="107"/>stium probabiliter creditur quod peccator, videns se 
+de<lb break="no" ed="#L" n="108"/>nuntiatum , deterior efficietur, desistendum est a 
+denun<lb break="no" ed="#L" n="109"/>tiatione. Et similiter si post denuntiationem probabiliter
+<lb ed="#L" n="110"/>constet quod, si convincatur, ibit in perditionem; debet
+<lb ed="#L" n="111"/>iudex non procedere ad convincendum hominem talem.
+<lb ed="#L" n="112"/>Et hoc dico si peccatum est tale quod sibi soli nocet.
+<lb ed="#L" n="113"/>Secus enim esset si peccatum esset in aliorum 
+nocumen<lb break="no" ed="#L" n="114"/>tum vel periculum: quoniam tunc non ipsius solius habenda.
+<lb ed="#L" n="115"/>est ratio. - Nec obstat quod peccatum iam non est occul-.
+<lb ed="#L" n="116"/>tum. Quoniam adhuc infra latitudinem occultorum 
+compu<lb break="no" ed="#L" n="117"/>tatur, quando alios non scandalizat nec nocet alicui alteri,
+<lb ed="#L" n="118"/>quamvis tribus aut quatuor tacentibus notum sit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="8"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1277"><!-- TAcCajp2p2-q1 -->
+            <head xml:id="TAcCaj-d1e1277-Hd1e101">Quaestio 1</head>
+            <div xml:id="TAcCaj-d1e1277-Dd1e103"><!-- caj-p2p2-q1a1 -->
+               <head xml:id="TAcCaj-d1e1277-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1277-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>In corpore primi articuli quaestionis primae multa 
+oc<lb break="no" ed="#L" n="13"/>currunt dubia, Primo, quid intendat Auctor per veritatem
+<lb ed="#L" n="14"/>primam. Et est ratio dubii quia aut intendit veritatem
+<lb ed="#L" n="15"/>primam ut sic: aut, non sollicitus de vocabulis, intendit
+<lb ed="#L" n="16"/>Deum. Si primo modo, contra seipsum et veritatem sentit.
+<lb ed="#L" n="17"/>Contra seipsum quidem, nam in Prima Parte, qu. 1, art. 7,
+<lb ed="#L" n="18"/>ponit Deum sub ratione deitatis esse obiectum theologiae
+<lb ed="#L" n="19"/>propter hoc quia est obiectum fidei, quae est principium
+<lb ed="#L" n="20"/>theologiae. - Contra veritatem vero quia, cum verum sit
+<lb ed="#L" n="21"/>velut passio entis, esse veritatem est veluti consequens ad
+<lb ed="#L" n="22"/>deitatem; ac per hoc ultima resolutio fidei non sistit donec
+<lb ed="#L" n="23"/>perveniat ad deitatem. Si enim quaeritur quare Deo 
+cre<lb break="no" ed="#L" n="24"/>dimus, respondebitur, quia est ipsa veritas; et si quaeratur
+<lb ed="#L" n="25"/>quare est hoc, respondetur, quia est Deus; et hic est 
+ter<lb break="no" ed="#L" n="26"/>minus quaestionis, inquit Aureolus, apud Capreolum, in
+<lb ed="#L" n="27"/>xxiv dist. HI Sent.—- Et confirmatur, inquit: quia aliter non
+<lb ed="#L" n="28"/>esset idem finis et obiectum fidei. Nam deitas est finis: et
+<lb ed="#L" n="29"/>veritas, quae quasi passio est eius, esset obiectum. Deitas
+<lb ed="#L" n="30"/>igitur, et non veritas prima, est formale obiectum fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e161">
+                  <lb ed="#L" n="31"/>Si vero intendit secundo modo, tunc doctrina rion esset
+<lb ed="#L" n="32"/>formalis. Quod est magnum inconveniens.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e168">
+                  <lb ed="#L" n="33"/>II. Secundo dubium occurrit, an veritas prima 
+abso<lb break="no" ed="#L" n="34"/>lute, aut secundum aliquam specificationem sit formale
+<lb ed="#L" n="35"/>obiectum fidei. Si absolute, sequeretur quod fides se 
+ex<lb break="no" ed="#L" n="36"/>tenderet ad omnia quae sunt per primam veritatem 
+credi<lb break="no" ed="#L" n="37"/>bilia. Quod constat esse falsum: plura. namque sunt per
+<lb ed="#L" n="38"/>divinam veritatem credibilia quam cadant sub fide de qua
+<lb ed="#L" n="39"/>loquimur, quae est virtus theologica; ut patet de multis
+<lb ed="#L" n="40"/>revelationibus impertinentibus ad fidem Christianam.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e189">
+                  <lb ed="#L" n="41"/>Si limitate, erravit Auctor non specificans rationem 
+il<lb break="no" ed="#L" n="42"/>lam, sed ponens obiectum formale primam veritatem 
+abs<lb break="no" ed="#L" n="43"/>que additione aliqua. Et assignanda nihilominus esset talis
+<lb ed="#L" n="44"/>specificatio. Si dicatur quod specificatur per revelationem,
+<lb ed="#L" n="45"/>ita quod veritas prima ut revelata a se est obiectum fidei: —
+<lb ed="#L" n="46"/>Contra, inquit Scotus, in xxm: dist, III Sent., quia ens 
+ra<lb break="no" ed="#L" n="47"/>tionis non est ratio formalis obiecti habitus realis, sicut
+<lb ed="#L" n="48"/>nec potentiae; constat autem quod esse revelatum nihil
+<lb ed="#L" n="49"/>reale ponit in Deo revelante, sicut nec esse cognitum ponit
+<lb ed="#L" n="50"/>aliquid in re cognita. Ergo fides non innititur veritati 
+pri<lb break="no" ed="#L" n="51"/>mae ut revelatae a se tanquam obiecto seu rationi formali.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e215">
+                  <lb ed="#L" n="52"/>III. Tertio occurrit dubium, quomodo sola veritas prima
+<lb ed="#L" n="53"/>ponitur obiectum formale fidei, dum dicitur quod nihil
+<lb ed="#L" n="54"/>aliud est quam veritas prima. Et dubitatur simpliciter et
+<lb ed="#L" n="55"/>ad hominem. Simpliciter quidem, quia fides innititur, 
+tan<lb break="no" ed="#L" n="56"/>quam infallibili regulae, Ecclesiae sensui et doctrinae. 
+Alio<lb break="no" ed="#L" n="57"/>quin haeretici, qui soli primae veritati innituntur, non 
+re<lb break="no" ed="#L" n="58"/>cipientes Ecclesiae sensum, essent fideles. Et Augustinus
+<lb ed="#L" n="59"/>dicit: Evangelio non crederem misi me auctoritas 
+Ec<lb break="no" ed="#L" n="60"/>clesiae admoneret. Constat autem Ecclesiae sensum et
+<lb ed="#L" n="61"/>auctoritatem esse aliud a prima veritate: cum sit quid
+<lb ed="#L" n="62"/>creatum. Ergo non sola veritas prima est obiectum fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e241">
+                  <lb ed="#L" n="63"/>Ad hominem vero, quia Auctor in I Part., qu. r, art. 3,
+<lb ed="#L" n="64"/>et hic in probatione huius conclusionis, ponit quod omnia
+<lb ed="#L" n="65"/>cognoscuntur a fidelibus inquantum sunt divinitus 
+reve<lb break="no" ed="#L" n="66"/>lata. Constat autem quod tam esse revelatum quam lumen
+<lb ed="#L" n="67"/>divinae revelationis est aliud a prima veritate.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e254">
+                  <lb ed="#L" n="68"/>IV. Dubium quarto est circa probationem assumptam
+<lb ed="#L" n="69"/>in littera, scilicet: Fides non assentit alicui nisi quod est
+<lb ed="#L" n="70"/>a Deo revelatum. Quia aut in revelationibus quibus 
+inni<lb break="no" ed="#L" n="71"/>titur fides proceditur in infinitum: aut alicui assentimus
+<lb ed="#L" n="72"/>absque revelatione illius. Quoniam cum assentiam huic
+<lb ed="#L" n="73"/>dicto, Deus est trinus, quia Deus revelavit; aut isti alteri
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>dicto, Deus revelavit Deum esse trinum, assentio quia
+<lb ed="#L" n="75"/>Deus revelavit, et sic proceditur in infinitum in mediis,
+<lb ed="#L" n="76"/>quod est impossibile; aut assentio quia Ecclesia mihi 
+te<lb break="no" ed="#L" n="77"/>statur. Et sic sequuntur duo inconvenientia. Et quod 
+ul<lb break="no" ed="#L" n="78"/>tima resolutio fidei est non in primam veritatem , sed in
+<lb ed="#L" n="79"/>veritatem creatam. Et quod non in revelationem, sed 
+te<lb break="no" ed="#L" n="80"/>stificationem Ecclesiae, seu Apostolorum et prophetarum, fit
+<lb ed="#L" n="81"/>resolutio. Et redit ambiguitas Scoti, in III Sezt., dist. xxu,
+<lb ed="#L" n="82"/>de resolutione fidei infusae in fidem acquisitam.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e291">
+                  <lb ed="#L" n="83"/>V. Ad evidentiam horum sciendum est quod obiectum
+<lb ed="#L" n="84"/>fidei esse Deum non dubitatur. Et similiter non vertitur
+<lb ed="#L" n="85"/>in dubium an obiectum fidei utramque habeat relationem
+<lb ed="#L" n="86"/>ad fidem, scilicet velut medii et conclusionis, seu formalis
+<lb ed="#L" n="87"/>et materialis, seu cui creditur et quod creditur: quoniam
+<lb ed="#L" n="88"/>commune est theologicis virtutibus Deum habere pro 
+obie<lb break="no" ed="#L" n="89"/>cto et regula. Sed quaestio est de formali ratione qua Deus
+<lb ed="#L" n="90"/>fidei obiectum est: an scilicet sub ratione deitatis, an 
+ve<lb break="no" ed="#L" n="91"/>ritatis. Et licet videantur diversa in re hac dici, si diligenter
+<lb ed="#L" n="92"/>considerata fuerint, nulla est falsitas aut dissonantia. 
+Qui<lb break="no" ed="#L" n="93"/>cumque enim perspexerit quomodo se habet verum ad ens
+<lb ed="#L" n="94"/>et intellectum, intuebitur quod dicimus. ;
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e320">
+                  <lb ed="#L" n="95"/>Constat in primis quod verum nihil addit reale supra
+<lb ed="#L" n="96"/>rem: nihil enim plus significatur per hominem verum quam
+<lb ed="#L" n="97"/>per hominem, per albedinem veram quam per albedinem,
+<lb ed="#L" n="98"/>et sic de aliis. Constat deinde verum non dici obiectum
+<lb ed="#L" n="99"/>intellectus quasi veritas sit ratio formalis obiecti intellectus:
+<lb ed="#L" n="100"/>sed quia veritas est conditio eius ut est obiectum 
+intelle<lb break="no" ed="#L" n="101"/>ctus. Ex his enim patet non sic se habere Deum ad esse
+<lb ed="#L" n="102"/>sapientem sicut ad esse verum: quoniam esse sapientem
+<lb ed="#L" n="103"/>addit naturam sapientiae supra naturam deitatis, licet sint
+<lb ed="#L" n="104"/>idem realiter; sed esse verum non addit aliam naturam
+<lb ed="#L" n="105"/>supra deitatem, sed ipsammet deitatem alio modo 
+signi<lb break="no" ed="#L" n="106"/>ficat. Et cum dupliciter veritas inveniatur in Deo, sicut et
+<lb ed="#L" n="107"/>in qualibet intellectuali natura, scilicet in essendo et in
+<lb ed="#L" n="108"/>dicendo; manifestum est quod sub eadem ratione formali
+<lb ed="#L" n="109"/>terminat Deus fidem inquantum Deus, et inquantum verus
+<lb ed="#L" n="110"/>in essendo: credendo enim Deum esse trinum et unum
+<lb ed="#L" n="111"/>credimus Deum esse sicuti est, quod est credere verum et
+<lb ed="#L" n="112"/>credere Deum sub ratione deitatis; sicut scire hominem
+<lb ed="#L" n="113"/>esse animal politicum est scire verum et scire hominem
+<lb ed="#L" n="114"/>inquantum est homo. Unde, cum fides non credat Deo 
+in<lb break="no" ed="#L" n="115"/>esse nisi quae insunt, et credat ei convenientia ratione 
+dei<lb break="no" ed="#L" n="116"/>tatis, et deitas sit suprema ratio formalis in Deo; 
+conse<lb break="no" ed="#L" n="117"/>quens est quod Deus ut Deus sit obiectum formale fidei,
+<lb ed="#L" n="118"/>et quod hoc idem sit quod dicere, Deus ut verus et veritas
+<lb ed="#L" n="119"/>in essendo. Et propterea littera, loquens de obiecto 
+mate<lb break="no" ed="#L" n="120"/>riali fidei, synonyme utitur veritatis primae et Dei nomine,
+<lb ed="#L" n="121"/>dum dicit: Et ideo etiam ex hac parte obiectum fidei est
+<lb ed="#L" n="122"/>veritas prima, inquantum nihil cadit sub fide nisi in 
+or<lb break="no" ed="#L" n="123"/>dine ad Deum.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e386">
+                  <lb ed="#L" n="124"/>VI. In idem quoque resolvitur inniti Deo ut veritati in
+<lb ed="#L" n="125"/>dicendo, et inniti credendo Deo inquantum est Deus. 
+Quo<lb break="no" ed="#L" n="126"/>niam veritas in dicendo consistit in adaequatione ipsius 
+di<lb break="no" ed="#L" n="127"/>cere ad rem dictam secundum se etin mente dicentis: si
+<lb ed="#L" n="128"/>enim deesset conformitas ad rem, esset falsitas; et si deesset
+<lb ed="#L" n="129"/>conformitas ad rem in mente, esset mendacium. Constat
+<lb ed="#L" n="130"/>autem quod conformitas ad rem exigit cognitionem rei.
+<lb ed="#L" n="131"/>Ac per hoc, credens Deo dicenti tot singularia quot in fide
+<lb ed="#L" n="132"/>continentur, oportet quod credat nihil posse latere Deum:
+<lb ed="#L" n="133"/>si enim aliquid eius cognitionem subterfugeret, illud non
+<lb ed="#L" n="134"/>posset vere dicere, sic est. Cognitio autem omnium 
+con<lb break="no" ed="#L" n="135"/>venit Deo ratione deitatis, ut patet. In Deum ergo inquan-
+<pb ed="#L" n="9"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tum Deum oportet. resolvere, veritatem. Dei in. dicendo, ex
+<lb ed="#L" n="2"/>ea parte qua. conformatur rebus. dictis secundum se, — Ex
+<lb ed="#L" n="3"/>ea. vero parte qua conformatur rebus dictis in mente sua,
+<lb ed="#L" n="4"/>quia. dicere. ex duobus pendet, scilicet ex intellectu et vo- |
+<lb ed="#L" n="5"/>luntate (dicimus enim quia volumus), inquantum pendet
+<lb ed="#L" n="6"/>ex. intellectu, resolutio .est ad; veritatem , quia scilicet est
+<lb ed="#L" n="7"/>ipsa veritas; inquantum vero a voluntate, resolutio est ad
+<lb ed="#L" n="8"/>bonitatem, quia scilicet ,est ipsa bonitas: a veritate enim
+<lb ed="#L" n="9"/>et bonitate nihil mendacii potest procedere, quia et veritati
+<lb ed="#L" n="10"/>adversatur et bonitati; utpote secundum se pravum, ut
+<lb ed="#L" n="11"/>dicitur IV. Ethic. Sed. quoniam tam bonitas quam veritas
+<lb ed="#L" n="12"/>resolvuntur,in deitatem. secundum. se, et ut terminant 
+as<lb break="no" ed="#L" n="13"/>sensum. fidei, quae.tendit in bonitatem et veritatem 
+inquan<lb break="no" ed="#L" n="14"/>tum sunt. Dei (credimus enim quod ipse dicat. veritatem
+<lb ed="#L" n="15"/>infallibiliter quia veritas. omnino inest Deo quia Deus est);
+<lb ed="#L" n="16"/>non solum ergo materiale obiectum fidei est Deus ut sic,
+<lb ed="#L" n="17"/>sed etiam formale. .
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e456">
+                  <lb ed="#L" n="18"/>VII. Prima autem veritas -obiectum. formale. secundum
+<lb ed="#L" n="19"/>explicationem. eta appropriationem intelligitur. Secundum
+<lb ed="#L" n="20"/>explicationem quidem quia, cum fides sit. virtus pertinens ad
+<lb ed="#L" n="21"/>intellectum, . et omnis talis virtus oportet quod sit 
+infallibili<lb break="no" ed="#L" n="22"/>ter respectu. veri, consequens fuit ut vel nomine suo vel
+<lb ed="#L" n="23"/>nomine. actus sui vel. obiecti significaretur ut virtus. Et
+<lb ed="#L" n="24"/>aliae quidem virtutes. intellectus, ut intellectus, sapientia,
+<lb ed="#L" n="25"/>scientia, etc., secundum se seu suos actus virtutem. 
+im<lb break="no" ed="#L" n="26"/>Fides..autem et. credere non. important. actum
+<lb ed="#L" n="27"/>indefectibilem a vero. Et propterea ex parte obiecti oportuit
+<lb ed="#L" n="28"/>explicari quod ipsa est virtus, assignando sibi pro obiecto
+<lb ed="#L" n="29"/>veritatem; primam, ut ex hoc ipso sciatur quod ipsa habet
+<lb ed="#L" n="30"/>actum indefectibilem a, vero et est virtus. Si enim dictum
+<lb ed="#L" n="31"/>solum fuisset quod Deus est obiectum fidei, cum Deus
+<lb ed="#L" n="32"/>it.esse obiectum opinionis et. fidei acquisitae, non
+<lb ed="#L" n="33"/>explicatum quod ipsa est virtus, Sed ex hoc ipso
+<lb ed="#L" n="34"/>quod Deus ut veritas ponitur eius. formale obiectum, 
+si<lb break="no" ed="#L" n="35"/>gnificatur quod Deus est sic obiectum fidei ut faciat 
+obie<lb break="no" ed="#L" n="36"/>ctive ipsam esse virtutem intellectus.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e500">
+                  <lb ed="#L" n="37"/>Secundum. appropriationem vero, quoniam: inter fidem
+<lb ed="#L" n="38"/>et ceteras virtutes, intellectus haec est differentia quod 
+ce<lb break="no" ed="#L" n="39"/>terae utuntur rationibus formalibus suorum obiectorum
+<lb ed="#L" n="40"/>tanquam causis in essendo ut mediis: fides vero hoc 
+sin<lb break="no" ed="#L" n="41"/>gulare habet quod utitur. Deo tanquam dicente seu 
+testi<lb break="no" ed="#L" n="42"/>ficante ut medio. Et quia testificatio veritati ut sic innititur,
+<lb ed="#L" n="43"/>et in dicentem. inquantum verus est. resolvitur, sicut 
+ordi<lb break="no" ed="#L" n="44"/>nare j in. ,ordinantem i inapnanbem sapiens est; ideo prima 
+ve<lb break="no" ed="#L" n="45"/>"Dei est. appropriata causa ordinis, et providentia 
+guberna<lb break="no" ed="#L" n="46"/>tionis : universi.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e524">
+                  <lb ed="#L" n="47"/>VIII. His praemissis, ad primum dubium dicitur quod
+<lb ed="#L" n="48"/>sermo. Auctoris est formalis de veritate prima ut sic;.et de
+<lb ed="#L" n="49"/>obiecto formali explicite et appropriate. Sic autem ponere
+<lb ed="#L" n="50"/>veritatem primam esse obiectum formale non excludit Deum
+<lb ed="#L" n="51"/>inquantum Deum esse formale obiectum fidei, immo hoc
+<lb ed="#L" n="52"/>infert: sicut Deum inquantum sapientem esse ordinatorem
+<lb ed="#L" n="53"/>non excludit Deum inquantum Deum esse ordinatorem,
+<lb ed="#L" n="54"/>sed hoc infert a posteriori. Unde positio ista non est 
+con<lb break="no" ed="#L" n="55"/>tra doctrinam traditam in Prima Parte. Sed ratio diversi
+<lb ed="#L" n="56"/>sermonis hic et ibi est quia. notitia de Deo, inquantum
+<lb ed="#L" n="57"/>scientia, utitur deitate quasi causante ea quae convenire
+<lb ed="#L" n="58"/>scit Deo; inquantum vero fides, utitur deitate ut 
+testifi<lb break="no" ed="#L" n="59"/>cante, ut patet. Hinc enim factum est ut, cum de 
+theolo<lb break="no" ed="#L" n="60"/>gica scientia fuit sermo, de. sola deitate absolute esset
+<lb ed="#L" n="61"/>sermo: cum autem de theologica fide disseritur, de deitate
+<lb ed="#L" n="62"/>sub ratione veritatis: primae, tanquam appropriantis deitatem
+<lb ed="#L" n="63"/>ad proprium veritatis opus, meminit. -
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e563">
+                  <lb ed="#L" n="64"/>Nec est: contra veritatem. "Tum quia inter proprias causas
+<lb ed="#L" n="65"/>credulitatis veritas est ad quam stat ultima resolutio. Credo
+<lb ed="#L" n="66"/>namque Deo quia est ipsa veritas; nec potest amplius
+<lb ed="#L" n="67"/>quaeri, Quare credis ipsi veritati? fatua enim et nulla est
+<lb ed="#L" n="68"/>quaestio haec, sicut, Quare homo est homo?. Nec postquam
+<lb ed="#L" n="69"/>reddita est causa quare creditur Deo, quia est ipsa veritas,
+<lb ed="#L" n="70"/>consequenter se habet ista quaestio, quam Aureolus infert,
+<lb ed="#L" n="71"/>Quare Deus est ipsa veritas? Hoc enim non per se spectat
+<lb ed="#L" n="72"/>ad causam assensus, sed ad causam rei: undecumque enim
+<lb ed="#L" n="73"/>proveniat quod Deus est ipsa veritas, sat est ad hoc quod
+<lb ed="#L" n="74"/>ipsi credam infallibiliter, quoniam a veritate non potest fal-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="75"/>sum emanare. Deitas autem. est communis omnium causa,
+<lb ed="#L" n="76"/>ad quam omnia resolvuntur. Quia conceditur resolutio fidei
+<lb ed="#L" n="77"/>in deitatem: quoniam fides credit Deo quia Deus est, et
+<lb ed="#L" n="78"/>ex. hoc credit quod sit ipsa veritas et bonitas, sciens omnia,
+<lb ed="#L" n="79"/>et quod non possit mentiri, etc. Et sic deitas ponitur prima
+<lb ed="#L" n="80"/>ratio formalis fidei, iuxta illud Ioan. xrv, « Creditis in
+<lb ed="#L" n="81"/>Deum, et in me credite », .Ex hoc, inquiens, quod in Deum
+<lb ed="#L" n="82"/>creditis, reliqua credite: veritas autem secundum 
+appro<lb break="no" ed="#L" n="83"/>priationem, ut dictum est, et explicationem obiectum 
+po<lb break="no" ed="#L" n="84"/>nitur.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e613">
+                  <lb ed="#L" n="85"/>Et per hoc patet responsio ad confirmationem: quoniam
+<lb ed="#L" n="86"/>Deus inquantum Deus ponitur finis et obiectum fidei. 
+Quam<lb break="no" ed="#L" n="87"/>vis dici possit quod ad virtutem theologicam sufficit habere
+<lb ed="#L" n="88"/>Deum. realiter. pro obiecto et fine et regula, licet sub alia
+<lb ed="#L" n="89"/>ratione.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e627">
+                  <lb ed="#L" n="90"/>IX. Ad secundum. dubium dicitur quod Deus, seu 
+ve<lb break="no" ed="#L" n="91"/>ritas prima, ut dicens seu revelans se et alia, est obiectum
+<lb ed="#L" n="92"/>formale fidei. Nec hoc est tacitum in littera, sed expressum,
+<lb ed="#L" n="93"/>dum veritas prima probatur obiectum fidei quia nihil credit
+<lb ed="#L" n="94"/>nisi a Deo revelatum: hoc enim medium ad hoc est 
+alla<lb break="no" ed="#L" n="95"/>tum, et hoc significat, scilicet quia fides innititur Deo 
+di<lb break="no" ed="#L" n="96"/>centi seu revelanti sic ut nihil credat nisi ab eo revelatum.
+<lb ed="#L" n="97"/>Veritas ergo prima ut dicens est formale obiectum fidei.
+<lb ed="#L" n="98"/>Nec est opus aliqua. specificatione seu limitatione ex parte
+<lb ed="#L" n="99"/>ipsius obiecti formalis: sed bene oportet limitare ex parte
+<lb ed="#L" n="100"/>rerum dictarum. Nullum namque inconveniens. video si
+<lb ed="#L" n="101"/>obiectum formale. fidei ponatur excedens ipsam :- cum 
+obie<lb break="no" ed="#L" n="102"/>ctum. formale caritatis excedat ipsam manifeste. Limitatio
+<lb ed="#L" n="103"/>autem ex parte rerum dictarum non limitat rationem 
+for<lb break="no" ed="#L" n="104"/>malem dicentis. Sicut enim Deus ut creator gratiae non
+<lb ed="#L" n="105"/>est ratione limitatiore creator quam ut creator absolute; sic
+<lb ed="#L" n="106"/>ut dicens pertinentia ad fidem Christianam non.est 
+limi<lb break="no" ed="#L" n="107"/>tatiore. ratione dicens quam ut dicens quaecumque; sed
+<lb ed="#L" n="108"/>limitatio est utrobique ex parte termini, scilicet rei creatae
+<lb ed="#L" n="109"/>et dictae. Et hinc provenit quod, licet Deus multa revelet
+<lb ed="#L" n="110"/>aliquibus impertinentia ad religionem | Christianam , fides
+<lb ed="#L" n="111"/>non utitur Deo ut revelatore illorum: sed homo fidelis
+<lb ed="#L" n="112"/>credit sua voluntate Deum illa illis revelasse, si sibi videtur
+<lb ed="#L" n="113"/>consonum credere talia, aut dubitat, etc. Et si de obiecto
+<lb ed="#L" n="114"/>materiali et formali fidei sermo fiat, optime dicitur quod
+<lb ed="#L" n="115"/>est Deus dicens seipsum: quod est idem quod dicere quod
+<lb ed="#L" n="116"/>est veritas prima revelata a seipsa.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e688">
+                  <lb ed="#L" n="117"/>Et ad obiectionem Scoti dicitur quod, licet esse 
+reve<lb break="no" ed="#L" n="118"/>latum nihil ponat in.re revelata, esse tamen revelatum a
+<lb ed="#L" n="119"/>se ponit in ea, quatenus revelans est, actum revelandi. Et
+<lb ed="#L" n="120"/>quia ratione revelationis activae. ponitur revelatio obiectum
+<lb ed="#L" n="121"/>formale fidei; et dicere seu revelare in Deo ponit actionem
+<lb ed="#L" n="122"/>quae est. substantia Dei: ideo falsum simpliciter est quod
+<lb ed="#L" n="123"/>revelatio sub qua Deus est obiectum formale fidei nihil
+<lb ed="#L" n="124"/>ponat in Deo. Et sic habitus realis habet obiectum 
+for<lb break="no" ed="#L" n="125"/>male. realissimum.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e710">
+                  <lb ed="#L" n="126"/>X. Ad tertium dubium dicitur quod inquantum fides
+<lb ed="#L" n="127"/>potest dependere a causa creata, intantum potest habere
+<lb ed="#L" n="128"/>aliquam. regulam creatam. Constat autem quod, cum ad
+<lb ed="#L" n="129"/>fidem concurrant duo, ut infra patet, scilicet assensus et
+<lb ed="#L" n="130"/>propositio atque explicatio credendorum; fides ex parte
+<lb ed="#L" n="131"/>assensus a solo Deo dependet ut agente, obiecto, fine et
+<lb ed="#L" n="132"/>regula. Ex parte autem propositionis credendorum potest
+<lb ed="#L" n="133"/>dependere ab angelis et hominibus, mediantibus quibus
+<lb ed="#L" n="134"/>Deus proponit haec vel illa esse. credenda: ex hac enim
+<lb ed="#L" n="135"/>parte fides ex auditu est verbi Dei, ut dicitur ad Rom. x.
+<lb ed="#L" n="136"/>Et propterea quoad proponendum et explicandum credenda,
+<lb ed="#L" n="137"/>ne possit accidere error, providit Spiritus Sanctus de 
+in<lb break="no" ed="#L" n="138"/>fallibili regula creata, sensu scilicet et doctrina Ecclesiae: ita
+<lb ed="#L" n="139"/>quod. auctoritas Ecclesiae est infallibilis regula proponendi
+<lb ed="#L" n="140"/>et explicandi ea quae sunt. fide tenenda. Unde, duabus
+<lb ed="#L" n="141"/>concurrentibus ad fidem infallibilibus regulis, scilicet 
+reve<lb break="no" ed="#L" n="142"/>latione divina et auctoritate Ecclesiae, inter eas tanta est
+<lb ed="#L" n="143"/>differentia quod revelatio divina est ratio formalis obiecti
+<lb ed="#L" n="144"/>fidei; auctoritas autem Ecclesiae. est ministra obiecti fidei:
+<lb ed="#L" n="145"/>quoniam. fidei actus coniungitur obiecto materiali, idest
+<lb ed="#L" n="146"/>creditis, per hoc medium, quia Deus dixit seu revelavit;
+<lb ed="#L" n="147"/>et ipse habitus fidei inclinat mentem ad assentiendum 
+pro<lb break="no" ed="#L" n="148"/>positis propterea quia Deus sic revelavit; sed quod haec
+<lb ed="#L" n="149"/>vel illa, in hoc vel illo sensu, sint revelata, quia Ecclesia
+<pb ed="#L" n="10"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sic tradit credimus. Et rursus revelatio divina est 
+infalli<lb break="no" ed="#L" n="2"/>bilis regula per se conveniens fidei: sensus autem Ecclesiae
+<lb ed="#L" n="3"/>per accidens convenit fidei, ex parte idest nostri, quibus haec
+<lb ed="#L" n="4"/>proponuntur; in angelis namque, quibus Deus per seipsum
+<lb ed="#L" n="5"/>revelavit et explicavit mysterium "Trinitatis, non erat opus
+<lb ed="#L" n="6"/>hac regula. Unde de Ioanne Baptista. scribitur, Ioan. r,
+<lb ed="#L" n="7"/>quod venit in testimonium, ut testimonium perhiberet de
+<lb ed="#L" n="8"/>lumine, non ex parte luminis, sed ut omnes crederent per
+<lb ed="#L" n="9"/>illum. Et similiter.in primis Patribus quibus revelata sunt
+<lb ed="#L" n="10"/>mysteria fidei, non erat opus hac regula, eadem ratione:
+<lb ed="#L" n="11"/>quia scilicet Deus per seipsum revelavit haec, et intellectum
+<lb ed="#L" n="12"/>eorum illis tradidit illustrando udin ut inferius in 
+tra<lb break="no" ed="#L" n="13"/>ctatu de prophetia patet.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e797">
+                  <lb ed="#L" n="14"/>Ad primam ergo obiectionem in oppositum dicitur
+<lb ed="#L" n="15"/>quod, quia fides innititur Deo revelatori articulorum fidei;
+<lb ed="#L" n="16"/>et inter articulos fidei continetur sanctitas Ecclesiae unius
+<lb ed="#L" n="17"/>et Catholicae; nec sanctitas ista potest intelligi sine 
+recti<lb break="no" ed="#L" n="18"/>tudine sensus et doctrinae fidei in ipsa: consequens est
+<lb ed="#L" n="19"/>quod quicumque adhaeret Deo ut revelatori articulorum
+<lb ed="#L" n="20"/>fidei credat Ecclesiam non posse errare in fide, ac per hoc
+<lb ed="#L" n="21"/>habere ipsius sensum et doctrinam pro infallibili regula
+<lb ed="#L" n="22"/>in proponendo et explicando credenda. Et sic haereticus,
+<lb ed="#L" n="23"/>qui sensum Ecclesiae non acceptat ut infallibilem regulam
+<lb ed="#L" n="24"/>in explicando. credenda, recedit a ratione formali fidei,
+<lb ed="#L" n="25"/>idest a Deo revelatore articulorum fidei. Et bene nota quod
+<lb ed="#L" n="26"/>non dicitur recedere a ratione formali obiecti fidei, idest
+<lb ed="#L" n="27"/>regula ecclesiasticae doctrinae: sed. per hoc quod non
+<lb ed="#L" n="28"/>innititur doctrinae Ecclesiae ut infallibili regulae in 
+expli<lb break="no" ed="#L" n="29"/>cando credenda, sequitur quod recedat a ratione formali
+<lb ed="#L" n="30"/>obiecti fidei, idest divina veritate ut revelatrice articulorum
+<lb ed="#L" n="31"/>fidei. - Et similiter auctoritas Augustini quoad 
+proponen<lb break="no" ed="#L" n="32"/>dum et explicandum credenda nobis, qui secundum locum
+<lb ed="#L" n="33"/>in credendo tenemus, loquitur. Unde dicit quod non 
+cre<lb break="no" ed="#L" n="34"/>deret Evangelio nisi Ecclesia proponeret illud credendum:
+<lb ed="#L" n="35"/>propterea enim credimus magis his libris quam aliis, quia
+<lb ed="#L" n="36"/>Ecclesia hos proponit credendos. Secus autem est de 
+Patri<lb break="no" ed="#L" n="37"/>bus qui primum in credendo locum tenent: qui scilicet
+<lb ed="#L" n="38"/>a Deo instructi sunt et libros ipsos scripserunt, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e854">
+                  <lb ed="#L" n="39"/>Ad id autem quod obiicitur de revelatione, iam 
+di<lb break="no" ed="#L" n="40"/>ctum est quod revelatio active sumpta est ratio formalis
+<lb ed="#L" n="41"/>quae est ipsa actio et essentia Dei. Esse autem divinitus
+<lb ed="#L" n="42"/>revelatum est denominatio ab activa revelatione veniens;
+<lb ed="#L" n="43"/>et in illam reducenda est.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e867">
+                  <lb ed="#L" n="44"/>XI. Ad quartum dubium dicitur quod rec proceditur
+<lb ed="#L" n="45"/>in infinitum in revelationibus; nec fit resolutio in 
+verita<lb break="no" ed="#L" n="46"/>tem aut testimonium Ecclesiae, nec in fidem acquisitam ;
+<lb ed="#L" n="47"/>sed fit resolutio in divinam revelationem ut sic, ita quod
+<lb ed="#L" n="48"/>in ea est status. Ad cuius evidentiam sciendum est quod
+<lb ed="#L" n="49"/>credere Deum esse revelatorem articulorum fidei contingit
+<lb ed="#L" n="50"/>tripliciter: uno modo, ut pure quod creditur; alio modo,
+<lb ed="#L" n="51"/>ut pure quo creditur; tertio modo, ut quod et quo simul
+<lb ed="#L" n="52"/>creditur. Et si fides respiceret hoc quod dico, scilicet quod
+<lb ed="#L" n="53"/>Deus revelavit articulos fidei, ut quod creditur tantum,
+<lb ed="#L" n="54"/>sicut credit resurrectionem carnis, oporteret assignare 
+ali<lb break="no" ed="#L" n="55"/>quam aliam rationem formalem in obiecto fidei qua 
+cre<lb break="no" ed="#L" n="56"/>deremus: sicut in obiecto scientiae id quod est tantum
+<lb ed="#L" n="57"/>quod scitur eget ratione formali qua ad scientiam spectat.
+<lb ed="#L" n="58"/>Si vero hoc idem creditur tantum ut quo reliqua creduntur,
+<lb ed="#L" n="59"/>surgit quaestio Scoti. Et licet possit dici quod, sicut albedo
+<lb ed="#L" n="60"/>est qua subiectum est album, nec oportet quaerere quo
+<lb ed="#L" n="61"/>ipsa est alba, quia ipsa non est alba denominative, sed
+<lb ed="#L" n="62"/>formaliter tantum, si sic licet loqui; ita divina revelatio
+<lb ed="#L" n="63"/>est qua credimus, et ipsa non 'est credita denominative,
+<lb ed="#L" n="64"/>sed formaliter, idest ut ratio credendi: — vera tamen 
+respon<lb break="no" ed="#L" n="65"/>sio est quod, sicut in transcendentibus unitas est una et
+<lb ed="#L" n="66"/>bonitas est bona, sic divina revelatio est quo et quod 
+cre<lb break="no" ed="#L" n="67"/>ditur; ita quod, sicut unitas est una seipsa et ibi est status,
+<lb ed="#L" n="68"/>ita divina revelatio, qua cetera creduntur, est credita seipsa
+<lb ed="#L" n="69"/>et non per aliam revelationem. Unus enim et idem actus
+<lb ed="#L" n="70"/>fidei credit Deum et Deo, ut inferius in qu. m, art. 2,
+<lb ed="#L" n="71"/>patet: et inquantum credit Deum, tendit in quod 
+credi<lb break="no" ed="#L" n="72"/>tur; inquantum vero credit Deo, tendit in id quo creditur.
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="73"/>Et sicut non est possibile aliam ulteriorem quaestioneim
+<lb ed="#L" n="74"/>in fide formare quare credimus Deo, ita non est possibile.
+<lb ed="#L" n="75"/>aliam in fide resolutionem quaerere quare credis Deo 
+re<lb break="no" ed="#L" n="76"/>velanti: idem enim sunt credere -— et credere Deo 
+re<lb break="no" ed="#L" n="77"/>velanti.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e946">
+                  <lb ed="#L" n="78"/>Nec te lateat venenum latens subi hoc quod dicimus,
+<lb ed="#L" n="79"/>credere Deo revelanti. Duo enim importat: primum 
+com<lb break="no" ed="#L" n="80"/>mune etiam gentilibus; secundum proprium fidelibus. 
+Pri<lb break="no" ed="#L" n="81"/>mum et commune est ut credamus Deo, quando ipse dicit
+<lb ed="#L" n="82"/>aliquid, ut vera dicenti. In hoc enim omnes convenimus
+<lb ed="#L" n="83"/>quod, quando Deus aliquid dicit, non fallit, sed veritatem
+<lb ed="#L" n="84"/>dicit: unde et deridentes fidem nostram dicunt se credere
+<lb ed="#L" n="85"/>Deo, si aliquid dixerit, multo magis quam cuicumque bono
+<lb ed="#L" n="86"/>viro. Secundum autem, et proprium fidelium, est ut 
+uta<lb break="no" ed="#L" n="87"/>mur Deo ut revelatore articulorum fidei, ita quod actus
+<lb ed="#L" n="88"/>fidei inhaereat Deo ut revelanti articulos fidei. Et hoc 
+in<lb break="no" ed="#L" n="89"/>tendimus cum dicimus quod veritas prima est obiectum
+<lb ed="#L" n="90"/>formale fidei. Et hoc significatur per credere Deo. Et in
+<lb ed="#L" n="91"/>hoc privati lumine fidei fatentur se dissentire, dum dicunt
+<lb ed="#L" n="92"/>quod ipsi parati sunt credere Deo si ipse dicat aliquid;
+<lb ed="#L" n="93"/>sed quod Deus dicat vel dixerit articulos fidei, etc., hoc
+<lb ed="#L" n="94"/>non credunt. Et sic ipsi, licet credant Deum esse primam
+<lb ed="#L" n="95"/>et summam veritatem, non utuntur ipsa prima veritate ut
+<lb ed="#L" n="96"/>revelatrice eorum quae fide tenemus; et Prope sunt 
+in<lb break="no" ed="#L" n="97"/>fideles.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e992">
+                  <lb ed="#L" n="98"/>Et ex hoc manifestum fit quod diximus, quod scilicet
+<lb ed="#L" n="99"/>in hac adhaesione ad primam veritatem ut' revelatricem
+<lb ed="#L" n="100"/>stat resolutio ultima creditorum: et non ad fidem 
+acqui<lb break="no" ed="#L" n="101"/>sitam qua credo loanni Evangelistae aut Paulo Apostolo
+<lb ed="#L" n="102"/>aut communitati Ecclesiae. Unde de Abraham scriptum
+<lb ed="#L" n="103"/>est, Gen. xv et ad Rom. ww: Credidit Abraham Deo, et
+<lb ed="#L" n="104"/>reputatum est ei ad iustitiam. Et per oppositum ad Moysen
+<lb ed="#L" n="105"/>et Aaron dictum est a Deo, Num. xx: Quia mon 
+credi<lb break="no" ed="#L" n="106"/>distis mihi, etc.: ut ex hoc sciremus quod ratio fidei in
+<lb ed="#L" n="107"/>hoc stat ut utamur Deo ut revelante, in quo videtur Moyses
+<lb ed="#L" n="108"/>defecisse, et non in hoc quod crediderit Deum dixisse
+<lb ed="#L" n="109"/>falsum. Facit ergo habitus fidei infusae hominem inhaerere
+<lb ed="#L" n="110"/>Deo ut testificanti tanquam in ratione omnium 
+credendo<lb break="no" ed="#L" n="111"/>rum: iuxta illud I Ioan. v: Qui credit in Fi lium Dei
+<lb ed="#L" n="112"/>habet testimonium Dei in se.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1027">
+                  <lb ed="#L" n="113"/>XII. Et si haec advertisset Durandus, in xxiv dist; III
+<lb ed="#L" n="114"/>Sent., art. 1, non dixisset quod prima ratio credendi alia,
+<lb ed="#L" n="115"/>et ad quod fit ultima resolutio credibilium, est credere 
+Ec<lb break="no" ed="#L" n="116"/>clesiam regi a Spiritu Sancto. Nam distinguendo duos actus,
+<lb ed="#L" n="117"/>scilicet assentire' et :proponere; et rursus propositionem.
+<lb ed="#L" n="118"/>simpliciter vel quoad nos: apparet primo, qnod Deus ipse
+<lb ed="#L" n="119"/>est primo proponens simpliciter ea quae sunt fidei, et ideo
+<lb ed="#L" n="120"/>ad fidem spectant quia ipse proposuit haec et non illa.
+<lb ed="#L" n="121"/>Apparet secundo quod, quoad nos, quibus Deus per 
+se<lb break="no" ed="#L" n="122"/>ipsum non proponit credenda, sicut proposuit Apostc
+<lb ed="#L" n="123"/>et prophetis, sed per Ecclesiam suam, quod Ecclesiam regi
+a Spiritu Sancto est infallibilis regula ad' proponendum
+<lb ed="#L" n="124"/>credenda nobis. Apparet tertio, quod ratio quare 
+assenti<lb break="no" ed="#L" n="125"/>mus omnibus credibilibus est quia Deus dixit, ut patet
+<lb ed="#L" n="126"/>ex  dictis.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1060">
+                  <lb ed="#L" n="127"/>Manifesta autem haec sunt ex cibis; Primo, ex hoc
+<lb ed="#L" n="128"/>quod fides in nobis et Apostolis et prophetis est eiusdem
+<lb ed="#L" n="129"/>rationis; ac per hoc in idem resolvitur. Constat autem
+<lb ed="#L" n="130"/>quod illi, immediate docti a Deo, non ideo credunt quia
+<lb ed="#L" n="131"/>Ecclesia eis tradidit, sed quia Deus dixit. Ergo. - Secundo,
+<lb ed="#L" n="132"/>ex auctoritatibus inductis veteris et novi Testamenti. —
+<lb ed="#L" n="133"/>Tertio, ex hoc quod Ecclesiam regi a Spiritu Sancto ideo
+<lb ed="#L" n="134"/>credimus quia est unum eorum quae Deus dixit. Unde ad
+<lb ed="#L" n="135"/>hoc conamur afferre auctoritates sacrae Scripturae. Nec 
+ob<lb break="no" ed="#L" n="136"/>stat quod etiam e converso ideo credimus quod Deus dixit
+<lb ed="#L" n="137"/>quia Ecclesia proponit Deum: dixisse, et sic erit circulus:
+<lb ed="#L" n="138"/>non obstat, inquam, quia hoc est quoad proponere 
+tun<lb break="no" ed="#L" n="139"/>tum, et hoc nobis; illud autem est quoad proponere et
+<lb ed="#L" n="140"/>assentire, et utrumque simpliciter. Fidei autem habitus,
+<lb ed="#L" n="141"/>actus et obiectum attenditur principaliter penes id quod
+<lb ed="#L" n="142"/>est simpliciter: quamvis PORABIMA; » quae sunt ad nos
+<lb ed="#L" n="143"/>aestimanda quoque sint.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1277-Dd1e1100"><!-- caj-p2p2-q1a2 -->
+               <head xml:id="TAcCaj-d1e1277-Hd1e1103">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1277-d1e1105">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="63"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1112">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>IN articulo secundo adverte quod distinctio facta in 
+lit<lb break="no" ed="#L" n="65"/>is de obiecto fidei ex parte rei et ex parte nostri non
+<lb ed="#L" n="66"/>coincidit cum distinctione illa, de quo creditur et quod
+<lb ed="#L" n="67"/>creditur, nec comprehenditur ab illa, ut illa utitur 
+<name xml:id="TAcCaj-d1e1277-Nd1e1125">Duran<lb break="no" ed="#L" n="68"/>dus</name>, in xxrv dist. III Sent., volens quod obiectum fidei de
+<lb ed="#L" n="69"/>quo creditur est incomplexum, quod vero creditur est
+<lb ed="#L" n="70"/>complexum, sicut obiectum scientiae de quo scitur est
+<lb ed="#L" n="71"/>incomplexum, scilicet subiectum conclusionis, quod vero
+<lb ed="#L" n="72"/>scitur est conclusio complexa. Haec enim distinctio est de
+<lb ed="#L" n="73"/>credito, scito et opinato prout est in nobis: scitum enim
+<lb ed="#L" n="74"/>ut de quo scitur, idest subiectum conclusionis, est prima
+<lb ed="#L" n="75"/>operatione intellectus apprehensum, et sic est 
+incomple<lb break="no" ed="#L" n="76"/>xum; scitum autem ut quod scitur, idest conclusio, in 
+se<lb break="no" ed="#L" n="77"/>cunda intellectus apprehensione est. Distinctio vero Auctoris
+<lb ed="#L" n="78"/>in littera facta comprehendit creditum secundum esse in
+<lb ed="#L" n="79"/>re et in nobis: ita quod non solum obiectum fidei ut de quo
+<lb ed="#L" n="80"/>creditur, sed obiectum fidei ut quod. creditur, si sumatur
+<lb ed="#L" n="81"/>ex parte rei, est incomplexum, ex parte vero nostri est
+<lb ed="#L" n="82"/>complexum. Et hoc directe intendit littera, Quae non. me-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="83"/>minit de credito ut id de quo creditur, quia, dicendo quod
+<lb ed="#L" n="84"/>id quod creditur ex parte rei est incomplexum, a fortiori
+<lb ed="#L" n="85"/>manifestum relinquitur quod id de quo creditur est 
+incom<lb break="no" ed="#L" n="86"/>plexum: et, quod magis urget, quia quaestio inter doctores
+<lb ed="#L" n="87"/>de complexione obiecti fidei est propter ipsum quod 
+cre<lb break="no" ed="#L" n="88"/>ditur. Non oportet autem aliter solvere rationes Durandi
+<lb ed="#L" n="89"/>ad. concludendum quod id quod creditur est complexum:
+<lb ed="#L" n="90"/>quia verum concludunt, accipiendo illud quod creditur ex
+<lb ed="#L" n="91"/>parte nostri, ut in littera dicitur; falsum autem, accipiendo
+<lb ed="#L" n="92"/>ipsum ex parte rei. Quod tamen falsum sibi imponere nolo:
+<lb ed="#L" n="93"/>quia indistincte loquitur de eo quod creditur. Haec autem
+<lb ed="#L" n="94"/>dicta sunt ut sis cautus.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1189">
+                  <lb ed="#L" n="95"/>Nota quoque quod in responsione ad secundum 
+dici<lb break="no" ed="#L" n="96"/>tur, quod nulla est differentia inter creditum et scitum
+<lb ed="#L" n="97"/>quoad esse complexum in nobis et incomplexum in re.
+<lb ed="#L" n="98"/>Et propterea, scientiam de rebus, nostro modo tamen,
+<lb ed="#L" n="99"/>haberi a nobis videns, compatere ignorantibus quid sciant
+<lb ed="#L" n="100"/>aut opinentur ipsimet, dum enuntiabilia magnificant.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1277-Dd1e1206"><!-- caj-p2p2-q1a3 -->
+               <head xml:id="TAcCaj-d1e1277-Hd1e1209">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1277-d1e1211">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1218">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>IN articulo tertio nota, novitie, circa rationem allatam in
+<lb ed="#L" n="93"/>lireos, quod aliud est sub vero esse falsum; et aliud est
+<lb ed="#L" n="94"/>sub vero esse cognitionem falsi. Primum enim significat
+<lb ed="#L" n="95"/>oppositum esse sub opposito tanquam formali seu proprio
+<lb ed="#L" n="96"/>activo aut fine: quod est impossibile. Secundum autem
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="97"/>significat unum oppositarum esse rationem cognoscendi
+<lb ed="#L" n="98"/>reliquum, aut fugiendi vel excludendi: et. hoc est verum.
+<lb ed="#L" n="99"/>In littera autem primum assumitur, non secundum. 
+Quam<lb break="no" ed="#L" n="100"/>vis enim fides sit qua assentimus vero et dissentimus 
+po<lb break="no" ed="#L" n="101"/>posito falso; et similiter caritas qua amamus bonum et
+<pb ed="#L" n="13"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>odio habemus malum contrarium caritati; et ponendo ens,
+<lb ed="#L" n="2"/>puta album, excludatur non-ens oppositum, puta 
+non<lb break="no" ed="#L" n="3"/>album: fidei tamen, ex hoc ipso quod assentit veritati ut
+<lb ed="#L" n="4"/>medio assentiendi, repugnat assentire falso, quia verum
+<lb ed="#L" n="5"/>non ducit ad falsum; et similiter caritas, quia amat ratione
+<lb ed="#L" n="6"/>bonitatis, non amat aliquid malum, quia bonum non est
+<lb ed="#L" n="7"/>medium ducens ad malum; et similiter ens non est per
+<lb ed="#L" n="8"/>se positivum oppositi non-entis in quocumque genere.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1268">
+                  <lb ed="#L" n="9"/>II. In eodem articulo in responsione ad primum, si non
+<lb ed="#L" n="10"/>intelligis, novitie, quomodo falsa opinio stat cum 
+opera<lb break="no" ed="#L" n="11"/>tione iustitiae et similium, animadverte quod contingit 
+ali<lb break="no" ed="#L" n="12"/>quem falso credere, absque culpa sua, aliquem sibi esse
+<lb ed="#L" n="13"/>debitorem vel e. converso, et operari ad illum secundum
+<lb ed="#L" n="14"/>iustitiam; et similiter credere se non indigentem cibo aut
+<lb ed="#L" n="15"/>potu, et operari secundum. temperantiam; et sic de aliis:
+<lb ed="#L" n="16"/>et videbis virtutes appetitivas non totaliter excludere falsam
+<lb ed="#L" n="17"/>opinionem de eo circa quod. agitur, ut in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1290">
+                  <lb ed="#L" n="18"/>III. In responsione ad quartum eiusdem articuli adverte
+<lb ed="#L" n="19"/>diligenter ne. ex hac responsione  fallaris: audiens enim
+<lb ed="#L" n="20"/>quod fides non respicit has vel illas species, sed ad hoc
+<lb ed="#L" n="21"/>quod corpus Christi sub speciebus rite consecratis Sit; et
+<lb ed="#L" n="22"/>subiungens quod credere has vel illas species esse rite 
+con<lb break="no" ed="#L" n="23"/>secratas relinquitur humanae aestimationi, propter quod, si
+<lb ed="#L" n="24"/>in hoc-erratur, nullum praeiudicium fit fidei; incidas in
+<lb ed="#L" n="25"/>errorem dicentium quod hostia quae adoranda offertur in
+<lb ed="#L" n="26"/>ecclesia adoranda est sub conditione si est vere 
+conse<lb break="no" ed="#L" n="27"/>Trepidaverunt timore ubi
+<lb ed="#L" n="28"/>non fuit timor.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1317">
+                  <lb ed="#L" n="29"/>Et ne absque ratione arguere hos videamur, declaratur
+<lb ed="#L" n="30"/>hoc ratione, auctoritate et exemplo. Ratione quidem, quia
+<lb ed="#L" n="31"/>actus humanus cadens super debita materia quando, sicut,
+<lb ed="#L" n="32"/>ubi, etc., oportet, est bonus moraliter: sed actus 
+volun<lb break="no" ed="#L" n="33"/>tarius credentis absolute hanc hostiam esse consecratam
+<lb ed="#L" n="34"/>est huiusmodi: ergo. Probatur minor. Quia cum, ut in
+<lb ed="#L" n="35"/>pluribus saltem, sit verum hostias rite consecrari; et quod
+<lb ed="#L" n="36"/>ut in pluribus invenitur, nisi impedimentum aliquod adsit,
+<lb ed="#L" n="37"/>verificetur: consequens est ut, nullo apparente quovis modo
+<lb ed="#L" n="38"/>mpedimento, actus credentis feratur super materia debita,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="39"/>scilicet vero ut in pluribus et in hoc singulari non 
+impe<lb break="no" ed="#L" n="40"/>dito, quantum apparet rationabiliter. Indisciplinati autem
+<lb ed="#L" n="41"/>esset quaerere maiorem certitudinem in istis: ut patet in
+<lb ed="#L" n="42"/>II Metaphys. — Ex parte quoque voluntatis idem apparet.
+<lb ed="#L" n="43"/>Nam devotio et veneratio conditionalis minor est 
+venera<lb break="no" ed="#L" n="44"/>tione et devotione absolute. Nocet ergo devotioni iste timor.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1356">
+                  <lb ed="#L" n="45"/>Auctoritas est Ecclesiae, quae instituit, in oratione quam
+<lb ed="#L" n="46"/>sacerdos communionem sumpturus dicit, ut absolute fateatur
+<lb ed="#L" n="47"/>hanc hostiam et hunc calicem continere corpus et 
+sangui<lb break="no" ed="#L" n="48"/>nem Christi, dum sacerdos dicit: Libera me per hoc 
+sa<lb break="no" ed="#L" n="49"/>crosanctum corpus et sanguinem tuum a cunctis 
+iniquita<lb break="no" ed="#L" n="50"/>libus etc. Verba enim exterius absolute prolata sunt signa
+<lb ed="#L" n="51"/>interioris mentis absolute credentis et venerantis.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1374">
+                  <lb ed="#L" n="52"/>Exempla sunt cogentia. Nam manifeste adoramus 
+Sum<lb break="no" ed="#L" n="53"/>mum Pontificem absolute, et similiter alios episcopos. Et
+<lb ed="#L" n="54"/>tamen, secundum istorum timorem, sub conditione essent
+<lb ed="#L" n="55"/>venerandi: quia quis scit si iste fuit baptizatus; et si ille
+<lb ed="#L" n="56"/>qui baptizavit eum habuit intentionem conferendi 
+sacra<lb break="no" ed="#L" n="57"/>mentum baptismi? Et similiter sub conditione confitendum
+<lb ed="#L" n="58"/>sacerdoti proprio, propter idem dubium. Immo et sacerdos
+<lb ed="#L" n="59"/>quilibet sub conditione 'deberet absolvere et conficere 
+sa<lb break="no" ed="#L" n="60"/>cramenta et alia huiusmodi facere, propter simile dubium
+<lb ed="#L" n="61"/>si ipse est vere baptizatus, vere ordinatus, et propter 
+du<lb break="no" ed="#L" n="62"/>bium de suscipiente. Haec enim omnia pendent ex 
+inten<lb break="no" ed="#L" n="63"/>tione ministri Ecclesiae sicut consecratio hostiae. Et si
+(pro quia) haec sunt fatua, stultum quoque hoc esse quare
+<lb ed="#L" n="64"/>non fatentur?
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1405">
+                  <lb ed="#L" n="65"/>Convincant quoque seipsos hi experientia, foris 
+expri<lb break="no" ed="#L" n="66"/>mendo conditionalem quam mente dicunt debere exprimi;
+<lb ed="#L" n="67"/>et obedientiam praestent Papae, absolvant, consecrent, etc.,
+<lb ed="#L" n="68"/>explicando conditionem: et videbunt errorem suum. Non
+<lb ed="#L" n="69"/>enim haec sunt arcana Dei, quae non licet homini loqui:
+<lb ed="#L" n="70"/>sed, si tenetur homo mente conditionata haec facere, licite
+<lb ed="#L" n="71"/>exprimet voce, ut patet in reiteratione baptismi dubii; tunc
+<lb ed="#L" n="72"/>enim dicitur: Si nom es baptigatus, ego te etc.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1425">
+                  <lb ed="#L" n="73"/>Nulli ergo periculo se exponit adorando absolute: 
+quo<lb break="no" ed="#L" n="74"/>niam humano more certitudinem habet, et haec sufficit
+<lb ed="#L" n="75"/>homini.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1277-Dd1e1435"><!-- caj-p2p2-q1a4 -->
+               <head xml:id="TAcCaj-d1e1277-Hd1e1438">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1277-d1e1440">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1447">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>IN articulo quarto dubium non dissimulandum occurrit de
+<lb ed="#L" n="31"/>responsione ad secundum, quomodo scilicet distinctio ibi
+<lb ed="#L" n="32"/>facta, cum suis membris, verificetur in proposito. Nam ly
+<lb ed="#L" n="33"/>videri seu esse visum aut sumitur univoce in utroque 
+mem<lb break="no" ed="#L" n="34"/>bro, aut secundum diversam significationem. Si. sumitur
+<lb ed="#L" n="35"/>eodem modo, sequitur primo, quod propter miracula visa
+<lb ed="#L" n="36"/>homo videret, idest evidenter cognosceret, ea quae sunt
+<lb ed="#L" n="37"/>fidei esse credibilia, et consequenter esse vera. Hoc 
+au<lb break="no" ed="#L" n="38"/>tem est falsum. Ergo. - Probatur sequela. Quia evidentia
+<lb ed="#L" n="39"/>de credibilitate illorum infert necessario evidentiam quod
+<lb ed="#L" n="40"/>illis assentiendum est ut veris absque formidine alterius 
+par<lb break="no" ed="#L" n="41"/>tis. Hoc autem nihil aliud est quam habere evidentiam quod
+<lb ed="#L" n="42"/>illa sunt vera, quamvis incognita secundum seipsa nobis :
+<lb ed="#L" n="43"/>sicut sciens quadraturam circuli esse scibilem, quamvis non
+<lb ed="#L" n="44"/>scitam, habet evidentiam quod quadratura circuli est 
+sci<lb break="no" ed="#L" n="45"/>bilis et in se vera, quamvis non sit secundum seipsam
+<lb ed="#L" n="46"/>nobis adhuc nota. - Falsitas autem consequentis patet ex
+<lb ed="#L" n="47"/>hoc quod intellectus videntis miracula, puta Lazarum 
+re<lb break="no" ed="#L" n="48"/>surgere, non convincebatur ex evidentia ad credendum 
+Chri<lb break="no" ed="#L" n="49"/>stum esse Filium Dei. Nam si convincebatur, nec discipuli
+<lb ed="#L" n="50"/>Christi habuissent fidem; nec quidam ivissent ad pontifices
+<lb ed="#L" n="51"/>non credentes, ut dicitur Ioan. x1.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1499">
+                  <lb ed="#L" n="52"/>Sequitur secundo, quod quilibet habens fidem 
+Christia<lb break="no" ed="#L" n="53"/>nam evidentem certitudinem haberet quod haec sint 
+cre<lb break="no" ed="#L" n="54"/>denda. Quod tamen non experimur in nobis. - Et patet
+<lb ed="#L" n="55"/>sequela ex ipsa littera dicente: Non enim crederet nisi 
+vi<lb break="no" ed="#L" n="56"/>deret ea esse credenda.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1512">
+                  <lb ed="#L" n="57"/>Sequitur tertio, ut iam tactum est, quod fideles 
+habe<lb break="no" ed="#L" n="58"/>rent saltem certitudinem evidentem, etsi non ex propriis,
+<lb ed="#L" n="59"/>de his quae sunt fidei. Et sic, dato quod creditum non sit
+<lb ed="#L" n="60"/>visum, esset tamen certitudinaliter cognitum ab intellectu
+<lb ed="#L" n="61"/>credentis. Quod implicat contradictoria simul, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1526">
+                  <lb ed="#L" n="62"/>Si autem. videre sumitur diversimode, ruit distinctio,
+<lb ed="#L" n="63"/>ruit oppositio membrorum, ruit formalitas doctrinae, ruit
+<lb ed="#L" n="64"/>auctoritas doctrinae.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1535">
+                  <lb ed="#L" n="65"/>II. Ad evidentiam horum praenotanda est differentia
+<lb ed="#L" n="66"/>inter videre aliquid esse scibile, et videre aliquid esse 
+cre<lb break="no" ed="#L" n="67"/>dibile, Scibile namque est aliquid ex se; credibile autem
+<lb ed="#L" n="68"/>ex testimonio. Ac per hoc, si constat aliquid esse scibile,
+<lb ed="#L" n="69"/>constat illud esse verum, necessarium, etc. Si autem 
+con<lb break="no" ed="#L" n="70"/>stat aliquid esse credibile, non constat propterea esse 
+ve<lb break="no" ed="#L" n="71"/>rum, sed testimonia esse talia ut illud sit credibile: ut
+<lb ed="#L" n="72"/>quotidiana experientia in iudicum sententiis per testes et
+<lb ed="#L" n="73"/>propriam confessionem manifestat. Ex hoc namque quod
+<lb ed="#L" n="74"/>fide digni testes aliquid asserunt et reus sponte confitetur
+<lb ed="#L" n="75"/>non habetur certa evidentia quod ita sit, possunt enim
+<lb ed="#L" n="76"/>omnes mentiri: habetur tamen evidentia quod ita esse est
+<lb ed="#L" n="77"/>credibile iudicabileque absque alterius partis formidine.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1566">
+                  <lb ed="#L" n="78"/>Praemittendum. est secundo, quod videre in proposito
+<lb ed="#L" n="79"/>sumitur pro tota latitudine visionis: ita quod non restrin-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>gitur ad videre sic vel sic, sed quocumque modo salvetur
+<lb ed="#L" n="81"/>videre, sufficit. Dicimur enim videre non solum. sensibile
+<lb ed="#L" n="82"/>proprium, sed commune et per accidens. Et Augustinus,
+<lb ed="#L" n="83"/>in ult. lib. de Civ. Dei, cap. xxix, corporali oculo nos 
+vi<lb break="no" ed="#L" n="84"/>suros Deum ubique praesentem credit, sicut homines, mox
+<lb ed="#L" n="85"/>ut aspicimus, non credimus vivere, sed videmus.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1588">
+                  <lb ed="#L" n="86"/>III. His praemissis, dicitur ad dubium. motum. quod
+<lb ed="#L" n="87"/>videre sumitur univoce, seu eodem modo: sed non 
+restrin<lb break="no" ed="#L" n="88"/>gendum est ad hanc significationem vel illam, infra 
+latitu<lb break="no" ed="#L" n="89"/>dinem visionis tam corporalis quam spiritualis, tam per se
+<lb ed="#L" n="90"/>quam per accidens visibilis. Et cum arguitur contra, 
+re<lb break="no" ed="#L" n="91"/>spondetur primo, accipiendo credibilitatem humano more,
+<lb ed="#L" n="92"/>et negando hanc sequelam: loannes videt ea quae sunt
+<lb ed="#L" n="93"/>fidei esse credibilia, Ergo habet certitudinem quod illa sunt
+<lb ed="#L" n="94"/>vera. Et ad illius probationem dicitur quod evidentia de
+<lb ed="#L" n="95"/>credibilitate horum infert necessario evidentiam quod 
+as<lb break="no" ed="#L" n="96"/>sentiendum est illis non ut veris absolute, sed ut veris
+<lb ed="#L" n="97"/>credibiliter, absque formidine alterius partis in voluntate,
+<lb ed="#L" n="98"/>non in intellectu. Iam enim dicta est differentia inter 
+vi<lb break="no" ed="#L" n="99"/>dere aliquid esse scibile et aliquid esse credibile. Et nunc
+<lb ed="#L" n="100"/>adiungimus quod constare aliquid esse verum ut credibile
+<lb ed="#L" n="101"/>diminuit de ratione veri constantis absolute, ut patet. Et
+<lb ed="#L" n="102"/>propterea videntes Lazarum resurgere non habebant 
+certi<lb break="no" ed="#L" n="103"/>tudinem evidentiae quod lesus erat Filius Dei: sed quod
+<lb ed="#L" n="104"/>ipsum esse Filium Dei, ut se praedicabat esse, erat 
+credi<lb break="no" ed="#L" n="105"/>bile. Et sic ex signorum evidentia non. habebant evidentiam
+<lb ed="#L" n="106"/>eorum quae sunt fidei, sed credibilitatis eorum.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1636">
+                  <lb ed="#L" n="107"/>Respondetur secundo, extendendo credibilitatem etiam
+<lb ed="#L" n="108"/>ad certitudinem ex veritate constante testis veri clare, 
+ne<lb break="no" ed="#L" n="109"/>gando hanc sequelam: loannes habet certitudinem quod
+<lb ed="#L" n="110"/>ea quae sunt fidei, ut attestata, sunt vera, Ergo non habet
+<lb ed="#L" n="111"/>fidem de his quae sunt fidei, Stant enim haec duo simul:
+<lb ed="#L" n="112"/>quod intellectus sit certus ex evidentia signorum vel Dei
+<lb ed="#L" n="113"/>testantis quod Trinitas attestata est vera Trinitas 
+Persona<lb break="no" ed="#L" n="114"/>rum, et simul credatur; et tamen non videat Trinitatem 
+se<lb break="no" ed="#L" n="115"/>cundum se esse, ac per hoc verum esse (verum enim non
+<lb ed="#L" n="116"/>addit supra praeiacens). Sed in hoc falluntur minus 
+per<lb break="no" ed="#L" n="117"/>spicaces quod non discernunt quid intersit inter videre
+<lb ed="#L" n="118"/>proposita in fide esse vera, et videre proposita in fide, ut
+<lb ed="#L" n="119"/>attestata seu credibilia, esse vera: multum enim refert, 
+re<lb break="no" ed="#L" n="120"/>ferendo ad evidentiam. Nec discernunt inter cognitionem
+<lb ed="#L" n="121"/>certam ex evidentia rei cognitae, et certam ex evidentia
+<lb ed="#L" n="122"/>testimoniorum eius. Haec enim intantum distant ut prima
+<lb ed="#L" n="123"/>repugnet fidei; secunda autem repugnet fidei testimonii,
+<lb ed="#L" n="124"/>sed non fidei rerum quae sunt attestatae. Haec autem 
+in<lb break="no" ed="#L" n="125"/>ferius, cum de fide angelorum tfactabimus, clare 
+eluce<lb break="no" ed="#L" n="126"/>scent. Et hoc sufficit ad. discernendum inter. ea quae sunt
+<lb ed="#L" n="127"/>fidei in seipsis, et in ratione credibilis: quia scilicet simul
+<lb ed="#L" n="128"/>possunt esse ab eodem credita secundum se, et visa in 
+ra<lb break="no" ed="#L" n="129"/>tione credibilis.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1688">
+                  <pb ed="#L" n="15"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>IV. In eadem responsione ad secundum dubium aliud
+<lb ed="#L" n="2"/>occurrit circa subiunctam rationem quare ea quae subsunt
+<lb ed="#L" n="3"/>fidei, sub communi ratione credibilis, sunt visa ab eo qui
+<lb ed="#L" n="4"/>credit, scilicet: Non enim crederet nisi videret ea esse 
+cre<lb break="no" ed="#L" n="5"/>denda, vel propter evidentiam signorum vel propter 
+ali<lb break="no" ed="#L" n="6"/>quid huiusmodi. Occurrit autem hic dubium quia ista ratio
+<lb ed="#L" n="7"/>infert necessitatem evidentiae in communi ad credendum
+<lb ed="#L" n="8"/>in particulari: dicendo enim quod non crederet nisi videret
+<lb ed="#L" n="9"/>esse credenda, manifeste dicit quod oportet credentem 
+vi<lb break="no" ed="#L" n="10"/>dere esse:credendum. Sed quia hoc non probatur in littera,
+<lb ed="#L" n="11"/>nec apparet verum, ideo ambiguitas consurgit. Experimur
+<lb ed="#L" n="12"/>enim nos multa credere sine evidentia credibilitatis: immo
+<lb ed="#L" n="13"/>ex levitate cordis, iuxta illud: Qui cito credit levis est
+<lb ed="#L" n="14"/>corde. Non omnes quoque Christiani credentes fatentur se
+<lb ed="#L" n="15"/>videre credibilitatem eorum quae sunt fidei; sed hoc 
+vide<lb break="no" ed="#L" n="16"/>tur paucorum esse.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1731">
+                  <lb ed="#L" n="17"/>V. Ad hoc dubium dicitur primo, quod Auctor loquitur
+<lb ed="#L" n="18"/>de videre lato vocabulo. - Sed hoc iam exclusum est in 
+prae<lb break="no" ed="#L" n="19"/>cedenti dubio: quia periret distinctio in hac littera facta
+<lb ed="#L" n="20"/>nisi videre hic sumatur ut incompossibile est actui 
+cre<lb break="no" ed="#L" n="21"/>dendi respectu eiusdem; quod est proprie loqui de videre.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1744">
+                  <lb ed="#L" n="22"/>Dicitur secundo, quod Auctor loquitur de videre 
+quan<lb break="no" ed="#L" n="23"/>tum est ex parte habitus fidei infusae. — Sed hoc ostenditur
+<lb ed="#L" n="24"/>non consonare litterae tripliciter. Primo, quia expresse in
+<lb ed="#L" n="25"/>littera est sermo de illo qui credit ut sic, et non ex parte
+<lb ed="#L" n="26"/>habitus. Unde ratio affertur probans ex actu credendi, et
+<lb ed="#L" n="27"/>non ex habitu, cum dicitur: Non enim crederet nisi 
+vi<lb break="no" ed="#L" n="28"/>deret. - Secundo, quia in littera causa visionis expresse
+<lb ed="#L" n="29"/>assignatur ex extrinsecis, scilicet, propter miracula vel 
+ali<lb break="no" ed="#L" n="30"/>quid huiusmodi; et non ex parte habitus. - Tertio, quia in
+<lb ed="#L" n="31"/>littera reservatur tractanda visio ex parte habitus in tertio
+<lb ed="#L" n="32"/>argumento et illius responsione: et ibi tractatur ex parte
+<lb ed="#L" n="33"/>habitus, ut patet intuenti. Non sunt autem confundendae
+<lb ed="#L" n="34"/>argumentorum difficultates, sed unicuique propria servanda
+<lb ed="#L" n="35"/>est: quoniam ideo diversificata sunt
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1777">
+                  <lb ed="#L" n="36"/>Dicendum est igitur quod Auctor loquitur de visione
+<lb ed="#L" n="37"/>proprie ; et quod vere ac virtuose credere exigit evidentiam
+<lb ed="#L" n="38"/>quod illud sit credibile; ita quod nullus aliquid vere, hoc
+<lb ed="#L" n="39"/>est absque formidine alterius partis, et virtuose, hoc est
+<lb ed="#L" n="40"/>prudenter, credit aliquid, nisi evidenter cognoscat illud esse
+<lb ed="#L" n="41"/>credibile. Sed evidentia nostrae cognitionis. non. solum est
+<lb ed="#L" n="42"/>ex terminis, ut contingit in primis principiis; aut ex 
+de<lb break="no" ed="#L" n="43"/>monstratione, ut contingit in conclusionibus scitis; sed
+<lb ed="#L" n="44"/>etiam ex oblatione sensuum, ut patet in propositionibus ex
+<lb ed="#L" n="45"/>sensu clarissimis, puta, Nix est alba, Iste me percussit,
+<lb ed="#L" n="46"/>llle dixit tale quid, et huiusmodi. Haec enim, quia ex
+<lb ed="#L" n="47"/>sensu claro oblata sunt, convincunt intellectum non ex 
+ter<lb break="no" ed="#L" n="48"/>minorum connexione absolute aut demonstrationis 
+dis<lb break="no" ed="#L" n="49"/>cursu necessario, sed ex demonstratione ad sensum. Et sic
+<lb ed="#L" n="50"/>contingit in proposito. Quoniam nullus audiens aliquid
+<lb ed="#L" n="51"/>vere ac prudenter. credit illud nisi ad sensum cognoscat a
+<lb ed="#L" n="52"/>viro fide digno illud asseri. Idem est autem videre hoc asseri
+<lb ed="#L" n="53"/>aut assertum esse a fide digno, et videre hoc esse 
+credi<lb break="no" ed="#L" n="54"/>bile: quoniam fide dignum. testimonium constituit dictum
+<lb ed="#L" n="55"/>in esse credibili. Et sicut solis illis qui viderunt nivem
+<lb ed="#L" n="56"/>evidens est illa propositio, Nix est alba; ita solis illis apud
+<lb ed="#L" n="57"/>quos iste asserens est fide dignus, et a quibus auditur, 
+evi<lb break="no" ed="#L" n="58"/>dens est hoc dictum esse credibile. Et propterea stat unum
+<lb ed="#L" n="59"/>et idem dictum ab uno videri in ratione. credibilis ef ab
+<lb ed="#L" n="60"/>alio. non: ex eo enim quod evidentia ista non convenit
+<lb ed="#L" n="61"/>credibili ex parte rei semper, sed quandoque ex parte 
+no<lb break="no" ed="#L" n="62"/>strij, ut patet in exemplis datis, ideo variatur in diversis, et
+<lb ed="#L" n="63"/>exigit aliquam. conditionem obiecti in ordine ad nos. Et
+<lb ed="#L" n="64"/>hoc directe consonat litterae dicenti quod propter miracula
+<lb ed="#L" n="65"/>testificantia vel aliquid huiusmodi, puta auctoritatem .
+Ec<lb break="no" ed="#L" n="66"/>clesiae dicentis vel propter mortem martyrum, credens videt
+<lb ed="#L" n="67"/>haec esse credibilia.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1849">
+                  <lb ed="#L" n="68"/>VI. Ad obiecta in oppositum dicitur quod omnes virtuose
+<lb ed="#L" n="69"/>credentes, si vocem propriam intelligunt, fatentur se videre
+<lb ed="#L" n="70"/>credibilitatem, saltem ex .parte credentis, ut dictum est.
+<lb ed="#L" n="71"/>Qui autem credit ex levitate non virtuose credit, et ideo
+<lb ed="#L" n="72"/>non obstat proposito. Vident autem Christiani credentes
+<lb ed="#L" n="73"/>credibilia esse ea quae sunt fidei, audientes a fide dignis
+<lb ed="#L" n="74"/>mundi scilicet conversione ad Christum pauperem per
+<lb ed="#L" n="75"/>pauperes piscatores, idiotas, inter tot persecutiones, tor-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>menta et mortes, et postmodum a tot doctissimis viris
+<lb ed="#L" n="77"/>cum vitae propriae castigatione mundique huius contemptu,
+<lb ed="#L" n="78"/>approbata, innumerisque miraculis firmata.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1878">
+                  <lb ed="#L" n="79"/>Et scito quod, licet videre credibilitatem exigatur ad
+<lb ed="#L" n="80"/>vere et virtuose credendum, non sufficit tamen. Sunt enim
+<lb ed="#L" n="81"/>multi qui, etsi videant aliquid esse credibile, non credunt
+<lb ed="#L" n="82"/>tamen illud: ut patet de multis qui viderunt Iesum 
+resu<lb break="no" ed="#L" n="83"/>scitantem Lazarum, et tamen iverunt ad nuntiandum hoc
+<lb ed="#L" n="84"/>persecutoribus ipsius, ut amplius persequerentur, ut 
+fece<lb break="no" ed="#L" n="85"/>runt, ut patet Ioan. xr. Et ratio est quia credere est actus
+<lb ed="#L" n="86"/>non solius intellectus, sed etiam voluntatis: hinc enim fit
+<lb ed="#L" n="87"/>ut videntes aliquid credibile nolint credere illud. Sed 
+quo<lb break="no" ed="#L" n="88"/>modo credere sit voluntarium inferius tractabitur. Nunc
+<lb ed="#L" n="89"/>autem hoc praelibatum sit ut pateat magis habitudo actus
+<lb ed="#L" n="90"/>credendi vere et virtuose ad evidentiam credibilitatis.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1907">
+                  <lb ed="#L" n="91"/>VII. In responsione ad tertium eiusdem articuli quarti
+<lb ed="#L" n="92"/>dubium occurrit duplex. Primo, quid intendat Auctor per
+<lb ed="#L" n="93"/>prima verba responsionis, scilicet: Lumen fidei facit videre
+<lb ed="#L" n="94"/>ea quae creduntur: an quod faciat videre ea sub communi
+<lb ed="#L" n="95"/>ratione credibilis; an in particulari; an sub quadam alia
+<lb ed="#L" n="96"/>ratione.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1924">
+                  <lb ed="#L" n="97"/>Secundo, quantum valeat subiuncta ratio, cum dicitur:
+<lb ed="#L" n="98"/>Sicut enim per alios habitus virtutum homo videt illud
+<lb ed="#L" n="99"/>quod est sibi conveniens. secundum habitum illum, ita etiam
+<lb ed="#L" n="100"/>per habitum fidei inclinatur mens hominis ad 
+assentien<lb break="no" ed="#L" n="101"/>dum his quae conveniunt rectae fidei et non aliis. Occurrit
+<lb ed="#L" n="102"/>siquidem hic duplex defectus. Primus est aequivocatio de
+<lb ed="#L" n="103"/>visione. Nam quilibet habitus virtutis facit videre sibi 
+con<lb break="no" ed="#L" n="104"/>veniens, accipiendo ly videre pro apparere, iuxta illud 
+Phi<lb break="no" ed="#L" n="105"/>losophi: Qualis unusquisque est, talis finis ei videtur,
+<lb ed="#L" n="106"/>idest apparet: casto enim apparet conveniens abstinere ab
+<lb ed="#L" n="107"/>illicito coitu, et abstinenti apparet conveniens subtrahere
+<lb ed="#L" n="108"/>superfluum cibum, et sic de aliis. In proposito autem sermo
+<lb ed="#L" n="109"/>est de videre ut importat evidentiam distinctam contra 
+ap<lb break="no" ed="#L" n="110"/>parentiam firmae adhaesionis. - Secundus est quia in littera
+<lb ed="#L" n="111"/>proponitur quod lumen fidei facit videre: et transitur ad
+<lb ed="#L" n="112"/>probandum non quod facit videre, sed quod facit assentire
+<lb ed="#L" n="113"/>his quae sunt consona rectae fidei et non aliis. Valde 
+nam<lb break="no" ed="#L" n="114"/>que distant inter se isti duo actus, scilicet videre et 
+assen<lb break="no" ed="#L" n="115"/>tire: ut patet ex hoc quod assentire his quae sunt fidei
+<lb ed="#L" n="116"/>quilibet fidelis fatetur se intrepide; videre autem ex 
+intrin<lb break="no" ed="#L" n="117"/>seco lumine ea quae creduntur nullus fatetur, nisi maiori
+<lb ed="#L" n="118"/>lumine quam sit lumen fidei illustretur.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e1974">
+                  <lb ed="#L" n="119"/>VIII. Ad primum horum dicitur quod Auctor loquitur
+<lb ed="#L" n="120"/>de videre ea quae sunt fidei sub communi ratione 
+credi<lb break="no" ed="#L" n="121"/>bilis. Ita quod videre credibilitatem eorum convenit fideli
+<lb ed="#L" n="122"/>ex duplici capite: scilicet ex sensu fide digni testimonii,
+<lb ed="#L" n="123"/>iuxta doctrinam responsionis ad secundum; et ex lumine
+<lb ed="#L" n="124"/>fidei intus existente, iuxta praesentis responsionis 
+doctri<lb break="no" ed="#L" n="125"/>nam. Et hanc esse mentem Auctoris patet ex hoc quod in
+<lb ed="#L" n="126"/>sequenti articulo, in responsione ad primum, dicitur: Per
+<lb ed="#L" n="127"/>lumen fidei videntur esse credenda, ut dictum est, procul
+<lb ed="#L" n="128"/>dubio. hoc in loco, ubi primo dicitur quod lumen fidei
+<lb ed="#L" n="129"/>facit videre. Et iuxta eundem sensum inferius dicitur quod
+<lb ed="#L" n="130"/>per donum intellectus intelligimus ea quae sunt fidei esse
+<lb ed="#L" n="131"/>credenda. :
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2005">
+                  <lb ed="#L" n="132"/>IX. Ad secundum dicitur quod neuter defectus hic 
+ac<lb break="no" ed="#L" n="133"/>cidit, sed argumentum fit a minori et ab effectu. A 
+mi<lb break="no" ed="#L" n="134"/>nori quidem, quia ex quo habitus virtutis perficientis 
+par<lb break="no" ed="#L" n="135"/>tem appetitivam facit occasionaliter, hoc est inclinando in
+<lb ed="#L" n="136"/>id quod convenit, hominem videre, hoc est evidentiam 
+pra<lb break="no" ed="#L" n="137"/>tice habere eius quod convenit secundum illum habitum;
+<lb ed="#L" n="138"/>multo magis habitus fidei, qui est habitus virtutis in parte
+<lb ed="#L" n="139"/>intellectiva, inclinando in sibi conveniens, faciet evidentiam
+<lb ed="#L" n="140"/>sibi possibilem. Quoniam perfectio partis intellectivae 
+pro<lb break="no" ed="#L" n="141"/>pinquior est ut faciat evidentiam, quae est propria 
+perfe<lb break="no" ed="#L" n="142"/>ctio intellectus, quam perfectio partis appetitivae, ex qua
+<lb ed="#L" n="143"/>tamen fit evidentia practica. Temperatus siquidem habet
+<lb ed="#L" n="144"/>evidens iudicium practicum circa actus temperantiae, et
+<lb ed="#L" n="145"/>iustus circa actus iustitiae: adeo ut IX Ethic. ponatur vir
+<lb ed="#L" n="146"/>bonus mensura humanorum actuum; mensura autem sine
+<lb ed="#L" n="147"/>certitudine evidentiae non est.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2042">
+                  <lb ed="#L" n="148"/>Ab effectu autem, quia ex hoc quod lumen fidei inclinat
+<lb ed="#L" n="149"/>ad assensum discrete, hoc est discernendo ea quae sunt
+<lb ed="#L" n="150"/>fidei ab his quae non sunt fidei, puta quod sol est maior
+<pb ed="#L" n="16"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>toto orbe terrarum, et ab eis quae sunt contraria fidei, ut
+<lb ed="#L" n="2"/>sunt damnatae haereses, sicut quilibet virtutis. habitus ita
+<lb ed="#L" n="3"/>inclinat in propria quod non in extranea nec in contraria ;
+<lb ed="#L" n="4"/>infertur quod, sicut quilibet virtutis habitus parit 
+eviden<lb break="no" ed="#L" n="5"/>tiam. practicam, ita habitus fidei infusae parit evidentiam
+<lb ed="#L" n="6"/>proportionaliter: hoc est, non in alia potentia aut ex 
+acti<lb break="no" ed="#L" n="7"/>bus, sed ut habitus infusus praehabeat et pariat in suo actu
+<lb ed="#L" n="8"/>evidentiam sibi consonam, quae iam , explicata est, scilicet
+<lb ed="#L" n="9"/>evidentiam credibilitatis eorum quae sunt fidei. Ita quod
+<lb ed="#L" n="10"/>habitus fidei habet tres habitudines ad credenda. Prima est
+<lb ed="#L" n="11"/>communis, quae iam dicta est, quod inclinat ita in sua
+<lb ed="#L" n="12"/>credenda quod non in alia, sive extranea sive contraria.
+<lb ed="#L" n="13"/>Secunda est quod facit evidentiam credibilitatis eorum quae
+<lb ed="#L" n="14"/>sunt fidei. Tertia est quod facit assentire his quae sunt
+<lb ed="#L" n="15"/>fidei. Et quod fidei lumen natum sit causare in nobis 
+vi<lb break="no" ed="#L" n="16"/>sionem credibilitatis probatur ex hoc quod lumen fidei est
+<lb ed="#L" n="17"/>secundum suum genus perfectissimum , utpote divini 
+or<lb break="no" ed="#L" n="18"/>dinis: et talis visio non repugnat fidei secundum se nec in
+<lb ed="#L" n="19"/>nobis pro. statu isto, sed ad perfectionem ipsius procul
+<lb ed="#L" n="20"/>dubio pertinet: oportet ergo huiusmodi perfectionem illi
+<lb ed="#L" n="21"/>attribuere. Et merito: ut credulitatis motus super visionis
+<lb ed="#L" n="22"/>immobilitate firmetur, et imperfectio inevidentis actus a
+<lb ed="#L" n="23"/>perfectione evidentis procedat secundum se. Et sic patet
+<lb ed="#L" n="24"/>quod illud idem quod in principio responsionis proponitur
+<lb ed="#L" n="25"/>probatur a posteriori per actum assensus discrete: 
+quam<lb break="no" ed="#L" n="26"/>vis, brevitatis causa, conclusio proposita, quae probatur,
+<lb ed="#L" n="27"/>non repetatur in probatione.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2114">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>X. Nec obstat huic. doctrinae si non omnes habentes
+<lb ed="#L" n="29"/>habitum fidei fateantur se videre ab intrinseco 
+credibilita<lb break="no" ed="#L" n="30"/>tem. Tum quia multos actus exercemus et nescimus eo-:
+<lb ed="#L" n="31"/>rum principia esse habitus in nobis existentes; quod 
+ma<lb break="no" ed="#L" n="32"/>xime verum experimur de actibus habituum infusorum. -
+<lb ed="#L" n="33"/>Tum quia non oportet habitum infusum exire in omnem
+<lb ed="#L" n="34"/>suum actum in quolibet subiecto in quo est: sed in eo
+<lb ed="#L" n="35"/>tantum qui est dispositus ad utendum illo habitu ad talem
+<lb ed="#L" n="36"/>actum. Non omnes autem credentes sunt dispositi ad 
+sor<lb break="no" ed="#L" n="37"/>tiendam evidentiam ex habitu fidei, sed perfectiores 
+tan<lb break="no" ed="#L" n="38"/>tum: et aliis sufficit evidentia ex fide. digno testimonio.
+<lb ed="#L" n="39"/>Quoniam evidentia credibilitatis est ut ratio assensus: ac
+<lb ed="#L" n="40"/>per hoc, perfectius est habere ex lumine fidei assensum et
+<lb ed="#L" n="41"/>rationem assensus, scilicet evidentiam, quam habere 
+assen<lb break="no" ed="#L" n="42"/>sum tantum. Et ideo assensus omnibus communis est 
+qua<lb break="no" ed="#L" n="43"/>literrumque fidem habentibus: evidentia. autem. 
+perfectio<lb break="no" ed="#L" n="44"/>ribus in fide convenit.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2156">
+                  <lb ed="#L" n="45"/>Similiter non obstat si habitus fidei non facit evidentiam
+<lb ed="#L" n="46"/>credibilitatis in puero baptizato nutrito sine notitia eorum
+<lb ed="#L" n="47"/>quae sunt fidei. Quoniam intelligitur. habitum fidei parere
+<lb ed="#L" n="48"/>huiusmodi: evidentiam. quantum est ex se, et in subiecto
+<lb ed="#L" n="49"/>disposito. In hoc autem puero deest dispositio. debita, 
+sci<lb break="no" ed="#L" n="50"/>licet propositio credendorum a Dei ministris: est enim
+<lb ed="#L" n="51"/>fides, quoad perceptionem credendorum, ex auditu 
+praedi<lb break="no" ed="#L" n="52"/>catorum missorum a Deo, ut dicitur ad Rom. x. Et 
+pro<lb break="no" ed="#L" n="53"/>pterea non est mirum si talis puer nec evidentiam nec
+<lb ed="#L" n="54"/>assensum discrete ex habitu fidei infusae eliceret.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1277-Dd1e2182"><!-- caj-p2p2-q1a5 -->
+               <head xml:id="TAcCaj-d1e1277-Hd1e2185">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1277-d1e2187">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2194">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>IN articulo quinto, in responsione ad primum, adverte
+<lb ed="#L" n="53"/>quod non dicit absolute quod fideles in hoc differunt ab
+<lb ed="#L" n="54"/>infidelibus quia vident: sed quia habent notitiam 
+inquan<lb break="no" ed="#L" n="55"/>tum per lumen fidei videntur esse credenda. Quod est
+<lb ed="#L" n="56"/>dictu: Habent notitiam. quantum est ex parte luminis fidei,
+<lb ed="#L" n="57"/>quod est natum facere quod videantur credenda. Et sic
+<lb ed="#L" n="58"/>non oportet dicere quod quilibet fidelis habet de facto
+<lb ed="#L" n="59"/>huiusmodi evidentiam ex lumine fidei: sed quod habet illam
+<lb ed="#L" n="60"/>quantum est ex parte luminis fidei, Quod est dictu quod
+<lb ed="#L" n="61"/>habet lumen unde potest habere huiusmodi notitiam et
+<lb ed="#L" n="62"/>evidentiam.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2223">
+                  <lb ed="#L" n="63"/>II. In eodem articulo, in responsione ad secundum,
+<lb ed="#L" n="64"/>dubium occurrit ex Scoto, in. xxiv dist. III Sent, quia
+<lb ed="#L" n="65"/>Auctor duo contradictoria tenuit: scilicet quod theologia
+<lb ed="#L" n="66"/>nostra est vere scientia subalternata; et quod fides et
+<lb ed="#L" n="67"/>scientia non possunt esse de eodem. Cum enim credita
+<lb ed="#L" n="68"/>sciamus per theologiam; et theologia sit vere scientia
+<lb ed="#L" n="69"/>subalternata; sequitur quod idem sit scitum et 
+credi<lb break="no" ed="#L" n="70"/>tum ab eodem simul. Nec potest solvere, inquit Scotus,
+<lb ed="#L" n="71"/>hanc contradictionem nisi dicendo quod in hoc loco 
+Au<lb break="no" ed="#L" n="72"/>ctor loquitur de scientia subalternante, et non 
+subalter<lb break="no" ed="#L" n="73"/>nata.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2249">
+                  <lb ed="#L" n="74"/>Ad hoc dubium breviter dicitur quod Auctor loquitur
+<lb ed="#L" n="75"/>de scientia universaliter, et non de subalternante tantum.
+<lb ed="#L" n="76"/>Et quod in nullo sibi contradicit, propter duo. Primo,
+<lb ed="#L" n="77"/>quia non sunt de eodem: quia fides est de principiis
+<lb ed="#L" n="78"/>theologiae; ipsa vero theologia est de conclusionibus ex
+<lb ed="#L" n="79"/>ipsis principiis. - Secundo, quia theologia nostra, licet 
+se<lb break="no" ed="#L" n="80"/>cundum suam speciem sit scientia, non tamen est in statu
+<lb ed="#L" n="81"/>scientiae: habet enim imperfectum statum. Sicut 
+perspe<lb break="no" ed="#L" n="82"/>ctiva non-geometrae secundum suam speciem est scientia
+<lb ed="#L" n="83"/>subalternata, sed non pervenit adhuc ad perfectum statum
+<lb ed="#L" n="84"/>scientiae; et propterea non facit scire nisi inchoative et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="85"/>imperfecte: quia, ut dicitur in I Poster., non sciet carens
+<lb ed="#L" n="86"/>resolutione usque ad principia evidentia sibi. "Theologia
+<lb ed="#L" n="87"/>ergo in nobis viatoribus est secundum se vere scientia
+<lb ed="#L" n="88"/>subalternata: non tamen in statu scientiae, quousque 
+con<lb break="no" ed="#L" n="89"/>tinuetur cum evidentia principiorum illius. Et propterea,
+<lb ed="#L" n="90"/>dato quod sit de creditis, non sequitur aliqua contradictio,
+<lb ed="#L" n="91"/>nec quod fides et scientia sint de eodem: quia hoc, 
+sci<lb break="no" ed="#L" n="92"/>licet quod scientia et fides non possunt esse de eodem,
+<lb ed="#L" n="93"/>intelligitur de scientia in statu scientiae, et non de scientia
+<lb ed="#L" n="94"/>in statu imperfecto.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2300">
+                  <lb ed="#L" n="95"/>III. In responsione ad quartum efusdem articuli recole
+<lb ed="#L" n="96"/>dicta in Prima Secundae. Et adverte quod, licet alia ratio
+<lb ed="#L" n="97"/>sit de incompossibilitate scientiae cum opinione et cum fide,
+<lb ed="#L" n="98"/>convenit tamen in hoc omnis earum incompossibilitatis ratio,
+<lb ed="#L" n="99"/>quia scilicet tenet se ex parte subiecti simpliciter et non
+<lb ed="#L" n="100"/>secundum quid. Existimare namque A esse et non 
+existi<lb break="no" ed="#L" n="101"/>mare A esse, videre A esse et non videre A esse, ex parte
+<lb ed="#L" n="102"/>subiecti distinguuntur et opponuntur: et propterea 
+incom<lb break="no" ed="#L" n="103"/>possibilia sunt in eodem subiecto simpliciter. Sic autem
+<lb ed="#L" n="104"/>distinguuntur scientia, fides et opinio. Nam sciens videt A
+<lb ed="#L" n="105"/>esse sic quod existimat impossibile aliter se habere; 
+opi<lb break="no" ed="#L" n="106"/>nans aliqualiter videt A esse, sed non ita quod existimet
+<lb ed="#L" n="107"/>impossibile aliter se habere; credens autem, licet existimet
+<lb ed="#L" n="108"/>impossibile aliter se habere, non tamen hoc habet ex 
+evi<lb break="no" ed="#L" n="109"/>dentia, nec videt A esse. Dico autem subiecti simpliciter,
+<lb ed="#L" n="110"/>ad excludendum subiectum secundum quid: puta Socratem
+<lb ed="#L" n="111"/>ut geometram, ut sic dispositum, ut credentem, et 
+opi<lb break="no" ed="#L" n="112"/>nantem, et sic de aliis. Non enim distinctio horum in hoc
+<lb ed="#L" n="113"/>consistit quod credens uf sic non videat, ut opinans 
+exi<lb break="no" ed="#L" n="114"/>stimet possibile aliter se habere, ut sciens videat, etc.: sed
+<lb ed="#L" n="115"/>in hoc quod subiectum de quo simpliciter et absolute 
+ve<lb break="no" ed="#L" n="116"/>rificatur credere A esse, de eodem non potest simul 
+veri<lb break="no" ed="#L" n="117"/>ficari scire A esse; et similiter est de opinione et scientia.
+<pb ed="#L" n="18"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>At si quis aliter definire voluerit hos terminos, non erit
+<lb ed="#L" n="2"/>quaestio cum eo de re, sed de vocabulis. Quam eis relinquo.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2361">
+                  <lb ed="#L" n="3"/>Cum autem audis differentiam inter opinantem et 
+scien<lb break="no" ed="#L" n="4"/>tem in existimando vel non existimando impossibile aliter
+<lb ed="#L" n="5"/>se habere, memento quod, quia bonum consurgit ex causa
+<lb ed="#L" n="6"/>integra, malum autem ex particularibus defectibus, ideo
+<lb ed="#L" n="7"/>ad hoc quod aliquis sit sciens, exigitur quod impossibile
+<lb ed="#L" n="8"/>sit aliter se habere et secundum se et secundum 
+existima<lb break="no" ed="#L" n="9"/>tonem nostram: sed ad hoc quod sit opinans, quidquid
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>horum deficiat, sufficit. Si enim conclusio vel ratio 
+secun<lb break="no" ed="#L" n="11"/>dum se est impossibilis aliter se habere, et ab hoc non
+<lb ed="#L" n="12"/>penetratur quod sit talis, opinans est. Et similiter si ratio
+<lb ed="#L" n="13"/>aut conclusio possibilis est aliter se habere, et iste putat
+<lb ed="#L" n="14"/>quod impossibile sit aliter se habere, opinans est secundum
+<lb ed="#L" n="15"/>naturam sui status, aliunde nesciens illudmet: quia non ex
+<lb ed="#L" n="16"/>meritis notitiae, sed propriae phantasiae, existimat 
+impos<lb break="no" ed="#L" n="17"/>sibile esse aliter se habere; et in veritate subiectum talis
+<lb ed="#L" n="18"/>notitiae deberet aestimare esse possibile aliter se habere.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1277-Dd1e2401"><!-- caj-p2p2-q1a6 -->
+               <head xml:id="TAcCaj-d1e1277-Hd1e2404">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1277-d1e2406">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2413">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>IN articulo sexto, responsione ad secundum, adverte quod,
+<lb ed="#L" n="21"/>Tn dicitur ratio formalis ex parte nostri, ly ex parte
+<lb ed="#L" n="22"/>nostri diminuit a ratione formali obiecti simpliciter. Et
+<lb ed="#L" n="23"/>propterea non valet argumentum: Non-visum est ratio 
+for<lb break="no" ed="#L" n="24"/>malis obiecti fidei ex parte nostri, Ergo est ratio formalis
+<lb ed="#L" n="25"/>obiecti fidei. Et hinc provenit quod quotquot attulerunt
+<lb ed="#L" n="26"/>rationes ad probandum quod non-visum non est ratio 
+for<lb break="no" ed="#L" n="27"/>malis obiecti fidei, nihil contra Auctorem concluserunt:
+<lb ed="#L" n="28"/>quamvis ipsi forte crediderint contra Auctorem dicere,
+<lb ed="#L" n="29"/>Quia enim esse non visum est vere conditio obiecti fidei
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="30"/>ex parte obiecti se tenens, ut patet ex antedictis (oportet
+<lb ed="#L" n="31"/>enim creditum non esse visum a credente); et haec conditio
+<lb ed="#L" n="32"/>comprehendit omnia credibilia; habetque se ad ea ut 
+for<lb break="no" ed="#L" n="33"/>male ad materiale (est siquidem talis credibilium 
+denomi<lb break="no" ed="#L" n="34"/>natio quam oportet omnia induere ut credibilis rationem
+<lb ed="#L" n="35"/>habeant: unde et in definitione fidei ab ipso Apostolo 
+po<lb break="no" ed="#L" n="36"/>nitur, ad Heb. xi): ideo nonnulla ratio formalis est 
+credi<lb break="no" ed="#L" n="37"/>bilium quod credibilia sint. Non tamen est absolute dicenda
+<lb ed="#L" n="38"/>ratio formalis obiecti fidei. Unde in re hac meminerint 
+dis<lb break="no" ed="#L" n="39"/>putantes ne protervia sit in vocabulis, ex quo constat de re.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1277-Dd1e2464"><!-- caj-p2p2-q1a7 -->
+               <head xml:id="TAcCaj-d1e1277-Hd1e2467">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1277-d1e2469">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="85"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2476">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="86"/>In articuli septimi responsione ad tertium adverte quod
+<lb ed="#L" n="87"/>Auctor rationem doctoratus, ex qua videbatur quod fides
+<lb ed="#L" n="88"/>a doctoribus doctioribus proficisci debuisset, reducit ad
+<lb ed="#L" n="89"/>rationem materiae, ea ratione quia unicuique datur 
+mani<lb break="no" ed="#L" n="90"/>Jfestatio Spiritus ad utilitatem. Ex hoc enim quod 
+docto<lb break="no" ed="#L" n="91"/>ribus sat est nosse quantum expedit instruendis illius 
+tem<lb break="no" ed="#L" n="92"/>poris, nulla alia ratio sumi potest ex parte doctorum quam
+<lb ed="#L" n="93"/>ex parte instruendorum. Quos quia constat se tenere ex
+<lb ed="#L" n="94"/>parte materiae, patet exigere quod de imperfecto ad 
+per<lb break="no" ed="#L" n="95"/>fectum perveniatur. Et sic non solum populus posterior
+<lb ed="#L" n="96"/>plus scivit populo prioris aetatis; sed doctores posteriores
+<lb ed="#L" n="97"/>doctiores fuerunt prioribus. Et hoc intellige salva capitis
+<lb ed="#L" n="98"/>excellentia in utroque priori statu, scilicet naturae et legis:
+<lb ed="#L" n="99"/>ut Auctor inferius docet in qu. crxxrv, art. 6. Nam Abraham
+<lb ed="#L" n="100"/>doctus a Deo magis fuit quam posteriores usque ad Moysen,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="101"/>sub quo status legis coepit; et Moyses magis edoctus a
+<lb ed="#L" n="102"/>Deo fuit quam reliqui usque ad tempus gratiae.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2520">
+                  <lb ed="#L" n="103"/>II. In eiusdem articuli responsione. ad quartum adverte
+<lb ed="#L" n="104"/>quod ex alia ratione quam praecedente Auctor terminum
+<lb ed="#L" n="105"/>ponit profectui fidei, scilicet ex consummatione gratiae per
+<lb ed="#L" n="106"/>Christum et temporis plenitudine. Ex quo habes 
+praepo<lb break="no" ed="#L" n="107"/>sterum ordinem ante et post Christum: scilicet quod ante
+<lb ed="#L" n="108"/>Christum, quanto priores tanto minus edocti; post 
+Chri<lb break="no" ed="#L" n="109"/>stum vero, quanto priores tanto doctiores. Et propterea
+<lb ed="#L" n="110"/>in determinatione quaestionum fidei standum est doctrinae
+<lb ed="#L" n="111"/>antiquorum Doctorum et sanctorum Patrum, quos 
+illustra<lb break="no" ed="#L" n="112"/>tos credimus divino lumine et quoad doctrinam et quoad
+<lb ed="#L" n="113"/>vitam, magis quam posteriorum, ubi discrepant 
+posterio<lb break="no" ed="#L" n="114"/>res ab illis.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2549">
+                  <lb ed="#L" n="115"/>Ex hoc tamen non negamus quin etiam post Christum
+<pb ed="#L" n="21"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>una aetas posterior habeat doctores in his quae sunt fidei
+<lb ed="#L" n="2"/>praestantiores aliqua aetate anteriori, quamvis non omni:
+<lb ed="#L" n="3"/>puta quod in aetate anni millesimi fuerint doctiores 
+do<lb break="no" ed="#L" n="4"/>ctores in fide quam in aetate anni octingentesimi. Quia
+<lb ed="#L" n="5"/>etsi regulariter divina doctrina procedat secundum 
+propin<lb break="no" ed="#L" n="6"/>quitatem ad Christum, non tamen alligata est illuminatio
+<lb ed="#L" n="7"/>eius ad ordinem istum. Cuius signum est quod Moysen
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>creditur elevasse ad visionem divinae essentiae, ad quam
+<lb ed="#L" n="9"/>nullum posteriorum proximiorumque magis Christo 
+credi<lb break="no" ed="#L" n="10"/>tur elevatum esse. Nunquam tamen fuerunt aut erunt 
+do<lb break="no" ed="#L" n="11"/>ctiores quam Apostoli, sicut nec perfectiores: ut patet ex
+<lb ed="#L" n="12"/>glossa ad Rom. vur. — Et est semper sermo de fidei 
+scien<lb break="no" ed="#L" n="13"/>tia infusa, non de acquisita: ut patet in littera, ubi Deus
+<lb ed="#L" n="14"/>doctor et agens, homo vero discipulus et patiens ponitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1277-Dd1e2592"><!-- caj-p2p2-q1a8 -->
+               <head xml:id="TAcCaj-d1e1277-Hd1e2595">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1277-d1e2597">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2604">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>IN articulo octavo adverte quod Auctor, articulos fidei ex
+<lb ed="#L" n="67"/>parte rei creditae enumerandos arbitrans, distinctionem
+<lb ed="#L" n="68"/>illam famosam iuxta numerum Apostolorum praetermisit :
+<lb ed="#L" n="69"/>ea fatione quia accidit articulis fidei quod ab uno vel a
+<lb ed="#L" n="70"/>pluribus sint. Et simile invenies inferius de symboli 
+no<lb break="no" ed="#L" n="71"/>mine, quod non a colligentium, sed collectorum 
+plurali<lb break="no" ed="#L" n="72"/>tate definitur, eadem ratione: quia scilicet accidit symbolo
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>pluralitas colligentium. In cuius signum, Athanasius solus
+<lb ed="#L" n="74"/>symbolum collegit.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2630">
+                  <lb ed="#L" n="75"/>In eodem octavo articulo, in responsione ad primum,
+<lb ed="#L" n="76"/>perspice, tu qui omnem rationem putas demonstrationem,
+<lb ed="#L" n="77"/>quod Auctor hic explicat quod philosophi non potuerunt
+<lb ed="#L" n="78"/>naturali ratione investigare quod solus Deus sit colendus,
+<lb ed="#L" n="79"/>et quae de providentia ac omnipotentia eius tenemus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1277-Dd1e2644"><!-- caj-p2p2-q1a9et10 -->
+               <head xml:id="TAcCaj-d1e1277-Hd1e2647">Articuli 9 et 10</head>
+               <p xml:id="TAcCaj-d1e1277-d1e2649">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="83"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2656">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="84"/>In articulis nono et decimo simul adverte diligenter quod
+<lb ed="#L" n="85"/>Auctor pro eodem computat auctoritatem universalis 
+Ec<lb break="no" ed="#L" n="86"/>clesiae, generalis synodi et Papae: ut patet in utroque 
+ar<lb break="no" ed="#L" n="87"/>ticulo in argumento ad oppositum, Et ratio est quia Papa
+<lb ed="#L" n="88"/>est pastor et episcopus universalis Ecclesiae cum plenissima
+<lb ed="#L" n="89"/>potestate.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2674">
+                  <lb ed="#L" n="90"/>In articulo decimo dubium primo occurrit circa minorem
+<lb ed="#L" n="91"/>propositionem , scilicet: 7Zoc autem, scilicet determinare
+<lb ed="#L" n="92"/>finaliter quae fidei sunt, pertinet ad auctoritatem Summi
+<lb ed="#L" n="93"/>Pontificis. Nam quidam hoc non admittunt, ex eo quod
+<lb ed="#L" n="94"/>Papa potest esse haereticus. — Et propter determinationem
+<lb ed="#L" n="95"/>factam in Concilio Constantiensi: quod scilicet Papa 
+sub<lb break="no" ed="#L" n="96"/>est concilio universali in his quae sunt fidei, - Et quia
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="97"/>par in parem non habet imperium. Ac per hoc, unus Papa
+<lb ed="#L" n="98"/>non ligat alium. Et consequenter determinatio facta per
+<lb ed="#L" n="99"/>unum Papam in materia fidei non ligabit successores suos.
+<lb ed="#L" n="100"/>Et sic, si huiusmodi successores tenerent contra 
+determi<lb break="no" ed="#L" n="101"/>nationem huiusmodi, non essent haeretici. Quod est 
+in<lb break="no" ed="#L" n="102"/>conveniens maximum: quia sic respectu eiusdem 
+determi<lb break="no" ed="#L" n="103"/>nati ab Ecclesia, noti, etc., unus fidelis esset haereticus
+<lb ed="#L" n="104"/>et alius non; et determinatio quod est haeresis non esset
+<lb ed="#L" n="105"/>determinatio simpliciter, sed respectu aliquorum, scilicet
+<lb ed="#L" n="106"/>qui non sunt Romani Pontifices.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2716">
+                  <lb ed="#L" n="107"/>II. Dubium secundo occurrit circa rationem subiectam
+<lb ed="#L" n="108"/>in littera, scilicet quod unitas fidei servari non posset in
+<lb ed="#L" n="109"/>tota Ecclesia nisi quaestio exorta de fide determinetur per
+<lb ed="#L" n="110"/>eum qui toti Ecclesiae praeest, idest Summum Pontificem.
+<pb ed="#L" n="25"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Haec namque propositio in ultima sui parte non est vera.
+<lb ed="#L" n="2"/>Quoniam quaestio de fide exorta potest determinari per
+<lb ed="#L" n="3"/>communitatem Ecclesiae, seu concilium generale. 
+Com<lb break="no" ed="#L" n="4"/>munitas enim Ecclesiae praesidet toti Ecclesiae, sicut 
+com<lb break="no" ed="#L" n="5"/>munitas civitatis toti civitati: quia et princeps vices 
+com<lb break="no" ed="#L" n="6"/>munitatis gerit, et leges et consuetudines ab ipsa 
+multitu<lb break="no" ed="#L" n="7"/>dinis unitate institutionem et destitutionem sortiuntur. Et:
+<lb ed="#L" n="8"/>sic in littera, dum a praesidente totius Ecclesiae ad Papam
+<lb ed="#L" n="9"/>descenditur, sophisma committitur: quoniam ipsa Ecclesiae
+<lb ed="#L" n="10"/>communitas, quae in concilio generali invenitur, praesidens
+<lb ed="#L" n="11"/>superior est, et ad eam spectat finalis determinatio de fide,
+<lb ed="#L" n="12"/>Utpote quae errare non potest.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2759">
+                  <lb ed="#L" n="13"/>III. Ad horum brevem intelligentiam (quoniam in 
+tra<lb break="no" ed="#L" n="14"/>ctatu: speciali <ref xml:id="TAcCaj-d1e1277-Rd1e2765">
+                     <title>de Auctoritate Papae et Concilii</title>
+                  </ref> haec 
+tra<lb break="no" ed="#L" n="15"/>ctavimus) sciendum est quod, quia papatus in hoc differt
+<lb ed="#L" n="16"/>a,ceteris humanis principatibus quod reliqui ab ipsa 
+mul<lb break="no" ed="#L" n="17"/>tudine originem et potestatem habent (multitudo namque,
+<lb ed="#L" n="18"/>cessante violentia fraudeque, de iure naturae libera est, et
+<lb ed="#L" n="19"/>constituit sibi caput cum illa potestate quae multitudini
+<lb ed="#L" n="20"/>videtur), papatus autem non.est.ab Ecclesia, sed a Deo
+<lb ed="#L" n="21"/>immediate, ita quod nec ab Ecclesia ortum habet nec 
+po<lb break="no" ed="#L" n="22"/>SUE tam princi aliter quam. ministerialiter (Iesus 
+Chri<lb break="no" ed="#L" n="23"/>stus namque, verus Deus, non per Ecclesiae aut 
+Aposto<lb break="no" ed="#L" n="24"/>lorum ministerium medium, sed per seipsum immediate
+<lb ed="#L" n="25"/>papatum-ereavit et Papam, cum dixit Petro: Pasce oves
+<lb ed="#L" n="26"/>praesidet sic ut non solum singula membra, sed ipsa 
+com<lb break="no" ed="#L" n="27"/>lunitas Ecclesiae, subsint Papae (per hoc. enim solum
+<lb ed="#L" n="28"/>communitati multitudinis supra principem potestas 
+reser<lb break="no" ed="#L" n="29"/>vatur quia ab ipsa multitudine principatus et princeps 
+de<lb break="no" ed="#L" n="30"/>endet, hoc autem in papatu et Papa locum non habere
+<lb ed="#L" n="31"/>m patet): solus igitur Papa praeest toti Ecclesiae, et non
+<lb ed="#L" n="32"/>"EUENeHO, ut congregatio Constantiensis, unius tantum
+<lb ed="#L" n="33"/>Obedientiae, sine suo Papa dubio, tempore schismatis,
+<lb ed="#L" n="34"/>usurpans.in se universalem Ecclesiam, quam. nec 
+simpli<lb break="no" ed="#L" n="35"/>iter nec secundum. praesentem tunc Ecclesiae statum 
+re<lb break="no" ed="#L" n="36"/>e ntabat , decrevisse, videtur. Propter quae non est
+<lb ed="#L" n="37"/>Bb decet A curandum. In cuius signum, quidquid etiam
+<lb ed="#L" n="38"/>ab omnibus Obedientiis simul, sede vacante, ibi statutum
+<lb ed="#L" n="39"/>postmodum est, tanquam essent: supra Papam, nullum 
+ha<lb break="no" ed="#L" n="40"/>buit effectum. hactenus. nisi schisma iam. bis inde ortum,
+<lb ed="#L" n="41"/>scilicet semel sub Eugenio IV et iterum sub Iulio II. Et
+<lb ed="#L" n="42"/>semper oportuit omnes succumbere et subiicere
+<lb ed="#L" n="43"/>se Romano Pontifici, ipsa veritate et Ecclesia Catholica
+<lb ed="#L" n="44"/>cogente. Et nunquam Romanus Pontifex succubuif, 
+nun<lb break="no" ed="#L" n="45"/>quam ab- Ecclesia derelictus est: quia nunquam illis: 
+de<lb break="no" ed="#L" n="46"/>cretos fuit subditus.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2840">
+                  <lb ed="#L" n="47"/>IV. Et de schimatis quidem primi termino. tota 
+Ec<lb break="no" ed="#L" n="48"/>clesia testatur in adoratione Nicolai V, qui successit 
+imme<lb break="no" ed="#L" n="49"/>diate defuncto Eugenio. Ex eo enim quod superstitem 
+Fe<lb break="no" ed="#L" n="50"/>licem, qui a Basiliensi concilio constitutus fuerat Papa,
+<lb ed="#L" n="51"/>deposito atque combusto Eugenio in sua statua, non 
+re<lb break="no" ed="#L" n="52"/>it Ecclesia in Papam, etiam defuncto Eugenio, sed
+<lb ed="#L" n="53"/>Nicolaum a Cardinalibus electum, superstite, ut dictum est,
+<lb ed="#L" n="54"/>Felice, adoravit; notorie testata est concilium non esse
+<lb ed="#L" n="55"/>supra Papam, concilium nihil posse contra Papam certum
+<lb ed="#L" n="56"/>et indubitatum ac Catholicum.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2864">
+                  <lb ed="#L" n="57"/>In termino quoque secundi schismatis universalis 
+Ec<lb break="no" ed="#L" n="58"/>clesia. idem multipliciter testata est. Nam licet fuerit 
+indi<lb break="no" ed="#L" n="59"/>ctum prius <ref xml:id="TAcCaj-d1e1277-Rd1e2872">conciliabulum Pisanum contra Papam Iulium</ref>,
+<lb ed="#L" n="60"/>auctoritate <ref xml:id="TAcCaj-d1e1277-Rd1e2877">concilii Constantiensis in capitulo Frequens</ref>,
+<lb ed="#L" n="61"/>a multis cardinalibus et-inchoatum, adeo ut processerit
+<lb ed="#L" n="62"/>usque ad suspensionem Tulii; vidimus tamen sub Leone X,
+<lb ed="#L" n="63"/>qui vivit et regnat, omnes mundi principes, praelatos et
+<lb ed="#L" n="64"/>ecclesias <ref xml:id="TAcCaj-d1e1277-Rd1e2887">concilio Lateranensi</ref>, quod adhuc durat, adbaesisse,
+<lb ed="#L" n="65"/>et ipsum solum unicum ac verum concilium confiteri; et
+<lb ed="#L" n="66"/>concilio Pisano renuntiare eos qui adhaeserant, tanquam
+<lb ed="#L" n="67"/>congregato a non habentibus potestatem congregandi illud.
+<lb ed="#L" n="68"/>Vidimus etiam cardinales qui Pisano adhaerebant concilio
+<lb ed="#L" n="69"/>professos publice se schismaticos, et conciliabulum illud 
+Pi<lb break="no" ed="#L" n="70"/>sanum damnasse in haec verba specialiter et expresse: Nos,
+<lb ed="#L" n="71"/>olim nube schismatis obducti, supernae illustrationis lumine
+<lb ed="#L" n="72"/>et gratia serenati, compertoque schismatis laqueo quo 
+tene<lb break="no" ed="#L" n="73"/>bamur, etc., Pisanum conciliabulum, eiusque indictionem ac
+<lb ed="#L" n="74"/>omnia et singula in eo gesta, anathematizamus ac pronun-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="75"/>tiamus, credimus ac simpliciter confitemur irrita et inania
+<lb ed="#L" n="76"/>ac nullius roboris vel momenti, et a non habentibus 
+aucto<lb break="no" ed="#L" n="77"/>ritatem gesta et facta, quin potius temeritate praesumpta.
+<lb ed="#L" n="78"/>Haec illi <ref xml:id="TAcCaj-d1e1277-Rd1e2922">in schedula ab ipsis publice lecta in consistorio
+<lb ed="#L" n="79"/>die Lunae, 27 die mensis Iunii 1513, coram Leone X</ref>.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2928">
+                  <lb ed="#L" n="80"/>Ex quibus patet quod nec tota Ecclesia simul 
+congre<lb break="no" ed="#L" n="81"/>gata in suis praelatis absque Romano Pontifice, ut fuit in
+<lb ed="#L" n="82"/>constitutione capituli Frequens concilium Constantiense,
+<lb ed="#L" n="83"/>ut patet in xxxix sessione eiusdem, potest aliquid supra
+<lb ed="#L" n="84"/>Papam. Et capitulum illud, utpote Apostolica Sede vacante
+<lb ed="#L" n="85"/>factum, contra iura etiam canonica, quibus cavetur quod
+<lb ed="#L" n="86"/>sede: vacante nihil innovandum est, quia deest episcopus
+<lb ed="#L" n="87"/>qui possit suam iurisdictionem tueri, nihil. valet adversus
+<lb ed="#L" n="88"/>Papae potestatem. Et confirmatum est hoc in Lateranensi
+<lb ed="#L" n="89"/>isto concilio, inter cuius decreta sub Leone X. habentur
+<lb ed="#L" n="90"/>haec verba: Cum etiam solum Romanum . Pontificem. pro
+<lb ed="#L" n="91"/>tempore existentem , tanquam auctoritatem supra omnia
+<lb ed="#L" n="92"/>concilia habentem, conciliorum indicendorum, 
+transferen<lb break="no" ed="#L" n="93"/>dorum ac dissolvendorum plenum ius et potestatem habere,
+<lb ed="#L" n="94"/>nedum ex sacrae Scripturae testimonio, dictis sanctorum
+<lb ed="#L" n="95"/>Patrum,, ac aliorum Romanorum Pontificum: sacrorumque
+<lb ed="#L" n="96"/>canonum decretis, sed propria etiam eorundem conciliorum
+<lb ed="#L" n="97"/>confessione manifeste constet. Haec ibi. Ex quibus habes
+<lb ed="#L" n="98"/>concilium ipsum fateri Papam supra omnia concilia 
+ha<lb break="no" ed="#L" n="99"/>bere auctoritatem , et ideo posse indicere, transferre, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2974">
+                  <lb ed="#L" n="100"/>V. Et quoniam constat quod determinatio constitutiva
+<lb ed="#L" n="101"/>habens vim coactivam respectu totius ad eius solius 
+au<lb break="no" ed="#L" n="102"/>ctoritatem spectat qui praesidet toti, alioquin coactivam
+<lb ed="#L" n="103"/>vim non haberet respectu totius; ideo secundi dubii moti
+<lb ed="#L" n="104"/>iam patet solutio. Auctor namque supponit quod verissimum
+<cb ed="#L" n="c"/>est, scilicet solum Papam praeesse Ecclesiae universali (unde
+<lb ed="#L" n="105"/>et Episcopus dicitur et est Ecclesiae Catholicae), 
+aucto<lb break="no" ed="#L" n="106"/>rifatemque universalis Ecclesiae et concilii ' principaliter
+<lb ed="#L" n="107"/>et totaliter residere in Papa in determinando ea quae sunt
+<lb ed="#L" n="108"/>fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e2998">
+                  <lb ed="#L" n="109"/>Et licet, ut in primo proponitur dubio, Papa ut 
+sin<lb break="no" ed="#L" n="110"/>gularis.persona possit errare in fide; ut Papa tamen, 
+iu<lb break="no" ed="#L" n="111"/>dicando et definiendo quid tenendum ab Ecclesia sit de
+<lb ed="#L" n="112"/>fide, errare non potest. Quod ex eo convincitur quia omnes
+<lb ed="#L" n="113"/>fatemur quod tota Ecclesia errare non potest, propter 
+ver<lb break="no" ed="#L" n="114"/>bum Christi, Matth. ult.,/ .Ecce ego vobiscum sum omnibus
+<lb ed="#L" n="115"/>diebus usque ad consummationem saeculi: et Papa 
+determi<lb break="no" ed="#L" n="116"/>nante iudicialiter et definitive aliquid esse haereticum et
+<lb ed="#L" n="117"/>ab Ecclesia pro haeresi habendum, constat quod omnes
+<lb ed="#L" n="118"/>tenemur acceptare, et haereticus censeretur quicumque de
+<lb ed="#L" n="119"/>cetero teneret oppositum pertinaciter: tota igitur Ecclesia
+<lb ed="#L" n="120"/>errare posset sequens determinationem Papae, si Papa in
+<lb ed="#L" n="121"/>tali definitione posset errare. Credendum est igitur quod
+<lb ed="#L" n="122"/>promissionem Ecclesiae factam a Christo, scilicet, Spiritus
+<lb ed="#L" n="123"/>Sanctus docebit vos omnem veritatem, loan. xiv, ipse,
+<lb ed="#L" n="124"/>cui non est difficilius per unum quam per multitudinem
+<lb ed="#L" n="125"/>adimplere, per unum caput totius Ecclesiae adimpleat, ut
+<lb ed="#L" n="126"/>lex divinitatis servetur, quae inferiora per media et media
+<lb ed="#L" n="127"/>per summa gubernat. Et qua ratione dedit Ecclesiae 
+prin<lb break="no" ed="#L" n="128"/>cipatum monarchicum supra totius Ecclesiae vires, eadem
+<lb ed="#L" n="129"/>ratione monarchae illi potestatem definiendi quae 
+oppor<lb break="no" ed="#L" n="130"/>tuna sunt dedit absque defectu: Deum enim minus quam
+<lb ed="#L" n="131"/>naturam deficere decet in necessariis.
+</p>
+               <p xml:id="TAcCaj-d1e1277-d1e3051">
+                  <lb ed="#L" n="132"/>Ad id vero quod in primo dubio affertur, quod par in
+<lb ed="#L" n="133"/>parem non habet imperium, etc.: - dicendum est quod Papa
+<lb ed="#L" n="134"/>dupliciter definit: scilicet vel ex sola auctoritate papatus,
+<lb ed="#L" n="135"/>et de his procedit argumentum, et regula quod par in
+<lb ed="#L" n="136"/>parem non habet imperium; vel ex auctoritate papatus ut
+<lb ed="#L" n="137"/>substat divinae assistentiae dirigenti in hoc certe et indubie.
+<lb ed="#L" n="138"/>Et in his Papa ligat seipsum et successores, et definit 
+ir<lb break="no" ed="#L" n="139"/>revocabiliter: eo quod sine poenitentia sunt dona Dei, ut
+<lb ed="#L" n="140"/>dicitur ad Rom. xr. Et ratio est quia in his Papa excedit
+<lb ed="#L" n="141"/>seipsum: sicut David, in excedendo seipsum, se et omnes
+<lb ed="#L" n="142"/>vere iudicavit mendaces, dicens: Ego dixi in excessu meo:
+<lb ed="#L" n="143"/>Omnis homo mendax. "Talia autem sunt ea quae sunt fidei:
+<lb ed="#L" n="144"/>quod. scilicet Papa non ex sola papatus auctoritate, sed ex
+<lb ed="#L" n="145"/>papatu ut substat divinae assistentiae ad Ecclesiae fidem
+<lb ed="#L" n="146"/>veram docendam, definit iudicialiter in materia fidei, 
+exce<lb break="no" ed="#L" n="147"/>dens seipsum; et propterea determinat non respectu 
+ho<lb break="no" ed="#L" n="148"/>rum, sed simpliciter et irrevocabiliter, ac ligat se et alios.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

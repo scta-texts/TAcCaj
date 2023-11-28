@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 53</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 53</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="387"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1546"><!-- TAcCajp2p2-q53 -->
+            <head xml:id="TAcCaj-d1e1546-Hd1e101">Quaestio 53</head>
+            <div xml:id="TAcCaj-d1e1546-Dd1e103"><!-- caj-p2p2-q53a1 -->
+               <head xml:id="TAcCaj-d1e1546-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1546-d1e108">
+                  <pb ed="#L" n="388"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In quaestionis quinquagesimaetertiae articulo primo 
+du<lb break="no" ed="#L" n="3"/>bium occurrit, an imprudentia privative sit separabilis a
+<lb ed="#L" n="4"/>prudentia contrarie. Et est ratio dubii, pro parte negativa
+<lb ed="#L" n="5"/>quidem, quia sequeretur cuilibet virtuti morali opponi 
+pec<lb break="no" ed="#L" n="6"/>catum non solum declinando in contraria vitia, sed in 
+pri<lb break="no" ed="#L" n="7"/>vative oppositum: par enim est ratio de prudentia et aliis
+<lb ed="#L" n="8"/>virtutibus moralibus. Consequens autem est falsum: quia
+<lb ed="#L" n="9"/>omnis intemperatus in excessum aut defectum declinat, et
+<lb ed="#L" n="10"/>sic de aliis. — Praeterea, carens in actu suo prudentia quam
+<lb ed="#L" n="11"/>debet habere non minus in contrarium prudentiae incurrit
+<lb ed="#L" n="12"/>quam carens modestia quam debet habere incurrat 
+con<lb break="no" ed="#L" n="13"/>trarium modestiae: et sic de aliis. Non est igitur 
+separabi<lb break="no" ed="#L" n="14"/>lis imprudentia privative ab imprudentia contrarie.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e150">
+                  <lb ed="#L" n="15"/>Pro parte vero affirmativa, quia minus requiritur ad
+<lb ed="#L" n="16"/>privationem quam contrarium: cum quasi forma positiva
+<lb ed="#L" n="17"/>sit. Contingitque imprudenter se hominem habere absque
+<lb ed="#L" n="18"/>omni actu: ut patet cum potest et debet consiliari et non
+<lb ed="#L" n="19"/>consulit. - Praeterea, imprudentia privative est peccatum
+<lb ed="#L" n="20"/>ex ratione negligentiae, sicut ceterae privationes bonorum
+<lb ed="#L" n="21"/>debitorum: imprudentia autem contrarie est peccatum ex
+<lb ed="#L" n="22"/>propria ratione imprudentiae, ut in littera dicitur: ergo
+<lb ed="#L" n="23"/>non coincidunt, sed separantur. Probatur sequela: quia si
+<lb ed="#L" n="24"/>coinciderent, sequeretur quod etiam imprudens privative
+<lb ed="#L" n="25"/>peccaret secundum propriam rationem imprudentiae, et non
+<lb ed="#L" n="26"/>solum secundum rationem negligentiae.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e179">
+                  <lb ed="#L" n="27"/>II. Ad hoc dicitur quod imprudentia privative dupliciter
+<lb ed="#L" n="28"/>sumi potest. Primo, ut privat prudentia habituali. Et sic
+<lb ed="#L" n="29"/>potest separari ab imprudentia contrarie. Quando aliquis
+<lb ed="#L" n="30"/>negligit exercere se in legibus, documentis, lectionibus et
+<lb ed="#L" n="31"/>auscultationibus opportunis, ex quibus tempore suo posset
+<lb ed="#L" n="32"/>prudenter se habere in occurrentibus, tunc talis est 
+im<lb break="no" ed="#L" n="33"/>prudens privative: et illa privatio nullam habet rationem
+<lb ed="#L" n="34"/>peccati nisi ratione negligentiae. Notanter autem dico quod
+<lb ed="#L" n="35"/>illa privatio non est peccatum nisi ratione negligentiae:
+<lb ed="#L" n="36"/>quia non est hic quaestio de ipso qui privatur debita 
+pru<lb break="no" ed="#L" n="37"/>dentia, an sit imprudens contrarie; sed de ipsa privatione
+<lb ed="#L" n="38"/>prudentiae, an sit peccatum imprudentiae contrarie sumptae,
+<lb ed="#L" n="39"/>an secundum se non est peccatum nisi ratione annexae
+<lb ed="#L" n="40"/>negligentiae ipsius qui privatur.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e213">
+                  <lb ed="#L" n="41"/>III. Alio modo potest sumi ut privat prudentia actuali,
+<lb ed="#L" n="42"/>quando oportet, etc.: sicut si aliquis iudicet non secundum
+<lb ed="#L" n="43"/>statuta quando servanda essent, et sic de aliis omissionibus.
+<lb ed="#L" n="44"/>Et sic duplex est modus dicendi. Alter quod prudentia 
+pri<lb break="no" ed="#L" n="45"/>vative est quando quis non servat quidem regulas 
+pruden<lb break="no" ed="#L" n="46"/>tiae, sed tamen non refutat eas voluntarie directe, sed ex
+<lb ed="#L" n="47"/>ignorantia vel passione. Imprudentia autem contrarie est
+<lb ed="#L" n="48"/>quando quis spernit, aut saltem directe non vult uti 
+re<lb break="no" ed="#L" n="49"/>gulis prudentiae. Et haec opinio fundatur super littera
+<lb ed="#L" n="50"/>huius articuli: quia in corpore articuli dicitur de 
+impru<lb break="no" ed="#L" n="51"/>dentia contrarie quod spernit consilium, quasi contemnit
+<lb ed="#L" n="52"/>aut repudiat; et in responsione ad primum affertur illud
+<lb ed="#L" n="53"/>VI Ethic.: Imprudens peccat volens. Et secundum hoc 
+im<lb break="no" ed="#L" n="54"/>prudentia privative est separabilis ab imprudentia 
+contra<lb break="no" ed="#L" n="55"/>rie, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e248">
+                  <lb ed="#L" n="56"/>Sed haec opinio falsa est, et male fundata. Falsa 
+qui<lb break="no" ed="#L" n="57"/>dem, quia impossibile est deficere a prudentia actuali
+<lb ed="#L" n="58"/>quando oportet, nisi deficiendo ab actu vel ab aliqua 
+con<lb break="no" ed="#L" n="59"/>ditione actus, committendo vel omittendo. Constat autem
+<lb ed="#L" n="60"/>quod committere absque debito actu consilii vel iudicii
+<lb ed="#L" n="61"/>vel praecepti, aut conditionis alicuius eorum, imprudentia
+<lb ed="#L" n="62"/>contrarie est: sicut cibum sumere absque temperantiae
+<lb ed="#L" n="63"/>conditione intemperantia contrarie est, et vendere vel emere
+<lb ed="#L" n="64"/>absque iustitiae conditione iniustitia contrarie est; par enim
+<lb ed="#L" n="65"/>est ratio. Omittere autem ad commissionis genus et 
+spe<lb break="no" ed="#L" n="66"/>ciem reduci ex supradictis in I II, qu. rxxr, art. 6, patet.
+<lb ed="#L" n="67"/>Non velle enim consiliari aut iudicare vel praecipere pro
+<lb ed="#L" n="68"/>tanto peccatum est pro quanto participat se velle non 
+con<lb break="no" ed="#L" n="69"/>siliari vel non iudicare: tum quia velle omittere est 
+pri<lb break="no" ed="#L" n="70"/>mum in genere peccati omissionis, utpote per se et directe
+<lb ed="#L" n="71"/>voluntarium; tum quia potens rationale et debens facere
+<lb ed="#L" n="72"/>et non faciens ab electione determinatur ad non facere,
+<lb ed="#L" n="73"/>secundum Aristotelis doctrinam, IX Metaphys. Et pro-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="74"/>pterea voluntarir indirecte dicitur quando electio 
+determi<lb break="no" ed="#L" n="75"/>nans implicite tantum intervenit, ut cum quis aliis 
+occu<lb break="no" ed="#L" n="76"/>patur nihil cogitans de consiliando, iudicando vel 
+praeci<lb break="no" ed="#L" n="77"/>piendo: volens enim occupari implicite vult non consiliari,
+<lb ed="#L" n="78"/>ex quo incompossibilia simul sunt occupari et consiliari;
+<lb ed="#L" n="79"/>qui enim vult aliquid cum quo aliud simul esse non 
+pot<lb break="no" ed="#L" n="80"/>est, ex consequenti vult illo carere, inquit <ref xml:id="TAcCaj-d1e1546-Rd1e306">divus Thomas,
+<lb ed="#L" n="81"/>in I II, qu. LXXI, art. 5</ref>
+               </p>
+               <p xml:id="TAcCaj-d1e1546-d1e312">
+                  <lb ed="#L" n="82"/>Male autem fundata est, quia in littera expresse de 
+pru<lb break="no" ed="#L" n="83"/>dentia contrarie. subiungitur quod sine contemptu et 
+de<lb break="no" ed="#L" n="84"/>trimento necessariorum ad salutem esse potest. - Et in
+<lb ed="#L" n="85"/>responsione ad primum comparatio peccantis per 
+impru<lb break="no" ed="#L" n="86"/>dentiam volendo ad peccantem per imprudentiam non 
+vo<lb break="no" ed="#L" n="87"/>lendo, convincit imprudentiam contrarie, de qua est sermo,
+<lb ed="#L" n="88"/>ad utrumque modum peccandi se extendere.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e330">
+                  <lb ed="#L" n="89"/>IV. Ad obiecta autem in oppositum pro parte 
+nega<lb break="no" ed="#L" n="90"/>tiva dicitur quod de imprudentia ut privat actuali 
+pru<lb break="no" ed="#L" n="91"/>dentia procedunt.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e339">
+                  <lb ed="#L" n="92"/>Ad primum autem pro parte affirmativa dicitur quod
+<lb ed="#L" n="93"/>licet privatio ex communi ratione privationis non sit 
+ne<lb break="no" ed="#L" n="94"/>cessario connexa positivo contrario, talis tamen privatio
+<lb ed="#L" n="95"/>necessario infert contrarium, sicut privatio sanitatis 
+aegri<lb break="no" ed="#L" n="96"/>tudinem. Unde imprudens absque omni actu incidit in
+<lb ed="#L" n="97"/>imprudentiam contrarie non minus quam intemperatus
+<lb ed="#L" n="98"/>absque actu incidit in contrarium temperantiae, eadem 
+ra<lb break="no" ed="#L" n="99"/>tione. - Et si contra hoc instetur, quia ex nullo actu 
+nul<lb break="no" ed="#L" n="100"/>lus fit habitus: — concedatur: sed addatur quod privatio
+<lb ed="#L" n="101"/>spectat ad contrarium reductive, ac per hoc non oportet
+<lb ed="#L" n="102"/>quod faciat habitum aut fiat ab habitu.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e365">
+                  <lb ed="#L" n="103"/>Ad secundum autem, quod de habituali imprudentia
+<lb ed="#L" n="104"/>privative loquitur, admisso antecedente, neganda est 
+se<lb break="no" ed="#L" n="105"/>quela. Et ad probationem dicitur quod huiusmodi 
+impru<lb break="no" ed="#L" n="106"/>dentia separabilis est ab imprudentia contrarie, ut patet ex
+<lb ed="#L" n="107"/>dictis. Licet negligentia qua est peccatum talis privatio,
+<lb ed="#L" n="108"/>sit species imprudentiae contrarie opposita sollicitudini.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e382">
+                  <lb ed="#L" n="109"/>V. In eodem articulo, in responsione ad tertium, 
+du<lb break="no" ed="#L" n="110"/>bium occurrit circa illud: Per poenitentiam tollitur 
+habi<lb break="no" ed="#L" n="111"/>tus contrarius, in quo proprie consistit peccatum 
+impru<lb break="no" ed="#L" n="112"/>dentiae. Et dupliciter circa hoc dubitatur. Primo, quo pacto
+<lb ed="#L" n="113"/>per unum actum poenitentiae corrumpitur habitus 
+acqui<lb break="no" ed="#L" n="114"/>situs imprudentiae: cum regulare sit quod habitus 
+acqui<lb break="no" ed="#L" n="115"/>siti morales nec uno actu fiant nec uno actu 
+corrumpan<lb break="no" ed="#L" n="116"/>tur. - Secundo, quo pacto peccatum imprudentiae 
+consi<lb break="no" ed="#L" n="117"/>stit proprie in habitu: cum omne peccatum, praeter 
+ori<lb break="no" ed="#L" n="118"/>ginale, consistat in actu.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e406">
+                  <lb ed="#L" n="119"/>Ad primum horum dicitur quod habitus dupliciter potest
+<lb ed="#L" n="120"/>corrumpi. Uno modo, quia qualitas illa desinit esse: sicut
+<lb ed="#L" n="121"/>lumen desinit esse in aere in absentia luminantis. Alio
+<lb ed="#L" n="122"/>modo, quia subtrahitur aliquid quod est de ratione illius:
+<lb ed="#L" n="123"/>sicut scientia conclusionis desinit per oblivionem medii.
+<lb ed="#L" n="124"/>Quamvis autem habitus acquisitus moralis vitii non 
+corrum<lb break="no" ed="#L" n="125"/>patur primo modo per unum actum poenitentiae (in cuius
+<lb ed="#L" n="126"/>signum, remanet in poenitente inclinatio magna ad 
+pristi<lb break="no" ed="#L" n="127"/>nos actus malos), corrumpitur tamen per unum actum
+<lb ed="#L" n="128"/>poenitentiae secundo modo: quoniam mutatur voluntas,
+<lb ed="#L" n="129"/>quae est de ratione omnis virtutis et vitii moralis, ut patet
+<lb ed="#L" n="130"/>ex supradictis; prudentia enim et imprudentia sunt in
+<lb ed="#L" n="131"/>intellectu ut subest voluntati, iustitia autem et reliqua 
+ha<lb break="no" ed="#L" n="132"/>bitus sunt electivi.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e439">
+                  <lb ed="#L" n="133"/>Ad secundum autem dicitur quod peccatum dupliciter
+<lb ed="#L" n="134"/>sumi potest. Primo, secundum suam essentiam. Et sic non
+<lb ed="#L" n="135"/>in habitu, sed actu consistit: est enim dictum, factum vel
+<lb ed="#L" n="136"/>concupitum, etc. Secundo, ut perseverat in denominando
+<lb ed="#L" n="137"/>peccatorem, puta furem vel adulterum. Et sic consistit in
+<lb ed="#L" n="138"/>habitu contrario, qui per poenitentiam tollitur: tandiu enim
+<lb ed="#L" n="139"/>aliquis fur est et dicitur, quandiu non mutat voluntatem
+<lb ed="#L" n="140"/>de furando in non furandum, et sic de aliis. - Et si contra
+<lb ed="#L" n="141"/>hoc Thomista aliquis, memor dictorum in praecedenti 
+Li<lb break="no" ed="#L" n="142"/>bro, instet, quia non ab habitu, sed a macula peccati
+<lb ed="#L" n="143"/>post actum peccati peccator dicitur: — respondeatur quod
+<lb ed="#L" n="144"/>strictius sumitur hic esse peccatorem quam ibi. Nam ibi 
+pec<lb break="no" ed="#L" n="145"/>cator dicitur omnis cuius peccatum non est deletum, quam-
+<pb ed="#L" n="389"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>vis voluntas sit mutata: hic autem peccator ut a 
+volun<lb break="no" ed="#L" n="2"/>tate peccandi pendet, sumitur. Unde si quis primo fur aut
+<lb ed="#L" n="3"/>mendax, etc. fuisset, et postmodum abstineret a peccatis
+<lb ed="#L" n="4"/>non caritate, sed amore virtutis moralis; talis esset apud
+<lb ed="#L" n="5"/>theologum peccator et habens maculam furti aut 
+menda<lb break="no" ed="#L" n="6"/>cii: non tamen esset fur aut mendax proprie, nec pecca-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>tor, apud philosophum moralem. - Nec alienum est a 
+ra<lb break="no" ed="#L" n="8"/>tione ut qui philosophiam theologiamque moralem 
+tradi<lb break="no" ed="#L" n="9"/>mus, nunc theologorum, nunc philosophorum moralium
+<lb ed="#L" n="10"/>more loquamur, iuxta propositi diversitatem: medium enim
+<lb ed="#L" n="11"/>utrumque extremum sapit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1546-Dd1e501"><!-- caj-p2p2-q53a2 -->
+               <head xml:id="TAcCaj-d1e1546-Hd1e504">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1546-d1e506">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e513">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>In articulo secundo eiusdem quaestionis 
+quinquagesimae<lb break="no" ed="#L" n="9"/>tertiae dubium occurrit, in corpore articuli, circa illud:
+<lb ed="#L" n="10"/>Prudentia participatur quodammodo in omnibus virtutibus,
+<lb ed="#L" n="11"/>inquantum est directiva earum. Videtur enim hoc esse
+<lb ed="#L" n="12"/>falsum: cum nec intellectuales virtutes nec theologales 
+di<lb break="no" ed="#L" n="13"/>rigantur a prudentia. Et de intellectualibus quidem patet
+<lb ed="#L" n="14"/>VI Ethic. De theologalibus autem patet ex eo quod 
+ca<lb break="no" ed="#L" n="15"/>ritas est forma omnium virtutum, dirigens omnes in finem
+<lb ed="#L" n="16"/>proprium ipsius caritatis.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e537">
+                  <lb ed="#L" n="17"/>Ad hoc dicitur quod prudentia, licet diversimode, tamen
+<lb ed="#L" n="18"/>omnium virtutum actus dirigit. Cuius ratio in littera 
+tangi<lb break="no" ed="#L" n="19"/>tur: quia scilicet in omni actu virtutis oportet actum 
+ra<lb break="no" ed="#L" n="20"/>tionis aliquem ad prudentiam spectantem, puta consiliari,
+<lb ed="#L" n="21"/>iudicare vel praecipere, rectum concurrere; sicut in omni
+<lb ed="#L" n="22"/>actu vitii defectum alicuius eorum oportet intervenire. 
+Ve<lb break="no" ed="#L" n="23"/>rum quia actus rationis huiusmodi respectu aliquarum 
+vir<lb break="no" ed="#L" n="24"/>tutum, puta moralium et artis, principantur; respectu autem
+<lb ed="#L" n="25"/>aliquarum, ut intellectualium reliquarum et theologalium,
+<lb ed="#L" n="26"/>famulantur et ministrant, ut medicus sanitati, 
+quemadmo<lb break="no" ed="#L" n="27"/>dum in VI Ethic. dicitur; idcirco cum excellentia 
+dicta<lb break="no" ed="#L" n="28"/>rum virtutum stat quod dirigantur a prudentia. Manifesta
+<lb ed="#L" n="29"/>autem est directio omnium quoad actus exercitium: 
+pru<lb break="no" ed="#L" n="30"/>dentis siquidem est discernere non solum quando 
+specu<lb break="no" ed="#L" n="31"/>landum est et utendum hac vel illa virtute morali et 
+in<lb break="no" ed="#L" n="32"/>tellectuali, sed etiam theologica. Non enim semper est actu
+<lb ed="#L" n="33"/>elicito amandus Deus, nec semper actuali assensu 
+creden<lb break="no" ed="#L" n="34"/>dum: sed oportet aliis quandoque intendere actualiter, et
+<lb ed="#L" n="35"/>quietem ab omni actu virtutis eligere quandoque, dum in
+<lb ed="#L" n="36"/>corpore hoc peregrinamur. Huiusmodi autem 
+vicissitudi<lb break="no" ed="#L" n="37"/>nes nisi prudentia dispenset, errabimus saepe, et multa ad
+<lb ed="#L" n="38"/>quae tenemur omittemus bona, simpliciter vel tempore 
+de<lb break="no" ed="#L" n="39"/>bito; dum tempus misericordiae occupabimus oratione vel
+<lb ed="#L" n="40"/>e converso, et tempus audiendi, providendi, vigilandi, etc.,
+<lb ed="#L" n="41"/>occupabimus contemplatione speculativa vel e converso,
+<lb ed="#L" n="42"/>et sic de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e596">
+                  <lb ed="#L" n="43"/>II. In responsione ad tertium eiusdem articuli dubium
+<lb ed="#L" n="44"/>occurrit, quomodo verificatur quod quando corruptio 
+di<lb break="no" ed="#L" n="45"/>versarum circumstantiarum habet idem motivum, non 
+di<lb break="no" ed="#L" n="46"/>versificatur species peccati: an scilicet intelligatur de 
+mo<lb break="no" ed="#L" n="47"/>tivo peccantis; an de motivo peccati secundum se; an de
+<lb ed="#L" n="48"/>utroque. Si namque intelligitur de motivo peccantis, 
+se<lb break="no" ed="#L" n="49"/>queretur quod cognoscens non-suam in ecclesia, non ut
+<lb ed="#L" n="50"/>iniuriam faciat loco sacro, sed ex sola libidine cognoscendi
+<lb ed="#L" n="51"/>illam ibi oblatam, non esset sacrilegus. — Si vero intelligitur
+<lb ed="#L" n="52"/>de motivo peccati secundum se, sequeretur quod nulla 
+cir<lb break="no" ed="#L" n="53"/>cumstantia unquam variaret speciem peccati: quia nulla
+<lb ed="#L" n="54"/>circumstantia habet rationem motivi secundum se in 
+pec<lb break="no" ed="#L" n="55"/>cato. Habere namque rationem motivi est esse obiectum
+<lb ed="#L" n="56"/>seu finem: et nisi circumstantia transeat in rationem obiecti
+<lb ed="#L" n="57"/>seu finis, nunquam habet rationem motivi. Circumstantia 
+<lb ed="#L" n="58"/>autem actus, puta locus, nunquam transit in obiectum ex
+<lb ed="#L" n="59"/>parte actus peccati, sed ex parte peccantis: quia illius est
+<lb ed="#L" n="60"/>circumstantia; istius autem potest esse obiectum. - Si autem 
+<lb ed="#L" n="61"/>intelligatur de motivo ex parte utriusque, sequitur idem 
+<lb ed="#L" n="62"/>quod in primo casu. Quia tunc locus non habet rationem
+<lb ed="#L" n="63"/>obiecti respectu actus illius secundum se, ut patet: nec
+<lb ed="#L" n="64"/>habet rationem obiecti ex parte peccantis, quia ex sola 
+li<lb break="no" ed="#L" n="65"/>bidine mulieris movetur.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e649">
+                  <lb ed="#L" n="66"/>Ad hoc dicitur quod licet prima facie videatur littera
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="67"/>loqui de motivo peccantis, quoniam exempla dat de 
+huius<lb break="no" ed="#L" n="68"/>modi motivis, dum dicit, ut faceret iniuriam loco sacro;
+<lb ed="#L" n="69"/>secundumr veritatem tamen loquitur de motivo 
+universali<lb break="no" ed="#L" n="70"/>ter, quocumque scilicet modo contingat esse motivum. Ita
+<lb ed="#L" n="71"/>quod sensus est quod quando est unum solum motivum, .
+<lb ed="#L" n="72"/>tunc omnium circumstantiarum, scilicet quando, ubi, cur,
+<lb ed="#L" n="73"/>quid, etc., corruptio, unius est speciei: quando vero plura
+<lb ed="#L" n="74"/>sunt motiva, sive ex parte peccantis, ut cum quis 
+fornica<lb break="no" ed="#L" n="75"/>tur ut furetur, sive ex parte naturae ipsius circumstantiae,
+<lb ed="#L" n="76"/>quae nata est habere proprium motivum in aliqua 
+mate<lb break="no" ed="#L" n="77"/>ria, ut patet de speciebus gulae -—— circumstantias
+<lb ed="#L" n="78"/>assignatas in IIT, qu. Lxxi, art. 9 ubi haec doctrina
+<lb ed="#L" n="79"/>fundatur, distinctio apponitur specifica.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e684">
+                  <lb ed="#L" n="80"/>Et in hoc non est difficultas: sed consistit difficultas in
+<lb ed="#L" n="81"/>discernendo quando circumstantia habet proprium 
+moti<lb break="no" ed="#L" n="82"/>vum, et quando non habet aliud motivum quam motivum
+<lb ed="#L" n="83"/>actus. Si quis namque diligenter consideret 
+circumstan<lb break="no" ed="#L" n="84"/>tiam quid, animadvertet quod non sufficit ad hoc quod
+<lb ed="#L" n="85"/>circumstantia habeat speciale motivum, illam secundum se
+<lb ed="#L" n="86"/>opponi alteri virtuti: sed exigitur quod sit directe intenta.
+<lb ed="#L" n="87"/>Constat enim quod, quando quis inducit mulierem ad 
+con<lb break="no" ed="#L" n="88"/>sensum fornicationis, - circumstantiam quid esse ruinam
+<lb ed="#L" n="89"/>animae illius mulieris, et tale malum secundum se opponi
+<lb ed="#L" n="90"/>bono correctionis fraternae, et pertinere ad scandali vitium:
+<lb ed="#L" n="91"/>et tamen actus requisitivus et inductivus mulieris ad 
+forni<lb break="no" ed="#L" n="92"/>cationis copulam est in specie fornicationis tantum, nec
+<lb ed="#L" n="93"/>trahitur ad speciem etiam scandali, ad quam traheretur si
+<lb ed="#L" n="94"/>malum peccati mulieris esset directe intentum. — Et ex hac
+<lb ed="#L" n="95"/>eadem radice apparet quod non sufficit etiam consequi ad
+<lb ed="#L" n="96"/>principale intentum ex natura actus. Ruina namque 
+mulie<lb break="no" ed="#L" n="97"/>ris ex natura actus requirentis et stimulantis eam ad 
+for<lb break="no" ed="#L" n="98"/>nicandum nata est sequi: et tamen quia fornicator non
+<lb ed="#L" n="99"/>intendit nisi suae satisfacere voluptati, huiusmodi malum
+<lb ed="#L" n="100"/>non habet rationem motivi, et consequenter nec 
+circum<lb break="no" ed="#L" n="101"/>stantiae ad suam speciem trahentis.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e734">
+                  <lb ed="#L" n="102"/>Et ex hoc apparet quod, cum sit eadem de omnibus
+<lb ed="#L" n="103"/>circumstantiis ratio, ad hoc quod circumstantia trahat actum
+<lb ed="#L" n="104"/>in suam speciem, exigitur quod sit per se intenta a peccante.
+<lb ed="#L" n="105"/>Ac per hoc, tunc tantum habet circumstantia proprium
+<lb ed="#L" n="106"/>motivum quando illud est intentum per se a peccante. —
+<lb ed="#L" n="107"/>Ex altera autem parte apparet oppositum. Quoniam 
+se<lb break="no" ed="#L" n="108"/>queretur, ut dictum est, quod committens adulterium in
+<lb ed="#L" n="109"/>ecclesia solo appetitu suae satisfaciendi voluptati, non esset
+<lb ed="#L" n="110"/>sacrilegus. Quod omnium aures offendit.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e756">
+                  <lb ed="#L" n="111"/>In hoc dubio libenter essem discipulus: quoniam 
+do<lb break="no" ed="#L" n="112"/>cere nec me nec alios novi.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e763">
+                  <lb ed="#L" n="113"/>III. In eadem responsione ad tertium» adverte quod
+<lb ed="#L" n="114"/>licet malum consilium, malum iudicium et malum 
+prae<lb break="no" ed="#L" n="115"/>ceptum distinguantur specie infra rationis limites; ac per
+<lb ed="#L" n="116"/>hoc, ut in littera dicitur, defectus conditionum prudentiae
+<lb ed="#L" n="117"/>non faciunt diversitatem specificam nisi secundum horum
+<lb ed="#L" n="118"/>diversitatem actuum; relati tamen hi actus ad materiam
+<lb ed="#L" n="119"/>unam sunt'unius speciei. Verbi gratia, consilium, iudicium
+<lb ed="#L" n="120"/>et praeceptum de iniusta percussione clerici ad unicam
+<lb ed="#L" n="121"/>speciem sacrilegii spectant, quod est motivum ad omnia.
+<lb ed="#L" n="122"/>Unde percussio talis, licet multarum sit specierum si 
+spe<lb break="no" ed="#L" n="123"/>cies defectuum rationis connumerandae sunt; quia tamen
+<lb ed="#L" n="124"/>species rationis non addunt in infinitum, ideo non 
+com<lb break="no" ed="#L" n="125"/>putantur inter exprimenda de necessitate in confessione.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1546-Dd1e795"><!-- caj-p2p2-q53a3 -->
+               <head xml:id="TAcCaj-d1e1546-Hd1e798">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1546-d1e800">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="73"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e807">
+                  <lb ed="#L" n="74"/>IN articuli tertii responsione ad secundum nota quid
+<lb ed="#L" n="75"/>proprie importet temeritas: inordinationem scilicet ex
+<lb ed="#L" n="76"/>contemptu regulae. Ex hoc enim poteris interpretari 
+cano<lb break="no" ed="#L" n="77"/>nes quando temere transgredientes excommunicant seu 
+ali<lb break="no" ed="#L" n="78"/>ter puniunt. Verba enim iuris nec frustra apposita, nec
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="79"/>improprie sumenda sunt, quamvis quandoque communiter
+<lb ed="#L" n="80"/>sumantur. In materia tamen poenali, utpote restringenda,
+<lb ed="#L" n="81"/>proprietas vocabulorum restrictiva poenarum amplectenda
+<lb ed="#L" n="82"/>est. Memento ergo quod temeritas species est 
+praecipita<lb break="no" ed="#L" n="83"/>tionis contemptum addens.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1546-Dd1e834"><!-- caj-p2p2-q53a4 -->
+               <head xml:id="TAcCaj-d1e1546-Hd1e837">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1546-d1e839">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e846">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>IN articulo quarto eiusdem quinquagesimaetertiae 
+quae<lb break="no" ed="#L" n="55"/>stionis adverte quod littera accipit tres terminos, 
+scili<lb break="no" ed="#L" n="56"/>cet considerationem, iudicium, et intellectum ut 
+distingui<lb break="no" ed="#L" n="57"/>tur contra rationem. Ét ex coniunctione illorum duorum
+<lb ed="#L" n="58"/>actuum, scilicet considerationis et iudicii, in tertio, scilicet
+<lb ed="#L" n="59"/>in intellectu, concludit coniunctionem illorum duorum 
+in<lb break="no" ed="#L" n="60"/>ter se. Ac per hoc infert defectum considerationis ad 
+de<lb break="no" ed="#L" n="61"/>fectum iudicii pertinere: quod erat intentum.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e868">
+                  <lb ed="#L" n="62"/>Assumptam autem primo propositionem, scilicet quod
+<lb ed="#L" n="63"/>consideratio importat actum intellectus veritatem rei in-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>tuentis, Auctor non aliter manifestat: forte quia 
+vocabu<lb break="no" ed="#L" n="65"/>lum ipsum a visione siderum venit; et frequenti usu 
+con<lb break="no" ed="#L" n="66"/>siderare movemur oblata ante oculos; et non considerasse
+<lb ed="#L" n="67"/>dicimus quae ante oculos habuimus; tanquam consideratio
+<lb ed="#L" n="68"/>sit non simplex visio aut judicium. sed attentio ad visa,
+<lb ed="#L" n="69"/>ut iudicemus plene et quasi metiamur illa, ut in siderum
+<lb ed="#L" n="70"/>inspectione contingit astrologis. Propter quod in littera
+<lb ed="#L" n="71"/>dicitur, in responsione ad secundum, quod consideratio
+<lb ed="#L" n="72"/>perficitur in iudicii actu.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1546-Dd1e899"><!-- caj-p2p2-q53a5 -->
+               <head xml:id="TAcCaj-d1e1546-Hd1e902">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1546-d1e904">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e911">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>IN articulo quinto, in responsione ad tertium, duo sunt
+<lb ed="#L" n="37"/>dubia ad hominem, Auctorem scilicet. Primum est de
+<lb ed="#L" n="38"/>subiecto continentiae. Nam hic Auctor confirmat quod 
+prae<lb break="no" ed="#L" n="39"/>cedenti Libro, qu. rvnur, art. 3, ad 2, inchoasse videtur,
+<lb ed="#L" n="40"/>scilicet quod continentia sit subiective in ratione, in qua
+<lb ed="#L" n="41"/>est prudentia. Inferius vero, qu. crv, art. 3, determinat
+<lb ed="#L" n="42"/>quod continentia est subiective in voluntate: quia prima
+<lb ed="#L" n="43"/>differentia inter continentem et incontinentem invenitur 
+se<lb break="no" ed="#L" n="44"/>cundum electionem, quae est actus voluntatis.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e935">
+                  <lb ed="#L" n="45"/>Secundum autem dubium est, quo pacto continentia
+<lb ed="#L" n="46"/>est pars constantiae, quae est pars prudentiae, quae est
+<lb ed="#L" n="47"/>vere et proprie virtus: et tamen inferius, quaestione 
+prae<lb break="no" ed="#L" n="48"/>dicta, art. r, decernitur, cum Aristotele, VII Ethic., quod
+<lb ed="#L" n="49"/>continentia non est virtus.
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e948">
+                  <lb ed="#L" n="50"/>II. Ad haec dubia respondebitur inferius in loco dicto,
+<lb ed="#L" n="51"/>ubi ex proposito materia utraque tractatur. Hic autem sat
+<lb ed="#L" n="52"/>sit nosse dubitare, et advertere quod Auctor utitur hoc in
+<lb ed="#L" n="53"/>loco verbis opinativis, dum dicit quod non videntur esse
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>in vi appetitiva, et quod videntur esse species constantiae :
+<lb ed="#L" n="55"/>et rursus quod ratio Auctoris hic non habet locum nisi in
+<lb ed="#L" n="56"/>appetitu sensitivo, cuius actus sunt passiones 
+concupiscen<lb break="no" ed="#L" n="57"/>tiae et tristitiae. Erit autem tunc et sustinendum quomodo
+<lb ed="#L" n="58"/>constantia est pars prudentiae, si continentia est in 
+volun<lb break="no" ed="#L" n="59"/>tate, quo argumentum cui hic respondetur tendebat. Erit
+<lb ed="#L" n="60"/>etiam et simpliciter determinandum de subiecto 
+continen<lb break="no" ed="#L" n="61"/>tiae, examinando rationem Auctoris ibi, propter praeceptum
+<lb ed="#L" n="62"/>praeveniens electionem, in cuius persistentia 
+praedistin<lb break="no" ed="#L" n="63"/>guitur continens ab incontinenti. Sed supposito quod 
+con<lb break="no" ed="#L" n="64"/>tinentia sit in voluntate, facile sustinetur constantia in 
+ra<lb break="no" ed="#L" n="65"/>tione, dicendo quod incontinentia et mollities ex parte 
+ap<lb break="no" ed="#L" n="66"/>petitus causant inconstantiam: et similiter continentia et
+<lb ed="#L" n="67"/>perseverantia ex parte appetitus causant constantiam. Patet
+<lb ed="#L" n="68"/>enim in littera quod tam constantia quam inconstantia
+<lb ed="#L" n="69"/>inchoative est ex appetitu, consummate autem est ex 
+ra<lb break="no" ed="#L" n="70"/>tione. Unde de subiecto tantummodo continentiae restat
+<lb ed="#L" n="71"/>quaestio.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1546-Dd1e1001"><!-- caj-p2p2-q53a6 -->
+               <head xml:id="TAcCaj-d1e1546-Hd1e1004">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1546-d1e1006">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1546-d1e1013">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>In articulo sexto adverte, in calce corporis, ly maxime 
+<lb ed="#L" n="15"/>Quoniam huiusmodi rationis defectus ex aliis etiam 
+vi<lb break="no" ed="#L" n="16"/>tiis oriuntur: ut experientia testatur in his qui ex avari- 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="17"/>tia vel ambitione praecipites, inconsiderati inconstantesque
+<lb ed="#L" n="18"/>sunt. Sed luxuria, quia enervat rationem, ut in littera 
+di<lb break="no" ed="#L" n="19"/>citur, ideo maxime causat eosdem.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

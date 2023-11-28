@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 55</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 55</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="398"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1556"><!-- TAcCajp2p2-q55 -->
+            <head xml:id="TAcCaj-d1e1556-Hd1e101">Quaestio 55</head>
+            <div xml:id="TAcCaj-d1e1556-Dd1e103"><!-- caj-p2p2-q55a1 -->
+               <head xml:id="TAcCaj-d1e1556-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1556-d1e108">
+                  <pb ed="#L" n="399"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1556-d1e117">
+                  <lb ed="#L" n="2"/>In tota quaestione quinquagesimaquinta, quoniam vitia
+<lb ed="#L" n="3"/>tractata sunt generalia; et secundum materiam in qua
+<lb ed="#L" n="4"/>fiunt gravitatem assumunt; eritque de materiis singularum
+<lb ed="#L" n="5"/>virtutum et vitiorum specialis sermo: nunc sat sit scire
+<lb ed="#L" n="6"/>quod vitia ista imprudentiae species sunt, et ex se quidem
+<lb ed="#L" n="7"/>habent deformitatem in ratione; ut in littera explanatur de
+<lb ed="#L" n="8"/>prudentia carnis et astutia, ad quam spectant dolus et
+<lb ed="#L" n="9"/>fraus, et de sollicitudine temporalium.
+</p>
+               <p xml:id="TAcCaj-d1e1556-d1e137">
+                  <lb ed="#L" n="10"/>Pro claritate tamen secundi articuli memento illius 
+di<lb break="no" ed="#L" n="11"/>stinctionis, scilicet de fine vitae et de fine particulari, idest
+<lb ed="#L" n="12"/>de fine ultimo et de fine proximo harum operationum.
+<lb ed="#L" n="13"/>Finis enim ultimus oportet quod sit solus Deus: finis
+<lb ed="#L" n="14"/>autem proximus harum operationum, puta emptionis,
+<lb ed="#L" n="15"/>praeparationis, ludi, etc., potest esse aliquid inordinatum
+<lb ed="#L" n="16"/>convivium, vel aliquid huiusmodi, quod non contrariatur
+<lb ed="#L" n="17"/>caritati, -
+</p>
+               <p xml:id="TAcCaj-d1e1556-d1e157">
+                  <lb ed="#L" n="18"/>In articulo sexto, si verba Hieronymi notes, sollicitudo
+<lb ed="#L" n="19"/>inquietudinem secum defert, quam Dominus malitiam 
+vo<lb break="no" ed="#L" n="20"/>cat, et in malam partem respectu temporalium sonare 
+vi<lb break="no" ed="#L" n="21"/>detur. Auctor tamen pro claritate superfluitatem apponit,
+<lb ed="#L" n="22"/>ita ut non sollicitudo, sed sollicitudo i damnetur.
+<lb ed="#L" n="23"/>Et in idem redit.
+</p>
+               <p xml:id="TAcCaj-d1e1556-d1e174">
+                  <lb ed="#L" n="24"/>In septimo vero articulo ex responsione ad secundum
+<lb ed="#L" n="25"/>habes sensum tituli, pro quo supponit ly futurorum, 
+sci<lb break="no" ed="#L" n="26"/>licet pro temporalibus: quoniam in temporalibus tantum
+<lb ed="#L" n="27"/>habent ex proprio genere locum praeteritum et futurum;
+<lb ed="#L" n="28"/>spirituale namque ex suo genere supra tempus est. Itaque
+<lb ed="#L" n="29"/>sensus est, an aliquis debeat esse sollicitus futurorum 
+tem<lb break="no" ed="#L" n="30"/>poralium. Et-hoc oportuit specialiter inquiri post 
+praece<lb break="no" ed="#L" n="31"/>dentem articulum de sollicitudine temporalium absolute,
+<lb ed="#L" n="32"/>quia habet proprias difficultates, ut patet in littera.
+</p>
+               <p xml:id="TAcCaj-d1e1556-d1e196">
+                  <lb ed="#L" n="33"/>In ultimo autem articulo adverte quod quemadmodum
+<lb ed="#L" n="34"/>in virtute temperantiae maxime relucet refrenatio 
+concu<lb break="no" ed="#L" n="35"/>piscentiae, et in fortitudine firmitas animi; ita in iustitia
+<lb ed="#L" n="36"/>rectitudo rationis, dum aequalitas servatur et ius suum
+<lb ed="#L" n="37"/>cuique tribuitur. Et propterea proportionaliter in contrariis
+<lb ed="#L" n="38"/>vitiis earundem operationum deformitates relucent, scilicet
+<lb ed="#L" n="39"/>concupiscentiae immoderatio, animi vilitas, rationis 
+per<lb break="no" ed="#L" n="40"/>versitas, Et propterea vitia ista, quae ratione quidem 
+utun<lb break="no" ed="#L" n="41"/>tur sed male, ex contrarius iustitiae praecipue oriri docet
+<lb ed="#L" n="42"/>Auctor.
+</p>
+               <p xml:id="TAcCaj-d1e1556-d1e220">
+                  <lb ed="#L" n="43"/>Et haec sufficiant pro hac et pro tota sequenti, 
+quinqua<lb break="no" ed="#L" n="44"/>gesimasexta scilicet quaestione; ac per hoc pro toto 
+tra<lb break="no" ed="#L" n="45"/>ctatu prudentiae.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

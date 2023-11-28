@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 54</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 54</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="398"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1551"><!-- TAcCajp2p2-q54 -->
+            <head xml:id="TAcCaj-d1e1551-Hd1e101">Quaestio 54</head>
+            <div xml:id="TAcCaj-d1e1551-Dd1e103"><!-- caj-p2p2-q54a2 -->
+               <head xml:id="TAcCaj-d1e1551-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1551-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="61"/>Commentaria Cardinalis
+</p>
+               <p xml:id="TAcCaj-d1e1551-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>IN quaestionis quinquagesimaequartae articulo secundo
+<lb ed="#L" n="63"/>Tipus in primo nihil occurrit) dubium est, quia 
+decla<lb break="no" ed="#L" n="64"/>ratio sumpta ex etymologia Isidori videtur potius ad 
+op<lb break="no" ed="#L" n="65"/>positum quam ad propositum litterae. Ex hoc namque
+<lb ed="#L" n="66"/>quod negligentia sonat electionem, sequitur quod spectet
+<lb ed="#L" n="67"/>ad voluntatem, cuius. actus est electio, et non ad rationem,
+<lb ed="#L" n="68"/>in qua est prudentia.
+</p>
+               <p xml:id="TAcCaj-d1e1551-d1e135">
+                  <lb ed="#L" n="69"/>Ad hoc dicitur quod quia de habitibus vitiorum et 
+vir<lb break="no" ed="#L" n="70"/>tutum, et non de potentiis est sermo; et negligentia vitium,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="71"/>prudentia virtus est: consequens est ut electio hoc in loco
+<lb ed="#L" n="72"/>illius dicatur esse cuius est eius rectitudo vel defectus, et
+<lb ed="#L" n="73"/>non cuius est actus absolute. Constat autem quod, licet
+<lb ed="#L" n="74"/>rectitudo talis electionis sit a tali virtute, puta iustitia, et
+<lb ed="#L" n="75"/>talis a tali; universaliter tamen rectitudo electionis est a 
+pru<lb break="no" ed="#L" n="76"/>dentia; ac per hoc defectus electionis spectat ad oppositum
+<lb ed="#L" n="77"/>prudentiae. Et propter hoc in littera. deir: dde quem
+<lb ed="#L" n="78"/>recta, etc., ad prudentiam pertinet. Unde optime 
+declara<lb break="no" ed="#L" n="79"/>tio illa servit proposito, quidquid sit de etymologia illa.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1551-Dd1e165"><!-- caj-p2p2-q54a3 -->
+               <head xml:id="TAcCaj-d1e1551-Hd1e168">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1551-d1e170">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1551-d1e177">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="40"/>IN articulo tertio, in responsione ad tertium, adverte
+<lb ed="#L" n="41"/>quod, sicut in praecedenti diximus quaestione, in 
+pec<lb break="no" ed="#L" n="42"/>catis moralibus, si distinguendus est defectus rationis a 
+de<lb break="no" ed="#L" n="43"/>fectu appetitus aut alterius executivae potentiae, plura 
+ge<lb break="no" ed="#L" n="44"/>nera peccatorum in uno actu invenientur. Verbi gratia, si
+<lb ed="#L" n="45"/>quis negligendo iura partium iniustam fert sententiam, 
+in<lb break="no" ed="#L" n="46"/>us in ratione imprudentiae reus est secundum negligen-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="47"/>tiae speciem: foris autem in actu iudicii iniustitiae reus
+<lb ed="#L" n="48"/>est. Et simile est in aliis. Et ideo littera dicit quod 
+negli<lb break="no" ed="#L" n="49"/>gentia trahitur ad aliud genus peccati. Et par est ratio de
+<lb ed="#L" n="50"/>praecipitatione, inconsideratione et inconstantia, quae circa
+<lb ed="#L" n="51"/>actus rationis communes omnibus moralibus sunt, sicut et
+<lb ed="#L" n="52"/>negligentia.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 49</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 49</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="367"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1525"><!-- TAcCajp2p2-q49 -->
+            <head xml:id="TAcCaj-d1e1525-Hd1e101">Quaestio 49</head>
+            <div xml:id="TAcCaj-d1e1525-Dd1e103"><!-- caj-p2p2-q49a1 -->
+               <head xml:id="TAcCaj-d1e1525-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1525-d1e108">
+                  <pb ed="#L" n="368"/>
+                  <!-- p. 368 -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e119">
+                  <lb ed="#L" n="2"/>In quaestione quadragesimanona, articulo primo, ad se- | 
+<lb ed="#L" n="3"/>cundum, nota quod tertium documentum a quarto in , 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/> hoc differt quod tertium refert sollicitudinem meditativam
+<lb ed="#L" n="5"/>ad simulacra; quartum autem ad res ipsas memorandas.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1525-Dd1e133"><!-- caj-p2p2-q49a2 -->
+               <head xml:id="TAcCaj-d1e1525-Hd1e136">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1525-d1e138">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="76"/>Commentaria Cardinalis Caietani 
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e145">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="77"/>IN articulo secundo habes aperte quod prudentiae 
+prin<lb break="no" ed="#L" n="78"/>cipium et conclusio est in cogitativa. Ipsa enim, assueta
+<lb ed="#L" n="79"/>ad rectum de particulari fine iudicium, actum habet qui
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="80"/>intellectus et sensus vocatur diversa ratione, ut in littera
+<lb ed="#L" n="81"/>dicitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1525-Dd1e164"><!-- caj-p2p2-q49a3 -->
+               <head xml:id="TAcCaj-d1e1525-Hd1e167">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1525-d1e169">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e176">
+                  <lb ed="#L" n="54"/>In articulo tertio nota, in responsione ad secundum, in
+<lb ed="#L" n="55"/>quo consistit docilitas acquisita (quia innata a nobis non
+<lb ed="#L" n="56"/>est); et attende quantam sollicitudinem ad documenta 
+ma<lb break="no" ed="#L" n="57"/>iorum exigat prudentia. Et tu adde quod non solum maio-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="58"/>rum, sed etiam minorum recordationes et suggestiones 
+do<lb break="no" ed="#L" n="59"/>cilitas excitat, ut inde ratio discurrere perfecte possit. Et
+<lb ed="#L" n="60"/>nota quod tam negligentia quam contemptus audiendi vivos
+<lb ed="#L" n="61"/>vel vita functos mater est imprudentiae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1525-Dd1e199"><!-- caj-p2p2-q49a4 -->
+               <head xml:id="TAcCaj-d1e1525-Hd1e202">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1525-d1e204">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e211">
+                  <lb ed="#L" n="30"/>In articulo quarto adverte quod eustochia plurimum 
+con<lb break="no" ed="#L" n="31"/>fert prudentiae si comites habeat alias partes, praecipue
+<lb ed="#L" n="32"/>circumspectionem et cautionem; nec ita sibi credat ut 
+doci<lb break="no" ed="#L" n="33"/>litatem aspernetur. Habet enim multum periculi annexum
+<lb ed="#L" n="34"/>eustochia propter ipsius excellentiam: praesertim ubi plures
+<lb ed="#L" n="35"/>successus prosperos habuit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1525-Dd1e229"><!-- caj-p2p2-q49a5 -->
+               <head xml:id="TAcCaj-d1e1525-Hd1e232">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1525-d1e234">
+                  <pb ed="#L" n="371"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e243">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo quinto scito quod intellectus et ratio, ut actus
+<lb ed="#L" n="3"/>sunt, ponuntur partes prudentiae: et quod aequivalet
+<lb ed="#L" n="4"/>dicere, Potentia secundum quod subest intellectui ponitur
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="5"/>una pars, et secundum quod subest discursui altera pars
+<lb ed="#L" n="6"/>prudentiae, et dicere quod uterque actus ponitur pars
+<lb ed="#L" n="7"/>prudentiae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1525-Dd1e264"><!-- caj-p2p2-q49a6 -->
+               <head xml:id="TAcCaj-d1e1525-Hd1e267">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1525-d1e269">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="76"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e276">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="77"/>In articulo sexto, in responsione ad primum, dubium
+<lb ed="#L" n="78"/>occurrit, quia non apparet quin, sumendo prudentiam
+<lb ed="#L" n="79"/>proprie, ut scilicet est praeceptiva eorum quae -sunt ad
+<lb ed="#L" n="80"/>finem. virtutis, idem ponatur pars sui ipsius, dum 
+provi<lb break="no" ed="#L" n="81"/>dentia ponitur pars prudentiae. Providentia enim humana,
+<lb ed="#L" n="82"/>ut ad prudentiam spectat, nihil aliud est quam ratio 
+prae<lb break="no" ed="#L" n="83"/>ceptiva eorum quae sunt ad finem virtutis.
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e296">
+                  <lb ed="#L" n="84"/>Ad hoc dicitur quod diligenter notanti responsionem |
+<lb ed="#L" n="85"/>litterae apparet solutio, consistens in hoc, quod prudentia
+<lb ed="#L" n="86"/>potest dupliciter sumi. Uno modo, ut significat formalem
+<lb ed="#L" n="87"/>et principalem prudentiae partem, quae est recta ratio prae- |
+<lb ed="#L" n="88"/>ceptiva, ut scilicet distinguitur a ceteris ad ipsam requisitis. |
+<lb ed="#L" n="89"/>Et sic prudentia est providentia, ut in corpore articuli 
+pro<lb break="no" ed="#L" n="90"/>batur. - Alio modo, ut significat eandem partem et omnes
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="91"/>alias in ordine ad ipsam. Et sic est velut nomen cuiusdam
+<lb ed="#L" n="92"/>totius, formaliter tamen principalem partem importans,
+<lb ed="#L" n="93"/>quasi sicut animatum significans animam in concreto. Et
+<lb ed="#L" n="94"/>sic providentia ponitur principalis et formalis pars eius:
+<lb ed="#L" n="95"/>ac si diceretur quod esse praeceptivum eius quod est ad
+<lb ed="#L" n="96"/>finem vitae humanae est pars prudentiae connumerata
+<lb ed="#L" n="97"/>septem aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e331">
+                  <lb ed="#L" n="98"/>Adverte tamen quod prudentia licet modo dicto 
+coinci<lb break="no" ed="#L" n="99"/>dat cum providentia, non tamen ita coincidere accipias ut
+<lb ed="#L" n="100"/>synonyma: quoniam formaliter distinguuntur sicut 
+com<lb break="no" ed="#L" n="101"/>mune et proprium. Nam providentia actum qui est recte
+<lb ed="#L" n="102"/>ordinare, prudentia vero actum qui est recte praecipere
+<lb ed="#L" n="103"/>respicit formaliter: constat autem quod praecipere se habet
+<lb ed="#L" n="104"/>ad ordinare ut inferius ad superius. Unde in littera provi-
+<pb ed="#L" n="372"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dentia penes ordinationem semper declaratur; et includere |
+<lb ed="#L" n="2"/>dicitur recte ordinare ad finem rectitudinem bonEli iudicii
+<lb ed="#L" n="3"/>et praecepti, in responsione ad tertium.
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e361">
+                  <lb ed="#L" n="4"/>II. Posset tamen aliter providentia poni pars prudentiae |
+<lb ed="#L" n="5"/>etiam ut praeceptiva est, ponendo quod providentia non
+<lb ed="#L" n="6"/>ponitur pars prudentiae nisi secundum quod dicit 
+cogni<lb break="no" ed="#L" n="7"/>tionem futurorum. Et sic providentia non pertineret ad
+<lb ed="#L" n="8"/>applicationem, sed ad cognitionem prudentiae: ut scilicet
+<lb ed="#L" n="9"/>duae ad acquisitionem, scilicet docilitas et eustochia; tres
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>ad ipsam cognitionem, scilicet memoria praeteritorum, 
+in<lb break="no" ed="#L" n="11"/>tellectus praesentium, providentia futurorum; et una ad
+<lb ed="#L" n="12"/>usum cognitionis, scilicet ratio; et duae ad applicationem,
+<lb ed="#L" n="13"/>scilicet circumspectio et cautio; ipsa autem applicatio medii
+<lb ed="#L" n="14"/>accommodi non pars, sed substantia prudentiae poneretur,
+<lb ed="#L" n="15"/>quae in recto praecepto consistit.. Exigit namque prudentia
+<lb ed="#L" n="16"/>considerationem futurorum eventuum, et non solum 
+exer<lb break="no" ed="#L" n="17"/>cendorum per nos: licet ab homine male cognosci possint, 
+pro<lb break="no" ed="#L" n="18"/>pter quod incertae dicuntur providentiae nostrae, Sap. xiv.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1525-Dd1e399"><!-- caj-p2p2-q49a8 -->
+               <head xml:id="TAcCaj-d1e1525-Hd1e402">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1525-d1e404">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e411">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>IN articulis septimo et octavo simul dubium occurrit,
+<lb ed="#L" n="37"/>lida ex quo ad prudentiam spectat actus secundum se
+<lb ed="#L" n="38"/>congruus fini, et ad circumspectionem actus secundum
+<lb ed="#L" n="39"/>circumstantias congruus fini; et eiusdem rationis est facere
+<lb ed="#L" n="40"/>bonum et vitare malum oppositum: consequens est quod
+<lb ed="#L" n="41"/>vitatio mali oppositi tam bonitati actus secundum se quam
+<lb ed="#L" n="42"/>secundum suas circumstantias, non spectet ad cautionem,
+<lb ed="#L" n="43"/>sed primum ad providentiam, secundum ad 
+circumspectio<lb break="no" ed="#L" n="44"/>nem. Quod est ergo illud malum pro quo vitando opus
+<lb ed="#L" n="45"/>est cautione? Si dicatur, ut littera dicit in responsione
+<lb ed="#L" n="46"/>ad secundum ultimi articuli, quod est malum 
+extrinse<lb break="no" ed="#L" n="47"/>corum impedimentorum, optime dicitur in ordine ad 
+sub<lb break="no" ed="#L" n="48"/>stantiam actus, sed non in ordine ad circumstantias: quia
+<lb ed="#L" n="49"/>circumstantiae etiam extrinseca mala excludunt, ut patet
+<lb ed="#L" n="50"/>discurrenti per circumstantias. — Et confirmatur: quia in 
+lit<lb break="no" ed="#L" n="51"/>tera septimi articuli extrinseca mala eventuum vitare ad
+<lb ed="#L" n="52"/>circumspectionem spectare dicitur, in exemplo de 
+osten<lb break="no" ed="#L" n="53"/>sione signi amoris ad alliciendum, etc., ut patet ibi.
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e455">
+                  <lb ed="#L" n="54"/>Et augetur dubium, quia in corpore octavi articuli 
+di<lb break="no" ed="#L" n="55"/>citar quod ad cautionem spectat vitare mala quae habent
+<lb ed="#L" n="56"/>speciem boni. Constat enim quod mala ex genere ad 
+pro<lb break="no" ed="#L" n="57"/>videntiam, mala ex circumstantiis ad circumspectionem
+<lb ed="#L" n="58"/>vitare spectat. Quae ergo sunt ista alia mala, habentia boni
+<lb ed="#L" n="59"/>speciem, vitanda a prudentia, praeter etiam extrinseca 
+im<lb break="no" ed="#L" n="60"/>pedimenta, quae condividuntur istis malis?
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e473">
+                  <lb ed="#L" n="61"/>II. Ad hoc dicitur quod licet facile dici ab aliquo posset
+<lb ed="#L" n="62"/>quod haec tria in hoc distinguuntur quod providentia 
+re<lb break="no" ed="#L" n="63"/>spicit actum ut bonum ex genere ad finem, circumspectio
+<lb ed="#L" n="64"/>ut bonum ex circumstantiis, cautio ut remotum a malis
+<lb ed="#L" n="65"/>utrique bonitati oppositis, ita quod illa duo respiciant actum
+<lb ed="#L" n="66"/>secundum terminum ad quem, scilicet bonitatem, hoc autem
+<lb ed="#L" n="67"/>tertium respiciat eundem secundum terminum a quo: —
+<lb ed="#L" n="68"/>quia tamen Auctor actus istos distinguit secundum 
+pro<lb break="no" ed="#L" n="69"/>prias difficultates, nec est alia difficultas recessus a malo
+<lb ed="#L" n="70"/>et accessus ad bonum oppositum, sed eadem; ideo 
+atten<lb break="no" ed="#L" n="71"/>dendum est quod in littera tria mala numerantur ad 
+cau<lb break="no" ed="#L" n="72"/>telam spectantia, scilicet extrinsecorum  impedimentorum,
+<lb ed="#L" n="73"/>et habentia boni speciem, et eventuum, quod in respon-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>sione ad ultimum addi videtur. [ta quod intentio Auctoris
+<lb ed="#L" n="75"/>est quod actus fini consonus secundum se tanquam bonus
+<lb ed="#L" n="76"/>ex genere, et bonus etiam ex circumstantiis, eget cautela
+<lb ed="#L" n="77"/>ad evitandum mala extrinsecorum impedimentorum: verbi
+<lb ed="#L" n="78"/>gratia, actus ieiunandi propter castitatem, quando oportet,
+<lb ed="#L" n="79"/>etc, eget cautione ut homo evitet ire ad socios tales, qui
+<lb ed="#L" n="80"/>inducent forte ad frangendum ieiunium. Et quoniam 
+hu<lb break="no" ed="#L" n="81"/>iusmodi impedimenta contingunt dupliciter, scilicet 
+secun<lb break="no" ed="#L" n="82"/>dum manifestam oppositionem et secundum occultam sub
+<lb ed="#L" n="83"/>specie boni; et speciali acumine,opus est ad 
+comprehenden<lb break="no" ed="#L" n="84"/>dum latentes sub specie boni insidias: ideo Auctor contra
+<lb ed="#L" n="85"/>impedimenta distinxit mala sub specie boni, quasi occulta
+<lb ed="#L" n="86"/>contra aperta. Patet autem ambo spectare ad cautionem ex
+<lb ed="#L" n="87"/>eo quod incautos dicimus qui incidunt in quodvis horum.
+<lb ed="#L" n="88"/>- Eventus autem mali sunt in duplici ordine. Quidam 
+per<lb break="no" ed="#L" n="89"/>tinentes ad circumstantias. Et hi pertinent ad 
+circumspectio<lb break="no" ed="#L" n="90"/>nem. Et talis est eventus in exemplo litterae: spectat enim
+<lb ed="#L" n="91"/>ad circumstantiam circa quid; amans enim aliquem debet
+<lb ed="#L" n="92"/>perspicere qualis est quem amat, et ex consideratione 
+con<lb break="no" ed="#L" n="93"/>ditionum personae amatae, quae est materia et obiectum
+<lb ed="#L" n="94"/>amoris, circumstantias actui adhibere. Quidam autem ex
+<lb ed="#L" n="95"/>extrinsecis ab actu et circumstantiis proveniunt, ut illi qui
+<lb ed="#L" n="96"/>consequuntur impedimenta tam aperta quam sub specie
+<lb ed="#L" n="97"/>boni. Et tales spectant ad cautionem.
+</p>
+               <p xml:id="TAcCaj-d1e1525-d1e559">
+                  <lb ed="#L" n="98"/>IIT. Breviter autem dicitur, et sine tot difficultatibus 
+reso<lb break="no" ed="#L" n="99"/>lute, quod circumspectio ad actum visionis interioris spectat,
+<lb ed="#L" n="100"/>et habet pro obiecto circumadiacentia et obvenire 
+possibi<lb break="no" ed="#L" n="101"/>lia bona et mala, ut ipsum nomen .circumspectionis sonat.
+<lb ed="#L" n="102"/>Cautio vero ad actum applicationis spectat, et ad mala 
+tan<lb break="no" ed="#L" n="103"/>tum vitanda refertur. Oportet namque rationem practicam
+<lb ed="#L" n="104"/>utrumque actum habere: scilicet videre circumquaque, et
+<lb ed="#L" n="105"/>uti tali visione applicando ad vitandum mala. Unde 
+incir<lb break="no" ed="#L" n="106"/>cumspectos dicimus qui non vident circumquaque: incautos
+<lb ed="#L" n="107"/>vero qui, licet circumspiciant omnia, non tamen student ut
+<lb ed="#L" n="108"/>vitent mala quae praevident.- Et per haec solutio omnium
+<lb ed="#L" n="109"/>pateret, nisi obstaret quod Auctor circumspectionem ad 
+ap<lb break="no" ed="#L" n="110"/>plicationem pertinere posuit. Et ideo sola prior solutio
+<lb ed="#L" n="111"/>consona Auctori videtur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

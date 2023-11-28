@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="6"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1272"><!-- TAcCajp2p2-prol -->
+            <head xml:id="TAcCaj-d1e1272-Hd1e101">Prologus</head>
+            <p xml:id="TAcCaj-d1e1272-d1e103">
+               <pb ed="#L" n="6"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+            <p xml:id="TAcCaj-d1e1272-d1e112">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>In prologum Auctoris, Scito igitur primo quod, licet omnia
+<lb ed="#L" n="3"/>mum ad meam spectat intentionem; tria reliqua ad
+<lb ed="#L" n="4"/>mea ubique legi audirique velim absque ulla mea 
+aucto<lb break="no" ed="#L" n="5"/>ritate, sed sola rationis vi duce, in hoc singulariter opere
+<lb ed="#L" n="6"/>id exposco: quandoquidem error hic non in solo intellectu
+<lb ed="#L" n="7"/>esset, sed in opere, quo animae salus efficitur. Propter
+<lb ed="#L" n="8"/>quod, licet illustres doctores nominaturus sim, ut in Primo
+<lb ed="#L" n="9"/>et Secundo Libro huius Summae feci, ut quilibet sciat
+<lb ed="#L" n="10"/>invenire quid impugnatur et quam bene aut male; 
+mo<lb break="no" ed="#L" n="11"/>dernos tamen summistas absque nomine pertransire intendo,
+<lb ed="#L" n="12"/>ne invidia aut amor lectorem a vero abducat, et ut opus
+<lb ed="#L" n="13"/>quod pro salute animarum suscipio nullum offendat. 
+Di<lb break="no" ed="#L" n="14"/>vino igitur fretus auxilio, divae Mariae ac divi Thomae
+<lb ed="#L" n="15"/>meritis et precibus, ad textum descendo, servato anterioris
+<lb ed="#L" n="16"/>Libri proposito.
+</p>
+            <p xml:id="TAcCaj-d1e1272-d1e149">
+               <lb ed="#L" n="17"/>Secundo adverte quod Auctor prima divisione distinguit
+<lb ed="#L" n="18"/>hoc opus in duas partes principales, scilicet de 
+communi<lb break="no" ed="#L" n="19"/>bus omnibus hominibus, et de propriis quibusdam. Et haec
+<lb ed="#L" n="20"/>secunda pars incipit in quaestione crxxr, ut ibi patet. Partes
+<lb ed="#L" n="21"/>secundariae utriusque membri facile patent. Nam primi
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="22"/>membri sunt septem partes, iuxta numerum virtutum, trium
+<lb ed="#L" n="23"/>Scilicet theologalium et quatuor cardinalium, Secundi 
+au<lb break="no" ed="#L" n="24"/>tem membri sunt tres, iuxta numerum trium 
+differentia<lb break="no" ed="#L" n="25"/>rum inter homines inventarum apud Apostolum, I ad
+<lb ed="#L" n="26"/>Cor. xu, scilicet divisionem gratiarum, divisionem 
+opera<lb break="no" ed="#L" n="27"/>tionum, et divisionem  ministrationum. Et sic universum
+<lb ed="#L" n="28"/>hoc opus in decem partes distinguitur claras in 
+lo<lb break="no" ed="#L" n="29"/>cis suis.
+</p>
+            <p xml:id="TAcCaj-d1e1272-d1e182">
+               <lb ed="#L" n="30"/>Tertio, quod tractus quilibet de quacumque septem
+<lb ed="#L" n="31"/>virtutum quatuor continet: scilicet. ipsam virtutem, 
+op<lb break="no" ed="#L" n="32"/>positum vitium, respondens donum, et praecepta ad id
+<lb ed="#L" n="33"/>spectantia. Diversimode tamen haec fient in virtutibus 
+theo<lb break="no" ed="#L" n="34"/>logalibus et cardinalibus. Nam quia non omnibus 
+theolo<lb break="no" ed="#L" n="35"/>galibus annectuntur aliae virtutes ut partes, ideo haec
+<lb ed="#L" n="36"/>quatuor tractantur in cardinalibus, verum virtutum nomine
+<lb ed="#L" n="37"/>non solum ipsas principales, sed annexas oportet intelligere
+<lb ed="#L" n="38"/>virtutes; et semper opposita vitia singillatim tractare.
+</p>
+            <p xml:id="TAcCaj-d1e1272-d1e205">
+               <lb ed="#L" n="39"/>Quarto, quod hinc memor sis, in tractatibus de donis
+<lb ed="#L" n="40"/>sapientiae, intellectus et scientiae, notare spectantia ad 
+vir<lb break="no" ed="#L" n="41"/>tutes intellectuales eisdem nominibus nuncupatas, ut 
+mo<lb break="no" ed="#L" n="42"/>ralis doctrina completa sit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

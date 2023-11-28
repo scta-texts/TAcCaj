@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 26</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 26</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="209"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1406"><!-- TAcCajp2p2-q26 -->
+            <head xml:id="TAcCaj-d1e1406-Hd1e101">Quaestio 26</head>
+            <div xml:id="TAcCaj-d1e1406-Dd1e103"><!-- caj-p2p2-q26a1 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1406-d1e108">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="86"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e115">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="87"/>In articulo primo quaestionis vigesimaesextae, in principio
+<lb ed="#L" n="88"/>corporis articuli, dubium primo occurrit circa processum
+<lb ed="#L" n="89"/>Auctoris. Videtur enim nullo pacto probare illam 
+propo<lb break="no" ed="#L" n="90"/>sitionem, quam tamen concludit, scilicet: Ubicumque est
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="91"/>aliquod principium, ibi est aliquis ordo. Infert namque eam
+<lb ed="#L" n="92"/>ex duabus propositionibus: prima est: Prius et posterius
+<lb ed="#L" n="93"/>dicuntur secundum relationem ad. aliquod principium; 
+se<lb break="no" ed="#L" n="94"/>cunda est: Ordo includit in se aliquem modum prioris et
+<pb ed="#L" n="210"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>posterioris, Ex his enim propositionibus bene sequitur quod
+<lb ed="#L" n="2"/>ordo attendatur secundum aliquod principium: nam si ordo
+<lb ed="#L" n="3"/>includit prius et posterius, et haec referuntur ad principium,
+<lb ed="#L" n="4"/>sequitur quod ordo ad principium. reducendus sit; ac per
+<lb ed="#L" n="5"/>hoc, ubi est ordo, ibi est principium. Sed in littera 
+con<lb break="no" ed="#L" n="6"/>cluditur non ista, sed eius convertens, scilicet quod ubi
+<lb ed="#L" n="7"/>est principium, ibi est ordo.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e159">
+                  <lb ed="#L" n="8"/>Dubium secundo occurrit in eodem processu circa 
+ve<lb break="no" ed="#L" n="9"/>ritatem secundae propositionis, scilicet: Ordo includit in
+<lb ed="#L" n="10"/>se aliquem modum prioris et posterioris. Contradicit enim
+<lb ed="#L" n="11"/>doctrinae traditae in tractatu de Trinitate. Nam dictum est
+<lb ed="#L" n="12"/>quod in divinis est ordo, non quo alter est prior altero,
+<lb ed="#L" n="13"/>sed quo alter est ab altero. Non ergo ordo universaliter
+<lb ed="#L" n="14"/>includit aliquem. modum prioris et posterioris.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e177">
+                  <lb ed="#L" n="15"/>II. Ad primum dubium dicitur quod Auctoris intentio
+<lb ed="#L" n="16"/>non est ex illis propositionibus syllogizare conclusionem
+<lb ed="#L" n="17"/>ilam: clare namque liquet quod sua convertens 
+syllogiza<lb break="no" ed="#L" n="18"/>retur potius ex illis. Sed intentio Auctoris est ex una causa
+<lb ed="#L" n="19"/>deducere duos effectus ad invicem sic ordinatos quod 
+se<lb break="no" ed="#L" n="20"/>cundus includit et assequitur primum, ita ut etiam causa
+<lb ed="#L" n="21"/>ipsa non possit esse in actu sine secundo effectu: quod est
+<lb ed="#L" n="22"/>dicere: Ubicumque est illa causa, oportet adesse talem 
+se<lb break="no" ed="#L" n="23"/>cundum effectum. Et ut melius quod dicimus percipiatur,
+<lb ed="#L" n="24"/>intentio. Auctoris est quod ex hoc ipso quod aliquid 
+po<lb break="no" ed="#L" n="25"/>nitur habere rationem principii in actu, sequitur statim
+<lb ed="#L" n="26"/>ratio prioris et posterioris: quia prioritas ponitur in 
+prin<lb break="no" ed="#L" n="27"/>cipio €t posterioritas in principiato. Et rursus, ex hoc i ipso;
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>quod aliquid ponitur habere rationem principii in actu,
+<lb ed="#L" n="29"/>ponitur ordo inter ipsum principium prius et principiatum 
+<lb ed="#L" n="30"/>posterius. Ordo igitur, licet includat prius et posterius, est
+<lb ed="#L" n="31"/>tamen effectus proprius principii in actu, Et ex hac radice
+<lb ed="#L" n="32"/>optime sequitur quod ubicumque est aliquod principium
+<lb ed="#L" n="33"/>in.actu, ibi est ordo. In littera ergo. Auctor, ex notioribus
+<lb ed="#L" n="34"/>doctrinam tradens, ex relatione prioris et posterioris ad
+<lb ed="#L" n="35"/>principium, et ex inclusione prioris et posterioris in ordine,
+<lb ed="#L" n="36"/>causam connexionis ordinis cum principio ab effectu 
+ma<lb break="no" ed="#L" n="37"/>nifestatam intendebat. Hoc enim quod est principium 
+prin<lb break="no" ed="#L" n="38"/>cipiare aliquid, est causa eius quod est prius et posterius,
+<lb ed="#L" n="39"/>clausa in ordine, dici: per relationem ad principium. Et. ex
+<lb ed="#L" n="40"/>illa causa, ut monstratum est, sequitur mediate: quod ubi
+<lb ed="#L" n="41"/>est principium, est ordo inter prius et posterius. ,
+<lb ed="#L" n="42"/>Ad secundum dicitur, cum Auctore in I Sent., dist. xx,
+<lb ed="#L" n="43"/>quod sicut scientia includit aliquid ratione generis, puta esse
+<lb ed="#L" n="44"/>qualitatem ; et aliquid ratione differentiae, puta esse quo
+<lb ed="#L" n="45"/>certe cognoscitur: ita ordo ratione generis includit prius
+<lb ed="#L" n="46"/>et posterius, et non ratione proprii differentialis conceptus.
+<lb ed="#L" n="47"/>Et quia ad divina omnia transferuntur sublatis 
+imperfectio<lb break="no" ed="#L" n="48"/>nibus, ideo ordo in divinis est sine priori .et posteriori :
+<lb ed="#L" n="49"/>sicut etiam est ibi principium absque principiato.- 
+Loqui<lb break="no" ed="#L" n="50"/>mur enim modo utendo terminis prout communiter in
+<lb ed="#L" n="51"/>philosophia utimur, et creaturis communes sunt. Superius
+<lb ed="#L" n="52"/>autem, cum de Deo erat sermo, expoliavimus eos ab his
+<lb ed="#L" n="53"/>quae imperfectionis sunt. - Et haec sint pro omnium 
+si<lb break="no" ed="#L" n="54"/>milium. solutione.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e269"><!-- caj-p2p2-q26a2 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e272">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1406-d1e274">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e281">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>IN articuli secundi argumento secundo adverte quod, quia
+<lb ed="#L" n="23"/>Tirgumentum. consistebat in vi maioris similitudinis 
+ho<lb break="no" ed="#L" n="24"/>minis ad proximum quam ad Deum, responsio, non 
+ne<lb break="no" ed="#L" n="25"/>gando hoc, ex alia causa aufert vim HT en conclusionis,
+<lb ed="#L" n="26"/>scilicet ex prioritate et causalitate, Et intendit quod maior
+<lb ed="#L" n="27"/>similitudo, ceteris paribus, est ratio maioris amoris: hic
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="28"/>autem cetera non sunt paria, sed similitudo ad Deum est
+<lb ed="#L" n="29"/>et prior et causa similitudinis ad proximum. Et haec 
+prio<lb break="no" ed="#L" n="30"/>ritas causalis dat quod ratione similitudinis non maioris,
+<lb ed="#L" n="31"/>sed maiori ac priori vinculo inexistentis, homo tenetur magis
+<lb ed="#L" n="32"/>Deum quam proximum diligere.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e313"><!-- caj-p2p2-q26a3 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e316">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1406-d1e318">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e325">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>IN articulo tertio dubium occurrit circa rationem allatam
+<lb ed="#L" n="11"/>littera, Quia, scilicet, unaquaeque pars naturaliter
+<lb ed="#L" n="12"/>plus amat bonum commune totius quam particulare bonum
+<lb ed="#L" n="13"/>proprium, ex duplici capite. Primo, ex naturalibus et 
+com<lb break="no" ed="#L" n="14"/>munibus. Sed quia haec in commentariis prioribus 
+dis<lb break="no" ed="#L" n="15"/>cussa sunt, nolo replicare.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e343">
+                  <lb ed="#L" n="16"/>Secundo, ex partibus politicis. Dupliciter autem 
+confu<lb break="no" ed="#L" n="17"/>tatur haec ratio ex hoc capite a Durando, in III Sert.,
+<lb ed="#L" n="18"/>dist. xxix, qu. 2. Primo, quia insufficiens signum amoris
+<lb ed="#L" n="19"/>maioris alicuius assumitur exponere se hominem morti pro
+<lb ed="#L" n="20"/>illo. Nam et pro amico laudabiliter quis morti exponit se:
+<lb ed="#L" n="21"/>et tamen non propterea magis diligit amicum quam 
+se<lb break="no" ed="#L" n="22"/>ipsum, ut constat, Similiter pro salvatione bonorum 
+tem<lb break="no" ed="#L" n="23"/>poralium suorum exponit quis se morti contra invasorem:
+<lb ed="#L" n="24"/>et non magis diligit illa.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e365">
+                  <lb ed="#L" n="25"/>Secundo, quia falsum est quod civis diligat magis 
+bo<lb break="no" ed="#L" n="26"/>num commune quam seipsum. Nam aut fit comparatio
+<lb ed="#L" n="27"/>amoris secundum bona eiusdem rationis; aut diversarum.
+<lb ed="#L" n="28"/>Si eiusdem rationis, scilicet bonum honestum, constat quod |
+<lb ed="#L" n="29"/>quilibet magis amat se quam commune bonum. Quod
+<lb ed="#L" n="30"/>patet ex contrario: quia magis debet odio habere malum
+<lb ed="#L" n="31"/>culpae in se quam in communitate totius absque se. — Si
+<lb ed="#L" n="32"/>diversarum rationum, scilicet honestum in communitate et
+<lb ed="#L" n="33"/>utile seu delectabile in se, tunc, licet verum sit quod civis
+<lb ed="#L" n="34"/>magis diligat bonum commune quam proprium in tali sensu,
+<lb ed="#L" n="35"/>non tamen est verum simpliciter: quia, ut in IX Efhic.
+<lb ed="#L" n="36"/>patet, et ratione convincitur, magis diligit se secundum
+<lb ed="#L" n="37"/>bonum honestum quam secundum bona alia, ponendo vitam
+<lb ed="#L" n="38"/>pro bono communi vel amico; eligit enim sibi ipsi optimum
+<lb ed="#L" n="39"/>secundum rationem.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e401">
+                  <lb ed="#L" n="40"/>II. Ad evidentiam huius advertendum est quod in littera
+<lb ed="#L" n="41"/>Auctor affert signum novum pro illa conclusione, scilicet,
+<lb ed="#L" n="42"/>Pars amat magis bonum totius quam proprium: et est
+<lb ed="#L" n="43"/>quod unaquaeque pars habet principalem inclinationem ad
+<lb ed="#L" n="44"/>actionem communem utilitati totius. Experimur siquidem in
+<lb ed="#L" n="45"/>partibus officialibus corporis quod praecipua cuiuscumque
+<lb ed="#L" n="46"/>partis actio est ad commune totius bonum: ut patet de
+<lb ed="#L" n="47"/>actione manus, pedis, oculi, cordis, hepatis, dentium, etc.
+<lb ed="#L" n="48"/>Si ergo ita esse in partibus naturalibus comprobatur; cum
+<lb ed="#L" n="49"/>partes politicae sint sic dispositae sicut si essent a natura,
+<lb ed="#L" n="50"/>eo quod ars, quae rationem perficit, imitatur naturam:
+<lb ed="#L" n="51"/>consequens est ut virtutes politicae inclinent cives 
+princi<lb break="no" ed="#L" n="52"/>paliter ad actiones communes pro bono totius; ac per hoc
+<lb ed="#L" n="53"/>comprobetur quod magis suapte natura inclinantur cives
+<lb ed="#L" n="54"/>ad amandum commune bonum quam proprium.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e436">
+                  <lb ed="#L" n="55"/>Ad obiectiones autem primo loco allatas dicitur quod
+<lb ed="#L" n="56"/>optime dicitur quod ex hoc quod aliquis exponit se morti
+<lb ed="#L" n="57"/>pro aliquo, non sequitur quod illum magis se amet. Nec
+<lb ed="#L" n="58"/>Auctor hoc attulit signum, nec somniavit etiam. Sed ex
+<lb ed="#L" n="59"/>hoc quod cives, secundum politicas virtutes, res et 
+cor<lb break="no" ed="#L" n="60"/>pora exponunt pro bono communi, signum habuit quod
+<lb ed="#L" n="61"/>pars amat plus totum quam se. Haec autem duo distant
+<lb ed="#L" n="62"/>sicut caelum et terra. - Quamvis etiam inepte afferatur
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>quod quis exponit se morti pro salute rerum suarum. 
+Quo<lb break="no" ed="#L" n="64"/>niam hoc fit non pro illis, sed pro seipso, ad cuius 
+feli<lb break="no" ed="#L" n="65"/>citatem illae res sunt opportunae.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e465">
+                  <lb ed="#L" n="66"/>Ad obiectionem autem secundo loco allatam dicitur
+<lb ed="#L" n="67"/>quod fit comparatio secundum bona eiusdem rationis, 
+pro<lb break="no" ed="#L" n="68"/>portionalitate tamen totius et partis servata. Sed illud 
+bo<lb break="no" ed="#L" n="69"/>num in quo fit comparatio non est bonum honestum, ut
+<lb ed="#L" n="70"/>argumentum assumit, sed est bonum utile vel delectabile:
+<lb ed="#L" n="71"/>in hoc enim genere communitas est totum et civis pars.
+<lb ed="#L" n="72"/>Ita quod intendit Auctor quod quia virtus politica inclinat
+<lb ed="#L" n="73"/>civem ad dispendium rerum exteriorum vel vitae corporalis
+<lb ed="#L" n="74"/>pro salute reipublicae in rebus vel in personis, signum 
+ha<lb break="no" ed="#L" n="75"/>bemus quod pars plus diligit totum quam seipsam. Et quod
+<lb ed="#L" n="76"/>ista sit intentio Auctoris patet ex Prima Parte, qu. rx, art.
+<lb ed="#L" n="77"/>ult, ubi, post exemplum de parte naturali, subiungit de
+<lb ed="#L" n="78"/>parte civili quod est virtuosi civis ut se exponat mortis
+<lb ed="#L" n="79"/>periculo pro reipublicae conservatione: et si homo esset
+<lb ed="#L" n="80"/>naturalis pars huius civitatis, haec inclinatio esset ei 
+na<lb break="no" ed="#L" n="81"/>turalis. Haec ille. Unde habes quod si homo esset 
+natu<lb break="no" ed="#L" n="82"/>ralis pars huius civitatis, naturaliter exponeret se morti ut
+<lb ed="#L" n="83"/>totum, quod est civitas, viveret, sicut manus exponitur 
+na<lb break="no" ed="#L" n="84"/>turaliter pro esse totius hominis. Constat autem quod, sicut
+<lb ed="#L" n="85"/>esse manus et totius hominis eiusdem sunt rationis 
+pro<lb break="no" ed="#L" n="86"/>portionaliter, ita esse civis et civitatis. -
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e513">
+                  <lb ed="#L" n="87"/>Et confirmatur manifeste sic esse. Quia non fit hic 
+com<lb break="no" ed="#L" n="88"/>paratio inter bonum utile et. honestum, sicut cum quis
+<lb ed="#L" n="89"/>moritur pro amico: sed tota vis rationis pendet ex 
+com<lb break="no" ed="#L" n="90"/>paratione partis ad totum, quia pars, secundum id quod
+<lb ed="#L" n="91"/>est, totius est, ut ibidem patet. Ex ratione ergo qua pars
+<lb ed="#L" n="92"/>est civis quilibet, debet totius civitatis bonum temporale
+<lb ed="#L" n="93"/>proprio temporali bono praeponere. Non autem bonum
+<lb ed="#L" n="94"/>proprium alicuius civis tenetur suo praeponere. Et hoc hic
+<lb ed="#L" n="95"/>docemur. Unde extra propositum sunt quae pro amico
+<lb ed="#L" n="96"/>agenda sunt. - Verificatur tamen in proposito quod civis,
+<lb ed="#L" n="97"/>vitam civitatis vitae propriae anteponens, sibi ipsi optimum
+<lb ed="#L" n="98"/>eligit secundum rationem, et seipsum maxime amat, 
+se<lb break="no" ed="#L" n="99"/>cundum virtutem excellenter operans. ES
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e544">
+                  <lb ed="#L" n="100"/>III. In responsione ad secundum nota elegantem glossam
+<lb ed="#L" n="101"/>et intellectum illius propositionis: Amabile quidem bonum,
+<lb ed="#L" n="102"/>unicuique autem proprium: quod quia esse proprium
+<lb ed="#L" n="103"/>multis modis contingit, unumquodque bonum alicuius .
+<lb ed="#L" n="104"/>modo quo est proprium, est amandum, Et sic cum, in
+<lb ed="#L" n="105"/>proposito, dupliciter contingat aliquid esse bonum alterius,
+<lb ed="#L" n="106"/>aut scilicet quia est propter ipsum, aut e contra; bonum
+<lb ed="#L" n="107"/>totius est bonum partis non ita quod sit propter partem,
+<lb ed="#L" n="108"/>sed e contra, quod scilicet pars est propter totum. Et 
+pro<lb break="no" ed="#L" n="109"/>pterea pars amat bonum totius tanquam proprium non ita
+<lb ed="#L" n="110"/>quod referat bonum totius in seipsam partem, sed e contra;
+<lb ed="#L" n="111"/>ita scilicet quod refert seipsam in bonum totius. eos
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e573">
+                  <lb ed="#L" n="112"/>Habes quoque ex hoc loco quam bene dictum superius
+<lb ed="#L" n="113"/>sit, contra Durandi phantasiam, quod Deus secundum 
+se<lb break="no" ed="#L" n="114"/>ipsum est proprium bonum cuiusque creaturae, et 
+specia<lb break="no" ed="#L" n="115"/>liter intellectualis, ]
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e585"><!-- caj-p2p2-q26a4 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e588">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1406-d1e590">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e597">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>In articulo quarto nota quod hinc elicere potes non esse
+<lb ed="#L" n="69"/>de mente Auctoris quod homo amet magis commune
+<lb ed="#L" n="70"/>bonum creatum quam seipsum secundum spirituale bonum.
+<lb ed="#L" n="71"/>Sed ipsemet in bonis spiritualibus tenet primum locum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="72"/>amabilis post Deum, pro quo non potest quis peccare. Pro
+<lb ed="#L" n="73"/>beatitudine autem et virtute cuiusque communitatis nemo
+<lb ed="#L" n="74"/>debet peccando sibi nocere.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e621"><!-- caj-p2p2-q26a5 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e624">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1406-d1e626">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e633">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>In articulo. quinto, in responsione ad ultimum, adverte
+<lb ed="#L" n="37"/>duo. Primo quod, illa iam dicta regula quod praecepta
+<lb ed="#L" n="38"/>affirmativa obligant quoad exercitium solum in casu 
+neces<lb break="no" ed="#L" n="39"/>sitatis, Auctor dicit quod etiam pro salute spirituali proximi
+<lb ed="#L" n="40"/>homo non tenetur proprium corpus exponere nisi in casu
+<lb ed="#L" n="41"/>necessitatis. Extra autem casum! necessitatis ad 
+perfectio<lb break="no" ed="#L" n="42"/>nem caritatis hoc spectat. Propter quod laudabiliter . se
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="43"/>sponte exponunt religiosi, tempore pestis; ad pnis ng ux
+<lb ed="#L" n="44"/>ministranda infectis, quibus ipsi non obligantur. Et simile
+<lb ed="#L" n="45"/>est in aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e662">
+                  <lb ed="#L" n="46"/>Secundo, rationem litterae: quia homini cuilibet imminet
+<lb ed="#L" n="47"/>cura proprii corporis; non autem cura salutis proximi nisi
+<lb ed="#L" n="48"/>in casu. Ex hac enim radice multae quaestiones icem
+<lb ed="#L" n="49"/>sunt in materia defensionis, ut inferius patebit... .
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e674"><!-- caj-p2p2-q26a6 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e677">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1406-d1e679">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e686">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>In articulo sexto occurrunt duo dubia ad hominem primo
+<lb ed="#L" n="45"/>explananda, ut sensus litterae habeatur. Est ergo dubium
+<lb ed="#L" n="46"/>circa. secundam responsionem. datam 'ad' primum, in illa
+<lb ed="#L" n="47"/>differentia inter benevolentiam et beneficentiam, scilicet
+<lb ed="#L" n="48"/>quod aliquibus sumus benefici et aliquibus non, benevoli
+<lb ed="#L" n="49"/>m omni us sumus. Repugnat siquidem haec doctrina
+<lb ed="#L" n="50"/>duobus supra dictis ab Auctore. Primo, doctrinae traditae
+<lb ed="#L" n="51"/>in qu. xxv, art. 8 et 9. Nam aut est sermo de 
+benevo<lb break="no" ed="#L" n="52"/>lentia et beneficentia in communi: aut in particulari, Si in
+<lb ed="#L" n="53"/> uni, omnibus sumus. benevoli, et benefici.ex caritate,
+<lb ed="#L" n="54"/>ut ibi dictum est. Si n. particulari, non omnibus sumus
+<lb ed="#L" n="55"/>benevoli nec, benefici. Neutro ergo modo salvatur doctrina
+<lb ed="#L" n="56"/>huius responsionis quod omnibus sumus benevoli, non
+<lb ed="#L" n="57"/>omnibus autem benefici, nisi difformiter interpretando. Quod
+<lb ed="#L" n="58"/>est tanto Doctore indignum.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e723">
+                  <lb ed="#L" n="59"/>Secundo repugnat corpori praesentis articuli. Nam 
+con<lb break="no" ed="#L" n="60"/>tra primam opinionem conclusum est quod proportionalis
+<lb ed="#L" n="61"/>est interior dilectionis affectus exteriori beneficientiae. Si
+<lb ed="#L" n="62"/>enim benevolentia et beneficentia proportionatae sunt, non
+<lb ed="#L" n="63"/>erit benevolentia ad omnes et beneficentia ad quosdam. Et
+<lb ed="#L" n="64"/>si una est ad- quosdam et altera ad omnes, sequitur quod
+<lb ed="#L" n="65"/>respondeant sibi invicem proportionaliter.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e741">
+                  <lb ed="#L" n="66"/>II. Ad primum. dubium. dicitur quod sermo praesentis
+<lb ed="#L" n="67"/>d ad neutrum modum arctatur, sed simpliciter
+<lb ed="#L" n="68"/>bsolute est. Ita quod intentio Auctoris est dicere quod
+<lb ed="#L" n="69"/>ista propositio est simpliciter vera: Existens in caritate est
+<lb ed="#L" n="70"/>benevolus:omnibus, et non: beneficus omnibus. Ex ratio est
+<lb ed="#L" n="71"/>quia minima caritas extendit se ad omnia obiecta 
+diligi<lb break="no" ed="#L" n="72"/>bilia, ut patet ex supradictis: non omnis autem 
+bene<lb break="no" ed="#L" n="73"/>ficentia extendit se ad omnes quibus potest benefieri. Unde
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>patet quod nec difformiter oportet hoc interpretari; nec ulla
+<lb ed="#L" n="75"/>repugnantia est: sed declaratio differentiae inter 
+benevo<lb break="no" ed="#L" n="76"/>lentiam et beneficentiam ut tendunt in omnia sua obiecta
+<lb ed="#L" n="77"/>simpliciter et absolute.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e773">
+                  <lb ed="#L" n="78"/>Ad secundum autem dubium dicitur quod procedit
+<lb ed="#L" n="79"/>ex malo intellectu litterae. Non enim in littera docemur
+<lb ed="#L" n="80"/>proportionalitatem 'simpliciter et absolute inter diligere et
+<lb ed="#L" n="81"/>benefacere: quif potius, ut modo expositum est, falsa 
+in<lb break="no" ed="#L" n="82"/>venitur ista proportionalitas, Sed traditur in littera proportio
+<lb ed="#L" n="83"/>inter beneficentiam et benevolentiam. ita quod maior 
+be<lb break="no" ed="#L" n="84"/>neficentia praesupponit maiorem benevolentiam ut causam.
+<lb ed="#L" n="85"/>Et hoc contra opinionem dicentem quod erat maior 
+be<lb break="no" ed="#L" n="86"/>heficentia absque maiori benevolentia. Ex hac autem 
+pro<lb break="no" ed="#L" n="87"/>portione, scilicet quod maior benevolentia et maior 
+bene<lb break="no" ed="#L" n="88"/>ficentia mutuo se inferunt, non sequitur quod si 
+benevo<lb break="no" ed="#L" n="89"/>lentia est ad. omnes, beneficentia sit ad omnes: hoc enim
+<lb ed="#L" n="90"/>est extra rationem maioris et minoris intensive, de quibus
+<lb ed="#L" n="91"/>est sermo. Sed bene sequitur quod maior sit benevolentia
+<lb ed="#L" n="92"/>ad illos ad quos est maior beneficentja.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e808">
+                  <lb ed="#L" n="93"/>III. In eodem articulo, in responsione ad primum, 
+ad<lb break="no" ed="#L" n="94"/>yerte. quod. prima responsio; dicens quod ex caritate 
+ae<lb break="no" ed="#L" n="95"/>qualiter. omnes. diligimus quantum. ad bonum quod 
+volu<lb break="no" ed="#L" n="96"/>mus dilectis, potest male et bene intelligi. Male quidem,
+<lb ed="#L" n="97"/>si intelligatur quod caritas vult omnibus bonum aequale sic
+<lb ed="#L" n="98"/>quod non vult eis bonum inaequale: in sequenti siquidem
+<lb ed="#L" n="99"/>articulo: oppositum .docet Auctor. Bene autem, si 
+intelli<lb break="no" ed="#L" n="100"/>gatur quod caritas vult omnibus bonum aequale in. genere;
+<lb ed="#L" n="101"/>ut in littera dicitur, seu specie, puta felicitatem aeternam.
+<lb ed="#L" n="102"/>Cum quo tamen stat quod vult maius secundum gradum
+<lb ed="#L" n="103"/>bonum uni quam alteri.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e835"><!-- caj-p2p2-q26a7 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e838">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1406-d1e840">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="103"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e847">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="104"/>In articulo septimo dubium occurrit quomodo verificantur
+<lb ed="#L" n="105"/>verba litterae cum dicitur quod diversitas dilectionis quae
+<lb ed="#L" n="106"/>est secundum caritatem , quantum ad. speciem attenditur
+<lb ed="#L" n="107"/>secundum propinquitatem ad Deum, .Et est ratio dubii quia
+<lb ed="#L" n="108"/>caritas non est diversarum specierum secundum 
+diversita<lb break="no" ed="#L" n="109"/>tem bonorum quae vult dilectis.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e865">
+                  <lb ed="#L" n="110"/>Ad hoc dicitur quod sermo litterae, quantum ad radices
+<lb ed="#L" n="111"/>est de vera diversitate specifica: sed quantum ad caritatem
+<lb ed="#L" n="112"/>est de diversitate specifica reductive seu similitudinarie.
+<lb ed="#L" n="113"/>Intendit siquidem Auctor, ut ipsemet explicat, pro radice
+<lb ed="#L" n="114"/>quod diversae dilectionis species sunt secundum diversa
+<lb ed="#L" n="115"/>bona quae optamus iis quos diligimus. Et haec propositio
+<pb ed="#L" n="217"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est manifesta: quia alterius speciei est dilectio honoris a
+<lb ed="#L" n="2"/>dilectione divitiarum, et huiusmodi. Ex hac autem radice
+<lb ed="#L" n="3"/>de dilectione in communi manuducit Auctor intellectum
+<lb ed="#L" n="4"/>discipuli ad discernendum in dilectione caritatis 
+diversita<lb break="no" ed="#L" n="5"/>tem ex parte obiecti, unde dilectio habet speciem; et 
+di<lb break="no" ed="#L" n="6"/>versitatem ex parte subiecti, unde habet intensionem. Et
+<lb ed="#L" n="7"/>diversitatem caritatis ex parte obiecti secundum diversos
+<lb ed="#L" n="8"/>gradus beatitudinis vocat secundum speciem: non quia
+<lb ed="#L" n="9"/>Sit diversitas specifica in caritate aut in gradibus volitis;
+<lb ed="#L" n="10"/>sed quia est similis diversitati specificae dilectionis, et ex
+<lb ed="#L" n="11"/>illa parte se tenet unde dilectio diversitatem specificam
+<lb ed="#L" n="12"/>sortitur.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e911">
+                  <lb ed="#L" n="13"/>II. In eodem articulo septimo dubium occurrit circa
+<lb ed="#L" n="14"/>ilud: Possum velle quod iste qui est mihi coniunctus sit
+<lb ed="#L" n="15"/>melior alio; et circa eius causam, quia scilicet bonitas 
+ac<lb break="no" ed="#L" n="16"/>cedere et recedere, augeri vel minui potest. Circa ipsam
+<lb ed="#L" n="17"/>quidem conclusionem, ex Durando, in xxix dist. III Sent.,
+<lb ed="#L" n="18"/>qu. r, multipliciter probantis quod, licet secundum velle
+<lb ed="#L" n="19"/>complacentiae seu approbationis caritas velit inaequalia
+<lb ed="#L" n="20"/>bona, quia im domo Patris mei mansiones multae sunt,
+<lb ed="#L" n="21"/>Ioan. xiv; secundum velle tamen desiderii caritas non vult
+<lb ed="#L" n="22"/>inaequalia bona omnibus, sed omnino aequale, scilicet 
+sum<lb break="no" ed="#L" n="23"/>mum bonum gratiae et gloriae cuius pura creatura est 
+ca<lb break="no" ed="#L" n="24"/>pax, ita quod in isto non est latitudo.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e941">
+                  <lb ed="#L" n="25"/>Probat autem hoc tripliciter. Primo, caritate optamus
+<lb ed="#L" n="26"/>bonum divinum omnibus quatenus sunt eius capaces. Sed
+<lb ed="#L" n="27"/>omnes sunt aequalis boni gratiae et gloriae capaces. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e950">
+                  <lb ed="#L" n="28"/>Secundo, quia caritas non aemulatur, Y ad Cor. xu.
+<lb ed="#L" n="29"/>Esset autem aemulatio si non optaretur unicuique tantum
+<lb ed="#L" n="30"/>bonum quanti est capax sine cuiusquam detrimento.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e959">
+                  <lb ed="#L" n="31"/>Tertio, quia in praeiudicium divini amoris esset nisi
+<lb ed="#L" n="32"/>cuilibet ex caritate optaretur bonum quo efficacius tenderet
+<lb ed="#L" n="33"/>in Deum. Tale autem est summum bonum gratiae cuius
+<lb ed="#L" n="34"/>creatura pura est capax. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e970">
+                  <lb ed="#L" n="35"/>Et subdit Durandus quod aec optatio est conditionata:
+<lb ed="#L" n="36"/>scilicet supposita ordinatione et voluntate divina.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e977">
+                  <lb ed="#L" n="37"/>III. Ad haec, ut ultimo inducta verba ostendunt, 
+respon<lb break="no" ed="#L" n="38"/>dendum forte non esset. Spiritus enim contradictionis 
+vi<lb break="no" ed="#L" n="39"/>detur excaecasse hunc hominem: ut prius magnificet 
+fim<lb break="no" ed="#L" n="40"/>brias, quasi contradicendo Auctori de actu desiderii; et
+<lb ed="#L" n="41"/>deinde limitat se ad velleitatem, qua etiam homo optat
+<lb ed="#L" n="42"/>quandoque volare. Numquid Paulus Apostolus de velleitate
+<lb ed="#L" n="43"/>dicebat, Caritas non aemulatur? Numquid, cum de 
+desi<lb break="no" ed="#L" n="44"/>derio disputatur, de velleitate, quae est etiam 
+impossibi<lb break="no" ed="#L" n="45"/>lium, tractatur? Dicito ergo simpliciter quod desiderii actu
+<lb ed="#L" n="46"/>possum velle bona inaequalia proximis ex caritate.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1001">
+                  <lb ed="#L" n="47"/>Et ad primam rationem, neganda est utraque praemissa.
+<lb ed="#L" n="48"/>Nam, ut ex dictis patet, ego non teneor in particulari 
+dili<lb break="no" ed="#L" n="49"/>gere omnes; et consequenter nec omnibus desiderare 
+to<lb break="no" ed="#L" n="50"/>tum id cuius est capax: sed sufficit velle approbationis et
+<lb ed="#L" n="51"/>complacentiae, ut complaceat mihi in praeparatione animi
+<lb ed="#L" n="52"/>quemlibet habere bonum divinum quatenus est capax. - 
+Fal<lb break="no" ed="#L" n="53"/>sum quoque est omnes esse capaces aequalis boni. Et hoc,
+<lb ed="#L" n="54"/>loquendo non de capacitate secundum quid, scilicet 
+secun<lb break="no" ed="#L" n="55"/>dum naturalia aut potentiam Dei: sed de capacitate 
+sim<lb break="no" ed="#L" n="56"/>pliciter, quae attenditur secundum dispositionem divinae
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="57"/>sapientiae, qua omnia in numero, pondere et mensura 
+dis<lb break="no" ed="#L" n="58"/>posuit ; et secundum mensuram donationis Christi, qua
+<lb ed="#L" n="59"/>unicuique divisit mensuram fidei, dedit gratiam.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1035">
+                  <lb ed="#L" n="60"/>Ad secundum dicitur, primo, quod non est aemulatio
+<lb ed="#L" n="61"/>in gratuitis. Ex quo enim ego non teneor tibi aut illi maius
+<lb ed="#L" n="62"/>bonum desiderare, si tibi ex mea benevolentia desidero,
+<lb ed="#L" n="63"/>pro te oro, etc., nulla est aemulatio, sicut nec iniuria. —
+<lb ed="#L" n="64"/>Secundo, quod non est aemulatio desiderium maius habens
+<lb ed="#L" n="65"/>fundamentum rationabile: sicut est cum quis magis 
+con<lb break="no" ed="#L" n="66"/>iuncto sanguine vel spiritu maius bonum optat. Coniunctio
+<lb ed="#L" n="67"/>siquidem illa maior illud maius desiderium sustinet.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1055">
+                  <lb ed="#L" n="68"/>Ad tertium dicitur quod nullum praeiudicium amori
+<lb ed="#L" n="69"/>divino fit ex hoc quod aliquis non optat id ad quod non
+<lb ed="#L" n="70"/>tenetur. Constat autem quod habens caritatem non tenetur
+<lb ed="#L" n="71"/>nisi in communi diligere omnes ad vitam aeternam. Et
+<lb ed="#L" n="72"/>propterea non tenetur ad optandum quod hic tendat in
+<lb ed="#L" n="73"/>Deum meliori via qua possibile est. - Et haec sint pro
+<lb ed="#L" n="74"/>conclusione illa litterae dicta, scilicet: Possum velle quod
+<lb ed="#L" n="75"/>iste qui est mihi coniunctus sit melior alio.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1075">
+                  <lb ed="#L" n="76"/>IV. Circa causam autem dictae conclusionis in littera
+<lb ed="#L" n="77"/>redditam, scilicet quia bonitas accedere et recedere, augeri
+<lb ed="#L" n="78"/>vel minui potest, dubium occurrit, quia ex ista differentia
+<lb ed="#L" n="79"/>coniunctionis ad hominem et coniunctionis ad Deum in
+<lb ed="#L" n="80"/>hoc quod coniunctio ad hominem est immutabilis, 
+con<lb break="no" ed="#L" n="81"/>iunctio vero ad Deum est mutabilis, non apparet unde
+<lb ed="#L" n="82"/>sequatur quod possim mihi coniuncto maius bonum optare,
+<lb ed="#L" n="83"/>nisi forte in casu recessus bonitatis ab altero.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1095">
+                  <lb ed="#L" n="84"/>Non nihil quoque scrupuli occurrit, cum caritas non
+<lb ed="#L" n="85"/>possit diminui, quomodo in littera dicitur quod potest 
+ap<lb break="no" ed="#L" n="86"/>propinquatio ad.Deum diminui.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1104">
+                  <lb ed="#L" n="87"/>V. Ad hoc dicitur quod ex illa differentia secundum 
+mu<lb break="no" ed="#L" n="88"/>tabile et immutabile sequitur quod immutabilis coniunctio,
+<lb ed="#L" n="89"/>quia ex sua immutabilitate perseverat, redundare possit
+<lb ed="#L" n="90"/>in desiderium maioris boni, utpote adhuc mutabilitati 
+sup<lb break="no" ed="#L" n="91"/>positi. Ex quo enim intensius amo mihi coniunctum, et
+<lb ed="#L" n="92"/>bonum quod desidero mutabile est, possum in maius ac
+<lb ed="#L" n="93"/>maius bonum desiderium meum extendere. Nec ullum
+<lb ed="#L" n="94"/>est alicui praeiudicium, si suapte natura potest mutari in
+<lb ed="#L" n="95"/>illis bonum illud. - Patefit autem hoc ab oppositis, Non
+<lb ed="#L" n="96"/>potest ex caritate pater habens filium baptizatum in patria,
+<lb ed="#L" n="97"/>velle quod sit melior loanne Baptista: quia iam 
+immuta<lb break="no" ed="#L" n="98"/>bilis est bonitas eorum. Sed inter viatores, potest velle
+<lb ed="#L" n="99"/>quod filius sit melior illo religioso viro, non optando 
+di<lb break="no" ed="#L" n="100"/>minutionem alterius, sed accessum et augmentum bonitatis
+<lb ed="#L" n="101"/>in suo, non curando de illo alio nisi in communi.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1139">
+                  <lb ed="#L" n="102"/>Diminutio autem bonitatis in via dupliciter potest 
+con<lb break="no" ed="#L" n="103"/>tingere. Primo, secundum bonitatem disponentem pro 
+ca<lb break="no" ed="#L" n="104"/>ritatis conservatione et augmento: ut patet cum existens
+<lb ed="#L" n="105"/>in caritate declinat et assuefit ad venialia multa et 
+pe<lb break="no" ed="#L" n="106"/>riculosa. Secundo, secundum ipsam caritatem; non per
+<lb ed="#L" n="107"/>diminutionem eiusdem numero caritatis, sed per 
+recupe<lb break="no" ed="#L" n="108"/>rationem minoris caritatis post lapsum. Si enim sanctus
+<lb ed="#L" n="109"/>Petrus cecidit a caritate ut decem; et per primam 
+con<lb break="no" ed="#L" n="110"/>tritionem non fuit dispositus ad caritatem ut decem, sed
+<lb ed="#L" n="111"/>ut octo; caritas in eo diminuta est. Et hoc saepe accidere
+<lb ed="#L" n="112"/>videtur tepide resurgentibus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e1166"><!-- caj-p2p2-q26a8 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e1169">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1406-d1e1171">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="81"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1178">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="82"/>IN articulo octavo habes unde resolvas dubios de 
+oratio<lb break="no" ed="#L" n="83"/>bad suffragiis impendendis magis coniunctis secundum
+<lb ed="#L" n="84"/>carnem an spiritum. Hinc siquidem habes quod magis
+<lb ed="#L" n="85"/>tenetur coniunctis spiritualiter quam carnaliter, ceteris pa-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>ribus. Et quemadmodum pater spiritualis plus in 
+spiritua<lb break="no" ed="#L" n="87"/>libus tenetur filiis huiusmodi quam carnalibus, ut sic; ita
+<lb ed="#L" n="88"/>filius secundum carnem plus tenetur in spiritualibus 
+coniun<lb break="no" ed="#L" n="89"/>ctis sibi secundum spiritum quam patri qui eum genuit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e1203"><!-- caj-p2p2-q26a9 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e1206">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e1406-d1e1208">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="59"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1215">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>In articulo nono perspice differentiam inter primam et
+<lb ed="#L" n="61"/>tertiam litterae rationem quare filius est magis quam
+<lb ed="#L" n="62"/>pater diligendus, attendi penes hoc, quod primae medium
+<lb ed="#L" n="63"/>est maior similitudo dilectionis filii ad dilectionem sui
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>ipsius, ex hoc enim concluditur maior: tertiae vero 
+me<lb break="no" ed="#L" n="65"/>dium est quod ipse filius, quia est pars quaedam parentis,
+<lb ed="#L" n="66"/>est propinquior parenti. Et propterea non sunt una, sed
+<lb ed="#L" n="67"/>duae rationes, quamvis propinquae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e1240"><!-- caj-p2p2-q26a10 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e1243">Articulus 10</head>
+               <p xml:id="TAcCaj-d1e1406-d1e1245">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1252">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="26"/>IN articulo decimo sollicite conserva quod formalis est
+<lb ed="#L" n="27"/>lassi: etceteris paribus. Ex hoc enim solvuntur 
+quae<lb break="no" ed="#L" n="28"/>stiones.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1263">
+                  <lb ed="#L" n="29"/>Et si in tuo codice deest responsio ad tertium, prout
+<lb ed="#L" n="30"/>in pluribus quaesitis tam impressis quam scriptis codicibus
+<lb ed="#L" n="31"/>inveni deficere: — scito respondendum esse quod maior 
+ex<lb break="no" ed="#L" n="32"/>cellentia principii in patre praeponderat maiori labori 
+ma<lb break="no" ed="#L" n="33"/>tris in generatione: quoniam ratio boni magis attenditur
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>in obiecto per se dilectionis quam ratio difficilis seu 
+la<lb break="no" ed="#L" n="35"/>boriosi. Et praecipue hoc invenitur in proposito : quoniam
+<lb ed="#L" n="36"/>maternus labor intra latitudinem passivi materialisque 
+prin<lb break="no" ed="#L" n="37"/>cipii concluditur; totam namque latitudinem passivi 
+ma<lb break="no" ed="#L" n="38"/>terialisque principii excedi ab activo principio constat. Et
+<lb ed="#L" n="39"/>ideo undique argumentum deficit: quamvis directe ex 
+pro<lb break="no" ed="#L" n="40"/>priis patris et matris ut principia sunt generationis, 
+pro<lb break="no" ed="#L" n="41"/>cedat.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e1298"><!-- caj-p2p2-q26a11 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e1301">Articulus 11</head>
+               <p xml:id="TAcCaj-d1e1406-d1e1303">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1310">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>IN articulo undecimo, cum dicitur in calce quod omo
+<lb ed="#L" n="11"/>Liu uxorem principaliter ratione carnalis coniunctionis,
+<lb ed="#L" n="12"/>non denotatur finis amoris, sed species unionis causantis
+<lb ed="#L" n="13"/>amorem. Non enim principale bonum quod homo vult
+<lb ed="#L" n="14"/>uxori est coniunctio carnalis: cum hoc sit bonum utile
+<lb ed="#L" n="15"/>ad generandum et delectabile, et velit eibonum honestum,
+<lb ed="#L" n="16"/>quod est maius, Sed principalis ratio amoris ad uxorem
+<lb ed="#L" n="17"/>ut unio est ratio amoris, est coniunctio carnalis: quia hanc
+<lb ed="#L" n="18"/>sequitur quaecumque alia est inter eos unio, sive 
+volun<lb break="no" ed="#L" n="19"/>tatum sive rerum.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1336">
+                  <lb ed="#L" n="20"/>II. In eodem et sequenti, hoc est duodecimo articulo,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="21"/>dubium relinquitur:an magis diligendus sit filius quam uxor.
+<lb ed="#L" n="22"/>Ad quod dicitur quod quantum ad rationem boni uxor
+<lb ed="#L" n="23"/>magis diligitur: quia diligitur ut comprincipium ad filiorum
+<lb ed="#L" n="24"/>procreationem, filius autem ut effectus; constat enim 
+ex<lb break="no" ed="#L" n="25"/>cellentioris boni rationem habere comprincipium quam 
+ef<lb break="no" ed="#L" n="26"/>fectum. Sed quantum ad coniunctionem filius magis amatur
+<lb ed="#L" n="27"/>quam uxor: quia filius est aliquid substantiae parentis et
+<lb ed="#L" n="28"/>pars eius, coniux autem non est pars coniugis, ut patet.
+<lb ed="#L" n="29"/>Et ideo coniuges magis se invicem honorant: intensius
+<lb ed="#L" n="30"/>autem amant filios. Cuius signum est maior tristitia de
+<lb ed="#L" n="31"/>morte filii quam coniugis, ut sic, ceteris paribus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1406-Dd1e1368"><!-- caj-p2p2-q26a13 -->
+               <head xml:id="TAcCaj-d1e1406-Hd1e1371">Articulus 13</head>
+               <p xml:id="TAcCaj-d1e1406-d1e1373">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="16"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1380">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>In articulo decimotertio eiusdem quaestionis adverte quod
+<lb ed="#L" n="18"/>Auctor probat beatum in patria plus intensive diligere
+<lb ed="#L" n="19"/>seipsum quam beatiorem hominem vel angelum non solum
+<lb ed="#L" n="20"/>ex parte subiecti (quia scilicet intensio actus se tenet ex
+<lb ed="#L" n="21"/>parte coniunctionis ad subiectum; nullus autem est sibi
+<lb ed="#L" n="22"/>ipsi coniunctior quam ipsemet), sed etiam ex ipsius caritatis
+<lb ed="#L" n="23"/>ordine in suis actibus: per hoc quod caritas unicuique datur
+<lb ed="#L" n="24"/>a Deo principaliter ad actum quo ipse recipiens bene se
+<lb ed="#L" n="25"/>habeat; dat enim Deus caritatem homini ut amico, propter
+<lb ed="#L" n="26"/>bonum scilicet ipsius hominis cui datur, et datur caritas
+<lb ed="#L" n="27"/>secundario ad actum erga proximos. Ex hoc enim mani-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="28"/>festo ordine consequens est ut magis intendat habens 
+per<lb break="no" ed="#L" n="29"/>fectam caritatem principali actui quam secundario: et per
+<lb ed="#L" n="30"/>hoc, intensius se diligat in Deo quam beatiorem.
+</p>
+               <p xml:id="TAcCaj-d1e1406-d1e1417">
+                  <lb ed="#L" n="31"/>Nec obstat, ut in responsione ad ultimum dicitur, quod
+<lb ed="#L" n="32"/>Deus est in patria tota diligendi ratio. Quia unicuique
+<lb ed="#L" n="33"/>beato Deus est tota diligendi ratio ut est illius beati bonum
+<lb ed="#L" n="34"/>proprium. Diligere ergo Deo ut tota ratione diligendi, 
+clau<lb break="no" ed="#L" n="35"/>dit in se prius diligere seipsum quam proximos: quia 
+clau<lb break="no" ed="#L" n="36"/>dit in se. Deum esse, et consequenter diligi ut proprium
+<lb ed="#L" n="37"/>bonum diligentis; et non claudit in se Deum diligi ut 
+bo<lb break="no" ed="#L" n="38"/>num alterius, sed illud infert si Deus est alterius bonum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

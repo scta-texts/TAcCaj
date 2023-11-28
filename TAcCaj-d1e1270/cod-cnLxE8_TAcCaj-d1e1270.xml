@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praefatio</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praefatio</title>
+          <date when="2023-11-28">November 28, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-11-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="3"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1270"><!-- TAcCajp2p2-praefatio -->
+        <head xml:id="TAcCaj-d1e1270-Hd1e101">Praefatio</head>
+        <p xml:id="TAcCaj-d1e1270-d1e103">
+          <pb ed="#L" n="3"/>
+          <lb ed="#L" n="1"/>AD
+          <lb ed="#L" n="2"/>LEONEM DECIMUM PONT. MAX.
+          <lb ed="#L" n="3"/>THOMAE DE VIO CAIETANI
+          <lb ed="#L" n="4"/>CARDINALIS S. SIXTI
+          <lb ed="#L" n="5"/>IN SECUNDAE SECUNDAE DIVI THOMAE AQUINATIS COMMENTARIOS
+          <lb ed="#L" n="6"/>PRAEFATIO
+        </p>
+        <p xml:id="TAcCaj-d1e1270-d1e121">
+          <lb ed="#L" n="7"/>OMNES homines qui ex iniuncto sibi munere in republica gerenda versantur,
+          <lb ed="#L" n="8"/>cuiuscumque ordinis illi sint, non. privatis solum, sed publicis etiam pro
+          <lb ed="#L" n="9"/>beneficiis ad referendam gratiam reddi. obnoxios nemo unquam sapiens
+          <lb ed="#L" n="10"/>dubitavit. Tanto siquidem. foedere commune bonum particulari bono 
+          in<lb break="no" ed="#L" n="11"/>sertum est ut illud unusquisque proprio anteferendum putet, nemoque quod
+          <lb ed="#L" n="12"/>suum. est. bonum-vel se consequi vel tueri posse confidat, nisi publicum inde bonum
+          <lb ed="#L" n="13"/>augeatur et conservetur. Ego itaque, quod ad me attinet, tua, Leo Decime Pontifex
+          <lb ed="#L" n="14"/>Maxime, et in rempublicam Christianam et in meipsum maxima beneficia mecum animo
+          <lb ed="#L" n="15"/>deputans, haec Tibi mea commentaria offerenda nunc censui, non qui hoc pacto parem
+          <lb ed="#L" n="16"/>me Tibi gratiam referre nunc arbitrer, sed qui potius grati animi voluntatem Tibi 
+          si<lb break="no" ed="#L" n="17"/>gnificem, nec sine veneratione debita recolam immensam cunctisque communem 
+          bene<lb break="no" ed="#L" n="18"/>ficentiae tuae vim. Tu quidem, Beatissime Pater, statim ut Pontifex factus es, 
+          pernicio<lb break="no" ed="#L" n="19"/>sum illud universalis Ecclesiae schisma quod. sub Iulio Secundo eruperat tua bonitate
+          <lb ed="#L" n="20"/>ac providentia. ita. funditus. excidisti ut hoc immortali beneficio Christianos omnes facile
+          <lb ed="#L" n="21"/>Tibi devinxeris. Neque vero tuae satis fuit magnanimitati pestilens hoc malum. quod
+          <lb ed="#L" n="22"/>tempestate nostra Ecclesiae incubuerat summovisse, nisi etiam, futuris saeculis e sublimi
+          <lb ed="#L" n="23"/>ista Sedis Apostolicae specula longe prospiciens, radicem. quoque gignendis in posterum
+          <lb ed="#L" n="24"/>schismatibus, ac fomenta etiam. quibus alerentur ac viverent, aboleres. Nam cum 
+          prae<lb break="no" ed="#L" n="25"/>teritarum rerum experientia satis nos doceret graves ac periculosas Ecclesiae 
+          dissen<lb break="no" ed="#L" n="26"/>siones inde ortas. quidem fuisse quod quidam, nimis impie arroganterque ausi, 
+          aucto<lb break="no" ed="#L" n="27"/>ritatem. Synodi supra maiestatem Pontificis. efferebant; alimenta. vero ac fomenta, quo
+          <lb ed="#L" n="28"/>diutius perdurarent, ab ea quam Pragmaticam vocant Sanctione sumpsisse, quamque,
+          <lb ed="#L" n="29"/>veluti perpetuum quoddam schisma, Ecclesiae adversam Sedique Apostolicae semper
+          <lb ed="#L" n="30"/>aemulam, multi quondam alioqui clari magnanimique Pontifices ardenti studio abolere,
+          <lb ed="#L" n="31"/>sed incassum, conati sunt; Tu tamen utrumque. malum, Beatissime Pater, de medio
+          <lb ed="#L" n="32"/>facile: sustulisti; dum, Lateranensi approbante Concilio; ipse, Sanctorum Patrum dogma
+          <lb ed="#L" n="33"/>sectatus, omni iam disceptatione de. Synodi ac Pontificis imparitate sublata, Sedis 
+          Apo<lb break="no" ed="#L" n="34"/>stolicae auctoritatem supra Synodum statuendam esse tanta firmitate sanxisti ut 
+          Late<lb break="no" ed="#L" n="35"/>ranensis ipsa Synodus veterum Conciliorum vestigia imitari ac se Pontificiae auctoritati
+          <lb ed="#L" n="36"/>subditam esse confiteri non erubuerit; dumque in eodem Concilio, Pragmatica Sanctione
+          <lb ed="#L" n="37"/>extincta, integrum Sedi Apostolicae ius suum restituisti. Quibus honestis magnanimisque
+          <lb ed="#L" n="38"/>incoeptis ad optatum finem perductis, vere Leo fortissimus, Ecclesiae sanctae filiis,
+          <lb ed="#L" n="39"/>tuisque. adeo catulis, solidam tranquillitatem, quantumque in Te fuit, pacem etiam 
+          ven<lb break="no" ed="#L" n="40"/>turis saeculis stabilisti. Quantum vero cuncti professores eorum Ordinum qui Religiosi
+          <lb ed="#L" n="41"/>vocantur bonitati tuae caritatique debeamus, iam ipse testis facundissimus esse possum.
+          <lb ed="#L" n="42"/>Etenim cum illorum. Ordinum privilegia; quibus decus et immunitas continetur, quidam
+          <lb ed="#L" n="43"/>vel. pessumdare: vel saltem labefactare anniterentur, Tu tamen solus, ingenua bonitate
+          <lb ed="#L" n="44"/>atque auctoritatis robore obluctando, Patrem. Te nobis omnibus, Patronum- Protecto-
+          <pb ed="#L" n="4"/>
+          <lb ed="#L" n="1"/>remque benignissimum praebuisti. Quid enim dicam quod ea liberalitate ac munificentia
+          <lb ed="#L" n="2"/>litteratos omnes doctosque homines protegendos susceperis ut disciplinarum omnium
+          <lb ed="#L" n="3"/>professores ac studiosos viros tum collatis muneribus iam ornaveris, tum ad bene 
+          spe<lb break="no" ed="#L" n="4"/>randum de benignitate tua erexeris? Mihi autem, ut omissis aliis me inspiciam, tametsi
+          <lb ed="#L" n="5"/>vel ecclesiasticae militiae sacramento, vel sacri Ordinis professione ac magisterio, vel
+          <lb ed="#L" n="6"/>assiduo litterarum studio, nullum tuorum tot beneficiorum a me alienum esse 
+          cogno<lb break="no" ed="#L" n="7"/>scerem, sed ea potius ubertim me accepisse sentirem, proxime cumulus hic tuae 
+          be<lb break="no" ed="#L" n="8"/>nignitatis maximus splendidissimusque accessit quod me, nullius interventus favore,
+          <lb ed="#L" n="9"/>nullis intermediis precibus, nullis. denique beneficiis. provocatus, sed ipse ingenua tui
+          <lb ed="#L" n="10"/>animi bonitate adductus, in sacrum Cardinalium ordinem cooptasti, rem sane 
+          admira<lb break="no" ed="#L" n="11"/>tione magna dignissimam totoque orbe terrarum . memorabilem tempestate nostra 
+          ag<lb break="no" ed="#L" n="12"/>gressus, ut quam optimates viri dignitatem, quam principes ac reges provinciarum
+          <lb ed="#L" n="13"/>summo studio et contentione vel sibi vel suis assequi suppliciter elaborant, Tu mihi
+          <lb ed="#L" n="14"/>eam nec petenti quidem nec speranti, vixque adeo cogitanti, sponte tua contuleris. Ne
+          <lb ed="#L" n="15"/>itaque in tuum Domini mei conspectum, omni veneratione dignissimum, vacuis manibus
+          <lb ed="#L" n="16"/>ut asymbolus ingratusque venirem, quae proximis annis in Secundam Secundae Divi
+          <lb ed="#L" n="17"/>Thomae Aquinatis Partem commentaria elucubravi, Tibi nunc dedicanda, tuique Numinis
+          <lb ed="#L" n="18"/>praesidio publicanda constitui. Quae,'si vel nulla in me tua seorsum beneficia tanta
+          <lb ed="#L" n="19"/>extarent, Tibi tamen iure optimo debebantur: quia, cum Tu et Summi Regis et 
+          Sa<lb break="no" ed="#L" n="20"/>cerdotis Maximi dignitate. fungaris, doctrinae moralis commentaria, pro tua bonitate ac
+          <lb ed="#L" n="21"/>sapientia, nequaquam a tua ditione aliena ducturus fueras. Moralis enim doctrinae 
+          in<lb break="no" ed="#L" n="22"/>strumento Ecclesiae sanctae regnum: efflorescere ac decorari oportet, sub eo praesertim
+          <lb ed="#L" n="23"/>Pontifice qui timere non debet ne, cwm alis praedicaverit, ipse refrobus habeatur, cum |
+          <lb ed="#L" n="24"/>ea quae, in ethicis praeceptionibus tradita, suis auspiciis publicantur, ipse vitae suae'
+          <lb ed="#L" n="25"/>exemplo sancire et comprobare videatur. Neque enim latere quemquam existimo Te
+          <lb ed="#L" n="26"/>inde ab adolescente aetate cum aliarum virtutum, tum praecipue liberalitatis et 
+          conti<lb break="no" ed="#L" n="27"/>nentiae normam cunctis propositum claruisse. Iam vero quam altis radicibus fides, spes,
+          <lb ed="#L" n="28"/>caritas pectori tuo insitae semper fuerint, quaeque ad eas tuendas conservandasque
+          <lb ed="#L" n="29"/>virtutes maxime necessaria est ingenua fortitudo, plane tunc omnibus ostendisti cum,
+          <lb ed="#L" n="30"/>periculosis reipublicae Christianae temporibus, Ecclesiae Romanae Legatus amplissimus,
+          <lb ed="#L" n="31"/>contra telorum turbines bellicaque tormenta, pulsis prope omnibus, ipse imperterritus
+          <lb ed="#L" n="32"/>perstitisti; moxque, ad maiorem, ut puto, virtutis tuae probationem, inclinatis rebus,
+          <lb ed="#L" n="33"/>alienae potestatis iam factus, nullis tamen expugnari machinis, nullis abduci terroribus
+          <lb ed="#L" n="34"/>ab integro Ecclesiae corpore ad divulsas partes potuisti. Quae cum animo reputamus,
+          <lb ed="#L" n="35"/>Dei providentia factum. cognoscimus ut Tu Pontifex Ecclesiae sanctae praeficereris qui,
+          <lb ed="#L" n="36"/>ut Apostoli verbis utar, fer ommia fentatus, compati laborantibus scires, et quas antea
+          <lb ed="#L" n="37"/>meditatus virtutes fueras, auctoritate potentiaque suffultus, multo nunc uberius multoque
+          <lb ed="#L" n="38"/>felicius propagares; id quod inaudita et ineffabilis illa clementia qua capiti tuo insidiatos
+          <lb ed="#L" n="39"/>homines conservasti plane testata est, Tibi profecto tuaeque sanctissimae potestati valde
+          <lb ed="#L" n="40"/>conveniens ut, sicut Dei Maximi vices inter nos geris, ita ceteris mortalibus ea praestes
+          <lb ed="#L" n="41"/>virtute qua homines, quantum mortalibus licet, Deo Maximo Optimo similes fiunt. 
+          Ce<lb break="no" ed="#L" n="42"/>terum tuae laudes longioris subsellii tempus exposcunt. Quod vero ad institutam rem
+          <lb ed="#L" n="43"/>pertinet, non modo Pontificiae Maiestatis nomine; cuius est officium summovere scelera
+          <lb ed="#L" n="44"/>ac virtutes inserere, sed tuo ipsius etiam nomine, qui virtutes: colis semperque coluisti,
+          <lb ed="#L" n="45"/>decenter tibi nostra haec commentaria dedicantur, in quibus de vitiis ac virtutibus 
+          dis<lb break="no" ed="#L" n="46"/>putationes pulcherrimae proponuntur. Quae tamen hac mente omnes a me Tibi nunc
+          <lb ed="#L" n="47"/>dedicari intelligant ut quaecumque hic vel usquam alibi a me scripta sint Apostolatus
+          <lb ed="#L" n="48"/>tui iudicio, cui sunt iure subdita, substernantur. Accipe igitur, Beatissime Pater, de
+          <lb ed="#L" n="49"/>manu Tibi deditissimae creaturae munusculum, grati animi alacritate conditum, atque
+          <lb ed="#L" n="50"/>in eo accipiendo Dei Maximi, cuius Tu vicem inter nos geris, benignitatem, quaeso,
+          <lb ed="#L" n="51"/>in animum tuum revoca: Hic enim, cum pingues tauros ac arietes immolari ante se
+          <lb ed="#L" n="52"/>cerneret, duo tamen minuta de manu pauperis mulierculae in gazophylacium Templi
+          <lb ed="#L" n="53"/>missa non respuit. Aeternum vale, Pater Beatissime.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

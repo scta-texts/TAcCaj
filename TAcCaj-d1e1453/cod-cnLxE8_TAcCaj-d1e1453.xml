@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 35</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 35</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="288"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1453"><!-- TAcCajp2p2-q35 -->
+            <head xml:id="TAcCaj-d1e1453-Hd1e101">Quaestio 35</head>
+            <div xml:id="TAcCaj-d1e1453-Dd1e103"><!-- caj-p2p2-q35a2 -->
+<!-- commentary placed after a. 4 in Leonine Edition
+but it seems to be specifically about article 2 -->
+               <head xml:id="TAcCaj-d1e1453-Hd1e108">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1453-d1e110">
+                  <pb ed="#L" n="289"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1453-d1e119">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In tota quaestione trigesimaquinta unum dubium occurrit,
+<lb ed="#L" n="3"/>spectans specialiter ad articulum secundum, simpliciter
+<lb ed="#L" n="4"/>et ad hominem: An acedia sit tristitia de bono divino in
+<lb ed="#L" n="5"/>ipso Deo, vel in me, vel in utroque. Et simpliciter 
+qui<lb break="no" ed="#L" n="6"/>dem dubii ratio est quia de bono divino in ipso Deo 
+tri<lb break="no" ed="#L" n="7"/>stitia pertinet ad odium Dei: eadem ratione qua desiderium
+<lb ed="#L" n="8"/>mali in ipso Deo. ad odium spectat, et gaudere de malo
+<lb ed="#L" n="9"/>eiusdem. Eiusdem namque rationis est odio habere 
+ali<lb break="no" ed="#L" n="10"/>quem, optare illi malum, gaudere de malo illius, et tristari
+<lb ed="#L" n="11"/>de contrario bono, ut patet. - De bono autem divino in
+<lb ed="#L" n="12"/>nobis tristitia pertinet ad amorem concupiscentiae. Et sic
+<lb ed="#L" n="13"/>non opponitur caritati, quae est amor amicitiae ad Deum.
+<lb ed="#L" n="14"/>et gaudet de bono divino propter Deum. - De bono autem
+<lb ed="#L" n="15"/>divino in utroque tristari non videtur unius esse vitii: sicut
+<lb ed="#L" n="16"/>nec odii Dei et hominis unicum est vitium.
+</p>
+               <p xml:id="TAcCaj-d1e1453-d1e156">
+                  <lb ed="#L" n="17"/>Ad hominem vero, Auctorem scilicet, quia superius in
+<lb ed="#L" n="18"/>I II, qu. 1xxxrv, art. 4, distinguens capitalia vitia, ponit
+<lb ed="#L" n="19"/>acediam circa bonum proprium. Hic autem, ponens 
+ean<lb break="no" ed="#L" n="20"/>dem circa divinum. bonum, in art. 3 ponit ipsam 
+con<lb break="no" ed="#L" n="21"/>trariam gaudio caritatis de Deo; et ibidem, ad 2, dicit quod
+<lb ed="#L" n="22"/>acediae. est contristari in his quae imminent facienda 
+pro<lb break="no" ed="#L" n="23"/>pter Deum ; et in art. 4, ad 2, expresse dicit: Spiritualia
+<lb ed="#L" n="24"/>autem bona, de quibus tristatur acedia, sunt et finis et
+<lb ed="#L" n="25"/>dd a juod est ad finem.
+</p>
+               <p xml:id="TAcCaj-d1e1453-d1e179">
+                  <lb ed="#L" n="26"/>II. Ad hoc dicitur quod acedia est tristitia de bono divino
+<lb ed="#L" n="27"/>in eo qui contristatur. Et propterea dicitur quod est re-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="28"/>spectu boni proprii, et boni spiritualis inquantum habet
+<lb ed="#L" n="29"/>rationem boni divini. Considerandum est enim quod caritas,
+<lb ed="#L" n="30"/>licet principaliter gaudeat de bono divino in ipso Deo, 
+se<lb break="no" ed="#L" n="31"/>cundario tamen et consequenter gaudet de bono divino,
+<lb ed="#L" n="32"/>et ipso etiam Deo, in seipso amante et etiam in proximo.
+<lb ed="#L" n="33"/>Et licet una sit caritas gaudens de his tribus, vitium tamen
+<lb ed="#L" n="34"/>oppositum non est unum (quia malum multifariam 
+contin<lb break="no" ed="#L" n="35"/>git), sed triplex: scilicet odium, acedia et invidia. Odium
+<lb ed="#L" n="36"/>siquidem refutat bonum tam in Deo quam in proximo
+<lb ed="#L" n="37"/>absolute. Invidia autem in proximo; ut in quaestione 
+se<lb break="no" ed="#L" n="38"/>quente patebit. Acedia autem: in ipso contristante refutante
+<lb ed="#L" n="39"/>bonum non quodcumque, formaliter loquendo, sed 
+divi<lb break="no" ed="#L" n="40"/>num: quia quidquid refutat, inquantum habet rationem
+<lb ed="#L" n="41"/>divini boni in ipso contristante refutat. Unde conceditur
+<lb ed="#L" n="42"/>quod directe opponitur gaudio caritatis pro quanto claudit
+<lb ed="#L" n="43"/>in se amorem concupiscentiae: propter quod ex ea nascitur
+<lb ed="#L" n="44"/>desperatio, quae Deum a nobis aufert. Et hoc modo est
+<lb ed="#L" n="45"/>respectu finis ultimi. Et quia omne concupitum a caritate
+<lb ed="#L" n="46"/>in Deum amicitia amatum finaliter refertur, ideo acedia 
+tri<lb break="no" ed="#L" n="47"/>statur de bono divino in nobis quod. propter Deum habere
+<lb ed="#L" n="48"/>debemus. Unde Auctor in art. 3, cum dixisset quod  
+pro<lb break="no" ed="#L" n="49"/>prius effectus caritatis est gaudium de Deo, caute 
+subiun<lb break="no" ed="#L" n="50"/>xit quod acedia est tristitia de bono spirituali inquantum
+<lb ed="#L" n="51"/>divinum: et non dixit quod est tristitia de Deo. Quamvis
+<lb ed="#L" n="52"/>etiam si dixisset, de Deo in nobis intelligi potuisset. Et
+<lb ed="#L" n="53"/>sic omnia consonant simpliciter, et in doctrina Auctoris.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

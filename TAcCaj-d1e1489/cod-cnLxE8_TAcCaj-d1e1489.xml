@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 42</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 42</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="323"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1489"><!-- TAcCajp2p2-q42 -->
+            <head xml:id="TAcCaj-d1e1489-Hd1e101">Quaestio 42</head>
+            <div xml:id="TAcCaj-d1e1489-Dd1e103"><!-- caj-p2p2-q42a1 -->
+               <head xml:id="TAcCaj-d1e1489-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1489-d1e108">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="77"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1489-d1e115">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="78"/>IN primo articulo quaestionis quadragesimaesecundae, in
+<lb ed="#L" n="79"/>n ad ultimum, adverte quod Auctor dicit 
+schi<lb break="no" ed="#L" n="80"/>sma et seditionem contineri sub discordia, inter vitia 
+nu<lb break="no" ed="#L" n="81"/>merata a beato Gregorio in XXXI Moral.: et propterea
+<lb ed="#L" n="82"/>oriri ex superbia seu inani gloria, ex qua oritur discordia.
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="83"/>Et verificatur continentia haec secundum actum 
+interio<lb break="no" ed="#L" n="84"/>rem: nam tam seditio quam schisma, secundum. actum
+<lb ed="#L" n="85"/>interiorem, discordia quaedam est, scilicet partium 
+multi<lb break="no" ed="#L" n="86"/>tudinis, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1489-Dd1e142"><!-- caj-p2p2-q42a2 -->
+               <head xml:id="TAcCaj-d1e1489-Hd1e145">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1489-d1e147">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="71"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1489-d1e154">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="72"/>IN articulo secundo eiusdem quaestionis, in responsione ad
+<lb ed="#L" n="73"/>tertium, adverte quod excitatio contra tyrannum tunc ex
+<lb ed="#L" n="74"/>eventu peiore illicita iudicatur quando inordinate 
+perturba<lb break="no" ed="#L" n="75"/>tur tyranni regimen. Quis sit autem modus ordinatus 
+per<lb break="no" ed="#L" n="76"/>turbandi tyrannum; et qualem tyrannum, puta secundum
+<lb ed="#L" n="77"/>regimen tantum, vel secundum regimen et titulum; non est
+<lb ed="#L" n="78"/>praesentis intentionis. Sat est nunc quod utrumque 
+tyran<lb break="no" ed="#L" n="79"/>num licet ordinate perturbare; absque seditione, quandoque:
+<lb ed="#L" n="80"/>illum, ut bono reipublicae vacet; istum, ut expellatur.
+</p>
+               <p xml:id="TAcCaj-d1e1489-d1e178">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="81"/>II. In calce harum quaestionum de vitiis oppositis paci,
+<lb ed="#L" n="82"/>adverte ordinem. Post discordiam in corde et 
+contentio<lb break="no" ed="#L" n="83"/>nem in ore, quatuor vitia in opere ordinata videntur ab
+<lb ed="#L" n="84"/>Auctore hic secundum maiorem extensionem. Nam 
+schi<lb break="no" ed="#L" n="85"/>sma respectu Ecclesiae universalis, quae orbem 
+comprehen<lb break="no" ed="#L" n="86"/>dit; bellum ad diversa regna, nationes, etc.; rixa ad 
+per<lb break="no" ed="#L" n="87"/>sonas undecumque; seditio ad partes unius multitudinis
+<lb ed="#L" n="88"/>se extendit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

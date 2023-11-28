@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="124"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1355"><!-- TAcCajp2p2-q16 -->
+            <head xml:id="TAcCaj-d1e1355-Hd1e101">Quaestio 16</head>
+            <div xml:id="TAcCaj-d1e1355-Dd1e103"><!-- caj-p2p2-q16a1 -->
+               <head xml:id="TAcCaj-d1e1355-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1355-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1355-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>In quaestionis sextaedecimae titulo, scilicet de Praeceptis,
+<lb ed="#L" n="19"/>adverte quod tam hic quam in subsequentibus tractatibus
+<lb ed="#L" n="20"/>de aliis virtutibus, cum ad quaestionem de praeceptis illius
+<lb ed="#L" n="21"/>virtutis devenitur, non sumitur praeceptum ut est 
+obliga<lb break="no" ed="#L" n="22"/>tivum ad peccatum mortale determinate: sed sumitur 
+prae<lb break="no" ed="#L" n="23"/>ceptum ut distinguitur contra consilium, prout scilicet habet
+<lb ed="#L" n="24"/>vim obligativam, communiter tamen sive ad mortale sive
+<lb ed="#L" n="25"/>ad veniale; ut patet ex multis quae in istis locis dicuntur
+<lb ed="#L" n="26"/>praecepta, ad quae constat non obligari sub peccato 
+mor<lb break="no" ed="#L" n="27"/>tali; ut patet de praecepto in calce huius quaestionis 
+po<lb break="no" ed="#L" n="28"/>sito, scilicet de moderatione omnis actus nostri secundum
+<lb ed="#L" n="29"/>legem, et discurrendo patet in multis aliis. Et hoc bene
+<lb ed="#L" n="30"/>nota, ne putes omnia mortalia, ex praecepti nomine.
+</p>
+               <p xml:id="TAcCaj-d1e1355-d1e148">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="31"/>In tota quaestione sextadecima dubium unum tantum
+<lb ed="#L" n="32"/>Occurrit, ex eo quod primi articuli littera in corpore dicit
+<lb ed="#L" n="33"/>quod, supposita fide unius Dei, nulla alia praecepta in
+<lb ed="#L" n="34"/>veteri lege sunt data de fide: et tamen in responsione ad
+<lb ed="#L" n="35"/>quintum non habet pro inconvenienti quod respectu 
+spe<lb break="no" ed="#L" n="36"/>cialium credibilium sit datum in veteri lege aliquod 
+prae<lb break="no" ed="#L" n="37"/>ceptum. Quomodo stant haec simul?
+</p>
+               <p xml:id="TAcCaj-d1e1355-d1e168">
+                  <lb ed="#L" n="38"/>Ad hoc dicitur doctrinam praesentis articuli tradere quod
+<lb ed="#L" n="39"/>nulla sunt de secretis fidei, hoc est articulis fidei, in veteri
+<lb ed="#L" n="40"/>lege data praecepta. De aliis autem specialibus credibilibus
+<lb ed="#L" n="41"/>non inconvenit aliquod. praeceptum inveniri, Quia status
+<lb ed="#L" n="42"/>ille non erat explicandae fidei, sed hoc novae legi 
+serva<lb break="no" ed="#L" n="43"/>batur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

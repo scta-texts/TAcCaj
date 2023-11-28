@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 22</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 22</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="161"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1386"><!-- TAcCajp2p2-q22 -->
+            <head xml:id="TAcCaj-d1e1386-Hd1e101">Quaestio 22</head>
+            <div xml:id="TAcCaj-d1e1386-Dd1e103"><!-- caj-p2p2-q22a2 -->
+               <head xml:id="TAcCaj-d1e1386-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1386-d1e108">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="91"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1386-d1e115">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="92"/>In quaestione vigesimasecunda, omisso primo articulo, in 
+<lb ed="#L" n="93"/>secundo quaestiuncula occurrit, quomodo timor filialis 
+po<lb break="no" ed="#L" n="94"/>natur quasi genus ad dilectionem Dei: cum sit effectus. |
+<lb ed="#L" n="95"/>Ad hoc dicitur quod timor filialis non dicitur quasi ge-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="96"/>nus respectu dilectionis Dei absolute: sed respectu 
+dile<lb break="no" ed="#L" n="97"/>ctionis Dei et principii eorum quae in Dei reverentia
+<lb ed="#L" n="98"/>observantur. Dicitur autem quasi genus, inquantum est
+<lb ed="#L" n="99"/>velut commune quoddam ad utrumque et collectio utrius-
+<pb ed="#L" n="162"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>que: genus enim est collectio specierum. Complectitur 
+<lb ed="#L" n="2"/>siquidem timor filialis et amorem, unde revertur patrem; 
+<lb ed="#L" n="3"/>et subiecitonem ad Deum, unde inchoat observatio omnium 
+<lb ed="#L" n="4"/>quae in Dei reverentiam exhibentur. Et propterea non 
+ge<lb break="no" ed="#L" n="5"/>nus, sed quasi genus utriusque vocari potuit.
+</p>
+               <p xml:id="TAcCaj-d1e1386-d1e154">
+                  <lb ed="#L" n="6"/>In responsione ad primum in eodem articulo, revideto
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>articulum septimum quaestionis decimaenonae, ut 
+perspi<lb break="no" ed="#L" n="8"/>cias principium intrinsecum et extrinsecum legis, ex 
+diffe<lb break="no" ed="#L" n="9"/>rentia inter timorem servilem et filialem in hoc quod ille 
+<lb ed="#L" n="10"/>extra, iste intus, utpote primus in compositione divinae 
+<lb ed="#L" n="11"/>fabricae secundum divinam legem
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

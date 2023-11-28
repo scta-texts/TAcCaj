@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="134"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1365"><!-- TAcCajp2p2-q18 -->
+            <head xml:id="TAcCaj-d1e1365-Hd1e101">Quaestio 18</head>
+            <div xml:id="TAcCaj-d1e1365-Dd1e103"><!-- caj-p2p2-q18a1 -->
+               <head xml:id="TAcCaj-d1e1365-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1365-d1e108">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="72"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1365-d1e115">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="73"/>IN articulo primo quaestionis decimaeoctavae, in 
+respon<lb break="no" ed="#L" n="74"/>sione ad secundum, dubium occurrit circa distinctionem
+<lb ed="#L" n="75"/>istorum actuum in voluntate, scilicet diligere et sperare.
+<lb ed="#L" n="76"/>Et est ratio dubii quia superius, in I II, qu. xrvin, 
+di<lb break="no" ed="#L" n="77"/>ctum est quod licet isti actus in appetitu sensitivo sint
+<lb ed="#L" n="78"/>diversi, in voluntate tamen coincidunt. Hic autem 
+mani<lb break="no" ed="#L" n="79"/>feste dicitur quod in voluntate alius actus est sperare, et
+<lb ed="#L" n="80"/>alius diligere.
+</p>
+               <p xml:id="TAcCaj-d1e1365-d1e137">
+                  <lb ed="#L" n="81"/>Ad hoc dicitur quod, cum identitas vel distinctio 
+hu<lb break="no" ed="#L" n="82"/>iusmodi actuum in voluntate ambigua sit; nec comper-
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="83"/>tum habeam quod in commentariis super Prima Parte 
+opi<lb break="no" ed="#L" n="84"/>natus sum; nec, vacans nunc moralibus, intendam morari
+<lb ed="#L" n="85"/>in hac naturali speculatione: dici potest quod aliud est
+<lb ed="#L" n="86"/>loqui de distinctione inter diligere et sperare de qua hic
+<lb ed="#L" n="87"/>est sermo; et aliud de distinctione eorundem ab actibus
+<lb ed="#L" n="88"/>voluntatis ibidem numeratis, scilicet velle, intendere, etc.,
+<lb ed="#L" n="89"/>de qua ibi fuit sermo. Secundum enim illam viam 
+dici<lb break="no" ed="#L" n="90"/>tur quod hi actus sunt unius speciei substantialis in esse
+<lb ed="#L" n="91"/>naturae, diversarum autem specierum accidentalium, sicut
+<lb ed="#L" n="92"/>homo albus et Aethiops: diligere enim significat velle bo-
+<pb ed="#L" n="135"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>num alicui, sperare autem velle bonum arduum possibile
+<lb ed="#L" n="2"/>sibi. Apparet siquidem in his definitionibus quod eadem 
+<lb ed="#L" n="3"/>est substantialis ratio actus, scilicet velle: diversae autem
+<lb ed="#L" n="4"/>eius conditiones videntur, secundum quod diversimode
+<lb ed="#L" n="5"/>ad bonum tendunt. Et hoc sufficere videtur litterae huic.
+<lb ed="#L" n="6"/>Iuxta viam autem alteram, scilicet multiplicantem actus
+<lb ed="#L" n="7"/>voluntatis secundum multitudinem passionum undecim
+<lb ed="#L" n="8"/>quae sunt in appetitu sensitivo, proportionaliter tamen;
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>facile patet responsio. In ambiguis enim flecti ad 
+utrum<lb break="no" ed="#L" n="10"/>que familiare est. Oportet namque ad per se differentias
+<lb ed="#L" n="11"/>actus voluntatis in esse naturali pervenire, ut certa hic 
+ve<lb break="no" ed="#L" n="12"/>ritas sit. Sed sive substantialiter sive accidentaliter in 
+ge<lb break="no" ed="#L" n="13"/>nere naturae distinctio sit, satis est proposito quod 
+vo<lb break="no" ed="#L" n="14"/>luntas habet duos actus, scilicet diligere et sperare, qui ita
+<lb ed="#L" n="15"/>in moralibus accipiuntur distincti ut diversi simpliciter 
+ha<lb break="no" ed="#L" n="16"/>beantur, et diversis egeant habitibus, caritate scilicet et spe.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1365-Dd1e210"><!-- caj-p2p2-q18a2 -->
+               <head xml:id="TAcCaj-d1e1365-Hd1e213">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1365-d1e215">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="99"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1365-d1e222">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="100"/>In articulo secundo eiusdem decimaeoctavae quaestionis
+<lb ed="#L" n="101"/>dubium occurrit circa hoc quod ad rationem formalem
+<lb ed="#L" n="102"/>obiecti spei dicitur spectare esse futurum. Primo, quia 
+dif<lb break="no" ed="#L" n="103"/>ferentiae temporis per accidens ad intellectivam partem se
+<lb ed="#L" n="104"/>habent: propter quod non ponitur memoria, quae est re-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="105"/>spectu praeteriti, in parte intellectiva specialis potentia, 
+si<lb break="no" ed="#L" n="106"/>cut in parte sensitiva. Spes autem de qua est sermo, ut
+<lb ed="#L" n="107"/>in articulo praecedenti patet, in parte intellectiva est. Non
+<lb ed="#L" n="108"/>igitur ad formale obiectum spei spectat esse futurum.
+</p>
+               <p xml:id="TAcCaj-d1e1365-d1e248">
+                  <lb ed="#L" n="109"/>Secundo, quia Deus, qui est principale obiectum spei,
+<pb ed="#L" n="136"/>
+                  <!-- p. 136  -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>non est futurus nisi denominatione extrinseca, quia nos
+<lb ed="#L" n="2"/>sumus adfuturi ipsi Deo: sicut columna est mihi dextra
+<lb ed="#L" n="3"/>quia dextra mea est iuxta illam. Denominatio autem 
+ex<lb break="no" ed="#L" n="4"/>trinseca non intrat formalitatem obiecti virtutis realis, etc.
+<lb ed="#L" n="5"/>Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1365-d1e270">
+                  <lb ed="#L" n="6"/>II. Ad hoc breviter dicitur quod, nominibus utendo ut
+<lb ed="#L" n="7"/>omnes utuntur, manifeste constat quod ad hoc quod 
+ali<lb break="no" ed="#L" n="8"/>quid vere sperari dicatur, oportet quod sit futurum. Et
+<lb ed="#L" n="9"/>propterea, si in parte superiori ipsius animae proprie 
+po<lb break="no" ed="#L" n="10"/>nitur spes, oportet consequenter ibi vere salvari futurum 
+<lb ed="#L" n="11"/>et per se, sicut per se ibi invenitur spes: eadem enim est
+<lb ed="#L" n="12"/>ratio de obiecto, actu et habitu. Ad obiectionem vero 
+pri<lb break="no" ed="#L" n="13"/>mam dicitur quod licet differentiae temporis per accidens
+<lb ed="#L" n="14"/>se habeant ad partem intellectivam quatenus apprehensiva
+<lb ed="#L" n="15"/>est, non tamen per accidens habent se ad eandem quatenus
+<lb ed="#L" n="16"/>appetitiva est. Et ratio diversitatis est quia verum et 
+fal<lb break="no" ed="#L" n="17"/>sum sunt in anima, bonum autem et malum in rebus, ut
+<lb ed="#L" n="18"/>dicitur VI Metaphys. Ex hoc enim quod intellectus 
+ter<lb break="no" ed="#L" n="19"/>minatur ad intra, provenit quod accidit rem esse vel fore:
+<lb ed="#L" n="20"/>ex hoc vero quod voluntas tendit ad extra, ad rem 
+scili<lb break="no" ed="#L" n="21"/>cet secundum quod in se est, provenit quod aliter se 
+ha<lb break="no" ed="#L" n="22"/>bet ad rem habitam et aliter ad rem habendam. Et quia
+<lb ed="#L" n="23"/>spes est in appetitu intellectivo, qui est voluntas, ideo spes
+<lb ed="#L" n="24"/>respicit futurum per se.
+</p>
+               <p xml:id="TAcCaj-d1e1365-d1e315">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>Ad secundam autem obiectionem dicitur, ut etiam de
+<lb ed="#L" n="26"/>fidei obiecto dictum est, quod aliquid spectare ad 
+ra<lb break="no" ed="#L" n="27"/>tionem formalem obiecti contingit dupliciter: uno modo,
+<lb ed="#L" n="28"/>ex parte rei obiectae secundum se; alio modo, ex parte
+<lb ed="#L" n="29"/>subiecti. Obiectum spei ex parte rei est ipse Deus: ex parte
+<lb ed="#L" n="30"/>vero nostri redundat in obiectum esse futurum nobis, sicut
+<lb ed="#L" n="31"/>in obiectum fidei esse non apparens, ut ex antedictis patet.
+<lb ed="#L" n="32"/>Nihil autem prohibet huiusmodi conditiones. 
+denominati<lb break="no" ed="#L" n="33"/>vas esse de ratione formali obiecti sic quod subtractio 
+ea<lb break="no" ed="#L" n="34"/>rum solvat speciem actus et habitus. Obiectum namque
+<lb ed="#L" n="35"/>prius comparatur ad subiectum quam ad actum vel 
+habi<lb break="no" ed="#L" n="36"/>tum, Et propterea conditiones redundantes in obiectum
+<lb ed="#L" n="37"/>ex subiecto, praevenientes actum et habitum, ad 
+integrita<lb break="no" ed="#L" n="38"/>tem formalis obiecti actus vel habitus spectare possunt.
+</p>
+               <p xml:id="TAcCaj-d1e1365-d1e350">
+                  <lb ed="#L" n="39"/>Nec obstat quod entia rationis sunt huiusmodi 
+deno<lb break="no" ed="#L" n="40"/>minativae conditiones, Habent enim reales causas, quibus
+<lb ed="#L" n="41"/>repugnant aliae reales causae in eodem, ex quibus 
+redun<lb break="no" ed="#L" n="42"/>dant oppositae denominationes in obiectis. Verbi gratia, in
+<lb ed="#L" n="43"/>obiecto fidei et spei non-videri est conditio denominativa
+<lb ed="#L" n="44"/>tantum: sed causa eius, puta talis dispositio subiecti, est
+<lb ed="#L" n="45"/>realis; et huic dispositioni reali contrariatur alia dispositio
+<lb ed="#L" n="46"/>realis in eodem, puta esse affectum lumine gloriae 
+con<lb break="no" ed="#L" n="47"/>summatae, ex qua in obiecto redundat opposita 
+denomi<lb break="no" ed="#L" n="48"/>natio, scilicet esse visum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1365-Dd1e375"><!-- caj-p2p2-q18a3 -->
+               <head xml:id="TAcCaj-d1e1365-Hd1e378">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1365-d1e380">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1365-d1e387">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>In articulo tertio, in responsione ad secundum, adverte
+<lb ed="#L" n="19"/>quod Auctor non dicit fidem informem esse in 
+damna<lb break="no" ed="#L" n="20"/>tis: sed dicit comparativam, quod magis potest esse fides
+<lb ed="#L" n="21"/>informis in damnatis quam spes. Quod est dicere quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="22"/>fides est minus incompossibilis statui damnatorum quam
+<lb ed="#L" n="23"/>spes. Neutra tamen in eis esse videtur, iuxta superius 
+de<lb break="no" ed="#L" n="24"/>terminata in qu. v, art. 2.
+</p>
+               <p xml:id="TAcCaj-d1e1365-d1e409">
+                  <lb ed="#L" n="25"/>In articulo quarto nihil occurrit scribendum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

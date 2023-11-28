@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 46</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 46</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="345"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1510"><!-- TAcCajp2p2-q46 -->
+            <head xml:id="TAcCaj-d1e1510-Hd1e101">Quaestio 46</head>
+            <div xml:id="TAcCaj-d1e1510-Dd1e103"><!-- caj-p2p2-q46a1 -->
+               <head xml:id="TAcCaj-d1e1510-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1510-d1e108">
+                  <pb ed="#L" n="346"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1510-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In quaestione quadragesimasexta adverte quod ea quae
+<lb ed="#L" n="3"/>per metaphoram explanantur oportet sane intelligi iuxta
+<lb ed="#L" n="4"/>subiectam materiam, ne penuria vocabulorum nos fallat.
+<lb ed="#L" n="5"/>Cum igitur stultitia penes hebetudinem attendi dicitur; et
+<lb ed="#L" n="6"/>penes hoc idem attendi dictum sit vitium contrarium dono
+<lb ed="#L" n="7"/>intellectus, ut patet in qu. xv, art. 2: scito quod obtusio
+<lb ed="#L" n="8"/>sensus spiritualis, qui est intellectus, inquantum impedit
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>perceptionem divinorum, contrariatur intellectus dono; 
+in<lb break="no" ed="#L" n="10"/>quantum autem impedit iudicium eorundem secundum 
+al<lb break="no" ed="#L" n="11"/>tissimam causam, contrariatur dono sapientiae. Et illo 
+mo<lb break="no" ed="#L" n="12"/>do constituit hebetudinem vel caecitatem mentis: isto autem,
+<lb ed="#L" n="13"/>stultitiam vel fatuitatem.
+</p>
+               <p xml:id="TAcCaj-d1e1510-d1e150">
+                  <lb ed="#L" n="14"/>Et haec pro tota hac quaestione sufficiant; ac de 
+tra<lb break="no" ed="#L" n="15"/>ctatu caritatis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="55"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1298"><!-- TAcCajp2p2-q5 -->
+            <head xml:id="TAcCaj-d1e1298-Hd1e101">Quaestio 5</head>
+            <div xml:id="TAcCaj-d1e1298-Dd1e103"><!-- caj-p2p2-q5a1 -->
+               <head xml:id="TAcCaj-d1e1298-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1298-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="50"/>IN primo articulo quintae quaestionis dubium ex <name xml:id="TAcCaj-d1e1298-Nd1e121">Durando</name>,
+<lb ed="#L" n="51"/>in XXI. dist. III Sent., occurrit, quasi probante quod in
+<lb ed="#L" n="52"/>angelis cum gratia viae non fuerit fides, quia revelatio
+<lb ed="#L" n="53"/>facta angelo a Deo immediate de Trinitatis mysterio 
+exclu<lb break="no" ed="#L" n="54"/>debat rationem fidei. Quod probatur sic. Angelus sciebat
+<lb ed="#L" n="55"/>scientia excludente fidem Deum non posse mentiri: et
+<lb ed="#L" n="56"/>sciebat notitia excludente fidem Deum sibi revelasse 
+myste<lb break="no" ed="#L" n="57"/>rium 'Frinitatis: ergo angelus sciebat scientia 'excludente
+<lb ed="#L" n="58"/>fidem mysterium Trinitatis. Et simile est de aliis revelatis
+<lb ed="#L" n="59"/>spectantibus ad fidem. Ergo non habuit fidem, quamvis
+<lb ed="#L" n="60"/>baberet gratiam, sed habebat certitudinem de his quae sunt
+<lb ed="#L" n="61"/>fidei. - Assumptum pro secunda parte probatur ex hoc
+<lb ed="#L" n="62"/>quod audiebat Deum inspirantem, et, cum sit pure 
+intel<lb break="no" ed="#L" n="63"/>lectualis naturae, videbat quod nullus alius angelus neque
+<lb ed="#L" n="64"/>proprius intellectus qui k: loquebatur, sed Deus ipse: sicut
+<lb ed="#L" n="65"/>etiam sciebat se esse in gratia, videns in essentia sua illam
+<lb ed="#L" n="66"/>qualitatem creatam a Deo et in voluntate caritatem.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e159">
+                  <lb ed="#L" n="67"/>I. Ad hoc dicitur quod credibilia possunt considerari
+<lb ed="#L" n="68"/>dupliciter. Primo, in speciali: et sic impossibile est ut sint
+<lb ed="#L" n="69"/>simul ab eodem scita et credita. Alio medo, in communi
+<lb ed="#L" n="70"/>ratione credibilis: et sic, ut in art. 4 primae quaestionis
+<lb ed="#L" n="71"/>Auctor dixit, possunt esse scita et credita, scita quidem in
+<lb ed="#L" n="72"/>communi, credita autem in speciali. Sic autem est in 
+pro<lb break="no" ed="#L" n="73"/>posito. Quoniam angelus ex revelatione sibi a Deo 
+fa<lb break="no" ed="#L" n="74"/>cta de mysterio Trinitatis non scit Deum esse trinum et
+<lb ed="#L" n="75"/>unum: quoniam hoc neque per propriam rationem naturae
+<lb ed="#L" n="76"/>divinae neque per effectum scit. Sed scit Deum, qui non
+<lb ed="#L" n="77"/>potest mentiri, sibi hoc attestari. Quod est scire attestata
+<lb ed="#L" n="78"/>a Deo esse credibilia: et non solum esse credibilia, sed
+<lb ed="#L" n="79"/>etiam esse vera ut attestata: quod est scire ea quae sunt
+<lb ed="#L" n="80"/>fidei, secundum communem rationem attestatorum a Deo,
+<lb ed="#L" n="81"/>esse vera. Hoc autem non excludit fidei rationem: 
+quo<lb break="no" ed="#L" n="82"/>niam cum scientifica notitia horum ut induunt rationem
+<lb ed="#L" n="83"/>credibilis et attestati, stat fides eorundem secundum 
+pro<lb break="no" ed="#L" n="84"/>prias rationes. Et hoc est quod indubie ex doctrina 
+Aucto<lb break="no" ed="#L" n="85"/>ris tenendum est.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e203">
+                  <lb ed="#L" n="86"/>III. Et si contra hoc instetur, quia fides est argumentum
+<lb ed="#L" n="87"/>non apparentium ; et consequenter, quocumque modo ali-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>qua appareant ita quod evidentiam habeat de veritate 
+ali<lb break="no" ed="#L" n="89"/>quorum, excluditur ratio fidei; sed intellectus angeli in
+<lb ed="#L" n="90"/>gratia cognoscit ita evidenter quod non potest aliter se
+<lb ed="#L" n="91"/>habere, vera esse enuntiata a Deo sibi; ergo non credit:
+<lb ed="#L" n="92"/>Respondendum est ut prius, quod habere evidentiam de
+<lb ed="#L" n="93"/>veritate aliquorum contingit dupliciter. Primo, quod videat
+<lb ed="#L" n="94"/>seu sciat ipsa-enuntiata in seipsis esse vera. Et sic excludit
+<lb ed="#L" n="95"/>rationem fidei: sed non est sic in proposito. Secundo, quod
+<lb ed="#L" n="96"/>videat seu sciat in testificante illa esse vera. Et sic non
+<lb ed="#L" n="97"/>excludit fidem: et ita est in proposito.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e235">
+                  <lb ed="#L" n="98"/>IV. Sed contra hoc instatur. Quia cum dicis ad 
+exclu<lb break="no" ed="#L" n="99"/>sionem fidei requiri quod enuntiata sciantur vel 
+videan<lb break="no" ed="#L" n="100"/>tur in seipsis, seu secundum proprias rationes, hoc potest
+<lb ed="#L" n="101"/>intelligi dupliciter: primo, ut ly in seipsis denotet medium;
+<lb ed="#L" n="102"/>secundo, ut denotet terminum. Si denotat medium, 
+falsis<lb break="no" ed="#L" n="103"/>simum est. Nam videns enuntiata aliqua in alio, puta in
+<lb ed="#L" n="104"/>divina essentia, tanquam medio et obiecto primario, non
+<lb ed="#L" n="105"/>credit amplius illa. Non ergo exigitur ad exclusionem fidei
+<lb ed="#L" n="106"/>quod propriae rationes cognitorum sint media cognitionis.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e257">
+                  <lb ed="#L" n="107"/>Si secundo modo, verum est quod exigitur ipsum 
+enun<lb break="no" ed="#L" n="108"/>tiatum terminare certitudinalem evidentiam: sed falsum est
+<lb ed="#L" n="109"/>quod hoc in proposito non inveniatur. Nam angeli 
+cogni<lb break="no" ed="#L" n="110"/>tio evidens non solum terminatur ad Deum testificantem,
+<lb ed="#L" n="111"/>sed ad enuntiata testificata: scit enim ex illa revelatione
+<lb ed="#L" n="112"/>in divinis esse Patrem et Filium et Spiritum Sanctum,
+<lb ed="#L" n="113"/>licet ignoret quid sit. Et, breviter, habet evidentiam de
+<lb ed="#L" n="114"/>quaestione an est, seu quia est; licet ignoret quid, seu
+<lb ed="#L" n="115"/>propter quid.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e279">
+                  <lb ed="#L" n="116"/>V. Ad hoc dicendum est quod ly in seipsis, seu 
+pro<lb break="no" ed="#L" n="117"/>priis rationibus, denotat terminum non cognitionis 
+abso<lb break="no" ed="#L" n="118"/>lute, sed ut evidentis, ita quod denotat terminum 
+eviden<lb break="no" ed="#L" n="119"/>tiae. Oportet enim ad hoc quod aliquod enuntiatum sit
+<lb ed="#L" n="120"/>alicui evidens, quod sit evidentia terminorum ad 
+connexio<lb break="no" ed="#L" n="121"/>nem illorum terminorum absolute sumptorum: verbi gratia,
+<lb ed="#L" n="122"/>ad hoc quod hoc enuntiatum, Deus est trinus personaliter,
+<lb ed="#L" n="123"/>sit alicui evidens sive per scientiam sive per visionem, quod,
+<lb ed="#L" n="124"/>proposito hoc enunciato intellectui, intellectus videat 
+con<lb break="no" ed="#L" n="125"/>nexionem praedicati cum subiecto. Ad hoc enim terminatur
+<pb ed="#L" n="56"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tam scientia quam intellectus, quam visio, Et hoc 
+appel<lb break="no" ed="#L" n="2"/>lamus scire vel videre ea quae sunt fidei in seipsis, seu
+<lb ed="#L" n="3"/>secundum proprias rationes. Constat autem quod angeli
+<lb ed="#L" n="4"/>evidentia non assequitur hoc. Licet enim angeli cognitio
+<lb ed="#L" n="5"/>in hoc excedat nostram, in proposito, quod nos habemus
+<lb ed="#L" n="6"/>fidem et de revelatis et de medio, scilicet veritate prima
+<lb ed="#L" n="7"/>ut revelante, quia utrumque credimus, ut patet ex 
+supra<lb break="no" ed="#L" n="8"/>dictis; angelus autem. de Deo ut revelante non habeat
+<lb ed="#L" n="9"/>fidem sed scientiam; de revelatis tamen, primariis saltem,
+<lb ed="#L" n="10"/>ut Trinitate et beatitudine supernaturali, fidem habebat.
+<lb ed="#L" n="11"/>Evidentia enim suae cognitionis terminabatur ad Deum ut
+<lb ed="#L" n="12"/>revelantem: et non ultra procedebat nisi ad eius 
+correla<lb break="no" ed="#L" n="13"/>tivum, scilicet enuntiata ut revelata, ut praedictum est.
+<lb ed="#L" n="14"/>Ex hoc enim non videbat Deum esse trinum, nec. 
+beati<lb break="no" ed="#L" n="15"/>tudinem supernaturalem esse: sed credebat, quia Deus, qui
+<lb ed="#L" n="16"/>non potest mentiri, ita dicebat sibi. Convictio autem 
+intel<lb break="no" ed="#L" n="17"/>lectus ex evidentia testis veri non perducebat ad visionem
+<lb ed="#L" n="18"/>attestatorum, sed ad credendum, vellet nollet, illa. Unde
+<lb ed="#L" n="19"/>de daemonibus, ex evidentia testimoniorum infallibilium
+<lb ed="#L" n="20"/>cognoscentibus rd Christianam esse veram, scriptum
+<lb ed="#L" n="21"/>est quod credunt et contremiscunt. Est ergo coactio 
+in<lb break="no" ed="#L" n="22"/>tellectus ad fidem, non quae est virtus, sed acquisitam.
+<lb ed="#L" n="23"/>Angeli siquidem boni voluntarie adhaeserunt veritati quam
+<lb ed="#L" n="24"/>mali, nolentes subesse Praeceptori tradenti occulta absque
+<lb ed="#L" n="25"/>eorum evidentia, superbo oculo contempserunt, quasi in- 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>dignum esset ut in tali subiectione haberentur. Et sic 
+ma<lb break="no" ed="#L" n="27"/>nifestum est quod evidentia de Deo ut revelante non 
+exclu<lb break="no" ed="#L" n="28"/>dit rationem fidei. Ac per hoc tam angeli quam Apostoli,
+<lb ed="#L" n="29"/>vel quicumque evidenter cognoverunt Deum esse 
+revela<lb break="no" ed="#L" n="30"/>torem eorum quae sunt fidei et non posse mentiri, non
+<lb ed="#L" n="31"/>propterea sine fide fuerunt: quia remansit fides respectu
+<lb ed="#L" n="32"/>primi obiecti, quod est Deus trinus et beans Pau
+<lb ed="#L" n="33"/>raliter,
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e381">
+                  <lb ed="#L" n="34"/>Nec ex his putes me non advertisse ad verba taces
+<lb ed="#L" n="35"/>dicentis quod respectu formalis in obiecto fidei fides est
+<lb ed="#L" n="36"/>in angelis et in omnibus, sed quantum ad materiale est
+<lb ed="#L" n="37"/>differentia. Adverte quod Auctor in his verbis non utitur
+<lb ed="#L" n="38"/>veritate prima ut revelante, ita quod, ut sic, oportet ipsam
+<lb ed="#L" n="39"/>ab omnibus habentibus fidem esse creditam. Sed utitur ea
+<lb ed="#L" n="40"/>ut revelata: et inter revelata esse quasi formale. Et ad
+<lb ed="#L" n="41"/>insinuandum hoc, non dixit quod illud formale est veritas
+<lb ed="#L" n="42"/>prima; sed dixit quod est veritas prima super omnem 
+natu<lb break="no" ed="#L" n="43"/>ralem cognitionem creaturae existens: quasi diceret quod
+<lb ed="#L" n="44"/>Deus secundum eam rationem qua omnem naturalem 
+co<lb break="no" ed="#L" n="45"/>gnitionem creaturae excellit, puta ut trinus, ut beans 
+su<lb break="no" ed="#L" n="46"/>pernaturaliter, etc., est quasi formale in obiecto fidei, quod
+<lb ed="#L" n="47"/>oportet ab omnibus credi habentibus fidem. Quantum vero
+<lb ed="#L" n="48"/>ad aliqua mysteria differentia est. Et inter haec mysteria
+<lb ed="#L" n="49"/>unum est ipsum Deum esse eorum quae sunt fidei 
+re<lb break="no" ed="#L" n="50"/>velatorem
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1298-Dd1e421"><!-- caj-p2p2-q5a2 -->
+               <head xml:id="TAcCaj-d1e1298-Hd1e424">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1298-d1e426">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="12"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e433">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>In articulo secundo eiusdem quintae quaestionis, in 
+re<lb break="no" ed="#L" n="14"/>sponsione ad secundum, dubium duplex ex <name xml:id="TAcCaj-d1e1298-Nd1e441">Durando</name>
+                  <lb ed="#L" n="15"/>ubi supra, et re ipsa occurrit. Primo, an idem sit 
+iudi<lb break="no" ed="#L" n="16"/>cium de daemonibus et hominibus damnatis quoad 
+haben<lb break="no" ed="#L" n="17"/>dam fidem. - Secundo, quantum valeat ratio litterae 
+al<lb break="no" ed="#L" n="18"/>lata ad sustinendum quod in daemonibus non sit fides
+<lb ed="#L" n="19"/>informis.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e455">
+                  <lb ed="#L" n="20"/>Ratio primi dubii est quia in hominibus damnatis absque
+<lb ed="#L" n="21"/>peccato contra fidem, quam usque ad mortem tenuerunt,
+<lb ed="#L" n="22"/>remanet fides informis, Alioquin non distinguerentur ab
+<lb ed="#L" n="23"/>infidelibus: et habitus corrumperetur sine corruptivo. 
+Quo<lb break="no" ed="#L" n="24"/>niam nulla apparet causa corruptionis: fides enim informis
+<lb ed="#L" n="25"/>statui damnationis non repugnat, cum fides sit etiam 
+prae<lb break="no" ed="#L" n="26"/>teritorum et malorum, ut Augustinus dicit, in Enchirid.
+<lb ed="#L" n="27"/>Et Auctor inferius in qu. xvur, art. 3, negans spem in
+<lb ed="#L" n="28"/>damnatis, sustinet in eis fidem informem.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e477">
+                  <lb ed="#L" n="29"/>Secundi autem dubii ratio est quia inclinatio ad opus
+<lb ed="#L" n="30"/>bonum non repugnat damnationis statui. Quod ex eo patet
+<lb ed="#L" n="31"/>quia in eis remanet synderesis inclinans ad bonum. Non
+<lb ed="#L" n="32"/>igitur ex hoc quod fides informis inclinat ad credendum
+<lb ed="#L" n="33"/>secundum aliquem affectum boni, removenda est a 
+daemo<lb break="no" ed="#L" n="34"/>nibus. Sed sicut voluntas eorum Oobstinata ceteris actibus
+<lb ed="#L" n="35"/>apponit malam aliquam conditionem, ita et huiusmodi
+<lb ed="#L" n="36"/>habitus actui apponit.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e498">
+                  <lb ed="#L" n="37"/>II. Ad primum dubium dicitur quod, secundum Auctoris
+<lb ed="#L" n="38"/>doctrinam, nullam invenio differentiam inter homines 
+damna<lb break="no" ed="#L" n="39"/>tos et daemones quoad propositum: et ratio in littera 
+indu<lb break="no" ed="#L" n="40"/>cta aequaliter locum habet in utrisque. Et propterea sicut a
+<lb ed="#L" n="41"/>daemonibus negatur fides informis hoc in loco, ita a 
+damna<lb break="no" ed="#L" n="42"/>tis intelligitur negari. Distinguuntur autem in inferno 
+fide<lb break="no" ed="#L" n="43"/>les ab infidelibus charactere indelebili remanente; et poena
+<lb ed="#L" n="44"/>maiori, ceteris paribus; et demum signaculo maculae 
+pol<lb break="no" ed="#L" n="45"/>lutae fidei susceptae. Corrumpitur autem, seu desinit esse
+<lb ed="#L" n="46"/>fides informis propter statum in termino simpliciter. Quod
+<lb ed="#L" n="47"/>dico propter existentes quodammodo in via et 
+quodam<lb break="no" ed="#L" n="48"/>modo in termino: ut olim Patres erant in limbo, et modo
+<lb ed="#L" n="49"/>quidam fideles sunt in purgatorio. Status enim termini
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="50"/>simpliciter opponitur fidei ratione actus: vel positive, ut
+<lb ed="#L" n="51"/>status patriae ratione visionis beatae quam ponit; vel 
+ne<lb break="no" ed="#L" n="52"/>gative, ut status inferni ratione actus proprii fidei illic 
+im<lb break="no" ed="#L" n="53"/>possibilis. Satis enim rationabile est ut Deus subtrahat
+<lb ed="#L" n="54"/>habitum fidei infusae, adveniente statu in quo non potest
+<lb ed="#L" n="55"/>amplius exire in actum.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e544">
+                  <lb ed="#L" n="56"/>Ratio autem huius (quae in secundo dubio discutitur)
+<lb ed="#L" n="57"/>est quia inclinat non solum ad credendum (daemones enim
+<lb ed="#L" n="58"/>credunt): sed quia inclinat ad credendum secundum 
+ali<lb break="no" ed="#L" n="59"/>quem affectum boni, non naturalis, sed gratuiti. Licet enim
+<lb ed="#L" n="60"/>in damnatis naturalia integra, et gratuita indelebilia, ut 
+cha<lb break="no" ed="#L" n="61"/>racteres, perseverent; virtutes tamen affectum bonum 
+con<lb break="no" ed="#L" n="62"/>stituentes nec acquisitae nec infusae perseverant: quia 
+ple<lb break="no" ed="#L" n="63"/>nitudini malitiae et miseriae eorum inconvenit affectus boni
+<lb ed="#L" n="64"/>gratuiti. Et licet voluntas mala possit conditionem malam
+<lb ed="#L" n="65"/>actui fidei informis apponere qua fieret malus simpliciter,
+<lb ed="#L" n="66"/>ut patet in viatoribus si quis acciperet fidem Christi non
+<lb ed="#L" n="67"/>ut bonus esset, sed ut posset tyrannus esse; haec tamen
+<lb ed="#L" n="68"/>appositio non aufert illum affectum boni gratuiti; qui in
+<lb ed="#L" n="69"/>damnatis non invenitur, licet in eis affectus boni naturalis
+<lb ed="#L" n="70"/>inveniatur, maculatus tamen apposita mala conditione ab
+<lb ed="#L" n="71"/>obstinata voluntate. Fides namque est perfectio intellectus
+<lb ed="#L" n="72"/>non absolute, sed ut moti a voluntate affecta"ad bonum
+<lb ed="#L" n="73"/>supernaturale. Actus autem qui in damnatis erunt respectu
+<lb ed="#L" n="74"/>beatitudinis amissae, Trinitatis offensae, etc., non sunt actus
+<lb ed="#L" n="75"/>fidei infusae, sed cognitionis acquisitae ex illa: vel fidei
+<lb ed="#L" n="76"/>coactae, ut de daemonibus in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e592">
+                  <lb ed="#L" n="77"/>Nec Auctor inferius sustinet fidem in damnatis: sed
+<lb ed="#L" n="78"/>comparativam illam: Magis potest esse fides informis in
+<lb ed="#L" n="79"/>damnatis quam spes. Haec enim comparativa est vera: quia
+<lb ed="#L" n="80"/>spei obiectum respectu damnatorum non salvatur; fidei
+<lb ed="#L" n="81"/>autem obiectum salvatur respectu eorum. Et quod haec sit
+<lb ed="#L" n="82"/>vera intentio eius patet, quia tractat ibi illam auctoritatem,
+<lb ed="#L" n="83"/>Daemones credunt et contremiscunt; nec magis de 
+homi<lb break="no" ed="#L" n="84"/>nibus quam de daemonibus loquitur, a quibus abstulerat
+<lb ed="#L" n="85"/>paulo ante fidem. Quamvis hoc signo non sit opus: quia
+<lb ed="#L" n="86"/>verba sua non nisi comparationem significant.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1298-Dd1e617"><!-- caj-p2p2-q5a3 -->
+               <head xml:id="TAcCaj-d1e1298-Hd1e620">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1298-d1e622">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="61"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e629">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="62"/>IN articulo tertio eiusdem quintae quaestionis duo 
+occur<lb break="no" ed="#L" n="63"/>runt dubia, Unum est, quomodo intelligitur quod 
+do<lb break="no" ed="#L" n="64"/>ctrina Ecclesiae sit infallibilis regula, ita ut recedens ab
+<lb ed="#L" n="65"/>ipsa recedat a ratione formali obiecti fidei. Sed quia hoc
+<lb ed="#L" n="66"/>declaratum est in qu. : art. 1, in dubio 3 et 4, non est opus
+<lb ed="#L" n="67"/>replicatione, sed additione. Est siquidem Ecclesia regula
+<lb ed="#L" n="68"/>in proponendo et in explicando credenda, divinam 
+verita<lb break="no" ed="#L" n="69"/>tem revelatricem modificans quoad hoc, saltem nobis. Et
+<lb ed="#L" n="70"/>propterea recedens a conditione modificante rationem 
+for<lb break="no" ed="#L" n="71"/>malem, scilicet veritatem divinam revelatricem , recedit a
+<lb ed="#L" n="72"/>ratione formali obiecti fidei. Et sic non solum recedit a
+<lb ed="#L" n="73"/>ratione formali obiecti fidei recedens a regula Ecclesiae
+<lb ed="#L" n="74"/>propterea quia recedit ab uno articulo revelato, ut 
+supe<lb break="no" ed="#L" n="75"/>rius diximus: sed etiam quia recedit a conditione seu
+<lb ed="#L" n="76"/>modo rationis formalis obiecti respectu nostri. Et hoc plano
+<lb ed="#L" n="77"/>sensui litterae respondet. Nam ponit veritatem primam in
+<lb ed="#L" n="78"/>Scripturis et doctrina Ecclesiae rationem formalem fidei:
+<lb ed="#L" n="79"/>veritatem primam quidem ut ipsam rationem credendi;
+<lb ed="#L" n="80"/>manifestationem autem Scripturae et Ecclesiae ut 
+condi<lb break="no" ed="#L" n="81"/>tionem qua veritas prima proponit et explicat seipsam et
+<lb ed="#L" n="82"/>alia credenda. Huiusmodi autem conditiones, licet respectu
+<lb ed="#L" n="83"/>fidei simpliciter non sint de integritate formalis obiecti
+<lb ed="#L" n="84"/>fidei (ut patet de fide primi hominis, si in aeternum 
+fuis<lb break="no" ed="#L" n="85"/>set solus, et de fide angelorum in sua via), sunt tamen de
+<lb ed="#L" n="86"/>integritate obiecti formalis fidei nostrae.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e688">
+                  <lb ed="#L" n="87"/>II. Secundum dubium est ex <ref xml:id="TAcCaj-d1e1298-Rd1e692">Durando, in III Sent.,
+<lb ed="#L" n="88"/>dist. xxr, qu. v, art. 2</ref>, sustinere nitente quod in 
+haere<lb break="no" ed="#L" n="89"/>tico remaneat fides informis. Primo, quia admissio unius
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="90"/>contrarii habitui stat cum habitu. Ergo admissio alicuius
+<lb ed="#L" n="91"/>contra fidem stat cum habitu fidei. - Antecedens 
+fe<lb break="no" ed="#L" n="92"/>statur inductive, Et in habitibus intellectualibus patet in
+<lb ed="#L" n="93"/>scientia, cuius error in una conclusione non corrumpit
+<lb ed="#L" n="94"/>habitum ; et in moralibus una iniustitia non corrumpit
+<lb ed="#L" n="95"/>habitum iustitiae ; et simile est in aliis. - Consequentia vero
+<lb ed="#L" n="96"/>probatur. Quia par est ratio de omnibus habitibus qui 
+pos<lb break="no" ed="#L" n="97"/>sunt esse informes. Commune namque est omni habitui
+<lb ed="#L" n="98"/>refutare contraria; et non necessitare habentem illum ad
+<lb ed="#L" n="99"/>refutationem contrarii, sed inclinare tantum ad hoc.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e724">
+                  <lb ed="#L" n="100"/>Secundo, quia haereticus assentit his quae tenet de fide
+<lb ed="#L" n="101"/>ut prius. Ergo habet eundem habitum. — Antecedens patet.
+<lb ed="#L" n="102"/>Quia propter auctoritatem divinam assentit, quamvis erret
+<lb ed="#L" n="103"/>in expositione alicuius Scripturae.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e736">
+                  <lb ed="#L" n="104"/>III. Ad hoc dicitur quod Durandus fundavit phantasiam
+<lb ed="#L" n="105"/>hanc nolens intelligere, quantum apparet: quoniam non
+<lb ed="#L" n="106"/>examinat rationem litterae, quae super formali ratione 
+obie<lb break="no" ed="#L" n="107"/>cti et illius negatione fundatur. Contraria quippe 
+materiali<lb break="no" ed="#L" n="108"/>ter potest habitus virtutis compati: sed contraria formaliter
+<lb ed="#L" n="109"/>impossibile est quod compatiatur, nisi res sine sua specie
+<lb ed="#L" n="110"/>esse possit; quod non est intelligibile. Quidquid ergo aufert
+<lb ed="#L" n="111"/>rationem formalem habitus ab habente, necessario aufert
+<lb ed="#L" n="112"/>habitum: nec potest remanere nisi aequivoce et per 
+acci<lb break="no" ed="#L" n="113"/>dens, ut contingit in habitibus acquisitis.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e760">
+                  <lb ed="#L" n="114"/>Ad primum ergo in oppositum dicitur quod, loquendo
+<lb ed="#L" n="115"/>de contrario formaliter, negatur antecedens. Et ad 
+proba<lb break="no" ed="#L" n="116"/>tionem de scientia dicitur quod falsum assumitur, quod in
+<lb ed="#L" n="117"/>errore unius conclusionis interveniat contrarietas formaliter
+<pb ed="#L" n="59"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>respectu medii scientiae, sed respectu medii proprii huius
+<lb ed="#L" n="2"/>conclusionis: aliud enim est medium scientiae, et aliud est
+<lb ed="#L" n="3"/>medium proprium huius conclusionis. Nisi erraretur in
+<lb ed="#L" n="4"/>prima conclusione: tunc enim deperderetur habitus, quia
+<lb ed="#L" n="5"/>medium primae est medium simpliciter, super quod cetera
+<lb ed="#L" n="6"/>fundantur. Non sic autem est in fide. Quoniam, ut in 
+lit<lb break="no" ed="#L" n="7"/>tera dicitur, unum et idem est medium assentiendi 
+omni<lb break="no" ed="#L" n="8"/>bus: et propterea error in medio unius est error in 
+me<lb break="no" ed="#L" n="9"/>dio simpliciter ipsius fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e795">
+                  <lb ed="#L" n="10"/>Ad id vero quod de habitibus moralibus acquisitis 
+af<lb break="no" ed="#L" n="11"/>fertur, dicitur primo, quod falsum est quod remaneat virtus
+<lb ed="#L" n="12"/>iustitiae cum actu iniustitiae formaliter, quoniam non manet
+<lb ed="#L" n="13"/>ratio formalis eiusdem: licet remaneat habitus qui fuit 
+vir<lb break="no" ed="#L" n="14"/>tus iustitiae, et sic remanet aequivoce. Sicut aequivoce 
+re<lb break="no" ed="#L" n="15"/>manet habitus scientiae, oblivioni tradito medio per quod
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>scitur ut medio efficaci ad sciendum, quamvis maneat 
+me<lb break="no" ed="#L" n="17"/>moria medii: non enim scit immemor demonstrationis. —
+<lb ed="#L" n="18"/>Dicitur secundo, quod habitum iustitiae manere cum actu
+<lb ed="#L" n="19"/>iniustitiae formaliter est per accidens: quia scilicet ex tot
+<lb ed="#L" n="20"/>actibus est firmatus ut non statim unico actu corruat. Per
+<lb ed="#L" n="21"/>se enim non habet quod remaneat. Et propterea habitus
+<lb ed="#L" n="22"/>infusi, quibus non est annexum hoc accidens, desinunt
+<lb ed="#L" n="23"/>adveniente quocumque actu contrario formaliter. Et quia
+<lb ed="#L" n="24"/>fides est habitus infusus, in hoc differens ab acquisitis ,
+<lb ed="#L" n="25"/>ideo arguere ab acquisitis ad infusos quoad hoc est 
+fru<lb break="no" ed="#L" n="26"/>stra niti.
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e837">
+                  <lb ed="#L" n="27"/>Nec errare ex ignorantia in Scriptura .est admittere 
+con<lb break="no" ed="#L" n="28"/>trarium fidei formaliter, nisi adsit pertinacia contra sensum
+<lb ed="#L" n="29"/>Ecclesiae. Quod iam non ex ignorantia, sed voluntaria 
+ob<lb break="no" ed="#L" n="30"/>stinatione fit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1298-Dd1e849"><!-- caj-p2p2-q5a4 -->
+               <head xml:id="TAcCaj-d1e1298-Hd1e852">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1298-d1e854">
+                  <pb ed="#L" n="60"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1298-d1e863">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo quarto eiusdem quintae quaestionis, in 
+respon<lb break="no" ed="#L" n="3"/>sione ad ultimum, nota quod illa verba litterae: 
+Se<lb break="no" ed="#L" n="4"/>cundum maiorem capacitatem intellectus unus magis vel
+<lb ed="#L" n="5"/>minus cognoscit veritatem principiorum quam alius, 
+du<lb break="no" ed="#L" n="6"/>pliciter intelligi possunt: primo, respectu ipsius veritatis
+<lb ed="#L" n="7"/>principiorum in seipsis; secundo, respectu eiusdem ut 
+con<lb break="no" ed="#L" n="8"/>tinet in se veritatem aliorum, ut causa effectum continet
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>virtualiter, Et utroque modo verificari potest. Nam sicut
+<lb ed="#L" n="10"/>eandem albedinem, ceteris paribus, melius videt ille qui
+<lb ed="#L" n="11"/>est acutioris visus; ita eadem principia formaliter sumpta
+<lb ed="#L" n="12"/>magis videt perspicacior intellectus. Et eadem virtualiter
+<lb ed="#L" n="13"/>sumpta magis penetrare constat nobilius ingenium, cui
+<lb ed="#L" n="14"/>datum est ex eis invenire et videre veritatem 
+conclu<lb break="no" ed="#L" n="15"/>sionum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

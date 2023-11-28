@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 43</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 43</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="323"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1494"><!-- TAcCajp2p2-q43 -->
+            <head xml:id="TAcCaj-d1e1494-Hd1e101">Quaestio 43</head>
+            <div xml:id="TAcCaj-d1e1494-Dd1e103"><!-- caj-p2p2-q43a1per4 -->
+               <head xml:id="TAcCaj-d1e1494-Hd1e106">Articuli 1-4</head>
+               <p xml:id="TAcCaj-d1e1494-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="66"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="67"/>IN quaestionis quadragesimaetertiae primis quatuor 
+arti<lb break="no" ed="#L" n="68"/>culis dubia duo occurrunt: primum, simpliciter; 
+secun<lb break="no" ed="#L" n="69"/>dum, ad hominem, Auctorem scilicet. Primum dubium
+<lb ed="#L" n="70"/>est: Quomodo verificatur quod inducere aliquem ad 
+pec<lb break="no" ed="#L" n="71"/>candum est scandalum? Si enim hoc verificatur ut sonat,
+<lb ed="#L" n="72"/>sequitur quod provocans mulierem ad adulterium peccat
+<lb ed="#L" n="73"/>peccato scandali; et similiter inducens alium ad 
+furan<lb break="no" ed="#L" n="74"/>dum, etc. Hoc autem communi animi conceptioni 
+disso<lb break="no" ed="#L" n="75"/>nare apparet. - Si autem in aliquo particulari sensu 
+intel<lb break="no" ed="#L" n="76"/>ligitur, oportet explanare illum.
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e141">
+                  <lb ed="#L" n="77"/>Secundum autem dubium est, quia Auctor in primo
+<lb ed="#L" n="78"/>articulo, in resp. ad 4, ponit quod causa per se inducens
+<lb ed="#L" n="79"/>ad peccatum est non solum intentio operantis, sed 
+ope<lb break="no" ed="#L" n="80"/>ris conditio, mali vel habentis speciem mali. In tertio autem
+<lb ed="#L" n="81"/>articulo ponit tantum per se activum scandalum ex 
+inten<lb break="no" ed="#L" n="82"/>tione operantis; et quod ex natura facti tantum scandalizat
+<lb ed="#L" n="83"/>ponit inter per accidens. Quomodo stant ista duo simul?
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e159">
+                  <lb ed="#L" n="84"/>II. Ad primum horum dicitur quod verba haec 
+intel<lb break="no" ed="#L" n="85"/>liguntur formaliter, proprie loquendo de scandalo ut est
+<lb ed="#L" n="86"/>speciale peccatum. Ita quod aliud est inducere ad 
+con<lb break="no" ed="#L" n="87"/>sensum in hoc vel illo actu: et aliud est inducere ad 
+pec<lb break="no" ed="#L" n="88"/>catum. Qui enim provocat et inducit aliquem ad 
+consen<lb break="no" ed="#L" n="89"/>sum fornicationis, furti, adulterii et huiusmodi, ut 
+con<lb break="no" ed="#L" n="90"/>sentiens incurrat malum culpae, hic proprie peccat 
+pec<lb break="no" ed="#L" n="91"/>cato scandali: quia intendit directe nocumentum animae,
+<lb ed="#L" n="92"/>cuius oppositum directe intendit correctio fraterna, ut in
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="93"/>littera dicitur. Qui autem provocat vel inducit ut 
+implea<lb break="no" ed="#L" n="94"/>tur voluntas sua vel alterius; et, breviter, non propter
+<lb ed="#L" n="95"/>hunc finem ut incurrat malum culpae; non scandali 
+pec<lb break="no" ed="#L" n="96"/>cato speciali peccat, sed spectat sua inductio ad speciem
+<lb ed="#L" n="97"/>peccati ad quod provocat, puta furti si furtum suadet, et
+<lb ed="#L" n="98"/>sic de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e197">
+                  <lb ed="#L" n="99"/>Ad secundum autem dicitur quod nulla contrarietas
+<lb ed="#L" n="100"/>est inter dicta litterae. Quia in primo articulo per se et per
+<lb ed="#L" n="101"/>accidens cadunt super causare peccatum alterius: in tertio
+<lb ed="#L" n="102"/>autem articulo per se et per accidens cadunt super 
+scan<lb break="no" ed="#L" n="103"/>dalizare. Et vult Auctor quod per se causare peccatum
+<lb ed="#L" n="104"/>alterius distinguitur in per se et per accidens scandalizare.
+<lb ed="#L" n="105"/>Ita quod omnis scandalizans, sive per se sive per accidens,
+<lb ed="#L" n="106"/>dat per se occasionem peccati: et in hoc non distinguitur
+<lb ed="#L" n="107"/>scandalizans per accidens a scandalizante per se, sed in
+<lb ed="#L" n="108"/>hoc quod scandalizans per se tendit ad hoc ut alter 
+pec<lb break="no" ed="#L" n="109"/>cet; scandalizans vero per accidens non ad hoc tendit, sed
+<lb ed="#L" n="110"/>tamen conditio operis sui, mali vel secundum mali 
+spe<lb break="no" ed="#L" n="111"/>ciem, ad hoc tendit, et operans de hoc non curat, suae
+<lb ed="#L" n="112"/>cupiens satisfacere voluntati. Patet autem hanc esse 
+men<lb break="no" ed="#L" n="113"/>tem Auctoris diligenter consideranti litteram.
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e232">
+                  <lb ed="#L" n="114"/>III. In eisdem articulis dubium occurrit, an. scandalizare
+<lb ed="#L" n="115"/>per accidens reducatur ad speciem scandali; vel illorum
+<lb ed="#L" n="116"/>peccatorum ad quae movet. Et est ratio dubii quia hinc 
+ap<lb break="no" ed="#L" n="117"/>paret quod reducatur ad scandali speciem. Nam sicut 
+de<lb break="no" ed="#L" n="118"/>tractio materialiter et per accidens reducitur ad detractionis
+<pb ed="#L" n="324"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>speciem, et similiter contumelia, si fama et honor 
+laedan<lb break="no" ed="#L" n="2"/>tur proximi praeter intentionem ex verbis materiam 
+de<lb break="no" ed="#L" n="3"/>tractionis vel contumeliae continentibus; ita scandalum |
+<lb ed="#L" n="4"/>materialiter et per accidens ex dicto vel facto materiam
+<lb ed="#L" n="5"/>scandali continente ad scandali speciem reducenda est;
+<lb ed="#L" n="6"/>praesertim cum passivum infert scandalum.
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e263">
+                  <lb ed="#L" n="7"/>Inde autem apparet quod reducatur ad speciem peccati 
+<lb ed="#L" n="8"/>ad quod movet. Quia implicitum ad eandem spectat 
+spe<lb break="no" ed="#L" n="9"/>ciem ad quam spectat explicitum. Constat autem quod
+<lb ed="#L" n="10"/>explicite inducere filium ad tenendam concubinam spectat
+<lb ed="#L" n="11"/>ad speciem fornicationis. Igitur tenendo concubinam 
+pu<lb break="no" ed="#L" n="12"/>blice, et occasionem ex hoc dando filio ut imitetur patrem,
+<lb ed="#L" n="13"/>quod est implicite ducere filium ad concubinatum, ad 
+spe<lb break="no" ed="#L" n="14"/>ciem fornicationis, et non scandali, reducitur. Et simile est
+<lb ed="#L" n="15"/>in aliis,
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e285">
+                  <lb ed="#L" n="16"/>Ad hoc dicitur quod scandalizare per accidens 
+duplici<lb break="no" ed="#L" n="17"/>ter contingit, ut in littera dicitur: scilicet faciendo actum 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>malum coram aliis, qui inde exemplum sumunt 
+pec<lb break="no" ed="#L" n="19"/>candi; et faciendo. actum non malum secundum se, sed
+<lb ed="#L" n="20"/>habentem mali speciem, unde etiam alii inducuntur ad
+<lb ed="#L" n="21"/>peccandum. Scandalizare primo modo non sortitur 
+spe<lb break="no" ed="#L" n="22"/>ciem scandali, etiam reductive, propter rationem litterae:
+<lb ed="#L" n="23"/>quia scilicet manifeste peccare est circumstantia aggravans,
+<lb ed="#L" n="24"/>non varians speciem, nec estibi alius finis intentus. Unde
+<lb ed="#L" n="25"/>spectat tale scandalum ad speciem peccati quod fit, 
+adiun<lb break="no" ed="#L" n="26"/>cta circumstantia mali exempli, — Scandalizare autem 
+se<lb break="no" ed="#L" n="27"/>cundo modo reductive spectat ad speciem scandali: quia
+<lb ed="#L" n="28"/>nullam aliam habet rationem peccati nisi quia scandalizat ;
+<lb ed="#L" n="29"/>sicut de detractione, dubium movendo, dictum est. Ut
+<lb ed="#L" n="30"/>enim in littera dicitur, qui opere habente speciem mali
+<lb ed="#L" n="31"/>scandalizat, nullo alio peccat vitio nisi scandali: per se
+<lb ed="#L" n="32"/>quidem, si intendit ruinam; reductive autem, si non 
+inten<lb break="no" ed="#L" n="33"/>dit illam. - Et per haec patet responsio ad dubium: 
+quo<lb break="no" ed="#L" n="34"/>niam utraque pars est vera secundum diversa.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1494-Dd1e332"><!-- caj-p2p2-q43a5et6 -->
+               <head xml:id="TAcCaj-d1e1494-Hd1e335">Articuli 5 et 6</head>
+               <p xml:id="TAcCaj-d1e1494-d1e337">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="67"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e344">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>IN articulo quinto et sexto hoc adverte, quod cum in
+<lb ed="#L" n="69"/>sexti corpore dicitur quod « scandalum activum proprie
+<lb ed="#L" n="70"/>est cum quis tale aliquid dicit vel facit quod de se tale est
+<lb ed="#L" n="71"/>ut alterum natum sit inducere ad ruinam, quod quidem
+<lb ed="#L" n="72"/>est solum id quod inordinate fit vel dicitur », Auctor per
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="73"/>id quod inordinate fit aut. dicitur intelligit non solum 
+se<lb break="no" ed="#L" n="74"/>cundum se malum, sed habens speciem mali. Quoniam
+<lb ed="#L" n="75"/>utrumque inordinate fit et est peccatum: ut patet in 
+ar<lb break="no" ed="#L" n="76"/>ticulo secundo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1494-Dd1e371"><!-- caj-p2p2-q43a7 -->
+               <head xml:id="TAcCaj-d1e1494-Hd1e374">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1494-d1e376">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e383">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>In articulo septimo, ubi dicitur de scandalo pusillorum:
+<lb ed="#L" n="27"/>Si autem post redditam rationem huiusmodi scandalum
+<lb ed="#L" n="28"/>duret, iam videtur ex malitia esse, adverte quod Auctor
+<lb ed="#L" n="29"/>non assertivo verbo utitur, sed opinativo, dicendo: Jam
+<lb ed="#L" n="30"/>videtur ex malitia esse. Potest siquidem contingere quod
+<lb ed="#L" n="31"/>pusilli non sint capaces rationis redditae: vel propter pri-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="32"/>stinam consuetudinem, quae facit apparere dissonum quod
+<lb ed="#L" n="33"/>veritati consonat, vel propter rationem apud eos magis
+<lb ed="#L" n="34"/>apparentem, vel aliquid huiusmodi. Et tunc, ex quo 
+ma<lb break="no" ed="#L" n="35"/>litia non facit scandalum, sed ignorantia vel infirmitas,
+<lb ed="#L" n="36"/>quamvis reddita sit ratio, cessandum est ab huiusmodi 
+spi<lb break="no" ed="#L" n="37"/>ritualibus non necessariis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1494-Dd1e417"><!-- caj-p2p2-q43a8 -->
+               <head xml:id="TAcCaj-d1e1494-Hd1e420">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1494-d1e422">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e429">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>IN articulo octavo, in principio corporis, nota diligenter
+<lb ed="#L" n="45"/>dosnd sicut magna est differentia inter communitatem et
+<lb ed="#L" n="46"/>rectores illius respectu bonorum communium: quia rector
+<lb ed="#L" n="47"/>est sicut depositarius et dispensator, ipsa vero 
+communi<lb break="no" ed="#L" n="48"/>tas est domina rerum suarum; ac per hoc, communitas
+<lb ed="#L" n="49"/>non tenetur ad conservandum bona sua, licet rectores 
+te<lb break="no" ed="#L" n="50"/>neantur ad conservationem, sicut depositarii bonorum 
+alie<lb break="no" ed="#L" n="51"/>norum, etc.; — ita magna est differentia inter praelatos 
+Ec<lb break="no" ed="#L" n="52"/>clesiae, includendo etiam Papam, et ipsam Ecclesiam. Quia
+<lb ed="#L" n="53"/>nec Papa nec aliquis praelatus est dominus rerum 
+Eccle<lb break="no" ed="#L" n="54"/>siae, sed Ecclesia ipsa est domina: quia donatores non
+<lb ed="#L" n="55"/>donant et transferunt iura sua in Papam aut praelatum,
+<lb ed="#L" n="56"/>sed in Ecclesiam Romanam vel talem. Et propterea de
+<lb ed="#L" n="57"/>praelatis dicitur in littera quod tenentur de necessitate 
+sa<lb break="no" ed="#L" n="58"/>lutis ad conservationem bonorum Ecclesiae: non autem
+<lb ed="#L" n="59"/>hoc dicitur de ipsa Ecclesia, quae est domina, quae potest
+<lb ed="#L" n="60"/>de suis disponere sicut domina. Nec putes, propterea quod
+<lb ed="#L" n="61"/>Papa habet plenitudinem potestatis ecclesiasticae, [quod] ob
+<lb ed="#L" n="62"/>hoc possit de bonis Ecclesiae disponere sicut potest Ecclesia.
+<lb ed="#L" n="63"/>Quoniam plenitudo potestatis ecclesiasticae ipsius Papae
+<lb ed="#L" n="64"/>intelligitur in spiritualibus tantum: de temporalibus enim
+<lb ed="#L" n="65"/>in ordine ad spiritualia potestatem habet. Hanc enim 
+spi<lb break="no" ed="#L" n="66"/>ritualem potestatem dedit Christus Petro, Matth. xvr: 7ibi
+<lb ed="#L" n="67"/>dabo claves regni caelorum, et non regni mundi huius. Et
+<lb ed="#L" n="68"/>spiritualem cibum mandavit dandum, Ioan. ult.: Pasce
+<lb ed="#L" n="69"/>oves meas. Unde ita tenentur ad restitutionem qui a Papa
+<lb ed="#L" n="70"/>bona Ecclesiae pro libito Papae habuerunt, ut ditentur,
+<lb ed="#L" n="71"/>exaltentur et magnificentur, sicut qui ab aliis praelatis 
+si<lb break="no" ed="#L" n="72"/>milia Ecclesiae bona acceperunt. Omnis namque donatio
+<lb ed="#L" n="73"/>ecclesiasticae rei pietate vel necessitate vacua non 
+distri<lb break="no" ed="#L" n="74"/>butio sed dissipatio est a dispensatore usurpata.
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e501">
+                  <lb ed="#L" n="75"/>II. In eadem parte eiusdem articuli, cave ne haec 
+sen<lb break="no" ed="#L" n="76"/>tentia, scilicet quod praelati tenentur ad temporalia 
+Eccle<lb break="no" ed="#L" n="77"/>siae bona de necessitate salutis, etc., velamen fiat avaritiae
+<lb ed="#L" n="78"/>personarum ecclesiasticarum; et sub hoc praetextu 
+pau<lb break="no" ed="#L" n="79"/>peres sine misericordia vexent, repetendo bona Ecclesiae;
+<lb ed="#L" n="80"/>postposito caritatis ordine, temporalia spiritualibus 
+prae<lb break="no" ed="#L" n="81"/>ponant. Meminerint in primis pauperes esse non solum qui
+<lb ed="#L" n="82"/>egent cibo, potu aut veste, quae sunt necessaria naturae;
+<lb ed="#L" n="83"/>sed qui egent opportunis ad convenientiam sui status. Ac
+<lb ed="#L" n="84"/>per hoc, eleemosynaliter se posse distribuere illis, sicut et
+<lb ed="#L" n="85"/>alis pauperibus. Ac per hoc, non teneri ad eorum 
+vexa<lb break="no" ed="#L" n="86"/>tionem, si sibi commissa est dispensatio. - Meminerint
+<lb ed="#L" n="87"/>deinde ad repetitionem bonorum esse praeceptum affirma-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>tivum; et obligare non ad semper, sed pro loco et 
+tem<lb break="no" ed="#L" n="89"/>pore. Ac per hoc, propter scandalum pusillorum 
+dissimu<lb break="no" ed="#L" n="90"/>lari potest ad tempus repetitio: sicut propter alias causas
+<lb ed="#L" n="91"/>rationabiles potest differri. Hac siquidem ratione Ecclesiam
+<lb ed="#L" n="92"/>non exigere decimas alicubi dicitur in calce huius articuli. —
+<lb ed="#L" n="93"/>Meminerint tertio, quod gratiorem Deo exhiberent 
+famu<lb break="no" ed="#L" n="94"/>latum quandoque procurando quod Ecclesia donaret, cum
+<lb ed="#L" n="95"/>scilicet spirituali bono populi expedit, quam. sollicitando
+<lb ed="#L" n="96"/>repetitionem. Temporalia namque propter spiritualia, et
+<lb ed="#L" n="97"/>non e contra sunt et esse debent, apud Christianos.
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e556">
+                  <lb ed="#L" n="98"/>III. In eodem articulo, circa scandalum ex malitia, duo
+<lb ed="#L" n="99"/>verba litterae notanda sunt. Primum est ly propter eos qui
+<lb ed="#L" n="100"/>sic scandala concitant. Secundum est ly passim, cum in 
+re<lb break="no" ed="#L" n="101"/>sponsione ad secundum dicitur: Si passim permitteretur
+<lb ed="#L" n="102"/>malis hominibus ut aliena raperent, etc. Primum siquidem
+<lb ed="#L" n="103"/>dictum est ad distinguendum inter illos sic concitantes 
+scan<lb break="no" ed="#L" n="104"/>dala, et populum. Quamvis enim propter talium malitiam
+<lb ed="#L" n="105"/>non sint temporalia: dimittenda; propter populi tamen 
+in<lb break="no" ed="#L" n="106"/>teritum spiritualem vitandum, vel salutem spiritualem 
+pro<lb break="no" ed="#L" n="107"/>pagandam, temporalia dimittenda sunt. Unde si princeps
+<lb ed="#L" n="108"/>aliquis potius populum ad infidelitatem duceret quam 
+suf<lb break="no" ed="#L" n="109"/>ferret exigi a se rapta ab Ecclesia vel alio principe, ut
+<lb ed="#L" n="110"/>Ieroboam fecit in populo Israel ne perderet regnum, 
+di<lb break="no" ed="#L" n="111"/>mittenda essent temporalia: non propter principem, sed
+<lb ed="#L" n="112"/>propter populi salutem. Non enim ponendum est 
+offen<lb break="no" ed="#L" n="113"/>diculum fidei propter temporalia. Et hoc quod dicimus. de
+<lb ed="#L" n="114"/>salute populi, intelligendum est universaliter de quacumque
+<lb ed="#L" n="115"/>rationabili causa inductiva ad dimittendum temporalia ex
+<lb ed="#L" n="116"/>orto ex malitia scandalo. Auctor enim solum hoc dicit, quod
+<lb ed="#L" n="117"/>propter eos qui malitiose concitant scandala non sunt 
+di<lb break="no" ed="#L" n="118"/>mittenda tam temporalia quam spiritualia bona. Cum quo
+<lb ed="#L" n="119"/>stat quod propter aliam causam dimittenda quandoque sunt.
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e607">
+                  <lb ed="#L" n="120"/>Secundum autem dictum est ut scias, juxta allatam in
+<lb ed="#L" n="121"/>littera Gregorii auctoritatem, quandoque expedire communi
+<lb ed="#L" n="122"/>bono spirituali permittere rapinam. Aliud siquidem est
+<lb ed="#L" n="123"/>passim; et aliud quandoque, in casu tali, permittere et
+<lb ed="#L" n="124"/>dimittere.
+</p>
+               <p xml:id="TAcCaj-d1e1494-d1e620">
+                  <lb ed="#L" n="125"/>IV. In responsione ad ultimum in eodem articulo, 
+ad<lb break="no" ed="#L" n="126"/>verte quod ex hoc quod Ecclesia non differt exacti
+<lb ed="#L" n="127"/>decimarum in Italia usque ad admonitionem, sed 
+simpli<lb break="no" ed="#L" n="128"/>citer non petit, ne populi inassueti et infirmi 
+scandalizen<lb break="no" ed="#L" n="129"/>tur; satis datur intelligi quam parum ab Ecclesia debent
+<lb ed="#L" n="130"/>temporalia aestimari, et quam facile debeat talia dimittere
+<lb ed="#L" n="131"/>ne fideles incidant in tentationem et in laqueum diaboli.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

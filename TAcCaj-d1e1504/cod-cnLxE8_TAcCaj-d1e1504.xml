@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 45</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 45</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="345"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1504"><!-- TAcCajp2p2-q45 -->
+            <head xml:id="TAcCaj-d1e1504-Hd1e101">Quaestio 45</head>
+            <div xml:id="TAcCaj-d1e1504-Dd1e103"><!-- caj-p2p2-q45a1 -->
+               <head xml:id="TAcCaj-d1e1504-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1504-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e115">
+                  <lb ed="#L" n="26"/>IN articulo primo quaestionis quadragesimaequintae, in
+<lb ed="#L" n="27"/>responsione ad secundum, dubium occurrit circa 
+differen<lb break="no" ed="#L" n="28"/>tiam inter fidem et sapientiam. Non enim yidetur recte
+<lb ed="#L" n="29"/>differentia assignata penes hoc quod fides assentit veritati
+<lb ed="#L" n="30"/>divinae secundum seipsam, sapientia autem iudicat 
+secun<lb break="no" ed="#L" n="31"/>dum veritatem divinam. Aut enim differentia ista consistit
+<lb ed="#L" n="32"/>in differentia inter actum assensus et iudicii; aut in 
+diffe<lb break="no" ed="#L" n="33"/>rentia rei cui assentitur et quae iudicatur; aut in ratione
+<lb ed="#L" n="34"/>assensus et iudicii. Non in hoc ultimo: quoniam 
+utrobi<lb break="no" ed="#L" n="35"/>que dicitur in littera, secundum veritatem divinam. - Non
+<lb ed="#L" n="36"/>in secundo: quia tam fides quam sapientia est 
+principali<lb break="no" ed="#L" n="37"/>ter Dei et secundario aliorum. - Non in primo: quia in
+<lb ed="#L" n="38"/>ratione assensus importatur iudicium; quicumque enim
+<lb ed="#L" n="39"/>assentit absque formidine iudicat sic esse, et e converso.
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e148">
+                  <lb ed="#L" n="40"/>II. Ad hoc dicitur quod differentia ista consistit in primo,
+<lb ed="#L" n="41"/>in differentia scilicet inter assensum et iudicium. Assensus
+<lb ed="#L" n="42"/>namque est determinatio sui ad alteram partem 
+contradi<lb break="no" ed="#L" n="43"/>ctionis: quicumque enim assentit alicui affirmationi vel 
+ne<lb break="no" ed="#L" n="44"/>gationi,.sive ex evidentia rei sive ex auctoritate dicentis
+<lb ed="#L" n="45"/>sive ex signis, ex hoc dicitur assentire quod seipsum 
+se<lb break="no" ed="#L" n="46"/>cundum intellectivam partem determinat ad talem partem.
+<lb ed="#L" n="47"/>Tudicium autem est determinatio rei ut est vel esse debet:
+<lb ed="#L" n="48"/>ex hoc enim aliquis dicitur iudicare aliquid, quod 
+deter<lb break="no" ed="#L" n="49"/>minat illud sic esse vel sic debere esse. Et quamvis 
+utrum<lb break="no" ed="#L" n="50"/>que alterum inferat (quia determinans seipsum ad alteram
+<lb ed="#L" n="51"/>partem determinat illam sic esse: et e contra determinans
+<lb ed="#L" n="52"/>aliquid sic esse determinat se ad illam partem), 
+formali<lb break="no" ed="#L" n="53"/>ter tamen differunt ut dictum est: et assensus prior 
+vide<lb break="no" ed="#L" n="54"/>tur iudicio secundum naturam. Et differentiae quidem 
+si<lb break="no" ed="#L" n="55"/>gnum est quod videmus quod nescientes determinare quae
+<lb ed="#L" n="56"/>contradictionis pars vera sit in aliqua materia, puta 
+Con<lb break="no" ed="#L" n="57"/>ceptionis Beatae Virginis, abstinent a iudicio; et cum hoc,
+<lb ed="#L" n="58"/>determinantes se ad unam partem, credunt illam; tanquam
+<lb ed="#L" n="59"/>aliud sit iudicare, aliud assentire. Et dum audimus bello-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>rum aut quorumcumque gestorum historias, credere nos
+<lb ed="#L" n="61"/>fatemur, non iudicare: tanquam nos determinemus ad 
+nar<lb break="no" ed="#L" n="62"/>rata, non narrata ipsa. Ordinis vero signum est quod
+<lb ed="#L" n="63"/>qualiter unusquisque affectus est, taliter iudicat de re, ut
+<lb ed="#L" n="64"/>patet in gustu febricitantis: hoc enim insinuat quod prius
+<lb ed="#L" n="65"/>natura est determinatio sui ad aliquid quam iudic
+<lb ed="#L" n="66"/>illo. Et propterea sapientia in littera ponitur di
+<lb ed="#L" n="67"/>fide secundum differentiam iudicii ab assensu, | :
+<lb ed="#L" n="68"/>posterior fide.
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e216">
+                  <lb ed="#L" n="69"/>III. Inter fidem ergo et sapientiam haec est differentia,
+<lb ed="#L" n="70"/>quod fidei primo est assensus; sapientiae vero primo est
+<lb ed="#L" n="71"/>iudicium. Dico autem primo. Tum quia unum infert 
+reli<lb break="no" ed="#L" n="72"/>quum. Tum quia non intelligo dona Spiritus. Sancti sic
+<lb ed="#L" n="73"/>distingui a virtutibus theologicis ut perficiant ad actus
+<lb ed="#L" n="74"/>disparatos: sed ut perficiant inchoationem bonitatis quai
+<lb ed="#L" n="75"/>actus qui non primo sed secundario sunt chcofo ice
+<lb ed="#L" n="76"/>virtutum ab illis sortiuntur. Verbi gratia, fidei actus primo
+<lb ed="#L" n="77"/>est assentire: et eiusdem est etiam percipere, et iudicare
+<lb ed="#L" n="78"/>et secundum Deum et secundum causas creatas, et 
+appli<lb break="no" ed="#L" n="79"/>care ad singularia. Ut patet in homine existente. in 
+pec<lb break="no" ed="#L" n="80"/>cato mortali, cavente tamen se ab idololatria, homicidio
+<lb ed="#L" n="81"/>furto, eunte ad praedicationes et missas. Talis enim abs,
+<lb ed="#L" n="82"/>donis Spiritus Sancti, quae non possunt esse informi, pe
+<lb ed="#L" n="83"/>fidem percipit divina; iudicat cavendum ab idololatria,
+<lb ed="#L" n="84"/>cundum altissimam causam; et ab homicidio, etiam 
+secun<lb break="no" ed="#L" n="85"/>dum causam creatam, quia non est nocendum proximo;
+<lb ed="#L" n="86"/>et applicat se ad particulares executiones obsequii fidei
+<lb ed="#L" n="87"/>missis etc. Qui tamen actus spectant ad dona intellec!
+<lb ed="#L" n="88"/>sapientiae, scientiae et. consilii. Sed hi actus non pe
+<lb ed="#L" n="89"/>sunt ita a fide quin egeant donorum perfectione. A
+<lb ed="#L" n="90"/>bus cum eliciuntur, non alii, sed alio. modo, ut scilicet
+<lb ed="#L" n="91"/>oriuntur ex instinctu Spiritus Sancti, eliciuntur: ut de dono
+<lb ed="#L" n="92"/>sapientiae in proposito dicitur quod a sapientia elicitur
+<lb ed="#L" n="93"/>iudicium secundum quandam connaturalitatem ad divin
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1504-Dd1e274"><!-- caj-p2p2-q45a2 -->
+               <head xml:id="TAcCaj-d1e1504-Hd1e277">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1504-d1e279">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e286">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>IN articulo secundo eiusdem quaestionis dubium est, quare
+<lb ed="#L" n="53"/>fides cum caritate non sufficit ad iudicandum per 
+con<lb break="no" ed="#L" n="54"/>naturalitatem secundum causam divinam: cum fides 
+intel<lb break="no" ed="#L" n="55"/>lectui, et caritas voluntati sat sit ad hoc. Ut quid 
+multi<lb break="no" ed="#L" n="56"/>plicatio haec entium, ut oporteat addere donum 
+sapien<lb break="no" ed="#L" n="57"/>tiae? Et simile est de aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e304">
+                  <lb ed="#L" n="58"/>Ad hoc dicitur quod iam ostensa est necessitas 
+dono<lb break="no" ed="#L" n="59"/>rum ultra virtutes in qu. txvrr praecedentis Libri. 
+Quo<lb break="no" ed="#L" n="60"/>niam scilicet oportet animae adesse dispositionem qua mo-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>bilis sit a Spiritu Sancto per instinctum ad iudicandum
+<lb ed="#L" n="62"/>secundum causam altissimam: et haec est donum 
+sapien<lb break="no" ed="#L" n="63"/>tiae. Et sic de aliis, ut ibi diffuse. declaratum est.
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e322">
+                  <lb ed="#L" n="64"/>Et nunc additur etiam quia oportet habere singulos
+<lb ed="#L" n="65"/>habitus primo respicientes actus qui secundario a virtutibus
+<lb ed="#L" n="66"/>respiciantur. Unde nullum donum ponitur pro assensu,
+<lb ed="#L" n="67"/>qui primo est fidei: sed pro aliis actibus secundariis. Sic
+<lb ed="#L" n="68"/>enim anima perfecta redditur ad opera supernaturalia 
+pro<lb break="no" ed="#L" n="69"/>xime et complete.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1504-Dd1e339"><!-- caj-p2p2-q45a3 -->
+               <head xml:id="TAcCaj-d1e1504-Hd1e342">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1504-d1e344">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e351">
+                  <lb ed="#L" n="30"/>In articulo tertio, in responsione ad; primum, perspice quod pragigum et spacaiti fuia uiniuntur in uno. 
+superio<lb break="no" ed="#L" n="31"/>ris ordinis. Et hinc vide quam hene alibi scripserimus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1504-Dd1e359"><!-- caj-p2p2-q45a5 -->
+               <head xml:id="TAcCaj-d1e1504-Hd1e362">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1504-d1e364">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="75"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e371">
+                  <lb ed="#L" n="76"/>
+                  <lb ed="#L" n="77"/>In articulo quinto, omisso quarto, dubium occurrit, quo
+<lb ed="#L" n="78"/>pacto sapientiae donum. secundum altiorem. gradum .
+spe<lb break="no" ed="#L" n="79"/>ctet ad gratiam gratis datam: cum sapientiae donum 
+se<lb break="no" ed="#L" n="80"/>cundum totam latitudinem perfectionis suae gratum faciat.
+<lb ed="#L" n="81"/>Constat enim quod sicut simpliciter ad simpliciter, ita
+<lb ed="#L" n="82"/>magis ad magis, etc.: ac per hoc, sapientiae donum,
+<lb ed="#L" n="83"/>simpliciter gratum faciens, maius magis gratum faciet. 
+Gra<lb break="no" ed="#L" n="84"/>tia autem gratis data differt a gratum faciente penes 
+gra<lb break="no" ed="#L" n="85"/>tum facere et non gratum facere, apud Auctorem, in I II,
+<lb ed="#L" n="86"/>qu. cxi, art. 1, ad ult.
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e397">
+                  <lb ed="#L" n="87"/>Ad huius rei evidentiam scito quod sapientia, sicut et
+<lb ed="#L" n="88"/>scientia, dupliciter potest augeri: scilicet intensive, et 
+exten<lb break="no" ed="#L" n="89"/>sive; ex parte scilicet subiecti, vel obiecti; ut superius
+<lb ed="#L" n="90"/>declaratum fuit. Et licet utrumque perficiat habentem, 
+di<lb break="no" ed="#L" n="91"/>versimode tamen. Quia augmentum intensivum per se primo
+<lb ed="#L" n="92"/>ordinatur ad perfectionem habentis in seipso: per hoc enim
+<lb ed="#L" n="93"/>quod aliquis magis cognoscit et magis ex ipso scit regulare
+<lb ed="#L" n="94"/>seipsum, magis Deo unitur. Augmentum vero extensivum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>ad sui et dioibh utilitatem ordinatur: per hoc enim quod
+<lb ed="#L" n="96"/>aliquis plura cognoscit de Deo et directione actuum 
+se<lb break="no" ed="#L" n="97"/>cundum Deum quam suae salutis necessitas poscit, et ipse
+<lb ed="#L" n="98"/>redditur melius dispositus in seipso, et ad alios in Deum 
+re<lb break="no" ed="#L" n="99"/>ducendum ordinatur. Cum autem gratia gratum faciens 
+or<lb break="no" ed="#L" n="100"/>dinetur ad unionem habentis eam cum Deo, gratia autem
+<lb ed="#L" n="101"/>gratis data ad utilitatem aliorum; consequens est ut 
+sa<lb break="no" ed="#L" n="102"/>pientiae augmentum extensivum, ex ea parte qua ad 
+alio<lb break="no" ed="#L" n="103"/>rum utilitatem ordinatur, inter gratias gratis datas sit; ex
+<lb ed="#L" n="104"/>ea vero parte qua bonitatem habentis perficit, ad gratiae
+<lb ed="#L" n="105"/>gratum facientis bene esse spectet.
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e443">
+                  <lb ed="#L" n="106"/>Et per haec patet solutio obiectorum. Nam augmentuti
+<lb ed="#L" n="107"/>intensivum sapientiae, de quo regula Sicut simpliciter 
+ve<lb break="no" ed="#L" n="108"/>rificatur, ad gratiam gratum facientem spectare concedimus.
+<lb ed="#L" n="109"/>Et abundantia extensiva sapientiae, ut sic, non gratum nec
+<lb ed="#L" n="110"/>gratiorem facit: formaliter enim intelligendum est cum 
+di<lb break="no" ed="#L" n="111"/>citur quod gratia gratis data non gratum facit.
+</p>
+               <p xml:id="TAcCaj-d1e1504-d1e460">
+                  <lb ed="#L" n="112"/>In ultimo articulo nihil occurrit scribendum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

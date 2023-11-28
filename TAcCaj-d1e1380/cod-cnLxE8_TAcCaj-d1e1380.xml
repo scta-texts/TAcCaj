@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 21</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 21</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="161"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1380"><!-- TAcCajp2p2-q21 -->
+            <head xml:id="TAcCaj-d1e1380-Hd1e101">Quaestio 21</head>
+            <div xml:id="TAcCaj-d1e1380-Dd1e103"><!-- caj-p2p2-q21a1 -->
+               <head xml:id="TAcCaj-d1e1380-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1380-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1380-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>In articulo primo quaestionis vigesimaeprimae notato, 
+no<lb break="no" ed="#L" n="9"/>vitie, primo, quod praesumptio, licet primo impositum 
+<lb ed="#L" n="10"/>sit ad significandum morale vitium in ordine ad propriam  
+<lb ed="#L" n="11"/>virtutem, de quo in loco proprio inferius erit quaestio;  
+<lb ed="#L" n="12"/>translatum tamen. est, propter similitudinem, ad 
+signifi<lb break="no" ed="#L" n="13"/>candum vitium theologicum de quo est hic quaestio. Unde  
+<lb ed="#L" n="14"/>praesumptionis vocabulum non solum aequivocum est in usu 
+<lb ed="#L" n="15"/>iuristarum et moralium; sed etiam in ipsa morali theologia  
+<lb ed="#L" n="16"/>aequivocum est. Et propterea in corpore articuli huius 
+<lb ed="#L" n="17"/>utraque significatio exprimitur. Observa igitur caute de 
+<lb ed="#L" n="18"/>qua praesumptione sermo incidit. 
+</p>
+               <p xml:id="TAcCaj-d1e1380-d1e144">
+                  <lb ed="#L" n="19"/>II. In eodem primo articulo, in responsione ad 
+pri<lb break="no" ed="#L" n="20"/>mum, dubium occurrit: Quo pacto verificatur quod 
+prae<lb break="no" ed="#L" n="21"/>sumptio diminuit divinam virtutem Videtur enim quod 
+<lb ed="#L" n="22"/>praesumptuosus, sperando veniam sine poenitentia aut 
+glo<lb break="no" ed="#L" n="23"/>riam sine meritis, plus speret, non minus quam conveniat  
+<lb ed="#L" n="24"/>Deo. Quoniam plus est habere gloriam sine meritis, sicut  
+<lb ed="#L" n="25"/>habuit Christus, quam cum meritis, sicut habent alii: et  
+<lb ed="#L" n="26"/>maioris gratiae esset habere veniam sine poenitentia, ut  
+<lb ed="#L" n="27"/>habent parvuli in baptismo, quam cum poenitentia. Non  
+<lb ed="#L" n="28"/>videtur ergo verum quod praesumptuosus, dum innititur  
+<lb ed="#L" n="29"/>divinae virtuti ad consequendum quod Deo non convenit,  
+<lb ed="#L" n="30"/>diminuat divinam virtutem; sed potius eam auget in suo 
+<lb ed="#L" n="31"/>affectu et effectu intento. 
+</p>
+               <p xml:id="TAcCaj-d1e1380-d1e175">
+                  <lb ed="#L" n="32"/>Ad hoc dicitur quod, cum divina virtus dupliciter 
+con<lb break="no" ed="#L" n="33"/>sideretur, scilicet absolute et ordinate; et hic non sit sermo 
+<lb ed="#L" n="34"/>ea absolute, sed de ea ordinate, quia. est sermo de 
+iu<lb break="no" ed="#L" n="35"/>stitia divina, quam praesumptio contemnit: - constat 
+nam<lb break="no" ed="#L" n="36"/>que divinam iustitiam ad potentiam Dei ordinatam 
+per<lb break="no" ed="#L" n="37"/>ere; et haec duo vitia opposita spei, scilicet 
+despera<lb break="no" ed="#L" n="38"/>tionem et praesumptionem, ita Deum respicere ut illa 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="39"/>misericordiam, haec iustitiam contemnat: — quia, inquam,
+<lb ed="#L" n="40"/>de virtute Dei ordinata est sermo; et virtus Dei a sua
+<lb ed="#L" n="41"/>sapientia ordinata sic est ut iustitia mediante gloriam pro
+<lb ed="#L" n="42"/>meritis et veniam pro poenitentia faciat: cum 
+praesum<lb break="no" ed="#L" n="43"/>ptione contemnitur iste ordo, ac per hoc divina iustitia,
+<lb ed="#L" n="44"/>contemnitur quoque divina virtus ad opus poenitentiae,
+<lb ed="#L" n="45"/>per quam venitur ad veniam, et ad opus meriti, per quod
+<lb ed="#L" n="46"/>venitur ad gloriam; ac per hoc minuitur divina virtus.
+<lb ed="#L" n="47"/>Ordinata siquidem ad duo opera ordine quodam expectatur
+<lb ed="#L" n="48"/>factura unum tantum: minus autem est alterum quam
+<lb ed="#L" n="49"/>utrumque facere, Et rursum ordinata ad iuste perducendum
+<lb ed="#L" n="50"/>ad veniam vel gloriam expectatur perductura non iuste
+<lb ed="#L" n="51"/>ad veniam vel gloriam: minus autem est, praesupposito
+<lb ed="#L" n="52"/>ordinis statuto, perducere non iuste quam iuste ad veniam
+<lb ed="#L" n="53"/>vel gloriam. Diminuit igitur vere divinam virtutem in suo
+<lb ed="#L" n="54"/>effectu praesumptuosus. Et hoc intendebat Auctor dum in
+<lb ed="#L" n="55"/>corpore articuli, hanc diminutionem explicans, dixit quod
+<lb ed="#L" n="56"/>per huiusmodi praesumptionem tollitur vel contemnitur
+<lb ed="#L" n="57"/>adiutorium Spiritus Sancti per quod homo revocatur a
+<lb ed="#L" n="58"/>peccato, illa scilicet medians iustitia.
+</p>
+               <p xml:id="TAcCaj-d1e1380-d1e239">
+                  <lb ed="#L" n="59"/>Ad obiectionem in oppositum dicitur quod licet, 
+abso<lb break="no" ed="#L" n="60"/>lute loquendo, facere veniam sine poenitentia aut gloriam
+<lb ed="#L" n="61"/>sine meritis in aliquo sit maius quoad modum faciendi,
+<lb ed="#L" n="62"/>pro quanto fit finis sine his quae sunt ad finem et forma
+<lb ed="#L" n="63"/>sine dispositionibus, et ad hoc tendit argumentum: quoad
+<lb ed="#L" n="64"/>rem tamen factam, magis est facere utrumque quam 
+alte<lb break="no" ed="#L" n="65"/>rum. Loquendo tamen praesupposito ordine divinae 
+sa<lb break="no" ed="#L" n="66"/>pientiae, minus simpliciter est facere alterum quam 
+utrum<lb break="no" ed="#L" n="67"/>que. Et quia praesumptionis vitium contra virtutem 
+divi<lb break="no" ed="#L" n="68"/>nam ordinatam: sua sapientia est, ideo simpliciter diminuere
+<lb ed="#L" n="69"/>divinam virtutem dicitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1380-Dd1e266"><!-- caj-p2p2-q21a2 -->
+               <head xml:id="TAcCaj-d1e1380-Hd1e269">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1380-d1e271">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1380-d1e278">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>IN articulo secundo, in responsione ad secundum, 
+me<lb break="no" ed="#L" n="25"/>lisenta doctrinae superius habitae, quomodo virtus
+<lb ed="#L" n="26"/>theologica sit in medio.
+</p>
+               <p xml:id="TAcCaj-d1e1380-d1e289">
+                  <lb ed="#L" n="27"/>In responsione vero ad tertium, adverte hinc vulgarem |
+<lb ed="#L" n="28"/>errorem putantium quod peccans sub praetextu quod post
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="29"/>confitebitur et faciet poenitentiam, peius faciat. Habes enim
+<lb ed="#L" n="30"/>hinc quod diminuit, non aggravat peccatum: est enim 
+vo<lb break="no" ed="#L" n="31"/>luntatis transitoriae et non pertinacis in malo.
+</p>
+               <p xml:id="TAcCaj-d1e1380-d1e305">
+                  <lb ed="#L" n="32"/>In reliquis eiusdem quaestionis articulis nihil scribendum
+<lb ed="#L" n="33"/>occurrit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
