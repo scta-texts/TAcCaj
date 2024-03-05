@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 74</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 74</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="148"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1654"><!-- TAcCajp2p2-q74" -->
+            <head xml:id="TAcCaj-d1e1654-Hd1e101">Quaestio 74</head>
+            <div xml:id="TAcCaj-d1e1654-Dd1e103"><!-- caj-p2p2-q74a1et2" -->
+               <head xml:id="TAcCaj-d1e1654-Hd1e106">Articuli 1-2</head>
+               <p xml:id="TAcCaj-d1e1654-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="67" type="fixed=140"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1654-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>IN utroque simul articulo quaestionis 
+septuagesimaequar<lb break="no" ed="#L" n="69"/>tae, de susurratione, dubium occurrit, an susurratio sit
+<lb ed="#L" n="70"/>unius speciei specialissimae. Et est ratio dubii quia 
+susur<lb break="no" ed="#L" n="71"/>ratio directe tendit contra amicitiam: sicut detractio contra
+<lb ed="#L" n="72"/>famam, et contumelia contra honorem. Constat autem
+<lb ed="#L" n="73"/>amicitiae esse multas species: scilicet honesti, utilis, etc.
+<lb ed="#L" n="74"/>Videtur ergo quod susurratio in tot debeat distingui 
+spe<lb break="no" ed="#L" n="75"/>cies quot sunt amicitiae species. - In oppositum auctoritas
+<lb ed="#L" n="76"/>est litterae, quae susurrationem ut unicam tractat speciem.
+<lb ed="#L" n="77"/>Et, ut patet, hic liber est consummatio moralium.
+</p>
+               <p xml:id="TAcCaj-d1e1654-d1e141">
+                  <lb ed="#L" n="78"/>Ad hoc dicitur quod quia non inconvenit unam speciem
+<lb ed="#L" n="79"/>specialissimam habituum tendere in rationem communem
+<lb ed="#L" n="80"/>multis generibus; ut in habitibus intellectualibus patet de
+<lb ed="#L" n="81"/>metaphysica, quae tendit in ens inquantum ens; et in 
+habi<lb break="no" ed="#L" n="82"/>tibus moralibus de odii vitio, quod, iuxta supradicta, 
+ten<lb break="no" ed="#L" n="83"/>dit in communem mali rationem: idcirco mirum non est si
+<lb ed="#L" n="84"/>amicitiae multae sunt species, et tamen susurratio unica 
+tan<lb break="no" ed="#L" n="85"/>tum est species, tendens in communem rationem inimicitiae.
+<lb ed="#L" n="86"/>Ita quod sicut odium, in quaecumque mala tendit, attingit
+<lb ed="#L" n="87"/>ea inquantum habent mali rationem; ita susurratio, in 
+cuius<lb break="no" ed="#L" n="88"/>cumque amicitiae divortium tendat, attingit eam inquantum
+<lb ed="#L" n="89"/>continet amare et non amari, quae est communis ratio 
+ami<lb break="no" ed="#L" n="90"/>citiae. Unde-patet quod non oportet multiplicare species
+<lb ed="#L" n="91"/>susurrationis, dato quod multiplicentur species amicitiae.
+</p>
+               <p xml:id="TAcCaj-d1e1654-d1e174">
+                  <lb ed="#L" n="92"/>Recolendum tamen hoc in loco est quod quia unum
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="93"/>vitium utitur alio, si quis susurrando intendit delectabile,
+<lb ed="#L" n="94"/>puta quia, ponendo discordias inter coniu es, abutetur
+<lb ed="#L" n="95"/>uxore illius; aut utile, puta quia, susurrando inter 
+prin<lb break="no" ed="#L" n="96"/>cipes, usurpabit sibi regnum vel comitatum; aut damnum
+<lb ed="#L" n="97"/>alterius cui invidet, puta quia, susurrando' inter 
+negotiato<lb break="no" ed="#L" n="98"/>res, alter excludetur a societate commercii: huiusmodi 
+su<lb break="no" ed="#L" n="99"/>surratio non est simpliciter susurratio, sed sicut qui furae
+<lb ed="#L" n="100"/>tur ut moechetur, magis est moechus quam fur. ita
+<lb ed="#L" n="101"/>magis est adulter, latro, etc., quam susurro. Et haec dicta
+<lb ed="#L" n="102"/>sint ut perspicias quod particulares fines ad quos ordinatur
+<lb ed="#L" n="103"/>susurratio in dissolutione amicitiarum, sive spectent ad
+<lb ed="#L" n="104"/>utile sive ad delectabile seu illorum opposita, non variant
+<lb ed="#L" n="105"/>susurrationis speciem, sed apponunt circumstantiam alterius
+<lb ed="#L" n="106"/>speciei: ut exempla allata ostendunt.
+</p>
+               <p xml:id="TAcCaj-d1e1654-d1e212">
+                  <lb ed="#L" n="107"/>II. In eisdem articulis quaestionis septuagesimaequartae,
+<lb ed="#L" n="108"/>memento ut scias distinguere susurrationem sicut 
+distin<lb break="no" ed="#L" n="109"/>guitur tam contumelia quam detractio, scilicet in 
+materia<lb break="no" ed="#L" n="110"/>lem et formalem. Et quod licet susurratio formalis, quae
+<lb ed="#L" n="111"/>scilicet intendit separationem amicitiae, sit mortale 
+pecca<lb break="no" ed="#L" n="112"/>tum ex suo genere, materialiter tamen non est mortale.
+<lb ed="#L" n="113"/>Posset tamen esse mortale, sicut de detractione dictum
+<lb ed="#L" n="114"/>est: quando scilicet culpabiliter homo ad utramque 
+par<lb break="no" ed="#L" n="115"/>tem sic loquitur ut inferat divortium amicitiae, nec de hoc
+<lb ed="#L" n="116"/>curat. Hoc enim est peius quam notabiliter laedere 
+hono<lb break="no" ed="#L" n="117"/>rem aut famam proximi praeter intentionem.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

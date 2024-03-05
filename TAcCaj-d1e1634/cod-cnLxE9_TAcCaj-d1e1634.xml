@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 70</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 70</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="118"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1634"><!-- TAcCajp2p2-q70" -->
+            <head xml:id="TAcCaj-d1e1634-Hd1e101">Quaestio 70</head>
+            <div xml:id="TAcCaj-d1e1634-Dd1e103"><!-- caj-p2p2-q70a1" -->
+               <head xml:id="TAcCaj-d1e1634-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1634-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="12" type="fixed=117"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>In articulo primo quaestionis septuagesimae, nota in 
+cor<lb break="no" ed="#L" n="14"/>pore articuli doctrinam superius datam, in hoc scilicet
+<lb ed="#L" n="15"/>quod infamia de uno crimine non dat ius iudici inquirendi
+<lb ed="#L" n="16"/>de aliis eiusdem viri criminibus occultis et sine infamia de
+<lb ed="#L" n="17"/>ilis, firmari ex praesenti doctrina, cum littera dicit quod
+<lb ed="#L" n="18"/>si a iudice exigatur testimonium in aliis, puta in occultis
+<lb ed="#L" n="19"/>et de quibus infamia non praecessit, non tenetur ad 
+te<lb break="no" ed="#L" n="20"/>stificandum subditus, de quo loquitur. Par autem, aut
+<lb ed="#L" n="21"/>maior est ratio de reo: quia contingit occultius esse sibi
+<lb ed="#L" n="22"/>proprium crimen, de quo interrogaretur, quam id de quo
+<lb ed="#L" n="23"/>iam posset alius testimonium reddere. Qua namque ratione
+<lb ed="#L" n="24"/>testis conscius et subditus non tenetur de his testificari,,
+<lb ed="#L" n="25"/>eadem, et maiori, ut dictum est, non tenetur subditus 
+re<lb break="no" ed="#L" n="26"/>velare interrogatus.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e150">
+                  <lb ed="#L" n="27"/>II In eodem articulo, circa calcem corporis, ubi dicitur
+<lb ed="#L" n="28"/>quod si immineat periculum accusatori, non est curandum,
+<lb ed="#L" n="29"/>quia ipse in hoc periculum sponte se ingessit, dubium 
+oc<lb break="no" ed="#L" n="30"/>currit. Quia cum superius Auctor dixerit quod accusator
+<lb ed="#L" n="31"/>quandoque tenetur ad accusandum: - tunc enim, si sciens
+<lb ed="#L" n="32"/>non tenetur testificari, nec tenetur curam habere de 
+accu<lb break="no" ed="#L" n="33"/>satoris defectu, iniqua erit accusatoris et testium conditio,
+<lb ed="#L" n="34"/>ut scilicet unus teneatur ad accusandum, et alii non 
+te<lb break="no" ed="#L" n="35"/>neantur ad testificandum nisi coacti a iudice. Tam aperta
+<lb ed="#L" n="36"/>autem esset iniquitas haec ut non egeat probatione.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e174">
+                  <lb ed="#L" n="37"/>Ad hoc dicitur quod obiectio procedit ex mala 
+appli<lb break="no" ed="#L" n="38"/>catione litterae. In littera siquidem ponuntur duo casus
+<lb ed="#L" n="39"/>circa non coactum testimonium: primus est quando agitur
+<lb ed="#L" n="40"/>ad liberandum hominem ab iniustitia aliqua; secundus est
+<lb ed="#L" n="41"/>uando agitur ad condemnationem alicuius. Et quoniam
+<lb ed="#L" n="42"/>sermo doctoris est formalis, non loquitur in hoc secundo
+<lb ed="#L" n="43"/>casu nisi quando praecise agitur ad condemnationem 
+ali<lb break="no" ed="#L" n="44"/>cuius. Et propterea constat quod non continetur sub hoc
+<lb ed="#L" n="45"/>membro casus in quo aliquis tenetur ad accusandum, seu
+<lb ed="#L" n="46"/>ex obligatione accusavit: quia nullus tenetur ad 
+accusan<lb break="no" ed="#L" n="47"/>dum de quocumque crimine ut proximus condemnetur,
+<lb ed="#L" n="48"/>quantumcumque iuste condemnari possit, sed sponte 
+accu<lb break="no" ed="#L" n="49"/>sat quicumque sic accusat. Et propterea littera dicit quod de
+<lb ed="#L" n="50"/>accusatore tali non est curandum. — Continetur igitur casus
+<lb ed="#L" n="51"/>in quo accusator ex necessitate accusavit, sub primo huius
+<lb ed="#L" n="52"/>litterae casu et membro, quando scilicet agitur ad 
+liberan<lb break="no" ed="#L" n="53"/>dum hominem ab aliquo damno. Quoniam obligatio ad
+<lb ed="#L" n="54"/>accusandum est quando imminet periculum spirituale vel
+<lb ed="#L" n="55"/>corporale multitudinis, iuxta superius habita. Constat 
+au<lb break="no" ed="#L" n="56"/>tem quod si pro liberando homine ab aliquo iniquo malo
+<lb ed="#L" n="57"/>tenetur homo testificari sponte, a fortiori pro liberanda
+<lb ed="#L" n="58"/>multitudine ab infectione haeresis vel a servitute 
+tyran<lb break="no" ed="#L" n="59"/>nica, etc. Universaliter enim pro regula habendum est quod
+<lb ed="#L" n="60"/>si quis tenetur ad accusandum, conscii tenentur ad 
+testi<lb break="no" ed="#L" n="61"/>ficandum: tanto plus quanto cum minori suo periculo po-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="62"/>test quis testificari quam accusare, quia non obligat se
+<lb ed="#L" n="63"/>testis ad poenam talionis. Nulla igitur ex dictis consurgit
+<lb ed="#L" n="64"/>iniquitas. Unde in responsione ad primum Auctor, 
+colli<lb break="no" ed="#L" n="65"/>gens doctrinam hanc, ad duo capita reducit: scilicet ad
+<lb ed="#L" n="66"/>auctoritatem iudicis et damnum proximi, Et in responsione
+<lb ed="#L" n="67"/>ad secundum explicite tenet quod in huiusmodi propalare
+<lb ed="#L" n="68"/>tenetur testificando vel denuntiando, prout opus fuerit.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e249">
+                  <lb ed="#L" n="69"/>III. In responsione ad secundum eiusdem articuli, 
+ad<lb break="no" ed="#L" n="70"/>verte ut scias discernere inter illa quae sciuntur sub 
+sa<lb break="no" ed="#L" n="71"/>cramentalis confessionis sigillo ita quod vere audivit illius
+<lb ed="#L" n="72"/>confessionem; et inter illa quae sciuntur sub sigillo 
+con<lb break="no" ed="#L" n="73"/>fessionis non vere, sed ad imitationem seu similitudinem
+<lb ed="#L" n="74"/>confessionis, ut frequenter fit a dicentibus aliquid in 
+se<lb break="no" ed="#L" n="75"/>creto, Dico tibi hoc in confessione, seu, in poenitentia; seu
+<lb ed="#L" n="76"/>inchoant, Confiteor Deo et tibi; et tamen in nullo 
+confi<lb break="no" ed="#L" n="77"/>tentur se peccasse, sed communicant tantum quae sunt
+<lb ed="#L" n="78"/>dicturi, et huiusmodi. Haec enim, si acceptatio audientis
+<lb ed="#L" n="79"/>(sine qua nihil fit) intervenit, non magis obligant quam
+<lb ed="#L" n="80"/>iuramentum de tenendo secretum. Et propterea tenetur ea
+<lb ed="#L" n="81"/>revelare, si sunt talia quae sint in alterius damnum. Prima
+<lb ed="#L" n="82"/>autem in nullo casu revelare licitum est: quia, ut in 
+lit<lb break="no" ed="#L" n="83"/>tera dicitur, illa scit ut Deus, et maius est vinculum 
+sa<lb break="no" ed="#L" n="84"/>cramenti quolibet hominis, etiam Papae, praecepto.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e286">
+                  <lb ed="#L" n="85"/>IV. In calce eiusdem responsionis ad secundum, nota
+<lb ed="#L" n="86"/>quod ex hoc quod servare fidem est de iure naturae, non
+<lb ed="#L" n="87"/>sequitur: Ergo praeterire seu delinquere in hoc est peccatum
+<lb ed="#L" n="88"/>mortale. Potest enim esse veniale, ut patet in simili: 
+men<lb break="no" ed="#L" n="89"/>tiri enim est contra ius naturae, et tamen non sequitur:
+<lb ed="#L" n="90"/>Mentiri est peccatum mortale. Oportet ergo advertere ad
+<lb ed="#L" n="91"/>materiam, simpliciter vel ut ab hoc, ut discernatur quando
+<lb ed="#L" n="92"/>revelare secretum est mortale vel veniale. Sunt enim 
+quae<lb break="no" ed="#L" n="93"/>dam quae, etiam si non sint nostrae fidei commissa, 
+te<lb break="no" ed="#L" n="94"/>nemur servare secreta: ut occulta adulteria, et facta quae
+<lb ed="#L" n="95"/>revelata essent semina discordiae, et huiusmodi, —- Sunt
+<lb ed="#L" n="96"/>etiam quaedam quae, etsi simpliciter possent referri 
+quan<lb break="no" ed="#L" n="97"/>tum in notitia nostra est, occultas tamen habent rationes
+<lb ed="#L" n="98"/>in eo qui fidei nostrae commisit, quia voluit secretum
+<lb ed="#L" n="99"/>servari. Et propterea ex quo promissum est acceptando
+<lb ed="#L" n="100"/>in secreto, non solum servandum est, sed posset, pro rei
+<lb ed="#L" n="101"/>nobilitate, esse peccatum mortale huiusmodi revelatio. —
+<lb ed="#L" n="102"/>Sunt autem quaedam quorum occultatio nulli prodest, 
+re<lb break="no" ed="#L" n="103"/>velatioque nulli nocet, quae leviter committuntur et 
+acce<lb break="no" ed="#L" n="104"/>ptantur in secreto. Et in his veniale est fidem violare. Quia
+<lb ed="#L" n="105"/>cum nec ex materia inferatur alicui iniuria aut iniustitia,
+<lb ed="#L" n="106"/>quia non est materia perniciosa; nec ex forma, scilicet
+<lb ed="#L" n="107"/>violatione iuris naturae, sit contra Deum aut proximum,
+<lb ed="#L" n="108"/>sed praeter debitum proximo: ratione imperfectionis rei
+<lb ed="#L" n="109"/>de qua agitur, non contrariatur caritati, sed praeter eam
+<lb ed="#L" n="110"/>agitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1634-Dd1e346"><!-- caj-p2p2-q70a2" -->
+               <head xml:id="TAcCaj-d1e1634-Hd1e349">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1634-d1e351">
+                  <pb ed="#L" n="119"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=119"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e360">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo secundo eiusdem quaestionis, in responsione
+<lb ed="#L" n="3"/>ad secundum, adverte quod distinctio illa de testibus qui
+<lb ed="#L" n="4"/>sunt singulares vel contestes, regulariter habet locum: ut
+<lb ed="#L" n="5"/>per singulares nullus damnetur. Quia tamen multi 
+singu<lb break="no" ed="#L" n="6"/>lares testes in factis iterabilibus violentam suspicionem 
+in<lb break="no" ed="#L" n="7"/>ducunt, ut si unus vidit aliquem committere unum furtum
+<lb ed="#L" n="8"/>et alius vidit eundem committere aliud furtum, et sint
+<lb ed="#L" n="9"/>testes omni exceptione maiores; inter religiosos, quando
+<lb ed="#L" n="10"/>quis existimatur alias tali vitio involutus, aut numerus
+<lb ed="#L" n="11"/>multus talium contestium concurrat, si arctatus non 
+con<lb break="no" ed="#L" n="12"/>fitetur, inveniri videtur quandoque subsecuta condemnatio,
+<lb ed="#L" n="13"/>multorum patrum consilio fulta. Et licet hoc non sit 
+se<lb break="no" ed="#L" n="14"/>cundum iuris rigorem, ubi tamen absque tormentis 
+pro<lb break="no" ed="#L" n="15"/>ceditur, non tam ad puniendum quam ad salutem animae
+<lb ed="#L" n="16"/>et regularis observantiae favorem, tolerabile videtur ut haec
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>probabilitas sufficiat ad certitudinem, inter eos qui mortui
+<lb ed="#L" n="18"/>sunt mundo. Quia tamen reus non potest ad huiusmodi
+<lb ed="#L" n="19"/>sententiam tolerandam cogi, deberet ex huiusmodi indiciis
+<lb ed="#L" n="20"/>per tormenta, religiosa tamen, veritas exquiri: ut sententia
+<lb ed="#L" n="21"/>non feratur nisi contra confessum vel convictum, iuxta
+<lb ed="#L" n="22"/>sacros canones, Il, qu. 1, Nos in quemquam.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e412">
+                  <lb ed="#L" n="23"/>In responsione ad tertium nota duo. Primum est de
+<lb ed="#L" n="24"/>sanctitate. debita Romanae Ecclesiae Cardinalibus: quae
+<lb ed="#L" n="25"/>utinam tanta esset ut nullus unquam esset in scandalum
+<lb ed="#L" n="26"/>Ecclesiae. - Secundum est contra latrantes quod malus
+<lb ed="#L" n="27"/>Cardinalis non punitur: quia scilicet periculosius est 
+de<lb break="no" ed="#L" n="28"/>rogare in opinione hominum dignitati et auctoritati 
+Ro<lb break="no" ed="#L" n="29"/>manae Ecclesiae condemnando Cardinalem, quam tolerare
+<lb ed="#L" n="30"/>illum sine scandalo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1634-Dd1e433"><!-- caj-p2p2-q70a3" -->
+               <head xml:id="TAcCaj-d1e1634-Hd1e436">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1634-d1e438">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="91" type="fixed=119"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e445">
+                  <cb ed="#L" n="i"/>
+                  <lb ed="#L" n="92"/>IN articulo tertio multa de conditionibus testium in 
+ali<lb break="no" ed="#L" n="93"/>Liuius causis vel casibus essent dicenda, nisi iuristis
+<lb ed="#L" n="94"/>haec relinquenda essent a me, quia non suscepi onus in
+<lb ed="#L" n="95"/>iure, sed in moralibus scribendi.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e458">
+                  <lb ed="#L" n="96"/>In responsione ad secundum habes quod supra di-
+<cb ed="#L" n="j"/>
+                  <lb ed="#L" n="97"/>ctum est de declinando in bonam vel malam opinionem
+<lb ed="#L" n="98"/>proximi quoad actum iudicii, vel quoad actum cautelae.
+<lb ed="#L" n="99"/>Pauper enim non iudicatur malus: sed cavetur ab illo ne
+<lb ed="#L" n="100"/>sit malus, mentiendo propter paupertatem, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1634-Dd1e475"><!-- caj-p2p2-q70a4" -->
+               <head xml:id="TAcCaj-d1e1634-Hd1e478">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1634-d1e480">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="65" type="fixed=120"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e487">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="66"/>IN articulo quarto eiusdem septuagesimae quaestionis, in
+<lb ed="#L" n="67"/>responsione ad primum, dubium occurrit, quid debet
+<lb ed="#L" n="68"/>facere testis qui, praemissa debita diligentia, testatus est
+<lb ed="#L" n="69"/>falsum, deceptus a sua memoria, et propter suum 
+testi<lb break="no" ed="#L" n="70"/>monium alter est condemnandus aut condemnatus.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e503">
+                  <lb ed="#L" n="71"/>Ad hoc dicitur quod, cum dictus testis non teneatur ad
+<lb ed="#L" n="72"/>restitutionem ratione rei habitae, ut patet, quia non est
+<lb ed="#L" n="73"/>testis in causa propria; nec ratione actionis iniustae, quia
+<lb ed="#L" n="74"/>non perfecte et formaliter iniustum testimonium tulit, nec
+<lb ed="#L" n="75"/>ex ignorantia damnabili: consequens est quod sicut 
+excu<lb break="no" ed="#L" n="76"/>satur ab offensa Dei in falso iuramento, ita excusatur ab
+<lb ed="#L" n="77"/>offensa proximi in nocumento subsecuto. Si tamen prodesse
+<lb ed="#L" n="78"/>potest explicando puram veritatem, teneretur ad hoc: ne
+<lb ed="#L" n="79"/>ex hac taciturnitate inciperet nocumentum per accidens
+<lb ed="#L" n="80"/>transire in nocumentum per se. Et licet secundum iura
+<lb ed="#L" n="81"/>testis non admittatur ad mutationem testimonii nisi in
+<lb ed="#L" n="82"/>continenti, ut patet Extra, de Testibus cogend., cap. 
+Prae<lb break="no" ed="#L" n="83"/>terea; quia tamen, ut ibidem Glossa dicit cum doctoribus,
+<lb ed="#L" n="84"/>correctio testimonii post intervallum temporis et prius 
+da<lb break="no" ed="#L" n="85"/>tum testimonium minus firmum reddit, et ex qualitate
+<lb ed="#L" n="86"/>personae admittendum quandoque est, quando scilicet vere
+<lb ed="#L" n="87"/>creditur. quod non fuit subornatus, sed ex conscientia et
+<lb ed="#L" n="88"/>memoria corrigit actum suum; ideo debet quilibet in tali
+<lb ed="#L" n="89"/>casu corrigere oblivionem suam, ut saltem debilitet prius
+<lb ed="#L" n="90"/>falso a se dictum. Et si persona est bonae famae, et in
+<lb ed="#L" n="91"/>opinione hominum, propter eius vitam bonam, talis con-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="92"/>scientiae quod non possit cadere in mentem hominum
+<lb ed="#L" n="93"/>illus notitiam habentium quod perniciosum mendacium
+<lb ed="#L" n="94"/>diceret; et cum iuramento assereret oblivionem suam et
+<lb ed="#L" n="95"/>puram veritatem prout novit: iudex, cuius est qualitates
+<lb ed="#L" n="96"/>testium discernere, posset propterea a sententia vel 
+execu<lb break="no" ed="#L" n="97"/>tione desistere, et alias, prout melius posset, obviare, si
+<lb ed="#L" n="98"/>ille in cuius favorem falsum fuerat dictum , non desistit
+<lb ed="#L" n="99"/>aut restituit, cum teneatur hoc facere, ad talis viri 
+iura<lb break="no" ed="#L" n="100"/>mentum, in foro conscientiae.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e573">
+                  <lb ed="#L" n="101"/>II. In responsione ad secundum eiusdem articuli 
+du<lb break="no" ed="#L" n="102"/>bium occurrit circa illam rationem redditam: Z/niustum 
+iu<lb break="no" ed="#L" n="103"/>dicium non est iudicium: et ideo ex vi iudicii falsum
+<lb ed="#L" n="104"/>testimonium ibidem non est peccatum mortale. Primo 
+qui<lb break="no" ed="#L" n="105"/>dem, quia adversari hoc videtur distinctioni inter 
+senten<lb break="no" ed="#L" n="106"/>tiam nullam, et iniustam, Nam si iniustum iudicium non
+<lb ed="#L" n="107"/>est iudicium, constat quod iniusta sententia non est 
+sen<lb break="no" ed="#L" n="108"/>tentia: et si non est sententia, ergo est nulla. Impossibile
+<lb ed="#L" n="109"/>est namque, et non intelligibile quod non-sententia sit 
+sen<lb break="no" ed="#L" n="110"/>tentia iniusta. Ergo sententia est nulla. Male ergo 
+distin<lb break="no" ed="#L" n="111"/>guitur inter sententiam iniustam atque nullam, tanquam
+<lb ed="#L" n="112"/>aliqua sit sententia iniusta quae tamen non est nulla.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e603">
+                  <lb ed="#L" n="113"/>Secundo, quia adversari videtur iuri canonico. Nam 
+se<lb break="no" ed="#L" n="114"/>cundum illud, <quote xml:id="TAcCaj-d1e1634-Qd1e609">sententia pastoris, sive iusta sive iniusta,
+<lb ed="#L" n="115"/>est timenda</quote>: ut patet ex <ref xml:id="TAcCaj-d1e1634-Rd1e614">auctoritate beati Gregorii</ref>, in <ref xml:id="TAcCaj-d1e1634-Rd1e616">
+De<lb break="no" ed="#L" n="116"/>cretis, XI, qu. III, Sententia</ref>. Ex praesenti autem doctrina
+<lb ed="#L" n="117"/>iniustum iudicium, quia non est iudicium, non obligat
+<pb ed="#L" n="121"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>testes, si iuramentum non intervenerit eorum, ad menda- ; 
+<lb ed="#L" n="2"/>cium perniciosum. lgitur iniusta sententia, quae est con- 
+<lb ed="#L" n="3"/>clusio iniusti iudicii, non obligat reum ad perniciosam 
+in<lb break="no" ed="#L" n="4"/>obedientiam. Sic enim se habet reus ad sententiam sicut
+<lb ed="#L" n="5"/>testes requisiti et coacti ad iudicii processum.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e640">
+                  <lb ed="#L" n="6"/>III. Ad hoc dicitur quod aliter in pure moralibus 
+uti<lb break="no" ed="#L" n="7"/>mur nominibus iudicii et sententiae; et aliter iuristae 
+utun<lb break="no" ed="#L" n="8"/>tur illis. Et propterea accidit ut morales, ad solam rei 
+ve<lb break="no" ed="#L" n="9"/>ritatem spectantes, non distinguant inter iudicium iniustum
+<lb ed="#L" n="10"/>et nullum; iuristae autem inter ea distinguant. Scito igitur
+<lb ed="#L" n="11"/>quod sententia iniusta, licet apud iuristas, ut patet XI,
+<lb ed="#L" n="12"/>qu. nr, Episcopus, in subiunctis per Gratianum, 
+multipli<lb break="no" ed="#L" n="13"/>citer dicatur: scilicet vel ex animo, ut cum quis ex odio
+<lb ed="#L" n="14"/>condemnat aliquem; vel ex ordine, ut cum non servato
+<lb ed="#L" n="15"/>iuris ordine condemnat; vel ex causa, ut cum quis 
+con<lb break="no" ed="#L" n="16"/>demnat innocentem: - ad nostrum propositum, ut in 
+lit<lb break="no" ed="#L" n="17"/>tera patet, sententia tertio modo iniusta spectat: quoniam
+<lb ed="#L" n="18"/>talis sententia est per se iniqua; reliquae autem duae per
+<lb ed="#L" n="19"/>accidens, ut prima, aut quasi per accidens, ut secunda.
+<lb ed="#L" n="20"/>De sententia ergo iniusta quia scilicet iniustum determinat,
+<lb ed="#L" n="21"/>puta damnationem innocentis, dicendum est quod 
+secun<lb break="no" ed="#L" n="22"/>dum veritatem non est sententia: et similiter iudicium sic
+<lb ed="#L" n="23"/>iniustum non est iudicium. Et ratio est quia iudicium est
+<lb ed="#L" n="24"/>determinatio iusti, ut superius patet in qu. Lx, art. 1; et
+<lb ed="#L" n="25"/>sententia est sicut lex particularis in particulari facto, ut |
+<lb ed="#L" n="26"/>in art. I qu. Lxvir superius etiam patet. Constat autem |
+<lb ed="#L" n="27"/>quod determinatio iniusti, quam significat iniustum 
+iudi<lb break="no" ed="#L" n="28"/>cium, non est determinatio iusti, quam significat iudicium:
+<lb ed="#L" n="29"/>nec lex iniqua particularis, quam significat iniusta 
+senten<lb break="no" ed="#L" n="30"/>tia, est lex particularis, quam significat sententia; sicut
+<lb ed="#L" n="31"/>universaliter patet quod leges iniquae non sunt leges, sed
+<lb ed="#L" n="32"/>legum corruptiones. Unde nec iniquum iudicium nec 
+in<lb break="no" ed="#L" n="33"/>iusta sententia vim habet obligativam, Et propterea, 
+quan<lb break="no" ed="#L" n="34"/>tum est ex parte sui, non obligat testes, ministros aut
+<lb ed="#L" n="35"/>reum. Dico autem, ex parte sui: quia aliunde contingit
+<lb ed="#L" n="36"/>quandoque quod huiusmodi sententiis parendum est, puta
+<lb ed="#L" n="37"/>si iniustitia aut non contineatur in sententia, aut non sit
+<lb ed="#L" n="38"/>manifesta alis. Si enim in sententia manifesta iniustitia
+<lb ed="#L" n="39"/>continetur, tunc continet errorem intolerabilem, et apud
+<lb ed="#L" n="40"/>iuristas etiam est nulla. Si non continetur in sententia in-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="41"/>iustitia; aut, si continetur, non tamen est publice 
+mani<lb break="no" ed="#L" n="42"/>festa: tunc, quamvis secundum veritatem sit nulla, quia
+<lb ed="#L" n="43"/>tamen non spectat ad quemlibet, sed ad publicam 
+pote<lb break="no" ed="#L" n="44"/>statem atque scientiam, haec decernere, timenda est, et 
+ap<lb break="no" ed="#L" n="45"/>pellandum vel alias recurrendum ad superiorem, ne ipse
+<lb ed="#L" n="46"/>contemptus sententiae culpabilem eum reddat. Et hoc 
+in<lb break="no" ed="#L" n="47"/>tendebat Gregorius per illud, Sententia pastoris. Et haec
+<lb ed="#L" n="48"/>doctrina consonat aperte superioribus dictis ab Auctore in
+<lb ed="#L" n="49"/>qu. Lxv, art. 6, ad 3, et dictis in qu. rxvir, art. 2.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e740">
+                  <lb ed="#L" n="50"/>Ad obiecta ergo in oppositum dicitur quod secundum
+<lb ed="#L" n="51"/>veritatem sententia iniusta non est sententia, et est nulla:
+<lb ed="#L" n="52"/>sed apud iuristas et sententia iniusta communius sumitur,
+<lb ed="#L" n="53"/>ut dictum est; et rursus etiam sententia iniusta ex causa
+<lb ed="#L" n="54"/>apud eos non semper est nulla. Quia ad publicam seu
+<lb ed="#L" n="55"/>manifestam notitiam ipsi respiciunt: morales autem ad 
+so<lb break="no" ed="#L" n="56"/>lam veritatem, dicendo quod nulla est in veritate. Unde
+<lb ed="#L" n="57"/>non interimitur ex hac doctrina distinctio iuristarum.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e760">
+                  <lb ed="#L" n="58"/>Non contradicit quoque doctrina haec sacris canonibus
+<lb ed="#L" n="59"/>decernentibus quod iniusta sententia sit timenda et 
+execu<lb break="no" ed="#L" n="60"/>tioni mandanda, ut cap. Pastoralis, de Officio Deleg.,
+<lb ed="#L" n="61"/>dicitur. Quoniam hic vires sententiae iniustae traduntur:
+<lb ed="#L" n="62"/>ibi ex accidentibus circumstantiis, scilicet quia occulta seu
+<lb ed="#L" n="63"/>ambigua vel non manifesta iuri iniustitia est, subiectorum
+<lb ed="#L" n="64"/>officium determinatur, quod scilicet, ante manifeste 
+propa<lb break="no" ed="#L" n="65"/>latam iniustitiam, timenda est aut exequenda est a subditis.
+</p>
+               <p xml:id="TAcCaj-d1e1634-d1e780">
+                  <lb ed="#L" n="66"/>Et ex his sequitur quod si mihi constet in me esse
+<lb ed="#L" n="67"/>prolatam sententiam excommunicationis iniustam , si non
+<lb ed="#L" n="68"/>possum aliter meam innocentiam tueri, simpliciter vel pro
+<lb ed="#L" n="69"/>nunc, possum interim, evitato scandalo, interesse secreto
+<lb ed="#L" n="70"/>loco divinis et celebrare; et eadem ratione, illi qui 
+nove<lb break="no" ed="#L" n="71"/>runt me virum bonae conscientiae et credunt me 
+inno<lb break="no" ed="#L" n="72"/>centem, quamvis sciant me excommunicatum, possunt mihi
+<lb ed="#L" n="73"/>servire in missa aut participare alias in divinis, secreto
+<lb ed="#L" n="74"/>tamen. Quoniam sic faciendo et timetur iniusta sententia
+<lb ed="#L" n="75"/>ac executioni mandatur in publico; et satisfit iudicio 
+hu<lb break="no" ed="#L" n="76"/>mano iudicanti quae foris sunt, dum manifeste vident quod
+<lb ed="#L" n="77"/>non contemnitur Ecclesiae auctoritas; et non privatur 
+in<lb break="no" ed="#L" n="78"/>nocens omnino spiritualibus consolationibus animae suae,
+<lb ed="#L" n="79"/>qui in veritate non est excommunicatus, quia in veritate
+<lb ed="#L" n="80"/>sententia iniusta non est sententia.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

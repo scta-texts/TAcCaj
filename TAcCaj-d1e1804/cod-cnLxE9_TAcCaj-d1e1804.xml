@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 103</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 103</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="379"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1804"><!-- TAcCajp2p2-q103" -->
+            <head xml:id="TAcCaj-d1e1804-Hd1e101">Quaestio 103</head>
+            <div xml:id="TAcCaj-d1e1804-Dd1e103"><!-- caj-p2p2-q103a1" -->
+               <head xml:id="TAcCaj-d1e1804-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1804-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13" type="fixed=378"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>IN articulo primo quaestionis centesimaetertiae nota duo.
+<lb ed="#L" n="15"/>Primo, in responsione ad primum, quod reverentia nec
+<lb ed="#L" n="16"/>est adaequatum motivum ad honorandum, nec est 
+adae<lb break="no" ed="#L" n="17"/>quatus finis honoris: quoniam et aliqui moventur ad 
+ho<lb break="no" ed="#L" n="18"/>norandum non ex reverentia, sed ex amore, ut patet cum
+<lb ed="#L" n="19"/>superiores honorant inferiores quosdam; et multi honorant
+<lb ed="#L" n="20"/>solum ut honorem debitum itipendant. Sed distinctio inter
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="21"/>reverentiam. et. honorem satis manifesta est in littera ex
+<lb ed="#L" n="22"/>hoc quod quandoque est Rupgipium ». et quandoque fnis .
+<lb ed="#L" n="23"/>onoris.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e144">
+                  <lb ed="#L" n="24"/>Secundo, in responsione ad. viuis Pn qua gold
+<lb ed="#L" n="25"/>et. pulchro debitum est ut manifestetur, ideo tam 
+commu<lb break="no" ed="#L" n="26"/>nis est appetitus gloriae, quasi debitae cuilibet: aestimanti
+<lb ed="#L" n="27"/>in se bonum aut pulsi aliquid rei vel operis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1804-Dd1e156"><!-- caj-p2p2-q103a3" -->
+               <head xml:id="TAcCaj-d1e1804-Hd1e159">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1804-d1e161">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="93" type="fixed=379"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e168">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>In articulo tertio eiusdem quaestionis, omisso secundo,
+<lb ed="#L" n="95"/>nota, in corpore articuli, quod Deus non solum est maior
+<lb ed="#L" n="96"/>Dominus quam homo, quia Dominus universorum est :
+<lb ed="#L" n="97"/>sed est alia ratione Dominus, quia est Dominus totius 
+cu<lb break="no" ed="#L" n="98"/>iusque rei, utpote Creator totius; homo autem non. Unde |
+<lb ed="#L" n="99"/>servitus hominis ad Deum est secundum totum id quod |
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="100"/>quomodolibet est. Errat autem, inquit Hieronymus de
+<lb ed="#L" n="101"/>servis hominum , qui servitutem in totum hominem 
+de<lb break="no" ed="#L" n="102"/>scendere putat. Tum propter libertatem mentis. Tum quia
+<lb ed="#L" n="103"/>materiae dominus non est homo, sed solus Deus, qui potest
+<lb ed="#L" n="104"/>annihilare animam et corpus.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e199">
+                  <lb ed="#L" n="105"/>II. In responsione ad tertium eiusdem tertii articuli,
+<pb ed="#L" n="380"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dubium primo est, an unaquaeque duarum responsionum
+<lb ed="#L" n="2"/>sit per se sufficiens.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e212">
+                  <lb ed="#L" n="3"/>Dubium secundo est, an ratio primae responsionis, 
+vi<lb break="no" ed="#L" n="4"/>delicet quia homo, quando honorat hominem, non semper
+<lb ed="#L" n="5"/>actu refert hoc in Deum, valeat. Et est ratio dubii quia
+<lb ed="#L" n="6"/>videtur peccare secundum 0n-causam ut causam. 
+Quo<lb break="no" ed="#L" n="7"/>niam non requiritur ad identitatem motus in imaginem et 
+<lb ed="#L" n="8"/>consistit in hoc quod creatura rationalis videtur ex uno
+<lb ed="#L" n="9"/>id cuius est imago, quod actu ille qui movetur referat in
+<lb ed="#L" n="10"/>id cuius est imago: ut patet de adorantibus imaginem
+<lb ed="#L" n="11"/>Christi et sanctorum mente evagata; constat enim quod
+<lb ed="#L" n="12"/>non actu referunt ad id cuius est imago suam 
+venera<lb break="no" ed="#L" n="13"/>tionem.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e239">
+                  <lb ed="#L" n="14"/>Dubium tertio est, quo pacto verificetur quod reverentia 
+<lb ed="#L" n="15"/>quae exhibetur ipsi Deo, nullo modo pertinet ad eius imagi- |
+<lb ed="#L" n="16"/>nem: cum statim Auctor, in sequentis calce articuli, dicat |
+<lb ed="#L" n="17"/>quod eodem honore Christus et eius crux honoratur.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e250">
+                  <lb ed="#L" n="18"/>Dubium quarto est, an venerari hominem inquantum
+<lb ed="#L" n="19"/>est imago Dei, referendo hoc actualiter in Deum, spectet
+<lb ed="#L" n="20"/>ad latriam, vel duliam. Et est ratio dubii quia, sicut praeter
+<lb ed="#L" n="21"/>amicitias proprias quibus amamus proximos ut patrem, ut
+<lb ed="#L" n="22"/>concivem, ut commilitonem, ut amicum, etc., est caritatis
+<lb ed="#L" n="23"/>amicitia, qua amamus in proximo Deum: - quare non, 
+prae<lb break="no" ed="#L" n="24"/>ter proprias venerationes quibus colimus patrem, principes,
+<lb ed="#L" n="25"/>excellentes viros, etc,, datur una veneratio qua colamus
+<lb ed="#L" n="26"/>Deum in hominibus et in omnibus creaturis, tanquam
+<lb ed="#L" n="27"/>in imagine et vestigio suo? - Et augetur dubium. Quia
+<lb ed="#L" n="28"/>sicut datur unum vitium, puta blasphemia, qua 
+blasphe<lb break="no" ed="#L" n="29"/>matur Deus et in se et in qualibet creatura; ita debet dari
+<lb ed="#L" n="30"/>unus honor quo et in se et creaturis omnibus honoretur
+<lb ed="#L" n="31"/>Deus gloriosus, omnium Creator.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e283">
+                  <lb ed="#L" n="32"/>III. Ad evidentiam horum, nosse oportet duplex esse
+<lb ed="#L" n="33"/>genus imaginis: nam quaedam sunt quae secundum seipsas
+<lb ed="#L" n="34"/>sunt capaces honoris; quaedam vero quae honoris capaces
+<lb ed="#L" n="35"/>non sunt nisi ut exercent imaginis officium. Et quoniam
+<lb ed="#L" n="36"/>capacia honoris non sunt quae a virtutis capacitate aliena
+<lb ed="#L" n="37"/>sunt, cum Aonor sit praemium virtutis; consequens est
+<lb ed="#L" n="38"/>ut non nisi rationalia, seu intellectualia, sint secundum
+<lb ed="#L" n="39"/>seipsa honoris capacia. Inter imaginem ergo Dei in natura
+<lb ed="#L" n="40"/>intellectuali, et in rebus aliis, haec est differentia, quod
+<lb ed="#L" n="41"/>id quod constituit in creatura rationali imaginem divinam,
+<lb ed="#L" n="42"/>constituendo imaginem constituit ipsam creaturam 
+secun<lb break="no" ed="#L" n="43"/>dum seipsam honorabilem: id vero quod constituit 
+ima<lb break="no" ed="#L" n="44"/>ginem divinam in aliis, non constituit creaturam, nisi ut
+<lb ed="#L" n="45"/>imaginis exercet officium, honorabilem.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e316">
+                  <lb ed="#L" n="46"/>In praesenti igitur proposito utraque responsio de 
+ima<lb break="no" ed="#L" n="47"/>gine secundum se honorabili sermonem habet. Et: prima
+<lb ed="#L" n="48"/>quidem responsio ex parte imaginis se tenet; secunda vero
+<lb ed="#L" n="49"/>ex parte eius cuius est imago. Prima namque distinguit
+<lb ed="#L" n="50"/>duplicem animi motum in imaginem, scilicet secundum se,
+<lb ed="#L" n="51"/>et inquantum est imago. Et sufficienter evacuat 
+argumen<lb break="no" ed="#L" n="52"/>tum subiungendo quod dulia est motus in rationalem 
+crea<lb break="no" ed="#L" n="53"/>turam secundum seipsam, hoc est secundum quod ipsa est
+<lb ed="#L" n="54"/>secundum seipsam honorabilis. — Secunda autem responsio
+<lb ed="#L" n="55"/>etiam evacuat argumentum, dicendo quod licet dulia 
+quo<lb break="no" ed="#L" n="56"/>dammodo redundet in Deum, non est tamen latria, quia
+<lb ed="#L" n="57"/>latria ita exhibetur Deo quod non illi creaturae cui debetur
+<lb ed="#L" n="58"/>dulia.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e347">
+                  <lb ed="#L" n="59"/>Et per hoc patet responsio ad primum dubium.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e352">
+                  <lb ed="#L" n="60"/>IV. Ad secundum vero dubium dicitur quod Auctor per
+<lb ed="#L" n="61"/>referre actu in Deum non intendit referre actualiter 
+co<lb break="no" ed="#L" n="62"/>gitando de Deo: sed intendit de actu ut commune 
+quod<lb break="no" ed="#L" n="63"/>dam est actualiter et virtualiter (hoc est virtute primae
+<lb ed="#L" n="64"/>intentionis) referre. Ita quod vocatur actu referre in Deum
+<lb ed="#L" n="65"/>ille qui ab initio hoc intendit, quamvis in prosecutione 
+nun<lb break="no" ed="#L" n="66"/>quam amplius de Deo cogitet: sicut etiam in 
+sacramen<lb break="no" ed="#L" n="67"/>tis dicitur quis actu intentionem consecrandi habere qui
+<lb ed="#L" n="68"/>accessit ad altare intentione celebrandi, licet, quando 
+con<lb break="no" ed="#L" n="69"/>secrat, actualiter evagetur. Huiusmodi autem actualis 
+re<lb break="no" ed="#L" n="70"/>latio est vera causa distinctiva motus in imaginem 
+secun<lb break="no" ed="#L" n="71"/>dum se, et motus in imaginem inquantum imago. Et. 
+pro<lb break="no" ed="#L" n="72"/>pterea veram dedit rationem quare dulia non terminatur
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="73"/>ad Deum in homine sed ad hominem: quia non cadit
+<lb ed="#L" n="74"/>sub intentione exhibentis homini duliam honorare Deum
+<lb ed="#L" n="75"/>in homine, sed hominem ipsum.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e392">
+                  <lb ed="#L" n="76"/>Ad tertium autem dubium dicendum est post 
+discus<lb break="no" ed="#L" n="77"/>sionem quartae dubitationis: quoniam ex illius pendet
+<lb ed="#L" n="78"/>claritate.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e401">
+                  <lb ed="#L" n="79"/>V. Ad quartum igitur dubium dicitur quod difficultas
+<lb ed="#L" n="80"/>consistit in hoc quod creatura rationalis videtur ex uno
+<lb ed="#L" n="81"/>et eodem constituta honorabilis dupliciter, videlicet et 
+se<lb break="no" ed="#L" n="82"/>cundum seipsam, et secundum quod est imago. Dei: nam
+<lb ed="#L" n="83"/>ex hoc ipso quod est rationalis, est secundum seipsam
+<lb ed="#L" n="84"/>virtutis capax, et imago Dei. Et quia secundum seipsam
+<lb ed="#L" n="85"/>honoratur dulia, videtur quod secundum quod est imago
+<lb ed="#L" n="86"/>veneranda sit latria, ita quod Deus in ipsa honoretur,
+<lb ed="#L" n="87"/>iuxta illud Augustini, in Regula, ZZonorate in vobis Deum
+<lb ed="#L" n="88"/>invicem: alioquin imago Dei in creatura rationali esset 
+de<lb break="no" ed="#L" n="89"/>terioris conditionis quam imago eius in statua vel pictura
+<lb ed="#L" n="90"/>inquantum imago. Et quoniam eadem est ratio de 
+vesti<lb break="no" ed="#L" n="91"/>gio in creaturis aliis, nisi quod non constituuntur 
+hono<lb break="no" ed="#L" n="92"/>rabiles secundum se, sed solum ratione repraesentati (idem
+<lb ed="#L" n="93"/>namque est motus in vestigium ut sic, et in id cuius est
+<lb ed="#L" n="94"/>vestigium), ideo oportet communem rationem reddere.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e438">
+                  <lb ed="#L" n="95"/>Videtur mihi quod dicenda sunt duo. Primum est. quod
+<lb ed="#L" n="96"/>latria de facto non exhibetur, nec est exhibenda creaturae
+<lb ed="#L" n="97"/>cuicumque rationali, etiam inquantum est imago Dei. Et
+<lb ed="#L" n="98"/>hoc dicere videtur Auctor in littera in secunda 
+respon<lb break="no" ed="#L" n="99"/>sione, dicendo quod reverentia quae ipsi Deo debetur,
+<lb ed="#L" n="100"/>nullo modo pertinet ad. eius imaginem. Loquitur enim de 
+<lb ed="#L" n="101"/>imagine inquantum motus in ipsam est motus in id cuius
+<lb ed="#L" n="102"/>est imago. 
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e458">
+                  <lb ed="#L" n="103"/>Secundum est quod communis ratio huius dicti est
+<lb ed="#L" n="104"/>evitatio erroris: ne scilicet Deo soli debitum honorem 
+crea<lb break="no" ed="#L" n="105"/>turae videamur impendere. Ex hac namque ratione nec
+<lb ed="#L" n="106"/>creaturis irrationabilibus inquantum repraesentant Deum,
+<lb ed="#L" n="107"/>nec creaturis rationabilibus inquantum similes sunt Deo,
+<lb ed="#L" n="108"/>divinum honorem impendimus: ut fugiamus scilicet 
+er<lb break="no" ed="#L" n="109"/>rorem colentium omnes mundi partes, et errorem 
+exhi<lb break="no" ed="#L" n="110"/>bentium hominibus divinos honores. Sicut enim Ecclesia
+<lb ed="#L" n="111"/>humanitatem Christi secundum seipsam non adorat dulia,
+<lb ed="#L" n="112"/>sed Christo exhibet latriam, dicendo illi, Miserere mobis,
+<lb ed="#L" n="113"/>et nunquam, Ora pro nobis, ne occasionem errandi ex 
+hu<lb break="no" ed="#L" n="114"/>iusmodi distinctione sumant filii, et praecipue minus docti
+<lb ed="#L" n="115"/>et idiotae; ita in proposito divinum honorem negat 
+ra<lb break="no" ed="#L" n="116"/>tionalibus imaginibus et vestigiis deitatis, ne ex huiusmodi
+<lb ed="#L" n="117"/>adoratione occasionem errandi sumant populi.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e493">
+                  <lb ed="#L" n="118"/>Concludendum ergo videtur: quod si quis. creaturam 
+ve<lb break="no" ed="#L" n="119"/>neraretur inquantum est similitudo vel vestigium Dei, hoc
+<lb ed="#L" n="120"/>est, quod veneraretur Deum in creatura hac vel illa, latriae
+<lb ed="#L" n="121"/>cultum exhiberet non creaturae, sed Deo in creatura, sicut
+<lb ed="#L" n="122"/>et blasphematur Deus in creatura et amatur. Et hoc 
+pro<lb break="no" ed="#L" n="123"/>bant rationes allatae. Sed quoniam obiecta haec annexam
+<lb ed="#L" n="124"/>habent occasionem erroris, ideo exhibendus non 'est honor
+<lb ed="#L" n="125"/>latriae istiusmodi imaginibus, et vestigiis ut sic.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e513">
+                  <lb ed="#L" n="126"/>VI. Nunc ad tertium dubium dicitur quod, cum imago
+<lb ed="#L" n="127"/>Dei inveniatur quasi triplex: primo, pictura seu statua ad
+<lb ed="#L" n="128"/>repraesentandum Deum, ut quotidie in ecclesia videmus;
+<lb ed="#L" n="129"/>secundo, ipsa rationalis creatura secundum seipsam
+<lb ed="#L" n="130"/>enim secundum seipsam imago repraesentans Deum); tertio,
+<lb ed="#L" n="131"/>ipsa rationalis creatura ut relata in Deum; — Auctor in
+<lb ed="#L" n="132"/>littera non intendit de prima imagine, ut instantia obicit
+<lb ed="#L" n="133"/>de cruce: sed directe intendit de secunda, cuius veneratio
+<lb ed="#L" n="134"/>redundat secundum quendam modum in Deum, pro quanto
+<lb ed="#L" n="135"/>eius est imago id quod honoratur. Et indirecte verificatur
+<lb ed="#L" n="136"/>de tertia: propter utriusque concursum in identitatem 
+for<lb break="no" ed="#L" n="137"/>malem fundamenti utriusque imaginis; vel, rectius 
+lo<lb break="no" ed="#L" n="138"/>quendo, imaginis utroque modo sumptae. Et tunc est
+<lb ed="#L" n="139"/>sensus quod nullo.modo absque occasione erroris spectat
+<lb ed="#L" n="140"/>ad eius imaginem latriae reverentia. Etenim, si honor 
+ima<lb break="no" ed="#L" n="141"/>gini sic sumptae impenderetur, non redundaret 
+quodam<lb break="no" ed="#L" n="142"/>indo in Deum, sed directe tenderet simpliciter et. 
+ab<lb break="no" ed="#L" n="143"/>solute.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1804-Dd1e556"><!-- caj-p2p2-q103a4" -->
+               <head xml:id="TAcCaj-d1e1804-Hd1e559">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1804-d1e561">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62" type="fixed=381"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e568">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>In articulo quarto eiusdem quaestionis centesimaetertiae 
+du<lb break="no" ed="#L" n="64"/>bium occurrit, quoniam Auctor videtur oblitus sui, dum
+<lb ed="#L" n="65"/>hoc in loco ponit observantiam esse virtutem genericam,
+<lb ed="#L" n="66"/>dicendo quod dulia est una specierum observantiae: in
+<lb ed="#L" n="67"/>primo autem articulo quaestionis praecedentis, ex propo- |
+<lb ed="#L" n="68"/>sito posuit observantiam esse virtutem specialem, distinctam
+<lb ed="#L" n="69"/>contra pietatem, religionem et iustitiam.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e588">
+                  <lb ed="#L" n="70"/>Ad hoc dicitur quod Auctor non dixit observantiam
+<lb ed="#L" n="71"/>esse virtutem specialem specie specialissima. Sat enim est |
+<lb ed="#L" n="72"/>intento suo quod sit; specialis specie subalterna. Et hoc
+<lb ed="#L" n="73"/>ibi.insinuavit dicendo quod ad observantiam spectat 
+ve<lb break="no" ed="#L" n="74"/>nerari principem, ducem ac magistrum, quos diversa 
+ra<lb break="no" ed="#L" n="75"/>tione constat honorari.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e604">
+                  <lb ed="#L" n="76"/>II. Sed tunc insurgunt dubia duo. Primum est quod
+<lb ed="#L" n="77"/>nulla haberetur propria virtus ad cultum exhibendum 
+prin<lb break="no" ed="#L" n="78"/>cipibus nostris: quia observantia genus est ad omnes 
+spe<lb break="no" ed="#L" n="79"/>cies, quarum alia princeps, alia dux, etc., colitur.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e616">
+                  <lb ed="#L" n="80"/>Secundum est quod nulla esset species observantiae ad
+<lb ed="#L" n="81"/>quam pertineret venerari hominem propter virtutem eius.
+<lb ed="#L" n="82"/>Et est ratio sequelae quia in littera illius articuli, in 
+re<lb break="no" ed="#L" n="83"/>sponsione ad secundum, dicitur quod talis cultus spectat
+<lb ed="#L" n="84"/>ad eandem virtutem. Sed nulla est eadem in specie virtus
+<lb ed="#L" n="85"/>colens omines in dignitate constitutos. Ergo nulla una se-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="86"/>cundum speciem virtus est cuius sit colere hominem 
+pro<lb break="no" ed="#L" n="87"/>pter virtutem illius.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e638">
+                  <lb ed="#L" n="88"/>III. Sed primum horum solvi potest, primo, 
+conce<lb break="no" ed="#L" n="89"/>dendo quod nulla specierum observantiae est nominata,
+<lb ed="#L" n="90"/>nisi dulia et hyperdulia..— Secundo, dicendo quod sicut
+<lb ed="#L" n="91"/>dispositio est nomen genericum ad habitum et 
+dispositio<lb break="no" ed="#L" n="92"/>nem, et est nomen specificum dispositionis distinctae 
+con<lb break="no" ed="#L" n="93"/>tra habitum; ita observantia et est nomen genericum 
+com<lb break="no" ed="#L" n="94"/>mune ad omnes observantiae species, et est etiam nomen
+<lb ed="#L" n="95"/>specificum illius speciei qua colitur caput civitatis. - Et
+<lb ed="#L" n="96"/>quia de nominibus quaestio haec est, sive sic sit sive non,
+<lb ed="#L" n="97"/>parvi refert.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e662">
+                  <lb ed="#L" n="98"/>Secunda autem dubitatio solvitur dicendo quod, proprie
+<lb ed="#L" n="99"/>loquendo, honorare hominem propter virtutem qua dignus
+<lb ed="#L" n="100"/>est ducatu, spectat ad illam observantiae speciem cuius
+<lb ed="#L" n="101"/>est colere ducem; et honorare hominem propter virtutem
+<lb ed="#L" n="102"/>qua dignus est ut sit caput civitatis, pertinet ad illam 
+ob<lb break="no" ed="#L" n="103"/>servantiae speciem quae colit caput civitatis; et sic de
+<lb ed="#L" n="104"/>aliis. Et sic semper verificatur dictum Auctoris quod 
+spe<lb break="no" ed="#L" n="105"/>ctant ad eandem virtutem, ad quam scilicet spectat colere
+<lb ed="#L" n="106"/>illum dignitatis statum. Et quoniam nulla est virtus quae
+<lb ed="#L" n="107"/>non habilitet hominem ad aliquem dignitatis statum, vel
+<lb ed="#L" n="108"/>saltem ad illum referat ut adiutorem vel ministrum, etc. ;
+<pb ed="#L" n="382"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ideo nulla est observantiae species ponenda propter 
+ho<lb break="no" ed="#L" n="2"/>norem exhibendum homini ob virtutem, sed sufficiunt 
+vir<lb break="no" ed="#L" n="3"/>tutes quarum est colere personas in dignitate constitutas :
+<lb ed="#L" n="4"/>quoniam earundem est colere omnes personas ad 
+dignita<lb break="no" ed="#L" n="5"/>tem illam quomodolibet spectantes.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e704">
+                  <lb ed="#L" n="6"/>IV. In responsione ad secundum, nota quod coniunctio
+<lb ed="#L" n="7"/>secundum carnalem consanguinitatem ad humanitatem. 
+as<lb break="no" ed="#L" n="8"/>sumptam a Verbo Dei, vocatur in littera affinitas ad Deum.
+<lb ed="#L" n="9"/>Ita quod consanguinei Christi inquantum homo, sunt 
+af<lb break="no" ed="#L" n="10"/>fines Dei, ea ratione qua Deus deitatis est nomen. Quae
+<lb ed="#L" n="11"/>nulli est consanguinea: sed natura humana ab extra ad
+<lb ed="#L" n="12"/>deitatis fines attigit, quasi uxor ab extra adveniens, in tha-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>lamo uteri virginalis. Et ideo genitrix illius affinis Deo 
+con<lb break="no" ed="#L" n="14"/>stituta dicitur. - Non omnibus tamen huiusmodi affinibus
+<lb ed="#L" n="15"/>hyperdulia debetur, cum eorum quidam sint forte damnati,
+<lb ed="#L" n="16"/>de quibus scriptum est, Neque enim fratres eius 
+cre<lb break="no" ed="#L" n="17"/>debant in eum: sed soli Beatae Virgini, quae sola ad fines
+<lb ed="#L" n="18"/>deitatis propria operatione naturali attigit, dum Deum 
+con<lb break="no" ed="#L" n="19"/>cepit, peperit ac genuit, et lacte proprio pavit.
+</p>
+               <p xml:id="TAcCaj-d1e1804-d1e739">
+                  <lb ed="#L" n="20"/>V. In responsione ad tertium eiusdem quarti articuli,
+<lb ed="#L" n="21"/>nota quod directe est hic sermo de cruce illa in qua 
+Chri<lb break="no" ed="#L" n="22"/>stus est passus. Illa enim non solum ut imago, sicut ceterae
+<lb ed="#L" n="23"/>cruces; sed ut coniuncta Christo, eodem honore quo 
+Chri<lb break="no" ed="#L" n="24"/>stus, sicut rex et eius purpura, venerari dicitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

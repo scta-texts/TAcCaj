@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 80</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 80</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="175"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1685"><!-- TAcCajp2p2-q80" -->
+            <head xml:id="TAcCaj-d1e1685-Hd1e101">Quaestio 80</head>
+            <div xml:id="TAcCaj-d1e1685-Dd1e103"><!-- caj-p2p2-q80a1" -->
+               <head xml:id="TAcCaj-d1e1685-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1685-d1e108">
+                  <pb ed="#L" n="176"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=176"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1685-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo unico quaestionis octogesimae dubium  
+oc<lb break="no" ed="#L" n="3"/>currit circa responsionem ad primum, pro quanto ibi
+<lb ed="#L" n="4"/>dicitur quod vindicta quae fit a iudice spectat ad 
+com<lb break="no" ed="#L" n="5"/>mutativam iustitiam, vindicta autem quam quis a iudice
+<lb ed="#L" n="6"/>requirit pertinet ad virtutem adiunctam, hoc est ad 
+vin<lb break="no" ed="#L" n="7"/>dicationem. Videtur namque quod implicet repugnantia.
+<lb ed="#L" n="8"/>Nam eadem est vindicta quam quis requirit a iudice, et
+<lb ed="#L" n="9"/>quam iudex facit. Et consequenter si facta est 
+commuta<lb break="no" ed="#L" n="10"/>tivae iustitiae, ergo et requisita: et si requisita non est
+<lb ed="#L" n="11"/>iustitiae commutativae sed adiunctae, ergo nec facta.
+</p>
+               <p xml:id="TAcCaj-d1e1685-d1e143">
+                  <lb ed="#L" n="12"/>Ad hoc breviter dicitur quod distinctio vindictae non
+<lb ed="#L" n="13"/>est accipienda realiter, ac si oporteat esse duas vindictas,
+<lb ed="#L" n="14"/>alteram a commutativa, alteram a vindicatione: sed est
+<lb ed="#L" n="15"/>intelligenda relative, quod scilicet vindicta pro quanto 
+red<lb break="no" ed="#L" n="16"/>dit peccanti aequale in poena, pertinet ad iustitiam com-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>mutativam; pro quanto autem immunem reddit personam
+<lb ed="#L" n="18"/>ab illata sibi iniuria, pertinet ad vindicationem, ut inferius
+<lb ed="#L" n="19"/>qu. cvi patet. Et quia a parte petitur ut immunis 
+red<lb break="no" ed="#L" n="20"/>datur, ideo dicitur quod spectat ad vindicationem. Et 
+quo<lb break="no" ed="#L" n="21"/>niam a iudice fit ob aequalitatem faciendam, ideo 
+dici<lb break="no" ed="#L" n="22"/>tur quod pertinet ad commutativam iustitiam.
+</p>
+               <p xml:id="TAcCaj-d1e1685-d1e172">
+                  <lb ed="#L" n="23"/>In eodem articulo octogesimae quaestionis, in 
+respon<lb break="no" ed="#L" n="24"/>sione ad tertium, nota diligentissime illud, scilicet: Fides,
+<lb ed="#L" n="25"/>qua fiunt dicta, includitur in veritate. Quoniam inferius,
+<lb ed="#L" n="26"/>cum de virtute veritatis tractabitur, examinanda sunt, et
+<lb ed="#L" n="27"/>de fide tractandum est.
+</p>
+               <p xml:id="TAcCaj-d1e1685-d1e186">
+                  <lb ed="#L" n="28"/>In eodem articulo nota quantum profecerit Auctor a
+<lb ed="#L" n="29"/>tempore quo scripsit articulum ultimum qu. ur, dist. xxxii,
+<lb ed="#L" n="30"/>in III Sent. Distant enim haec ab illis ut lux clara a 
+sub<lb break="no" ed="#L" n="31"/>obscura. Quare haec sequere.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 98</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 98</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="343"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1778"><!-- TAcCajp2p2-q98" -->
+            <head xml:id="TAcCaj-d1e1778-Hd1e101">Quaestio 98</head>
+            <div xml:id="TAcCaj-d1e1778-Dd1e103"><!-- caj-p2p2-q98a1" -->
+               <head xml:id="TAcCaj-d1e1778-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1778-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9" type="fixed=342"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>In articulo primo quaestionis nonagesimaeoctavae dubium
+<lb ed="#L" n="11"/>occurrit de eo quod dicitur in corpore: Finis iuramenti 
+<lb ed="#L" n="12"/>est confirmatio dicti humani. Videtur enim hoc adversari, 
+<lb ed="#L" n="13"/>primo, veritati. Quia actus latriae, ut est iuramentum, non 
+<lb ed="#L" n="14"/>ordinatur ad confirmationem humani dicti ut ad finem:
+<lb ed="#L" n="15"/>quia nobilius non habet pro fine id quod est minus 
+no<lb break="no" ed="#L" n="16"/>bile; divina autem sunt nobiliora humanis. — Deinde, 
+su<lb break="no" ed="#L" n="17"/>pra dictis in qu. rxxxix, art. 4, ad 3, ubi Auctor, tractans
+<lb ed="#L" n="18"/>quod confirmatio dicti humani sit finis iuramenti, 
+oppo<lb break="no" ed="#L" n="19"/>situm sentit eius quod hic dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e141">
+                  <lb ed="#L" n="20"/>Ad hoc dicitur ex Auctore superius, in resp. ad i
+<lb ed="#L" n="21"/>art. 4, qu. Lxxxix, quod in iuramento duo considerantur.
+<lb ed="#L" n="22"/>Primo, testimonium quod inducitur: et hoc est divinum.
+<lb ed="#L" n="23"/>Et ex hac parte iuramentum est actus latriae: et finis eius
+<lb ed="#L" n="24"/>est divina reverentia. Et hoc ordinatur ad confirmationem
+<lb ed="#L" n="25"/>humani dicti non ut ad finem, sed ut honestum ad utile.
+<lb ed="#L" n="26"/>Secundo, id quod facit necessitatem inducendi 
+testimo<lb break="no" ed="#L" n="27"/>nium: et hoc est humanum. Et ex hac parte iuramentum
+<lb ed="#L" n="28"/>ordinatur ad confirmationem humani dicti ut ad finem.
+<lb ed="#L" n="29"/>Quia igitur confirmatio dicti est et ratio utilitatis et finis 
+ne<lb break="no" ed="#L" n="30"/>cessitatis iuramenti; ac per hoc, est tota ratio quare sit
+<lb ed="#L" n="31"/>licitum iuramentum: ideo in littera hac Auctor ex hoc fine
+<lb ed="#L" n="32"/>deduxit periurium consistere primo in falsitate. Actus 
+si<lb break="no" ed="#L" n="33"/>quidem humani ex fine suae necessitatis et ratione suae
+<lb ed="#L" n="34"/>utilitatis ad convivendum inter homines, iudicantur.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e176">
+                  <lb ed="#L" n="35"/>II. In responsione ad primum eiusdem articuli, adverte
+<lb ed="#L" n="36"/>quod Auctor omne illicitum iuramentum, quia vocatur
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="37"/>periurium a Hieronymo, reducit ad falsum aliquo modo:
+<lb ed="#L" n="38"/>ut sic falsitas sit non solum principalis ratio periurii, sed
+<lb ed="#L" n="39"/>communis lues omnium periuriorum. Et licet ita sit, quod
+<lb ed="#L" n="40"/>in omni illicito iuramento desit aliquo modo veritas: vel
+<lb ed="#L" n="41"/>quia deest in potentia periculosa, ut in iuramento 
+indis<lb break="no" ed="#L" n="42"/>creto; vel quia deest in obligatione, quia scilicet 
+obliga<lb break="no" ed="#L" n="43"/>tur ad contrarium, hoc est ad falsificandum dictum suum,
+<lb ed="#L" n="44"/>ut cum quis iurat illicitum, aut non obligatur ad illud
+<lb ed="#L" n="45"/>verificandum, quamvis iuret, ut cum iurat non facere 
+bo<lb break="no" ed="#L" n="46"/>num supererogationis; vel deest veritas in intentione, ut
+<lb ed="#L" n="47"/>cum quis mendaciter iurat, aut, si veraciter iurat, mentitur
+<lb ed="#L" n="48"/>in executione: — proprie tamen et formaliter loquendo de
+<lb ed="#L" n="49"/>periurio, sola falsitas orationis, cognita vel neglecta, 
+con<lb break="no" ed="#L" n="50"/>stituit periurium. Quoniam iuramentum directe Deum in
+<lb ed="#L" n="51"/>testimonium orationis quam iurans dicit inducit: et 
+pro<lb break="no" ed="#L" n="52"/>pterea oportet orationem et esse et cognosci veram; et
+<lb ed="#L" n="53"/>si est promissoria, ultra hoc oportet dare operam ad illam
+<lb ed="#L" n="54"/>verificandam. Ex tribus ergo comitibus iuramenti, 
+so<lb break="no" ed="#L" n="55"/>lius veritatis defectus culpabilis constituit periurium 
+sim<lb break="no" ed="#L" n="56"/>pliciter. Iudicii autem et iustitiae defectus constituit 
+per<lb break="no" ed="#L" n="57"/>iurium secundum quid, propter dictam rationem, ut 
+am<lb break="no" ed="#L" n="58"/>plius manifestabitur.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e234">
+                  <lb ed="#L" n="59"/>In responsione ad tertium eiusdem articuli, adverte quod
+<lb ed="#L" n="60"/>cum quis iurat id quod in re est falsum, putans esse 
+ve<lb break="no" ed="#L" n="61"/>rum, si adhibuit debitam diligentiam, excusatur a peccato
+<lb ed="#L" n="62"/>periurii.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1778-Dd1e246"><!-- caj-p2p2-q98a2" -->
+               <head xml:id="TAcCaj-d1e1778-Hd1e249">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1778-d1e251">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25" type="fixed=343"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e258">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>In articulis secundo et tertio simul eiusdem quaestionis
+<lb ed="#L" n="27"/>nonagesimaeoctavae, dubium occurrit non dissimulandum
+<lb ed="#L" n="28"/>de doctrina Auctoris. Nam si iungatur articulus articulo,
+<lb ed="#L" n="29"/>apparet Auctorem docere quod omne illicitum iuramentum
+<lb ed="#L" n="30"/>est periurium, in primo articulo; et omne periurium est
+<lb ed="#L" n="31"/>peccatum, in secundo articulo; et quod omne periurium est
+<lb ed="#L" n="32"/>peccatum mortale, in tertio articulo. Si haec doctrina 
+su<lb break="no" ed="#L" n="33"/>scipitur, haberemus quod quicumque indiscrete iurat quam
+<lb ed="#L" n="34"/>verissimum, peccat mortaliter: quod a nemine acceptari
+<lb ed="#L" n="35"/>videtur. Et quod qui iurat de aliquo faciendo quod est
+<lb ed="#L" n="36"/>veniale, puta de dicendo mendacio iocoso, quod peccat
+<lb ed="#L" n="37"/>mortaliter: quod valde durum videtur.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e289">
+                  <lb ed="#L" n="38"/>II. Ad hoc dicitur quod periurium dicitur dupliciter :
+<lb ed="#L" n="39"/>scilicet simpliciter, vel secundum quid. Et vocatur 
+periu<lb break="no" ed="#L" n="40"/>rium simpliciter et absolute id quod directe contrariatur
+<lb ed="#L" n="41"/>fini iuramenti. Ita quod licet in iuramento multae possint
+<lb ed="#L" n="42"/>inveniri deformitates, sola illa deformitas quae contrariatur
+<lb ed="#L" n="43"/>primo fini iuramenti, constituit speciem peccati periurii:
+<lb ed="#L" n="44"/>iam enim didicimus quod ex fine proprio specificantur
+<lb ed="#L" n="45"/>actus humani, tam boni quam mali. Proprius autem finis
+<lb ed="#L" n="46"/>iuramenti est confirmatio humani dicti: ita quod ad hoc
+<lb ed="#L" n="47"/>directe Deus inducitur testis ut quod dicitur firmum sit,
+<lb ed="#L" n="48"/>fultum divino testimonio, multo plus quam si esset 
+ful<lb break="no" ed="#L" n="49"/>tum testimonio mille hominum quantumcumque gravium.
+<lb ed="#L" n="50"/>Et quoniam firmitas ex teste, quoad assertorias orationes,
+<lb ed="#L" n="51"/>non facit aliud quam firmare sic esse ut dicitur; et 
+quan<lb break="no" ed="#L" n="52"/>tum ad promissorias, sic futurum esse ut dicitur; et in hoc
+<lb ed="#L" n="53"/>consistit ratio veri, scilicet sic esse vel non esse, fore vel
+<lb ed="#L" n="54"/>xw. non fore, ut patet IV Metaphys.: ideo fini iuramenti sola
+<lb ed="#L" n="55"/>falsitas illa qua aut falsum dicitur, aut falsificatur quod
+<lb ed="#L" n="56"/>vere promissum fuit, contrariatur. Utraque namque falsitas,
+<lb ed="#L" n="57"/>et solae hae duae tollunt finem iuramenti: prima namque
+<lb ed="#L" n="58"/>falsitas contrariatur firmitati assertoriae orationis; secunda
+<lb ed="#L" n="59"/>autem firmitati orationis promissoriae, quoniam ad hoc
+<lb ed="#L" n="60"/>directe firmatur promissoria oratio ut verificetur in 
+exe<lb break="no" ed="#L" n="61"/>cutione.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e344">
+                  <lb ed="#L" n="62"/>Reliquas vero Mormdtates iuramenti finem iuramenti
+<lb ed="#L" n="63"/>non tollere manifestatur. Nam et iurare per falsos deos
+<lb ed="#L" n="64"/>finem iuramenti non tollit: quoniam salvatur ibi bonum
+<lb ed="#L" n="65"/>fidelitatis, qua verum dicitur. — Et iurare indiscrete, si 
+ve<lb break="no" ed="#L" n="66"/>rum dicitur, finem iuramenti non tollit: quia salvatur ibi
+<lb ed="#L" n="67"/>confirmatio dicti humani. — Et iurare super re iniqua finem
+<lb ed="#L" n="68"/>iuramenti non tollit: quia salvatur ibi confirmatio dicti
+<lb ed="#L" n="69"/>humani quantum ad veritatem, quamvis non salvetur ibi
+<lb ed="#L" n="70"/>confirmatio dicti humani quantum ad obligationem ad 
+ma<lb break="no" ed="#L" n="71"/>teriam veritatis. Quando namque quis iurat committere
+<lb ed="#L" n="72"/>homicidium cum animo occidendi, invocatur tunc Deus in
+<lb ed="#L" n="73"/>testem veritatis praesentis in intentione, et verificationis ac
+<lb ed="#L" n="74"/>veritatis futurae in executione, et non invocatur in testem
+<lb ed="#L" n="75"/>confirmativum obligationis ad occidendum. Tum quia 
+ob<lb break="no" ed="#L" n="76"/>ligatio ibi nulla est. Tum quia testis non inducitur ad 
+fir<lb break="no" ed="#L" n="77"/>mandam obligationem, sed ad firmandam veritatem 
+locu<lb break="no" ed="#L" n="78"/>tionis, in quacumque materia sit, sive sit obligativa sive
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="79"/>non. Constat autem quod et veritas praesentis et futurae
+<lb ed="#L" n="80"/>iniquitatis, et veritas adimpletionis iniquitatis, bonum 
+quod<lb break="no" ed="#L" n="81"/>dam est testificabile a Deo: ac per hoc, locutio humana
+<lb ed="#L" n="82"/>haec dicens est confirmabilis divino testimonio. Sicut enim
+<lb ed="#L" n="83"/>cum assertorie iurat quis, Testis est mihi Deus quod odio
+<lb ed="#L" n="84"/>habeo proximum, super veritate actus iniqui, quo 
+actua<lb break="no" ed="#L" n="85"/>liter peccat mortaliter, et quem tenetur de necessitate 
+sa<lb break="no" ed="#L" n="86"/>lutis evitare, Deum testem invocat absque periurio; ita
+<lb ed="#L" n="87"/>cum iurat promissorie, Testis est mihi Deus quod occidam,
+<lb ed="#L" n="88"/>super veritate futuri actus iniqui, quem tenetur de 
+neces<lb break="no" ed="#L" n="89"/>sitate salutis evitare, iurat absque periurio. Nullum est enim
+<lb ed="#L" n="90"/>hic mendacium, quamvis sit iniquitas. Et propterea 
+iura<lb break="no" ed="#L" n="91"/>mentum tale dicitur malum non defectu veritatis, sed 
+de<lb break="no" ed="#L" n="92"/>fectu iustitiae. Propter quod, iurans facere rem iniquam
+<lb ed="#L" n="93"/>sine animo faciendi illam, est periurus, quia est ibi ratio
+<lb ed="#L" n="94"/>periurii, scilicet mendacium iuramento firmatum: iurans
+<lb ed="#L" n="95"/>autem idem cum animo faciendi non est periurus absolute,
+<lb ed="#L" n="96"/>quia non est ibi mendacium iuramento firmatum, sed 
+ve<lb break="no" ed="#L" n="97"/>ritas iniquitatis iuramento firmata. Peccat tamen mortaliter,
+<lb ed="#L" n="98"/>si iurat committere mortale, non peccato periurii 
+simpli<lb break="no" ed="#L" n="99"/>Citer, sed secundum quid. Et magis proprie diceretur quod
+<lb ed="#L" n="100"/>iuramenti additio gravat peccatum illud, quam quod 
+consti<lb break="no" ed="#L" n="101"/>tuat novam peccati speciem: quia non apparet ibi species
+<lb ed="#L" n="102"/>periurii, sed quaedam irreverentia iuramenti, pro quanto
+<lb ed="#L" n="103"/>applicatur ad materiam quae non est confirmabilis quoad
+<lb ed="#L" n="104"/>obligationem. Venialiter autem peccat si iurat se 
+commis<lb break="no" ed="#L" n="105"/>surum veniale, aut non facturum opus supererogationis
+<lb ed="#L" n="106"/>extra casum necessitatis , propter eandem rationem: quia
+<lb ed="#L" n="107"/>scilicet ibi non est species periurii, sed irreverentia, minor
+<lb ed="#L" n="108"/>tamen; est enim etiam materia ista non confirmabilis quoad
+<lb ed="#L" n="109"/>operationem exequendam.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e454">
+                  <lb ed="#L" n="110"/>III. Et ut melius haec intelligantur, advertendum est
+<lb ed="#L" n="111"/>quod iuramentum habet duplicem vim: scilicet 
+testificati<lb break="no" ed="#L" n="112"/>vam, et obligativam. Inter quas est haec differentia, quod
+<lb ed="#L" n="113"/>vis testificativa est iuramento essentialis: nam iurare est
+<lb ed="#L" n="114"/>Deum in testem invocare. Et haec vis testificativa 
+indif<lb break="no" ed="#L" n="115"/>ferenter se habet ad quamcumque materiam: quoniam 
+re<lb break="no" ed="#L" n="116"/>spicit directe id quod est testificabile, quod est 
+quodcum<lb break="no" ed="#L" n="117"/>que verum, in quacumque materia sit. Unde vis 
+testifica<lb break="no" ed="#L" n="118"/>tiva pertinet ad intellectum et cognitionem testis, cuius
+<lb ed="#L" n="119"/>est obiectum verum. Et propterea fit iniuria directe Deo
+<lb ed="#L" n="120"/>si invocatur testis mendacii: quoniam aut attribuitur Deo
+<lb ed="#L" n="121"/>quod ignoret veritatem ; aut quod, sciendo verum, abuti
+<lb ed="#L" n="122"/>velit scientia sua mentiendo, per hoc quod attestaretur pro
+<lb ed="#L" n="123"/>mendacio tanquam vero. Et ex hoc patet quod vis 
+testi<lb break="no" ed="#L" n="124"/>ficativa in iuramento necessario fert secum vim 
+obligati<lb break="no" ed="#L" n="125"/>vam iurantis ad veritatem dicti ad quod Deum testem 
+in<lb break="no" ed="#L" n="126"/>ducit, sive locutio sit de praeterito sive de praesenti sive
+<lb ed="#L" n="127"/>de futuro, sive de bono sive de malo: manifeste siquidem
+<lb ed="#L" n="128"/>iniuriam faceret mentiens testimonio divino, ut deductum
+<lb ed="#L" n="129"/>est; et finis proprius iuramenti, qui est confirmatio dicti
+<lb ed="#L" n="130"/>humani quoad veritatem, tolleretur. Et propterea esset 
+pec<lb break="no" ed="#L" n="131"/>catum mortale.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e504">
+                  <pb ed="#L" n="344"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Sed praeter hanc obligationem ad veritatem locutionis,
+<lb ed="#L" n="2"/>quae est proxima materia iuramenti, consurgit, sed non
+<lb ed="#L" n="3"/>semper et necessario sed quandoque, iuxta materiam 
+locu<lb break="no" ed="#L" n="4"/>tionis, una alia obligatio in iurante, scilicet obligatio ad
+<lb ed="#L" n="5"/>verificandum quod dicitur. Et hoc non habet locum nisi
+<lb ed="#L" n="6"/>in locutione promissoria materiae licitae. Nec vis ista est
+<lb ed="#L" n="7"/>alia a vi testificativa secundum essentiam, sed secundum 
+ef<lb break="no" ed="#L" n="8"/>fectum: quoniam vis obligatoria ad veritatem affuturae 
+exe<lb break="no" ed="#L" n="9"/>cutionis consistit in hoc quod Deus invocatur testis futurae
+<lb ed="#L" n="10"/>veritatis. Sed quia materia futurae veritatis quandoque 
+ini<lb break="no" ed="#L" n="11"/>qua est, et divinum testimonium non debet esse vinculum
+<lb ed="#L" n="12"/>iniquitatis; ideo vis haec obligatoria ad verificandum 
+fu<lb break="no" ed="#L" n="13"/>turum, nullum habet effectum quando non habet materiam
+<lb ed="#L" n="14"/>capacem. Prima autem vis semper habet suum effectum,
+<lb ed="#L" n="15"/>in quacumque materia fiat.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e543">
+                  <lb ed="#L" n="16"/>Ex his autem patet quod iuramentum duplicem 
+firmi<lb break="no" ed="#L" n="17"/>tatem dicto humano praestat: scilicet firmitatem veritatis
+<lb ed="#L" n="18"/>nunc; et firmitatem obligationis ad verificandum futurum.
+<lb ed="#L" n="19"/>Primam dat ex vi testificativa simpliciter et absolute: 
+se<lb break="no" ed="#L" n="20"/>cundam dat in tali materia, scilicet promissoria, Et si 
+qui<lb break="no" ed="#L" n="21"/>dem iuramentum induceretur simpliciter et absolute ad
+<lb ed="#L" n="22"/>constituendam utramque firmitatem, sicut est mortale 
+ap<lb break="no" ed="#L" n="23"/>ponere iuramentum materiae non confirmabili quoad 
+ve<lb break="no" ed="#L" n="24"/>ritatem, scilicet mendacio, ut cum mendacium iuramento
+<lb ed="#L" n="25"/>firmatur; ita esset mortale apponere iuramentum 
+promis<lb break="no" ed="#L" n="26"/>sioni iuramento non confirmabili quoad obligationem, ut
+<lb ed="#L" n="27"/>cum quis iurat facere illicitum aut non facere bonum 
+su<lb break="no" ed="#L" n="28"/>pererogationis: quoniam utrobique tolleretur finis 
+iura<lb break="no" ed="#L" n="29"/>menti, ibi firmitas veritatis, hic firmitas obligationis. Et 
+pro<lb break="no" ed="#L" n="30"/>pter hanc rationem iudicari videtur periurium quando quis
+<lb ed="#L" n="31"/>iurat facere malum, aut omittere bonum supererogationis.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e580">
+                  <lb ed="#L" n="32"/>Sed iuramentum cum nihil aliud sit quam Deum in
+<lb ed="#L" n="33"/>testem inducere; et constet quod testes non inducuntur
+<lb ed="#L" n="34"/>ad vinculum obligationis inducendum, sed ad 
+testimo<lb break="no" ed="#L" n="35"/>nium perhibendum veritati et non ad aliud, in 
+quacum<lb break="no" ed="#L" n="36"/>que materia sit et respectu cuiuscumque differentiae 
+tem<lb break="no" ed="#L" n="37"/>poris: consequens est quod sola confirmatio dicti humani
+<lb ed="#L" n="38"/>quoad veritatem sit finis inductionis Dei in testem; ac
+<lb ed="#L" n="39"/>per hoc, falsitas dicti humani sola contrarietur veritati
+<lb ed="#L" n="40"/>et eius firmitati, tollatque finem iuramenti. Confirmatio
+<lb ed="#L" n="41"/>autem obligationis promissoriae in iurante non est finis
+<lb ed="#L" n="42"/>proprius iuramenti, sed consequens ad ipsum iuramentum
+<lb ed="#L" n="43"/>in materia disposita. Et propterea, licet nonnulla 
+irreve<lb break="no" ed="#L" n="44"/>rentia sit apponere iuramentum materiae eius remotae 
+ha<lb break="no" ed="#L" n="45"/>benti repugnantiam respectu firmitatis obligationis, ac per
+<lb ed="#L" n="46"/>hoc impedienti eam quae sequeretur ex iuramento 
+firmi<lb break="no" ed="#L" n="47"/>tatem obligationis; quia tamen materia proxima iuramenti,
+<lb ed="#L" n="48"/>quae est oratio vera, est materia non repugnans, non 
+tol<lb break="no" ed="#L" n="49"/>litur finis proprius iuramenti: quia vere confirmatur 
+huma<lb break="no" ed="#L" n="50"/>num dictum quoad veritatem praesentem et futuram, 
+quan<lb break="no" ed="#L" n="51"/>tum est ex intentione invocantis Deum in testem utriusque
+<lb ed="#L" n="52"/>veritatis; et Deus vere potest utriusque testis esse, quamvis
+<lb ed="#L" n="53"/>non inferat invocatio ista vinculum in iurante ad 
+verifican<lb break="no" ed="#L" n="54"/>dum futurum. Et ideo non est periurii species nisi sit 
+men<lb break="no" ed="#L" n="55"/>dacium iuramento firmatum.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e635">
+                  <lb ed="#L" n="56"/>IV. Attestatur autem huic doctrinae quoniam pro 
+de<lb break="no" ed="#L" n="57"/>finitione periurii communiter acceptatur quod est menda-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="58"/>cium iuramanto firmatum, et ex lII Sent., dist. xxxix.
+<lb ed="#L" n="59"/>Nec Auctor docet hic oppositum. Quoniam Auctor 
+ex<lb break="no" ed="#L" n="60"/>presse in articulo primo periurium falsitate constituit; et
+<lb ed="#L" n="61"/>in secundo peccatum periurii contra reverentiam divinam
+<lb ed="#L" n="62"/>decernit propter falsitatem orationis, ut patet ex ratione
+<lb ed="#L" n="63"/>quam affert, scilicet quod vel Deus veritatem non 
+cogno<lb break="no" ed="#L" n="64"/>scai, vel falsitatem testificari velit; et propterea in tertio
+<lb ed="#L" n="65"/>articulo dicit quod omne periurium. est mortale. Intendit
+<lb ed="#L" n="66"/>siquidem Auctor de periurio simpliciter et absolute, quod
+<lb ed="#L" n="67"/>est mendacium iuramento firmatum, cui deest veritas: et
+<lb ed="#L" n="68"/>non de periurio secundum quid, quod est periurium ex
+<lb ed="#L" n="69"/>defectu iudicii aut iustitiae. In cuius signum, Auctor in
+<lb ed="#L" n="70"/>articulo secundo, in responsione ad primum, dicit: Qui
+<lb ed="#L" n="71"/>iurat se facturum aliquid illicitum, incurrit periurium
+<lb ed="#L" n="72"/>propter defectum iustitiae: et non dicit absolute, incurrit
+<lb ed="#L" n="73"/>periurium, sed cum illa additione, propter defectum 
+iu<lb break="no" ed="#L" n="74"/>stitiae. Et similiter dicit in responsione ad secundum, de
+<lb ed="#L" n="75"/>iurante super promissione indiscreta, quod zZncurrit 
+periu<lb break="no" ed="#L" n="76"/>rium propter defectum iudicii: et non dixit absolute, 
+in<lb break="no" ed="#L" n="77"/>currit periurium.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e687">
+                  <lb ed="#L" n="78"/>IN articulo secundo, nota diligenter responsionem ad 
+ter<lb break="no" ed="#L" n="79"/>tium quomodo interpretanda sunt iuramenta et 
+obliga<lb break="no" ed="#L" n="80"/>tiones ad mandatum alterius subeundum.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e697">
+                  <lb ed="#L" n="81"/>Et diligentissime, in responsione ad quartum, illam 
+re<lb break="no" ed="#L" n="82"/>gulam: Juramentum est actio personalis. Quoniam ex hoc
+<lb ed="#L" n="83"/>sequitur quod non transit in secundam personam. Et 
+pro<lb break="no" ed="#L" n="84"/>pterea, licet heres teneatur solvere debitum quod pater 
+iu<lb break="no" ed="#L" n="85"/>ravit solvere, non tamen tenetur ex iuramento, sed quia
+<lb ed="#L" n="86"/>heres, Et similiter si procurator iuravit in causa aliqua,
+<lb ed="#L" n="87"/>licet principalis teneatur quia principalis, non tamen 
+te<lb break="no" ed="#L" n="88"/>netur ex vi iuramenti facti a suo procuratore. Et similiter
+<lb ed="#L" n="89"/>si episcopatus, aut quodcumque aliud officium aut quaevis
+<lb ed="#L" n="90"/>dignitas, habeat multa iuramenta annexa, videlicet quod
+<lb ed="#L" n="91"/>acceptans hoc est obligatus ad hoc et illud et consuevit
+<lb ed="#L" n="92"/>firmari obligatio iuramento, si aliquis absque iuramento
+<lb ed="#L" n="93"/>acceptet, non tenetur ad illa ex iuramento praedecessorum.
+<lb ed="#L" n="94"/>Et si non esset aliud vinculum obligans ad illa nisi 
+iura<lb break="no" ed="#L" n="95"/>mentum, esset omnino liber ab illis obligationibus talis
+<lb ed="#L" n="96"/>persona: sed si est aliud vinculum obligans officium seu
+<lb ed="#L" n="97"/>dignitatem, puta vinculum statuti aut contractus, ratione
+<lb ed="#L" n="98"/>huiusmodi vinculi teneretur servare ille qui non iuravit.
+<lb ed="#L" n="99"/>Et haec dicta sunt ut facilius similia decernantur.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e741">
+                  <lb ed="#L" n="100"/>Non sis tamen ita rudis ut sic accipias iuramentum esse
+<lb ed="#L" n="101"/>actionem personalem quod nullo pacto possit exhiberi per
+<lb ed="#L" n="102"/>alium: quoniam constat quod contrahere matrimonium est
+<lb ed="#L" n="103"/>non minus actio personalis, et tamen potest per alium
+<lb ed="#L" n="104"/>contrahi per verba de praesenti. Sed intellige quod sicut
+<lb ed="#L" n="105"/>in coniugio contrahendo facit quis actionem personalem
+<lb ed="#L" n="106"/>alterius, dicendo, .Ego, nomine Martini, accipio te in 
+con<lb break="no" ed="#L" n="107"/>iugem; ita in iuramento potest dicere: Ego, nomine 
+Mar<lb break="no" ed="#L" n="108"/>tini, iuro sic fuisse, vel esse, vel fore. Et tunc ille solus
+<lb ed="#L" n="109"/>cuius nomine iuratur, tenetur ex vi iuramenti: qui autem
+<lb ed="#L" n="110"/>est minister seu procurator ad sic iurandum, in nullo 
+te<lb break="no" ed="#L" n="111"/>netur, si bona fide iuravit ut sibi commissum est, sive
+<lb ed="#L" n="112"/>assertorie sive promissorie;.sicut de procuratore ad 
+con<lb break="no" ed="#L" n="113"/>trahendum matrimonium patet.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1778-Dd1e775"><!-- caj-p2p2-q98a3" -->
+               <head xml:id="TAcCaj-d1e1778-Hd1e778">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1778-d1e780">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="77" type="fixed=345"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e787">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="78"/>In articulo tertio, in responsione ad primum, esset 
+tra<lb break="no" ed="#L" n="79"/>ctanda quaestio de iuramento coacto, nisi tractata fuisset
+<lb ed="#L" n="80"/>superius in qu. Lxxxrx, art. 7*.
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e798">
+                  <lb ed="#L" n="81"/>In responsione ad tertium ibidem, nota quod eum
+<lb ed="#L" n="82"/>qui non advertit se iurare excusat Auctor a mortali 
+tan<lb break="no" ed="#L" n="83"/>quam non exercentem iuramentum ut actum humanum.
+<lb ed="#L" n="84"/>Sed si quis propter continuam iurandi consuetudinem, tam
+<lb ed="#L" n="85"/>vere quam falso, in communi locutione, non advertit, non
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>excusatur a mortali. Quoniam inadvertentia excusans 
+per<lb break="no" ed="#L" n="87"/>iurium oportet quod sit causa periurii, hoc est, quod si
+<lb ed="#L" n="88"/>adverteret se periurare, non periuraret: in istis autem sic
+<lb ed="#L" n="89"/>assuetis ut dictum est, inadvertentia non est causa 
+periu<lb break="no" ed="#L" n="90"/>rii, sed solum concomitans periurium , nihil enim minus
+<lb ed="#L" n="91"/>periuraret si adverteret; concomitans autem inadvertentia
+<lb ed="#L" n="92"/>non excusat, sicut nec ignorantia, ut patet ex <ref xml:id="TAcCaj-d1e1778-Rd1e828">III Ethic.</ref>
+               </p>
+            </div>
+            <div xml:id="TAcCaj-d1e1778-Dd1e832"><!-- caj-p2p2-q98a4" -->
+               <head xml:id="TAcCaj-d1e1778-Hd1e835">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1778-d1e837">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="91" type="fixed=346"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1778-d1e844">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>IN articulo quarto, in responsione ad quartum, nota quod
+<lb ed="#L" n="93"/>peers liceat uti iuramento iurantis per falsos deos, non
+<lb ed="#L" n="94"/>tamen licet inducere etiam paratum ad iurandum per falsos
+<lb ed="#L" n="95"/>deos. Et idem est iudicium de quocumque alio crimine:
+<lb ed="#L" n="96"/>videlicet quod non licet aliquem, quantumcumque paratum,
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="97"/>ad crimen provocare aut incitare ad illud. Et omnium una
+<lb ed="#L" n="98"/>est communis ratio: quia digni sunt morte non solum qui
+<lb ed="#L" n="99"/>faciunt mala, sed etiam qui consentiunt facientibus. Et
+<lb ed="#L" n="100"/>idem est de cooperatoribus ad malum iudicium.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

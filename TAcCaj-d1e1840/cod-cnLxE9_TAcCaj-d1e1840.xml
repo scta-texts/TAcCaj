@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 110</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 110</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="427"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1840"><!-- TAcCajp2p2-q110" -->
+            <head xml:id="TAcCaj-d1e1840-Hd1e101">Quaestio 110</head>
+            <div xml:id="TAcCaj-d1e1840-Dd1e103"><!-- caj-p2p2-q110a1" -->
+               <head xml:id="TAcCaj-d1e1840-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1840-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29" type="fixed=422"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>IN titulo primi articuli quaestionis centesimaedecimae ;
+<lb ed="#L" n="31"/>nota quod quemadmodum, iuxta distinctionem habitam
+<lb ed="#L" n="32"/>in primo art. quaest. praecedentis, yeritati qua aliquid 
+dici<lb break="no" ed="#L" n="33"/>tur verum, opponitur semper falsitas; et ambae sunt in
+<lb ed="#L" n="34"/>intellectu; ita veritati quae est in voluntate, qua. quisque
+<lb ed="#L" n="35"/>vult dicere verum, opponi videtur mendacium tanquam
+<lb ed="#L" n="36"/>continens falsitatem , utpote quo quis vult dicere falsum.
+<lb ed="#L" n="37"/>Et propterea in divisione quaestionis huius Auctor, 
+pro<lb break="no" ed="#L" n="38"/>ponendo primum articulum, dixit: quasi continens: 
+falsita<lb break="no" ed="#L" n="39"/>tem. Vero enim cum non- contrarietur nisi. falsum, dicenti
+<lb ed="#L" n="40"/>ex proposito verum. is qui ex proposito dicit falsum, qui
+<lb ed="#L" n="41"/>mendax vocatur, opponi non quandoque, sed semper 
+vi<lb break="no" ed="#L" n="42"/>detur: et ideo in quaestionis articulum vertitur.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e148">
+                  <lb ed="#L" n="43"/>II. In articulo eodem dubium occurrit circa illa verba:
+<lb ed="#L" n="44"/>Unde bruta animalia, etsi aliquid manifestent, non tamen
+<lb ed="#L" n="45"/>manifestationem intendunt, sed naturali instinctu aliquid
+<lb ed="#L" n="46"/>agunt ad quod sequitur manifestatio. Nam aut littera per ly
+<lb ed="#L" n="47"/>intendunt intelligit intentionem proprie dictam, quae est
+<lb ed="#L" n="48"/>actus voluntatis. Et sic nihil dicit: quoniam constat bruta
+<lb ed="#L" n="49"/>non habere voluntatem. — Aut per ly intendunt intelligit
+<lb ed="#L" n="50"/>actum. appetitus animalis: quasi diceret : Non. tamen 
+ma<lb break="no" ed="#L" n="51"/>nifestationem appetunt animaliter, hoc. est, cognoscunt
+<lb ed="#L" n="52"/>et appetunt. Et sic falsum dicit, Quoniam bruta, 
+quem<lb break="no" ed="#L" n="53"/>admodum cognoscunt cognitione sensitiva et appetunt 
+co<lb break="no" ed="#L" n="54"/>medere et bibere, ita etiam manifestare affectus suos. Cuius
+<lb ed="#L" n="55"/>signum est quod si impediantur a manifestatione, nituntur
+<lb ed="#L" n="56"/>contra impedientes, sicut pugnant pro cibo. Laetitia quoque
+<lb ed="#L" n="57"/>praesentis manifestationis. attestatur. appetitui eiusdem abs-.
+<lb ed="#L" n="58"/>entis.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e185">
+                  <lb ed="#L" n="59"/>III. Ad huius evidentiam, sciendum est quod 
+univer<lb break="no" ed="#L" n="60"/>saliter quando aliquid fit propter finem, non solum 
+inve<lb break="no" ed="#L" n="61"/>niuntur ibi haec duo, videlicet finis et id quod ad ipsum
+<lb ed="#L" n="62"/>finem ordinatur, sed oportet inveniri ibi collationem. medii
+<lb ed="#L" n="63"/>ad finem: alioquin. non. magis fieret hoc quam aliud 
+pro<lb break="no" ed="#L" n="64"/>pter talem finem, Verum operatio. ad finem, et collatio
+<lb ed="#L" n="65"/>operis ad. finem, quamvis in opere semper concurrant 
+si<lb break="no" ed="#L" n="66"/>mul (impossibile est enim aliquid fieri propter finem nisi
+<lb ed="#L" n="67"/>sit collatam fini, an sit ei proportionatum seu conveniens),
+<lb ed="#L" n="68"/>in operante. tamen non semper: inveniuntur. coniuncta, sed
+<lb ed="#L" n="69"/>in aliquo operante. coniunguntur, et. in aliquo separantur.
+<lb ed="#L" n="70"/>In artificialibus siquidem apparet quod magister artis, puta
+<lb ed="#L" n="71"/>faber ferrarius facturus gladium, non solum ferrum 
+assu<lb break="no" ed="#L" n="72"/>mit propter gladium construendum; sed etiam confert '
+fer<lb break="no" ed="#L" n="73"/>rum cum fine, puta opere gladii, et propterea refutat 
+au<lb break="no" ed="#L" n="74"/>rum, et eligit ferrum ut idoneum ad talem finem, puta
+<lb ed="#L" n="75"/>incisionem :. et sic iunguntur. in. eodem .operante operari
+<lb ed="#L" n="76"/>propter finem, et conferre medium cum fine. In .
+natura<lb break="no" ed="#L" n="77"/>libus autem agentibus duo hi actus separati inveniuntur.
+<lb ed="#L" n="78"/>Nam agens naturale, puta arbor, habet unum actum, 
+vi<lb break="no" ed="#L" n="79"/>delicet operari propter finem, dum profert frondes propter
+<lb ed="#L" n="80"/>fructus protectionem: sed non habet alterum actum, .
+sci<lb break="no" ed="#L" n="81"/>licet conferre tale medium tali fini, ut patet, sed huius-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>modi collationis actus convenit Institutori et Directori 
+na<lb break="no" ed="#L" n="83"/>turae. Propter quod, opus naturae dicitur opus 
+intelligen<lb break="no" ed="#L" n="84"/>tiae. - Quando ergo invenitur in aliquo operari propter 
+fi<lb break="no" ed="#L" n="85"/>nem absque collatione, vocatur operari propter :
+<lb ed="#L" n="86"/>tive: quando vero invenitur in aliquo quod et operat
+<lb ed="#L" n="87"/>pter finem. et confert unum cum altero, vocatur «
+<lb ed="#L" n="88"/>imperative seu directive.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e256">
+                  <lb ed="#L" n="89"/>Et sicut contingunt haec in naturalibus, ita et in his
+<lb ed="#L" n="90"/>quae ad animam spectant sentiendum est: non enim omnis
+<lb ed="#L" n="91"/>anima collativa. est, sed rationalis tantum. Isti igitur actus
+<lb ed="#L" n="92"/>animae de quibus est sermo, scilicet enuntiare, manifestare
+<lb ed="#L" n="93"/>et repraesentare, exigunt in primis haec duo, scilicet signum
+<lb ed="#L" n="94"/>et signatum: nam oportet enuntiantem aliquo signo 
+enun<lb break="no" ed="#L" n="95"/>tiare, et similiter manifestantem et repraesentantem. Et
+<lb ed="#L" n="96"/>exigunt deinde collationem signi ad signatum: alioquin non .
+<lb ed="#L" n="97"/>assumeretur magis unum quam aliud signum ad 
+signifi<lb break="no" ed="#L" n="98"/>candum tale quid. Concurrentibus autem ad 
+manifestatio<lb break="no" ed="#L" n="99"/>nis rationem duobus extremis, scilicet signo et signato, et
+<lb ed="#L" n="100"/>collatione eorundem, ut in littera dicitur, spectandum est
+<lb ed="#L" n="101"/>quod inter bruta et rationalia haec est differentia in 
+pro<lb break="no" ed="#L" n="102"/>posito, quod brutis convenit manifestare affectus suos per
+<lb ed="#L" n="103"/>signa. sic quod non conferunt signa signatis: unde non 
+eli<lb break="no" ed="#L" n="104"/>gunt ad significandum aliquid magis unum. signum que
+<lb ed="#L" n="105"/>aliud, sed iuxta naturae instinctum quodlibet illorum 
+si<lb break="no" ed="#L" n="106"/>gnum profert sui affectus manifestativum. Homines autem
+<lb ed="#L" n="107"/>per signa sic manifestant quae in ipsis sunt, ut conferant
+<lb ed="#L" n="108"/>quod sit idoneum signum ad tale quid significandum, nunc,
+<lb ed="#L" n="109"/>huic, et tunc, etc, Et propterea bruta affectus. suos. 
+ma<lb break="no" ed="#L" n="110"/>nifestant executive tantum, Auctoris autem naturae et 
+in<lb break="no" ed="#L" n="111"/>stinctus eorum est conferre illorum signa ad signata: 
+ho<lb break="no" ed="#L" n="112"/>mines autem manifestant quae in ipsis sunt imperative et
+<lb ed="#L" n="113"/>directive. Et haec est differentia in littera intenta,
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e313">
+                  <lb ed="#L" n="114"/>Cum ergo dicitur: Quid intelligit per ly intendunt? 
+re<lb break="no" ed="#L" n="115"/>spondetur quod intelligit appetere animaliter. Et quod 
+ma<lb break="no" ed="#L" n="116"/>nifestare eodem modo appetitur a brutis quo iin Dmm
+<lb ed="#L" n="117"/>est convenire. Et quia non convenit eis manifestationis
+<lb ed="#L" n="118"/>actus nisi executive, ideo non appeetitur ab eis nisi 
+execu<lb break="no" ed="#L" n="119"/>tive. Hoc autem non est. appetere manifestationis actum.
+<lb ed="#L" n="120"/>nisi materialiter: quoniam: de ratione manifestationis in actu
+<lb ed="#L" n="121"/>exercito est collatio, in actu exercito, quae a brutorum. cc
+<lb ed="#L" n="122"/>gnitione et appetitu aliena est. Manifestant igitur bruta ue
+<lb ed="#L" n="123"/>signa affectus suos sicut naturalia operantur propter finem.
+<lb ed="#L" n="124"/>Et quia non conferunt signa signatis, sicut nec naturalia
+<lb ed="#L" n="125"/>media ad finem, ideo dicuntur non appetere appetitu 
+ani<lb break="no" ed="#L" n="126"/>mali manifestare formaliter; sicut nec unquam possunt 
+ma<lb break="no" ed="#L" n="127"/>nifestare formaliter.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e346">
+                  <lb ed="#L" n="128"/>IV. In eodem articulo adverte glossam notabilem super
+<lb ed="#L" n="129"/>vulgata definitione mendacii, scilicet quod est falsa vocis
+<lb ed="#L" n="130"/>significatio cum voluntate fallendi, ex Augustino, XXII,
+<lb ed="#L" n="131"/>qu. rr, cap. Beatus: videlicet quod ly fallendi exponitur,
+<lb ed="#L" n="132"/>hoc est, falsum dicendi, si per essentialia tantum definitio
+<lb ed="#L" n="133"/>est accipienda, ut in littera. dicitur,
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1840-Dd1e363"><!-- caj-p2p2-q110a2" -->
+               <head xml:id="TAcCaj-d1e1840-Hd1e366">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1840-d1e368">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15" type="fixed=424"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e375">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>In articulo secundo eiusdem centesimaedecimae 
+quaestio<lb break="no" ed="#L" n="17"/>nis nota duo. Primum est quod speciale quid invenitur
+<lb ed="#L" n="18"/>in. oppositis ; virtuti. veritatis, scilicet. quod. habet. unum
+<lb ed="#L" n="19"/>primo. oppositum, videlicet mendacium, sub quo, tanquam
+<lb ed="#L" n="20"/>genere, continentur alia opposita, puta iactantia et ironia:
+<lb ed="#L" n="21"/>cum aliarum virtutum in medio duarum malitiarum 
+exi<lb break="no" ed="#L" n="22"/>stentium , opposita assignentur immediate extrema, ut 
+li<lb break="no" ed="#L" n="23"/>beralitati avaritia! et" prodigalitas, et sic de aliis. Accidit
+<lb ed="#L" n="24"/>autem hoc. forte quia innominatum: est in aliis genus 
+pro<lb break="no" ed="#L" n="25"/>ximum utriusque vitii extremi; in hac autem materia 
+no<lb break="no" ed="#L" n="26"/>minatur mendacium (ut continet etiam in se simulationem)
+<lb ed="#L" n="27"/>genus proximum utriusque vitii extremi oppositi veritati,
+<lb ed="#L" n="28"/>ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e408">
+                  <lb ed="#L" n="29"/>Secundum est quod de ratione mendacii perniciosi est
+<lb ed="#L" n="30"/>intentio. nocendi, ut in littera dicitur: sicut de ratione 
+men<lb break="no" ed="#L" n="31"/>dacii iocosi est intentio delectandi, et de ratione officiosi
+<lb ed="#L" n="32"/>est intentio utilitatem afferendi. Et quoniam moralia 
+se<lb break="no" ed="#L" n="33"/>cundum intentum finem maxime pensantur et formaliter
+<lb ed="#L" n="34"/>considerantur, hinc habes quod sicut detrahens nom 
+inten<lb break="no" ed="#L" n="35"/>tione detrahendi, non formaliter detrahit, nec peccat mor-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="36"/>taliter nisi forte per accidens, ratione nocumenti illati: ita
+<lb ed="#L" n="37"/>proferens mendacium perniciosum non animo. nocendi, 
+li<lb break="no" ed="#L" n="38"/>cet sit formaliter mendax, non tamen est formaliter mendax
+<lb ed="#L" n="39"/>perniciosus; nec peccat mortaliter,nisi forte per. accidens;
+<lb ed="#L" n="40"/>ratione scilicet materiae, puta quia in doctrina fidei 
+men<lb break="no" ed="#L" n="41"/>titur; vel ratione damni in audiente, puta quia, credendo,
+<lb ed="#L" n="42"/>commisit post mortale; vel in jneiitngbt alio notabiliter
+<lb ed="#L" n="43"/>propterea laesus quis est.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e445">
+                  <lb ed="#L" n="44"/>II. In. eodem. secundo. articulo dniiens novitiorum 
+oc<lb break="no" ed="#L" n="45"/>currit, quo pacto. mendacium. iocosum. ex. intentione 
+dele<lb break="no" ed="#L" n="46"/>ctandi, et similiter officiosum ex intentione boni minuatur : :
+<lb ed="#L" n="47"/>cum semper remaneat mendacium, ac per hoc, in sua 
+pra<lb break="no" ed="#L" n="48"/>vitate, quam habet ex suo genere. '
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e459">
+                  <lb ed="#L" n="49"/>Ad hoc dicitur quod quia bonum additum malo, etsi
+<lb ed="#L" n="50"/>illud. non tollat, minuit tamen illius culpam (minus enim
+<lb ed="#L" n="51"/>culpabilis invenitur qui malum propter bonum, quam qui
+<lb ed="#L" n="52"/>absolute malum facit: quoniam ibi ratio faciendi bona
+<lb ed="#L" n="53"/>iungitur), idcirco dicta mendacia alleviantur, non tolluntur:
+<lb ed="#L" n="54"/>hoc est, non sunt tantae culpae cum dictis intentionibus
+<lb ed="#L" n="55"/>bonis quantae sunt absolute prolata.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1840-Dd1e478"><!-- caj-p2p2-q110a3" -->
+               <head xml:id="TAcCaj-d1e1840-Hd1e481">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1840-d1e483">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18" type="fixed=426"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e490">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>IN articulo tertio eiusdem quaestionis nota duo. Primo, 
+<lb ed="#L" n="20"/>1resrouiianktk ad quintum, in qua Auctor meminit 
+vir<lb break="no" ed="#L" n="21"/>tutis fidei quam reduci ad virtutem veritatis in qu. rxxx
+<lb ed="#L" n="22"/>dixerat. Sed in fine huius tractatus, scilicet de veritate
+<lb ed="#L" n="23"/>et illius oppositis, nos dicemus quod Deus dabit.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e506">
+                  <lb ed="#L" n="24"/>Secundo, in responsione ad sextum, quod mendacium 
+<lb ed="#L" n="25"/>iocosum potest dupliciter sumi: scilicet formaliter, et 
+ma<lb break="no" ed="#L" n="26"/>terialiter. Et vocatur in proposito materialiter, quando tota 
+<lb ed="#L" n="27"/>locutio tenetur materialiter: sicut cum aliquis narrat unam
+<lb ed="#L" n="28"/>fabellam, aperiens se narrare fabellam. Et sic dicens infinita
+<lb ed="#L" n="29"/>mendacia iocosa in nullo peccat, si causa delectandi, quando
+<lb ed="#L" n="30"/>oportet et ubi oportet, etc., dicit. Quoniam hoc quod est
+<lb ed="#L" n="31"/>falsum dicere cum intentione falsum dicendi, non cadit sub
+<lb ed="#L" n="32"/>locutione eius nisi materialiter: et hoc nec ex ipso genere
+<lb ed="#L" n="33"/>operis natum est fallere, sed delectationem afferre tantum.
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>Formaliter autem mentitur qui sermone falso utitur
+<lb ed="#L" n="35"/>causa delectandi: sive serio, ut cum quis fingit in suo 
+ser<lb break="no" ed="#L" n="36"/>mone aliquid alicui accidisse, ut delectetur infirmus qui
+<lb ed="#L" n="37"/>novit illum, putando illud esse verum; sive iocose, ut cum
+<lb ed="#L" n="38"/>quis in suo sermone aliquid fingit ut delectet audientes,
+<lb ed="#L" n="39"/>sive credant sive non, in suspenso, quantum ex se est,
+<lb ed="#L" n="40"/>reliquens an verum an falsum dicat; quo fit ut aliqui ex
+<lb ed="#L" n="41"/>faceta inventione prolata, aliqui ex credita, aut quasi 
+cre<lb break="no" ed="#L" n="42"/>dita, delectentur. Et quocumque horum modorum accidat,
+<lb ed="#L" n="43"/>est proprie mendacium iocosum. Et quantum est ex 
+na<lb break="no" ed="#L" n="44"/>tura operis, natum est fallere: quamvis contingat quod
+<lb ed="#L" n="45"/>quandoque nec ex intentione dicentis, nec ex modo dicendi
+<lb ed="#L" n="46"/>fallat, ut patet in ultimo modo. Et quia ex natura operis
+<lb ed="#L" n="47"/>natum est fallere, ideo formaliter exercens illud peccat ve- .
+<lb ed="#L" n="48"/>nialiter.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1840-Dd1e566"><!-- caj-p2p2-q110a4" -->
+               <head xml:id="TAcCaj-d1e1840-Hd1e569">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1840-d1e571">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="99" type="fixed=427"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e578">
+                  <lb ed="#L" n="100"/>IN articulo quarto eiusdem centesimaedecimae quaestionis
+<lb ed="#L" n="101"/>dubium occurrit, quia praesens distinctio videtur 
+adver<lb break="no" ed="#L" n="102"/>sari doctrinae habitae in art. 2 huius quaestionis. Nam ibi
+<lb ed="#L" n="103"/>dictum est quod distinctio mendacii per se non est in
+<lb ed="#L" n="104"/>mendacium perniciosum, officiosum et iocosum, sed ista
+<lb ed="#L" n="105"/>distinctio attenditur secundum finem intentum, aggravan-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="106"/>tem vel alleviantem: hic vero mendacium perniciosum
+<lb ed="#L" n="107"/>ponitur et in mendacio secundum se, et in mendacio 
+ra<lb break="no" ed="#L" n="108"/>tione finis intenti, puta nocumenti. Quomodo stant ista
+<lb ed="#L" n="109"/>simul? Si enim mendacium perniciosum definitur penes
+<lb ed="#L" n="110"/>finem nocumenti intenti, ut ibi dictum est, quo pacto
+<lb ed="#L" n="111"/>hic duplex mendacii perniciosi genus ponitur, scilicet ex
+<pb ed="#L" n="428"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nocumento intento, et secundum se? Et e contra, si se:
+<lb ed="#L" n="2"/>cundum se invenitur perniciosum, ergo non ex solo 
+no<lb break="no" ed="#L" n="3"/>cumento intento.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e620">
+                  <lb ed="#L" n="4"/>II. Ad hoc dicitur quod finis vitiosi actus est duplex:
+<lb ed="#L" n="5"/>intrinsecus, et extrinsecus. Verbi gratia, finis detractionis
+<lb ed="#L" n="6"/>intrinsecus est detrahere famae: finis vero extrinsecus esset
+<lb ed="#L" n="7"/>damnum in divitiis, si hoc quis detrahendo intenderet. Et
+<lb ed="#L" n="8"/>sicut detractio dupliciter potest esse peccatum mortale, 
+sci<lb break="no" ed="#L" n="9"/>licet ex fine intrinseco, ut si quis detrahat cum animo 
+in<lb break="no" ed="#L" n="10"/>famandi; et ex solo fine extrinseco, ut si quis animo 
+damni<lb break="no" ed="#L" n="11"/>ficandi proximum in statu vel divitiis detrahat in aliquo
+<lb ed="#L" n="12"/>minimo: ita in proposito mendacium dupliciter dicitur 
+pec<lb break="no" ed="#L" n="13"/>catum mortale, scilicet ex fine intrinseco, et ex fine 
+extrin<lb break="no" ed="#L" n="14"/>seco. Et quia finis intrinsecus mendacii in. communi est
+<lb ed="#L" n="15"/>dicere falsum, ut ex definitione mendacii patet; consequens
+<lb ed="#L" n="16"/>est ut finis intrinsecus mendacii in tali materia sit dicere
+<lb ed="#L" n="17"/>falsum in tali materia. Ac per hoc, qui mentitur ut dicat
+<lb ed="#L" n="18"/>falsum nocivum divinis sive humanis, hic mendacium et
+<lb ed="#L" n="19"/>perniciosum et mortale incurrit ex fine intrinseco intento
+<lb ed="#L" n="20"/>contra caritatem Dei aut proximi. Qui vero mentitur ut
+<lb ed="#L" n="21"/>dicat falsum, quidquid sit illud, ut noceat divinis aut 
+hu<lb break="no" ed="#L" n="22"/>manis, hic etiam perniciosum mendacium et mortale 
+in<lb break="no" ed="#L" n="23"/>currit ex extrinseco fine intento contra caritatem Dei vel
+<lb ed="#L" n="24"/>proximi. Et hanc distinctionem manifeste intendit littera,
+<lb ed="#L" n="25"/>probans hoc secundum membrum ex hoc quod sola 
+inten<lb break="no" ed="#L" n="26"/>tio peccandi mortaliter constituit peccatum mortale: quasi
+<lb ed="#L" n="27"/>diceret quod licet mendacium tale ex propriis non sit 
+mor<lb break="no" ed="#L" n="28"/>tale, ex sola intentione extranei mortalis fit mortale.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e677">
+                  <lb ed="#L" n="29"/>Unde doctrina praesens non adversatur antedictae. 
+Quo<lb break="no" ed="#L" n="30"/>niam stat solida doctrina data: scilicet quod perniciosum
+<lb ed="#L" n="31"/>mendacium constituitur ex intento fine nocumenti, Sed,
+<lb ed="#L" n="32"/>ut declaratum est, hic distinguitur finis intentus in 
+intrin<lb break="no" ed="#L" n="33"/>secum et extrinsecum. Oportet namque perniciose 
+men<lb break="no" ed="#L" n="34"/>tientem animum habere quod dicat. falsum nocivum, vel
+<lb ed="#L" n="35"/>ad nocendum; ac per hoc, intendere nocumentum. Unde
+<lb ed="#L" n="36"/>et in illo articulo Auctor sub pernicioso mendacio statim
+<lb ed="#L" n="37"/>locavit tria prima membra enumerata ab Augustino, tanquam
+<lb ed="#L" n="38"/>contenta sub mendacio pernicioso ex fine intrinseco intento:
+<lb ed="#L" n="39"/>et hic eadem tria membra ponit sub mendacio secundum
+<lb ed="#L" n="40"/>se contrario caritati, distinguens ea contra mendacium ex
+<lb ed="#L" n="41"/>fine intento extrinseco.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e709">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="42"/>Ad id autem quod obiicitur, quod mendacium hic 
+di<lb break="no" ed="#L" n="43"/>citur secundum se perniciosum, etc.: — respondetur quod
+<lb ed="#L" n="44"/>aequivocatio accidit, Nam hic dicitur mendacium secundum
+<lb ed="#L" n="45"/>se, hoc est secundum suam propriam materiam, quam 
+con<lb break="no" ed="#L" n="46"/>stat esse de ratione eius: ibi vero vocatur mendacium per
+<lb ed="#L" n="47"/>se secundum rationem formae, qua opponitur veritati, et
+<lb ed="#L" n="48"/>dividitur in plus et minus. Unde et perniciosum gratia 
+ma<lb break="no" ed="#L" n="49"/>teriae invenitur sub utraque specie, scilicet iactantia et
+<lb ed="#L" n="50"/>ironia.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e733">
+                  <lb ed="#L" n="51"/>III. In eodem articulo adverte, circa mendacium in 
+ma<lb break="no" ed="#L" n="52"/>teria scibili, quod ad hoc quod fiat formaliter, oportet quod
+<lb ed="#L" n="53"/>sit falsa vocis significatio cum intentione dicendi falsum
+<lb ed="#L" n="54"/>nocivum proximo: ita quod nisi tertia conditio, scilicet 
+no<lb break="no" ed="#L" n="55"/>cumentum proximi, cadat sub intentione, non incurritur
+<lb ed="#L" n="56"/>formaliter tale mendacium. Et ex hoc habes quando 
+do<lb break="no" ed="#L" n="57"/>ctor peccat mortaliter dicendo falsa: quando scilicet 
+ad<lb break="no" ed="#L" n="58"/>vertit se docere falsum in scibilibus, et tamen assertive illud
+<lb ed="#L" n="59"/>docet; constat enim quod inexcusabilis est ab intentione
+<lb ed="#L" n="60"/>nocumenti qui nocivum ex suo genere sciens et praevidens
+<lb ed="#L" n="61"/>infert, ut iste facit. Universaliter autem quicumque scienter
+<lb ed="#L" n="62"/>mendacium dicit contra iudicium vel doctrinam, 
+mortali<lb break="no" ed="#L" n="63"/>ter peccat: ut in responsione ad ultimum habes. - Ubi nota
+<lb ed="#L" n="64"/>ly contra. Quoniam inde habes quod si iudex, dum iudicat,
+<lb ed="#L" n="65"/>mendacia aliqua impertinentia immisceat, licet peccet, non
+<lb ed="#L" n="66"/>tamen mortaliter: quia non mentitur contra veritatem 
+iu<lb break="no" ed="#L" n="67"/>dicii, sed impertinentium ad iudicium. Idem autem est 
+iu<lb break="no" ed="#L" n="68"/>dicium de doctoribus, si docendo mentiantur, non tamen
+<lb ed="#L" n="69"/>contra veritatem doctrinae.
+</p>
+               <p xml:id="TAcCaj-d1e1840-d1e777">
+                  <lb ed="#L" n="70"/>Sed adverte quod praedicator semper contra veritatem
+<lb ed="#L" n="71"/>doctrinae Christianae mentitur quando miracula falsa 
+scien<lb break="no" ed="#L" n="72"/>ter praedicat. Quoniam quantum in se est, veritatem 
+mi<lb break="no" ed="#L" n="73"/>raculorum Christi et sanctorum evacuat: agit enim ut falsa
+<lb ed="#L" n="74"/>etiam putentur Christi et sanctorum miracula. Et simile
+<lb ed="#L" n="75"/>est si vitam sanctorum fingunt aliter quam sit, eadem 
+ra<lb break="no" ed="#L" n="76"/>tione. Mentiendo autem in nominibus Auctorum, aut 
+quo<lb break="no" ed="#L" n="77"/>tationibus, puta, capitulum decimum pro duodecimo, aut
+<lb ed="#L" n="78"/>Isaiam pro Ieremia, vel Hieronymum pro Augustino 
+di<lb break="no" ed="#L" n="79"/>cendo, quia tunc non occurrit et turpe putat sic pertransire,
+<lb ed="#L" n="80"/>peccat quidem, sed non mortaliter: quia non contra, sed
+<lb ed="#L" n="81"/>praeter veritatem doctrinae mentitur; falli namque in his non
+<lb ed="#L" n="82"/>est falli in doctrina, sed in accidentibus eius.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

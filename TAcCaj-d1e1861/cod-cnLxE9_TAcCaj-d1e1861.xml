@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 114</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 114</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="444"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1861"><!-- TAcCajp2p2-q114" -->
+            <head xml:id="TAcCaj-d1e1861-Hd1e101">Quaestio 114</head>
+            <div xml:id="TAcCaj-d1e1861-Dd1e103"><!-- caj-p2p2-q114a1" -->
+               <head xml:id="TAcCaj-d1e1861-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1861-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="20" type="fixed=442"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1861-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="21"/>IN articulo primo quaestionis centesimaedecimaequartae,
+<lb ed="#L" n="22"/>non tria. Primum est quod virtus ista apud Graecos 
+in<lb break="no" ed="#L" n="23"/>nominata est, ut dicitur in IV Ethic.: sed quia similis
+<lb ed="#L" n="24"/>videtur amicitiae, ideo amicitia vocatur. — Apud Latinos
+<lb ed="#L" n="25"/>autem vocatur affabilitas, ut Auctori placet. Et merito:
+<lb ed="#L" n="26"/>quia circa colloquia delectabilia principaliter versatur, ut
+<lb ed="#L" n="27"/>dicitur in IV Ethic.; affabilium autem est colloqui 
+de<lb break="no" ed="#L" n="28"/>lectabiliter. - Vel appellatur comitas, qua quis ad omnes
+<lb ed="#L" n="29"/>se comiter Habefi suavem cum omnibus conversationem
+<lb ed="#L" n="30"/>habendo.
+</p>
+               <p xml:id="TAcCaj-d1e1861-d1e141">
+                  <lb ed="#L" n="31"/>Secundum est quod affabilitatis materia est conversatio
+<lb ed="#L" n="32"/>hominis cum aliis, non in quibuscumque, sed in his quae
+<lb ed="#L" n="33"/>serio fiunt aut dicuntur. Et per hoc distinguitur ab 
+eutra<lb break="no" ed="#L" n="34"/>pelia seu urbanitate, quae circa delectabilia versatur in his
+<lb ed="#L" n="35"/>quae ioco fiunt.
+</p>
+               <p xml:id="TAcCaj-d1e1861-d1e154">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="36"/>Tertium est quod affabilitas duo exigit, quorum unum
+<lb ed="#L" n="37"/>se habet ut finis, alterum ut medium ad finem. Nam finis
+<lb ed="#L" n="38"/>eius est delectabilem se aliis exhibere in seriis. Medium
+<lb ed="#L" n="39"/>autem est componere verba motusque suos in seriis ut
+<lb ed="#L" n="40"/>decet ipsum respectu illorum cum quibus conversatur, 
+con<lb break="no" ed="#L" n="41"/>siderata qualitate negotiorum et temporum. Ita quod sicut
+<lb ed="#L" n="42"/>iustitia in his quae fiunt facit ut sine iniuria alicuius verba
+<lb ed="#L" n="43"/>negotiaque fiant, ita affabilitas efficit ut in his quae 
+dicun<lb break="no" ed="#L" n="44"/>tur et fiunt homo non sit homini cum quo conversatur
+<lb ed="#L" n="45"/>molestus, nec etiam in modo dicendi, sed ei delectabilem
+<lb ed="#L" n="46"/>se in omnibus seriis exhibeat; secundum tamen quod 
+eun<lb break="no" ed="#L" n="47"/>dem et negotium decet. Et hi vulgariter gratiosi 
+appel<lb break="no" ed="#L" n="48"/>lantur. - Non arcet tamen affabilitas hominem quin 
+quan<lb break="no" ed="#L" n="49"/>doque ingerat quis tristitiam illi cum quo erro
+<lb ed="#L" n="50"/>quando scilicet oportet, ut dicitur in IV Erhic.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1861-Dd1e192"><!-- caj-p2p2-q114a2" -->
+               <head xml:id="TAcCaj-d1e1861-Hd1e195">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1861-d1e197">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11" type="fixed=443"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1861-d1e204">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>In articulo secundo eiusdem quaestionis, nota primo, quod
+<lb ed="#L" n="13"/>affabilitas attendit, ut in littera dicitur, rationem  
+de<lb break="no" ed="#L" n="14"/>biti moralis ex parte debentis et eius cui debetur, sed magis
+<lb ed="#L" n="15"/>ex parte debentis. Cum enim homo sit naturaliter animal
+<lb ed="#L" n="16"/>sociale, debitum naturali ratione est ut unusquisque 
+con<lb break="no" ed="#L" n="17"/>versetur cum altero prout socium, et universaliter prout
+<lb ed="#L" n="18"/>conversantem hominem decet. Et quoniam cum tristi aut
+<lb ed="#L" n="19"/>non delectabili persona eligibilis non est conversatio, ideo
+<lb ed="#L" n="20"/>et unicuique debetur quod conversatio cum ipso fiat 
+de<lb break="no" ed="#L" n="21"/>lectabilis, et quilibet qui conversatur debet delectabiliter
+<lb ed="#L" n="22"/>conversari. Sed quia debitum hoc non fundatur super 
+in<lb break="no" ed="#L" n="23"/>aequalitate aliqua ex eo quod hic aliquid acceperit ab eo
+<lb ed="#L" n="24"/>ac per hoc debeat recompensare: ut ad aequalitatem redu-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="25"/>cantur, ut accidit in debito iustitiae commutativae et in
+<lb ed="#L" n="26"/>virtute gratitudinis; sed super commensurabilitate actuum
+<lb ed="#L" n="27"/>hominis ad alium in conversando (ex hoc namque quod
+<lb ed="#L" n="28"/>actus mei sunt secundum rationem commensurabiles sociali
+<lb ed="#L" n="29"/>vitae, debeo ego componere eos prout me decet in 
+or<lb break="no" ed="#L" n="30"/>dine ad vitam socialem): ideo debitum hoc magis se tenet
+<lb ed="#L" n="31"/>ex parte ipsius virtuosi debentis facere quod eum decet
+<lb ed="#L" n="32"/>ad omnes.
+</p>
+               <p xml:id="TAcCaj-d1e1861-d1e256">
+                  <lb ed="#L" n="33"/>Nota secundo, quod quia affabilitas ex debito morali est
+<lb ed="#L" n="34"/>sine quo honestas moris in conversatione humana salvari
+<lb ed="#L" n="35"/>potest, sed non bene, ut patet ex his quae in littera habes,
+<lb ed="#L" n="36"/>et ex qu. Lxxx, ubi distinctae sunt partes iustitiae; ideo
+<lb ed="#L" n="37"/>omissio affabilitatis extra peccata venialia non est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

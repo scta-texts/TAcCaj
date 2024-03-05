@@ -1,0 +1,2355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 62</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 62</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="41"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1592"><!-- TAcCajp2p2-q62" -->
+            <head xml:id="TAcCaj-d1e1592-Hd1e101">Quaestio 62</head>
+            <div xml:id="TAcCaj-d1e1592-Dd1e103"><!-- caj-p2p2-q62a1" -->
+               <head xml:id="TAcCaj-d1e1592-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1592-d1e108">
+                  <pb ed="#L" n="42"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=42"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo primo quaestionis sexagesimaesecundae, in re-
+<lb ed="#L" n="3"/>sponsione ad tertium, dubium: occurrit; quia, cum: 
+dis<lb break="no" ed="#L" n="4"/>tributio respiciat debitum ut commune, recompensatio 
+au<lb break="no" ed="#L" n="5"/>tem secundum aequalitatem rei ad rem respiciat debitum
+<lb ed="#L" n="6"/>ut proprium, quia illa ad distributivam, ista ad 
+commuta<lb break="no" ed="#L" n="7"/>tivam iustitiam spectat: — quomodo sine applicatione 
+com<lb break="no" ed="#L" n="8"/>munis boni ad hunc, quae fit per distributionis actum, qui
+<lb ed="#L" n="9"/>in casu proposito omissus supponitur, ex communi factum
+<lb ed="#L" n="10"/>est proprium, seu ex debito ut commune factum est 
+de<lb break="no" ed="#L" n="11"/>bitum ut proprium ? Oportet autem esse debitum ut 
+pro<lb break="no" ed="#L" n="12"/>prium quidquid est debitum secundum commutativam 
+iu<lb break="no" ed="#L" n="13"/>stitiam: ac per hoc, quidquid debet restitui, quia restitutio
+<lb ed="#L" n="14"/>actus est commutativae iustitiae. Quomodo ergo verificari
+<lb ed="#L" n="15"/>potest quod in littera dicitur, quod recompensatio quam
+<lb ed="#L" n="16"/>facit distribuens ei cui dedit minus quam debuit, fit per
+<lb ed="#L" n="17"/>comparationem rei ad rem? Nam ex hoc quod distribuens
+<lb ed="#L" n="18"/>minus dedit quam debuit de communi, sequitur quod non
+<lb ed="#L" n="19"/>applicavit illud quod debuit huic. Et si non applicavit huic,
+<lb ed="#L" n="20"/>ergo non est proprium huius. Et si non est proprium, ergo
+<lb ed="#L" n="21"/>non est restituendum secundum aequalitatem rei ad rem,
+<lb ed="#L" n="22"/>ut scilicet quantum defuit, tantum. habeat. Cuius 
+opposi<lb break="no" ed="#L" n="23"/>tum in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e169">
+                  <lb ed="#L" n="24"/>II. Ad hoc licet possit prima facie dici quod falsum est
+<lb ed="#L" n="25"/>distributionis actum in casu posito omissum esse, quia 
+lit<lb break="no" ed="#L" n="26"/>tera non dicit, Recompensatio quam facit distribuens ei cui
+<lb ed="#L" n="27"/>non dedit quod debuit, sed dicit, ei cui minus. dedit, ubi
+<lb ed="#L" n="28"/>affirmatur dedisse illi aliquid, et negatur quantitas debita: 
+<lb ed="#L" n="29"/>sed hoc frivolum est. Quia si cui debentur centum et dedit 
+<lb ed="#L" n="30"/>quinquaginta, tenetur recompensare quinquaginta, si nihil
+<lb ed="#L" n="31"/>dedit, tenetur recompensare centum. Alioquin melioris 
+con<lb break="no" ed="#L" n="32"/>ditionis efficeretur distribuens peius operando, scilicet 
+pri<lb break="no" ed="#L" n="33"/>vando aliquem toto, quam si privaret illum una parte.
+<lb ed="#L" n="34"/>Aliter posset dici quod Auctor loquitur de distribuente,
+<lb ed="#L" n="35"/>non de distributore. Ita quod distribuens ex hoc ipso quod
+<lb ed="#L" n="36"/>distribuit, seu, quod idem est, supposito quod distribuat,
+<lb ed="#L" n="37"/>tenetur aequalia aequalibus dare: et si non dat alicui, 
+te<lb break="no" ed="#L" n="38"/>netur illi ad restitutionem totius illius quod non dedit illi.
+<lb ed="#L" n="39"/>Et sic falsum quoque est distributionis actum in 
+propo<lb break="no" ed="#L" n="40"/>sito omitti. — Sed et hoc insufficiens est. Quia secundum
+<lb ed="#L" n="41"/>hoc distributor boni communis qui nunquam distribueret
+<lb ed="#L" n="42"/>partibus communitatis, sed omnia usurparet vel aliis daret,
+<lb ed="#L" n="43"/>non teneretur partibus communitatis ad restitutionem. Et
+<lb ed="#L" n="44"/>sic ex aliena tyrannide partes commuunitatis non solum
+<lb ed="#L" n="45"/>laederentur in facto, sed in iure: quia nec data illis essent
+<lb ed="#L" n="46"/>quae sunt illis debita, nec etiam ius repetendi haberent.
+<lb ed="#L" n="47"/>III. Dicendum est ergo. quod, sive distributio fiat sive
+<lb ed="#L" n="48"/>non, dummodo res distribuendae adsint et. tempus distri-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>buendi urgeat, ceteris conditionibus requisitis 
+concurrenti<lb break="no" ed="#L" n="50"/>bus sine Ampedimento, distributor tenetur ad faciendum
+<lb ed="#L" n="51"/>de communi proprium parti cuilibet secundum suam 
+pro<lb break="no" ed="#L" n="52"/>portuonem. Et quia tenetur ad hunc actum respectu 
+cuius<lb break="no" ed="#L" n="53"/>libet partis, ideo omnibus et singulis partibus tenetur ad
+<lb ed="#L" n="54"/>recompensandum tantum quantum non dedit alicui de 
+por<lb break="no" ed="#L" n="55"/>uone sibi debita. Et hoc quia omissa applicatio illius 
+por<lb break="no" ed="#L" n="56"/>tionis ad hunc damnificavit illum.in proprio, non quod
+<lb ed="#L" n="57"/>erat proprium auferendo, sed, ad em tenebatur, a pre-
+<lb ed="#L" n="58"/>priationem auferendo.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e250">
+                  <lb ed="#L" n="59"/>Deinde ad dubium dicitur quod, licet. debitum. ut: 
+pro<lb break="no" ed="#L" n="60"/>prium absolute sit suum vel loco sui, respectu tamen 
+ali<lb break="no" ed="#L" n="61"/>cuius est etiam debitum ut proprium illud quod quis 
+te<lb break="no" ed="#L" n="62"/>nebatur facere suum et non fecit: hoc enim est ut 
+pro<lb break="no" ed="#L" n="63"/>prium debitum non absolute, sed ab illo qui tenebatur
+<lb ed="#L" n="64"/>facere proprium illi. Et sic, licet valeat argumentum, Non
+<lb ed="#L" n="65"/>est proprium , Ergo non est restituendum. secundum 
+ae<lb break="no" ed="#L" n="66"/>qualitatem, absolute loquendo; non valet tamen respectu
+<lb ed="#L" n="67"/>distributoris, quia tenetur ad appropriationem; sed 
+opor<lb break="no" ed="#L" n="68"/>tet dicere quod Non est proprium, nec distributor tenebatur
+<lb ed="#L" n="69"/>ad .appropriandum hoc illi,, Ergo non est restituendum 
+ae<lb break="no" ed="#L" n="70"/>quale. Sed tunc assumptum est falsum pro secunda parte,
+<lb ed="#L" n="71"/>ut dictum est, Et sic patet quomodo ex debito. ut 
+com<lb break="no" ed="#L" n="72"/>mune factum est debitum ut proprium ab hoc: quia 
+da<lb break="no" ed="#L" n="73"/>mnificatio quam fecit distributor omittendo aj 
+atio<lb break="no" ed="#L" n="74"/>nem ad quam tenebatur, fecit de debito ut commune- 
+de<lb break="no" ed="#L" n="75"/>bitum ut proprium non simpliciter, sed ab hoc, scilicet
+<lb ed="#L" n="76"/>distributore qui tenebatur.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e293">
+                  <lb ed="#L" n="77"/>IV. Et ex his patet decisio casus: scilicet quod si 
+de<lb break="no" ed="#L" n="78"/>berent in aliqua republica proventus, damni distribui 
+con<lb break="no" ed="#L" n="79"/>scriptis civibus singulis annis, distributor autem occupasset
+<lb ed="#L" n="80"/>proventus annis tribus, et postmodum poenitentia ductus
+<lb ed="#L" n="81"/>restitueret reipublicae eosdem; non deberet summa ista
+<lb ed="#L" n="82"/>distribui civibus conscriptis in quarto anno; sed proventus
+<lb ed="#L" n="83"/>primi anni deberet distribuere civibus conscriptis primi
+<lb ed="#L" n="84"/>et sic deinceps. Et si aliquis eorum esset defunctus, tar
+<lb ed="#L" n="85"/>dare heredibus illius. Et hoc quia ipse damnificavit illos
+<lb ed="#L" n="86"/>individualiter, non appropriando sicut tenebatur. Secus 
+au<lb break="no" ed="#L" n="87"/>tem esset si proventus illi fuissent ab hoste aut alio 
+oc<lb break="no" ed="#L" n="88"/>cupati : quia ipse hostis non tenetur ad appropriandi
+<lb ed="#L" n="89"/>communia huic vel illi; et propterea non laesit singulo
+<lb ed="#L" n="90"/>nisi laedendo communitatem, a qua aufert.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e326">
+                  <lb ed="#L" n="91"/>Diffusior autem erit inferius sermo in sequenti articulo »
+<lb ed="#L" n="92"/>de obligatis ad restituendum: ratione distributivi iusti violati 549
+<lb ed="#L" n="93"/>ad distributionem. beneficiorum. ecclesiasticorum, ubi 
+prae<lb break="no" ed="#L" n="94"/>dicta latius repetentur applicata ad. materiam illam.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1592-Dd1e338"><!-- caj-p2p2-q62a1et2" -->
+               <head xml:id="TAcCaj-d1e1592-Hd1e341">Articuli 1-2</head>
+               <p xml:id="TAcCaj-d1e1592-d1e343">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="75" type="fixed=43"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e350">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="76"/>IN articulo primo et secundo simul quaestionis 
+sexagesi<lb break="no" ed="#L" n="77"/>ditkecicbnisis nota quod codices circa principium corporis
+<lb ed="#L" n="78"/>articuli secundi corrupti sunt. Deficit siquidem manifeste
+<lb ed="#L" n="79"/>ibi causa ex qua sequitur, £t ideo restituere importat 
+reddi<lb break="no" ed="#L" n="80"/>tionem illius rei quae iniuste ablata est. Unde quaerendus
+<lb ed="#L" n="81"/>est codex rectus: ego enim hactenus non inveni. Quidquid
+<lb ed="#L" n="82"/>tamen de littera sit, evidens est quod restitutio importat
+<lb ed="#L" n="83"/>actum iustitiae commutativae qui est reddere rem acceptam,
+<lb ed="#L" n="84"/>sive sit accepta iniuste, ut in furto et iniuriis, sive sit accepta
+<lb ed="#L" n="85"/>ex voluntate domini, ut in mutuo et similibus, ut in primo
+<lb ed="#L" n="86"/>dicitur articulo. Restitutio tamen habens pro materia rem
+<lb ed="#L" n="87"/>ablatam versatur tantum circa rem iniuste ablatam, ut in 
+se<lb break="no" ed="#L" n="88"/>cundo articulo littera probat: quia ablatum oportet aut iuste
+<lb ed="#L" n="89"/>aut iniuste ablatum esse; et iuste, non est restituendum, 
+quo<lb break="no" ed="#L" n="90"/>niam hoc esset contra aequalitatem iustitiae; si iniuste, 
+ae<lb break="no" ed="#L" n="91"/>qualitas iustitiae exigit ut restituatur. Intellige ergo litteram
+<lb ed="#L" n="92"/>secundi articuli non de restitutione simpliciter, sed. de 
+re<lb break="no" ed="#L" n="93"/>stitutione ablati. Haec enim contracta est ad materiam 
+ta<lb break="no" ed="#L" n="94"/>lem, scilicet ablatorum: illa autem. communiter se habet
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>ad ablata et ad sponte concessa per mutuum, depositum,
+<lb ed="#L" n="96"/>locationem, etc. Et forte; quia Auctor supponit sermonem
+<lb ed="#L" n="97"/>suum esse contractum ad talem materiam propter 
+prae<lb break="no" ed="#L" n="98"/>missum iam articuli titulum, littera non est diminuta.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e407">
+                  <lb ed="#L" n="99"/>II. In eodem articulo secundo, in responsione ad 
+se<lb break="no" ed="#L" n="100"/>cundum, dubia duo occurrunt circa illud, scilicet quod 
+lae<lb break="no" ed="#L" n="101"/>dens alterum in fama falsum dicendo tenetur ad 
+restitu<lb break="no" ed="#L" n="102"/>tionem famae. Primum est de eo qui indirecte laedit 
+al<lb break="no" ed="#L" n="103"/>terius famam. Puta, denuntiatus vel accusatus negat, verum
+<lb ed="#L" n="104"/>tamen est commisisse id de quo accusatus vel denuntiatus
+<lb ed="#L" n="105"/>est (tunc namque indirecte notat accusatorem seu 
+denun<lb break="no" ed="#L" n="106"/>tiantem calumniae): an iste mendaciter se excusans, ac per
+<lb ed="#L" n="107"/>hoc alterius famam ]laedens, teneatur ad restitutionem
+<lb ed="#L" n="108"/>famae.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e431">
+                  <lb ed="#L" n="109"/>Secundum dubium est de laesione famae etiam 
+menda<lb break="no" ed="#L" n="110"/>citer a multo tempore ante, quae data est oblivioni. Verbi
+<lb ed="#L" n="111"/>gratia, Ioannes falso iactavit se quodam tempore cognovisse
+<lb ed="#L" n="112"/>carnaliter talem. mulierem: post multos autem annos iam
+<lb ed="#L" n="113"/>senex Ioannes, recordatus peccatorum adolescentiae suae et
+<pb ed="#L" n="44"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>poenitentiam agens, quaerit-an teneatur ad. restitutionem
+<lb ed="#L" n="2"/>famae, Et ratio dubitandi est quia socii sui, quibus hoc
+<lb ed="#L" n="3"/>dixerat olim, ut postergata videntur habere et oblita quae
+<lb ed="#L" n="4"/>fuerunt adolescentiae, sicut et ipse evacuavit quae erant
+<lb ed="#L" n="5"/>parvuli: nec mulier illa habetur minus bona, sed ipsa in
+<lb ed="#L" n="6"/>antiqua propria optima fama perseverat apud omnes.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e463">
+                  <lb ed="#L" n="7"/>III. Ad primum dubium, quod. a <ref xml:id="TAcCaj-d1e1592-Rd1e467">
+                     <name xml:id="TAcCaj-d1e1592-Nd1e469">Scoto</name> et <name xml:id="TAcCaj-d1e1592-Nd1e471">Richardo</name> in
+<lb ed="#L" n="8"/>IV. Sent., dist. xv,</ref> tractatur, cum distinctione. 
+responden<lb break="no" ed="#L" n="9"/>dum est, quod dupliciter contingit mentiri accusatum vel
+<lb ed="#L" n="10"/>denuntiatum. Primo, in casu quo, servato iuris ordine, 
+te<lb break="no" ed="#L" n="11"/>netur fateri veritatem. Et sine dubio laedit, quantum in se
+<lb ed="#L" n="12"/>est, famam accusantis vel denuntiantis, si calumniatorem
+<lb ed="#L" n="13"/>eum dicit: quoniam, ut patet <ref xml:id="TAcCaj-d1e1592-Rd1e487">Extra, de. Calumniatoribus,</ref>
+                  <lb ed="#L" n="14"/>per tot., magnum crimen est accusare vel denuntiare 
+fal<lb break="no" ed="#L" n="15"/>sum, et magna poena punitur. Dico autem, quantum in
+<lb ed="#L" n="16"/>se est: quia forte ex circumstantiis et conditionibus 
+per<lb break="no" ed="#L" n="17"/>sonarum in nullo laesa remanet fama denuntiantis, dum
+<lb ed="#L" n="18"/>omnes credunt denuntiantem veracem, et denuntiatum 
+men<lb break="no" ed="#L" n="19"/>dacem, quamvis non convincatur. Dico quoque, si^ 
+calu<lb break="no" ed="#L" n="20"/>mniatorem eum dicit; quoniam, secus esset si ex animi
+<lb ed="#L" n="21"/>levitate vel iusto errore accusatio vel denuntiatio potuit
+<lb ed="#L" n="22"/>procedere, absque calumnia.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e509">
+                  <lb ed="#L" n="23"/>Alio modo contingit mentiri in casu in quo non tenetur
+<lb ed="#L" n="24"/>fateri veritatem. Et sic, licet dicant <name xml:id="TAcCaj-d1e1592-Nd1e515">Scotus</name> et <name xml:id="TAcCaj-d1e1592-Nd1e517">Richardus</name>
+                  <lb ed="#L" n="25"/>quod iste non laedit famam accusatoris seu denuntiantis,
+<lb ed="#L" n="26"/>sed ipse laedit seipsum, quia accusat vel denuntiat. in 
+iu<lb break="no" ed="#L" n="27"/>dicio ea quae non possunt probari in iudicio: melius 
+ta<lb break="no" ed="#L" n="28"/>men distinguitur quod accusator seu denuntiator dupliciter
+<lb ed="#L" n="29"/>consideratur. Primo, ut accusator vel denuntiator: et sic
+<lb ed="#L" n="30"/>non laeditur a mentiente, quia 'non tenetur dicere 
+verita<lb break="no" ed="#L" n="31"/>tem. Secundo, prout est talis homo. Et sic laeditur in fama
+<lb ed="#L" n="32"/>a mentiente: quoniam iste negans. dicit indirecte illum 
+ho<lb break="no" ed="#L" n="33"/>minem esse mendacem mendacio pernicioso, utpote 
+im<lb break="no" ed="#L" n="34"/>positorem criminis. 
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e542">
+                  <lb ed="#L" n="35"/>De obligatione ergo ad restitutionem: famae in primo
+<lb ed="#L" n="36"/>casu satis clarum est, si subsecuta est laesio famae. Dico
+<lb ed="#L" n="37"/>autem hoc quia, cum in nullo istorum casuum reus 
+insi<lb break="no" ed="#L" n="38"/>dietur. famae alterius. nisi, quia. indirecte et per accidens
+<lb ed="#L" n="39"/>aufert famam: — quando autem est indirecta et per 
+acci<lb break="no" ed="#L" n="40"/>dens ablatio famae, si non sequitur effectus laesionis famae,
+<lb ed="#L" n="41"/>non habet locum obligatio ad restituendum ; quoniam nec
+<lb ed="#L" n="42"/>ex intentione nec effectu fama ablata est, quamvis actus
+<lb ed="#L" n="43"/>fuerit indirecte ablativus famae.. Considerandum: est enim
+<lb ed="#L" n="44"/>quid per accidens evenit in effectu, ex quo etiam. causa
+<lb ed="#L" n="45"/>per accidens discutitur.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e568">
+                  <lb ed="#L" n="46"/>In secundo autem casu supradictis doctoribus videtur
+<lb ed="#L" n="47"/>quod non teneatur ad famae restitutionem, propter dictam
+<lb ed="#L" n="48"/>rationem, quia scilicet accusans seu denuntians sibimet 
+im<lb break="no" ed="#L" n="49"/>putare hoc debet, proponendo quod.non potest probare. —
+<lb ed="#L" n="50"/>Sed, salva eorum reverentia, oppositum est verum. 
+Quo<lb break="no" ed="#L" n="51"/>niam hic duplex malum intervenit accusantis seu 
+denun<lb break="no" ed="#L" n="52"/>tiantis. Primum est quod deficit in probatione: et hoc ipsi
+<lb ed="#L" n="53"/>imputandum procul dubio est. Alterum est quod mendax
+<lb ed="#L" n="54"/>dicitur a negante: et hoc nulla iuris ratione. actori. 
+impu<lb break="no" ed="#L" n="55"/>tatur, sed ex iniquitate negantis, qui non fuit ad 
+mentien<lb break="no" ed="#L" n="56"/>dum invitatus ab actore, aut iudice, sed poterat 
+subterfu<lb break="no" ed="#L" n="57"/>gere nec affirmando nec negando, ex quo. non tenebatur
+<lb ed="#L" n="58"/>fateri. Cum: igitur uterque, actor scilicet et reus, erraverit,
+<lb ed="#L" n="59"/>neuter alterius iniuriam. excusat. Nec est hic compensatio
+<lb ed="#L" n="60"/>iniuriarum ad invicem, sed uterque tenetur ad. 
+restitutio<lb break="no" ed="#L" n="61"/>nem famae, diversimode tamen: quia actor, qui iniuste, non
+<lb ed="#L" n="62"/>tamen falso infamavit, tenetur dicere quod iniuste fecit;
+<lb ed="#L" n="63"/>reus autem, qui falso infamavit, tenetur dicere se falso 
+il<lb break="no" ed="#L" n="64"/>lum criminatorem dixisse. Et hoc, ut praedictum est, si
+<lb ed="#L" n="65"/>secuta sit infamia actoris. Aliter non tenetur: quia 
+resti<lb break="no" ed="#L" n="66"/>tutio ad hoc principaliter ordinatur ut damnum passo 
+sa<lb break="no" ed="#L" n="67"/>tisfaciat. 
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e618">
+                  <lb ed="#L" n="68"/>Sunt autem haec omnia in utroque casu tractata et 
+de<lb break="no" ed="#L" n="69"/>terminata accipienda quando uterque, scilicet actor et reus,
+<lb ed="#L" n="70"/>ex certa scientia de visu loquitur, et asserunt 
+contradicto<lb break="no" ed="#L" n="71"/>ria, unus. asserendo, alter negando. Alioquin. posset: altera
+<lb ed="#L" n="72"/>pars excusari de tanto, quamvis non de toto, propter 
+iu<lb break="no" ed="#L" n="73"/>stum. errorem vel levitatem, ut dictum est: et sic. non
+<lb ed="#L" n="74"/>laederetur notabiliter in fama. - Et ex his patet quid 
+di<lb break="no" ed="#L" n="75"/>cendum est de falso defendentibus se vel alios extra iudi-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>cium. contra asserentes ex certa scientia crimen aliquod, et
+<lb ed="#L" n="77"/>vere sic est. Si namque ex hoc assertor ille laeditur in sua 
+<lb ed="#L" n="78"/>fama, ut puta quia defensor dicit se certe scire oppositum,
+<lb ed="#L" n="79"/>et sic alter reputatur malus, ad famae restitutionem 
+te<lb break="no" ed="#L" n="80"/>netur.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e651">
+                  <lb ed="#L" n="81"/>IV. Ad secundum dubium dicitur quod quia non 
+con<lb break="no" ed="#L" n="82"/>stat auditores esse oblitos; et multorum etiam nunc non
+<lb ed="#L" n="83"/>recordamur, quorum post tempora reminiscimur; et. per
+<lb ed="#L" n="84"/>hoc effectus infamiae a principio causatus falsa iactantia
+<lb ed="#L" n="85"/>seu relatione, permanet: ideo ad restitutionem tenetur ille
+<lb ed="#L" n="86"/>qui falso, dum puer esset, mulieri detraxit. Contingit enim
+<lb ed="#L" n="87"/>ut, eorum quae pueri audivimus memores, in eadem tanto
+<lb ed="#L" n="88"/>firmius perseveremus credulitate, quanto detractor, saepe :
+<lb ed="#L" n="89"/>poenitens more Christianorum, nunquam retractavit dictum
+<lb ed="#L" n="90"/>suum.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e676">
+                  <lb ed="#L" n="91"/>V. In eadem responsione ad secundum adverte quod
+<lb ed="#L" n="92"/>Auctor, in secundo suae distinctionis membro, quod modo
+<lb ed="#L" n="93"/>tractavimus, adiungit falsitati iniustitiam: dicit enim, Alio
+<lb ed="#L" n="94"/>modo, falsum dicendo et iniuste. Neque. frustra addidit:
+<lb ed="#L" n="95"/>sed ut praeservaret doctrinam hanc a casibus in quibus
+<lb ed="#L" n="96"/>falsum dicitur, iuste tamen; ut contingit iudici secundum
+<lb ed="#L" n="97"/>allegata et probata damnanti aliquem innocentem. Talis
+<lb ed="#L" n="98"/>enim non tenetur ad restitutionem famae, sicut nec 
+alte<lb break="no" ed="#L" n="99"/>rius cuiusvis damni: sed falsi testes tenentur ad omnia.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e698">
+                  <lb ed="#L" n="100"/>In eadem responsione ad secundum, quoad tertium 
+mem<lb break="no" ed="#L" n="101"/>brum, scilicet quando quis abstulit famam dicendo verum
+<lb ed="#L" n="102"/>iniuste, adverte duo. Primo, coram quibus est restituenda
+<lb ed="#L" n="103"/>fama tali modo, scilicet quod male dixi, iniuste di, 
+a<lb break="no" ed="#L" n="104"/>mavi, etc. Quia si sunt personae aliquid ingenii et notitiae
+<lb ed="#L" n="105"/>de modo restituendi famam habentes, talis restitutio non
+<lb ed="#L" n="106"/>est facienda: quia esset magis confirmatio dicti prius: quam
+<lb ed="#L" n="107"/>restitutio famae. Sed coram talibus debet, tacendo de priori
+<lb ed="#L" n="108"/>dicto, laudare, cum veritate tamen, personam illam, pi ies
+<lb ed="#L" n="109"/>aperiendo quod credit ipsum virum bonum, et dare. 
+ope<lb break="no" ed="#L" n="110"/>ram ad hoc quod sic habeatur ab illis; Et hoc íta caute
+<lb ed="#L" n="111"/>ne videatur hoc facere pro restitutione: quia hoc esset 
+in<lb break="no" ed="#L" n="112"/>famiae confirmatio, ut dictum 'est. — Secundo, quod si
+<lb ed="#L" n="113"/>quando restitutio talis videretur magis rememoratio quam
+<lb ed="#L" n="114"/>excusatio, ut puta quia jam habentur huiusmodi pro 
+ob<lb break="no" ed="#L" n="115"/>litis; ex quo non intervenit mendax infamia, omitti 
+pot<lb break="no" ed="#L" n="116"/>est, et, si opus fuerit, aliter satisfacere, puta laudando
+<lb ed="#L" n="117"/>personam quando expedit, et conversando amicabiliter cum
+<lb ed="#L" n="118"/>illa, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e742">
+                  <lb ed="#L" n="119"/>VI. In, responsione ad. quartum. eiusdem articuli dubi:
+<lb ed="#L" n="120"/>plura occurrunt. Primum est, an procurans quod de
+<lb ed="#L" n="121"/>aeque digno, ac per hoc impediens alium aeque dignum,
+<lb ed="#L" n="122"/>teneatur ad restitutionem. De hoc enim nihil in littera 
+di<lb break="no" ed="#L" n="123"/>citur, sed solum de digniore et minus digno. -
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e755">
+                  <lb ed="#L" n="124"/>Secundum. est, an, multis pro seipsis procurantibus,
+<lb ed="#L" n="125"/>sinon assequatur dignior, teneatur ille qui assecutus est
+<lb ed="#L" n="126"/>ad restitutionem. Et est hic ratio dubii quia quilibet potest
+<lb ed="#L" n="127"/>pro seipso licite procurare; et »emo damnum facit nisi
+<lb ed="#L" n="128"/>qui facit illud quod facere ius non habet, ut dicit regula.
+<lb ed="#L" n="129"/>iuris.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e771">
+                  <lb ed="#L" n="130"/>Tertium est quia, cum nullus teneatur ad 
+restituen<lb break="no" ed="#L" n="131"/>dum. nisi ut. iterato. statuat illum in possessione rei suae,
+<lb ed="#L" n="132"/>nulla ratio apparet quare ego, impediens alium a -
+<lb ed="#L" n="133"/>cutione- beneficii in quo nihil iuris unquam habuit, tenear
+<lb ed="#L" n="134"/>restituere totum. vel partem, Ex hoc namque quod nihil
+<lb ed="#L" n="135"/>unquam iuris est sibi quaesitum in aliquo, sequitur. quod
+<lb ed="#L" n="136"/>nihil fuit suum, Et per consequens sequitur quod nihil est
+<lb ed="#L" n="137"/>sibi restituendum. — Et si diceretur quod habebat ius in
+<lb ed="#L" n="138"/>spe, hoc non valet. Tum. quia ius in spe non est ius:
+<lb ed="#L" n="139"/>sicut nec dives in spe est dives. Tum. quia restitutio rei
+<lb ed="#L" n="140"/>in.spe tunc habet locum quando aufertur ius quod habet
+<lb ed="#L" n="141"/>in.re in qua fundatur illa spes, ut patet in destruente 
+se<lb break="no" ed="#L" n="142"/>mina vel diripiente instrumenta artis. quorum usu quis
+<lb ed="#L" n="143"/>cum sua familia vivit, et similibus: in omnibus enim 
+ab<lb break="no" ed="#L" n="144"/>latio seu damnificatio fit alicuius rei in qua actu habet ius
+<lb ed="#L" n="145"/>qui damnificatur, quae est fundamentum spei. In casu 
+au<lb break="no" ed="#L" n="146"/>tem proposito nullius rei ius habet actu ille qui impeditur
+<lb ed="#L" n="147"/>a consecutione.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e813">
+                  <lb ed="#L" n="148"/>Et confirmatur. Quia si is ad quem spectat conferre
+<lb ed="#L" n="149"/>tale beneficium, sive antequam omnino confirmaverit, sive
+<lb ed="#L" n="150"/>post, ante tamen quam det, ex seipso motu proprio mutat
+<pb ed="#L" n="45"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>voluntatem, nec dat illi beneficium, non tenetur ad 
+resti<lb break="no" ed="#L" n="2"/>tutionem, Ergo nullum ius illi abstulit: quia si ius aliquod
+<lb ed="#L" n="3"/>abstulisset illi, teneretur procul dubio ad restitutionem. Et
+<lb ed="#L" n="4"/>cum constet quod abstulit illi totum quod habebat quod
+<lb ed="#L" n="5"/>potuit auferri a malis consultoribus, sequitur quod ipse
+<lb ed="#L" n="6"/>nihil iuris habebat, et quod nullus teneatur ei ad 
+restitu<lb break="no" ed="#L" n="7"/>tionem.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e843">
+                  <lb ed="#L" n="8"/>Et confirmatur rursus. Quia si ipse dignior aliquid
+<lb ed="#L" n="9"/>iuris haberet, teneretur ei ad restitutionem minus dignus
+<lb ed="#L" n="10"/>illo, qui tamen est dignus, cui non petenti collatum est
+<lb ed="#L" n="11"/>beneficium illud. - Et tenet sequela: quia iste plus occupat
+<lb ed="#L" n="12"/>iura dignioris, quia irreparabiliter, quam ille qui impedivit
+<lb ed="#L" n="13"/>consulendo; quia poterat non sequi consilium eius 
+distri<lb break="no" ed="#L" n="14"/>butor, et reddere digniori ius suum.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e861">
+                  <lb ed="#L" n="15"/>Quartum. dubium est quia, cum in littera dicitur, .Si
+<lb ed="#L" n="16"/>vero iam firmatum sit quod alicui detur praebenda etc. ,
+<lb ed="#L" n="17"/>aut intelligitur de firmitate tali qua est illi ius quaesitum;
+<lb ed="#L" n="18"/>aut de firmitate adhuc impedibili, ut non sit illi ius 
+quae<lb break="no" ed="#L" n="19"/>situm. Non de prima firmitate: quia sic non esset 
+firmi<lb break="no" ed="#L" n="20"/>tas ut detur beneficium, sed firmitas iam dans; nec esset
+<lb ed="#L" n="21"/>amplius impedibilis, nisi sicut potest quis privari suo. Nec
+<lb ed="#L" n="22"/>de secunda: quia si est impedibilis, non debet restitui 
+ae<lb break="no" ed="#L" n="23"/>quale; multum. enim refert inter actum et potentiam.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e883">
+                  <lb ed="#L" n="24"/>Quintum dubium est circa fundamentum litterae, 
+sum<lb break="no" ed="#L" n="25"/>ptum ex <ref xml:id="TAcCaj-d1e1592-Rd1e889">II Physic., text. 56,</ref> scilicet: Quod parum distat,
+<lb ed="#L" n="26"/>quasi nihil distare videtur. Quoniam regula ista datur ab
+<lb ed="#L" n="27"/>Aristotele non de rebus in seipsis, sed ut subsunt practice
+<lb ed="#L" n="28"/>aestimationi et affectut humano. Unde dicit quod 
+intelle<lb break="no" ed="#L" n="29"/>ctus accipit parum distans perinde ac si nihil distaret, cum
+<lb ed="#L" n="30"/>secus magna mala aut magna bona fuerimus: accipit enim
+<lb ed="#L" n="31"/>tanquam. si fuissemus in ipsis magnis malis aut magnis 
+bo<lb break="no" ed="#L" n="32"/>nis. Constat autem ex dictis quod aequalitas commutativae
+<lb ed="#L" n="33"/>iustitiae, ad. quam faciendam ordinatur restitutio, attenditur
+<lb ed="#L" n="34"/>secundum aequalitatem rei ad rem, et non secundum 
+ae<lb break="no" ed="#L" n="35"/>qualitatem rationis parum. pro nihilo aestimantis. Cuius
+<lb ed="#L" n="36"/>signum. est quod. non aeque. punitur qui parum distavit
+<lb ed="#L" n="37"/>a peccando mortaliter, et qui peccavit mortaliter; nec est
+<lb ed="#L" n="38"/>idem. secundum iustitiam propinquissimum fuisse casui 
+pec<lb break="no" ed="#L" n="39"/>cati mortalis, et cecidisse in illud: hic enim punitur poena
+<lb ed="#L" n="40"/>aeterna, ille non. Neque est idem propinquissimum fuisse
+<lb ed="#L" n="41"/>mutuo concedendo, et mutuasse: illi enim nihil reddendum
+<lb ed="#L" n="42"/>esse, qui nihil mutuavit, huic vero restitui oportere censet
+<lb ed="#L" n="43"/>iustitia. Multum. ergo refert ad aequalitatem iustitiae 
+com<lb break="no" ed="#L" n="44"/>mutativae parum: distare seu prope esse, et applicuisse sive
+<lb ed="#L" n="45"/>esse in termino: quamvis in pluribus, secundum passiones
+<lb ed="#L" n="46"/>et aestimationes, utamur illo modico pro nihilo. Et quia
+<lb ed="#L" n="47"/>modo- de iustitia commutativa tractamus, ideo illo 
+funda<lb break="no" ed="#L" n="48"/>mento male videntur doctores uti in proposito.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e942">
+                  <lb ed="#L" n="49"/>Sextum est, an ea quae hic dicuntur habeant locum
+<lb ed="#L" n="50"/>in aliis consecutionibus bonorum, puta in testamentis et
+<lb ed="#L" n="51"/>donationibus. Et est ratio dubii tum quia littera in hoc
+<lb ed="#L" n="52"/>argumento meminit non solum praebendae consequendae,
+<lb ed="#L" n="53"/>sed aliorum bonorum consequendorum; quamvis, 
+respon<lb break="no" ed="#L" n="54"/>dendo, de consecutione praebendae solummodo loquatur. -
+<lb ed="#L" n="55"/>Tum quia videtur eadem ratio responsiva: quia scilicet aut
+<lb ed="#L" n="56"/>impedit iuste, aut iniuste, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e962">
+                  <lb ed="#L" n="57"/>VII. Ad haec dubia, non eodem quo mota sunt ordine
+<lb ed="#L" n="58"/>respondendo, sed, ut facilior sit doctrina, a quinto dubio,
+<lb ed="#L" n="59"/>quod de fundamento est, initium solvendi sumemus. Ad
+<lb ed="#L" n="60"/>quintum igitur dubium, de illa propositione ex <ref xml:id="TAcCaj-d1e1592-Rd1e972">II Physic.,</ref>
+                  <lb ed="#L" n="61"/>Quod parum. distat , nihil distare videtur, dicendum est
+<lb ed="#L" n="62"/>quod propositio illa nec habenda est ut regula in materia
+<lb ed="#L" n="63"/>iustitiae, nec omnino spernenda est quando subiecta 
+ma<lb break="no" ed="#L" n="64"/>teria patitur. Et quidem quod non sit pro regula habenda
+<lb ed="#L" n="65"/>in: determinatione iusti patet ex hoc quod subverteret 
+iu<lb break="no" ed="#L" n="66"/>stiiam: ut in ipsa materia de qua loquitur Aristoteles 
+li<lb break="no" ed="#L" n="67"/>quet. Verbi gratia, transit princeps aliquis iuxta paratas 
+in<lb break="no" ed="#L" n="68"/>sidias, et parum defuit quin caperetur, occideretur, etc.
+<lb ed="#L" n="69"/>Iste. princeps reputatur eufortunatus, ut ibidem dicit 
+Ari<lb break="no" ed="#L" n="70"/>stoteles: quia, parum pro nihilo reputando, ex magno malo
+<lb ed="#L" n="71"/>liberatus est. Si tamen ad iusti aequalitatem respiciamus,
+<lb ed="#L" n="72"/>non reputatur iste princeps damnum passus, licet parum
+<lb ed="#L" n="73"/>a-damno: distaverit. Propter quod nullus tenetur ei aliquid
+<lb ed="#L" n="74"/>restituere. Et tamen si illa propositio admitteretur in 
+pro<lb break="no" ed="#L" n="75"/>posito, scilicet, Prope habere et habere reputatur pro eo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>dem, sequeretur quod iste, qui prope habuit damnum, 
+ha<lb break="no" ed="#L" n="77"/>buisse reputaretur damnum, et consequenter esse sibi 
+re<lb break="no" ed="#L" n="78"/>stituendum. Similiter etiam falsa est regula haec in lucro.
+<lb ed="#L" n="79"/>Princeps enim qui prope acquisitionem monarchiae fuit,
+<lb ed="#L" n="80"/>ita quod parum. defuit quin esset monarcha, infortunatus
+<lb ed="#L" n="81"/>reputatur ex eadem ratione: non tamen propterea ad 
+in<lb break="no" ed="#L" n="82"/>aequalitatem rapti regni reputatur pervenisse, sicut nec 
+per<lb break="no" ed="#L" n="83"/>venit; unde non tenetur ad regni restitutionem. Et tamen
+<lb ed="#L" n="84"/>si illa regula habet locum, habere regnum et parum 
+di<lb break="no" ed="#L" n="85"/>stare pro eodem reputando, sicut qui abstulisset teneretur
+<lb ed="#L" n="86"/>ad restitutionem, ita hic, qui prope abstulit. Ex 
+proposi<lb break="no" ed="#L" n="87"/>tione ergo illa non est sumenda ratio efficax in hac 
+ma<lb break="no" ed="#L" n="88"/>teria. Quandoque tamen, ratione subiectae materiae, quae
+<lb ed="#L" n="89"/>vel habet magnam latitudinem vel incertitudinem 
+materia<lb break="no" ed="#L" n="90"/>lium, ut in mensuris et numeris, utimur propositione illa.
+<lb ed="#L" n="91"/>Unde et Auctor in hac responsione non est illa usus, licet
+<lb ed="#L" n="92"/>arguendo eam. attulerit.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1047">
+                  <lb ed="#L" n="93"/>VIII. Ad tertium deinde dubium dicendum est. Quia
+<lb ed="#L" n="94"/>ex quo exclusa est pro fundamento illa. propositio, 
+viden<lb break="no" ed="#L" n="95"/>dum est quid est fundamentum, de quo tertium. dubium
+<lb ed="#L" n="96"/>quaerit. Fundamentum igitur necessitans impedientem ad
+<lb ed="#L" n="97"/>restitutionem in casu proposito, ut ex littera colligi potest,
+<lb ed="#L" n="98"/>habet duo capita simul: scilicet violationem iusti 
+distribu<lb break="no" ed="#L" n="99"/>tivi; et violationem boni propositi. distributoris respectu
+<lb ed="#L" n="100"/>huius personae, cui dandum erat beneficium. Quod enim
+<lb ed="#L" n="101"/>Auctor fundet se super iusto in distributionibus, patet ex
+<lb ed="#L" n="102"/>hoc quod attendit ad dignam et magis dignam personam:
+<lb ed="#L" n="103"/>iam. enim patet quod ad distributivam iustitiam spectat
+<lb ed="#L" n="104"/>considerare dignitates personarum secundum se. Quod 
+et<lb break="no" ed="#L" n="105"/>iam fundet se super voluntate distributoris, patet ex hoc
+<lb ed="#L" n="106"/>quod attendit si impedimentum praestatur consulendo 
+ante<lb break="no" ed="#L" n="107"/>quam sit firmatum vel post. - Notanter autem dixi haec duo
+<lb ed="#L" n="108"/>capita simul concurrere: quia neutrum sine altero sufficit
+<lb ed="#L" n="109"/>ad obligandum ad restitutionem huic. Et quod non sufficiat
+<lb ed="#L" n="110"/>violatio sola iusti distributivi, ex hoc patet quod requiritur,
+<lb ed="#L" n="111"/>ultra dignitatem personae, praeparatio aliqua quae 
+impe<lb break="no" ed="#L" n="112"/>diatur. Si enim nulla est de aliquo memoria, nec ad eum
+<lb ed="#L" n="113"/>est aliqua inclinatio, quamvis dignior sit, nullus dicitur 
+im<lb break="no" ed="#L" n="114"/>pediisse illum a consecutione beneficii: quamvis distribuens
+<lb ed="#L" n="115"/>peccet, omittens digniorem ac per hoc violans iustitiam
+<lb ed="#L" n="116"/>distributivam in beneficii collatione. Quod vero non 
+suffi<lb break="no" ed="#L" n="117"/>ciat sola mutatio propositi etiam firmati distributoris, ex
+<lb ed="#L" n="118"/>hoc patet quod, si bona ratione quis persuadeat et inducat
+<lb ed="#L" n="119"/>mutationem, ut detur digniori, nulli dicitur auferri ius:
+<lb ed="#L" n="120"/>quia non violatur, sed servatur iustum distributivum, 
+prae<lb break="no" ed="#L" n="121"/>ponendo, digniorem. non tam digno. Utriusque ergo simul
+<lb ed="#L" n="122"/>violatio. facit ut obligetur impediens ad restituendum illi
+<lb ed="#L" n="123"/>in toto vel in parte.— Et quia nulli restituendum est nisi
+<lb ed="#L" n="124"/>suum, consequens est quod ex utroque simul concurrente,
+<lb ed="#L" n="125"/>Scilicet dignitate maiore et applicatione saltem ; inchoata
+<lb ed="#L" n="126"/>istius beneficii ad hunc digniorem, beneficium hoc fiat
+<lb ed="#L" n="127"/>istius dignioris ita quod incipit esse suum. quodammodo,
+<lb ed="#L" n="128"/>vel simpliciter quando est applicatio firmata, ut in littera
+<lb ed="#L" n="129"/>dicitur. Et quia unusquisque habet ius in eo quod est
+<lb ed="#L" n="130"/>suum quatenus suum est, ideo iste dignior cui dispositum
+<lb ed="#L" n="131"/>erat dari beneficium, habet tantum iuris in illo quantum
+<lb ed="#L" n="132"/>habet ibi de suo. Et licet vere suum absolute non sit 
+quo<lb break="no" ed="#L" n="133"/>usque sit sibi datum, est tamen vere secundum quid suum,
+<lb ed="#L" n="134"/>plus et minus quanto plus vel minus proxima est 
+dispo<lb break="no" ed="#L" n="135"/>sitio ad collationem. Sicut enim dispositiones agri ad 
+fru<lb break="no" ed="#L" n="136"/>ctificandum sunt expectantis fructus, et qui illius 
+disposi<lb break="no" ed="#L" n="137"/>tiones tollit impedit fructificationem et tenetur ad 
+restitu<lb break="no" ed="#L" n="138"/>tionem; ita dispositiones ad consecutionem beneficii sunt
+<lb ed="#L" n="139"/>illius consecuturi beneficium, et qui eas tollit tenetur ad
+<lb ed="#L" n="140"/>restitutionem. Et sic intervenit hic ius in re respectu 
+dis<lb break="no" ed="#L" n="141"/>positionum, et super hoc fundatur ius in spe respectu 
+be<lb break="no" ed="#L" n="142"/>neficii. Et propterea impediens dispositiones ad 
+consequen<lb break="no" ed="#L" n="143"/>dum beneficium non tenetur ad restituendum aequivalens
+<lb ed="#L" n="144"/>beneficio, sed ad restituendum aliquid, pensata 
+propinqui<lb break="no" ed="#L" n="145"/>tate vel elongatione potentiae ab actu, sicut in laedente
+<lb ed="#L" n="146"/>semina. accidit.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1168">
+                  <lb ed="#L" n="147"/>IX. Ad confirmationem dicitur falsum esse quod 
+dis<lb break="no" ed="#L" n="148"/>tributor mutans sententiam et declinans ad minus dignum
+<lb ed="#L" n="149"/>non teneatur ad restitutionem. Deterioris siquidem 
+condi<lb break="no" ed="#L" n="150"/>tionis in hoc distributor quam impediens est: quia quan-
+<pb ed="#L" n="46"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>documque tenetur impediens ad restituendum, tenetur etiam
+<lb ed="#L" n="2"/>distributor, nisi sit deceptus rationabiliter ita ut excusetur;
+<lb ed="#L" n="3"/>saepe autem tenetur distributor ad restitutionem nullo 
+im<lb break="no" ed="#L" n="4"/>pediente concurrente. Ad cuius evidentiam, altius 
+antedi<lb break="no" ed="#L" n="5"/>ctae radices restitutionis repetendo, nosse oportet quod
+<lb ed="#L" n="6"/>"beneficia ecclesiastica sunt bona communia ecclesiae debita
+<lb ed="#L" n="7"/>personis ecclesiasticis dignis, ita quod tale beneficium 
+va<lb break="no" ed="#L" n="8"/>cans. debetur alicui illius ecclesiae parti quae digna est.
+<lb ed="#L" n="9"/>Sed aliter debetur ante actum distributionis, et aliter post:
+<lb ed="#L" n="10"/>quia ante actum distributionis debetur digno ut commune,
+<lb ed="#L" n="11"/>ita quod est. suum ut res communis; distributionis autem
+<lb ed="#L" n="12"/>actus facit de communi proprium, est siquidem distributio
+<lb ed="#L" n="13"/>appropriatio rei communis ad singulares personas, Et 
+pro<lb break="no" ed="#L" n="14"/>pterea quando incipit distribui hoc beneficium pro illo 
+di<lb break="no" ed="#L" n="15"/>gno, incipit illud beneficium fieri suum ut proprium: -et
+<lb ed="#L" n="16"/>quanto plus procedit distributionis actus pro ipso, tanto
+<lb ed="#L" n="17"/>plus fit suum ut proprium. Itaque, consummato 
+distribu<lb break="no" ed="#L" n="18"/>tionis actu pro ipso, beneficium, quod a principio vacationis
+<lb ed="#L" n="19"/>erat suum ut commune, est suum ut proprium. Et 
+pro<lb break="no" ed="#L" n="20"/>pterea quod prius erat sibi debitum ut commune, 
+post<lb break="no" ed="#L" n="21"/>modum est sibi debitum ut proprium: et si quis post 
+dis<lb break="no" ed="#L" n="22"/>tributionem auferret, procul dubio auferret ab illo proprium.
+<lb ed="#L" n="23"/>Impediens ergo a consecutione beneficii digniorem directe
+<lb ed="#L" n="24"/>agit contra distributionis actum quo beneficium illud 
+de<lb break="no" ed="#L" n="25"/>beat fieri suum ut proprium: et propterea quanto magis
+<lb ed="#L" n="26"/>processit actus distributionis pro illo, tanto ad plus tenetur.
+<lb ed="#L" n="27"/>Distributor autem, quia sibi commissa est dispensatio 
+com<lb break="no" ed="#L" n="28"/>munium bonorum, et tenetur ad tribuendum beneficium
+<lb ed="#L" n="29"/>digniori; sive ex malo impedientis consilio avertat se a 
+di<lb break="no" ed="#L" n="30"/>gniore sive proprio motu, ad restitutionem tenetur. Et quia
+<lb ed="#L" n="31"/>ipse tenetur ad tribuendum digniori quod erat suum ut
+<lb ed="#L" n="32"/>commune, quia ad officium spectat suum applicare 
+com<lb break="no" ed="#L" n="33"/>mune huic, ideo ipse tenetur ad restituendum aequale illi
+<lb ed="#L" n="34"/>beneficio: quoniam ipse tenebatur ad actum distributionis
+<lb ed="#L" n="35"/>consummatum. pro illo (et hoc si non poterat impediri).
+<lb ed="#L" n="36"/>Unde inter distributorem et impedientem haec est 
+diffe<lb break="no" ed="#L" n="37"/>rentia, quia impediens tenetur ratione appropriationis 
+de<lb break="no" ed="#L" n="38"/>bitae violatae: distributor autem ratione utriusque, scilicet
+<lb ed="#L" n="39"/>et violatae appropriationis debitae, et omissae distributionis
+<lb ed="#L" n="40"/>debitae. Et quod distributor teneatur ad restituendum 
+ae<lb break="no" ed="#L" n="41"/>quale, potes sumere ex praecedenti articulo, in resp. ad
+<lb ed="#L" n="42"/>ult, ubi dicitur quod distribuens qui minus quam debuit
+<lb ed="#L" n="43"/>dedit alicui de communibus, tenetur recompensare 
+secun<lb break="no" ed="#L" n="44"/>dum aequalitatem rei ad rem, ut scilicet quanto minus
+<lb ed="#L" n="45"/>habuit quam debuit, tanto plus ei detur. Verbi gratia, si
+<lb ed="#L" n="46"/>debebatur alicui de communibus centum, et data sunt ei
+<lb ed="#L" n="47"/>quinquaginta, debentur alia quinquaginta; et si nihil 
+ha<lb break="no" ed="#L" n="48"/>buisset, deberentur ei centum: alioquin non fieret restitutio
+<lb ed="#L" n="49"/>secundum aequalitatem rei in qua damnificatus est ad rem
+<lb ed="#L" n="50"/>quae in recompensationem datur. Et similiter in proposito,
+<lb ed="#L" n="51"/>si (pro quia) isti digniori debebatur de communibus bonis
+<lb ed="#L" n="52"/>tale beneficium, et non est ei datum; ex quo in toto 
+da<lb break="no" ed="#L" n="53"/>mnificatus est a distributore, qui tenetur ad hoc, non fiet
+<lb ed="#L" n="54"/>restitutio nisi aequivalens restituatur.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1301">
+                  <lb ed="#L" n="55"/>X. Sed contra haec conclusa militat ratio restitutionis:
+<lb ed="#L" n="56"/>quia secundum eam aut neuter tenetur ad restituendum
+<lb ed="#L" n="57"/>aequale, aut uterque. Quod sic patet. Aut isti digniori 
+im<lb break="no" ed="#L" n="58"/>pedito beneficium erat debitum ut commune, aut ut 
+pro<lb break="no" ed="#L" n="59"/>prium. Si ut commune, ergo non debet sibi restitui ut
+<lb ed="#L" n="60"/>proprium. Sed reddere aequale secundum rem est reddere
+<lb ed="#L" n="61"/>quod alicui debetur ut proprium. Ergo nec distributor nec
+<lb ed="#L" n="62"/>impediens tenetur ad restitutionem aequalis. Si namque
+<lb ed="#L" n="63"/>redderetur aequale ipsi beneficio, plus esset id quod 
+red<lb break="no" ed="#L" n="64"/>deretur quam id quod ablatum est: quia ablatum est quod
+<lb ed="#L" n="65"/>erat suum ut commune et coeptum appropriari, et 
+restitu<lb break="no" ed="#L" n="66"/>tum est ut suum proprium. Et sic iste dignior ex 
+impe<lb break="no" ed="#L" n="67"/>dimento vel mutata sententia lucraretur: plus enim haberet
+<lb ed="#L" n="68"/>quam habebat tunc quando impedimentum appositum est;
+<lb ed="#L" n="69"/>quia habet ut proprium quod tunc non habebat nisi ut
+<lb ed="#L" n="70"/>commune et coeptum appropriari. Si ut proprium, 
+se<lb break="no" ed="#L" n="71"/>quitur, Ergo uterque, scilicet distributor et impediens, 
+te<lb break="no" ed="#L" n="72"/>netur ad restitutionem aequalis: quoniam secundum 
+ae<lb break="no" ed="#L" n="73"/>qualitatem rei ad rem faciendo restitutionem, oportet 
+to<lb break="no" ed="#L" n="74"/>tum quod erat illi proprium reddere. Falsum igitur videtur
+<lb ed="#L" n="75"/>quod teneatur ad restituendum plus distributor quam im-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>pediens, ut conclusum erat, ita quod ille ad aequale, iste
+<lb ed="#L" n="77"/>ad aliquam partem tenetur. Quoniam idem iustum est quod
+<lb ed="#L" n="78"/>ab utroque violatur, licet diversimode: quod non facit 
+te<lb break="no" ed="#L" n="79"/>neri ad plus restituendum, sed facit istum magis teneri
+<lb ed="#L" n="80"/>ad restituendum quam illum, verbi gratia, principalem 
+ma<lb break="no" ed="#L" n="81"/>gis quam secundarium damnificantem.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1364">
+                  <lb ed="#L" n="82"/>XI. Existentibus igitur pro utraque parte rationibus satis
+<lb ed="#L" n="83"/>ambiguis, oportet materiam restitutionis ex proprio genere
+<lb ed="#L" n="84"/>decidere in propria principia reducendo, ut mens quiescat.
+<lb ed="#L" n="85"/>Restitutio iustitiae commutativae actus est. Iustitia autem
+<lb ed="#L" n="86"/>commutativa respicit debitum ut proprium: ut in qu. praec.,
+<lb ed="#L" n="87"/>art. i, ad ult., littera dicit. Quod igitur restituendum est,
+<lb ed="#L" n="88"/>oportet debitum esse non qualitercumque, sed ut proprium.
+<lb ed="#L" n="89"/>Firma ergo sententiam quod obiectum restitutionis est 
+de<lb break="no" ed="#L" n="90"/>bitum alicui ut proprium, ita quod, nisi debeatur alicui
+<lb ed="#L" n="91"/>ut proprium, non est illi necessario restituendum. Et hoc
+<lb ed="#L" n="92"/>habet restitutio ex suo genere: quia cuiuslibet 
+commuta<lb break="no" ed="#L" n="93"/>tionis iustae obiectum est debitum alicui ut proprium, ut
+<lb ed="#L" n="94"/>patet in emptione et venditione, furto et rapina, et -—
+<lb ed="#L" n="95"/>modi.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1397">
+                  <lb ed="#L" n="96"/>Applicando autem restitutionem ad recotiipenmsdik 
+dis<lb break="no" ed="#L" n="97"/>tributiones iniustas, dicimus quod res distribuenda non est
+<lb ed="#L" n="98"/>partium ut propria, sed ut communis: et efficienda est
+<lb ed="#L" n="99"/>propria singulis partibus secundum  proportionalitatis 
+for<lb break="no" ed="#L" n="100"/>mam per actum distributionis. Ita quod distributio, ut est
+<lb ed="#L" n="101"/>actus distributivae iustitiae, non significat applicationem
+<lb ed="#L" n="102"/>communis boni ad has personas: quoniam talis applicatio
+<lb ed="#L" n="103"/>potest fieri per actum donationis, ut patet cum communitas
+<lb ed="#L" n="104"/>largitur legatis. Nec significat applicationem debitam 
+eius<lb break="no" ed="#L" n="105"/>dem: quoniam haec potest fieri per actum commutativae
+<lb ed="#L" n="106"/>iustitiae, ut patet cum communitas solvit mercenariis. Sed
+<lb ed="#L" n="107"/>significat applicationem communis boni secundum 
+propor<lb break="no" ed="#L" n="108"/>tionalitatem debitam partibus illius communitatis a 
+distri<lb break="no" ed="#L" n="109"/>butore. Huiusmodi vero applicatio, quae distributio vocatur,
+<lb ed="#L" n="110"/>non praesupponit portionem tali parti debitam esse illius
+<lb ed="#L" n="111"/>ut propriam, sed facit illam esse sibi propriam: distributio
+<lb ed="#L" n="112"/>enim est inter duos terminos, ita quod terminus a quo est
+<lb ed="#L" n="113"/>res debita pari ut communis, terminus vero ad quem res
+<lb ed="#L" n="114"/>propria partis, et ipsa distributio est faciens de communi
+<lb ed="#L" n="115"/>proprium partibus, ut iam dictum est. Mon
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1443">
+                  <lb ed="#L" n="116"/>Ex hoc igitur quod distributio est faciens proprium,
+<lb ed="#L" n="117"/>et restitutio fundatur super proprio, consequens est quod
+<lb ed="#L" n="118"/>sicut diversimode aliqui se habent ad distributionem, ita
+<lb ed="#L" n="119"/>diversimode se habent ad faciendum proprium huic vel
+<lb ed="#L" n="120"/>illi: et sicut diversimode aliqui tollunt distributionem, ita
+<lb ed="#L" n="121"/>diversimode tollunt appropriationem. Constat autem quod
+<lb ed="#L" n="122"/>diversimode habent se ad distributionem distributor et 
+pri<lb break="no" ed="#L" n="123"/>vata persona: quia ille tenetur ad distributionem, hoc est
+<lb ed="#L" n="124"/>ad faciendum consummate de communi proprium huic
+<lb ed="#L" n="125"/>parti secundum suam proportionem; privata autem 
+per<lb break="no" ed="#L" n="126"/>sona non tenetur ad distributionem. Quicumque autem
+<lb ed="#L" n="127"/>tenetur ad faciendum consummate A meum, et absque 
+ra<lb break="no" ed="#L" n="128"/>tionabili causa non facit, non satisfacit mihi si aliquid 
+mi<lb break="no" ed="#L" n="129"/>nus quam A. faciat meum, ut de se patet: quia damnum
+<lb ed="#L" n="130"/>meum ex negata appropriatione debita ab ipso distributore,
+<lb ed="#L" n="131"/>tantum est quantum opponitur ipsi A. Et propterea 
+dis<lb break="no" ed="#L" n="132"/>tributor tenetur secundum formam. iustitiae commutativae
+<lb ed="#L" n="133"/>mihi, cui debebat distribuere A, restituere aequivalens ipsi A:
+<lb ed="#L" n="134"/>quia restitutio respicit debitum proprio damno; ut autem
+<lb ed="#L" n="135"/>dictum est, proprium damnum mihi a distributore illatum
+<lb ed="#L" n="136"/>mensuratur secundum quantitatem boni communis mihi
+<lb ed="#L" n="137"/>appropriandi ex debito ab ipso distributore; ipse enim ad
+<lb ed="#L" n="138"/>consummatam appropriationem tenetur, et paria sunt 
+au<lb break="no" ed="#L" n="139"/>ferre alicui suum et non facere alicui suum, si referatur
+<lb ed="#L" n="140"/>ad illum qui tenetur ad hoc faciendum et expeditus ita
+<lb ed="#L" n="141"/>est ut impediri nequeat. Privata autem persona quae, ex
+<lb ed="#L" n="142"/>adverso veniens, impedit distributionem de qua loquimur,
+<lb ed="#L" n="143"/>quae scilicet est actus iustitiae distributivae, ex eo. quod
+<lb ed="#L" n="144"/>non tenetur ad ipsam consummandam distributionem, non
+<lb ed="#L" n="145"/>tenetur restituere aequivalens beneficio distribuendo: sed
+<lb ed="#L" n="146"/>ex eo quod distributionem, quae est debita appropriatio
+<lb ed="#L" n="147"/>communis ad hanc partem, impedit, intantum tenetur 
+quan<lb break="no" ed="#L" n="148"/>tum illa appropriatio accedit ad proprium; quanto enim
+<lb ed="#L" n="149"/>appropriatio magis appropinquat huic, tanto damnum 
+pro<lb break="no" ed="#L" n="150"/>prium istius est maius; penes proprium autem damnum
+<pb ed="#L" n="47"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>illatum mensuranda est restitutio, quae ad debitum ut 
+pro<lb break="no" ed="#L" n="2"/>prium respicit. Et propterea in littera dicitur quod 
+impe<lb break="no" ed="#L" n="3"/>diens tenetur ad arbitrium boni viri, si non erat firmatum:
+<lb ed="#L" n="4"/>quia non erat suum ut proprium; nec ille tenebatur ad 
+con<lb break="no" ed="#L" n="5"/>summandum distributionis actum ut esset suum ut 
+pro<lb break="no" ed="#L" n="6"/>prium. Sic ergo patet quod non est eadem de utroque, 
+scili<lb break="no" ed="#L" n="7"/>cet distributore et impediente, ratio. Quia impediens tenetur
+<lb ed="#L" n="8"/>ex hoc solo quia impedivit digniorem a consecutione sui ut
+<lb ed="#L" n="9"/>communis, debiti tamen ut fieret sibi proprium: et quia
+<lb ed="#L" n="10"/>quanto magis distributio erat disposita pro eo, tanto magis
+<lb ed="#L" n="11"/>erat suum ut proprium, ideo tanto ad plus restituendum
+<lb ed="#L" n="12"/>tenetur. Distributor autem ex alio capite tenetur ad 
+resti<lb break="no" ed="#L" n="13"/>tutionem : scilicet ex hoc quod tenebatur ad inchoandam et
+<lb ed="#L" n="14"/>consummandam distributionem huius beneficii pro isto. —
+<lb ed="#L" n="15"/>Et nisi hoc asseratur; perit natura restitutionis pro damnis
+<lb ed="#L" n="16"/>distributionum, Fieret enim melioris conditionis distributor
+<lb ed="#L" n="17"/>omittens dare huic: quia non teneretur restituere tantum
+<lb ed="#L" n="18"/>huic quantum tenebatur distribuere huic. Cessaret quoque
+<lb ed="#L" n="19"/>iustitia querelarum civium hinc pugnantium quod aequalia
+<lb ed="#L" n="20"/>non aequalibus, aut inaequalia aequalibus dantur, ut 
+di<lb break="no" ed="#L" n="21"/>citur in V Ethic.*: aut iniustum hoc non. deberet ad 
+iu<lb break="no" ed="#L" n="22"/>stum. per restitutionem deduci, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1573">
+                  <lb ed="#L" n="23"/>Notanter autem dixi quod impediens ex adverso 
+ve<lb break="no" ed="#L" n="24"/>miens non tenetur ad aequale. Quia consiliarii 
+distributo<lb break="no" ed="#L" n="25"/>ris. consilio distributor regitur in distribuendo,
+<lb ed="#L" n="26"/>non minus tenentur ad restituendum aequale quam 
+dis<lb break="no" ed="#L" n="27"/>tributor: quia ipsi tenentur ex offidio ad inchoandam et
+<lb ed="#L" n="28"/>«onsummandam distributionem pro digniore, ex quo est
+<lb ed="#L" n="29"/>eorum consilio distributio proposita.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1592">
+                  <lb ed="#L" n="30"/>Haec autem quae de distributoris obligatione dicta sunt,
+<lb ed="#L" n="31"/>intelligenda sunt quando distributio pro digniore liquida
+<lb ed="#L" n="32"/>est et non impedibilis. - Et quoniam difficile est 
+restitu<lb break="no" ed="#L" n="33"/>tionem facere in distributionibus beneficiorum, ideo caveant
+<lb ed="#L" n="34"/>sibi distributores: quia nom remittitur peccatum nisi 
+resti<lb break="no" ed="#L" n="35"/>tuatur. ablatum. — Nec fallat se, aut blandiatur sibi 
+quis<lb break="no" ed="#L" n="36"/>piam, putans Papam, propter plenitudinem suae potestatis,
+<lb ed="#L" n="37"/>non arctari distributivae iustitiae legibus in beneficiis 
+dis<lb break="no" ed="#L" n="38"/>tribuendis. Quoniam Paulus Apostolus, cui universalis 
+Ec<lb break="no" ed="#L" n="39"/>clesiae regimen commissum erat, sicut aliis Apostolis, a
+<lb ed="#L" n="40"/>Christo, ait: Sic nos existimet homo ut dispensatores 
+mi<lb break="no" ed="#L" n="41"/>nisteriorum Dei. Ut dispensatores ministeriorum dixit, non
+<lb ed="#L" n="42"/>ut dominos. Constat autem ministeria ecclesiastica distribui
+<lb ed="#L" n="43"/>cum beneficia ecclesiastica distribuuntur: quoniam haec sunt
+<lb ed="#L" n="44"/>illorum quasi stipendia.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1627">
+                  <lb ed="#L" n="45"/>XII. Sed quid dicendum in casu quo corrupta esset 
+Ec<lb break="no" ed="#L" n="46"/>clesia in capite, et omnes avaritiae studerent, et sola 
+ve<lb break="no" ed="#L" n="47"/>nalitas aut voluntas, aut aliqua conditio extranea a iusto,
+<lb ed="#L" n="48"/>esset ratio distributionis, seu dissipationis, beneficiorum,
+<lb ed="#L" n="49"/>et unus alium supplantare quaereret? Quis cui restituere
+<lb ed="#L" n="50"/>teneretur: cum omnes sint indigni; cum nulla impediatur
+<lb ed="#L" n="51"/>distributio, quia omnino non fuisset iuste datum 
+benefi<lb break="no" ed="#L" n="52"/>cium, sed ad libitum, etc.?
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1647">
+                  <lb ed="#L" n="53"/>Respondeo quod sicut in moralibus sunt, ut dicitur in
+<lb ed="#L" n="54"/>MIL Ethic.*, vitia duplicis ordinis, quaedam humana, ut
+<lb ed="#L" n="55"/>avaritia , pusillanimitas, furtum et similia; quaedam vero
+<lb ed="#L" n="56"/>bestialia, ut coitus cum animalibus, feritates et huiusmodi;
+<lb ed="#L" n="57"/>et de illis disputatur, ista relinquuntur: ita in Ecclesia
+<lb ed="#L" n="58"/>quaedam sunt vitia ecclesiastica, ut intrusio, simonia, 
+ali<lb break="no" ed="#L" n="59"/>qua mala distributio, impedimentum. praestare digniori, et
+<lb ed="#L" n="60"/>huiusmodi; quaedam autem sunt vitia babylonica, quae
+<lb ed="#L" n="61"/>indigna sunt disputatione. Et huiusmodi sunt vitia 
+Roma<lb break="no" ed="#L" n="62"/>nae curiae quando, quod Deus avertat, venalitas, voluntas,
+<lb ed="#L" n="63"/>lenocinium et huiusmodi distribuerent beneficia.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1673">
+                  <lb ed="#L" n="64"/>XIII. Ad confirmationem ultimam in dubio principali
+<lb ed="#L" n="65"/>dicitur quod, cum iste minus dignus ratione actionis suae
+<lb ed="#L" n="66"/>in nullo teneatur digniori, quia non impedivit eum, ut 
+sup<lb break="no" ed="#L" n="67"/>ponitur; nec beneficium unquam fuerit illius dignioris; nec
+<lb ed="#L" n="68"/>ipse fuerit unquam debitor illi ut faceret illud esse suum,
+<lb ed="#L" n="69"/>sicut debitor erat distributor: nullo iure tenetur ad 
+resti<lb break="no" ed="#L" n="70"/>tutionem. — Nec est verum quod iste occupet iura 
+dignio<lb break="no" ed="#L" n="71"/>ris. Quoniam ius dignioris erat respectu illius quandiu erat
+<lb ed="#L" n="72"/>inter bona communia. Modo autem factum est bonum 
+pro<lb break="no" ed="#L" n="73"/>prium per applicationem ad istum: et ius dignioris 
+reman<lb break="no" ed="#L" n="74"/>sit ad communia et ad distributorem, qui ei tenetur 
+du<lb break="no" ed="#L" n="75"/>plici iure, scilicet distributionis et restitutionis.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1702">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>XIV. Ad secundum postmodum dubium, quod de
+<lb ed="#L" n="77"/>procurantibus pro se minus dignis ac per hoc! indirecte
+<lb ed="#L" n="78"/>impedientibus digniorem, tractat, dicitur a Scoto et 
+Ri<lb break="no" ed="#L" n="79"/>chardo, in IV Sent., dist. xv, quod talis pro se procurans
+<lb ed="#L" n="80"/>non tenetur ad restitutionem aliquam: quia licet unicuique
+<lb ed="#L" n="81"/>pro seipso procurare per viam licitam et honestam, alio
+<lb ed="#L" n="82"/>neglecto. — Et firmatur, seu declaratur, ex <ref xml:id="TAcCaj-d1e1592-Rd1e1721">iure civili, ff. de
+<lb ed="#L" n="83"/>Nov. Op. Nunt., l. 1</ref>, ubi dicitur quod si praescindo venas
+<lb ed="#L" n="84"/>in fundo meo per quas derivatur aqua ad puteum 
+alte<lb break="no" ed="#L" n="85"/>rius, causa damnificandi, teneor illi: si autem ut propriae
+<lb ed="#L" n="86"/>consulam utilitati in aliquo aedificio, non. teneor, iuxta 
+al<lb break="no" ed="#L" n="87"/>latam regulam arguendo.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1736">
+                  <ref xml:id="TAcCaj-d1e1592-Rd1e1738">
+                     <name xml:id="TAcCaj-d1e1592-Nd1e1740">Petrus autem de Palude</name>, in IV Sent., dist. xv</ref>, dicit quod
+<lb ed="#L" n="88"/>si quis procurat ut beneficium detur minus digno sibi vel
+<lb ed="#L" n="89"/>alii, tenetur ad restitutionem digniori, quem impedit: quia
+<lb ed="#L" n="90"/>beneficium est debitum secundum distributivam iustitiam
+<lb ed="#L" n="91"/>digniori.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1753">
+                  <lb ed="#L" n="92"/>Mihi vero videtur distinguendum. Quia minus dignus
+<lb ed="#L" n="93"/>potest dupliciter, pro se procurando, impedire digniorem.
+<lb ed="#L" n="94"/>Primo, ut impedimentum claudatur infra latitudinem 
+vo<lb break="no" ed="#L" n="95"/>luntarii. Quod tunc accidit quando procurans pro se 
+ma<lb break="no" ed="#L" n="96"/>vult se consequi cum dignioris impedimento, quam se non
+<lb ed="#L" n="97"/>consequi ut dignior non impediatur. Quando enim 
+pro<lb break="no" ed="#L" n="98"/>curatio pro minus digno sic tendit ad consequendum ut
+<lb ed="#L" n="99"/>non curet de impedimento dignioris, ad restitutionem 
+te<lb break="no" ed="#L" n="100"/>netur, iuxta arbitrium tamen boni viri. Et ratio est quia
+<lb ed="#L" n="101"/>huius procuratio est iniusta, utpote contra iustitiam 
+distri<lb break="no" ed="#L" n="102"/>butivam. — Alio modo, ut impedimentum non sit 
+volun<lb break="no" ed="#L" n="103"/>tarium. Quod tunc accidit quando aliquis petit pro se vel
+<lb ed="#L" n="104"/>alio sine cuiusquam iniuria. Et si hoc quidem exprimit,
+<lb ed="#L" n="105"/>clarum est quod iniuste non petit: et si sibi dari 
+contin<lb break="no" ed="#L" n="106"/>git a distributore, posthabito digniore, ipse qui petit in
+<lb ed="#L" n="107"/>causa non fuit; unde non tenetur ad restitutionem, Si
+<lb ed="#L" n="108"/>autem hoc non explicat (quia non est de stylo petentium),
+<lb ed="#L" n="109"/>petitio sua intelligenda est sine iniuria alterius: quia nemo
+<lb ed="#L" n="110"/>praesumendus malus est absque sufficienti indicio. Et 
+pro<lb break="no" ed="#L" n="111"/>pterea etiam absolute procurans, non volens impedire 
+pro<lb break="no" ed="#L" n="112"/>pter se digniorem (et si in veritate adverteret se impedire
+<lb ed="#L" n="113"/>digniorem, desisteret; aut exprimeret suam intentionem,
+<lb ed="#L" n="114"/>si de hoc rationabiliter dubitaret), non tenetur ad 
+resti<lb break="no" ed="#L" n="115"/>tuendum in aliquo si sibi minus digno datum est: quia
+<lb ed="#L" n="116"/>non iniuste procurat. — Et si hanc distinctionem 
+perspe<lb break="no" ed="#L" n="117"/>xeris, videbis quod opiniones recitatae, quae visae sunt
+<lb ed="#L" n="118"/>contrariae, non sunt contrariae. Quia Scotus et Richardus
+<lb ed="#L" n="119"/>verum dicunt quando iuste quis procurat, non. quando
+<lb ed="#L" n="120"/>contra rationem distributivae iustitiae; Petrus vero quando
+<lb ed="#L" n="121"/>iniuste quis procurat.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1821">
+                  <lb ed="#L" n="122"/>XV. Ad primum deinceps dubium, de aeque dignis,
+<lb ed="#L" n="123"/>ex dictis patet responsio: quia scilicet impediens dignum
+<lb ed="#L" n="124"/>ut detur aeque digno, non tenetur ad restitutionem, 
+quo<lb break="no" ed="#L" n="125"/>niam non violat iustum distributivum. lam enim dictum
+<lb ed="#L" n="126"/>est quod nisi violetur iustum, non habet locum 
+resti<lb break="no" ed="#L" n="127"/>tutio. — Et si contra instetur, quia violatur appropriatio
+<lb ed="#L" n="128"/>inchoata pro uno; - respondetur quod in aeque dignis
+<lb ed="#L" n="129"/>appropriatio innititur non iustitiae, sed gratiae, donec fuerit
+<lb ed="#L" n="130"/>consummata, seu fecerit proprium; et propterea non 
+lae<lb break="no" ed="#L" n="131"/>ditur in iustitia, sed gratia; non impeditur appropriatio
+<lb ed="#L" n="132"/>debita, sed gratuita.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1847">
+                  <lb ed="#L" n="133"/>XVI. Ad quartum. demum dubium, de gradibus in
+<lb ed="#L" n="134"/>progressu distributionis, quando scilicet distributio est 
+fir<lb break="no" ed="#L" n="135"/>mata et tamen non est executioni mandata, dicitur quod
+<lb ed="#L" n="136"/>Auctor, ut ex dictis patet, loquitur de distributione 
+de<lb break="no" ed="#L" n="137"/>bita, non gratuita, idest respectu dignioris, non aeque digni:
+<lb ed="#L" n="138"/>Et istius ponuntur tres status: primus, ante firmitatem, hoc
+<lb ed="#L" n="139"/>est antequam sit. decreta. distributio ad hunc; secundus,
+<lb ed="#L" n="140"/>quando iam est decreta respectu huius, sed non executioni
+<lb ed="#L" n="141"/>mandata; tertius, quando iam est executioni mandata, De
+<lb ed="#L" n="142"/>hoc tertio statu in littera nihil dicitur, quia de impedimento
+<lb ed="#L" n="143"/>consecutionis est quaestio; consummata autem distributione,
+<lb ed="#L" n="144"/>consecuutio impediri non potest, licet possit impediri 
+pos<lb break="no" ed="#L" n="145"/>sessio consecuti. Sed de iniuste impediente possessionem,
+<lb ed="#L" n="146"/>non est dubium quod tenetur ad restitutionem aequalis:
+<lb ed="#L" n="147"/>quia iam in proprio damnificatur qui impeditur a 
+possi<lb break="no" ed="#L" n="148"/>dendo suum beneficium. - De primo vero statu dicitur
+<lb ed="#L" n="149"/>quod ad arbitrium boni viri, pensatis conditionibus, resti-
+<pb ed="#L" n="48"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tutio fieri debet. — De secundo vero, de quo est praesens
+<lb ed="#L" n="2"/>dubium, in littera dicitur quod tenetur ad restitutionem
+<lb ed="#L" n="3"/>aequalis. Et quod intelligat littera per sua verba hunc 
+sta<lb break="no" ed="#L" n="4"/>tum, scilicet quando distributio debita est decreta respectu
+<lb ed="#L" n="5"/>huius, patet ex duobus. Primo, ex hoc quod dicit, Si est
+<lb ed="#L" n="6"/>firmatum quod alicui detur. Secundo, ex hoc quod subdit,
+<lb ed="#L" n="7"/>Et aliquis procuret quod revocetur. Si enim loqueretur : de
+<lb ed="#L" n="8"/>distributione executioni mandata, ante tamen possessionem,
+<lb ed="#L" n="9"/>non diceret ly u£ detur: quia iam data esset praebenda.
+<lb ed="#L" n="10"/>Nec diceretur revocabilis: quia ex quo est executioni 
+man<lb break="no" ed="#L" n="11"/>data, non est revocabilis, sed auferibilis.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1915">
+                  <lb ed="#L" n="12"/>Unde ad motum dubium dicitur quod Auctor loquitur
+<lb ed="#L" n="13"/>de firmitate impedibili, ita ut non sit adhuc omnino 
+pro<lb break="no" ed="#L" n="14"/>prium illius pro quo firmatum est beneficium: patet 
+nam<lb break="no" ed="#L" n="15"/>que quod ponit casum in quo de facto impeditus est ille
+<lb ed="#L" n="16"/>dignior, et factum est ut sibi non detur per revocationem
+<lb ed="#L" n="17"/>statutae distributionis. Et cum obiicitur: Ergo impediens
+<lb ed="#L" n="18"/>non tenetur ad aequale, quia adhuc non erat actu suum: -
+<lb ed="#L" n="19"/>respondetur quod paria sunt esse actu meum et esse ex
+<lb ed="#L" n="20"/>debito decretum ut sit meum. Statim enim ut distributio,
+<lb ed="#L" n="21"/>iustitia distributiva exigente, decreta est ut hoc detur illi
+<lb ed="#L" n="22"/>parti et illud illi alteri parti, unicuique parti debetur id
+<lb ed="#L" n="23"/>quod est decretum sibi quasi proprium: quamvis usque
+<lb ed="#L" n="24"/>ad executionem decreti non sit illud vere proprium. Quia
+<lb ed="#L" n="25"/>ergo paria sunt proprium et quasi proprium, ideo Auctor  
+<lb ed="#L" n="26"/>adhuc existente ambulatoria. Signum autem huius est quod
+<lb ed="#L" n="27"/>dixit quod tenetur ad restitutionem aequalis.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1952">
+                  <lb ed="#L" n="28"/>Sed occurrit non spernenda speculatio. Contingere 
+pot<lb break="no" ed="#L" n="29"/>est quod, iuste decreta distributione talium beneficiorum
+<lb ed="#L" n="30"/>pro tali et tali, antequam executioni mandetur distributio,
+<lb ed="#L" n="31"/>apparet alius dignior, cui secundum rationem distributivae 
+<lb ed="#L" n="32"/>iustitiae debetur locus primus in distributionibus. Si quis,
+<lb ed="#L" n="33"/>ad distributorem accedens, procuret ut revocet decretam
+<lb ed="#L" n="34"/>distributionem ut detur digniori praebenda, iste non violat 
+<lb ed="#L" n="35"/>iustitiam distributivam, nec tenetur ad restitutionem illi cui
+<lb ed="#L" n="36"/>erat decretum beneficium. Et tamen aufert illi quod erat
+<lb ed="#L" n="37"/>illi debitum quasi proprium. Non ergo paria sunt auferre
+<lb ed="#L" n="38"/>debitum quasi proprium, et auferre debitum ut proprium:
+<lb ed="#L" n="39"/>quia constat non esse auferendum proprium beneficium ab
+<lb ed="#L" n="40"/>aliquo ut detur digniori.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e1983">
+                  <lb ed="#L" n="41"/>Sed hoc non obstat determinationi factae: quia res non
+<lb ed="#L" n="42"/>in eodem statu permanent. Advertendum est enim quod
+<lb ed="#L" n="43"/>quandiu decreta distributio habuit rationem iusti, portio 
+de<lb break="no" ed="#L" n="44"/>creta huic erat debita quasi propria. Et quandiu habebat
+<lb ed="#L" n="45"/>hanc rationem, non poterat nisi iniuste auferri ab eo; et 
+ae<lb break="no" ed="#L" n="46"/>quivalebat proprio. Sed statim ut distributio desiit habere
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="47"/>rationem iusti propter digniorem personam interim 
+manife<lb break="no" ed="#L" n="48"/>statam, desiit illa praebenda debita esse huic quasi propria:
+<lb ed="#L" n="49"/>ac per hoc licite data alteri est. Hoc autem ostendit quod
+<lb ed="#L" n="50"/>non sunt idem proprium et quasi proprium, et quod non
+<lb ed="#L" n="51"/>habent omnino eandem vim: quia proprium non est 
+va<lb break="no" ed="#L" n="52"/>riabile, quasi proprium adhuc varietati subiicitur. Sed non
+<lb ed="#L" n="53"/>ostendit quin, stante in suo robore quasi proprio, 
+aequi<lb break="no" ed="#L" n="54"/>valeant proprium et quasi proprium quoad damnum, .et
+<lb ed="#L" n="55"/>consequenter quoad restitutionem.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2021">
+                  <lb ed="#L" n="56"/>XVII. Ad sextum postremo dubium, an haec doctrina
+<lb ed="#L" n="57"/>locum habeat in donationibus, testamentis et legatis, 
+re<lb break="no" ed="#L" n="58"/>spondetur breviter quod quia liberalium collationum 
+vo<lb break="no" ed="#L" n="59"/>luntas dantis est ratio, iuxta verbum patrisfamilias, An non
+<lb ed="#L" n="60"/>licet mihi quod volo facere; et voluntas donantis, testantis
+<lb ed="#L" n="61"/>aut legantis, quandiu est ambulatoria, in sua est libertate,
+<lb ed="#L" n="62"/>ita quod nulli facit iniuriam auferendo legatum factum:
+<lb ed="#L" n="63"/>consequens est quod nullius ius violat qui legatum, 
+testa<lb break="no" ed="#L" n="64"/>mentum aut aliquid huiusmodi impedit, procurando 
+revo<lb break="no" ed="#L" n="65"/>cari, non solum ut sibi aut alteri benefaciat, sed etiam si
+<lb ed="#L" n="66"/>animo damnificandi eos quibus erant danda huiusmodi bona
+<lb ed="#L" n="67"/>revocationem eorum procuret ab eo qui donabat. Et ratio
+<lb ed="#L" n="68"/>est quia restitutio est actus iustitiae: et quando ex damno
+<lb ed="#L" n="69"/>illato consurgit, praesupponit violationem iusti seu iuris,
+<lb ed="#L" n="70"/>ad quod reparandum restitutio ordinatur. In proposito 
+au<lb break="no" ed="#L" n="71"/>tem nullius ius violatur: quia nihil erat alicuius, voluntate
+<lb ed="#L" n="72"/>si ipse testator ex odio revocet testamentum , nulli facit
+<lb ed="#L" n="73"/>iniuriam. Et si ipse qui est principalis causa revocationis
+<lb ed="#L" n="74"/>nulli facit iniuriam, alii excitantes ipsum et inducentes ad
+<lb ed="#L" n="75"/>revocandum non inducunt ad faciendum iniuriam alicui.
+<lb ed="#L" n="76"/>Ac per hoc, non tenentur ad restitutionem, sed ad pe
+<lb ed="#L" n="77"/>tentiam de peccato odii.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2071">
+                  <lb ed="#L" n="78"/>Et si contra hoc afferatur allatum exemplum de
+<lb ed="#L" n="79"/>cisione venarum aquae, quod si animo damnificandi alius
+<lb ed="#L" n="80"/>quis praecidit in proprio fundo venas aquae per quas in 
+pu<lb break="no" ed="#L" n="81"/>teum fluit alterius, tenetur ad restitutionem; ad quam non
+<lb ed="#L" n="82"/>tenetur si non animo dammnificandi faceret idem, ut 
+prae<lb break="no" ed="#L" n="83"/>dictum est: ergo, a simili, qui animo damnificandi 
+proxi<lb break="no" ed="#L" n="84"/>mum procurat revocari testamentum, tenetur de damno: —
+<lb ed="#L" n="85"/>respondendum est quod non est simile. Quia in casu 
+prae<lb break="no" ed="#L" n="86"/>cisionis aufertur proximo aqua propria, dependens tamen
+<lb ed="#L" n="87"/>a fundo alterius: et propterea oportet auferentem ex 
+legi<lb break="no" ed="#L" n="88"/>tima causa auferre. Hic vero nihil proprium aufertur: quia
+<lb ed="#L" n="89"/>nihil iuris habebat ex voluntate ambulatoria. ai
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1592-Dd1e2101"><!-- caj-p2p2-q62a3" -->
+               <head xml:id="TAcCaj-d1e1592-Hd1e2104">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1592-d1e2106">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="27" type="fixed=49"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2113">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>IN articulo tertio eiusdem sexagesimaesecundae quaestionis
+<lb ed="#L" n="29"/>dubium occurrit circa illam redditionem causae in 
+cor<lb break="no" ed="#L" n="30"/>pore articuli cum dicitur: Et ideo antequam sit 
+condemna<lb break="no" ed="#L" n="31"/>tus per iudicem , non tenetur restituere. Videtur enim
+<lb ed="#L" n="32"/>quod ex hoc quod inflictio poenae pertinet ad iudicem, non
+<lb ed="#L" n="33"/>sequatur quod antequam sit condemnatus, non teneatur.
+<lb ed="#L" n="34"/>Tum quia inflictio poenae non pertinet ad iudicem tantum,
+<lb ed="#L" n="35"/>sed ad legem: dictum est enim in praecedenti Libro quod
+<lb ed="#L" n="36"/>actus legis est punire; immo iudex. punit ut lex animata.
+<lb ed="#L" n="37"/>Si ergo lex poenalis lata est, non est opus iudice 
+da<lb break="no" ed="#L" n="38"/>mnante: quia lex inflixit poenam. — Tum quia manifeste
+<lb ed="#L" n="39"/>patet teneri aliquos ad poenas legis absque iudicis 
+quo<lb break="no" ed="#L" n="40"/>cumque actu: ut patet in excommunicationibus et censuris
+<lb ed="#L" n="41"/>latis a iure.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2148">
+                  <lb ed="#L" n="42"/>II. Ad hoc dicitur quod Auctor non loquitur 
+univer<lb break="no" ed="#L" n="43"/>saliter de poena a lege imposita, sed de poena 
+restitutio<lb break="no" ed="#L" n="44"/>nis in quadruplo vel huiusmodi, ut patet in littera. — Sed
+<lb ed="#L" n="45"/>quia ratio in littera ad materiam restitutionis a lege 
+sta<lb break="no" ed="#L" n="46"/>tutae universalior est quam restitutionis poena, ut patet,
+<lb ed="#L" n="47"/>oportet aliter dicere, distinguende quod poena statuta in
+<lb ed="#L" n="48"/>lege est duplex: quaedam ad cuius executionem requiritur
+<lb ed="#L" n="49"/>aliqua actio; quaedam autem cuius executio nullam 
+actio<lb break="no" ed="#L" n="50"/>nem requirit. Verbi gratia, poenae mortis, mutilationis, 
+ver<lb break="no" ed="#L" n="51"/>beris, carceris, exilii, solutionis, confiscationis seu 
+privatio<lb break="no" ed="#L" n="52"/>nis bonorum, et huiusmodi, non possunt executioni 
+man<lb break="no" ed="#L" n="53"/>dari per solam legem, nisi interveniat actio aliqua, puta
+<lb ed="#L" n="54"/>occidere, mutilare, verberare, includere, ire, solvere, 
+acci<lb break="no" ed="#L" n="55"/>pere vel dare, et si qua est alia eiusmodi actio. Poenae
+<lb ed="#L" n="56"/>autem excommaunicationis, suspensionis, interdicti et 
+irre<lb break="no" ed="#L" n="57"/>gularitatis, et si qua est alia similis, nullam actionem in
+<lb ed="#L" n="58"/>sui executionem exigunt; sed non communicare cum 
+fide<lb break="no" ed="#L" n="59"/>libus, non immiscere se prohibitis, non exercere actum 
+or<lb break="no" ed="#L" n="60"/>dinis, quae in sola negatione seu privatione consistunt,
+<lb ed="#L" n="61"/>sufficiunt ad earum executionem.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2194">
+                  <lb ed="#L" n="62"/>Ex hoc autem sequitur altera differentia: scilicet quod
+<lb ed="#L" n="63"/>quaedam est poena cuius inflictio est propria iudici; 
+quae<lb break="no" ed="#L" n="64"/>dam autem cuius inflictio est communis iudici et legi. De-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>claratur hoc. Quia poena in executione exigens agere 
+con<lb break="no" ed="#L" n="66"/>vincitur propria iudici ex hoc, quia aut ad illud agere 
+te<lb break="no" ed="#L" n="67"/>netur reus, aut iudex. Non reus: quia non tenetur ex lege
+<lb ed="#L" n="68"/>nisi ad poenam; poena autem consistit in pati, non in
+<lb ed="#L" n="69"/>agere. Ergo tenetur iudex. Et vere sic est. Quia nisi iudex,
+<lb ed="#L" n="70"/>per se vel alium, occidat, mutilet, verberet, claudat, agat ad
+<lb ed="#L" n="71"/>exilium, accipiat bona, aut huiusmodi, non tenetur reus ex
+<lb ed="#L" n="72"/>sola lege ad huiusmodi poenae executionem. — Poena autem
+<lb ed="#L" n="73"/>in executione non exigens agere communiter infligi potest a
+<lb ed="#L" n="74"/>iure vel a iudice. Itaque sola legis lata sententia obligat reum
+<lb ed="#L" n="75"/>ad executionem poenae. Et in promptu causa est: quia
+<lb ed="#L" n="76"/>non exigit necessario actionem iudicis.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2232">
+                  <lb ed="#L" n="77"/>III. Ad dubium ergo dicitur quod doctrina Auctoris
+<lb ed="#L" n="78"/>universalis est de poena cuius inflictio pertinet ad iudicem
+<lb ed="#L" n="79"/>ut propria: de tali enim optime sequitur redditio causae,
+<lb ed="#L" n="80"/>Kt ideo antequam sit condemnatus per iudicem , non 
+te<lb break="no" ed="#L" n="81"/>netur ad executionem. Et quod haec sit vera intentio 
+Au<lb break="no" ed="#L" n="82"/>ctoris patet ex hoc quod loquitur de iudice ut distinguitur
+<lb ed="#L" n="83"/>a lege: loquendo enim de iudice ut distinguitur a lege,
+<lb ed="#L" n="84"/>oportet loqui de propriis iudici, et non de communibus
+<lb ed="#L" n="85"/>iudici ef legi.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2254">
+                  <lb ed="#L" n="86"/>Et per haec patet responsio ad primam obiectionem.
+<lb ed="#L" n="87"/>Quia punire, idest punitionem statuere, est actus legis. Et
+<lb ed="#L" n="88"/>punire executive convenit etiam legi quando poena non
+<lb ed="#L" n="89"/>exigit actionem in executione. — Et ad secundam, quia de
+<lb ed="#L" n="90"/>poenis quarum inflictio communis est iudici et legi loquitur:
+<lb ed="#L" n="91"/>littera autem loquitur de poena cuius inflictio est propria
+<lb ed="#L" n="92"/>iudici.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2272">
+                  <lb ed="#L" n="93"/>Et tu notabis et applicabis haec ad iurium et 
+statuto<lb break="no" ed="#L" n="94"/>rum tam civilium quam canonicorum intellectum et 
+ratio<lb break="no" ed="#L" n="95"/>nem. Videbis enim quod si pro quibusdam criminibus, puta
+<lb ed="#L" n="96"/>haeresis, laesae maiestatis et huiusmodi, poenae privationis
+<lb ed="#L" n="97"/>bonorum ipso facto incurrendae ponuntur, inquantum 
+clau<lb break="no" ed="#L" n="98"/>dunt in se privationem, a lege infligi dicuntur: inquantum
+<lb ed="#L" n="99"/>vero exigunt actionem, iudicis actum expectant. Unde 
+di<lb break="no" ed="#L" n="100"/>cuntur privati dominio rerum a lege: non tamen tenentur
+<lb ed="#L" n="101"/>ea assignare fisco nisi interveniat actio iudicis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1592-Dd1e2295"><!-- caj-p2p2-q62a4" -->
+               <head xml:id="TAcCaj-d1e1592-Hd1e2298">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1592-d1e2300">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67" type="fixed=50"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2307">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>In articulo quarto eiusdem quaestionis, in responsione ad  
+<lb ed="#L" n="69"/>primum et secundum, dubium est quare damnum lucri 
+<lb ed="#L" n="70"/>cessantis ex pecunia mutuata debet restitui creditori post  
+<lb ed="#L" n="71"/>moram, ut in littera dicitur, et non a principio, absolute  
+<lb ed="#L" n="72"/>loquendo. Nulla enim apparet inter haec differentia nisi  
+<lb ed="#L" n="73"/>quia post moram involuntarie sustinet damnum creditor,  
+<lb ed="#L" n="74"/>a principio autem voluntarie. Sed haec ratio non valet: 
+<lb ed="#L" n="75"/>quia iustitiae commutativae est adaequare rem rei sive 
+vo<lb break="no" ed="#L" n="76"/>luntarie sive involuntarie quis damnum sustineat, ut patet  
+<lb ed="#L" n="77"/>in mutuo et venditione voluntariis, et in furto quoad 
+in<lb break="no" ed="#L" n="78"/>voluntaria. Propter quod si debitor pecuniae, puta mille  
+<lb ed="#L" n="79"/>ducatorum, tenetur post moram ad aliquid plus quam 
+<lb ed="#L" n="80"/>mille ratione interesse lucri cessantis, oportet hoc debitum  
+<lb ed="#L" n="81"/>non aliunde provenire quam ex hoc quod in littera dicitur, 
+<lb ed="#L" n="82"/>scilicet quod habens mille non solum habet mille, sed habet  
+<lb ed="#L" n="83"/>lucrum in virtute, in quo damnificatur a debitore detinente 
+<lb ed="#L" n="84"/>illos mille; ac per hoc, ut aequalitas fiat rei ad rem, oportet 
+<lb ed="#L" n="85"/>restituere illi non solum mille, sed etiam quantum 
+aesti<lb break="no" ed="#L" n="86"/>matur valere lucrum. in virtute; sicut in seminibus 
+destru<lb break="no" ed="#L" n="87"/>ctis quantum aestimantur fructus in virtute, non in actu, ut
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>in littera dicitur. Et si ex hoc provenit huiusmodi 
+resti<lb break="no" ed="#L" n="89"/>tutio, consequens est quod etiam a principio habens mille
+<lb ed="#L" n="90"/>ducatos non solum habet mille, sed lucrum in virtute. Ac
+<lb ed="#L" n="91"/>per hoc, voluntarie sustinens damnum mille, dum mutuat
+<lb ed="#L" n="92"/>alteri, sustinet etiam damnum lucri in virtute. Ac per hoc,
+<lb ed="#L" n="93"/>debentur eidem non solum mille, sed aliquid aequivalens
+<lb ed="#L" n="94"/>damno lucri: alioquin non restitueretur aequale.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2372">
+                  <lb ed="#L" n="95"/>Et confirmatur. Quia sicut habens semina in agro sata
+<lb ed="#L" n="96"/>potest licite vendere messem, quam habet in virtute, non
+<lb ed="#L" n="97"/>quantum valebit, sed quantum valet in praeparatione tali
+<lb ed="#L" n="98"/>existens: ergo, pari ratione, si habens mille ducatos 
+ha<lb break="no" ed="#L" n="99"/>bet lucrum in virtute, potest alienare totum simul, scilicet
+<lb ed="#L" n="100"/>illos mille et lucrum in virtute.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2388">
+                  <lb ed="#L" n="101"/>Ad hoc dubium, quia ad materiam usurae spectat, ideo
+<lb ed="#L" n="102"/>in tractatu de usura inferius respondebitur. Coincidit enim
+<lb ed="#L" n="103"/>haec quaestio cum illa: An liceat accipere aliquid plus
+<lb ed="#L" n="104"/>mutuata summa ex hoc quod pecunia est organum ad 
+lu<lb break="no" ed="#L" n="105"/>crandum et commoda humanae vitae habendum. Quae
+<lb ed="#L" n="106"/>quaestio ibidem disputabitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1592-Dd1e2406"><!-- caj-p2p2-q62a5" -->
+               <head xml:id="TAcCaj-d1e1592-Hd1e2409">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1592-d1e2411">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="108" type="fixed=51"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2418">
+                  <pb ed="#L" n="52"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>In articulo quinto eiusdem quaestionis nota in corpore
+<lb ed="#L" n="2"/>articuli illa verba: misi ei qui minus habet quam quod
+<lb ed="#L" n="3"/>suum est, suppleretur. Ex hac siquidem radice, quod 
+sci<lb break="no" ed="#L" n="4"/>licet ideo reddendum est ei a quo acceptum quia suum
+<lb ed="#L" n="5"/>est, habetur quod qui accepit ab aliquo. rem alienam vel
+<lb ed="#L" n="6"/>furto vel usura vel alias occupatam, non tenetur restituere
+<lb ed="#L" n="7"/>ili a quo accepit, quia non minus habet quam suum est:
+<lb ed="#L" n="8"/>sed debet facere quantum potest ut reddatur domino. Debet
+<lb ed="#L" n="9"/>tamen significare per aliquam bonam viam illi qui 
+occu<lb break="no" ed="#L" n="10"/>paverat quod non tenetur satisfacere tali pro tali re: ne
+<lb ed="#L" n="11"/>contingat, si forte veniat ad poenitentiam, bis fieri 
+resti<lb break="no" ed="#L" n="12"/>tutionem et damnificari poenitentem.,
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2451">
+                  <lb ed="#L" n="13"/>Ex hac quoque radice provenit quod si quis bona 
+ec<lb break="no" ed="#L" n="14"/>clesiae seu religionis sic habuit quod tenetur ea restituere,
+<lb ed="#L" n="15"/>et praelatus ecclesiae illius vel monachus administrator sit
+<lb ed="#L" n="16"/>dilapidator, quod non sunt eis restituenda: quia non minus
+<lb ed="#L" n="17"/>habent de suo, sed de alieno eis credito ad dispensandum,
+<lb ed="#L" n="18"/>non ad dissipandum. Et ideo tenetur reddere ecclesiae, quae
+<lb ed="#L" n="19"/>est rerum domina, in rebus quae non possunt dilapidari:
+<lb ed="#L" n="20"/>et similiter reddi debent abbatiae seu conventui cuius sunt.
+<lb ed="#L" n="21"/>Et idem est de similibus iudicium.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2473">
+                  <lb ed="#L" n="22"/>Et haec intellige in foro conscientiae, cum secreto haec
+<lb ed="#L" n="23"/>fieri possunt, agendo utiliter causam utriusque, scilicet 
+do<lb break="no" ed="#L" n="24"/>mini et occupatoris parati ad detinendum alienum aut
+<lb ed="#L" n="25"/>dilapidandum ecclesiasticum seu commune bonum. Nam
+<lb ed="#L" n="26"/>secus est in foro iudiciali et absolute: pro quanto etiam
+<lb ed="#L" n="27"/>praedoni convenit quod rapta bona sunt sua non 
+simpli<lb break="no" ed="#L" n="28"/>citer, sed ad custodiendum et restituendum; in cuius 
+si<lb break="no" ed="#L" n="29"/>gnum, non nisi publica potestate possunt illi auferri licite,
+<lb ed="#L" n="30"/>absolute loquendo. Et propterea iudex compelleret ad 
+re<lb break="no" ed="#L" n="31"/>stituendum illi occupatori et dilapidatori, sicut ad tuendum
+<lb ed="#L" n="32"/>etiam praedonem in possessione. Et plenitudo iustitiae 
+exi<lb break="no" ed="#L" n="33"/>geret ut ipse occupator aut dilapidator rehaberet quod
+<lb ed="#L" n="34"/>suum sic est, et restitueret domino aut recte dispensaret:
+<lb ed="#L" n="35"/>nam si sic fieret, etiam modus iustitiae quoad personam
+<lb ed="#L" n="36"/>quae tenetur ad restituendum domino simpliciter vel 
+dis<lb break="no" ed="#L" n="37"/>pensandum, servaretur; qui violatur (hoc est, non 
+serva<lb break="no" ed="#L" n="38"/>tur) cum in foro conscientiae supradicto modo restitutio
+<lb ed="#L" n="39"/>fit. Sed'sancte in dictis casibus non servatur, in favorem
+<lb ed="#L" n="40"/>utriusque, ut dictum est: defectus siquidem legis hic 
+ac<lb break="no" ed="#L" n="41"/>cidere videtur corrigendus ab aequitate, ne foveat quis 
+oc<lb break="no" ed="#L" n="42"/>cupationem aut dilapidationem, materiam ministrando, cum
+<lb ed="#L" n="43"/>possit illam subtrahere et proximi aut ecclesiae iura tueri
+<lb ed="#L" n="44"/>sic, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2526">
+                  <lb ed="#L" n="45"/>II. In responsione ad primum eiiidein articuli, adverte
+<lb ed="#L" n="46"/>quod ex hac eadem radice provenit quod tempore iniusti
+<lb ed="#L" n="47"/>belii non sunt restituenda magna debita iniusto principi,
+<lb ed="#L" n="48"/>quibus ad exercitum fovendum eget: sed conservanda ut
+<lb ed="#L" n="49"/>congruo tempore, sine scilicet alterius iniuria, reddantur, —-
+<lb ed="#L" n="50"/>Et si depositum aut mutuum non est reddendum domino
+<lb ed="#L" n="51"/>exposituro in damnum alterius, quo pacto potest quis 
+mu<lb break="no" ed="#L" n="52"/>tuare alicui exposituro in damnum et iniuriam Ecclesiae,
+<lb ed="#L" n="53"/>puta pro emendo. cardinalatu? Minus enim est reddere
+<lb ed="#L" n="54"/>suum alicui quam mutuare. Et si neutrum agendum est,
+<lb ed="#L" n="55"/>quo pacto nummularii ut mediatores ministrant eisdem
+<lb ed="#L" n="56"/>ad habendum pecunias suas ex aliquo distanti loco pro
+<lb ed="#L" n="57"/>tali opere? Nec enim, cum sint voluntaria, absque peccato
+<lb ed="#L" n="58"/>fiunt, quando constat quod ad hoc petuntur. '
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2559">
+                  <lb ed="#L" n="59"/>III. In responsione ad secundum eiusdem articuli quinti,
+<lb ed="#L" n="60"/>scito discernere inter dationem illicitam, et propter causam
+<lb ed="#L" n="61"/>illicitam, respiciendo ad id quod lege divina vel humana
+<lb ed="#L" n="62"/>prohibitum est. Quando enim ipsum dare est peccatum
+<lb ed="#L" n="63"/>seu prohibitum, ut cum lex prohibet dare, ut patet cum
+<lb ed="#L" n="64"/>prohibetur dari iudici pro sententia vel monasterio pro 
+in<lb break="no" ed="#L" n="65"/>gressu vel episcopo pro beneficio, et huiusmodi, tunc ipsa
+<lb ed="#L" n="66"/>datio est illicita. Quando vero dare non prohibetur, sed
+<lb ed="#L" n="67"/>actus seu causa propter quam datur, ut cum prohibetur
+<lb ed="#L" n="68"/>fornicatio, adulterium et huiusmodi, non prohibetur dare
+<lb ed="#L" n="69"/>propter ista, sed ipsa prohibentur. Unde homo propter
+<lb ed="#L" n="70"/>accepta huiusmodi servitia, quamvis nefanda, tenetur dare
+<lb ed="#L" n="71"/>quod promisit vel solitum est. Et quia sola causa in culpa
+<lb ed="#L" n="72"/>est, non refert in proposito an propter fornicationem, an
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="73"/>propter adulterium aut aliam speciem luxuriae detur. Et
+<lb ed="#L" n="74"/>similiter est de aliis malis servitiis: dummodo dare 
+prohi<lb break="no" ed="#L" n="75"/>bitum non sit lege divina, ut in simonia; vel humana, ut
+<lb ed="#L" n="76"/>in multis et factum est et fieri potest contra dantes pro
+<lb ed="#L" n="77"/>tali vel tali actu, etc. Et forte propter istos duos modos
+<lb ed="#L" n="78"/>quibus datio ipsa potest esse mala, Auctor dixit duo 
+vo<lb break="no" ed="#L" n="79"/>cabula, scilicet illicita et contra legem, referendo illicitum
+<lb ed="#L" n="80"/>ad ius naturae vel divinum, et contra legem ad ius 
+hu<lb break="no" ed="#L" n="81"/>manum.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2614">
+                  <lb ed="#L" n="82"/>In eadem responsione adverte quod, licet mulier possit
+<lb ed="#L" n="83"/>sibi retinere ex meretricio actu acquisita sine dolo et fraude,
+<lb ed="#L" n="84"/>quae tamen acquisivit ex simulatis verbis aut factis tenetur
+<lb ed="#L" n="85"/>restituere: huiusmodi namque simulationes important dolus
+<lb ed="#L" n="86"/>et fraus, ut patet superius in tractatu de prudentia. Et
+<lb ed="#L" n="87"/>quia per huiusmodi simulationes frequenter ab amatoribus
+<lb ed="#L" n="88"/>extorquere videntur, si crebrae essent harum poenitentiae,
+<lb ed="#L" n="89"/>latius essent exempla ponenda: sed ipsae viderint quid et
+<lb ed="#L" n="90"/>quot simulaverint.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2636">
+                  <lb ed="#L" n="91"/>IV. In responsione ad tertium, quia tria tractantur, 
+sci<lb break="no" ed="#L" n="92"/>licet de omnino ignoto domino rei, de mortuo, de multum
+<lb ed="#L" n="93"/>distante, de extremis singillatim oportet aliquid dicere. De
+<lb ed="#L" n="94"/>omnino ergo ignoto domino hota tria: scilicet viam, 
+ter<lb break="no" ed="#L" n="95"/>minum et consequens. Quoad, viam, vide in littera quod
+<lb ed="#L" n="96"/>est diligens inquisitio. Et dicitur diligens inquisitio quam
+<lb ed="#L" n="97"/>diligens homo, accurate investigando ubi, quando, per quos,
+<lb ed="#L" n="98"/>a quibus, etc., faceret. Et cum ad terminum non 
+perve<lb break="no" ed="#L" n="99"/>niatur nisi pertransita via, non debet rei dominus haberi
+<lb ed="#L" n="100"/>pro omnino ignoto nisi postquam praecessit diligens 
+in<lb break="no" ed="#L" n="101"/>quisitio. Et propterea si quis absque inquisitione rem 
+al<lb break="no" ed="#L" n="102"/>terius pauperi dedisset, non sausfecisset, sed tenetur 
+in<lb break="no" ed="#L" n="103"/>vento domino restituere: et sibi ipsi imputet, qui 
+impru<lb break="no" ed="#L" n="104"/>denter alienavit alienum.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2669">
+                  <lb ed="#L" n="105"/>Quoad terminum, vide in littera quod omnino ignotus:
+<lb ed="#L" n="106"/>ita quod, praemissa diligenti inquisitione, perveniendum
+<lb ed="#L" n="107"/>est ad hoc quod rei dominus sit omnino ignotus, Nam si
+<lb ed="#L" n="108"/>aliqualiter esset notus, puta quod est unus talis villae, etc.,
+<lb ed="#L" n="109"/>deberet inquisitio ad ulteriora procedere, ut particularis
+<lb ed="#L" n="110"/>notitia haberetur de domino, ut prudens vir sciret 
+inqui<lb break="no" ed="#L" n="111"/>rere. - Rursus quando sciri non potest dominus in 
+particu<lb break="no" ed="#L" n="112"/>lari, sed scitur quasi sub disiunctione quod alicui istorum
+<lb ed="#L" n="113"/>debetur, non est omnino ignotus dominus. Unde debet eis
+<lb ed="#L" n="114"/>dari,et vel distribui eisdem, vel ut sorte aliquis accipiat,
+<lb ed="#L" n="115"/>quando divisa res pluribus non prodesset et unita aliquem
+<lb ed="#L" n="116"/>relevaret. Et ne alicui fiat iniuria, de eorum voluntate 
+agen<lb break="no" ed="#L" n="117"/>dum est quidquid agendum est. - Et per hoc patet quomodo
+<lb ed="#L" n="118"/>debeat restitui quod acceptum est in bello iniusto, quando
+<lb ed="#L" n="119"/>civitas data est in praedam, nec sciri potest cui debetur
+<lb ed="#L" n="120"/>hoc quod ab hoc poenitente restituendum est. Non est
+<lb ed="#L" n="121"/>enim dandum pauperibus, nec aedificanda'sunt monasteria
+<lb ed="#L" n="122"/>aut hospitalia, extantibus damnum passis, de bonis eorum
+<lb ed="#L" n="123"/>sine eorum voluntate. Nec excusantur qui damnum 
+intu<lb break="no" ed="#L" n="124"/>lerunt ex difficultate inquirendi aut hoc faciendi: quoniam
+<lb ed="#L" n="125"/>damnificator ipse fuit in culpa, et posuit seipsum in 
+hu<lb break="no" ed="#L" n="126"/>iusmodi difficultatibus, ponendo alios in paupertate.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2719">
+                  <lb ed="#L" n="127"/>Quoad id vero quod sequitur quando dominus est 
+igno<lb break="no" ed="#L" n="128"/>tus, vide in littera quod debet ei restitui eo modo quo potest,
+<lb ed="#L" n="129"/>scilicet erogando illud nomine illius pauperibus Christi.
+<lb ed="#L" n="130"/>Sic enim redditur bonum utile ut sit utile spiritualiter quod
+<lb ed="#L" n="131"/>non potest illi reddi ut sit utile corporaliter vel 
+spiritua<lb break="no" ed="#L" n="132"/>liter ad arbitrium domini, — Et hinc habes solutionem 
+quae<lb break="no" ed="#L" n="133"/>stionis quid agendum est de casu inventis habentibus 
+do<lb break="no" ed="#L" n="134"/>minum, quando dominus est omnino ignotus. Dico autem
+<lb ed="#L" n="135"/>habentibus dominum: quia de inventis distinguendum erit
+<lb ed="#L" n="136"/>inferius in qu. ryvr. Debent enim haec erogari pauperi- '
+<lb ed="#L" n="137"/>bus. Et cum ipse inventor non sit deterioris conditionis
+<lb ed="#L" n="138"/>ex hoc quod invenit, potest sibi ipsi, si pauper est, non
+<lb ed="#L" n="139"/>minus quam alteri, applicare eleemosynaliter: sicut is cui
+<lb ed="#L" n="140"/>commissa est distributio aliquarum eleemosynarum potest
+<lb ed="#L" n="141"/>seipsum computare in numero pauperum, si pauper est,
+<lb ed="#L" n="142"/>et distribuere proportionaliter sibi sicut alii, secundum 
+Au<lb break="no" ed="#L" n="143"/>ctoris doctrinam superius habitam.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2759">
+                  <lb ed="#L" n="144"/>V. De multum autem distante domino rei, si commode
+<pb ed="#L" n="53"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>potest transmitti ei, aut significari, ut ordinet cui detur
+<lb ed="#L" n="2"/>sibi debitum ut perveniat ad eum, nulla difficultas est quod
+<lb ed="#L" n="3"/>tenetur habens rem ad restituendum ei. Sed quaestio est
+<lb ed="#L" n="4"/>quando non potest aliter absenti restitui suum nisi cum
+<lb ed="#L" n="5"/>magno damno restituentis: puta quia oportet tantum de
+<lb ed="#L" n="6"/>suo expendere in mittendo vel significando, quantum valet
+<lb ed="#L" n="7"/>id quod restituendum est. <ref xml:id="TAcCaj-d1e1592-Rd1e2782">Auctor namque, et Scotus et
+<lb ed="#L" n="8"/>Richardus, in Quarto, dist. xv</ref>, tenent quod iste restitutor
+<lb ed="#L" n="9"/>non tenetur ad restituendum ei cum tali damno: quia non
+<lb ed="#L" n="10"/>tenetur nisi ad restitutionem rei acceptae. Et addunt <ref xml:id="TAcCaj-d1e1592-Rd1e2792">Scotus
+<lb ed="#L" n="11"/>et Richardus</ref> quod in hoc casu debet illud erogari 
+paupe<lb break="no" ed="#L" n="12"/>ribus, si non adsunt parentes illius. In hoc autem loco
+<lb ed="#L" n="13"/>Auctor nihil loquitur de sumptibus agendis, sed absolute
+<lb ed="#L" n="14"/>loquens de multum distante dicit quod debet, si commode
+<lb ed="#L" n="15"/>potest, domino mitti debitum, alioquin debet deponi et
+<lb ed="#L" n="16"/>domino significari.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2809">
+                  <lb ed="#L" n="17"/>Mihi autem videtur distinguendum de causa 
+restitutio<lb break="no" ed="#L" n="18"/>nis: an scilicet fuerit acceptio iniusta, ut furtum, rapina,
+<lb ed="#L" n="19"/>usura et huiusmodi; vel sine iniustitia, ut inventio, 
+suc<lb break="no" ed="#L" n="20"/>cessio, mutuum, depositum et huiusmodi. Nam si tenetur
+<lb ed="#L" n="21"/>ad restitutionem ratione furti et similium, tenetur etiam ad
+<lb ed="#L" n="22"/>expensas, etiam. in quadruplum, si aliter non potest facere
+<lb ed="#L" n="23"/>quod res reddatur domino. Et ratio est quia dominus rei
+<lb ed="#L" n="24"/>ex eo quod passus est furtum, non debet damnificari: 
+con<lb break="no" ed="#L" n="25"/>stat autem quod damnificaretur si propriis expensis deberet
+<lb ed="#L" n="26"/>recuperare rem sibi ablatam. Cum ergo ipse non teneatur
+<lb ed="#L" n="27"/>ad expensas, et fur teneatur ad iterato statuendum 
+domi<lb break="no" ed="#L" n="28"/>num rei in possessione, consequens est quod fur teneatur
+<lb ed="#L" n="29"/>per accidens, scilicet propter accidentem distantiam, ad plus
+<lb ed="#L" n="30"/>damni sustinendum quam intulerit alteri. - Nec propterea
+<lb ed="#L" n="31"/>concedendum est quod tenetur ad aliud quam ad 
+restitu<lb break="no" ed="#L" n="32"/>tionem. Sed quia tenetur ad consummatam restitutionem,
+<lb ed="#L" n="33"/>quae per accidens requirit expensas, ideo tenetur ad 
+sub<lb break="no" ed="#L" n="34"/>eundum damnum. - Nec refert in proposito an fur, an
+<lb ed="#L" n="35"/>passus furtum se absentaverit a loco furti: sed sibi 
+im<lb break="no" ed="#L" n="36"/>putet fur, qui furando effecit se debitorem: ad ponendum
+<lb ed="#L" n="37"/>dominum in possessione rei suae, non in hoc vel illo loco,
+<lb ed="#L" n="38"/>sed simpliciter. Nec debet dominus, qui non potuit rem
+<lb ed="#L" n="39"/>suam ablatam ferre secum, pati: pateretur autem si sine
+<lb ed="#L" n="40"/>eius voluntate res sua pauperi aut alteri daretur.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2864">
+                  <lb ed="#L" n="41"/>Si vero tenetur ad restitutionem ratione acceptionis non
+<lb ed="#L" n="42"/>iniustae, tunc, cessante mora, fraude atque iniusto quoad
+<lb ed="#L" n="43"/>hoc recessu debitoris, non tenetur debitor ad damnum
+<lb ed="#L" n="44"/>subeundum propter restitutionem faciendam, etiam si ipse
+<lb ed="#L" n="45"/>se absentaverit: quia iure suo utebatur se absentando 
+pro<lb break="no" ed="#L" n="46"/>pter negotium aut commodum, quando non erat obligatus
+<lb ed="#L" n="47"/>significare creditori seu domino suum recessum. Et ratio
+<lb ed="#L" n="48"/>est quia in huiusmodi debitor aut tenetur ad restitutionem
+<lb ed="#L" n="49"/>solum ratione rei alienae apud se, ut patet de invento et
+<lb ed="#L" n="50"/>ex successione habito, deposito et huiusmodi: et sic 
+con<lb break="no" ed="#L" n="51"/>stat quod non tenetur ex huiusmodi incurrere damnum in
+<lb ed="#L" n="52"/>propriis. Aut tenetur ratione acceptionis ex voluntaria 
+do<lb break="no" ed="#L" n="53"/>mini communicatione, ut in mutuo, pignore, emptione et
+<lb ed="#L" n="54"/>huiusmodi: et sic, cum dominus exposuerit se sponte huic
+<lb ed="#L" n="55"/>periculo, distantiae, quae potest absque cuiusque iniuria ex
+<lb ed="#L" n="56"/>utraque parte intervenire, sibi ipsi imputet quod non 
+ca<lb break="no" ed="#L" n="57"/>verit reddendum sibi esse in tali loco. Unde servandum
+<lb ed="#L" n="58"/>est quod Auctor in hac responsione dicit in huiusmodi
+<lb ed="#L" n="59"/>restitutionibus Quae ex voluntariis seu non iniustis 
+acce<lb break="no" ed="#L" n="60"/>ptionibus proveniunt: in aliis autem etiam iniustis, quod
+<lb ed="#L" n="61"/>supra diximus.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2912">
+                  <lb ed="#L" n="62"/>Et haec sunt vera secundum rationem iustitiae. 
+Secun<lb break="no" ed="#L" n="63"/>dum autem humanas coniecturas, pensatis conditionibus
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>personarum et rerum, potest contingere quod posset dari
+<lb ed="#L" n="65"/>pauperibus: puta quia cognoscitur qualitas voluntatis 
+do<lb break="no" ed="#L" n="66"/>mini sic absentis, et creditur quod ratum haberet.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2928">
+                  <lb ed="#L" n="67"/>VI. In responsione ad quartum, occurrit dubium a <ref xml:id="TAcCaj-d1e1592-Rd1e2932">Scoto,
+<lb ed="#L" n="68"/>in Quarto, dist. xv</ref>, in hac materia motum: An scilicet
+<lb ed="#L" n="69"/>existens in extrema necessitate teneatur restituere creditori
+<lb ed="#L" n="70"/>simul tempore collapso in extremam. necessitatem. Ipse
+<lb ed="#L" n="71"/>namque Scotus tenet partem affirmativam: quia creditor
+<lb ed="#L" n="72"/>nunquam cecidit a dominio rei illius. Ex hoc enim quod
+<lb ed="#L" n="73"/>simul devenerunt ad extremam necessitatem, sequitur quod
+<lb ed="#L" n="74"/>dominium rei prius habitum non perdidit propter 
+extre<lb break="no" ed="#L" n="75"/>mam alterius necessitatem. Et consequenter sibi debet 
+re<lb break="no" ed="#L" n="76"/>stitui etiam ab existente in extrema necessitate.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e2955">
+                  <lb ed="#L" n="77"/>Mihi autem videtur oppositum esse verum. Et ratio me
+<lb ed="#L" n="78"/>movens est quia tempore extremae necessitatis 
+quomodo<lb break="no" ed="#L" n="79"/>cumque, cessat proprietas rerum ad ius gentium spectans,
+<lb ed="#L" n="80"/>ut inferius patebit. Et iudicium de usu rerum tunc non
+<lb ed="#L" n="81"/>debet fieri secundum statum proprietatis rerum, secundum
+<lb ed="#L" n="82"/>quem hoc est illius et illud alterius: sed debet fieri 
+secun<lb break="no" ed="#L" n="83"/>dum statum quo omnia sunt communia. Considerando
+<lb ed="#L" n="84"/>autem res in statu quo omnia sunt communia, manifestum
+<lb ed="#L" n="85"/>est quod melior est conditio occupantis, seu possidentis.
+<lb ed="#L" n="86"/>Ac per hoc, cum multi sint in extrema necessitate, et ego
+<lb ed="#L" n="87"/>invenio in manu mea unde vivam, non teneor illud mihi
+<lb ed="#L" n="88"/>subtrahere et tibi etiam in extrema necessitate existenti 
+tri<lb break="no" ed="#L" n="89"/>buere, licet hoc quod in mea manu est, iure gentium vel
+<lb ed="#L" n="90"/>positivo sit tuum: quia extrema mea necessitas ius 
+gen<lb break="no" ed="#L" n="91"/>tium respectu huius quod in manu mea est, tibi abstulit;
+<lb ed="#L" n="92"/>et ius naturae, quod solum remansit, fovet possidentem. —
+<lb ed="#L" n="93"/>Unde falsum est quod ille dominus rei nunquam cecidit
+<lb ed="#L" n="94"/>a dominio: quia extrema necessitas alterius, cum. 
+posses<lb break="no" ed="#L" n="95"/>sione illius rei, abstulit huic ius positivum, ius gentium
+<lb ed="#L" n="96"/>et ius naturae. — Unde falsum est quod iste detentor 
+oc<lb break="no" ed="#L" n="97"/>cidat dominum, aut iniuste conservet vitam suam: quia
+<lb ed="#L" n="98"/>dominium cessavit alterius, et iste usum, ex hoc quod 
+pos<lb break="no" ed="#L" n="99"/>sidere invenitur, ex naturae iure habet.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3008">
+                  <lb ed="#L" n="100"/>VII. In responsione ad quintum eiusdem articuli, nota
+<lb ed="#L" n="101"/>in secundo membro illud verbum, suae custodiae 
+deputa<lb break="no" ed="#L" n="102"/>tam. Habet namque se praelatus ad res ecclesiae 
+duplici<lb break="no" ed="#L" n="103"/>ter: scilicet ut custos, et ut dispensator. Est siquidem 
+cu<lb break="no" ed="#L" n="104"/>stos rerum immobilium et aliorum quorum alienatio est
+<lb ed="#L" n="105"/>sibi prohibita: est autem dispensator fructuum et aliorum
+<lb ed="#L" n="106"/>proventuum ad suum quasi stipendium pertinentium. Et
+<lb ed="#L" n="107"/>quoniam, ut <ref xml:id="TAcCaj-d1e1592-Rd1e3027">Auctormet dicit in Quodlibeto VI, qu. vir,
+<lb ed="#L" n="108"/>art. 1</ref>, praelatus male utens et dissipans portionem illam
+<lb ed="#L" n="109"/>quae estequasi stipendium eius, non tenetur ad 
+restitutio<lb break="no" ed="#L" n="110"/>nem, sed ad solam poenitentiam; ideo, ut praeservaret se
+<lb ed="#L" n="111"/>ab his quae sunt suae dispensationi pro suo usu commissa,
+<lb ed="#L" n="112"/>dixit, suae custodiae deputata.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3042">
+                  <lb ed="#L" n="113"/>Tenetur ergo in duobus casibus ad restitutionem. Primo,
+<lb ed="#L" n="114"/>si usurparet sibi rem deputatam alteri. Et in hoc 
+claudun<lb break="no" ed="#L" n="115"/>tur bona deputata tam alteri particulari, ut canonico, 
+offi<lb break="no" ed="#L" n="116"/>ciali, capellano; quam collegio, ut capitulo, hospitali; quam
+<lb ed="#L" n="117"/>multitudini, ut pauperibus aut puellis nubilibus aut 
+studen<lb break="no" ed="#L" n="118"/>tibus, transeuntibus, infirmis, etc. Propter quod qui praesunt
+<lb ed="#L" n="119"/>hospitalibus aut sunt commissarii in huiusmodi, videant
+<lb ed="#L" n="120"/>quam mundas servent manus: cum enim haec bona 
+alio<lb break="no" ed="#L" n="121"/>rum sint, rapina pauperum in domo eorum est* si haec sibi
+<lb ed="#L" n="122"/>applicant. — Secundo, si alienaret rem suae custodiae 
+depu<lb break="no" ed="#L" n="123"/>tatam. Et sub hoc clauduntur, ut dixi, tam immobilia quam
+<lb ed="#L" n="124"/>prohibita alienari, quam thesauri et similia, nisi in casu in
+<lb ed="#L" n="125"/>quo licite dispensari possunt. De his tamen amplius 
+dice<lb break="no" ed="#L" n="126"/>tur inferius, cum de statu episcoporum tractabitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1592-Dd1e3076"><!-- caj-p2p2-q62a6" -->
+               <head xml:id="TAcCaj-d1e1592-Hd1e3079">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1592-d1e3081">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="75" type="fixed=54"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3088">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="76"/>IN articulo sexto eiusdem quaestionis sexagesimaesecundae
+<lb ed="#L" n="77"/>nota in corpore articuli universalem radicem unde omnes
+<lb ed="#L" n="78"/>restitutiones in quacumque materia et quomodolibet 
+oriun<lb break="no" ed="#L" n="79"/>tur, ut in casibus non scriptis scias resolvere usque ad
+<lb ed="#L" n="80"/>principia, an teneatur quis ad restitutionem. Duae ergo
+<lb ed="#L" n="81"/>sunt radices ad quarum alteram restitutionem omnem 
+opor<lb break="no" ed="#L" n="82"/>tet reduci: prima est acceptio; secunda est res accepta. Et
+<lb ed="#L" n="83"/>extenditur in proposito acceptionis nomen ad omnem actum
+<lb ed="#L" n="84"/>quo proximus minus habet de suo quam habere debeat:
+<lb ed="#L" n="85"/>incendium enim, contumelia, iniqua distributio, et alia 
+hu<lb break="no" ed="#L" n="86"/>iusmodi, sub acceptione comprehenduntur. Oportet igitur
+<lb ed="#L" n="87"/>primo inspicere an ille de quo quaeritur teneatur ad 
+re<lb break="no" ed="#L" n="88"/>stituendum ratione acceptionis, vel ratione rei acceptae, an
+<lb ed="#L" n="89"/>ratione utriusque: oportet namque inter ista tria 
+compre<lb break="no" ed="#L" n="90"/>hendi omnem restitutionem,
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3125">
+                  <lb ed="#L" n="91"/>Et ut singillatim disseramus, sequendo litteram, 
+gene<lb break="no" ed="#L" n="92"/>ralis regula in restitutionibus ratione rei est quod tandiu
+<lb ed="#L" n="93"/>tenetur quis ad restitutionem ratione alienae rei, quandiu
+<lb ed="#L" n="94"/>eam habet. Et in promptu ratio in littera redditur: quia
+<lb ed="#L" n="95"/>habens id quod alterius est habet plus quam suum est,
+<lb ed="#L" n="96"/>et damnificatus tantundem habet minus de suo; et ideo
+<lb ed="#L" n="97"/>secundum formam iustitiae commutativae oportet 
+aequa<lb break="no" ed="#L" n="98"/>litatem inter eos constituere, auferendo ab illo qui habet
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="99"/>plus et dando ei qui habet minus, ut sic fiant aequales,
+<lb ed="#L" n="100"/>sicut erant a principio, antequam scilicet et ille minus et
+<lb ed="#L" n="101"/>iste plus haberet quam suum est. - Et ex hac radice 
+pro<lb break="no" ed="#L" n="102"/>venit quod si quis rem alienam ignoranter emisset, non
+<lb ed="#L" n="103"/>potest retinere eam, quam primum novit eam esse 
+alie<lb break="no" ed="#L" n="104"/>nam: sed tenetur eam domino restituere. Nec potest 
+pe<lb break="no" ed="#L" n="105"/>tere pretium quo ipse emit a domino rei, sed a 
+ven<lb break="no" ed="#L" n="106"/>ditore: ex hoc enim quod res illa aliena est, obligat n"
+<lb ed="#L" n="107"/>sessorem ad sui restitutionem domino.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3167">
+                  <lb ed="#L" n="108"/>II. Sed occurrit hoc in loco dubium, an res dicatur esse
+<lb ed="#L" n="109"/>apud aliquem solummodo quando res ipsa, puta vestis,
+<lb ed="#L" n="110"/>vinum, frumentum, extat apud eum: vel intelligendum est
+<lb ed="#L" n="111"/>quando vel res ipsa salva, vel aliquid loco eius extat, puta
+<lb ed="#L" n="112"/>pretium vel effectus ipsius, puta conservatio proprii vini
+<lb ed="#L" n="113"/>aut proprii frumenti, quod consumpsisset dum consumpsit
+<lb ed="#L" n="114"/>alienum; vel alius effectus, puta nutritio et huiusmodi
+<lb ed="#L" n="115"/>quae ex consumptione relinquuntur, vel amicitia quae ex
+<lb ed="#L" n="116"/>donatione, si rem donando distraxit, consequitur, vel 
+ali<lb break="no" ed="#L" n="117"/>quid aliud huiusmodi. Et est ratio dubii quia varia dicuntur
+<lb ed="#L" n="118"/>de possessore bonae fidei, de quo loquimur. Dicitur enim
+<lb ed="#L" n="119"/>in primis quod si emptam rem distraxit vendendo, quod
+<lb ed="#L" n="120"/>non tenetur ad restitutionem; et similiter si donavit aut
+<lb ed="#L" n="121"/>consumpsit; et si res est salva et fructifera, non tenetur
+<pb ed="#L" n="55"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ad restitutionem fructuum perceptorum consumptorum.
+<lb ed="#L" n="2"/>Dicitur deinde quod quandocumque possessor bonae fidei
+<lb ed="#L" n="3"/>factus est ex re aliena locupletior, tenetur ad restitutionem:
+<lb ed="#L" n="4"/>et ad hoc est textus iuris civilis, ff. de Petit. Hered.,
+<lb ed="#L" n="5"/>1. Item veniunt, $ Eos autem. Ex his enim consurgit
+<lb ed="#L" n="6"/>quod pretium quandoque computatur loco rei, puta cum
+<lb ed="#L" n="7"/>mihi donatam rem alienam vendidi, factus sum enim ex
+<lb ed="#L" n="8"/>illa locupletior: et quandoque non, puta cum emptam rem
+<lb ed="#L" n="9"/>vendidi sine lucro ex parte rei. Et rursus consumptio 
+quan<lb break="no" ed="#L" n="10"/>doque computatur loco rei, ut cum quotidianos sumptus
+<lb ed="#L" n="11"/>ex re aliena percipio, quos ex proprio effecissem, factus
+<lb ed="#L" n="12"/>sum enim ex his evitatis expensis locupletior (et hoc 
+ex<lb break="no" ed="#L" n="13"/>presse dicitur ibid., l. Sed et si lege, $ Quod autem):
+<lb ed="#L" n="14"/>quandoque non, ut cum consumpsi quia abundabam 
+ha<lb break="no" ed="#L" n="15"/>bendo talem rem, nec fecissem tales sumptus nisi talem
+<lb ed="#L" n="16"/>rem habuissem.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3240">
+                  <lb ed="#L" n="17"/>III. Ad evidentiam huius rei, praesupponendum est quod
+<lb ed="#L" n="18"/>sermo totus est de possessore bonae fidei, qui tamen post
+<lb ed="#L" n="19"/>factum. comperit se alienum possedisse, et paratus est 
+uni<lb break="no" ed="#L" n="20"/>cuique suum reddere: de hoc enim qui solummodo 
+ra<lb break="no" ed="#L" n="21"/>tione rei tenetur quaestio est, ad quid tenetur in casibus
+<lb ed="#L" n="22"/>huiusmodi. Si recte igitur perspiciamus formam 
+commu<lb break="no" ed="#L" n="23"/>tativae iustitiae antedictam, apparebit quod non solum
+<lb ed="#L" n="24"/>res ipsa aliena obligat possessorem ad restitutionem , sed
+<lb ed="#L" n="25"/>etiam quidquid loco rei successit, ut pretium vel effectus,
+<lb ed="#L" n="26"/>si ex his factus est possessor locupletior, obligat eundem
+<lb ed="#L" n="27"/>ad restitutionem. Ita quod inter rem ipsam alienam et id
+<lb ed="#L" n="28"/>quod loco eius successit haec est differentia in proposito,
+<lb ed="#L" n="29"/>quod res ipsa obligat possessorem simpliciter et absolute;
+<lb ed="#L" n="30"/>id vero quod loco rei successit obligat possessorem 
+solum<lb break="no" ed="#L" n="31"/>modo in casu, quando scilicet ex hoc factus est 
+locuple<lb break="no" ed="#L" n="32"/>tior, et ad tantum quantum factus est locupletior, ut bene
+<lb ed="#L" n="33"/>ius civile decernit. Et de re quidem ratio manifesta est.
+<lb ed="#L" n="34"/>De eo vero quod loco rei successit ad lucrum, 
+manifesta<lb break="no" ed="#L" n="35"/>tur: quia quidquid lucri ex re aliena apud possessorem
+<lb ed="#L" n="36"/>est, suum non est; ac per hoc, quantum habet de 
+huius<lb break="no" ed="#L" n="37"/>modi lucro, tantum habet plus quam suum est; et cum
+<lb ed="#L" n="38"/>dominus rei tantundem habeat minus de suo, oportet,
+<lb ed="#L" n="39"/>secundum iustitiae commutativae formam, auferri a 
+pos<lb break="no" ed="#L" n="40"/>sessore non suo et dari domino rei, ut sic inter eos sit
+<lb ed="#L" n="41"/>aequalitas. - Et huic rationi omnia consonant. Nam si ex
+<lb ed="#L" n="42"/>dono possideo alienum et vendidi, teneor de pretio, quo
+<lb ed="#L" n="43"/>factus sum locupletior. Si autem emi prius et postea 
+ven<lb break="no" ed="#L" n="44"/>didi sine lucro ex parte rei (quamvis forte lucratus fuerim
+<lb ed="#L" n="45"/>ex labore vel industria adiuncta), non teneor de aliquo. Et
+<lb ed="#L" n="46"/>similiter si ex dono habitum donavi, non sum ex re illa
+<lb ed="#L" n="47"/>factus locupletior. De consumptione quoque distinctio 
+con<lb break="no" ed="#L" n="48"/>sonat: quando scilicet consumptio redundat indirecte in
+<lb ed="#L" n="49"/>lucrum, puta quia consumpsisset tantundem de proprio,
+<lb ed="#L" n="50"/>tunc enim indirecte factus est locupletior; - quando vero
+<lb ed="#L" n="51"/>consumptio in nullum redundat lucrum, ad nihil tenetur.
+<lb ed="#L" n="52"/>Propter quod invitatus ad coenam rei furtivae, si bona fide
+<lb ed="#L" n="53"/>coenat et nihil propterea lucratur, quia omnino in domo
+<lb ed="#L" n="54"/>propria tantum expendit si in ea coenat quantum si non,
+<lb ed="#L" n="55"/>ad nihil tenetur: sed si ex hoc quod ad convivium accedit
+<lb ed="#L" n="56"/>minus domi expendit, tenetur, non de tanto quantum 
+con<lb break="no" ed="#L" n="57"/>sumit in coena, sed quantum lucratus est indirecte non
+<lb ed="#L" n="58"/>expendendo et comedendo propria. Et similiter dicendum
+<lb ed="#L" n="59"/>de veste pretiosa consumpta qualem non consumpsisset
+<lb ed="#L" n="60"/>nisi dono habuisset: non enim tenetur de tanto quantum
+<lb ed="#L" n="61"/>valebat vestis illa, sed quantum consumpsisset de sua veste.
+<lb ed="#L" n="62"/>Pro generali enim regula in succedentibus et fructibus et
+<lb ed="#L" n="63"/>effectibus rei habendum est quod solummodo tenetur 
+in<lb break="no" ed="#L" n="64"/>quantum aliquid lucri vel directe habuit, ut puta recipiendo
+<lb ed="#L" n="65"/>pretium locationis domus et fructuum agri et similium ;
+<lb ed="#L" n="66"/>vel indirecte, ut puta quia tantum expendisset de suo:
+<lb ed="#L" n="67"/>utroque enim modo factus est locupletior in tantum ex
+<lb ed="#L" n="68"/>re aliena. Notanter dicimus, ex re aliena, ad differentiam
+<lb ed="#L" n="69"/>lucri ex propria industria: non enim tenetur de tali lucro.
+<lb ed="#L" n="70"/>Propterea si habuissem. pecuniam alienam et cum ea 
+lu<lb break="no" ed="#L" n="71"/>cratus fuissem, non tenerer de tali lucro: et de similibus
+<lb ed="#L" n="72"/>idem est iudicium. - Et ex his patet quare quandoque 
+pre<lb break="no" ed="#L" n="73"/>tium in. proposito succedit loco rei, et quandoque non:
+<lb ed="#L" n="74"/>quia quandoque habet rationem non sui respectu 
+posses<lb break="no" ed="#L" n="75"/>soris, quando scilicet reddit ipsum locupletiorem; et quan-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>doque habet rationem sui, quando scilicet servatur 
+inde<lb break="no" ed="#L" n="77"/>mnis. Et similiter est proportionaliter de consumptione.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3377">
+                  <lb ed="#L" n="78"/>Sed restat adhuc unum dubium: quia scilicet secundum
+<lb ed="#L" n="79"/>doctrinam hanc non videtur aequa lex ista de restitutione
+<lb ed="#L" n="80"/>ex parte rei, sed claudicat ex una parte, scilicet ex parte
+<lb ed="#L" n="81"/>possessoris. Nam possessor staret in periculo damni, et
+<lb ed="#L" n="82"/>non lucri, sine ulla culpa sua. Declaratur sequela. Quia
+<lb ed="#L" n="83"/>possessor qui emit tenetur restituere rem apud se 
+existen<lb break="no" ed="#L" n="84"/>tem, etiam si non possit pretium quod dedit recuperare
+<lb ed="#L" n="85"/>a venditore, ut patet ex dictis: et tamen nunquam potest
+<lb ed="#L" n="86"/>lucrari, quia inquantum est factus locupletior, tenetur 
+re<lb break="no" ed="#L" n="87"/>stituere, ut dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3401">
+                  <lb ed="#L" n="88"/>Sed hoc non est difficile solvere, considerando quod
+<lb ed="#L" n="89"/>obligatio ad restituendum de qua loquimur non oritur ex
+<lb ed="#L" n="90"/>actione aut passione, sed ex ipsa re aliena, cui accidit
+<lb ed="#L" n="91"/>quod ab hoc possessore habeatur dono vel pretio, ac per
+<lb ed="#L" n="92"/>hoc quod iste damnificetur et non ille. Quia ergo posse
+<lb ed="#L" n="93"/>damnum incurrere possessorem ex re aliena non provenit
+<lb ed="#L" n="94"/>ex ipsa re, sed ex modo adiunctae actionis, scilicet 
+em<lb break="no" ed="#L" n="95"/>ptionis; non debere autem lucrari ex re ipsa provenit; 
+ae<lb break="no" ed="#L" n="96"/>quissima est restitutionis lex ex parte rei, secundum ea quae
+<lb ed="#L" n="97"/>sunt per se, et non secundum ea quae sunt per accidens
+<lb ed="#L" n="98"/>disponens. 3
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3427">
+                  <lb ed="#L" n="99"/>IV. Circa restitutionem vero ex parte acceptionis in
+<lb ed="#L" n="100"/>littera tria membra fiunt. Primum est quando acceptio est
+<lb ed="#L" n="101"/>iniuriosa. Et tunc acceptio ipsa obligat accipientem ad
+<lb ed="#L" n="102"/>restitutionem. Et sub hoc membro comprehenditur omnis
+<lb ed="#L" n="103"/>iniusta damnificatio in quacumque re: ita quod formale 
+con<lb break="no" ed="#L" n="104"/>siderandum in hoc est ipsa damnificatio, quae acceptio 
+vo<lb break="no" ed="#L" n="105"/>catur, sive fiat capiendo, sive comburendo, sive praecidendo,
+<lb ed="#L" n="106"/>sive quovis alio modo. Semper enim in huiusmodi 
+inter<lb break="no" ed="#L" n="107"/>venit damnum alterius: quod ideo est quia accipitur ab
+<lb ed="#L" n="108"/>invito domino quod suum est, quamvis nulli quandoque
+<lb ed="#L" n="109"/>detur, sed annihiletur. Omnis ergo qui damnificator est
+<lb ed="#L" n="110"/>alterius tenetur ad restitutionem, non ratione lucri sui, sed
+<lb ed="#L" n="111"/>ratione acceptionis seu damnificationis. Et hoc 
+fundamen<lb break="no" ed="#L" n="112"/>tum, hanc radicem, hanc regulam bene nota: quia cum 
+pri<lb break="no" ed="#L" n="113"/>mum inveneris aliquem acceptionis iniustae causam fuisse,
+<lb ed="#L" n="114"/>scito illum comprehendi sub damnificatoris nomine, et
+<lb ed="#L" n="115"/>ipsum obligatum ad restitutionem illati damni. Considera
+<lb ed="#L" n="116"/>ergo in casibus occurrentibus si operatus est ad damnum
+<lb ed="#L" n="117"/>alterius: quia damnificator est procul dubio, quando 
+sub<lb break="no" ed="#L" n="118"/>secutus est ex sua illatione effectus.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3473">
+                  <lb ed="#L" n="119"/>V. Secundum membrum est quando acceptio est ex 
+vo<lb break="no" ed="#L" n="120"/>luntate domini in utilitatem accipientis. Tunc etiam 
+acce<lb break="no" ed="#L" n="121"/>ptio ipsa obligat accipientem ad restitutionem. Et sub hoc
+<lb ed="#L" n="122"/>membro* non clauditur nisi acceptio illa quae est pro sola
+<lb ed="#L" n="123"/>utilitate accipientis: ut patet ex ratione litterae, quia 
+sci<lb break="no" ed="#L" n="124"/>licet tenetur ad gratiam recompensandam ille qui accipit;
+<lb ed="#L" n="125"/>hoc enim. non habet locum in acceptione pro communi
+<lb ed="#L" n="126"/>utilitate, scilicet tradentis et accipientis, quia ex quo 
+com<lb break="no" ed="#L" n="127"/>mune est beneficium, neuter alteri tenetur ad gratiam 
+re<lb break="no" ed="#L" n="128"/>compensandam.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3497">
+                  <lb ed="#L" n="129"/>Sed quod in littera dicitur, quod accipiens in suam 
+so<lb break="no" ed="#L" n="130"/>lam utilitatem a domino voluntario tenetur ad 
+restitutio<lb break="no" ed="#L" n="131"/>nem etiam si rem amisit, non caret scrupulo. Quoniam
+<lb ed="#L" n="132"/>ut patet Extra, de Commodato, casus fortuitus quo periit
+<lb ed="#L" n="133"/>commodatum, non debet imputari ei cui commodatum est,
+<lb ed="#L" n="134"/>nisi propter moram, culpam aut pactum. Non tenetur ergo
+<lb ed="#L" n="135"/>qui accipit in suam praecise utilitatem ad restitutionem
+<lb ed="#L" n="136"/>si rem amisit sine omni culpa sua: quamvis teneatur de
+<lb ed="#L" n="137"/>levissima culpa, ut ibidem dicitur. Quomodo ergo 
+salva<lb break="no" ed="#L" n="138"/>bitur praesens littera absolute dicens quod tenetur 
+resti<lb break="no" ed="#L" n="139"/>tuere etiam si rem amiserit?
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3524">
+                  <lb ed="#L" n="140"/>Ad hoc dubium licet dici forte posset quod Auctor 
+lo<lb break="no" ed="#L" n="141"/>quitur de acceptione qua transfertur dominium rei, quia
+<lb ed="#L" n="142"/>dat exemplum de mutuo: quia tamen exempla ratione 
+cla<lb break="no" ed="#L" n="143"/>rioris disciplinae ponuntur, aliter dicendum est quod 
+do<lb break="no" ed="#L" n="144"/>ctrina moralis est secundum ea quae conveniunt ut in 
+plu<lb break="no" ed="#L" n="145"/>ribus, nec oportet in moralium documentis excipere raro
+<lb ed="#L" n="146"/>contingentia. Unde cum fortuita sint de numero rarorum,
+<lb ed="#L" n="147"/>ut patet in II P/rysic., consequens est quod praesens 
+lit<lb break="no" ed="#L" n="148"/>tera, docens moralia absolute, vera est, iudicans secundum
+<lb ed="#L" n="149"/>id quod est frequenter, quod scilicet accipiens in sui 
+uti<lb break="no" ed="#L" n="150"/>litatem praecise a domino voluntario tenetur restituere
+<pb ed="#L" n="56"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>etiam si rem amiserit; et decretalis, aspiciens ad casus,
+<lb ed="#L" n="2"/>vera quoque est, decernens quod accipienti commodatum
+<lb ed="#L" n="3"/>causa sui non debet fortuitus casus imputari.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3561">
+                  <lb ed="#L" n="4"/>VI. Tertium membrum est quando acceptio est ex 
+vo<lb break="no" ed="#L" n="5"/>luntate domini, non pro utilitate accipientis. Tunc enim
+<lb ed="#L" n="6"/>acceptio ipsa non obligat accipientem ad restitutionem,
+<lb ed="#L" n="7"/>quia accipiendo obsequium impendit: sed res accepta, quia
+<lb ed="#L" n="8"/>aliena est, obligat eundem ad restitutionem. Et ideo 
+se<lb break="no" ed="#L" n="9"/>cundum regulam prius datam de obligatione ex parte rei,
+<lb ed="#L" n="10"/>tandiu iste qui sic accipit tenetur, quandiu rem habet. 
+Pro<lb break="no" ed="#L" n="11"/>pter quod, si rem perdidit, non tenetur: nisi ex magna sua
+<lb ed="#L" n="12"/>culpa, inquit Auctor, amiserit illam. Quod iuristae sub aliis
+<lb ed="#L" n="13"/>verbis docent, dicentes quod tenetur de dolo et lata culpa,
+<lb ed="#L" n="14"/>non autem de levi aut levissima: et vocatur magna seu lata
+<lb ed="#L" n="15"/>culpa. quando non custodivit ea diligentia res depositas qua
+<lb ed="#L" n="16"/>custodivit suas.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3592">
+                  <lb ed="#L" n="17"/>Et nota quod hoc tertium membrum a negatione 
+pro<lb break="no" ed="#L" n="18"/>priae utilitatis definivit Auctor, et non ab affirmatione 
+uti<lb break="no" ed="#L" n="19"/>litatis tradentis. Quia nihil refert an accipiat pro utilitate
+<lb ed="#L" n="20"/>tradentis, an alicuius tertii: sat est enim quod non accipiat
+<lb ed="#L" n="21"/>pro utilitate sua, ad hoc ne teneatur ad restitutionem 
+ra<lb break="no" ed="#L" n="22"/>tione acceptionis, sed rei.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3608">
+                  <lb ed="#L" n="23"/>VII. Sed occurrit circa hanc trimembrem distinctionem
+<lb ed="#L" n="24"/>dubium, quia pluribus modis quam his tribus acceptio rei
+<lb ed="#L" n="25"/>alienae potest se habere. Potest namque esse pro utilitate
+<lb ed="#L" n="26"/>utriusque partis, scilicet tradentis et accipientis: ut patet
+<lb ed="#L" n="27"/>in conductione et locatione; in accommodato ut servire
+<lb ed="#L" n="28"/>aut ministrare possit accommodanti, ut cum accommodo
+<lb ed="#L" n="29"/>equum ut vadas ad negotium meum; et in deposito cum
+<lb ed="#L" n="30"/>quis pro mercede custodit, et huiusmodi. Insufficienter ergo
+<lb ed="#L" n="31"/>Auctor modos quibus acceptio rei alienae se habere potest
+<lb ed="#L" n="32"/>distinxit.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3632">
+                  <lb ed="#L" n="33"/>Ad hoc dicitur quod Auctor non intendebat distinguere
+<lb ed="#L" n="34"/>universaliter modos acceptionis alieni, Quod ex eo patet
+<lb ed="#L" n="35"/>quod de acceptione rei ex dono nihil omnino dicit. 
+In<lb break="no" ed="#L" n="36"/>tendit ergo de aliquo acceptionis genere distinguere. Et
+<lb ed="#L" n="37"/>videtur mihi quod genus hoc sit acceptio simplex 
+anne<lb break="no" ed="#L" n="38"/>xum habens restitutionis debitum. Vocatur autem simplex
+<lb ed="#L" n="39"/>per exclusionem compositionis cum aliquo correspondente
+<lb ed="#L" n="40"/>dare. Contingit enim utroque modo accipere: scilicet cum
+<lb ed="#L" n="41"/>correspondente dare, ut in conductione, pignore, emptione,
+<lb ed="#L" n="42"/>et huiusmodi, accipit enim tunc quis alienum pro quo
+<lb ed="#L" n="43"/>datur aliquid correspondens; et sine aliqua datione admixta,
+<lb ed="#L" n="44"/>ut patet in mutuis, in quibus si daretur correspondens,
+<lb ed="#L" n="45"/>non esset mutuum. Dixi quoque, habens annexum 
+resti<lb break="no" ed="#L" n="46"/>tutionis debitum, propter acceptionem doni, quae licet sit
+<lb ed="#L" n="47"/>simplex, quia tamen non habet restitutionis debitum 
+an<lb break="no" ed="#L" n="48"/>nexum, extra genus hoc ponitur. Distinguatur ergo 
+sim<lb break="no" ed="#L" n="49"/>plex annexumque restitutionis debitum habens acceptio rei
+<lb ed="#L" n="50"/>alienae, et dicatur quod tripliciter se habere potest: 
+sci<lb break="no" ed="#L" n="51"/>licet cum iniuria, et hoc est primum membrum; vel cum
+<lb ed="#L" n="52"/>voluntate domini, et sic aut in solam accipientis utilitatem,
+<lb ed="#L" n="53"/>et hoc secundum est membrum; aut non in utilitatem 
+ac<lb break="no" ed="#L" n="54"/>cipientis, et hoc est tertium membrum. In his enim omnibus
+<lb ed="#L" n="55"/>simplex est acceptio, ut patet discurrenti: et in tantum
+<lb ed="#L" n="56"/>est simplex ut, si admisceatur- aliqua correspondens datio,
+<lb ed="#L" n="57"/>ut merces pro deposito vel aliquid' huiusmodi, varietur
+<lb ed="#L" n="58"/>debitum restituendi; ut patet ex hoc quod qui accipit 
+de<lb break="no" ed="#L" n="59"/>positum mercede aut aliqua propria utilitate, tenetur etiam
+<lb ed="#L" n="60"/>de levi, et forte de levissima culpa, de quarum nulla 
+te<lb break="no" ed="#L" n="61"/>nebatur si simplex fuisset acceptio, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3697">
+                  <lb ed="#L" n="62"/>Quartum igitur quod obiicitur restasse membrum, quando
+<lb ed="#L" n="63"/>scilicet acceptio est in favorem utriusque, non est membrum
+<lb ed="#L" n="64"/>distincti generis: quia non est acceptio simplex quando est
+<lb ed="#L" n="65"/>in favorem utriusque, sed acceptio componitur cum aliqua
+<lb ed="#L" n="66"/>correspondente datione, ut patet discurrenti per huiusmodi
+<lb ed="#L" n="67"/>contractus.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3714">
+                  <lb ed="#L" n="68"/>At si quis quaerat quare Auctor suscepit onus 
+distin<lb break="no" ed="#L" n="69"/>guendi huiusmodi acceptionem simplicem, et non potius
+<lb ed="#L" n="70"/>simplicem et mixtam: -— respondetur quod causa quare
+<lb ed="#L" n="71"/>non universaliter de acceptione dixit est quia tractabat de
+<lb ed="#L" n="72"/>iustitiae commutativae actu, a qua acceptiones 'gratuitae
+<lb ed="#L" n="73"/>longe sunt; et acceptiones ad iustum aut iniustum 
+spe<lb break="no" ed="#L" n="74"/>ctantes mixtae post simplices tractandae sunt, aut ex 
+sim<lb break="no" ed="#L" n="75"/>plicibus iudicandae.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3734">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>VIII. In responsione ad primum eiusdem sexti articuli vide
+<lb ed="#L" n="77"/>conclusionem, quod quando qui ratione acceptionis tenetur .
+<lb ed="#L" n="78"/>transtulit rem in alium, uterque tenetur, alter ratione 
+ac<lb break="no" ed="#L" n="79"/>ceptionis et alter ratione rei, ut scias decernere in casibus.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3747">
+                  <lb ed="#L" n="80"/>In responsione ad secundum, circa illius argumenti 
+ma<lb break="no" ed="#L" n="81"/>teriam dubium occurrit an, si restituendo per confessorem
+<lb ed="#L" n="82"/>eandem rem sequeretur criminis detectio, teneatur aliquis
+<lb ed="#L" n="83"/>ad restituendam rem acceptam: an sufficiat restituere illius
+<lb ed="#L" n="84"/>aestimationem. Et licet hoc dubium spectet directe ad 
+ar<lb break="no" ed="#L" n="85"/>ticulum secundum, ubi tractatur quid est restituendum ,
+<lb ed="#L" n="86"/>propter materiam tamen argumenti huius hic motum est.
+<lb ed="#L" n="87"/>Et est ratio dubitandi quia non debet fieri commutatio rei
+<lb ed="#L" n="88"/>invito domino: contingit enim domino displicere 
+commu<lb break="no" ed="#L" n="89"/>tationem rei suae in aestimationem illius; si enim illam
+<lb ed="#L" n="90"/>haberet, nullo pacto venderet. - Ex alia autem parte est
+<lb ed="#L" n="91"/>quia homo non tenetur ad damnificandum famam suam
+<lb ed="#L" n="92"/>ut restituat alteri rem. suam.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3778">
+                  <lb ed="#L" n="93"/>Ad hoc dicitur quod, licet casus iste non facile 
+possi<lb break="no" ed="#L" n="94"/>bilis sit, eo quod oporteret simul concurrere quod nec per
+<lb ed="#L" n="95"/>se nec per alium, nec tunc nec nacta post congrui 
+me<lb break="no" ed="#L" n="96"/>diatoris opportunitate, possit restitui res illa in specie, et
+<lb ed="#L" n="97"/>cum hoc res sit talis quod nullo modo dominus 
+commu<lb break="no" ed="#L" n="98"/>tationem acceptaret: si tamen casus accideret, videtur mihi
+<lb ed="#L" n="99"/>quod non teneatur ad restitutionem illius rei, sed 
+aesti<lb break="no" ed="#L" n="100"/>mationis eiusdem. Et ratio me movens est quia ob 
+resti<lb break="no" ed="#L" n="101"/>tutionem bonorum inferioris ordinis non tenetur aliquis,
+<lb ed="#L" n="102"/>ex vi debiti, ad damnificandum se in rebus superioris 
+or<lb break="no" ed="#L" n="103"/>dinis. Res autem exteriores, quales sunt omnes ad divitias
+<lb ed="#L" n="104"/>spectantes, sunt bona inferioris ordinis: fama autem est 
+bo<lb break="no" ed="#L" n="105"/>num superioris ordinis, iuxta illud: Melius est nomen 
+bo<lb break="no" ed="#L" n="106"/>num quam divitiae multae. Unde non tenetur quis 
+damni<lb break="no" ed="#L" n="107"/>ficare se in fama ut restituat rem illam in speci».
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3813">
+                  <lb ed="#L" n="108"/>Et si quis obiiciat quod non propter rem illam, sed
+<lb ed="#L" n="109"/>propter actum virtutis, iustitiae scilicet, exercendum, quod
+<lb ed="#L" n="110"/>bonum est superioris ordinis quam sit fama, tenetur iste
+<lb ed="#L" n="111"/>damnum sustinere famae: sicut ille qui iuste torquetur 
+te<lb break="no" ed="#L" n="112"/>netur crimen suum dicere: — responderetur quod quamvis
+<lb ed="#L" n="113"/>iustitiae ratio exigat ut illam rem alienam, et non aliam
+<lb ed="#L" n="114"/>pro ea restituat; quia tamen exhibitio iusti ab hoc fieri
+<lb ed="#L" n="115"/>non potest sine damno proprio in re superioris ordinis,
+<lb ed="#L" n="116"/>consequens est quod per accidens restitutio illius rei in
+<lb ed="#L" n="117"/>specie desinat habere rationem actus iustitiae; ac per hoc,
+<lb ed="#L" n="118"/>iste omittens reddere rem eandem non omittit iustitiae
+<lb ed="#L" n="119"/>actum debitum.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3842">
+                  <lb ed="#L" n="120"/>Maior propositio manifestatur ex hoc quod homo non
+<lb ed="#L" n="121"/>tenetur, ex natura debiti, vendere seipsum ut restituat 
+pecu<lb break="no" ed="#L" n="122"/>niam quam furatus est: quia libertas est bonum superioris
+<lb ed="#L" n="123"/>ordinis inaestimabile; Nec bene pro toto libertas venditur
+<lb ed="#L" n="124"/>auro. Et simile est de fama. — Dixi autem, ex natura debiti:
+<lb ed="#L" n="125"/>quia licet ex natura legis punitivae fur teneatur se vendere,
+<lb ed="#L" n="126"/>si fieret talis lex, ut olim erat in lege Moysi, iuxta illud
+<lb ed="#L" n="127"/>Exod. xxu, Si non habuerit fur quod pro furto reddat,
+<lb ed="#L" n="128"/>venundabitur; non tamen ad hoc tenetur ex natura debiti.
+<lb ed="#L" n="129"/>Unde etiam stante lege, non tenetur nisi post sententiam.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3867">
+                  <lb ed="#L" n="130"/>IX. In responsione ad tertium, dubium occurrit an, uno
+<lb ed="#L" n="131"/>integre restituente, alii qui etiam in solidum tenebantur ad
+<lb ed="#L" n="132"/>restituendum, teneantur, de necessitate salutis, ad 
+refunden<lb break="no" ed="#L" n="133"/>dum illi qui restituit; et ad quantum quisque teneatur, si 
+te<lb break="no" ed="#L" n="134"/>netur. Et est ratio dubii quia, cum isti nihil acceperint ab
+<lb ed="#L" n="135"/>isto qui restitutionem fecit, non tenentur ei aliquo 
+restitu<lb break="no" ed="#L" n="136"/>tionis iure: restitutio enim praesupponit acceptionem vel
+<lb ed="#L" n="137"/>rem acceptam, ut dictum est. Quo autem alio iure 
+tenea<lb break="no" ed="#L" n="138"/>tur, oportet ostendere. - In oppositum autem est littera 
+prae<lb break="no" ed="#L" n="139"/>sens, cui consonare omnes de hoc scribentes videntur.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3891">
+                  <lb ed="#L" n="140"/>Ad hoc dicitur quod in hac re est aliquid clarum, et
+<lb ed="#L" n="141"/>aliquid obscurum. Tripliciter namque contingere potest
+<lb ed="#L" n="142"/>casus iste: primo, rebus acceptis existentibus apud eos qui
+<lb ed="#L" n="143"/>acceperunt; secundo, rebus acceptis consumptis ab eisdem;
+<lb ed="#L" n="144"/>tertio, quod nulla fuerit acceptio lucrosa alicui, sed solum
+<lb ed="#L" n="145"/>damnificatoria, ut in destructione domus, incendio, 
+con<lb break="no" ed="#L" n="146"/>culcatione seminum, et huiusmodi. Et in primo et secundo 7
+<lb ed="#L" n="147"/>casu clarum est quod alii tenentur refundere ei qui 
+resti<lb break="no" ed="#L" n="148"/>tuit, tanquam substituto domino illarum rerum: ex eo
+<lb ed="#L" n="149"/>namque quod unus restituit pretium totius, factus est 
+do<lb break="no" ed="#L" n="150"/>minus rerum extantium apud alios, et est subrogatus in iu-
+<pb ed="#L" n="57"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ribus illius cui rerum consumptarum pretium debebatur ab 
+<lb ed="#L" n="2"/>his qui consumpserunt. Et per hoc patet: quia ista refusio
+<lb ed="#L" n="3"/>debet fieri iure restitutionis ratione rei acceptae extantis vel
+<lb ed="#L" n="4"/>mala fide consumptae; quoniam fit illi qui succedit 
+do<lb break="no" ed="#L" n="5"/>mino vel in dominio respectu extantium rerum, vel in 
+iu<lb break="no" ed="#L" n="6"/>ribus respectu consumptarum. Et hoc est quod doctores
+<lb ed="#L" n="7"/>dicunt dum docent quod tenetur refundere quilibet pro
+<lb ed="#L" n="8"/>portione quae ad eum devenit.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e3939">
+                  <lb ed="#L" n="9"/>In tertio casu, quando ad nullum portio aliqua devenit,
+<lb ed="#L" n="10"/>obscurum est an alii teneantur refundere. Nam ratione rei
+<lb ed="#L" n="11"/>nullus tenetur, sicut in prioribus casibus. Ratione autem
+<lb ed="#L" n="12"/>actionis, qua tenebantur iniuriato, non tenentur isti 
+tan<lb break="no" ed="#L" n="13"/>quam subrogato in iniuria: quia iste qui restituit non 
+sub<lb break="no" ed="#L" n="14"/>rogatur in iniuria, ut patet. Videtur autem mihi 
+conside<lb break="no" ed="#L" n="15"/>randum et distinguendum esse an ille unus qui integre
+<lb ed="#L" n="16"/>restituit succedat damnificato in damno tantum, an etiam
+<lb ed="#L" n="17"/>in damnum pati ab eisdem. Nam ex hoc quod aliquis 
+in<lb break="no" ed="#L" n="18"/>currit damnum non sequitur quod aliquis teneatur illum
+<lb ed="#L" n="19"/>a damno relevare, ut patet: sed ex hoc quod aliquis 
+pa<lb break="no" ed="#L" n="20"/>titur ab aliquo damnum bene sequitur quod sit ab illo
+<lb ed="#L" n="21"/>relevandus. Ad hoc autem discernendum oportet perspicere
+<lb ed="#L" n="22"/>an ille unus. qui integre restituit fuerit inductus, aut 
+in<lb break="no" ed="#L" n="23"/>ducens, aut aeque spontaneus ad damnificationem. Quia
+<lb ed="#L" n="24"/>si fuit inductus; tenentur alii, qui ipsum ad maleficium
+<lb ed="#L" n="25"/>induxerunt, ad refundendum ei saltem aequis portionibus:
+<lb ed="#L" n="26"/>quoniam inductus ad maleficium, ex hoc ipso quod 
+indu<lb break="no" ed="#L" n="27"/>ctus est ad. damnificandum alium, consequenter ductus est
+<lb ed="#L" n="28"/>ad statum. in quo tenetur ad satisfaciendum in solidum;
+<lb ed="#L" n="29"/>ac per hoc, ab inducentibus passus est per viam sequelae
+<lb ed="#L" n="30"/>hoc damnum; et sic iste inductus non solum succedit in
+<lb ed="#L" n="31"/>damno, sed etiam in damnificari ab eisdem. — Si vero fuit
+<lb ed="#L" n="32"/>inductor aliorum ad maleficium ille qui integre restituit,
+<lb ed="#L" n="33"/>non tenentur inducti ad refundendum eidem. Quia isti non
+<lb ed="#L" n="34"/>damnificaverunt deducendo ipsum ad statum in quo tenetur
+<lb ed="#L" n="35"/>ad restituendum i in solidum, sed e contra. Unde iste non
+<lb ed="#L" n="36"/>succedit nisi damno. — Si autem aeque spontaneus fuit ille
+<lb ed="#L" n="37"/>integre restituit, ita quod nec induxit nec inductus fuit,
+<lb ed="#L" n="38"/>inc subdistinguendum est. Aut ille sine aliis ad 
+malefi<lb break="no" ed="#L" n="39"/>cium perpetrandum non ivisset: puta quia periculosa 
+ag<lb break="no" ed="#L" n="40"/>gressio, vel sine. sociis non fuisset ausus, vel huiusmodi.
+<lb ed="#L" n="41"/>Et sic,.cum par sit de omnibus huiusmodi ratio, quilibet
+<lb ed="#L" n="42"/>alium. praedicto modo damnificavit indirecte, quoniam 
+qui<lb break="no" ed="#L" n="43"/>libet posuit. socium in statu restituendi in solidum: ac per
+<lb ed="#L" n="44"/>hoc, aequis saltem portionibus tenentur ei qui restituit 
+re<lb break="no" ed="#L" n="45"/>fundere, et gratias agere illi quod. eripuit eos ab onere 
+re<lb break="no" ed="#L" n="46"/>stituendi in solidum. .Aut quilibet sine aliis ivisset, sed
+<lb ed="#L" n="47"/>tamen socialiter iverunt, Et tunc de rigore iuris non video
+<lb ed="#L" n="48"/>ix. teneantur alii eidem refundere: quia nullus alium
+<lb ed="#L" n="49"/>nificavit. Quamvis de aequitate deberent refundere 
+ei<lb break="no" ed="#L" n="50"/>dem: aequum quippe est ut socii in damno inferendo sint
+<lb ed="#L" n="51"/>etiam socii-in damno-sustinendo.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4035">
+                  <lb ed="#L" n="52"/>DE argumentum igitur: ex littera assumptum dicitur quod
+<lb ed="#L" n="53"/>Auctor loquitur in littera de surripientibus res, ut patet
+<lb ed="#L" n="54"/>in argumento; quos concessum est teneri ad refundendum
+<lb ed="#L" n="55"/>ratione rei, quae ad eos pervenit. Nos autem loquimur i in
+<lb ed="#L" n="56"/>hoc ultimo de praecise damnificantibus alterum sine 
+cuius<lb break="no" ed="#L" n="57"/>cumque lucro: de quibus etiam dixi quod mihi videtur
+<lb ed="#L" n="58"/>rationi consonum.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4053">
+                  <lb ed="#L" n="59"/>X. In eadem responsione ad tertium eiusdem sexti 
+ar<lb break="no" ed="#L" n="60"/>ticuli dubium quorundam occurrit circa ultima verba, 
+sci<lb break="no" ed="#L" n="61"/>licet , quod tamen potest condonare, an is qui ad 
+resti<lb break="no" ed="#L" n="62"/>tuendum tenetur absolutus sit coram Deo a debito 
+resti<lb break="no" ed="#L" n="63"/>tutionis ex hoc quod petiit ab eo cui tenetur remissionem,
+<lb ed="#L" n="64"/>et habuit ab eo gratiam: an requiratur quod offerat 
+pecu<lb break="no" ed="#L" n="65"/>niam vel rem in promptu. Et est ratio movendi hoc 
+du<lb break="no" ed="#L" n="66"/>bium diversitas scriptorum.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4073">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>Ad hoc breviter dicitur quod quocumque modo 
+perve<lb break="no" ed="#L" n="68"/>niatur ad hoc quod dominus rei, seu cui restitutio fieri
+<lb ed="#L" n="69"/>debet, libere donat aut remittit, absolutus est debitor 
+co<lb break="no" ed="#L" n="70"/>ram Deo: nihil enim refert precibus, obsequio vel 
+inter<lb break="no" ed="#L" n="71"/>cessione aut oblatione aut quovis alio modo procurare,
+<lb ed="#L" n="72"/>dummodo perveniatur ad id unde pendet vinculum 
+resti<lb break="no" ed="#L" n="73"/>tutionis, liberam scilicet voluntatem domini, per quam est
+<lb ed="#L" n="74"/>possessor et distributor et donator rerum suarum. 
+Quid<lb break="no" ed="#L" n="75"/>quid autem rationabiliter in hac re dubitatur est pro tanto
+<lb ed="#L" n="76"/>quia dubitatur an libere ille donet sua quae non sunt in
+<lb ed="#L" n="77"/>sua potestate posita. Sed hoc et cetera dubia cessant quando
+<lb ed="#L" n="78"/>constat ex verbis donantis, absque metu, fraude, 
+despera<lb break="no" ed="#L" n="79"/>tione rei recuperandae, et, breviter, omnibus facientibus 
+vo<lb break="no" ed="#L" n="80"/>luntarium mixtum, quod ipse libere donat. Nec obstat si
+<lb ed="#L" n="81"/>forte idem, oblata re, non donat aut donaret. Quoniam
+<lb ed="#L" n="82"/>praesentia rei movet ad cupiditatis passionem, ex qua fit
+<lb ed="#L" n="83"/>ille illiberalis; extra quam passionem existens, in absentia
+<lb ed="#L" n="84"/>rerum, liberaliter donat: facilius est. enim esse liberalem
+<lb ed="#L" n="85"/>in donando sua quae non possidet, quam extrahendo a se
+<lb ed="#L" n="86"/>quae possidet. Unde scrupulus iste superfluus est. Quin
+<lb ed="#L" n="87"/>potius, si restitutor in veritate paratus est et pauper et
+<lb ed="#L" n="88"/>creditor dives, et universaliter quando donatio esset opus
+<lb ed="#L" n="89"/>pietatis, consulendum est ut absentibus rebus petat 
+do<lb break="no" ed="#L" n="90"/>nationem: ne intret creditor in tentationem illiberalitatis
+<lb ed="#L" n="91"/>ex praesentia rerum, sed, extra omnem passionem existens,
+<lb ed="#L" n="92"/>liberaliter donet. Experimur enim in aliis quod virtutem
+<lb ed="#L" n="93"/>facilius servamus remoti a praesentia obiectorum: ut patet
+<lb ed="#L" n="94"/>in cibis et venereis. Nec propterea non libere. abstinemus:
+<lb ed="#L" n="95"/>quia extra praesentiam obiectorum sobrii et casti sumus,
+<lb ed="#L" n="96"/>qui forte in praesentia laberemur.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4144">
+                  <lb ed="#L" n="97"/>XI. Circa praedicta occurrit novum dubium, an, 
+plu<lb break="no" ed="#L" n="98"/>ribus in solidum obligatis ad restitutionem, possit dominus
+<lb ed="#L" n="99"/>gratiam remissionis quibusdam facere et totum ab uno 
+exi<lb break="no" ed="#L" n="100"/>gere, in foro conscientiae. Et est ratio dubii quia dominus,
+<lb ed="#L" n="101"/>remittendo quibusdam, donat eis quidquid habent de suo.
+<lb ed="#L" n="102"/>Quod autem donavi uni, non debeo amplius ab alio 
+re<lb break="no" ed="#L" n="103"/>petere: alioquin non simplum, sed multiplicatum 
+restitue<lb break="no" ed="#L" n="104"/>retur. - In oppositum autem est quia omnia iura 
+conce<lb break="no" ed="#L" n="105"/>dunt contra quemlibet eorum qui tenentur in solidum ad
+<lb ed="#L" n="106"/>restitutionem, posse agi.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4168">
+                  <lb ed="#L" n="107"/>Ad hoc dicitur quod. cum donatio de suo, et non de
+<lb ed="#L" n="108"/>alieno aut alii debito fieri possit; si dominus cui restitutio
+<lb ed="#L" n="109"/>facienda est liberaliter donat, non debet in praeiudicium
+<lb ed="#L" n="110"/>aliorum huiusmodi donatio redundare. Verteretur autem
+<lb ed="#L" n="111"/>in praeiudicium aliorum si, istis qui tenentur aut restituere
+<lb ed="#L" n="112"/>aut refuhdere restitutoribus absolutis, ipsi soli damnum
+<lb ed="#L" n="113"/>totum. incurrerent. Immo contingere etiam posset 
+secun<lb break="no" ed="#L" n="114"/>dum hoc quod qui nihil habuissent, restituendo totum,
+<lb ed="#L" n="115"/>damnum incurrerent; et illi qui adhuc res salvas haberent
+<lb ed="#L" n="116"/>lucrum reportarent rerum illarum; et dominus, qui prius
+<lb ed="#L" n="117"/>damnificatus erat, et in nullo remaneret damnificatus, et
+<lb ed="#L" n="118"/>effectus esset liberalis rerum: illius qui restituit: quod 
+ini<lb break="no" ed="#L" n="119"/>quitate plenum est. Non potest ergo dominus .cui restitui
+<lb ed="#L" n="120"/>debet donare in casu in quo tenentur alii refundere 
+re<lb break="no" ed="#L" n="121"/>stituenti, in praeiudicium restituentis. Et propterea si
+<lb ed="#L" n="122"/>donavit quibusdam talibus, qui scilicet tenebuntur 
+refun<lb break="no" ed="#L" n="123"/>dere illi qui restituet, non potest in foro conscientiae 
+pe<lb break="no" ed="#L" n="124"/>tere ab uno integram restitutionem, sed tantum minus
+<lb ed="#L" n="125"/>quantum donavit aliis: et sibi ipsi imputet, qui donavit
+<lb ed="#L" n="126"/>suum, si illud non habet.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4214">
+                  <lb ed="#L" n="127"/>Secus autem esset si non donasset, sed nollet eos vexare,
+<lb ed="#L" n="128"/>sed ab uno tantum exigere: et ipsi inter se postmodum,
+<lb ed="#L" n="129"/>qui tenentur in solidum, viderint. Et hoc concedunt iura:
+<lb ed="#L" n="130"/>et non quod portiones donatae quibusdam exigantur 
+post<lb break="no" ed="#L" n="131"/>modum ab uno aut pluribus obligatorum in solidum. 
+Quo<lb break="no" ed="#L" n="132"/>niam hoc, ut patet ex praedictis, iniquum est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1592-Dd1e4231"><!-- caj-p2p2-q62a7" -->
+               <head xml:id="TAcCaj-d1e1592-Hd1e4234">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1592-d1e4236">
+                  <pb ed="#L" n="59"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=59"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4245">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo septimo eiusdem sexagesimaesecundae 
+quae<lb break="no" ed="#L" n="3"/>stionis, prosequendo ambiguitates spectantes ad 
+perso<lb break="no" ed="#L" n="4"/>nam restituentis, quis scilicet teneatur ad restitutionem, 
+no<lb break="no" ed="#L" n="5"/>tanda et declaranda primo occurrit illa maxima: 
+Quicum<lb break="no" ed="#L" n="6"/>que est causa iniustae acceptionis tenetur ad restitutionem.
+<lb ed="#L" n="7"/>Videtur siquidem male intellecta et applicata, ut scripta
+<lb ed="#L" n="8"/>doctorum prae se ferunt. Quibus Auctoris verba hoc in
+<lb ed="#L" n="9"/>loco favere videntur, dum dicit quod ad restitutionem 
+ob<lb break="no" ed="#L" n="10"/>ligat consensus in eo sine quo rapina fieri non potest.
+<lb ed="#L" n="11"/>Aiuntque quod requiritur ad restitutionis vinculum quod
+<lb ed="#L" n="12"/>Sit causa sine qua non acciperetur: sed si omnino. 
+acce<lb break="no" ed="#L" n="13"/>ptio fuisset per alium facta, non teneri ad restitutionem
+<lb ed="#L" n="14"/>nisi ratione rei quae ad ipsum devenit. Et ex hoc 
+prin<lb break="no" ed="#L" n="15"/>cipio deducitur quod causae instrumentales particulares,
+<lb ed="#L" n="16"/>loco quarum omnino fuissent aliae, ut ministri ad usuras
+<lb ed="#L" n="17"/>et inferiores milites et pedites ad bellum manifeste 
+iniu<lb break="no" ed="#L" n="18"/>stum, non tenentur nisi aliquid ad eos devenerit: quoniam
+<lb ed="#L" n="19"/>loco eorum alii affuissent qui idem fecissent.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4289">
+                  <lb ed="#L" n="20"/>Sed, salva horum reverentia, valde isti errant in sensu
+<lb ed="#L" n="21"/>illius maximae, et consequenter longe aberrant applicando.
+<lb ed="#L" n="22"/>Plus enim in primis est causa per quam fit quam causa
+<lb ed="#L" n="23"/>sine quanon fiere t: quoniam ista inter causas non 
+com<lb break="no" ed="#L" n="24"/>putatur, illa vere est causa, ut patet in philosophia. Et
+<lb ed="#L" n="25"/>in proposito causa iniustae acceptionis est quaecumque 
+ef<lb break="no" ed="#L" n="26"/>ficit ipsam acceptionem iniustam. Unde et in hoc articulo
+<lb ed="#L" n="27"/>subdit Auctor quod ideo quandoque adulator non tenetur,
+<lb ed="#L" n="28"/>quia quandoque non est causa efficax. Et, ut omnes 
+in<lb break="no" ed="#L" n="29"/>telligant, si quis habeat multos famulos, et praecipiat quod
+<lb ed="#L" n="30"/>occidant talem. virum; et, singulis existentibus paratis ad
+<lb ed="#L" n="31"/>hoc et sufficientibus, si unus eorum solus illum occidat;
+<lb ed="#L" n="32"/>numquid non est vera causa iniustae acceptionis vitae? Et
+<lb ed="#L" n="33"/>tenetur illi ad restitutionem: nec excusatur a restitutionis
+<lb ed="#L" n="34"/>vinculo plus quam a poena mortis, a qua certum est non
+<lb ed="#L" n="35"/>excusari quia omnino multi alii ipsum occidissent. Habet
+<lb ed="#L" n="36"/>cap xvi, enim locum in huiusmodi regula evangelica: Necesse est
+<lb ed="#L" n="37"/>ut veniant scandala: veruntamen vae homini illi per quem
+<lb ed="#L" n="38"/>venit. Ad affirmativam oportet ergo respicere, an scilicet
+<lb ed="#L" n="39"/>iste efficiat iniustam acceptionem: et non ad negativam,
+<lb ed="#L" n="40"/>an scilicet non fuisset facta sine ipso. Tenetur enim 
+qui<lb break="no" ed="#L" n="41"/>libet ratione suae operationis: nec excusatur quia omnino
+<lb ed="#L" n="42"/>hoc alius fecisset. Cum ergo vinculum restitutionis sequatur
+<lb ed="#L" n="43"/>operationem agentis quando ex iniusta acceptione 
+consur<lb break="no" ed="#L" n="44"/>git, sine omni dubio constat quod extra obligatos ad 
+resti<lb break="no" ed="#L" n="45"/>tutionem non sunt qui, licet nihil habuerint et alii omnino
+<lb ed="#L" n="46"/>hoc idem fecissent, ministri fuerunt iniquae acceptionis.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4350">
+                  <lb ed="#L" n="47"/>Et ex hoc patet quod secundum iustitiae rigorem, 
+qui<lb break="no" ed="#L" n="48"/>libet miles, quilibet pedes in bello manifeste iniusto tenetur
+<lb ed="#L" n="49"/>in solidum de omni damno quod intulerunt, non minus
+<lb ed="#L" n="50"/>quam cum multi socii ad rapiendum concurrunt: quamvis
+<lb ed="#L" n="51"/>exhibere damnum passis pretium non teneantur nisi 
+secun<lb break="no" ed="#L" n="52"/>dum facultates suas, impotentia illos excusante. Ministri
+<lb ed="#L" n="53"/>quoque furis, raptoris, usurarii et huiusmodi, qui 
+deser<lb break="no" ed="#L" n="54"/>viunt, sive sponte sive mercede conducti, ad iniquas 
+acce<lb break="no" ed="#L" n="55"/>ptiones, etsi nihil ad eos deveniat, tenentur in solidum
+<lb ed="#L" n="56"/>ratione iniustae acceptionis quam effecerunt. Esto ergo 
+di<lb break="no" ed="#L" n="57"/>ligens scrutator in particularibus casibus, ut discernas si
+<lb ed="#L" n="58"/>ministrat in acceptione usurae, furti, etc., an in aliis: 
+quo<lb break="no" ed="#L" n="59"/>niam hinc omnia pendent. Paria siquidem sunt quoad 
+per<lb break="no" ed="#L" n="60"/>sonam accipientis, hoc est quoad quis accepit, furari per
+<lb ed="#L" n="61"/>alium et usuras accipere per alium: utrobique enim ille
+<lb ed="#L" n="62"/>mediator accipit alienum, licet non pro se. Et per hoc, 
+utro<lb break="no" ed="#L" n="63"/>bique tenetur ipse ad restitutionem in solidum, quia est
+<lb ed="#L" n="64"/>causa iniustae acceptionis.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4393">
+                  <lb ed="#L" n="65"/>II. In eodem articulo, circa eum qui est causa iniustae
+<lb ed="#L" n="66"/>acceptionis-indirecte, adverte quod Auctor, immotus a 
+prin<lb break="no" ed="#L" n="67"/>cipiis traditis in praecedenti Libro, duas conditiones exigit
+<lb ed="#L" n="68"/>ad hoc quod aliquis sit iniustae acceptionis causa indirecte:
+<lb ed="#L" n="69"/>prima est quod possit impedire; secunda est quod debeat
+<lb ed="#L" n="70"/>impedire. Non enim imputatur malum culpae alicui 
+indi<lb break="no" ed="#L" n="71"/>recte nisi quia potest et debet obstare: ut ibidem, cum
+<lb ed="#L" n="72"/>de voluntario tractaretur, dictum est. Considera ergo quando
+<lb ed="#L" n="73"/>quis praecepto, consilio, auxilio, manifestatione, potest et
+<lb ed="#L" n="74"/>tenetur impedire furtum, rapinam, fraudem, etc.: et 
+dis<lb break="no" ed="#L" n="75"/>cernes quando tenetur ad restitutionem et quando non. Et
+<lb ed="#L" n="76"/>ne tibi hoc difficile videatur, Auctor in littera dicit quod
+<lb ed="#L" n="77"/>hoc solum accidit quando alicui incumbit hoc ex officio:
+<lb ed="#L" n="78"/>ut patet ex responsione ad tertium.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4426">
+                  <lb ed="#L" n="79"/>III. In eodem articulo, in responsione ad secundum,
+<lb ed="#L" n="80"/>videre potes primo, quam conforme sit dictis Auctoris
+<lb ed="#L" n="81"/>quod in. praecedenti articulo de obligatis ad. 
+refunden<lb break="no" ed="#L" n="82"/>dum restituenti diximus. Duo namque genera nominat hic
+<lb ed="#L" n="83"/>Auctor huiusmodi obligatorum: scilicet eorum qui fuerunt
+<lb ed="#L" n="84"/>principales in facto; et eorum ad quos res pervenit. 
+Prin<lb break="no" ed="#L" n="85"/>cipales namque sunt inducentes alios, et aeque 
+sponta<lb break="no" ed="#L" n="86"/>nei, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4446">
+                  <lb ed="#L" n="87"/>Animadvertere quoque, secundo, potes, in principio
+<lb ed="#L" n="88"/>responsionis, quod paulo superius de obligatione 
+mini<lb break="no" ed="#L" n="89"/>strorum, diximus. Nam Auctor secundo loco ponit 
+obliga<lb break="no" ed="#L" n="90"/>tum ad restitutionem executorem iniustae acceptionis ex
+<lb ed="#L" n="91"/>praecepto alterius.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1592-Dd1e4460"><!-- caj-p2p2-q62a8" -->
+               <head xml:id="TAcCaj-d1e1592-Hd1e4463">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1592-d1e4465">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33" type="fixed=60"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4472">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>In titulo articuli octavi eiusdem quaestionis, adverte quod,
+<lb ed="#L" n="35"/>lun omnibus quae de restitutione dicenda sunt: —
+<lb ed="#L" n="36"/>scilicet quid sit restitutio, in primo articulo; cur sit 
+resti<lb break="no" ed="#L" n="37"/>tuendum, in secundo; quid sit restituendum, in tertio et
+<lb ed="#L" n="38"/>quarto; cui sit restituendum, in quinto; quis teneatur 
+re<lb break="no" ed="#L" n="39"/>stituere, in sexto et septimo: - reliquum fuit quaerere
+<lb ed="#L" n="40"/>quando est restituendum, an scilicet statim, an cum aliquo
+<lb ed="#L" n="41"/>certo tempore. Et est ratio dubii quia sonat praeceptum
+<lb ed="#L" n="42"/>affirmativum, cuius natura est obligare ad executionem
+<lb ed="#L" n="43"/>quodam tempore.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4498">
+                  <lb ed="#L" n="44"/>II. In eodem articulo adverte quod in praecepto 
+resti<lb break="no" ed="#L" n="45"/>tutionis clauduntur duo: primum est quod animo non 
+de<lb break="no" ed="#L" n="46"/>tineatur alienum invito domino; secundum est quod 
+se<lb break="no" ed="#L" n="47"/>cundum actum exteriorem non detineatur alienum invito
+<lb ed="#L" n="48"/>domino. Primum enim exigitur ad hoc ut detinens cesset
+<lb ed="#L" n="49"/>a voluntate peccandi, mutando eam et deliberando 
+resti<lb break="no" ed="#L" n="50"/>tuere: secundum autem exigitur ad hoc ut domino 
+satis<lb break="no" ed="#L" n="51"/>fiat; non enim satisfactum est ei ex deliberatione 
+resti<lb break="no" ed="#L" n="52"/>tuendi, sed ex hoc quod redditur ei quod suum est. Hoc
+<lb ed="#L" n="53"/>autem secundum oritur ex primo sicut actus exterior ab
+<lb ed="#L" n="54"/>habitu virtutis. Et ut in littera in responsione ad tertium
+<lb ed="#L" n="55"/>patet, circumstantia temporis diversimode se habet ad actum
+<lb ed="#L" n="56"/>restitutionis et ad alios actus virtutis. Nam in multis actibus
+<lb ed="#L" n="57"/>tam iustitiae quam aliarum virtutum circumstantia temporis
+<lb ed="#L" n="58"/>ita se habet quod prudentiae determinanda committitur:
+<lb ed="#L" n="59"/>ut patet in actibus fortitudinis, et in iudiciis, 
+accusationi<lb break="no" ed="#L" n="60"/>bus, testificationibus et huiusmodi. In restitutione vero
+<lb ed="#L" n="61"/>tempus non relinquitur determinandum prudentiae, sed 
+de<lb break="no" ed="#L" n="62"/>terminatum est ad statim: quia omissio huius 
+circumstan<lb break="no" ed="#L" n="63"/>tiae contrariatur virtuti iustitiae; nam nisi statim restitutio
+<lb ed="#L" n="64"/>fiat, detinetur alienum invito domino, quod est contra 
+iu<lb break="no" ed="#L" n="65"/>stitiam, Omissio autem huius certi temporis, puta statim,
+<lb ed="#L" n="66"/>in aliis actibus non contrariatur virtuti: non enim contra
+<lb ed="#L" n="67"/>iustitiam est si non statim accuso, si non statim iudico,
+<lb ed="#L" n="68"/>si non statim expono me mortis periculo, et huiusmodi;
+<lb ed="#L" n="69"/>quoniam haec non implicant in se aliquid contrarium
+<lb ed="#L" n="70"/>virtuti.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4559">
+                  <lb ed="#L" n="71"/>Quod autem dicimus statim restitutionem faciendam,
+<lb ed="#L" n="72"/>non dicimus quod si in media nocte, aut inter missarum
+<lb ed="#L" n="73"/>solemnia, deliberet quis restituere, teneatur e lectulo 
+sur<lb break="no" ed="#L" n="74"/>gere aut missam relinquere et restituere: sed statim 
+dici<lb break="no" ed="#L" n="75"/>mus fieri quod non differtur, sed hora negotio congrua
+<lb ed="#L" n="76"/>executioni mandatur. Habet enim restitutio, quatenus 
+ali<lb break="no" ed="#L" n="77"/>quid affirmationis exigit, ut prudentiae aliquo modo in sua
+<lb ed="#L" n="78"/>exhibitione subiaceat.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4580">
+                  <lb ed="#L" n="79"/>Haec autem intelligenda sunt regulariter, et quantum
+<lb ed="#L" n="80"/>est ex natura actus et virtutis: quod est dictu quod haec
+<lb ed="#L" n="81"/>sunt vera ut in pluribus. Contingit enim in casibus par-
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4589">
+                  <lb ed="#L" n="82"/>ticularibus, propter impedimenta occurrentia, quod oportet
+<lb ed="#L" n="83"/>exterioris restitutionis actum ad congruum tempus differre:
+<lb ed="#L" n="84"/>ut patet in restitutione depositi quando dominus est 
+fu<lb break="no" ed="#L" n="85"/>riosus vel inimicus patriae.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4600">
+                  <lb ed="#L" n="86"/>III. Circa determinationem huius articuli dubium 
+oc<lb break="no" ed="#L" n="87"/>currit, an, quando restitutio non potest fieri statim sine
+<lb ed="#L" n="88"/>magno detrimento restitutoris, possit differri, ut congruo
+<lb ed="#L" n="89"/>sibi tempore fiat. Et est ratio dubii diversitas scriptorum.
+<lb ed="#L" n="90"/>Nam quidam solius extremae necessitatis rationem 
+haben<lb break="no" ed="#L" n="91"/>dam in restitutionibus docuerunt: quidam autem magnum
+<lb ed="#L" n="92"/>detrimentum considerandum quoque esse dixerunt.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4618">
+                  <lb ed="#L" n="93"/>Mihi autem distinguendum videtur, et dicendum quod,
+<lb ed="#L" n="94"/>citra extremam necessitatem semper loquendo, tripliciter
+<lb ed="#L" n="95"/>intelligi potest restitutionem non posse fieri statim sine
+<lb ed="#L" n="96"/>magno detrimento. Primo, ut detrimentum sit magnum
+<lb ed="#L" n="97"/>quia res restituenda est magna, et valde opportuna. Et sic
+<lb ed="#L" n="98"/>procul dubio, non obstante tali detrimento, tenetur statim
+<lb ed="#L" n="99"/>restituere. Quoniam iste in restituendo tam magnum in
+<lb ed="#L" n="100"/>nullo damnificatur: quoniam nihil rei suae perdit. Alioquin
+<lb ed="#L" n="101"/>melioris conditionis essent qui magnas fecerunt els
+<lb ed="#L" n="102"/>usuras quam qui modicum rapuerunt.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4642">
+                  <lb ed="#L" n="103"/>Secundo, ut detrimentum sit magnum ratione lucri 
+ces<lb break="no" ed="#L" n="104"/>santis. Verbi gratia, tenetur mercator ad restitutionem mille
+<lb ed="#L" n="105"/>ducatorum: et si illos statim restituit, cum non habeat alios
+<lb ed="#L" n="106"/>cum quibus lucraretur ut vivat convenienter secundum
+<lb ed="#L" n="107"/>statum suum, magnum damnum lucri cessantis incurrit.
+<lb ed="#L" n="108"/>Et propter huiusmodi quoque detrimentum non excusatur
+<lb ed="#L" n="109"/>a subita restitutione, sed tenetur procul dubio ad 
+restitu<lb break="no" ed="#L" n="110"/>tionem statim. Non enim (ut Richardus et Scotus, in xv
+<lb ed="#L" n="111"/>distinctione Quarti, dicunt, et bene) licitum est pro status
+<lb ed="#L" n="112"/>conservatione alienum detinere. Et in promptu ratio est:
+<lb ed="#L" n="113"/>quia ratio lucri cessantis quandoque licite habetur in rei
+<lb ed="#L" n="114"/>propriae distractione, ut patet in eo qui non erat nunc vel
+<lb ed="#L" n="115"/>hic venditurus res suas; nunquam autem habetur in re
+<lb ed="#L" n="116"/>aliena. Quin potius detinens alienum tenetur restituere 
+do<lb break="no" ed="#L" n="117"/>mino non solum rem, sed etiam interesse lucri —
+<lb ed="#L" n="118"/>ut patet ex quarto articulo huius quaestionis.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4679">
+                  <lb ed="#L" n="119"/>Tertio autem modo potest intelligi ut detrimentum 
+ma<lb break="no" ed="#L" n="120"/>gnum sit damni emergentis in propriis. Verbi gratia, 
+de<lb break="no" ed="#L" n="121"/>tinens mille aureos alterius, nec habens pecuniam, si 
+sta<lb break="no" ed="#L" n="122"/>tim restituere vellet, cogeretur vendere domum vel agrum
+<lb ed="#L" n="123"/>multo minus quam valeat, vel quia non inveniuntur tunc
+<lb ed="#L" n="124"/>emptores, vel quia ultromea vilescunt: et si differret 
+resti<lb break="no" ed="#L" n="125"/>tutionem, non incurreret tale damnum. Et de huiusmodi
+<lb ed="#L" n="126"/>notabili damno in propriis loquendo, oportet 
+subdistin<lb break="no" ed="#L" n="127"/>guere: quia vel talis dilatio esset cum multo damno 
+cre<lb break="no" ed="#L" n="128"/>ditoris seu domini; aut cum parvulo seu nullo. Si quidem
+<lb ed="#L" n="129"/>dilatio esset cum notabili damno creditoris seu domini,
+<pb ed="#L" n="61"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cum sit in mora et teneatur domino de damno omni quod
+<lb ed="#L" n="2"/>ex detentione sequitur, consequens est quod sibi ipsi 
+im<lb break="no" ed="#L" n="3"/>putet detinens quod damnum notabile incurrat in propriis
+<lb ed="#L" n="4"/>ex restitutione alieni, ex quo. in culpa aut mora est, et
+<lb ed="#L" n="5"/>dominus notabiliter damnificatur. Et hoc est etiam sine
+<lb ed="#L" n="6"/>dubio verum.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4724">
+                  <lb ed="#L" n="7"/>Si vero talis dilatio in modicum aut nullum damnum
+<lb ed="#L" n="8"/>creditoris esset, tunc secundum Scotum, in xv distinctione
+<lb ed="#L" n="9"/>Quarti, non tenetur statim restituere: quia dominus debet
+<lb ed="#L" n="10"/>magis velle quod vitetur magnum incommodum proximi 
+re<lb break="no" ed="#L" n="11"/>stituentis quam modicum vel nullum suum incommodum
+<lb ed="#L" n="12"/>in illa sua modica dilatione restituentis. — Sed haec ratio
+<lb ed="#L" n="13"/>non concludit. Quia sicut nullus damnum alteri facit qui
+<lb ed="#L" n="14"/>utitur iure suo, ita nullus damnum alteri vult qui vult
+<lb ed="#L" n="15"/>uti iure suo. Constat autem quod dominus rei licite potest
+<lb ed="#L" n="16"/>velle uti nunc re sua: quia est dominus rei suae, nec debet
+<lb ed="#L" n="17"/>esse deterioris conditionis quia detenta est res sua ab alio
+<lb ed="#L" n="18"/>quam si eam apud se haberet. Non igitur tenetur dominus
+<lb ed="#L" n="19"/>rei ad non velle uti nunc re sua, propter damnum quod
+<lb ed="#L" n="20"/>sequitur in detentore: quoniam ipse, qui utitur iure suo,
+<lb ed="#L" n="21"/>non infert damnum illud. Non tenetur igitur dominus malle
+<lb ed="#L" n="22"/>quod vitetur magnum proximi incommodum quam suum
+<lb ed="#L" n="23"/>parvum aut etiam nullum: quia non tenetur velle 
+impe<lb break="no" ed="#L" n="24"/>diri se a libero usu rei suae quandocumque vult, quod
+<lb ed="#L" n="25"/>impedi i necessario infert talis dilatio. Neque igitur
+<lb ed="#L" n="26"/>actu elicito, neque actu debito desinit esse invitus dominus
+<lb ed="#L" n="27"/>dominus in huiusmodi casu. Aliunde ergo sustinenda est
+<lb ed="#L" n="28"/>haec conclusio, si sustinenda est. - Videtur autem mihi
+<lb ed="#L" n="29"/>quod in tali casu licite possit differri restitutio ratione 
+im<lb break="no" ed="#L" n="30"/>potentiae restitutionis. Est siquidem restitutor cui tantum
+<lb ed="#L" n="31"/>emergeret damnum in propriis ex restitutione subita, 
+im<lb break="no" ed="#L" n="32"/>potens pro tunc ad restituendum. Impotentia autem pro
+<lb ed="#L" n="33"/>nunc absolvit, ut in littera dicitur in responsione ad 
+se<lb break="no" ed="#L" n="34"/>cundum, debitorem a restituendo statim: sicut impotentia
+<lb ed="#L" n="35"/>simpliciter absolvit a restitutione simpliciter. Quod autem
+<lb ed="#L" n="36"/>debitor in tali casu sit pro tunc impotens, patet ex hoc
+<lb ed="#L" n="37"/>quod impotens non solum dicitur qui non potest, sed qui
+<lb ed="#L" n="38"/>male potest: ut habetur ex V Metaphys.* et II de Anima*.
+<lb ed="#L" n="39"/>Ad hanc etiam causam reducitur quod quando detentio
+<lb ed="#L" n="40"/>alieni est secreta, potest quis differre restitutionem  
+quo<lb break="no" ed="#L" n="41"/>usque habeat per quem sine damno suae famae restituat:
+<lb ed="#L" n="42"/>est namque pro tunc impotens qui sine suae famae damno
+<lb ed="#L" n="43"/>non potest restituere.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4807">
+                  <lb ed="#L" n="44"/>IV. Sed restat tunc dubium, an in hoc casu teneatur
+<lb ed="#L" n="45"/>iste, sic pro nunc impotens, ad restitutionem illius modici
+<lb ed="#L" n="46"/>damni quod dominus incurrit ex ista dilatione. Videtur
+<lb ed="#L" n="47"/>enim quod non. Quia ex quo impotentia concedit sibi 
+be<lb break="no" ed="#L" n="48"/>neficium dilationis, non est pro tunc in mora: et 
+conse<lb break="no" ed="#L" n="49"/>quenter non tenetur ad solutionem interesse. - Ex alia
+<lb ed="#L" n="50"/>parte apparet oppositum: quia vitatio damni debitoris non
+<lb ed="#L" n="51"/>debet esse cum damno creditoris.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4827">
+                  <lb ed="#L" n="52"/>Dicendum est quod, licet tam impotentia absolute quam
+<lb ed="#L" n="53"/>impotentia ex causa superioris ordinis excuset a solutione
+<lb ed="#L" n="54"/>interesse in foro conscientiae: — quia et pauper omnino
+<lb ed="#L" n="55"/>debitor, cum pervenerit ad pinguiorem fortunam, non 
+te<lb break="no" ed="#L" n="56"/>netur, ratione morae, ad interesse, quia non fuit in mora
+<lb ed="#L" n="57"/>qui non habuit; et qui ratione vitandae suae infamiae 
+co<lb break="no" ed="#L" n="58"/>gitur differre restitutionem, non tenetur etiam, ratione 
+mo<lb break="no" ed="#L" n="59"/>rae, ad interesse, quia non est in mora qui superioris 
+or<lb break="no" ed="#L" n="60"/>dinis bonorum legibus adstringitur ad differendum (fama
+<lb ed="#L" n="61"/>enim est bonum superioris ordinis quam sint pecuniae,
+<lb ed="#L" n="62"/>agri et huiusmodi): — impotentia tamen pro nunc ex causa
+<lb ed="#L" n="63"/>eiusdem ordinis non videtur excusare a solutione interesse.
+<lb ed="#L" n="64"/>Nam recta ratio postulat ut ita indemnis in huiusmodi
+<lb ed="#L" n="65"/>bonis debitor servetur, ut magis indemnis in eiusdem 
+or<lb break="no" ed="#L" n="66"/>dinis bonis servaretur creditor.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4862">
+                  <lb ed="#L" n="67"/>Ad obiectionem autem in oppositum dicitur quod, licet
+<lb ed="#L" n="68"/>iste restitutor non sit in mora simpliciter, et propterea
+<lb ed="#L" n="69"/>potest differre restitutionem; est tamen in mora secundum
+<lb ed="#L" n="70"/>quid, scilicet secundum factum, quia scilicet facto detinet
+<lb ed="#L" n="71"/>alienum ex causa tali quae non debet in damnum domini
+<lb ed="#L" n="72"/>redundare.
+</p>
+               <p xml:id="TAcCaj-d1e1592-d1e4878">
+                  <lb ed="#L" n="73"/>V. In eodem articulo octavo, adverte quod petitio 
+di<lb break="no" ed="#L" n="74"/>lationis, si speratum consequitur effectum, absolvit 
+deten<lb break="no" ed="#L" n="75"/>torem a mora, ita ut de cetero non teneatur ad interesse
+<lb ed="#L" n="76"/>solvendum: si tamen conceditur libere dilatio. Si enim
+<lb ed="#L" n="77"/>mixto voluntario conceditur, puta metu, vel quia non 
+pot<lb break="no" ed="#L" n="78"/>est aliter facere aut dicere, non absolvit ab interesse 
+sol<lb break="no" ed="#L" n="79"/>vendo: sicut e contrario solvens voluntario mixto usuras
+<lb ed="#L" n="80"/>non perdit ius illarum. ,
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

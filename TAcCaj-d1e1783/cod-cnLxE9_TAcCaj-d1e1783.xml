@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 99</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 99</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="350"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1783"><!-- TAcCajp2p2-q99" -->
+            <head xml:id="TAcCaj-d1e1783-Hd1e101">Quaestio 99</head>
+            <div xml:id="TAcCaj-d1e1783-Dd1e103"><!-- caj-p2p2-q99a4" -->
+               <head xml:id="TAcCaj-d1e1783-Hd1e106">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1783-d1e108">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11" type="fixed=350"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e115">
+                  <lb ed="#L" n="12"/>IN quaestione nonagesimanona multa occurrunt dubia,
+<lb ed="#L" n="13"/>simul movenda et tractanda. Primum est circa quod quid 
+<lb ed="#L" n="14"/>est sacrilegii. Nam definitio ista, scilicet, rei sacrae 
+vio<lb break="no" ed="#L" n="15"/>latio, hoc est irreverentia, multo plus se extendit quam
+<lb ed="#L" n="16"/>sacrilegium. Simoniacus namque, emendo vel vendendo 
+sa<lb break="no" ed="#L" n="17"/>cramenta et huiusmodi, manifeste iniuriatur rei sacrae: et
+<lb ed="#L" n="18"/>tamen non sacrilegus, sed simoniacus dicitur. - Rursum, 
+cu<lb break="no" ed="#L" n="19"/>iuslibet voti violator rei sacrae, hoc est ad divinum cultum
+<lb ed="#L" n="20"/>ordinatae per ipsum votum, iniuriam facit: et tamen non
+<lb ed="#L" n="21"/>est sacrilegium omittere ieiunium votivum. ;
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e139">
+                  <lb ed="#L" n="22"/>Secundum est quod littera, in responsione ad primum
+<lb ed="#L" n="23"/>secundi articuli, asserit sacrilegium esse si quis pervertat
+<lb ed="#L" n="24"/>verba divinae legis. Et tamen in tertio articulo non 
+inve<lb break="no" ed="#L" n="25"/>nitur locus in quo divina lex ponatur inter res sacras: ut
+<lb ed="#L" n="26"/>patet discurrenti [per] personas, loca et res ibi enumeratas.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e152">
+                  <lb ed="#L" n="27"/>Tertium est quod in littera tertii articuli exprimuntur
+<lb ed="#L" n="28"/>tres sacrilegii species, et gradus earum: et dicitur, in 
+re<lb break="no" ed="#L" n="29"/>sponsione ad primum, quod est ibi diversitas formalis. Quae
+<lb ed="#L" n="30"/>tamen non explicatur. — Nec apparet maior diversitas inter
+<lb ed="#L" n="31"/>illas species quam inter gradus unius speciei: puta inter
+<lb ed="#L" n="32"/>iniuriam Eucharistiae, et furtum unius agni qui esset 
+ec<lb break="no" ed="#L" n="33"/>clesiae.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e171">
+                  <lb ed="#L" n="34"/>Quartum est quod percussio monialis et stuprum 
+eius<lb break="no" ed="#L" n="35"/>dem sint eiusdem speciei in genere sacrilegii, ut in 
+respon<lb break="no" ed="#L" n="36"/>sione ad secundum tertii articuli dicitur: cum sanctitas alia
+<lb ed="#L" n="37"/>ratione sit utrobique, quia ratione voti est dicata castitas,
+<lb ed="#L" n="38"/>et ratione ecclesiasticae mancipationis sit libera a verbere.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e184">
+                  <lb ed="#L" n="39"/>Quintum est, in quo consistit agere directe contra
+<lb ed="#L" n="40"/>sanctitatem alicuius loci, personae vel rei, ut proprie 
+sa<lb break="no" ed="#L" n="41"/>crilegium sit: ut in responsione ad tertium tertii articuli
+<lb ed="#L" n="42"/>dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e195">
+                  <lb ed="#L" n="43"/>Sextum, an sacrilegium quod committitur contra 
+sa<lb break="no" ed="#L" n="44"/>cramentum Eucharistiae sit gravissimum inter omnia 
+sa<lb break="no" ed="#L" n="45"/>crilegia simpliciter: an inter omnia sacrilegia tertiae speciei.
+<lb ed="#L" n="46"/>Et est ratio dubii quia quomodo hoc intelligitur, in littera
+<lb ed="#L" n="47"/>tertii articuli, in corpore, non explicatur.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e208">
+                  <lb ed="#L" n="48"/>Septimum est, an percutiens Eucharistiam committat
+<lb ed="#L" n="49"/>sacrilegium excommunicatum ab Ecclesia, ita quod sit 
+ex<lb break="no" ed="#L" n="50"/>communicatus. Et est ratio dubii quia hinc apparet quod
+<lb ed="#L" n="51"/>sic: quia violentas manus ingerit corpori Summi 
+Sacer<lb break="no" ed="#L" n="52"/>dotis, quod in Eucharistia est. Et si dicatur quod violentia
+<lb ed="#L" n="53"/>non pertingit ad corpus lesu Christi, sed ad species 
+tan<lb break="no" ed="#L" n="54"/>tum sacramentales: non obstat hoc. Quia percutiens 
+cle<lb break="no" ed="#L" n="55"/>ricum, etiam si percussio non pertingat ad corpus, sed
+<lb ed="#L" n="56"/>ad vestem quam indutus actualiter est, procul dubio 
+ex<lb break="no" ed="#L" n="57"/>communicatus est. Sic autem est in proposito: quoniam
+<lb ed="#L" n="58"/>corpus Christi, velatum specie sacramentali, attingitur in
+<lb ed="#L" n="59"/>suo velamine quasi sua veste. Ergo. - In oppositum autem
+<lb ed="#L" n="60"/>est quia rapiens Eucharistiam non est excommunicatus.
+<lb ed="#L" n="61"/>Ergo nec percutiens. Consequentia est evidens: quia 
+utro<lb break="no" ed="#L" n="62"/>bique est violenta manus in Eucharistiam. Antecedens 
+au<lb break="no" ed="#L" n="63"/>tem ab omnibus conceditur. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e245">
+                  <lb ed="#L" n="64"/>II. Ad evidentiam horum, sciendum est quod, cum 
+sa<lb break="no" ed="#L" n="65"/>crilegium sit vitium oppositum religioni, quae est pars 
+iusti<lb break="no" ed="#L" n="66"/>tiae, utpote Deo debitum cultum reddens, considerandum
+<lb ed="#L" n="67"/>est sicut vitia opposita iustitiae. Ita ut quemadmodum
+<lb ed="#L" n="68"/>distinguuntur penes iustitiam commutationes voluntariae,
+<lb ed="#L" n="69"/>puta emere, vendere, mutuare, etc., ab involuntariis, puta
+<lb ed="#L" n="70"/>furto, rapina, etc., et alia sunt vitia circa has, alia circa
+<lb ed="#L" n="71"/>illas; sic in vitiis religioni oppositis intueri oportet quod
+<lb ed="#L" n="72"/>quaedam irreverentiae, violationes et iniuriae fiunt circa 
+sa<lb break="no" ed="#L" n="73"/>cra per modum commutationum voluntariarum, ut in si-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="74"/>monia contingit, et propterea in emptione et venditione
+<lb ed="#L" n="75"/>dicitur consistere; quaedam per modum commutationum
+<lb ed="#L" n="76"/>involuntariarum, ut contingit in sacrilegio; et propterea in
+<lb ed="#L" n="77"/>violatione rei sacrae dicitur consistere, sonat enim violatio
+<lb ed="#L" n="78"/>illaionem iniuriosam, ut patet. Propter quod simonia et
+<lb ed="#L" n="79"/>sacrilegium, licet conveniant in hoc quod, in relatione ad
+<lb ed="#L" n="80"/>res sacras, utrumque iniuriam illis facit; in relatione tamen
+<lb ed="#L" n="81"/>ad personas, quae sunt velut extrema huiusmodi 
+iniusti<lb break="no" ed="#L" n="82"/>tiae, differunt. Quia simonia est inter homines ex utraque
+<lb ed="#L" n="83"/>parte, nam homines emunt et vendunt sacra: sacrilegium
+<lb ed="#L" n="84"/>autem est inter hominem sacrilegum ex una, et Deum ex
+<lb ed="#L" n="85"/>altera parte. Cuius signum est quod, etiam si sanctitati
+<lb ed="#L" n="86"/>personae fit iniuria, persona ut res Dei concurrit. Unde et
+<lb ed="#L" n="87"/>in littera primi articuli concluditur quod omne quod ad
+<lb ed="#L" n="88"/>irreverentiam rerum sacrarum pertinet, ad iniuriam Dei
+<lb ed="#L" n="89"/>pertinet, et habet rationem sacrilegii. Et monialis venereis
+<lb ed="#L" n="90"/>vacans sacrilega est, violans sanctitatem suae personae 
+con<lb break="no" ed="#L" n="91"/>tra voluntatem Dei. 
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e310">
+                  <lb ed="#L" n="92"/>Sonat ergo, in definitione sacrilegii, ly violatio 
+actio<lb break="no" ed="#L" n="93"/>nem iniuriosam per modum commutationis involuntariae,
+<lb ed="#L" n="94"/>Et per hoc distinguitur sacrilegium a simonia, quae 
+iniu<lb break="no" ed="#L" n="95"/>riam facit Deo in rebus sacris tanquam materia 
+commu<lb break="no" ed="#L" n="96"/>tationis voluntariae inter homines. - Ly rei communiter 
+su<lb break="no" ed="#L" n="97"/>mitur, prout continet et personas et loca et signa et res: ut
+<lb ed="#L" n="98"/>patet ex divisione sacrilegii. - Ly sacrae communiter etiam
+<lb ed="#L" n="99"/>sumitur: pro sacro subiective, ut personae; et effective,
+<lb ed="#L" n="100"/>ut sacramenta; contentive, ut loca; et universaliter relative
+<lb ed="#L" n="101"/>| ad divinum cultum, ut vasa, vestes, bona mobilia vel 
+im<lb break="no" ed="#L" n="102"/>mobilia; ut patet ex divisione sacrilegii,
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e337">
+                  <lb ed="#L" n="103"/>III. Ad primum ergo dubium dicitur quod definito
+<lb ed="#L" n="104"/>sacrilegii, sane intellecta, non se extendit in plus quam 
+sa<lb break="no" ed="#L" n="105"/>crilegium. Et de differentia eius a simonia iam dictum
+<lb ed="#L" n="106"/>est. — De transgressione autem voti, dicitur quod votum
+<lb ed="#L" n="107"/>procul dubio actus religionis est: et oppositum eius est,
+<lb ed="#L" n="108"/>proprie loquendo, perfidia fidelitati quam Deo debemus
+<lb ed="#L" n="109"/>contraria. Sed huiusmodi perfidia sub sacrilegio 
+compre<lb break="no" ed="#L" n="110"/>henditur. Quoniam eo ipso quod res, vel actus, vel 
+per<lb break="no" ed="#L" n="111"/>sona Deo promissa est, ad divinum ordinata est cultum:
+<lb ed="#L" n="112"/>ac per hoc, eius subtractio, quae in transgressione voti
+<lb ed="#L" n="113"/>fit, sacrilegium est. Attestantur autem hoc et sacri 
+cano<lb break="no" ed="#L" n="114"/>nes decernentes sacrilegium esse si quis pecuniam legatam
+<lb ed="#L" n="115"/>ecclesiae non solvat: ut patet XVII, qu. iv, cap. 
+Sacrile<lb break="no" ed="#L" n="116"/>gium. Attestatur et Auctor in littera, in calce tertii 
+arti<lb break="no" ed="#L" n="117"/>culi, dicens sacrilegium esse si virgo Deo dicata fornicetur.
+<lb ed="#L" n="118"/>Constat namque non solum solemni, sed simplici voto 
+vir<lb break="no" ed="#L" n="119"/>ginitatis fieri virginem Deo dicatam. Unde sicut mulier
+<lb ed="#L" n="120"/>vovens abstinentiam a venereis dicat seipsam Deo quoad
+<lb ed="#L" n="121"/>immunitatem ab his, ita vovens ieiunium, vel aliud 
+per<lb break="no" ed="#L" n="122"/>sonale, dicat seipsum quoad illud. Et sanctificatur persona
+<lb ed="#L" n="123"/>quoad haec huiusmodi votis. Et propterea, si transgreditur,
+<lb ed="#L" n="124"/>peccat contra sanctitatem suae personae peccato sacrilegii.
+<lb ed="#L" n="125"/>Si votum autem non personale, sed reale est, sive de re
+<lb ed="#L" n="126"/>mobili sive immobili, sacrilegus est contra sanctitatem 
+re<lb break="no" ed="#L" n="127"/>rum omittendo adimplere, sicut negans legatum ecclesiae. —
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e394">
+                  <lb ed="#L" n="128"/>Et hinc habes quod frangens ieiunium votivum peccat
+<lb ed="#L" n="129"/>peccato gulae et sacrilegii, si inordinatio est etiam contra
+<lb ed="#L" n="130"/>abstinentiam simpliciter: frangens autem ieiunium 
+Eccle<lb break="no" ed="#L" n="131"/>siae peccat solum peccato gulae. Et sic de aliis,
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e405">
+                  <lb ed="#L" n="132"/>IV. Ad secundum dubium dicitur quod pervertere
+<lb ed="#L" n="133"/>verba divinae legis, et universaliter irreverentia exhibita
+<lb ed="#L" n="134"/>verbo divino, sacrilegium est tertiae speciei. Nam et sermo
+<lb ed="#L" n="135"/>divinus sanctificativus est, iuxta illud Ioan. xv, Vos mundi
+<pb ed="#L" n="351"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>estis propter sermonem quem locutus sum vobis: et 
+re<lb break="no" ed="#L" n="2"/>praesentativus est Dei, sicut sermo hominis repraesentat
+<lb ed="#L" n="3"/>hominem. Unde sicut sacramentorum et imaginum 
+sacra<lb break="no" ed="#L" n="4"/>rum iniuria estin tertia specie, ita iniuria divini verbi. Et
+<lb ed="#L" n="5"/>tenere videtur primum locum post sacramenta. Nec oportet
+<lb ed="#L" n="6"/>in littera omnia sacrilegia enumerata intelligi: sed sat est 
+<lb ed="#L" n="7"/>et species et gradus, ad quas et quos ceteri reducuntur,
+<lb ed="#L" n="8"/>accepisse.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e438">
+                  <lb ed="#L" n="9"/>V. Ad tertium dubium dicitur quod, licet in littera
+<lb ed="#L" n="10"/>non appareat explicite in quo consistat ista diversitas 
+for<lb break="no" ed="#L" n="11"/>malis, videtur tamen insinuata per ipsa vocabula, et 
+pro<lb break="no" ed="#L" n="12"/>pterea non aliter expressa: ut scilicet ratio personae, loci,
+<lb ed="#L" n="13"/>et rei ut distinguitur contra personam et locum, diversae
+<lb ed="#L" n="14"/>rationis sanctitatem exigat. Nam persona sanctitatem 
+per<lb break="no" ed="#L" n="15"/>sonalem, quae formaliter sanctum facit, ut subiectum 
+san<lb break="no" ed="#L" n="16"/>ctitatis exigit; locus vero, ut contentivus personarum ad
+<lb ed="#L" n="17"/>divinum cultum, sanctitatem exposcit; res vero, licet 
+di<lb break="no" ed="#L" n="18"/>versimode sanctae sint, in hoc omnes conveniunt quod
+<lb ed="#L" n="19"/>relative sanctae sunt, vel quia sanctum faciunt, vel quia
+<lb ed="#L" n="20"/>ad sanctos ordinantur, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e467">
+                  <lb ed="#L" n="21"/>Et per hoc patet responsio ad obiectionem, negando
+<lb ed="#L" n="22"/>quod sit maior diversitas inter gradus unius speciei quam
+<lb ed="#L" n="23"/>inter species. Quoniam sicut inter locum et relationem est
+<lb ed="#L" n="24"/>distinctio generica, non autem inter relationes inter se; sic
+<lb ed="#L" n="25"/>inter sanctitatem localem et relativam. De personali autem
+<lb ed="#L" n="26"/>manifesta est distantia non solum generica, sed etiam quia
+<lb ed="#L" n="27"/>sola persona est simpliciter et absolute sancta, sicut solum
+<lb ed="#L" n="28"/>animal est simpliciter et absolute sanum; et cetera sunt
+<lb ed="#L" n="29"/>sancta secundum quid, sicut cetera sunt sana secundum
+<lb ed="#L" n="30"/>quid. - At si alicui haec non satisfaciunt, inveniat meliora.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e491">
+                  <lb ed="#L" n="31"/>VI. Ad quartum dubium dicitur quod, licet diversae
+<lb ed="#L" n="32"/>sanctitates unius personae ex diversis causis proveniant,
+<lb ed="#L" n="33"/>puta ex voto, ex ordine, etc.; omnes tamen conveniunt
+<lb ed="#L" n="34"/>in hoc quod personales sunt. Et propterea unius speciei
+<lb ed="#L" n="35"/>sacrilegium constitui dicitur, quaecumque sanctitas 
+perso<lb break="no" ed="#L" n="36"/>nae violetur,
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e508">
+                  <lb ed="#L" n="37"/>VII. Ad quintum dubium dicitur quod sicut agere
+<lb ed="#L" n="38"/>contra iuramentum est solum facere, vel velle facere, contra
+<lb ed="#L" n="39"/>illud quod iuramento firmatum est; et similiter agere 
+con<lb break="no" ed="#L" n="40"/>tra votum est committere oppositum, vel omittere illud
+<lb ed="#L" n="41"/>quod voto firmatum est: ita agere contra sanctitatem 
+ali<lb break="no" ed="#L" n="42"/>quam est incurrere voluntarie in illud ad cuius contrarium
+<lb ed="#L" n="43"/>inest sanctitas illa. Verbi gratia, persona cuiuslibet clerici
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="44"/>est sancta quoad hoc quod non potest subiici potestati
+<lb ed="#L" n="45"/>saeculari; et similiter locus quoad hoc quod non potest
+<lb ed="#L" n="46"/>ibi extrahi aliquis violenter; et possessiones Ecclesiae quoad
+<lb ed="#L" n="47"/>hoc quod non possunt donari, etc.: si quis oppositum
+<lb ed="#L" n="48"/>faciat, sacrilegus: est. Si quis autem aliquid aliud, quamvis
+<lb ed="#L" n="49"/>longe peius, faciat, ut si clericus blasphemet, etc., non
+<lb ed="#L" n="50"/>propterea est sacrilegus. Et si tu eris memor doctrinae 
+habi<lb break="no" ed="#L" n="51"/>tae in praecedenti Libro, videbis quod iuris positivi 
+aucto<lb break="no" ed="#L" n="52"/>ritate potest de actu qui modo est sacrilegium fieri 
+non<lb break="no" ed="#L" n="53"/>sacrilegium, ut si Ecclesia statueret quod nullus homicida ex
+<lb ed="#L" n="54"/>proposito salvaretur in ecclesia: et e contra potest de 
+non<lb break="no" ed="#L" n="55"/>sacrilegio facere sacrilegium, ut si Ecclesia statueret quod
+<lb ed="#L" n="56"/>nocturnus populator esset salvus in ecclesia. Substernit
+<lb ed="#L" n="57"/>namque lex actus virtutibus vel vitiis, ut ibi dictum est. .
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e558">
+                  <lb ed="#L" n="58"/>VIII. Ad sextum dubium dicitur quod procul dubio
+<lb ed="#L" n="59"/>sacrilegium commissum contra Eucharistiam est 
+gravissi<lb break="no" ed="#L" n="60"/>mum omnium sacrilegiorum: quoniam est directe contra
+<lb ed="#L" n="61"/>ipsam humanitatem Christi contentam in sacramento illo.
+<lb ed="#L" n="62"/>Unde gravius sacrilegium est iniuriari Eucharistiae quam
+<lb ed="#L" n="63"/>occidere Papam. Et hoc, loquendo de gravitate peccati ex
+<lb ed="#L" n="64"/>sua specie: ut etiam habes a sancto Thoma, in III Parte,
+<lb ed="#L" n="65"/>qu. Lxxx, art. 5.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e578">
+                  <lb ed="#L" n="66"/>IX. Ad septimum dubium dicitur quod percutiens
+<lb ed="#L" n="67"/>Eucharistiam non est excommunicatus. Et ratio est quia
+<lb ed="#L" n="68"/>hoc sacrilegium, ut in littera patet, non est contra 
+san<lb break="no" ed="#L" n="69"/>ctitatem personae, sed contra sanctitatem rei. Distinguitur
+<lb ed="#L" n="70"/>enim specie in littera sacrilegium contra sanctitatem 
+per<lb break="no" ed="#L" n="71"/>sonae a sacrilegio contra sanctitatem rei: et sacrilegium
+<lb ed="#L" n="72"/>contra Eucharistiam ponitur in specie sacrilegii contra 
+san<lb break="no" ed="#L" n="73"/>ctitatem rei. Et ratio huius est quia corpus Christi non
+<lb ed="#L" n="74"/>est in Eucharistia per modum corporis: ut inferius in III
+<lb ed="#L" n="75"/>Parte patet, et in IV Sentent.*
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e602">
+                  <lb ed="#L" n="76"/>Ad obiectionem ergo in oppositum dicitur quod 
+vio<lb break="no" ed="#L" n="77"/>lentia in corpus Christi, ad hoc quod sit sacrilegium 
+per<lb break="no" ed="#L" n="78"/>sonale, oportet quod inferatur corpori Christi per modum
+<lb ed="#L" n="79"/>corporis existenti: quo modo non est in sacramento, sed
+<lb ed="#L" n="80"/>in coelo. Violentia enim quae infertur ei in Eucharistia,
+<lb ed="#L" n="81"/>infertur quidem corpori Christi, non per modum corporis,
+<lb ed="#L" n="82"/>sed per modum rei velatae sub speciebus sacramentalibus.
+<lb ed="#L" n="83"/>Et propterea non inducit excommunicationem latam 
+con<lb break="no" ed="#L" n="84"/>tra personales iniurias sacrarum personarum.
+</p>
+               <p xml:id="TAcCaj-d1e1783-d1e624">
+                  <lb ed="#L" n="85"/>Et haec de tota quaestione de sacrilegio sufficiant pro
+<lb ed="#L" n="86"/>nunc.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

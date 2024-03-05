@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 111</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 111</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="438"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1845"><!-- TAcCajp2p2-q111" -->
+            <head xml:id="TAcCaj-d1e1845-Hd1e101">Quaestio 111</head>
+            <div xml:id="TAcCaj-d1e1845-Dd1e103"><!-- caj-p2p2-q111a1" -->
+               <head xml:id="TAcCaj-d1e1845-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1845-d1e108">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="35" type="fixed=430"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1845-d1e115">
+                  <lb ed="#L" n="36"/>In quaestione centesimaundecima occurrunt quinque 
+di<lb break="no" ed="#L" n="37"/>cenda. Primo, quod Auctor distinxit quaestionem 
+simu<lb break="no" ed="#L" n="38"/>lationis a quaestione mendacii, non propter formalem, sed
+<lb ed="#L" n="39"/>materialem differentiam, dum mendacium est falsa vocis
+<lb ed="#L" n="40"/>significatio, simulatio vero est falsa facti significatio. Et
+<lb ed="#L" n="41"/>utrobique requiritur voluntas, ibi falsum dicendi, hic 
+fal<lb break="no" ed="#L" n="42"/>sum faciendi. Et propter hanc malam voluntatem, semper
+<lb ed="#L" n="43"/>simulatio est peccatum, sicut mendacium, formaliter 
+su<lb break="no" ed="#L" n="44"/>mendo utrumque. — Et quia habet speciales difficultates in
+<lb ed="#L" n="45"/>theologia, propter unam simulationis speciem, quae vocatur
+<lb ed="#L" n="46"/>hypocrisis, qua quis simulat factis personam iusti.
+<lb ed="#L" n="47"/>Secundo, quod Abraham a simulatione, immo a 
+men<lb break="no" ed="#L" n="48"/>dacio, propter figuratam locutionem prophetice excusatur,
+<lb ed="#L" n="49"/>quia commisisse se intelligitur Spiritui Sancto, tanquam
+<lb ed="#L" n="50"/>proferret illa verba ad sensum intentum a Spiritu Sancto,
+<lb ed="#L" n="51"/>quamvis sibi ignota. — Potest tamen aliter excusari, et 
+fa<lb break="no" ed="#L" n="52"/>cilius, Abraham, ut intelligatur locutus secundum 
+com<lb break="no" ed="#L" n="53"/>munem hominum morem, secundum quem erant post
+<lb ed="#L" n="54"/>adorationem reversuri: quasi dixerit: Deo aliter non 
+dis<lb break="no" ed="#L" n="55"/>ponente, revertemur ego et puer. Huiusmodi enim con-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>ditiones generales subintelliguntur. Sed pro reverentia 
+Am<lb break="no" ed="#L" n="57"/>brosii, Auctor sic exposuit.
+</p>
+               <p xml:id="TAcCaj-d1e1845-d1e167">
+                  <lb ed="#L" n="58"/>Tertio, quod de fictione David coram Achis, licet 
+Au<lb break="no" ed="#L" n="59"/>ctor utatur Glossa et ad mysterium transeat, ad litteram
+<lb ed="#L" n="60"/>tamen excusari videtur quia facta, nisi ex intentione 
+signi<lb break="no" ed="#L" n="61"/>ficandi fiant, signi vim non per se habent ex parte 
+facien<lb break="no" ed="#L" n="62"/>tis, ut superius dixi.
+</p>
+               <p xml:id="TAcCaj-d1e1845-d1e180">
+                  <lb ed="#L" n="63"/>Quarto, quod simplicitas seu veritas non intelligitur
+<lb ed="#L" n="64"/>opponi dolo vel fraudi formaliter, sed potius causaliter:
+<lb ed="#L" n="65"/>pro quanto opponitur simulationi et mendacio, quae sunt
+<lb ed="#L" n="66"/>effectus doli vel fraudis. Astutus enim adinveniens vias 
+ap<lb break="no" ed="#L" n="67"/>parentes, dolo sive fraude exequitur eas mediante mendacio
+<lb ed="#L" n="68"/>et simulationis vitio, et aliquo alio quandoque: et pro quanto
+<lb ed="#L" n="69"/>eis immiscetur mendacium aut simulatio, pro tanto opponi
+<lb ed="#L" n="70"/>dicuntur simplicitati, in art. 3, ad 2. Nam secundum se
+<lb ed="#L" n="71"/>absolute opponi dicuntur prudentiae, superius in qu. rv.
+</p>
+               <p xml:id="TAcCaj-d1e1845-d1e203">
+                  <lb ed="#L" n="72"/>Quinto, quomodo hypocrisis consuevit in sacra 
+Scri<lb break="no" ed="#L" n="73"/>ptura sumi, ut dicitur in articulo quarto. Et propterea
+<lb ed="#L" n="74"/>tam detestabiliter commemoratur.
+</p>
+               <p xml:id="TAcCaj-d1e1845-d1e212">
+                  <lb ed="#L" n="75"/>Et haec de quaestione centesimaundecima sufficiant.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

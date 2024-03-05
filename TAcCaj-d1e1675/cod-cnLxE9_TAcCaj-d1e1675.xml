@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 78</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 78</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="156"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1675"><!-- TAcCajp2p2-q78" -->
+            <head xml:id="TAcCaj-d1e1675-Hd1e101">Quaestio 78</head>
+            <div xml:id="TAcCaj-d1e1675-Dd1e103"><!-- caj-p2p2-q78a1" -->
+               <head xml:id="TAcCaj-d1e1675-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1675-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="97" type="fixed=156"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="98"/>IN articulo primo quaestionis septuagesimaeoctavae 
+du<lb break="no" ed="#L" n="99"/>bium occurrit circa rationem litterae qua probatur 
+usu<lb break="no" ed="#L" n="100"/>ram esse peccatum. Arguunt enim quidam quod rationes
+<lb ed="#L" n="101"/>non sint efficaces. Quia falsum est quod in huiusmodi
+<lb ed="#L" n="102"/>rebus mutuabilibus non differat usus a substantia rei: 
+quo<lb break="no" ed="#L" n="103"/>niam in omnibus differt, sicut operatio a natura, - Et quia
+<lb ed="#L" n="104"/>ratio illa quod pecunia est principaliter. propter 
+negotia<lb break="no" ed="#L" n="105"/>tiones, non habet locum in aliis mutuabilibus, puta vino,
+<lb ed="#L" n="106"/>tritico, etc. Non concludit igitur efficaciter littera intentum.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e139">
+                  <lb ed="#L" n="107"/>Ad hoc dicitur quod utraque obiectio procedit ex 
+mi<lb break="no" ed="#L" n="108"/>nori intellectu litterae, Et prima quidem: nam quod usus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="109"/>et res differant vel non differant, dupliciter intelligi potest.
+<lb ed="#L" n="110"/>Primo, secundum esse naturae: et hoc est extra 
+proposi<lb break="no" ed="#L" n="111"/>tum. Secundo, in ordine ad commutationes: et hoc est ad
+<lb ed="#L" n="112"/>propositum, ubi de iustitia et iniustitia commiutationum
+<lb ed="#L" n="113"/>tractatur. Licet ergo in esse naturae vinum et usus vini,
+<lb ed="#L" n="114"/>puta bibere, distinguantur; in ordine tamen ad 
+commuta<lb break="no" ed="#L" n="115"/>tones pro eodem computatur vinum et eius usus; neque
+<lb ed="#L" n="116"/>seorsum vendi potest vinum, et seorsum quod bibi possit.
+<lb ed="#L" n="117"/>Et simile est in aliis huiusmodi. Et hoc manifestum erat
+<lb ed="#L" n="118"/>in littera dicente, non quod sint idem, sed quod non debet
+<lb ed="#L" n="119"/>seorsum computari usus rei a re ipsa.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e172">
+                  <pb ed="#L" n="157"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Secunda autem, quoniam Auctor non facit duas 
+ratio<lb break="no" ed="#L" n="2"/>nes, ut obiiciens interpretatur, sed unam: et sub illa 
+uni<lb break="no" ed="#L" n="3"/>versali, scilicet, in rebus quarum usus est consumptio, 
+sub<lb break="no" ed="#L" n="4"/>sumit quod pecunia secundum principalem sui usum est
+<lb ed="#L" n="5"/>talis res, scilicet cuius usus est consumptio; et probat hoc
+<lb ed="#L" n="6"/>quia principalis usus eius est expendi in commutationibus,
+<lb ed="#L" n="7"/>secundum Aristotelem. Unde patet rationem litterae 
+soli<lb break="no" ed="#L" n="8"/>dam efficacemque manere.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e197">
+                  <lb ed="#L" n="9"/>II. In responsione ad secundum et tertium, adverte quod,
+<lb ed="#L" n="10"/>stando infra terminos iuris divini et naturalis, licitum est
+<lb ed="#L" n="11"/>condere leges permissivas usurarum: non propter lucrum
+<lb ed="#L" n="12"/>principum quod ab usurariis percipiunt, quia hoc est 
+par<lb break="no" ed="#L" n="13"/>ticipare in crimine; sed propter vitandum maius malum,
+<lb ed="#L" n="14"/>puta furta, etc., quemadmodum licitum est condere leges
+<lb ed="#L" n="15"/>permissivas meretricum, propter vitanda adulteria. Nec 
+hu<lb break="no" ed="#L" n="16"/>iusmodi leges sunt iniustae. Unde in littera dicitur quod
+<lb ed="#L" n="17"/>lex Moysi fuit talis: quam constat non esse iniquam. Sed
+<lb ed="#L" n="18"/>nota quod aliud est condere legem quod usura possit 
+im<lb break="no" ed="#L" n="19"/>pune fieri: et aliud, quod usura non possit repeti. Stat
+<lb ed="#L" n="20"/>enim esse primam legem sine secunda: quod scilicet 
+usu<lb break="no" ed="#L" n="21"/>rarius non possit a laico iudice puniri; et cum hoc, possit
+<lb ed="#L" n="22"/>conveniri quasi debitor. Non enim Moysi lex permittens
+<lb ed="#L" n="23"/>usuram ab extraneis, vetat repetitionem: sed impunitatem
+<lb ed="#L" n="24"/>concedit. Et similiter licitam iura civilia dicunt usuram,
+<lb ed="#L" n="25"/>ut Auctor dicit. in littera.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e236">
+                  <lb ed="#L" n="26"/>III. IN responsione ad quartum, ubi agitur de spe 
+mu<lb break="no" ed="#L" n="27"/>tuantis, dubium occurrit, an spes habendi aliquid ultra
+<lb ed="#L" n="28"/>sortem constituat usurarium. Et est ratio dubitandi quia
+<lb ed="#L" n="29"/>cum sola spe aliquid habendi ultra sortem stat recipere
+<lb ed="#L" n="30"/>aliquid ultra sortem gratis donatum ab eo qui accepit 
+mu<lb break="no" ed="#L" n="31"/>tuum. Et si esset usura, teneretur ad restitutionem. Sed
+<lb ed="#L" n="32"/>cum non teneatur, sequitur quod non sit usura. - In 
+op<lb break="no" ed="#L" n="33"/>positum autem communis auctoritas dictare videtur.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e256">
+                  <lb ed="#L" n="34"/>Ad evidentiam huius dubii, duo videnda simul sunt;
+<lb ed="#L" n="35"/>scilicet de peccato, et de restitutione: an sit peccatum
+<lb ed="#L" n="36"/>usurae; et an teneatur restituere. Et quoniam peccatum
+<lb ed="#L" n="37"/>cordis et operis in eadem sunt specie, quia facere et 
+de<lb break="no" ed="#L" n="38"/>siderare aliquid inter se convertuntur in bonitate et 
+ma<lb break="no" ed="#L" n="39"/>litia, sciendum est quod desiderare aliquid ultra sortem
+<lb ed="#L" n="40"/>dupliciter contingit: primo, ex mutuo, hoc est propter
+<lb ed="#L" n="41"/>mutuum; secundo, non ex mutuo, sed ex benevolentia
+<lb ed="#L" n="42"/>amicabili eius cui mutuatur. Et si quidem hoc secundo
+<lb ed="#L" n="43"/>modo speretur aliquid ultra sortem, constat non esse 
+usu<lb break="no" ed="#L" n="44"/>rae peccatum: quoniam zihil inde, hoc est ex mutuo, 
+spe<lb break="no" ed="#L" n="45"/>ratur. — Si vero primo modo, subdistinguendum est. Quia
+<lb ed="#L" n="46"/>aut speratur ex mutuo principaliter, aut secundario. Si 
+prin<lb break="no" ed="#L" n="47"/>cipaliter, usurae vitium est, contra Domini praeceptum,
+<lb ed="#L" n="48"/>nihil inde sperantes. Si secundario, usurae peccatum non
+<lb ed="#L" n="49"/>est, ut Auctor dicit in Qq. de Malo, qu. xir, art. ult.:
+<lb ed="#L" n="50"/>quoniam licitum. est ex beneficio quod confert proximo
+<lb ed="#L" n="51"/>de suo, habere oculum sinistrum ad utile. Contingit 
+au<lb break="no" ed="#L" n="52"/>tem hic secundarius respectus quando aliquis mutuat nihil
+<lb ed="#L" n="53"/>propter mutuum expectans, sed expectans ex gratitudine
+<lb ed="#L" n="54"/>illius cui mutuatur quod non erit ingratus, sed sicut 
+gra<lb break="no" ed="#L" n="55"/>tiam illi facit mutuando, ita ille gratus vel in remutuando
+<lb ed="#L" n="56"/>vel in serviendo vel in munusculis iuxta conditionem suam
+<lb ed="#L" n="57"/>erit, non ut usuram solvat, sed ut gratis se gratum 
+exhi<lb break="no" ed="#L" n="58"/>beat. Debetur enim mutuanti, ratione mutui, et res quae
+<lb ed="#L" n="59"/>mutuo est concessa, propter ipsam rem mutuatam; et 
+gra<lb break="no" ed="#L" n="60"/>tia, propter affectum mutuantis gratis. Et propterea sperans
+<lb ed="#L" n="61"/>utrumque cum suis effectibus non peccat.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e319">
+                  <lb ed="#L" n="62"/>Nec putes me immemorem eorum quae in Quolibetis
+<lb ed="#L" n="63"/>scripsi: quoniam eadem est sententia, licet aliis utar 
+vo<lb break="no" ed="#L" n="64"/>cabulis, et melius hic. — Nec fallaris putans esse sufficiens
+<lb ed="#L" n="65"/>signum usurariae mentis quod non mutuaret si crederet
+<lb ed="#L" n="66"/>iium futurum ingratum. Est enim signum fallax in foro
+<lb ed="#L" n="67"/>conscientiae: quamvis in foro iudiciali multum forte 
+pon<lb break="no" ed="#L" n="68"/>deraret, et doctores tanquam nuntio perversae mentis ipso
+<lb ed="#L" n="69"/>quandoque utantur. Constat namque in arctiori materia ,
+<lb ed="#L" n="70"/>scilicet in simonia, scriptum esse ab Auctore in Quolibetis
+<lb ed="#L" n="71"/>quod qui vadit ad ecclesiam propter distributiones, alias
+<lb ed="#L" n="72"/>non iturus tunc, non est simoniacus. Et simile est in 
+pro<lb break="no" ed="#L" n="73"/>posito: quia remuneratio sperata non est ratio quod 
+mu<lb break="no" ed="#L" n="74"/>tuet, sed est conditio quare magis mutuat huic quam illi,
+<lb ed="#L" n="75"/>quia iste gratus, ille non.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e352">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>Et quoniam facere et desiderare, ut dictum est, 
+eius<lb break="no" ed="#L" n="77"/>dem sunt rationis, si quis non solum haec intus speret,
+<lb ed="#L" n="78"/>sed extra etiam spem talem, hoc est sic moderatam ut 
+de<lb break="no" ed="#L" n="79"/>scripta est, demonstret, et sequatur effectus gratuitae 
+remu<lb break="no" ed="#L" n="80"/>nerationis ut descripsimus, nullum est peccatum usurae.
+<lb ed="#L" n="81"/>Unde in sequenti articulo Auctor dicit quod, s mutuans
+<lb ed="#L" n="82"/>aliquid accipiat non quasi exigens, nec quasi ex aliqua 
+ob<lb break="no" ed="#L" n="83"/>ligatione tacita vel expressa, sed sicut gratuitum donum ,
+<lb ed="#L" n="84"/>non peccat: et loquitur de obligatione civili, qua quis 
+te<lb break="no" ed="#L" n="85"/>netur ad debitum quasi iustum; non autem de obligatione
+<lb ed="#L" n="86"/>qua quis tenetur ad debitum de honestate, secundum quam
+<lb ed="#L" n="87"/>debet qui mutui gratiam accepit, ultra mutuum, rependere
+<lb ed="#L" n="88"/>gratuitum beneficium aequale et amplius, secundum 
+Ari<lb break="no" ed="#L" n="89"/>stotelis doctrinam, Sed ideo doctores tam caute loquuntur,
+<lb ed="#L" n="90"/>ut nec directe nec indirecte petatur aliquid, quia fraudes
+<lb ed="#L" n="91"/>hominum, qui ad malum proni sunt, timent. Quia in foro
+<lb ed="#L" n="92"/>exteriori suspecti essent: quia voluntas proximi qui gratus
+<lb ed="#L" n="93"/>dicitur ignoratur, et putatur quod quasi redimens 
+vexa<lb break="no" ed="#L" n="94"/>tionem suam rependat.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e398">
+                  <lb ed="#L" n="95"/>IV. Nec habet locum restitutio aliqua quando 
+supra<lb break="no" ed="#L" n="96"/>dicta servantur. Propter varietatem tamen occurrentem hinc
+<lb ed="#L" n="97"/>inde, scito quod quadrupliciter potest variari recompensatio
+<lb ed="#L" n="98"/>alicuius ultra sortem sine pacto explicite vel implicite: 
+sci<lb break="no" ed="#L" n="99"/>licet ex parte mutuantis tantum; vel ex parte accipientis
+<lb ed="#L" n="100"/>mutuum tantum; velex parte utriusque; vel ex parte 
+neu<lb break="no" ed="#L" n="101"/>trius. Et ordine praepostero a clarioribus inchoando, quando
+<lb ed="#L" n="102"/>ex parte neutrius corrupta est intentio, ita quod nec 
+mu<lb break="no" ed="#L" n="103"/>tuans habet malam intentionem habendi, nec dans habet
+<lb ed="#L" n="104"/>aliquo modo coactionem, sed omnino sponte et libere
+<lb ed="#L" n="105"/>donat, nullum omnino est peccatum, ut patet; nullaque
+<lb ed="#L" n="106"/>intercedit restitutio.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e428">
+                  <lb ed="#L" n="107"/>Sed quando utriusque mens mala est, mutuantis 
+qui<lb break="no" ed="#L" n="108"/>dem quia omnino sive hoc sive illo modo vult aliquid
+<lb ed="#L" n="109"/>ultra sortem, accipientis vero mutuum quia videt vel putat
+<lb ed="#L" n="110"/>non posse aliter sibi consulere nisi dando (ac per hoc est
+<lb ed="#L" n="111"/>mala passive, quia patitur, non quia facit malum), 
+pecca<lb break="no" ed="#L" n="112"/>tum usurae est, et tenetur ad restitutionem: quia ex 
+mu<lb break="no" ed="#L" n="113"/>tuo principaliter speratur, et datur non voluntarie. Et in hoc
+<lb ed="#L" n="114"/>casu intelligendum est capitulum Consuluit, Extra, de 
+Usu<lb break="no" ed="#L" n="115"/>ris, circa restitutionem usurae sine pacto.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e450">
+                  <lb ed="#L" n="116"/>Quando vero ex parte tantum accipientis mutuum 
+clau<lb break="no" ed="#L" n="117"/>dicat intentio, quia scilicet ipse non dat voluntarie id quod
+<lb ed="#L" n="118"/>dat, mutuans autem credit, propter suam innocentiam, sibi
+<lb ed="#L" n="119"/>gratis dari: accipiendo non peccat, sed tenetur restituere
+<lb ed="#L" n="120"/>illud quando postmodum hoc scit, si ex illo est factus
+<lb ed="#L" n="121"/>locupletior. Nam si consumpsit illud tanquam adventitium
+<lb ed="#L" n="122"/>non coraputatum, ad nihil tenetur, et sibi ipsi imputet qui
+<lb ed="#L" n="123"/>dedit: et non est imputandum ei qui in bona semper fide
+<lb ed="#L" n="124"/>stetit, et nihil ex illo locupletatus est. Si enim locupletior
+<lb ed="#L" n="125"/>factus ex illo esset, teneretur reddere alienum non ratione
+<lb ed="#L" n="126"/>acceptionis, sed ratione rei acceptae: quia involuntarie a
+<lb ed="#L" n="127"/>domino exiit.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e479">
+                  <lb ed="#L" n="128"/>Quando autem corrupta est mens ex parte mutuantis
+<lb ed="#L" n="129"/>tantum, tunc peccat mortaliter absque dubio, sed ad 
+restitu<lb break="no" ed="#L" n="130"/>tionem non tenetur, ut quidam dicunt. Quia restitutio 
+ordi<lb break="no" ed="#L" n="131"/>natur ad hoc quod ille qui minus habet quam suum est,
+<lb ed="#L" n="132"/>rehabeat suum. Modo, iste qui donavit nihil minus habet:
+<lb ed="#L" n="133"/>quoniam hoc quod dedit, non iniuste, sed libere a se 
+abdica<lb break="no" ed="#L" n="134"/>vit; neque est ab eo ablatum, sed ipse sponte donavit. Non
+<lb ed="#L" n="135"/>est igitur restituendum, — Sed si meditemur in regulis 
+resti<lb break="no" ed="#L" n="136"/>tutionum superius, cum de restitutione tractaremus, 
+habi<lb break="no" ed="#L" n="137"/>tis, dubio non parvo apparebit quod haec ratio concludit
+<lb ed="#L" n="138"/>quod non est restituendum ei a quo accepit: sed non quod
+<lb ed="#L" n="139"/>non sit restituendum absolute. Et ratio est quia pro regula
+<lb ed="#L" n="140"/>accepimus quod quando acceptio ipsa est iniusta, ita quod
+<lb ed="#L" n="141"/>ille qui accipit contra legem accipit, non debet sibi retinere,
+<lb ed="#L" n="142"/>sed debet in pios usus convertere. Constat namque quod
+<lb ed="#L" n="143"/>in hoc casu, licet datio sit bona, acceptio tamen ipsa est
+<lb ed="#L" n="144"/>usuraria et contra legem utriusque Testamenti. Ergo non
+<lb ed="#L" n="145"/>potest ille qui accepit retinere, sed debet in pios usus 
+re<lb break="no" ed="#L" n="146"/>stituere. Et confirmatur: quia ad vinculum restituendi 
+suf<lb break="no" ed="#L" n="147"/>ficit quod teneatur aliquis ratione acceptionis iniustae, etiam
+<lb ed="#L" n="148"/>si non teneatur ratione rei acceptae; in proposito autem
+<lb ed="#L" n="149"/>hic tenetur ratione usurariae acceptionis,
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e529">
+                  <lb ed="#L" n="150"/>Solvitur autem hoc dubium distinguendo inter per se
+<pb ed="#L" n="158"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>et per accidens; et dicendo quod huiusmodi acceptio, 
+opti<lb break="no" ed="#L" n="2"/>mae dationi respondens, non est per se iniusta et usuraria.
+<lb ed="#L" n="3"/>Quia cum iustitia sit ad alterum; et iustitia in 
+commuta<lb break="no" ed="#L" n="4"/>tionibus sit inter commutantes; et huiusmodi acceptio non
+<lb ed="#L" n="5"/>violet secundum rem aequalitatem inter eos, sed solum
+<lb ed="#L" n="6"/>secundum opinionem et intentionem accipientis: 
+conse<lb break="no" ed="#L" n="7"/>quens est quod per accidens, hoc est propter intentionem
+<lb ed="#L" n="8"/>accipientis, et non per se, hoc est non propter 
+inaequa<lb break="no" ed="#L" n="9"/>litatem rei ad rem, acceptio ista est iniusta et usuraria. Ac
+<lb ed="#L" n="10"/>per hoc, quandiu iste qui accepit vigore talis acceptionis
+<lb ed="#L" n="11"/>retinet, tenetur restituere: ex contracto quidem vitio per 
+ac<lb break="no" ed="#L" n="12"/>cidens acceptionis, pauperibus; ex putata autem non 
+dona<lb break="no" ed="#L" n="13"/>tione libera dantis, ei qui dedit. Et hoc debet exequi: 
+quo<lb break="no" ed="#L" n="14"/>niam ratio superius allata concludit quod per se non est
+<lb ed="#L" n="15"/>ei qui dedit restituendum; cum quo stat quod per 
+acci<lb break="no" ed="#L" n="16"/>dens sit ei restituendum. Sed si post sciverit donatum sibi
+<lb ed="#L" n="17"/>esse, et vigore donationis coepit retinere, non tenebitur 
+am<lb break="no" ed="#L" n="18"/>plius restituere: fit enim licite suum de novo per 
+acceptio<lb break="no" ed="#L" n="19"/>nem donationis sibi hactenus incognitae. Et sic utraque
+<lb ed="#L" n="20"/>opinio, scilicet dicentium quod non potest ista retinere sibi,
+<lb ed="#L" n="21"/>et dicentium quod potest retinere, est vera diversimode, ut
+<lb ed="#L" n="22"/>diximus. Et per haec patent solutiones multarum 
+quaestio<lb break="no" ed="#L" n="23"/>num de usura mentali, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e588">
+                  <lb ed="#L" n="24"/>V. In responsione ad sextum eiusdem articuli, ubi agitur
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>de multiplici usu rei, adverte quod usus principalis 
+pecu<lb break="no" ed="#L" n="26"/>niae est expendi ut pretium rerum: sicut usus principalis -
+<lb ed="#L" n="27"/>vini est ut bibatur. Verum quemadmodum vino non 
+so<lb break="no" ed="#L" n="28"/>lum utimur ad bibendum, sed ad commutandum, vel cum
+<lb ed="#L" n="29"/>pecunia, et tunc induit rationem rei venalis; vel cum alia
+<lb ed="#L" n="30"/>re, et tunc quandoque rationem pretii, puta si vino 
+emi<lb break="no" ed="#L" n="31"/>mus frumentum; vel etiam utriusque, puta rei venalis et
+<lb ed="#L" n="32"/>pretii, cum simul emimus vino frumentum et vendimus
+<lb ed="#L" n="33"/>vinum pro frumento, intendentes vendere nostrum vinum
+<lb ed="#L" n="34"/>et emere frumentum, etc.: ita proportionabiliter contingit
+<lb ed="#L" n="35"/>in pecunia. Quoniam ipsa non solum utimur ut pretio
+<lb ed="#L" n="36"/>rerum, sed etiam ut re venali, considerando, sicut de aliis
+<lb ed="#L" n="37"/>rebus, abundantiam vel penuriam eius respectu 
+occurren<lb break="no" ed="#L" n="38"/>tum necessitatum. Et hoc modo utitur pecunia ars 
+num<lb break="no" ed="#L" n="39"/>mularia, vulgariter nuncupata campsoria, scilicet ut re 
+qua<lb break="no" ed="#L" n="40"/>dam. Et propterea utitur ipsa simul ut re et pretio: 
+quem<lb break="no" ed="#L" n="41"/>admodum in commutatione vini et frumenti declaratum est.
+<lb ed="#L" n="42"/>Et supra hoc fundamentum. consurgit tota doctrina 
+cam<lb break="no" ed="#L" n="43"/>biorum. Nec ulla apparet ratio quare magis aliis rebus
+<lb ed="#L" n="44"/>possimus tot modis uti, et auro vel argento monetato non:
+<lb ed="#L" n="45"/>cum multiplicitas usus non impediat usum principalem;
+<lb ed="#L" n="46"/>et de facto pecuniam multos usus habere praeter 
+princi<lb break="no" ed="#L" n="47"/>palem experientia testatur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1675-Dd1e646"><!-- caj-p2p2-q78a2" -->
+               <head xml:id="TAcCaj-d1e1675-Hd1e649">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1675-d1e651">
+                  <pb ed="#L" n="160"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=160"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e660">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo secundo eiusdem septuagesimaeoctavae 
+quae<lb break="no" ed="#L" n="3"/>Liu scito duas notabiles regulas in littera tradi. Una
+<lb ed="#L" n="4"/>est: Expetere propter mutuum aliquid pecunia aestimabile
+<lb ed="#L" n="5"/>ut debitum ex obligatione seu pacto, tacite vel expresse,
+<lb ed="#L" n="6"/>est usura. Altera est: Expetere propter mutuum et 
+exi<lb break="no" ed="#L" n="7"/>gere benevolentiam, et quodcumque ut ex benevolentia 
+de<lb break="no" ed="#L" n="8"/>bitum, non est peccatum, sed licitum. Et quoniam 
+mul<lb break="no" ed="#L" n="9"/>tum refert nosse istas in universali, et scire vel nescire
+<lb ed="#L" n="10"/>eas applicare ad casus particulares, quoniam hinc multae
+<lb ed="#L" n="11"/>falsae solutiones emanare videntur; ideo, ut consulamus
+<lb ed="#L" n="12"/>multorum ingeniis debilioribus, afferendi sunt casus, 
+sum<lb break="no" ed="#L" n="13"/>marie tamen, ex quibus facile credimus posse reliquis 
+sa<lb break="no" ed="#L" n="14"/>tisfieri.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e693">
+                  <lb ed="#L" n="15"/>Quaeruntur ergo haec. An scilicet mutuans rustico ut
+<lb ed="#L" n="16"/>colat agrum mutuantis salva iusta mercede sua, sit 
+usu<lb break="no" ed="#L" n="17"/>rarius. - Et an mutuans alicui ut vadat ad furnum, 
+mo<lb break="no" ed="#L" n="18"/>lendinum, scholas, offiinam, et huiusmodi, mutuantis,
+<lb ed="#L" n="19"/>salva similiter iusta mercede, sit usurarius. - An mutuans
+<lb ed="#L" n="20"/>communitati ut, durante mutuo, non teneatur ad collectas
+<lb ed="#L" n="21"/>ad quas alii tenentur, sit usurarius. - An mutuans 
+prin<lb break="no" ed="#L" n="22"/>cipi ut donet vel vendat mutuanti tale officium, sit 
+usu<lb break="no" ed="#L" n="23"/>rarius. - An mutuans ut accipiat is cui mutuat debitores
+<lb ed="#L" n="24"/>vel res mutuantis, sit usurarius. - An mutuans naviganti
+<lb ed="#L" n="25"/>ut periculum mutui transferat in mutuantem recepturum
+<lb ed="#L" n="26"/>ex salvo itinere lucrum, sit usurarius. - An mutuans 
+per<lb break="no" ed="#L" n="27"/>secutori ut non vexet mutuantem, sit usurarius.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e724">
+                  <lb ed="#L" n="28"/>Quae ad examen dictarum regularum si reducantur,
+<lb ed="#L" n="29"/>facile solvuntur. Nam ex eo quod quidquid pecunia 
+ae<lb break="no" ed="#L" n="30"/>stimabile petitur propter mutuum ex obligatione civili,
+<lb ed="#L" n="31"/>usurarium est; et constat obligationem ad colendum agrum
+<lb ed="#L" n="32"/>salva iusta mercede, et similiter ad coquendum in hoc
+<lb ed="#L" n="33"/>furno, molendum in hac mola, visitandum has scholas,
+<lb ed="#L" n="34"/>emendum ex hac officina, non imponendum mihi 
+colle<lb break="no" ed="#L" n="35"/>ctas, donandum vel vendendum officium, ad acceptandum
+<lb ed="#L" n="36"/>debitores vel res venales, ad solvendum contractum 
+asse<lb break="no" ed="#L" n="37"/>curationis, esse aliquid pecunia aestimabile, non minus
+<lb ed="#L" n="38"/>quam obligationem ad remutuandum: consequens est ut
+<lb ed="#L" n="39"/>usura sit in omnibus praedictis et similibus casibus, ultimo
+<lb ed="#L" n="40"/>excepto, mutuare ut ex pacto tacito vel expresso 
+obliga<lb break="no" ed="#L" n="41"/>tiones huiusmodi proveniant. Nec est vagandum extra ad
+<lb ed="#L" n="42"/>videndum si lucrum aliquod ultra sortem mutuanti advenit:
+<lb ed="#L" n="43"/>in promptu enim est lucrum ultra sortem, scilicet ipsa 
+ob<lb break="no" ed="#L" n="44"/>ligatio ad haec faciendum. Et penultimus casus videtur
+<lb ed="#L" n="45"/>esse ad litteram casus primus positus in cap. Naviganti,
+<lb ed="#L" n="46"/>Extra, de Usuris.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e769">
+                  <lb ed="#L" n="47"/>In ultimo autem casu, de mutuo facto persecutori, si
+<lb ed="#L" n="48"/>persecutio est iniusta, manifeste patet quod est redimere
+<lb ed="#L" n="49"/>suam vexationem: nec aliquid lucri accedit, sed obligatio
+<lb ed="#L" n="50"/>ad non nocendum, ad quam persecutor tenetur, si iudex
+<lb ed="#L" n="51"/>adesset potens cogere, etc. Si autem persecutio esset iusta,
+<lb ed="#L" n="52"/>et ex mutuo exigeretur amor, et interim misericordia 
+prin<lb break="no" ed="#L" n="53"/>cipis, qui potest amando misereri: cum haec non sint
+<lb ed="#L" n="54"/>pecunia aestimabilia, licitum esset, iuxta secundam regulam ;
+<lb ed="#L" n="55"/>sicut etiam licitum est ex mutuo exigere benevolentiam eius
+<lb ed="#L" n="56"/>quem iuste vel iniuste offenderam, eadem ratione. Et non
+<lb ed="#L" n="57"/>solum licitum est ipsam benevolentiam ex mutuo exigere,
+<lb ed="#L" n="58"/>sed quodcumque ex benevolentia proveniens, 
+quantumcum<lb break="no" ed="#L" n="59"/>que pretiosum, munus: ut littera in responsione ad tertium
+<lb ed="#L" n="60"/>expresse dicit. Ex quo patet quod si quis in omnibus 
+su<lb break="no" ed="#L" n="61"/>pradictis mutuat exigendo benevolentiam; seu ex benevolo
+<lb ed="#L" n="62"/>affectu, non quasi ex obligatione aut pacto tacito vel 
+ex<lb break="no" ed="#L" n="63"/>presso, quis faciat supradicta, scilicet colat agrum, et veniat
+<lb ed="#L" n="64"/>ad molam, etc.: non est peccatum.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e811">
+                  <lb ed="#L" n="65"/>Fugientes autem utrumque modum, et reducentes 
+con<lb break="no" ed="#L" n="66"/>tractum mutui ad donec, hoc est: Mutuo tibi donec venies
+<lb ed="#L" n="67"/>ad furnum meum, donec officium a te habeo, donec 
+co<lb break="no" ed="#L" n="68"/>lueris agrum meum, et huiusmodi, sciant primo quod,
+<lb ed="#L" n="69"/>licet ex forma contractus sit determinatio temporis 
+solu<lb break="no" ed="#L" n="70"/>tionis tantummodo, et consequenter nulla iniustitia 
+inter<lb break="no" ed="#L" n="71"/>veniat, sed gratia expectationis; si tamen fit ut sit quasi
+<lb ed="#L" n="72"/>tacitum pactum obligandi ad haec donec solverit, usura est.
+<lb ed="#L" n="73"/>Et bene adverte quod istae concomitantiae reflexarum actio-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="74"/>num suspectae sunt quandoque de usura, ut dictum est,
+<lb ed="#L" n="75"/>et inexcusabiles quandoque: ut cum quis mutuat 
+acce<lb break="no" ed="#L" n="76"/>ptanti malos debitores mutuantis aut res difficile venales,
+<lb ed="#L" n="77"/>dicendo non propter mutuum se exigere huiusmodi 
+acce<lb break="no" ed="#L" n="78"/>ptationes ab eo cui mutuat, sed, cum non teneatur isti 
+mu<lb break="no" ed="#L" n="79"/>tuare, non vult mutuare nisi accipienti in se talia iura vel
+<lb ed="#L" n="80"/>tales res. Hoc enim nihil aliud est quam dicere: Nolo.
+mu<lb break="no" ed="#L" n="81"/>tuare nisi volenti damnificari ob meam utilitatem , quod
+<lb ed="#L" n="82"/>est usurarium, Et idem est de similibus iudicium. Sunt
+<lb ed="#L" n="83"/>enim adinventiones istae palliantium suos contractus, 
+qui<lb break="no" ed="#L" n="84"/>bus opprimunt petentes mutuum ab eis, respondendo: 
+Mu<lb break="no" ed="#L" n="85"/>tuabo tibi quingentos in nummis, et quingentos in talibus
+<lb ed="#L" n="86"/>iuribus seu rebus: et sic miscent mutuum emptioni coactae
+<lb ed="#L" n="87"/>propter mutuum quingentorum in veritate. Et duo mala
+<lb ed="#L" n="88"/>committunt: primum est quod cogunt emere propter 
+mu<lb break="no" ed="#L" n="89"/>tuum; secundum, quod etiam in rebus damnificatur exinde
+<lb ed="#L" n="90"/>petitor. Et primum quidem semper, secundum autem saepe
+<lb ed="#L" n="91"/>contingit. [deo non licet, etiam si res optimas facile 
+ve<lb break="no" ed="#L" n="92"/>nales cogeret emere: quoniam ipsa obligatio emendi, seu
+<lb ed="#L" n="93"/>obligata emptio, excrescentia est usurariae pravitatis.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e879">
+                  <lb ed="#L" n="94"/>II. In responsione ad primum tractantur duo capita
+<lb ed="#L" n="95"/>quaestionum in materia usurae, scilicet damnum emergens,
+<lb ed="#L" n="96"/>et lucrum cessans: et iuxta singula traduntur singulae 
+re<lb break="no" ed="#L" n="97"/>gulae. Altera est quod damnum emergens ex mutuo licet
+<lb ed="#L" n="98"/>expetere ab eo cui mutuatur : quia ex beneficio mutui non
+<lb ed="#L" n="99"/>debet damnum incurrere. Altera est quod lucrum 
+ces<lb break="no" ed="#L" n="100"/>sans ex hoc quod de pecunia quam mutuat non potest
+<lb ed="#L" n="101"/>lucrari, non licet expetere: quia non debet vendere id
+<lb ed="#L" n="102"/>quod non habet et potest multipliciter impediri. Et :
+quo<lb break="no" ed="#L" n="103"/>niam quidquid petitur ratione interesse ad haec duo 
+redu<lb break="no" ed="#L" n="104"/>citur, oportet has regulas applicari ad casus, et ex eis 
+re<lb break="no" ed="#L" n="105"/>ctum et obliquum monstrare.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e908">
+                  <lb ed="#L" n="106"/>Ex prima namque regula: - in qua duo nota verba:
+<lb ed="#L" n="107"/>primo, quod damnum sit alicuius quod habet vel debet
+<lb ed="#L" n="108"/>habere; secundo, ex mutuo, quod scilicet damnum ex 
+mu<lb break="no" ed="#L" n="109"/>tuatione facta vel facienda proveniat: — ex hac, inquam,
+<lb ed="#L" n="110"/>regula liquet quod vendens cum suo damno agrum ut
+<lb ed="#L" n="111"/>mutuet, licite recompensationem talis damni petit. — Et 
+si<lb break="no" ed="#L" n="112"/>militer si quis acceptas sub usuris pecunias ut alteri 
+suc<lb break="no" ed="#L" n="113"/>currat, mutuat, licite se indemnem servat (quamvis hoc
+<lb ed="#L" n="114"/>potius sit pro socio sub usuris, nomine tamen proprio ,
+<lb ed="#L" n="115"/>accipere seu retinere quam mutuare, secundum veritatem). —
+<lb ed="#L" n="116"/>Similiter si quis ut debitum fideiussioni faceret, quod est
+<lb ed="#L" n="117"/>interpretative mutuare debitori pro quo fideiussit, damnum
+<lb ed="#L" n="118"/>incurrit, licite petit, - Et quoniam damnum est rei sibi 
+de<lb break="no" ed="#L" n="119"/>bitae amissio, non est inter damna computandum solvere
+<lb ed="#L" n="120"/>collectas a principe vel communitate impositas vel 
+impo<lb break="no" ed="#L" n="121"/>nendas secundum iustitiae distributivae rationem. Nec est
+<lb ed="#L" n="122"/>vitatio damni relevatio a solutione: quoniam non debita est
+<lb ed="#L" n="123"/>subdito sublevatio ab hoc onere, immo tenetur talem 
+so<lb break="no" ed="#L" n="124"/>lutionem. facere. Et propterea sublevatio huiusmodi est
+<lb ed="#L" n="125"/>inter lucra computanda: sicut si absolveretur a creditore -
+<lb ed="#L" n="126"/>de sibi debito. Et haec dixerim ut non fallaris ab illis qui
+<lb ed="#L" n="127"/>putant hoc esse vitationem damni: clare enim liquet quod
+<lb ed="#L" n="128"/>non solvere quod teneor est lucrari illud debitum. - 
+Com<lb break="no" ed="#L" n="129"/>putandum est autem infra latitudinem damni emergentis
+<lb ed="#L" n="130"/>si post moram debentis restituere mutuum, oportet 
+credi<lb break="no" ed="#L" n="131"/>torem sub usuris illam pecuniae quantitatem accipere ut
+<lb ed="#L" n="132"/>consulat rebus suis: et quidquid usurarum tunc solvit,
+<lb ed="#L" n="133"/>potest a suo debitore exigere, si denuntiavit sibi quod up
+<lb ed="#L" n="134"/>tale incurret damnum si non solverit tempore debito. Hoc
+<lb ed="#L" n="135"/>enim est vere damnum ex detento mutuo contra domini
+<lb ed="#L" n="136"/>voluntatem proveniens, sciente detentore.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e978">
+                  <lb ed="#L" n="137"/>Et de similibus his recitatis idem est iudicium.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e983">
+                  <lb ed="#L" n="138"/>III. Circa secundam autem regulam dubium occurrit,
+<lb ed="#L" n="139"/>quia videtur falsa, et contra Auctorem. Falsa quidem,
+<lb ed="#L" n="140"/>quoniam constat secundum omnes quod post moram 
+de<lb break="no" ed="#L" n="141"/>bitoris licet petere interesse non solum damni emergentis,
+<lb ed="#L" n="142"/>sed lucri cessantis. Licitum est ergo damnum quod quis
+<lb ed="#L" n="143"/>incurrit ex hoc quod de pecunia non lucratur, exigere.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1000">
+                  <lb ed="#L" n="144"/>Praeterea, secundum multos licitum est volenti 
+pecu<lb break="no" ed="#L" n="145"/>niam suam negotiationi exponere, seu emere ex illa agrum,
+<pb ed="#L" n="161"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>et huiusmodi, si, ut succurrat ad tempus proximo, mutuat
+<lb ed="#L" n="2"/>illam, deducere in pactum lucrum cessans ex negotiatione
+<lb ed="#L" n="3"/>vel fructibus. Sicut licitum est, secundum <name xml:id="TAcCaj-d1e1675-Nd1e1017">Innocentium</name>
+                  <lb ed="#L" n="4"/>et <name xml:id="TAcCaj-d1e1675-Nd1e1021">Raymundum</name>, volenti deferre merces suas vendendas 
+<lb ed="#L" n="5"/>alibi, ad instantiam volentis hic emere, vendere tantum plus
+<lb ed="#L" n="6"/>quantum aestimatur lucrum quod, deductis expensis, 
+ha<lb break="no" ed="#L" n="7"/>buisset alibi. Non est igitur absolute vera dicta regula.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1031">
+                  <lb ed="#L" n="8"/>Et ne in particularibus fallamur, ad rationem 
+ascen<lb break="no" ed="#L" n="9"/>dendo, monstratur quod regula ista repugnat principiis 
+re<lb break="no" ed="#L" n="10"/>stitutionum, procedendo sic. Habens pecuniam habet 
+lu<lb break="no" ed="#L" n="11"/>crum in potentia magis et minus propinqua actui iuxta
+<lb ed="#L" n="12"/>ingenium habentis negotiationis occurrentes commoditates.
+<lb ed="#L" n="13"/>Ergo mutuans potest deducere in pactum damnum quod
+<lb ed="#L" n="14"/>incurrit ex hoc quod de pecunia sua non lucratur.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1049">
+                  <lb ed="#L" n="15"/>Antecedens probatur multipliciter. Tum quia pecunia est
+<lb ed="#L" n="16"/>instrumentum ad lucrandum, quando utitur ea industrius
+<lb ed="#L" n="17"/>negotiator vel emptor rei fructuosae. - Tum quia aliter
+<lb ed="#L" n="18"/>non oporteret debitorem post moram, vel alias detentorem
+<lb ed="#L" n="19"/>pecuniae alienae, restituere aliquid plus quam sit quantitas
+<lb ed="#L" n="20"/>detenta. Cuius oppositum tenetur, et superius est 
+habi<lb break="no" ed="#L" n="21"/>tum, cum de restitutione tractaretur. Ideo enim secundum
+<lb ed="#L" n="22"/>formam commautativae iustitiae debetur aliquid plus, quia
+<lb ed="#L" n="23"/>in aliquo plus quam sit quantitas detenta, est laesus 
+cre<lb break="no" ed="#L" n="24"/>ditor: alioquin non servaretur aequalitas rei ad rem. — Et
+<lb ed="#L" n="25"/>confirmatur. Habens pecuniam aut habet aliquid plus quam
+<lb ed="#L" n="26"/>sit quantitas pecuniae, aut non. Si habet aliquid plus, 
+se<lb break="no" ed="#L" n="27"/>quitur quod possit vendere et in pactum deducere. Si non
+<lb ed="#L" n="28"/>habet, sequitur quod post moram non debeatur ei plus:
+<lb ed="#L" n="29"/>quoniam non debet restitui nisi ablatum; sed detinendo
+<lb ed="#L" n="30"/>non aufertur plus quam pecunia, quia nihil plus ibi 
+con<lb break="no" ed="#L" n="31"/>tinetur, secundum istam responsionem. Hoc autem 
+con<lb break="no" ed="#L" n="32"/>stat esse falsum, scilicet quod non debeat plus restitui post
+<lb ed="#L" n="33"/>moram, Ergo. - Si dicatur quod oportet post moram plus
+<lb ed="#L" n="34"/>reddere quia impeditus est dominus ab usu rei suae, patet
+<lb ed="#L" n="35"/>responsio: quod in pecunia idem est impedire dominum
+<lb ed="#L" n="36"/>a re et ab usu rei; unde nihil plus propter usum debetur. -
+<lb ed="#L" n="37"/>Si dicatur quod quia invito domino detinetur, patet 
+re<lb break="no" ed="#L" n="38"/>sponsio: quod hoc non est ratione interesse seu ratione
+<lb ed="#L" n="39"/>rei, sed ratione iniuriae quae fit ex hoc quod invito ipso
+<lb ed="#L" n="40"/>suum detinetur; quaestio autem nostra non est de 
+satis<lb break="no" ed="#L" n="41"/>factione iniuriarum, sed de aequalitate rei ad rem in 
+com<lb break="no" ed="#L" n="42"/>mutationibus; ratione cuius Auctor in casu proposito dicit
+<lb ed="#L" n="43"/>superius, in art. 4 qu. rxir*: //le qui habet pecuniam 
+non<lb break="no" ed="#L" n="44"/>dum habet lucrum in actu, sed solum in virtute.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1117">
+                  <lb ed="#L" n="45"/>Consequentia autem probatur dupliciter. Primo, quia
+<lb ed="#L" n="46"/>habens duo et privans se illis propter mutuandum, potest
+<lb ed="#L" n="47"/>amborum restitutionem in pactum deducere. Sed sic est
+<lb ed="#L" n="48"/>quod in casu posito iste mutuans habet duo, scilicet 
+pe<lb break="no" ed="#L" n="49"/>cuniam et potentiam lucri seu fructus: et quia mutuat,
+<lb ed="#L" n="50"/>privat se utroque, scilicet pecunia et facultate lucri. Ergo
+<lb ed="#L" n="51"/>potest utriusque restitutionem in pactum deducere. — 
+Se<lb break="no" ed="#L" n="52"/>cundo, sicut in venditione licitum est vendere rem plus
+<lb ed="#L" n="53"/>quam valet absolute, si plus valet venditori; ita in mutuo
+<lb ed="#L" n="54"/>licet pecuniam aestimare plus quam valet absolute, si plus
+<lb ed="#L" n="55"/>valet mutuanti: par namque utrobique est ratio. Sed constat
+<lb ed="#L" n="56"/>quod industrio negotiatori vel emptori agri plus valet 
+pe<lb break="no" ed="#L" n="57"/>cunia quam valeat absolute: quoniam sic isti se habent ad
+<lb ed="#L" n="58"/>pecunias sicut alii artifices ad instrumenta suae artis. Ergo
+<lb ed="#L" n="59"/>isti possunt mutuando deducere in pactum quod plus velint.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1152">
+                  <lb ed="#L" n="60"/>Et per hoc solvitur ratio regulae assignata in littera,
+<lb ed="#L" n="61"/>scilicet quod non possunt vendere quod nondum habent
+<lb ed="#L" n="62"/>et potest multipliciter impediri. Solvitur enim dicendo quod
+<lb ed="#L" n="63"/>non possunt vendere tanquam habitum in actu, sed 
+tan<lb break="no" ed="#L" n="64"/>quam habitum in potentia. Quod non esse nihil patet ex
+<lb ed="#L" n="65"/>dictis in materia restitutionum: scilicet quod qui 
+damni<lb break="no" ed="#L" n="66"/>ficavit habentem aliquid in potentia, non tenetur ad 
+resti<lb break="no" ed="#L" n="67"/>tutionem ac si in actu habuisset, sed ad restituendum sicut
+<lb ed="#L" n="68"/>habitum in potentia, pensatis conditionibus, etc. Unde in
+<lb ed="#L" n="69"/>proposito dicitur quod licitum est accipere tantum 
+quan<lb break="no" ed="#L" n="70"/>tum, si impeditus fuisset a negotiando vel emendo, 
+im<lb break="no" ed="#L" n="71"/>peditor iudicaretur restituere. Et sic sequitur quod 
+lu<lb break="no" ed="#L" n="72"/>crum cessans potest deduci in pactum a principio mutui
+<lb ed="#L" n="73"/>a negotiatore et emptore. — Et confirmatur. Quia hoc non
+<lb ed="#L" n="74"/>est accipere ultra sortem ratione usus pecuniae: sed est
+<lb ed="#L" n="75"/>accipere ratione annexae potentiae lucri, qua se privat, pro-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>pter quam potentiam pecunia plus mihi valet quam 
+ab<lb break="no" ed="#L" n="77"/>solute. Et propterea non est peccatum usurae: sed 
+ratio<lb break="no" ed="#L" n="78"/>nem habere rei suae ut stat sub sua industria.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1198">
+                  <lb ed="#L" n="79"/>Et ex his patet regulam hanc, cum sua ratione, 
+contra<lb break="no" ed="#L" n="80"/>dicere Auctori in superius dictis et allegatis.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1206">
+                  <lb ed="#L" n="81"/>IV. Ad evidentiam huius ambiguitatis, super qua 
+fun<lb break="no" ed="#L" n="82"/>damenta interesse veri vel palliati consurgunt, sciendum
+<lb ed="#L" n="83"/>est quod tota difficultas consistit in his duobus punctis:
+<lb ed="#L" n="84"/>An habens pecuniam, puta mille ducatos, propter annexam
+<lb ed="#L" n="85"/>potentiam lucri habeat plus quam sit quantitas pecuniae,
+<lb ed="#L" n="86"/>puta mille ducati? Et si non habet plus, quare post 
+mo<lb break="no" ed="#L" n="87"/>ram, propter adaequandam rem rei, oportet dari plus?
+<lb ed="#L" n="88"/>Si autem habet plus, quare non licet illud plus vendere
+<lb ed="#L" n="89"/>a principio, et licet illud plus exigere post moram propter
+<lb ed="#L" n="90"/>adaequandam rem rei, ultra satisfactionem iniuriae? Haec
+<lb ed="#L" n="91"/>enim non videntur sibi invicem consona: immo non 
+vi<lb break="no" ed="#L" n="92"/>dentur intelligibilia. — At si quis dixerit quod habet aliquid
+<lb ed="#L" n="93"/>plus et quod licet illud vendere, patens aperta est via ut
+<lb ed="#L" n="94"/>in quolibet mutuo pecuniae possit aliquid ultra sortem ex
+<lb ed="#L" n="95"/>pacto exigi. Quod omnes negant.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1241">
+                  <lb ed="#L" n="96"/>Initium autem investigandae veritatis est quod potentia
+<lb ed="#L" n="97"/>ad lucrum ex pecunia est duplex. Quaedam consequens
+<lb ed="#L" n="98"/>ipsam pecuniam absolute, pro quanto ipsa pecunia potest
+<lb ed="#L" n="99"/>esse instrumentum ad lucrandum, sive per viam 
+negotia<lb break="no" ed="#L" n="100"/>tionis sive per viam emptionis agri, armenti, gregis, etc.:
+<lb ed="#L" n="101"/>et haec potentia vocatur potentia pecuniae, quia ipsam 
+ab<lb break="no" ed="#L" n="102"/>solute comitatur. Quaedam vero potentia ad lucrum ex
+<lb ed="#L" n="103"/>pecunia est consequens pecuniam non absolute, sed ut
+<lb ed="#L" n="104"/>substat tali industriae negotiatoris vel emptoris tali 
+tem<lb break="no" ed="#L" n="105"/>pore, in tali loco, in tali commoditate, etc.: et haec 
+vo<lb break="no" ed="#L" n="106"/>catur potentia pecuniae ut substat industriae. Et quoniam
+<lb ed="#L" n="107"/>prima potentia communis est pecuniae a quocumque 
+ha<lb break="no" ed="#L" n="108"/>beatur, idem est iudicium de ipsa pecunia et de eius 
+po<lb break="no" ed="#L" n="109"/>tentia. Et propterea sicut non licet ratione pecuniae 
+acci<lb break="no" ed="#L" n="110"/>pere ultra sortem, ita non licet addere aliquid plus ratione
+<lb ed="#L" n="111"/>suae potentiae: cum enim inseparabiliter sese 
+comiten<lb break="no" ed="#L" n="112"/>tur, iudicium latum a doctoribus de pecunia intelligitur
+<lb ed="#L" n="113"/>de ipsa cum sua quasi naturali potentia ad lucrum. Sed
+<lb ed="#L" n="114"/>secunda potentia adiungitur pecuniae ex hoc quod substat
+<lb ed="#L" n="115"/>tali industriae. Et propterea non convenit pecuniae 
+abso<lb break="no" ed="#L" n="116"/>lute, nec a quocumque habeatur, sed in ordine ad aliquem:
+<lb ed="#L" n="117"/>et suscipit magis et minus, iuxta approximationem ad 
+lu<lb break="no" ed="#L" n="118"/>crum, et quantitatem negotii, industriae, etc. Et de hac
+<lb ed="#L" n="119"/>potentia non sunt intelligenda dicta doctorum cum 
+lo<lb break="no" ed="#L" n="120"/>quuntur de pecunia. Immo hanc vendere, seu, melius 
+lo<lb break="no" ed="#L" n="121"/>quendo; redimere licet, ultra sortem.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1300">
+                  <lb ed="#L" n="122"/>V. Quod ut radicaliter penetres, considerandum est
+<lb ed="#L" n="123"/>quando et quomodo convenit ista potentia pecuniae 
+exem<lb break="no" ed="#L" n="124"/>plariter, brevioris et clarioris doctrinae gratia. Granum 
+tri<lb break="no" ed="#L" n="125"/>tici dupliciter possideri potest. Primo, absolute: et sic,
+<lb ed="#L" n="126"/>quamvis habeat in se potentiam sementinam, pro quanto
+<lb ed="#L" n="127"/>possit aliquis uti eo ad serendum, nihilominus non plus
+<lb ed="#L" n="128"/>valet propter istam potentiam, quam absolute habet. Et
+<lb ed="#L" n="129"/>huic potentiae respondet in pecunia potentia pecuniae: nam
+<lb ed="#L" n="130"/>sicut potest quis uti grano ad comedendum vel ad 
+seren<lb break="no" ed="#L" n="131"/>dum, ita potest quis pecunia uti ad commutationes 
+com<lb break="no" ed="#L" n="132"/>munes vel ad lucrandum. - Secundo, potest possideri ut 
+se<lb break="no" ed="#L" n="133"/>rendum: et hoc suscipit incrementa, dum magis 
+praepa<lb break="no" ed="#L" n="134"/>ratum est et ordinatum, approximatum, vel sparsum. Et
+<lb ed="#L" n="135"/>huic potentiae respondet in pecunia potentia ut subest 
+in<lb break="no" ed="#L" n="136"/>dustriae.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1335">
+                  <lb ed="#L" n="137"/>Sicut autem granum tritici non possidetur ut semen,
+<lb ed="#L" n="138"/>nec est restituendum ut semen si ablatum esset, nisi in
+<lb ed="#L" n="139"/>veritate ad hoc delatum vel saltem paratum sit; ita 
+pecu<lb break="no" ed="#L" n="140"/>nia non habetur ut substans industriae negotii, etc., nisi
+<lb ed="#L" n="141"/>in veritate applicanda esset. Quo fit ut sicut fur qui 
+abs<lb break="no" ed="#L" n="142"/>tulit granum paratum pro semine, tenetur non solum ad
+<lb ed="#L" n="143"/>restituendum aequale accepto tritico, sed etiam aliquid plus
+<lb ed="#L" n="144"/>respondens potentiae sementinae, ad arbitrium boni viri,
+<lb ed="#L" n="145"/>iuxta qualitatem et quantitatem damni ex hoc emergentis
+<lb ed="#L" n="146"/>impedito a seminando; et non tenetur restituere totum 
+fru<lb break="no" ed="#L" n="147"/>ctum (deductis expensis) quem ex tali satione alii 
+convi<lb break="no" ed="#L" n="148"/>cini qui seminaverunt reportarunt, quia habebat fructum
+<lb ed="#L" n="149"/>in potentia seu in virtute, et non in actu: ita si quis 
+fu<lb break="no" ed="#L" n="150"/>ratus esset pecuniam applicandam ad negotiationem, etc. ,
+<pb ed="#L" n="162"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>teneretur non solum tantam pecuniam, puta mille aureos,
+<lb ed="#L" n="2"/>reddere, sed aliquid plus, ad arbitrium bonorum, pensatis
+<lb ed="#L" n="3"/>conditionibus negotii, etc.; non tamen tenetur ad totum
+<lb ed="#L" n="4"/>lucrum quod fuisset habiturus, eadem ratione, quia scilicet
+<lb ed="#L" n="5"/>solum in potentia illud habebat.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1383">
+                  <lb ed="#L" n="6"/>Et ex hoc sequitur quod negotiatores habentes 
+pecu<lb break="no" ed="#L" n="7"/>niam paratam ad certam negotiationem in promptu, 
+aesti<lb break="no" ed="#L" n="8"/>matam communiter futuram cum lucro centum ducatorum
+<lb ed="#L" n="9"/>deductis expensis, dato quod mutuare possint Ioanni 
+oc<lb break="no" ed="#L" n="10"/>currenti petendo dictam pecuniam mutuo pro suis 
+neces<lb break="no" ed="#L" n="11"/>sitatibus et ex pacto petere aliquid plus sorte ratione 
+prae<lb break="no" ed="#L" n="12"/>dictae potentiae, non possunt tamen petere totum lucrum
+<lb ed="#L" n="13"/>speratum, hoc est centum. Et patet sequela dupliciter.
+<lb ed="#L" n="14"/>Tum ex hoc quod non tenetur ad plus restituendum in
+<lb ed="#L" n="15"/>hoc casu accipiens mutuo quam si furaretur dictam sum- .
+<lb ed="#L" n="16"/>mam ab eodem: ut patet ex ratione iustitiae commutativae,
+<lb ed="#L" n="17"/>quae aequalitatem rei ad rem exigit in utroque, et arctius
+<lb ed="#L" n="18"/>in fure, ratione iniuriae. Sed si furaretur, non teneretur
+<lb ed="#L" n="19"/>ad restituendum lucrum integrum. Ergo nec si mutuo 
+ac<lb break="no" ed="#L" n="20"/>cepit. - Tum ex hoc quod mutuans granum iam delatum
+<lb ed="#L" n="21"/>ad agrum pro seminatione non potest exigere totum 
+fru<lb break="no" ed="#L" n="22"/>ctum speratae messis. Immo, si sparsa semina et iam 
+ve<lb break="no" ed="#L" n="23"/>getata quis conculcando destrueret, non teneretur ad 
+re<lb break="no" ed="#L" n="24"/>stitutionem fructus speratae messis deductis expensis: ut
+<lb ed="#L" n="25"/>patet ex superius habitis in materia restitutionum.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1429">
+                  <lb ed="#L" n="26"/>VI. Et ex hoc patet quod si <name xml:id="TAcCaj-d1e1675-Nd1e1433">Raymundus</name> et <name xml:id="TAcCaj-d1e1675-Nd1e1435">Innocentius</name>,
+<lb ed="#L" n="27"/>et quicumque alii, dixerunt quod delaturus merces ad 
+nun<lb break="no" ed="#L" n="28"/>dinas potest vendere tantum plus quantum ibi accessisset
+<lb ed="#L" n="29"/>lucri; et similiter expositurus pecuniam suam negotiationi
+<lb ed="#L" n="30"/>vel emptioni, etc., potest exigere tantum quantum ex illa
+<lb ed="#L" n="31"/>negotiatione vel emptione lucratus fuisset: errant, salva
+<lb ed="#L" n="32"/>eorum reverentia, errore intolerabili; quia aestimant id
+<lb ed="#L" n="33"/>quod est in potentia ac si esset in actu, quod est contra
+<lb ed="#L" n="34"/>iustitiam, quia sic non respondet simplum simplo, sed
+<lb ed="#L" n="35"/>simplo multiplicatum, ut in qu. xxii Auctor docuit. Patet
+<lb ed="#L" n="36"/>namque clarius luce quod, si potest aliquid plus petere,
+<lb ed="#L" n="37"/>non potest plus petere quam id ad quod teneretur fur
+<lb ed="#L" n="38"/>restituendum si pecuniam vel merces in tali statu, 
+condi<lb break="no" ed="#L" n="39"/>tione, etc., furatus esset.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1467">
+                  <lb ed="#L" n="40"/>An autem possit quis, pecuniam in tali statu mutuando,
+<lb ed="#L" n="41"/>hoc aliquid ad quod fur teneretur petere ex pacto, hinc
+<lb ed="#L" n="42"/>videndum est. Magna est differentia inter valorem rei 
+ab<lb break="no" ed="#L" n="43"/>solute, et valorem rei in tali statu. Quoniam valor rei 
+ab<lb break="no" ed="#L" n="44"/>solute tam respectu commutationum voluntariarum quam
+<lb ed="#L" n="45"/>involuntariarum eodem modo se habet: mille enim ducati
+<lb ed="#L" n="46"/>absolute, sive mutuo sive emptione sive furto sive rapina
+<lb ed="#L" n="47"/>alienentur, semper valorem mille secum gerunt. Valor 
+au<lb break="no" ed="#L" n="48"/>tem rei in tali statu non comitatur rem extra illum 
+sta<lb break="no" ed="#L" n="49"/>tum, sed statim ut extra illum statum fit, perdit tantum
+<lb ed="#L" n="50"/>valorem. Propter quod magna oritur diversitas. Quo fit ut
+<lb ed="#L" n="51"/>distinguendum sit an invito, an volente domino, res in
+<lb ed="#L" n="52"/>statu tali alienetur. Si enim invito domino aufertur, 
+con<lb break="no" ed="#L" n="53"/>stat quod restituenda est iuxta valorem rei in tali statu:
+<lb ed="#L" n="54"/>ut patet de destruente semina. - Si autem voluntarie 
+do<lb break="no" ed="#L" n="55"/>minus ilam rem distrahat, subdistinguendum est. Quod
+<lb ed="#L" n="56"/>aut sine mutatione status illius rei: et sic potest licite eam
+<lb ed="#L" n="57"/>alienare iuxta valorem rei in tali statu, Et propterea sicut
+<lb ed="#L" n="58"/>dominus agri sati licite vendit tantum quantum nunc 
+aesti<lb break="no" ed="#L" n="59"/>matur ager satus, sic habens pecuniam expositam 
+negotia<lb break="no" ed="#L" n="60"/>tioni,licite cedit alteri eam, quod est cedere negotiationem
+<lb ed="#L" n="61"/>ili, tunc accipiendo quantum aestimatur applicata 
+nego<lb break="no" ed="#L" n="62"/>tiationi illi tanta pecunia: hoc est enim alienare pecuniam
+<lb ed="#L" n="63"/>servato statu in quo est. — Si autem alienare vult eam non
+<lb ed="#L" n="64"/>servato illius statu, sed eam a statu negotiationis 
+remo<lb break="no" ed="#L" n="65"/>vendo, sic non licet alienare eam plus quam absolute 
+va<lb break="no" ed="#L" n="66"/>leat. Quoniam ex quo ipsemet dominus aufert rem a statu
+<lb ed="#L" n="67"/>in quo erat maioris valoris, quod facit dum vult eam 
+mu<lb break="no" ed="#L" n="68"/>tuo exponere (voluntas enim est quae transfert rem de statu
+<lb ed="#L" n="69"/>in statum in huiusmodi), non potest quantumque parum
+<lb ed="#L" n="70"/>petere plus sorte.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1537">
+                  <lb ed="#L" n="71"/>Sed nota hic quod aliud est voluntarie transferre rem
+<lb ed="#L" n="72"/>seu pecuniam a statu negotiationis: et aliud est 
+volunta<lb break="no" ed="#L" n="73"/>tem impeditam a negotiatione sufferre dispendium sperati
+<lb ed="#L" n="74"/>lucri. Nam qui in veritate negotiationi vel emptioni rerum
+<lb ed="#L" n="75"/>fructuosarum incumbit, recto tendit tramite ad totum spe-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>ratum lucrum vel fructum, et non nisi impeditus sistit in
+<lb ed="#L" n="77"/>principio aut medio a prosecutione: alioquin aut nescit,
+<lb ed="#L" n="78"/>aut vere non vult prosequi. Impeditur autem quis in 
+pro<lb break="no" ed="#L" n="79"/>posito non solum a fure aut latrone. et huiusmodi, sed
+<lb ed="#L" n="80"/>etiam ab occurrente necessitate proximi cogente caritatem
+<lb ed="#L" n="81"/>negotiatoris ad mutuandum sibi, ac per hoc ad perdendum
+<lb ed="#L" n="82"/>integrum lucrum speratum, servando tamen se indemnem
+<lb ed="#L" n="83"/>quoad id quod tunc aestimatur si a fure auferretur haec
+<lb ed="#L" n="84"/>pecunia negotiatoria vel emptoria. Et propterea in tali casu
+<lb ed="#L" n="85"/>licere puto, per dictam rationem, ex pacto exigere 
+mu<lb break="no" ed="#L" n="86"/>tuando aliquid plus sorte. - Qui autem affectu minoris
+<lb ed="#L" n="87"/>lucri, securi tamen, quia melius est hodie ovum, ut aiunt,
+<lb ed="#L" n="88"/>quam cras gallina, pecuniam suam negotiatoriam seu 
+em<lb break="no" ed="#L" n="89"/>ptoriam transfert ad mutuum, volens ex pacto tantum plus
+<lb ed="#L" n="90"/>sorte quantum sibi teneretur superaddere fur si pecuniam
+<lb ed="#L" n="91"/>illam negotiatoriam, etc., abstulisset, usurarius est, propter
+<lb ed="#L" n="92"/>dictam rationem. Et confirmatur: quia alioquin quilibet,
+<lb ed="#L" n="93"/>postquam semel exposuisset pecuniam suam negotiis, 
+pos<lb break="no" ed="#L" n="94"/>set transferre eam ad mutuandum cum moderato lucro,
+<lb ed="#L" n="95"/>sicut teneretur fur, etc.; et sic passim experientia doceret
+<lb ed="#L" n="96"/>quod usura non reputaretur peccatum.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1598">
+                  <lb ed="#L" n="97"/>Ex praedictis igitur patet veritas trium casuum. Primus
+<lb ed="#L" n="98"/>est, an liceat negotiatori totum lucrum speratum deducere
+<lb ed="#L" n="99"/>in pactum vendendo vel mutuando. Constat namque quod
+<lb ed="#L" n="100"/>pars negativa est vera: scilicet quod non licet. - 
+Secun<lb break="no" ed="#L" n="101"/>dus est, an liceat eidem divertere voluntarie pecuniam a
+<lb ed="#L" n="102"/>negotiatione vel emptione ad mutuum, ut aliquid sperati
+<lb ed="#L" n="103"/>lucri vel fructus exigat mutuando. Constat namque etiam
+<lb ed="#L" n="104"/>huius pars negativa: scilicet quod non licet. — Tertius est,
+<lb ed="#L" n="105"/>an liceat eidem impedito impedimento involuntario 
+secun<lb break="no" ed="#L" n="106"/>dum quid, hoc est ex subventione occurrente proximi, 
+exi<lb break="no" ed="#L" n="107"/>gere mutuando aliquid plus, iuxta valorem pecuniae in illo
+<lb ed="#L" n="108"/>statu. Videtur namque quod pars affirmativa est vera: 
+sci<lb break="no" ed="#L" n="109"/>licet quod licet.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1629">
+                  <lb ed="#L" n="110"/>VII. Nunc superest obiectionibus respondere. Et ad
+<lb ed="#L" n="111"/>primam dicitur quod debitor post moram (praetermissa 
+in<lb break="no" ed="#L" n="112"/>iuria qua creditorem offendit tenendo rem illius ipso 
+in<lb break="no" ed="#L" n="113"/>vito) non tenetur ad aliquid ultra sortem nisi quia impedit
+<lb ed="#L" n="114"/>creditorem a lucro quod erat in via habendi: ut patet 
+su<lb break="no" ed="#L" n="115"/>perius in qu. Lxit, art. 4, in corp. art. iuncto resp. ad ret 2.
+<lb ed="#L" n="116"/>Nam ibi ex secundo membro distinctionis redditur ratio
+<lb ed="#L" n="117"/>restitutionis post moram, et effossi seminis: secundum 
+au<lb break="no" ed="#L" n="118"/>tem membrum est damnificatio eius quod erat in via 
+ha<lb break="no" ed="#L" n="119"/>bendi. Unde ex hoc nihil aliud habetur nisi tertius casus,
+<lb ed="#L" n="120"/>ut patet ex supradictis, et amplius dicetur.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1655">
+                  <lb ed="#L" n="121"/>Ad secundam dicitur quod quamvis licite possit, iuxta
+<lb ed="#L" n="122"/>tertium casum, aliquid plus exigi ratione impedimenti, non
+<lb ed="#L" n="123"/>tamen potest exigi totum speratum lucrum aut totus 
+fru<lb break="no" ed="#L" n="124"/>ctus. Alioquin exigeretur multiplicatum quod perditur-
+sim<lb break="no" ed="#L" n="125"/>plum. - Ad similitudinem autem mercatoris volentis 
+de<lb break="no" ed="#L" n="126"/>ferre merces ad nundinas, dicitur quod falsum est quod
+<lb ed="#L" n="127"/>mercator possit totum speratum lucrum alibi exigere, 
+pro<lb break="no" ed="#L" n="128"/>pter dictam rationem. — Et si contra hoc afferatur ratio
+<lb ed="#L" n="129"/>a simili ex cap. Naviganti, Extra, de Usuris: quia scilicet
+<lb ed="#L" n="130"/>ratione dubii in tempore licet plus exigere quam nunc
+<lb ed="#L" n="131"/>valeat; ergo, pari ratione, ratione dubii de loco licitum
+<lb ed="#L" n="132"/>est plus exigere: - respondetur facile quod non est simile,
+<lb ed="#L" n="133"/>nec similis ratio. Quia ibi est sermo de venditione 
+clau<lb break="no" ed="#L" n="134"/>dicante in tempore quoad unam partem, scilicet 
+solutio<lb break="no" ed="#L" n="135"/>nem, ut patet ibi: et ideo habetur ratio temporis 
+solutio<lb break="no" ed="#L" n="136"/>nis. In proposito autem nostro non claudicat in loco quoad
+<lb ed="#L" n="137"/>aliquam partem venditio: quoniam neque res neque m
+<lb ed="#L" n="138"/>tium alibi assignabitur.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1697">
+                  <lb ed="#L" n="139"/>Ad rationem primam in oppositum dicitur quod 
+an<lb break="no" ed="#L" n="140"/>tecedens est distinguendum iuxta duplicem potentiam iam
+<lb ed="#L" n="141"/>explanatam, scilicet potentiam pecuniae, et potentiam 
+pecu<lb break="no" ed="#L" n="142"/>niae ut substat industriae: et iuxta hanc potentiam 
+admitti<lb break="no" ed="#L" n="143"/>tur antecedens; iuxta primam vero nihil valet ad propositum.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1711">
+                  <lb ed="#L" n="144"/>Et sic intelligendo antecedens iuxta potentiam pecuniae
+<lb ed="#L" n="145"/>ut substat industriae, probatur per primam et secundam
+<lb ed="#L" n="146"/>probationem ipsius antecedentis. — Confirmatio autem,
+<lb ed="#L" n="147"/>quia indistincte loquitur de habente pecuniam, distinguenda
+<lb ed="#L" n="148"/>est, dicendo quod habens pecuniam dupliciter: scilicet 
+ab<lb break="no" ed="#L" n="149"/>solute, et sic non habet aliquid plus quam sit quantitas
+<lb ed="#L" n="150"/>pecuniae. Et cum infertur, Ergo post moram non esset
+<pb ed="#L" n="163"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>si aliquid plus restituendum: - respondetur concedendo 
+<lb ed="#L" n="2"/>quod, seclusa iniuria, non est post moram aliquid plus
+<lb ed="#L" n="3"/>reddendum creditori qui in nulla via adipiscendi lucrum
+<lb ed="#L" n="4"/>ex pecunia detenta impeditur, qualis est ille qui, 
+ha<lb break="no" ed="#L" n="5"/>bendo pecuniam, habet illam absolute; quoniam. nullum
+<lb ed="#L" n="6"/>in veritate interesse passus est talis creditor. Alio modo
+<lb ed="#L" n="7"/>est quis habens pecuniam sub industria: et sic habens 
+pe<lb break="no" ed="#L" n="8"/>cuniam habet aliquid plus quam sit quantitas pecuniae.
+<lb ed="#L" n="9"/>Non tamen propterea sequitur, Ergo potest vendere et in
+<lb ed="#L" n="10"/>pactum deducere illud plus, nisi salvo statu pecuniae sub
+<lb ed="#L" n="11"/>industria: quoniam illud plus non habet absolute, sed 
+ra<lb break="no" ed="#L" n="12"/>tione status talis, scilicet sub industria. Et hoc loquendo
+<lb ed="#L" n="13"/>regulariter: secus enim est in commutatione involuntaria,
+<lb ed="#L" n="14"/>ut declaratum prius est.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1763">
+                  <lb ed="#L" n="15"/>Ad consequentiam ex antecedente sic intellecto 
+dici<lb break="no" ed="#L" n="16"/>tur, ut nunc dictum est, quod dupliciter potest intelligi:
+<lb ed="#L" n="17"/>scilicet, salvo illo pecuniae statu; et sic conceditur. 
+Quo<lb break="no" ed="#L" n="18"/>niam licitum est habentem duo vendere utrumque, si
+<lb ed="#L" n="19"/>utrumque est salvum: non autem si alterum periit. In 
+pro<lb break="no" ed="#L" n="20"/>posito autem negotiator habet duo. Sed cum divertit 
+pe<lb break="no" ed="#L" n="21"/>cuniam ad mutuum, alterum eorum desinit ex ipsa 
+volun<lb break="no" ed="#L" n="22"/>tate divertente pecuniam a statu industriae ad statum 
+pe<lb break="no" ed="#L" n="23"/>cuniae absolute. Et ideo non sequitur quod possit 
+utrum<lb break="no" ed="#L" n="24"/>que vendere. — Alio modo potest intelligi consequentia
+<lb ed="#L" n="25"/>ut sonat, sive sit salvum utrumque sive non:
+<lb ed="#L" n="26"/>gatur sequela. Nec prima eius probatio aliquid probat nisi
+<lb ed="#L" n="27"/>salvum sit utrumque, ut patet ex nunc dictis. Ad 
+secun<lb break="no" ed="#L" n="28"/>dam vero probationem, quae magis urget, dicitur quod,
+<lb ed="#L" n="29"/>ut patet in r art. qu. praec., tunc dicitur valere res plus
+<lb ed="#L" n="30"/>ei qui vendit quam absolute, quando actu habet unde plus
+<lb ed="#L" n="31"/>ili valeat, et non quando habet in potentia: quoniam,
+<lb ed="#L" n="32"/>ut ibi dicitur, venditor vendit quod suum est, non quod
+<lb ed="#L" n="33"/>suum esse potest. Pertinet ergo damnum illud ad interesse
+<lb ed="#L" n="34"/>damni emergentis: nostra autem quaestio est de interesse
+<lb ed="#L" n="35"/>lucri cessantis, quod secundum potentiam attenditur. Non
+<lb ed="#L" n="36"/>est ergo simile de casu illo quo venditor plus potest 
+vo<lb break="no" ed="#L" n="37"/>luntarie vendere quia sibi plus valet: et isto nostro casu,
+<lb ed="#L" n="38"/>quo negotiator vult plus sorte quia sibi pecunia est 
+uti<lb break="no" ed="#L" n="39"/>lior. Quia ibi plus valet sibi actu, hic autem utilitas est
+<lb ed="#L" n="40"/>in potentia: ibi est aliquid plus suum, hic non est, sed
+<lb ed="#L" n="41"/>potest esse suum aliquid plus, quoniam in via est.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1824">
+                  <lb ed="#L" n="42"/>Ad ea autem quae dicuntur pro solvenda ratione 
+re<lb break="no" ed="#L" n="43"/>gulae, respondetur quod regula traditur de his quae 
+de<lb break="no" ed="#L" n="44"/>bent regulariter servari, et non de his quae in tali casu
+<lb ed="#L" n="45"/>fieri possunt: hoc enim spectat potius ad exceptiones quam
+<lb ed="#L" n="46"/>ad regulas. Unde regula haec docens quod non licet 
+de<lb break="no" ed="#L" n="47"/>ducere in pactum lucrum cessans ex pecunia quam quis
+<lb ed="#L" n="48"/>mutuat, verissima est, et docet id quod regulariter fieri
+<lb ed="#L" n="49"/>debet; et formalis est de potentia, et commutatione omnino
+<lb ed="#L" n="50"/>voluntaria, qualis est mutuare. Tum quia pecunia non 
+so<lb break="no" ed="#L" n="51"/>lum caret lucro in actu, sed etiam in via: habet namque
+<lb ed="#L" n="52"/>illud solum in potentia communi non aestimabili supra
+<lb ed="#L" n="53"/>ipsam pecuniam. Tum quia pecunia negotiatoria non 
+pot<lb break="no" ed="#L" n="54"/>est voluntaria commutatione diverti ad mutuum cum 
+su<lb break="no" ed="#L" n="55"/>peraddita aestimatione inquantum lucratoria. Unde cum
+<lb ed="#L" n="56"/>nec de pecunia absolute, nec de pecunia negotiatoria 
+li<lb break="no" ed="#L" n="57"/>ceat regulariter mutuando exigere aliquid plus sorte, quia
+<lb ed="#L" n="58"/>in pecunia quae mutuatur non habetur lucrum in actu aut
+<lb ed="#L" n="59"/>via, sed solum in potentia communi non aestimabili; 
+se<lb break="no" ed="#L" n="60"/>quitur et quod regula sit optima, et quod ratio eius stet
+<lb ed="#L" n="61"/>solida. - Nec obstat aliis Auctoris dictis. Quia superius
+<lb ed="#L" n="62"/>locutus est de lucro quod habetur in via, et de rebus in
+<lb ed="#L" n="63"/>quibus est lucrum in via salvis in illo statu quo habent
+<lb ed="#L" n="64"/>lucrum in via, ita quod in illo statu  occupentur, 
+impe<lb break="no" ed="#L" n="65"/>diantur vel alienentur. - Ad confirmationem demum 
+ulti<lb break="no" ed="#L" n="66"/>mam dicitur quod iam patet quod voluntarie divertens 
+pe<lb break="no" ed="#L" n="67"/>cuniam ab industria negotiationis vel emptionis, non exigit
+<lb ed="#L" n="68"/>ratione potentiae pecuniae sub industria, quia illa amplius,
+<lb ed="#L" n="69"/>ipso sic volente, non est. Et propterea non nisi propter
+<lb ed="#L" n="70"/>usum exigit. - Cum haec tamen regula, et illius ratione,
+<lb ed="#L" n="71"/>stat quod in casu qualis est casus tertius, licitum est 
+ha<lb break="no" ed="#L" n="72"/>bere rationem damni quod quis patitur ex hoc quod de
+<lb ed="#L" n="73"/>pecunia negotiatoria non potest lucrari per occurrentem
+<lb ed="#L" n="74"/>impeditorem.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1898">
+                  <lb ed="#L" n="75"/>Et est ex dictis clarum quod quamvis debitor post mo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>ram teneatur ad interesse, non tamen tenetur ad interesse
+<lb ed="#L" n="77"/>si mora esset de consensu creditoris, sicut nec a principio
+<lb ed="#L" n="78"/>obligabatur ad interesse quia de consensu creditoris tenuit:
+<lb ed="#L" n="79"/>eiusdem siquidem rationis est habere aliquid ab alio, et
+<lb ed="#L" n="80"/>conservari ab eodem. Unde creditor non potest post 
+mo<lb break="no" ed="#L" n="81"/>ram deducere in pactum ut de reliquo futuro tempore,
+<lb ed="#L" n="82"/>donec tenuerit debitor suam pecuniam, solvat tantum, sicut
+<lb ed="#L" n="83"/>non poterat hoc a principio: quia non est in mora qui
+<lb ed="#L" n="84"/>de consensu domini non reddit. Potest tamen exigere 
+in<lb break="no" ed="#L" n="85"/>teresse praeteriti temporis quo fuit in mora.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1927">
+                  <lb ed="#L" n="86"/>VIII. In responsione ad secundum eiusdem articuli 
+se<lb break="no" ed="#L" n="87"/>cundi habes clare quod limitatio quam aliqui dant illi dicto
+<lb ed="#L" n="88"/>in responsione ad quartum, scilicet quod non licet 
+mu<lb break="no" ed="#L" n="89"/>tuanti deducere in pactum remutuationem: quod scilicet
+<lb ed="#L" n="90"/>intelligendum est quando deduceretur in pactum 
+simpli<lb break="no" ed="#L" n="91"/>citer, non autem si deducatur in pactum cum 
+conditio<lb break="no" ed="#L" n="92"/>nibus quibus extantibus naturali iure ille teneretur 
+remu<lb break="no" ed="#L" n="93"/>tuare, puta, si indiguero et tu commode poteris , etc. :
+<lb ed="#L" n="94"/>limitatio, inquam, ista est falsa, propter duo. Primo, quia
+<lb ed="#L" n="95"/>expresse littera hic, arguendo, opponit quod non videtur
+<lb ed="#L" n="96"/>esse illicitum obligare se ad aliquid ad quod naturali iure
+<lb ed="#L" n="97"/>tenetur: et respondet quod tali debito non competit 
+ci<lb break="no" ed="#L" n="98"/>vilis obligatio. Ecce quod manifeste dicit quod non potest
+<lb ed="#L" n="99"/>in civilem obligationem deduci naturalis obligatio ad 
+an<lb break="no" ed="#L" n="100"/>tidota, de qua loquitur. - Secundo quia, ut in responsione
+<lb ed="#L" n="101"/>ad quartum dicitur, talis obligatio civilis est pecunia 
+ae<lb break="no" ed="#L" n="102"/>stimabilis: ac per hoc, cum quibuscumque fiat 
+conditio<lb break="no" ed="#L" n="103"/>nibus, plus sorte ex pacto exigitur, et usura est.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1969">
+                  <lb ed="#L" n="104"/>Licitum tamen, ut dictum fuit, est nolle mutuare illi
+<lb ed="#L" n="105"/>quem credo aut timeo ingratum fore, scilicet quod non mihi
+<lb ed="#L" n="106"/>remutuaret aut serviret cum opus esset: quia non minus
+<lb ed="#L" n="107"/>licitum est respicere ad effectum contrarium qui est in 
+in<lb break="no" ed="#L" n="108"/>grato, quam ad effectum amicitiae. Haec autem omnia sine
+<lb ed="#L" n="109"/>pacto, ex affectu animi expectantur, tanquam ex naturali
+<lb ed="#L" n="110"/>debito.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e1988">
+                  <lb ed="#L" n="111"/>IX. In responsione ad quartum eiusdem articuli, adverte
+<lb ed="#L" n="112"/>quod hinc habes quod fideiussor potest aliquid pecuniae
+<lb ed="#L" n="113"/>exigere ut fideiubeat. Quoniam fideiubendo obligat se 
+ci<lb break="no" ed="#L" n="114"/>viliter ad solvendum pro alio, quod non est minus quam
+<lb ed="#L" n="115"/>obligare se ad mutuandum; ac per hoc, quia obligatio ad
+<lb ed="#L" n="116"/>mutuandum potest vendi, ut in littera dicitur, consequens
+<lb ed="#L" n="117"/>est ut obligatio ad solvendum pro alio possit vendi, 
+ut<lb break="no" ed="#L" n="118"/>pote pecunia aestimabilis; hanc autem obligationem  
+im<lb break="no" ed="#L" n="119"/>portat fideiussio. Quanti autem aestimanda est fideiussio,
+<lb ed="#L" n="120"/>prudentiae sapientum in his determinandum relinquitur.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2012">
+                  <lb ed="#L" n="121"/>X. In responsione ad quintum, ubi de lucro ex 
+con<lb break="no" ed="#L" n="122"/>tractu societatis agitur, si ad particularia descendendum
+<lb ed="#L" n="123"/>esset de diversis artibus et soccidis, nimis esset: cum valde
+<lb ed="#L" n="124"/>varientur. Formale autem, de quo est scientia, consistit
+<lb ed="#L" n="125"/>in duobus. Primo, quod capitale substet periculo sicut et
+<lb ed="#L" n="126"/>lucro. — Secundo, quod ita proportionatum sit lucrum 
+ca<lb break="no" ed="#L" n="127"/>pitali ut salvetur debita proportio lucri ad socium: hoc
+<lb ed="#L" n="128"/>est quod tam lucrum quam damnum proportionaliter 
+re<lb break="no" ed="#L" n="129"/>spondeat cuique socio ponenti pecuniam vel operas vel
+<lb ed="#L" n="130"/>industriam, - Quibus adde tertium, tanquam canonem ad
+<lb ed="#L" n="131"/>iustitiam semper servandam in huiusmodi: scilicet quod a
+<lb ed="#L" n="132"/>principio aestimentur singulae sociorum portiones, et his
+<lb ed="#L" n="133"/>fiat quasi una summa pecuniae communis illis 
+proportio<lb break="no" ed="#L" n="134"/>nabiliter, idest secundum suas ratas; et deinceps tam in
+<lb ed="#L" n="135"/>lucro quam in damno, in divisione totius remanentis, 
+ser<lb break="no" ed="#L" n="136"/>vetur divisio ac si talem summam pecuniae posuissent
+<lb ed="#L" n="137"/>proportionaliter. Verbi gratia, sunt tres socii: unus 
+po<lb break="no" ed="#L" n="138"/>nit mille ducatos, alter ponit operas aestimatas mille, alter
+<lb ed="#L" n="139"/>ponit industriam aestimatam quingentis. Stabilienda est 
+so<lb break="no" ed="#L" n="140"/>cietas ac si hi tres posuissent duo millia et quingentos
+<lb ed="#L" n="141"/>ducatos: ita tamen ut tertius semper pro medietate stet.
+<lb ed="#L" n="142"/>Et sic lucrum dividendum est ut, si fuerint quinque, 
+ter<lb break="no" ed="#L" n="143"/>tius habeat unum, uterque autem aliorum duo. Et 
+tan<lb break="no" ed="#L" n="144"/>dem quidquid superest eodem modo dividendum est, ita
+<lb ed="#L" n="145"/>quod, si supersunt duo millia et quingenti, mille dentur uni
+<lb ed="#L" n="146"/>et mille alteri et quingenti tertio. Alioquin iste 
+damnificare<lb break="no" ed="#L" n="147"/>tur in. perdita industria, et ille in opera, et qui apposuit
+<lb ed="#L" n="148"/>pecuniam lucraretur. Et simile est in soccidis animalium.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2075">
+                  <lb ed="#L" n="149"/>XI. In responsione ad sextum, quia ibi agitur de fructu
+<lb ed="#L" n="150"/>pignoris, scito quod Auctor loquitur de pignore inquan-
+<pb ed="#L" n="164"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tum pignus est absolute: et non de pignore pro tali causa.  
+<lb ed="#L" n="2"/>Nam contingit ex causa tali quod potest quis facere 
+fru<lb break="no" ed="#L" n="3"/>ctus pignoris suos, ut patet de agro assignato pro pignore |
+<lb ed="#L" n="4"/>dotali, Extra, de Usuris, cap. Salubriter: et ratio ibi assi- |
+<lb ed="#L" n="5"/>mativa emptionis: ita quod sicut venditio integratur quasi
+<lb ed="#L" n="6"/>supportandis. Unde limitatio quam quidam huic 
+determi<lb break="no" ed="#L" n="7"/>gnatur, quia dotis fructus sunt pro oneribus matrimonii
+<lb ed="#L" n="8"/>nationi Innocentii III apponunt, scilicet quod intelligitur
+<lb ed="#L" n="9"/>quando pecunia dotalis erat exponenda negotiationi vel
+<lb ed="#L" n="10"/>emptioni rei fructuosae, alioquin non haberet locum 
+in<lb break="no" ed="#L" n="11"/>sive non, constat sustinere, fructus dotis deputati sunt. Et
+<lb ed="#L" n="12"/>hoc per se loquendo. Per accidens autem est quod 
+ma<lb break="no" ed="#L" n="13"/>ritus utatur vel non utatur dote ad fructificandum, ac per
+<lb ed="#L" n="14"/>hoc ad iuvandum seipsum ad supportandum dicta onera.
+<lb ed="#L" n="15"/>Et quia secundum ea quae sunt per accidens non iudicatur
+<lb ed="#L" n="16"/>de re, sed secundum id quod est per se; ideo, absolute
+<lb ed="#L" n="17"/>loquendo, gener facit fructus pignoris dotalis suos. Et 
+po<lb break="no" ed="#L" n="18"/>test hoc deducere in pactum a principio, si non vult 
+du<lb break="no" ed="#L" n="19"/>cere uxorem sine dote praesenti, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2127">
+                  <lb ed="#L" n="20"/>Civitates autem quae a principibus egentibus in pignus
+<lb ed="#L" n="21"/>alis principibus dantur, fructificare debent domino qui
+<lb ed="#L" n="22"/>impignoravit, deductis expensis officialium, etc.: quoniam
+<lb ed="#L" n="23"/>non est translatum dominium, nec annexa habet onera,
+<lb ed="#L" n="24"/>sicut matrimonium. Sicut universaliter quando suscipitur
+<lb ed="#L" n="25"/>pignus, expensis deductis fructificat domino. Deberent 
+au<lb break="no" ed="#L" n="26"/>tem principes, si volunt facere fructus suos, non accipere
+<lb ed="#L" n="27"/>in pignus civitates, sed emere eas cum pacto de 
+retroven<lb break="no" ed="#L" n="28"/>dendo: sic enim facerent fructus suos.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2149">
+                  <lb ed="#L" n="29"/>Et quia fructus dotis deputati sunt propter onera 
+ma<lb break="no" ed="#L" n="30"/>trimonii; et soluto matrimonio, non restant onera eius,
+<lb ed="#L" n="31"/>quoniam illius quod non est nullum est onus: ideo errant
+<lb ed="#L" n="32"/>viduae volentes fructus dotis suae ac si matrimonium 
+ex<lb break="no" ed="#L" n="33"/>taret. - Verum si statuto civitatis, in viridi observantia, 
+or<lb break="no" ed="#L" n="34"/>dinatum est quod viduae, donec reddatur sibi dos, 
+assi<lb break="no" ed="#L" n="35"/>gnentur quinque vel decem pro centenario; cum hoc sit
+<lb ed="#L" n="36"/>factum in favorem infirmi sexus et poenam heredum 
+ma<lb break="no" ed="#L" n="37"/>riti, licite potest mulier, quando per eam non stat 
+reha<lb break="no" ed="#L" n="38"/>bere dotem suam, accipere huiusmodi pensionem. Et ratio
+<lb ed="#L" n="39"/>est quia distincta proprietas rerum in particulari, a iure
+<lb ed="#L" n="40"/>positivo cum sit, potest, pro communi bono patriae, per
+<lb ed="#L" n="41"/>patriae legem dispensari ab hoc in illum, etc. - Et per 
+ean<lb break="no" ed="#L" n="42"/>dem rationem, si extat statutum quod socer non solvens
+<lb ed="#L" n="43"/>dotem teneatur genero ad decem pro centenario donec
+<lb ed="#L" n="44"/>solvat, iustum est. Cedunt enim haec ad pacem inter 
+af<lb break="no" ed="#L" n="45"/>fines, et ad removendas lites, ad sollicitandum debitores,
+<lb ed="#L" n="46"/>ut timore saltem poenarum solvant quod debent. - Dixi
+<lb ed="#L" n="47"/>autem, quando vidua non est in causa ut dos retineatur
+<lb ed="#L" n="48"/>ab herede. Quoniam si vidua, et similiter si gener esset
+<lb ed="#L" n="49"/>in causa quod dos retineretur ab herede vel socero, iam
+<lb ed="#L" n="50"/>cedunt iuri suo, et non possunt beneficio poenalis statuti
+<lb ed="#L" n="51"/>uti in foro conscientiae contra illum qui non retinet suam
+<lb ed="#L" n="52"/>dotem creditore invito, etc. :
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2204">
+                  <lb ed="#L" n="53"/>XII. In responsione ad septimum eiusdem articuli 
+se<lb break="no" ed="#L" n="54"/>cundi, ubi agitur de augmento vel diminutione pretii in
+<lb ed="#L" n="55"/>venditione ad tempus, dubium occurrit ex sacris canonibus.
+<lb ed="#L" n="56"/>Quoniam Extra, de Usuris, cap. In civitate et cap. 
+Navi<lb break="no" ed="#L" n="57"/>ganti, duo in sententia, licet tres sint numero, casus 
+po<lb break="no" ed="#L" n="58"/>nuntur huic doctrinae contrarii. Expresse namque ibi 
+di<lb break="no" ed="#L" n="59"/>citur quod si piper valet nunc quinque libras, et venditur
+<lb ed="#L" n="60"/>sex libris ad tempus, eo quod tempore solutionis an plus
+<lb ed="#L" n="61"/>vel minus quam sex valebit, verisimiliter dubitatur, non
+<lb ed="#L" n="62"/>peccant vendentes nunc piper pro sex ad tempus. Et 
+ea<lb break="no" ed="#L" n="63"/>dem sententia replicatur in 2 8 cap. Navwiganti: constat
+<lb ed="#L" n="64"/>namque quod in hoc casu expectata solutio in futuro est
+<lb ed="#L" n="65"/>ratio maioris pretii. — In calce quoque dicti cap. Naviganti
+<lb ed="#L" n="66"/>ponitur alter casus: quod servaturus granum potest plus
+<lb ed="#L" n="67"/>vendere ad tempus quam tunc valeat quando vendit.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2240">
+                  <lb ed="#L" n="68"/>Ad hoc dicitur quod dupliciter contingit differre 
+secun<lb break="no" ed="#L" n="69"/>dum tempus solutionem a venditione. Uno modo, ut est
+<lb ed="#L" n="70"/>actio secundum seipsam separata ab emptione: ita quod
+<lb ed="#L" n="71"/>sint ibi quatuor actiones, scilicet venditio, emptio, mutuum
+<lb ed="#L" n="72"/>implicitum expectando solutionem in futuro, et solutio
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="73"/>ipsa. Et sic loquitur Auctor de solutione futura, et dicit
+<lb ed="#L" n="74"/>quod vendere plus ratione «huiusmodi expectationis est
+<lb ed="#L" n="75"/>usura: et similiter emere minus ratione anticipatae 
+solu<lb break="no" ed="#L" n="76"/>tionis, eadem ratione. - Alio modo, ut est pars 
+consum<lb break="no" ed="#L" n="77"/>ex duabus partibus, scilicet ex contractu venditionis et ex
+<lb ed="#L" n="78"/>traditione rei quae venditur, ita emptio integratur quasi
+<lb ed="#L" n="79"/>ex duabus partibus, scilicet emptione et solutione pretii.
+<lb ed="#L" n="80"/>Et sicut venditio potest habere suas partes separatas 
+se<lb break="no" ed="#L" n="81"/>teresse, falsa est: quoniam ratione onerum matrimonii, |
+<lb ed="#L" n="82"/>quae omnem maritum, sive negotietur sive non, sive emat |
+<lb ed="#L" n="83"/>cundum tempus, ut patet dum aliquis vendit res 
+assignan<lb break="no" ed="#L" n="84"/>das in futura aestate; ita etiam emptio potest habere partes
+<lb ed="#L" n="85"/>suas separatas, ut patet cum aliquis emit oleum in hieme,
+<lb ed="#L" n="86"/>soluturus pro eo in aestate futura frumentum. Quando
+<lb ed="#L" n="87"/>igitur solutio ut pars emptionis consummativa expectatur,
+<lb ed="#L" n="88"/>tunc nullum intervenit mutuum. Et ideo dicitur in 
+decre<lb break="no" ed="#L" n="89"/>talibus quod non est usura: sed commutatio ista est quasi
+<lb ed="#L" n="90"/>claudicans, seu pendens ad futurum, quasi emptionis 
+con<lb break="no" ed="#L" n="91"/>summatio trahat ad se venditionem. Et propterea 
+aesti<lb break="no" ed="#L" n="92"/>mandus conceditur valor rei quae venditur conferendo 
+tem<lb break="no" ed="#L" n="93"/>pus praesens ad tempus solutionis, hoc est consummatae
+<lb ed="#L" n="94"/>emptionis: ita quod tantum plus potest aestimari 
+quan<lb break="no" ed="#L" n="95"/>tum inter plus et minus creditur verisimiliter tunc res 
+va<lb break="no" ed="#L" n="96"/>litura, etc. Et haec est, iudicio meo, litteralis ratio illarum
+<lb ed="#L" n="97"/>decretalium quoad istos casus.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2310">
+                  <lb ed="#L" n="98"/>Ultimi autem casus ratio est eadem, ut ibi dicitur, quoad
+<lb ed="#L" n="99"/>hoc, quod scilicet ratione dubii pretii futuri maioris tunc
+<lb ed="#L" n="100"/>quam nunc verisimiliter aestimati, licitum est servaturo
+<lb ed="#L" n="101"/>res venales vendere ad tempus aliquid plus quam valeant
+<lb ed="#L" n="102"/>tempore quo vendit. Et nota quod licet Glossa in cap.
+<lb ed="#L" n="103"/>In civitate, cum sequacibus, censuerit casum antedictum
+<lb ed="#L" n="104"/>in cap. Jn civitate decisum esse iuxta hunc ultimum 
+ca<lb break="no" ed="#L" n="105"/>sum, scilicet quod in illo casu subintelligatur, si venditor
+<lb ed="#L" n="106"/>erat servaturus; manifeste tamen convincitur hanc 
+expo<lb break="no" ed="#L" n="107"/>sitionem non consonare litterae, "Tum quia nihil de hac
+<lb ed="#L" n="108"/>conditione ibi dicitur. Tum quia in hoc eodem cap. 
+Na<lb break="no" ed="#L" n="109"/>viganti, in 8 2, casus in idem redit cum casu in cap. In
+<lb ed="#L" n="110"/>civitate, et determinatur ibidem sine hac conditionali, si
+<lb ed="#L" n="111"/>erat servaturus. Unde mihi videtur quod iste ultimus est
+<lb ed="#L" n="112"/>alius in sententia ab illis primo dictis: et quod ibi habeatur
+<lb ed="#L" n="113"/>ratio valoris rei pro tempore quo consummatur emptio ;
+<lb ed="#L" n="114"/>hic autem non (unde nihil dicitur de valore tempore 
+so<lb break="no" ed="#L" n="115"/>lutionis), sed habetur ratio valoris rei tempore futuro quia
+<lb ed="#L" n="116"/>erat servaturus. Unde etiam si non ad tempus, sed tunc
+<lb ed="#L" n="117"/>fuisset solvendum, potuisset etiam plus vendere in hoc
+<lb ed="#L" n="118"/>tertio casu. — Sed nota quod non dicitur in littera quod
+<lb ed="#L" n="119"/>liceat in hoc casu tantum vendere quantum creditur 
+va<lb break="no" ed="#L" n="120"/>liturum: quia hoc est falsum; quoniam futurus valor non
+<lb ed="#L" n="121"/>nisi in potentia est, et iuxta prius dictas regulas, non
+<lb ed="#L" n="122"/>est aestimandum quod habetur in potentia ac si haberetur
+<lb ed="#L" n="123"/>in actu: - sed quod licet vendere aliquid plus. Et si 
+quae<lb break="no" ed="#L" n="124"/>ras quantum: — respondeo quantum plus teneretur fur,
+<lb ed="#L" n="125"/>seclusa iniuria, si tunc furaretur rem illam a servaturo.
+<lb ed="#L" n="126"/>Constat namque quod non teneretur ad totum lucrum
+<lb ed="#L" n="127"/>cessans, ut patet ex antedictis. — Adverte tamen quod
+<lb ed="#L" n="128"/>si hic servaturus venderet ad tempus, et vellet pensitare
+<lb ed="#L" n="129"/>rem suam ad tempus in quo erat servaturus, ita quod tunc
+<lb ed="#L" n="130"/>etiam solutio consummativa emptionis expectetur, licitum
+<lb ed="#L" n="131"/>contractum faceret, sicut de casu primo dictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2386">
+                  <lb ed="#L" n="132"/>Haec autem quae diximus, vide quam periculosa sint,
+<lb ed="#L" n="133"/>et, licet non extorta, tracta tamen quantum trahi possunt.
+<lb ed="#L" n="134"/>Et propterea magis pro casibus et exceptionibus 
+tolerabi<lb break="no" ed="#L" n="135"/>libus quam pro regulis habenda sunt: propter quod 
+Pa<lb break="no" ed="#L" n="136"/>stor animarum consulit abstinendum. Unde nihil obstant
+<lb ed="#L" n="137"/>doctrinae Auctoris, quae quid regulariter agendum est tradit,
+<lb ed="#L" n="138"/>dicta in primo casu. ane autem in secundo, si secundum
+<lb ed="#L" n="139"/>regulas eius quod habetur in potentia res aestimetur, 
+con<lb break="no" ed="#L" n="140"/>sonant doctrinae Auctoris, et non spectant ad dilatam 
+so<lb break="no" ed="#L" n="141"/>lutionem, sed ad tertium casum in responsione ad primum
+<lb ed="#L" n="142"/>per nos decisum: quoniam sic iste est intelligendus sicut
+<lb ed="#L" n="143"/>ille de pecunia negotiatoria vel emptoria et de mercibus
+<lb ed="#L" n="144"/>deferendis ad nundinas; siquidem pari passu currunt, et
+<lb ed="#L" n="145"/>ex eadem radice, scilicet ex potentia ad lucrum rei 
+exi<lb break="no" ed="#L" n="146"/>stentis in tali statu sub industria.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1675-Dd1e2422"><!-- caj-p2p2-q78a3" -->
+               <head xml:id="TAcCaj-d1e1675-Hd1e2425">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1675-d1e2427">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="72" type="fixed=165"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2434">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>In articulo tertio eiusdem quaestionis septuagesimaeoctavae  
+<lb ed="#L" n="74"/>Occurrit antiquum illud dubium, an in usura transferatur |
+<lb ed="#L" n="75"/>dominium. Et quoniam de hoc ordinatam quaestionem in 
+<lb ed="#L" n="76"/>Quolibeto nostro scripsi, et, ut puto, ostendi partem  
+<lb ed="#L" n="77"/>negativam veram, quam hic Auctor pro indubitata prae- |
+<lb ed="#L" n="78"/>supponit, dum, reddens rationem restitutionis fructuum  
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="79"/>agri per usuram extorti, dicit, quia sunt fructus rerum
+<lb ed="#L" n="80"/>quarum alius est dominus; nec occurrit nova ratio 
+dubi<lb break="no" ed="#L" n="81"/>tandi: ad illam te remitto iam editam et impressam. Et
+<lb ed="#L" n="82"/>quamvis forte propter perfectionem operis esset 
+repe<lb break="no" ed="#L" n="83"/>tenda, nunc iter acturus, inter calores mensis lulii, ad alia
+<lb ed="#L" n="84"/>propero.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1675-Dd1e2468"><!-- caj-p2p2-q78a4" -->
+               <head xml:id="TAcCaj-d1e1675-Hd1e2471">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1675-d1e2473">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="72" type="fixed=166"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2480">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="73"/>IN articulo quarto eiusdem quaestionis 
+septuagesimaeocta<lb break="no" ed="#L" n="74"/>vae, nota diligenter tria. Primo, quod quia uti peccato
+<lb ed="#L" n="75"/>alterius ad bonum suum vel alterius non est peccatum,
+<lb ed="#L" n="76"/>ideo si quis absque necessitate, pro utilitate tamen sua vel
+<lb ed="#L" n="77"/>alterius, utatur peccato alterius, a peccato immunis est:
+<lb ed="#L" n="78"/>cum bonum utile quoddam bonum sit. Et similiter si quis
+<lb ed="#L" n="79"/>propter bonum delectabile utatur alterius peccato, quamvis
+<lb ed="#L" n="80"/>venialiter peccet si delectabile veniale est, non tamen peccat
+<lb ed="#L" n="81"/>mortaliter. Et propterea non oportet petentes mutuum ab
+<lb ed="#L" n="82"/>usurario parato nimis urgere in conscientiam quanta aut
+<lb ed="#L" n="83"/>quali necessitate ductus hoc fecerint: quoniam actum de
+<lb ed="#L" n="84"/>genere suo non malum faciunt, ac per hoc, nisi ex fine sit
+<lb ed="#L" n="85"/>mortale, aut nullum aut veniale peccatum est; nullum, si
+<lb ed="#L" n="86"/>ex necessitate aut pietate; veniale autem, si sine rationabili
+<lb ed="#L" n="87"/>causa, sicut ceteri actus irrationabiles et damnosi sibi ipsis.
+<lb ed="#L" n="88"/>Nec obstat quod Auctor, respondendo Lectori Florentino,
+<lb ed="#L" n="89"/>dixerit quod propter maiores negotiationes exercendas non
+<lb ed="#L" n="90"/>excusatur quis a peccato petendi mutuum sub usuris. 
+Quo<lb break="no" ed="#L" n="91"/>niam hoc intelligendum est de peccato veniali, quando 
+ne<lb break="no" ed="#L" n="92"/>gotiationes tendunt ad utile nimis abundans: nam si 
+ten<lb break="no" ed="#L" n="93"/>derent ad utile necessarium domui suae, nullum peccatum
+<lb ed="#L" n="94"/>esset.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2532">
+                  <lb ed="#L" n="95"/>II. Secundo, quod quia inducere. ad peccandum nulli
+<lb ed="#L" n="96"/>licet; et petitor aliquid petit ad quod directe illum 
+indu<lb break="no" ed="#L" n="97"/>cit: ideo oportet cautum esse in omnibus materiis ubicum- |
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>que agitur de usu peccati alterius, ut, petendo, aliquid
+<lb ed="#L" n="99"/>licitum petatur. Verbi gratia, in proposito petitur mutuum,
+<lb ed="#L" n="100"/>non acceptio usurae; in treuga vel pace cum infidelibus
+<lb ed="#L" n="101"/>petitur fidelitas pactorum, non divina iniuria; in 
+manife<lb break="no" ed="#L" n="102"/>statione rerum suarum latronibus petitur vita propria, et
+<lb ed="#L" n="103"/>sic de aliis: ita quod semper petatur aliquid quod ille 
+po<lb break="no" ed="#L" n="104"/>test concedere, si vult, sine peccato, ut patet in dictis
+<lb ed="#L" n="105"/>exemplis, Et propterea petens, qui directe tendit ad 
+indu<lb break="no" ed="#L" n="106"/>cendum eum a quo petit ad concedendum illi petitum,
+<lb ed="#L" n="107"/>non dat ei occasionem peccandi: sed ipse a quo petitur
+<lb ed="#L" n="108"/>apponit ex sua mala voluntate actui bono petito alium
+<lb ed="#L" n="109"/>actum pravum non petitum, immo displicentem ei qui
+<lb ed="#L" n="110"/>petit. Si namque peteret quis ab aliquo actum quem non
+<lb ed="#L" n="111"/>potest exercere sine peccato, procul dubio ad peccandum
+<lb ed="#L" n="112"/>eum induceret, quamvis paratissimum: ac per hoc 
+parti<lb break="no" ed="#L" n="113"/>ceps peccati esset, consentiens peccato alterius. Adverte
+<lb ed="#L" n="114"/>ergo semper in casibus ut discernas si actus petitus potest
+<lb ed="#L" n="115"/>ab eo a quo petitur sine peccato fieri: quia haec radix est
+<lb ed="#L" n="116"/>liciti vel illiciti, cum de usu peccati alterius agitur.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2584">
+                  <lb ed="#L" n="117"/>III. Tertio, quod ex exemplo manifestantium bona sua
+<lb ed="#L" n="118"/>latronibus hic exposito, habes quomodo intelligi possunt
+<lb ed="#L" n="119"/>gesta Lot, Gen. cap. xix, cum filias proprias abusui 
+im<lb break="no" ed="#L" n="120"/>piorum obtulit ut evitaret sodomiticam hospitum iniuriam
+<lb ed="#L" n="121"/>in propria domo. Quemadmodum illi decem viri petierunt
+<lb ed="#L" n="122"/>non occidi, quod poterat sine peccato concedi; et mani-
+<pb ed="#L" n="167"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>festarunt loca thesaurorum suorum, quod etiam sine 
+pec<lb break="no" ed="#L" n="2"/>cato fit, etiam cum passivo scandalo proximi, ex malitia
+<lb ed="#L" n="3"/>tamen accepto, quamvis scirent quod ex hoc sumerent 
+oc<lb break="no" ed="#L" n="4"/>casionem rapinae eis minus displicentis quam occisionis ;
+<lb ed="#L" n="5"/>et ad neutrum peccatum eos induxerunt, sed usi sunt iniqua
+<lb ed="#L" n="6"/>eorum voluntate ad salutem propriae vitae: ita Lot petiit
+<lb ed="#L" n="7"/>quod non committerent sodomiam cum masculis 
+hospiti<lb break="no" ed="#L" n="8"/>bus, quod sine peccato concedere poterant; et obtulit 
+pro<lb break="no" ed="#L" n="9"/>prias se filias educturum extra, ita quod non oporteret
+<lb ed="#L" n="10"/>inferri ipsi patri aliam violentiam ad hoc ut puellae essent
+<lb ed="#L" n="11"/>extra, quod totum sine peccato est, quamvis sciret quod
+<lb ed="#L" n="12"/>occasionem abutendi. eis inde sumerent, et ipsi peccarent
+<lb ed="#L" n="13"/>faciendo iniustum, filiae autem paterentur iniustum. Unde
+<lb ed="#L" n="14"/>ad neutrum peccatum inducebat eos Lot, sciens quod non
+<lb ed="#L" n="15"/>sunt facienda minus mala ut evitentur mala maiora, 
+quam<lb break="no" ed="#L" n="16"/>vis dixerit, Abutimini eis ut libet (quoniam permissive haec
+<lb ed="#L" n="17"/>dicebat): sed uti volebat iniquitate illorum ad bonum, 
+sci<lb break="no" ed="#L" n="18"/>licet tantae offensae vitationem. Et simile est de gestis circa
+<lb ed="#L" n="19"/>uxorem Levitae, Judic. xix: quamvis non oporteat forte
+<lb ed="#L" n="20"/>ita illum excusare sicut Lot, de quo Scriptura testatur quod
+<lb ed="#L" n="21"/>erat iustus, II Pet. cap. i.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2650">
+                  <lb ed="#L" n="22"/>Et haec dicta sint ut non putet quis, exemplo illorum
+<lb ed="#L" n="23"/>decem virorum, licere inducere ad minus malum paratos,
+<lb ed="#L" n="24"/>ut evitetur maius malum. Si enim non sunt facienda mala
+<lb ed="#L" n="25"/>ut veniant bona, multo minus facienda sunt ut non fiant
+<lb ed="#L" n="26"/>maiora mala, quod non in boni positione, sed mali 
+nega<lb break="no" ed="#L" n="27"/>tione consistit. Magna namque differentia est inter 
+indu<lb break="no" ed="#L" n="28"/>ad minus malum ut vitetur maius: et offerre ac 
+tra<lb break="no" ed="#L" n="29"/>IM materialiter materiam minoris mali. Primum enim
+<lb ed="#L" n="30"/>nulla ratione licet, propter rationem dictam. Secundum
+<lb ed="#L" n="31"/>autem fecerunt illi decem viri, fecit Lot, fecit Levites, 
+fa<lb break="no" ed="#L" n="32"/>cimus quotidie redimentes captivitatem vel vexationem 
+no<lb break="no" ed="#L" n="33"/>stram iniustam, et solventes usuras. Dixi autem offerre seu
+<lb ed="#L" n="34"/>dere materialiter: hoc est, non ad inducendum ipsum
+<lb ed="#L" n="35"/>sed ad redimendum vexationem suam vel proximi
+<lb ed="#L" n="36"/>uh oblatione seu traditione, utendo alterius iniquitate, non
+<lb ed="#L" n="37"/>inducendo aliquem ad peccandum. Unde non licuisset ipsi
+<lb ed="#L" n="38"/>Lot, qui obtulit materiam liberi arbitrii, filias scilicet, 
+con<lb break="no" ed="#L" n="39"/>sulere filiabus suis ut consentirent in stuprum: sed ut 
+il<lb break="no" ed="#L" n="40"/>latum violenter constanti patientia sustinerent ad. coronam,
+<lb ed="#L" n="41"/>ut. Lucia dixit. - Et haec dicta sint si Lot excusandus est,
+<lb ed="#L" n="42"/>propter auctoritatem Petri Apostoli. Quam Glossa, super
+<lb ed="#L" n="43"/>Gen. cap. xix, exponit comparative: hoc est quod Lot
+<lb ed="#L" n="44"/>non iustus simpliciter, sed comparatione Sodomitarum 
+iu<lb break="no" ed="#L" n="45"/>stus dicitur. Et Augustini Glossa, ibidem, Lot reprehendit
+<lb ed="#L" n="46"/>de oblatione filiarum, quasi non habeat locum redimere -
+<lb ed="#L" n="47"/>vexationem offerendo materiam liberi arbitrii ad patiendum
+<lb ed="#L" n="48"/>huiusmodi opera nefanda: quamvis Augustinus 
+redemptio<lb break="no" ed="#L" n="49"/>nem vexationis in his gestis, ut tractavimus, non tractet.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2713">
+                  <lb ed="#L" n="50"/>IV. In responsione ad tertium eiusdem articuli quarti 
+du<lb break="no" ed="#L" n="51"/>bium occurrit, quoniam adversari videtur doctrinae traditae
+<lb ed="#L" n="52"/>in hoc articulo, et veritati, pro quanto dicitur quod, si quis
+<lb ed="#L" n="53"/>committeret. pecuniam suam usurario non habenti alias 
+<lb ed="#L" n="54"/>unde usuras exerceret, daret materiam peccandi, unde 
+<lb ed="#L" n="55"/>et ipse esset particeps culpae. Nam sicut petens mutuum 
+<lb ed="#L" n="56"/>ab usurario dat materiam usurae, pignus scilicet, in quod
+<lb ed="#L" n="57"/>exerceat avaritiam suam accipiendo usuram; et incidens
+<lb ed="#L" n="58"/>in latrones et tradens illis bona sua dat eis materiam 
+ra<lb break="no" ed="#L" n="59"/>pinae: ita dans pecuniam in depositum usurario non 
+ha<lb break="no" ed="#L" n="60"/>benti alias unde exerceat usuras, dat materiam usurae. Et
+<lb ed="#L" n="61"/>si illi excusantur quia non formaliter, sed materialiter dant
+<lb ed="#L" n="62"/>materiam peccandi, quia ipsi non dant ad hoc ut peccent,
+<lb ed="#L" n="63"/>sed patiuntur-potius illos peccare propter suum bonum:
+<lb ed="#L" n="64"/>eadem ratione iste deponens excusandus est, cum bona
+<lb ed="#L" n="65"/>intentione det, et non inducat illum ad violandum 
+depo<lb break="no" ed="#L" n="66"/>situm aut usuram exercendam, sed patiatur illius futurum
+<lb ed="#L" n="67"/>praevisum peccatum propter bonum ipsius deponentis, ut
+<lb ed="#L" n="68"/>Scilicet tute pecunia sua custodiatur. Quare hic est magis
+<lb ed="#L" n="69"/>particeps peccati quam ille: cum sit aequa necessitas, et
+<lb ed="#L" n="70"/>aequa bona intentio, et uterque patiatur praevisum alterius
+<lb ed="#L" n="71"/>peccatum, non faciat?
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2763">
+                  <lb ed="#L" n="72"/>Ad hanc dubitationem dicitur quod, cum verborum
+<lb ed="#L" n="73"/>sensus ex ratione dicendi sumendus sit; et ratio dicendi,
+<lb ed="#L" n="74"/>ut apparet in argumento cui datur haec responsio, est quia
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="75"/>communiter rem custodi infideli committere non est 
+abs<lb break="no" ed="#L" n="76"/>que culpa committentis, ut patet in multis allatis exemplis
+<lb ed="#L" n="77"/>de luxurioso et guloso: non sunt haec verba Auctoris ut
+<lb ed="#L" n="78"/>prima facie sonare videntur intelligenda, sed distinguendum
+<lb ed="#L" n="79"/>est, quod sicut talis usurarius, non habens alias unde 
+exer<lb break="no" ed="#L" n="80"/>ceat usuras, duo committit peccata, scilicet distractionem
+<lb ed="#L" n="81"/>depositi et usuram (quae patet esse secundum se duo, quia
+<lb ed="#L" n="82"/>separabilia sunt: posset enim distrahere depositum 
+expo<lb break="no" ed="#L" n="83"/>nendo pecuniam depositam in alias negotiationes, ut patet),
+<lb ed="#L" n="84"/>ita in deponente apud talem usurarium duo sunt 
+consi<lb break="no" ed="#L" n="85"/>deranda; primo, quod deponit apud distractorem; secundo,
+<lb ed="#L" n="86"/>quod deponit apud usurarium non habentem unde alias
+<lb ed="#L" n="87"/>exerceat usuras. Ratione primi, particeps est culpae 
+distra<lb break="no" ed="#L" n="88"/>ctionis, sicut committens cibum guloso particeps est culpae
+<lb ed="#L" n="89"/>comestionis, et committens virginem luxurioso particeps
+<lb ed="#L" n="90"/>est culpae libidinis: nam sine culpa committentis non est
+<lb ed="#L" n="91"/>ut actum exigat custodiae ab eo quem scit probabiliter
+<lb ed="#L" n="92"/>actum illum non facturum. Et quoad hoc est differentia
+<lb ed="#L" n="93"/>inter petentem ab usurario mutuum, et deponentem apud
+<lb ed="#L" n="94"/>eundem non habentem etc.: quia ibi actus bonus petitus
+<lb ed="#L" n="95"/>scitur exercendus, scilicet mutuum; hic actus bonus 
+de<lb break="no" ed="#L" n="96"/>bitus commissus scitur non exercendus, scilicet custodia.
+<lb ed="#L" n="97"/>Iste ergo errat in actu commisso debito: ille autem non.
+<lb ed="#L" n="98"/>Et propterea iste dicitur dare materiam peccandi, et 
+par<lb break="no" ed="#L" n="99"/>ticeps culpae: quia in actu commisso debito dat materiam
+<lb ed="#L" n="100"/>peccandi, et propterea est particeps culpae quae 
+commit<lb break="no" ed="#L" n="101"/>titur in actu commisso debito ab eo cui commissum est;
+<lb ed="#L" n="102"/>malus enim custos virginis est qui committit eam 
+luxu<lb break="no" ed="#L" n="103"/>rioso, et sic de aliis. Nec excluditur hoc a dicentibus quod
+<lb ed="#L" n="104"/>quia quilibet est dominus rei suae, ponitque illi legem
+<lb ed="#L" n="105"/>quam vult, ideo iste deponens apud distractorem rem suam
+<lb ed="#L" n="106"/>non peccat, utpote. dans illi implicite licentiam distrahendi.
+<lb ed="#L" n="107"/>Erratur siquidem sic respondendo in radice: quoniam 
+de<lb break="no" ed="#L" n="108"/>ponens nec explicite nec implicite dat licentiam distrahendi;
+<lb ed="#L" n="109"/>eo quod deponens vult depositarium tenerisibi de 
+depo<lb break="no" ed="#L" n="110"/>sito secundum iura depositi, et tali actione ageret contra
+<lb ed="#L" n="111"/>eum si res ad iudicium reduceretur; ius autem depositi
+<lb ed="#L" n="112"/>distractionem prohibet, et ad custodiam obligat. Et 
+pro<lb break="no" ed="#L" n="113"/>pterea deponens. peccat participando cum malo depositario
+<lb ed="#L" n="114"/>in mala custodia, ad quam tamen illum obligat ex natura
+<lb ed="#L" n="115"/>contractus. - Ratione vero secundi, non est particeps 
+cul<lb break="no" ed="#L" n="116"/>pae, neque dat materiam peccandi seu peccato, plus quam
+<lb ed="#L" n="117"/>accipiens mutuum et incidens in latrones, propter rationem
+<lb ed="#L" n="118"/>allatam obiiciendo. Unde et in littera non dicitur quod dat
+<lb ed="#L" n="119"/>materiam peccandi peccato usurae, neque quod est 
+parti<lb break="no" ed="#L" n="120"/>ceps culpae usurae: sed peccandi et culpae simpliciter dixit.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2874">
+                  <lb ed="#L" n="121"/>Et quoniam peccatum distractionis depositi non semper
+<lb ed="#L" n="122"/>est mortale: — quando enim quis pecuniam depositam 
+dis<lb break="no" ed="#L" n="123"/>trahit non habendo aliam quam reddere possit requisitus
+<lb ed="#L" n="124"/>statim, peccat (depositum custodiendum, non 
+distrahen<lb break="no" ed="#L" n="125"/>dum traditur et acceptatur: propterea non transfertur in
+<lb ed="#L" n="126"/>eo dominium), sed leviter peccat si fiducia veritati innixa
+<lb ed="#L" n="127"/>insit quod, requisitus, paulo post faciat satis: levis enim
+<lb ed="#L" n="128"/>inter homines culpa haec habetur: — ideo committens 
+pe<lb break="no" ed="#L" n="129"/>cuniam suam distractori, quem tamen novit fideliter 
+red<lb break="no" ed="#L" n="130"/>diturum paulo post requisitionem, licet peccet, non tamen
+<lb ed="#L" n="131"/>mortaliter; sicut committens cibum guloso, sine mortali
+<lb ed="#L" n="132"/>tamen peccato gulae; et sicut committens in depositum
+<lb ed="#L" n="133"/>pecuniam suam negotiatori quem novit non servare 
+pecu<lb break="no" ed="#L" n="134"/>nias, sed omnes, quovis modo habeat, in negotiationes suas
+<lb ed="#L" n="135"/>exponere.
+</p>
+               <p xml:id="TAcCaj-d1e1675-d1e2909">
+                  <lb ed="#L" n="136"/>Et hoc modo consonat huius responsionis doctrina toti
+<lb ed="#L" n="137"/>articulo. Unde differentia formalis inter deponentem apud
+<lb ed="#L" n="138"/>usurarium habentem unde alias usuras exerceat, et non 
+ha<lb break="no" ed="#L" n="139"/>bentem, est quia ille probabiliter creditur fidus 
+deposita<lb break="no" ed="#L" n="140"/>rius, et non distractor depositi; ac per hoc committitur ei
+<lb ed="#L" n="141"/>actus bonus, debitus, speratus quod fiet ab illo: hic creditur
+<lb ed="#L" n="142"/>contrarium, et committitur actus bonus debitus ei qui 
+pro<lb break="no" ed="#L" n="143"/>babiliter timetur facturus oppositum. Et propterea hic 
+com<lb break="no" ed="#L" n="144"/>missor particeps est culpae distractionis. Non tamen 
+pro<lb break="no" ed="#L" n="145"/>pterea, quia scilicet dat operam rei illicitae venialiter, 
+impu<lb break="no" ed="#L" n="146"/>tatur ei superappositum usurae crimen ex malitia 
+distracto<lb break="no" ed="#L" n="147"/>ris: quoniam hoc est per accidens, et displicens deponenti,
+<lb ed="#L" n="148"/>nec ex suo actu consequens, sed ex alterius adiuncta malitia,
+<lb ed="#L" n="149"/>quam iste tolerat propter bonum sibi necessarium.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 83</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 83</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="206"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1701"><!-- TAcCajp2p2-q83" -->
+            <head xml:id="TAcCaj-d1e1701-Hd1e101">Quaestio 83</head>
+            <div xml:id="TAcCaj-d1e1701-Dd1e103"><!-- caj-p2p2-q83a1" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1701-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37" type="fixed=193"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="38"/>IN articulo primo quaestionis octogesimaetertiae , adverte
+<lb ed="#L" n="39"/>diligenter quod licet orationis nomen plures 
+significatio<lb break="no" ed="#L" n="40"/>nes habeat, et aliter apud grammaticos, et aliter apud 
+rhe<lb break="no" ed="#L" n="41"/>tores, aliter apud theologos sumatur, ut de se patet; non
+<lb ed="#L" n="42"/>ideo Auctor etymologiam Cassiodori (quae etiam est 
+Hie<lb break="no" ed="#L" n="43"/>ronymi) attulit ut significationem super etymologiam 
+fun<lb break="no" ed="#L" n="44"/>daret: sed ut ex illa occasionem. haberet ingressus ad 
+dis<lb break="no" ed="#L" n="45"/>tinctionem orationis speculativae et practicae, et ex earum
+<lb ed="#L" n="46"/>officiis unam manifestam orationis significationem quae est
+<lb ed="#L" n="47"/>ad propositum, scilicet pro petitione seu deprecatione, 
+lo<lb break="no" ed="#L" n="48"/>caret in proprio subiecto, ac per hoc responderet quaesito.
+<lb ed="#L" n="49"/>Habes igitur ex hoc loco quid nominis: quia significat 
+pe<lb break="no" ed="#L" n="50"/>titionem. Habes et quodammodo quid rei: quia petitio est
+<lb ed="#L" n="51"/>actus rationis practicae quo homo dispositive ordinat 
+ali<lb break="no" ed="#L" n="52"/>quid per alium agendum; per has enim particulas 
+distin<lb break="no" ed="#L" n="53"/>guitur ab actibus appetitus et rationis speculativae, et aliis
+<lb ed="#L" n="54"/>actibus rationis practicae, ut facile est discurrere per 
+eos<lb break="no" ed="#L" n="55"/>dem. Memento tamen hic quod quia ratio practica ab 
+ap<lb break="no" ed="#L" n="56"/>petitu movetur; et petitio in ratione practica se habet ut
+<lb ed="#L" n="57"/>conclusio ultima , sicut imperium (propter quod, sicut
+<lb ed="#L" n="58"/>oportet praeconsiliari et iudicare de praecipiendis et ultimo
+<lb ed="#L" n="59"/>praecipere, ita oportet praeconsiliari et iudicare de 
+peten<lb break="no" ed="#L" n="60"/>dis et tandem petere) : ideo petitio est actus rationis
+<lb ed="#L" n="61"/>ut subest voluntati, sicut imperium. Et propterea oratio
+<lb ed="#L" n="62"/>attribuitur utrique, scilicet intellectui et voluntati: et 
+vo<lb break="no" ed="#L" n="63"/>luntas in culpa est cum ab oratione debita deficit.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e176">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>In eodem articulo est aliud singulariter notandum,
+<lb ed="#L" n="65"/>scilicet quod oratio est in genere causae efficientis, 
+dispo<lb break="no" ed="#L" n="66"/>sitive tamen. Ex hoc namque habes quod cum Deum 
+ora<lb break="no" ed="#L" n="67"/>mus pro re aliqua, non solum mentes nostras Deo 
+offe<lb break="no" ed="#L" n="68"/>rimus ac appropinquamus eidem, sed etiam causas 
+appo<lb break="no" ed="#L" n="69"/>nimus efficiendis petitis. Propter quod merito non orans
+<lb ed="#L" n="70"/>ut debet privatur optatis, sicut negligens cultor privatur
+<lb ed="#L" n="71"/>fructu horti, agri, etc.: ut infra patet in littera.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e198">
+                  <lb ed="#L" n="72"/>III. In responsione ad secundum eiusdem articuli, nota
+<lb ed="#L" n="73"/>primo, quod hinc habes quod supra diximus in qu. rxxxr,
+<lb ed="#L" n="74"/>art. 5, de religione secundum se, vel imperata ab alia 
+vir<lb break="no" ed="#L" n="75"/>tute: et quod imperata a caritate ad Deum terminatur ut
+<lb ed="#L" n="76"/>obiectum, non secundum se. Habes namque quod petere
+<lb ed="#L" n="77"/>Deum sortitur oratio ex caritatis imperio. Et simile est
+<lb ed="#L" n="78"/>in aliis.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e217">
+                  <lb ed="#L" n="79"/>Nota secundo, — oratio duplicem ex parte petentis
+<lb ed="#L" n="80"/>unitatem requirit ad Deum. Alteram communem, et haec
+<lb ed="#L" n="81"/>est unitas amicitiae, quam facit caritas: et propter hanc
+<lb ed="#L" n="82"/>inferius ponetur inter conditiones orationis infallibilis
+<lb ed="#L" n="83"/>amicitia caritatis. Alteram substantialem, quam facit ipsa
+<lb ed="#L" n="84"/>oratio: et haec est unitas applicationis, qua mens seipsam
+<lb ed="#L" n="85"/>et sua exhibet Deo in famulatu et cultu affectuum, 
+pre<lb break="no" ed="#L" n="86"/>cum, meditationum et exteriorum actionum. Per hanc enim
+<lb ed="#L" n="87"/>unitatem indivisus est, secundum cultum et famulatum, a
+<lb ed="#L" n="88"/>Deo, dum quis orat: sicut cum alicui servit, indivisus est
+<lb ed="#L" n="89"/>secundum servitium ab illo.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e244"><!-- caj-p2p2-q83a2" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e247">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1701-d1e249">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="69" type="fixed=194"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e256">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="70"/>In articulo secundo multa essent dicenda, si materia haec
+<lb ed="#L" n="71"/>integro repetenda esset. Sed quoniam in Primo Libro
+<lb ed="#L" n="72"/>de praedestinatione et providentia satis dictum est, et inde
+<lb ed="#L" n="73"/>haec pendent, transeundum est in hoc morali opere. 
+Con<lb break="no" ed="#L" n="74"/>sidera tamen, et attende, quanta agantur Christiani 
+stul<lb break="no" ed="#L" n="75"/>titia, qui in ceteris effectibus media natura aut arte 
+spe<lb break="no" ed="#L" n="76"/>ratis conantur ut mediae adhibeantur causae, alioquin
+<lb ed="#L" n="77"/>censent vanam esse expectationem; in orationum autem
+<lb ed="#L" n="78"/>fructibus procurandis somniant, tanquam orationes inter
+<lb ed="#L" n="79"/>causas non sint, aut inter remotas valde sint. Quo fit ut,
+<lb ed="#L" n="80"/>somniantes in causis, nil percipiamus in fructibus.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e285">
+                  <lb ed="#L" n="81"/>In responsione ad tertium eiusdem articuli, adverte quod
+<lb ed="#L" n="82"/>Auctor, quia in corpore articuli reddiderat causam essen-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>tialem necessitatis orationis secundum ordinem divinae 
+sa<lb break="no" ed="#L" n="84"/>pientiae et providentiae: ut scilicet, sicut disposuit 
+multi<lb break="no" ed="#L" n="85"/>plicare homines medio actu generationis, et triticum 
+me<lb break="no" ed="#L" n="86"/>diante semine ac cultura, et domos mediante artifice cum
+<lb ed="#L" n="87"/>tot mediis, ita disposuit multorum salutem et multos 
+ef<lb break="no" ed="#L" n="88"/>fectus efficere mediante oratione reliquoque divino cultu: —
+<lb ed="#L" n="89"/>haec est vera et essentialis ratio reddita in corpore articuli:
+<lb ed="#L" n="90"/>quam quia reddiderat, nunc secundarias accessoriasque 
+red<lb break="no" ed="#L" n="91"/>dit ex parte nostri: in intellectu, ut cognoscamus ipsum
+<lb ed="#L" n="92"/>esse Auctorem ad quem sit confugiendum; in voluntate,
+<lb ed="#L" n="93"/>ut fiduciam habeamus recurrendi ad ipsum; in natura, ut
+<lb ed="#L" n="94"/>magnificemur in hoc quod cum eo loquimur, conversamur,
+<lb ed="#L" n="95"/>detimus, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e323"><!-- caj-p2p2-q83a3" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e326">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1701-d1e328">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49" type="fixed=195"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e335">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="50"/>IN articulo tertio eiusdem quaestionis, adverte quod in 
+ora<lb break="no" ed="#L" n="51"/>tione seu petitione considerari possunt tria: scilicet res
+<lb ed="#L" n="52"/>petita, petitio et petens. Si consideremus rem petitam,
+<lb ed="#L" n="53"/>sic oratione non damus Deo, sed ab ipso dari aliquid 
+po<lb break="no" ed="#L" n="54"/>stulamus. — Si consideremus petitionem, sic orando 
+offe<lb break="no" ed="#L" n="55"/>rimus Deo. Nam ipse actus petendi est actus subiectionis
+<lb ed="#L" n="56"/>et professionis virtutis: qui enim petit ab aliquo, indiget
+<lb ed="#L" n="57"/>illo, ac per hoc se subiicit illi petendo. In cuius signum,
+<lb ed="#L" n="58"/>superbi potius volunt indigentiam tolerare quam humiliare
+<lb ed="#L" n="59"/>se petendo aliquid ab aliqua persona. Rursus, qui petit
+<lb ed="#L" n="60"/>profitetur petendo in illo a quo petit esse potentiam ad
+<lb ed="#L" n="61"/>adiuvandum, esse misericordiam, vel iustitiam, vel 
+provi<lb break="no" ed="#L" n="62"/>dentiam, etc., unde speret exaudiri. Et propter hoc petitio
+<lb ed="#L" n="63"/>seu oratio ponitur actus religionis, cuius est honorem Deo
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>exhibere. Honoramus siquidem Deum petendo: et tanto
+<lb ed="#L" n="65"/>magis quanto, vel ex modo petendi vel re petita, 
+profite<lb break="no" ed="#L" n="66"/>mur ipsum esse supra omnia, creatorem, provisorem, 
+re<lb break="no" ed="#L" n="67"/>demptorem, etc, Et hoc est quod Auctor intendit in 
+cor<lb break="no" ed="#L" n="68"/>pore articuli. - Si autem consideremus petentem, sic, cum
+<lb ed="#L" n="69"/>homo petat per mentem, quia petitio est actus mentis; et
+<lb ed="#L" n="70"/>mens sit nobilissimum quod sit in homine: sic petendo
+<lb ed="#L" n="71"/>subiicimus Deo nobilissimam partem nostri, dum utimur
+<lb ed="#L" n="72"/>ea ad petendum a Deo, hoc est ad honorandum Deum,
+<lb ed="#L" n="73"/>ut declaratum est. Et sic orando offerimus et 
+sacrifica<lb break="no" ed="#L" n="74"/>mus mentem Deo: sicut genu flectendo genua offerimus
+<lb ed="#L" n="75"/>et sacrificamus Deo ipsis ad Dei honorem utendo. Et hoc
+<lb ed="#L" n="76"/>est quod Auctor intendit in littera in responsione ad 
+ter<lb break="no" ed="#L" n="77"/>tium
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e404"><!-- caj-p2p2-q83a4" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e407">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1701-d1e409">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43" type="fixed=196"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e416">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>In articulo quarto dubium occurrit circa rationem in 
+lit<lb break="no" ed="#L" n="45"/>les redditam quare solus Deus debet orari: quia, scilicet,
+<lb ed="#L" n="46"/>omnes orationes nostrae ordinari debent ad gratiam et
+<lb ed="#L" n="47"/>gloriam consequendam, quam solus Deus dat. Dupliciter |
+<lb ed="#L" n="48"/>namque deficere videtur. Primo, in veritate assumpti. Quia
+<lb ed="#L" n="49"/>multa licite potest homo desiderare et facere absque ordine !
+<lb ed="#L" n="50"/>ad consecutionem gloriae: ut patet de desideriis et 
+ope<lb break="no" ed="#L" n="51"/>ribus commoditatum corporalium, salutis patriae, honoris
+<lb ed="#L" n="52"/>parentis, et huiusmodi, apud constitutos in mortali peccato
+<lb ed="#L" n="53"/>et infideles, etc. Quidquid autem potest desiderari licite,
+<lb ed="#L" n="54"/>potest quoque licite in oratione peti. — Secundo, in 
+illa<lb break="no" ed="#L" n="55"/>tione. Quoniam, dato quod finis omnium orationum sit
+<lb ed="#L" n="56"/>gloria a solo Deo donabilis, multa tamen quae sunt media
+<lb ed="#L" n="57"/>ad talem finem effici possunt ab aliis a Deo: ut patet de
+<lb ed="#L" n="58"/>instructione, custodia, et aliis huiusmodi.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e453">
+                  <lb ed="#L" n="59"/>Ad hoc dicitur quod ratio verum in primis assumit,
+<lb ed="#L" n="60"/>per se loquendo de oratione fidelium. Ad cuius 
+eviden<lb break="no" ed="#L" n="61"/>tiam, scito quod oratio tripliciter invenitur: scilicet 
+ordi<lb break="no" ed="#L" n="62"/>nata, inordinata privative, et inordinata contrarie. Oratio
+<lb ed="#L" n="63"/>ordinata est sola illa quae ordinatur ad supremum omnium
+<lb ed="#L" n="64"/>appetibilium, quod beatitudo aeterna est. Et ratio est quia
+<lb ed="#L" n="65"/>primum in unoquoque ordine est causa omnium quae sunt
+<lb ed="#L" n="66"/>post: ac per hoc, supremum appetibilium est causa finalis
+<lb ed="#L" n="67"/>omnium appetibilium; et propterea omnes petitiones 
+de<lb break="no" ed="#L" n="68"/>bent ordinari ad talem finem. Et quia orationes fidelium
+<lb ed="#L" n="69"/>a religione et fide procedunt ordinatae ad supremum 
+su<lb break="no" ed="#L" n="70"/>pernaturalem finem quem respiciunt proportionabiliter ;
+<lb ed="#L" n="71"/>ideo verum est, per se-loquendo, quod omnes orationes
+<lb ed="#L" n="72"/>fidelium ordinantur ad gloriam aeternam. Et de his 
+loqui<lb break="no" ed="#L" n="73"/>tur littera. - Oratio vero inordinata privative est quae caret
+<lb ed="#L" n="74"/>ordine ad finem ultimum caritatis: ut cum quis in peccato
+<lb ed="#L" n="75"/>mortali orat pro sanitate corporis, nihil curans an expediat
+<lb ed="#L" n="76"/>ad vitam aeternam an contrarietur eidem. Et huiusmodi
+<lb ed="#L" n="77"/>orationum habitum intentum quandoque est maximum
+<lb ed="#L" n="78"/>malum. Et sunt communes, secundum genus suum, 
+fide<lb break="no" ed="#L" n="79"/>libus et infidelibus. Nec merentur orationes dici 
+simplici<lb break="no" ed="#L" n="80"/>ter: quia nec sunt simpliciter actus religionis, utpote ad
+<lb ed="#L" n="81"/>ipsius ordinem non attingentes. - Oratio autem inordinata
+<lb ed="#L" n="82"/>contrarie est petitio habens aliquid contrarium vitae 
+aeter<lb break="no" ed="#L" n="83"/>nae: ut orare pro vindicta vel pro alio malo. Et haec non
+<lb ed="#L" n="84"/>orationes, sed execrationes sunt, etc. - Littera autem de
+<lb ed="#L" n="85"/>his quae per se sunt tantum loquitur.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e514">
+                  <lb ed="#L" n="86"/>Illatio quoque efficax comprobatur. Quoniam licet multa
+<lb ed="#L" n="87"/>conducentia ad vitam aeternam possint absolute et secun-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>dum se effici a creaturis; ut tamen habent rationem 
+me<lb break="no" ed="#L" n="89"/>diorum ad vitam aeternam, a solo Deo, qui novit 
+eorun<lb break="no" ed="#L" n="90"/>dem hanc orationem, sicut numerum electorum, fieri 
+pos<lb break="no" ed="#L" n="91"/>sunt. Si enim Pauli Apostoli angelus ab angelo Satanae
+<lb ed="#L" n="92"/>eum custodisset, contra salutem Pauli operatus esset: et
+<lb ed="#L" n="93"/>simile est de aliis. Intendit ergo Auctor quod quia solius
+<lb ed="#L" n="94"/>Dei est dare gloriam aeternam et media, ut sic, ad gloriam ;
+<lb ed="#L" n="95"/>ideo oratio, quae ad gloriam ordinatur, soli Deo porrigenda
+<lb ed="#L" n="96"/>est ut per ipsum implenda.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e544">
+                  <lb ed="#L" n="97"/>II. In responsione ad secundum in eodem articulo, 
+ad<lb break="no" ed="#L" n="98"/>verte quod duo sunt modi quibus sancti in Verbo vident
+<lb ed="#L" n="99"/>singularia. Alter, quo ipsa visio Verbi est realiter etiam
+<lb ed="#L" n="100"/>visio singularium: et haec est coaeva sanctis a principio
+<lb ed="#L" n="101"/>suae beatitudinis. Alter est quo ipsa visio Verbi est 
+cau<lb break="no" ed="#L" n="102"/>saliter tantum visio singularium: et haec de novo advenit
+<lb ed="#L" n="103"/>sanctis, iuxta divinae gratiae extensionem. Patet enim 
+utrum<lb break="no" ed="#L" n="104"/>que modum inveniri in sanctis: primum quidem, ex eo
+<lb ed="#L" n="105"/>quod cognoscere quaedam singularia ad beatitudinem 
+eo<lb break="no" ed="#L" n="106"/>rum spectat; secundum autem, ex eo quod revelationes
+<lb ed="#L" n="107"/>eisdem fiunt de novo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e570">
+                  <lb ed="#L" n="108"/>Quo autem horum modo sancti videant orationes 
+no<lb break="no" ed="#L" n="109"/>stras, non facile dixerim. Ex hac tamen littera habetur
+<lb ed="#L" n="110"/>quod maxime excellentiam eorum decet quod cognoscant
+<lb ed="#L" n="111"/>petitiones ad eos factas, et consequenter primo modo 
+vi<lb break="no" ed="#L" n="112"/>deant in Verbo easdem: quoram beatitudo ipsa summa
+<lb ed="#L" n="113"/>excellentia est, Et hoc videtur attestari Ecclesia in suo modo
+<lb ed="#L" n="114"/>interpellandi sanctos, dum dicit: Sancte Petre, ora pro 
+no<lb break="no" ed="#L" n="115"/>bis. Nisi enim praesupponeret omnes sanctos, ex hoc quod
+<lb ed="#L" n="116"/>Deo fruuntur, orationes nostras cognoscere, non omnes
+<lb ed="#L" n="117"/>adiret ut orarent pro nobis: sed orandus prius esset Deus
+<lb ed="#L" n="118"/>ut eis revelaret orationes nostras, et sic ipsi orarent pro
+<lb ed="#L" n="119"/>nobis. Maior mihi videtur haec Ecclesiae auctoritas quam
+<lb ed="#L" n="120"/>cuiusque doctoris. Propter quod sic esse credo. Cum
+<lb ed="#L" n="121"/>quo tamen stat quod novis illuminationibus cognoscatur
+<lb ed="#L" n="122"/>quid circa suos clientulos agendum, aut quid simpliciter
+<lb ed="#L" n="123"/>orandum pro eis sit. [ta quod ipsas orationes vident ipsa
+<lb ed="#L" n="124"/>Verbi visione: an autem hoc expediat quod petitur, aut
+<lb ed="#L" n="125"/>quomodo implendum sit, et an Deo hoc placeat, et 
+hu<lb break="no" ed="#L" n="126"/>iusmodi, secundo modo discunt. Et propterea Ecclesia
+<lb ed="#L" n="127"/>Deum rogat ut faciat sanctos orare pro nobis, dicens:
+<lb ed="#L" n="128"/>Tribue quaesumus, Domine, omnes sanctos tuos iugiter pro
+<lb ed="#L" n="129"/>nobis orare. Nam videntes sancti orationes nostras, nesciunt
+<lb ed="#L" n="130"/>si orandus est Deus simpliciter pro illa petitione, ut 
+di<lb break="no" ed="#L" n="131"/>ctum est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e627"><!-- caj-p2p2-q83a8" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e630">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1701-d1e632">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25" type="fixed=200"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e639">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>Omissis articulis quinto, sexto et septimo, in octavo
+<lb ed="#L" n="27"/>eiusdem octogesimaetertiae quaestionis articulo. 
+du<lb break="no" ed="#L" n="28"/>bium occurrit, simpliciter et ad hominem, circa illa verba:
+<lb ed="#L" n="29"/>vel si veniam peteret. Ad hominem quidem, quia superius
+<lb ed="#L" n="30"/>in qu. xxv, art. 8 et 9, ubi de dilectione inimicorum 
+tra<lb break="no" ed="#L" n="31"/>ctatum est, solus necessitatis articulus exceptus est. Hic
+<lb ed="#L" n="32"/>autem, ultra necessitatem, excipitur petitio veniae. 
+Quo<lb break="no" ed="#L" n="33"/>modo stant haec simul?
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e661">
+                  <lb ed="#L" n="34"/>Simpliciter vero, quia regula generalis est quod 
+prae<lb break="no" ed="#L" n="35"/>cepta affirmativa, licet obligent semper, non tamen 
+obli<lb break="no" ed="#L" n="36"/>gant ad semper operandum, sed solo necessitatis tempore.
+<lb ed="#L" n="37"/>Quomodo ergo nunc contra tempus necessitatis 
+distingui<lb break="no" ed="#L" n="38"/>tur tempus petitionis veniae?
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e674">
+                  <lb ed="#L" n="39"/>Et augetur dubium. Quia non apparet ad quem actum
+<lb ed="#L" n="40"/>dilectionis in speciali teneatur hic propter hoc quod 
+ini<lb break="no" ed="#L" n="41"/>micus petit ab eo veniam. Nam si ego diligo in communi
+<lb ed="#L" n="42"/>inimicum, nec in speciali eum odio habeo; et cum petit
+<lb ed="#L" n="43"/>veniam, ego non teneor illi remittere poenam quam de
+<lb ed="#L" n="44"/>iure debet: ad quem novum actum obligor ex illius 
+pe<lb break="no" ed="#L" n="45"/>titione? — Si dicatur, ut vulgo dicitur, quod debeo 
+par<lb break="no" ed="#L" n="46"/>cere quoad offensam: hoc nihil aliud est quam eum non
+<lb ed="#L" n="47"/>habere odio, non velle ei malum; quod a principio habui.
+<lb ed="#L" n="48"/>Modo autem quaerimus novum actum positivum ad quem
+<lb ed="#L" n="49"/>teneatur tempore petitionis veniae. — Si dicatur quod 
+te<lb break="no" ed="#L" n="50"/>netur ei loqui: mirum est quod melioris sit conditionis
+<lb ed="#L" n="51"/>inimicus petens veniam quam is qui nunquam me 
+offen<lb break="no" ed="#L" n="52"/>dit. [Isti enim petenti quodcumque a me non teneor 
+re<lb break="no" ed="#L" n="53"/>spondere, extra articulum necessitatis: et illi tenebor? Minus
+<lb ed="#L" n="54"/>consona haec rationi videntur.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e712">
+                  <lb ed="#L" n="55"/>II. Ad hoc dicitur quod cum communiter offensi 
+ho<lb break="no" ed="#L" n="56"/>mines malam habeant voluntatem contra inimicos suos,
+<lb ed="#L" n="57"/>si huic praesumptioni communi adiungatur in speciali
+<lb ed="#L" n="58"/>quod inimico petenti veniam non annuit, probabilis aut
+<lb ed="#L" n="59"/>violenta opinio fit quod malam habet voluntatem contra
+<lb ed="#L" n="60"/>inimicum: ac per hoc et petenti veniam datur occasio 
+re<lb break="no" ed="#L" n="61"/>cidivae inimicitiae, ex quo locum veniae non invenit, et
+<lb ed="#L" n="62"/>aliis scandalum. Unde ipsa petitio veniae tempus determinat
+<lb ed="#L" n="63"/>quo caritas debet necessario exire in actum manifestationis
+<lb ed="#L" n="64"/>cordis sui erga inimicum. Et sic tempus petitionis veniae
+<lb ed="#L" n="65"/>est tempus necessitatis.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e738">
+                  <lb ed="#L" n="66"/>Sed ut concordes scripturas, distingue de necessitate,
+<lb ed="#L" n="67"/>quae est multiplex: quaedam ex parte indigentiae 
+perso<lb break="no" ed="#L" n="68"/>nae, ut pascere fame morientem, et huiusmodi; quaedam
+<lb ed="#L" n="69"/>ex parte occurrentium conditionum, ut corrigere fratrem
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="70"/>habendo probabilem cognitionem quod inde liberabitur a
+<lb ed="#L" n="71"/>peccato. Et licet omnes huiusmodi necessitates 
+compre<lb break="no" ed="#L" n="72"/>hendantur sub tempore necessitatis quando dicitur quod
+<lb ed="#L" n="73"/>praecepta affirmativa non obligant nisi tempore 
+necessita<lb break="no" ed="#L" n="74"/>tis, una tamen quandoque distinguitur contra aliam alicubi.
+<lb ed="#L" n="75"/>Et sic accidit in praesenti littera. Unde nulla est 
+simpli<lb break="no" ed="#L" n="76"/>citer controversia, ut ex nunc declaratis patet. Et similiter
+<lb ed="#L" n="77"/>nulla est inter Doctoris dicta contrarietas. Quia hic 
+neces<lb break="no" ed="#L" n="78"/>sitatem ex parte indigentiae personae' distinxit contra 
+ne<lb break="no" ed="#L" n="79"/>cessitatem ex parte conditionum occurrentium: superius
+<lb ed="#L" n="80"/>autem sub articulo necessitatis omnem necessitatis modum
+<lb ed="#L" n="81"/>comprehendit. Cuius signum est quod hoc in loco dicit
+<lb ed="#L" n="82"/>hanc doctrinam esse eandem cum supradicta, dicens: uf
+<lb ed="#L" n="83"/>supra habitum est in tractatu de caritate.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e782">
+                  <lb ed="#L" n="84"/>III. In responsione ad primum, habes latissimum 
+cam<lb break="no" ed="#L" n="85"/>pum interpretandi sacram Scripturam quoad imprecationes :
+<lb ed="#L" n="86"/>et simul modos quibus appetitu recto aliorum mala nobis
+<lb ed="#L" n="87"/>complacere possunt. Nam, dempta prima expositione, quae
+<lb ed="#L" n="88"/>optativum pro enuntiativo interpretatur, fiat pro fiet, 
+re<lb break="no" ed="#L" n="89"/>liquae ad affectum consentientis malo proximi spectant,
+<lb ed="#L" n="90"/>Secunda quidem mala pro correctione hominum, ac per
+<lb ed="#L" n="91"/>hoc pro utilitate correctorum vel communi, vult. Tertia
+<lb ed="#L" n="92"/>vero mala pro destructione regni peccati vult. Quarta 
+au<lb break="no" ed="#L" n="93"/>tem mala pro iustitia divina vult. Et est sermo semper de
+<lb ed="#L" n="94"/>malo poenae. Et est haec distinctio sumenda penes id quod
+<lb ed="#L" n="95"/>directe respicitur a petente seu optante.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e811">
+                  <lb ed="#L" n="96"/>In responsione ad secundum eiusdem, scito, novitie,
+<lb ed="#L" n="97"/>quod sanctos petere ratione vindictam est passiones suas,
+<lb ed="#L" n="98"/>quae sunt ratio ultionis, patentes habere. Hoc enim modo
+<lb ed="#L" n="99"/>sanguis Abel clamavit ratione: effusus enim patenter 
+fra<lb break="no" ed="#L" n="100"/>ternus sanguis ratio erat ultionis.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e824">
+                  <lb ed="#L" n="101"/>In responsione ad tertium, intellige per unicam causam
+<lb ed="#L" n="102"/>omnes alias licitas causas impugnandi inimicos: non enim
+<lb ed="#L" n="103"/>solum ut convertantur a peccatis, sed propter alias causas
+<lb ed="#L" n="104"/>est licitum, ut patet superius de bello. Et eadem est
+<lb ed="#L" n="105"/>ratio de omnibus, ad hoc ut oratio et operatio non 
+con<lb break="no" ed="#L" n="106"/>trarientur, Veruntamen, licet oratio et operatio non debeant
+<lb ed="#L" n="107"/>contrariari, potest tamen locum habere oratio ubi non 
+po<lb break="no" ed="#L" n="108"/>test locum habere operatio. Licet enim orando cuilibet
+<lb ed="#L" n="109"/>propter commune bonum petere mortem haeresiarchae vel
+<lb ed="#L" n="110"/>tyrannizantis: non tamen licet cuilibet occidere illum. 
+Quid<lb break="no" ed="#L" n="111"/>quid ergo licet alicui operari, licet illi orare: sed non est
+<lb ed="#L" n="112"/>e contra.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e854"><!-- caj-p2p2-q83a9" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e857">Articulus 9</head>
+               <p xml:id="TAcCaj-d1e1701-d1e859">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55" type="fixed=202"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e866">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="56"/>IN articulo nono eiusdem quaestionis, adverte quod 
+pri<lb break="no" ed="#L" n="57"/>Tone tres petitiones Orationis Dominicae aliter possunt
+<lb ed="#L" n="58"/>ordinari quoad. principale desideratum; ut omnes tres ; d
+<lb ed="#L" n="59"/>ctent principaliter ad amorem quo Deum in seipso 
+dili<lb break="no" ed="#L" n="60"/>gimus; secundario autem ad amorem quo nos in Deo
+<lb ed="#L" n="61"/>diligimus, In cuius signum, in singulis trium ponitur pro»
+<lb ed="#L" n="62"/>nomen fuum: in reliquis quatuor pronomen nostri, Et sic
+<lb ed="#L" n="63"/>rima petit elevationem stabilem divini Nominis cum ef.
+<lb ed="#L" n="64"/>ectu; secunda, quod ipse regnet cum effectu, non 
+diabo<lb break="no" ed="#L" n="65"/>lus, non caro, non mundus, non peccatum; tertia, quod
+<lb ed="#L" n="66"/>sua impleatur voluntas eum effectu, Haec enim nunc non
+<lb ed="#L" n="67"/>adsunt Deo nisi-secundum quid: propter tot peccata, et
+<lb ed="#L" n="68"/>occultationem. adimpletionis eo modo quo implentur, Et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="69"/>hoc quod in singulis dictum est, cwm effectu, intelligitur
+<lb ed="#L" n="70"/>per illum subiunctum modum, sicut in caelo, et in terra:
+<lb ed="#L" n="71"/>quia singularum trium est modus, lta quod rectum no-«
+<lb ed="#L" n="72"/>strum desiderium primo ad hoc tendit, hoc optat, hi
+<lb ed="#L" n="73"/>petit, quasi. ipsius Dei bonum, ut ipse in suo Nomin
+<lb ed="#L" n="74"/>sanctificetur, idest super omnia stabiliter elevetur, sicut
+<lb ed="#L" n="75"/>caelo, ita et in terra; ut ipse regnet, non peccatum, sicut
+<lb ed="#L" n="76"/>caelo, ita et in terra; ut ipsius voluntas, non aliena 
+quae<lb break="no" ed="#L" n="77"/>cumque, fiat, sicut in caelo, ita et in terra, In quibus tamen.
+<lb ed="#L" n="78"/>eisdem petitionibus nostra bona spiritualia m 
+secunda<lb break="no" ed="#L" n="79"/>rio petimus, ut in littera exponitur. Ordinantur autem
+<lb ed="#L" n="80"/>inter se hae tres sic: quia primo, Nomen; secundo, 
+re<lb break="no" ed="#L" n="81"/>gnum; tertio, ad nutum executio desideratur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e930"><!-- caj-p2p2-q83a11" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e933">Articulus 11</head>
+               <p xml:id="TAcCaj-d1e1701-d1e935">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="27" type="fixed=204"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e942">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>IN articulo undecimo, praetermisso decimo, dubium 
+oc<lb break="no" ed="#L" n="29"/>currit, simpliciter et ad hominem, quo pacto Ieremias,
+<lb ed="#L" n="30"/>qui tempore Machabaeorum non erat in patria sed in limbo
+<lb ed="#L" n="31"/>Patrum, orabat pro Ierusalem: et quare, de oratione 
+san<lb break="no" ed="#L" n="32"/>ctorum in patria Auctor tractans miscuit orationes Patrum
+<lb ed="#L" n="33"/>in limbo, nec definivit aliquid de eis, cum non sit eadem
+<lb ed="#L" n="34"/>ratio de ipsis et beatis.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e962">
+                  <lb ed="#L" n="35"/>Ad haec dicitur quod si fundamentum ac radix unde
+<lb ed="#L" n="36"/>sanctorum in patria oratio pro nobis prodit, consideretur
+<lb ed="#L" n="37"/>diligenter, invenitur locum habere non solum in ipsis 
+com<lb break="no" ed="#L" n="38"/>prehensoribus, sed etiam in sanctis qui erant in limbo.
+<lb ed="#L" n="39"/>Quoniam caritas eorundem, in statu superiori simpliciter,
+<lb ed="#L" n="40"/>ponitur ratio orandi pro nobis. Propter hoc enim 
+secun<lb break="no" ed="#L" n="41"/>dum excluduntur, in responsione ad tertium, existentes in
+<lb ed="#L" n="42"/>purgatorio ab orando pro nobis: quia non sunt totaliter
+<lb ed="#L" n="43"/>nobis superiores, sed ratione poenarum inferiores, et egentes
+<lb ed="#L" n="44"/>nostris orationibus. Constat autem quod sancti olim in limbo
+<lb ed="#L" n="45"/>Patrum erant in caritate confirmati et impeccabiles, et nulli
+<lb ed="#L" n="46"/>propriae seu novae poenae subiecti: nam poena damni
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="47"/>communis est eis et viatoribus; extra omnem autem sensus
+<lb ed="#L" n="48"/>poenam erant. Eorum igitur erat orare pro nobis. — Sed
+<lb ed="#L" n="49"/>advertenda est differentia inter eos, et sanctos in patria.
+<lb ed="#L" n="50"/>Quia licet utrisque commune sit orare pro viatoribus, 
+pro<lb break="no" ed="#L" n="51"/>prium tamen sanctorum in patria est videre orationes 
+via<lb break="no" ed="#L" n="52"/>torum sibi directas. Unde Ieremias tunc orare dicitur: non
+<lb ed="#L" n="53"/>orationes aut preces eorum audisse.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1008">
+                  <lb ed="#L" n="54"/>Miscuit ergo Auctor limbum Patrum cum. patria quoad
+<lb ed="#L" n="55"/>orationes pro nobis, quia eadem est ratio: et argumentum
+<lb ed="#L" n="56"/>a minori assumpsit. Nec oportuit aliter in speciali de eis
+<lb ed="#L" n="57"/>determinare, ex quo allata in littera ratio in eis locum
+<lb ed="#L" n="58"/>habet, et a purgatorio sunt divisi.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1022">
+                  <lb ed="#L" n="59"/>II. In responsione [ad secundum] eiusdem articuli, 
+ad<lb break="no" ed="#L" n="60"/>verte quod sancti orantes nesciunt si impetrabunt, sed 
+pe<lb break="no" ed="#L" n="61"/>tunt aestimantes, ut in littera dicitur, id Deo placiturum: et
+<lb ed="#L" n="62"/>de hoc orando consulunt divinam maiestatem. Per quod, 
+di<lb break="no" ed="#L" n="63"/>versi sancti absque discordia voluntatum contraria petunt,
+<lb ed="#L" n="64"/>quasi contraria proponentes adunati ad Dei beneplacitum.
+<lb ed="#L" n="65"/>Unde Dan. x dicitur quod princeps Persarum restitit mihi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e1041"><!-- caj-p2p2-q83a12" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e1044">Articulus 12</head>
+               <p xml:id="TAcCaj-d1e1701-d1e1046">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="46" type="fixed=205"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1053">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="47"/>IN articulo duodecimo eiusdem quaestionis, nota diligenter,
+<lb ed="#L" n="48"/>qui murmuras de officio ecclesiastico, tria: distinctionem
+<lb ed="#L" n="49"/>Mani orationis, necessitatem, conditiones. Distinguitur 
+si<lb break="no" ed="#L" n="50"/>quidem oratio vocalis in communem, et propriam seu 
+sin<lb break="no" ed="#L" n="51"/>gularem.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1069">
+                  <lb ed="#L" n="52"/>Necessitas communis est quia in persona Ecclesiae 
+of<lb break="no" ed="#L" n="53"/>fertur. Cum enim Ecclesia ex sensitivis creaturis constet,
+<lb ed="#L" n="54"/>oportet sensibiles, ac per hoc vocales per suos ministros
+<lb ed="#L" n="55"/>orationes offerre: alioquin nesciret offerri per ministros
+<lb ed="#L" n="56"/>orationis cultum, ac munus quod Deo per illos offert; non
+<lb ed="#L" n="57"/>novit enim Ecclesia nisi quae foris sunt. - Necessitas 
+pro<lb break="no" ed="#L" n="58"/>pria est excitanda propria devotio, ac conservanda.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1087">
+                  <lb ed="#L" n="59"/>Conditiones communis orationis sunt duae: quod 
+sci<lb break="no" ed="#L" n="60"/>licet sit vocalis; et quod sit alta. Prima est simpliciter 
+ne<lb break="no" ed="#L" n="61"/>cessaria, ut declaratum est: secunda est rationabilis, ut in
+<lb ed="#L" n="62"/>littera dicitur. Propter quod, dicentes privatas missas ita
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>submisse, de industria, ut intelligi ab auditoribus nequeant,
+<lb ed="#L" n="64"/>a ratione devii videntur, et inexcusabiles: nisi forte per
+<lb ed="#L" n="65"/>accidens coram aliis non celebrent; tunc enim sufficiens
+<lb ed="#L" n="66"/>videtur si a servitore proximo audiri potest. Et hinc apparet
+<lb ed="#L" n="67"/>qualiter utendum est vel cantu, vel voce sine nota, in 
+com<lb break="no" ed="#L" n="68"/>muni oratione: scilicet iuxta devotionem communem; hoc
+<lb ed="#L" n="69"/>tamen semper servato, quod quocumque modo dicatur, sic
+<lb ed="#L" n="70"/>intelligibiliter dicatur ut percipi possit a se et aliis distincte
+<lb ed="#L" n="71"/>sensus verborum, unde devotio excitari Ecclesiae possit. —
+<lb ed="#L" n="72"/>Propriae autem orationis conditio est etiam ipsa ratio, 
+scili<lb break="no" ed="#L" n="73"/>cet propria devotio. Unde patet quod errant qui numerum
+<lb ed="#L" n="74"/>tot vocalium orationum propriarum explendum quotidie
+<lb ed="#L" n="75"/>praeponunt meditationibus et mentalibus orationibus. 
+Relin<lb break="no" ed="#L" n="76"/>quunt pamque finem propter ea quae sunt ad finem.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1132">
+                  <lb ed="#L" n="77"/>In responsione ad tertium, nota quam vitandae sunt
+<lb ed="#L" n="78"/>singularitates motuum, etc., in orationibus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e1140"><!-- caj-p2p2-q83a13" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e1143">Articulus 13</head>
+               <p xml:id="TAcCaj-d1e1701-d1e1145">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65" type="fixed=206"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1152">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>IN articulo tertiodecimo eiusdem octogesimaetertiae 
+quae<lb break="no" ed="#L" n="67"/>stionis, circa tertium genus attentionis ad orationem, 
+du<lb break="no" ed="#L" n="68"/>bium multorum occurrit: si quis ex proposito in principio
+<lb ed="#L" n="69"/>officii divini, ad quod tenetur, applicet se ad meditationem
+<lb ed="#L" n="70"/>divinae bonitatis aut passionis Christi, ad hoc ut mentem
+<lb ed="#L" n="71"/>firmam teneat cum Deo in hac continua meditatione, 
+sa<lb break="no" ed="#L" n="72"/>tisfaciat praecepto Ecclesiae?
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1172">
+                  <lb ed="#L" n="73"/>Ad hoc dicitur quod certo certius constat quod 
+inten<lb break="no" ed="#L" n="74"/>dens et studens ad hoc ut mens sua, tam in 
+contempla<lb break="no" ed="#L" n="75"/>tione quam in eius prole, hoc est affectione, circa Deum
+<lb ed="#L" n="76"/>seu ea quae divinitatis sunt occupetur in toto officio, 
+opti<lb break="no" ed="#L" n="77"/>me satisfacit: quoniam habet attentionem optimam, 
+ma<lb break="no" ed="#L" n="78"/>xime necessariam, et communem, iuxta uniuscuiusque 
+mo<lb break="no" ed="#L" n="79"/>dulum.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1190">
+                  <lb ed="#L" n="80"/>Intendens autem et studens ut circa passionem" Christi
+<lb ed="#L" n="81"/>meditatio sit et affectus excitetur in toto officio, satisfacit,
+<lb ed="#L" n="82"/>sine dubio: quia in melius medium ad divinitatem ducens
+<lb ed="#L" n="83"/>fertur quam si sensui verborum attenderet; nam passio
+<lb ed="#L" n="84"/>Christi, ut in art. 3 qu. praeced. habitum est, optima est
+<lb ed="#L" n="85"/>manuductio ad divinitatem, iuxta illud: ut dum »
+visibi<lb break="no" ed="#L" n="86"/>liter Deum cognoscimus, per hunc in invisibilium - 
+amo<lb break="no" ed="#L" n="87"/>rem rapiamur. Cum grano tamen salis haec intentio 
+ha<lb break="no" ed="#L" n="88"/>benda est per totum: ut scilicet negligatur haec 
+perseve<lb break="no" ed="#L" n="89"/>rantia si ascendere ad ea quae divinitatis sunt in progressu
+<lb ed="#L" n="90"/>dabitur, quod debet esse principale intentum. Ita quod
+<lb ed="#L" n="91"/>talis orantis mens debet ea quae sunt passionis Christi
+<lb ed="#L" n="92"/>eligere ut media, non ut finem: ut scilicet per illa, si Deus
+<lb ed="#L" n="93"/>dederit, ascendat ad ea quae divinitatis sunt.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1224">
+                  <lb ed="#L" n="94"/>Et ut satisfiat huiusmodi quaesitis, scito quod 
+quaecum<lb break="no" ed="#L" n="95"/>que attentionum in littera numeratarum eligatur, sine -prae-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="96"/>cisione tamen melioris (hoc est, quod illa eligatur ut me-.
+<lb ed="#L" n="97"/>dium sibi accommodum  perveniendi ad meliorem, prout
+<lb ed="#L" n="98"/>Deus dignabitur misericorditer concedere), satisfit praecepto
+<lb ed="#L" n="99"/>Ecclesiae. Verbi gratia, si quis putat suae parvitati 
+accom<lb break="no" ed="#L" n="100"/>modatius medium attendere ne erret, et in hac attentione
+<lb ed="#L" n="101"/>vult persistere, intendat hoc ut medium: si forte misereatur
+<lb ed="#L" n="102"/>sic Deus, et det meliorem attentionem sic disposito ad 
+me<lb break="no" ed="#L" n="103"/>liorem, quam potius vellet. Et simile est de aliis,
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1250">
+                  <lb ed="#L" n="104"/>Verum circa attentionem ad rem petitam, cave ne 
+perver<lb break="no" ed="#L" n="105"/>sus fiat affectus cum oculo tuo. Nam non licet petenti 
+ne<lb break="no" ed="#L" n="106"/>cessaria victui sic versari circa meditationem victus ut divina
+<lb ed="#L" n="107"/>ad humana ordinari videantur, quasi oratio sit medium et
+<lb ed="#L" n="108"/>victus finis, Reminisci siquidem oportet doctrinae superius
+<lb ed="#L" n="109"/>habitae in hac eadem quaestione, art. 4, quod quoad rem
+<lb ed="#L" n="110"/>petitam omnes nostrae orationes ordinari debent ad gratiam
+<lb ed="#L" n="111"/>et gloriam consequendam. Et haec est res petita ad quam
+<lb ed="#L" n="112"/>attendere Auctor tantum commendat in littera. Attendere
+<lb ed="#L" n="113"/>enim ad gloriam aeternam, vel gloriam adoptionis filio
+<lb ed="#L" n="114"/>in via, aut virtutes ut media ad aeternam patriam et Med
+<lb ed="#L" n="115"/>menta civium caelestium ac inchoationes caelestis 
+conversa<lb break="no" ed="#L" n="116"/>tionis, et huiusmodi, inter optimas attentiones est. Et, 
+brevi<lb break="no" ed="#L" n="117"/>ter, omnis res petita aut finis ipse caelestis gloriae aut 
+me<lb break="no" ed="#L" n="118"/>dium ad illam ut medii rationem habet, sive pro se sive pro
+<lb ed="#L" n="119"/>alio, in attentionis optimo genere locata est in littera: et
+<lb ed="#L" n="120"/>nulla res alia ut petita.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1289">
+                  <lb ed="#L" n="121"/>II. In responsione ad tertium, nota diligenter quod quia
+<lb ed="#L" n="122"/>ex Proposito vagari in oratione peccatum est ex genere suo,
+<lb ed="#L" n="123"/>ideo non solum in oratione necessaria ex praecepto, sed
+<lb ed="#L" n="124"/>etiam in oratione spontanea tenetur orans attendere: ita
+<lb ed="#L" n="125"/>quod licet non teneatur orare, tenetur tamen, si orat, at-
+<pb ed="#L" n="207"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tente, quantum est ex parte propositi, orare. Et ratio est
+<lb ed="#L" n="2"/>similis in aliis actibus virtutum: quod scilicet homo, si
+<lb ed="#L" n="3"/>exercet eos, tenetur eos exercere cum. debitis 
+circumstan<lb break="no" ed="#L" n="4"/>tiis. Qui enim recipit hospitem, qui pro alio advocatus
+<lb ed="#L" n="5"/>intercedit, et huiusmodi, tenetur haec facere cum debitis
+<lb ed="#L" n="6"/>circumstantiis, si facit: et si non vult facere ut decet, non
+<lb ed="#L" n="7"/>se exerceat in huiusmodi operationibus. - Per haec tamen
+<lb ed="#L" n="8"/>non intelligas male agere eum qui sponte orat dum se
+<lb ed="#L" n="9"/>vestit aut aliquo simili opere occupatur, quantum potest
+<lb ed="#L" n="10"/>intendens orationi attendere. Tum quia alia est quaestio
+<lb ed="#L" n="11"/>de evagatione ex proposito, et alia de opere cum quo stat
+<lb ed="#L" n="12"/>attentio: huiusmodi enim opera non impedire orationis
+<lb ed="#L" n="13"/>attentionem experientia testatur. Et in quibusdam 
+religio<lb break="no" ed="#L" n="14"/>sorum statutis scriptum est quod surgendo dicant officium
+<lb ed="#L" n="15"/>Beatae Virginis. Beatus quoque Pater Dominicus 
+medi<lb break="no" ed="#L" n="16"/>cinam contra phantasmata mala communem ac 
+fructuo<lb break="no" ed="#L" n="17"/>sam dicebat orationem sollicitam statim cum quis surgit
+<lb ed="#L" n="18"/>a somno.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1346">
+                  <lb ed="#L" n="19"/>Nota secundo, quod Auctor, Basilii Meictoritite utens,
+<lb ed="#L" n="20"/>evagationem ex negligentia computat sub evagatione ex
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>proposito: ita quod evagatio ex proposito distinguitur in
+<lb ed="#L" n="22"/>evagationem directe ex industria, ut cum quis explicite vult
+<lb ed="#L" n="23"/>non attendere; et evagationem ex negligentia, ut cum quis
+<lb ed="#L" n="24"/>negligit attendere. Quia enim negligentia voluntaria est,
+<lb ed="#L" n="25"/>ideo evagatio voluntaria reputatur et' est. Evagatio autem
+<lb ed="#L" n="26"/>ex fragilitate excusatur: utpote non ex voluntate, sed 
+im<lb break="no" ed="#L" n="27"/>potentia procedens. Haec igitur evagatio sine peccato est.
+<lb ed="#L" n="28"/>Prima autem semper cum peccato: mortali quidem, quando
+<lb ed="#L" n="29"/>ex contemptu, vel quando ex industria in oratione quae
+<lb ed="#L" n="30"/>est sub praecepto quis in notabili parte evagatur (perinde
+<lb ed="#L" n="31"/>namque est ac si illam omitteret); veniali vero, quando
+<lb ed="#L" n="32"/>orationem spontaneam absque proposito attendendi quis
+<lb ed="#L" n="33"/>dicit, et quando ex negligentia in oratione de praecepto .
+<lb ed="#L" n="34"/>quis non attendit, salvo proposito attendendi. In neutro
+<lb ed="#L" n="35"/>enim casu contra virtutem, sed praeter eam agitur: nam
+<lb ed="#L" n="36"/>orationem spontaneam sic male persolvere est sicut 
+reci<lb break="no" ed="#L" n="37"/>pere hospitem et indecenter tractare; in oratione autem
+<lb ed="#L" n="38"/>praecepta, ex quo semper salvatur propositum attentionis,
+<lb ed="#L" n="39"/>essentialis bonitas moralis actus ex finis intentione salva
+<lb ed="#L" n="40"/>est, et remissio voluntatis in culpa est accidentali.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e1399"><!-- caj-p2p2-q83a14per16" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e1402">Articuli 14-16</head>
+               <p xml:id="TAcCaj-d1e1701-d1e1404">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11" type="fixed=210"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1411">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>IN articulis tribus, scilicet quartodecimo, quintodecimo et
+<lb ed="#L" n="13"/>sextodecimo; eiusdem quaestionis, dubium occurrit circa
+<lb ed="#L" n="14"/>tertiam conditionem orationis, scilicet ly pie, quid 
+im<lb break="no" ed="#L" n="15"/>portet. Et est ratio dubii quia in responsione ad 
+secun<lb break="no" ed="#L" n="16"/>dum articuli quintidecimi Auctor dicit quod non pie 
+pe<lb break="no" ed="#L" n="17"/>tere est petere complementum peccati. Ex quo apparet
+<lb ed="#L" n="18"/>quod pie petere coincidit cum secunda conditione, scilicet
+<lb ed="#L" n="19"/>necessaria ad salutem petere: nam petendo necessaria ad
+<lb ed="#L" n="20"/>salutem, pie petimus.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1435">
+                  <lb ed="#L" n="21"/>Et augetur dubium, quia in articulo sextodecimo 
+Au<lb break="no" ed="#L" n="22"/>ctor, in corpore articuli, dicit quod in peccatorum oratione
+<lb ed="#L" n="23"/>possunt inveniri omnes quatuor conditiones: et idem 
+con<lb break="no" ed="#L" n="24"/>firmat in responsione ad secundum ibidem. In Tertio vero
+<lb ed="#L" n="25"/>Libro Contra Gent., cap. xcvi, Auctor vult amicitiam orantis
+<lb ed="#L" n="26"/>cum Deo intervenire in oratione efficaci, quae sub pietatis
+<lb ed="#L" n="27"/>nomine concludi videtur.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1453">
+                  <lb ed="#L" n="28"/>II. Ad hoc dicitur quod illa conditio pie in hoc 
+di<lb break="no" ed="#L" n="29"/>stinguitur ab aliis conditionibus quod aliae personam pro
+<lb ed="#L" n="30"/>qua, rem petitam et perseverantiam significant, ista 
+in<lb break="no" ed="#L" n="31"/>tentionem referentem ad Deum importat: nam pietas 
+of<lb break="no" ed="#L" n="32"/>ficium ac cultum caelestis patriae Principi et Patri exhibet.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="33"/>Et propterea distinguitur quod potest dupliciter inveniri,
+<lb ed="#L" n="34"/>scilicet formata et informis: ut in responsione ad secundum
+<lb ed="#L" n="35"/>sextidecimi articuli apparet. Et hinc reddi potest ratio 
+di<lb break="no" ed="#L" n="36"/>versorum dictorum de hac conditione. Nam quia huiusmodi
+<lb ed="#L" n="37"/>intentio ad Deum potest utroque modo inveniri, ideo et
+<lb ed="#L" n="38"/>vere dicitur quod continet amicitiam ad Deum, verificatur
+<lb ed="#L" n="39"/>enim hoc de intentione formata: et quod habet locum in
+<lb ed="#L" n="40"/>peccatoribus, verificatur enim hoc de informi. Et quod 
+ex<lb break="no" ed="#L" n="41"/>cludit petere opus peccati, quia peccatum non est referibile
+<lb ed="#L" n="42"/>in Deum: et quod non coincidit cum illa conditione, 
+sci<lb break="no" ed="#L" n="43"/>licet necessaria ad salutem, sed distinguitur ab ea, quia
+<lb ed="#L" n="44"/>pie spectat ad intentionem respectu ultimi finis simpliciter,
+<lb ed="#L" n="45"/>qui est Deus, necessaria vero ad salutem spectat ad rem
+<lb ed="#L" n="46"/>petitam. Ac per hoc, illud spectat ad amorem amicitiae:
+<lb ed="#L" n="47"/>hoc ad amorem concupiscentiae. Et uterque potest haberi
+<lb ed="#L" n="48"/>informis et formatus. Potest enim peccator in aliquo opere
+<lb ed="#L" n="49"/>diligere Deum propter ipsum Deum: ut frequenter 
+contin<lb break="no" ed="#L" n="50"/>git in actibus religionis; et observationibus praeceptorum
+<lb ed="#L" n="51"/>multorum affirmativorum, ut est redditio votorum, honor
+<lb ed="#L" n="52"/>parentum, redditio iusti; et negativorum, ut non occidere,
+<lb ed="#L" n="53"/>non furari, non negare fidem, et huiusmodi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1701-Dd1e1516"><!-- caj-p2p2-q83a17" -->
+               <head xml:id="TAcCaj-d1e1701-Hd1e1519">Articulus 17</head>
+               <p xml:id="TAcCaj-d1e1701-d1e1521">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37" type="fixed=211"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1528">
+                  <lb ed="#L" n="38"/>In articulo septimodecimo dubium occurrit circa illud,
+<lb ed="#L" n="39"/>quod in consecratione maxime mens debet 
+ele<lb break="no" ed="#L" n="40"/>vari in Deum. Quoniam i in consecratione tenetur sacerdos
+<lb ed="#L" n="41"/>consecrans maxime ad exprimenda distincte verba 
+conse<lb break="no" ed="#L" n="42"/>crationis: ac per hoc, non potest maxime mens in Deum
+<lb ed="#L" n="43"/>elevari. Quoniam quanto magis in Deum elevatur, tanto
+<lb ed="#L" n="44"/>minus attendit ad inferiora, ut sunt verba et huiusmodi.
+<lb ed="#L" n="45"/>- Ad hoc dicitur quod in consecratione Eucharistiae, de
+<lb ed="#L" n="46"/>qua est sermo, in qua sacerdos Deum quodammodo ducit
+<lb ed="#L" n="47"/>ad terras, ipsa elevatio maxima in Dei bonitatem, quae sic
+<lb ed="#L" n="48"/>dignatur adesse nobis, ratio est attentionis ad verba in actu
+<lb ed="#L" n="49"/>exercito, hoc est quod sacerdos distincte et reverenter dicat
+<lb ed="#L" n="50"/>verba illa. Quod autem a scrupulosis fit, quia scilicet 
+oc<lb break="no" ed="#L" n="51"/>cupant suam mentem ad hoc ut velint esse intenti et 
+at<lb break="no" ed="#L" n="52"/>tenti, evagatio est et non est attentio, sed habere potius
+<lb ed="#L" n="53"/>attentionem pro obiecto. Elevatio igitur mentis in Deum
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>in consecratione debet esse maxima non intensive et per
+<lb ed="#L" n="55"/>abstractionem a sensibilibus, ut obiectio probat: sed debet
+<lb ed="#L" n="56"/>esse maxima obiective, et quoad conatum (infra 
+latitudi<lb break="no" ed="#L" n="57"/>nem tamen attentionis) ad dicenda verba ut decet.
+</p>
+               <p xml:id="TAcCaj-d1e1701-d1e1576">
+                  <lb ed="#L" n="58"/>II. In eodem articulo, in responsione ad tertium, 
+ad<lb break="no" ed="#L" n="59"/>verte quod non solum ordinem simpliciter inter gratiarum
+<lb ed="#L" n="60"/>actiones et postulationes assignat, quia scilicet prius est
+<lb ed="#L" n="61"/>gratias agere de acceptis quibus praeventi sumus, quam
+<lb ed="#L" n="62"/>petere futura; sed etiam ordinis in missa distincti a Glossa,
+<lb ed="#L" n="63"/>recitati in corpore articuli, rationem reddit, ostendendo
+<lb ed="#L" n="64"/>quomodo haec quatuor se habent respectu unius et 
+eius<lb break="no" ed="#L" n="65"/>dem beneficii; et locando primo, rationem accedendi ad
+<lb ed="#L" n="66"/>Deum; secundo, accessum; tertio, petitiones; et quarto,
+<lb ed="#L" n="67"/>gratiarum actiones; ut Glossa fecit, primo obsecrationes,
+<lb ed="#L" n="68"/>secundo orationes, tertio petitiones, quarto gratiarum 
+actio<lb break="no" ed="#L" n="69"/>nes ponens.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

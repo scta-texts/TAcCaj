@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 65</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 65</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="81"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1608"><!-- TAcCajp2p2-q65" -->
+            <head xml:id="TAcCaj-d1e1608-Hd1e101">Quaestio 65</head>
+            <div xml:id="TAcCaj-d1e1608-Dd1e103"><!-- caj-p2p2-q65a1" -->
+               <head xml:id="TAcCaj-d1e1608-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1608-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="27" type="fixed=80"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1608-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>In articulo primo quaestionis sexagesimaequintae dubium
+<lb ed="#L" n="29"/>occurrit quid nomine membri in materia mutilationis
+<lb ed="#L" n="30"/>intelligatur. Et est ratio dubii quia quidam volunt quod
+<lb ed="#L" n="31"/>membrum proprie sit membrum principale quod habet
+<lb ed="#L" n="32"/>offidum, ut pes ad ambulandum, etc. Et ex hoc inferunt
+<lb ed="#L" n="33"/>quod digitus non est membrum. — In oppositum autem
+<lb ed="#L" n="34"/>est quia membra sunt ex quibus integritas corporis totius
+<lb ed="#L" n="35"/>consurgit. Constat autem non esse integrum corpus cui
+<lb ed="#L" n="36"/>deest unus digitus.
+</p>
+               <p xml:id="TAcCaj-d1e1608-d1e139">
+                  <lb ed="#L" n="37"/>Ad hoc dicitur quod, cum membrum sit procul dubio
+<lb ed="#L" n="38"/>pars habens actum, iuxta illud ad Rom. xu, Omnia autem
+<lb ed="#L" n="39"/>membra non eundem actum habent; et in iure canonico
+<lb ed="#L" n="40"/>inter membra computentur non solum membra habentia
+<lb ed="#L" n="41"/>actus separatim, sed coniunctim, ut patet de testibus, 
+quo<lb break="no" ed="#L" n="42"/>rum officium non nisi genitalibus exercetur (eunuchi 
+nam<lb break="no" ed="#L" n="43"/>que inter mutilatos computantur: ut patet et in Decretis,
+<lb ed="#L" n="44"/>dist. LV, et Extra, de Corp. Vitiat.*): consequens est ut
+<lb ed="#L" n="45"/>nomine membri, in materia mutilationis, appelletur non 
+so<lb break="no" ed="#L" n="46"/>lum membrum principale habens separatum officium, sed
+<lb ed="#L" n="47"/>etiam membrum accessorium et consodale. Et quoniam
+<lb ed="#L" n="48"/>digitus est membrum habens etiam proprium officium evi-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="49"/>dentius quam dicta virilia, ut patet in exercitio musico, ubi
+<lb ed="#L" n="50"/>digiti magis quam manus exercentur; ideo inter membra
+<lb ed="#L" n="51"/>computandi sunt, Secus autem de parte digiti, quae ita est
+<lb ed="#L" n="52"/>pars ut nullius membri appellationem habeat: ut patet
+<ref xml:id="TAcCaj-d1e1608-Rd1e178">Extra, de Corp. Vitiat., cap. De Presbytero.</ref>
+               </p>
+               <p xml:id="TAcCaj-d1e1608-d1e181">
+                  <lb ed="#L" n="53"/>Videtur autem mihi distinguendum de mutilante vel 
+<lb ed="#L" n="54"/>mutilato, quoad. irregularitatem. Quia ad mutilantem suf- .
+<lb ed="#L" n="55"/>ficit abscindere digitum sibi vel alteri ad hoc ut sit 
+irre<lb break="no" ed="#L" n="56"/>gularis: ad mutilatum vero non, quia oportet quod 
+mem<lb break="no" ed="#L" n="57"/>brum abscisum inducat vel impotentiam, vel enormem
+<lb ed="#L" n="58"/>defectum vel deformitatem, seu scandalum, etc., ut patet
+<lb ed="#L" n="59"/>in iure. Et hoc intellige quantum est ex parte membri:
+<lb ed="#L" n="60"/>ut patet Extra, de Clericis Pugnant. in Duello, cap. Porro. .
+<lb ed="#L" n="61"/>Nam ex parte causae, an scilicet ex causa rationabili et
+<lb ed="#L" n="62"/>necessaria, puta propter sanitatem ; aut culpabiliter; aut
+<lb ed="#L" n="63"/>propter iustitiam, ut iudex; alia est consideratio. 
+Consen<lb break="no" ed="#L" n="64"/>tientes enim propriae mutilationi propter necessitatem 
+me<lb break="no" ed="#L" n="65"/>dicinae, non sunt irregulares: ut patet dist. LV, cap. Si
+<lb ed="#L" n="66"/>quis. Culpabiliter autem, seu propter iustitiam, se vel alios
+<lb ed="#L" n="67"/>mutilantes sunt irregulares: ut patere potest ex allegatis
+<lb ed="#L" n="68"/>hic et in materia homicidii.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1608-Dd1e219"><!-- caj-p2p2-q65a2et3" -->
+               <head xml:id="TAcCaj-d1e1608-Hd1e222">Articuli 2-3</head>
+               <p xml:id="TAcCaj-d1e1608-d1e224">
+                  <pb ed="#L" n="82"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=82"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1608-d1e233">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulis secundo et tertio eiusdem quaestionis dubium |
+<lb ed="#L" n="3"/>occurrit quare Auctor, tractans de iniuriis quae facto 
+in<lb break="no" ed="#L" n="4"/>feruntur in personam, quatuor enumeratis, scilicet 
+homici<lb break="no" ed="#L" n="5"/>dio, mutilatione*, verberatione et incarceratione, omiserit
+<lb ed="#L" n="6"/>vulnerationem : praesertim cum nec ad mutilationem 
+redu<lb break="no" ed="#L" n="7"/>catur, ut patet ex eo quod vulnerans nulli est censurae
+<lb ed="#L" n="8"/>obnoxius; nec ad verberationem, ut patet ex eo quod
+<lb ed="#L" n="9"/>non licet patri vulnerare filium, cui tamen licet verberare
+<lb ed="#L" n="10"/>eundem.
+</p>
+               <p xml:id="TAcCaj-d1e1608-d1e257">
+                  <lb ed="#L" n="11"/>Ad hoc dicitur quod vulneratio, ut distinguitur contra
+<lb ed="#L" n="12"/>occisionem et mutilationem, ad verberationem reducitur:
+<lb ed="#L" n="13"/>verbera enim vulnera inferunt, nam continuitatem carnis
+<lb ed="#L" n="14"/>solvunt, in qua dissolutione vulnus consistit. - Nec obstat
+<lb ed="#L" n="15"/>quod patres non possunt vulnerare filios. Quoniam hoc
+<lb ed="#L" n="16"/>de perfectis vulneribus intelligitur, ad quae non extendi
+<lb ed="#L" n="17"/>oeconomicam, sed politicam potestatem, ex ministris et
+<lb ed="#L" n="18"/>instrumentis patet: pater namque manu, flagello, virga,
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>aut etiam fuste caedit; iudex autem ferro linguam 
+vul<lb break="no" ed="#L" n="20"/>nerat, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1608-d1e283">
+                  <lb ed="#L" n="21"/>Non fecit autem Auctor specialem articulum de 
+vulne<lb break="no" ed="#L" n="22"/>ratione, quia non est simplex iniuria habens seorsum 
+pro<lb break="no" ed="#L" n="23"/>priam difficultatem. Habet namque in primis vulnus idem :
+<lb ed="#L" n="24"/>oppositum: opponitur enim continuitati carnis, quae, cum
+<lb ed="#L" n="25"/>unum communium. sensibilium sit, ad quietem vel 
+dele<lb break="no" ed="#L" n="26"/>ctationem sensus spectat , cui opponitur verberatio. Est
+<lb ed="#L" n="27"/>deinde effectus verberationis quando acrior est: unde nec
+<lb ed="#L" n="28"/>differre videtur a verberatione, sed significare excellentiam
+<lb ed="#L" n="29"/>eius; nihil namque refert ferro vel ligno vulnus 
+infli<lb break="no" ed="#L" n="30"/>gere, etc. Eadem demum ratione licite vel illicite fit qua
+<lb ed="#L" n="31"/>maior vel minor verberatio licita vel illicita est: unde et 
+pa<lb break="no" ed="#L" n="32"/>tri inhibita dicitur in littera secundi articuli immoderata
+<lb ed="#L" n="33"/>verberatio. — Nec tamen silentio praeterivit Auctor vulnera:
+<lb ed="#L" n="34"/>sed ea comprehendit subdens illa verba in littera tertii 
+arti<lb break="no" ed="#L" n="35"/>culi: vel quodlibet sensum dolore afficiens.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1608-Dd1e319"><!-- caj-p2p2-q65a4" -->
+               <head xml:id="TAcCaj-d1e1608-Hd1e322">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1608-d1e324">
+                  <pb ed="#L" n="83"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=83"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1608-d1e333">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo quarto eiusdem quaestionis sexagesimaequintae
+<lb ed="#L" n="3"/>adverte, novitie, tria. Primo, quod nomine personae aliis
+<lb ed="#L" n="4"/>coniunctae significatur filius, pater, mater, agnatus, amicus, 1
+<lb ed="#L" n="5"/>tutor, custos, civis, famulus, et huiusmodi: importatur enim
+<lb ed="#L" n="6"/>his nominibus relatio spectans ad coniunctionem cum alio.
+<lb ed="#L" n="7"/>Vidua autem, pupillus, et huiusmodi, important personas.
+<lb ed="#L" n="8"/>tas ab aliis, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1608-d1e353">
+                  <lb ed="#L" n="9"/>Secundo, quod coniunctio cum aliis non variat speciem
+<lb ed="#L" n="10"/>iniuriae, sed aggravat ipsam. Non enim occisio Socratis
+<lb ed="#L" n="11"/>qui non est filius, alterius est speciei ab occisione eiusdem
+<lb ed="#L" n="12"/>si filius esset: sed est alterius gravitatis, ut in littera 
+dici<lb break="no" ed="#L" n="13"/>tur, Et ratio est quia unum et multa non variant speciem.
+</p>
+               <p xml:id="TAcCaj-d1e1608-d1e366">
+                  <lb ed="#L" n="14"/>Tertio quod hic non est sermo de personis coniunctis 
+<lb ed="#L" n="15"/>nobis qui facimus iniuriam: puta de patre meo, principe
+<lb ed="#L" n="16"/>meo, fratre meo, et huiusmodi. De his enim nihil in lit-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>tera dicitur: forte « ctandum est de differenti
+<lb ed="#L" n="18"/>debito quod istis debemus, ut ex illius diversitate 
+cogno<lb break="no" ed="#L" n="19"/>inser diversitatem iniusti erga eosdem, tam facto quam
+</p>
+               <p xml:id="TAcCaj-d1e1608-d1e385">
+                  <lb ed="#L" n="20"/>At si non vis haec expectare, scito quod omnis 
+diver<lb break="no" ed="#L" n="21"/>sitas coniunctionis mei ad aliquos penes quam 
+diversifi<lb break="no" ed="#L" n="22"/>cantur partes iustitiae, ut pietas, observantia et huiusmodi,
+<lb ed="#L" n="23"/>variat speciem. dictarum iniuriarum. Ita quod homicidi
+<lb ed="#L" n="24"/>in aliam trahitur speciem si proprium occidam pare dl
+<lb ed="#L" n="25"/>in aliam si proprium. principem: et simile est de 
+mutila<lb break="no" ed="#L" n="26"/>tione et aliis dictis. Et ratio est quia non solum fit contra
+<lb ed="#L" n="27"/>commutativam iustitiam , auferendo vitam: sed fit contra
+<lb ed="#L" n="28"/>pietatem vel observantiam etc., ut inferius, post discussas
+<lb ed="#L" n="29"/>iniuriarium singulas species et partes iustitiae, latius 
+mani<lb break="no" ed="#L" n="30"/>festabitur in quaestionis cxxu fine.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

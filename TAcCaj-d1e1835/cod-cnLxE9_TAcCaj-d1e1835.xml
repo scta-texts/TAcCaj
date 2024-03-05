@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 109</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 109</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="416"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1835"><!-- TAcCajp2p2-q109" -->
+            <head xml:id="TAcCaj-d1e1835-Hd1e101">Quaestio 109</head>
+            <div xml:id="TAcCaj-d1e1835-Dd1e103"><!-- caj-p2p2-q109a1" -->
+               <head xml:id="TAcCaj-d1e1835-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1835-d1e108">
+                  <pb ed="#L" n="417"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=417"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1835-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo primo quaestionis centesimaenonae, in 
+respon<lb break="no" ed="#L" n="3"/>sione ad tertium, dubium occurrit circa illa verba: Circa 
+<lb ed="#L" n="4"/>huiusmodi res sunt solae virtutes morales. Videtur enim 
+<lb ed="#L" n="5"/>quod hoc falsum sit. Nam circa signa rerum, ut verba, 
+<lb ed="#L" n="6"/>facta et res extra, sunt etiam virtutes intellectuales: ut
+<lb ed="#L" n="7"/>scientia et ars. Non ergo sunt solae virtutes morales circa
+<lb ed="#L" n="8"/>haec.
+</p>
+               <p xml:id="TAcCaj-d1e1835-d1e137">
+                  <lb ed="#L" n="9"/>Si dicatur quod Auctoris verba cum grano salis 
+intel<lb break="no" ed="#L" n="10"/>liguntur: videlicet quod circa haec non absolute, sed 
+quan<lb break="no" ed="#L" n="11"/>tum ad usum, sunt solae virtutes morales, quia uti est
+<lb ed="#L" n="12"/>actus voluntatis: — contra, Auctor ex natura talium rerum
+<lb ed="#L" n="13"/>probat veritatem quae est circa eas esse virtutem moralem,
+<lb ed="#L" n="14"/>ut patet in littera; et non ex eo quod uti est actus 
+vo<lb break="no" ed="#L" n="15"/>luntatis. Ergo de rebus ipsis secundum se loquitur.
+</p>
+               <p xml:id="TAcCaj-d1e1835-d1e155">
+                  <lb ed="#L" n="16"/>II. Ad hoc dicitur quod Auctor procul dubio ex 
+na<lb break="no" ed="#L" n="17"/>tura talium, puta verborum, factorum et rerum extra, non
+<lb ed="#L" n="18"/>absolute, sed quatenus signa sunt eorum quae in nobis
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>sunt, probat veritatem esse virtutem moralem. Et merito.
+<lb ed="#L" n="20"/>Quia ex materia seu obiecto pensanda est natura habitus.
+<lb ed="#L" n="21"/>Signa autem quae quis profert dum verum dicit, sunt
+<lb ed="#L" n="22"/>materia circa quam versatur veritas: sive sint verba, dum
+<lb ed="#L" n="23"/>loquimur; sive facta, dum nutu aut gestu aliquo 
+expri<lb break="no" ed="#L" n="24"/>mimus mentem nostram; sive sint res extra, ut si, in 
+ob<lb break="no" ed="#L" n="25"/>sidione positi, igne accenso significamus his qui extra sunt
+<lb ed="#L" n="26"/>indigentiam nostram, et huiusmodi. Quamvis enim de 
+ra<lb break="no" ed="#L" n="27"/>tione horum absolute non sit aliquid unde potius morali
+<lb ed="#L" n="28"/>quam alterius ordinis virtuti subdantur, de ratione tamen
+<lb ed="#L" n="29"/>eorundem quatenus signa eorum quae in nobis sunt, est
+<lb ed="#L" n="30"/>materia moralis, quoniam sunt signa voluntaria. Et 
+pro<lb break="no" ed="#L" n="31"/>pterea circa ipsa ut sic solae virtutes morales sunt: 
+quam<lb break="no" ed="#L" n="32"/>vis circa ipsa secundum alias rationes possint esse aliae
+<lb ed="#L" n="33"/>virtutes. Formaliter ergo loquendo de istis, quatenus signa
+<lb ed="#L" n="34"/>sunt eorum quae apud nos sunt, optime Auctor dixit, et
+<lb ed="#L" n="35"/>deduxit intentum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1835-Dd1e204"><!-- caj-p2p2-q109a2" -->
+               <head xml:id="TAcCaj-d1e1835-Hd1e207">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1835-d1e209">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21" type="fixed=418"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1835-d1e216">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>In articulo secundo eiusdem quaestionis, in responsione 
+<lb ed="#L" n="23"/>ad quartum, ubi dicitur quod simplicitas facit 
+intentio<lb break="no" ed="#L" n="24"/>nem rectam non directe, intelligendum est non ut directe
+<lb ed="#L" n="25"/>distinguitur contra indirecte; quandoquidem omnis virtus
+<lb ed="#L" n="26"/>directe intentionem facit rectam, sicut et electionem: sed
+<lb ed="#L" n="27"/>ut distinguitur contra secundario. Quia scilicet facere 
+in<lb break="no" ed="#L" n="28"/>tentionem rectam non est opus proprium simplicitatis, sed
+<lb ed="#L" n="29"/>commune omni virtuti: ac per hoc, non est opus primo
+<lb ed="#L" n="30"/>conveniens simplicitati, sed secundario conveniens ei, ex 
+<lb ed="#L" n="31"/>eo quod est sibi et ceteris virtutibus commune.
+</p>
+               <p xml:id="TAcCaj-d1e1835-d1e242">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="32"/>Ubi scito quod intentio potest fieri recta. dupliciter.
+<lb ed="#L" n="33"/>Primo, in hac vel illa materia; Et sic est huius vel illius
+<lb ed="#L" n="34"/>virtutis opus. Et sic simplicitas dicitur facere 
+intentio<lb break="no" ed="#L" n="35"/>nem rectam per exclusionem duplicitatis in 
+significan<lb break="no" ed="#L" n="36"/>do. — Alio modo, absolute. Et sic est, omnis simul 
+vir<lb break="no" ed="#L" n="37"/>tutis opus, et non alicuius particularis virtutis. Et quia
+<lb ed="#L" n="38"/>illud directe dicitur spectare ad aliquam virtutem ad quod
+<lb ed="#L" n="39"/>secundum propriam rationem instituta est, ideo in littera
+<lb ed="#L" n="40"/>absolute negatur quod simplicitas directe faciat 
+intentio<lb break="no" ed="#L" n="41"/>nem rectam.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1835-Dd1e269"><!-- caj-p2p2-q109a3" -->
+               <head xml:id="TAcCaj-d1e1835-Hd1e272">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1835-d1e274">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33" type="fixed=419"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1835-d1e281">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>IN articulo tertio eiusdem centesimaenonae quaestionis,
+<lb ed="#L" n="35"/>circa illa verba.. Solum veritas illa qua aliquis vita
+<lb ed="#L" n="36"/>et sermone talem se demonstrat qualis est, ad hanc 
+vir<lb break="no" ed="#L" n="37"/>tutem pertinet, adverte quod, cum in hac virtute inveniatur
+<lb ed="#L" n="38"/>signum et signatum, dupliciter potes intueri signatum: 
+vi<lb break="no" ed="#L" n="39"/>delicet aut per se et immediatum; aut per accidens et
+<lb ed="#L" n="40"/>mediatum. Si respicias ad signatum per se et immediatum,
+<lb ed="#L" n="41"/>non invenies aliquid signatum nisi quod apud 
+significan<lb break="no" ed="#L" n="42"/>tem est in esse naturali et cognito simul, ut cum quis
+<lb ed="#L" n="43"/>dicit se esse sanum, aut bonum, etc., aut in esse cognito
+<lb ed="#L" n="44"/>tantum, ut cum quis dicit Romam esse in Europa. Si vero
+<lb ed="#L" n="45"/>spectes ad signatum per accidens et mediatum, sic 
+inve<lb break="no" ed="#L" n="46"/>nies quaecumque extranea a signante signata esse: 
+quo<lb break="no" ed="#L" n="47"/>niam contingit de omnibus omnifariam loqui. Et quoniam,
+<lb ed="#L" n="48"/>secundum rem, ea quae extra nos sunt non significamus
+<lb ed="#L" n="49"/>nisi mediantibus his quae apud nos sunt, saltem ficta; et
+<lb ed="#L" n="50"/>accidit his quae apud nos sunt quod alia extra nos 
+refe<lb break="no" ed="#L" n="51"/>rant, unde non convenit omnibus quae apud nos sunt 
+si<lb break="no" ed="#L" n="52"/>gnificare alia extra. nos: ideo Aristoteles et Auctor veri-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="53"/>tatem per signata in nobis definierunt, ab his quae per se
+<lb ed="#L" n="54"/>et immediate concurrunt ad veritatis virtutem, illam 
+ma<lb break="no" ed="#L" n="55"/>nifestantes. Unde ex hoc ipso quod veritatis virtus 
+mani<lb break="no" ed="#L" n="56"/>festat hominem qualis est et nihil aliud, sequitur, non quod
+<lb ed="#L" n="57"/>cetera non manifestet, sed quod cetera non manifestet nisi
+<lb ed="#L" n="58"/>secundum quod sunt in homine. Verbi gratia, si sunt in
+<lb ed="#L" n="59"/>homine ut opinata, non dicit ea ut certa: et sic de aliis.
+<lb ed="#L" n="60"/>Opposita autem vitia aliter quam in significante sint, 
+pro<lb break="no" ed="#L" n="61"/>ferunt quae dicunt: ut patet de mendacibus, etc. Omne
+<lb ed="#L" n="62"/>ergo ab homine quomodolibet cognitum vel imaginatum
+<lb ed="#L" n="63"/>potest per veritatis virtutem manifestari: sed non nisi 
+se<lb break="no" ed="#L" n="64"/>cundum quod est apud significantem. Et hoc significavit, 
+li<lb break="no" ed="#L" n="65"/>cet obscurius, etiam Tullius, dicens: Veritas est per quam
+<lb ed="#L" n="66"/>omnia quae sunt, fuerunt aut futura sunt, immutata 
+di<lb break="no" ed="#L" n="67"/>cuntur, per ly immutata significans quod sicut sunt apud
+<lb ed="#L" n="68"/>dicentem dici facit veritatis virtus. Hoc quoque pulchre
+<lb ed="#L" n="69"/>patet in calce huius articuli, ubi et veritas doctrinae, 
+pro<lb break="no" ed="#L" n="70"/>cul dubio moralis, et quaecumque alia veritas, quia in
+<lb ed="#L" n="71"/>nobis est, ad hanc virtutem spectare dicitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1835-Dd1e371"><!-- caj-p2p2-q109a4" -->
+               <head xml:id="TAcCaj-d1e1835-Hd1e374">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1835-d1e376">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35" type="fixed=420"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1835-d1e383">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>IN articulo quarto eiusdem centesimaenonae quaestionis,
+<lb ed="#L" n="37"/>lon novitie, quod declinare in minus affirmative est
+<lb ed="#L" n="38"/>affirmare minus quam sit. Quod constat non esse falsum,
+<lb ed="#L" n="39"/>quia in maiori includitur minus: sicut si habens decem au-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="40"/>reos dicat se habere duos. - Declinare vero in minus 
+ne<lb break="no" ed="#L" n="41"/>gative est negare totam eius quantitatem. Et hoc constat
+<lb ed="#L" n="42"/>esse falsum: sicut si habens decem dicat: abeo duos
+<lb ed="#L" n="43"/>tantum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

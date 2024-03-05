@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 87</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 87</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="228"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1721"><!-- TAcCajp2p2-q87" -->
+            <head xml:id="TAcCaj-d1e1721-Hd1e101">Quaestio 87</head>
+            <div xml:id="TAcCaj-d1e1721-Dd1e103"><!-- caj-p2p2-q87a1" -->
+               <head xml:id="TAcCaj-d1e1721-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1721-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19" type="fixed=228"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>IN articulo primo quaestionis octogesimaeseptimae, 
+ad<lb break="no" ed="#L" n="21"/>las primo originalem radicem unde determinatio 
+de<lb break="no" ed="#L" n="22"/>cimae partis exhibendae ministris divini cultus provenerit,
+<lb ed="#L" n="23"/>scilicet ex duodenario numero tribuum Israel. Statuit 
+nam<lb break="no" ed="#L" n="24"/>que Deus, cum essent duodecim, ut duodecima, quae erat
+<lb ed="#L" n="25"/>Dei ministra, in duabus partibus ceteras excederet: nam
+<lb ed="#L" n="26"/>singulis undecim tribubus singillatim de decem partibus
+<lb ed="#L" n="27"/>novem restabant, et decima dabatur duodecimae Levitarum;
+<lb ed="#L" n="28"/>et sic quaelibet habebat novem partes, et duodecima 
+ha<lb break="no" ed="#L" n="29"/>bebat undecim, quia habebat decimam quamque cuiuslibet
+<lb ed="#L" n="30"/>undecim. Et cum praeceptum hoc, ut in littera dicitur,
+<lb ed="#L" n="31"/>esset iudiciale, ordinatum ad aequalitatem in populo illo
+<lb ed="#L" n="32"/>servandam, duplex ratio huius excrescentiae assignatur in
+<lb ed="#L" n="33"/>littera. Primo, ut servaretur aequalitas proportionis: ut
+<lb ed="#L" n="34"/>scilicet ministri divini cultus, qui erant nobiliores ex hoc
+<lb ed="#L" n="35"/>ipso quod ad nobilius ministerium addicti sunt, 
+honora<lb break="no" ed="#L" n="36"/>bilius viverent. Secundo, ut vel sic servaretur aequalitas
+<lb ed="#L" n="37"/>simpliciter inter Levitas et alios: quoniam inter tot futuras
+<lb ed="#L" n="38"/>transgressiones, aut non dando aut non exacte, salvaretur
+<lb ed="#L" n="39"/>saltem aequalitas simpliciter; cum tamen proportionis 
+de<lb break="no" ed="#L" n="40"/>beret salvari.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e165">
+                  <lb ed="#L" n="41"/>II. In eodem articulo dubium occurrit circa hoc quod
+<lb ed="#L" n="42"/>praeceptum decimarum dicitur iudiciale. Nam videtur quod
+<lb ed="#L" n="43"/>sit caeremoniale. Quoniam differentia inter iudicialia et
+<lb ed="#L" n="44"/>caeremonialia haec est, quod caeremonialia ad divinum
+<lb ed="#L" n="45"/>cultum, iudicialia ad populum, aequalitatem et pacem 
+spe<lb break="no" ed="#L" n="46"/>ctant. Constat autem quod decimae ad divinum cultum,
+<lb ed="#L" n="47"/>immo ad Deum ipsum ordinabantur, in recognitionem
+<lb ed="#L" n="48"/>sui universalis dominii: ut patet Extra, de Decimis, cap.
+<lb ed="#L" n="49"/>Tua nobis. Ergo est caeremoniale.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e187">
+                  <lb ed="#L" n="50"/>Ad hoc dicitur quod differentia inter caeremonialia et
+<lb ed="#L" n="51"/>iudicialia intelligenda est sic. Caeremonialia sunt quae ad
+<lb ed="#L" n="52"/>Deum vel divinum cultum immediate referuntur: illa 
+au<lb break="no" ed="#L" n="53"/>tem quae mediante aequalitate populi et ministrorum, aut
+<lb ed="#L" n="54"/>ministrorum inter se, ad Deum referuntur, ad iudicialia
+<lb ed="#L" n="55"/>proprie spectant. Unumquodque enim penes id quod 
+di<lb break="no" ed="#L" n="56"/>recte et immediate habet, iudicandum est. Quia igitur 
+de<lb break="no" ed="#L" n="57"/>cimatio per se directe et immediate ordinatur ad 
+aequali<lb break="no" ed="#L" n="58"/>tatem inter ministros Dei et populum servandum, ac etiam
+<lb ed="#L" n="59"/>inter ministros inter se, et mediante hac ordinatur ad Deum;
+<lb ed="#L" n="60"/>ideo inter iudicialia, non caeremonialia, est praecepta 
+com<lb break="no" ed="#L" n="61"/>putandum. Decretalis autem illa intelligenda est mediate
+<lb ed="#L" n="62"/>et facto, non immediate et instituto. Non enim decimae
+<lb ed="#L" n="63"/>sunt institutae ut immediate Deo offerantur in signum
+<lb ed="#L" n="64"/>universalis dominii, sicut sacrificia, oblationes et primitiae:
+<lb ed="#L" n="65"/>sed sunt institutae uf sit im domo Dei cibus pro eius 
+mi<lb break="no" ed="#L" n="66"/>nistris, ut dicitur Malach. mr. Sed ex hoc ipso quod ad
+<lb ed="#L" n="67"/>honorabilem ministrorum Dei victum ab universis dantur,
+<lb ed="#L" n="68"/>significatur ac professio fit quod Dominus universorum
+<lb ed="#L" n="69"/>est ille cuius ministris haec dantur: sicut populus tribuens
+<lb ed="#L" n="70"/>ministris regis profitetur regem dominum suum esse.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e236">
+                  <lb ed="#L" n="71"/>III. In eodem articulo dubium occurrit circa illud, quod
+<lb ed="#L" n="72"/>determinatio decimae partis solvendae est auctoritate 
+Ec<lb break="no" ed="#L" n="73"/>clesiae tempore novae legis instituta secundum quandam
+<lb ed="#L" n="74"/>humanitatem , ut scilicet non minus populus novae legis
+<lb ed="#L" n="75"/>ministris novi Testamenti exhiberet. Videtur enim 
+irratio<lb break="no" ed="#L" n="76"/>nabilis atque iniqua huiusmodi determinatio decimae: nec
+<lb ed="#L" n="77"/>conclusa per rationes duas in littera ad hoc allatas. Et
+<lb ed="#L" n="78"/>quidem quod sit irrationabilis, probatur ex hoc quod non
+<lb ed="#L" n="79"/>est similis proportio tribus Levitarum ad reliquas tribus,
+<lb ed="#L" n="80"/>et clericorum curatorum, quibus solis debentur decimae,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="81"/>ad populum Christianum. Quoniam tribus Levitarum erat
+<lb ed="#L" n="82"/>duodecima pars ilius populi: clerus autem dictus non est
+<lb ed="#L" n="83"/>forte centesima pars populi Christiani. Licet enim sint
+<lb ed="#L" n="84"/>multi curati non habentes centum viros sub sua cura, 
+com<lb break="no" ed="#L" n="85"/>putando tamen parvas cum magnis parochiis, computatis
+<lb ed="#L" n="86"/>etiam eorum coadiutoribus, ut sunt canonici cathedralium
+<lb ed="#L" n="87"/>et similium ecclesiarum quibus debentur decimae, si 
+tran<lb break="no" ed="#L" n="88"/>scendit centesimam, non transcendit forte octogesimam
+<lb ed="#L" n="89"/>partem Christiani populi: hoc praesertim per accidens 
+ser<lb break="no" ed="#L" n="90"/>vato statu, quod scilicet non habent uxores et filios, quae
+<lb ed="#L" n="91"/>tamen personae in tribu Levitarum computabantur ad 
+in<lb break="no" ed="#L" n="92"/>tegrandam partem duodecimam. Cum igitur notabilis valde
+<lb ed="#L" n="93"/>excessus sit inter populum Christianum et suum clerum,
+<lb ed="#L" n="94"/>atque populum Israel et Levitas, consequens est quod 
+ir<lb break="no" ed="#L" n="95"/>rationabile est in nova lege sequi determinationem decimae
+<lb ed="#L" n="96"/>partis in lege veteri statutam.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e297">
+                  <lb ed="#L" n="97"/>Quod autem sit iniqua, patet ex hoc quod, quia 
+secun<lb break="no" ed="#L" n="98"/>dum hoc, si clerus est quinquagesima pars populi, 
+quae<lb break="no" ed="#L" n="99"/>libet quadragintanovem partium populi non habebit nisi
+<lb ed="#L" n="100"/>de decem partibus rerum novem, clerus autem habebit
+<lb ed="#L" n="101"/>quadragintanovem partes, habendo decimam quamque 
+par<lb break="no" ed="#L" n="102"/>tem rerum cuiuslibet quadragintanovem partium. populi; -
+<lb ed="#L" n="103"/>et sic non excedet clerus populum in duabus partibus, ut
+<lb ed="#L" n="104"/>Levitae excedebant populum, sed in quadraginta. partibus.
+<lb ed="#L" n="105"/>Quod est iniquum.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e319">
+                  <lb ed="#L" n="106"/>Quod vero neutra ratio in littera allata probet 
+inten<lb break="no" ed="#L" n="107"/>tum, patet ex hoc quod utraque procedit a communi ad:
+<lb ed="#L" n="108"/>proprium, seu a superiori ad inferius determinate. Licet
+<lb ed="#L" n="109"/>enim iustitia nostra debeat abundare plus quam 
+Iudaeo<lb break="no" ed="#L" n="110"/>rum, non tamen quoad hanc improportionatam 
+determi<lb break="no" ed="#L" n="111"/>nationem, - Et similiter, licet ministri novi Testamenti
+<lb ed="#L" n="112"/>sint honorabiliores, non tamen debetur eis stipendium in
+<lb ed="#L" n="113"/>tanto excessu. T
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e339">
+                  <lb ed="#L" n="114"/>Et augetur hoc dubium de decimis in nova lege 
+pro<lb break="no" ed="#L" n="115"/>pter decimas personales, et propter hoc quod ex integris
+<lb ed="#L" n="116"/>fructibus decimae solvendae sunt*. Quae si diligentius 
+com<lb break="no" ed="#L" n="117"/>putentur, non decima, sed quinta forte pars clero addicta
+<lb ed="#L" n="118"/>invenitur, ut inferius declarabitur. Ac per hoc clerus, si
+<lb ed="#L" n="119"/>quinquagesima pars esset populi, excederet quamlibet aliam
+<lb ed="#L" n="120"/>partem populi sibi aequalem non in quadraginta, sed 
+octo<lb break="no" ed="#L" n="121"/>ginta partibus decimis.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e359">
+                  <lb ed="#L" n="122"/>IV. Ad hoc dicitur quod, quia iudicium de his quae sunt
+<lb ed="#L" n="123"/>ad finem ex fine sumendum est, non secundum ea quae
+<lb ed="#L" n="124"/>sunt per accidens sed secundum id quod est per se, inter
+<lb ed="#L" n="125"/>decimas in veteri lege et nova haec est per se differentia,
+<lb ed="#L" n="126"/>quod tunc dabantur pro victu tantum ministrorum, nunc
+<lb ed="#L" n="127"/>vero dantur pro victu ministrorum et pro usu pauperum.
+<lb ed="#L" n="128"/>Et hoc est quia ministri veteris Testamenti erant tantum
+<lb ed="#L" n="129"/>ministri divini cultus: ministri autem novae legis sunt et
+<lb ed="#L" n="130"/>ministri sacramentorum ac divini cultus, et sunt patres
+<lb ed="#L" n="131"/>pauperum; ad imitationem lesu Christi, qui loculos pro
+<lb ed="#L" n="132"/>sustentatione et pro pauperibus legitur habuisse, Ioan. xuux,
+<lb ed="#L" n="133"/>et rursus imitandi formam dedit: Ego sum Pastor bonus:
+<lb ed="#L" n="134"/>pastor bonus animam suam dat pro ovibus suis, et a 
+for<lb break="no" ed="#L" n="135"/>tiori bona exteriora, quoniam in maiori includitur minus.
+<lb ed="#L" n="136"/>Et secundum Apostolum, I ad Tim. 1m, oportet 
+episco<lb break="no" ed="#L" n="137"/>pum esse hospitalem. Et secundum Hieronymum, ad 
+Da<lb break="no" ed="#L" n="138"/>masum, quidquid habent clerici, pauperum est, ut 
+dici<lb break="no" ed="#L" n="139"/>tur XVI, qu. r, cap. Quoniam. Et Augustinus expresse
+<lb ed="#L" n="140"/>decimas dari pro usu pauperum adeo asseverat ut non
+<lb ed="#L" n="141"/>dantem decimas reum tot homicidiorum dicat quot pau-
+<pb ed="#L" n="229"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>peres ibi mortui sunt, ut habetur ibidem, cap. Decimae.
+<lb ed="#L" n="2"/>Auctor quoque expresse in hac quaestione pluries dicit
+<lb ed="#L" n="3"/>decimas dari ministris ut per eos dispensentur pauperibus.
+<lb ed="#L" n="4"/>Ex hac namque radice solutio omnium oritur. Nam si 
+de<lb break="no" ed="#L" n="5"/>cimae in subsidium tantum ministrorum dandae essent,
+<lb ed="#L" n="6"/>ut in veteri mandatum erat lege, nescirem ego oppositas
+<lb ed="#L" n="7"/>obiectiones solvere: libenterque solutiones audirem aliorum,
+<lb ed="#L" n="8"/>qui scirent tam excessivam distributionem ad aequalitatem
+<lb ed="#L" n="9"/>deducere. - Solvere autem ex hoc quod Deus sic 
+man<lb break="no" ed="#L" n="10"/>davit, aut quod Ecclesia sic mandavit ut daretur Deo, cui
+<lb ed="#L" n="11"/>non potest excessive dari, nihil valet. Tum quoniam 
+prae<lb break="no" ed="#L" n="12"/>ceptum divinum in lege veteri de parte decima ab ipso
+<lb ed="#L" n="13"/>Deo Iesu Christo revocatum est in cruce, cum ceteris 
+iu<lb break="no" ed="#L" n="14"/>dicialibus et caeremonialibus praeceptis, cum dixit: 
+Con<lb break="no" ed="#L" n="15"/>summatum est. Tum quoniam praeceptum erat ut decima
+<lb ed="#L" n="16"/>pars realium, non personalium, cuiusque undecim tribuum
+<lb ed="#L" n="17"/>daretur duodecimae parti totius populi: et non quod 
+quin<lb break="no" ed="#L" n="18"/>quagesimae parti totius populi daretur decima pars 
+cuius<lb break="no" ed="#L" n="19"/>que quadragintanovem. —' Ecclesiam autem mandare ut
+<lb ed="#L" n="20"/>hoc detur Deo immediate, falsum in primis est: quia 
+de<lb break="no" ed="#L" n="21"/>Cimae quasi stipendia sunt clericorum. Et deinde quam
+<lb ed="#L" n="22"/>iusta sit ista rerum distributio, si ab Ecclesia fit, oportet
+<lb ed="#L" n="23"/>ostendere: oportet enim iustitiae distributivae locum esse
+<lb ed="#L" n="24"/>in distribuendis- oneribus, quale est onus decimarum.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e461">
+                  <lb ed="#L" n="25"/>Dicamus igitur quod quia decimae dantur ministris
+<lb ed="#L" n="26"/>Dei pro seipsis et pauperibus, quos semper habemus 
+nobis<lb break="no" ed="#L" n="27"/>eum, ideo iusta est distributio oneris huius, quantumcumque
+<lb ed="#L" n="28"/>excedat; quoniam nunquam tanta est decimae quantitas
+<lb ed="#L" n="29"/>ut pauperibus sufficiat, sed semper pauperes remaneant
+<lb ed="#L" n="30"/>eben, nobiscum, iuxta verbum Domini.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e478">
+                  <lb ed="#L" n="31"/>Et per hoc patet quod nec iniqua nec irrationabilis est
+<lb ed="#L" n="32"/>ista distributio: sed pia mater provide, pauperum filiorum
+<lb ed="#L" n="33"/>miserta, salubre subsidium eisdem attulit — Et si quis
+<lb ed="#L" n="34"/>obiiciat quod multi ministri Ecclesiae non se exhibent 
+pa<lb break="no" ed="#L" n="35"/>tres pauperum: respondetur quod cogendi sunt non minus
+<lb ed="#L" n="36"/>ministri ad dispensandum pauperibus quam populi ad 
+sol<lb break="no" ed="#L" n="37"/>wendas decimas, quanto ipsi, in altiori gradu constituti ,
+<lb ed="#L" n="38"/>magis tenentur. Sat enim est iustitiae legali ecclesiasticae
+<lb ed="#L" n="39"/>ut illis commissa sit dispensatio in pauperes qui de iure
+<lb ed="#L" n="40"/>debent esse patres pauperum.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e502">
+                  <lb ed="#L" n="41"/>Et sic patet quod non restat respondendum nisi obiectis
+<lb ed="#L" n="42"/>contra rationes allatas in littera. Et ad utramque simul
+<lb ed="#L" n="43"/>dicitur quod Auctor non induxit illas ad inferendum : 
+deter<lb break="no" ed="#L" n="44"/>minationem decimae partis: sed ad ostendendum quod 
+po<lb break="no" ed="#L" n="45"/>pulus novae legis ad maiora obligetur ministris Dei quam
+<lb ed="#L" n="46"/>Tonus veteris legis. Quod satis rationabiliter ostenditur ex
+<lb ed="#L" n="47"/>js, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e520">
+                  <lb ed="#L" n="48"/>V. Sed adhuc restat litterale dubium, quomodo in 
+lit<lb break="no" ed="#L" n="49"/>tera dicitur quod Ecclesia secundum quandam humanitatem
+<lb ed="#L" n="50"/>determinavit decimam partem ministris solvendam, 
+confor<lb break="no" ed="#L" n="51"/>mando populum novae legis populo veteris legis: cum
+<lb ed="#L" n="52"/>hoc sit, ut patet ex dictis, potius secundum inhumani-
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e533">
+                  <lb ed="#L" n="53"/>Sed ad hoc dicitur quod quia solutio decimae est actus
+<lb ed="#L" n="54"/>populi ad ministros Dei, utrinque potest considerari: 
+sci<lb break="no" ed="#L" n="55"/>licet ex parte populi, et ex parte ministrorum. Et licet ex
+<lb ed="#L" n="56"/>parte ministrorum, considerato eorum paucorum 
+honora<lb break="no" ed="#L" n="57"/>bili victu ut decet, non consonet veteri legi determinatio
+<lb ed="#L" n="58"/>decimae in nova, propter supradicta; si tamen 
+ministro<lb break="no" ed="#L" n="59"/>rum dignitas attendatur, plus eis debetur quam ministris
+<lb ed="#L" n="60"/>veteris legis. Ex parte tamen populi, simpliciter loquendo,
+<lb ed="#L" n="61"/>humanum valde est ut non plus in novo Testamento, in
+<lb ed="#L" n="62"/>quo plus tenetur, ut in littera probatur, quis solvat quam
+<lb ed="#L" n="63"/>solvebat in veteri, Et secundum haec intelligenda est 
+lit<lb break="no" ed="#L" n="64"/>tera: ut in ipsius rationibus patet.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e562">
+                  <lb ed="#L" n="65"/>VI. In eodem articulo dubium occurrit, pro quanto 
+di<lb break="no" ed="#L" n="66"/>citur quod decimae non divina, sed ecclesiastica auctoritate
+<lb ed="#L" n="67"/>impositae sunt populo Christiano. Nam oppositum habetur
+<lb ed="#L" n="68"/>Extra, de Decimis, in pluribus capitulis, ut patet in cap. 
+Pa<lb break="no" ed="#L" n="69"/>rochianos, et cap. Tua, et cap. Aliquibus, ubi habetur quod
+<lb ed="#L" n="70"/>ideo decimae debentur quia Deus, non homo, sic statuit.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e578">
+                  <lb ed="#L" n="71"/>Ad hoc breviter dicitur quod procul dubio constat Deum
+<lb ed="#L" n="72"/>in sua divina lege decimas dandas decrevisse: nec hoc inter
+<lb ed="#L" n="73"/>fideles vertitur in dubium. Sed divinum decretum potest
+<lb ed="#L" n="74"/>referri ad populum veteris Testamenti, et ad populum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="75"/>novae legis. Et si ad primum referatur, habet vim 
+obliga<lb break="no" ed="#L" n="76"/>tivam: si ad secundum, habet vim exemplarem. Ita quod
+<lb ed="#L" n="77"/>sensus huiusmodi decretalium est: Quia Deus in veteri
+<lb ed="#L" n="78"/>lege obligavit populum suum ad decimam, dedit nobis
+<lb ed="#L" n="79"/>exemplum similis obligationis suscipiendae ab Ecclesia 
+tan<lb break="no" ed="#L" n="80"/>quam iustae et rationabilis et piae. Cum ergo dicitur quod
+<lb ed="#L" n="81"/>lege divina, aut Deo iubente, ad decimas tenemur, 
+intel<lb break="no" ed="#L" n="82"/>lige, exemplariter. Nec aliud sancti Patres intellexerunt, qui
+<lb ed="#L" n="83"/>a legis onere nos esse liberos tam quoad iudicialia quam
+<lb ed="#L" n="84"/>caeremonialia docuerunt.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e614">
+                  <lb ed="#L" n="85"/>VIL. In responsione ad quartum, tres decimas si vis late
+<lb ed="#L" n="86"/>intelligere, vide Hieronymum, super Malachiae m: cap.
+<lb ed="#L" n="87"/>et recitatis in Decretis, XVI, qu. 1, cap. Revertimini; et
+<lb ed="#L" n="88"/>Extra, de Decimis, cap. 1.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e625">
+                  <lb ed="#L" n="89"/>In responsione ad quintum eiusdem articuli dubium
+<lb ed="#L" n="90"/>occurrit, quia, cum debeantur decimae partim ex iure 
+na<lb break="no" ed="#L" n="91"/>turae et partim ex auctoritate Ecclesiae, quamvis Ecclesia
+<lb ed="#L" n="92"/>possit dissimulare quod ex Ecclesiae auctoritate pendet,
+<lb ed="#L" n="93"/>non tamen potest facere quin naturae ius impleatur. Ac
+<lb ed="#L" n="94"/>per hoc, qui nihil decimae solvit, ut in multis Italiae locis
+<lb ed="#L" n="95"/>contingit, ex consuetudine a peccato non excusatur, utpote
+<lb ed="#L" n="96"/>iuris naturae violator.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e645">
+                  <lb ed="#L" n="97"/>Ad hoc dicitur dupliciter. Primo, quod quantumcumque
+<lb ed="#L" n="98"/>aliquis sit debitor alicui, si is cui debetur satisfactum sibi
+<lb ed="#L" n="99"/>dicit, nulla est violatio iuris cuiusque. Ministri autem 
+Ec<lb break="no" ed="#L" n="100"/>clesiae, ubi non petunt, fateri videntur sibi satisfactum. 
+<lb ed="#L" n="101"/>Nec obstat quod omittit petere propter scandalum, ac per
+<lb ed="#L" n="102"/>hoc non sponte. Quoniam viri spirituales, qui ob amorem
+<lb ed="#L" n="103"/>profectus spiritualis in filiis omittunt temporalia sibi debita
+<lb ed="#L" n="104"/>petere, quales sunt isti, sponte hoc faciunt: quoniam ex
+<lb ed="#L" n="105"/>amore caritatis moventur. — Similiter non obstat quod 
+de<lb break="no" ed="#L" n="106"/>cimae non solum propter ministros, sed propter pauperes
+<lb ed="#L" n="107"/>dantur a populo Christiano. Quoniam ministri sic sunt 
+pa<lb break="no" ed="#L" n="108"/>ires pauperum in temporalibus ut magis sint patres 
+pau<lb break="no" ed="#L" n="109"/>perum et divitum in spiritualibus. Et propterea cum 
+spi<lb break="no" ed="#L" n="110"/>rituali profectui populi omissionem decimarum expedire
+<lb ed="#L" n="111"/>vident, non sunt rei malae curae pauperum. Quamvis 
+fa<lb break="no" ed="#L" n="112"/>cilius dici possit de hoc, quod decimae sunt de iure 
+na<lb break="no" ed="#L" n="113"/>turae ad victum ministrorum, non pro pauperibus, sed hoc
+<lb ed="#L" n="114"/>ad eleemosynae ius spectat.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e687">
+                  <lb ed="#L" n="115"/>Secundo dicitur quod, quia de iure naturae decimae
+<lb ed="#L" n="116"/>dandae sunt in subsidium ministrorum, idcirco, si ministri
+<lb ed="#L" n="117"/>tacentes non indigent, cessat ratio obligationis iuris 
+natu<lb break="no" ed="#L" n="118"/>rae. Unde si indigent, etiam si non petant, tenentur iure
+<lb ed="#L" n="119"/>naturae eis subvenire omnes potentes et scientes suae curae
+<lb ed="#L" n="120"/>commissi: iuxta illud Apostoli, ad Gal. vi: Communicet
+<lb ed="#L" n="121"/>is qui catechigzatur ei qui se catechizat in omnibus bonis.
+<lb ed="#L" n="122"/>Nolite errare: Deus non irridetur. Quandoque autem 
+hu<lb break="no" ed="#L" n="123"/>iusmodi omissio, subveniendi scilicet suis curatis 
+indigen<lb break="no" ed="#L" n="124"/>tibus, est peccatum veniale, et quandoque mortale. Si enim
+<lb ed="#L" n="125"/>notabiliter ex huiusmodi omissione patiuntur, nescirem
+<lb ed="#L" n="126"/>omittentes scienter pro modulo suo subvenire huiusmodi
+<lb ed="#L" n="127"/>patribus excusare a mortali. Violatur namque adeo ius
+<lb ed="#L" n="128"/>naturae tunc ut virtus iustitiae, qua debitum huiusmodi
+<lb ed="#L" n="129"/>patribus debemus, non remaneat. Quomodo enim iustitiae
+<lb ed="#L" n="130"/>pars haec salvatur cum notabili detrimento eius cui ius
+<lb ed="#L" n="131"/>reddendum est?
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e726">
+                  <lb ed="#L" n="132"/>VIII. In eadem responsione ad quintum, dubium 
+occur<lb break="no" ed="#L" n="133"/>rit quare Auctor in calce illius apposuit ly .forte, dicendo:
+<lb ed="#L" n="134"/>nisi forte propter obstinationem animi. Videtur namque
+<lb ed="#L" n="135"/>rem claram sub dubio dicere.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e737">
+                  <lb ed="#L" n="136"/>Ad hoc dicitur quod quia nolentes dare petentibus 
+mi<lb break="no" ed="#L" n="137"/>nistris decimas possent ia ah aut praescriptionem, aut
+<lb ed="#L" n="138"/>Ecclesiae Romanae tacitam donationem, eo quod tam 
+diu<lb break="no" ed="#L" n="139"/>turno tempore scivit et toleravit; idcirco Auctor sub 
+du<lb break="no" ed="#L" n="140"/>bitationis nota haec dixit.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e751">
+                  <lb ed="#L" n="141"/>In eadem responsione, iuncta corpori articuli, nota quod
+<lb ed="#L" n="142"/>si gens aliqua vellet fidem Christianam amplecti sine onere
+<lb ed="#L" n="143"/>decimarum, non solum Ecclesia posset eis hoc concedere,
+<lb ed="#L" n="144"/>quia ecclesiastica auctoritate decimae debentur: sed deberet
+<lb ed="#L" n="145"/>eis hoc concedere. Quia ministri Ecclesiae maiorem debent
+<lb ed="#L" n="146"/>habere curam spiritualium bonorum in populo 
+promoven<lb break="no" ed="#L" n="147"/>dorum quam temporalium colligendorum: et, Apostoli
+<lb ed="#L" n="148"/>exemplo, efficere deberent ne decimarum onus praestaret
+<lb ed="#L" n="149"/>impedimentum Evangelio Christi.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1721-Dd1e774"><!-- caj-p2p2-q87a2" -->
+               <head xml:id="TAcCaj-d1e1721-Hd1e777">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1721-d1e779">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21" type="fixed=231"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e786">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>In articulo secundo eiusdem octogesimaeseptimae 
+quae<lb break="no" ed="#L" n="23"/>stionis dubium occurrit circa rationem litterae in corpore 
+<lb ed="#L" n="24"/>articuli, scilicet: Seminantibus spiritualia debentur carna- 
+<lb ed="#L" n="25"/>lia. Sub quibus continentur quaecumque possidemus. Ergo 
+<lb ed="#L" n="26"/>de omnibus possessis debentur decimae. Videtur namque 
+<lb ed="#L" n="27"/>ratio haec in illatione deficere, a carnalibus confuse ad car- 
+<lb ed="#L" n="28"/>nalia. distributive universaliter descendendo: quod non , 
+<lb ed="#L" n="29"/>licet. Sicut-non. valet: Animal ambulat , Ergo omne 
+<lb ed="#L" n="30"/>—animal ambulat; vel, Ergo omnis. speciei animalis ali- 
+<lb ed="#L" n="31"/>quod ambulat. 
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e812">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="32"/>Ad hoc dicitur quod intentio ftia tendere videtur 
+<lb ed="#L" n="33"/>non ad. necessitatem, sed ad rationabilitatem ecclesiastici 
+<lb ed="#L" n="34"/>statuti de solvenda decima omnium iuste possessorum. Et 
+<lb ed="#L" n="35"/>tenet discursus suus subintellecta hac propositione, scilicet 
+<lb ed="#L" n="36"/>quod non est maior ratio de uno carnali quam de alio. 
+<lb ed="#L" n="37"/>Hac enim adiuncta propositione, patet nullum vitium in 
+<lb ed="#L" n="38"/>illatione inveniri. Si enim carnalia debentur, et non est 
+<lb ed="#L" n="39"/>maior ratio: de uno. quam. de alio, consequens est quod 
+<lb ed="#L" n="40"/>omnia aut nullum decimationi subsint. 
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e836">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="41"/>II. In eodem secundo articulo, in responsione ad 
+ulti<lb break="no" ed="#L" n="42"/>mum, adverte quod quia Ecclesia sic statuit quod ex 
+inte<lb break="no" ed="#L" n="43"/>gris fructibus decimae solvantur, ut patet Extra, de Decimis,
+<lb ed="#L" n="44"/>cap. Tua nobis, idcirco Auctor rationem reddere conatur
+<lb ed="#L" n="45"/>huiusmodi statuti. Et adverte quod, hoc modo intellectis 
+de<lb break="no" ed="#L" n="46"/>cimis in veteri lege, cum expensae, tributa ac semina 
+me<lb break="no" ed="#L" n="47"/>dietatem fructuum forte adaequent, consequens est ut tribus
+<lb ed="#L" n="48"/>Levitarum, habens undecim decimas sine seminum, 
+expen<lb break="no" ed="#L" n="49"/>sarum atque tributorum onere, excederet quamlibet aliam
+<lb ed="#L" n="50"/>non in duabus, sed in septem decimis partibus. Quod ideo
+<lb ed="#L" n="51"/>notandum duxerim ut advertas Deum tam excellentem 
+por<lb break="no" ed="#L" n="52"/>tionem decrevisse suis ministris; ac per hoc, non detrahas
+<lb ed="#L" n="53"/>Ecclesiae si, divini exemplo decreti mota, excellens 
+quo<lb break="no" ed="#L" n="54"/>que stipendium Dei ministris statuerit: nemo enim 
+infi<lb break="no" ed="#L" n="55"/>tiari potest iustum esse quod ad divinam fit imitationem.
+<lb ed="#L" n="56"/>Et adverte quod haec de decimis fructuum dicuntur. De
+<lb ed="#L" n="57"/>decimis autem venalium rerum habes in cap. Pastoralis.
+<lb ed="#L" n="58"/>Et universaliter de decimis personalibus vide dictum 
+titu<lb break="no" ed="#L" n="59"/>lum. Et tandem defer consuetudini patriae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1721-Dd1e883"><!-- caj-p2p2-q87a3" -->
+               <head xml:id="TAcCaj-d1e1721-Hd1e886">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1721-d1e888">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33" type="fixed=232"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e895">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>In articulo tertio eiusdem quaestionis octogesimaeseptimae,
+<lb ed="#L" n="35"/>adverte quod ius decimarum consequitur ministerium 
+al<lb break="no" ed="#L" n="36"/>taris et seminationem spiritualium non separatim, sed 
+si<lb break="no" ed="#L" n="37"/>mul. Ita quod licet aliqui sint ministri altaris, ut multi
+<lb ed="#L" n="38"/>religiosi et saeculares clerici, non propterea debet eis 
+po<lb break="no" ed="#L" n="39"/>pulus decimas. Et similiter, licet aliqui praedicent et 
+mini<lb break="no" ed="#L" n="40"/>strent populo sacramenta, non propterea debentur eis 
+de<lb break="no" ed="#L" n="41"/>cimae. Et rursus, licet aliqui faciant utrumque per 
+acci<lb break="no" ed="#L" n="42"/>dens, ut multi religiosi ex privilegio, non propterea 
+de<lb break="no" ed="#L" n="43"/>bentur eis decimae: sed oportet quod utrumque habeant
+<lb ed="#L" n="44"/>per se, hoc est quod teneantur ad altaris ministerium pro
+<lb ed="#L" n="45"/>populo, quod solis curatarum ecclesiarum clericis convenit
+<lb ed="#L" n="46"/>(reliqui enim per accidens pro populo ministrant altari);
+<lb ed="#L" n="47"/>et quod ex officio teneantur seminare spiritualia sacramenta
+<lb ed="#L" n="48"/>et doctrinam populo, quod etiam solis habentibus 
+anima<lb break="no" ed="#L" n="49"/>rum curam convenit. Sic ergo de iure solis clericis 
+haben<lb break="no" ed="#L" n="50"/>tibus animarum curam decimae debentur: ceteris autem
+<lb ed="#L" n="51"/>ratione ipsorum debentur, ut canonicis ecclesiarum 
+cathe<lb break="no" ed="#L" n="52"/>dralium, et similibus.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e941">
+                  <lb ed="#L" n="53"/>II. In eodem tertio articulo, nota quod ius decimarum est
+<lb ed="#L" n="54"/>spirituale, ut in littera dicitur et probatur.- Et ex hoc habes
+<lb ed="#L" n="55"/>quod ius praebendae annexae ministerio altaris aut curae
+<lb ed="#L" n="56"/>animarum sic quod propter alterum horum ordinata sit
+<lb ed="#L" n="57"/>praebenda, spirituale est: quoniam. utrumque horum . 
+spi<lb break="no" ed="#L" n="58"/>rituale est, ut patet. Nec obstat quod ius decimarum sit
+<lb ed="#L" n="59"/>ab Ecclesia. Est namque ab Ecclesia utrumque quantum
+<lb ed="#L" n="60"/>ad determinationem, scilicet quod decima pars, et quod per
+<lb ed="#L" n="61"/>modum praebendae debeatur: sed non quoad fundamentum
+<lb ed="#L" n="62"/>iuris, scilicet ministerium altaris et seminationem 
+spiritua<lb break="no" ed="#L" n="63"/>lium; haec enim spiritualia sunt et a Deo ordinata. Et 
+quo<lb break="no" ed="#L" n="64"/>niam eadem ratio est de iure ex ministerio divini cultus
+<lb ed="#L" n="65"/>et altaris quoad spiritualitatem, quia utrumque ministerium
+<lb ed="#L" n="66"/>spirituale est; idcirco ius praebendae cuiusque competens
+<lb ed="#L" n="67"/>clericis quia divino cultui sunt addicti, spirituale esse ex hoc
+<lb ed="#L" n="68"/>loco habes. Et haec bene notabis in materia simoniae.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e978">
+                  <lb ed="#L" n="69"/>In responsione ad primum eiusdem articuli habes clare
+<lb ed="#L" n="70"/>doctrinam in primo articulo discussam de excessu 
+deci<lb break="no" ed="#L" n="71"/>marum in nova lege.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1721-Dd1e988"><!-- caj-p2p2-q87a4" -->
+               <head xml:id="TAcCaj-d1e1721-Hd1e991">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1721-d1e993">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35" type="fixed=233"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e1000">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>IN articulo quarto eiusdem quaestionis obiectio 
+quorun<lb break="no" ed="#L" n="37"/>dam occurrit quoad illud in responsione ad primum,
+<lb ed="#L" n="38"/>scilicet quod clerici de propriis praediis tenentur decimas
+<lb ed="#L" n="39"/>solvere, etiam si sint eiusdem ecclesiae clerici. Quoniam
+<lb ed="#L" n="40"/>Extra, de Decimis, cap. Novum, dicitur quod Z/ii clerici
+<lb ed="#L" n="41"/>debent solvere decimas qui a clericis spiritualium 
+ministe<lb break="no" ed="#L" n="42"/>riorum labores accipiunt. Ex quo patet quod quia clerici
+<lb ed="#L" n="43"/>eiusdem ecclesiae non accipiunt ministeria spiritualia a 
+cle<lb break="no" ed="#L" n="44"/>ricis, sed ipsi simul populo ministrant, ideo non tenentur
+<lb ed="#L" n="45"/>ad decimas.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e1026">
+                  <lb ed="#L" n="46"/>Ad hoc dicitur quod licet ex illa decretali quidam, 
+con<lb break="no" ed="#L" n="47"/>tra Auctorem et Glossam ibidem, hoc opinentur, 
+secun<lb break="no" ed="#L" n="48"/>dum tamen veritatem ex illa decretali hoc non habetur.
+<lb ed="#L" n="49"/>Quia decretalis non dicit quod li soli teneantur, sed dicit
+<lb ed="#L" n="50"/>quod i tenentur: cum quo stat quod etiam alii teneantur.
+<lb ed="#L" n="51"/>Et ratio pro Auctore est ex parte modi habendi ut 
+pro<lb break="no" ed="#L" n="52"/>prium vel commune, ut patet in littera: et ex parte 
+per<lb break="no" ed="#L" n="53"/>sonae, quia per accidens est quod clericus teneatur suae
+<lb ed="#L" n="54"/>ecclesiae; accidit enim quod iste homo, dominus agri siti
+<lb ed="#L" n="55"/>in parochia, sit clericus huius ecclesiae.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e1050">
+                  <lb ed="#L" n="56"/>II. In eadem responsione ad primum, dubium occurrit
+<lb ed="#L" n="57"/>circa illud, scilicet: Praedia ecclesiae non sunt ad decimas
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="58"/>solvendas obligata, etiam si sint infra terminos alterius
+<lb ed="#L" n="59"/>parochiae. Nam ex hoc sequeretur quod aliqua ecclesia
+<lb ed="#L" n="60"/>fraudaretur suis decimis: ut patet si ponamus quod omnia
+<lb ed="#L" n="61"/>praedia infra terminos alicuius parochiae donarentur a 
+di<lb break="no" ed="#L" n="62"/>versis diversis aliis ecclesiis. Tunc, aliis ecclesiis 
+possiden<lb break="no" ed="#L" n="63"/>tibus cuncta, spoliata remaneret parochialis illa ecclesia
+<lb ed="#L" n="64"/>suis decimis.
+</p>
+               <p xml:id="TAcCaj-d1e1721-d1e1075">
+                  <lb ed="#L" n="65"/>Ad hoc dicitur quod statutum Ecclesiae quod ibi 
+prae<lb break="no" ed="#L" n="66"/>dia ecclesiae curatae non sint obnoxia decimis alterius 
+ec<lb break="no" ed="#L" n="67"/>clesiae curatae, intelligendum est cum grano salis, scilicet
+<lb ed="#L" n="68"/>sine notabili damno ecclesiarum, ut colligi potest ex cap.
+<lb ed="#L" n="69"/>Suggestum, Extra, de Decimis: ne contingat quod unus
+<lb ed="#L" n="70"/>esuriat et alius ebrius sit. Aequitas namque non patitur
+<lb ed="#L" n="71"/>statuta Ecclesiae deordinationem talem inducere. Propter
+<lb ed="#L" n="72"/>quod, in similibus casibus debent praedia extraneis curatis
+<lb ed="#L" n="73"/>ecclesiis donata transire cum onere suo, ut scilicet solitas
+<lb ed="#L" n="74"/>parochiali ecclesiae decimas solvant. Et in tali casu clerici
+<lb ed="#L" n="75"/>per accidens a clericis decimas exigent: per se namque
+<lb ed="#L" n="76"/>exigunt a ;praediis sibi obnoxiis. Unde non violaretur cap. u
+<lb ed="#L" n="77"/>in sui principio, Extra, de Decimis, quod per se et 
+regu<lb break="no" ed="#L" n="78"/>lariter intelligitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

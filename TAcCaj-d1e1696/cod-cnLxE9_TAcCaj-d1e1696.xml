@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 82</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 82</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="187"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1696"><!-- TAcCajp2p2-q82" -->
+            <head xml:id="TAcCaj-d1e1696-Hd1e101">Quaestio 82</head>
+            <div xml:id="TAcCaj-d1e1696-Dd1e103"><!-- caj-p2p2-q82a1" -->
+               <head xml:id="TAcCaj-d1e1696-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1696-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="78" type="fixed=187"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1696-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="79"/>In articulo primo quaestionis octogesimaesecundae, circa
+<lb ed="#L" n="80"/>propriam significationem devotionis, adverte quod cum
+<lb ed="#L" n="81"/>devotio manifeste a devovendo dicatur; et devoveo, quod a
+<lb ed="#L" n="82"/>voveo componitur, sponte promittere Deo significet: quod
+<lb ed="#L" n="83"/>prindpium quod maxime in huiusmodi promissionibus
+<lb ed="#L" n="84"/>pensatur est voluntas, non quomodolibet, sed sic affecta ut
+<lb ed="#L" n="85"/>prompta sit. Hinc et in lingua latina devoti alicui 
+supe<lb break="no" ed="#L" n="86"/>periori dicuntur qui voluntate sic affecta ei sunt dediti ut
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="87"/>prompti sint pro eo. Et proprie Deum, et eos qui quas
+<lb ed="#L" n="88"/>locum Dei tenent, principes et patriam, nostri principia
+<lb ed="#L" n="89"/>respicere videtur. Unde in Ecclesiae usu devotio appropriata
+<lb ed="#L" n="90"/>est his qui sic Deo affecti sunt ut promptos seipsos ad
+<lb ed="#L" n="91"/>Deum et ea quae Dei sunt habeant. Et propterea devotio
+<lb ed="#L" n="92"/>ad significandum huiusmodi voluntatis actum, quo homo
+<lb ed="#L" n="93"/>promptum se exhibet divino cultui, deducta est, et sumitur
+<lb ed="#L" n="94"/>in proposito.
+</p>
+               <p xml:id="TAcCaj-d1e1696-d1e157">
+                  <pb ed="#L" n="188"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>II. In eodem articulo dubium occurrit pro conclusione
+<lb ed="#L" n="2"/>et ratione, pro quanto dicitur quod devotio est specialis
+<lb ed="#L" n="3"/>actus voluntatis, et quod prompta voluntas etc. Nam cum
+<lb ed="#L" n="4"/>omne nomen unum significet, ut dicitur in XI Metaphys.,
+<lb ed="#L" n="5"/>aut devotio significat ipsum actum voluntatis: aut 
+quali<lb break="no" ed="#L" n="6"/>tatem eius, puta promptitudinem. Si significat actum, cum
+<lb ed="#L" n="7"/>nullus actus voluntatis (nisi forte naturalis, quem constat 
+<lb ed="#L" n="8"/>non esse devotionem) sit promptus, sed sit ex habitu infuso
+<lb ed="#L" n="9"/>vel acquisito vel inclinatione aliqua particulari promptus;
+<lb ed="#L" n="10"/>sequitur quod devotio non significat promptam 
+volunta<lb break="no" ed="#L" n="11"/>tem. - Si vero significat promptitudinem, cum promptitudo
+<lb ed="#L" n="12"/>non sit actus, sed qualitas seu modus actus, sequitur quod
+<lb ed="#L" n="13"/>devotio non sit specialis actus voluntatis.
+</p>
+               <p xml:id="TAcCaj-d1e1696-d1e192">
+                  <lb ed="#L" n="14"/>Ad hoc dicitur quod sicut simitas significat curvitatem
+<lb ed="#L" n="15"/>non absolute, sed in certa materia, scilicet naso; ita 
+de<lb break="no" ed="#L" n="16"/>votio formaliter significat promptitudinem, non absolute,
+<lb ed="#L" n="17"/>nec in quocumque actu cuiuscumque potentiae, sed in actu
+<lb ed="#L" n="18"/>voluntatis non quocumque, sed illo quo voluntas se 
+sua<lb break="no" ed="#L" n="19"/>que omnia opera in divino cultu offert Deo. Et sic 
+utrum<lb break="no" ed="#L" n="20"/>que verum est, et neutrum alteri adversatur, diversimode
+<lb ed="#L" n="21"/>intellectum: quod scilicet et qualitatem et actum importat,
+<lb ed="#L" n="22"/>dum significat qualitatem in tali actu speciali, sicut simitas
+<lb ed="#L" n="23"/>curvitatem in tali speciali materia. Ratio autem quae me
+<lb ed="#L" n="24"/>movet ad hoc est quia devotio, ut in sequenti patet 
+ar<lb break="no" ed="#L" n="25"/>ticulo, est actus religionis. Constat autem quod sicut 
+re<lb break="no" ed="#L" n="26"/>ligio est qualitas potentiae , ita actus proprius religionis
+<lb ed="#L" n="27"/>est qualitas actus potentiae. Sic enim in aliis virtutibus
+<lb ed="#L" n="28"/>videmus: ut patet de scire in intellectu speculativo et 
+pro<lb break="no" ed="#L" n="29"/>videre in intellectu practico, iustificatione in voluntate, et
+<lb ed="#L" n="30"/>aliis huiusmodi proprius actibus virtutum, quibus nomina
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="31"/>non sunt imposita propria, sed circumloquimur eos cum
+<lb ed="#L" n="32"/>nomine vel adverbio bonitatis aut rectitudinis, ut bona 
+con<lb break="no" ed="#L" n="33"/>siliatio, recte praecipere, moderate appetere, etc. Est enim
+<lb ed="#L" n="34"/>videre actus proprios virtutum qualitatem seu modum 
+sub<lb break="no" ed="#L" n="35"/>stantiae actus potentiae significare, Et propterea sic est in
+<lb ed="#L" n="36"/>proposito dicendum de devotione.
+</p>
+               <p xml:id="TAcCaj-d1e1696-d1e248">
+                  <lb ed="#L" n="37"/>III. In responsione ad primum eiusdem articuli, adverte
+<lb ed="#L" n="38"/>quod, cum actus voluntatis respectu finis sint tres, scilicet
+<lb ed="#L" n="39"/>velle, frui et intendere, ut in principio qu. vir praecedentis
+<lb ed="#L" n="40"/>Libri patet; et devotio, ut hic dicitur, importet actum 
+vo<lb break="no" ed="#L" n="41"/>luntatis respectu finis, et sit actus hominis offerentis 
+se<lb break="no" ed="#L" n="42"/>ipsum Deo ad eius cultum: consequens est quod devotio
+<lb ed="#L" n="43"/>significat illum voluntatis actum qui est velle, non 
+quali<lb break="no" ed="#L" n="44"/>tercumque, sed ut habet pro fine ac ratione volendi Deum,
+<lb ed="#L" n="45"/>et pro eo quod est ad finem ac re volita se et sua in cultu
+<lb ed="#L" n="46"/>divino. In superiori namque Libro dictum est quod velle
+<lb ed="#L" n="47"/>est actus respectu finis non solum absolute, sed etiam 
+re<lb break="no" ed="#L" n="48"/>spectu finis positi in his quae sunt ad finem. Actus 
+au<lb break="no" ed="#L" n="49"/>tem voluntatis hominis offerentis seipsum Deo ad eius 
+cul<lb break="no" ed="#L" n="50"/>tum, importat huiusmodi velle: nam talis actus, ut in 
+lit<lb break="no" ed="#L" n="51"/>tera dicitur, est respectu finis, et claudit etiam ea quae
+<lb ed="#L" n="52"/>sunt ad finem, scilicet seipsum, quem offert, et cultum
+<lb ed="#L" n="53"/>divinum, in quo se offert. Sic ergo devotio, quae 
+praeci<lb break="no" ed="#L" n="54"/>puus est religionis actus, importat primo prompte velle
+<lb ed="#L" n="55"/>divinum honorem in nostra exercitatione sui cultus: et inde
+<lb ed="#L" n="56"/>provenit prompta electio opportunorum ad hoc, et prompta
+<lb ed="#L" n="57"/>executio convenientium. Cuius signum est quod personae
+<lb ed="#L" n="58"/>vere devotae, cum percipiunt aliquid esse pro divino cultu
+<lb ed="#L" n="59"/>agendum, promptae adeo sunt ut gaudeant se aliquid 
+hu<lb break="no" ed="#L" n="60"/>iusmodi operaturas et operari.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1696-Dd1e304"><!-- caj-p2p2-q82a2" -->
+               <head xml:id="TAcCaj-d1e1696-Hd1e307">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1696-d1e309">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7" type="fixed=189"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1696-d1e316">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>IN articulo secundo eiusdem quaestionis, in responsione
+<lb ed="#L" n="9"/>primum, adverte quod cum caritas sit amor amicitiae
+<lb ed="#L" n="10"/>ad Deum, et religio sit honorativa Dei, ideo diversarum
+<lb ed="#L" n="11"/>rationum sunt uniones earum ad Deum. Propter quod,
+<lb ed="#L" n="12"/>caritas per seipsam unit mentem Deo per unionem 
+spiri<lb break="no" ed="#L" n="13"/>tus, hoc est voluntatis: ita quod habentis caritatem et Dei
+<lb ed="#L" n="14"/>sit unum velle uno vitali impulsu, quem significat 
+spiri<lb break="no" ed="#L" n="15"/>tus; eodem siquidem vitali impulsu movetur habens 
+ca<lb break="no" ed="#L" n="16"/>ritatem, ut sic, quo voluntas Dei amici se movet; unde
+<lb ed="#L" n="17"/>Scriptum est: Qui adhaeret Deo unus spiritus est cum
+<lb ed="#L" n="18"/>eo. Eadem quoque caritas, mediante religione ut sanctitas
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="19"/>est, applicat mentem Deo ut subditam honorando, et 
+pro<lb break="no" ed="#L" n="20"/>pter mentem cetera ad honorem et cultum Dei; mediante
+<lb ed="#L" n="21"/>vero religione ut religio est, applicat hominem ad ipsa opera
+<lb ed="#L" n="22"/>divini cultus: ut in littera dicitur, et prius declaratum fuit.
+</p>
+               <p xml:id="TAcCaj-d1e1696-d1e355">
+                  <lb ed="#L" n="23"/>In responsione ad tertium in eodem articulo habes 
+ex<lb break="no" ed="#L" n="24"/>plicite distinctam significationem alterius rationis in speciali
+<lb ed="#L" n="25"/>huius nominis devotio, ab ea qua utimur in proposito. Nec
+<lb ed="#L" n="26"/>altera earum est impropria. Nec est propterea nomen 
+aequi<lb break="no" ed="#L" n="27"/>vocum, sed potius analogum: proportionaliter namque ad
+<lb ed="#L" n="28"/>Deum et dominos voluntas sic affecta se habet in diverso
+<lb ed="#L" n="29"/>famulatu.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1696-Dd1e374"><!-- caj-p2p2-q82a3" -->
+               <head xml:id="TAcCaj-d1e1696-Hd1e377">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1696-d1e379">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17" type="fixed=190"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1696-d1e386">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>IN articulo tertio eiusdem quaestionis 
+octogesimaesecun<lb break="no" ed="#L" n="19"/>Lise, nota causas devotionis intrinsecas duas: scilicet 
+al<lb break="no" ed="#L" n="20"/>teram ex parte meditationis Dei et beneficiorum suorum;
+<lb ed="#L" n="21"/>alteram ex parte meditationis propriorum defectuum, In
+<lb ed="#L" n="22"/>prima sunt bonitas, misericordia, caritas, etc., Dei erga 
+ho<lb break="no" ed="#L" n="23"/>minem et me; beneficiaque creationis ad imaginem suam,
+<lb ed="#L" n="24"/>redemptionis, baptismi, inspirationum, vocationum per se
+<lb ed="#L" n="25"/>vel alios, expectationis ad poenitentiam, Eucharistiae, 
+prae<lb break="no" ed="#L" n="26"/>servationis a tot periculis animae et corporis, angelicae
+<lb ed="#L" n="27"/>custodiae, et reliquorum beneficiorum singularium. In 
+se<lb break="no" ed="#L" n="28"/>cunda sunt defectus culpae et poenae tam in praeterito
+<lb ed="#L" n="29"/>quam in praesenti; labilitas ad peccandum; dissipatio 
+pro<lb break="no" ed="#L" n="30"/>priae substantiae assuefaciendo cogitatus et voluntates et
+<lb ed="#L" n="31"/>inclinationes aliarum suarum virium ad malum, habitatio
+<lb ed="#L" n="32"/>in regione longinqua ab amicitia et conversatione divina,
+<lb ed="#L" n="33"/>perversitas affectus magis temporalia quam spiritualia 
+com<lb break="no" ed="#L" n="34"/>moda vel incommoda sentientis; nuditas a virtutibus, 
+vul<lb break="no" ed="#L" n="35"/>nera ignorantiae, malitiae, infirmitatis et concupiscentiae;
+<lb ed="#L" n="36"/>vincula manuum et pedum, operum scilicet et affectuum, in
+<lb ed="#L" n="37"/>tenebris, in fetoribus et amaritudinibus esse nec horrere;
+<lb ed="#L" n="38"/>vocem pastoris interius non agnoscere; et, quod omnibus
+<lb ed="#L" n="39"/>peius est, Deum pro inimico et hoste toties elegisse 
+mor<lb break="no" ed="#L" n="40"/>taliter peccando, et propterea tantam eidem iniuriam 
+fe<lb break="no" ed="#L" n="41"/>cisse ut pro Deo refutatus sit, factusque noster deus sit
+<lb ed="#L" n="42"/>venter aut pecunia aut delectatio, etc, Ex huiusmodi nam-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="43"/>que meditationibus, quae quotidianae esse debent religiosis
+<lb ed="#L" n="44"/>et spiritualibus personis, omisso vocalium orationum 
+mul<lb break="no" ed="#L" n="45"/>tiloquio voluntario, devotio aliaeque consequenter 
+gignun<lb break="no" ed="#L" n="46"/>tur virtutes. Nec religiosi aut religiosae, seu spiritualis
+<lb ed="#L" n="47"/>etiam nomine vocari potest qui saltem semel in die ad
+<lb ed="#L" n="48"/>huiusmodi se non transfert. Quo modo namque effectus
+<lb ed="#L" n="49"/>absque causa, finis absque medio, insularis portus absque
+<lb ed="#L" n="50"/>navigatione haberi nequit; sic nec religio in actu absque
+<lb ed="#L" n="51"/>frequentatis actibus suarum causarum, mediorum ac 
+vehi<lb break="no" ed="#L" n="52"/>culorum.
+</p>
+               <p xml:id="TAcCaj-d1e1696-d1e469">
+                  <lb ed="#L" n="53"/>II. In responsione ad tertium, attende quod sicut 
+re<lb break="no" ed="#L" n="54"/>movens prohibens ponitur causa occasionalis motus, ut
+<lb ed="#L" n="55"/>auferens columnam est causa occasionalis motus gravium
+<lb ed="#L" n="56"/>superpositorum deorsum, et auferens obstaculum aquae est
+<lb ed="#L" n="57"/>causa fluxus eiusdem; ita simplices et mulieres causam in
+<lb ed="#L" n="58"/>se habent devotionis, quia scilicet non habent prohibens
+<lb ed="#L" n="59"/>devotionem, scilicet tumorem de seipsis. Et quia non 
+po<lb break="no" ed="#L" n="60"/>nentibus obicem Deus dat gratiam, ideo Ecclesia femineum
+<lb ed="#L" n="61"/>sexum devotum appellat. Non est ergo in culpa scientia
+<lb ed="#L" n="62"/>doctorum, nec in laude imperfectio muliebris: sed abusus
+<lb ed="#L" n="63"/>scientiae in magnifaciendo se, et rectus usus imperfectionis
+<lb ed="#L" n="64"/>in non elevando se. Quo longe melior esset rectus usus
+<lb ed="#L" n="65"/>perfectionis: ut scilicet et eam haberet, et ex ea non se
+<lb ed="#L" n="66"/>magnificaret; ut ipse Auctor, tam eminentis doctrinae, 
+fa<lb break="no" ed="#L" n="67"/>ciebat.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1696-Dd1e505"><!-- caj-p2p2-q82a4" -->
+               <head xml:id="TAcCaj-d1e1696-Hd1e508">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1696-d1e510">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33" type="fixed=191"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1696-d1e517">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>IN articulo quarto eiusdem octogesimaesecundae 
+quae<lb break="no" ed="#L" n="35"/>stionis, adverte quod hinc habes quod non sunt devotae
+<lb ed="#L" n="36"/>personae quae, communiter tristes ac sylvestres, nesciunt
+<lb ed="#L" n="37"/>conversari cum aliis, nisi perturbentur aut dissolvantur.
+<lb ed="#L" n="38"/>Nam devotae personae sunt hilares, laetae in animo suo
+<lb ed="#L" n="39"/>non solum ex principali causa, ut in littera dicitur, se
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="40"/>ex secundaria, scilicet consideratione propriorum defectuum.
+<lb ed="#L" n="41"/>Nam tristitia earum LesE secundum. Deum et eom comitamur.
+<lb ed="#L" n="42"/>gaudium: secundum illud Augustini: Doleat: et de 
+do<lb break="no" ed="#L" n="43"/>lore gaudeat. Propter quod de sanctis egimus quod laeti
+<lb ed="#L" n="44"/>hilaresque erant: et merito, utpote inchoantes in terris 
+cae<lb break="no" ed="#L" n="45"/>lestem conversationem.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

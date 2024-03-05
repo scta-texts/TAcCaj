@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 93</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 93</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="305"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1752"><!-- TAcCajp2p2-q93" -->
+            <head xml:id="TAcCaj-d1e1752-Hd1e101">Quaestio 93</head>
+            <div xml:id="TAcCaj-d1e1752-Dd1e103"><!-- caj-p2p2-q93a1" -->
+               <head xml:id="TAcCaj-d1e1752-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1752-d1e108">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8" type="fixed=302"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e115">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>IN ambobus articulis quaestionis nonagesimaetertiae, 
+no<lb break="no" ed="#L" n="10"/>lobo est quod duo culpabilia in cultu veri Dei 
+com<lb break="no" ed="#L" n="11"/>mittuntur: scilicet falsitas, et superfluitas. Quorum primum
+<lb ed="#L" n="12"/>manifeste mortiferum est: et ideo sub perniciosi nomine
+<lb ed="#L" n="13"/>in littera proponitur primus articulus. Secundus autem in
+<lb ed="#L" n="14"/>superfluitatis stat nomine. Et in promptu horum ratio est.
+<lb ed="#L" n="15"/>Quia scilicet in ipso actu divini-cultus requiritur veritas,
+<lb ed="#L" n="16"/>quia oportet Deum adorare in veritate, ut dicitur Ioan. tv;
+<lb ed="#L" n="17"/>et requiritur commensuratio seu proportio ad spiritum, quia,
+<lb ed="#L" n="18"/>ut ibidem dicitur, oportet Deum adorare in spiritu. 
+Op<lb break="no" ed="#L" n="19"/>ponitur autem veritati falsitas, et proportioni ad spiritum
+<lb ed="#L" n="20"/>superfluitas: quidquid namque extra necessarium aut utile
+<lb ed="#L" n="21"/>ad spiritualem est cultum, totum superfluum est.
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e148">
+                  <lb ed="#L" n="22"/>IN corpore primi articuli dubium occurrit de ritu 
+Iudaeo<lb break="no" ed="#L" n="23"/>rum, quomodo in eo inveniatur mendacii ratio. Nam
+<lb ed="#L" n="24"/>mendacium in verbo est falsa vocis significatio cum 
+in<lb break="no" ed="#L" n="25"/>tentione fallendi: et proportionaliter mendacium in facto
+<lb ed="#L" n="26"/>debet esse falsa facti significatio cum intentione fallendi.
+<lb ed="#L" n="27"/>Constat autem quod Iudaei modo utentes veteri cultu non
+<lb ed="#L" n="28"/>habent intentionem fallendi: quamvis factis falsum 
+signi<lb break="no" ed="#L" n="29"/>ficantibus, credentes se verum significantia facta exercere,
+<lb ed="#L" n="30"/>utantur. Non est ergo in eorum ritu mendacium, sed 
+fa<lb break="no" ed="#L" n="31"/>ctum perniciosum. Et tamen in littera mendacium 
+repu<lb break="no" ed="#L" n="32"/>tatur.
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e174">
+                  <lb ed="#L" n="33"/>Ad hoc dicitur quod in littera nunquam dicitur, nisi
+<lb ed="#L" n="34"/>in communi, quod mendacium est cum aliquis exterius 
+si<lb break="no" ed="#L" n="35"/>gnificat contrarium veritati, sive verbo sive facto. Et 
+pro<lb break="no" ed="#L" n="36"/>pterea non subsumitur in particulari quod in tali cultu,
+<lb ed="#L" n="37"/>scilicet veteris legis apud Iudaeos nunc, sit mendacium 
+per<lb break="no" ed="#L" n="38"/>niciosum: sed quod sit cultus perniciosus, et quod sit 
+fal<lb break="no" ed="#L" n="39"/>sitas perniciosa. Sat enim est quaestioni motae quod 
+in<lb break="no" ed="#L" n="40"/>veniatur in cultu veri Dei aliquid perniciosum, sive falsum
+<lb ed="#L" n="41"/>sive mendacium. Unde sicut Iudaeus dicens corde et ore
+<lb ed="#L" n="42"/>Christum non venisse, sed venturum, non mentitur, sed
+<lb ed="#L" n="43"/>falsum perniciosum dicit; ita colens Deum ritu veteris legis
+<lb ed="#L" n="44"/>profitente facto Christum venturum, non mentitur, sed 
+fa<lb break="no" ed="#L" n="45"/>ctum falsum perniciose exercet in cultu Dei.
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e206">
+                  <lb ed="#L" n="46"/>Quamvis posset dici quod in istis falsis est mendacium
+<lb ed="#L" n="47"/>quantum est ex parte actus exterioris, scilicet verbi vel facti
+<lb ed="#L" n="48"/>falsi, licet non sit mendacium ex parte intentionis interioris:
+<lb ed="#L" n="49"/>et quod in littera distinguitur mendacium ex parte rei 
+si<lb break="no" ed="#L" n="50"/>gnificatae contra id quod est ex parte colentis.
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e219">
+                  <lb ed="#L" n="51"/>Prima responsio, adiuncta hac secunda, amplectenda
+<lb ed="#L" n="52"/>est. Quia falsitatem significare in divino cultu distinguitur
+<lb ed="#L" n="53"/>in littera ex parte rei, et ex parte colentis. Inchoavit ta-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>men Auctor a mendacio pernicioso in hoc corpore articuli,
+<lb ed="#L" n="55"/>quia perniciosa est huiusmodi falsitas, sicut mendacium
+<lb ed="#L" n="56"/>perniciosum: et quia, ut tactum est, ex parte exterioris
+<lb ed="#L" n="57"/>actus est perniciosum mendacium; nec excusat Iudaeorum
+<lb ed="#L" n="58"/>ignorantia tale crimen, sicut nec infidelitatem eorundem.
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e241">
+                  <lb ed="#L" n="59"/>II. In eodem articulo, quoad falsum cultum ex parte
+<lb ed="#L" n="60"/>colentis, nota tria. Primo, quod cultus iste est perniciosus,
+<lb ed="#L" n="61"/>iuxta Auctoris sententiam. Quoniam cum dixisset: Ef ideo
+<lb ed="#L" n="62"/>si per cultum exteriorem aliquid falsum significetur, erit
+<lb ed="#L" n="63"/>cultus perniciosus, statim subdidit: 7Zoc autem contingit
+<lb ed="#L" n="64"/>dupliciter, scilicet ex parte rei significatae , et ex parte
+<lb ed="#L" n="65"/>colentis. Utrumque ergo falsum est ex genere peccatum
+<lb ed="#L" n="66"/>mortale.
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e261">
+                  <lb ed="#L" n="67"/>Secundo, quod tunc est falsitas quando contra 
+Eccle<lb break="no" ed="#L" n="68"/>siam, non autem si praeter Ecclesiae institutionem fieret.
+<lb ed="#L" n="69"/>Unde Auctor in hoc articulo falsitatem ex parte colentis 
+con<lb break="no" ed="#L" n="70"/>stituit in hoc quod est esse contra Ecclesiae institutionem
+<lb ed="#L" n="71"/>seu consuetudinem: quia falsitas cultus contra Ecclesiam
+<lb ed="#L" n="72"/>est. In sequenti vero articulo superfluitatem dicit quando:
+<lb ed="#L" n="73"/>est cultus praeter vel contra constitutionem seu 
+consuetu<lb break="no" ed="#L" n="74"/>dinem Ecclesiae. Perspice igitur differentiam inter contra et
+<lb ed="#L" n="75"/>praeter. Illud perniciosum, hoc superfluum constituit. Illud
+<lb ed="#L" n="76"/>contrariatur veritati, et ideo perniciosum: hoc utilitati, et
+<lb ed="#L" n="77"/>ideo minus malum, et est veniale; licet possit esse 
+mor<lb break="no" ed="#L" n="78"/>tale propter contemptum vel praeceptum, et ideo 
+admi<lb break="no" ed="#L" n="79"/>scetur in littera sequentis articuli ly contra consuetudinem
+<lb ed="#L" n="80"/>communem.
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e294">
+                  <lb ed="#L" n="81"/>Tertio, quod falsitas ista habet locum et in cultu 
+com<lb break="no" ed="#L" n="82"/>muni, et in cultu singulari. Et propterea in littera non 
+di<lb break="no" ed="#L" n="83"/>citur, Et hoc in cultu communi, sed dicitur, Et hoc 
+prae<lb break="no" ed="#L" n="84"/>cipue in cultu communi : insinuans per ly praecipue quod
+<lb ed="#L" n="85"/>hoc etiam potest habere locum in cultu singulari, puta in
+<lb ed="#L" n="86"/>ieiunio vel oratione singulari non imposita ab Ecclesia;
+<lb ed="#L" n="87"/>ut si quis, contra modum Ecclesiae, ieiunaret in Dominica;
+<lb ed="#L" n="88"/>aut oraret sic in propria persona quod nihil ad Ecclesiam,
+<lb ed="#L" n="89"/>cum quilibet sit pars Ecclesiae, et in persona Ecclesiae
+<lb ed="#L" n="90"/>praeceptum habeat orandi a Domino dicente: Orabitis :
+<lb ed="#L" n="91"/>Pater noster, Panem nostrum, Dimitte nobis, etc. -. Ad
+<lb ed="#L" n="92"/>falsitatem autem communis cultus ex parte cuenta non
+<lb ed="#L" n="93"/>solum spectat si sacramenta contra Ecclesiae ritum 
+cele<lb break="no" ed="#L" n="94"/>brantur, ut habes XXVI, qu. v, cap. Quicumque: sed etiam
+<lb ed="#L" n="95"/>reducitur si miracula falsa quis praedicet aut docendo 
+scri<lb break="no" ed="#L" n="96"/>bat; praedicatores namque et doctores in persona Ecclesiae
+<lb ed="#L" n="97"/>docere et praedicare constat. Nec excusantur quacumque
+<lb ed="#L" n="98"/>pia intentione a pernicioso cultu: quia, quantum in se est,
+<lb ed="#L" n="99"/>fidem Christi evacuant veritate.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1752-Dd1e339"><!-- caj-p2p2-q93a2" -->
+               <head xml:id="TAcCaj-d1e1752-Hd1e342">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1752-d1e344">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="51" type="fixed=303"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e351">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="52"/>IN secundo eiusdem quaestionis articulo, vide in littera
+<lb ed="#L" n="53"/>resolutionem superfiuitatis : scilicet, quia, in exterioribus
+<lb ed="#L" n="54"/>solum consistens, ad interiorem Dei cultum non pertinet.
+<lb ed="#L" n="55"/>Cum enim cultus exterior ad interiorem ordinetur, si 
+ali<lb break="no" ed="#L" n="56"/>quis extra fiat cultus qui ad interiorem non ordinetur ,
+<lb ed="#L" n="57"/>superfluus est. Et quia ad interiorem Dei cultum non 
+re<lb break="no" ed="#L" n="58"/>cte ordinatur quod praeter Ecclesiae institutionem aut
+<lb ed="#L" n="59"/>consuetudinem fit, ideo, dato quod aliquis praeter 
+Ec<lb break="no" ed="#L" n="60"/>clesiae morem ad interiorem devotionem intenderet nova
+<lb ed="#L" n="61"/>ordinare, superfluitatis vitio non caret, et exterius tan-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>tum colit: nam interius peccat, ab Ecclesiae regula 
+de<lb break="no" ed="#L" n="63"/>clinans.
+</p>
+               <p xml:id="TAcCaj-d1e1752-d1e384">
+                  <lb ed="#L" n="64"/>Quale autem peccatum committatur in huiusmodi 
+su<lb break="no" ed="#L" n="65"/>perfluitate, quae inter superstitiones numeratur, in littera
+<lb ed="#L" n="66"/>non exprimitur. Est tamen communiter veniale, nisi 
+con<lb break="no" ed="#L" n="67"/>temptus ecclesiasticae disciplinae aut interioris cultus adsit:
+<lb ed="#L" n="68"/>quia non est ibi perfecta superstitionis ratio. Nec tamen leve
+<lb ed="#L" n="69"/>habendum est peccatum hoc. Quoniam infra superstitionis
+<lb ed="#L" n="70"/>latitudipem continetur, quae divino opponitur cultui: omne
+<lb ed="#L" n="71"/>autem peccatum in his quae Dei sunt, magnum esse constat.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 85</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 85</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="224"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1711"><!-- TAcCajp2p2-q85" -->
+            <head xml:id="TAcCaj-d1e1711-Hd1e101">Quaestio 85</head>
+            <div xml:id="TAcCaj-d1e1711-Dd1e103"><!-- caj-p2p2-q85a1" -->
+               <head xml:id="TAcCaj-d1e1711-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1711-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7" type="fixed=216"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>IN articulo primo quaestionis octogesimaequintae dubium
+<lb ed="#L" n="9"/>locust circa principium corporis articuli: an scilicet sit
+<lb ed="#L" n="10"/>verum quod naturalis ratio dictet homini quod alicui 
+su<lb break="no" ed="#L" n="11"/>periori subdatur, a quo egeat adiuvari et dirigi, et hoc
+<lb ed="#L" n="12"/>propter defectus quos in seipso sentit. Videtur enim hoc.
+<lb ed="#L" n="13"/>esse falsum. Quoniam aut est sermo de defectibus corporis,
+<lb ed="#L" n="14"/>aut de defectibus animae, aut utriusque. Sed propter 
+de<lb break="no" ed="#L" n="15"/>fectus corporis non dictat naturalis ratio hominem 
+supe<lb break="no" ed="#L" n="16"/>riori adiutori ac directori subiici. Tum quia defectus 
+cor<lb break="no" ed="#L" n="17"/>poris communes sunt nobis et aliis animalibus. Tum quia
+<lb ed="#L" n="18"/>defectus corporis non ducunt nisi ad corpus sine defectu,
+<lb ed="#L" n="19"/>quale est corpus caeleste. A corporibus autem non 
+expe<lb break="no" ed="#L" n="20"/>ctamus directionem: quamvis adiutorium ex applicatione
+<lb ed="#L" n="21"/>eorundem, ut patet ex illuminatione et medicinis. — 
+Pro<lb break="no" ed="#L" n="22"/>pter defectus vero animae, quoad partem perceptivam, ad
+<lb ed="#L" n="23"/>lumen intellectus agentis recurrens sistit. Quoad potestatem
+<lb ed="#L" n="24"/>vero appetitivam, recurrendo ad rationis regulam 
+natura<lb break="no" ed="#L" n="25"/>liter sistit. — Neuter ergo singillatim aut simul defectus
+<lb ed="#L" n="26"/>naturali dictamine ducit hominem ut cognoscat se subiici
+<lb ed="#L" n="27"/>alicui superiori naturae, a qua adiuvari et dirigi indigeat.
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e163">
+                  <lb ed="#L" n="28"/>Et confirmatur. Quia quod naturalis ratio dictat 
+omni<lb break="no" ed="#L" n="29"/>bus hominibus commune est. Constat autem multos viros
+<lb ed="#L" n="30"/>illustris ingenii non nisi propter vulgus sacrificandum esse
+<lb ed="#L" n="31"/>Deo sensisse: ut Seneca de seipso dicit; et Aristoteles,
+<lb ed="#L" n="32"/>in XII Metaphys., sentire videtur. Averroesque expresse
+<lb ed="#L" n="33"/>idem sentit, ibidem. Et, breviter, omnes negantes 
+divi<lb break="no" ed="#L" n="34"/>nam providentiam circa hominum singulares actus 
+singu<lb break="no" ed="#L" n="35"/>lariter, hoc sentiunt. Non est igitur hoc de iure naturae,
+<lb ed="#L" n="36"/>naturali ratione dictatum.
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e185">
+                  <lb ed="#L" n="37"/>II. Ad hoc dicitur quod ratio potest dici naturalis in
+<lb ed="#L" n="38"/>practicis dupliciter. Primo, illa cognitio quae, tanquam 
+in<lb break="no" ed="#L" n="39"/>dita, statim aut quasi statim homini adest: ut quod homo
+<lb ed="#L" n="40"/>debet vestiri, debet habitare domi, alere filium, honorare
+<lb ed="#L" n="41"/>patrem, et huiusmodi. Et talis cognitio dicitur naturalis
+<lb ed="#L" n="42"/>ex modo: quia inest ad modum naturae. Et ratio sic 
+na<lb break="no" ed="#L" n="43"/>turalis distinguitur contra rationem investigatam.
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e204">
+                  <lb ed="#L" n="44"/>Secundo autem modo ratio dicitur naturalis a natura ut
+<lb ed="#L" n="45"/>principio: quia scilicet habetur ex virtute naturalis luminis
+<lb ed="#L" n="46"/>proveniens vel acquisita. Et sic ratio naturalis distinguitur
+<lb ed="#L" n="47"/>et contra supernaturalem, et contra voluntariam rationem :
+<lb ed="#L" n="48"/>et continet sub se omnem cognitionem quam ex lumine
+<lb ed="#L" n="49"/>intellectus agentis, statim vel discurrendo et multum 
+stu<lb break="no" ed="#L" n="50"/>dendo, etc., habere possumus. Et hoc modo intellexit 
+Au<lb break="no" ed="#L" n="51"/>ctor dicens quod ratio naturalis dictat. Ita quod intentio
+<lb ed="#L" n="52"/>sua est quod ratio naturalis, ut distinguitur contra 
+super<lb break="no" ed="#L" n="53"/>naturalem, qualis est lex divina; et contra voluntariam,
+<lb ed="#L" n="54"/>qualis est lex positiva (quae ideo dicitur voluntaria quia
+<lb ed="#L" n="55"/>a principio nihil differt, ut dicitur V Ethic.): talis ratio
+<lb ed="#L" n="56"/>dictat homini quod subditur alicui superiori, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e235">
+                  <lb ed="#L" n="57"/>Ad cuius evidentiam, scito quod ratio dictans 
+sacrifi<lb break="no" ed="#L" n="58"/>cium est ratio procedens ex multis praemissis: scilicet quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="59"/>in natura est aliquod supremum; et quod illud cognoscit
+<lb ed="#L" n="60"/>hos nostros singulares actus singulariter; et quod 
+benefa<lb break="no" ed="#L" n="61"/>ctor noster est in singularibus. Et quoniam haec omnia
+<lb ed="#L" n="62"/>ratione naturali cognosci possunt, ideo ratio naturalis, fulta
+<lb ed="#L" n="63"/>tot notitiis, dictat homini, qui se sentit defectuosum, quoad
+<lb ed="#L" n="64"/>animam praecipue, se subdi superiori adiutori et directori,
+<lb ed="#L" n="65"/>quem Deum dicimus.
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e259">
+                  <lb ed="#L" n="66"/>III. Ad primum ergo obiectorum dicitar quod sermo
+<lb ed="#L" n="67"/>praesens est de defectibus hominis secundum animam, et
+<lb ed="#L" n="68"/>corporis in ordine ad animam. Et quod quia homo, cum
+<lb ed="#L" n="69"/>toto lumine intellectus agentis et dependentibus ab eo, 
+de<lb break="no" ed="#L" n="70"/>ficere se experimento sentit et in cognitione et in 
+rectitu<lb break="no" ed="#L" n="71"/>dine appetitus; et deficiens in aliquo naturaliter reducitur
+<lb ed="#L" n="72"/>ad indeficiens tanquam dependens ab illo: ideo cognoscit
+<lb ed="#L" n="73"/>se subiici alicui superiori indeficienti; ac per hoc, 
+recur<lb break="no" ed="#L" n="74"/>rendum ad illum ut adiutorem et directorem. Et dato
+<lb ed="#L" n="75"/>quod haec non dictaret naturalis ratio tanquam necessario
+<lb ed="#L" n="76"/>scita, saltem tanquam rationabilia dictat. In moralibus 
+au<lb break="no" ed="#L" n="77"/>tem non oportet expetere certitudinem mathematicam, sed
+<lb ed="#L" n="78"/>rationabilia sufficiunt.
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e290">
+                  <lb ed="#L" n="79"/>Ad confirmationem vero dicitur dupliciter. Primo, quod
+<lb ed="#L" n="80"/>hoc dictamen esse commune testatur quod, ut in littera
+<lb ed="#L" n="81"/>dicitur in responsione ad primum, omnes communiter 
+con<lb break="no" ed="#L" n="82"/>veniunt in hoc quod sacrificium offeratur. Quod autem
+<lb ed="#L" n="83"/>quidam hoc negent, contingit ex hoc quod, dicentes se
+<lb ed="#L" n="84"/>esse sapientes, stulti facti sunt, ut dicitur ad Rom. 1. —
+<lb ed="#L" n="85"/>Alio vero modo dicitur quod ea quae sunt de dictamine
+<lb ed="#L" n="86"/>naturali ut principia, sunt omnibus communia. Ea vero
+<lb ed="#L" n="87"/>quae sunt de dictamine naturali ut conclusiones 
+investi<lb break="no" ed="#L" n="88"/>gatae, non conceduntur ab omnibus: quia nec ab 
+omni<lb break="no" ed="#L" n="89"/>bus cognoscuntur. Sic autem ad dictamen naturale spectat
+<lb ed="#L" n="90"/>sacrificare Deo, et non primo modo. Et propterea non
+<lb ed="#L" n="91"/>est mirum si mult sapientes huius mundi non 
+acce<lb break="no" ed="#L" n="92"/>ptant hoc.
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e323">
+                  <lb ed="#L" n="93"/>IV. In eodem articulo, nota quod Auctor non solum
+<lb ed="#L" n="94"/>ostendit quod ad ius naturale spectat oblatio sacrificii, sed
+<lb ed="#L" n="95"/>etiam quod oblatio sacrificii exterioris. Nam poterat quis
+<lb ed="#L" n="96"/>dicere quod Deo, utpote intellectualis naturae, sufficit 
+ob<lb break="no" ed="#L" n="97"/>latio mentis interior. Et propterea Auctor, ex eo quod 
+na<lb break="no" ed="#L" n="98"/>turale est homini exprimere interiorem mentem exterioribus
+<lb ed="#L" n="99"/>signis quia a sensibilibus cognitionem accipit, docet quod
+<lb ed="#L" n="100"/>ideo naturale quoque est hominem interiorem oblationem
+<lb ed="#L" n="101"/>mentis exteriori oblatione explicare. Et bene adverte quod
+<lb ed="#L" n="102"/>non ex parte necessitatis, quia scilicet alteri homini non
+<lb ed="#L" n="103"/>possumus exprimere aliter mentem nostram nisi 
+sensibili<lb break="no" ed="#L" n="104"/>bus signis: sed ex parte naturalitatis, quia scilicet exprimere
+<lb ed="#L" n="105"/>per sensibilia signa naturale est homini quia a sensibilibus
+<lb ed="#L" n="106"/>accipit cognitionem, Auctor processit. Quoniam ratio 
+ne<lb break="no" ed="#L" n="107"/>cessitatis non habet locum respectu Dei, qui intuetur cor:
+<lb ed="#L" n="108"/>sed optime locum habet ratio naturalitatis ex parte hominis,
+<lb ed="#L" n="109"/>qui offert sacrificium.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1711-Dd1e363"><!-- caj-p2p2-q85a2" -->
+               <head xml:id="TAcCaj-d1e1711-Hd1e366">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1711-d1e368">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="61" type="fixed=217"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e375">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>IN articulo secundo eiusdem octogesimaequintae 
+quae<lb break="no" ed="#L" n="63"/>bini», adverte quod in corpore articuli Auctor rationem
+<lb ed="#L" n="64"/>radicalem, quia scilicet sacrificium exterius debet 
+confor<lb break="no" ed="#L" n="65"/>mari interiori, quod soli Deo offertur, confirmat 
+similitu<lb break="no" ed="#L" n="66"/>dine proportionali, quia scilicet sic se habet vox et con-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="67"/>ceptus significatus; et postmodum conclusionem ipsam ex
+<lb ed="#L" n="68"/>humana consuetudine probat, quam etiam auctoritate 
+di<lb break="no" ed="#L" n="69"/>vinae legis de thymiamate seu unguento prohibito sub
+<lb ed="#L" n="70"/>poena mortis, confirmat. Et si vis materiam hanc latius
+<lb ed="#L" n="71"/>videre, inspice capitulum cxx Libri III. Cont. Gent.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1711-Dd1e405"><!-- caj-p2p2-q85a3" -->
+               <head xml:id="TAcCaj-d1e1711-Hd1e408">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1711-d1e410">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57" type="fixed=218"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e417">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="58"/>IN articulo tertio, vide quod vis rationis consistit in hoc: -
+<lb ed="#L" n="59"/>Duis ex quo alii, tam proprias species habentes quam
+<lb ed="#L" n="60"/>non, ordinati ad illum, trahunt speciem, est actus specialis.
+<lb ed="#L" n="61"/>Oblatio sacrificii est huiusmodi. Ergo, etc. In littera 
+siqui<lb break="no" ed="#L" n="62"/>dem primo maior in exemplo utrorumque ordinatorum
+<lb ed="#L" n="63"/>ad fornicationem; deinde minor similiter in utrisque 
+or<lb break="no" ed="#L" n="64"/>dinatis ad divinam reverentiam, declaratur, etc. Ubi et ha-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>bes differentiam inter actus habentes alias species virtutis,
+<lb ed="#L" n="66"/>et non habentes, in hoc quod isti proprie dicuntur 
+sacri<lb break="no" ed="#L" n="67"/>ficia, illi autem participative dicuntur sacrificia. Sicut etiam
+<lb ed="#L" n="68"/>furtum propter fornicationem est participative fornicari;
+<lb ed="#L" n="69"/>proprie autem actus fornicandi est fornicari. ji
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e450">
+                  <lb ed="#L" n="70"/>In responsione ad tertium ibidem habes proprietate
+<lb ed="#L" n="71"/>vocabulorum Scripturae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1711-Dd1e458"><!-- caj-p2p2-q85a4" -->
+               <head xml:id="TAcCaj-d1e1711-Hd1e461">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1711-d1e463">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21" type="fixed=219"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1711-d1e470">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>In articulo quarto habes quod duo genera sacrificii sunt
+<lb ed="#L" n="23"/>omnibus communia: scilicet interioris mentis oblatio per
+<lb ed="#L" n="24"/>devotionem et orationem; et oblatio actuum aliarum 
+vir<lb break="no" ed="#L" n="25"/>tutum. Tertium autem sacrificii genus est proprium 
+sacer<lb break="no" ed="#L" n="26"/>dotibus et ministris Ecclesiae. Quod hodie in sola Eucha-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="27"/>ristiae oblatione essentialiter consistere videtur: quamvis
+<lb ed="#L" n="28"/>largo vocabulo in iure etiam inveniatur, iuxta illud 
+Gre<lb break="no" ed="#L" n="29"/>gorii in benedictione Cerei: Suscipe, sancte Pater, incensi
+<lb ed="#L" n="30"/>huius sacrificium vespertinum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

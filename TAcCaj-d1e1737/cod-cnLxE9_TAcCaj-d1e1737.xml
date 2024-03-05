@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 90</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 90</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="292"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1737"><!-- TAcCajp2p2-q90" -->
+            <head xml:id="TAcCaj-d1e1737-Hd1e101">Quaestio 90</head>
+            <div xml:id="TAcCaj-d1e1737-Dd1e103"><!-- caj-p2p2-q90a2" -->
+               <head xml:id="TAcCaj-d1e1737-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1737-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="75" type="fixed=292"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1737-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="76"/>IN omnibus tribus articulis quaestionis nonagesimae, de
+<lb ed="#L" n="77"/>Adiuratione, sola una, propter secundum articulum, 
+oc<lb break="no" ed="#L" n="78"/>currit dubitatio: quantum scilicet valeat ratio litterae, 
+to<lb break="no" ed="#L" n="79"/>ties repetita, de actibus pertinentibus ad quandam. 
+socie<lb break="no" ed="#L" n="80"/>tatem cum daemone. Consurgunt siquidem hic duo dubia.
+<lb ed="#L" n="81"/>An scilicet, cessante omni invocatione, reverentia et pacto,
+<lb ed="#L" n="82"/>tam explicite quam implicite, liceat homini uti operatione
+<lb ed="#L" n="83"/>daemonum ad opera non excedentia vires naturales eorum,
+<lb ed="#L" n="84"/>nec mala, nec propter malum finem. - Alterum est: si
+<lb ed="#L" n="85"/>non est licitum, an sit peccatum mortale uti huiusmodi
+<lb ed="#L" n="86"/>operibus daemonum , puta locutione, executione seu 
+ser<lb break="no" ed="#L" n="87"/>vitio.
+</p>
+               <p xml:id="TAcCaj-d1e1737-d1e146">
+                  <lb ed="#L" n="88"/>Et est ratio dubitandi quia non apparet hic malum ex
+<lb ed="#L" n="89"/>genere: sed ex periculo, quia scriptum est: Cum 
+per<lb break="no" ed="#L" n="90"/>verso perverteris; vel quia prohibitum, I ad Cor. x: Nolo
+<lb ed="#L" n="91"/>vos fieri socios daemoniorum. — Et experientia quotidiana
+<lb ed="#L" n="92"/>testatur, cum arreptitiae personae occurrunt, multos cum
+<lb ed="#L" n="93"/>daemonibus colloqui absque scrupulo conscientiae. — Et
+<lb ed="#L" n="94"/>Auctor inferius, qu. xcv, art. 4, ad 1, dicit: Inquirere ali-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="95"/>quid a daemone sponte occurrente quandoque licet propter
+<lb ed="#L" n="96"/>utilitatem aliorum.
+</p>
+               <p xml:id="TAcCaj-d1e1737-d1e170">
+                  <lb ed="#L" n="97"/>II. Ad evidentiam huius difficultatis, sciendum est quod
+<lb ed="#L" n="98"/>hic non est quaestio de invocatione daemonum, ut patet
+<lb ed="#L" n="99"/>ex titulo dubii: quoniam illa est manifeste illicita, et 
+pecca<lb break="no" ed="#L" n="100"/>tum mortale, spectans ad apostasiam, ut infra in loco 
+pro<lb break="no" ed="#L" n="101"/>prio patet. Sed quaestio est de colloquiis et admissione
+<lb ed="#L" n="102"/>servitiorum et huiusmodi, quando daemon sponte se. 7" am
+<lb ed="#L" n="103"/>fert aut occurrit. Et dicendum est quod dupliciter homo
+<lb ed="#L" n="104"/>potest huiusmodi communes actus exercere cum. daemone:
+<lb ed="#L" n="105"/>aut tanquam cum hoste; aut tanquam cum socio, seu 
+non<lb break="no" ed="#L" n="106"/>hoste. Si enim homo inquirit aliquid. loquendum vel 
+fa<lb break="no" ed="#L" n="107"/>ciendum a daemone tanquam ab hoste, nullum peccatum
+<lb ed="#L" n="108"/>est: quoniam dati sunt nobis in hostes, et hostiliter ad
+<lb ed="#L" n="109"/>eos nos habere debemus. Et quoniam cum his hostibus
+<lb ed="#L" n="110"/>nulla est indutiarum concessa libertas, ut interim possit
+<lb ed="#L" n="111"/>homo cum daemone, quasi treugae tempore, conversari ;
+<lb ed="#L" n="112"/>consequens est ut semper hostiliter ad eos nos habere
+<lb ed="#L" n="113"/>oporteat. Ad hostes autem dupliciter nos inculpabiliter ex-
+<pb ed="#L" n="293"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>hibemus: scilicet expulsive, vel compulsive. Et propterea
+<lb ed="#L" n="2"/>his solis duobus modis, per se loquendo, licite ad 
+daemo<lb break="no" ed="#L" n="3"/>nes nos habemus: vel expellendo, ut in exorcismis et 
+ora<lb break="no" ed="#L" n="4"/>tionibus supra arreptitios fit; vel compellendo, ut sancti
+<lb ed="#L" n="5"/>viri saepe faciunt, praecipiendo eis divina potestate, qua
+<lb ed="#L" n="6"/>se eos compellere posse sciunt, ut aliqua dicant vel faciant,
+<lb ed="#L" n="7"/>non ut spontanei, sed ut hostes in captivitatem servitutis
+<lb ed="#L" n="8"/>redacti, quo modo Deus et angeli utuntur ministerio 
+dae<lb break="no" ed="#L" n="9"/>monum.
+</p>
+               <p xml:id="TAcCaj-d1e1737-d1e234">
+                  <lb ed="#L" n="10"/>III. Si vero homo ad daemonem se habeat non ut 
+ho<lb break="no" ed="#L" n="11"/>stem, peccatum est: quandoque mortale, quandoque 
+ve<lb break="no" ed="#L" n="12"/>niale. Nam habere socialem actum cum daemone est. 
+pec<lb break="no" ed="#L" n="13"/>catum mortale ex suo genere: quia actus socialis habet
+<lb ed="#L" n="14"/>materiam repugnantem non qualitercumque, sed perniciose.
+<lb ed="#L" n="15"/>Et quod sit materia repugnans, patet ex eo quod socialis
+<lb ed="#L" n="16"/>actus terminatur ad hostem Dei, caelestis patriae, et 
+no<lb break="no" ed="#L" n="17"/>strum. Constat enim hostem repugnare societati: cum 
+so<lb break="no" ed="#L" n="18"/>cietas omnis sub amicitia comprehendatur honesti, 
+dele<lb break="no" ed="#L" n="19"/>ctabilis vel utilis; nulla autem cum hoste amicitia est 
+con<lb break="no" ed="#L" n="20"/>cessa. Quod autem sit repugnans perniciose, patet ex eo
+<lb ed="#L" n="21"/>quod est cum hoste in his in quibus est hostis. Nam non
+<lb ed="#L" n="22"/>potest in daemone distingui duplex genus voluntariorum,
+<lb ed="#L" n="23"/>quoddam pertinens ad hostilitatem et quoddam non, ut
+<lb ed="#L" n="24"/>inter-homines ad invicem inimicos contingit: sed omnia
+<lb ed="#L" n="25"/>voluntaria daemonis hostilia sunt, propter eorum 
+perver<lb break="no" ed="#L" n="26"/>sam ac obstinatam voluntatem in malo, in tantum ut in
+<lb ed="#L" n="27"/>quolibet suo voluntario opere peccent mortaliter, ut in
+<lb ed="#L" n="28"/>praecedenti habitum est Libro. Omnis autem amicitia
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>cum hoste in his quae hostilia sunt, est perniciosa, utpote
+<lb ed="#L" n="30"/>hostilitati contraria. Unde sequitur quod si cum daemone
+<lb ed="#L" n="31"/>exercetur actus socialis perfecte, est peccatum mortale: si
+<lb ed="#L" n="32"/>vero imperfecte, est peccatum veniale.
+</p>
+               <p xml:id="TAcCaj-d1e1737-d1e289">
+                  <lb ed="#L" n="33"/>Habet autem rationem actus socialis perfecte, uti 
+dae<lb break="no" ed="#L" n="34"/>monis voluntaria confabulatione, servitio, doctrina, et 
+si<lb break="no" ed="#L" n="35"/>milibus: haec enim socialis sunt vitae. Imperfecte autem,
+<lb ed="#L" n="36"/>si quis ex levitate vel curiositate, non credens se divinam
+<lb ed="#L" n="37"/>amicitiam offendere, cum occurrente daemone in assumpto
+<lb ed="#L" n="38"/>corpore vel arreptitio, per modum transeuntis loquitur,
+<lb ed="#L" n="39"/>inquirit curiosa, facit aliquid vanum ab eo fieri (puta 
+mo<lb break="no" ed="#L" n="40"/>vere lapidem), respondet pro tunc. In his namque actibus,
+<lb ed="#L" n="41"/>licet sit perfecte ratio humani actus, non tamen est 
+per<lb break="no" ed="#L" n="42"/>fecte ratio actus socialis: et ratione huius imperfectionis
+<lb ed="#L" n="43"/>a mortali excusantur; sicut in quolibet genere peccati 
+mor<lb break="no" ed="#L" n="44"/>talis actus propter imperfectionem sunt peccata venialia.
+</p>
+               <p xml:id="TAcCaj-d1e1737-d1e318">
+                  <lb ed="#L" n="45"/>IV. Cum his autem omnibus stat quod per accidens
+<lb ed="#L" n="46"/>licitum esse potest ab occurrente daemone inquirere, et
+<lb ed="#L" n="47"/>cum eo loqui, propter aliorum utilitatem, ut Auctor in
+<lb ed="#L" n="48"/>allegata auctoritate dicit, si casus accidat, quasi 
+testimo<lb break="no" ed="#L" n="49"/>nium ab hoste oblato exigens. Et tunc tanquam cum hoste
+<lb ed="#L" n="50"/>haec agenda sunt, et per modum transeuntis. Ex quo 
+nam<lb break="no" ed="#L" n="51"/>que hoc est per accidens, non exigitur compulsio nec 
+expul<lb break="no" ed="#L" n="52"/>sio, nisi quoad finem: hoc est quod finis proximus sit 
+immi<lb break="no" ed="#L" n="53"/>nens utilitas hoc exposcens ad honorem Christi, Quod raro
+<lb ed="#L" n="54"/>aut nunquam accidere videtur nisi his qui possunt 
+daemo<lb break="no" ed="#L" n="55"/>nes compellere: quoniam, mendax cum sit et hostis, nulla
+<lb ed="#L" n="56"/>potest eius verbis fides dari nisi adsit virtus compulsiva.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

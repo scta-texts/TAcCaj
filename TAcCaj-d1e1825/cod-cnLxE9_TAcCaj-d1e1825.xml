@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 107</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 107</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="406"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1825"><!-- TAcCajp2p2-q107" -->
+            <head xml:id="TAcCaj-d1e1825-Hd1e101">Quaestio 107</head>
+            <div xml:id="TAcCaj-d1e1825-Dd1e103"><!-- caj-p2p2-q107a3" -->
+               <head xml:id="TAcCaj-d1e1825-Hd1e106">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1825-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="59" type="fixed=406"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>In quaestione centesimaseptima, et specialiter in articulo
+<lb ed="#L" n="61"/>tertio; dubium occurrit circa dictum Auctoris ibi, 
+vide<lb break="no" ed="#L" n="62"/>licet: Potest tamen contingere quod talis ingratitudo sit
+<lb ed="#L" n="63"/>peccatum mortale : vel propter interiorem contemptum, vel
+<lb ed="#L" n="64"/>propter conditionem eius quod subtrahitur. Et est dubii
+<lb ed="#L" n="65"/>ratio multiplex. Tum quia ly talis ingratitudo refert 
+in<lb break="no" ed="#L" n="66"/>gratitudinem de qua immediate ante sermo habetur, 
+scili<lb break="no" ed="#L" n="67"/>cet quae illud non tribuit debitum ad quod non tenetur.
+<lb ed="#L" n="68"/>Constat namque quod homo non peccat mortaliter ex hoc
+<lb ed="#L" n="69"/>quod non addit beneficio recepto: satis est enim ad 
+evi<lb break="no" ed="#L" n="70"/>tandum mortale peccatum reddere aequivalens.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e144">
+                  <lb ed="#L" n="71"/>Tum quia etiam reddere aequivalens particulari 
+bene<lb break="no" ed="#L" n="72"/>factori non obligat plus quam reddere debitam 
+obedien<lb break="no" ed="#L" n="73"/>tiam superiori. Sed non adimplens praeceptum superioris,
+<lb ed="#L" n="74"/>citra contemptum, non peccat mortaliter peccato 
+inobe<lb break="no" ed="#L" n="75"/>dientiae. Ergo non gratus, citra contemptum beneficii et
+<lb ed="#L" n="76"/>benefactoris, quamvis omittat reddere quod. debet, multo
+<lb ed="#L" n="77"/>minus peccat mortaliter peccato ingratitudinis. Consistit
+<lb ed="#L" n="78"/>enim formaliter ingratitudo in contemptu. beneficii, sicut
+<lb ed="#L" n="79"/>inobedientia in contemptu praecepti.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e166">
+                  <lb ed="#L" n="80"/>Tum quia per illa verba litterae, videlicet, propter 
+con<lb break="no" ed="#L" n="81"/>ditionem eius quod subtrahitur, quod ex necessitate 
+debe<lb break="no" ed="#L" n="82"/>tur. beneficio., simpliciter vel in casu, aut. Auctor intendit
+<lb ed="#L" n="83"/>quod omissio omnis rei quae ex necessitate debetur 
+bene<lb break="no" ed="#L" n="84"/>ficio simpliciter aut in casu, est peccatum mortale. Et hoc
+<lb ed="#L" n="85"/>videtur valde absonum: quoniam sequeretur quod si quis
+<lb ed="#L" n="86"/>omitteret honorare aut revereri benefactorem, peccaret 
+mor<lb break="no" ed="#L" n="87"/>taliter. Et tenet sequela ex <ref xml:id="TAcCaj-d1e1825-Rd1e185">art. 3 praec. quaestionis</ref>, ubi 
+dici<lb break="no" ed="#L" n="88"/>tur quod benefactori, inquantum  huiusmodi, debetur honor
+<lb ed="#L" n="89"/>et reverentia, eo quod habet rationem principii: per 
+acci<lb break="no" ed="#L" n="90"/>dens autem subventio, si indigeat. Falsitas autem 
+conse<lb break="no" ed="#L" n="91"/>quentis probatur ex eo quod si quis etiam omittit 
+hono<lb break="no" ed="#L" n="92"/>rare patrem aut principem, absque contemptu tamen (sic
+<lb ed="#L" n="93"/>enim loquimur), non peccat mortaliter: et tamen constat
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>quod peius est pietatem aut observantiam omittere quam
+<lb ed="#L" n="95"/>gratitudinem, ut patet ex r art. praec. quaestionis, — Aut
+<lb ed="#L" n="96"/>Auctor non intendit quod omissio omnis rei debitae ex 
+ne<lb break="no" ed="#L" n="97"/>cessitate beneficio, sed quod omissio alicuius rei necessario
+<lb ed="#L" n="98"/>debitae beneficio, illius scilicet quae talis est conditionis
+<lb ed="#L" n="99"/>quod eius omissio privationem caritatis infert, mortale 
+pec<lb break="no" ed="#L" n="100"/>catum est. Et tunc restat sub dubio quae est ista conditio
+<lb ed="#L" n="101"/>rei ex necessitate beneficio debitae simpliciter, puta 
+hono<lb break="no" ed="#L" n="102"/>ris aut reverentiae. Non enim apparet.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e224">
+                  <lb ed="#L" n="103"/>Tum quia ingratitudo, ut in littera dicitur in 
+respon<lb break="no" ed="#L" n="104"/>sione ad secundum articuli t quaest. praecedentis, non est
+<lb ed="#L" n="105"/>contra debitum legale, sed solummodo contra debitum
+<lb ed="#L" n="106"/>honestatis. Sed omittere id quod solum ex honestate est
+<lb ed="#L" n="107"/>debitum, quamvis minus bonum sit, peccatum tamen 
+mor<lb break="no" ed="#L" n="108"/>tale non videtur. - Et confirmatur. Quia si esset mortale
+<lb ed="#L" n="109"/>peccatum, esset peccatum contra proximum. Et cum 
+consi<lb break="no" ed="#L" n="110"/>stat in subtractione, oporteret quod consisteret in laesione
+<lb ed="#L" n="111"/>proximi in aliquo notabili, ad hoc quod esset peccatum
+<lb ed="#L" n="112"/>mortale ex suo: genere: sicut cetera vitia quae. proximum
+<lb ed="#L" n="113"/>laedunt, ut patet de contumelia, detractione, etc. In nullo
+<lb ed="#L" n="114"/>autem notabili apparet laedi PUE ab ingrato per solam
+<lb ed="#L" n="115"/>omissionem, citra contemptum.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e255">
+                  <lb ed="#L" n="116"/>II. In eodem articulo dubium aliud occurrit, circa 
+<lb ed="#L" n="117"/>subiunctam differentiam, videlicet quod ingratitulo 
+prove<lb break="no" ed="#L" n="118"/>niens ex peccato mortali habet perfectam "n
+<lb ed="#L" n="119"/>rationem, quae vero provenit ex veniali, PR mm qud
+<lb ed="#L" n="120"/>intendit Auctor. Nam aut loquitur de ingratitudiio
+<lb ed="#L" n="121"/>ter: aut materialiter. Si formaliter, nulla est differentia.
+<lb ed="#L" n="122"/>Quia ex qualicumque peccato proveniat ingratitudo 
+forma<lb break="no" ed="#L" n="123"/>lis, habet. perfectam rationem ingratitudinis, ut patet. - Si
+<lb ed="#L" n="124"/>materialiter, falsum. dicitur quod ingratitudo. proveniens ex
+<lb ed="#L" n="125"/>mortali habet perfectam ingratitudinis rationem. Nam 
+per<lb break="no" ed="#L" n="126"/>fecta ingratitudinis ratio non habetur sine eo quod 
+com<lb break="no" ed="#L" n="127"/>plet rationem formalem ingratitudinis: sicut nec habetur
+<pb ed="#L" n="407"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>perfecta ratio navis si materia tantum habeatur, sine formali
+<lb ed="#L" n="2"/>ipsius navis, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e292">
+                  <lb ed="#L" n="3"/>III. Ad horum evidentiam, sciendum est quod 
+ingrati<lb break="no" ed="#L" n="4"/>tudo dupliciter sumitur. Scilicet formaliter: et sic est 
+so<lb break="no" ed="#L" n="5"/>lummodo contemptus beneficii seu benefactoris, sicut 
+in<lb break="no" ed="#L" n="6"/>obedientia est contemptus praecepti, ut ex articulo secundo,
+<lb ed="#L" n="7"/>in responsione ad primum, habes. Et propterea ingratus
+<lb ed="#L" n="8"/>formaliter ille solus est qui ex contemptu omittit retribuere
+<lb ed="#L" n="9"/>aut laudare aut reminisci, vel committit aliquid contra 
+be<lb break="no" ed="#L" n="10"/>nefactorem, Et hoc membrum, scilicet ingratitudo 
+forma<lb break="no" ed="#L" n="11"/>liter, exprimitur in littera hac ibi: propter interiorem 
+con<lb break="no" ed="#L" n="12"/>temptum. Et quia contemptus beneficii vel benefactoris 
+di<lb break="no" ed="#L" n="13"/>recte contrariatur virtuti gratitudinis, et tollit caritatem,
+<lb ed="#L" n="14"/>ex qua tenemur diligere benefactorem; ideo ingratitudo 
+for<lb break="no" ed="#L" n="15"/>maliter videtur de genere suo peccatum mortale. Potest
+<lb ed="#L" n="16"/>tamen esse veniale propter imperfectionem actus: vel ex
+<lb ed="#L" n="17"/>parte actus, puta quia primus motus; vel ex parte 
+mate<lb break="no" ed="#L" n="18"/>riae, puta quia in re minima, ut de furto dicimus; 
+contem<lb break="no" ed="#L" n="19"/>ptus enim in re minima quia minima, non est contemptus,
+<lb ed="#L" n="20"/>sicut furtum rei minimae quia minima, non est furtum. 
+Se<lb break="no" ed="#L" n="21"/>cus autem si non ideo quia minima res est, furatur quis
+<lb ed="#L" n="22"/>aut contemnit: iuxta illud Luc.: Qui infidelis est in 
+mi<lb break="no" ed="#L" n="23"/>nimo, et-in magno infidelis erit.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e340">
+                  <lb ed="#L" n="24"/>Alio modo sumitur materialiter. Et tam omissio triplex
+<lb ed="#L" n="25"/>in littera numerata, scilicet retributionis in opere, locutione
+<lb ed="#L" n="26"/>et memoria, quam commissio etiam triplex, in opere, 
+lo<lb break="no" ed="#L" n="27"/>cutione et aestimatione, ingratitudo est. Et hoc membrum
+<lb ed="#L" n="28"/>in littera hac tangitur per totum residuum corporis articuli,
+<lb ed="#L" n="29"/>ut distinguitur contra contemptum interiorem. Ita quod
+<lb ed="#L" n="30"/>Auctor in hoc huius articuli corpore semper loquitur de
+<lb ed="#L" n="31"/>ingratitudine materialiter, nisi cum loquitur de contemptu:
+<lb ed="#L" n="32"/>quia tunc loquitur de ingratitudine formaliter. Et intendit
+<lb ed="#L" n="33"/>quod ingratitudo formaliter est peccatum mortale, ut 
+di<lb break="no" ed="#L" n="34"/>ctum est: materialiter autem, non nisi ex conditione omissi
+<lb ed="#L" n="35"/>aut commissi, hoc est, si omissum est talis conditionis ut
+<lb ed="#L" n="36"/>eius subtractio sit mortale peccatum contra proximum.
+<lb ed="#L" n="37"/>Verbi gratia, Socrates exposuit se mortis periculo ut me
+<lb ed="#L" n="38"/>liberaret: ego autem eundem in mortis periculo positum
+<lb ed="#L" n="39"/>possum eruere, et, negligens ipsum eruere, sino ipsum
+<lb ed="#L" n="40"/>Occidi. Et similiter si benefactorem meum vulnero aut 
+con<lb break="no" ed="#L" n="41"/>tumelia afficio. In his enim et similibus omissionibus et
+<lb ed="#L" n="42"/>commissionibus ea quae omittuntur aut committuntur sunt
+<lb ed="#L" n="43"/>talis conditionis quod ingratitudinem, materialiter tamen,
+<lb ed="#L" n="44"/>manifeste ingerunt: sicut quodlibet peccatum mortale 
+re<lb break="no" ed="#L" n="45"/>spectu Dei ingratitudinem annexam habet peccatoris. Unde
+<lb ed="#L" n="46"/>sicut superius dictum est quod detrahens materialiter 
+tan<lb break="no" ed="#L" n="47"/>tum non peccat mortaliter nisi ex conditione mali prolati,
+<lb ed="#L" n="48"/>quod videlicet est notabiliter laesivum famae proximi, ut
+<lb ed="#L" n="49"/>si quis de bene reputata muliere, ex loquacitate 
+publica<lb break="no" ed="#L" n="50"/>ret eius secretum adulterium; ita nunc dicitur quod 
+in<lb break="no" ed="#L" n="51"/>gratus materialiter non peccat mortaliter nisi ex conditione
+<lb ed="#L" n="52"/>omissi aut commissi, quod videlicet notabiliter laedit 
+pro<lb break="no" ed="#L" n="53"/>ximum.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e408">
+                  <lb ed="#L" n="54"/>Et quia haec erat intentio Auctoris, ideo statim 
+sub<lb break="no" ed="#L" n="55"/>iungit differentiam inter ingratitudinem consequentem 
+pec<lb break="no" ed="#L" n="56"/>catum mortale, et veniale. Haec namque differentia ad 
+ma<lb break="no" ed="#L" n="57"/>teriam ingratitudinis spectat, de qua Auctor ratiocinatur in
+<lb ed="#L" n="58"/>littera, alio tamen ordine. Quia primo distinxit modos 
+in<lb break="no" ed="#L" n="59"/>gratitudinis: scilicet vel per omissionem, vel per 
+commis<lb break="no" ed="#L" n="60"/>sionem. Et subdivisit ly per omissionem, ratione materiae
+<lb ed="#L" n="61"/>quae omitti potest, in duo membra: scilicet vel per 
+omis<lb break="no" ed="#L" n="62"/>sionem debiti ad quod tamen gratus non tenetur ex 
+ne<lb break="no" ed="#L" n="63"/>cessitate ut adaequet beneficium, sed ut abundet, iuxta 
+de<lb break="no" ed="#L" n="64"/>terminata in art. 6 quaest. praecedentis; vel per omissionem
+<lb ed="#L" n="65"/>debiti ad quod gratus tenetur ex necessitate ut adaequet
+<lb ed="#L" n="66"/>beneficium. Et primo quidem, Auctor determinat simpliciter
+<lb ed="#L" n="67"/>quod ingratus per solam omissionem debiti superexcrescentis
+<lb ed="#L" n="68"/>non peccat mortaliter, sed venialiter. Secundo, quod ingratus
+<lb ed="#L" n="69"/>per omissionem debiti necessarii ad adaequandum, peccare
+<lb ed="#L" n="70"/>potest mortaliter dupliciter: vel propter interiorem 
+contem<lb break="no" ed="#L" n="71"/>ptum, vel propter conditionem omissi. Tertio, quod 
+ingra<lb break="no" ed="#L" n="72"/>tus per commissionem potest peccare mortaliter propter
+<lb ed="#L" n="73"/>conditionem commissi. Et tu subintellige quod multo magis
+<lb ed="#L" n="74"/>propter contemptum potest peccare mortaliter quam 
+omit<lb break="no" ed="#L" n="75"/>tens: quanto contemptus ducens ad committendum peior
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>est omittente tantum. Et quia hoc manifeste sequebatur ex
+<lb ed="#L" n="77"/>dictis de contemptu omissionis, ideo tacuit hoc littera.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e465">
+                  <lb ed="#L" n="78"/>IV. Ad primam ergo obiectionem dicitur quod ly talis
+<lb ed="#L" n="79"/>ingratitudo non refert ingratitudinem superexcrescentiae, de
+<lb ed="#L" n="80"/>qua negaverat littera mortale, et concluserat veniale 
+pec<lb break="no" ed="#L" n="81"/>catum: sed. refert primum membrum divisionis, scilicet 
+in<lb break="no" ed="#L" n="82"/>gratitudinem per solam omissionem; de qua quia dixerat
+<lb ed="#L" n="83"/>et manifestaverat quod non semper est peccatum mortale,
+<lb ed="#L" n="84"/>modo subiungit quod potest esse mortale peccatum, vel 
+pro<lb break="no" ed="#L" n="85"/>pter contemptum interiorem vel propter conditionem, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e486">
+                  <lb ed="#L" n="86"/>Ad secundam autem obiectionem dicitur quod utique
+<lb ed="#L" n="87"/>verum est quod sicut inobedientia formaliter consistit in
+<lb ed="#L" n="88"/>contemptu, ita et ingratitudo. Sed quemadmodum 
+inobe<lb break="no" ed="#L" n="89"/>dientia materialiter invenitur mortale peccatum propter 
+con<lb break="no" ed="#L" n="90"/>ditionem eius quod praeteritur, puta quia est contra Deum
+<lb ed="#L" n="91"/>vel proximum, ut patet in periurio et adulterio; ita 
+ingra<lb break="no" ed="#L" n="92"/>titudo invenitur materialiter quandoque mortale peccatum
+<lb ed="#L" n="93"/>propter conditionem eius quod omittitur vel committitur:
+<lb ed="#L" n="94"/>simile namque accidit utrobique.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e508">
+                  <lb ed="#L" n="95"/>Ad tertiam vero obiectionem dicitur quod Auctor per
+<lb ed="#L" n="96"/>illa verba 1ntendit secundam partem disiunctivae propositae,
+<lb ed="#L" n="97"/>videlicet quod omissio alicuius necessario debiti benefactori
+<lb ed="#L" n="98"/>potest esse peccatum mortale. Et determinatur in littera
+<lb ed="#L" n="99"/>quod est illud aliquod, cum dicitur, propter conditionem
+<lb ed="#L" n="100"/>eius etc. Pro cuius pleniori notitia, nota quod quia 
+par<lb break="no" ed="#L" n="101"/>ticularis benefactor est etiam nobis proximus, ideo debetur
+<lb ed="#L" n="102"/>ei et quod proximo, et quod benefactori. Ita quod tria ei
+<lb ed="#L" n="103"/>debet qui suscepit beneficium: scilicet id quod debet ei
+<lb ed="#L" n="104"/>ut proximo, et quod ei debet ut benefactori ut adaequet
+<lb ed="#L" n="105"/>beneficium susceptum, et id quod eidem debet ut aliquid
+<lb ed="#L" n="106"/>plus exhibeat, ut sic fiat quaedam adaequatio voluntatum.
+<lb ed="#L" n="107"/>Hoc tertium in littera dicitur superexcrescens debitum, et
+<lb ed="#L" n="108"/>distinguitur contra necessario debitum : quod ex necessitate
+<lb ed="#L" n="109"/>debitum continet tam primum quam secundum. 
+Quemad<lb break="no" ed="#L" n="110"/>modum enim ea quae communiter proximis debemus, 
+fi<lb break="no" ed="#L" n="111"/>lius magis debet patri quam aliis; ita beneficiatus magis
+<lb ed="#L" n="112"/>debet benefactori ea quae communiter debentur proximis,
+<lb ed="#L" n="113"/>quam aliis. Et quemadmodum impietatis materialiter est
+<lb ed="#L" n="114"/>commissum in patrem quodcumque crimen, ita 
+ingratitu<lb break="no" ed="#L" n="115"/>dinis materialiter est omissum quodcumque debitum  
+be<lb break="no" ed="#L" n="116"/>nefactori, quomodocumque ei debeatur. Non intendit ergo
+<lb ed="#L" n="117"/>Auctor specialiter de honoris et reverentiae omissione, quae
+<lb ed="#L" n="118"/>debentur per se benefactori: sed de omissione cuiuscumque
+<lb ed="#L" n="119"/>ex necessisate quomodolibet debiti benefactori. Et docet
+<lb ed="#L" n="120"/>quod talis conditionis. potest esse id quod omittitur quod
+<lb ed="#L" n="121"/>erit peccatum" mortale: ut patet cum omittitur illud 
+bo<lb break="no" ed="#L" n="122"/>num proximi ad quod de necessitate salutis tenetur quis
+<lb ed="#L" n="123"/>exhibendum benefactori, simpliciter, ut est communis amor,
+<lb ed="#L" n="124"/>vel in casu, ut est subventio. - Declaratur autem hanc esse
+<lb ed="#L" n="125"/>intentionem litterae, et ex eo quod de ingratitudine 
+mate<lb break="no" ed="#L" n="126"/>rialiter loquitur, et constat haec omnia esse materiam 
+in<lb break="no" ed="#L" n="127"/>gratitudinis. Et ex eo quod par iudicium in littera 
+subiun<lb break="no" ed="#L" n="128"/>gitur de ingratitudine per commissionem, Aio modo, etc.:
+<lb ed="#L" n="129"/>et concludit: Et hoc etiam, secundum conditionem eius
+<lb ed="#L" n="130"/>quod agitur, quandoque est peccatum mortale et 
+quando<lb break="no" ed="#L" n="131"/>que veniale; levis enim offensa benefactoris ingratitudinem
+<lb ed="#L" n="132"/>venialem habet annexam.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e593">
+                  <lb ed="#L" n="133"/>Ad quartam demum obiectionem dicitur quod, ut in
+<lb ed="#L" n="134"/>qu. Lxxx superius didicimus, debitum morale est duplex:
+<lb ed="#L" n="135"/>quoddam sine quo honestas morum non salvatur; 
+quod<lb break="no" ed="#L" n="136"/>dam ad bene esse. Et ut ibi patet, gratitudo spectat ad
+<lb ed="#L" n="137"/>debitum morale primo modo, sicut etiam veritas et fidelitas.
+<lb ed="#L" n="138"/>Violatio autem huiusmodi debiti, ut praedictum est, 
+po<lb break="no" ed="#L" n="139"/>test fieri dupliciter: materialiter, vel formaliter. Et 
+mate<lb break="no" ed="#L" n="140"/>rialiter quidem, non est peccatum mortale nisi conditio
+<lb ed="#L" n="141"/>eius quod debetur trahat in mortale: puta quia est in 
+noo<lb break="no" ed="#L" n="142"/>tabile proximi nocumentum. Formaliter autem, non videtur 
+<lb ed="#L" n="143"/>regulam generalem habere: quia quandoque consistit in
+<lb ed="#L" n="144"/>actu contra dilectionem proximi, et quandoque non, ut
+<lb ed="#L" n="145"/>patet de mendacio. In proposito tamen, quia ingratitudo
+<lb ed="#L" n="146"/>formaliter consistit in actu contemptus benefactoris, ideo
+<lb ed="#L" n="147"/>ex genere suo videtur mortale peccatum. Unde superius,
+<lb ed="#L" n="148"/>cum de iudicio temerario. tractaretur, didicimus. quod, 
+in<lb break="no" ed="#L" n="149"/>quantum non est sine contemptu proximi, peccatum 
+mor<lb break="no" ed="#L" n="150"/>tale est. Ex hoc ergo quod contemptus benefactoris con-
+<pb ed="#L" n="408"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>trariatur dilectioni quam ex necessitate caritatis illi 
+debe<lb break="no" ed="#L" n="2"/>mus, ingratitudo formaliter peccatum mortale etiam in
+<lb ed="#L" n="3"/>littera ponitur, dum dicitur quod propter interiorem 
+con<lb break="no" ed="#L" n="4"/>temptum omissio est peccatum mortale. - Et cum 
+quae<lb break="no" ed="#L" n="5"/>ritur: Quid tollit proximo ingratitudo formaliter? 
+respon<lb break="no" ed="#L" n="6"/>detur quod tollit amorem illi debitum et honorem. Et haec
+<lb ed="#L" n="7"/>non qualitercumque tollit, sed contemnendo. Quo 
+contem<lb break="no" ed="#L" n="8"/>ptu committit in benefactorem actu interiore saltem, dum
+<lb ed="#L" n="9"/>ideo non vult retribuere ut velit contra benefactorem : sicut
+<lb ed="#L" n="10"/>enim contemptus praecepu est velle facere vel omittere ut
+<lb ed="#L" n="11"/>sit contra praeceptum, ita contemptus beneficii, ut sic, ac
+<lb ed="#L" n="12"/>proinde benefactoris, est velle facere vel omittere ut sit
+<lb ed="#L" n="13"/>contra benefactorem. Quod ex suo genere sonat contrarium
+<lb ed="#L" n="14"/>actum dilectioni benefactoris, ac per hoc Dei vel proximi
+<lb ed="#L" n="15"/>iniuriam importare videtur, qui benefactor est: ad idem
+<lb ed="#L" n="16"/>enim vitium ingratitudinis spectat contemptus beneficii, et
+<lb ed="#L" n="17"/>benefactoris, sicut ad eandem virtutem gratitudinis spectat
+<lb ed="#L" n="18"/>utrumque. Cuius oppositum dictum est contingere in
+<lb ed="#L" n="19"/>obedientia: quia contemptus praecepti spectat ad 
+inobe<lb break="no" ed="#L" n="20"/>dientiam; contemptus autem illius qui praecipit, spectat
+<lb ed="#L" n="21"/>ad observantiae vel pietatis contraria, et huiusmodi. Et
+<lb ed="#L" n="22"/>ratio est quia illi qui praecipiunt speciali gaudent 
+praero<lb break="no" ed="#L" n="23"/>gativa, ut Deus, pater, princeps, quibus proprias sibi 
+vin<lb break="no" ed="#L" n="24"/>dicant virtutes maiores virtute respiciente eorum  
+praece<lb break="no" ed="#L" n="25"/>ptum: sed particulares personae quae benefaciunt nullam
+<lb ed="#L" n="26"/>supponuntur habere specialem praerogativam ultra hoc
+<lb ed="#L" n="27"/>quod beneficium conferunt.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e697">
+                  <lb ed="#L" n="28"/>V. Ad dubium secundum potest dici quod utroque
+<lb ed="#L" n="29"/>modo sumitur ingratitudo, et sensus in idem redit. Nam
+<lb ed="#L" n="30"/>potest dici quod sumitur ingratitudo materialiter: et quod
+<lb ed="#L" n="31"/>ingratitudo materialiter tunc dicitur habere perfectam 
+ra<lb break="no" ed="#L" n="32"/>tionem ingratitudinis quando habet perfecte materiam 
+in<lb break="no" ed="#L" n="33"/>gratitudinis. Et quia peccatum mortale est perfecte materia
+<lb ed="#L" n="34"/>ingratitudinis, veniale autem non; ideo ingratitudo 
+conse<lb break="no" ed="#L" n="35"/>quens mortale dicitur perfecta, alia imperfecta et 
+secun<lb break="no" ed="#L" n="36"/>dum quid. - Et potest dici quod sumitur ingratitudo 
+for<lb break="no" ed="#L" n="37"/>maliter, sed non simpliciter, sed quoad materiam: quia ex
+<lb ed="#L" n="38"/>peccato mortali habetur perfecta ratio ingratitudinis ex parte
+<lb ed="#L" n="39"/>materiae, ex veniali non. Prima tamen expositio magis 
+lit<lb break="no" ed="#L" n="40"/>terae consonat.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e728">
+                  <lb ed="#L" n="41"/>Et debes scire quod ingratitudo formaliter dupliciter 
+in<lb break="no" ed="#L" n="42"/>venitur: vel in propria specie, vel elevata in superiori spe-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="43"/>cie; sicut potentia calefactiva invenitur formaliter in 
+ca<lb break="no" ed="#L" n="44"/>lore, et in luce. Ingratitudo formaliter in propria specie est
+<lb ed="#L" n="45"/>vitium quo quis. ingratus est particulari benefactori: et 
+op<lb break="no" ed="#L" n="46"/>ponitur directe virtuti gratiae. Ingratitudo autem formaliter
+<lb ed="#L" n="47"/>elevata in peius vitium, continetur modo sub uno, modo
+<lb ed="#L" n="48"/>sub altero vitio. Nam respectu beneficii divini, continetur
+<lb ed="#L" n="49"/>sub irreligiositate, quae opponitur religioni, ad quam 
+spe<lb break="no" ed="#L" n="50"/>ctat gratias agere Deo; respectu vero beneficii paterni, 
+con<lb break="no" ed="#L" n="51"/>tinetur sub impietate, quae opponitur pietati, cuius est
+<lb ed="#L" n="52"/>patri debitas gratias agere; respectu vero principum, spectat
+<lb ed="#L" n="53"/>ad vitium contrarium observantiae, cuius est principibus
+<lb ed="#L" n="54"/>gratias debitas reddere. Unde quicumque horum contemnit
+<lb ed="#L" n="55"/>beneficium, ingratus formaliter dicitur et est, sed non 
+se<lb break="no" ed="#L" n="56"/>cundum unam rationem: quia alius secundum rationem
+<lb ed="#L" n="57"/>irreligiositatis, alius secundum rationem impietatis, etc. —
+<lb ed="#L" n="58"/>Et hanc doctrinam colligere potes ab Auctore pluries 
+re<lb break="no" ed="#L" n="59"/>petente quod religio est excellenter pietas, etc.: et 
+specia<lb break="no" ed="#L" n="60"/>liter in r art. praec. quaestionis, ubi, loquens de his 
+qua<lb break="no" ed="#L" n="61"/>tuor virtutibus, scilicet religione, pietate, observantia et 
+gra<lb break="no" ed="#L" n="62"/>tia, dixit quod posterior distinguitur a priori ut deficiens ab
+<lb ed="#L" n="63"/>ea, quoniam prior includit quod est posterioris. Nam 
+re<lb break="no" ed="#L" n="64"/>ligio, dum colit Deum ut patrem, habet quod est pietatis;
+<lb ed="#L" n="65"/>et pietas, dum colit patrem ut principium gubernationis ,
+<lb ed="#L" n="66"/>habet quod est observantiae; et observantia, dum colit
+<lb ed="#L" n="67"/>principes ut benefactores, habet quod est gratiae. Et per
+<lb ed="#L" n="68"/>consequens, dum contemnuntur beneficia Dei, patris, 
+prin<lb break="no" ed="#L" n="69"/>cipis, aut particularis benefactoris, diversae sunt greet
+<lb ed="#L" n="70"/>dines formaliter, ut declaratum est.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e798">
+                  <lb ed="#L" n="71"/>Ingratitudo quoque materialiter in omnibus quae 
+ma<lb break="no" ed="#L" n="72"/>teria ingratitudinis, quomodolibet sumptae, esse possunt,
+<lb ed="#L" n="73"/>invenitur. Et talis ingratitudo circumstantia ponitur peccati
+<lb ed="#L" n="74"/>ilius quod materia est ingratitudinis, et non ad speciem
+<lb ed="#L" n="75"/>ingratitudinis, sed ad speciem illius peccati cuius est 
+cir<lb break="no" ed="#L" n="76"/>cumstantia, spectat: ut in art. ult. qu. nxxxvur Tertiae
+<lb ed="#L" n="77"/>Partis Auctor docet.
+</p>
+               <p xml:id="TAcCaj-d1e1825-d1e817">
+                  <lb ed="#L" n="78"/>VI. Notare quoque debes quantum profecerit <ref xml:id="TAcCaj-d1e1825-Rd1e821">Auctor, qui
+<lb ed="#L" n="79"/>in IV Sent., dist. xxir, qu. 1, art. 2, qu. 1</ref>, posuit 
+ingrati<lb break="no" ed="#L" n="80"/>tudinem opponi iustitiae; hic autem, in articulo secundo,
+<lb ed="#L" n="81"/>opponi dicit eam gratiae. Cum enim gratia sit pars 
+po<lb break="no" ed="#L" n="82"/>tentialis iustitiae, id quod ibi toti attribuit, hic proprie 
+il<lb break="no" ed="#L" n="83"/>lius parti tribuit, quia ad distinctam cognitionem vns
+<lb ed="#L" n="84"/>pervenit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

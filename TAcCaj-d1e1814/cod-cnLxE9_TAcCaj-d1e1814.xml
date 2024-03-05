@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 105</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 105</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="394"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1814"><!-- TAcCajp2p2-q105" -->
+            <head xml:id="TAcCaj-d1e1814-Hd1e101">Quaestio 105</head>
+            <div xml:id="TAcCaj-d1e1814-Dd1e103"><!-- caj-p2p2-q105a1" -->
+               <head xml:id="TAcCaj-d1e1814-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1814-d1e108">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="72" type="fixed=393"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e115">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="73"/>In articulo primo quaestionis centesimaequintae, quia iam 
+<lb ed="#L" n="74"/>exposita sunt, in quaestione praecedente, quae in 
+re<lb break="no" ed="#L" n="75"/>sponsione ad primum dicuntur, non oportet immorari :
+<lb ed="#L" n="76"/>sed in responsione ad secundum, advertere quod quia ad
+<lb ed="#L" n="77"/>quandam excellentiam spectat non subdi praeceptis, eo
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="78"/>quod subdi servitutem importat; ideo astutus tentator Evae,
+<lb ed="#L" n="79"/>noscens superbam mulieris conditionem, inchoavit:
+<lb ed="#L" n="80"/>praecepit vobis Deus? ut fastidio praecepti nomen 
+habe<lb break="no" ed="#L" n="81"/>ret; sicut et habuit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1814-Dd1e142"><!-- caj-p2p2-q105a2" -->
+               <head xml:id="TAcCaj-d1e1814-Hd1e145">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1814-d1e147">
+                  <pb ed="#L" n="395"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=395"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e156">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo secundo eiusdem centesimaequintae quaestio-
+<lb ed="#L" n="3"/>nis, nota primo, quod in littera inobedientia divini 
+prae<lb break="no" ed="#L" n="4"/>cepti gravius dicitur peccatum quam adulterium ex ipsa
+<lb ed="#L" n="5"/>ratione inobedientiae: quia scilicet est peccatum contra
+<lb ed="#L" n="6"/>Deum, illud vero est peccatum in hominem. Et ex prin- 
+<lb ed="#L" n="7"/>cipio corporis articuli manifestatur sensus intentus: quod
+<lb ed="#L" n="8"/>scilicet intendit de illa inobedientiae ratione quae se tenet 
+<lb ed="#L" n="9"/>ex parte praecipientis Dei. Nam cum ad praeceptum tria
+<lb ed="#L" n="10"/>concurrant, scilicet praecipientis excellentia, actus praece- 
+<lb ed="#L" n="11"/>tus, et ipsum praeceptum; Auctor in littera gravitatem
+<lb ed="#L" n="12"/>inobedientiae graduat ex duobus primis, scilicet diversitate 
+<lb ed="#L" n="13"/>praecipientium et re praecepta; et ex excellentia Dei prae- 
+<lb ed="#L" n="14"/>cipientis, inobedientiam divini praecepti praeponit peccato
+<lb ed="#L" n="15"/>in hominem, ut patet in littera. Quo fit ut praesens 
+lit<lb break="no" ed="#L" n="16"/>tera aut intelligatur de ratione causali inobedientiae: est 
+<lb ed="#L" n="17"/>enim excellentia praecipientis ratio causalis inobedientiae,
+<lb ed="#L" n="18"/>ut in qu. praec., art. 2, ad 4, dixit Auctor. Aut intelligatur
+<lb ed="#L" n="19"/>de ratione formali inobedientiae qua constituitur in hoc
+<lb ed="#L" n="20"/>quod est esse peccatum contra Deum: iuxta ibidem a 
+<lb ed="#L" n="21"/>nobis explanata. Et licet uterque sensus in idem deducat,
+<lb ed="#L" n="22"/>sensus tamen formalis est, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e206">
+                  <lb ed="#L" n="23"/>II. Declaranda occurrit deinde littera, quia obscura 
+ap<lb break="no" ed="#L" n="24"/>paret. Scito ergo quod littera ab illo loco, Sic ergo opor-
+<lb ed="#L" n="25"/>tet secundum diversos inobedientiae gradus, incipit 
+appli<lb break="no" ed="#L" n="26"/>care ad propositum, et tres aut quatuor comparationes 
+<lb ed="#L" n="27"/>facere. Prima est inter inobedientiam Dei, et peccatum 
+<lb ed="#L" n="28"/>contra hominem seclusa Dei inobedientia: verbi gratia, 
+in<lb break="no" ed="#L" n="29"/>ter peccatum quo quis contemnit praeceptum Dei, et 
+pec<lb break="no" ed="#L" n="30"/>boa quo quis offendit proximum adulterio, homicidio,
+<lb ed="#L" n="31"/>furto, etc. Et in hac comparatione dicitur quod 
+inobedien<lb break="no" ed="#L" n="32"/>tia Dei est gravius peccatum.
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e230">
+                  <lb ed="#L" n="33"/>Secunda est inter inobedientiam Dei, et peccatum contra
+<lb ed="#L" n="34"/>proximum inclusa inobedientia Dei. Et in hac compara- |
+<lb ed="#L" n="35"/>tione dicitur quod adhuc inobedientia esset gravius 
+pec<lb break="no" ed="#L" n="36"/>catum: si tamen in aliquo potiori quam sit offensa illa
+<lb ed="#L" n="37"/>proximi, praeceptum Dei contemneret.
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e244">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="38"/>Tertia est inter peccatum quo contemnitur praecipiens,
+<lb ed="#L" n="39"/>et peccatum quo conteminitur praeceptum. Et haec quia
+<lb ed="#L" n="40"/>tractatur inter hominem et suum praeceptum, et similiter
+<lb ed="#L" n="41"/>inter Deum et suum praeceptum, ideo quatuor dici 
+pos<lb break="no" ed="#L" n="42"/>sunt comparationes. Una taien est formaliter haec tertia.
+<lb ed="#L" n="43"/>Et in ea dicitur quod gravius est peccatum quo contemnitur
+<lb ed="#L" n="44"/>homo praecipiens, puta despectus superioris, quam 
+inobe<lb break="no" ed="#L" n="45"/>dientia, Et similiter gravior est blasphemia, qua 
+contemni<lb break="no" ed="#L" n="46"/>tur Deus, quam inobedientia preceptorum eius: et hoc,
+<lb ed="#L" n="47"/>etiam seclusa a peccato blasphemiae inobedientia, hoc est,
+<lb ed="#L" n="48"/>contemptu praecepti.
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e273">
+                  <lb ed="#L" n="49"/>Hic est sensus litterae. Et sic diversi gradus 
+inobedien<lb break="no" ed="#L" n="50"/>tiae diversis aliorum peccatorum gradibus sunt comparati:
+<lb ed="#L" n="51"/>ut littera applicando proposuit. Et hinc patet quibus 
+pec<lb break="no" ed="#L" n="52"/>catis quae inobedientia est gravior, et quibus non.
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e284">
+                  <lb ed="#L" n="53"/>III. Ratio primae comparationis est quia, per se loquendo,
+<lb ed="#L" n="54"/>totum genus peccatorum in Deum excedit totum genus
+<lb ed="#L" n="55"/>peccatorum in proximum, ceteris paribus ; inobedientia 
+au<lb break="no" ed="#L" n="56"/>tem Dei formaliter est peccatum in Deum: ut patet 
+dis<lb break="no" ed="#L" n="57"/>tinguendo peccata aut in Deum, aut in se, aut proximum.
+<lb ed="#L" n="58"/>Haec enim distinctio in praecedenti Libro reliquis 
+prae<lb break="no" ed="#L" n="59"/>lata est. Et peccatum tam in se quam in proximum 
+con<lb break="no" ed="#L" n="60"/>stat comprehendi sub peccato in hominem. Quod minus
+<lb ed="#L" n="61"/>grave quam inobedientiam Dei esse littera dicit.
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e306">
+                  <lb ed="#L" n="62"/>Ratio secundae comparationis est inaequalitas rerum
+<lb ed="#L" n="63"/>praeceptarum. Ut, si quis peccet in proximum furto, 
+con<lb break="no" ed="#L" n="64"/>temnendo divinum praeceptum; et alter, inobediens 
+quo<lb break="no" ed="#L" n="65"/>que Deo, periuret: quia praeceptum periurii: potius est
+<lb ed="#L" n="66"/>praecepto furti, peior est ista inobedientia quam peccatum
+<lb ed="#L" n="67"/>in proximum cum inobedientia divina.
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e322">
+                  <lb ed="#L" n="68"/>Ratio vero tertiae comparationis aperta est in littera: quia
+<lb ed="#L" n="69"/>praecipiens longe maius quid est quam suum praeceptum.
+</p>
+               <p xml:id="TAcCaj-d1e1814-d1e329">
+                  <lb ed="#L" n="70"/>Et memento intelligere terminos formaliter: scilicet de
+<lb ed="#L" n="71"/>inobedientia formaliter. Quae solum est cum quis ideo
+<lb ed="#L" n="72"/>transgreditur ut faciat contra praeceptum: ut prius 
+di<lb break="no" ed="#L" n="73"/>ctum est, et in littera habes.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

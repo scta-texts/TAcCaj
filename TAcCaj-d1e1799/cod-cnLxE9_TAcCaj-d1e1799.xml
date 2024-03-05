@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 102</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 102</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="379"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1799"><!-- TAcCajp2p2-q102" -->
+            <head xml:id="TAcCaj-d1e1799-Hd1e101">Quaestio 102</head>
+            <div xml:id="TAcCaj-d1e1799-Dd1e103"><!-- caj-p2p2-q102a1" -->
+               <head xml:id="TAcCaj-d1e1799-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1799-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11" type="fixed=374"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1799-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>IN articulo primo quaestionis centesimaesecundae, iuncto
+<lb ed="#L" n="13"/>lo articulo tertio, dubium occurrit de differentia inter
+<lb ed="#L" n="14"/>pietatem et observantiam circa personas in dignitate 
+con<lb break="no" ed="#L" n="15"/>stitutas. Et est ratio dubii quia eiusdem virtutis est colere
+<lb ed="#L" n="16"/>patriam, et patriae principem: sicut eiusdem virtutis est
+<lb ed="#L" n="17"/>colere patrem, et reliquam consanguineorum familiam. Non
+<lb ed="#L" n="18"/>spectat ergo ad observantiam colere principem civitatis, et
+<lb ed="#L" n="19"/>ad pietatem colere patriam.
+</p>
+               <p xml:id="TAcCaj-d1e1799-d1e137">
+                  <lb ed="#L" n="20"/>Si dicatur, ut littera insinuat in tertio articulo, quod
+<lb ed="#L" n="21"/>pietas colit principem quoad communia, observantia quoad
+<lb ed="#L" n="22"/>personalia, tunc dubium primo est, quare pietas colit 
+pa<lb break="no" ed="#L" n="23"/>trem quoad utrumque, scilicet et personam et 
+communi<lb break="no" ed="#L" n="24"/>cationem familiae, et observantia colit principem quoad
+<lb ed="#L" n="25"/>personam tantum. Videtur enim quod recta ratio velit ut
+<lb ed="#L" n="26"/>pietas ad parentes et consanguineos , observantia vero ad
+<lb ed="#L" n="27"/>praesidentes et communitates referatur.
+</p>
+               <p xml:id="TAcCaj-d1e1799-d1e157">
+                  <lb ed="#L" n="28"/>Dubium secundo est, quae sint tam obsequia quam
+<lb ed="#L" n="29"/>honores de quibus hic dicitur quod spectant ad 
+praesiden<lb break="no" ed="#L" n="30"/>tium personalem utilitatem vel gloriam. Et ratio dubii est,
+<lb ed="#L" n="31"/>tum quia hic non intelliguntur omnia servitia personalia:
+<lb ed="#L" n="32"/>quia SUN thm exhibita a servis, nec a filiis, nec a 
+mer<lb break="no" ed="#L" n="33"/>cenariis. du igitur discernenda sunt ista personalia a
+<lb ed="#L" n="34"/>nicommunibus? - Tum quia ratio cuiusque servitii aut 
+ho<lb break="no" ed="#L" n="35"/>noris praesidenti a subditis exhibiti est dignitas. Quidquid
+<lb ed="#L" n="36"/>autem impenditur personae ratione dignitatis, non 
+perso<lb break="no" ed="#L" n="37"/>nae, sed communitati, vel Principi cuius vices gerit, 
+exhi<lb break="no" ed="#L" n="38"/>betur: ut Auctor fatetur inferius in qu. seq., art. 2, ad 2.
+<lb ed="#L" n="39"/>Et sic omnia exhibita praesidentibus inquantum 
+praesiden<lb break="no" ed="#L" n="40"/>tes sunt, spectant ad pietatem, et non ad observantiam.
+</p>
+               <p xml:id="TAcCaj-d1e1799-d1e189">
+                  <lb ed="#L" n="41"/>II. Ad huius dubii dilucidationem, sciendum est quod
+<lb ed="#L" n="42"/>regulariter eiusdem rationis est communitatem, collegium,
+<lb ed="#L" n="43"/>et universaliter communicationem aliquam, et illius caput
+<lb ed="#L" n="44"/>colere. Et propterea ad observantiam spectat tam 
+episco<lb break="no" ed="#L" n="45"/>pum quam canonicos colere, tam magistrum quam 
+con<lb break="no" ed="#L" n="46"/>discipulos, tam ducem quam exercitum, et sic de aliis:
+<lb ed="#L" n="47"/>nisi quod ab ista regula excipitur princeps patriae, nam
+<lb ed="#L" n="48"/>alterius virtutis est colere patriam, et alterius principem
+<lb ed="#L" n="49"/>patriae. Et ratio exceptionis istius est quia princeps est
+<lb ed="#L" n="50"/>solummodo principium gubernationis: patria autem est
+<lb ed="#L" n="51"/>etiam principium nostri esse. Et propterea patriae cultus
+<lb ed="#L" n="52"/>ad eandem virtutem spectat ad quam spectat colere 
+pa<lb break="no" ed="#L" n="53"/>trem, qui est nostri esse principium. Principes autem, quia
+<lb ed="#L" n="54"/>non habent rationem principii essendi, sed solum 
+guber<lb break="no" ed="#L" n="55"/>nandi, excluduntur ab. illa excellentiori virtute, videlicet
+<lb ed="#L" n="56"/>pietate, quae colit principia essendi et gubernandi simul,
+<lb ed="#L" n="57"/>scilicet patrem et patriam; et sequenti virtuti, scilicet ob-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="58"/>servantiae, relinquuntur. In reliquis autem 
+communicatio<lb break="no" ed="#L" n="59"/>nibus, puta exercitus, scholae, collegii, etc., non est haec
+<lb ed="#L" n="60"/>admixtio principiorum essendi et gubernandi, sicut in 
+pa<lb break="no" ed="#L" n="61"/>tria et in principe patriae, sed omnes ad gubernationem
+<lb ed="#L" n="62"/>spectant. Et hanc rationem habes ab Auctore in qu. praeced.,
+<lb ed="#L" n="63"/>art. i, ad ult, ubi reddit rationem quare patria colitur a
+<lb ed="#L" n="64"/>pietate, aliae autem communicationes non.
+</p>
+               <p xml:id="TAcCaj-d1e1799-d1e246">
+                  <lb ed="#L" n="65"/>III. Et per haec patet responsio ad primo obiecta, et
+<lb ed="#L" n="66"/>quare observantia non respicit principem quoad communia,
+<lb ed="#L" n="67"/>quae spectant ad patriam: quia scilicet praevenitur a pietate,
+<lb ed="#L" n="68"/>propter excellentiam quam habet patria (et non princeps),
+<lb ed="#L" n="69"/>quia scilicet est principium nostri esse. Et sic solida ratio
+<lb ed="#L" n="70"/>primum dubium solvit.
+</p>
+               <p xml:id="TAcCaj-d1e1799-d1e262">
+                  <lb ed="#L" n="71"/>Secundum vero dubium solvitur dicendo quod 
+per<lb break="no" ed="#L" n="72"/>sonalia hoc in loco dicuntur non omnia quae personae
+<lb ed="#L" n="73"/>principis a quocumque exhibentur (nam quod illi a filio 
+ex<lb break="no" ed="#L" n="74"/>hibetur, pietatis; quod a servo, duliae; quod a mercenario,
+<lb ed="#L" n="75"/>iustitiae est): sed ea quae non alia ratione illis exhibentur
+<lb ed="#L" n="76"/>nisi quia sunt in dignitate constituti, et terminantur ad —
+<lb ed="#L" n="77"/>eorum personas. Ubi adverte quod hac in re inveni.
+<lb ed="#L" n="78"/>duo: scilicet ratio exhibendi cultum, et terminus cui 
+ex<lb break="no" ed="#L" n="79"/>hibetur. Universaliter siquidem ratio exhibendi istis cultum
+<lb ed="#L" n="80"/>est dignitas (unde sive boni sive mali sint homines in 
+di<lb break="no" ed="#L" n="81"/>gnitate constituti, colendi sunt): terminus autem qui 
+co<lb break="no" ed="#L" n="82"/>litur per observantiae virtutem , est persona illa quae in
+<lb ed="#L" n="83"/>dignitate est constituta. Ita quod differentia inter exhibita
+<lb ed="#L" n="84"/>a pietate et ab observantia principibus, stat in hoc quod
+<lb ed="#L" n="85"/>exhibita a pietate directe terminantur ad commune bonum
+<lb ed="#L" n="86"/>utilitatis vel honoris, et principes tunc se habent ut 
+prae<lb break="no" ed="#L" n="87"/>cipientes, et non ut termini: sicut cum quis instituitur a
+<lb ed="#L" n="88"/>principe in publico officio reipublicae, ut in littera tertii
+<lb ed="#L" n="89"/>articuli dicitur. Si quis vero. ad sublevandum principis 
+la<lb break="no" ed="#L" n="90"/>borem ministraret, ad observantiam spectaret actus iste:
+<lb ed="#L" n="91"/>quia ad personam principis servitium hoc ordinatur. Et
+<lb ed="#L" n="92"/>e contra, cum patria gloriam suam ostentare rationabiliter
+<lb ed="#L" n="93"/>vellet, et aliqui cives patriae caput propterea amplius 
+co<lb break="no" ed="#L" n="94"/>lerent, pietati, non observantiae operam darent: quia ad
+<lb ed="#L" n="95"/>patriam iste cultus terminatur. Honoratur ergo semper ab
+<lb ed="#L" n="96"/>observantia in personis in dignitate constitutis. 
+communi<lb break="no" ed="#L" n="97"/>tas, seu Deus, cuius sunt ministri, ut ratio honorandi: sed
+<lb ed="#L" n="98"/>persona ipsa ut terminus et persona quae honoratur.
+</p>
+               <p xml:id="TAcCaj-d1e1799-d1e325">
+                  <lb ed="#L" n="99"/>Et per haec patet solutio omnium obiectorum. Nam
+<lb ed="#L" n="100"/>quidquid impenditur personae in dignitate constitutae 
+ra<lb break="no" ed="#L" n="101"/>tione dignitatis, impenditur communitati, vel Deo, ut 
+ra<lb break="no" ed="#L" n="102"/>tioni honoris et cultus, et non ut termino. Personas enim
+<lb ed="#L" n="103"/>ipsas, licet malas, honoramus ratione dignitatis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1799-Dd1e339"><!-- caj-p2p2-q102a2" -->
+               <head xml:id="TAcCaj-d1e1799-Hd1e342">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1799-d1e344">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57" type="fixed=375"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1799-d1e351">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="58"/>In articulo secundo eiusdem centesimaesecundae 
+quae<lb break="no" ed="#L" n="59"/>stionis, in responsione ad primum, nota quod cultus
+<lb ed="#L" n="60"/>nomen absolute habetur commune ad honorem et reliquos
+<lb ed="#L" n="61"/>decentes actus, ut in littera dicitur. Sed in proposita 
+de<lb break="no" ed="#L" n="62"/>finitione Tullii, ubi contra honorem distinguitur, cultus
+<lb ed="#L" n="63"/>sumitur pro reliquis decentibus actibus tantum: ne 
+super<lb break="no" ed="#L" n="64"/>fluitas, aut incongruum aliquid incurratur.
+</p>
+               <p xml:id="TAcCaj-d1e1799-d1e371">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>In eodem articulo, in responsione ad secundum , vide
+<lb ed="#L" n="66"/>hinc quod omissio honoris praesidentibus propriis debiti non
+<lb ed="#L" n="67"/>solum est peccatum, sed est punibilis per humanam legem.
+<lb ed="#L" n="68"/>Omissio autem honoris extraneorum praesidentium 
+punibi<lb break="no" ed="#L" n="69"/>lis non est, pro quanto ad legale debitum non spectat. 
+Pec<lb break="no" ed="#L" n="70"/>catum tamen quandoque est, pro quanto quandoque 
+prae<lb break="no" ed="#L" n="71"/>ter morem est, et a morali propterea debito declinat.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

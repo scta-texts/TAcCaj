@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 71</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 71</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="123"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1639"><!-- TAcCajp2p2-q71" -->
+            <head xml:id="TAcCaj-d1e1639-Hd1e101">Quaestio 71</head>
+            <div xml:id="TAcCaj-d1e1639-Dd1e103"><!-- caj-p2p2-q71a1" -->
+               <head xml:id="TAcCaj-d1e1639-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1639-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11" type="fixed=123"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>IN titulo articuli primi et ceterorum quaestionis 
+septua<lb break="no" ed="#L" n="13"/>gesimaeprimae, adverte quod advocatus hoc in loco 
+com<lb break="no" ed="#L" n="14"/>muniter significat tam eum quem dicimus vulgariter 
+advo<lb break="no" ed="#L" n="15"/>catum, quam procuratorem: ita tamen quod advocatum
+<lb ed="#L" n="16"/>non voces eum qui solum consilium dat in scripto aut
+<lb ed="#L" n="17"/>verbo domi; sed qui patrocinatur opere, comparendo 
+co<lb break="no" ed="#L" n="18"/>ram iudice. Unde et Augustinus, ut in art. 4 habes, 
+di<lb break="no" ed="#L" n="19"/>stinguit advocatum contra iurisperitum, RAN quod 
+ad<lb break="no" ed="#L" n="20"/>vocatus iustum petrocinium, et iurisperitus verum 
+consi<lb break="no" ed="#L" n="21"/>lium licite vendit.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e141">
+                  <lb ed="#L" n="22"/>In articulo primo eiusdem quaestionis 
+septuagesimae<lb break="no" ed="#L" n="23"/>rimae dubium occurrit de sensu litterae in illis verbis:
+<lb ed="#L" n="24"/>Si in promptu appareat quomodo ei aliter subveniri 
+pos<lb break="no" ed="#L" n="25"/>set etc. Nam aut intendit quod ex hoc quod in promptu
+<lb ed="#L" n="26"/>apparet modus quo potest aliter pauperi subveniri, non
+<lb ed="#L" n="27"/>tenetur quis subvenire. Et sic falsum dicitur, Quia 
+quan<lb break="no" ed="#L" n="28"/>tumcumque appareant in promptu mille modi quibus possit
+<lb ed="#L" n="29"/>sine me famelico aut alias impotenti subveniri, et non
+<lb ed="#L" n="30"/>subveniatur, non excusor ego ab homicidio si mom pasco
+<lb ed="#L" n="31"/>fame morientem. Oportet namque in promptu apparere
+<lb ed="#L" n="32"/>mon solum potentiam, sed actum subventionis aliunde, ut
+<lb ed="#L" n="33"/>ego non tenear subvenire. — Aut intendit quod in promptu
+<lb ed="#L" n="34"/>et modus quo de facto subveniatur. Et tunc littera
+<lb ed="#L" n="35"/>est diminuta: quia nihil dicit de apparentia facti, sed 
+po<lb break="no" ed="#L" n="36"/>tentiae.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e176">
+                  <lb ed="#L" n="37"/>II. In eodem articulo primo dubium alterum est, an
+<lb ed="#L" n="38"/>conclusio, scilicet quod quando non apparet quomodo
+<lb ed="#L" n="39"/>aliter subveniri possit, tenetur sciens subvenire et 
+advo<lb break="no" ed="#L" n="40"/>catus patrocinari et medicus mederi, intelligatur de 
+obli<lb break="no" ed="#L" n="41"/>atione peccati mortalis, an venialis. Et est ratio dubii quia,
+<lb ed="#L" n="42"/>si intendit de peccato mortali, contradicit sibi et rationi.
+<lb ed="#L" n="43"/>Sibi quidem, quia in principio corporis huius articuli dicit
+<lb ed="#L" n="44"/>quod idem est hic dicendum quod supra de aliis operibus
+<lb ed="#L" n="45"/>misericordiae dictum est. Constat autem. quod superius,
+<lb ed="#L" n="46"/>n art. 5 qu. xxxu, dictum est quod zon omnis necessitas
+<lb ed="#L" n="47"/>igat ad praeceptum, sed illa sola sine qua is qui 
+ne<lb break="no" ed="#L" n="48"/>cessitatem patitur sustentari non potest. Cum igitur 
+pau<lb break="no" ed="#L" n="49"/>;per ex hoc quod opprimitur causa sua, non incurrat
+<lb ed="#L" n="50"/>in casum hunc quod sustentari non possit, sequitur quod,
+<lb ed="#L" n="51"/>secundum antedicta, non teneatur advocatus sub peccato
+<lb ed="#L" n="52"/>mortali patrocinari, etiam si nullus alius appareat potens
+<lb ed="#L" n="53"/>subvenire. - Rationi vero, quia cum praeceptum de 
+mi<lb break="no" ed="#L" n="54"/>sericordiae operibus non obliget ad mortale nisi tempore
+<lb ed="#L" n="55"/>necessitatis, cum sit affirmativum; aut hoc intelligitur
+<lb ed="#L" n="56"/>de necessitate simpliciter, scilicet respectu vitae, quia 
+sci<lb break="no" ed="#L" n="57"/>licet aliter non posset vivere: aut de necessitate 
+respe<lb break="no" ed="#L" n="58"/>ctu alicuius particularis casus, quia scilicet aliter non 
+pos<lb break="no" ed="#L" n="59"/>set in tali negotio subsistere. Sed constat quod non 
+in<lb break="no" ed="#L" n="60"/>telligitur de necessitate hoc secundo modo, ut patet 
+discur<lb break="no" ed="#L" n="61"/>rendo per opera misericordiae: nam non teneor sub 
+pec<lb break="no" ed="#L" n="62"/>cato mortali colligere hospitem qui dormiendo sub divo
+<lb ed="#L" n="63"/>non moreretur, nec similiter teneor sepelire mortuum quem
+<lb ed="#L" n="64"/>nullus sepelire curat, aut redimere captivum qui propterea
+<lb ed="#L" n="65"/>non moritur, et sic de aliis. Ergo intelligitur de necessitate
+<lb ed="#L" n="66"/>primo modo, scilicet respectu vitae. Ac per hoc, non 
+te<lb break="no" ed="#L" n="67"/>nebitur quis sub peccato mortali patrocinari causae 
+pau<lb break="no" ed="#L" n="68"/>peris, quamvis opprimatur, si perditio causae non pertinet
+<lb ed="#L" n="69"/>ad extremam vitae necessitatem.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e251">
+                  <lb ed="#L" n="70"/>Si autem intendit de peccato veniali, obstant tria. Primo,
+<lb ed="#L" n="71"/>responsio ad tertium, ubi Auctor, expresse respondens 
+ar<lb break="no" ed="#L" n="72"/>gumento de praecepto, dicit necessitatem in corpore 
+arti<lb break="no" ed="#L" n="73"/>culi positam causare debitum. — Secundo, quorundam 
+opi<lb break="no" ed="#L" n="74"/>nio credentium esse mortale peccatum si, advocato non
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="75"/>patrocinante, pauper in notabile damnum incurrit. - Tertio:
+<lb ed="#L" n="76"/>ius scriptum disponens quod pauperi vel propter inopiam
+<lb ed="#L" n="77"/>vel propter adversae partis potentiam carenti advocato,
+<lb ed="#L" n="78"/>iudex det advocatum, cogendo illum; et nolentem obedire
+<lb ed="#L" n="79"/>potest punire: ut patet ff. de Officio Proconsul. et Leg.,
+<lb ed="#L" n="80"/>l. Nec quidquam, adiuncto C. de Postul., l. Providendum.
+<lb ed="#L" n="81"/>Hoc autem non esset si non teneretur quis pauperis causae
+<lb ed="#L" n="82"/>patrocinari cum aliter non potest iustitiam suam tueri.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e284">
+                  <lb ed="#L" n="83"/>III. Ad primum dubium dicitur quod sensus litterae
+<lb ed="#L" n="84"/>sumendus est iuxta materiam subiectam. In huiusmodi
+<lb ed="#L" n="85"/>enim moralibus in particulari tunc in promptu dicitur
+<lb ed="#L" n="86"/>apparere modus quo potest subveniri, quando absque 
+in<lb break="no" ed="#L" n="87"/>quisitione offertur modus quo potest non qualitercumque,
+<lb ed="#L" n="88"/>sed potentia probabiliter coniungenda actui: ut si quis
+<lb ed="#L" n="89"/>videt pauperem vexari et scit illum habere fratrem 
+advo<lb break="no" ed="#L" n="90"/>catum, satis in promptu videt quomodo potest ei aliter
+<lb ed="#L" n="91"/>subveniri cum effectu probabiliter; et similiter si scio 
+ali<lb break="no" ed="#L" n="92"/>quem esse captivum habentem fratres divites, satis 
+proba<lb break="no" ed="#L" n="93"/>bile est quod rediment eum; et sic de aliis. Non loquitur
+<lb ed="#L" n="94"/>ergo Auctor in casu quo apparet ipsa subventio in actu
+<lb ed="#L" n="95"/>exercito, quia tunc non esset in casu necessitatis, sed extra
+<lb ed="#L" n="96"/>necessitatem: sed quando subventio apparet in promptu
+<lb ed="#L" n="97"/>futura iuxta humanam aestimationem. Et proptereaa usus
+<lb ed="#L" n="98"/>est potentiae nomine: et nulla est diminutio in eo.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e321">
+                  <lb ed="#L" n="99"/>IV. Ad secundum dicitur quod, cum Auctor loquatur
+<lb ed="#L" n="100"/>de subventione quae est misericordiae opus, non possum
+<lb ed="#L" n="101"/>intelligere quod loquatur de obligatione peccati mortalis,
+<lb ed="#L" n="102"/>nisi in casu quo succumbere et opprimi in causa illa ad 
+ex<lb break="no" ed="#L" n="103"/>tremam necessitatem spectaret. Quod quia contingere 
+po<lb break="no" ed="#L" n="104"/>test, ideo Auctor indistincte locutus est, dicendo quod
+<lb ed="#L" n="105"/>tenetur subvenire, et non explicando modum, an scilicet
+<lb ed="#L" n="106"/>venialiter vel mortaliter peccet non patrocinando. 
+Quan<lb break="no" ed="#L" n="107"/>doque namque esset peccatum mortale, et quandoque 
+ve<lb break="no" ed="#L" n="108"/>niale, iuxta naturam necessitatis. Quod explicatum esse
+<lb ed="#L" n="109"/>voluit per illa verba in principio corporis articuli, scilicet
+<lb ed="#L" n="110"/>quod idem est hic dicendum quod supra de aliis operibus
+<lb ed="#L" n="111"/>misericordiae dictum est. ;
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e352">
+                  <lb ed="#L" n="112"/>Tripliciter ergo causa pauperis occurrere potest 
+advo<lb break="no" ed="#L" n="113"/>cato. Primo, ad extremam spectans necessitatem simpliciter.
+<lb ed="#L" n="114"/>Et tunc tenetur sub peccato mortali, si alius non appareat
+<lb ed="#L" n="115"/>qui subveniat tempore suo. — Secundo, ut ad magnam 
+pau<lb break="no" ed="#L" n="116"/>peris necessitatem spectans. Et tunc, si alius non apparet
+<lb ed="#L" n="117"/>qui suo subveniat tempore, tenetur, sed non sub mortali. 
+<lb ed="#L" n="118"/>Tertio, quando apparet alius patrocinator. Et tunc de
+<lb ed="#L" n="119"/>consilio est operam suam praeveniendo impendere.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e372">
+                  <lb ed="#L" n="120"/>Ad prima ergo obiecta non oportet aliter respondere:
+<lb ed="#L" n="121"/>quia iam patet ex dictis quod conformis est sententia ista
+<lb ed="#L" n="122"/>supra dictis et rationi.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e381">
+                  <lb ed="#L" n="123"/>V. Ad obiecta vero secundo loco, de obligatione 
+ve<lb break="no" ed="#L" n="124"/>niali, respondendo dicitur: ad primum quidem, quod 
+Au<lb break="no" ed="#L" n="125"/>ctor non loquitur distincte de vinculo mortali aut veniali,
+<lb ed="#L" n="126"/>sed in communi, Et propterea, tractando praeceptum, non
+<lb ed="#L" n="127"/>respondit quod est debitum mortale, sed quod est debitum
+<lb ed="#L" n="128"/>ex antedicta necessitate, coniuncta cum maiori, necessitate
+<lb ed="#L" n="129"/>scilicet extrema, quam in principio corporis, referendo se
+<lb ed="#L" n="130"/>ad superius dicta de operibus misericordiae, expressam
+<lb ed="#L" n="131"/>esse censuit.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e404">
+                  <lb ed="#L" n="132"/>Ad secundum vero, quod dicentes peccare mortaliter 
+ad<lb break="no" ed="#L" n="133"/>vocatum non exhibentem patrocinium pauperi gratis unde
+<lb ed="#L" n="134"/>pauper notabile damnum incurrit, absque fundamento 
+lo<lb break="no" ed="#L" n="135"/>qui videntur. Quoniam ex praecepto caritatis non tenemur
+<lb ed="#L" n="136"/>sub mortali peccato ad subveniendum proximo ratione suae
+<lb ed="#L" n="137"/>necessitatis praecise, nisi sit extrema: de tali enim Ioannes
+<pb ed="#L" n="124"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>intelligendus est, cum dicit, Qui viderit fratrem suum
+<lb ed="#L" n="2"/>necessitatem habere etc., si ly quomodo caritas manet in
+<lb ed="#L" n="3"/>eo? accipiendum est negative, — At si putet quispiam ex
+<lb ed="#L" n="4"/>praecepto iustitiae teneri advocatum ad patrocinium 
+pau<lb break="no" ed="#L" n="5"/>peris, meminerit quod si ex praecepto iustitiae obligaretur,
+<lb ed="#L" n="6"/>aut esset hoc ex iustitia distributiva: et hoc non, quia illa
+<lb ed="#L" n="7"/>est a toto ad partem. Aut ex iustitia commutativa, quae
+<lb ed="#L" n="8"/>est inter partem et partem: et hoc non, quia nulla est
+<lb ed="#L" n="9"/>hic commutatio rerum, actionum aut personarum. Aut ex
+<lb ed="#L" n="10"/>iustitia legali: et hoc non, quia illa est a parte ad totum.
+<lb ed="#L" n="11"/>Aliam iustitiam nescio. — Amplius, qui tenentur ex 
+prae<lb break="no" ed="#L" n="12"/>cepto iustitiae obstare invasoribus vel oppressoribus, si hoc
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>cum possunt non faciunt, tenentur ad restitutionem, Sed,
+<lb ed="#L" n="14"/>ut superius in qu. .xir Auctor dixit, tunc solum non
+<lb ed="#L" n="15"/>obstans tenetur ad restitutionem quando ex officio tenetur .
+<lb ed="#L" n="16"/>obstare, ut principes et custodes. Advocatus autem non ex
+<lb ed="#L" n="17"/>officio, quia non est publicus officialis; sed ex arte 
+advo<lb break="no" ed="#L" n="18"/>candi debet de opera suae artis subvenire. Non igitur 
+tene<lb break="no" ed="#L" n="19"/>tur ad restitutionem non subveniendo, nec reus est violatae
+<lb ed="#L" n="20"/>iustitiae, propter damnum notabile quod pauper incurrit.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e469">
+                  <lb ed="#L" n="21"/>Ad tertium dicitur quod iura, etsi disponant quod detur
+<lb ed="#L" n="22"/>pauperi advocatus, non tamen quod gratis serviat: sed de
+<lb ed="#L" n="23"/>publico aerario merces sibi dari debet, si pauper non 
+po<lb break="no" ed="#L" n="24"/>test solvere, et advocatus renuit gratis patrocinari.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1639-Dd1e481"><!-- caj-p2p2-q71a3" -->
+               <head xml:id="TAcCaj-d1e1639-Hd1e484">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1639-d1e486">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="72" type="fixed=125"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e493">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>IN articulo secundo et tertio nihil occurrit scribendum, 
+<lb ed="#L" n="74"/>nisi quod in tertio articulo memineris ignorantiam 
+excu<lb break="no" ed="#L" n="75"/>sare quando est causa actus et non est peccatum, Et 
+vo<lb break="no" ed="#L" n="76"/>catur ignorantia Fausa actus quando, si scivisset, non 
+fe<lb break="no" ed="#L" n="77"/>cisset. Est quoque sine peccato quando est alicuius 
+cir<lb break="no" ed="#L" n="78"/>cumstantiae quam non potest aut non tenetur scire, et, 
+<lb ed="#L" n="79"/>si tenetur scire, non fuit negligens ut sciret. 
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e513">
+                  <lb ed="#L" n="80"/>Et haec ampliando ad advocatum, perspicere poteris 
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="81"/>si excusatus est a defendendo iniustam causam ignoranter.
+<lb ed="#L" n="82"/>Qui enim omnino defendissent sive iustam sive iniustam,
+<lb ed="#L" n="83"/>quamvis nesciant iniustam, non ex ignorantia, sed cum
+<lb ed="#L" n="84"/>ignorantia, quae non excusat, patrocinantur iniuste, Qui
+<lb ed="#L" n="85"/>etiam non curant discernere et penetrare an iustam vel
+<lb ed="#L" n="86"/>iniustam causam suscipiant, manifeste negligunt scire quod
+<lb ed="#L" n="87"/>tenentur scire, Qui autem ex contingentibus nihil omittunt,
+<lb ed="#L" n="88"/>tuti incedunt, etiam si errant.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1639-Dd1e538"><!-- caj-p2p2-q71a4" -->
+               <head xml:id="TAcCaj-d1e1639-Hd1e541">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1639-d1e543">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65" type="fixed=126"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e550">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>IN articulo quarto dubium occurrit, in responsione ad 
+ter<lb break="no" ed="#L" n="67"/>tium, circa rationem redditam quare iudex et testes sunt
+<lb ed="#L" n="68"/>communes, quia scilicet iustitia et veritas in neutram 
+par<lb break="no" ed="#L" n="69"/>tem declinant. Videtur enim quod dicta ratio non 
+con<lb break="no" ed="#L" n="70"/>cludat differentiam intentam inter advocatum et. alios, 
+sci<lb break="no" ed="#L" n="71"/>licet iudicem et testes. Nam advocatus non potest licite
+<lb ed="#L" n="72"/>nisi iustum patrocinium praestare: sicut iudex iustam 
+sen<lb break="no" ed="#L" n="73"/>tentiam, Si ergo ex ratione iustitiae prohibetur iudici 
+pe<lb break="no" ed="#L" n="74"/>cuniam accipere, ex eiusdem ratione prohiberi deberet 
+ad<lb break="no" ed="#L" n="75"/>vocato: et si advocato ex hac parte non prohibetur, ergo
+<lb ed="#L" n="76"/>nec iudici. — Rursus, si ratio iustitiae facit personam testis
+<lb ed="#L" n="77"/>et iudicis communem, debet quoque facere personam 
+ad<lb break="no" ed="#L" n="78"/>vocati communem: quia tenetur ad iustum tantum 
+patro<lb break="no" ed="#L" n="79"/>cinium.
+</p>
+               <p xml:id="TAcCaj-d1e1639-d1e585">
+                  <lb ed="#L" n="80"/>Ad hoc dicitur quod cum unumquodque officium a
+<lb ed="#L" n="81"/>proprio fine, non a communi; et a proximo, non a remoto
+<lb ed="#L" n="82"/>fine pensandum sit: inter personas concurrentes ad 
+iudi<lb break="no" ed="#L" n="83"/>cium discernendum est quod quorundam proprius finis est |
+<lb ed="#L" n="84"/>communis utrique parti, quorundam vero proprius finis
+<lb ed="#L" n="85"/>est proprius uni parti. Finis autem utrique parti communis
+<lb ed="#L" n="86"/>est iustitia non mea aut tua, sed simpliciter: finis autem
+<lb ed="#L" n="87"/>proprius uni parti est iustum non simpliciter, sed iustum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>tale, puta iustum patrocinium, iustum consilium. ipee
+<lb ed="#L" n="89"/>quia tam iudex quam testis ad id quod commune utriq
+<lb ed="#L" n="90"/>parti est (non positive, sed negative, hoc est quod in
+<lb ed="#L" n="91"/>neutram partem declinet) assumitur in iudicio, consequens
+<lb ed="#L" n="92"/>est quod ad iustum et verum simpliciter et absolute, t 
+tan<lb break="no" ed="#L" n="93"/>quam proprium finem, tendant ambo. Et e contra, quia
+<lb ed="#L" n="94"/>finis proprius eorum est iustum et verum absolute, quod
+<lb ed="#L" n="95"/>in neutram declinat partem , idcirco ad commune utrique
+<lb ed="#L" n="96"/>parti tanquam proximum ordinantur finem. Advocatus 
+au<lb break="no" ed="#L" n="97"/>tem et iurisconsultus non tendunt, tanquam ad o 3
+<lb ed="#L" n="98"/>finem, ad iustum simpliciter et absolute (in cuius signu
+<lb ed="#L" n="99"/>si in processu invenerint causam suam iniustam, non 
+de<lb break="no" ed="#L" n="100"/>bent, ut in resp. ad 2 praec. art. dictum est, prodere 
+se<lb break="no" ed="#L" n="101"/>creta suae causae, nec alteram, quamvis iustam, partem
+<lb ed="#L" n="102"/>iuvare: ad quod tenerentur si ad iustum simpliciter et
+<lb ed="#L" n="103"/>absolute, ut proprium finem, ordinarentur): sed tendunt
+<lb ed="#L" n="104"/>ad iustum tale, scilicet iustum patrocinium et iustum 
+con<lb break="no" ed="#L" n="105"/>silium huius partis, tanquam ad proximum finem; 
+quam<lb break="no" ed="#L" n="106"/>vis finis eorum remotus sit iustitia simpliciter, vel 
+attin<lb break="no" ed="#L" n="107"/>genda vel saltem non impedienda. — Et ex his patet 
+so<lb break="no" ed="#L" n="108"/>lutio obiectorum, quare iustitia et veritas absolute inferant
+<lb ed="#L" n="109"/>iudicem et testes esse communes, et non advocatum, etc.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

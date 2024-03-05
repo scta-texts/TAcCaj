@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 63</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 63</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="65"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1597"><!-- TAcCajp2p2-q63" -->
+            <head xml:id="TAcCaj-d1e1597-Hd1e101">Quaestio 63</head>
+            <div xml:id="TAcCaj-d1e1597-Dd1e103"><!-- caj-p2p2-q63a1" -->
+               <head xml:id="TAcCaj-d1e1597-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1597-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19" type="fixed=63"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>IN articulo primo quaestionis sexagesimaetertiae nota, pro 
+<lb ed="#L" n="21"/>radice huius materiae, duo. Primo, illam distinctionem 
+<lb ed="#L" n="22"/>de acceptione personae vel causae. — Secundo, quod ista 
+<lb ed="#L" n="23"/>distinctio refertur ad rationem debiti: ita quod acceptio 
+<lb ed="#L" n="24"/>causae est recognoscere causam per quam aliquid est per- 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="25"/>sonae debitum; acceptio vero personae est recognoscere
+<lb ed="#L" n="26"/>ut causam illam conditionem propter quam aliquid non
+<lb ed="#L" n="27"/>est personae debitum secundum veritatem. Iustitia enim
+<lb ed="#L" n="28"/>respicit rationem [debiti]: ac per hoc, vitium oppositum
+<lb ed="#L" n="29"/>iustitiae violat debitum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1597-Dd1e145"><!-- caj-p2p2-q63a2" -->
+               <head xml:id="TAcCaj-d1e1597-Hd1e148">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1597-d1e150">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="41" type="fixed=64"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e157">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="42"/>IN articulo secundo eiusdem quaestionis nota quatuor.
+<lb ed="#L" n="43"/>Ipae! quod communis utilitas ad quam principaliter
+<lb ed="#L" n="44"/>ordinantur ministeria ecclesiastica, non est utilitas 
+corpo<lb break="no" ed="#L" n="45"/>ralis, sed spiritualis: quoniam, ut ex dictis in praecedenti
+<lb ed="#L" n="46"/>Libro patet, regimen ecclesiasticum in hoc differt a civili
+<lb ed="#L" n="47"/>quod hoc ordinatur ad commune bonum exterius, puta
+<lb ed="#L" n="48"/>pacem, sufficientiam, etc,; illud vero ad interiorem animae
+<lb ed="#L" n="49"/>pacem. Quando ergo aliquis propter potentiam saecularem
+<lb ed="#L" n="50"/>erit magis utilis communi saluti animarum, puta quia erit
+<lb ed="#L" n="51"/>sufficiens ad evellendos haereticos inficientes Christi 
+gre<lb break="no" ed="#L" n="52"/>gem, vel ad cogendum potentes clericos ut serventur quae
+<lb ed="#L" n="53"/>sunt de vita et honestate clericorum, vel aliquid huiusmodi;
+<lb ed="#L" n="54"/>non habetur ratio personae, sed causae. Si quis etiam 
+con<lb break="no" ed="#L" n="55"/>siderat quod spiritualia sine temporalibus, propter nostram
+<lb ed="#L" n="56"/>infirmitatem, male subsistunt; quando, ceteris paribus, 
+prae<lb break="no" ed="#L" n="57"/>poneretur ille qui utilior esset ad temporalia bona, non
+<lb ed="#L" n="58"/>esset personae, sed causae acceptio. Sed quando cetera non
+<lb ed="#L" n="59"/>sunt paria, puta quia pro temporalibus optimus, sed 
+spi<lb break="no" ed="#L" n="60"/>ritualia negligit; praeferenda est utilitas spiritualis 
+tempo<lb break="no" ed="#L" n="61"/>rali: quia illa. est finis, quoniam temporalia data sunt 
+Ec<lb break="no" ed="#L" n="62"/>clesiae propter spiritualia.
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e207">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>Nota secundo, quod omnes comparationes eligibilium
+<lb ed="#L" n="64"/>ad ecclesiastica ministeria praesupponunt bonitatem 
+abso<lb break="no" ed="#L" n="65"/>lute; hoc est, esse bonum virum; hoc est, quantum 
+hu<lb break="no" ed="#L" n="66"/>mana fragilitas concedit, personam illam esse in gratia
+<lb ed="#L" n="67"/>Dei. Unde qui manifeste tenet concubinam, vel in alio
+<lb ed="#L" n="68"/>peccato mortali creditur versari, extra latitudinem 
+eligi<lb break="no" ed="#L" n="69"/>bilium seu promovendorum est. Propterea in littera dicitur
+<lb ed="#L" n="70"/>quod minus boni, et non dicitur qnod mali praeferuntur
+<lb ed="#L" n="71"/>melioribus.
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e231">
+                  <lb ed="#L" n="72"/>Nota tertio, quod cum in respohsioHe ad primum 
+di<lb break="no" ed="#L" n="73"/>citur quod praelatus ecclesiasticus non est dominus :
+<lb ed="#L" n="74"/>possit ministeria ecclesiastica dare pro libito, sed dispen
+<lb ed="#L" n="75"/>sator, sub nomine ecclesiastici praelati clauditur etiam. |Papa:
+<lb ed="#L" n="76"/>ut patet per auctoritatem Pauli Apostoli allatam ad 
+pro<lb break="no" ed="#L" n="77"/>bandum intentum; est namque Papa Christi minister et
+<lb ed="#L" n="78"/>dispensator ministeriorum Dei.
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e250">
+                  <lb ed="#L" n="79"/>Nota quarto, quod cum in responsione ad tertium 
+di<lb break="no" ed="#L" n="80"/>citur quod oportet in foro conscientiae eligere meliorem, etc.,
+<lb ed="#L" n="81"/>intelligitur de possibilibus haberi. Hi enim de quibus 
+con<lb break="no" ed="#L" n="82"/>stat quod haberi non possunt, extra latitudinem eligibilium.
+<lb ed="#L" n="83"/>computandi sunt.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1597-Dd1e264"><!-- caj-p2p2-q63a3" -->
+               <head xml:id="TAcCaj-d1e1597-Hd1e267">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1597-d1e269">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53" type="fixed=65"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e276">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>In articulo tertio eiusdem quaestionis dubium occurrit circa
+<lb ed="#L" n="55"/>calcem articuli, ubi dicitur: Si autem solum intuitu 
+di<lb break="no" ed="#L" n="56"/>vitiarum honorentur, erit peccatum acceptionis 
+persona<lb break="no" ed="#L" n="57"/>rum. Tum quia acceptio personarum non habet locum in
+<lb ed="#L" n="58"/>gratuitis, sed solum in debitis exhibitionibus: de gratuitis
+<lb ed="#L" n="59"/>enim scriptum est: An non licet mihi quod volo facere?
+<lb ed="#L" n="60"/>Quamvis igitur in honoribus debitis esset acceptio 
+perso<lb break="no" ed="#L" n="61"/>narum, ut si in conventu Christiano aliquis supra 
+hono<lb break="no" ed="#L" n="62"/>retur propter divitias, ut lacobus Apostolus dicit, quia in
+<lb ed="#L" n="63"/>huiusmodi conventu locus debetur propter virtutem: in
+<lb ed="#L" n="64"/>honoribus tamen gratuitis, cum quotidie honoramus eos
+<lb ed="#L" n="65"/>qui nobis occurrunt detegendo caput, et huiusmodi, qui
+<lb ed="#L" n="66"/>tamen non sunt nostri superiores, ut teneamur, nulla 
+ap<lb break="no" ed="#L" n="67"/>$ paret ratio acceptionis personarum. Volo enim illi propter
+<lb ed="#L" n="68"/>divitias assurgere, quamvis non mereatur: an non licet
+<lb ed="#L" n="69"/>mihi quod volo facere?
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e315">
+                  <lb ed="#L" n="70"/>Tum quia, dato quod in huiusmodi gratuito honore
+<lb ed="#L" n="71"/>propter divitias sit peccatum, non est tamen peccatum 
+ac<lb break="no" ed="#L" n="72"/>ceptionis personarum, sed peccatum inobservantiae. 
+Exhi<lb break="no" ed="#L" n="73"/>bere enim huiusmodi honores ad observantiae virtutem
+<lb ed="#L" n="74"/>spectat: ac per hoc, errare in huiusmodi ad vitium illi
+<lb ed="#L" n="75"/>contrarium, et non ad acceptionem personarum, quae 
+con<lb break="no" ed="#L" n="76"/>trariatur iustitiae distributivae, spectat.
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e333">
+                  <lb ed="#L" n="77"/>II. Ad hoc dicitur quod, cum acceptio personarum 
+in<lb break="no" ed="#L" n="78"/>tantum sit peccatum inquantum contrariatur iustitiae; et
+<lb ed="#L" n="79"/>iustitia solum versetur circa debita; consequens est ut in
+<lb ed="#L" n="80"/>gratuitis locum non habeat. Et si nominatum esset vitium
+<lb ed="#L" n="81"/>contrarium virtuti observantiae, dicerem quod littera ista
+<lb ed="#L" n="82"/>intelligenda esset non de honore universaliter, sed de 
+ho<lb break="no" ed="#L" n="83"/>nore solum debito. Sed quia observantiae contrarium 
+vi<lb break="no" ed="#L" n="84"/>tium innominatum est; et observantia est pars iustitiae, et
+<lb ed="#L" n="85"/>extendit se ad debitum morale, ut in suo tractatu patebit:
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>ideo litteram hanc universaliter intelligo, et dico quod sicut
+<lb ed="#L" n="87"/>gratis dando pecuniam quando, ubi, quare, etc., non 
+opor<lb break="no" ed="#L" n="88"/>tet, pecco contra liberalitatem, quamvis non faciam 
+iniu<lb break="no" ed="#L" n="89"/>riam alicui; ita gratis honorando aliquem quare non 
+opor<lb break="no" ed="#L" n="90"/>tet, est peccatum contra observantiam ; sed quia hoc ideo
+<lb ed="#L" n="91"/>est peccatum quia accipitur non-causa honoris debiti ut
+<lb ed="#L" n="92"/>causa honoris debiti, ideo reductive est acceptio 
+persona<lb break="no" ed="#L" n="93"/>rum. Dixi autem, debiti, quia omni causae honoris est
+<lb ed="#L" n="94"/>honor debitus, licet non a me. Propter quod cum propter
+<lb ed="#L" n="95"/>divitias exhibetur honor, non solum causa exhibitionis, sed
+<lb ed="#L" n="96"/>etiam causa debiti violatur. Non sic autem est de prodigo
+<lb ed="#L" n="97"/>donante ex causa irrationabili: quoniam peccat quidem in
+<lb ed="#L" n="98"/>causa, sed non in causa debiti; non enim omni causae
+<lb ed="#L" n="99"/>propter quam potest donari, debetur donatio, sicut omni
+<lb ed="#L" n="100"/>virtuti, quae sola est causa honoris, ut in littera dicitur,
+<lb ed="#L" n="101"/>debetur honor. Et ideo exhibitio honoris solum propter
+<lb ed="#L" n="102"/>divitias iniustitiam participat.
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e395">
+                  <lb ed="#L" n="103"/>Et per haec patet solutio obiectorum. Nam in gratuitis
+<lb ed="#L" n="104"/>licet mihi quod volo facere, quantum ad hoc quod non
+<lb ed="#L" n="105"/>facio alteri iniuriam: non autem absolute, alioquin 
+prodi<lb break="no" ed="#L" n="106"/>galitas non esset vitium. Licet enim mihi quod volo facere,
+<lb ed="#L" n="107"/>servatis tamen debitis circumstantiis quando facio. Supremo
+<lb ed="#L" n="108"/>autem Patrifamilias, cuius lex est sua voluntas, licet quod
+<lb ed="#L" n="109"/>vult facere absolute.
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e413">
+                  <lb ed="#L" n="110"/>Et scito quod quando dicitur quod honorare homines
+<lb ed="#L" n="111"/>propter divitias est peccatum, intelligitur propter divitias
+<lb ed="#L" n="112"/>ut distinguuntur contra omnem habitudinem ad virtutem.
+<lb ed="#L" n="113"/>Dico autem hoc, quia divitiae ut adiuvant organice ad 
+fe<lb break="no" ed="#L" n="114"/>licitatem, ut reddunt hominem potentem ad nutriendos
+<lb ed="#L" n="115"/>alios, ad virtutem, ad pacis conservationem, et huiusmodi,
+<lb ed="#L" n="116"/>reddunt homines honorabiles. Et propterea qui non aliud
+<lb ed="#L" n="117"/>cogitat nisi quia aliquis ut dives occurrit sibi, non peccat
+<pb ed="#L" n="66"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>honorando eum: quoniam intelligitur honorare potentiam  
+<lb ed="#L" n="2"/>seu habitudinem ad virtutem. Et propter hoc glossa 
+Au<lb break="no" ed="#L" n="3"/>gustini super Iac. II, Si introierit in conventu vestro etc., 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>dicens, <quote xml:id="TAcCaj-d1e1597-Qd1e447">Si hoc intelligatur de quotidianis consessibus, quis
+<lb ed="#L" n="5"/>hic non peccat?</quote> subiunxit, si tamen peccat: quoniam, 
+ra<lb break="no" ed="#L" n="6"/>tione dicta, non peccat in huiusmodi humana conversatione.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1597-Dd1e456"><!-- caj-p2p2-q63a4" -->
+               <head xml:id="TAcCaj-d1e1597-Hd1e459">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1597-d1e461">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="61" type="fixed=66"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e468">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="62"/>In articulo quarto dubium occurrit circa id quod dicitur 
+<lb ed="#L" n="63"/>in responsione ad primum, quod forma iudicii pertinet 
+<lb ed="#L" n="64"/>ad iustitiam distributivam. Et est ratio dubii quia non  
+<lb ed="#L" n="65"/>quodcumque accipere ab uno et dare alteri est actus 
+iu<lb break="no" ed="#L" n="66"/>stitiae distributivae: sed, ut patet ex supradictis, accipere  
+<lb ed="#L" n="67"/>ab uno communi et dare alteri ut parti illius communis, 
+<lb ed="#L" n="68"/>est actus iustitiae distributivae. Judex autem inter 
+empto<lb break="no" ed="#L" n="69"/>rem et venditorem, percussorem et percussum, et alios 
+hu<lb break="no" ed="#L" n="70"/>iusmodi, nec accipit ab uno communi, sed ab una parte: 
+<lb ed="#L" n="71"/>nec dat alteri ut parti communis, sed ut singulari 
+perso<lb break="no" ed="#L" n="72"/>nae. Falsum ergo videtur quod iudicii forma ad iustitiam  
+<lb ed="#L" n="73"/>distributivam pertineat. 
+</p>
+               <p xml:id="TAcCaj-d1e1597-d1e499">
+                  <lb ed="#L" n="74"/>Ad hoc dicitur quod quia forma distributivae consistit 
+<lb ed="#L" n="75"/>in hoc quod unicuique detur secundum suam dignitatem;  
+<lb ed="#L" n="76"/>et forma iudicii consistit in hoc quod utrique parti, tam  
+<lb ed="#L" n="77"/>scilicet actori quam reo, attribuatur id quod 
+proportiona<lb break="no" ed="#L" n="78"/>tum est illi, sive hoc oriatur ex commutatione sive ex 
+dis<lb break="no" ed="#L" n="79"/>tributione: ideo forma iudicii spectare dicitur ad distribu- 
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="80"/>tivam iustitiam. Ita quod non ex hoc quod in actu iudidi -
+<lb ed="#L" n="81"/>intervenit accipere ab uno et dare alteri, asseritur forma 
+dis<lb break="no" ed="#L" n="82"/>tributivae iustitiae aut iudicii, ut obiectio facta accepit ex
+<lb ed="#L" n="83"/>littera; sed quia in actu iudicii intervenit accipere ab uno
+<lb ed="#L" n="84"/>et dare alteri, unicuique secundum suam proportionem ,
+<lb ed="#L" n="85"/>ideo ad iustitiam spectat distributivam forma iudicii 
+cuius<lb break="no" ed="#L" n="86"/>que. Patet autem quod dicitur ex eo quod iudex rectus,
+<lb ed="#L" n="87"/>accipiendo ab uno bonum aliquod, gravat ipsum non ultra
+<lb ed="#L" n="88"/>proportionem illi debitam: et similiter, dando alteri bonum
+<lb ed="#L" n="89"/>aliquod, non plus aut minus dat quam sit illi 
+commen<lb break="no" ed="#L" n="90"/>suratum. Sic ergo est differentia quandoque in re iudicata,
+<lb ed="#L" n="91"/>scilicet quod est commutatio vel distributio: sed in forma
+<lb ed="#L" n="92"/>iudicii omnes materiae conveniunt, pro quanto iudex nulli
+<lb ed="#L" n="93"/>praeter suam proportionem quasi distribuit bona et mala.
+<lb ed="#L" n="94"/>Et propterea vitium acceptionis personarum , quod 
+distri<lb break="no" ed="#L" n="95"/>butivae opponitur iustitiae, in omni potest habere locum
+<lb ed="#L" n="96"/>iudicio. Hanc autem esse mentem Auctoris etiam ex 
+cor<lb break="no" ed="#L" n="97"/>pore articuli patet.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

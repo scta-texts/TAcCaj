@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 79</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 79</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="172"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1680"><!-- TAcCajp2p2-q79" -->
+            <head xml:id="TAcCaj-d1e1680-Hd1e101">Quaestio 79</head>
+            <div xml:id="TAcCaj-d1e1680-Dd1e103"><!-- caj-p2p2-q79a1" -->
+               <head xml:id="TAcCaj-d1e1680-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1680-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9" type="fixed=169"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>In articulo primo quaestionis septuagesimaenonae dubium
+<lb ed="#L" n="11"/>Occurrit circa rationem in responsione ad primum 
+red<lb break="no" ed="#L" n="12"/>ditam, quare scilicet declinare a malo et facere bonum
+<lb ed="#L" n="13"/>secundum aliquam propriam rationem boni et mali, 
+po<lb break="no" ed="#L" n="14"/>nuntur partes iustitiae, et non ponuntur partes aliarum
+<lb ed="#L" n="15"/>virtutum, puta fortitudinis et temperantiae, secundum alias
+<lb ed="#L" n="16"/>speciales rationes boni. Ratio enim litterae est quia in aliis
+<lb ed="#L" n="17"/>virtutibus in idem redit utrumque: in iustitia autem aliud
+<lb ed="#L" n="18"/>est aequalitatem facere, et aliud factam non corrumpere.
+<lb ed="#L" n="19"/>Videtur autem haec ratio nulla. Tum quia in ipsa iustitia
+<lb ed="#L" n="20"/>etiam in idem redit utrumque: nam idem est aequalitatem
+<lb ed="#L" n="21"/>facere et ab inaequali declinare, non minus quam ab 
+ex<lb break="no" ed="#L" n="22"/>tremis ad medium venire. - Tum quia sicut aliud est 
+ae<lb break="no" ed="#L" n="23"/>qualitatem facere et aliud factam non corrumpere, ita aliud
+<lb ed="#L" n="24"/>est medium inter passiones constituere, et aliud 
+constitu<lb break="no" ed="#L" n="25"/>tum medium non corrumpere. Et sic undique ratio ruit.
+<lb ed="#L" n="26"/>— Ad huius evidentiam, sciendum est quod inter 
+aequa<lb break="no" ed="#L" n="27"/>litatem, circa quam versatur iustitia, et medium, circa quod
+<lb ed="#L" n="28"/>aliae sunt virtutes morales, haec est differentia, quod 
+ae<lb break="no" ed="#L" n="29"/>qualitas est in rebus ipsis, medium autem intus in animis
+<lb ed="#L" n="30"/>nostris. Et hinc fit ut constitutum per alias virtutes 
+me<lb break="no" ed="#L" n="31"/>dium a me, nullus alius possit corrumpere: nullus enim
+<lb ed="#L" n="32"/>me potest invitum ex temperato facere intemperatum. 
+Con<lb break="no" ed="#L" n="33"/>stitutam vero aequalitatem a me potest alius, me invito,
+<lb ed="#L" n="34"/>corrumpere: ut patet cum reddendum iussi agrum suum
+<lb ed="#L" n="35"/>Ioanni, et alter iubet eundem agrum ab eo auferendum;
+<lb ed="#L" n="36"/>corrumpit enim ille aequalitatem quam ego feci. Et hinc
+<lb ed="#L" n="37"/>intenta ad propositum differentia clara habetur: scilicet
+<lb ed="#L" n="38"/>quod in aliis virtutibus facere medium et non corrumpere
+<lb ed="#L" n="39"/>illud idem est, sicut illuminatio continua; in iustitia 
+au<lb break="no" ed="#L" n="40"/>tem facere aequalitatem et non corrumpere illam diversa
+<lb ed="#L" n="41"/>sunt, quia aequalitas facta in rebus non conservatur ex
+<lb ed="#L" n="42"/>meo facere, quia non dependet a me, potest namque a
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="43"/>multis aliis corrumpi. Quia ergo aliud est facere 
+aequalita<lb break="no" ed="#L" n="44"/>tem, et aliud est. [non] corrumpere aequalitatem factam a
+<lb ed="#L" n="45"/>se vel ab alio; et hoc non habet locum in aliis virtutibus :
+<lb ed="#L" n="46"/>ideo facere bonum .et declinare a malo, quae haec 
+impor<lb break="no" ed="#L" n="47"/>tant, assignantur specialiter iustitiae, et non aliis virtutibus.
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e204">
+                  <lb ed="#L" n="48"/>Et quia Auctor non videtur ex litterae superficie super
+<lb ed="#L" n="49"/>hac se fundasse differentia, ideo, respondendo ad obiecta,
+<lb ed="#L" n="50"/>dicitur quod differentia ista secundum veritatem non 
+at<lb break="no" ed="#L" n="51"/>tenditur penes recessum a termino a quo, puta malo, et
+<lb ed="#L" n="52"/>accessum ad terminum ad quem, puta bonum: sed penes
+<lb ed="#L" n="53"/>facere terminum ad quem, et non corrumpere illum. Et
+<lb ed="#L" n="54"/>hoc expressit littera, assignando quare specialiter haec sunt
+<lb ed="#L" n="55"/>partes iustitiae, ut patet in hac responsione. Causa autem
+<lb ed="#L" n="56"/>quare littera de aliis virtutibus meminit accessus ad 
+me<lb break="no" ed="#L" n="57"/>dium et recessus ab extremis, et hoc contraposuit, ut 
+ap<lb break="no" ed="#L" n="58"/>paret, verae differentiae, quae est secundum facere et non
+<lb ed="#L" n="59"/>corrumpere, fuit quia Auctor a notioribus docebat et 
+ma<lb break="no" ed="#L" n="60"/>nifestis. Manifestum autem est quod in aliis virtutibus 
+de<lb break="no" ed="#L" n="61"/>clinare a malo et facere bonum communiter sumuntur pro
+<lb ed="#L" n="62"/>recessu ab extremis et accessu ad medium. Et propterea
+<lb ed="#L" n="63"/>ostendit quod haec manifeste importata per has partes in
+<lb ed="#L" n="64"/>aliis virtutibus non sunt duae partes: et per oppositum
+<lb ed="#L" n="65"/>est quod illa quae manifeste importantur per easdem partes
+<lb ed="#L" n="66"/>in materia iustitiae , sunt duae partes. Ita quod Auctor
+<lb ed="#L" n="67"/>primo exclusit quod importata per illas partes in materia
+<lb ed="#L" n="68"/>aliarum virtutum non sunt duae partes. Deinde quod 
+im<lb break="no" ed="#L" n="69"/>portata per easdem partes in materia iustitiae sunt duae
+<lb ed="#L" n="70"/>partes. Et non contraposuit in veritate illa significata istis
+<lb ed="#L" n="71"/>significatis. Et per haec patet solutio primae obiectionis:
+<lb ed="#L" n="72"/>quia non penes illud posita est differentia. Et secundae:
+<lb ed="#L" n="73"/>quia penes illam posita est differentia; et falsum est quod
+<lb ed="#L" n="74"/>sit eadem ratio in iustitia et aliis de facere et non 
+corrum<lb break="no" ed="#L" n="75"/>pere constitutum, ut patet ex dictis.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1680-Dd1e268"><!-- caj-p2p2-q79a2" -->
+               <head xml:id="TAcCaj-d1e1680-Hd1e271">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1680-d1e273">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="28" type="fixed=170"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e280">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="29"/>IN articulo secundo eiusdem quaestionis 
+septuagesimae<lb break="no" ed="#L" n="30"/>sud dubium occurrit, simpliciter et ad hominem, circa
+<lb ed="#L" n="31"/>id quod dicitur in calce articuli, scilicet quod omissionis
+<lb ed="#L" n="32"/>peccatum omnino a transgressione distinguitur. Simpliciter
+<lb ed="#L" n="33"/>quidem, quia omissio potest esse materialiter transgressio:
+<lb ed="#L" n="34"/>ut patet cum quis non vult ire ad missam tempore 
+de<lb break="no" ed="#L" n="35"/>bito. - Ad hominem vero, quia Auctor in corpore huius
+<lb ed="#L" n="36"/>articuli dicit quod omnes species peccatorum possunt esse
+<lb ed="#L" n="37"/>materialiter transgressio, quia per quodlibet mortale homo
+<lb ed="#L" n="38"/>transgreditur aliquod divinum praeceptum. Si enim per
+<lb ed="#L" n="39"/>quodlibet mortale homo transgreditur praeceptum divinum;
+<lb ed="#L" n="40"/>et omissio est peccatum mortale quandoque: ergo omissio
+<lb ed="#L" n="41"/>est etiam transgressio, sicut alia peccata materialiter sunt
+<lb ed="#L" n="42"/>transgressio, et non omnino distinguuntur a transgressione.
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e315">
+                  <lb ed="#L" n="43"/>Ad hoc dicitur quod, ut patet in littera, transgressio
+<lb ed="#L" n="44"/>formaliter est actus positive quo quis vult non servare
+<lb ed="#L" n="45"/>legem ; et directe contrariatur actui voluntatis quo quis
+<lb ed="#L" n="46"/>vult servare legem. Et quia hic actus est actus iustitiae
+<lb ed="#L" n="47"/>legalis, extendens se ad opera omnium virtutum, pro quanto
+<lb ed="#L" n="48"/>vult quis non solum facere illa opera virtutum absolute,
+<lb ed="#L" n="49"/>sed vult ea facere quia praecepta a lege divina vel 
+natu<lb break="no" ed="#L" n="50"/>rali vel humana; ideo actus contrarius, scilicet velle non
+<lb ed="#L" n="51"/>servare legem, est actus iniustitiae generalis seu legalis.
+<lb ed="#L" n="52"/>Etiam extendere se quoque potest ad omnia opera 
+vitio<lb break="no" ed="#L" n="53"/>rum: pro quanto potest quis non solum peccata absolute
+<lb ed="#L" n="54"/>committere, sed potest etiam committere in odium legis.
+<lb ed="#L" n="55"/>Et sic transgressio distinguitur ab aliis peccatis sicut una
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="56"/>species peccati ab aliis: sicut iniustitia legalis ab 
+intempe<lb break="no" ed="#L" n="57"/>rantia, etc. Et hoc dicitur in littera cum dicitur: 
+secun<lb break="no" ed="#L" n="58"/>dum quod opponitur ad genera peccatorum opposita aliis
+<lb ed="#L" n="59"/>virtutibus. Et quia velle contrariatur praecepto quod non
+<lb ed="#L" n="60"/>velimus, ideo transgressio, quae consistit in velle, 
+contra<lb break="no" ed="#L" n="61"/>riatur praecepto negativo. Et sic transgressio ex ratione
+<lb ed="#L" n="62"/>formali sua morali, qua scilicet constituitur in specie 
+in<lb break="no" ed="#L" n="63"/>iustitiae legalis, opponitur vitiis ceteris ut forma materiae.
+<lb ed="#L" n="64"/>Ratione autem rationis suae formalis in genere naturae,
+<lb ed="#L" n="65"/>quia scilicet consistit in actu positivo, opponitur omissioni
+<lb ed="#L" n="66"/>ut posiceum negativo. Et hic est secundus modus in 
+lit<lb break="no" ed="#L" n="67"/>tera positus quo transgressio est speciale peccatum: quia
+<lb ed="#L" n="68"/>scilicet non est omissio.
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e376">
+                  <lb ed="#L" n="69"/>Sed advertendum est quod omissionis peccatum 
+dupli<lb break="no" ed="#L" n="70"/>citer sumi potest. Primo, secundum se. Et sic, cum 
+nul<lb break="no" ed="#L" n="71"/>lum includat actum, non potest esse transgressionis 
+ma<lb break="no" ed="#L" n="72"/>teria: implicat namque contradictoria, scilicet esse sine
+<lb ed="#L" n="73"/>omni actu, et esse materiam transgressionis, quae est actus.
+<lb ed="#L" n="74"/>Et sic accepit eam Auctor dicens quod omnino a 
+trans<lb break="no" ed="#L" n="75"/>gressione distinguitur. — Alio modo, secundum suam 
+cau<lb break="no" ed="#L" n="76"/>sam, Et sic potest esse materia transgressionis directe, sicut
+<lb ed="#L" n="77"/>cetera peccata; ut cum vult quis non servare praecepta
+<lb ed="#L" n="78"/>affirmativa in odium legis. Et hoc modo quodlibet 
+pecca<lb break="no" ed="#L" n="79"/>tum mortale potest esse materia transgressionis, quia non
+<lb ed="#L" n="80"/>servat divinum praeceptum.
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e406">
+                  <lb ed="#L" n="81"/>Et sic omnia consonant: nec simpliciter, nec apud 
+Au<lb break="no" ed="#L" n="82"/>ctorem controversia restat.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1680-Dd1e414"><!-- caj-p2p2-q79a3" -->
+               <head xml:id="TAcCaj-d1e1680-Hd1e417">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1680-d1e419">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="79" type="fixed=171"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e426">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="80"/>IN articulo tertio eiusdem quaestionis septuagesimaenonae,
+<lb ed="#L" n="81"/>nota primo, ex corpore articuli et responsione ad 
+quar<lb break="no" ed="#L" n="82"/>tum, quod omissio potest sumi dupliciter, scilicet 
+forma<lb break="no" ed="#L" n="83"/>praeced. ]iter et materialiter, sicut de transgressione dictum est.
+<lb ed="#L" n="84"/>Et quod omissio formaliter importat non agere debitum:
+<lb ed="#L" n="85"/>ita quod ratio debiti formaliter cadit in ratione formali
+<lb ed="#L" n="86"/>omissionis ut est speciale peccatum, hoc est formaliter
+<lb ed="#L" n="87"/>sumptae. Et quia ratio debiti ad solam iustitiam inter alias
+<lb ed="#L" n="88"/>virtutes spectat, ut in. praecedenti Libro, qu. xcix, art. 5, ad 1,
+<lb ed="#L" n="89"/>habitum est; ideo omissio formaliter est peccatum 
+iniu<lb break="no" ed="#L" n="90"/>stitiae, vel generalis seu legalis, vel specialis, vel utriusque,
+<lb ed="#L" n="91"/>ut ratio debiti occurrit. Materialiter autem sumpta 
+omis<lb break="no" ed="#L" n="92"/>sio importat non agere id quod est debitum. Et propterea
+<lb ed="#L" n="93"/>omissio materialiter invenitur in qualibet specie virtutis ,
+<lb ed="#L" n="94"/>pro quanto quodlibet bonum virtutis omitti potest: sed
+<lb ed="#L" n="95"/>formaliter non omittit nisi quis ut debitum omittat. Ita
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="96"/>quod omittens, verbi gratia, comedere quantum oportet, etc.,
+<lb ed="#L" n="97"/>quatenus actum temperantiae qui est debitus non facit,
+<lb ed="#L" n="98"/>omittit materialiter: quatenus autem eundem ut debitum
+<lb ed="#L" n="99"/>secundum naturae vel Dei legem, non facit, omittit 
+for<lb break="no" ed="#L" n="100"/>maliter. Et sic omissio formaliter directe opponitur 
+iu<lb break="no" ed="#L" n="101"/>stitiae.
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e481">
+                  <lb ed="#L" n="102"/>Et ut in articuli corpore dicitur, dupliciter distinguitur
+<lb ed="#L" n="103"/>et ponitur speciale peccatum. Primo, sicut peccata 
+iniu<lb break="no" ed="#L" n="104"/>stitiae sunt specialia peccata a peccatis contra 
+temperan<lb break="no" ed="#L" n="105"/>tiam et fortitudinem distincta. — Secundo, sicut inter ipsa
+<lb ed="#L" n="106"/>peccata iniustitiae inter se peccata distinguuntur, sicut actus
+<lb ed="#L" n="107"/>virtuosi quibus opponuntur. Et sic, quia facere bonum
+<lb ed="#L" n="108"/>et declinare a malo sunt diversi actus iustitiae, ideo 
+omit<lb break="no" ed="#L" n="109"/>tere, quod opponitur ad facere, et transgredi, quod 
+op<lb break="no" ed="#L" n="110"/>ponitur ad declinare, inter se sunt diversa peccata 
+spe<lb break="no" ed="#L" n="111"/>cialia sub iniustitia contenta. Et haec intendit littera.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1680-Dd1e506"><!-- caj-p2p2-q79a4" -->
+               <head xml:id="TAcCaj-d1e1680-Hd1e509">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1680-d1e511">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="88" type="fixed=172"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e518">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="89"/>IN articulo quarto eiusdem quaestionis 
+septuagesimaeno<lb break="no" ed="#L" n="90"/>ls dubium occurrit circa id quod ibi dicitur, quod maior
+<lb ed="#L" n="91"/>est distantia contraria quam contradictoria; et eius 
+ratio<lb break="no" ed="#L" n="92"/>nem, quia omne nigrum est non album, et non e contra.
+<lb ed="#L" n="93"/>Falsum enim dicitur. Quia maior est distantia inter ens
+<lb ed="#L" n="94"/>et non ens quam inter duo entia. Constat autem 
+contra<lb break="no" ed="#L" n="95"/>riorum utrumque esse ens; contradictoriorum autem 
+alte<lb break="no" ed="#L" n="96"/>rum non ens. Ergo. - Ratio etiam claudicat. Quia non
+<lb ed="#L" n="97"/>album extendit se ad omnia extra album, quorum multa
+<lb ed="#L" n="98"/>magis distant ab albo quam nigrum: ut patet de distinctis
+<lb ed="#L" n="99"/>genere ab albo.
+</p>
+               <p xml:id="TAcCaj-d1e1680-d1e547">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="100"/>Ad hoc dicitur quod distantia dupliciter sumi potest:
+<lb ed="#L" n="101"/>scilicet proprie, pro differentia seu diversitate positive; et
+<lb ed="#L" n="102"/>communiter, pro diversitate qualitercumque, extensa etiam
+<lb ed="#L" n="103"/>ad non convenientiam. Et si hoc secundo modo sit sermo,
+<lb ed="#L" n="104"/>constat inter contradictoria esse maiorem distantiam, quia
+<lb ed="#L" n="105"/>minus conveniunt, ut arguendo dicitur. - Sed primo modo
+<lb ed="#L" n="106"/>maior est distantia contrariorum quam contradictoriorum.
+<lb ed="#L" n="107"/>Et ratio est quia contrariorum distantia utrinque 
+quanti<lb break="no" ed="#L" n="108"/>ficatur: nam utrumque extremum est positivum, et ponit
+<lb ed="#L" n="109"/>aliquantam sui distantiam. In contradictoriis vero ex uno
+<lb ed="#L" n="110"/>tantum membro quantitas distantiae est: tantum enim di-
+<pb ed="#L" n="173"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>stat album a non albo quantum entitatem ponit album,
+<lb ed="#L" n="2"/>et non plus; quia non album nullam distantiam ponit.
+<lb ed="#L" n="3"/>Et propterea Auctor optime hoc probavit ex illata ratione:
+<lb ed="#L" n="4"/>quia scilicet distantia contrariorum continet in se 
+distan<lb break="no" ed="#L" n="5"/>tiam contradictoriorum, et addit supra illam. Hoc enim
+<lb ed="#L" n="6"/>significant illa verba, Omne enim nigrum est non album,
+<lb ed="#L" n="7"/>et non e contra: ac si diceret: Nigrum includit distantiam
+<lb ed="#L" n="8"/>albi a non albo, quia omne nigrum est non album, et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>ultra hoc includit distantiam quam ponit ipsum nigrum
+<lb ed="#L" n="10"/>ab albo: ergo est maior, cum non sit e contra, scilicet
+<lb ed="#L" n="11"/>quod omne non album sit nigrum. - Et quod obiiciendo
+<lb ed="#L" n="12"/>dicitur, quod non album extendit se ad tot, nihil obstat:
+<lb ed="#L" n="13"/>quia hoc est per accidens, seu materialiter. Formaliter
+<lb ed="#L" n="14"/>namque loquendo, non album neque nigrum neque aliud
+<lb ed="#L" n="15"/>genus infert: et stat cum minori distantia positiva, puta
+<lb ed="#L" n="16"/>cum pallido et aliis mediis coloribus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

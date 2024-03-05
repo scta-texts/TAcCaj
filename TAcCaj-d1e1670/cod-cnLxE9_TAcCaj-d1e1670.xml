@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 77</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 77</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="148"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1670"><!-- TAcCajp2p2-q77" -->
+            <head xml:id="TAcCaj-d1e1670-Hd1e101">Quaestio 77</head>
+            <div xml:id="TAcCaj-d1e1670-Dd1e103"><!-- caj-p2p2-q77a1" -->
+               <head xml:id="TAcCaj-d1e1670-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1670-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53" type="fixed=148"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>In principio introductorio quaestionis 
+septuagesimaesepti<lb break="no" ed="#L" n="55"/>mae, ubi redditur pro causa quare de solis his duobus
+<lb ed="#L" n="56"/>vitiis commutationum voluntariarum, hoc est de 
+fraudu<lb break="no" ed="#L" n="57"/>lentia et usura, tractandum est, scilicet quia circa alias 
+vo<lb break="no" ed="#L" n="58"/>luntarias commutationes non invenitur aliqua species 
+pec<lb break="no" ed="#L" n="59"/>cati quae distinguatur a rapina vel furto, dubium occurrit,
+<lb ed="#L" n="60"/>unde distinctionem habet specificam a furto fraudulentia 
+<lb ed="#L" n="61"/>in venditione et emptione. Et est ratio dubii, tum quia |
+<lb ed="#L" n="62"/>huiusmodi acceptio aut fit sciente domino invito, aut non:
+<lb ed="#L" n="63"/>si sciente, non est fraudulentia, sed rapina; si nesciente,
+<lb ed="#L" n="64"/>est furtum, quod. est occulta. rei alienae acceptio. — "Tum
+<lb ed="#L" n="65"/>quia sicut committitur fraus in emptione et venditione,
+<lb ed="#L" n="66"/>ita in aliis commutationibus voluntariis: ut patet in 
+con<lb break="no" ed="#L" n="67"/>ductione et locatione, et pignore; contingit enim locare
+<lb ed="#L" n="68"/>equum vitiosum, et dare pignus falsum, etc. Non est ergo
+<lb ed="#L" n="69"/>specifica. distinctio. plus in emptione et venditione quam
+<lb ed="#L" n="70"/>in aliis, si in aliis, haec. distinguuntur a furto et rapina.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e157">
+                  <lb ed="#L" n="71"/>Ad hoc dicitur quod distinctio iniustitiae quae fit in
+<lb ed="#L" n="72"/>emptionibus et venditionibus a rapina et furto ex multis
+<lb ed="#L" n="73"/>manifesta est. Primo, ex hoc quod iniustitia huiusmodi
+<lb ed="#L" n="74"/>communiter fit dolose, seu fraudulenter: unde et 
+fraudu<lb break="no" ed="#L" n="75"/>lentia. nominatur, Quod non est de ratione furti aut 
+ra<lb break="no" ed="#L" n="76"/>pinae. - Secundo, quod acceptio iniusta hic fit 
+quodam<lb break="no" ed="#L" n="77"/>modo invito, et quodammodo volente domino: in furto
+<lb ed="#L" n="78"/>autem et rapina fit acceptio domino invito simpliciter.
+<lb ed="#L" n="79"/>Quoniam in emptione et venditione iniusta utraque pars
+<lb ed="#L" n="80"/>voluntarie dat alteri quod suum est, et sic est ibi aliquo
+<lb ed="#L" n="81"/>modo: voluntarium: sed quia pars decepta non daret si
+<lb ed="#L" n="82"/>sciret se deceptam, ideo est etiam ibi involuntarium. 
+Fur<lb break="no" ed="#L" n="83"/>tum autem aut rapinam patiens non agit ad translationem
+<lb ed="#L" n="84"/>rei suae a se, sed tantummodo patitur. - Tertio, quia 
+hu<lb break="no" ed="#L" n="85"/>iusmodi iniustitia communiter se habet ad scientiam et
+<lb ed="#L" n="86"/>ignorantiam patientis. Acceptio autem tam furtiva quam
+<lb ed="#L" n="87"/>rapinae determinata est: quia rapina rem in manifesto,
+<lb ed="#L" n="88"/>furtum in occulto. accipit.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e199">
+                  <lb ed="#L" n="89"/>Ad primam ergo obiectionem in oppositum dicitur quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="90"/>acceptio in venditione iniusta sciente domino sed propter
+<lb ed="#L" n="91"/>ignorantiam patiente, non est rapina, quia non est violentia
+<lb ed="#L" n="92"/>ibi; nec furtum, quia fit sciente et volente quodammodo
+<lb ed="#L" n="93"/>domino; sed est speciale vitium de quo nunc tractamus.
+<lb ed="#L" n="94"/>Acceptio vero quae fit ignorante parte, non est furtum,
+<lb ed="#L" n="95"/>sed. claudit in se fraudem participatam, et tendit non ad
+<lb ed="#L" n="96"/>inferendam passionem simpliciter, ut furtiva, sed passionem
+<lb ed="#L" n="97"/>quodammodo provenientem a patiente, ut praedictum ji
+<lb ed="#L" n="98"/>Ad secundum dicitur quod appellatione furti et rapinae
+<lb ed="#L" n="99"/>in proposito intelligi possunt omnia enumerata vitia: quia
+<lb ed="#L" n="100"/>Auctor intendit quod per alias commutationes voluntarias
+<lb ed="#L" n="101"/>non oportet de aliquo alio vitio tractare, sed sufficit 
+tra<lb break="no" ed="#L" n="102"/>ctare de enumeratis. Constat autem ex littera quod iam
+<lb ed="#L" n="103"/>enumeraverat fraudulentiam et usuram. Unde sicut quia
+<lb ed="#L" n="104"/>tractatum est de furto, non oportet per alias 
+commutatio<lb break="no" ed="#L" n="105"/>nes specialiter tractare de furto interveniente in illis, ut
+<lb ed="#L" n="106"/>si quis furetur pignus aut depositum; ita quia tractandum
+<lb ed="#L" n="107"/>est de fraudulentia in praecipua sua materia, scilicet 
+em<lb break="no" ed="#L" n="108"/>ptione et venditione, non est opus tractare de illa 
+inter<lb break="no" ed="#L" n="109"/>veniente in pignoribus aut depositis. Non intendit ergo
+<lb ed="#L" n="110"/>Auctor quod in aliis commutationibus voluntariis 
+fraudu<lb break="no" ed="#L" n="111"/>lentia sit furtum aut rapina, in emptionibus vero et 
+vendi<lb break="no" ed="#L" n="112"/>tionibus sit speciale vitium: sed quod per alias 
+commutatio<lb break="no" ed="#L" n="113"/>nes voluntarias non est tractandum de aliquo speciali vitio,
+<lb ed="#L" n="114"/>quia in his duobus, scilicet fraudulentia et usura, 
+adiun<lb break="no" ed="#L" n="115"/>ctis superius tractatis, scilicet furto etc., non restat aliqua
+<lb ed="#L" n="116"/>vitii species tractanda in commutationibus voluntariis.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e265">
+                  <lb ed="#L" n="117"/>IN articulo primo quaestionis septuagesimaeseptimae 
+du<lb break="no" ed="#L" n="118"/>bium occurrit, an iustum pretium rei sit quantum 
+com<lb break="no" ed="#L" n="119"/>muniter vendi solet absolute in tali loco, etc.; an 
+quan<lb break="no" ed="#L" n="120"/>tum in tali modo vendendi invenitur, puta cum ultro 
+of<lb break="no" ed="#L" n="121"/>fertur in subhastatione, vel per mediatores, etc. Et est finis
+<lb ed="#L" n="122"/>dubii quia hinc pendet solutio multarum quaestionum.
+<lb ed="#L" n="123"/>Ratio autem dubitandi est quia si iustum pretium. 
+deter<lb break="no" ed="#L" n="124"/>minatur non attento modo vendendi, sequitur quod ementes
+<pb ed="#L" n="149"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>res quae publico praecone subhastantur et minus quam
+<lb ed="#L" n="2"/>absolute valeant venduntur, communiter iniuste emerent.
+<lb ed="#L" n="3"/>Et consequenter quod rectores reipublicae causam darent
+<lb ed="#L" n="4"/>iniquis emptionibus.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e298">
+                  <lb ed="#L" n="5"/>In oppositum autem est quia si iustum pretium  
+de<lb break="no" ed="#L" n="6"/>terminetur attento modo vendendi, sequeretur quod licitum
+<lb ed="#L" n="7"/>esset emere minus quam valeat res, ab his qui, necessitate
+<lb ed="#L" n="8"/>indigentiae acti, ultro vendunt longe minus quam eadem
+<lb ed="#L" n="9"/>res in eodem loco communiter vendatur. Quod videtur
+<lb ed="#L" n="10"/>iniustum: quia non. omnino voluntaria est commutatio,
+<lb ed="#L" n="11"/>sed semiviolenta; sicut quando quis proiicit merces in
+<lb ed="#L" n="12"/>mare ne pereat.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e318">
+                  <lb ed="#L" n="13"/>II. Ad evidentiam huius difficultatis, tria videnda sunt:
+<lb ed="#L" n="14"/>primo, in quo consistat difficultas; secundo, determinanda
+<lb ed="#L" n="15"/>veritas; tertio, solvendae sunt ex veritate difficultates 
+ac<lb break="no" ed="#L" n="16"/>cidentes, Quoad primum, concurrunt in hoc casu tria:
+<lb ed="#L" n="17"/>scilicet modus vendendi, scilicet quaerendo emptorem;
+<lb ed="#L" n="18"/>causa vendendi, puta necessitas, vel aliquid aliud, etc.; et
+<lb ed="#L" n="19"/>diminutio notabilis pretii respectu pretii communiter 
+cur<lb break="no" ed="#L" n="20"/>rentis, Verbi gratia, pannus iste a mercatoribus 
+commu<lb break="no" ed="#L" n="21"/>niter venditur centum: ego, qui ultro offero et quaero 
+em<lb break="no" ed="#L" n="22"/>ptorem, non invenio qui velit mihi dare plus quam 
+octo<lb break="no" ed="#L" n="23"/>ginta; et sic, vendente me pro octoginta, longe minus quam
+<lb ed="#L" n="24"/>communiter valet emitur. Ex quibus apparet unde 
+difficul<lb break="no" ed="#L" n="25"/>tas consurgit.. Nam modus vendendi, scilicet ultro offerre
+<lb ed="#L" n="26"/>et quaerere emptorem, manifeste in aestimatione hominum
+<lb ed="#L" n="27"/>viliuicat rem venalem: ultroneae namque merces, ut in
+<lb ed="#L" n="28"/>proverbio dicitur, vilescunt pro tertia parte. Et si pretia
+<lb ed="#L" n="29"/>rerum determinanda sunt prout res aestimantur ab 
+homi<lb break="no" ed="#L" n="30"/>nibus, consequens videtur quod modus iste vendendi 
+ra<lb break="no" ed="#L" n="31"/>tionabiliter minuat de pretio communiter invento. — Sed
+<lb ed="#L" n="32"/>cum modus vendendi reducitur in causam vendendi, 
+ap<lb break="no" ed="#L" n="33"/>paret oppositum. Quia communiter minus notabiliter 
+ven<lb break="no" ed="#L" n="34"/>dentes ex necessitate, non voluntate hoc faciunt: ut patet
+<lb ed="#L" n="35"/>et in his quae subhastantur; sunt enim bona pauperum
+<lb ed="#L" n="36"/>debitorum, quae, ut satisfiat creditori in pecunia, venduntur
+<lb ed="#L" n="37"/>plus danti illo modo vendendi; et totum. hoc damnum
+<lb ed="#L" n="38"/>sustinet pauper quia non habet unde aliter solvat, saltem
+<lb ed="#L" n="39"/>pro tunc. Patet etiam in his quae per mediatores 
+vendun<lb break="no" ed="#L" n="40"/>tur ab illis qui emerunt ad tempus, non ut illa haberent,
+<lb ed="#L" n="41"/>sed ut statim venderent, ut pecuniam haberent sibi 
+neces<lb break="no" ed="#L" n="42"/>sariam, et hoc quia non inveniunt qui eis mutuet: tales
+<lb ed="#L" n="43"/>enim quod hodie iusto pretio emunt mille, hodie dant
+<lb ed="#L" n="44"/>ibidem pro octingentis vel minus, prout possunt. — Stat
+<lb ed="#L" n="45"/>ergo difficultas in hoc: an modus vendendi, an causa 
+ven<lb break="no" ed="#L" n="46"/>dendi, an utrumque, an neutrum, sit hac in re 
+pensitan<lb break="no" ed="#L" n="47"/>dum. - Haec de primo.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e396">
+                  <lb ed="#L" n="48"/>III. Quoad secundum, scito quod in huiusmodi 
+com<lb break="no" ed="#L" n="49"/>mutationibus, scilicet emptione et venditione, non est 
+re<lb break="no" ed="#L" n="50"/>currendum ad ea quae sunt per accidens, puta donationem
+<lb ed="#L" n="51"/>admixtam, dicendo quod venditor praesumitur donare, et
+<lb ed="#L" n="52"/>huiusmodi. "Tum quia hoc non est verum: sicut nec in
+<lb ed="#L" n="53"/>usura, etiam si sine necessitate aliqua quis accipiat 
+mu<lb break="no" ed="#L" n="54"/>tuum sub usura, praesumitur donare. Tum quia iustum
+<lb ed="#L" n="55"/>quaeritur, non donum, in emptionibus et venditionibus.
+<lb ed="#L" n="56"/>Et hoc bene nota, ne fallaris dicendo: Jlle non est in 
+ne<lb break="no" ed="#L" n="57"/>cessitate ; voluit vendere; nemo coegit. Potuit donare. Ergo
+<lb ed="#L" n="58"/>donavit superfluum. Applica namque haec ad accipientem
+<lb ed="#L" n="59"/>sine necessitate mutuum sub usura, ut dictum est, et 
+per<lb break="no" ed="#L" n="60"/>spicies erroneum esse discursum tuum, propter allatam
+<lb ed="#L" n="61"/>causam, quia commutatio exercetur, non donum; iustitia,
+<lb ed="#L" n="62"/>non liberalitas examinanda est.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e431">
+                  <lb ed="#L" n="63"/>Et ex hoc capite sequitur quod causa vendendi per 
+ac<lb break="no" ed="#L" n="64"/>cidens se habet ad iustum pretium, nisi redundet in 
+quan<lb break="no" ed="#L" n="65"/>titatem maiorem vel minorem valoris rei venalis. Quoniam
+<lb ed="#L" n="66"/>iustum pretium determinandum est secundum aequalitatem
+<lb ed="#L" n="67"/>rei ad rem, hoc est rei venalis ad rem quae datur pro ea,
+<lb ed="#L" n="68"/>et e converso. Unde sive ex indigentia, sive ex abundantia,
+<lb ed="#L" n="69"/>sive ex complacentia, sive ex despectu quis vendat, non
+<lb ed="#L" n="70"/>augetur vel diminuitur pretium nisi redundet in 
+quantita<lb break="no" ed="#L" n="71"/>tem valoris rei vel simpliciter vel vendenti: simpliciter, cum |
+<lb ed="#L" n="72"/>abundantia rei tanta est quod facit rem vilioris pretii; 
+ven<lb break="no" ed="#L" n="73"/>denti autem, cum incommoditas vel indigentia magnificat
+<lb ed="#L" n="74"/>valorem rei vendenti, quod scilicet valet plus sibi, licet non
+<lb ed="#L" n="75"/>simpliciter, ut in littera dicitur.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e462">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>Et ex hoc sequitur quod si certa merces, puta una petia
+<lb ed="#L" n="77"/>serici, valet apud mercatores communiter centum nunc
+<lb ed="#L" n="78"/>Romae; et inveniantur duo privati viri quorum quilibet
+<lb ed="#L" n="79"/>unam huiusmodi petiam habet, et uterque vult suam 
+ven<lb break="no" ed="#L" n="80"/>dere, sed ex diversa causa, unus quia in necessitate 
+con<lb break="no" ed="#L" n="81"/>stitutus nec potest aliter suis providere necessitatibus, alter,
+<lb ed="#L" n="82"/>dives, quia non placet sibi tenere illam domi; et 
+expo<lb break="no" ed="#L" n="83"/>nantur ambae venales, et ultro oblatae quaerant emptores,
+<lb ed="#L" n="84"/>et non inveniant emptorem nisi pro septuaginta pro 
+qua<lb break="no" ed="#L" n="85"/>libet; et vendantur ambae tali pretio: — si sic, inquam,
+<lb ed="#L" n="86"/>accidat, par ratio esset de iusto vel iniusto pretio 
+utrius<lb break="no" ed="#L" n="87"/>que; et si emere a divite tali pretio non est peccatum,
+<lb ed="#L" n="88"/>nec emere ab indigente erit peccatum; et si emere ab 
+in<lb break="no" ed="#L" n="89"/>digente erit peccatum, emere etiam a divite erit peccatum.
+<lb ed="#L" n="90"/>Et ratio est quia hic non est differentia in valore rei quae
+<lb ed="#L" n="91"/>venditur, nec simpliciter nec huic (alioquin quaelibet res
+<lb ed="#L" n="92"/>pauperis valeret plus quam similis res divitis: quod 
+expe<lb break="no" ed="#L" n="93"/>rientia quotidiana testatur falsum): sed est differentia in
+<lb ed="#L" n="94"/>sola causa vendendi, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e509">
+                  <lb ed="#L" n="95"/>IV. Ad hoc igitur deduci videtur omnis. quaestio, si
+<lb ed="#L" n="96"/>modus ipse vendendi sit rationabilis causa notabilis 
+dimi<lb break="no" ed="#L" n="97"/>nutionis a communi pretio, ex quo non refert qua quis
+<lb ed="#L" n="98"/>causa vendat. Sed revera modus vendendi licet forte sit
+<lb ed="#L" n="99"/>cum-causa diminutionis huiusmodi, vera tamen causa est
+<lb ed="#L" n="100"/>defectus emptorum. Si enim adessent emptores tanti, aut
+<lb ed="#L" n="101"/>quasi tanti, emeretur ultranea merces. quanti retenta apud
+<lb ed="#L" n="102"/>mercatores. Sed quoniam pro tunc quando iste vult 
+ven<lb break="no" ed="#L" n="103"/>dere, desunt emptores, ideo minus venditur. Et 
+rationa<lb break="no" ed="#L" n="104"/>biliter: quia regulare est quod res, quanto plures habet
+<lb ed="#L" n="105"/>emptores, tanto plus aestimatur et valet. Unde gemmae,
+<lb ed="#L" n="106"/>quando non habent emptores, vilissime venduntur: et
+<lb ed="#L" n="107"/>quando multi inveniuntur earum emptores, magni fiunt
+<lb ed="#L" n="108"/>et pretio notabiliter excessivo venduntur. Et simile videmus
+<lb ed="#L" n="109"/>in aliis rebus: quod quando in aliquo loco vel tempore
+<lb ed="#L" n="110"/>non indigent aut non utuntur rebus aliquibus, aut nequeunt
+<lb ed="#L" n="111"/>illas emere propter penuriam pecuniae, vilescunt res 
+hu<lb break="no" ed="#L" n="112"/>iusmodi notabiliter. Quia igitur penuria emptorum nunc
+<lb ed="#L" n="113"/>rationabilis causa est notabilis diminutionis pretii a pretio
+<lb ed="#L" n="114"/>communi expectantium emptores, ideo iustum pretium 
+cen<lb break="no" ed="#L" n="115"/>sendum est id quod inveniri nunc potest, facta 
+promul<lb break="no" ed="#L" n="116"/>gatione rei venalis (ne occulta venditio sit causa penuriae
+<lb ed="#L" n="117"/>emptorum), quamvis sit notabiliter minus quam. pretium
+<lb ed="#L" n="118"/>quod communiter currit apud expectantes emptores.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e564">
+                  <lb ed="#L" n="119"/>Et licet hoc ex dicta ratione ostensiva clarum videatur,
+<lb ed="#L" n="120"/>manifestatur tamen ex communiter accidentibus reputatis
+<lb ed="#L" n="121"/>iustis. Videmus quod post bella et devastatas urbes, 
+ha<lb break="no" ed="#L" n="122"/>bentes domos nec potentes expectare emptores qui, 
+com<lb break="no" ed="#L" n="123"/>positis rebus et refecta urbe, erunt, vendunt pro mille
+<lb ed="#L" n="124"/>domos valentes quatuor millia si casus hic non esset: et
+<lb ed="#L" n="125"/>iustum pretium dicitur mille, quia hodie non invenit 
+em<lb break="no" ed="#L" n="126"/>ptorem qui emat plus. Similiter a mercatoribus in fine
+<lb ed="#L" n="127"/>nundinarum, quia nolunt expectare futuros emptores post
+<lb ed="#L" n="128"/>nundinas, emuntur conductae merces multo vilius. quam
+<lb ed="#L" n="129"/>illis diebus communiter valebant. Et, breviter, cessantibus
+<lb ed="#L" n="130"/>fraudibus et coactione, si propter penuriam emptorum
+<lb ed="#L" n="131"/>nunc tantum venditur quantum invenitur ab emptoribus
+<lb ed="#L" n="132"/>nunc; et communiter scitur rem talem esse venalem nunc:
+<lb ed="#L" n="133"/>iusto pretio venditur et emitur, quacumque ex causa quis
+<lb ed="#L" n="134"/>vendat, quantumcumque expectantes crastinum. emptorem
+<lb ed="#L" n="135"/>communiter longe plus vendant.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e603">
+                  <lb ed="#L" n="136"/>Et si obiiciatur quod paucitas emptorum oritur ex hoc
+<lb ed="#L" n="137"/>quod homines aestimant huiusmodi emptionem esse 
+iniu<lb break="no" ed="#L" n="138"/>stam: — respondetur primo, quod hoc non constat. 
+Se<lb break="no" ed="#L" n="139"/>cundo, quod stultorum infinitus est numerus, et pauci
+<lb ed="#L" n="140"/>sunt adeo timorati: unde non videtur causa ista probabilis.
+<lb ed="#L" n="141"/>Tertio, quod apparet manifeste in subhastatione, etiam
+<lb ed="#L" n="142"/>sine curiae auctoritate, non deesse emptores. - Videtur 
+au<lb break="no" ed="#L" n="143"/>tem probabilis ratio defectus emptorum quia pauci sunt
+<lb ed="#L" n="144"/>qui egeant tunc re illa, et habeant tunc paratam pecuniam
+<lb ed="#L" n="145"/>ad emendum haec. - Et haec de secundo.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e627">
+                  <lb ed="#L" n="146"/>V. Quoad tertium, scito quod ex hac conclusione,
+<lb ed="#L" n="147"/>scilicet: Justum pretium rei est illud quod nunc potest
+<lb ed="#L" n="148"/>inveniri ab emptoribus, praesupposita communi notitia, et
+<lb ed="#L" n="149"/>remota omni fraude et coactione, etc., solvuntur muitae
+<lb ed="#L" n="150"/>quaestiones: scilicet de ementibus ab ultro offerentibus,
+<pb ed="#L" n="150"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sive subhastando, intercedente aut non intercedente curia;
+<lb ed="#L" n="2"/>et de ementibus ab his qui recedere volunt nec amplius
+<lb ed="#L" n="3"/>ibi expectare; vel ab his qui, necessitate ducti, expectare
+<lb ed="#L" n="4"/>nequeunt emptores; et aliis huiusmodi, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e653">
+                  <lb ed="#L" n="5"/>Apparet quoque ex hac eadem radice quod facientes
+<lb ed="#L" n="6"/>monopolium ut pretium prout volunt imponant, 
+iniustis<lb break="no" ed="#L" n="7"/>simi sunt. Quoniam coguntur ex hoc homines plus solvere
+<lb ed="#L" n="8"/>quam communiter venderetur si huiusmodi monopolium
+<lb ed="#L" n="9"/>non esset: sicut coguntur solvere usuras egentes pecuniis
+<lb ed="#L" n="10"/>et non invenientes mutuum sine usura. Unde tenentur ad
+<lb ed="#L" n="11"/>leret si non esset huiusmodi monopolium. Tenentur 
+au<lb break="no" ed="#L" n="12"/>tem restituere his a quibus extorserunt. Nec solum ipsi |
+<lb ed="#L" n="13"/>tenentur restituere, sed domini concedentes hoc, et reliqui 
+<lb ed="#L" n="14"/>qui sunt causae huiusmodi iniustae acceptionis.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e677">
+                  <lb ed="#L" n="15"/>Ad rationem autem in oppositum, scilicet quia 
+huius<lb break="no" ed="#L" n="16"/>modi venditio ex indigentia non est voluntaria simpliciter,
+<lb ed="#L" n="17"/>sed semiviolenta, sicut proiectio mercium in mare: 
+respon<lb break="no" ed="#L" n="18"/>detur quod licet huiusmodi venditio habeat aliquid 
+admi<lb break="no" ed="#L" n="19"/>xtum. de involuntario quoad causam venditionis, est tamen
+<lb ed="#L" n="20"/>simpliciter et absolute voluntaria. Regulare autem est quod :
+<lb ed="#L" n="21"/>si iusto pretio res venditur, nihil nocet commutationi quod
+<lb ed="#L" n="22"/>secundum causam involuntaria sit venditio: ut patet in eo
+<lb ed="#L" n="23"/>qui, necessitate indigentiae ductus, vendit a proavis 
+habi<lb break="no" ed="#L" n="24"/>tum agrum, iusto tamen pretio, et similibus. Unde si 
+iu<lb break="no" ed="#L" n="25"/>stum est pretium, quod diximus, nihil obstat huiusmodi
+<lb ed="#L" n="26"/>admixtio involuntarii, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e707">
+                  <lb ed="#L" n="27"/>VI. In eodem articulo dubium occurrit, quia vendere 
+<lb ed="#L" n="28"/>aliquid, puta agrum vel domum, cum pacto de 
+retroven<lb break="no" ed="#L" n="29"/>dendo; et etiam cum pacto quod, interim quod 
+retroven<lb break="no" ed="#L" n="30"/>datur, locetur ipsi eidem primo venditori; est licitum, ut -
+<lb ed="#L" n="31"/>communis observantia testatur, si sint iusta pretia. Et 
+ta<lb break="no" ed="#L" n="32"/>men constat quod in hoc casu res venditur plus quam |
+<lb ed="#L" n="33"/>valet. Quia si valet mille, venditur pro mille et pro 
+obli<lb break="no" ed="#L" n="34"/>gatione ad retrovendendum: quam obligationem constat
+<lb ed="#L" n="35"/>esse aestimabilem pecunia, non minus quam obligationem
+<lb ed="#L" n="36"/>ad remutuandum, quam pecuniae aequivalere dicit Auctor 
+<lb ed="#L" n="37"/>inferius, in qu. seq., art. 2, ad 4. Est ergo licitum 
+ven<lb break="no" ed="#L" n="38"/>dere rem plus quam valet.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e736">
+                  <lb ed="#L" n="39"/>Ad hoc dicitur quod in huiusmodi contractibus non
+<lb ed="#L" n="40"/>venditur res plus quam valet, propter duo. Primo, quia
+<lb ed="#L" n="41"/>communiter res quae sic venduntur valent plus non ab-  
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="42"/>solute, sed venditori: quia ideo vult illud pactum quia
+<lb ed="#L" n="43"/>incommodum ex venditione incurrit. Respondet ergo 
+obli<lb break="no" ed="#L" n="44"/>gatio ementis ad revendendum et locandum quantitati 
+va<lb break="no" ed="#L" n="45"/>loris rei respectu huius. Et sic, quia res valet mille et
+<lb ed="#L" n="46"/>quanti est incommoditas mea, ideo emitur pro mille et
+<lb ed="#L" n="47"/>obligatione ad vendendum et locandum.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e760">
+                  <lb ed="#L" n="48"/>Secundo quia, cum ex iure positivo sit rerum divisio
+<lb ed="#L" n="49"/>et proprietas, consuetudo, quae iuris vim habet, efficit ut
+<lb ed="#L" n="50"/>pro nihilo habeantur haec pacta in huiusmodi contractibus.
+<lb ed="#L" n="51"/>Et hoc ad obviandum fraudibus usurarum. Si enim ager
+<lb ed="#L" n="52"/>restitutionem totius summae excedentis pretium quod 
+va<lb break="no" ed="#L" n="53"/>valens mille venderetur octingentis cum illis pactis in 
+frau<lb break="no" ed="#L" n="54"/>dem usurarum, mutuum magis quam venditio putaretur.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e778">
+                  <lb ed="#L" n="55"/>VII. In calce corporis eiusdem articuli nota illa verba:
+<lb ed="#L" n="56"/>Ille qui ex re alterius accepta multum iuvatur, etc. Ex
+<lb ed="#L" n="57"/>his namque apparet quod nummularii habentes in 
+depo<lb break="no" ed="#L" n="58"/>sito aliorum pecunias, quibus utendo in exercitio suo 
+li<lb break="no" ed="#L" n="59"/>cito multum iuvantur, quamvis non teneantur ex debito
+<lb ed="#L" n="60"/>iustitiae, ex debito tamen honestatis gratiose donare 
+de<lb break="no" ed="#L" n="61"/>bent aliquid dominis depositorum. Et si gratiose donant
+<lb ed="#L" n="62"/>ex dicta causa, quia scilicet multum iuvantur ex vero 
+de<lb break="no" ed="#L" n="63"/>posito, ipsi laudabiliter operantur dando, et domini 
+depo<lb break="no" ed="#L" n="64"/>sitorum licite possunt recipere data. Attendat tamen 
+utra<lb break="no" ed="#L" n="65"/>que pars ne corrupta sit intentio, ut quasi ex debito 
+iu<lb break="no" ed="#L" n="66"/>stitiae solvatur aut expectetur. Et si dominus depositi 
+li<lb break="no" ed="#L" n="67"/>bentius tenet depositum suum apud hunc gratum quam
+<lb ed="#L" n="68"/>apud non gratum, non propterea peccat. Et similiter si
+<lb ed="#L" n="69"/>nummularius ideo supererogat ut gratus sit, et ex hoc
+<lb ed="#L" n="70"/>ipso quod gratus est sperat quod dominus tenebit suum
+<lb ed="#L" n="71"/>depositum apud ipsum gratum, non peccat. Et ratio est
+<lb ed="#L" n="72"/>quia omnium ratio est gratia, non obligatio implicite vel
+<lb ed="#L" n="73"/>explicite. Quod si non ex gratitudine, sed propter usum
+<lb ed="#L" n="74"/>pecuniae datur quasi pretium, usura est.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e824">
+                  <lb ed="#L" n="75"/>In responsione ad primum, nota quod ex hoc m—
+<lb ed="#L" n="76"/>iustum pretium habet latitudinem, et. distingui solet in
+<lb ed="#L" n="77"/>pium, moderatum et rigorosum; solvuntur quaestiones
+<lb ed="#L" n="78"/>multae ex vario pretio eiusdem rei in eodem loco et 
+tem<lb break="no" ed="#L" n="79"/>pore, dum venditur ab uno decem, ab alio undecim, ab
+<lb ed="#L" n="80"/>alio duodecim, et ab omnibus iuste. Et hinc fit ut unus
+<lb ed="#L" n="81"/>emat decem, et statim vendat rem illam duodecim, absque
+<lb ed="#L" n="82"/>laesione conscientiae. Hinc quoque fit ut vendat solventi
+<lb ed="#L" n="83"/>nunc pro decem, qui soluturo ad annum non vult 
+ven<lb break="no" ed="#L" n="84"/>dere nisi pro duodecim. Et sic de aliis similibus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1670-Dd1e849"><!-- caj-p2p2-q77a2" -->
+               <head xml:id="TAcCaj-d1e1670-Hd1e852">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1670-d1e854">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="76" type="fixed=151"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e861">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="77"/>IN articulo secundo eiusdem quaestionis 
+septuagesimae<lb break="no" ed="#L" n="78"/>iade. nota quod, licet Auctor, in responsione ad
+<lb ed="#L" n="79"/>primum, non reputet impossibile fieri aurum verum per
+<lb ed="#L" n="80"/>artem; quia tamen nunquam aut raro fit, sed saepissime
+<lb ed="#L" n="81"/>accidit contrarium, quod scilicet ex vero auro faciunt 
+fu<lb break="no" ed="#L" n="82"/>mum, dum multas expensas faciunt, quae in fumum 
+re<lb break="no" ed="#L" n="83"/>solvuntur; ideo huiusmodi ars aut. non humana, aut 
+prin<lb break="no" ed="#L" n="84"/>cipum, post res consultas cum sapientibus, est. Habes 
+au<lb break="no" ed="#L" n="85"/>tem in littera quod non sufficit alchimicum aurum vel 
+ar<lb break="no" ed="#L" n="86"/>gentum tale facere ut nummis, vasis et huiusmodi 
+con<lb break="no" ed="#L" n="87"/>struendis sit habile: tum propter naturae impuritatem;
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>tum propter operationes naturales; tum propter 
+frequen<lb break="no" ed="#L" n="89"/>tiorem applicationem; tum propter diuturniorem 
+perman<lb break="no" ed="#L" n="90"/>sionem. Iniustam ergo reddit venditionem talis speciei 
+de<lb break="no" ed="#L" n="91"/>fectus, etc, Et si bene perspexeris has quatuor rationes,
+<lb ed="#L" n="92"/>videbis eas habere locum in aliis quae per alchimiam fieri
+<lb ed="#L" n="93"/>possunt, proportionaliter applicando: nisi forte tertia ratio
+<lb ed="#L" n="94"/>loco in quibusdam careat, propterea quia res illa non nisi
+<lb ed="#L" n="95"/>semel applicari potuisset ad operationem ex natura sua.
+<lb ed="#L" n="96"/>Reliquae namque communes ad omnia huiusmodi rationes
+<lb ed="#L" n="97"/>videntur, etc. Et ideo memento applicare eas ad 
+occur<lb break="no" ed="#L" n="98"/>rentia.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1670-Dd1e917"><!-- caj-p2p2-q77a3" -->
+               <head xml:id="TAcCaj-d1e1670-Hd1e920">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1670-d1e922">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7" type="fixed=153"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e929">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>In articulo tertio eiusdem quaestionis, nota tria. Primum,
+<lb ed="#L" n="9"/>in principio corporis articuli: scilicet generalem regulam
+<lb ed="#L" n="10"/>unde aliquis tenetur dare auxilium vel consilium, etc., 
+pro<lb break="no" ed="#L" n="11"/>ximo: scilicet vel ex parte agentis, quia suae curae 
+incum<lb break="no" ed="#L" n="12"/>bit; vel ex parte patientis, quia est in necessitatis articulo,
+<lb ed="#L" n="13"/>ita quod non possit ei per alium subveniri. In his enim
+<lb ed="#L" n="14"/>duobus casibus tantum tenetur quis proximum adiuvare,
+<lb ed="#L" n="15"/>ut in littera dicitur. Et ex his tu, applicando, casus 
+occur<lb break="no" ed="#L" n="16"/>rentes determina. :
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e953">
+                  <lb ed="#L" n="17"/>Secundum, in calce eiusdem corporis: quod illud dictum,
+<lb ed="#L" n="18"/>scilicet: Venditor potest suae indemnitati consulere 
+reti<lb break="no" ed="#L" n="19"/>cendo occultum vitium, est intelligendum quando vitium
+<lb ed="#L" n="20"/>occultum. nec damnum nec periculum proximo inferre
+<lb ed="#L" n="21"/>potest; et non si in periculum aut damnum proximi esse
+<lb ed="#L" n="22"/>potest. Et scito quod si res huiusmodi plus communiter
+<lb ed="#L" n="23"/>aestimatur quia vitium est occultum; quamvis, quantum
+<lb ed="#L" n="24"/>est ex parte venditoris, iustum servatum sit, servando quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="25"/>in littera dicitur; cavendum tamen est ne, si emptor 
+post<lb break="no" ed="#L" n="26"/>modum rem illam vendat nescius occulti defectus, plus
+<lb ed="#L" n="27"/>vendat quam sit iustum pretium. Alioquin, vendendo rem
+<lb ed="#L" n="28"/>occulte vitiosam, dat occasionem damni secundo emptori.
+<lb ed="#L" n="29"/>Et propterea primus venditor, conscius occulti defectus,
+<lb ed="#L" n="30"/>postquam vendidit, debet dicere, per se vel per alium, 
+oc<lb break="no" ed="#L" n="31"/>cultam defectum ei qui emit, qui est dominus rei: ut sic
+<lb ed="#L" n="32"/>et seipsum servaverit indemnem, et proximo occasionem
+<lb ed="#L" n="33"/>damnificandi alterum non dederit.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e995">
+                  <lb ed="#L" n="34"/>Tertium est in responsione ad quartum, quod 
+regula<lb break="no" ed="#L" n="35"/>riter consideratur in emptione et venditione pretium 
+prae<lb break="no" ed="#L" n="36"/>sens, non futurum aut praeteritum. [n quibusdam tamen
+<lb ed="#L" n="37"/>contractibus, quando scilicet erat res suas servaturus ut
+<lb ed="#L" n="38"/>futuro tempore venderet, vel cum emit res futuro tempore
+<lb ed="#L" n="39"/>assignandas, ratio pretii futuri habetur: ut patet Extra, de
+<lb ed="#L" n="40"/>Usuris, cap. Naviganti, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1670-Dd1e1014"><!-- caj-p2p2-q77a4" -->
+               <head xml:id="TAcCaj-d1e1670-Hd1e1017">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1670-d1e1019">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43" type="fixed=154"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e1026">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>IN articulo quarto eiusdem septuagesimaeseptimae 
+quae<lb break="no" ed="#L" n="45"/>Reiopis, nota tria. Primum, in corpore articuli: ut scilicet
+<lb ed="#L" n="46"/>scias discernere inter affirmationem mali et negationem
+<lb ed="#L" n="47"/>boni. Negotiatio namque propter lucrum est huius naturae,
+<lb ed="#L" n="48"/>quod non affirmatur de ea malum, sed negatur bonum.
+<lb ed="#L" n="49"/>Non enim est secundum se mala: quia si talis esset, nulla
+<lb ed="#L" n="50"/>intentione posset esse licita. Neque etiam secundum se
+<lb ed="#L" n="51"/>bona: quia non ordinatur ad finem necessarium aut 
+ho<lb break="no" ed="#L" n="52"/>nestum. Sed habet potius speciem mali, ut in responsione
+<lb ed="#L" n="53"/>ad tertium dicitur. Et quia actio secundum se non mala
+<lb ed="#L" n="54"/>nec bona moraliter potest ex adiuncto fine esse bona si
+<lb ed="#L" n="55"/>finis est bonus, et mala si finis est malus; ideo negotiatio
+<lb ed="#L" n="56"/>propter lucrum et iuste vituperatur tanquam habens 
+spe<lb break="no" ed="#L" n="57"/>ciem mali; et illicita est si ordinatur ad lucrum ut 
+ulti<lb break="no" ed="#L" n="58"/>mum finem; et licita est si ordinatur ad sustentationem
+<lb ed="#L" n="59"/>familiae vel reipublicae.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e1065">
+                  <lb ed="#L" n="60"/>Secundum, in responsione ad primum: ne fallaris 
+intel<lb break="no" ed="#L" n="61"/>ligens ex littera quod Auctor putet eum qui vendit rem
+<lb ed="#L" n="62"/>non mutatam carius, constituere finem ultimum in lucro,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>ac per hoc peccare mortaliter. Non enim hoc dicit: sed,
+<lb ed="#L" n="64"/>comparando vendentem rem mutatam carius vendenti 
+ca<lb break="no" ed="#L" n="65"/>rius rem non mutatam, in primo apparet quod praemium
+<lb ed="#L" n="66"/>sui laboris in mutando intendit; in secundo autem nihil
+<lb ed="#L" n="67"/>aliud apparet nisi lucrum, Haec sunt quoad apparentiam.
+<lb ed="#L" n="68"/>Veruntamen, ut in littera subiungitur, quia etiam ipsum
+<lb ed="#L" n="69"/>lucrum potest licite intendi si in alium finem ordinetur,
+<lb ed="#L" n="70"/>ideo etiam vendendo rem non mutatam carius, potest 
+lu<lb break="no" ed="#L" n="71"/>crum intendere non ut ultimum finem.
+</p>
+               <p xml:id="TAcCaj-d1e1670-d1e1096">
+                  <lb ed="#L" n="72"/>Tertium est in responsione ad secundum: quod non
+<lb ed="#L" n="73"/>putes Auctorem voluisse ibidem comprehendere omnes
+<lb ed="#L" n="74"/>causas ob quas licet carius vendere quam emptum fuerit.
+<lb ed="#L" n="75"/>Sufficit enim litterae quod tres causae assignatae ibidem
+<lb ed="#L" n="76"/>sint verae, nec requiritur quod sint solae; cum hoc non
+<lb ed="#L" n="77"/>dicatur in littera. Superius namque alia causa assignata
+<lb ed="#L" n="78"/>est, scilicet latitudo pretii iusti. Et ratio expensarum in
+<lb ed="#L" n="79"/>conducendo, conservando, etc., et operarum ipsius 
+nego<lb break="no" ed="#L" n="80"/>tiatoris, habenda est: non enim gratis nostrae debent 
+com<lb break="no" ed="#L" n="81"/>moditati ministrare.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

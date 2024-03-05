@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 68</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 68</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="104"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1623"><!-- TAcCajp2p2-q68" -->
+            <head xml:id="TAcCaj-d1e1623-Hd1e101">Quaestio 68</head>
+            <div xml:id="TAcCaj-d1e1623-Dd1e103"><!-- caj-p2p2-q68a1" -->
+               <head xml:id="TAcCaj-d1e1623-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1623-d1e108">
+                  <pb ed="#L" n="105"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=105"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1623-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>In articulo primo quaestionis sexagesimaeoctavae, cave
+<lb ed="#L" n="3"/>ignorantiam illorum qui putant neminem teneri ad 
+ac<lb break="no" ed="#L" n="4"/>cusationem, sed accusationem quasi esse contra praeceptum
+<lb ed="#L" n="5"/>divinum, Dimitte. nobis. debita nostra etc. Non. advertunt
+<lb ed="#L" n="6"/>isti quod. non minus tenetur aliquis succurrere communi
+<lb ed="#L" n="7"/>detrimento corporali vel spirituali quam privato: quanto
+<lb ed="#L" n="8"/>bonum commune ef divinius est et amabilius quam 
+pri<lb break="no" ed="#L" n="9"/>vatum. Constat autem quod tenetur quilibet sciens et
+<lb ed="#L" n="10"/>potens subvenire periculo corruptelae spiritualis vel 
+cor<lb break="no" ed="#L" n="11"/>poralis proximi, servatis debitis conditionibus, Multo ergo
+<lb ed="#L" n="12"/>magis tenetur subvenire periculo publico.
+</p>
+               <p xml:id="TAcCaj-d1e1623-d1e146">
+                  <lb ed="#L" n="13"/>Scito igitur quod quia accusatio ordinatur ad commune
+<lb ed="#L" n="14"/>bonum, si sciens crimen alterius quod in periculum 
+mul<lb break="no" ed="#L" n="15"/>titudinis vergat, et habens testes quibus potest illud. 
+pro<lb break="no" ed="#L" n="16"/>bare, potest per aliam viam. quam. per accusationem 
+pro<lb break="no" ed="#L" n="17"/>videre. bono. multitudinis, non tenetur ad. accusationem .:
+<lb ed="#L" n="18"/>licet. licite. posset u zelo iustitiae accusare, pensatis con-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>ditionibus personae puniendae in exemplum aliorum. Si
+<lb ed="#L" n="20"/>autem aliter non potest quam per accusationis viam 
+pe<lb break="no" ed="#L" n="21"/>riculo multitudinis obviare, tenetur de necessitate salutis
+<lb ed="#L" n="22"/>ad accusationem: alioquin. non diligeret bonum commune
+<lb ed="#L" n="23"/>opere et veritate.
+</p>
+               <p xml:id="TAcCaj-d1e1623-d1e175">
+                  <lb ed="#L" n="24"/>Ridicalum autem est inducere ad hoc illud orationis
+<lb ed="#L" n="25"/>Dominicae, Dimitte nobis debita nostra: cum non suam,
+<lb ed="#L" n="26"/>sed proximi; non unius, sed multitudinis causam agat 
+ac<lb break="no" ed="#L" n="27"/>cusator huiusmodi. Et si suam ageret causam, ton tenetur
+<lb ed="#L" n="28"/>ex hac divina institutione remittere, quin velit iustitiam
+<lb ed="#L" n="29"/>habere locum suum: sed non ex passione, non ex propria
+<lb ed="#L" n="30"/>auctoritate vindicare.
+</p>
+               <p xml:id="TAcCaj-d1e1623-d1e194">
+                  <lb ed="#L" n="31"/>In responsione ad primum, adverte quod qui accusare
+<lb ed="#L" n="32"/>prohibentur possunt et debent in casu, ut multitudinis
+<lb ed="#L" n="33"/>periculo: succurratur, iudici revelare personam criminosam
+<lb ed="#L" n="34"/>et testes, cum. certis circumstantiis, ut vel ex officio suo
+<lb ed="#L" n="35"/>iudex providere. possit reipublicae.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1623-Dd1e208"><!-- caj-p2p2-q68a3" -->
+               <head xml:id="TAcCaj-d1e1623-Hd1e211">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1623-d1e213">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="82" type="fixed=106"/>Commentaria Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1623-d1e220">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="83"/>In articulo secundo et tertio et quarto nihil speciale 
+scri<lb break="no" ed="#L" n="84"/>bendum occurrit; nisi quod secundus quod regulariter
+<lb ed="#L" n="85"/>fit docet: et in tertio, tria accusationis vitia quando vere 
+<lb ed="#L" n="86"/>crimina iuris redduntur diligenter notes, scilicet calumnia
+<lb ed="#L" n="87"/>ex malitia, praevaricatio fraudulenta, et tergiversatio 
+in<lb break="no" ed="#L" n="88"/>ordinata. Et ut intelligas litterae terminos, vocatur ex
+<lb ed="#L" n="89"/>temeritate accusare qui vel ex inconsulto caloris impetu.
+<lb ed="#L" n="90"/>accusat, non prospiciens quod probare nequibit; vel qui
+<lb ed="#L" n="91"/>auditui credulus accusat. Ex iusto autem errore, qui, 
+de<lb break="no" ed="#L" n="92"/>ceptus ab aliquo teste idoneo, deficit in probatione, quia
+<lb ed="#L" n="93"/>scilicet promisit testificari et recessit ut non testetur:
+<lb ed="#L" n="94"/>vel consilium habuit ab aliquo doctore quod sufficerent
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>illa quae habet ad accusandum, cum: tamen - non. 
+suffi<lb break="no" ed="#L" n="96"/>cerent,
+</p>
+               <p xml:id="TAcCaj-d1e1623-d1e257">
+                  <lb ed="#L" n="97"/>II. In responsione ad ultimum, advertas quod 
+prin<lb break="no" ed="#L" n="98"/>ceps potest accusationem non solum a. principio refutare,
+<lb ed="#L" n="99"/>sed etiam in.progressu abolere, si bono communi -
+expe<lb break="no" ed="#L" n="100"/>dire hoc iudicaverit. Et ratio est quia accusatio ad 
+com<lb break="no" ed="#L" n="101"/>mune bonum ordinatur. Ex hoc enim sequitur quod ille
+<lb ed="#L" n="102"/>qui curam communis boni habet, si talis medii ablationem
+<lb ed="#L" n="103"/>ad finem communis boni prodesse magis viderit quam
+<lb ed="#L" n="104"/>ipsius positionem aut prosecutionem, possit et debeat tale
+<lb ed="#L" n="105"/>accusationis medium tollere: providendo tamen accusatori
+<lb ed="#L" n="106"/>ut sibi fiat alias satis, si aliquid sibi debetur.
+</p>
+               <p xml:id="TAcCaj-d1e1623-d1e281">
+                  <pb ed="#L" n="107"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>III. Sed occurrit. hic. dubium, an iudex non princeps
+<lb ed="#L" n="2"/>possit abolere accusationem. Et estratio dubii quia etiam
+<lb ed="#L" n="3"/>inferior principe iudex habet curam boni communis, cui
+<lb ed="#L" n="4"/>contingit non expedire prosequi accusationem.
+</p>
+               <p xml:id="TAcCaj-d1e1623-d1e298">
+                  <lb ed="#L" n="5"/>Ad hoc dicitur quod hic non est quaestio de 
+accusa<lb break="no" ed="#L" n="6"/>tione vitiosa seu defectuosa sive propter temeritatem sive
+<lb ed="#L" n="7"/>propter calumniam. Quoniam constat quod iudex haec 
+co<lb break="no" ed="#L" n="8"/>gnoscens, etiam si non sit princeps, potest et a principio
+<lb ed="#L" n="9"/>non admittere accusationes non legitimas; et si admissae
+<lb ed="#L" n="10"/>sunt, potest, ex quo legitimae non sunt, abolere: cum
+<lb ed="#L" n="11"/>nulli in hoc faciat iniuriam; immo prosequendo videtur
+<lb ed="#L" n="12"/>facere iniuriam ordini iuris. — Nec etiam est quaestio de
+<lb ed="#L" n="13"/>accusatione quae ordinatur ad satisfaciendum alteri parti,
+<lb ed="#L" n="14"/>quae passa est iniuriam. Quoniam constat iudicem teneri et
+<lb ed="#L" n="15"/>ad acceptandum et ad prosequendum accusationem talem: 
+<lb ed="#L" n="16"/>quia tenetur ius unicuique dicere. - Sed quaestio est de
+<lb ed="#L" n="17"/>accusatione praecise ad commune bonum ordinata.
+</p>
+               <p xml:id="TAcCaj-d1e1623-d1e329">
+                  <lb ed="#L" n="18"/>Videtur autem mihi quod differentia inter principem et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="19"/>inferiorem. iudicem in proposito sit quod. princeps potest
+<lb ed="#L" n="20"/>de iure abolere huiusmodi accusationes quando expedire
+<lb ed="#L" n="21"/>videtur bono communi, et non solum istas, sed etiam
+<lb ed="#L" n="22"/>ordinatas ad satisfaciendum parti offensae: quia ipse 
+prin<lb break="no" ed="#L" n="23"/>ceps plene gerit curam communis boni, ad quod omne
+<lb ed="#L" n="24"/>bonum vel malum partis ordinari potest. Unde in littera
+<lb ed="#L" n="25"/>simpliciter dicitur: Si. princeps aboleverit. Iudex autem 
+in<lb break="no" ed="#L" n="26"/>ferior potest, ex epieikeia et gnome, hoc est ex aequitate
+<lb ed="#L" n="27"/>et altiori iudicio, non admittere a principio accusationem
+<lb ed="#L" n="28"/>legitimam pro communi bono, si videt illam communi
+<lb ed="#L" n="29"/>bono perniciosam: utpote si causativa seditionis propter
+<lb ed="#L" n="30"/>conditiones accusati est, vel propter aliquid. huiusmodi.
+<lb ed="#L" n="31"/>Inchoatam autem abolere, si aliter non potest sustinere
+<lb ed="#L" n="32"/>commune bonum, suspendendo prosecutionem vel 
+dissi<lb break="no" ed="#L" n="33"/>mulando, potest: quia lex arctatae potestatis pro communi
+<lb ed="#L" n="34"/>bono salvando praetermittenda est, et usurpanda est 
+quo<lb break="no" ed="#L" n="35"/>dammodo maior potestas, quae communi bono necessaria
+<lb ed="#L" n="36"/>tunc est, et soli iuris ordini nocet, si tamen nocet.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

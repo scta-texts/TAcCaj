@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 75</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 75</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="148"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1659"><!-- TAcCajp2p2-q75" -->
+            <head xml:id="TAcCaj-d1e1659-Hd1e101">Quaestio 75</head>
+            <div xml:id="TAcCaj-d1e1659-Dd1e103"><!-- caj-p2p2-q75a1et2" -->
+               <head xml:id="TAcCaj-d1e1659-Hd1e106">Articuli 1 et 2</head>
+               <p xml:id="TAcCaj-d1e1659-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="93" type="fixed=142"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1659-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>IN articulo utroque simul quaestionis 
+septuagesimaequin<lb break="no" ed="#L" n="95"/>tae, nota primo, quod aliunde habet irrisio distinctionem
+<lb ed="#L" n="96"/>ab aliis peccatis verborum contra proximum; et aliunde
+<lb ed="#L" n="97"/>habet gravitatem. Nam distinctionem habet a fine malo ad
+<lb ed="#L" n="98"/>quem directe tendit, scilicet ab erubescentia et confusione
+<lb ed="#L" n="99"/>quam intendit causare in proximo. Gravitatem vero habet
+<lb ed="#L" n="100"/>a contemptu proximi maiore in modo iocoso quam serio.
+</p>
+               <p xml:id="TAcCaj-d1e1659-d1e135">
+                  <lb ed="#L" n="101"/>Nota secundo, quod irrisio Dei clauditur sub 
+blasphe<lb break="no" ed="#L" n="102"/>mia, ut praedictum fuit: nec est peccatum specie 
+distin<lb break="no" ed="#L" n="103"/>ctum a blasphemia, sicut nec contumelia. Unde Isaias
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="104"/>blasphemos dixit irrisores Dei Israel. Et Luc. xxi* de
+<lb ed="#L" n="105"/>irrisoribus Christi dicendo, Prophetiga nobis: Quis est qui
+<lb ed="#L" n="106"/>te percussit? dicitur: Et alia multa blasphemantes 
+dice<lb break="no" ed="#L" n="107"/>bant in eum. — Respectu autem proximorum, distinguitur
+<lb ed="#L" n="108"/>irrisio ab aliis peccatis dictis.
+</p>
+               <p xml:id="TAcCaj-d1e1659-d1e157">
+                  <lb ed="#L" n="109"/>Nota tertio, quod etiam irrisio fit dupliciter, scilicet
+<lb ed="#L" n="110"/>materialiter et formaliter: scilicet ex intentione irridendi,
+<lb ed="#L" n="111"/>ut confundatur et erubescat; vel praeter hanc intentionem,
+<lb ed="#L" n="112"/>ludendo seu loquendo talia unde possit sequi erubescentia.
+<lb ed="#L" n="113"/>Et regulariter quando sic fit, est veniale.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

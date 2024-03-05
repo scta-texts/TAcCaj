@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 108</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 108</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="416"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1830"><!-- TAcCajp2p2-q108" -->
+            <head xml:id="TAcCaj-d1e1830-Hd1e101">Quaestio 108</head>
+            <div xml:id="TAcCaj-d1e1830-Dd1e103"><!-- caj-p2p2-q108a1et2" -->
+               <head xml:id="TAcCaj-d1e1830-Hd1e106">Articuli 1-2</head>
+               <p xml:id="TAcCaj-d1e1830-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19" type="fixed=412"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1830-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>IN articulis primis quaestionis centesimaeoctavae, dubium
+<lb ed="#L" n="21"/>non dissimulandum de vindicationis virtute occurrit. Et
+<lb ed="#L" n="22"/>est ratio dubii quia vindicationis actus non est nisi 
+iusti<lb break="no" ed="#L" n="23"/>tiae legalis actus, secundum formam commnutativae iustitiae.
+<lb ed="#L" n="24"/>Nam quod vindicatio non sit actus singularis personae, ut
+<lb ed="#L" n="25"/>est iustitia commutativa et sunt aliae partes iustitiae, ex
+<lb ed="#L" n="26"/>eo patet quod vindicatio non est licita inter partem et
+<lb ed="#L" n="27"/>partem, sicut commutatio versatur inter partem et partem,
+<lb ed="#L" n="28"/>sicut gratiarum actio est debita benefactori a beneficiato:
+<lb ed="#L" n="29"/>sed est tantum licita personae publicae, quoniam ad ipsam
+<lb ed="#L" n="30"/>solam spectat ulcisci illatas iam iniurias. Actus autem 
+pro<lb break="no" ed="#L" n="31"/>prius personae publicae propter commune bonum ad 
+iu<lb break="no" ed="#L" n="32"/>stitiam spectat legalem, utentem commutativa iustitia, dum
+<lb ed="#L" n="33"/>aequale debitum alicui secundum quantitatem reddit 
+pro<lb break="no" ed="#L" n="34"/>pter commune bonum. Ita quod et ex parte subiecti, et
+<lb ed="#L" n="35"/>ex parte qualitatis debiti, apparet quod vindicatio non est
+<lb ed="#L" n="36"/>virtus in singulari persona: nisi concedamus quod unicuique
+<lb ed="#L" n="37"/>licitum sit ulcisci illatas sibi iniurias tantundem 
+recompen<lb break="no" ed="#L" n="38"/>sando in malis poenae, sicut dictum est quod 
+unusquis<lb break="no" ed="#L" n="39"/>que debet susceptis beneficiis vices reddere. Et hoc forte
+<lb ed="#L" n="40"/>voluit Tullius, ponens vindicationem in malis sicut 
+gra<lb break="no" ed="#L" n="41"/>tiam in bonis. Sed cum doctrina Christiana oppositum 
+do<lb break="no" ed="#L" n="42"/>ceat in malis, mirum est quod Auctor secutus fuerit 
+Tul<lb break="no" ed="#L" n="43"/>lium, et non excluserit haec dubia.
+</p>
+               <p xml:id="TAcCaj-d1e1830-d1e172">
+                  <lb ed="#L" n="44"/>II. Ad hoc dicitur quod difficultatem inculcant duo 
+con<lb break="no" ed="#L" n="45"/>currentia ad vindicationem quae videntur ad invicem 
+re<lb break="no" ed="#L" n="46"/>pugnare: videlicet ratio debiti moralis; et actus, scilicet
+<lb ed="#L" n="47"/>reddere malum pro malo. Nam si inspiciamus rationem
+<lb ed="#L" n="48"/>debiti, inveniemus quod privata persona vindicationis est
+<lb ed="#L" n="49"/>subiectum. Quia haec est differentia inter publicam et 
+pri<lb break="no" ed="#L" n="50"/>vatam personam in proposito, quod persona publica debet
+<lb ed="#L" n="51"/>debito legali vindicare illatas iniurias sibi commissis; 
+pri<lb break="no" ed="#L" n="52"/>vata autem persona quae iniuriam recepit, debet debito
+<lb ed="#L" n="53"/>morali tantum vindicare suam iniuriam: non enim potest
+<lb ed="#L" n="54"/>cogi ad hoc quod vindicet se; iudex autem potest cogi ad
+<lb ed="#L" n="55"/>vindictam exercendam. - Si vero spectemus ad naturam
+<lb ed="#L" n="56"/>actionis, videlicet reddere malum pro malo, inveniemus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>oppositum, hoc est quod persona privata non est 
+subie<lb break="no" ed="#L" n="58"/>ctum vindicationis, sed persona publica, seu in potestate
+<lb ed="#L" n="59"/>constituta: nam reddere malum pro malo non est licitum
+<lb ed="#L" n="60"/>personae privatae, sed personae in potestate constitutae, ad
+<lb ed="#L" n="61"/>quam spectat malos homines castigare, et reddere eis iuxta
+<lb ed="#L" n="62"/>demerita sua, ut patet XXIII, qu. 1v, cap. Ea vindicta; et
+<lb ed="#L" n="63"/>sunt verba Augustini. — Et quoniam intellectus 
+adae<lb break="no" ed="#L" n="64"/>quandus est rebus, et non e contra, perspiciendum est
+<lb ed="#L" n="65"/>quomodo possint haec duo coire, ut veritas elucescat.
+</p>
+               <p xml:id="TAcCaj-d1e1830-d1e224">
+                  <lb ed="#L" n="66"/>III. Advertendum est igitur quod reddere malum pro
+<lb ed="#L" n="67"/>malo non est actus virtutis, neque ita se habet actio ista
+<lb ed="#L" n="68"/>ad vindicationem sicut se habet reddere bonum pro bono
+<lb ed="#L" n="69"/>ad gratitudinem: quia reddere malum pro malo est actus
+<lb ed="#L" n="70"/>contrarius caritati, cuius est et velle et facere cuique 
+bo<lb break="no" ed="#L" n="71"/>num. Et propterea in littera primi articuli huius quaestionis
+<lb ed="#L" n="72"/>actio ista reprobata est, et attributa odio. Sed reddere 
+ma<lb break="no" ed="#L" n="73"/>lum pro malo punitive seu emendative est actus virtutis
+<lb ed="#L" n="74"/>non unius tantum: quoniam ut procedit ex affectu 
+pri<lb break="no" ed="#L" n="75"/>vatae personae, actio est vindicationis, et ex debito 
+mo<lb break="no" ed="#L" n="76"/>rali procedit; ut autem ex voluntate iudicis emanat, actio
+<lb ed="#L" n="77"/>est commutativae et legalis iustitiae, ex debito legali 
+pro<lb break="no" ed="#L" n="78"/>cedens, Est ergo singulare in hac virtute vindicationis quod
+<lb ed="#L" n="79"/>persona quae est subiectum virtutis non potest per seipsam
+<lb ed="#L" n="80"/>consummare actionem propriam illi virtuti, propter 
+neces<lb break="no" ed="#L" n="81"/>sitatem materiae: quia videlicet materia eius est malum
+<lb ed="#L" n="82"/>poenae, quod coactivam potestatem exigit in auctore. Unde
+<lb ed="#L" n="83"/>et superius in praecedenti Libro inter actiones legis 
+con<lb break="no" ed="#L" n="84"/>numerata est punitio, et ab eis exclusa est remuneratio.
+<lb ed="#L" n="85"/>Stant ergo ista duo simul: et quod vindicatio sit virtus
+<lb ed="#L" n="86"/>privatae personae; et quod non possit consummare 
+actio<lb break="no" ed="#L" n="87"/>nem suam privata persona, nisi adiuncta publica 
+pote<lb break="no" ed="#L" n="88"/>state, propter conditionem materiae reddendae, scilicet mali
+<lb ed="#L" n="89"/>poenae.
+</p>
+               <p xml:id="TAcCaj-d1e1830-d1e280">
+                  <lb ed="#L" n="90"/>Et haec de principali actu vindicationis dicta sint, hoc
+<lb ed="#L" n="91"/>est de ultione iniuriarum iam receptarum. Nam de 
+secunda<lb break="no" ed="#L" n="92"/>rio eius actu loquendo, scilicet defensione, ne inferantur
+<lb ed="#L" n="93"/>iniuriae, constat quod cuilibet privatae personae licitus est,
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1830-Dd1e292"><!-- caj-p2p2-q108a3" -->
+               <head xml:id="TAcCaj-d1e1830-Hd1e295">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1830-d1e297">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24" type="fixed=413"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1830-d1e304">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>In eiusdem quaestionis articulo tertio, ad secundum, nota 
+<lb ed="#L" n="26"/>universalem radicem unde poena corporalis mortis iuste 
+<lb ed="#L" n="27"/>infligi ab humano iure potest: quando scilicet crimen in
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>gravem est aliorum perniciem. Hac siquidem de causa 
+fur<lb break="no" ed="#L" n="29"/>tum hodie poena mortis damnatur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1830-Dd1e323"><!-- caj-p2p2-q108a4" -->
+               <head xml:id="TAcCaj-d1e1830-Hd1e326">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1830-d1e328">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="5" type="fixed=415"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1830-d1e335">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="6"/>In responsione ad primum quarti articuli eiusdem 
+quae<lb break="no" ed="#L" n="7"/>stionis, adverte quod cum dicitur peccatum unius 
+deri<lb break="no" ed="#L" n="8"/>vari in alterum per modum meriti, et dantur exempla de  
+<lb ed="#L" n="9"/>rege hypocrita propter peccata populi, et peste populi 
+pro<lb break="no" ed="#L" n="10"/>pter David: - intellige in primo exemplo quod peccata 
+mul<lb break="no" ed="#L" n="11"/>torum particularium redundant in alterum particularem, 
+<lb ed="#L" n="12"/>qui non peccavit, et tamen patitur regem hypocritam, ac si
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="13"/>etiam ipse peccasset. In secundo autem, quod quia 
+prin<lb break="no" ed="#L" n="14"/>ceps repraesentat populum, et quod princeps facit videtur
+<lb ed="#L" n="15"/>regnum facere, ideo peccatum regis David quasi peccatum
+<lb ed="#L" n="16"/>seu demeritum populi punitum fuit.
+</p>
+               <p xml:id="TAcCaj-d1e1830-d1e366">
+                  <lb ed="#L" n="17"/>Et haec de tota quaestione centesimaoctava dicta 
+suf<lb break="no" ed="#L" n="18"/>ficiant.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

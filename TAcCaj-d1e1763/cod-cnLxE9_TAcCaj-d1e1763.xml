@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 95</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 95</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="313"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1763"><!-- TAcCajp2p2-q95" -->
+            <head xml:id="TAcCaj-d1e1763-Hd1e101">Quaestio 95</head>
+            <div xml:id="TAcCaj-d1e1763-Dd1e103"><!-- caj-p2p2-q95a1" -->
+               <head xml:id="TAcCaj-d1e1763-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1763-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29" type="fixed=312"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>IN articulo primo quaestionis nonagesimaequintae, nota
+<lb ed="#L" n="31"/>li. Primo, quod quia disputatio de causis ad utrumlibet
+<lb ed="#L" n="32"/>non est moralis, ideo hic pertranseundo,, et caute tamen
+<lb ed="#L" n="33"/>loquendo, dicitur quod secundum se consideratae sunt 
+neu<lb break="no" ed="#L" n="34"/>trae. Quoniam oportet eas ad alteram declinare partem
+<lb ed="#L" n="35"/>quando causant.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e133">
+                  <lb ed="#L" n="36"/>Secundo, quod tam de effectibus causarum ad 
+utrum<lb break="no" ed="#L" n="37"/>libet quam de casualibus caute in littera dicitur quod per
+<lb ed="#L" n="38"/>considerationem causarum praenosci non possunt. Et 
+in<lb break="no" ed="#L" n="39"/>tendit de causis ut praedixerat, consideratis scilicet 
+secun<lb break="no" ed="#L" n="40"/>dum se. Nam sic vel sunt neutrae, ut potentiae rationales;
+<lb ed="#L" n="41"/>vel sunt ad opposita casualium, ut causae naturales: et
+<lb ed="#L" n="42"/>sic non habent determinationem aliquam ad huiusmodi
+<lb ed="#L" n="43"/>effectus. Cum his tamen stat quod per easdem causas 
+prae<lb break="no" ed="#L" n="44"/>paratas seu dispositas praecognosci aliquo modo possint
+<lb ed="#L" n="45"/>causarum harum effectus: ut patet inter homines 
+praeco<lb break="no" ed="#L" n="46"/>gnosci ex dispositione naturae aut consuetudinis aut 
+pas<lb break="no" ed="#L" n="47"/>sionis alicuius, quid faciet in tali eventu, quamvis certitudo
+<lb ed="#L" n="48"/>desit. Et similiter si quis seminis defectuosi et matricis 
+hu<lb break="no" ed="#L" n="49"/>ius cognosceret dispositionem, coniiceret de monstro. 
+Con<lb break="no" ed="#L" n="50"/>siderandum est ergo ad qualiter se habentem causam 
+re<lb break="no" ed="#L" n="51"/>feratur effectus futurus, cum praecognoscendus ex causa
+<lb ed="#L" n="52"/>dicitur. Et hoc oportet maxime in materia divinationis 
+ob<lb break="no" ed="#L" n="53"/>servare: quia super hoc fundantur omnes excusationes, ut
+<lb ed="#L" n="54"/>inferius apparebit diffusius.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e177">
+                  <lb ed="#L" n="55"/>Tertio, quid divinationis nomine intelligendum est apud
+<lb ed="#L" n="56"/>theologos et in Ecclesia. Quoniam, ut in littera dicitur,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>intelligitur indebita usurpatio praenuntiationis futurorum
+<lb ed="#L" n="58"/>eventuum. Et dicitur indebita ab indebito modo  
+praeco<lb break="no" ed="#L" n="59"/>gnoscendi ea: quia scilicet nec media divina revelatione,
+<lb ed="#L" n="60"/>nec vigore naturalis luminis, sed daemoniaca vanitate 
+im<lb break="no" ed="#L" n="61"/>plicite vel explicite, ut patebit, habetur aut iactatur. Et
+<lb ed="#L" n="62"/>quia in hoc consistit formalis ratio divinationis; et in
+<lb ed="#L" n="63"/>materialibus divinationis multa est ambiguitas propter 
+in<lb break="no" ed="#L" n="64"/>certitudinem nostrae scientiae, et elongationem. ac 
+occulta<lb break="no" ed="#L" n="65"/>tionem causarum respectu nostri: ideo tota praesentis 
+quae<lb break="no" ed="#L" n="66"/>stionis doctrina formaliter est intelligenda; et in quolibet
+<lb ed="#L" n="67"/>articulo secundum materiam meditandum, ac secundum
+<lb ed="#L" n="68"/>uniuscuiusque naturam suspendendum aut decernendum
+<lb ed="#L" n="69"/>iudicium est. d
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e215">
+                  <lb ed="#L" n="70"/>II. In responsione. ad secundum eiusdem articuli, 
+ad<lb break="no" ed="#L" n="71"/>verte quod Aristoteles, in principio libelli de Memoria et
+<lb ed="#L" n="72"/>Reminiscentia, incidenter affert respectu futurorum esse
+<lb ed="#L" n="73"/>scientiam sperativam , quam quidam divinativam vocant.
+<lb ed="#L" n="74"/>Qualis sit autem, aut ex quibus procedat, non invenio in
+<lb ed="#L" n="75"/>eo. Unde an hoc retulerit ad dogmata coniiciendi ex causis
+<lb ed="#L" n="76"/>et signis, ut astra, complexiones, lineae naturales, somnia
+<lb ed="#L" n="77"/>pro aliqua parte, et huiusmodi, creduntur: an ad artes
+<lb ed="#L" n="78"/>vanas, quae de facto tunc erant apud idololatras, sicut et
+<lb ed="#L" n="79"/>post fuerunt apud Christianos, ut patet XXVI, qu. r, 
+Sor<lb break="no" ed="#L" n="80"/>tilegi, nescio. Auctor, parum de intentione illius hominis
+<lb ed="#L" n="81"/>curans, ad rem se convertit, respondendo permanens in 
+for<lb break="no" ed="#L" n="82"/>mali, ut dictum est. Naturalia namque, sive signa sint sive
+<lb ed="#L" n="83"/>causae, ut in pluribus verificantur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1763-Dd1e249"><!-- caj-p2p2-q95a2" -->
+               <head xml:id="TAcCaj-d1e1763-Hd1e252">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1763-d1e254">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51" type="fixed=313"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e261">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>In articulo secundo eiusdem nonagesimaequintae 
+quae<lb break="no" ed="#L" n="53"/>stionis, vide in primis quod ratio superstitionis in 
+divi<lb break="no" ed="#L" n="54"/>nationibus est quia auxilium daemoniacum assumitur. Et 
+<lb ed="#L" n="55"/>ideo ad hoc oportet semper inspicere: et hinc scire quod 
+<lb ed="#L" n="56"/>divinatio ex genere suo mortale peccatum est, et ab 
+Ec<lb break="no" ed="#L" n="57"/>clesia damnata, tanquam diabolici cultus pars ex propria 
+<lb ed="#L" n="58"/>natura operis; ut diffuse habes in Decretis, XXVI, qu. r,
+<lb ed="#L" n="59"/>2,3,4, 5 et 7, ubi materiam istius quaestionis tractatam
+<lb ed="#L" n="60"/>videre. potes.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e285">
+                  <lb ed="#L" n="61"/>In eodem articulo, nota quod duplex in littera ponitur
+<lb ed="#L" n="62"/>inquisitio pro divinatione: scilicet manifeste perniciosa, quae
+<lb ed="#L" n="63"/>scilicet est. cum expressa daemonum invocatione; et vana,
+<lb ed="#L" n="64"/>quae scilicet est quando aliquis futurum praecognoscere
+<lb ed="#L" n="65"/>tentat unde praecognosci non potest, Et haec propter 
+ad<lb break="no" ed="#L" n="66"/>mixtionem occultam daemonum est perniciosa, sed occulte :
+<lb ed="#L" n="67"/>ut amplius infra patebit. Et hoc oportet servare pro 
+fun<lb break="no" ed="#L" n="68"/>damentis in tota materia divinandi: quoniam in his 
+con<lb break="no" ed="#L" n="69"/>sistit formale, ad quod oportet resolvere. Ex his enim non
+<lb ed="#L" n="70"/>scimus an talis inquisitio, puta per somnia, per sortes, per
+<lb ed="#L" n="71"/>astra, per lineas, etc., sit vana: sed tantum in quo formalis
+<lb ed="#L" n="72"/>ratio daemoniacae inquisitionis respectu futurorum 
+consi<lb break="no" ed="#L" n="73"/>stat, scilicet aut in expressa invocatione, aut tacita per hoc
+<lb ed="#L" n="74"/>quod vana fit futuri inquisitio. Si nosse autem vis an talis
+<lb ed="#L" n="75"/>inquisitio sit vana, oportet formale ad talem materiam 
+ap<lb break="no" ed="#L" n="76"/>plicare, et videre si inde futurum potest vel non potest
+<lb ed="#L" n="77"/>praecognosci. Et propterea oportebit in singulis articulis
+<lb ed="#L" n="78"/>sequentibus singula examinare, quantum Deus dederit:
+<lb ed="#L" n="79"/>ne homines docti nos derideant tanquam rudes auferentes
+<lb ed="#L" n="80"/>a rebus eas quae in eis occultae sunt conditiones, et 
+dae<lb break="no" ed="#L" n="81"/>moni attribuentes; et ne sapientes in oculis suis quasi sine
+<lb ed="#L" n="82"/>ratione dicta omnia promiscue despiciant, sed habeant 
+ra<lb break="no" ed="#L" n="83"/>tiones, quibus obedire debet humana ratio; et ut viri boni
+<lb ed="#L" n="84"/>peccatum non timeant ubi peccatum non est.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e340">
+                  <lb ed="#L" n="85"/>II. Occurrit tamen ante omnia dubium, quare vana 
+in<lb break="no" ed="#L" n="86"/>quisitio futurorum sit perniciosa: an ex propria natura;
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="87"/>an quia prohibita et damnata ab Ecclesia, Et est ratio dubi:
+<lb ed="#L" n="88"/>quoniam vana appellatur in proposito. inquisitio ex defectu
+<lb ed="#L" n="89"/>a fine, quia scilicet non potest assequi intentum finem, qui
+<lb ed="#L" n="90"/>est cognitio futurorum seu occultorum: ut patet ex 
+defi<lb break="no" ed="#L" n="91"/>nitione in littera posita, quae iam praenotata est. 
+Inqui<lb break="no" ed="#L" n="92"/>sitio autefn sic vana non est ex genere suo perniciosa:
+<lb ed="#L" n="93"/>| quoniam multas constat esse inquisitiones vanas non 
+per<lb break="no" ed="#L" n="94"/>niciosas, ut si quis quaerat smaragdum in cerebro gallinae.
+<lb ed="#L" n="95"/>Nec etiam ex eo quod ad cognitionem tendit, perniciosa
+<lb ed="#L" n="96"/>est: quandoquidem et vane inquirere speculativam 
+cogni<lb break="no" ed="#L" n="97"/>tionem, puta geometriam, a iureconsulto, aut practicam
+<lb ed="#L" n="98"/>etiam in agibilibus, puta consilium de aliquid agendo, a
+<lb ed="#L" n="99"/>puero, stultum, non perniciosum est. Nec etiam ex eo quod
+<lb ed="#L" n="100"/>ad futura vel occulta terminatur, perniciosa est: quoniam
+<lb ed="#L" n="101"/>si quis illamet futura aut occulta ab. homine inquireret,
+<lb ed="#L" n="102"/>vane inquireret, quoniam ille non potest ei dare de his
+<lb ed="#L" n="103"/>notitiam, non tamen perniciose inquireret. Et, breviter, in
+<lb ed="#L" n="104"/>huiusmodi inquisitionibus magis relucet hominem stultum
+<lb ed="#L" n="105"/>quam perniciosum esse. — Et confirmatur. Quia sicut non
+<lb ed="#L" n="106"/>est perniciosum ex suo genere committere vanitati 
+fortu<lb break="no" ed="#L" n="107"/>nae futurum dominium exterioris rei, etiam cum periculo
+<lb ed="#L" n="108"/>perdendi, ut fit in omnibus ludis fortunae; ita non est
+<lb ed="#L" n="109"/>perniciosum committere fortunae vanitati cognitionem 
+sin<lb break="no" ed="#L" n="110"/>gularium, quae non sunt de perfectione intellectus, sine
+<lb ed="#L" n="111"/>cuiusque damno. Hoc autem importat vana inquisitio 
+fu<lb break="no" ed="#L" n="112"/>turorum. — Non est ergo ex propria natura perniciosa vana
+<lb ed="#L" n="113"/>inquisitio futurorum, sed ex Ecclesiae prohibitione, iuxta
+<lb ed="#L" n="114"/>dictum Gratiani, XXVI, qu. m, cap. Sors.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e411">
+                  <lb ed="#L" n="115"/>In oppositum autem est quia haec inveniuntur in utroque
+<lb ed="#L" n="116"/>Testamento damnata, scilicet a Moyse et Paulo 
+Apo<lb break="no" ed="#L" n="117"/>stolo. Huiusmodi autem non sunt mala quia prohibita,
+<lb ed="#L" n="118"/>sed ideo prohibita quia mala.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e422">
+                  <lb ed="#L" n="119"/>III. Ad evidentiam huius, sciendum est vanas 
+occulto<lb break="no" ed="#L" n="120"/>rum inquisitiones dupliciter fieri posse: primo, ut vana;
+<lb ed="#L" n="121"/>secundo, ut utilia ad cognitionem occultorum. Si fiant ut
+<pb ed="#L" n="314"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>vana, sic constat quod fiunt ut in veritate sunt: quia vana
+<lb ed="#L" n="2"/>in veritate sunt. Et sic, cum vacare vanis, inquantum 
+hu<lb break="no" ed="#L" n="3"/>iusmodi, nullam maiorem culpam quam vanitas sit, ponat;
+<lb ed="#L" n="4"/>consequens est quod exercere inquisitiones vanas ut vanas,
+<lb ed="#L" n="5"/>licet sit secundum se malum, non tamen perniciosum est.
+<lb ed="#L" n="6"/>Unde veniale tantum peccatum est si quis utatur 
+huius<lb break="no" ed="#L" n="7"/>modi inquisitionibus vanis ut vanis, hoc est non expectans
+<lb ed="#L" n="8"/>notitiam ex ipsis nisi a casu.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e453">
+                  <lb ed="#L" n="9"/>Si vero fiant ut utilia, cum non sint secundum 
+verita<lb break="no" ed="#L" n="10"/>tem utilia ratione sui, sed ratione secretae virtutis 
+daemo<lb break="no" ed="#L" n="11"/>niacae, inquisitiones istae ex genere suo sunt perniciosae :
+<lb ed="#L" n="12"/>quoniam uti vanis ut utilibus secundum secretam vim 
+dae<lb break="no" ed="#L" n="13"/>moniacam, manifeste perniciosum est.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e466">
+                  <lb ed="#L" n="14"/>Nec obstat si dicatur quod inquisitiones istae, ut "deles
+<lb ed="#L" n="15"/>non fiunt secundum secretam vim daemoniacam, sed 
+se<lb break="no" ed="#L" n="16"/>cundum secretam quandam vim nobis incognitam. Dicunt
+<lb ed="#L" n="17"/>enim inquisitores isti quod non invocant, nec invocare 
+in<lb break="no" ed="#L" n="18"/>tendunt daemonem: sed uti talibus quia experiuntur illa
+<lb ed="#L" n="19"/>esse utilia ad huiusmodi cognitionem occultorum. Hoc,
+<lb ed="#L" n="20"/>inquam, non obstat. Quoniam ex quo secreta illa virtus
+<lb ed="#L" n="21"/>in veritate est virtus daemoniaca, nisi homo utens.illa 
+ex<lb break="no" ed="#L" n="22"/>cusetur propter ignorantiam, diabolicae se societati 
+immi<lb break="no" ed="#L" n="23"/>scet tacite ex hoc ipso quod utitur vanis ut utilibus 
+se<lb break="no" ed="#L" n="24"/>cundum secretam vim ignotam: debet enim curam habere
+<lb ed="#L" n="25"/>operum suorum, ut sciat quid facit.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e495">
+                  <lb ed="#L" n="26"/>Quando vero ignorantia in istis excuset a diortali, et
+<lb ed="#L" n="27"/>quando non, ex communibus ignorantiae regulis 
+iudican<lb break="no" ed="#L" n="28"/>dum est. Rationi autem consonum est ut credentes absque
+<lb ed="#L" n="29"/>haesitatione aliqua inquisitiones aliquas, quae in veritate
+<lb ed="#L" n="30"/>sunt vanae secundum se, utiles autem ex daemone, esse
+<lb ed="#L" n="31"/>utiles ex divina aut naturali, secreta tamen, virtute, et pro
+<lb ed="#L" n="32"/>tanto eis utentes ac eis inhaerentes, sic tamen quod parati
+<lb ed="#L" n="33"/>sunt nullo modo facere si ambiguum esset quod ex 
+dae<lb break="no" ed="#L" n="34"/>mone essent, excusentur a mortali: nisi forte laborarent
+<lb ed="#L" n="35"/>ignorantia affectata, aut crassa et supina; hos enim non 
+au<lb break="no" ed="#L" n="36"/>deo excusare. Talis enim videtur ignorantia [eorum] qui
+<lb ed="#L" n="37"/>utuntur quodam versiculo Psalmistae ad hoc ut anulus 
+su<lb break="no" ed="#L" n="38"/>per protenso filo moveatur: constat enim ex Deo non esse
+<lb ed="#L" n="39"/>inditam virtutem sacris verbis ad huiusmodi levitates, nec ex
+<lb ed="#L" n="40"/>hatura inesse verbis illis hanc virtutem; ex daemone igitur.
+<lb ed="#L" n="41"/>Et hoc unum dixerim ut ex hoc alia scias iudicare: 
+dili<lb break="no" ed="#L" n="42"/>genter notans quod Extra, de Sortileg., cap. Ex tuarum,
+<lb ed="#L" n="43"/>presbyter in secreto loco cum infami ad inspectionem 
+astro<lb break="no" ed="#L" n="44"/>labii propter furtum inveniendum ex zelo et simplicitate
+<lb ed="#L" n="45"/>accedens, nom modicam peccati maculam contraxisse 
+dici<lb break="no" ed="#L" n="46"/>tur. Iste siquidem animum invocandi daemonem non 
+ha<lb break="no" ed="#L" n="47"/>buit: invocavit tamen tacite de facto non ex ignorantia 
+ex<lb break="no" ed="#L" n="48"/>cusante, quia cum infami, et in loco privato, et presbyter.
+<lb ed="#L" n="49"/>Ratio autem excusans primos est quia non per se, sed per
+<lb ed="#L" n="50"/>accidens et materialiter tantum tales immiscent se tacite
+<lb ed="#L" n="51"/>cum daemonibus. A toto autem omnino excusantur qui
+<lb ed="#L" n="52"/>credulitatem hanc falsam ex consilio sapientis acceperunt,
+<lb ed="#L" n="53"/>et propterea his vanitatibus se immiscuerunt.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e558">
+                  <lb ed="#L" n="54"/>Sunt igitur huiusmodi vana, quatenus pro utilibus 
+ha<lb break="no" ed="#L" n="55"/>bentur, secundum genus suum superstitiosa. Ac per hoc,
+<lb ed="#L" n="56"/>inquantum vana, et inquantum superstitiosa, ideo sunt 
+pro<lb break="no" ed="#L" n="57"/>hibita quia mala, et non e converso.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e570">
+                  <lb ed="#L" n="58"/>IV. Et ex hoc habes quod licet Ecclesia moneat 
+absti<lb break="no" ed="#L" n="59"/>nere etiam a licito usu astrologiae, somniorum, linearum,
+<lb ed="#L" n="60"/>et huiusmodi, in praenuntiationibus, propter periculum 
+de<lb break="no" ed="#L" n="61"/>clinandi in usum illicitum, sicut accidit in usu iuramenti;
+<lb ed="#L" n="62"/>non tamen absolute prohibet, in communi loquendo, nisi
+<lb ed="#L" n="63"/>quatenus sunt vana aut superstitiosa. — Dixi autem, in 
+com<lb break="no" ed="#L" n="64"/>muni loquendo: quia in tali materia, puta in electionibus,
+<lb ed="#L" n="65"/>quia debet eligi melior et non debet committi fortunae
+<lb ed="#L" n="66"/>electio, ideo in speciali sunt prohibitae sortes, Extra, de
+<lb ed="#L" n="67"/>Sortileg., cap. ult. Et hic etiam sunt prohibitae quia 
+ma<lb break="no" ed="#L" n="68"/>lae secundum se in tali materia. Et simile est in 
+prohi<lb break="no" ed="#L" n="69"/>bitione sortium ex paginis Evangelicis quoad saecularia 
+ne<lb break="no" ed="#L" n="70"/>gotia, propter scilicet divinam irreverentiam: ut 
+Augusti<lb break="no" ed="#L" n="71"/>nus dicit, XXVI, qu. n, Hi qui.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e603">
+                  <lb ed="#L" n="72"/>Quod autem prohibitiones omnes de his sic sint 
+intel<lb break="no" ed="#L" n="73"/>ligendae, scilicet inquantum vana aut superstitiosa aut alias
+<lb ed="#L" n="74"/>mala, manifestatur ex quatuor. Primo, ex studio doctorum
+<lb ed="#L" n="75"/>ad discernendum ad quid astra, somnia, avium motus, etc.,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>sunt utilia secundum naturam, et ad quid non; 
+conclu<lb break="no" ed="#L" n="77"/>dendo quod uti eis secundum quod sunt ex natura utilia,
+<lb ed="#L" n="78"/>non est peccatum. Si enim essent mala aliqua quia 
+pro<lb break="no" ed="#L" n="79"/>hibita, non oporteret hanc discretionem facere.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e625">
+                  <lb ed="#L" n="80"/>Secundo, ex hoc quod tot textus qui habentur in 
+De<lb break="no" ed="#L" n="81"/>cretis, causa XXVI, per tot quaestiones, divinationem, 
+in<lb break="no" ed="#L" n="82"/>cantationem . vel superstitionem afferendo, haec spectare ad
+<lb ed="#L" n="83"/>ritum paganorum, culturam vel societatem daemonum, 
+in<lb break="no" ed="#L" n="84"/>sinuant. ;
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e638">
+                  <lb ed="#L" n="85"/>Tertio, ex hoc quod ius divinum in hac materia, Deut.
+<lb ed="#L" n="86"/>xvur, Non inveniatur in te qui observet somnia et 
+au<lb break="no" ed="#L" n="87"/>guria, exponitur secundum dictam glossam, scilicet, vana
+<lb ed="#L" n="88"/>aut superstitiosa. Multo ergo magis ius humanum, ubi
+<lb ed="#L" n="89"/>aliter non exprimitur, interpretabimur sic.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e651">
+                  <lb ed="#L" n="90"/>Quarto, ex hoc quod Apostolus, Gal. iv, non dixit
+<lb ed="#L" n="91"/>observatoribus temporum quod in vanum in eis 
+labora<lb break="no" ed="#L" n="92"/>verit: sed dixit: 77meo ne in vanum in vobis 
+laborave<lb break="no" ed="#L" n="93"/>rim, significans se timere ne tempora superstitiose 
+obser<lb break="no" ed="#L" n="94"/>vaverint, et sic in vanum in eis laborasset; ut etiam 
+Au<lb break="no" ed="#L" n="95"/>gustinus exponit, ut habetur XXVI, qu. vi, cap. Quis 
+exi<lb break="no" ed="#L" n="96"/>stimaret. Hoc enim modo timens Ecclesia ne ad 
+supersti<lb break="no" ed="#L" n="97"/>tiosa filii sui declinent, horret, damnat punitque haec, non
+<lb ed="#L" n="98"/>iniiciendo laqueum animabus, sed prohibendo quae mala
+<lb ed="#L" n="99"/>sunt, et monendo ne etiam licitis in huiusmodi se 
+impli<lb break="no" ed="#L" n="100"/>cent, ne paulatim. declinent in perniciosa. Et si Christiani
+<lb ed="#L" n="101"/>intelligerent celsitudinem gradus sui, qua, divinae facti
+<lb ed="#L" n="102"/>consortes naturae, adsciti sunt in membra Christi*, et 
+da<lb break="no" ed="#L" n="103"/>tum est eis omnibus praeesse. naturalibus et daemonibus,
+<lb ed="#L" n="104"/>iuxta Domini promissionem, Marci ult., ubi dicitur, Signa
+<lb ed="#L" n="105"/>autem eos qui crediderint haec sequentur etc.; neque a
+<lb ed="#L" n="106"/>signis caeli, neque ab aliis quae gentes, quae homines
+<lb ed="#L" n="107"/>non Christiani timent, metuerent sibi; sed, Christianitatis
+<lb ed="#L" n="108"/>virtute, super omnia seipsos agerent, felicissime omnia cal- -
+<lb ed="#L" n="109"/>cantes
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e697">
+                  <lb ed="#L" n="110"/>V. Ad obiectiones autem in oppositum allatas in 
+prin<lb break="no" ed="#L" n="111"/>cipio dubii, iam patet responsio. Quia loquuntur de 
+in<lb break="no" ed="#L" n="112"/>quisitionibus istis quatenus vanae sunt et infra vanitatem
+<lb ed="#L" n="113"/>sistunt, excepta. ultima confirmatione. Ad quam dicitur
+<lb ed="#L" n="114"/>quod non est eadem ratio de dominio rei temporalis, et
+<lb ed="#L" n="115"/>de cognitione. Quoniam casus fortuitus, ex convention
+<lb ed="#L" n="116"/>hominum, potest esse utilis ad translationem domisiijoal
+<lb ed="#L" n="117"/>patet in ludis fortunae et in sortibus divisoriis: non subest
+<lb ed="#L" n="118"/>autem humanae voluntati quod casus fortuitus sit utilis
+<lb ed="#L" n="119"/>ad cognitionem .occultorum. Et ideo argumentum non.
+<lb ed="#L" n="120"/>valet.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e724">
+                  <lb ed="#L" n="121"/>Gratianus autem, in oppositum allatus, verificatur quoad
+<lb ed="#L" n="122"/>monitionem Ecclesiae, ut diximus.-Et quoad cessationem.
+<lb ed="#L" n="123"/>inquisitionis per sortes, non vanas, sed a Deo olim
+<lb ed="#L" n="124"/>batas, propter rationem in hoc articulo, ad tertium , ab
+<lb ed="#L" n="125"/>Auctore assignatam ex differentia inter legem novam et
+<lb ed="#L" n="126"/>veterem. Quamvis fuerit etiam alia ratio: scilicet pronitas.
+<lb ed="#L" n="127"/>illius populi ad idololatriam, in qua videbant responsa dari
+<lb ed="#L" n="128"/>gentilibus. Unde Saul, cum. non haberet a Deo responsum,
+<lb ed="#L" n="129"/>ad pythonis se convertit divinationem, I Reg. xxvm.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e746">
+                  <lb ed="#L" n="130"/>VI. In responsione. ad. primum et secundum eiusdem
+<lb ed="#L" n="131"/>secundi articuli, nota quod divinatio, licet subiective sit in.
+<lb ed="#L" n="132"/>intellectu, in quo est tam inquisitio quam cognitio, sive
+<lb ed="#L" n="133"/>debite sive indebite habeatur; quia tamen includit ordinem.
+<lb ed="#L" n="134"/>ad voluntatem, cuius est uti pacto. cum. daemoniis, ideo:
+<lb ed="#L" n="135"/>Auctor ex hac parte ponit ipsam speciem esse 
+superstitio<lb break="no" ed="#L" n="136"/>nis, quae vitium in voluntate est, sicut religio est virtus
+<lb ed="#L" n="137"/>in voluntate. Et licet uti pacto daemonis, absolute 
+loquen<lb break="no" ed="#L" n="138"/>do, videatur ad societatem, et non ad cultum spectare; ac
+<lb ed="#L" n="139"/>per hoc, divinationem non esse specieni superstitionis, 
+cu<lb break="no" ed="#L" n="140"/>ius est exhibere cultum creaturae, etc.: si tamen diligentius
+<lb ed="#L" n="141"/>attendamus quod ratione divinae excellentiae subiectionem
+<lb ed="#L" n="142"/>profiteri Deo religionis est, videbimus quod ratione 
+affe<lb break="no" ed="#L" n="143"/>ctatae excellentiae divinae a daemone profiteri se 
+subie<lb break="no" ed="#L" n="144"/>ctum daemoni, implorando illius consilium vel auxilium,
+<lb ed="#L" n="145"/>superstitionis est. Constat autem quod uti pacto cum 
+dae<lb break="no" ed="#L" n="146"/>mone est profiteri se indigentem daemone, ac per hoc illi
+<lb ed="#L" n="147"/>subditum: omnis enim indigens, quatenus indigens est, 
+subii<lb break="no" ed="#L" n="148"/>citur illi cuius opera indiget; propter quod Propheta 
+deita<lb break="no" ed="#L" n="149"/>tem ex nullius indigentia probat, dicens: Dixi Domino:
+<lb ed="#L" n="150"/>Deus meus es tu, quoniam bonorum meorum non eges.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1763-Dd1e795"><!-- caj-p2p2-q95a3" -->
+               <head xml:id="TAcCaj-d1e1763-Hd1e798">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1763-d1e800">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="46" type="fixed=316"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e807">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="47"/>IN articulo tertio eiusdem quaestionis nonagesimaequintae,
+<lb ed="#L" n="48"/>lis penes quid distinguitur expressa a tacita invocatione
+<lb ed="#L" n="49"/>daemonis, scilicet penes intentionem hominis. Quam 
+in<lb break="no" ed="#L" n="50"/>teliige dupliciter haberi pro expressa: primo, cum invocat
+<lb ed="#L" n="51"/>daemonem; secundo, cum aliquid facit quod scit ex 
+dia<lb break="no" ed="#L" n="52"/>boli virtute operari, ut faciunt incantatores. Utrique 
+nam<lb break="no" ed="#L" n="53"/>que expresse daemonem invocant ex intentione, verbo vel
+<lb ed="#L" n="54"/>facto. Et tunc intervenit pactum factum, etsi non cum
+<lb ed="#L" n="55"/>illo homine, factum tamen cum aliquo alio qui assistet
+<lb ed="#L" n="56"/>illis operibus, ostendendo vel operando. — Tacita autem 
+in<lb break="no" ed="#L" n="57"/>vocatio daemonum tunc solummodo est quando aliquis
+<lb ed="#L" n="58"/>talibus se implicat ut dignum sit daemonem illis se 
+immi<lb break="no" ed="#L" n="59"/>scere, quamvis hoc sit praeter intentionem talis hominis: 
+<lb ed="#L" n="60"/>ut in multis enumeratis in littera habes.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e842">
+                  <lb ed="#L" n="61"/>II. In eodem articulo, circa apparitiones daemonum, nota
+<lb ed="#L" n="62"/>quod quinque modis contingunt huiusmodi visiones: tribus
+<lb ed="#L" n="63"/>secundum sensus exteriores, et duobus secundum 
+interio<lb break="no" ed="#L" n="64"/>res. Contingit siquidem exterius a daemone induci, 
+pri<lb break="no" ed="#L" n="65"/>mo, verum corpus: aliunde acceptum, ut cum verum 
+se<lb break="no" ed="#L" n="66"/>men, vestem, et huiusmodi, offert; aut tunc formatum
+<lb ed="#L" n="67"/>commiscendo naturalia activa et passiva, ut serpentes 
+fa<lb break="no" ed="#L" n="68"/>ctos per magos Pharaonis, Exod. vi, et volucres factos
+<lb ed="#L" n="69"/>loco sociorum Diomedis submersorum, ut <ref xml:id="TAcCaj-d1e1763-Rd1e863">Augustinus dicit,
+<lb ed="#L" n="70"/>XVIII de Civ. Dei</ref>
+               </p>
+               <p xml:id="TAcCaj-d1e1763-d1e869">
+                  <lb ed="#L" n="71"/>Contingit secundo, non verum corpus, sed similitudinem
+<lb ed="#L" n="72"/>aliquam corpoream offerre exterius, ex naturalium tamen
+<lb ed="#L" n="73"/>operatione consurgentem: ut Augustinus dicit, ibidem,
+<lb ed="#L" n="74"/>de Arcadibus et sociis <name xml:id="TAcCaj-d1e1763-Nd1e879">Ulyssis</name>. Et in phialis aquae, vel
+<lb ed="#L" n="75"/>polito corpore, apparent quandoque similitudines quaedam
+<lb ed="#L" n="76"/>a daemone procuratae, cum ad huiusmodi invocatur. Et
+<lb ed="#L" n="77"/>frequenter accidit cum daemones in assumptis corporibus
+<lb ed="#L" n="78"/>humanis apparent vigilantibus, conversantur cum eis, 
+fa<lb break="no" ed="#L" n="79"/>miliariter colloquentes et concumbentes, quandoque etiam
+<lb ed="#L" n="80"/>munera vera afferentes eisdem. Non enim habent veras
+<lb ed="#L" n="81"/>carnes et vera ossa nec membra, sed carnis et 
+membro<lb break="no" ed="#L" n="82"/>rum similitudinem, non solum visibilem, sed palpabilem et
+<lb ed="#L" n="83"/>solidam, ita ut sentiantur tanquam humanae personae: ut
+<lb ed="#L" n="84"/>a multis fide dignis ex propria experientia narrantibus 
+au<lb break="no" ed="#L" n="85"/>divi. - In duobus tamen deficere ab humanis percepi cor-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>poribus, Primo, in temperamento carnis. Nam confessus
+<lb ed="#L" n="87"/>est ipse mendacii pater, cum eius caro, quasi glacialis, 
+mo<lb break="no" ed="#L" n="88"/>lesta esset tactui humanae carnis, se non posse melius 
+fa<lb break="no" ed="#L" n="89"/>cere. Non potest enim sic commiscere naturalia, absque
+<lb ed="#L" n="90"/>vera generatione hominis, ut carnem humianam efficiat ; et
+<lb ed="#L" n="91"/>simili ratione, non potest semen humanum efficere: pro ter
+<lb ed="#L" n="92"/>perfectionem horum et similium effectuum requirentium
+<lb ed="#L" n="93"/>propria naturalia activa perfecta. Et ex hoc patet quod
+<lb ed="#L" n="94"/>verissimum est quod Christus post resurrectionem dixit:
+<lb ed="#L" n="95"/>Palpate, et videte: quia spiritus (seu daemonium) carnem
+<lb ed="#L" n="96"/>et ossa non habet, loan. xx, et Luc. ult.* — Secundo, in
+<lb ed="#L" n="97"/>delectatione tactus et concubitus. Est enim tanto 
+persona<lb break="no" ed="#L" n="98"/>rum humanarum commixtio naturalis delectabilior quanto
+<lb ed="#L" n="99"/>verum superexcedit verisimili.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e940">
+                  <lb ed="#L" n="100"/>Et haec sunt dicta et pro declaratione veritatis, et pro
+<lb ed="#L" n="101"/>confutatione sapientum in oculis suis negantium. 
+daemo<lb break="no" ed="#L" n="102"/>nes. Qui, si Ecclesiae non credunt, accipiant fidei 
+Chri<lb break="no" ed="#L" n="103"/>stianae testimonium vel ab hoste. Ex eisdem namque 
+co<lb break="no" ed="#L" n="104"/>gnovi quod volunt daemones personas has fidem Christi
+<lb ed="#L" n="105"/>relinquere. Quorsum hoc, si fides Christi daemoni non
+<lb ed="#L" n="106"/>displiceret? Neque somnia aut extases, aut subita 
+momen<lb break="no" ed="#L" n="107"/>taneave aliqua; sed diuturnas familiaritates, sicut inter 
+ho<lb break="no" ed="#L" n="108"/>mines, sensibiliter, cum effectibus sensibilibus, non 
+vetula<lb break="no" ed="#L" n="109"/>rum, non insensatarum aut malenconicarum, ut aiunt, 
+per<lb break="no" ed="#L" n="110"/>sonarum, narro, Sed quia habent Moysen et Prophetas;
+<lb ed="#L" n="111"/>et scriptum est quod fides donum Dei est, non 
+homi<lb break="no" ed="#L" n="112"/>num voluntatis; et non est volentis neque currentis, sed
+<lb ed="#L" n="113"/>miserentis Dei: ideo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e973">
+                  <lb ed="#L" n="114"/>Contingit tertio, secundum exteriorem sensum apparere
+<lb ed="#L" n="115"/>aliqua quae nec in veritate nec in similitudine extra sunt,
+<lb ed="#L" n="116"/>sed ex parte videntis causa est. Et talia videntur 
+praesti<lb break="no" ed="#L" n="117"/>gia daemone commovente humores aut spiritus hominum:
+<lb ed="#L" n="118"/>sicut accidit febricitantibus videre similitudines in 
+parieti<lb break="no" ed="#L" n="119"/>bus, et huiusmodi; ut Philosophus dicit, in libro de .
+So<lb break="no" ed="#L" n="120"/>mno et Vigilia.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e991">
+                  <lb ed="#L" n="121"/>III. Contingit et secundum interiorem sensum 
+appari<lb break="no" ed="#L" n="122"/>tiones daemonem causare, Vel in alienatione a sensibus.
+<lb ed="#L" n="123"/>Sive per nimiam attentionem: ut accidit superbis 
+contem<lb break="no" ed="#L" n="124"/>plativis, qui a daemone illuduntur in variis imaginibus. —
+<pb ed="#L" n="317"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Sive per unctionem corpoream: ut accidit his qui ire se
+<lb ed="#L" n="2"/>credunt vespere quintae feriae ad ludos Dianae, vel similia
+<lb ed="#L" n="3"/>diabolica. Sunt enim haec in imaginatione: ut, experientia 
+<lb ed="#L" n="4"/>teste, visum est a fide digna persona, quae mihi narravit se
+<lb ed="#L" n="5"/>vetulam illam quae promiserat se ituram in suam cameram
+<lb ed="#L" n="6"/>nocte illa, invenisse nudam in propria camera 
+insensibi<lb break="no" ed="#L" n="7"/>liter constitutam; .unde. et postea convertit eam ex tali
+<lb ed="#L" n="8"/>confusione. Ego quoque ab una muliere amante quendam
+<lb ed="#L" n="9"/>scio quod diabolus unxit eam nudam, suadens ilii quod
+<lb ed="#L" n="10"/>sic duceret eam ad domum sui dilecti: et postmodum
+<lb ed="#L" n="11"/>postquam fuit extra se multo tempore, et crederet se cum
+<lb ed="#L" n="12"/>suo dilecto fuisse, etc., invenit se in suo loco ita lassatam
+<lb ed="#L" n="13"/>quod refocillatione indiguit, etc.; et nisi ego declarassem
+<lb ed="#L" n="14"/>ei quod imaginatio fuit, et ex tali nuditate ita laesa esset,
+<lb ed="#L" n="15"/>nesciret forte usque hodie quod illud non fuerit in 
+veri<lb break="no" ed="#L" n="16"/>tate. Per haec tamen non negamus quin diabolus, Deo 
+<lb ed="#L" n="17"/>permittente, quandoque personam aliquam voluntariam 
+<lb ed="#L" n="18"/>etiam corporaliter ducat de loco ad locum. Sed hoc 
+raris<lb break="no" ed="#L" n="19"/>sime videtur accidere. — Sive quacumque alia causa 
+alie<lb break="no" ed="#L" n="20"/>natio a sensibus contingat.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1050">
+                  <lb ed="#L" n="21"/>Vel sine alienatione a sensibus operatur daemon in
+<lb ed="#L" n="22"/>homine: quemadmodum ex infirmitate accidit phreneticis, 
+<lb ed="#L" n="23"/>qui vident et audiunt quae non sunt.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1059">
+                  <lb ed="#L" n="24"/>Facit autem daemon haec omnia intus in sensibus 
+com<lb break="no" ed="#L" n="25"/>humores, spiritus, componendoque diversimode:
+<lb ed="#L" n="26"/>ut diffuse habes ab Auctore in Qg. Dispp. de Malo, qu. xvi*,
+<lb ed="#L" n="27"/>quae est de daemonibus.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1070">
+                  <lb ed="#L" n="28"/>IV. In eodem articulo tertio quaestionis 
+nonagesimae<lb break="no" ed="#L" n="29"/>quintae, circa duo reliqua genera divinationis, ubi non ex-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="30"/>presse invocatur daemon, adverte quod quia hinc non 
+ha<lb break="no" ed="#L" n="31"/>bes nisi divinationem sumptam ex istis enumeratis in 
+lit<lb break="no" ed="#L" n="32"/>tera esse illicitam et superstitionis speciem; et divinatio
+<lb ed="#L" n="33"/>sonat indebitam usurpationem divinae cognitionis: non
+<lb ed="#L" n="34"/>potes hinc damnare ista nisi quatenus divinationis sunt
+<lb ed="#L" n="35"/>Opera. Ac per hoc, si aliqua horum sunt quae possunt
+<lb ed="#L" n="36"/>aliter fieri quam divinative, cohibe sententiam et linguam,
+<lb ed="#L" n="37"/>et discute prius singula quot modis fieri possunt, antequam
+<lb ed="#L" n="38"/>damnes opera absolute et tolerabili intentione facta. Et
+<lb ed="#L" n="39"/>licet hoc difficile sit, conabor pro viribus illud efficere, non
+<lb ed="#L" n="40"/>exeundo terminos morales, in singulis articulis sequentibus
+<lb ed="#L" n="41"/>cuncta tangendo.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1106">
+                  <lb ed="#L" n="42"/>V. In responsionibus argumentorum, adverte quod 
+Au<lb break="no" ed="#L" n="43"/>ctor species divinationis tot distinxit ex parte intellectus:
+<lb ed="#L" n="44"/>quia scilicet ex diversis principiis formalibus, ad invicem
+<lb ed="#L" n="45"/>non resolubilibus nec ad alia unius speciei constitutiva
+<lb ed="#L" n="46"/>principia, procedunt; puta ex lineis, ex vocibus, ex 
+sorti<lb break="no" ed="#L" n="47"/>bus, etc. Haec enim nec ad invicem reducuntur, nec 
+re<lb break="no" ed="#L" n="48"/>solvuntur in aliqua principia specifica: sed generica aut
+<lb ed="#L" n="49"/>analoga, iuxta eorum convenientiam. Et quoniam 
+forma<lb break="no" ed="#L" n="50"/>lium principiorum diversitas infert formalem diversitatem
+<lb ed="#L" n="51"/>obiectorum, ideo Auctor, in responsione ad secundum 
+di<lb break="no" ed="#L" n="52"/>versitatem formalem obiectorum cum dixisset, probavit
+<lb ed="#L" n="53"/>eam in responsione ad tertium ex diversitate principiorum.
+<lb ed="#L" n="54"/>Non ergo intelligas in responsione ad secundum per 
+di<lb break="no" ed="#L" n="55"/>versas materias rerum in quibus cognitio quaeritur, 
+diver<lb break="no" ed="#L" n="56"/>sitatem rerum conquisitarum, puta auri, argenti, vel 
+ve<lb break="no" ed="#L" n="57"/>stis, etc.: sed diversitatem declaratam in corpore articuli,
+<lb ed="#L" n="58"/>puta in. terra, in lineis, in vocibus, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1763-Dd1e1146"><!-- caj-p2p2-q95a4" -->
+               <head xml:id="TAcCaj-d1e1763-Hd1e1149">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1763-d1e1151">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23" type="fixed=318"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1158">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>In articulo quarto eiusdem nonagesimaequintae 
+quaestio<lb break="no" ed="#L" n="25"/>nis, primo declarandi sunt termini ; deinde discutiendae
+<lb ed="#L" n="26"/>sunt rationes conclusionis. In primis scito, primo, quod
+<lb ed="#L" n="27"/>ly illicita, tam in titulo huius articuli quam in titulo 
+qua<lb break="no" ed="#L" n="28"/>tuor sequentium articulorum, licet absolute comprehendat
+<lb ed="#L" n="29"/>illicitum quovis modo, scilicet venialiter vel mortaliter, et
+<lb ed="#L" n="30"/>non valeat argumentum, Z7oc est illicitum, Ergo mortale:
+<lb ed="#L" n="31"/>ubi tamen quaeritur de licito vel illicito ex suo genere, et
+<lb ed="#L" n="32"/>est sermo de genere contrario virtuti necessariae ad 
+salu<lb break="no" ed="#L" n="33"/>tem, dubium non est quod peccatum mortale principaliter
+<lb ed="#L" n="34"/>quaeritur; quoniam omne sic illicitum peccatum mortale
+<lb ed="#L" n="35"/>est, nisi propter imperfectionem actus sit veniale. Et quia
+<lb ed="#L" n="36"/>sic est in proposito, quoniam de divinatione et 
+universa<lb break="no" ed="#L" n="37"/>liter de speciebus superstitionis est quaestio, et superstitio
+<lb ed="#L" n="38"/>vitium est genericum contrarium religioni, necessariae ad
+<lb ed="#L" n="39"/>salutem aeternam; ideo et cum inquiritur, et cum in 
+con<lb break="no" ed="#L" n="40"/>clusione principali responsiva dicitur quod est illicita, 
+in<lb break="no" ed="#L" n="41"/>telligitur de illicito ex suo genere, ac per hoc de mortali
+<lb ed="#L" n="42"/>peccato. Est ergo litterae sensus. quod invocatio 
+daemo<lb break="no" ed="#L" n="43"/>num est mortale peccatum ex suo genere.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1206">
+                  <lb ed="#L" n="44"/>II. Scito secundo, quod ly pactum cum daemone initum
+<lb ed="#L" n="45"/>potest dupliciter accipi. Uno modo, pro conventione aliqua
+<lb ed="#L" n="46"/>cum daenione facta: puta, 75 facias aut dicas hoc, et ego
+<lb ed="#L" n="47"/>hoc. Alio. modo, pro sociali actu cum daemone. Et licet
+<lb ed="#L" n="48"/>haec: vocabula: pactum: et foedus sonent conventionem, ac
+<lb ed="#L" n="49"/>per hoc, cum. toties replicantur haec verba, videntur sic
+<lb ed="#L" n="50"/>accipienda: si quis tamen diligenter consideret intentionem
+<lb ed="#L" n="51"/>et verba Auctoris, hanc primam interpretationem non 
+exi<lb break="no" ed="#L" n="52"/>get, sed in secunda permanebit, scilicet de actu sociali.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1228">
+                  <lb ed="#L" n="53"/>Et intentio quidem Auctoris manifesta est. Quoniam
+<lb ed="#L" n="54"/>intendit. quod invocatio daemonum sit illicita: ut per 
+to<lb break="no" ed="#L" n="55"/>tum, et specialiter in responsione ad primum, patet, ubi
+<lb ed="#L" n="56"/>distinguit inquisitionem invocativam daemonis contra 
+in<lb break="no" ed="#L" n="57"/>quisitionem per occursum daemonis.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1242">
+                  <lb ed="#L" n="58"/>Verba autem Auctoris ad hoc in hac littera clara sunt
+<lb ed="#L" n="59"/>in prima ratione, cum dicit: quod scilicet est pactum 
+ex<lb break="no" ed="#L" n="60"/>presse.cum daemone initum per ipsam daemonis 
+invoca<lb break="no" ed="#L" n="61"/>tionem. Ex his namque subiunctis verbis, scilicet, per ipsam
+<lb ed="#L" n="62"/>daemonis invocationem, explanavit in quo consisteret 
+pa<lb break="no" ed="#L" n="63"/>ctum, scilicet in ipsa invocatione: ita quod invocatio 
+ex<lb break="no" ed="#L" n="64"/>pressa est pactum expressum, et invocatio tacita est 
+pa<lb break="no" ed="#L" n="65"/>ctum tacitum. Constat autem quod invocatio est actus 
+so<lb break="no" ed="#L" n="66"/>cialis. Ergo. - Amplius, in quaestione sequenti, in art. 1,
+<lb ed="#L" n="67"/>ad 3, Auctoris verba sunt ista: Exquirere cognitionem 
+fu<lb break="no" ed="#L" n="68"/>turorum a daemonibus non solum est peccatum propter
+<lb ed="#L" n="69"/>hoc quod ipsi futura non cognoscunt: sed propter 
+societa<lb break="no" ed="#L" n="70"/>tem cum eis initam, quae etiam in proposito habet locum.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1273">
+                  <lb ed="#L" n="71"/>Ubi clare manifestat quod appellatione pacti intelligit 
+so<lb break="no" ed="#L" n="72"/>cietatem, Ita. quod, quando legeris pactum vel foedus
+<lb ed="#L" n="73"/>initum, intellige societatem initam, expresse per 
+invoca<lb break="no" ed="#L" n="74"/>tionem, tacite per opus cui merito daemon se immiscet.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1284">
+                  <lb ed="#L" n="75"/>Et bene haec notato, quod actus invocationis, seu 
+cuius<lb break="no" ed="#L" n="76"/>cumque recursus ad daemonem, est saltem societas inita:
+<lb ed="#L" n="77"/>quia est initium societatis cum daemone. Et vocatur 
+pa<lb break="no" ed="#L" n="78"/>ctum initum, sicut etiam societas inita: quoniam societas
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="79"/>claudit in se pactum, foedus seu conventionem, etsi non
+<lb ed="#L" n="80"/>verbo, saltem facto ipsius societatis, de ipsa societate,
+<lb ed="#L" n="81"/>Ut sic etiam primae interpretationi locus sit sane 
+intel<lb break="no" ed="#L" n="82"/>lectae.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1306">
+                  <lb ed="#L" n="83"/>Unde ad rationis primae discussionem descendere 
+am<lb break="no" ed="#L" n="84"/>plius non oportet. Quoniam ex eo quod societatem initam
+<lb ed="#L" n="85"/>cum daemone, ex hoc ipso quod invocatur daemon, 
+ma<lb break="no" ed="#L" n="86"/>nifeste mortale peccatum esse monstratuimi est, Tatio pritha
+<lb ed="#L" n="87"/>clare concludit.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1319">
+                  <lb ed="#L" n="88"/>III. Sed secunda ratio, quae ex parte eventus se tenet,
+<lb ed="#L" n="89"/>non caret ambiguitate: quoniam videtur minus efficax. 
+Quo<lb break="no" ed="#L" n="90"/>niam eventus, licet addat ad gravitatem peccati, non tamen
+<lb ed="#L" n="91"/>constituit peccatum. Et propterea ex eventu non potest
+<lb ed="#L" n="92"/>probari invocationem esse illicitam. Praesertim quia eventus
+<lb ed="#L" n="93"/>iste, scilicet deceptionis, non est intentus ab invocante, sed
+<lb ed="#L" n="94"/>praevisus; et in potestate sua remanet quod se praeservet
+<lb ed="#L" n="95"/>a tali eventu in his quae sunt necessaria ad salutem.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1339">
+                  <lb ed="#L" n="96"/>Ad hoc dicitur quod licet eventus ut est in executione,
+<lb ed="#L" n="97"/>non constituat actum malum aut bonum, sed p 5
+<lb ed="#L" n="98"/>meliorem; ut tamen est in sua causa, constituere '
+<lb ed="#L" n="99"/>actum malum, quia sic redundat in obiectum' seu finen
+<lb ed="#L" n="100"/>ut patet de bove cornupeta non incluso a domino pos :
+<lb ed="#L" n="101"/>cognitionem eius; certufn est enim quod ex hoc. psc
+<lb ed="#L" n="102"/>quod bos est nocivus hominibus, ipsa non- inclusio eit
+<lb ed="#L" n="103"/>maala est, sive eventus laesionis sequatur sive non. Utide
+<lb ed="#L" n="104"/>in proposito, quia invocatio daemonis est ex natura sua
+<lb ed="#L" n="105"/>nociva humanae saluti, sive sequatur laesio. in herhiad di
+<lb ed="#L" n="106"/>vocante sive non, actus ipse est illicitus.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1366">
+                  <lb ed="#L" n="107"/>Manifestatur autem actum istum quo invocatur dendo
+<lb ed="#L" n="108"/>ad divinandum, esse ex natura sua nocivum homini, ex
+<lb ed="#L" n="109"/>parte tam daemonis quam hominis. Nam daemon intendit,
+<lb ed="#L" n="110"/>utpote hostis, perditionem. nostram per omnia opera sua.
+<lb ed="#L" n="111"/>Homo quoque, ex hoc ipso quod. cognitionem mendicat
+<lb ed="#L" n="112"/>a daemone, se offert ad initium saltem credendi illi, et
+<lb ed="#L" n="113"/>cavendi vel operandi secundum verba illius, vel saltem
+<lb ed="#L" n="114"/>secundum proprium iudicium collatis auditis d daemone
+<lb ed="#L" n="115"/>cum occurrentibus. Haec autem cum. per se 'ex natura
+<lb ed="#L" n="116"/>talis invocationis consequantur, et importent 
+assuuefactio<lb break="no" ed="#L" n="117"/>nem hominis ad credendum daemoni astutissimo et per
+<lb ed="#L" n="118"/>multa vera scienti deducere hominem in perditionem, 
+con<lb break="no" ed="#L" n="119"/>sequens est ut actum illicitum reddant. Et hoc est malum
+<lb ed="#L" n="120"/>quod in littera ponitur, scilicet assuefactio ad credendum
+<lb ed="#L" n="121"/>daemoni. Nec est in potestate hominis assueti praeservare
+<lb ed="#L" n="122"/>se a fallacia. Si enim homines a daemonum conversatione
+<lb ed="#L" n="123"/>alienos oportet tam armatos esse, quoniam non est mobis
+<lb ed="#L" n="124"/>colluctatio adversus carnem et sanguinem, sed adversus
+<lb ed="#L" n="125"/>principes et potestates tenebrarum harum, ut APO
+<lb ed="#L" n="126"/>dicit, Ephes. vi; quomodo inermes, immo subditi "Wie:
+<lb ed="#L" n="127"/>moni ex hoc ipso quod ad eum confugiunt, poterunt se
+<lb ed="#L" n="128"/>praeservare? Divina namque iustitia deserendi sunt in manu
+<lb ed="#L" n="129"/>hostili, ad quam recurrunt.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1418">
+                  <lb ed="#L" n="130"/>IV. Circa divinationem , et universaliter invocationem
+<lb ed="#L" n="131"/>daemonum, dubium idhu? unum occurrit, an possit fieri
+<lb ed="#L" n="132"/>absque cultu daemonis. Et est ratio dubii quia ex eo quod
+<lb ed="#L" n="133"/>est species superstitionis, sequitur quod spectet ad cultum.
+<pb ed="#L" n="319"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Ex eo vero quod aliquis potest invocare daemonem ut
+<lb ed="#L" n="2"/>socium aut amicum absque omni oblatione, reverentia et
+<lb ed="#L" n="3"/>caeremonia, apparet quod inquisitiones huiusmodi fieri 
+pos<lb break="no" ed="#L" n="4"/>sint absque superstitione et cultu: quidquid sit de alio 
+ge<lb break="no" ed="#L" n="5"/>nere peccati. — Et confirmatur. Quia si divinatio et 
+huius<lb break="no" ed="#L" n="6"/>modi invocationes essent necessario. cum cultu daemonis,
+<lb ed="#L" n="7"/>sequeretur quod essent manifeste actus infidelitatis 
+protesta<lb break="no" ed="#L" n="8"/>tivi: ac per hoc, facientes haec incurrerent poenas 
+apo<lb break="no" ed="#L" n="9"/>statarum seu haereticorum. Haec autem constat esse falsa:
+<lb ed="#L" n="10"/>ut patet de Haeret., cap. Accusatus, in Sexto, ubi, ne ne-.
+<lb ed="#L" n="11"/>gotium fidei impediatur, dicitur quod inquisitores 
+haere<lb break="no" ed="#L" n="12"/>sum non se impediant de divinationibus et sortilegiis , nisi
+<lb ed="#L" n="13"/>haeresim sapiant manifeste. Et aliae sunt in iure poenae
+<lb ed="#L" n="14"/>haereticorum, et aliae sortilegorum*, ut patet. Non ergo
+<lb ed="#L" n="15"/>huiusmodi divinationes et invocationes sunt necessario cum
+<lb ed="#L" n="16"/>cultu daemonum.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1468">
+                  <lb ed="#L" n="17"/>Ad hoc dicitur quod opera divinationum et 
+obser<lb break="no" ed="#L" n="18"/>ationum (quae in quaestione sequenti tractantur), et 
+uni<lb break="no" ed="#L" n="19"/>versaliter invocationes daemonum, dupliciter exerceri 
+pos<lb break="no" ed="#L" n="20"/>sunt, scilicet formaliter et materialiter: et quod si 
+forma<lb break="no" ed="#L" n="21"/>liter fiant, ad superstitionem et cultum daemonum spectant ;
+<lb ed="#L" n="22"/>si autem materialiter, extra daemonum cultum formaliter
+<lb ed="#L" n="23"/>sunt, materialiter tamen ad cultum eorum spectant. 
+De<lb break="no" ed="#L" n="24"/>clarantur singula. Sicut detractio dupliciter fieri potest, 
+sci<lb break="no" ed="#L" n="25"/>licet animo detrahendi et sine animo detrahendi, et primum
+<lb ed="#L" n="26"/>pom ad detrahere formaliter, secundum ad detrahere 
+ma<lb break="no" ed="#L" n="27"/>aliter; ita invocatio daemonum dupliciter fieri potest.
+<lb ed="#L" n="28"/>qom animo efficiendi id ad quod daemonum invocatio
+<lb ed="#L" n="29"/>ordinatur. Et sic fit formaliter. Et spectat ad cultum 
+daemo<lb break="no" ed="#L" n="30"/>num et superstitionem : ut patet ex auctoritate Augustini, in
+<lb ed="#L" n="31"/>xx, xxu. II de Doct. Christ., diffuse; et ex Auctore in hoc tractatu;
+<lb ed="#L" n="32"/>ex ratione, Quia. haec ordinantur, et ex sua natura et
+<lb ed="#L" n="33"/>da aemone, qui haec instituit, ad subiectionem hominis
+<lb ed="#L" n="34"/>respectu daemonum. Huiusmodi autem subiectio, ratione
+<lb ed="#L" n="35"/>excellentiae divinae affectatae et intentae a daemonibus, ad
+<lb ed="#L" n="36"/>superstitionem spectat, sicut subiectio hominis ad Deum
+<lb ed="#L" n="37"/>ad religionem, ut praedictum est.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1516">
+                  <lb ed="#L" n="38"/>Alio modo potest fieri materialiter: ut scilicet homo
+<lb ed="#L" n="39"/>separet ab opere animum faciendi id ad quod opus 
+ordi<lb break="no" ed="#L" n="40"/>natur; hoc est, quod nolit subiicere se daemoni, sed solum |
+<lb ed="#L" n="41"/>tanquam a sciente vel potente aliquid adiuvari, sicut ab |
+<lb ed="#L" n="42"/>altero homine requireret, absque ulla reverentia, etc. Et sic |
+<lb ed="#L" n="43"/>ad. superstitionem et' cultum materialiter spectant: quia
+<lb ed="#L" n="44"/>era ista materia sunt superstitionis et cultus, quamvis
+<lb ed="#L" n="45"/>kn fiant tali animo. Nec tamen propterea evaditur 
+pec<lb break="no" ed="#L" n="46"/>catum mortale: quia opera ista, etiam materialiter, spectant
+<lb ed="#L" n="47"/>ad societatem daemonum, et constituunt initam societatem
+<lb ed="#L" n="48"/>formaliter cum daemonibus, ac per hoc cum hostibus Dei
+<lb ed="#L" n="49"/>et propriis. Constat namque quod societas cum hoste, sive
+<lb ed="#L" n="50"/>consummata sive inita solum sit, perniciosa est, et laesae
+<lb ed="#L" n="51"/>maiestatis rea: et cum tali hoste, scilicet daemone, contra
+<lb ed="#L" n="52"/>fidelitatem quam Deo debemus est, et contra nos ipsos,
+<lb ed="#L" n="53"/>quia dolosi sunt semper, ubique et in omnibus. Propterea
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="54"/>Augustinus, ubi supra, dicit hanc amicitiam infidelem et Cap. xxu.
+<lb ed="#L" n="55"/>dolosam. Et procul dubio ad apostasiam a Deo pertinet
+<lb ed="#L" n="56"/>haec societas. Et si vis perpendere gravitatem huius. 
+pec<lb break="no" ed="#L" n="57"/>cati, respice quod sicut ad initium caelestis felicitatis et
+<lb ed="#L" n="58"/>patriae spectat conversatio in hac vita cum angelis aut
+<lb ed="#L" n="59"/>sanctis apparentibus quandoque nobis, ita ad initium 
+ae<lb break="no" ed="#L" n="60"/>ternae damnationis et infernalis habitaculi spectat societas
+<lb ed="#L" n="61"/>cum daemonibus. Et propterea in ea est iniquitas 
+con<lb break="no" ed="#L" n="62"/>summata.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1575">
+                  <lb ed="#L" n="63"/>Unde patet, quod utraque pars quaestionis vera aliquo
+<lb ed="#L" n="64"/>modo est: absolute tamen et simpliciter verum est quod
+<lb ed="#L" n="65"/>sunt superstitiones et cultus daemonum.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1584">
+                  <lb ed="#L" n="66"/>VI. Propter quod, prima ratio dubii concedatur quod Nam. v.
+<lb ed="#L" n="67"/>concludit verum simpliciter: quia oportet quod ista 
+impli<lb break="no" ed="#L" n="68"/>cent cultum daemonum formaliter vel materialiter.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1594">
+                  <lb ed="#L" n="69"/>Rationi autem in oppositum duo dicenda sunt. Primo,
+<lb ed="#L" n="70"/>quod ex distinctione posita in illa decretali in favorem
+<lb ed="#L" n="71"/>fidei, non plus habetur quam quod quaedam divinationes
+<lb ed="#L" n="72"/>non habent cultum daemonum manifestum. Hoc enim 
+con<lb break="no" ed="#L" n="73"/>sonat dictis propter illos qui haec exercent materialiter
+<lb ed="#L" n="74"/>tantum. — Secundo quod, referendo etiam decretalem 
+il<lb break="no" ed="#L" n="75"/>lam ad divinationes et sortilegia formaliter, distinguendum
+<lb ed="#L" n="76"/>est de cultu daemonum. Scilicet directe, ut sunt ea quae
+<lb ed="#L" n="77"/>in reverentiam daemonum ordinantur: qualis est in 
+adora<lb break="no" ed="#L" n="78"/>tionibus, oblationibus, et huiusmodi, quae ad idololatriae
+<lb ed="#L" n="79"/>speciem spectant, Et haec sapiunt haeresim manifeste, ut
+<lb ed="#L" n="80"/>patet ex praedictis: et inducunt omnes poenas apostata- "lbid.
+<lb ed="#L" n="81"/>rum et haereticorum. Vel indirecte: ut sunt ea quae 
+or<lb break="no" ed="#L" n="82"/>dinantur ad nostrum scire vel operari per daemones, quae
+<lb ed="#L" n="83"/>ad duas ultimas species superstitionis dictum est in art. 2
+<lb ed="#L" n="84"/>qu. xcu spectare, et in hac et sequenti quaestione 
+tractan<lb break="no" ed="#L" n="85"/>tur, Haec enim non sapiunt haeresim manifeste, Quoniam
+<lb ed="#L" n="86"/>cultum exhibent daemoni eo modo quo in religione 
+cul<lb break="no" ed="#L" n="87"/>tum exhibent Deo iurantes per ipsum, pro quanto 
+invo<lb break="no" ed="#L" n="88"/>cant daemonem ad sua commoda; non tamen tantum 
+ho<lb break="no" ed="#L" n="89"/>norant daemonem, pro quanto non protestantur per haec
+<lb ed="#L" n="90"/>eum esse Deum aut infallibilem veritatem, et huiusmodi:
+<lb ed="#L" n="91"/>nisi consulant ipsum tanquam scientem aut potentem 
+o<lb break="no" ed="#L" n="92"/>mnia; hoc enim manifeste saperet haeresim. — Et per haec
+<lb ed="#L" n="93"/>patet responsio ad confirmationem.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1651">
+                  <lb ed="#L" n="94"/>Haec autem accipe dicta theologice. Quoniam non me
+<lb ed="#L" n="95"/>impedio, an iuris intentio sit quod contra sortilegos cum
+<lb ed="#L" n="96"/>iniuria sacramentorum, etc., inquisitores procedant. Gaudeat.
+<lb ed="#L" n="97"/>unaquaeque scientia suis terminis.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1662">
+                  <lb ed="#L" n="98"/>VII. In responsione ad secundum, adverte quod istorum
+<lb ed="#L" n="99"/>duorum modorum dicendi quos ex Augustino Auctor 
+af<lb break="no" ed="#L" n="100"/>fert, neuter videtur certus, et uterque habet pro se 
+favo<lb break="no" ed="#L" n="101"/>rem. Quod enim vere fuerit anima Samuelis, Eccli. xuvr 
+<lb ed="#L" n="102"/>dicitur, ubi habentur haec verba de Samuele: Post haec
+<lb ed="#L" n="103"/>dormivit, et notum fecit regi, et ostendit illi finem vitae
+<lb ed="#L" n="104"/>suae. Quod vero fuerit daemon in forma Samuelis, in 
+De<lb break="no" ed="#L" n="105"/>cretis, XXVI, qu. v, cap. Nec mirum, habetur, ex 
+Augu<lb break="no" ed="#L" n="106"/>stino, de Civ. Dei. Sub iudice igitur lis est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1763-Dd1e1686"><!-- caj-p2p2-q95a5" -->
+               <head xml:id="TAcCaj-d1e1763-Hd1e1689">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1763-d1e1691">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="16" type="fixed=321"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1698">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>In titulo articuli quinti nota, tam pro ipso quam pro 
+tri<lb break="no" ed="#L" n="18"/>bus sequentibus articulis, quod titulus minus dicit quam
+<lb ed="#L" n="19"/>significat. Dicit namque: 4n divinatio talis sit illicita, et
+<lb ed="#L" n="20"/>significat: An inquisitio futurorum talis sit illicita. De 
+di<lb break="no" ed="#L" n="21"/>vinatione namque omni definitum est quod est illicita:
+<lb ed="#L" n="22"/>sed an in tali materia, seu via aut modo inquirendi 
+noti<lb break="no" ed="#L" n="23"/>tiam futurorum, sit divinatio proprie, discutiendum restat.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1718">
+                  <lb ed="#L" n="24"/>In articulo eodem, repete primo, in quo formaliter 
+con<lb break="no" ed="#L" n="25"/>sistit illicita per caelestia inquisitio occultorum, scilicet in
+<lb ed="#L" n="26"/>hoc quod est vana aut falsa: ita quod sola illa inquisitio
+<lb ed="#L" n="27"/>occultorum per astra est illicita quae est vana aut falsa.
+<lb ed="#L" n="28"/>Et ne sit quaestio de vanitatis vocabulo, in littera 
+decla<lb break="no" ed="#L" n="29"/>ratur quod tunc est vana aut falsa quando per ea velit 
+<lb ed="#L" n="30"/>quis praecognoscere quae per ipsa caelestia praecognosci 
+<lb ed="#L" n="31"/>non possunt. Formale ergo, ad quod oportet resolvi 
+in<lb break="no" ed="#L" n="32"/>quisitionem et consultationes astrorum, est si id quod 
+quae<lb break="no" ed="#L" n="33"/>ritur potest per caelestia praecognosci. Si enim potest 
+prae<lb break="no" ed="#L" n="34"/>cognosci, non est inquisitio vana aut falsa, non est illicita,
+<lb ed="#L" n="35"/>non est superstitiosa, non est digna ut daemon se 
+immi<lb break="no" ed="#L" n="36"/>sceat, non est prohibita. Et ratio in promptu est: quia 
+na<lb break="no" ed="#L" n="37"/>turales scientiae, opiniones et coniecturae non sunt 
+prohi<lb break="no" ed="#L" n="38"/>bitae, sed a Deo nobis in perfectionem intellectus 
+admi<lb break="no" ed="#L" n="39"/>niculumque datae. Si autem per caelestia corpora cognosci
+<lb ed="#L" n="40"/>nequeunt, inquisitio ipsa ex sua temeritate meretur ut 
+dae<lb break="no" ed="#L" n="41"/>mon se immisceat, et quandoque vera, quandoque falsa, 
+<lb ed="#L" n="42"/>prout permittitur iuste a Deo, dicat. Et tunc vae homini
+<lb ed="#L" n="43"/>illi qui ad haec tendit: quoniam divinatio est, superstitio
+<lb ed="#L" n="44"/>est, pernicies est animae, ut ex antedictis patet; et 
+hu<lb break="no" ed="#L" n="45"/>iusmodi inquisitio damnata est ab Ecclesia et prohibita.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1768">
+                  <lb ed="#L" n="46"/>Oportet autem et in hoc formali diligenter distinguere
+<lb ed="#L" n="47"/>modum cognoscendi seu inhaerendi. Nam multum refert
+<lb ed="#L" n="48"/>an aliquis ex caelestibus velit scire per certitudinem quid
+<lb ed="#L" n="49"/>futurum sit: aut scire per coniecturam, quantum scilicet
+<lb ed="#L" n="50"/>est ex tali inclinatione. Primo namque modo, scilicet per
+<lb ed="#L" n="51"/>certitudinem inquirere cognitionem futurorum 
+contingen<lb break="no" ed="#L" n="52"/>tium ex caelestibus, est vanum et superstitiosum, 
+diaboli<lb break="no" ed="#L" n="53"/>cum ac damnatum ab Ecclesia: et ratio est quia futura 
+con<lb break="no" ed="#L" n="54"/>tingentia non de necessitate causantur a caelo. Secundo 
+au<lb break="no" ed="#L" n="55"/>tem modo inquirere cognitionem inclinationum, sive 
+homi<lb break="no" ed="#L" n="56"/>num sive aliarum rerum corporearum, ad electiones nostras
+<lb ed="#L" n="57"/>quae naturae facultatem non excedunt, et alia casualia sive
+<lb ed="#L" n="58"/>fortuita; non est malum nec damnatum. Et ratio est quia
+<lb ed="#L" n="59"/>huiusmodi inclinationes sunt effectus corporum caelestium,
+<lb ed="#L" n="60"/>ut nunc nunc manifestabitur: conari autem ad 
+cognoscen<lb break="no" ed="#L" n="61"/>dum effectus causarum naturalium per eas non est malum.
+<lb ed="#L" n="62"/>Propterea Auctor in littera concludendo dicit: Si quis utatur
+<lb ed="#L" n="63"/>ad, cognoscendum per certitudinem futura opera 
+homi<lb break="no" ed="#L" n="64"/>num, etc. Non dixit, ad cognoscendum, sed dixit, ad 
+co<lb break="no" ed="#L" n="65"/>gnoscendum per certitudinem : ut differentiam istam quam
+<lb ed="#L" n="66"/>declaravimus intelligeres.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1817">
+                  <lb ed="#L" n="67"/>II. In eodem articulo quinto, nota regulam universalem
+<lb ed="#L" n="68"/>de signis corporeis naturalibus, scilicet quod tribus modis
+<lb ed="#L" n="69"/>contingunt. Primo, ut sint non solum signa, sed causae
+<lb ed="#L" n="70"/>significantes, Secundo, ut sint effectus significantes causam.
+<lb ed="#L" n="71"/>Et tertio, ut sint effectus multi. unius et eiusdem causae:
+<lb ed="#L" n="72"/>et tunc unus effectus est signum alterius effectus, propter
+<lb ed="#L" n="73"/>connexionem saltem in causa, quia scilicet. repraesentat
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>causam etiam alterius effectus. Exemplum primi: astra
+<lb ed="#L" n="75"/>sunt in signa, ut Scriptura dicit, in principio Gem.
+<lb ed="#L" n="76"/>Exemplum secundi in littera ponitur fumus signum ignis.
+<lb ed="#L" n="77"/>Exemplum tertii: iris, seu arcus, signum serenitatis, quia
+<lb ed="#L" n="78"/>est effectus causae communis sibi et serenitati. Ad aliquid
+<lb ed="#L" n="79"/>horum memento recurrere quando signa corporalia in 
+na<lb break="no" ed="#L" n="80"/>tura dicuntur, si resolute appetis intelligere et loqui. Et
+<lb ed="#L" n="81"/>haec bene nota, propter imagines, auguria, somnia, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1854">
+                  <lb ed="#L" n="82"/>III. In eodem quinto articulo, circa exemptionem eorum
+<lb ed="#L" n="83"/>quae fiunt et sunt per accidens a causalitate corporum 
+cae<lb break="no" ed="#L" n="84"/>lestium, qualia sunt casualia et fortuita, nota duo simul:
+<lb ed="#L" n="85"/>et quomodo se habet rei veritas, iuxta communem 
+philo<lb break="no" ed="#L" n="86"/>sophiae doctrinam; et quantum, et ad quid valeat ratio
+<lb ed="#L" n="87"/>litterae ad haec allata.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1870">
+                  <lb ed="#L" n="88"/>Scito igitur quod ea quae iunguntur per accidens, - sive
+<lb ed="#L" n="89"/>secundum locum, ut locus sepulcri et locus thesauri cum
+<lb ed="#L" n="90"/>quis fodiendo sepulcrum invenit ibi thesaurum; sive 
+secun<lb break="no" ed="#L" n="91"/>dum tempus, ut tempus tonitrui et tempus deambulationis.
+<lb ed="#L" n="92"/>animalis, puta bovis, cum, bove deambulante, tonat; sive
+<lb ed="#L" n="93"/>quomodocumque aliter iungantur per accidens; - possunt
+<lb ed="#L" n="94"/>dupliciter considerari. Primo, ut sic: hoc est inquantum
+<lb ed="#L" n="95"/>sunt entia per accidens; hoc est, quod consideretur hoc
+<lb ed="#L" n="96"/>totum, locus sepulcri et locus thesauri, et sic de aliis. 
+Se<lb break="no" ed="#L" n="97"/>cundo, secundum ambas partes seorsum: puta locus 
+se<lb break="no" ed="#L" n="98"/>pulcri secundum se, et locus thesauri secundum se.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1896">
+                  <lb ed="#L" n="99"/>Nec solum possunt dupliciter considerari, sed etiam 
+pos<lb break="no" ed="#L" n="100"/>sunt referri, secundum rei veritatem, ad diversas causas:
+<lb ed="#L" n="101"/>scilicet naturales, vel rationales. Et est tanta inter has 
+re<lb break="no" ed="#L" n="102"/>lationes distantia quod, quomodocumque considerata, entia
+<lb ed="#L" n="103"/>per accidens, si ad rationales causas referantur, possunt
+<lb ed="#L" n="104"/>habere causam per se. Immo omnia habent divinam 
+pro<lb break="no" ed="#L" n="105"/>videntiam pro per se causa: quoniam nihil, ei 
+compara<lb break="no" ed="#L" n="106"/>tum, est praeter illius intentionem. — Si autem referantur
+<lb ed="#L" n="107"/>ad causas naturales, quales sunt omnia corpora, sic 
+secun<lb break="no" ed="#L" n="108"/>dum suas partes possunt habere suas per se causas. [ta,
+<lb ed="#L" n="109"/>quod hic sit locus thesauri, ab aliqua est causa: et 
+simi<lb break="no" ed="#L" n="110"/>liter quod hic sit locus sepulcri, ab aliqua causa est. Seu,
+<lb ed="#L" n="111"/>in naturalibus, quod bos deambulet hora tertia, aliquam
+<lb ed="#L" n="112"/>habet causam: et similiter quod eadem hora tonitruum
+<lb ed="#L" n="113"/>fiat, aliquam habet causam. Sed hoc totum, quod tempus
+<lb ed="#L" n="114"/>ambulationis et tempus tonitrui sit unum et idem, nullam
+<lb ed="#L" n="115"/>habet unam naturalem causam: quia hoc totum non est
+<lb ed="#L" n="116"/>unum, sed multa simpliciter; omnis autem causa 
+natura<lb break="no" ed="#L" n="117"/>lis determinata est ad unum. Et ad hoc affertur ratio 
+lit<lb break="no" ed="#L" n="118"/>terae. .
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1942">
+                  <lb ed="#L" n="119"/>Notanter autem dixi, unam causam naturalem. Quoniam
+<lb ed="#L" n="120"/>illud totum habere multas causas naturales concurrentes
+<lb ed="#L" n="121"/>simul per se, quandoque non inconvenit: puta Martem
+<lb ed="#L" n="122"/>et Saturnum concurrentes in tali signo, aspectu, etc. Nec
+<lb ed="#L" n="123"/>contra hoc affertur ista ratio. In causis namque naturalibus
+<lb ed="#L" n="124"/>inveniuntur duo: scilicet virtus causativa; et conditio 
+cau<lb break="no" ed="#L" n="125"/>sarum, ut appropinquatio situs, etc. Ratio litterae inducta
+<lb ed="#L" n="126"/>est ad ostendendum quod causae naturales ex virtute 
+cau<lb break="no" ed="#L" n="127"/>sativa non possunt in ens per accidens secundum se 
+to<lb break="no" ed="#L" n="128"/>tum. An autem possint ex concursu causarum quandoque,
+<lb ed="#L" n="129"/>nihil in littera dicitur: sed haec altioris sunt speculationis,
+<lb ed="#L" n="130"/>et tractata in cxv quaestione primi Libri.
+<pb ed="#L" n="322"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Nec tamen propter haec quae dicta sunt (ne profitentes 
+<lb ed="#L" n="2"/>philosophiam derideant rationem quasi insufficientem), 
+sup<lb break="no" ed="#L" n="3"/>ponenda sunt casualia seu fortuita corporibus caelestibus
+<lb ed="#L" n="4"/>omnibus simul sumptis. Quoniam secundum veritatem,
+<lb ed="#L" n="5"/>a toto caelo non necessario eveniunt haec, propter 
+natu<lb break="no" ed="#L" n="6"/>ram possibilis, seu potentiae contradictionis, inventam in
+<lb ed="#L" n="7"/>istis inferioribus, quae sunt materia actionum caelestium :
+<lb ed="#L" n="8"/>ut ibidem declaratum est.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e1992">
+                  <lb ed="#L" n="9"/>IV. Excipiuntur ergo a caelestium corporum omnium 
+si<lb break="no" ed="#L" n="10"/>mul actionibus necessario inferentibus effectus, duo genera
+<lb ed="#L" n="11"/>rerum; scilicet entia per accidens, casualia vel fortuita; et
+<lb ed="#L" n="12"/>omnia voluntaria ut sic. Utraque tamen caelestibus causis
+<lb ed="#L" n="13"/>subesse aliquo modo. non est negandum. Quoniam, casualia
+<lb ed="#L" n="14"/>ac fortuita secundum partes constat ad inclinationes aliquas
+<lb ed="#L" n="15"/>ex caelo derivatas sequi: ut Auctor expresse dicit in libro III
+<lb ed="#L" n="16"/>Contra Gent., cap. xcu, dicens: Potest esse quod ex 
+in<lb break="no" ed="#L" n="17"/>clinatione caelesti inclinatur aliquis ad eligendum aliquid
+<lb ed="#L" n="18"/>cui coniungatur per accidens aliquod commodum , et ex
+<lb ed="#L" n="19"/>alia inclinatione aliud , et ex tertia tertium: non autem
+<lb ed="#L" n="20"/>ita quod ex una inclinatione inclinetur ad omnia. Haec
+<lb ed="#L" n="21"/>ille. Unde habes quod non minus, sed maius est iudicium
+<lb ed="#L" n="22"/>de concursu causarum caelestium causantium inclinationes :
+<lb ed="#L" n="23"/>et quod potest simul concurrere inclinatio ad inveniendum
+<lb ed="#L" n="24"/>thesaurum cum inclinatione ad fodiendum puteum, cum
+<lb ed="#L" n="25"/>non sit maior ratio de concursu harum quam aliarum. 
+Ve<lb break="no" ed="#L" n="26"/>runtamen scito quod communiter, istae inclinationes non
+<lb ed="#L" n="27"/>exeunt simul in opera, sed concurrit communiter inclinatio
+<lb ed="#L" n="28"/>caeli cum aliqua actione ordinata ad cognitum finem. Ita
+<lb ed="#L" n="29"/>quod Socrates, verbi gratia, inclinatus ad submersionem
+<lb ed="#L" n="30"/>in aquis, stimulatur per modum passionis ad eundum iuxta
+<lb ed="#L" n="31"/>aquas vel in aquas, nesciens propter quid ita incitatur:
+<lb ed="#L" n="32"/>et propter aliquod negotium occurrens navigat, vel ad aquas
+<lb ed="#L" n="33"/>vadit ex alio proposito, et sic submergitur. Et simile est
+<lb ed="#L" n="34"/>in aliis. Ubi vides quod submersio euntis ad tale 
+nego<lb break="no" ed="#L" n="35"/>tium ibi est effectus casualis seu fortuitus et per accidens,
+<lb ed="#L" n="36"/>et totum hoc non habet unam sed duas causas, scilicet
+<lb ed="#L" n="37"/>caelum et propositum hominis ad eundum; et quod ille 
+<lb ed="#L" n="38"/>homo non necessitatur a caelo, sed incitatur per modum
+<lb ed="#L" n="39"/>passionis, hoc est per modum quo ira, tristitia, amor, 
+o<lb break="no" ed="#L" n="40"/>dium, etc., incitat voluntatem nostram; et quod si in illo
+<lb ed="#L" n="41"/>homine esset tunc una alia inclinatio caelestis ad tale 
+nego<lb break="no" ed="#L" n="42"/>tium ibi tractandum quale ille elegit, tunc tale per accidens
+<lb ed="#L" n="43"/>esset secundum utramque sui partem a caelo, non 
+neces<lb break="no" ed="#L" n="44"/>sario, sed inclinative; ac per hoc, totum hoc, scilicet 
+sub<lb break="no" ed="#L" n="45"/>mersio euntis ad tale negotium, esset, inclinative tamen,
+<lb ed="#L" n="46"/>a caelo, propter concursum inclinationum simul.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2078">
+                  <lb ed="#L" n="47"/>Simili quoque modo sortimur a caelo inclinationes ad
+<lb ed="#L" n="48"/>eligendum multa: quibus inclinationibus fit quandoque ut
+<lb ed="#L" n="49"/>ille inclinetur ad eligendum casta, alter venerea, alter 
+natu<lb break="no" ed="#L" n="50"/>ralia, alter contra naturam, alter religiosa, alter ambitiosa,
+<lb ed="#L" n="51"/>Habent enim electiones et opera nostra pro causis 
+quam<lb break="no" ed="#L" n="52"/>doque non solam aut puram voluntatem, sed voluntatem
+<lb ed="#L" n="53"/>motam a corporibus, in quibus sunt istae inclinationes a 
+na<lb break="no" ed="#L" n="54"/>tura provenientes. Et propterea, quamvis opera nostra ut
+<lb ed="#L" n="55"/>sunt a voluntate non subsint caelo, ut tamen sunt.a 
+cor<lb break="no" ed="#L" n="56"/>poralibus subsunt caelo, sicut subsunt passionibus nostris.
+<lb ed="#L" n="57"/>Et quemadmodum sapiens dominatur passionibus suis, ita
+<lb ed="#L" n="58"/>dominabitur astris. Videat ergo vir sapiens ut, cum 
+in<lb break="no" ed="#L" n="59"/>stigatur ad mala aut periculosa, non sectetur stimulos
+<lb ed="#L" n="60"/>hos: sicut nec passiones sequi debet. Cum autem ad bona,
+<lb ed="#L" n="61"/>si ratio non obstet, sectetur illa, etiam si nesciat propter
+<lb ed="#L" n="62"/>quid: quoniam ad bona agitur quodammodo a 
+superio<lb break="no" ed="#L" n="63"/>ribus causis.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2117">
+                  <lb ed="#L" n="64"/>V. Cavendus ergo triplex est error in huiusmodi. Pri-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>mo, ut non quaeramus ex caelestibus supernaturalia: qualia
+<lb ed="#L" n="66"/>sunt mysteria fidei.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2128">
+                  <lb ed="#L" n="67"/>Secundo, ut nullum contingentium quaeramus ex 
+cae<lb break="no" ed="#L" n="68"/>lestibus cognoscere per certitudinem.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2135">
+                  <lb ed="#L" n="69"/>Tertio, ut cognitioni per coniecturam quam ex 
+caele<lb break="no" ed="#L" n="70"/>stibus habere quaerimus, non inhaereamus, secundum 
+af<lb break="no" ed="#L" n="71"/>fectum et executionem , tanquam legi: ut faciunt forte
+<lb ed="#L" n="72"/>mult principes, qui non exirent domo aut equitarent sine
+<lb ed="#L" n="73"/>calculo caelesti, habentes quinternos diarios vel 
+hebdoma<lb break="no" ed="#L" n="74"/>darios tanquam leges suorum operum, astrologorum 
+com<lb break="no" ed="#L" n="75"/>puto conditos. Iste namque error parum aut nihil distat
+<lb ed="#L" n="76"/>a secundo. Secundus namque est error in intellectu contra
+<lb ed="#L" n="77"/>naturam et gratiam: iste autem in voluntate contra naturae
+<lb ed="#L" n="78"/>et gratiae libertatem. Et errantes in secundo digni sunt
+<lb ed="#L" n="79"/>venia, quia ignoranter peccant: errantes autem in tertio
+<lb ed="#L" n="80"/>digni sunt duplici poena, quia scientes corpora caelestia
+<lb ed="#L" n="81"/>non plus quam passiones nostras posse, subiiciunt seipsos
+<lb ed="#L" n="82"/>corporalibus, et im captivitatem. seipsos redigunt, non in
+<lb ed="#L" n="83"/>obsequium Christi, sed diaboli. Et verificatur de eis illud
+<lb ed="#L" n="84"/>propheticum: 7Zomo, cum in honore esset, non 
+intelle<lb break="no" ed="#L" n="85"/>xit: comparatus est iumentis insipientibus, et similis factus.
+<lb ed="#L" n="86"/>est illis. Homo namque, secundum rationis dominium 
+su<lb break="no" ed="#L" n="87"/>per corporalia omnia, in honore est. Et qui hoc non 
+in<lb break="no" ed="#L" n="88"/>telligit facto, sed tanquam subditus corporalibus operatur.
+<lb ed="#L" n="89"/>ex proposito, comparatur iumentis: immo vilior 
+iumen<lb break="no" ed="#L" n="90"/>tis, quae natura, non vilitate animi subsunt corporalibus.
+<lb ed="#L" n="91"/>Et propterea iuste a Deo similis factus est illis: quia sci--
+<lb ed="#L" n="92"/>licet curam de eo habet Deus sicut de iumentis, scilicet.
+<lb ed="#L" n="93"/>propter bonum aliorum, non propter bonum. sui; et 
+pro<lb break="no" ed="#L" n="94"/>pterea traduntur daemonibus gubernandi qui tales sunt.
+<lb ed="#L" n="95"/>Quilibet enim horum trium errorum peccatum mortale est.
+<lb ed="#L" n="96"/>ex suo genere: quia inhaesionem importat animi huresei
+<lb ed="#L" n="97"/>caelestia corpora supra eorum facultates. Hoc enim patet ex
+<lb ed="#L" n="98"/>dictis superstitiosum et daemoniacum esse. — Sapientes
+<lb ed="#L" n="99"/>autem, si caelestes influxus nosse volunt, non utuntur eis.
+<lb ed="#L" n="100"/>ut legibus, sed dominantur eis, utentes rationis iudicio,
+<lb ed="#L" n="101"/>atque gratiae divinae lumine et adiutorio si Christiani sunt.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2209">
+                  <lb ed="#L" n="102"/>VI. Et ex his patet quomodo intelligendum est quod:
+<lb ed="#L" n="103"/>corpora caelestia non sunt supra electiones et opera nostra -
+<lb ed="#L" n="104"/>voluntaria. Et quomodo damnata vel non damnata est con-.
+<lb ed="#L" n="105"/>sultatio astrologorum circa nativitates hominum et sequenti
+<lb ed="#L" n="106"/>et huiusmodi. Haec enim si ad certitudinem cognitionis:
+<lb ed="#L" n="107"/>contingentium. ordinentur; vel, quod idem est, si ut lege.
+<lb ed="#L" n="108"/>utendum est tali figura nativitatis, etc.: diabolica sunt, da--
+<lb ed="#L" n="109"/>mnata sunt. Et hoc intendit <ref xml:id="TAcCaj-d1e1763-Rd1e2228">Augustinus in IV Confess.</ref>, etc.
+<lb ed="#L" n="110"/>Si autem fiant ad coniecturam habendum naturalium in--
+<lb ed="#L" n="111"/>clinationum, et dominandum corporalibus sapientis, mala
+<lb ed="#L" n="112"/>non sunt, prohibita non sunt: ut patet ex antedictis,
+<lb ed="#L" n="113"/>Et scito quod, licet quandoque veritas aliqua ex istis.
+<lb ed="#L" n="114"/>habeatur, tam debilis tamen est ratio coniecturae ut vix.
+<lb ed="#L" n="115"/>coniectura sit. Et hoc propter humanam ignorantiam. ma--
+<lb ed="#L" n="116"/>ximae partis causarum caelestium et proximarum. Totum:
+<lb ed="#L" n="117"/>enim id quod cognoscimus in huiusmodi non meretur dici:
+<lb ed="#L" n="118"/>pars quantumcumque minima eorum quae ignoramus. de.
+<lb ed="#L" n="119"/>eodem effectu. Quoniam astra sunt nobis ignota quomodo:
+<lb ed="#L" n="120"/>se habent ad invicem et ad nos. Et quotidie, usquequo:
+<lb ed="#L" n="121"/>completus sit semel totus cursus caelestium, qui ante 
+tri<lb break="no" ed="#L" n="122"/>ginta sex millia annorum non completur: quotidie ,- in--
+<lb ed="#L" n="123"/>quam, est novus stellati caeli situs, qui nunquam fuit con-:
+<lb ed="#L" n="124"/>sideratus; ad quem relati planetae et astra, quis scit quam.
+<lb ed="#L" n="125"/>causalitatem induant, mutent, perdant, etc.? Taceo de 
+cal<lb break="no" ed="#L" n="126"/>culo motuum. Quoniam impossibile forte est habere .in-.
+<lb ed="#L" n="127"/>strumenta quibus ad amussim sciant ortum et occasum: 
+ut<lb break="no" ed="#L" n="128"/>ab ipsis audio astrologis. 
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1763-Dd1e2273"><!-- caj-p2p2-q95a6" -->
+               <head xml:id="TAcCaj-d1e1763-Hd1e2276">Articulus 6</head>
+               <p xml:id="TAcCaj-d1e1763-d1e2278">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="91" type="fixed=323"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2285">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>In articulo sexto eiusdem quaestionis nonagesimaequintae,
+<lb ed="#L" n="93"/>circa causas et significationes. somniorum, advertenda sunt
+<lb ed="#L" n="94"/>multa. Primo, quoad causas naturales intrinsecas, quot 
+mo<lb break="no" ed="#L" n="95"/>dis fiant et quid significent, ad medicos et physicos 
+spe<lb break="no" ed="#L" n="96"/>ctat. Significant siquidem semper suas causas naturales: ut
+<lb ed="#L" n="97"/>humores aliquos.causantes motus illos in phantasia, ut in
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="98"/>littera. dicitur; vel superfluitatem potus vini causantis 
+dis<lb break="no" ed="#L" n="99"/>torsionem somniorum, ut Aristoteles inquit, in de Somn.
+<lb ed="#L" n="100"/>et Vig.; et alia huiusmodi.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2311">
+                  <lb ed="#L" n="101"/>II. Secundo, quoad causas extrinsecas naturales, et 
+prae<lb break="no" ed="#L" n="102"/>cipue corpora caelestia, quod quandoque caelestia corpora
+<lb ed="#L" n="103"/>unum et eundem effectum producunt in duplici esse : sci-
+<pb ed="#L" n="324"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>licet in esse materiali naturali; et in esse proportionali seu
+<lb ed="#L" n="2"/>conformi. Verbi gratia, pluvia futura primo producitur in
+<lb ed="#L" n="3"/>quodam effectu conformi ipsi pluviae in animali crocitante;
+<lb ed="#L" n="4"/>et deinde producitur in esse materiali , quando actualiter
+<lb ed="#L" n="5"/>pluit. Et tunc crocitatio avis est signum pluviae, tanquam
+<lb ed="#L" n="6"/>co-effectus unius communis causae utriusque. Et hoc modo 
+<lb ed="#L" n="7"/>somnia quae a corporibus caelestibus habemus, sunt signa
+<lb ed="#L" n="8"/>futurorum eventuum. Praecausant namque in hominibus 
+<lb ed="#L" n="9"/>motus phantasiae conformes ipsi communi causae et 
+effe<lb break="no" ed="#L" n="10"/>ctui futuro, ita quod somnium et futurus effectus sunt
+<lb ed="#L" n="11"/>effectus unius communis causae caelestis: et propterea 
+so<lb break="no" ed="#L" n="12"/>mnium significat illum effectum futurum. Et propterea 
+Au<lb break="no" ed="#L" n="13"/>ctor dicit in littera quod secundum hoc praecognitiones
+<lb ed="#L" n="14"/>futurorum plurimum fiunt ex somniis.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2355">
+                  <lb ed="#L" n="15"/>Qualis autem huiusmodi conformitas sit, non videtur
+<lb ed="#L" n="16"/>ratione comprehendi. Quoniam in ordine ad causam, videtur
+<lb ed="#L" n="17"/>esse analoga quaedam similitudo: quoniam phantasia nostra
+<lb ed="#L" n="18"/>non nisi analogice caelestibus causis similis efficitur. Non
+<lb ed="#L" n="19"/>enim est in phantasia similitudo sideris talis, quando a tali
+<lb ed="#L" n="20"/>sidere movetur: sed motus conformis et analogice 
+corre<lb break="no" ed="#L" n="21"/>spondens, ut effectus proportionatus tali sideri in tali 
+pa<lb break="no" ed="#L" n="22"/>tiente. — In ordine vero ad futurum effectum, quandoque
+<lb ed="#L" n="23"/>videtur habere rationem idoli seu similitudinis: 
+quemad<lb break="no" ed="#L" n="24"/>modum apparent in speculo imagines rerum, et experimur
+<lb ed="#L" n="25"/>in nobis intus habere multorum simulacra. Et hoc 
+Aristo<lb break="no" ed="#L" n="26"/>teles, in libro de Somn. et Vigil., expressit: et dixit 
+ar<lb break="no" ed="#L" n="27"/>tificiosissimum esse somniorum iudicem qui potest 
+simili<lb break="no" ed="#L" n="28"/>tudines inspicere; quoniam pluries impediuntur huiusmodi
+<lb ed="#L" n="29"/>similitudines propter motus nostros proprios, sicut contingit
+<lb ed="#L" n="30"/>in aquis motis idola dissipari. Et talia fuisse somnia Ioseph
+<lb ed="#L" n="31"/>de manipulis, et sole et luna et stellis, patet (non curando
+<lb ed="#L" n="32"/>aquo fuerint. - Quandoque autem habet rationem, non
+<lb ed="#L" n="33"/>similitudinis, sed proportionis: sicut si motus crocitantis
+<lb ed="#L" n="34"/>repraesentat pluviam, non quod fiat in imaginatione 
+ani<lb break="no" ed="#L" n="35"/>malis imago pluviae, sed quia fit motus quidam 
+corre<lb break="no" ed="#L" n="36"/>spondens pluviae. Et hoc videtur frequenter accidere. Talia
+<lb ed="#L" n="37"/>autem videntur fuisse pincernae et pistoris in carcere cum 
+<lb ed="#L" n="38"/>Ioseph somnia.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2411">
+                  <lb ed="#L" n="39"/>Sed quia latent nos proportiones et correspondentiae
+<lb ed="#L" n="40"/>motuum phantasiae in nobis ad futuros vel existentes 
+ef<lb break="no" ed="#L" n="41"/>fectus, quis motus cui respondeat effectui; ideo 
+artificio<lb break="no" ed="#L" n="42"/>sissimus iudex et interpres somniorum esset si quis sciret
+<lb ed="#L" n="43"/>aut cuius causae caelestis sit effectus talis motus 
+phanta<lb break="no" ed="#L" n="44"/>siae, aut cui effectui correspondeat; sed hoc scire per 
+cer<lb break="no" ed="#L" n="45"/>titudinem impossibile est, Quoniam id quod habet multas
+<lb ed="#L" n="46"/>causas, neutram determinate monstrat, ut in II Poster.
+<lb ed="#L" n="47"/>patet: constat autem nullum esse somnium a caelo quod
+<lb ed="#L" n="48"/>non possit ex alia causa provenire, et consequenter non
+<lb ed="#L" n="49"/>significare illum effectum quem significaret si a caelo esset.
+<lb ed="#L" n="50"/>Et hoc bene nota, tu qui philosopharis. Et propter hoc
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="51"/>ego, qui tot habui in vita mea somnia vera, de remotis
+<lb ed="#L" n="52"/>praecipue, hoc modo, scilicet per huiusmodi 
+corresponden<lb break="no" ed="#L" n="53"/>tiam et aliquam similitudinem, - ut si ea scripsissem cum
+<lb ed="#L" n="54"/>suis eventibus (quorum forte aliqui adhuc pendent), non
+<lb ed="#L" n="55"/>mirarentur philosophi et theologi, sed stuperent, — incertus
+<lb ed="#L" n="56"/>de causa eorundem, sto suspensus, nec unquam me aut
+<lb ed="#L" n="57"/>mea illis credidi, ne forte illusio daemoniaca se immisceat.
+<lb ed="#L" n="58"/>Fateor tamen quod paucorum aut nullorum 
+interpretatio<lb break="no" ed="#L" n="59"/>nem determinatam novi ante eventum.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2461">
+                  <lb ed="#L" n="60"/>III. Tertio, quoad cautelam in significationibus 
+somnio<lb break="no" ed="#L" n="61"/>rum. Quoniam oportet omnes cautelas quae circa 
+cogni<lb break="no" ed="#L" n="62"/>tionem futurorum ex corporibus caelestibus dictae sunt,
+<lb ed="#L" n="63"/>adhibere. Et tanto plus oportet hic esse cautiorem, et minus
+<lb ed="#L" n="64"/>coniicere ex somnio, quanto somnium incertissimus 
+effe<lb break="no" ed="#L" n="65"/>ctus est caeli. Si enim, cognita caelesti causa, in aliis 
+con<lb break="no" ed="#L" n="66"/>iecturarum generibus trepida restat coniectura futurorum;
+<lb ed="#L" n="67"/>quid dicendum est quando etiam ignoratur quod hoc 
+in<lb break="no" ed="#L" n="68"/>dicium, scilicet somnium, a caelesti est causa? Ex somniis
+<lb ed="#L" n="69"/>igitur soli suspicioni locus relinquitur circa futura 
+contin<lb break="no" ed="#L" n="70"/>gentia. 
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2487">
+                  <lb ed="#L" n="71"/>IV. Quarto, quoad peccatum, Quia invenitur in 
+adhae<lb break="no" ed="#L" n="72"/>sione ad somnia peccatum omnibus supradictis tribus
+<lb ed="#L" n="73"/>modis quibus invenitur in sequendo caelestia. Et ultra
+<lb ed="#L" n="74"/>haec, invenitur error in attribuendo somnium uni 
+deter<lb break="no" ed="#L" n="75"/>minatae causae, puta caelo. Est enim iste error contra 
+o<lb break="no" ed="#L" n="76"/>mnem rationem, ut <ref xml:id="TAcCaj-d1e1763-Rd1e2502">Aristoteles docet, in II Poster.</ref>: 
+quo<lb break="no" ed="#L" n="77"/>niam, ut dictum est, effectus potens provenire a pluribus
+<lb ed="#L" n="78"/>causis nullam earum determinate infert.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2509">
+                  <lb ed="#L" n="79"/>Incerta est ergo omnis ex somnio coniectura pendens
+<lb ed="#L" n="80"/>ex causa extrinseca, Et si quis incerta causa ut certa 
+uute<lb break="no" ed="#L" n="81"/>retur, procul dubio vane inquireret quoad modum, pro
+<lb ed="#L" n="82"/>quanto supponeret certum quod est dubium, et 
+consequen<lb break="no" ed="#L" n="83"/>ter acciperet coniecturam certam quae est dubia, Et 
+peri<lb break="no" ed="#L" n="84"/>culose iste erraret: non tamen perniciose, si infra latiti
+<lb ed="#L" n="85"/>dinem coniecturae maneret. Quod enim periculose eme
+<lb ed="#L" n="86"/>patet, quia facile posset decipi a daemone, ex quo in
+<lb ed="#L" n="87"/>quae incertum est esse a caelo, accipit ut certa a caelo.
+<lb ed="#L" n="88"/>Non. perniciose autem, pro quanto infra latitudinem. 
+con<lb break="no" ed="#L" n="89"/>iecturae ex caelo haberi possibilis versatur. Unde Auctor
+<lb ed="#L" n="90"/>in littera duobus modis superstitionem esse in somniis 
+con<lb break="no" ed="#L" n="91"/>cludit: quando scilicet est expressa invocatio daemonum;
+<lb ed="#L" n="92"/>vel quando somnia extenduntur ad ea ad quae non se 
+pos<lb break="no" ed="#L" n="93"/>sunt extendere, ut sunt habere certitudinem de 
+contingen<lb break="no" ed="#L" n="94"/>tibus et aliis quae subterfugiunt etiam caelestia copora etc; 
+<lb ed="#L" n="95"/>tunc enim est tacita cum daemones societas. Nihil autem 
+<lb ed="#L" n="96"/>horem accidit in proposito casu: sed aut mentis compos 
+<lb ed="#L" n="97"/>non est, aut ignorans valde, aut pertinax, qui sic erraret
+<lb ed="#L" n="98"/>(nisi tot signa caelestia influxux haberet ut minus graviter 
+<lb ed="#L" n="99"/>peccaret): mortale tamen non video, nisi ratione 
+con<lb break="no" ed="#L" n="100"/>temptus.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1763-Dd1e2560"><!-- caj-p2p2-q95a7" -->
+               <head xml:id="TAcCaj-d1e1763-Hd1e2563">Articulus 7</head>
+               <p xml:id="TAcCaj-d1e1763-d1e2565">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="81" type="fixed=325"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2572">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="82"/>IN articulo septimo eiusdem quaestionis 
+nonagesimaequin<lb break="no" ed="#L" n="83"/>tae, duo tantum scribenda sunt: quoniam ex dictis in
+<lb ed="#L" n="84"/>praecedentibus patet quomodo signa ex avibus et 
+anima<lb break="no" ed="#L" n="85"/>libus sumuntur, et quae subsunt caelestibus corporibus,
+<lb ed="#L" n="86"/>Primum est quod cum in littera dicitur quod non 
+exten<lb break="no" ed="#L" n="87"/>dantur signa animalium 7is? ad ea quae aliqualiter 
+pos<lb break="no" ed="#L" n="88"/>sunt ad huiusmodi animalia pertinere, et redditur ratio,
+<lb ed="#L" n="89"/>quia consequuntur cognitionem et instinctum ad necessaria
+<lb ed="#L" n="90"/>suae vitae, non intelligas per hoc exclusa humana a signis
+<lb ed="#L" n="91"/>animalium, tanquam nihil pertinentia ad illa animalia. 
+Opor<lb break="no" ed="#L" n="92"/>tet namque recolere quod una eademque caelestis causa 
+mo<lb break="no" ed="#L" n="93"/>vet animalia et humana (dispositive tamen quoad 
+volun<lb break="no" ed="#L" n="94"/>taria): ac per hoc, effectum quandoque causat in animali
+<lb ed="#L" n="95"/>conformem effectui causando in humanis. Verbi gratia, 
+cae<lb break="no" ed="#L" n="96"/>lum inclinans humana ad bella, causat in animalibus 
+dis<lb break="no" ed="#L" n="97"/>positiones cholericas, ex quibus prodeunt tales motus aut
+<lb ed="#L" n="98"/>voces, mugitus, garritus, etc., animalium. Unde cognitor
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="99"/>huiusmodi conformitatum coniecturam sumet futuri belli
+<lb ed="#L" n="100"/>inter homines. Et sic verificatur quod. motus animalium
+<lb ed="#L" n="101"/>sunt ratione pertinentium ad se; et cum hoc, significant
+<lb ed="#L" n="102"/>quandoque communis causae caelestis co-effectum in 
+hu<lb break="no" ed="#L" n="103"/>manis. Quod autem directe ea quae in avibus sunt ad
+<lb ed="#L" n="104"/>nostra referantur, et stultum et superstitiosum est.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2629">
+                  <lb ed="#L" n="105"/>Secundum est quod accipere quandoque omen oratione
+<lb ed="#L" n="106"/>praemissa, vel tanquam ex divina datum providentia, non
+<lb ed="#L" n="107"/>est peccatum: ut in responsione ad tertium habes. Si 
+ta<lb break="no" ed="#L" n="108"/>men ex hoc persona non se imprudenter periculo exponat
+<lb ed="#L" n="109"/>mali: quoniam non propterea excusaretur; sua enim 
+cre<lb break="no" ed="#L" n="110"/>dulitas aut oratio non debet facere hominem praecipitem.
+<lb ed="#L" n="111"/>Oportet enim divinum percipere lumen aut praeceptum
+<lb ed="#L" n="112"/>ad haec: et non ex sola hac facili credulitate aut fiducia
+<lb ed="#L" n="113"/>moveri ad opus. Omen namque ad cognitionem, non ad
+<lb ed="#L" n="114"/>operationem licitum, ex nostra erga Deum fiducia, 
+intel<lb break="no" ed="#L" n="115"/>ligitur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1763-Dd1e2656"><!-- caj-p2p2-q95a8" -->
+               <head xml:id="TAcCaj-d1e1763-Hd1e2659">Articulus 8</head>
+               <p xml:id="TAcCaj-d1e1763-d1e2661">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57" type="fixed=327"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2668">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="58"/>In articulo octavo eiusdem quaestionis 
+nonagesimaequin<lb break="no" ed="#L" n="59"/>ns adverte unde sortes primo iudicandae sunt: scilicet
+<lb ed="#L" n="60"/>ex causa, an expectetur sortium eventus a Deo, an a caelo,
+<lb ed="#L" n="61"/>an a fortuna, an a daemone. Hic enim oportet primum
+<lb ed="#L" n="62"/>iacere lapidem: quoniam hoc spectat ad rationem sortis
+<lb ed="#L" n="63"/>in communi. Multa autem alia consideranda sunt quae 
+spe<lb break="no" ed="#L" n="64"/>en ad rationem sortis talis, puta divisoriae, vel 
+consul<lb break="no" ed="#L" n="65"/>riae, wel divinatoriae. Et propterea primo circa examen
+<lb ed="#L" n="66"/>rum versabimur, et deinde ad specialia descendet
+<lb ed="#L" n="67"/>sermo.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2694">
+                  <lb ed="#L" n="68"/>Si 1gitur sortes ea ratione exerceantur ut a Deo fiat 
+di<lb break="no" ed="#L" n="69"/>visio, consilium vel cognitio, necessitas requiritur inducens
+<lb ed="#L" n="70"/>ad sortes, ut in littera dicitur, ut Dei tentatio evitetur, cum
+<lb ed="#L" n="71"/>aliis conditionibus in littera explanatis : scilicet ut sit 
+re<lb break="no" ed="#L" n="72"/>verentia ex parte hominis recurrentis ad sortes; proportio
+<lb ed="#L" n="73"/>ex. parte actus, ut scilicet divina oracula, puta Evangelia et
+<lb ed="#L" n="74"/>huiusmodi, non convertantur ad sortes pro temporalibus;
+<lb ed="#L" n="75"/>et dispositio ex parte materiae, ut scilicet non sit materia
+<lb ed="#L" n="76"/>prohibita fieri per sortes, ut sunt electiones spiritualium
+<lb ed="#L" n="77"/>praelatorum, ut patet Extra, de Sortilegiis, cap. ult.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2718">
+                  <lb ed="#L" n="78"/>II. Si vero sortes exerceantur ut effectus expectetur a
+<lb ed="#L" n="79"/>caelo, distinguendum est. Quia aut expectatur a caelo 
+ra<lb break="no" ed="#L" n="80"/>tione subiectionis actuum nostrorum concurrentium ad 
+sor<lb break="no" ed="#L" n="81"/>tes: quales sunt extrahere paleam aut cedulam, iacere
+<lb ed="#L" n="82"/>plura puncta, et huiusmodi. Et hoc in littera damnatur:
+<lb ed="#L" n="83"/>quia actus nostri non subsunt caelo. Ego autem intelligo
+<lb ed="#L" n="84"/>hanc damnationem quando quis utitur nostris actibus 
+tan<lb break="no" ed="#L" n="85"/>quam absolute atque simpliciter subiectis caelo: et non
+<lb ed="#L" n="86"/>quando quis utitur eisdem vel ut non deliberatis et 
+tan<lb break="no" ed="#L" n="87"/>quam non humanis, vel ut aliqualiter caelo subditis quoad
+<lb ed="#L" n="88"/>inclinationem (ad illa tamen quae caelo subsunt). Quoniam
+<lb ed="#L" n="89"/>primo modo est ibi falsitas: secundo autem, non est certa
+<lb ed="#L" n="90"/>falsitas. Et propterea non est damnanda, sed vitanda ac
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="91"/>timenda. Et iuxta hunc sensum intellige Auctoris verba in
+<lb ed="#L" n="92"/>III Cont. Gent., cap. curv, cum dicit de somniis et signis, etc.,
+<lb ed="#L" n="93"/>quod reducere ea in corpora caelestia habet modicam 
+ra<lb break="no" ed="#L" n="94"/>lionem, et*ideo existimandum est quod ab aliquo 
+cogno<lb break="no" ed="#L" n="95"/>scente fiant. Accipe haec ut dicta pro tutiore parte, ad 
+con<lb break="no" ed="#L" n="96"/>sulendum quae sanioris doctrinae sunt: non ad 
+damnatio<lb break="no" ed="#L" n="97"/>nem defendentium haec fieri quandoque a caelo. Et haec
+<lb ed="#L" n="98"/>dixerim ut qui legunt aut docent non sint praecipites: sed
+<lb ed="#L" n="99"/>caveant sibi et aliis; non damnent tamen eos qui, servatis
+<lb ed="#L" n="100"/>superius dictis, tantum sibi de caelo promittunt.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2774">
+                  <lb ed="#L" n="101"/>Aut expectatur eventus sortium: a caelo ratione talis 
+tem<lb break="no" ed="#L" n="102"/>poris: puta quia occurrit tunc tempus suae exaltationis 
+se<lb break="no" ed="#L" n="103"/>cundum astrologiam, et propterea sperat quod omnia in
+<lb ed="#L" n="104"/>quibus agitur de ipso caelum inclinabit, secundum suas
+<lb ed="#L" n="105"/>vires, in exaltationem ipsius, et sic forte cadet sors super
+<lb ed="#L" n="106"/>illum illa hora. Consolatio quippe ista, licet levis sit, 
+da<lb break="no" ed="#L" n="107"/>mnanda tamen non est.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2792">
+                  <lb ed="#L" n="108"/>Et haec omnia toleranda praecipue sunt quando sortes
+<lb ed="#L" n="109"/>non fiunt praecise propter caelestem actionem, sed partim
+<lb ed="#L" n="110"/>a fortuna, partim a caelo, partim a divina providentia 
+spe<lb break="no" ed="#L" n="111"/>ratur.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2803">
+                  <lb ed="#L" n="112"/>III. Si autem fortunae committitur eventus per sortes,
+<lb ed="#L" n="113"/>tunc ex genere suo nullum peccatum apparet: sed ratione
+<lb ed="#L" n="114"/>causae, puta si ex levitate fiant; vel ratione materiae, puta
+<lb ed="#L" n="115"/>quia in his quae per electionem fieri debent, aut aliunde
+<lb ed="#L" n="116"/>quam ex fortuna cognosci aut haberi debent, peccatum est.
+<lb ed="#L" n="117"/>Et quoniam tam consilia, quam futurorum et occultorum
+<lb ed="#L" n="118"/>cognitiones, et magistratus atque officia, ex divina aut 
+hu<lb break="no" ed="#L" n="119"/>mana providentia agenda, secundum rectam rationem, sunt;
+<lb ed="#L" n="120"/>ideo nec sors consultoria, nec divinatoria, nec divisoria
+<lb ed="#L" n="121"/>praelationum et magistratuum, debet esse fortuita.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2827">
+                  <lb ed="#L" n="122"/>Est tamen hic dubitandi locus: quoniam in littera 
+di<lb break="no" ed="#L" n="123"/>citur non esse peccatum uti sortibus divisoriis im tempo-
+<pb ed="#L" n="328"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ralibus dignitatibus, quae ad terrenam dispositionem
+<lb ed="#L" n="2"/>ordinantur. Constat namque quod huiusmodi sortes 
+for<lb break="no" ed="#L" n="3"/>tunae committuntur (sub divina tamen providentia), sicut
+<lb ed="#L" n="4"/>in rerum divisione. Et ratio dubii est quia in dignitatibus
+<lb ed="#L" n="5"/>distribuendis agitur de malo communi reipublicae: 
+quo<lb break="no" ed="#L" n="6"/>niam potest facile respublica incidere in malos rectores, et
+<lb ed="#L" n="7"/>consequenter contingit exaltari pravos et opprimi bonos, etc.
+<lb ed="#L" n="8"/>In divisione autem rerum nulli fit iniuria, ex quo domini
+<lb ed="#L" n="9"/>rerum committunt voluntarie fortunae dominium earum.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2858">
+                  <lb ed="#L" n="10"/>Sed haec ambiguitas facile solvitur si perceperimus 
+quo<lb break="no" ed="#L" n="11"/>modo intelligitur quod sors est licita in dignitatibus 
+tem<lb break="no" ed="#L" n="12"/>poralibus. Intelligitur namque quantum est ex suo genere,
+<lb ed="#L" n="13"/>concurrentibus ceteris quae ad actum licitum exiguntur:
+<lb ed="#L" n="14"/>scilicet quod non stulte fiat, quod sine iniuria alicuius, etc.
+<lb ed="#L" n="15"/>Unde dupliciter contingit uti sortibus in dignitatibus 
+tem<lb break="no" ed="#L" n="16"/>poralibus. Primo, promiscue, ut unusquisque de populo;
+<lb ed="#L" n="17"/>bonus et malus, aptus et ineptus, sorti subsit principatus
+<lb ed="#L" n="18"/>vel huiusmodi regiminis habendi. Et hoc, quia est contra
+<lb ed="#L" n="19"/>naturalem dignitatem rationalis creaturae, cui datum est
+<lb ed="#L" n="20"/>ut ratione provideat sibi et aliis; et contra commune 
+rei<lb break="no" ed="#L" n="21"/>publicae bonum, quod quilibet tenetur tutari et non in
+<lb ed="#L" n="22"/>discrimen ponere, ut hic accideret: ideo peccatum est, non
+<lb ed="#L" n="23"/>superstitionis, sed fatuitatis, et iniquitatis contra commune
+<lb ed="#L" n="24"/>bonum. — Alio modo contingit uti sortibus in dictis 
+di<lb break="no" ed="#L" n="25"/>gnitatibus post nominatos multos qui pro idoneis ad 
+hu<lb break="no" ed="#L" n="26"/>iusmodi officia communiter habentur, sic quod super illos
+<lb ed="#L" n="27"/>tantum nominatos seu conscriptos sortes cadere possunt.
+<lb ed="#L" n="28"/>Et sic sortes in littera licitae dicuntur in dignitatibus 
+tem<lb break="no" ed="#L" n="29"/>poralibus: tanquam terrenae hae administrationes 
+parvipen<lb break="no" ed="#L" n="30"/>dendae sint, utpote ad terrena ordinatae; et propterea non,
+<lb ed="#L" n="31"/>sicut in spiritualibus, oporteat in electione et Spiritu Sancto
+<lb ed="#L" n="32"/>omnino permanere. Agitur quoque in temporalibus 
+digni<lb break="no" ed="#L" n="33"/>tatibus de re humana temporali, in spiritualibus autem de
+<lb ed="#L" n="34"/>re divina et aeterna haereditate: et propterea in illis pax
+<lb ed="#L" n="35"/>civium praecipuum bonum est, ad quod ordinantur sortes;
+<lb ed="#L" n="36"/>in istis pax Dei, quae exsuperat omnem sensum, bonum
+<lb ed="#L" n="37"/>est, quod a solo Spiritu Sancto effici potest. Et propterea
+<lb ed="#L" n="38"/>sortes repelluntur in dignitatibus spiritualibus, et non in
+<lb ed="#L" n="39"/>temporalibus.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2926">
+                  <lb ed="#L" n="40"/>IV. Si denique a daemone eventus sortium expectatur,
+<lb ed="#L" n="41"/>clarissime sortilegii crimen incurritur. — Et scito quod licet
+<lb ed="#L" n="42"/>circa expressam daemonum expectationem idem sit 
+iudi<lb break="no" ed="#L" n="43"/>cium in sortibus et aliis, circa tacitam tamen varium est
+<lb ed="#L" n="44"/>iudicium, propter fortunae admixtionem. In aliis namque
+<lb ed="#L" n="45"/>supradictis, scilicet astris, somniis et signis, statim cum
+<lb ed="#L" n="46"/>vires naturae exceduntur, ad Deum aut daemonem oportet
+<lb ed="#L" n="47"/>se resolvere dantem operam his: et sic, neglecto Deo, 
+ta<lb break="no" ed="#L" n="48"/>cita daemonum incurritur societas. In sortibus autem, quia
+<lb ed="#L" n="49"/>fortunae se saepe committunt utentes non solum iocose,
+<lb ed="#L" n="50"/>sed serio sortibus (sive prudenter sive stolide hoc faciant),
+<lb ed="#L" n="51"/>ideo a tacita daemonum invocatione remotior est sortium
+<lb ed="#L" n="52"/>usus.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2958">
+                  <lb ed="#L" n="53"/>V. Circa duella, quae in responsione ad tertium 
+tra<lb break="no" ed="#L" n="54"/>ctantur, dubium occurrit, an sint licita in aliquo casu, 
+sal<lb break="no" ed="#L" n="55"/>tem ex parte requisiti: et an principes licite possint in casu
+<lb ed="#L" n="56"/>duella concedere. Et est ratio dubii quia Extra, de 
+Pur<lb break="no" ed="#L" n="57"/>gat. Vulgari, cap. Cura suscepti, in nullo casu tolerandum
+<lb ed="#L" n="58"/>dicitur duellum ; et II, qu. v, cap. Monomachiam, duella
+<lb ed="#L" n="59"/>damnantur.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e2976">
+                  <lb ed="#L" n="60"/>Quidam tamen dicunt licita esse in casu. Et quantum
+<lb ed="#L" n="61"/>hactenus reperi, unus casus ponitur in quo innocens 
+con<lb break="no" ed="#L" n="62"/>victus morti adiudicatur aut duello. Inquiunt quod in hoc
+<lb ed="#L" n="63"/>casu licite potest acceptare duellum: quia licitum est mihi
+<lb ed="#L" n="64"/>pugnare quando alio modo non possum evadere. — Alter
+<lb ed="#L" n="65"/>casus (si tamen alter dici debet) universalior ponitur a 
+Ni<lb break="no" ed="#L" n="66"/>colao de Lyra, super I Reg. cap. xvi: quando scilicet
+<lb ed="#L" n="67"/>lis aliqua criminalis vel civilis non potest aliter terminari
+<lb ed="#L" n="68"/>quam duello. Tunc enim ille qui non potest aliter se aut
+<lb ed="#L" n="69"/>sua salvare nisi acceptando duellum, potest, inquiunt, illud
+<lb ed="#L" n="70"/>acceptare. Et ratio assignatur quia licitum est pro 
+defen<lb break="no" ed="#L" n="71"/>sione et sui et rerum suarum pugnare.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3005">
+                  <lb ed="#L" n="72"/>De principibus quoque refert idem, ibidem, aliquos 
+te<lb break="no" ed="#L" n="73"/>nere quod in omni casu peccant mortaliter concedendo
+<lb ed="#L" n="74"/>duella. Sibi tamen videtur hoc durum. Quia sanctus 
+Lu<lb break="no" ed="#L" n="75"/>dovicus, Rex Francorum, et <name xml:id="TAcCaj-d1e1763-Nd1e3015">Carolus Magnus</name>, et multi prae-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>lati haec sustinuerunt. - Et quia licitum est tolerare minus
+<lb ed="#L" n="77"/>mala ut evitentur maiora quae, nisi duella fierent, 
+eveni<lb break="no" ed="#L" n="78"/>rent: ut vastationes et incendia pauperum, et homicidia. —
+<lb ed="#L" n="79"/>Et quia Auctor hic dicit quod duella accedunt ad 
+com<lb break="no" ed="#L" n="80"/>munem sortium rationem. Sortibus enim in multis 
+casi<lb break="no" ed="#L" n="81"/>bus uti licet.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3034">
+                  <lb ed="#L" n="82"/>VI. Ad evidentiam huius materiae, inchoare oportet a
+<lb ed="#L" n="83"/>perscrutatione an duellum sit malum ex genere. Si enim
+<lb ed="#L" n="84"/>est malum ex suo genere, ut mendacium vel adulterium,
+<lb ed="#L" n="85"/>nulla ratione est licitum. Et si non est malum ex suo 
+ge<lb break="no" ed="#L" n="86"/>nere, potest quandoque esse licitum. Duellum igitur, cum
+<lb ed="#L" n="87"/>bellum sit duorum, ex belli ratione considerandum est. Et
+<lb ed="#L" n="88"/>quoniam bellum non est malum ex suo genere, multa 
+nam<lb break="no" ed="#L" n="89"/>que sunt bella iusta; et unum et multa non variant 
+spe<lb break="no" ed="#L" n="90"/>ciem, eiusdem enim speciei est homicidium factum ab uno,
+<lb ed="#L" n="91"/>et a multis: contingit procul dubio esse bellum iustum
+<lb ed="#L" n="92"/>inter me et alterum, sicut inter regnum 'et regnum. Nam
+<lb ed="#L" n="93"/>quemadmodum iustum suscipitur defensivum bellum a 
+re<lb break="no" ed="#L" n="94"/>gno impetito, etc., ita etiam iustum ego habeo bellum 
+ad<lb break="no" ed="#L" n="95"/>versus invasorem, et licite, me defendendo, occido illum.
+<lb ed="#L" n="96"/>Et rursus ego, publicus minister iustitiae, iustum habeo
+<lb ed="#L" n="97"/>bellum adversus reum invasorem, ita quod ex intentione
+<lb ed="#L" n="98"/>licite occido illum. Non est ergo duellum, hoc est duorum
+<lb ed="#L" n="99"/>bellum, iniustum ex genere, sed potest esse iustum ex
+<lb ed="#L" n="100"/>una parte.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3078">
+                  <lb ed="#L" n="101"/>VII. Oportet ergo ad causam inspicere suscipiendi belli
+<lb ed="#L" n="102"/>talis. Notanter autem dixi ly suscipiendi, et ly talis. Dixi,
+<lb ed="#L" n="103"/>suscipiendi: quia indicere duellum nunquam licet, ut
+<lb ed="#L" n="104"/>tebit. Dixi, falis: quia aliqua causa potest esse-iusta cau:
+<lb ed="#L" n="105"/>suscipiendi belli quae non est iusta causa belli talis, 
+sci<lb break="no" ed="#L" n="106"/>licet singularis, ut patebit. Sex autem causae finales 
+vi<lb break="no" ed="#L" n="107"/>dentur potissimae ad quas singularis pugna ordinatur. — .
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3096">
+                  <lb ed="#L" n="108"/>Prima est manifestatio veritatis: dum scilicet aliqui 
+con<lb break="no" ed="#L" n="109"/>fidunt quod victoria sua erit testis veritatis, quod scilicet
+<lb ed="#L" n="110"/>ipse est innocens, aut habet ius, et huiusmodi. Et tale
+<lb ed="#L" n="111"/>certamen proprie vocatur duellum; et inter purgationes
+<lb ed="#L" n="112"/>vulgares computatur; et damnatur ab Ecclesia, Extra, de
+<lb ed="#L" n="113"/>Purgat. Vulgari*, et in cap. Monomachiam, |l, qu. v. Et.
+<lb ed="#L" n="114"/>huiusmodi duellum, licet, ut in littera dicitur, magis 
+ac<lb break="no" ed="#L" n="115"/>cedat ad rationem sortium, malum tamen est ex suo 
+ge<lb break="no" ed="#L" n="116"/>nere sortilegium: quia in propria ratione claudit 
+repugnan<lb break="no" ed="#L" n="117"/>tiam ad rectam rationem, scilicet inducere in testimonium -
+<lb ed="#L" n="118"/>quod non est testimonium; quoniam constat habentes ius
+<lb ed="#L" n="119"/>succumbere quandoque in duello, ut patet in cap. 
+Signi<lb break="no" ed="#L" n="120"/>ficantibus, Extra, de Purgat. Vulgari. Nec solum 
+huius<lb break="no" ed="#L" n="121"/>modi duellum est malum ex suo genere, ut mendacii m t
+<lb ed="#L" n="122"/>sed etiam est perniciosum ex suo genere. Quia contra 
+re<lb break="no" ed="#L" n="123"/>ctam rationem eligit uterque percutere proximum. Et col —-
+<lb ed="#L" n="124"/>tra rectam rationem vita utriusque ex proposito exponitur.
+<lb ed="#L" n="125"/>mortis et vulnerum periculo, cum Dei tentatione, Et 
+di<lb break="no" ed="#L" n="126"/>vini fit usurpatio iudicii, ut in littera dicitur. Et 
+diabo<lb break="no" ed="#L" n="127"/>lica inventio adimpletur: ut in Decretis, loco allegato, 
+di<lb break="no" ed="#L" n="128"/>citur, et in littera tangitur ex cap. Consuluisti ibidem.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3145">
+                  <lb ed="#L" n="129"/>VIII. Secunda causa est ostentatio virium: ut Goliath
+<lb ed="#L" n="130"/>Philisthaeus indicebat duellum, I Reg. xvii. Et tale duellum.
+<lb ed="#L" n="131"/>committere est perniciosum ex suo genere, propter eandem.
+<lb ed="#L" n="132"/>causam, quia scilicet contra rectam rationem eligit uterque 
+<lb ed="#L" n="133"/>alterum velle percutere: constat namque a ratione alienum
+<lb ed="#L" n="134"/>esse ut pro ostentatione virium quis pugnet. Et propterea
+<lb ed="#L" n="135"/>David excusatur, quod Spiritu Sancto motus pugnaverit
+<lb ed="#L" n="136"/>cum Philisthaeo.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3165">
+                  <lb ed="#L" n="137"/>Errant autem in hac, sicut et prima causa, principi ;
+<lb ed="#L" n="138"/>concedentes, quasi spectaculi causa, cum in bellis sunt, 
+cer<lb break="no" ed="#L" n="139"/>tamina quasi singularia, puta decem hinc et decem inde,
+<lb ed="#L" n="140"/>ad ostentationem virorum fortium. Diabolica sunt haec,
+<lb ed="#L" n="141"/>et sicut duella iudicanda, eadem ratione. Nec excusat eos
+<lb ed="#L" n="142"/>tempus belli, et conflictus partialis hostium cum hostibus:
+<lb ed="#L" n="143"/>quoniam iusti causa belli in hoc partiali conflictu locum
+<lb ed="#L" n="144"/>non habet; quia habens iustum bellum, ut sic, non ad
+<lb ed="#L" n="145"/>ostentationem pugnat.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3187">
+                  <lb ed="#L" n="146"/>IX. Tertia causa est evitatio ignominiae: quia scilicet
+<lb ed="#L" n="147"/>reputatur vilis et degeneris animi si non acceptat duellum.
+<lb ed="#L" n="148"/>Et haec causa, licet apud idiotas plurimum valere videatur,
+<lb ed="#L" n="149"/>apud tamen sapientes nulla est. Et quia rebus utendum "€
+<lb ed="#L" n="150"/>est ut sapientes, non ut plures; ideo, secundum rectam 
+<pb ed="#L" n="329"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>rationem, non est rationi consona causa haec. Et propterea |
+<lb ed="#L" n="2"/>duellum tale committere malum perniciosum est ex suo
+<lb ed="#L" n="3"/>genere, propter eandem rationem: quia contra rectam 
+ra<lb break="no" ed="#L" n="4"/>tionem uterque alterum eligit percutere, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3213">
+                  <lb ed="#L" n="5"/>X. Quarta causa est terminatio litis criminalis aut 
+ci<lb break="no" ed="#L" n="6"/>vilis: quando scilicet non potest aliter terminari lis nisi
+<lb ed="#L" n="7"/>duello acceptato; alioquin aut non acceptans duellum 
+iu<lb break="no" ed="#L" n="8"/>stitiam non potest consequi, aut liti succumbit, cum suo
+<lb ed="#L" n="9"/>et multorum quandoque damno magno. Et hic oportet
+<lb ed="#L" n="10"/>considerare quod ad hoc quod actus moralis sit licitus ,
+<lb ed="#L" n="11"/>oportet medium non esse disproportionatum fini. Huic
+<lb ed="#L" n="12"/>autem fini qui est terminatio litis, proportionatum est 
+me<lb break="no" ed="#L" n="13"/>dium aut convenientia partium, aut sententia iudicis, aut
+<lb ed="#L" n="14"/>pugna bellica ex parte habentis iustitiam cum conditioni- '
+<lb ed="#L" n="15"/>bus requisitis ad iustum bellum. Et propterea tunc tantum
+<lb ed="#L" n="16"/>duellum est licitum ad talem finem, scilicet ad 
+terminan<lb break="no" ed="#L" n="17"/>das lites et.contentiones, quando habet rationem iusti belli.
+<lb ed="#L" n="18"/>Quod an sit possibile, hinc apparere potest. Bellum iustum
+<lb ed="#L" n="19"/>aut est vindicativum, aut defensivum. Si est vindicativum,
+<lb ed="#L" n="20"/>hoc est quod indicitur bellum ad vindicandam iniuriam
+<lb ed="#L" n="21"/>illatam patriae, etc., indicens bellum gerit personam iudicis,
+<lb ed="#L" n="22"/>utpote utens publico gladio contra extraneos impugnatores
+<lb ed="#L" n="23"/>reipublicae, eademr ratione qua utitur contra internos 
+per<lb break="no" ed="#L" n="24"/>turbatores: ut patet ex supra dictis, cum de bello 
+tracta<lb break="no" ed="#L" n="25"/>retur. Huiusmodi autem iudex et vindex fungitur 
+per<lb break="no" ed="#L" n="26"/>sona et officio agentis. Agens autem debet superexcedere
+<lb ed="#L" n="27"/>patiens, ut possit illud sibi subiicere. Et propterea 
+huius<lb break="no" ed="#L" n="28"/>modi bellum non debet nisi a potentiori indici, et sic 
+po<lb break="no" ed="#L" n="29"/>tentiori ut, licet varius sit eventus belli, humana tamen
+<lb ed="#L" n="30"/>ratione quasi certa sit victoria, aut saltem non 
+succum<lb break="no" ed="#L" n="31"/>bere: quemadmodum iudex contra internos perturbatores
+<lb ed="#L" n="32"/>pacis non procedit nisi habens tot satellites ut sit quasi
+<lb ed="#L" n="33"/>certus quod capiet malefactores, etc. Hoc autem in quello
+<lb ed="#L" n="34"/>servari non potest: quia in singulari certamine aut par est
+<lb ed="#L" n="35"/>utriusque conditio; aut uni facile possunt accidere in illo
+<lb ed="#L" n="36"/>actu aliqua quae fortiorem facient succumbere. Et propter
+<lb ed="#L" n="37"/>hanc rationem, quamvis indicere bellum quandoque sit 
+li<lb break="no" ed="#L" n="38"/>citum, indicere tamen duellum nunquam est licitum: quia
+<lb ed="#L" n="39"/>est contra rectam rationem ex suo genere.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3291">
+                  <lb ed="#L" n="40"/>Si vero bellum iustum est defensivum, prout patria
+<lb ed="#L" n="41"/>aliqua indictum sibi bellum oportet aut sustinere aut 
+suc<lb break="no" ed="#L" n="42"/>cumbere, tunc suscipiens bellum gerit personam ac 
+offi<lb break="no" ed="#L" n="43"/>cium et resistentis et propulsantis a se iniuriam, Et ideo
+<lb ed="#L" n="44"/>oportet imitari tunc res naturales, quae quantum possunt
+<lb ed="#L" n="45"/>resistunt contrariis suis. Et debet in huiusmodi bello 
+for<lb break="no" ed="#L" n="46"/>tificari quantum fieri potest, virtus resistitiva et 
+propulsa<lb break="no" ed="#L" n="47"/>tiva iniuriae. Contrarium autem huius fit in duello: quia
+<lb ed="#L" n="48"/>dum unus solus ponitur ad resistendum uni et ad 
+pro<lb break="no" ed="#L" n="49"/>pulsandum iniuriam ab eodem, debiliter ac nimis 
+pericu<lb break="no" ed="#L" n="50"/>lose consulitur huic defensioni. Et propterea, nisi actualiter
+<lb ed="#L" n="51"/>unica persona invadatur, debet defendi iustitia cum 
+mul<lb break="no" ed="#L" n="52"/>titudine forti, et non committi unius periculo, secundum
+<lb ed="#L" n="53"/>rectam rationem, a communitate seu principe, cuius est
+<lb ed="#L" n="54"/>bellum etiam defensivum assumere.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3326">
+                  <lb ed="#L" n="55"/>Aliena est ergo natura duelli a natura iusti belli tam
+<lb ed="#L" n="56"/>defensivi quam vindicativi. Et propterea nulla ex parte 
+in<lb break="no" ed="#L" n="57"/>venitur duellum esse proportionatum medium ad 
+termi<lb break="no" ed="#L" n="58"/>nationem litis, tam civilis quam criminalis. Et quia mon
+<lb ed="#L" n="59"/>sunt facienda mala ut veniant bona, patiatur potius qui
+<lb ed="#L" n="60"/>non potest iura sua aliter tueri,
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3343">
+                  <lb ed="#L" n="61"/>In uno tamen casu licitum mihi videtur acceptare 
+duel<lb break="no" ed="#L" n="62"/>lum: quando scilicet accusator evidenter calumniatur, et
+<lb ed="#L" n="63"/>praevalet contra me innocentem ad mortem vel 
+mutilatio<lb break="no" ed="#L" n="64"/>nem. Tunc enim, ex quo accusator impetit me iudicis 
+gla<lb break="no" ed="#L" n="65"/>dio iniustissime, et sine dubio occidet vel mutilabit me,
+<lb ed="#L" n="66"/>ego, non habens aliud refugium, habeo iustum bellum 
+de<lb break="no" ed="#L" n="67"/>fensivum contra eum. Et propterea si ipse offert mihi duel-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>lum, ego possum acceptare, de consensu principis, et tueri
+<lb ed="#L" n="69"/>me meliori modo quo possum. Hoc enim, licet secundum
+<lb ed="#L" n="70"/>apparentiam sit duellum, secundum veritatem non est nisi
+<lb ed="#L" n="71"/>defensio contra invadentem se personaliter ad mortem vel
+<lb ed="#L" n="72"/>mutilationem. Differt enim secundum rem nihil occidere
+<lb ed="#L" n="73"/>me gladio proprio, et alieno: unde et Nathan dixit ad
+<lb ed="#L" n="74"/>David: Uriam interfecisti gladio filiorum Ammon. 
+Se<lb break="no" ed="#L" n="75"/>cus autem est in aliis causis: quoniam defensio armata
+<lb ed="#L" n="76"/>non est mihi licita nisi contra invadentem me armis; in
+<lb ed="#L" n="77"/>alis autem causis sola sententia iniusta fit invasio. Nec
+<lb ed="#L" n="78"/>opus est violentia in executione ex parte iudicis: quoniam,
+<lb ed="#L" n="79"/>reo non resistente, absque armis omnia fiunt.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3389">
+                  <lb ed="#L" n="80"/>XI. Quinta causa est indulgentia multitudinis: quando
+<lb ed="#L" n="81"/>scilicet inter duas patrias est bellum, et, parcendo 
+multi<lb break="no" ed="#L" n="82"/>tudini, resolvitur de consensu partium totum bellum in
+<lb ed="#L" n="83"/>duellum; ut legitur de Chosroae filio et Heraclio in legenda
+<lb ed="#L" n="84"/>Exaltationis Sanctae Crucis. Ob hanc siquidem causam
+<lb ed="#L" n="85"/>non est licitum subire duellum. Et ratio est quia 
+declina<lb break="no" ed="#L" n="86"/>tur a natura belli ex una parte iusti, ad naturam duelli,
+<lb ed="#L" n="87"/>quod rationi rectae adversari patet ex antedictis.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3409">
+                  <lb ed="#L" n="88"/>Nec verba Auctoris in hac littera favent duello, tanquam
+<lb ed="#L" n="89"/>cuidam sorti: sed damnant duella ut ferrum candens et
+<lb ed="#L" n="90"/>aquam ferventem, minus tamen quam illa, quia non 
+ex<lb break="no" ed="#L" n="91"/>pectatur miraculum. Et propter hoc dixit quod magis 
+ap<lb break="no" ed="#L" n="92"/>propinquat ad sortis rationem. Nam ly magis 
+comparatio<lb break="no" ed="#L" n="93"/>nem ad praedicta dicit. Cum enim omnia posuerit in 
+ge<lb break="no" ed="#L" n="94"/>nere sortis, dixit duella magis participare de sortis ratione
+<lb ed="#L" n="95"/>quam ignem et aquam: et non dixit esse puras sortes.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3429">
+                  <lb ed="#L" n="96"/>Fateor tamen quod in casu quo pars habens iustum
+<lb ed="#L" n="97"/>bellum cognoscit vires suas, et quod oportet aut confligere
+<lb ed="#L" n="98"/>et succumbere, aut acceptare duellum, quod licite acceptat
+<lb ed="#L" n="99"/>duellum: transfert enim quasi certum casum in dubium
+<lb ed="#L" n="100"/>et in spem victoriae, utendo omnibus suis viribus. — Nec
+<lb ed="#L" n="101"/>solum licitum est tali parti in praedicto necessitatis 
+arti<lb break="no" ed="#L" n="102"/>culo constitutae acceptare, sed etiam provocare tale 
+duel<lb break="no" ed="#L" n="103"/>lum, resolvendo bellum in duellum. Quoniam ex parte sui
+<lb ed="#L" n="104"/>utitur omnibus viribus suis melius in duello quam in bello:
+<lb ed="#L" n="105"/>et propterea non peccat. Ex parte vero alterius partis, 
+sup<lb break="no" ed="#L" n="106"/>ponitur quod habeat bellum iniustum; et non solum ille
+<lb ed="#L" n="107"/>qui in duello comparebit, sed omnes parati sunt ad 
+inva<lb break="no" ed="#L" n="108"/>dendum iniuste patriam, vel exercitum, personas, etc. Ac
+<lb ed="#L" n="109"/>per hoc, offerendo duellum, abducuntur a maiori malo,
+<lb ed="#L" n="110"/>auferendo materiam maioris mali, non ut faciant totum
+<lb ed="#L" n="111"/>hoc, scilicet minus malum, sed ut, facturi malum, peccent
+<lb ed="#L" n="112"/>minus (quod est officium angelorum): ut patet de decem
+<lb ed="#L" n="113"/>viris qui occisuro eos obtulerunt ut acciperet suos 
+the<lb break="no" ed="#L" n="114"/>sauros,
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3473">
+                  <lb ed="#L" n="115"/>XII. Sexta causa est defensio. Et si quidem aliquis
+<lb ed="#L" n="116"/>actualiter impetatur, non est dubium quod vim »i 
+repel<lb break="no" ed="#L" n="117"/>lere licet cum moderamine inculpatae tutelae. Sed hoc
+<lb ed="#L" n="118"/>non proprie est duellum: quoniam duellum sonat duorum
+<lb ed="#L" n="119"/>bellum ex condicto. Et propterea, cum ex ratione 
+mon<lb break="no" ed="#L" n="120"/>stratum sit quod duorum bellum ex condicto non est
+<lb ed="#L" n="121"/>conveniens medium ad defensionem litis aut discordiae
+<lb ed="#L" n="122"/>civilis aut criminalis, quia non potest habere rationem iusti
+<lb ed="#L" n="123"/>belli ex quacumque parte, nisi in duobus casibus 
+supra<lb break="no" ed="#L" n="124"/>dictis; ideo non est licitum duellum pro defensione.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3497">
+                  <lb ed="#L" n="125"/>Videntur autem in hoc quidam falli quod non 
+discer<lb break="no" ed="#L" n="126"/>nunt inter haec duo, scilicet bellum et duellum. Et 
+pu<lb break="no" ed="#L" n="127"/>tant quod quia licet pugnare pro se et suis, ideo licet
+<lb ed="#L" n="128"/>duellum committere. Quod tamen monstratum est non
+<lb ed="#L" n="129"/>sequi: quia alia est ratio de bello, et alia de duello, ut
+<lb ed="#L" n="130"/>patet ex dictis.
+</p>
+               <p xml:id="TAcCaj-d1e1763-d1e3514">
+                  <lb ed="#L" n="131"/>XIII. Et ex his patet quid de principibus concedentibus
+<lb ed="#L" n="132"/>duella dicendum sit. Constat enim quod peccant 
+conce<lb break="no" ed="#L" n="133"/>dendo. Non peccant autem permittendo, ex urgenti causa:
+<lb ed="#L" n="134"/>sicut nec peccant permittendo usuras et meretrices.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

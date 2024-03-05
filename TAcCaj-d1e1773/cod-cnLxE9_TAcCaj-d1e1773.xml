@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 97</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 97</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="338"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1773"><!-- TAcCajp2p2-q97" -->
+            <head xml:id="TAcCaj-d1e1773-Hd1e101">Quaestio 97</head>
+            <div xml:id="TAcCaj-d1e1773-Dd1e103"><!-- caj-p2p2-q97a1" -->
+               <head xml:id="TAcCaj-d1e1773-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1773-d1e108">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="57" type="fixed=337"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e115">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="58"/>IN articulo primo quaestionis nonagesimaeseptimae, aspice
+<lb ed="#L" n="59"/>in quo consistit formale interpretativae tentationis Dei:
+<lb ed="#L" n="60"/>scilicet in hoc quod absque necessitate vel utilitate respuat
+<lb ed="#L" n="61"/>homo causas secundas.
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e128">
+                  <lb ed="#L" n="62"/>Et adverte, in responsione ad tertium, quod respuere
+<lb ed="#L" n="63"/>corporalem medicinam contingit tripliciter. Primo, tempore
+<lb ed="#L" n="64"/>martyrii. Et hoc non est tentare Deum: quoniam utilitas
+<lb ed="#L" n="65"/>maxima est et necessitas promptitudinis animi ad 
+susti<lb break="no" ed="#L" n="66"/>nendum, et sic prompte testimonium perhibendum fidei
+<lb ed="#L" n="67"/>Christianae. Nam si medicinam corporalem susciperet, 
+vi<lb break="no" ed="#L" n="68"/>deretur minus sponte haec pati, et evitare passionem 
+quan<lb break="no" ed="#L" n="69"/>ium posset: cuius oppositum sancti martyres facto 
+do<lb break="no" ed="#L" n="70"/>uerunt,
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e150">
+                  <lb ed="#L" n="71"/>Secundo, absolute, in toto tempore vitae suae. Et hoc
+<lb ed="#L" n="72"/>est de quo Agatha in Domino gloriatur. Et in littera 
+ex<lb break="no" ed="#L" n="73"/>cusatur ex divina experientia: nam de communi lege hoc
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="74"/>esset tentare Deum; scriptum est enim: Altissimus de
+<lb ed="#L" n="75"/>terra creavit medicinam , et vir sapiens mon despiciet
+<lb ed="#L" n="76"/>illam.
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e169">
+                  <lb ed="#L" n="77"/>Tertio, ratione spiritualis profectus. Et hoc, si infra
+<lb ed="#L" n="78"/>limites zat onabilis obsequii fit, non est tentare Denito. sed
+<lb ed="#L" n="79"/>semetipsum offerre hostiam viventem Deo. Et hoc modo
+<lb ed="#L" n="80"/>sancti, qui dati sunt in exemplum ceteris, et praesertim
+<lb ed="#L" n="81"/>religiosis, in hoc mundo, dolores iliacos, ulcera et cetera
+<lb ed="#L" n="82"/>quae patiuntur, suscipiunt libenter, et utuntur eis ut 
+in<lb break="no" ed="#L" n="83"/>strumentis divinitus sibi concessis ad carnis subiectionem
+<lb ed="#L" n="84"/>et mortificationem, et ad lesu Christi passionis participa:
+<lb ed="#L" n="85"/>tionem. Et ideo respuunt medicinam, et aegre ferrent si
+<lb ed="#L" n="86"/>filialis dilectionis signum hoc perderent sanitatem 
+recupe<lb break="no" ed="#L" n="87"/>rando. Sed hi, licet infirmentur in carne, fortissimi sunt
+<lb ed="#L" n="88"/>ad spiritualia, ita ut nihil mali videantur quandoque
+<lb ed="#L" n="89"/>habere.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1773-Dd1e201"><!-- caj-p2p2-q97a2" -->
+               <head xml:id="TAcCaj-d1e1773-Hd1e204">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1773-d1e206">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="97" type="fixed=338"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e213">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="98"/>In articulo secundo eiusdem nonagesimaeseptimae quae- |
+<lb ed="#L" n="99"/>stionis, iunge doctrinam in calce articuli traditam 
+ra<lb break="no" ed="#L" n="100"/>tioni positae in corpore eiusdem, et vide quod, cum in
+<lb ed="#L" n="101"/>Deo sint tria, posse, scire et velle; et tentare Deum 
+igno<lb break="no" ed="#L" n="102"/>rantiam vel dubitationem malam claudat; consequens est
+<lb ed="#L" n="103"/>quod si quid est quod licet dubitare de Deo, hoc extra
+<lb ed="#L" n="104"/>tentationem Dei sit, si cum debitis circumstantiis fiat. Et
+<lb ed="#L" n="105"/>quoniam de Dei voluntate quid circa aliquid particulare |
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="106"/>velit nescimus, licitum est, si necessitas aut utilitas c
+<lb ed="#L" n="107"/>debitis adsit circumstantiis, per signum instructionem a
+<lb ed="#L" n="108"/>petere. De Dei potentia autem, scientia, et veritate dicti
+<lb ed="#L" n="109"/>divini, et aliis quae ad Dei perfectionem et excellentiam
+<lb ed="#L" n="110"/>spectant, dubitare non licet. Et propterea velle haec 
+ex<lb break="no" ed="#L" n="111"/>plorare peccatum est.
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e250">
+                  <lb ed="#L" n="112"/>Et scito quod ad primum modum, scilicet instructionis,
+<lb ed="#L" n="113"/>spectat si quis dubitat an revelans aut promittens sit Deus.
+<pb ed="#L" n="339"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Unde Iudic. VI laudatur a <ref xml:id="TAcCaj-d1e1773-Rd1e263">Glossa Gedeon</ref> quando primo 
+<lb ed="#L" n="2"/>explorare voluit an esset angelus. lucis qui ei apparuit. Et
+<lb ed="#L" n="3"/>similiter si dubitet an sit promissio absolute, an secundum
+<lb ed="#L" n="4"/>merita secundarum causarum: quando hoc expedit scire. |
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>De utroque enim horum licitum est dubitare: et humiliter
+<lb ed="#L" n="6"/>petere signum pro opportuna instructione nullum 
+pecca<lb break="no" ed="#L" n="7"/>tum est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1773-Dd1e282"><!-- caj-p2p2-q97a3" -->
+               <head xml:id="TAcCaj-d1e1773-Hd1e285">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1773-d1e287">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="74" type="fixed=339"/>Commentaria Cardinalis Caietani »
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e294">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="75"/>IN articulo tertio, in responsione ad secundum, legito lit- |
+<lb ed="#L" n="76"/>cie prudenter: ut inde sollicitior fias ut praepares ani- |
+<lb ed="#L" n="77"/>mam tuam ante orationem, ut, quod in te est faciendo, |
+<lb ed="#L" n="78"/>in irreverentiam divinam non incidas; et scrupulum non ;
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="79"/>incurras peccati tentationis Dei si negligens fueris, 
+quo<lb break="no" ed="#L" n="80"/>niam non nisi extenso vocabulo irreverentia haec tentatio
+<lb ed="#L" n="81"/>Dei est (unde et dicitur quasi tentatio Dei).
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1773-Dd1e317"><!-- caj-p2p2-q97a4" -->
+               <head xml:id="TAcCaj-d1e1773-Hd1e320">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1773-d1e322">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65" type="fixed=340"/>Commentaria Cardinalis Caietani s
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e329">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>IN articulis quarto, tertio et secundo simul, dubium 
+oc<lb break="no" ed="#L" n="67"/>lon an tentare Deum sit semper peccatum mortale.
+<lb ed="#L" n="68"/>Et est ratio dubii quia in articulo tertio ponitur quod 
+ten<lb break="no" ed="#L" n="69"/>tare Deum est contra divinam excellentiam; et in articulo
+<lb ed="#L" n="70"/>quarto comparatur secundum gravitatem idololatriae. 
+Con<lb break="no" ed="#L" n="71"/>stat autem quod haec non dicuntur de peccatis venialibus.
+<lb ed="#L" n="72"/>Ergo est semper peccatum mortale.
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e349">
+                  <lb ed="#L" n="73"/>Ex alia parte obstat, quia Zacharias, pater Ioannis 
+Bapti<lb break="no" ed="#L" n="74"/>stae, peccavit tentando Deum: et tamen non mortaliter. —
+<lb ed="#L" n="75"/>Et similiter Gedeon, ut in littera dicitur, peccavit petendo
+<lb ed="#L" n="76"/>signum in vellere: et tamen tunc est exauditus; et in
+<lb ed="#L" n="77"/>catalogo Sanctorum ponitur ad Heb. xi.
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e362">
+                  <lb ed="#L" n="78"/>II. Ad hoc dicitur quod tentare Deum ex suo genere
+<lb ed="#L" n="79"/>est peccatum mortale: quoniam contrariatur divinae 
+ex<lb break="no" ed="#L" n="80"/>cellentiae, et ex illius dubitatione procedit, ut in littera |
+<lb ed="#L" n="81"/>dicitur. Propter imperfectionem tamen actus pluries 
+inter<lb break="no" ed="#L" n="82"/>venit aliqualis Dei tentatio absque mortali peccato: sicut
+<lb ed="#L" n="83"/>etiam in quolibet genere peccati invenitur aliquid veniale |
+<lb ed="#L" n="84"/>propter imperfectionem actus.
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e381">
+                  <lb ed="#L" n="85"/>Unde Zacharias, licet peccaverit petendo signum, non
+<lb ed="#L" n="86"/>nisi venialiter tamen peccavit: ut etiam poena 
+tempora<lb break="no" ed="#L" n="87"/>lis, cum amplitudine Spiritus Sancti completa poena,
+<lb ed="#L" n="88"/>testatur. Et peccatum eius fuit quia non credidit verbis
+<lb ed="#L" n="89"/>angeli. Videns quippe angelum, et audiens exauditam
+<lb ed="#L" n="90"/>orationem suam pro. salute populi ac prope esse 
+Salvato<lb break="no" ed="#L" n="91"/>rem Messiam, ita quod ex eo et uxore nasciturus erat
+<lb ed="#L" n="92"/>praecursor eius, ut Elias; cum sciret ipse, sacerdos, ex 
+Scri<lb break="no" ed="#L" n="93"/>ptura tempus Messiae adesse, non plene credidit se 
+gene<lb break="no" ed="#L" n="94"/>raturum praecursorem. [taque, motus ex causis secundis,
+<lb ed="#L" n="95"/>scilicet ex naturali impossibilitate generationis ex sene et |
+<lb ed="#L" n="96"/>sterili etiam in senectute, non plene credidit ista annun-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="97"/>tiari a Deo per angelum sanctum: quamvis opinaretur q
+<lb ed="#L" n="98"/>ille esset angelus sanctus. Et propter hanc fidei debilitate
+<lb ed="#L" n="99"/>petebat signum ut firmiter adhaereret: sine qua firma. 
+ad<lb break="no" ed="#L" n="100"/>haesione non credimus, proprie loquendo. In cuius signum,
+<lb ed="#L" n="101"/>angelus statim respondit: Ego sum Gabriel. Et missus
+<lb ed="#L" n="102"/>sum, etc. Haec autem infirmitas fidei non fuit de potentia
+<lb ed="#L" n="103"/>neque de excellentia neque de providentia divina, neque
+<lb ed="#L" n="104"/>de veritate divini dicti, sed de nuntio Dei: superflua 
+ta<lb break="no" ed="#L" n="105"/>men, quia ex circumstantiis et dictis, et quia nihil ei 
+man<lb break="no" ed="#L" n="106"/>dabatur agendum cum aliquo periculo, debebat firmare
+<lb ed="#L" n="107"/>iudicium suum quo sibi videbatur nuntius Dei esse, et
+<lb ed="#L" n="108"/>consequenter credere omnia futura. Et ideo fuit venialis.
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e438">
+                  <name xml:id="TAcCaj-d1e1773-Nd1e440">Gedeon</name> vero a quibusdam excusatur, tanquam ex
+<lb ed="#L" n="109"/>familiaritate divina petierit illa duo signa in vellere. Et
+<lb ed="#L" n="110"/>posset forte excusari, quod pro ampliori Dei gloria
+<lb ed="#L" n="111"/>nifestanda exercitui, cum esset novus dux, non explorative,
+<lb ed="#L" n="112"/>sed deprecative, cum humilitate, pro maiori sua gloria,
+<lb ed="#L" n="113"/>Deus haec signa propalanda faceret. Si tamen verbis solis
+<lb ed="#L" n="114"/>litterae standum est, ubi non allegatur causa ulla nisi 
+con<lb break="no" ed="#L" n="115"/>ditionalis de victoria, cuius prius certificationem per 
+ange<lb break="no" ed="#L" n="116"/>lum habuerat; cum Auctore dicendum videtur quod non
+<lb ed="#L" n="117"/>excusatur a peccato. Veniale tamen illud puto fuisse: quia
+<lb ed="#L" n="118"/>per modum humilis deprecationis infirmitatem fidei suae
+<lb ed="#L" n="119"/>adiuvandam petiit consolatione signorum, licet crederet
+<lb ed="#L" n="120"/>quod prius didicerat ab angelo. Quasi fuerit tunc Gedeon
+<lb ed="#L" n="121"/>dispositus eo modo quo fideles firmiter persistentes in fide
+<lb ed="#L" n="122"/>sunt dispositi quando tentantur intrinsecus de fide. Ita
+<lb ed="#L" n="123"/>quod imperfectio actus quasi vacillandi, ex quo processit
+<lb ed="#L" n="124"/>humilis supplicatio, infra venialium latitudinem retinuit
+<lb ed="#L" n="125"/>actum tentationis.
+</p>
+               <p xml:id="TAcCaj-d1e1773-d1e480">
+                  <lb ed="#L" n="126"/>Et per haec patet responsio ad obiecta.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

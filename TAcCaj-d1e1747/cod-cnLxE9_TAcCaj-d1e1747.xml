@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 92</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 92</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="299"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1747"><!-- TAcCajp2p2-q92" -->
+            <head xml:id="TAcCaj-d1e1747-Hd1e101">Quaestio 92</head>
+            <div xml:id="TAcCaj-d1e1747-Dd1e103"><!-- caj-p2p2-q92a2" -->
+               <head xml:id="TAcCaj-d1e1747-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1747-d1e108">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="83" type="fixed=299"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1747-d1e115">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="84"/>IN quaestionis nonagesimaesecundae articulis duobus, 
+quae<lb break="no" ed="#L" n="85"/>Lan occurrunt scribenda spectantia specialiter ad 
+secun<lb break="no" ed="#L" n="86"/>dum articulum. Et primo, quod duae ponuntur in littera
+<lb ed="#L" n="87"/>specificae distinctiones superstitionis, Prima, penes 
+distin<lb break="no" ed="#L" n="88"/>ctionem obiectorum: scilicet Creatoris, cui debetur cultus
+<lb ed="#L" n="89"/>latriae, quando indebite exhibetur; et creaturae, cui cultus
+<lb ed="#L" n="90"/>latriae non debetur. — Secunda, penes distinctionem finium
+<lb ed="#L" n="91"/>divini cultus. Quod non est sic intelligendum quasi cultus
+<lb ed="#L" n="92"/>in divinus habeat plures fines principales, cum unus sit eius
+<lb ed="#L" n="93"/>adaequatus finis, scilicet divina reverentia: sed quia sub
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="94"/>uno principali fine sunt et alii fines secundarii, qui in 
+lit<lb break="no" ed="#L" n="95"/>tera numerantur.
+</p>
+               <p xml:id="TAcCaj-d1e1747-d1e148">
+                  <lb ed="#L" n="96"/>Deinde, quod quemadmodum in divino cultu 
+inveniun<lb break="no" ed="#L" n="97"/>tur tria genera divinorum: primo, sacrificia, oblationes,
+<lb ed="#L" n="98"/>decimae, vota et huiusmodi, quae directe in Dei 
+reveren<lb break="no" ed="#L" n="99"/>tiam fiunt; secundo, orationes, contemplationes, lectiones
+<lb ed="#L" n="100"/>et huiusmodi, quae ad instructionem nostram ordinantur;
+<lb ed="#L" n="101"/>tertio, sacramenta, benedictiones, sacramentalia, ieiunia,
+<lb ed="#L" n="102"/>festa et huiusmodi, quae directe consistunt in ritu instituto
+<lb ed="#L" n="103"/>a Deo, et ordinantur ad dirigendos nostros actus, ut sunt
+<pb ed="#L" n="300"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>actus regenerationis , confirmationis, ordinis, 
+matrimo<lb break="no" ed="#L" n="2"/>nii,etc.: - ita in cultu superstitioso est, primo, idololatria,
+<lb ed="#L" n="3"/>quae divinam reverentiam exhibet creaturae; est deinde
+<lb ed="#L" n="4"/>divinatio, quae tot modis instructionem a daemone 
+quae<lb break="no" ed="#L" n="5"/>rit; est denique observatio, qua tam multipliciter et 
+ope<lb break="no" ed="#L" n="6"/>rationes suas construunt, continent, laxant, et aliquas 
+crea<lb break="no" ed="#L" n="7"/>turas quandoque assumunt ad sua opera quasi 
+sacramen<lb break="no" ed="#L" n="8"/>talia quaedam,
+</p>
+               <p xml:id="TAcCaj-d1e1747-d1e190">
+                  <lb ed="#L" n="9"/>II. In responsione ad primum eiusdem secundi articuli,
+<lb ed="#L" n="10"/>adverte diligenter, tu speculative, quod licet prima fronte
+<lb ed="#L" n="11"/>appareat quod quemadmodum religio est virtus una 
+se<lb break="no" ed="#L" n="12"/>cundum speciem, eo quod actus eius adaequatus est unus,
+<lb ed="#L" n="13"/>scilicet colere Deum (quoniam in hoc actu clauditur et
+<lb ed="#L" n="14"/>divina reverentia et hominis servitus respectu Dei, ad quae
+<lb ed="#L" n="15"/>duo ordinantur omnia religionis opera, ut superius in
+<lb ed="#L" n="16"/>qu. Lxxxi, art. 2, ad 2, didicimus), ita in superstitione 
+co<lb break="no" ed="#L" n="17"/>lente creaturam una est species, cuius proprium est colere
+<lb ed="#L" n="18"/>creaturam et illam venerando sacrificiis et illi subiiciendo
+<lb ed="#L" n="19"/>hominem, et in hoc quod instrui per illam curat, et in
+<lb ed="#L" n="20"/>hoc quod signis illius se subiicit observando illa: — quia
+<lb ed="#L" n="21"/>tamen ex communibus patet quod multa ad vitiorum. 
+dis<lb break="no" ed="#L" n="22"/>tinctionem sufficiunt quae non sufficiunt ad 
+diversifican<lb break="no" ed="#L" n="23"/>dum virtutem, ut patet in materiis moralium, in quibus,
+<lb ed="#L" n="24"/>una existente virtute, duo sunt vitia; et ratio suffragatur
+<lb ed="#L" n="25"/>communis, quia ad constitutionem boni multa exiguntur,
+<lb ed="#L" n="26"/>ad malum autem quodlibet sufficit, ut in littera ex Dio-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="27"/>nysio dicitur: ideo in speciali intuitus est Auctor quod
+<lb ed="#L" n="28"/>illi tres fines, scilicet reverentia, instructio et directio, licet
+<lb ed="#L" n="29"/>non sufficiant ad distinguendam religionem, sufficiunt 
+ta<lb break="no" ed="#L" n="30"/>men ad distinguendam superstitionem. Quo fit ut 
+involu<lb break="no" ed="#L" n="31"/>tus uno malo, puta divinatione, non sit involutus altero,
+<lb ed="#L" n="32"/>puta idololatria: religionis autem virtutem nemo habeat
+<lb ed="#L" n="33"/>nisi qui integre omnibus polleat.
+</p>
+               <p xml:id="TAcCaj-d1e1747-d1e250">
+                  <lb ed="#L" n="34"/>III. In responsione ad secundum, adverte quod quia vis
+<lb ed="#L" n="35"/>argumenti stat in hoc quod sicut religio est in ordine ad
+<lb ed="#L" n="36"/>Deum, ita superstitio contraria est in ordine ad creaturam,
+<lb ed="#L" n="37"/>puta daemonem, cui cultus exhibetur; sed divinatio et 
+ob<lb break="no" ed="#L" n="38"/>servatio est in ordine ad eventus et actus nostros; ergo
+<lb ed="#L" n="39"/>non sunt superstitionis species: — ideo responsio directe
+<lb ed="#L" n="40"/>satisfacit argumento, dicendo quod divinationes et 
+obser<lb break="no" ed="#L" n="41"/>vationes inquantum daemoniacae sunt species 
+superstitio<lb break="no" ed="#L" n="42"/>nis, et non inquantum humana opera: sicut etiam sub 
+re<lb break="no" ed="#L" n="43"/>ligione comprehenduntur opera hominum inquantum 
+di<lb break="no" ed="#L" n="44"/>vina, per assumptionem alicuius divini, ut supra patuit.
+<lb ed="#L" n="45"/>Ita quod in omnibus istis salvatur ordo aliquis reverentialis
+<lb ed="#L" n="46"/>ad daemonem, invocando ipsum et subiiciendo se institutis
+<lb ed="#L" n="47"/>eius: sicut in religionis multis operibus accidit respectu
+<lb ed="#L" n="48"/>Dei, ut patet in iuramento, sacramentis et huiusmodi. Et
+<lb ed="#L" n="49"/>tu bene servabis hoc in corde tuo, ut inde postmodum
+<lb ed="#L" n="50"/>discernas in observationibus et divinationibus rationem
+<lb ed="#L" n="51"/>peccati mortalis vel venialis, ut infra declarabimus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

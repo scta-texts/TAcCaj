@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 116</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 116</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="447"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1871"><!-- TAcCajp2p2-q116" -->
+            <head xml:id="TAcCaj-d1e1871-Hd1e101">Quaestio 116</head>
+            <div xml:id="TAcCaj-d1e1871-Dd1e103"><!-- caj-p2p2-q116a1" -->
+               <head xml:id="TAcCaj-d1e1871-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1871-d1e108">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="60" type="fixed=447"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1871-d1e115">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="61"/>IN articulo primo quaestionis centesimaedecimaesextae ,
+<lb ed="#L" n="62"/>lion primo, differentiam inter contentionem et litigium
+<lb ed="#L" n="63"/>in tribus. Primo, in fine. Quia finis contentionis est 
+im<lb break="no" ed="#L" n="64"/>pugnatio veritatis: ut patet superius, qu. xxxvur; et ex
+<lb ed="#L" n="65"/>definitione Ambrosii: Contentio est impugnatio veritatis
+<lb ed="#L" n="66"/>cum confidentia clamoris. Finis autem litigii est perturbare
+<lb ed="#L" n="67"/>quietem animi: nam contristatio nihil aliud est quam 
+in<lb break="no" ed="#L" n="68"/>gerere inquietudinem animi. Et haec est per se et 
+essen<lb break="no" ed="#L" n="69"/>tialis differentia inter haec duo vitia.
+</p>
+               <p xml:id="TAcCaj-d1e1871-d1e139">
+                  <lb ed="#L" n="70"/>Secundo differunt in materia proxima. Quia contentio
+<lb ed="#L" n="71"/>est in colloquiis: litigium vero est et in colloquiis et
+<lb ed="#L" n="72"/>alis actibus ad conversationem concurrentibus; sicut et
+<lb ed="#L" n="73"/>affabilitas, cui contrariatur.
+</p>
+               <p xml:id="TAcCaj-d1e1871-d1e150">
+                  <lb ed="#L" n="74"/>Tertio, in radice. Quia contentio, ut in littera dicitur,
+<lb ed="#L" n="75"/>est ex discordia animorum: litigium vero non ex alia est
+<lb ed="#L" n="76"/>causa nisi quia molestus natura, usu vel passione quis est
+<lb ed="#L" n="77"/>alis in conversando.
+</p>
+               <p xml:id="TAcCaj-d1e1871-d1e162">
+                  <cb ed="#L" n="i"/>
+                  <lb ed="#L" n="78"/>II. Nota secundo, quod sicut contingit detrahere 
+dupli<lb break="no" ed="#L" n="79"/>citer, scilicet formaliter, hoc est cum intentione detrahendi;
+<lb ed="#L" n="80"/>et materialiter, hoc est ex loquacitate, non animo 
+detra<lb break="no" ed="#L" n="81"/>hendi: ita contingit esse aliquos litigiosos dupliciter. 
+Sci<lb break="no" ed="#L" n="82"/>licet formaliter: hoc est, cum intentione contristandi 
+pro<lb break="no" ed="#L" n="83"/>ximum opponere his quae dicuntur, aut exhibere se 
+gra<lb break="no" ed="#L" n="84"/>vem seu molestum aliis. Vel materialiter: scilicet. non
+<lb ed="#L" n="85"/>cum hac intentione, sed tamen cum effectu; ut accidit his
+<lb ed="#L" n="86"/>qui consueverunt dare agrestes responsiones, qui nesciunt
+<lb ed="#L" n="87"/>hilariter convivere et conversari cum aliis, et hoc non ex
+<lb ed="#L" n="88"/>intentione contristandi alios, sed ex complexione, vel malo
+<lb ed="#L" n="89"/>usu aut passione. Et hic, licet non sit formaliter 
+litigio<lb break="no" ed="#L" n="90"/>sus, est tamen materialiter et quoad effectum litigiosus :
+<lb ed="#L" n="91"/>quia in suis colloquiis et ex conversatione infert de facto
+<lb ed="#L" n="92"/>tristitiam aliis. Nec excusatur a peccato, quoniam 
+volun<lb break="no" ed="#L" n="93"/>tarii sunt actus isti deformes: sicut non totaliter excusatur
+<lb ed="#L" n="94"/>detrahens ex loquacitate.
+</p>
+               <p xml:id="TAcCaj-d1e1871-d1e204">
+                  <pb ed="#L" n="448"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>III. Nota tertio, pro articulo secundo, quod quia magis 
+<lb ed="#L" n="2"/>contrariatur affabilitati litigium. quam adulatio, tutius est
+<lb ed="#L" n="3"/>hominem qui vult esse virtuosus, declinare in extremum
+<lb ed="#L" n="4"/>adulationis quam litigii: hoc est, attendere ut in colloquiis
+<lb ed="#L" n="5"/>et conversatione sua magis declinet ut potius excedat in 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>placendo quam in contristando; iuxta illam regulam 
+Phi<lb break="no" ed="#L" n="7"/>losophi, in II Ethic., videlicet quod declinandum est in
+<lb ed="#L" n="8"/>vitium similius virtuti.
+</p>
+               <p xml:id="TAcCaj-d1e1871-d1e230">
+                  <lb ed="#L" n="9"/>Et haec de tota hac quaestione sat sint.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

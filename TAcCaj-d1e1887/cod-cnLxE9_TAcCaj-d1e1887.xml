@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 119</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 119</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="468"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1887"><!-- TAcCajp2p2-q119" -->
+            <head xml:id="TAcCaj-d1e1887-Hd1e101">Quaestio 119</head>
+            <div xml:id="TAcCaj-d1e1887-Dd1e103"><!-- caj-p2p2-q119a3" -->
+               <head xml:id="TAcCaj-d1e1887-Hd1e106">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1887-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67" type="fixed=467"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1887-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>IN quaestione centesimadecimanona tria nota. Primum est
+<lb ed="#L" n="69"/>ns quaestio ista mota est in. priori Libro, qu. rxxxiv,
+<lb ed="#L" n="70"/>art. 1, a7 cupiditas, pro avaritia sumpta, sit radix omnium
+<lb ed="#L" n="71"/>malorum. Ft propterea non aliter est hic in articulo 
+se<lb break="no" ed="#L" n="72"/>cundo, in responsione ad primum, discutienda.
+</p>
+               <p xml:id="TAcCaj-d1e1887-d1e131">
+                  <lb ed="#L" n="73"/>Secundum est quod prodigalitas clericorum non simplex
+<lb ed="#L" n="74"/>est prodigalitas, sed habet annexam avaritiam oppositam
+<lb ed="#L" n="75"/>iustitiae. Quoniam clericus accipit pecuniam a pauperibus,
+<lb ed="#L" n="76"/>quia pecunia Ecclesiae est pauperum, et dat quando,
+<lb ed="#L" n="77"/>cui, etc,, non oportet.
+</p>
+               <p xml:id="TAcCaj-d1e1887-d1e144">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>Tertium est quod peccata quae ex minori sensu fiunt
+<lb ed="#L" n="79"/>ab his qui vocantur simplices, ut contingit in multis 
+acti<lb break="no" ed="#L" n="80"/>bus bonarum mulierum et hominum devotorum qui non
+<lb ed="#L" n="81"/>pollent prudentia, tanto leviora sunt quanto soli 
+pruden<lb break="no" ed="#L" n="82"/>tiae opponuntur: ut in responsione ad tertium articuli
+<lb ed="#L" n="83"/>terui dicitur. Et ratio est quia servatur in istis affectus 
+se<lb break="no" ed="#L" n="84"/>cundum se bene dispositus, dum putant se non male
+<lb ed="#L" n="85"/>facere.
+</p>
+               <p xml:id="TAcCaj-d1e1887-d1e167">
+                  <lb ed="#L" n="86"/>Et haec de tota hac quaestione sufficiant.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

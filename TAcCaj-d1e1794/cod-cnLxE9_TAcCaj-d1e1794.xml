@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 101</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 101</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="368"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1794"><!-- TAcCajp2p2-q101" -->
+            <head xml:id="TAcCaj-d1e1794-Hd1e101">Quaestio 101</head>
+            <div xml:id="TAcCaj-d1e1794-Dd1e103"><!-- caj-p2p2-q101a1" -->
+               <head xml:id="TAcCaj-d1e1794-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1794-d1e108">
+                  <pb ed="#L" n="369"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=369"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e117">
+                  <lb ed="#L" n="2"/>IN articulo primo quaestionis centesimaeprimae, in 
+respon<lb break="no" ed="#L" n="3"/>Lo ad secundum, adverte quod nomen pietatis ad opera
+<lb ed="#L" n="4"/>misericordiae et Deum extensum videtur propter 
+similitu<lb break="no" ed="#L" n="5"/>dinem operum. Quia namque opera misericordiae similia
+<lb ed="#L" n="6"/>sunt operibus quae ex pietate exhibemus sanguine iunctis
+<lb ed="#L" n="7"/>ac patriae civibus et amicis; ideo opera misericordiae opera
+<lb ed="#L" n="8"/>pietatis vocata videntur, et qui illis vacant pii appellati.
+<lb ed="#L" n="9"/>Et hinc usurpatum videtur quod Deus pius dicitur, quod
+<lb ed="#L" n="10"/>pietas divina haec et illa faciat: quoniam Deus maxime
+<lb ed="#L" n="11"/>exercet misericordiae opera. Differunt autem in hoc, 
+quan<lb break="no" ed="#L" n="12"/>tum ad propositum spectat, officia pietatis ab officiis 
+mi<lb break="no" ed="#L" n="13"/>sericordiae, quod pietas id quod impendit, impendit sub
+<lb ed="#L" n="14"/>ratione debiti; misericordia autem sub ratione gratuitae
+<lb ed="#L" n="15"/>'sublevationis.
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e150">
+                  <lb ed="#L" n="16"/>IN articulis primo, secundo et tertio simul eiusdem 
+quae<lb break="no" ed="#L" n="17"/>stionis, dubium occurrit circa definitionem Tullii, et 
+pro<lb break="no" ed="#L" n="18"/>priam rationem pietatis ab Auctore assignatam. Nam 
+secun<lb break="no" ed="#L" n="19"/>dum Tullium, pietas est qua officium et cultus sanguine
+<lb ed="#L" n="20"/>iunctis, patriaeque benevolis exhibetur. Secundum vero 
+Au<lb break="no" ed="#L" n="21"/>ctorem, pietatis propria ratio formalis consistit in hoc quod
+<lb ed="#L" n="22"/>parentes et patriam ut quoddam nostri principium colimus.
+<lb ed="#L" n="23"/>$i namque in hoc ratio pietatis consistit, sequitur quod 
+pie<lb break="no" ed="#L" n="24"/>tas non sit ad filios, nec inter virum et uxorem. Et tenet
+<lb ed="#L" n="25"/>sequela: quia filiis officia non impendimus ratione 
+paren<lb break="no" ed="#L" n="26"/>tum, sed quia filii; et similiter inter virum et uxorem non
+<lb ed="#L" n="27"/>intersunt cultus et officium ratione parentum, sed suimet. Et
+<lb ed="#L" n="28"/>tamen Tullius dicit quod pietas est ad sanguine iunctos.
+<lb ed="#L" n="29"/>Constat enim et filios esse nobis sanguine iunctos; et virum
+<lb ed="#L" n="30"/>et uxorem sanguine iungi, cum sint duo in carne una.
+<lb ed="#L" n="31"/>Nonnullum quoque dubium est, quomodo pietas 
+uni<lb break="no" ed="#L" n="32"/>versaliter cultum exhibet sanguine iunctis: cum parentum
+<lb ed="#L" n="33"/>non sit colere filios, sed e converso.
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e192">
+                  <lb ed="#L" n="34"/>II. Ad primum dubium dicitur quod pietas habet plures
+<lb ed="#L" n="35"/>actus, et respicit plures personas: sed praecipuae personae
+<lb ed="#L" n="36"/>quas respicit sunt personae parentum, et principalis actus
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="37"/>pietatis est colere obsequique parentibus. Quoniam quilibet
+<lb ed="#L" n="38"/>homo, qui est subiectum virtutis pietatis, prius habet 
+pa<lb break="no" ed="#L" n="39"/>rentes quam consanguineos, quam uxorem, quam filios,
+<lb ed="#L" n="40"/>quam patriam: ex hoc enim quod a patribus generati 
+su<lb break="no" ed="#L" n="41"/>mus, reliqua habemus; statim, ut patriam, vel postquam
+<lb ed="#L" n="42"/>adulti sumus, ut uxores et filios. Ideo pietas secundum
+<lb ed="#L" n="43"/>suum principalem actum ab Auctore distincta est: assignata
+<lb ed="#L" n="44"/>scilicet ratione formali pietatis secundum principalem eius
+<lb ed="#L" n="45"/>actum, qui est reddere debitum patri et patriae ut 
+prin<lb break="no" ed="#L" n="46"/>cipio essendi. Cum quo tamen stat quod pietas habeat actus
+<lb ed="#L" n="47"/>secundarios, ordinatos ad principalem, vel annexos 
+princi<lb break="no" ed="#L" n="48"/>pali. Ordinatos quidem, ut sunt actus inter virum et uxorem :
+<lb ed="#L" n="49"/>quoniam inter coniuges est cultus et officium ad invicem
+<lb ed="#L" n="50"/>tanquam coadiutores ad conservationem consanguinitatis
+<lb ed="#L" n="51"/>utriusque quam quilibet coniugum a suis habet parentibus ;
+<lb ed="#L" n="52"/>conservatur enim propagatione filiorum utriusque 
+paren<lb break="no" ed="#L" n="53"/>tis sanguis. Et idem dicimus de filiis: quia scilicet 
+respi<lb break="no" ed="#L" n="54"/>ciuntur a pietatis virtute ut conservatores consanguinitatis
+<lb ed="#L" n="55"/>a parentibus susceptae. Et quoniam tam coniuges quam
+<lb ed="#L" n="56"/>fil secundum suasmet personales actiones et consistentias
+<lb ed="#L" n="57"/>ad adiuvandum et conservandum consanguinitatem 
+concur<lb break="no" ed="#L" n="58"/>runt, ideo secundum seipsos a pietate respiciuntur, 
+tan<lb break="no" ed="#L" n="59"/>quam secundum seipsos ordinatos ad principale quod 
+re<lb break="no" ed="#L" n="60"/>spicit pietas.
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e256">
+                  <lb ed="#L" n="61"/>III. Ad secundum vero dubium dicitur quod pietas
+<lb ed="#L" n="62"/>tam cultum quam subsidium sanguine patriaque iunctis
+<lb ed="#L" n="63"/>omnibus exhibet diversimode. Nam parentibus praecipue
+<lb ed="#L" n="64"/>cultum cum obsequio; filiis vero aliqualem cultum, dum
+<lb ed="#L" n="65"/>eos non ut servos, non ut illegitimos, etc., tractamus, et
+<lb ed="#L" n="66"/>a servis et aliis honorari volumus, et in loco honesto 
+lo<lb break="no" ed="#L" n="67"/>cum sedendi eis damus, et similia; omnibus quoque 
+sub<lb break="no" ed="#L" n="68"/>sidium aliquod praebemus ex pietate, vel conversando, vel
+<lb ed="#L" n="69"/>saltem in praeparatione animi. Dicitur enim in littera 
+se<lb break="no" ed="#L" n="70"/>cundi articuli, ad ultimum, quod tenemur ad hoc 
+secun<lb break="no" ed="#L" n="71"/>dum. facultatem et decentiam personarum: - pro loco
+<lb ed="#L" n="72"/>etiam et tempore, cum sit praeceptum affirmativum.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1794-Dd1e286"><!-- caj-p2p2-q101a4" -->
+               <head xml:id="TAcCaj-d1e1794-Hd1e289">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1794-d1e291">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="16" type="fixed=372"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e298">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>IN articulo quarto eiusdem quaestionis, in responsione ad
+<lb ed="#L" n="18"/>Toieino et tertium, nota differentiam litterae inter 
+pro<lb break="no" ed="#L" n="19"/>vocationem et inductionem ad malum. Nam si parentes
+<lb ed="#L" n="20"/>egentes filiorum aut filiarum servitiis sunt provocatores ad
+<lb ed="#L" n="21"/>malum, deserendi sunt quoad hoc: ut videlicet non 
+se<lb break="no" ed="#L" n="22"/>quantur eorum provocationes, sed quoad hoc eos odio
+<lb ed="#L" n="23"/>habeant filii, ut in responsione ad primum dicitur. - Si
+<lb ed="#L" n="24"/>vero parentes non tantum provocatores, sed inductores sunt
+<lb ed="#L" n="25"/>ad malum, tunc deserendi sunt simpliciter et absolute, et
+<lb ed="#L" n="26"/>non solum quoad hoc: ut in responsione ad tertium 
+di<lb break="no" ed="#L" n="27"/>citur.
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e327">
+                  <lb ed="#L" n="28"/>Propter quod, si pater infirmus filiam sibi servientem
+<lb ed="#L" n="29"/>nititur violare, et illa non timet se induci, quia scit suam
+<lb ed="#L" n="30"/>et intentionem et constantiam, non tenetur relinquere patris
+<lb ed="#L" n="31"/>sui servitia: quamvis, propter ipsius demerita, possit illum
+<lb ed="#L" n="32"/>relinquere, si non vult cessare a provocatione. Unde et
+<lb ed="#L" n="33"/>Ioseph non reliquit servitia domus, quamvis haberet 
+domi<lb break="no" ed="#L" n="34"/>nam suam quotidie sibi molestam, ut dicitur Gen. xxxix.
+<lb ed="#L" n="35"/>Si vero serviens videt se induci ad peccatum, relinquere
+<lb ed="#L" n="36"/>tenetur totaliter parentem: iuxta illud: Qui amat patrem
+<lb ed="#L" n="37"/>plus quam me, non est me dignus.
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e351">
+                  <lb ed="#L" n="38"/>II. In eodem quarto articulo, in responsione ad 
+quar<lb break="no" ed="#L" n="39"/>tum, dubium occurrit, an religiosus teneatur succurrere
+<lb ed="#L" n="40"/>patri non potenti sine suo servitio vivere, Et est ratio dubii
+<lb ed="#L" n="41"/>quia in littera dicitur quod non tenetur, nec debet aut
+<lb ed="#L" n="42"/>potest, nisi de praelati licentia, et servato religionis statu.
+<lb ed="#L" n="43"/>Alii autem doctores afferuntur in oppositum. Ratio autem
+<lb ed="#L" n="44"/>non apparet usquequaque clara.
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e370">
+                  <lb ed="#L" n="45"/>Ad huius evidentiam, sciendum est quod dupliciter 
+con<lb break="no" ed="#L" n="46"/>tingit patrem egere servitio filii religiosi: primo, citra 
+ex<lb break="no" ed="#L" n="47"/>tremam necessitatem; secundo, in extrema necessitate. Et
+<lb ed="#L" n="48"/>si quidem pater ita eget filio quod sine ipso extrema 
+ne<lb break="no" ed="#L" n="49"/>cessitate manifeste laboraret, tenetur filius, petita, licet non
+<lb ed="#L" n="50"/>obtenta licentia superioris, patri subvenire. Et ratio est
+<lb ed="#L" n="51"/>quia praeceptum iuris naturae et divini in extrema 
+neces<lb break="no" ed="#L" n="52"/>sitate praeeminet omni voto et vinculo. Nec solum pro
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="53"/>patre, sed pro quocumque homine in simili necessitate 
+te<lb break="no" ed="#L" n="54"/>netur quilibet. Non enim debent vota esse impeditiva 
+ope<lb break="no" ed="#L" n="55"/>rum iustitiae, Unde sicut licet furari propter extremam 
+al<lb break="no" ed="#L" n="56"/>terius necessitatem, ita licet actualem obedientiam praelato
+<lb ed="#L" n="57"/>subtrahere, et furari bona Ecclesiae, si aliter non potest
+<lb ed="#L" n="58"/>patri subveniri. - Nec oppositum sensit hic Auctor, qui
+<lb ed="#L" n="59"/>de necessitate paterna, non de necessitate humana loquitur:
+<lb ed="#L" n="60"/>hoc est, de necessariis patri a filio, et non de necessariis
+<lb ed="#L" n="61"/>absolute a quocumque homine.
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e412">
+                  <lb ed="#L" n="62"/>Si vero pater citra extremam est necessitatem, tunc 
+re<lb break="no" ed="#L" n="63"/>ligiosus tenetur adiuvare patrem salvo suo statu, et non
+<lb ed="#L" n="64"/>aliter, hoc est, salva obedientia et regulari otictivantigt sicut
+<lb ed="#L" n="65"/>filius uxoratus non tenetur patri nisi salvo statu coniugali.
+<lb ed="#L" n="66"/>Et hoc est quod in littera dicitur. Ita quod differentiam
+<lb ed="#L" n="67"/>quae ponitur in littera inter filium antequam sit religiosus,
+<lb ed="#L" n="68"/>vel post, non intelligo respectu extremae necessitatis in
+<lb ed="#L" n="69"/>patre: sed respectu cuiusque necessitatis in qua filius 
+te<lb break="no" ed="#L" n="70"/>netur operas suas patri exhibere ex praecepto pietatis. 
+Con<lb break="no" ed="#L" n="71"/>stat namque quod non exigitur necessitas extrema ad hoc,
+<lb ed="#L" n="72"/>sed sufficit necessitas habens magnam latitudinem. — Et
+<lb ed="#L" n="73"/>forte sic concordarentur doctores.
+</p>
+               <p xml:id="TAcCaj-d1e1794-d1e441">
+                  <lb ed="#L" n="74"/>Ratio igitur quae movet oppositam opinionem, facile
+<lb ed="#L" n="75"/>solvitur. Nam praeceptum de honore parentum, licet 
+ve<lb break="no" ed="#L" n="76"/>rum sit quod prius quam votum, et ex naturae iure 
+ob<lb break="no" ed="#L" n="77"/>ligat, nec est abrogabile per superveniens votum; falsum -
+<lb ed="#L" n="78"/>tamen est quod eodem modo obliget filium in quocumque
+<lb ed="#L" n="79"/>statu. Quoniam est praeceptum affirmativum, et obligat
+<lb ed="#L" n="80"/>pro tempore unumquemque prout tunc invenit illum. Non
+<lb ed="#L" n="81"/>enim eodem modo obligat filium liberum, et uxoratum:
+<lb ed="#L" n="82"/>nam uxoratus non obligatur ad actum commanendi cum
+<lb ed="#L" n="83"/>patre, quia iam est obligatus ad commanendum cum uxore.
+<lb ed="#L" n="84"/>Et sic est in proposito, quod filius liber tenetur ex hoc
+<lb ed="#L" n="85"/>praecepto ad subsidium paternum simpliciter: filius autem
+<lb ed="#L" n="86"/>religionis vinculo adstrictus tenetur ut religiosus potest.
+<lb ed="#L" n="87"/>Propterea in littera dicitur quod tenetur pium adhibere
+<lb ed="#L" n="88"/>studium, salva religione, ut patri subveniatur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

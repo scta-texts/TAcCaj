@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 118</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 118</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="459"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1882"><!-- TAcCajp2p2-q118" -->
+            <head xml:id="TAcCaj-d1e1882-Hd1e101">Quaestio 118</head>
+            <div xml:id="TAcCaj-d1e1882-Dd1e103"><!-- caj-p2p2-q118a1" -->
+               <head xml:id="TAcCaj-d1e1882-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1882-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11" type="fixed=456"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>IN articulo primo quaestionis centesimaedecimaeoctavae
+<lb ed="#L" n="13"/>dubium occurrit circa illud: Mensura divitiarum est
+<lb ed="#L" n="14"/>prout sunt necessariae ad vitam hominis secundum suam
+<lb ed="#L" n="15"/>conditionem , ita quod in excessu huius mensurae 
+consi<lb break="no" ed="#L" n="16"/>stit. peccatum avaritiae. Nam falsum videtur hoc esse.
+<lb ed="#L" n="17"/>Quia sequeretur quod nemo posset licite cumulare sibi 
+<lb ed="#L" n="18"/>pecunias ut mutet statum quem habet in maiorem. Cuius
+<lb ed="#L" n="19"/>oppositum quotidie fit, absque remorsu conscientiae et
+<lb ed="#L" n="20"/>reprehensione aliqua. - Et patet sequela. Quia si homo
+<lb ed="#L" n="21"/>non potest excedere mensuram necessariorum ad 
+condi<lb break="no" ed="#L" n="22"/>tionem suam, consequens est ut, si ad conditionem suam
+<lb ed="#L" n="23"/>abundanter sufficiunt mille, quod non possit iste cumulare
+<lb ed="#L" n="24"/>quatuor vel decem millia sine excessu mensurae 
+requisito<lb break="no" ed="#L" n="25"/>rum ad conditionem suam. Ac per hoc, non posset hac
+<lb ed="#L" n="26"/>via mutare statum sine peccato. Et sic rusticum 
+oporte<lb break="no" ed="#L" n="27"/>ret semper fore rusticum, et artificem semper artificem, et
+<lb ed="#L" n="28"/>civem semper civem: et nunquam posse emere sibi 
+domi<lb break="no" ed="#L" n="29"/>nium aliquod. Quae sunt manifeste absurda.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e159">
+                  <lb ed="#L" n="30"/>II. Ad hoc dicitur quod, cum appetitus cuiuslibet 
+in<lb break="no" ed="#L" n="31"/>strumenti in infinitum manifeste dissonet a recta ratione,
+<lb ed="#L" n="32"/>quae dictat quod quodcumque non alia ratione est bonum
+<lb ed="#L" n="33"/>nisi propter aliud, mensurate appetatur, quantum scilicet
+<lb ed="#L" n="34"/>opus est propter illum finem ( signum autem quod 
+ap<lb break="no" ed="#L" n="35"/>petitus debet esse mensuratus, est quod exterior usus 
+il<lb break="no" ed="#L" n="36"/>lius instrumenti seu medii oportet quod sit commensuratus
+<lb ed="#L" n="37"/>fini, ita quod tam excessus quam defectus ab omnibus 
+vi<lb break="no" ed="#L" n="38"/>tuperatur: ut patet in medicina respectu sanitatis, et in
+<lb ed="#L" n="39"/>excisione lignorum aut lapidum propter aliquod opus,
+<lb ed="#L" n="40"/>puta quod ponantur in angulo aut fiant laquearia, etc.;
+<lb ed="#L" n="41"/>hinc enim laudantur opifices, quod commensurata finibus
+<lb ed="#L" n="42"/>opera efficiunt): constat autem quod pecunia, et quidquid
+<lb ed="#L" n="43"/>pecuniae loco possidetur, in genere bonorum utilium 
+con<lb break="no" ed="#L" n="44"/>tinetur sic quod non nisi propter aliud expetitur, 
+posside<lb break="no" ed="#L" n="45"/>tur et expenditur: oportet ergo pecuniam et appeti et amari
+<lb ed="#L" n="46"/>et haberi mensurate, quantum scilicet opus est ad finem.
+<lb ed="#L" n="47"/>Finis autem proprius in unoquoque propter quem 
+di<lb break="no" ed="#L" n="48"/>vitiae sunt secundum rationem rectam, est propria 
+unius<lb break="no" ed="#L" n="49"/>cuiusque vita secundum suam conditionem: ita quod in
+<lb ed="#L" n="50"/>vita propria intelligatur etiam eorum vita quorum sibi cura
+<lb ed="#L" n="51"/>incumbit. Et appellatione vitae intellige non solum cibum
+<lb ed="#L" n="52"/>et potum, sed quaecumque opportuna commoda et 
+dele<lb break="no" ed="#L" n="53"/>ctabilia, salva honestate. Ultra hunc autem finem non sinit
+<lb ed="#L" n="54"/>recta ratio appeti aut haberi divitias, nisi propter alios,
+<lb ed="#L" n="55"/>puta propter liberalitatis, misericordiae aut magnificentiae
+<lb ed="#L" n="56"/>opera, et si quid est huiusmodi: ubi etiam apparet 
+men<lb break="no" ed="#L" n="57"/>sura appetitus ex fine. Unde appetere divitias in 
+infini<lb break="no" ed="#L" n="58"/>tum, etsic amare aut velle habere, a recta ratione deviat.
+<lb ed="#L" n="59"/>Et propterea negotiatio propter solum lucrum, utpote 
+in<lb break="no" ed="#L" n="60"/>finita, vituperatur a Philosopho, in I Polit.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e229">
+                  <lb ed="#L" n="61"/>III. Sunt igitur hic duo indubie vera. Primum est quod
+<lb ed="#L" n="62"/>amor pecuniae debet esse mensuratus homini, quoad se
+<lb ed="#L" n="63"/>quidem, secundum conditionem suam : quoad alios vero,
+<lb ed="#L" n="64"/>iuxta opera virtutum. Secundum est quod appetitus in 
+in<lb break="no" ed="#L" n="65"/>finitum pecuniae est illicitus, utpote a recta ratione 
+discor<lb break="no" ed="#L" n="66"/>dans. - Dubium autem restat, quid dicendum de appetitu
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="67"/>mutare volentium statum ex cumulatione pecuniae 
+super<lb break="no" ed="#L" n="68"/>fluae praesenti eius conditioni.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e252">
+                  <lb ed="#L" n="69"/>Et dicendum videtur quod conditio hominis est duplex:
+<lb ed="#L" n="70"/>una consequens speciem humanam; et altera consequens
+<lb ed="#L" n="71"/>individua. Species siquidem humana, ex eo quod praesentis
+<lb ed="#L" n="72"/>felicitatis capax est, rationi consentaneum esse constituit
+<lb ed="#L" n="73"/>ut quilibet eo usque seipsum suosque ducere conetur ut
+<lb ed="#L" n="74"/>felicitatis vitae praesentis particeps esse possit. Et quia ad
+<lb ed="#L" n="75"/>felicitatem praesentem divitiae, licet non magnae, 
+requi<lb break="no" ed="#L" n="76"/>runtur organice, ut dicitur in <ref xml:id="TAcCaj-d1e1882-Rd1e271">X .Ethic.</ref>; idcirco, absque
+<lb ed="#L" n="77"/>immoderato pecuniae amore, potest seipsum et suos 
+re<lb break="no" ed="#L" n="78"/>ducere de operum servilium mechanicorumque, necnon
+<lb ed="#L" n="79"/>negotiationum necessitate, et moderatas divitias acquirere,
+<lb ed="#L" n="80"/>quatenus felicitatis praesentis, quae secundum virtutis 
+su<lb break="no" ed="#L" n="81"/>premae exercitationem est, particeps esse possit secundum
+<lb ed="#L" n="82"/>suum modulum.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e287">
+                  <lb ed="#L" n="83"/>Singulares autem personas multas ab intrinseco donatas
+<lb ed="#L" n="84"/>conspicimus quadam sapientia, aut a natura indita aut 
+<lb ed="#L" n="85"/>exercitatione comparata seu aucta, ita quod inter homines
+<lb ed="#L" n="86"/>velut aliorum domini nati vel facti sint, quamvis d
+<lb ed="#L" n="87"/>non sint. Et quia his naturali aequitate debetur regimen
+<lb ed="#L" n="88"/>aliorum, idcirco si isti appetunt dominium, si ad hoc
+<lb ed="#L" n="89"/>cumulant pecunias ut dominium temporale emant, ut 
+cu<lb break="no" ed="#L" n="90"/>iusque decet sapientiam, a rationis rectae tramite non 
+re<lb break="no" ed="#L" n="91"/>cedunt. Et simile est iudicium de aliis virtutibus quibus
+<lb ed="#L" n="92"/>homo idoneus redditur ad mutandum statum: puta cum
+<lb ed="#L" n="93"/>quis ad fortitudinis actus praeclaros, experientia teste, in
+<lb ed="#L" n="94"/>bello conspicitur praeparatus, ut propterea dignus sit 
+prae<lb break="no" ed="#L" n="95"/>esse aliis. In omnibus enim huiusmodi mensuratur 
+appe<lb break="no" ed="#L" n="96"/>titus pecuniae ex vita hominis secundum suam 
+conditio<lb break="no" ed="#L" n="97"/>nem, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e322">
+                  <lb ed="#L" n="98"/>At si quis sufficienter dives pro naturali felicitate 
+con<lb break="no" ed="#L" n="99"/>sequenda, ex solo appetitu ascendendi et gloriae, cumulat
+<lb ed="#L" n="100"/>pecunias praesenti suae conditioni superfluas, procul dubio
+<lb ed="#L" n="101"/>immoderato fertur amore: sicut illi qui solo amore lucri
+<lb ed="#L" n="102"/>negotiantur. Utriusque namque appetitus sine fine est:
+<lb ed="#L" n="103"/>quoniam tam ascendere quam lucrari, absolute sumpta,
+<lb ed="#L" n="104"/>termino carent.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e340">
+                  <lb ed="#L" n="105"/>Et sicut non sic contingit appetentibus lucrum propter
+<lb ed="#L" n="106"/>opportunam vitam suae familiae aut necessitatem patriae,
+<lb ed="#L" n="107"/>quia mensuratur eorum appetitus ex bono oeconomico
+<lb ed="#L" n="108"/>aut politico; ita non sic accidit illis de quibus praedictum
+<lb ed="#L" n="109"/>est quod cumulant pecuniam ut habeant superiorem 
+sta<lb break="no" ed="#L" n="110"/>tum consonum suae virtuti; mensuratur quippe horum
+<lb ed="#L" n="111"/>appetitus ascendendi penes quantitatem suae virtutis. Et
+<lb ed="#L" n="112"/>propterea isti, postquam ascenderint ad gradum suae 
+vir<lb break="no" ed="#L" n="113"/>tuti consonum, puta comitatum, quiescent: et non 
+cumu<lb break="no" ed="#L" n="114"/>labunt iterum, ut ascendant ad regnum, utpote excedens
+<lb ed="#L" n="115"/>virtutem suam. Qui vero sola libidine ascendendi et 
+glo<lb break="no" ed="#L" n="116"/>riae cumulant, cum aliquid nacti fuerint dominii, iterum
+<lb ed="#L" n="117"/>cumulant, ut altiora conscendant: et sic in infinitum, - Et
+<lb ed="#L" n="118"/>per haec patet solutio obiectorum,
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e373">
+                  <lb ed="#L" n="119"/>Utrum autem hi qui illicite cumulant propter solam
+<lb ed="#L" n="120"/>libidinem ascendendi, peccent mortaliter, in art. 4, ad 2
+<lb ed="#L" n="121"/>disseretur.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1882-Dd1e383"><!-- caj-p2p2-q118a2" -->
+               <head xml:id="TAcCaj-d1e1882-Hd1e386">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1882-d1e388">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="79" type="fixed=457"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e395">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>IN articulo secundo hoc solum notandum occurrit, quod
+<lb ed="#L" n="81"/>nomine pecuniae, ut est materia avaritiae, non 
+intelligi<lb break="no" ed="#L" n="82"/>tur quidquid est pecunia comparabile: sed solummodo
+<lb ed="#L" n="83"/>quidquid habet rationem boni utilis. Ita quod, cum 
+pe<lb break="no" ed="#L" n="84"/>cunia ex sua ratione habeat rationem boni utilis ut 
+prin<lb break="no" ed="#L" n="85"/>cipale sui generis, scilicet boni utilis, ponitur obiectum
+<lb ed="#L" n="86"/>avaritiae, ducens secum totum suum genus. Cum autem
+<lb ed="#L" n="87"/>audis avari obiectum esse bonum utile tantum, memento
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="88"/>ut intelligas id quod per se est de genere bonorum utilium,
+<lb ed="#L" n="89"/>ut sunt agri, ovilia, armenta et huiusmodi. Quoniam per
+<lb ed="#L" n="90"/>accidens etiam honor et voluptas possunt spectare ad 
+uti<lb break="no" ed="#L" n="91"/>lia: scilicet ex intentione alicuius appetentis haec non 
+pro<lb break="no" ed="#L" n="92"/>pter se, sed propter lucrum. Obiecta namque et materiae
+<lb ed="#L" n="93"/>virtutum et vitiorum penes ea quae per se insunt 
+distin<lb break="no" ed="#L" n="94"/>guuntur, et non penes ea quae sunt per accidens.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1882-Dd1e435"><!-- caj-p2p2-q118a3et4" -->
+               <head xml:id="TAcCaj-d1e1882-Hd1e438">Articuli 3-4</head>
+               <p xml:id="TAcCaj-d1e1882-d1e440">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51" type="fixed=459"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e447">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>IN articulis tertio et quarto simul, nota quod avaritia ut
+<lb ed="#L" n="53"/>opponitur liberalitati, non est ex suo genere peccatum
+<lb ed="#L" n="54"/>mortale, sed ex fine: si scilicet pecunia amaretur ut 
+ulti<lb break="no" ed="#L" n="55"/>mus finis. Et ideo in littera dicitur quod tunc est 
+pecca<lb break="no" ed="#L" n="56"/>tum mortale quando praeponitur amori Dei, quod propter
+<lb ed="#L" n="57"/>eam transgredi quis non curaret praecepta Dei. Haec enim
+<lb ed="#L" n="58"/>declaratio ex communibus tacite insinuat quod ex 
+pro<lb break="no" ed="#L" n="59"/>priis avaritia ista non est peccatum mortale, sed ex 
+com<lb break="no" ed="#L" n="60"/>muni ratione qua ceteri amores bonorum tam naturalium
+<lb ed="#L" n="61"/>quam fortunae, etc., sunt mortalia peccata si excedunt 
+di<lb break="no" ed="#L" n="62"/>vinum amorem. Ex quo patet quod immoderatus 
+appe<lb break="no" ed="#L" n="63"/>titus lucri in infinitum, ut contingit negotiatoribus abso- |
+<lb ed="#L" n="64"/>lute, non est mortale peccatum ex suo genere.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e480">
+                  <lb ed="#L" n="65"/>II. In eisdem articulis dubium occurrit, an habens de
+<lb ed="#L" n="66"/>superfluo possit cogi ad dandum pauperibus. Et est ratio
+<lb ed="#L" n="67"/>dubii quia in articulo quarto, in responsione ad secundum, |
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e489">
+                  <lb ed="#L" n="68"/>dicitur quod ex debito legali tenetur habens de superfluo
+<lb ed="#L" n="69"/>dare pauperibus. Constat autem quod [ad] id ad quod
+<lb ed="#L" n="70"/>homo tenetur ex legali debito, potest homo a iudice cogi:
+<lb ed="#L" n="71"/>ut patet superius, qu. Lxxx.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e501">
+                  <lb ed="#L" n="72"/>In oppositum autem est quia nulli competit agere con- -
+<lb ed="#L" n="73"/>tra talem divitem. pro iure suo: quia nulli pauperi 
+quae<lb break="no" ed="#L" n="74"/>situm est ius super superfluis divitiis, cum non sit maior |
+<lb ed="#L" n="75"/>ratio de uno quam de alio.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e512">
+                  <lb ed="#L" n="76"/>III. Ad huius evidentiam, sciendum est quod in littera 
+<lb ed="#L" n="77"/>dicitur non solum de habente superfluum, sed etiam 
+abso<lb break="no" ed="#L" n="78"/>lute de. vidente pauperem in periculo necessitatis extremae,
+<lb ed="#L" n="79"/>quod ex legali debito tenetur erogare sua pauperibus. Et
+<lb ed="#L" n="80"/>de secundo quidem casu, hoc est ratione periculi 
+neces<lb break="no" ed="#L" n="81"/>sitatis extremae, non est difficile perspicere quod 
+interve<lb break="no" ed="#L" n="82"/>niat legale debitum. Nam tempore extremae necessitatis
+<lb ed="#L" n="83"/>omnia sunt communia: ac per hoc, bona quae alter 
+pos<lb break="no" ed="#L" n="84"/>sidet fiunt mea, si patior extremam necessitatem. Et si 
+<lb ed="#L" n="85"/>possidens non sponte vult mihi subvenire, posset iudex 
+<lb ed="#L" n="86"/>cogere. Et si haec via deficit, possum occulte, quasi per 
+<lb ed="#L" n="87"/>modum. furti, vel manifeste, quasi per viam rapinae, 
+acci<lb break="no" ed="#L" n="88"/>pere quantum mihi opus est: quoniam non accipio aliena,
+<lb ed="#L" n="89"/>sed communia negata et impossibilia aliter haberi, in 
+extre<lb break="no" ed="#L" n="90"/>ma necessitate. Apparet ergo hic quod quia extrema ne-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="91"/>cessitas facit res alterius mihi communes, quod ex debito
+<lb ed="#L" n="92"/>legali mihi debentur, et cogi potest a iudice, et in eius 
+de<lb break="no" ed="#L" n="93"/>fectu a meipso, propter necessitatis articulum.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e556">
+                  <lb ed="#L" n="94"/>Sed in primo casu, cum quis habet de superfluo 
+na<lb break="no" ed="#L" n="95"/>turae et personae, et nullus apparet in extremae 
+necessi<lb break="no" ed="#L" n="96"/>tatis periculo, non ita apparet legale debitum. Verum si
+<lb ed="#L" n="97"/>inspexerimus quod dupliciter aliquis potest a iudice 
+com<lb break="no" ed="#L" n="98"/>pelli: uno modo, propter debitum alicui certae personae,
+<lb ed="#L" n="99"/>ut si furatus quis fuerit bona alicuius, vel alias ei debitor
+<lb ed="#L" n="100"/>fuerit, ratione depositi vel mutui etc.; alio modo, ratione
+<lb ed="#L" n="101"/>debiti non alicui singulari personae, sed propter commune
+<lb ed="#L" n="102"/>bonum, ut, si quis homicidium commiserit et nullus 
+con<lb break="no" ed="#L" n="103"/>queratur, potest iudex ex officio, propter commune bonum
+<lb ed="#L" n="104"/>iustitiae servandum, punire hominem: - si hoc, inquam, 
+in<lb break="no" ed="#L" n="105"/>spexerimus, non apparebit difficile quod habens de 
+super<lb break="no" ed="#L" n="106"/>fluo nec volens sponte impertiri indigentibus, potest a 
+prin<lb break="no" ed="#L" n="107"/>cipe cogi ad subventionem indigentium: ita quod potest
+<lb ed="#L" n="108"/>princeps ex officio, ut iustitia in divitiis servetut a 
+no<lb break="no" ed="#L" n="109"/>lente superfluum naturae et personae dispensare, 
+distri<lb break="no" ed="#L" n="110"/>buere illud indigentibus, tanquam auferendo 
+dispensatio<lb break="no" ed="#L" n="111"/>nem divitiarum commissam diviti ab ipso indigno. Nam
+<lb ed="#L" n="112"/>iuxta Sanctorum doctrinam, divitiae. superfluae non sunt
+<lb ed="#L" n="113"/>diviti nisi ut dispensatori concessae a Deo, ut habeat 
+me<lb break="no" ed="#L" n="114"/>ritum bonae dispensationis. Fundatur ergo legale 
+debi<lb break="no" ed="#L" n="115"/>tum in hoc casu super ipsa divitiarum iustitia, quae cum
+<lb ed="#L" n="116"/>in genere boni utilis sint, superfluitas non dispensata sed
+<lb ed="#L" n="117"/>retenta contra utriusque utilitatem occupatur: nam et 
+con<lb break="no" ed="#L" n="118"/>tra retinentem occupatur, quia sua est ut sibi prosit 
+dis<lb break="no" ed="#L" n="119"/>pensatio; et contra indigentium utilitatem occupatur, quia
+<lb ed="#L" n="120"/>quod in eorum usum cedere debet, occupatur. Et ut 
+Ba<lb break="no" ed="#L" n="121"/>silius dixit, ipsorum indigentium est ex debito, licet non
+<lb ed="#L" n="122"/>de facto. Et ideo indigentibus fit iniuria non dispensando
+<lb ed="#L" n="123"/>superflua, Quam iniuriam princeps, qui custos iusti est,
+<lb ed="#L" n="124"/>ex officio auferre potest et debet, si constat evidenter.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e626">
+                  <lb ed="#L" n="125"/>IV. Ad obiectionem autem in oppositum dicitur quod
+<lb ed="#L" n="126"/>licet nulli determinato pauperi sit acquisitum ius ut 
+de<lb break="no" ed="#L" n="127"/>beatur sibi id quod dives habet de superfluo, quia ex 
+ar<lb break="no" ed="#L" n="128"/>bitrio divitis pendet dispensatio ut huic vel illi indigenti
+<lb ed="#L" n="129"/>det; quia tamen communi bono hominum quaesitum est
+<pb ed="#L" n="460"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ius ut quae supersunt uni dentur indigentibus, ideo 
+prin<lb break="no" ed="#L" n="2"/>ceps, cuius est curam habere de communi bono, potest
+<lb ed="#L" n="3"/>ex officio ad hoc cogere tales divites.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e650">
+                  <lb ed="#L" n="4"/>Et quia violatio legalis debiti in divitiis iustitiam violat,
+<lb ed="#L" n="5"/>non liberalitatem, ut patet ex littera; iniustitia autem
+<lb ed="#L" n="6"/>ex suo genere est peccatum mortale, utpote contra bonum
+<lb ed="#L" n="7"/>proximi, ut ex superius habitis didicimus: ideo dives
+<lb ed="#L" n="8"/>non dispensans superflua, sed cumulans ad emendum sibi
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>dominium ex sola ascendendi libidine, non solum illicite
+<lb ed="#L" n="10"/>agit propter libidinem dominandi et inordinatum amorem
+<lb ed="#L" n="11"/>pecuniae; sed mortaliter peccat contra proximorum 
+indi<lb break="no" ed="#L" n="12"/>gentiam, occupando superflua quae pauperibus debentur
+<lb ed="#L" n="13"/>ex hoc ipso quod superflua sunt, ut habes ex Basilio et
+<lb ed="#L" n="14"/>littera, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e679">
+                  <lb ed="#L" n="15"/>Et per hoc patet solutio dubii in primo articulo 
+in<lb break="no" ed="#L" n="16"/>soluti.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1882-Dd1e687"><!-- caj-p2p2-q118a5" -->
+               <head xml:id="TAcCaj-d1e1882-Hd1e690">Articulus 5</head>
+               <p xml:id="TAcCaj-d1e1882-d1e692">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19" type="fixed=461"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e699">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>IN articulo quinto, cave ne in verbis litterae erres aut 
+flu<lb break="no" ed="#L" n="21"/>ctues, legens quod <quote xml:id="TAcCaj-d1e1882-Qd1e707">privatio boni formaliter se habet in
+<lb ed="#L" n="22"/>peccato, conversio. autem ad bonum commutabile 
+mate<lb break="no" ed="#L" n="23"/>rialiter</quote>. Memento quod de peccato in genere mali sim-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="24"/>pliciter sermo est, cum comparantur inter se quod eorum
+<lb ed="#L" n="25"/>sit peius, ut hic fit. Constat autem formale peccati in 
+ge<lb break="no" ed="#L" n="26"/>nere mali simpliciter consistere in privatione: ut superius
+<lb ed="#L" n="27"/>pluries dictum est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1882-Dd1e728"><!-- caj-p2p2-q118a6per8" -->
+               <head xml:id="TAcCaj-d1e1882-Hd1e731">Articuli 6-8</head>
+               <p xml:id="TAcCaj-d1e1882-d1e733">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="83" type="fixed=463"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e740">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="84"/>IN articulis reliquis, scilicet sexto, septimo et octavo, 
+eius<lb break="no" ed="#L" n="85"/>dem quaestionis, sola responsio ad quartum ultimi 
+ar<lb break="no" ed="#L" n="86"/>ticuli tractanda occurrit, quoad quatuor. Primo, quod 
+ava<lb break="no" ed="#L" n="87"/>ritia habere dicitur species. Et hoc non sic accipiendum
+<lb ed="#L" n="88"/>videtur ut singula enumerata in littera sint diversarum 
+spe<lb break="no" ed="#L" n="89"/>cierum, nam parci et tenaces eiusdem videntur rationis,
+<lb ed="#L" n="90"/>differentes secundum magis et minus: sed quia quaedam
+<lb ed="#L" n="91"/>eorum differunt specie, ut aleatores, latrones, lenones, et
+<lb ed="#L" n="92"/>huiusmodi. Propter quod in littera non simpliciter dicitur
+<lb ed="#L" n="93"/>quod sunt species, sed quod magis sunt species quam
+<lb ed="#L" n="94"/>filiae: quia magis accedunt ad naturam specierum, 
+reci<lb break="no" ed="#L" n="95"/>piendo praedicationem avaritiae ut superioris. Et super IV
+<lb ed="#L" n="96"/>Ethic., Auctor modo haec nominat species, modo 
+no<lb break="no" ed="#L" n="97"/>minat: modos illiberalitatis.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e775">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>Secundo, quod littera videtur corrupta cum dicit: vel
+<lb ed="#L" n="99"/>quia lucratur multa cum parvo labore. Quoniam ex <ref xml:id="TAcCaj-d1e1882-Rd1e783">IV
+<lb ed="#L" n="100"/>Ethic.</ref>, unde haec recitat Auctor, non habetur haec 
+spe<lb break="no" ed="#L" n="101"/>cies, sed opposita, scilicet: quia lucratur parvum ex multo.
+<lb ed="#L" n="102"/>Ad avaritiam siquidem spectat valde laborare pro parvo
+<lb ed="#L" n="103"/>lucro: quoniam minus decet hoc, et nimiam lucri 
+cupi<lb break="no" ed="#L" n="104"/>ditatem ostendit. Unde littera corrigenda videtur ad textum .
+<lb ed="#L" n="105"/>IV Ethic., et legi: quia lucratur parum cum multo labore.
+<lb ed="#L" n="106"/>Est enim hic unus avaritiae modus.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e802">
+                  <lb ed="#L" n="107"/>Tertio, quod primum membrum turpis lucri, scilicet,
+<lb ed="#L" n="108"/>vilia et servilia opera exercendo per illiberales operationes,
+<lb ed="#L" n="109"/>licet non habeat exemplum in littera, non propterea est
+<lb ed="#L" n="110"/>obscurum: quia in promptu exempla sunt avarorum qui,
+<lb ed="#L" n="111"/>cives divites cum sint, non verentur vilibus et servilibus
+<pb ed="#L" n="464"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>se occupare operibus propter lucrum; ut patet in his qui
+<lb ed="#L" n="2"/>sequuntur iumenta, laborant manibus, etc., ut pleniores
+<lb ed="#L" n="3"/>fructus percipiant pecorum aut agrorum, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1882-d1e827">
+                  <lb ed="#L" n="4"/>Quarto, quod cum in littera aleatores ponuntur sub
+<lb ed="#L" n="5"/>iniusto lucro, tam hic quam in <ref xml:id="TAcCaj-d1e1882-Rd1e833">IV Ethic.</ref>, ab Auctore,
+<lb ed="#L" n="6"/>licet non ab Aristotele; intellige hoc dictum de aleatoribus
+<lb ed="#L" n="7"/>in casibus in quibus tenentur ad restitutionem, de quibus
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>supra dictum est. Nam alias aleatores non iniusti, sed
+<lb ed="#L" n="9"/>avari sunt, lucrari quaerentes ab amicis, quibus liberalitas
+<lb ed="#L" n="10"/>dandum censet. Inde enim turpes sunt quod cupiunt 
+lu<lb break="no" ed="#L" n="11"/>crari unde non debent, scilicet ex amicorum bonis: 
+quo<lb break="no" ed="#L" n="12"/>niam deberent cupere ut illa conserventur, non ut 
+dimi<lb break="no" ed="#L" n="13"/>nuantur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

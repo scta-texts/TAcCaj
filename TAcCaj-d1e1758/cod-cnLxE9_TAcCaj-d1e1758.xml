@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 94</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 94</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="305"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1758"><!-- TAcCajp2p2-q94" -->
+            <head xml:id="TAcCaj-d1e1758-Hd1e101">Quaestio 94</head>
+            <div xml:id="TAcCaj-d1e1758-Dd1e103"><!-- caj-p2p2-q94a1" -->
+               <head xml:id="TAcCaj-d1e1758-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1758-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="85" type="fixed=305"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="86"/>IN articulo primo quaestionis nonagesimaequartae , nota
+<lb ed="#L" n="87"/>Tus pro claritate litterae. Primo, quod cum, circa 
+prin<lb break="no" ed="#L" n="88"/>cipium corporis articuli, dicitur: ZZuiusmodi autem cultus
+<lb ed="#L" n="89"/>divinus, sicut creaturae insensibili  exhibebatur, etc., ita
+<lb ed="#L" n="90"/>etiam e converso, etc., sensus est quod sicut, exhibendo 
+sen<lb break="no" ed="#L" n="91"/>sibilia sacrificia itisecilili creaturae, ascendebatur a 
+sensi<lb break="no" ed="#L" n="92"/>bilibus ad insensibilia; ita, cultum exhibendo idolis, 
+descen<lb break="no" ed="#L" n="93"/>debatur ab insensibilibus rebus repraesentatis vel occultatis
+<lb ed="#L" n="94"/>ad sensibilia idola; ita ut idolis ipsis cultus exhiberetur,
+<lb ed="#L" n="95"/>diversimode tamen, ut in littera subiungitur.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e141">
+                  <lb ed="#L" n="96"/>Secundo, quod cum narratur opinio de animato mundo,
+<lb ed="#L" n="97"/>ly sicut homo dicitur sapiens propter animam, non propter
+<lb ed="#L" n="98"/>corpus, referendum est ad ly Quidam vero existimabant to-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="99"/>tum mundum esse unum Deum, non propter corporalem
+<lb ed="#L" n="100"/>substantiam, sed propter animam. lta quod sensus est quod
+<lb ed="#L" n="101"/>sicut dicimus, 77omo est sapiens, ita illi dicebant, Mundus
+<lb ed="#L" n="102"/>est Deus: utrumque enim dicitur de toto ratione partis,
+<lb ed="#L" n="103"/>scilicet animae. Et quia mundum dicebant Deum, quaelibet
+<lb ed="#L" n="104"/>pars mundi erat pars Dei, quamvis non deitatis: sicut 
+quae<lb break="no" ed="#L" n="105"/>libet pars hominis est pars sapientis, quamvis non 
+sapien<lb break="no" ed="#L" n="106"/>tiae. Ideo cuilibet parti mundi cultum exhibebant, tanquam
+<lb ed="#L" n="107"/>parti totius subiecti deitatis: quemadmodum aliquis 
+vene<lb break="no" ed="#L" n="108"/>ratur manus viri sapientis, tanquam partem totius subiecti
+<lb ed="#L" n="109"/>animae sapientis.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e176">
+                  <lb ed="#L" n="110"/>II. In responsione ad primum eiusdem articuli dubium
+<lb ed="#L" n="111"/>occurrit, an Christianus committens actum idololatriae,
+<pb ed="#L" n="306"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>salva integre interiori fide, incurrat poenas censurarum 
+ec<lb break="no" ed="#L" n="2"/>clesiasticarum in foro conscientiae, ita quod in veritate, et
+<lb ed="#L" n="3"/>non solum in foro exteriori sit excommunicatus. Et est
+<lb ed="#L" n="4"/>ratio dubii quia censurae sunt latae contra haereticos. In
+<lb ed="#L" n="5"/>casu autem proposito nulla est infidelitas in anima 
+secun<lb break="no" ed="#L" n="6"/>dum veritatem. Ergo non incurruntur in foro conscientiae
+<lb ed="#L" n="7"/>huiusmodi censurae. - Et confirmatur. Quia sicut dicens
+<lb ed="#L" n="8"/>non ex intentione infideli, sed ioco, verba haeretica, puta
+<lb ed="#L" n="9"/>quod mortuo corpore est mortua etiam anima, non est 
+ex<lb break="no" ed="#L" n="10"/>communicatus: ita dicens facto cultus, et non ex 
+inten<lb break="no" ed="#L" n="11"/>tione, idolum esse Deum, non est excommunicatus.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e212">
+                  <lb ed="#L" n="12"/>Pro parte autem affirmativa est quia talis est vere 
+apo<lb break="no" ed="#L" n="13"/>stata: ac per hoc, excommunicatus.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e219">
+                  <lb ed="#L" n="14"/>III. Ad evidentiam huius, sciendum est quod dupliciter 
+<lb ed="#L" n="15"/>contingit aliquem actum humanum perniciosum exercere.
+<lb ed="#L" n="16"/>Scilicet, ex animo affecto illo vitio: ut si quis ex avaritia |
+<lb ed="#L" n="17"/>furetur, ex luxuria fornicetur, ex infidelitate neget Christum,
+<lb ed="#L" n="18"/>ex interiori idololatria offerat extra sacrificium idolis.
+<lb ed="#L" n="19"/>de istis nulla est quaestio.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e235">
+                  <lb ed="#L" n="20"/>Alio modo contingit fieri ex animo refutante secundum
+<lb ed="#L" n="21"/>se illud crimen, sed propter alium affectum consentiente
+<lb ed="#L" n="22"/>in actum exteriorem perniciosum: ut si mulier exosam 
+<lb ed="#L" n="23"/>habens libidinem timore permittat se cognosci; et similiter
+<lb ed="#L" n="24"/>homo exosum habens furtum, compulsus. a domino, 
+con<lb break="no" ed="#L" n="25"/>sentit in exteriorem actum furti; et similiter retinens 
+per<lb break="no" ed="#L" n="26"/>fectam intus fidem, timore victus, consentit in exteriorem
+<lb ed="#L" n="27"/>actum negandi fidem, ut fecit Petrus; aut despiciens idola 
+<lb ed="#L" n="28"/>in mente, sua timore, ut Marcellinus, tura exterius offerat
+<lb ed="#L" n="29"/>idolis; aut amore populari idem faciat, ut Seneca, Et 
+<lb ed="#L" n="30"/>de huiusmodi est quaestio praesens. Et iam ex datis 
+exem<lb break="no" ed="#L" n="31"/>plis potest patere solutio quaestionis: quod quemadmodum
+<lb ed="#L" n="32"/>non excusatur in foro conscientiae a furto, fornicatione, 
+<lb ed="#L" n="33"/>negatione fidei, et idololatria, qui ex alieno affectu hos
+<lb ed="#L" n="34"/>actus perniciosos exterius committit, quia voluntarie 
+com<lb break="no" ed="#L" n="35"/>mittit actus exteriores talium vitiorum; ita non excusatur
+<lb ed="#L" n="36"/>in foro conscientiae ab ecclesiasticis censuris latis contra
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="37"/>committentes talia crimina. Ita quod si esset lata 
+excom<lb break="no" ed="#L" n="38"/>municationis sententia contra fures, ille qui in solum 
+ex<lb break="no" ed="#L" n="39"/>teriorem actum furti consentiendo furatus est, procul dubio
+<lb ed="#L" n="40"/>esset excommunicatus in foro conscientiae, quia voluntarie
+<lb ed="#L" n="41"/>furtum commisit. Similiter Christianus ille qui in solum
+<lb ed="#L" n="42"/>exteriorem actum negandi fidem consensit, est in foro 
+con<lb break="no" ed="#L" n="43"/>scientiae. excommunicatus: quia voluntarie consensit in
+<lb ed="#L" n="44"/>actum infidelitatis, et illum exercuit negando Christum
+<lb ed="#L" n="45"/>verbo, ut Petrus fecit. Et similiter qui solum actum 
+ido<lb break="no" ed="#L" n="46"/>lolatriae exterius commisit, excommunicatus est in foro
+<lb ed="#L" n="47"/>conscientiae, quia actum infidelitatis et apostasiae 
+volun<lb break="no" ed="#L" n="48"/>tarie exercuit: est enim idololatria ex proprio genere 
+in<lb break="no" ed="#L" n="49"/>fidelitatis protestatio, ut in. hac littera dicitur. Et omnium
+<lb ed="#L" n="50"/>horum et similium communis ratio est quia iste in foro
+<lb ed="#L" n="51"/>conscientiae est idololatra, fur, etc. Non enim solum dicitur:
+<lb ed="#L" n="52"/>in foro conscientiae fur aut idololatra qui ex affectu furti
+<lb ed="#L" n="53"/>aut idololatriae furatur aut idola colit, sed etiam qui 
+vo<lb break="no" ed="#L" n="54"/>luntarie exercet exteriorem actum furti aut idololatriae.
+<lb ed="#L" n="55"/>Concurrunt enim tunc ad hanc denominationem et actus
+<lb ed="#L" n="56"/>exterior et actus interior: quamvis actus interior videatur
+<lb ed="#L" n="57"/>quasi extraneus ab exteriori.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e322">
+                  <lb ed="#L" n="58"/>IV. Et per hoc patet responsio ad primam obiectionem
+<lb ed="#L" n="59"/>in oppositum, dicendo quod hic est infidelitas exterior
+<lb ed="#L" n="60"/>voluntaria. Et quia actus voluntatis quo consentit in actum
+<lb ed="#L" n="61"/>exteriorem ad eandem speciem spectat in qua est actus
+<lb ed="#L" n="62"/>exterior, ideo in hoc dicto, scilicet, infidelitas exterior 
+vo<lb break="no" ed="#L" n="63"/>luntaria, includitur interior voluntatis actus infidelitatis. Ac
+<lb ed="#L" n="64"/>per hoc, voluntarie negans Christum solo verbo, non 
+so<lb break="no" ed="#L" n="65"/>lum extra, sed etiam intus est quodammodo infidelie, bed
+<lb ed="#L" n="66"/>vis absolute non sit intus infidelis.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e344">
+                  <lb ed="#L" n="67"/>Ad secundum dicitur quod dicens, cognoscendo quod
+<lb ed="#L" n="68"/>dicit, verba contra fidem serio, procul dubio est excom- —-
+<lb ed="#L" n="69"/>municatus, ut dictum est. Dude autem ioco 
+excommu<lb break="no" ed="#L" n="70"/>nicatus non est, quia non dicit illa verba ut sunt verba
+<lb ed="#L" n="71"/>infidelitatis: gravissime tamen peccat.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1758-Dd1e358"><!-- caj-p2p2-q94a2et3" -->
+               <head xml:id="TAcCaj-d1e1758-Hd1e361">Articuli 2-3</head>
+               <p xml:id="TAcCaj-d1e1758-d1e363">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47" type="fixed=308"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e370">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="48"/>In articulis secundo et tertio simul quaestionis eiusdem
+<lb ed="#L" n="49"/>nonagesimaequartae, dubia duo occurrunt. Alterum, de
+<lb ed="#L" n="50"/>comparatione idololatriae exterioris tantum voluntariae ad
+<lb ed="#L" n="51"/>infidelitatem. — Alterum, de comparatione idololatriae ad
+<lb ed="#L" n="52"/>omnia alia crimina,
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e386">
+                  <lb ed="#L" n="53"/>Est autem ratio primi dubii quia videtur quod 
+infide<lb break="no" ed="#L" n="54"/>litas interior sit peccatum gravius quam mendacium 
+per<lb break="no" ed="#L" n="55"/>niciosum quo quis non ex animo colit idola, ut Seneca
+<lb ed="#L" n="56"/>aut Marcellinus. — In oppositum autem est auctoritas 
+Au<lb break="no" ed="#L" n="57"/>gustini, in littera secundi articuli allata, dicentis de Seneca
+<lb ed="#L" n="58"/>quod eo damnabilius colebat idola, quo illa quae 
+menda<lb break="no" ed="#L" n="59"/>citer agebat sic ageret ut cum populo veraciter agere
+<lb ed="#L" n="60"/>existimaretur. Et in littera tertii articuli, in responsione ad
+<lb ed="#L" n="61"/>primum, quod infidelitatem gravius esse peccatum 
+argue<lb break="no" ed="#L" n="62"/>bat, dicitur, defendendo contrarium: Si vero sit exterior
+<lb ed="#L" n="63"/>tantum idololatria absque interiori infidelitate, additur
+<lb ed="#L" n="64"/>culpa falsitatis , quasi culpa falsitatis aequetur infidelitati
+<lb ed="#L" n="65"/>interiori.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e417">
+                  <lb ed="#L" n="66"/>II. Secundi autem dubii ratio est quia odium Dei ex
+<lb ed="#L" n="67"/>genere suo est gravius peccatum quam idololatria. Quia
+<lb ed="#L" n="68"/>directe opponitur amori Dei in seipso: idololatria autem
+<lb ed="#L" n="69"/>opponitur exteriori cultui ipsius Dei. Et odium Dei tollit,
+<lb ed="#L" n="70"/>quantum ex se est, divinum esse: idololatria minuit. Odium
+<lb ed="#L" n="71"/>Dei annullat Deum: idololatria aequalem illi dat. Unde
+<lb ed="#L" n="72"/>ex genere suo odium Dei gravius est quocumque alio. —
+<lb ed="#L" n="73"/>Et augetur dubium: quia Auctor in littera, in primo 
+ar<lb break="no" ed="#L" n="74"/>gumento tertii articuli, tangit hanc difficultatem de odio,
+<lb ed="#L" n="75"/>infidelitate et desperatione, et solvendo pertransit.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e442">
+                  <lb ed="#L" n="76"/>In oppositum autem est auctoritas litterae.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e447">
+                  <lb ed="#L" n="77"/>III. Ad haec dubia retrogrado ordine dicendum est, quia
+<lb ed="#L" n="78"/>primum est de specie, secundum de genere, ut doctrina
+<lb ed="#L" n="79"/>ordinata sit a magis communi ad minus commune. 
+Scien<lb break="no" ed="#L" n="80"/>dum est igitur quod comparatio hoc in loco fit inter 
+pec<lb break="no" ed="#L" n="81"/>cata secundum sua genera: ut ex pluribus locis tertii 
+ar<lb break="no" ed="#L" n="82"/>ticuli apparet. Et quoniam diversorum generum peccata
+<lb ed="#L" n="83"/>contingit se habere ex additione, ut scilicet unum 
+inclu<lb break="no" ed="#L" n="84"/>datur in altero quamvis non e converso; idcirco quando
+<lb ed="#L" n="85"/>comparatio fit inter peccatum ex additione se habens ad
+<lb ed="#L" n="86"/>aliud, et reliquum secundum se solum, facilis est 
+compa<lb break="no" ed="#L" n="87"/>ratio: quoniam constat quod includens est gravius incluso ;
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>nec propter hoc movenda esset solemnis quaestio. Sic 
+au<lb break="no" ed="#L" n="89"/>tem est in proposito. Quia idololatria secundum suum
+<lb ed="#L" n="90"/>genus claudit in se infidelitatem et odium Dei: quoniam
+<lb ed="#L" n="91"/>utriusque protestatio est. Colens namque idola, quantum
+<lb ed="#L" n="92"/>in se est, tollit a Deo suam singularem excellentiam qua
+<lb ed="#L" n="93"/>solus est Deus, haec est autem sua deitas, quod ad odium
+<lb ed="#L" n="94"/>Dei spectat: et negat huiusmodi singularitatem, quod ad
+<lb ed="#L" n="95"/>infidelitatem spectat. Ac per hoc, gravius peccatum illis.
+<lb ed="#L" n="96"/>secundum se est. Et propterea Auctor, qui non movit 
+quae<lb break="no" ed="#L" n="97"/>stionem de idololatria in respectu ad ista, sed universaliter
+<lb ed="#L" n="98"/>in respectu ad omnia peccata, pertransivit facile in 
+respon<lb break="no" ed="#L" n="99"/>sione ad primum tertii articuli materiam istam, tanquam
+<lb ed="#L" n="100"/>claram. :
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e504">
+                  <lb ed="#L" n="101"/>Ad obiectionem autem in oppositum dicitur quod aliud
+<lb ed="#L" n="102"/>est comparare peccata secundum sua genera: et aliud 
+com<lb break="no" ed="#L" n="103"/>parare peccatum unius generis ad summitatem alterius 
+ge<lb break="no" ed="#L" n="104"/>neris, ut in argumento fit comparando idololatriam ad
+<lb ed="#L" n="105"/>summum odium Dei, puta quo quis vellet Deum totaliter
+<lb ed="#L" n="106"/>non esse. Huic enim summo oporteret e regione ponere
+<lb ed="#L" n="107"/>aliud summum, puta idololatriam ex tali odio. Et sic 
+ido<lb break="no" ed="#L" n="108"/>lolatria inveniretur gravior.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e524">
+                  <lb ed="#L" n="109"/>IV. Ad primum autem dubium dicitur: quia 
+idolo<lb break="no" ed="#L" n="110"/>latria tantum exterior est etiam protestatio infidelitatis et
+<lb ed="#L" n="111"/>odii Dei, ideo retinet gravitatem sui generis, ac per hoc
+<lb ed="#L" n="112"/>est gravior secundum suum genus infidelitate et odio Dei.
+<lb ed="#L" n="113"/>Et includit, praeter sui generis gravitatem, gravitatem 
+men<lb break="no" ed="#L" n="114"/>dacii perniciosi. Et propterea ab Augustino damnabilior 
+di<lb break="no" ed="#L" n="115"/>citur, et ab Auctore sustinetur. Et non dicitur in littera
+<lb ed="#L" n="116"/>quod tale mendacium adaequetur aut excedat infidelitatem
+<lb ed="#L" n="117"/>interiorem: sed, ut dictum est, declaratur quod 
+idolola<lb break="no" ed="#L" n="118"/>triae exteriori secundum se conveniat, scilicet quod 
+prae<lb break="no" ed="#L" n="119"/>supponat infidelitatem interius. Ac per hoc, etiam si interior
+<lb ed="#L" n="120"/>deest infidelitas, exterior tamen idololatria [gravitatem] quam
+<lb ed="#L" n="121"/>ex proprio genere, ex hoc quod est interioris infidelitatis
+<lb ed="#L" n="122"/>protestatio, habet, non amittit.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e557">
+                  <lb ed="#L" n="123"/>Cum his tamen stat quod ex parte peccantis gravius
+<lb ed="#L" n="124"/>peccatum sit deliberare intus negare fidem Christi, et intus
+<lb ed="#L" n="125"/>odio habere Deum, quam voluntarie extra tantum idola
+<lb ed="#L" n="126"/>colere. Quoniam in peccatis intus maior deordinatio ipsius
+<lb ed="#L" n="127"/>peccantis inveniretur,
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1758-Dd1e571"><!-- caj-p2p2-q94a4" -->
+               <head xml:id="TAcCaj-d1e1758-Hd1e574">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1758-d1e576">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9" type="fixed=310"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e583">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>IN articulo quarto eiusdem nonagesimaequartae quaestionis
+<lb ed="#L" n="11"/>pei occurrit, quo pacto verificetur quod omnes dii
+<lb ed="#L" n="12"/>gentium daemonia: et tamen, licet colerent multos deos,
+<lb ed="#L" n="13"/>colebant etiam unum summum Deum, de quo non potest
+<lb ed="#L" n="14"/>dici quod sit daemon, quia est verus Deus. Rursus, 
+cole<lb break="no" ed="#L" n="15"/>bant motores coelorum, quos constat non esse daemones.
+<lb ed="#L" n="16"/>Quomodo igitur omnes dii gentium daemonia?
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e603">
+                  <lb ed="#L" n="17"/>Ad hoc dicitur dupliciter. Primo, ut in littera dicitur,
+<lb ed="#L" n="18"/>quod daemonia erant causae omnis cultus idololatriae. Et
+<lb ed="#L" n="19"/>propterea omnes dii gentium erant daemonia causaliter ,
+<lb ed="#L" n="20"/>licet non essentialiter.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e614">
+                  <lb ed="#L" n="21"/>Secundo dicitur quod omnes dii gentium erant etiam
+<lb ed="#L" n="22"/>essentialiter aut participative daemonia, inquantum erant
+<lb ed="#L" n="23"/>dii gentium. Quoniam non venerabantur secundum id quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="24"/>in veritate erant, sed secundum id quod. non erant, hoc
+<lb ed="#L" n="25"/>est secundum deitatem, cum non essent dii, nisi unus. Qui
+<lb ed="#L" n="26"/>non adorabatur etiam secundum id quod erat, sed 
+secun<lb break="no" ed="#L" n="27"/>dum id quod ipsi de eo concipiebant. Ac per hoc, non
+<lb ed="#L" n="28"/>adorabant ipsum Deum secundum se, sed id quod ipsi
+<lb ed="#L" n="29"/>vocabant Deum, quod non est verus Deus. Et sic omnes
+<lb ed="#L" n="30"/>dii gentium aut erant daemonia, aut figmenta daemoniaca,
+<lb ed="#L" n="31"/>quae participative daemonia erant et dicuntur.
+</p>
+               <p xml:id="TAcCaj-d1e1758-d1e644">
+                  <lb ed="#L" n="32"/>II. In responsione ad secundum, cum legis idololatriam
+<lb ed="#L" n="33"/>exclusam per virtutem Christi in sexta aetate, non 
+intel<lb break="no" ed="#L" n="34"/>ligas quod hoc sit pro omni parte sextae aetatis perfecte:
+<lb ed="#L" n="35"/>sed quoniam ex magna parte exclusa est, et excludentur
+<lb ed="#L" n="36"/>reliquiae in eadem aetate.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

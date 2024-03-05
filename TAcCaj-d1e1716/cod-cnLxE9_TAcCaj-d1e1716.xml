@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 86</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 86</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="224"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1716"><!-- TAcCajp2p2-q86" -->
+            <head xml:id="TAcCaj-d1e1716-Hd1e101">Quaestio 86</head>
+            <div xml:id="TAcCaj-d1e1716-Dd1e103"><!-- caj-p2p2-q86a1" -->
+               <head xml:id="TAcCaj-d1e1716-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1716-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7" type="fixed=221"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>IN articulo primo quaestionis octogesimaesextae, in 
+re<lb break="no" ed="#L" n="9"/>sponsione ad primum, gravis occurrit quaestio, quo pacto
+<lb ed="#L" n="10"/>salvatur differentia inter caeremonialia et iudicialia 
+prae<lb break="no" ed="#L" n="11"/>cepta legis veteris, si licite potest et debet modo observari
+<lb ed="#L" n="12"/>hoc caeremoniale mandatum, Exod. xxu: Non apparebis in
+<lb ed="#L" n="13"/>conspectu meo vacuus. Differentia siquidem assignata in
+<lb ed="#L" n="14"/>praecedenti Libro, quae etiam in qu. seq., art. r, 
+repli<lb break="no" ed="#L" n="15"/>catur, est quod iudicialia possunt nunc servari si princeps
+<lb ed="#L" n="16"/>ea statuat, caeremonialia autem non. Ex quo dubitatur sic.
+<lb ed="#L" n="17"/>Cum commune sit utrisque praeceptis quod non licet ea
+<lb ed="#L" n="18"/>observare tanquam viva, hoc est tanquam obligantia ex 
+au<lb break="no" ed="#L" n="19"/>ctoritate veteris legis, quia hoc esset evacuare fidem Christi,
+<lb ed="#L" n="20"/>qui legis auctoritatem, ad praefinitum tempus datam, 
+ter<lb break="no" ed="#L" n="21"/>minavit; differentia ista consistit in hoc quod iudicialia,
+<lb ed="#L" n="22"/>quoad ipsam substantiam operum, licet observare si nova
+<lb ed="#L" n="23"/>statuantur-auctoritate: caeremonialia vero non licet nova
+<lb ed="#L" n="24"/>auctoritate statuere. Alioquin, membra divisionis non contra
+<lb ed="#L" n="25"/>se invicem ponerentur. Et si sic intelligitur, sequitur quod
+<lb ed="#L" n="26"/>praeceptum de oblationibus non licitum est renovare aut |
+<lb ed="#L" n="27"/>servare. - Cuius contrarium in littera hic dicitur, et ab É
+c<lb break="no" ed="#L" n="28"/>clesia observatur.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e165">
+                  <lb ed="#L" n="29"/>Ad hoc dicitur quod differentia inter caeremonialia et
+<lb ed="#L" n="30"/>iudicialia non est intelligenda quoad substantiam operum
+<lb ed="#L" n="31"/>absolute, sed secundum eandem rationem formalem: hoc
+<lb ed="#L" n="32"/>est quod licitum est iudicialia olim in lege facere iudicialia
+<lb ed="#L" n="33"/>in civitate vel regno; sed non est licitum caeremonialia
+<lb ed="#L" n="34"/>olim in lege facere caeremonialia in Ecclesia Dei. Sic enim
+<lb ed="#L" n="35"/>intellecta differentia ista ex opposito membra optime 
+dis<lb break="no" ed="#L" n="36"/>tincta formaliter salvat. Quoad substantiam namque operis
+<lb ed="#L" n="37"/>licitum est id quod erat caeremoniale facere: ut patet si
+<lb ed="#L" n="38"/>quis se causa sanitatis circumcideret.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e189">
+                  <lb ed="#L" n="39"/>II Et licet sensus iste sit verus et intentus, ex eo 
+ta<lb break="no" ed="#L" n="40"/>men non habetur solutio motae difficultatis de 
+oblationi<lb break="no" ed="#L" n="41"/>bus. Quoniam oblationes inter caeremonias erant, ut hinc
+<lb ed="#L" n="42"/>et ex praecedenti Libro, qu. cr, art. 4, ad ult, habes, et
+<lb ed="#L" n="43"/>nunc inter caeremonialia continentur: quoniam Deo 
+offe<lb break="no" ed="#L" n="44"/>runtur in protestationem subiectionis nostrae, et ipsa 
+ob<lb break="no" ed="#L" n="45"/>latio cultus est Dei exterior. Si ergo non licet olim 
+cae<lb break="no" ed="#L" n="46"/>remonialia nunc ut caeremonialia exercere, quomodo licitae
+<lb ed="#L" n="47"/>sunt oblationum .caeremoniae videndum restat.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e212">
+                  <lb ed="#L" n="48"/>Si quis autem diligenter inspiciat rationem quare 
+cae<lb break="no" ed="#L" n="49"/>remonialia sunt mortifera, et Ecclesiae consuetudinem, 
+vi<lb break="no" ed="#L" n="50"/>debit quod non est una omnium caeremonialium ratio,
+<lb ed="#L" n="51"/>et distinguet inter ea, atque inveniet quaedam posse 
+insti<lb break="no" ed="#L" n="52"/>tui caeremonialia quae etiam olim erant, sicut de 
+iudicia<lb break="no" ed="#L" n="53"/>libus constat, quaedam autem non. Caeremonialium enim
+<lb ed="#L" n="54"/>quaedam continent in se figuram Christi futuri: ut 
+sacri<lb break="no" ed="#L" n="55"/>ficia et sacramenta. Et haec assumere in caeremonias nihil
+<lb ed="#L" n="56"/>aliud est quam profiteri Christum adhuc non venisse, sed
+<lb ed="#L" n="57"/>venturum: ut Augustinus, Contra Faustum, et Auctor in
+<lb ed="#L" n="58"/>praecedenti Libro, qu. crmr, art. ult., dixerunt. Propter
+<lb ed="#L" n="59"/>quod sine peccato mortali servari modo nequeunt. - 
+Quae<lb break="no" ed="#L" n="60"/>dam vero ad divinam reverentiam tantummodo spectant,
+<lb ed="#L" n="61"/>nihil implicantes de Christo venturo; aut statu populi 
+He<lb break="no" ed="#L" n="62"/>braei expectantis Christum, quemadmodum observatio 
+sab<lb break="no" ed="#L" n="63"/>bati contineret. Et eorum observantiam Ecclesia potest
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>sibi assumere in caeremonias, quia cessat in his ratio quare
+<lb ed="#L" n="65"/>sint mortifera. Et sub hoc genere continetur caeremonia
+<lb ed="#L" n="66"/>oblationum.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e258">
+                  <lb ed="#L" n="67"/>Attestatur autem huic distinctioni Ecclesiae auctoritas.
+<lb ed="#L" n="68"/>Quoniam oblationes thuris et huiusmodi odoriferorum, et
+<lb ed="#L" n="69"/>ablutionem manuum, et panem azymum assumpsit in 
+caere<lb break="no" ed="#L" n="70"/>moniam; venerationem quoque templi post partum a 
+mu<lb break="no" ed="#L" n="71"/>lieribus fieri non improbat, Extra, de Purificat. post part.,
+<lb ed="#L" n="72"/>cap. unico: quae in veteri lege omnia ad caeremonialia
+<lb ed="#L" n="73"/>pertinent.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e276">
+                  <lb ed="#L" n="74"/>Attestatur etiam his auctoritas Sanctorum ac Doctorum,
+<lb ed="#L" n="75"/>in has duas rationes resolventes peccatum observandi 
+le<lb break="no" ed="#L" n="76"/>galia: scilicet vel tanquam ex lege veteri ordinata, sic enim
+<lb ed="#L" n="77"/>omnia sunt mortifera, utpote protestantia legem non esse
+<lb ed="#L" n="78"/>per Christum adimpletam; vel quia continent Christum
+<lb ed="#L" n="79"/>futurum, quod est etiam contra fidei veram professionem.
+<lb ed="#L" n="80"/>Et propterea illa quae significant, non futura per Christum
+<lb ed="#L" n="81"/>venturum, sed quae semper fieri aut haberi debent, ut 
+thu<lb break="no" ed="#L" n="82"/>rificatio, ablutio et azyma, quae significant devotionem,
+<lb ed="#L" n="83"/>munditiam, sinceritatem ac veritatem; aut simplicem 
+reve<lb break="no" ed="#L" n="84"/>rentiam, ut purificatio post partum quantum ad 
+abstinen<lb break="no" ed="#L" n="85"/>tiam ingressus ecclesiae, et oblationes; licite fieri possunt,
+<lb ed="#L" n="86"/>non ut legis caeremoniae, sed ut ab Ecclesia sunt et fiunt. —
+<lb ed="#L" n="87"/>Haec autem esse de mente Auctoris invenies in III Sent.,
+<lb ed="#L" n="88"/>dist. xxxvii, art. 5, qu* 3; et in IV Sent., tam dist. r, qu. n,
+<lb ed="#L" n="89"/>art. 5, qu* r, quam dist. xr, qu. rr, art. 2, qu* 3*; et in
+<lb ed="#L" n="90"/>Tertia Parte, qu. rxxxr, art. 5.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e315">
+                  <lb ed="#L" n="91"/>Et sic salvatur dicta differentia inter iudicialia et 
+caeremo<lb break="no" ed="#L" n="92"/>nialia: quod iudicialia omnia possunt assumi ; caeremonialia
+<lb ed="#L" n="93"/>vero nec omnia proprie nec principalia, sed quaedam 
+tan<lb break="no" ed="#L" n="94"/>tum communia et secundaria assumi possunt.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e326">
+                  <lb ed="#L" n="95"/>III. In responsione ad tertium eiusdem articuli, vide
+<lb ed="#L" n="96"/>quod non ad rem, sed ad apparentiam respicit ratio dicens
+<lb ed="#L" n="97"/>quare sacerdos non debet privare sacramento negantem
+<lb ed="#L" n="98"/>debitas oblationes, ne scilicet videatur pro sacramento 
+exi<lb break="no" ed="#L" n="99"/>gere. Oportet enim sanctos ab his qui foris sunt 
+testimo<lb break="no" ed="#L" n="100"/>nium habere. Si tamen negaret puniendo peccatorem,
+<lb ed="#L" n="101"/>non es$et secundum veritatem simoniacus. Usurparet 
+ta<lb break="no" ed="#L" n="102"/>men sibi superioris iurisdictionem, ad quem spectat 
+pri<lb break="no" ed="#L" n="103"/>vatio sacramenti pro hac causa.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e348">
+                  <lb ed="#L" n="104"/>Sed tunc insurgit dubium: Quid faciet sacerdos in tali
+<lb ed="#L" n="105"/>casu? Si ministrat sacramentum existenti in peccato 
+mor<lb break="no" ed="#L" n="106"/>tali, peccat. Si non ministrat, peccat. Erit ergo perplexus.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e358">
+                  <lb ed="#L" n="107"/>Ad hoc dicitur quod sacerdos debet caritative monere
+<lb ed="#L" n="108"/>hominem non reddentem debitas oblationes ut saltem sit
+<lb ed="#L" n="109"/>paratus consulere conscientiae suae iuxta boni viri iustum
+<lb ed="#L" n="110"/>arbitrium. Et si quidem consenserit, potest illi, iam in bono
+<lb ed="#L" n="111"/>statu per hoc existenti, ministrare sacramenta. Si non 
+con<lb break="no" ed="#L" n="112"/>senserit, protestari coram aliis debet quod non propterea
+<lb ed="#L" n="113"/>quia ad eum pervenire debent oblationes, sed quia ille
+<lb ed="#L" n="114"/>non est paratus conscientiae suae consulere, negat ei 
+sa<lb break="no" ed="#L" n="115"/>cramenta, donec superior consultus provideat. Et sic debet
+<lb ed="#L" n="116"/>denuntiare superiori: et interim, non tanquam iudex, sed
+<lb ed="#L" n="117"/>tanquam devitans participare in peccato mortali cum illo,
+<lb ed="#L" n="118"/>negare sacramenta illi Non remanet ergo perplexus: nec
+<lb ed="#L" n="119"/>oportet eum usurpare sibi superioris potestatem.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1716-Dd1e390"><!-- caj-p2p2-q86a3" -->
+               <head xml:id="TAcCaj-d1e1716-Hd1e393">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1716-d1e395">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="63" type="fixed=223"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e402">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="64"/>IN articulo tertio eiusdem quaestionis, omisso secundo,
+<lb ed="#L" n="65"/>«Leeds, in responsione ad tertium, quod triplex ratio
+<lb ed="#L" n="66"/>illicitae oblationis animalis caeci aut claudi sic distinguitur
+<lb ed="#L" n="67"/>quod prima penes improportionem oblatae rei ad 
+sacrifi<lb break="no" ed="#L" n="68"/>cium; secunda penes hoc quod res ipsa contemptibilis 
+con<lb break="no" ed="#L" n="69"/>temptibilem redderet divinum cultum; tertia penes voti 
+vin<lb break="no" ed="#L" n="70"/>culum attenditur. Propter primam namque non licet 
+vi<lb break="no" ed="#L" n="71"/>num acetosum aut farinam quasi corruptam offerre pro
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="72"/>sacrificio Eucharistiae: quoniam immaculato sacrificio sola
+<lb ed="#L" n="73"/>immaculata materia proportionata est. Propter secundam,
+<lb ed="#L" n="74"/>vestes concubinarum non debent, ubi sunt cognitae, in
+<lb ed="#L" n="75"/>sacras transferri vestes. Propter tertiam, qui vovit 
+vitu<lb break="no" ed="#L" n="76"/>lum non satisfacit si infirmum offert: quia votum 
+intelligi<lb break="no" ed="#L" n="77"/>tur de vitulo in bono statu. Ubi ergo qualem habet rem
+<lb ed="#L" n="78"/>Deo quis offert, et nihil horum inconvenientium sequitur,
+<lb ed="#L" n="79"/>bene facit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1716-Dd1e445"><!-- caj-p2p2-q86a4" -->
+               <head xml:id="TAcCaj-d1e1716-Hd1e448">Articulus 4</head>
+               <p xml:id="TAcCaj-d1e1716-d1e450">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="71" type="fixed=224"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e457">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="72"/>In articulo quarto eiusdem quaestionis octogesimaesextae
+<lb ed="#L" n="73"/>dubium occurrit circa illud, quod pertinet ad ius 
+natu<lb break="no" ed="#L" n="74"/>rale ut homo ex rebus sibi datis a Deo aliquid exhibeat
+<lb ed="#L" n="75"/>ad eius honorem. Quoniam, cum de rebus exterioribus sit
+<lb ed="#L" n="76"/>sermo, aut Auctor intendit quod praeter res quae in 
+sa<lb break="no" ed="#L" n="77"/>crificium offeruntur, adhuc ratio naturalis dictat alias esse
+<lb ed="#L" n="78"/>Deo offerendas: aut replicat id quod de sacrificii exterioris
+<lb ed="#L" n="79"/>oblatione dixit. Si primum intendit, oportet hoc super
+<lb ed="#L" n="80"/>aliqua ratione fundari. Dicet enim quispiam quod sat est
+<lb ed="#L" n="81"/>rationi naturali quod aliquo sensibili sacrificio Deum 
+ho<lb break="no" ed="#L" n="82"/>noremus. Offerre autem aliter quam in sacrificio, vel in
+<lb ed="#L" n="83"/>ordine ad sacrificium (ut pro altari et huiusmodi quae ad 
+sa<lb break="no" ed="#L" n="84"/>crificii oblationem ordinantur), nulla ratione apparet: cum
+<lb ed="#L" n="85"/>nullus inde appareat Deo honor. Sublata namque 
+mini<lb break="no" ed="#L" n="86"/>strorum Dei ratione, quae honoris ratio restat ut Deo 
+pri<lb break="no" ed="#L" n="87"/>mitias frugum offeramus? Nam ex quo non sacrificantur,
+<lb ed="#L" n="88"/>sed per modum simplicis oblationis exhibentur, dicendum
+<lb ed="#L" n="89"/>erit Deo: Suscipe has fruges, et relinquendae erunt: quod
+<lb ed="#L" n="90"/>videtur ridiculum. — Si vero creditur replicare quod de
+<lb ed="#L" n="91"/>sacrificii oblatione dixerat, sequitur quod non infert 
+inten<lb break="no" ed="#L" n="92"/>tum. Quoniam non infert quod oblationes sint de iure 
+na<lb break="no" ed="#L" n="93"/>turae, sed quod sacrificia tantum: quod non oportebat 
+ite<lb break="no" ed="#L" n="94"/>rare, Nec erat quaesitum de sacrificio: sed de primitiis et
+<lb ed="#L" n="95"/>oblationibus.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e514">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="96"/>Ad hoc dicitur quod procul dubio Auctor intendit de
+<lb ed="#L" n="97"/>oblationibus ut distinguuntur contra sacrificia: ut ipsa 
+dis<lb break="no" ed="#L" n="98"/>tinctiio quaestionum et articulorum testatur. Videtur 
+au<lb break="no" ed="#L" n="99"/>tem haec esse differentia inter dictamen naturalis rationis
+<lb ed="#L" n="100"/>ad sacrificium et oblationes, quod ad sacrificium naturalis
+<lb ed="#L" n="101"/>ratio, bene fulta veritate naturali, dictat quasi absolute ad
+<lb ed="#L" n="102"/>Deum honorandum: ad oblationes vero dictat quasi ex
+<lb ed="#L" n="103"/>suppositione, hoc est, supposito quod haec offerre sit in
+<lb ed="#L" n="104"/>honorem Dei. Ita quod dictamen rationis naturalis ad 
+sa<lb break="no" ed="#L" n="105"/>crificium dictat ipsum sacrificium esse honorem Dei: in
+<lb ed="#L" n="106"/>oblationibus vero, supposito quod sint in honorem Dei,
+<lb ed="#L" n="107"/>dictat aliquid esse ex rebus a Deo nobis collatis ipsi 
+offe<lb break="no" ed="#L" n="108"/>rendum. Esse autem huiusmodi oblationes in honorern Dei
+<lb ed="#L" n="109"/>supponit ministros divini cultus dispensatores huiusmodi
+<lb ed="#L" n="110"/>oblationum, coram quibus fiat huiusmodi professio 
+rece<lb break="no" ed="#L" n="111"/>ptarum rerum a Deo. Propter quod a principio sola 
+sa<lb break="no" ed="#L" n="112"/>crificia fuisse videntur, ut Abel et Cain oblationes 
+testan<lb break="no" ed="#L" n="113"/>tur: uterque enim per modum sacrificii sua offerebat.
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e558">
+                  <lb ed="#L" n="114"/>II. In responsione ad primum eiusdem articuli, adverte
+<lb ed="#L" n="115"/>quod Auctor implicite etiam hoc in loco distinguit 
+caere<lb break="no" ed="#L" n="116"/>monialia in caeremonias proprie, tacito altero membro,
+<lb ed="#L" n="117"/>quod erat in caeremonias communiter. Et vult quod 
+cae<lb break="no" ed="#L" n="118"/>remoniae proprie sunt illae de quibus dicitur quod non
+<lb ed="#L" n="119"/>possunt sine peccato servari, quia sunt in signum futuri.
+<pb ed="#L" n="225"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Secus autem est de caeremoniis communiter: possunt  
+<lb ed="#L" n="2"/>enim, ut praediximus, haec assumi et constitui ab 
+Ec<lb break="no" ed="#L" n="3"/>clesia; ut primit fecit ; dee yeub; caeremonialibus  
+<lb ed="#L" n="4"/>praeceptis cadere non est dubium, cum in Dei honorem
+<lb ed="#L" n="5"/>immediate exhiberentur; et ipsa exhibitio nonnullus est
+<lb ed="#L" n="6"/>cultus Dei
+</p>
+               <p xml:id="TAcCaj-d1e1716-d1e592">
+                  <lb ed="#L" n="7"/>In responsione ad ultimum, adverte quod primitiarum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>exhibitio habet in se duo: ipsam rem dandam, et modum
+<lb ed="#L" n="9"/>dandi. Si consideretur res data, sic cadit sub obligatione
+<lb ed="#L" n="10"/>praecepti statuentis quod primitiae dentur. Si vero 
+consi<lb break="no" ed="#L" n="11"/>deretur modus dandi, quia scilicet datur per modum 
+ob<lb break="no" ed="#L" n="12"/>lationis, quae est spontanea, sic habet quod non sit certa
+<lb ed="#L" n="13"/>quantitas primitiarum obligata ex lege, sed videtur 
+com<lb break="no" ed="#L" n="14"/>muni arbitrio offerentiium pensanda a etc.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

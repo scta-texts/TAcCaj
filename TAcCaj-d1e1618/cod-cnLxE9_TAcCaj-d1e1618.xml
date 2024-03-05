@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 67</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 67</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="96"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1618"><!-- TAcCajp2p2-q67" -->
+            <head xml:id="TAcCaj-d1e1618-Hd1e101">Quaestio 67</head>
+            <div xml:id="TAcCaj-d1e1618-Dd1e103"><!-- caj-p2p2-q67a1" -->
+               <head xml:id="TAcCaj-d1e1618-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1618-d1e108">
+                  <pb ed="#L" n="97"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=97"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e117">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo primo quaestionis sexagesimaeseptimae, circa 
+<lb ed="#L" n="3"/>responsionem ad secundum, dubium triplex occurrit, 
+pro<lb break="no" ed="#L" n="4"/>pter id. quod dicitur, quod Leo Papa subiecit se iudicio
+<lb ed="#L" n="5"/>Imperatoris. Primum est, qua et quali potestate Imperator
+<lb ed="#L" n="6"/>iudicare poterat Papam in casu posito, scilicet cum Papa
+<lb ed="#L" n="7"/>se illius iudicio subiecit. Et est ratio dubii quia aut 
+au<lb break="no" ed="#L" n="8"/>ctoritate Papae sibi concessa, aut alia. Non Papae. Tum
+<lb ed="#L" n="9"/>quia sic non haberet vim coactivam ipsius Papae: cum
+<lb ed="#L" n="10"/>nemo cogatur a seipso. Tum quia Papa non potest dare
+<lb ed="#L" n="11"/>potestatem maiorem sua, ac per hoc, non potest 
+consti<lb break="no" ed="#L" n="12"/>tuere aliquem qui sit superior Papa: et consequenter omnis
+<lb ed="#L" n="13"/>wm auctoritate a Papa accepta, remanet subditus Papae,
+<lb ed="#L" n="14"/>t non iudex aut superior illo fit per hoc. - Non alia.
+<lb ed="#L" n="15"/>Quia nec ordinaria Imperatoris: cum illa sit infra 
+pote<lb break="no" ed="#L" n="16"/>statem Papae, nec se ad spiritualia extendat. Nec aliunde
+<lb ed="#L" n="17"/>habita: quia non apparet unde.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e156">
+                  <lb ed="#L" n="18"/>II. Secundum dubium est, an Papa possit se subiicere
+<lb ed="#L" n="19"/>in omnibus ad se spectantibus iudicio alicuius aut aliquo- |
+<lb ed="#L" n="20"/>rum; an in aliquibus tantum. Et est ratio dubii quia Au- |
+<lb ed="#L" n="21"/>ctor hic indistincte dicit quod potest se subiicere. Et in
+<ref xml:id="TAcCaj-d1e1618-Rd1e166">Decretis, II, qu. vu, cap. Nos si, Leo IV</ref>, de quo est sermo,
+<lb ed="#L" n="22"/>subiicit se iudicio Imperatoris in criminalibus, scilicet in
+<lb ed="#L" n="23"/>crimine iniustitiae, et universaliter in omnibus quae essent
+<lb ed="#L" n="24"/>discutienda. :
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e176">
+                  <lb ed="#L" n="25"/>In oppositum autem est quorundam sententia dicentium
+<lb ed="#L" n="26"/>conclusionem s. <ref xml:id="TAcCaj-d1e1618-Rd1e182">Thomae in IV Sent., dist. xix</ref>, et <name xml:id="TAcCaj-d1e1618-Nd1e184">Alberti
+<lb ed="#L" n="27"/>Magni</name>, et <name xml:id="TAcCaj-d1e1618-Nd1e189">s. Bonaventurae</name>, et <name xml:id="TAcCaj-d1e1618-Nd1e192">Richardi de Mediavilla</name>,
+<lb ed="#L" n="28"/>esse quod Papa non potest se subiicere in personalibus
+<lb ed="#L" n="29"/>seu criminalibus alicui in foro iudiciali.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e200">
+                  <lb ed="#L" n="30"/>III. Tertium dubium est, an Papa subiiciens se alteri
+<lb ed="#L" n="31"/>in foro iudiciali in his in quibus potest se subiicere, sic
+<lb ed="#L" n="32"/>se subiicere intelligatur ut spontanea a principio subiectio
+<lb ed="#L" n="33"/>transeat in necessitatem. Et est ratio dubii quia, si non
+<lb ed="#L" n="34"/>transit in necessitatem , sed sit semper in libertate eius
+<lb ed="#L" n="35"/>parere et non parere iudicanti, sequitur quod non fuerit
+<lb ed="#L" n="36"/>in veritate subditus ipse quoad hoc; et quod iudex non
+<lb ed="#L" n="37"/>fuerit in veritate iudex, utpote non habens vim coactivam,
+<lb ed="#L" n="38"/>quae, ut in littera patet, est necessaria iudici. — Si-vero.
+<lb ed="#L" n="39"/>transit in necessitatem, sequitur quod potestas Papae non
+<lb ed="#L" n="40"/>sit maior potestate illius iudicis. Et tenet sequela: quia si
+<lb ed="#L" n="41"/>remaneret potestas Papae maior illa, sicut aliis, posset 
+re<lb break="no" ed="#L" n="42"/>vocare illam et derogare illi, sicut aliis inferioribus 
+pote<lb break="no" ed="#L" n="43"/>statibus, et eripere et liberare seipsum ab illa; ac per hoc,
+<lb ed="#L" n="44"/>jon transisset in necessitatem, sed in sua remaneret 
+po<lb break="no" ed="#L" n="45"/>testate parere et non parere, tollere et non tollere 
+pote<lb break="no" ed="#L" n="46"/>statem illam et gesta per illam.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e239">
+                  <lb ed="#L" n="47"/>IV. Ad primum dubium dicitur quod cum potestas
+<lb ed="#L" n="48"/>iudicis, ut in littera dicitur, sit aut ordinaria aut per 
+com<lb break="no" ed="#L" n="49"/>missionem; et in proposito constet quod iudex non possit
+<lb ed="#L" n="50"/>ordinaria potestate iudicare Papam: consequens est quod
+<lb ed="#L" n="51"/>potestas ista per commissionem est accepta. Et quia nullus
+<lb ed="#L" n="52"/>alter dat hanc potestatem nisi ipsemet Papa sponte se 
+sub<lb break="no" ed="#L" n="53"/>liciens, sequitur quod potestas ista est per commissionem
+<lb ed="#L" n="54"/>a Papa. Et quia Papa non potest dare potestatem 
+maio<lb break="no" ed="#L" n="55"/>rem sua, ut patet; nec aequalem suae, quia oportet 
+po<lb break="no" ed="#L" n="56"/>testatem datam a Papa dependere ab ipso ut effectum a
+<lb ed="#L" n="57"/>causa, ita quod oppositum implicat contradictionem (esset
+<lb ed="#L" n="58"/>enim a Papa, et non esset a Papa, ut patet), et constat
+<lb ed="#L" n="59"/>quod potestas dependens ab alia potestate est minor illa
+<lb ed="#L" n="60"/>a qua dependet: consequens est quod potestas huiusmodi 
+<lb ed="#L" n="61"/>iudicis et est a Papa, et est minor potestate Papae.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e274">
+                  <lb ed="#L" n="62"/>Ad utramque autem obiectionem in contrarium, scilicet
+<lb ed="#L" n="63"/>quia sequeretur quod non haberet vim coactivam, et quod |
+<lb ed="#L" n="64"/>non esset superior ipse iudex, una et eadem responsione |
+<lb ed="#L" n="65"/>dicitur quod haec contingunt dupliciter: scilicet 
+simplici<lb break="no" ed="#L" n="66"/>ter, vel secundum quid. Et quod iudex huiusmodi non est
+<lb ed="#L" n="67"/>simpliciter superior Papa, sed est secundum quid superior
+<lb ed="#L" n="68"/>eo, quantum scilicet ad hanc sententiam. Et similiter 
+di<lb break="no" ed="#L" n="69"/>ctus iudex non habet vim coactivam simpliciter respectu
+<lb ed="#L" n="70"/>Papae, sed habet coactivam secundum quid respectu 
+eius<lb break="no" ed="#L" n="71"/>dem, quantum scilicet spectat ad hanc sententiam: sicut
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="72"/>arbitri habent vim coactivam quantum ad id quod eorum
+<lb ed="#L" n="73"/>arbitrio creditum est.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e305">
+                  <lb ed="#L" n="74"/>V. Ad secundum dubium dicitur quod et Papam posse
+<lb ed="#L" n="75"/>se subiicere in foro iudiciali in quibusdam, ex hac 
+aucto<lb break="no" ed="#L" n="76"/>ritate litterae constat; et ex allegato textu Decretorum, II,
+<lb ed="#L" n="77"/>qu. vit, Nos si incompetenter, ubi Papa manifeste subdidit
+<lb ed="#L" n="78"/>iudicio nuntiorum Imperatoris se de propriis actionibus,
+<lb ed="#L" n="79"/>an iuste vel iniuste etc., ut clare patet ibi. Et Papam non
+<lb ed="#L" n="80"/>posse se-subiicere in foro iudiciali alicuius iudicio in 
+qui<lb break="no" ed="#L" n="81"/>busdam, constat etiam ex <ref xml:id="TAcCaj-d1e1618-Rd1e324">Auctore in IV Sent., dist. xix,
+<lb ed="#L" n="82"/>qu. r, art. 3, qu. ult., ad 3</ref>, ubi dicit: <quote xml:id="TAcCaj-d1e1618-Qd1e329">Sicut nullus potest
+<lb ed="#L" n="83"/>in seipsum sententiam. dare excommunicationis, ita nec
+<lb ed="#L" n="84"/>alteri committere se excommunicare</quote>. Et eiusdem 
+senten<lb break="no" ed="#L" n="85"/>tiae est; <ref xml:id="TAcCaj-d1e1618-Rd1e339">
+                     <name xml:id="TAcCaj-d1e1618-Nd1e341">Richardus</name>, in. Quarto, dist. xvn, art. 5, qu. x,
+<lb ed="#L" n="86"/>ad 2</ref>; et <ref xml:id="TAcCaj-d1e1618-Rd1e346">
+                     <name xml:id="TAcCaj-d1e1618-Nd1e348">Petrus de Palude</name>, in eiusdem dist. qu. u.</ref> Quare
+<lb ed="#L" n="87"/>autem in quibusdam sic, in quibusdam non; et quae sunt
+<lb ed="#L" n="88"/>in quibus potest, quae autem in quibus non potest se 
+sub<lb break="no" ed="#L" n="89"/>licere, videndum restat. Et si diligenter perspectum fuerit,
+<lb ed="#L" n="90"/>apparebit quod in omnibus quae Papa potest per seipsum
+<lb ed="#L" n="91"/>iudicare, potest se alteri subiicere: et quod in nullo potest
+<lb ed="#L" n="92"/>se alteri subiicere quod per seipsum iudicare non potest.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e365">
+                  <lb ed="#L" n="93"/>Manifestatur autem quod dicimus, primo, ex ratione.
+<lb ed="#L" n="94"/>Quia constat quod omnia quae pertinent ad potestatem 
+iu<lb break="no" ed="#L" n="95"/>risdictionis possunt alteri committi: et ad nihil potest se
+<lb ed="#L" n="96"/>extendere potestas delegata quod non claudatur sub obiecto
+<lb ed="#L" n="97"/>potestatis committentis. - Deinde ex communiter 
+acciden<lb break="no" ed="#L" n="98"/>tibus et dictis doctorum. Nam ex eo quod non potest se
+<lb ed="#L" n="99"/>subiicere alicui in aliquo. quod non potest per seipsum,
+<lb ed="#L" n="100"/>sequitur quod non possit committere alicui quod ipsum
+<lb ed="#L" n="101"/>possit excommunicare, deponere, suspendere et huiusmodi :
+<lb ed="#L" n="102"/>haec namque non potest per seipsum facere. Ex eo vero
+<lb ed="#L" n="103"/>quod causas inter Sedem Apostolicam et quemcumque
+<lb ed="#L" n="104"/>alium potest per seipsum iudicare, potest etiam per alium
+<lb ed="#L" n="105"/>iudicare. Et rursus ex eo quod causas iniuriae inter 
+se<lb break="no" ed="#L" n="106"/>ipsum et alios potest per seipsum iudicare, ut patet cum
+<lb ed="#L" n="107"/>quis appellat ab iniusto evidenter gravamine ab ipso Papa
+<lb ed="#L" n="108"/>sibi illato; consequens est quod possit in istis alteri 
+com<lb break="no" ed="#L" n="109"/>mittendo iudicium se subiicere.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e404">
+                  <lb ed="#L" n="110"/>Advertendum tamen perspicacius hoc in loco est quod
+<lb ed="#L" n="111"/>quia iustitia, cuius actus est iudicium, non.est ad se, sed
+<lb ed="#L" n="112"/>ad alterum; inter haec duo genera causarum haec est 
+dif<lb break="no" ed="#L" n="113"/>ferentia, quod in causis quae vertuntur inter Cameram
+<lb ed="#L" n="114"/>Apostolicam et alios, Papa est iudex causae ex utroque
+<lb ed="#L" n="115"/>extremo, fta quod ligat vel solvit utramque partem: 
+quo<lb break="no" ed="#L" n="116"/>niam: Camera Apostolica est velut una pars distincta a Papa,
+<lb ed="#L" n="117"/>sicut fiscus distinguitur a principe. Et propterea si 
+com<lb break="no" ed="#L" n="118"/>mittit alteri tale iudicium, eodem modo fiet sententia 
+utrin<lb break="no" ed="#L" n="119"/>que habens plene rationem iustitiae, In causis autem quae
+<lb ed="#L" n="120"/>vertuntur inter personam Papae et alios, puta si Papa 
+ra<lb break="no" ed="#L" n="121"/>puit, infamavit, occidit, et huiusmodi; Papa est iudex, ex
+<lb ed="#L" n="122"/>parte personae suae, non secundum plenam rationem 
+iu<lb break="no" ed="#L" n="123"/>stitiae, sed diminute: quia non potest damnare personam
+<lb ed="#L" n="124"/>suam punitive, sed emendative ad restituendum laeso quod
+<lb ed="#L" n="125"/>sibi tenetur. Et. quemadmodum hoc potest et deberet per
+<lb ed="#L" n="126"/>seipsum iudicare, ita potest in hoc alterius iudicio se 
+sub<lb break="no" ed="#L" n="127"/>mittere. Et hoc est quod in dicto cap. Nos si 
+incompe<lb break="no" ed="#L" n="128"/>tenter Papa, se submittendo Imperatori, dicit, dum ait
+<lb ed="#L" n="129"/>quod, si iniuste egimus, cuncta volumus vestro emendare
+<lb ed="#L" n="130"/>iudicio.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e453">
+                  <lb ed="#L" n="131"/>Et secundum hoc, videtur nulla esse differentia inter 
+di<lb break="no" ed="#L" n="132"/>centes quod Papa potest se submittere alteri in criminalibus,
+<lb ed="#L" n="133"/>et negantes hoc. Quoniam, ut patet ex dictis, est aliquo 
+mo<lb break="no" ed="#L" n="134"/>do verum, et aliquo modo falsum: et propterea utrumque
+<lb ed="#L" n="135"/>extremum in medio salvari potest, — Patet etiam nullam esse
+<lb ed="#L" n="136"/>contrarietatem inter doctrinam Auctoris hic et in IV Sent.;
+<lb ed="#L" n="137"/>sed utramque esse veram quoad diversa, ut declaratum est.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e471">
+                  <lb ed="#L" n="138"/>VI. Ad tertium dubium dicitur quod necessitas est 
+du<lb break="no" ed="#L" n="139"/>plex: iustitiae, et potentiae. Et vocatur necessitas iustitiae,
+<lb ed="#L" n="140"/>qua non potest aliter fieri sine violatione iustitiae: 
+neces<lb break="no" ed="#L" n="141"/>sitas vero potentiae, qua non potest aliter fieri ex defectu
+<lb ed="#L" n="142"/>iurisdictionis. Si de necessitate iustitiae est sermo, dicitur
+<pb ed="#L" n="98"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quod transit in necessitatem iustitiae, ita quod sententia
+<lb ed="#L" n="2"/>iliius iudicis. iusta habet vim coactivam ad parendum, sic
+<lb ed="#L" n="3"/>quod, non parendo, iniustitiae reus est Papa. Et haec vis
+<lb ed="#L" n="4"/>sufficit iudicis superioritati et auctoritati. — Si autem est
+<lb ed="#L" n="5"/>sermo de necessitate potentiae, sic dicitur quod ex causa
+<lb ed="#L" n="6"/>rationabili Papa posset revocare huiusmodi iudices et 
+com<lb break="no" ed="#L" n="7"/>missiones, sicut potuit concedere. Unde hodie iura 
+con<lb break="no" ed="#L" n="8"/>cessa. Imperatori de Romana Ecclesia in. dist. LXIII, cap.
+<lb ed="#L" n="9"/>Hadrianus, et cap. In synodo, cessant. Non tamen deberet
+<lb ed="#L" n="10"/>Papa in propriis causis iudices datos sine urgenti causa
+<lb ed="#L" n="11"/>revocare aut mutare, propter scandalum. Si: tamen faceret,
+<lb ed="#L" n="12"/>factum teneret: sicut revocando inique iudices sliesum
+<lb ed="#L" n="13"/>causarum male facit, factum tamen valet.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e517">
+                  <lb ed="#L" n="14"/>Et ex his patet solutio ad obiecta. Nam quia transit
+<lb ed="#L" n="15"/>in necessitatem iustitiae, salvatur superioritas et vis 
+coa<lb break="no" ed="#L" n="16"/>ctiva in iudice. Quia vero non transit in necessitatem 
+po<lb break="no" ed="#L" n="17"/>tentiae, ideo. Papa remanet superior simpliciter, et potest
+<lb ed="#L" n="18"/>ex causa rationabili et urgente revocare et mutare, atque
+<lb ed="#L" n="19"/>aliter satisfacere laesis.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e533">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="20"/>VII. In eadem responsione, pro quanto dicitur quod
+<lb ed="#L" n="21"/>Christus sponte se subdidit Pilato, adverte quod non 
+in<lb break="no" ed="#L" n="22"/>telligitur quod Christus, secundum quod homo Rex regum,
+<lb ed="#L" n="23"/>commiserit Pilato potestatem supra se: quoniam Christus,
+<lb ed="#L" n="24"/>secundum quod homo, non administravit regnum mundi
+<lb ed="#L" n="25"/>ante resurrectionem ; ideo dixit: Regnum meum non est
+<lb ed="#L" n="26"/>de hoc mundo. Sed quia Pilato praesidenti in Iudaea
+<lb ed="#L" n="27"/>nomine Romani imperii Christus Dominus .se exhibuit
+<lb ed="#L" n="28"/>sicut unum de subditis, nec Pilatus peccavit, iudicando
+<lb ed="#L" n="29"/>Christum, peccato usurpati iudicii, sicut iudicans non sibi
+<lb ed="#L" n="30"/>subditum: quamvis peccaverit peccato iniqui iudicii 
+da<lb break="no" ed="#L" n="31"/>mnans innocentem, dicente ipsomet: Ego nullam causam
+<lb ed="#L" n="32"/>invenio in eo,
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e566">
+                  <lb ed="#L" n="33"/>In responsione ad tertium eiusdem articuli, nota quod
+<lb ed="#L" n="34"/>Auctor loquitur de exemptorum subiectione in communi
+<lb ed="#L" n="35"/>et secundum iura communia. Secus enim est secundum
+<lb ed="#L" n="36"/>iura privilegiorum, quibus concessum est multis exemptis
+<lb ed="#L" n="37"/>quod nec ratione rei, delicti aut contractus, ubicumque res,
+<lb ed="#L" n="38"/>delictum aut contractus fuerit, etc.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1618-Dd1e583"><!-- caj-p2p2-q67a2" -->
+               <head xml:id="TAcCaj-d1e1618-Hd1e586">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1618-d1e588">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19" type="fixed=99"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e595">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>In articulo secundo eiusdem sexagesimaeseptimae 
+quae<lb break="no" ed="#L" n="21"/>stionis dubium occurrit multorum de conclusione huius
+<lb ed="#L" n="22"/>articuli dubitantium; vel dicentium eam esse falsam, et 
+pec<lb break="no" ed="#L" n="23"/>care mortaliter iudicantem, secundum allegata et probata,
+<lb ed="#L" n="24"/>contra veritatem quam novit ut privata persona. Et licet
+<lb ed="#L" n="25"/>rationes eorum coincidant cum istis quas Auctor in littera
+<lb ed="#L" n="26"/>solvit, pro claritate tamen maiori tractandae sunt, ut 
+ma<lb break="no" ed="#L" n="27"/>teria et littera clarior fiat. Afferunt igitur quinque ad suum
+<lb ed="#L" n="28"/>propositum ostendendum.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e619">
+                  <lb ed="#L" n="29"/>Primo, quia iudicare contra veritatem est contra ius
+<lb ed="#L" n="30"/>naturale; et contra ius divinum, Exod. xxm: Non 
+susci<lb break="no" ed="#L" n="31"/>pies vocem mendacii; neque in iudicio plurimorum  
+ac<lb break="no" ed="#L" n="32"/>quiesces sententiae ut a veritate devies; et subditur: 
+In<lb break="no" ed="#L" n="33"/>nocentem et iustum non occides.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e632">
+                  <lb ed="#L" n="34"/>Secundo, quia Extra, de Regulis Iuris, cap. Qui 
+scan<lb break="no" ed="#L" n="35"/>dalizaverit , dicitur: Utilius scandalum nasci permittitur
+<lb ed="#L" n="36"/>quam veritas deseratur. Hinc enim patet quod utilius est
+<lb ed="#L" n="37"/>permittere ut scandalizentur actor et cives ex negata 
+sen<lb break="no" ed="#L" n="38"/>tentia contra veritatem, quam veritatem deserere.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e646">
+                  <lb ed="#L" n="39"/>Tertio, quia secundum iura iudex debet secundum
+<lb ed="#L" n="40"/>Deum et illius imperium, veritatem et conscientiam, non
+<lb ed="#L" n="41"/>per gratiam aut sordes testium iudicare. Ex hoc enim
+<lb ed="#L" n="42"/>habetur quod non per sordes falsorum testium, et contra
+<lb ed="#L" n="43"/>propriam conscientiam et iustitiam et interni iudicis 
+sen<lb break="no" ed="#L" n="44"/>tentiam iudicare debet, ut faceret iudicando contra veritatem
+<lb ed="#L" n="45"/>notam.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e664">
+                  <lb ed="#L" n="46"/>Quarto, quia officium iudicis est latissimum, et potest
+<lb ed="#L" n="47"/>subterfugere in favorem veritatis. Et si aliter non potest
+<lb ed="#L" n="48"/>evadere, debet potius officio renuntiare.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e673">
+                  <lb ed="#L" n="49"/>Quinto, quia iura non cogunt iudicem ad iudicandum
+<lb ed="#L" n="50"/>secundum allegata et probata, sed ad iudicandum 
+secun<lb break="no" ed="#L" n="51"/>dum leges et iura. Modo, aliud est iudicare secundum
+<lb ed="#L" n="52"/>leges et iura, et aliud secundum allegata et probata: quia
+<lb ed="#L" n="53"/>leges et iura volunt ut unicuique ius suum reddatur; 
+al<lb break="no" ed="#L" n="54"/>legata autem et probata volunt quandoque ut ius vitae
+<lb ed="#L" n="55"/>vel membrorum vel rerum innocenti auferatur. — Et per
+<lb ed="#L" n="56"/>hoc solvitur ratio litterae, fundata super hoc quod debet
+<lb ed="#L" n="57"/>iudex secundum leges iudicare.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e695">
+                  <lb ed="#L" n="58"/>Additur et his sextum, roborando tertium argumentum
+<lb ed="#L" n="59"/>litterae, sic. Finis et medium ordinatum ad finem sic se
+<lb ed="#L" n="60"/>habent quod, si media ducunt ad contrarium finis, non
+<lb ed="#L" n="61"/>sunt media ad finem, nec a sapiente executioni mandantur,
+<lb ed="#L" n="62"/>ut patet in sanitate et medicinis: si enim medicinas 
+in<lb break="no" ed="#L" n="63"/>ducere constat infirmitatem contrariam sanitati intentae,
+<lb ed="#L" n="64"/>fatuus esset prosequens illas propter canones omnium 
+me<lb break="no" ed="#L" n="65"/>dicorum. Sed probationes in iudicio sunt ut media 
+ordi<lb break="no" ed="#L" n="66"/>nata ad finem veritatis innotescendae et ius suum unicuique 
+<lb ed="#L" n="67"/>quoniam idcirco afferuntur testes et alia 
+docu<lb break="no" ed="#L" n="68"/>reddendi: quoniam...
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e721">
+                  <lb ed="#L" n="69"/>menta facti in iudicio, ut patet. Si ergo constat quod 
+hu<lb break="no" ed="#L" n="70"/>iusmodi media ducunt ad contrarium veritatis et iuris istius
+<lb ed="#L" n="71"/>hominis, consequens est ut ad sapientem iudicem spectet |
+<lb ed="#L" n="72"/>non prosequi talia media contra finem. Et sic fatue, ac
+<lb ed="#L" n="73"/>per hoc male facit, iudicando in hoc casu secundum 
+al<lb break="no" ed="#L" n="74"/>legata et probata. — Et confirmatur. Quia sicut <foreign>epieikeia</foreign>
+                  <lb ed="#L" n="75"/>debet iudicem inclinare, in casibus, ad iudicandum non 
+<lb ed="#L" n="76"/>secundum leges scriptas; ita debet in hoc casu inclinare
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e743">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>ad non sequendum leges scriptas secundum quas est 
+se<lb break="no" ed="#L" n="78"/>cundum allegata et probata iudicandum : quoniam hoc est
+<lb ed="#L" n="79"/>in favorem innocentiae, et finis ipsius iuris.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e755">
+                  <lb ed="#L" n="80"/>Arguitur postremo, quia testes per quos contra 
+verita<lb break="no" ed="#L" n="81"/>tem innocens convictus damnandus est, veniunt in 
+vesti<lb break="no" ed="#L" n="82"/>mentis ovium, et intrinsecus sunt lupi rapaces rerum vel
+<lb ed="#L" n="83"/>vitae. Ac per hoc, si iudex certus de innocentia iuxta
+<lb ed="#L" n="84"/>eorum dicta iudicat, minister est homicidarum aut 
+prae<lb break="no" ed="#L" n="85"/>donum. Et sic non excusatur, etiam si per alium iudicem
+<lb ed="#L" n="86"/>omnino damnaretur. Scriptum. est enim: Necesse est ut
+<lb ed="#L" n="87"/>veniant scandala: veruntamen vae homini illi per quem
+<lb ed="#L" n="88"/>scandalum venit.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e777">
+                  <lb ed="#L" n="89"/>Et quoniam ad hunc locum remissa est quaestio haec
+<lb ed="#L" n="90"/>superius in qu. rxiv, art. 6, ad 3; ideo, ut compleatur 
+dis<lb break="no" ed="#L" n="91"/>cussio, arguitur etiam a quibusdam contra ibi dicta, 
+sci<lb break="no" ed="#L" n="92"/>licet quod in hoc casu inferior iudex, si non potest 
+in<lb break="no" ed="#L" n="93"/>nocentem liberare convictum, debet ad superiorem 
+remit<lb break="no" ed="#L" n="94"/>tere. Contra, inquiunt: si hoc faceret, exponeret innocentern
+<lb ed="#L" n="95"/>discrimini mortis: quoniam superior, non habens certam
+<lb ed="#L" n="96"/>notitiam illius, damnaret illum. — Et eadem ratio est si
+<lb ed="#L" n="97"/>substitueret iudicem: non enim evaderet reatum, causam
+<lb ed="#L" n="98"/>dans morti innocentis.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e801">
+                  <lb ed="#L" n="99"/>II. In hac quaestione multi scripserunt: alii dicentes,
+<lb ed="#L" n="100"/>cum Auctore, quod iudex potest et debet, secundum 
+al<lb break="no" ed="#L" n="101"/>legata et probata, contra veritatem sibi certam iudicare;
+<lb ed="#L" n="102"/>alii totaliter oppositum, quod nec debet, nec potest sine
+<lb ed="#L" n="103"/>peccato mortali; alii quod in causis criminalibus et 
+civi<lb break="no" ed="#L" n="104"/>libus magnae importantiae non, in parvis autem sic.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e817">
+                  <lb ed="#L" n="105"/>Nonnulli etiam volunt quod remedium de remittendo
+<lb ed="#L" n="106"/>ad superiorem sit malum, propter allatam in oppositum
+<lb ed="#L" n="107"/>rationem, dicentes quod si, per impossibile, casus hic 
+ac<lb break="no" ed="#L" n="108"/>cideret, praemissis omnibus praemittendis, deberet iudex
+<lb ed="#L" n="109"/>manifestare populo quare non potest damnare illum , et
+<lb ed="#L" n="110"/>relinquere eis curam an velint ad superiorem remittere. —
+<lb ed="#L" n="111"/>Sed hi non provident casui. Quia si supremo iudici casus
+<lb ed="#L" n="112"/>hic accidat, scilicet quod sciat innocentiam; et pars atque
+<lb ed="#L" n="113"/>populus petat iustitiam: quid facere debet princeps? Quo
+<lb ed="#L" n="114"/>se vertet? ludicare contra innocentem non potest, 
+secun<lb break="no" ed="#L" n="115"/>dum istos; absolvere non potest, secundum iura; 
+super<lb break="no" ed="#L" n="116"/>sedere non potest, parte et populo instante; delegare non
+<lb ed="#L" n="117"/>potest, secundum istos. Erit ergo perplexus rex aut 
+Im<lb break="no" ed="#L" n="118"/>perator in hoc casu, nisi renuntiet regno aut imperio, 
+se<lb break="no" ed="#L" n="119"/>cundum istos.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e852">
+                  <lb ed="#L" n="120"/>Distinguentes autem in proposito inter causas criminales
+<lb ed="#L" n="121"/>aut civiles magnas aut parvas (nisi pro quanto modicum
+<lb ed="#L" n="122"/>pro nihilo reputaretur: quod tamen in iudicium venire
+<lb ed="#L" n="123"/>non solet), irrationabiliter loquuntur. Quoniam aut 
+inve<lb break="no" ed="#L" n="124"/>nitur hic facere iniustum, aut non. Si est hic iniustitia,
+<lb ed="#L" n="125"/>sequitur quod non liceat. Et si non est iniustitia, constat
+<lb ed="#L" n="126"/>quod licet, quaecumque occurrat materia rerum, honoris,
+<lb ed="#L" n="127"/>vitae, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e872">
+                  <lb ed="#L" n="128"/>II. Ut autem veritas melius elucescat, non a rationibus
+<lb ed="#L" n="129"/>ducentibus ad inconveniens, quoniam minus efficaces sunt;
+<lb ed="#L" n="130"/>sed a rationibus ostensivis moveri debemus. Et ad 
+osten<lb break="no" ed="#L" n="131"/>dendum quidem quod iudex peccat iudicando contra 
+ve<lb break="no" ed="#L" n="132"/>ritatem sibi, ut privatae tamen personae, notam, in quo-
+<pb ed="#L" n="100"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cumque. casu, unica est ratio ostensiva: quia scilicet 
+iniu<lb break="no" ed="#L" n="2"/>stum facit damnando innocentem, quod est secundum se
+<lb ed="#L" n="3"/>pravum et nulla potest recta intentione, nullo timore, nulla
+<lb ed="#L" n="4"/>scandali intentione, licitum fieri.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e899">
+                  <lb ed="#L" n="5"/>Ad monstrandum vero quod iudex non peccat, sed 
+de<lb break="no" ed="#L" n="6"/>bet, quando non potest aliter facere, iudicare contra 
+huius<lb break="no" ed="#L" n="7"/>modi- veritatem secundum allegata et probata, est unica 
+ra<lb break="no" ed="#L" n="8"/>tio: scilicet quia persona publica potestate publica, scientia
+<lb ed="#L" n="9"/>publica et voluntate publica uti debet in iudiciis, sine 
+igno<lb break="no" ed="#L" n="10"/>rantia, imprudentia et negligentia propria, quidquid inde
+<lb ed="#L" n="11"/>veniat. Sed iudex est huiusmodi: et in casu proposito
+<lb ed="#L" n="12"/>omnia ista concurrunt. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e919">
+                  <lb ed="#L" n="13"/>Ad hoc deducitur tota ista quaestio, ut examinentur hae
+<lb ed="#L" n="14"/>rationes, et discernatur vis earum ad propositum.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e926">
+                  <lb ed="#L" n="15"/>IV. Principium autem investigationis huius hinc 
+sumen<lb break="no" ed="#L" n="16"/>dum est, quod tam secundum moralem philosophiam quam
+<lb ed="#L" n="17"/>secundum iura, ex intentione maleficia distinguuntur. . Et
+<lb ed="#L" n="18"/>hoc in tantum consideratur ut dicamus unanimiter quod
+<lb ed="#L" n="19"/>occidens suum invasorem,: aliter. se salvare non. potens, si
+<lb ed="#L" n="20"/>intendit occidere, homicida est: si intendit se defendere,
+<lb ed="#L" n="21"/>sed occisio, praevisa etiam, consequitur ex actione 
+defen<lb break="no" ed="#L" n="22"/>siva, non peccat. Ab intentione igitur iudicis species et
+<lb ed="#L" n="23"/>natura huius operis sumenda est. Constat autem quod
+<lb ed="#L" n="24"/>iudex: de quo loquimur, qui scilicet omnem suam 
+pruden<lb break="no" ed="#L" n="25"/>tiam, sollicitudinem , scientiam , potestatem, etc., adhibuit
+<lb ed="#L" n="26"/>ut liberaret innocentem huiusmodi: — constat, inquam,
+<lb ed="#L" n="27"/>quod non intendit ex privata voluntate occidere, mutilare
+<lb ed="#L" n="28"/>et, breviter, iniustum facere: sed tale iniustum constat
+<lb ed="#L" n="29"/>sequi ex hoc quod intendit uti publico officio, et utitur
+<lb ed="#L" n="30"/>illo. Unde non est iniustitia ex hoc actu quod iudex 
+fa<lb break="no" ed="#L" n="31"/>ciat iniustum innocenti: cum hoc non intendat privata aut
+<lb ed="#L" n="32"/>publica voluntate. Sed videndum restat si forte esset 
+in<lb break="no" ed="#L" n="33"/>iustitia ex hoc quod teneretur non uti publico officio in
+<lb ed="#L" n="34"/>tali casu, propter talem ex sui officii actione eventum
+<lb ed="#L" n="35"/>praevisum, scilicet mortem innocentis. Sed si diligenter
+<lb ed="#L" n="36"/>consideremus, persona quae est iudex tenetur uti officio
+<lb ed="#L" n="37"/>suo, parte et populo instante: quoniam sibi incumbit cura
+<lb ed="#L" n="38"/>utendi potestate publica; et plus tenetur curam habere
+<lb ed="#L" n="39"/>publici officii suae curae commissi quam. vitae alterius,
+<lb ed="#L" n="40"/>cuius cura non spectat ad ipsum nisi sicut ad iudicem.
+<lb ed="#L" n="41"/>Et quemadmodum superius in quaestione de homicidio
+<lb ed="#L" n="42"/>per hanc rationem conclusum est quod defendens se non
+<lb ed="#L" n="43"/>tenetur omittere actum defensionis propriae per hoc. quod
+<lb ed="#L" n="44"/>videtur ex ipso sequi mortem alterius etiam impoenitentis,
+<lb ed="#L" n="45"/>quia scilicet sibi magis incumbit cura sui quam proximi;
+<lb ed="#L" n="46"/>eadem efficacia potest hic concludi quod quia personae
+<lb ed="#L" n="47"/>iudicis incumbit cura ut utatur publico officio, et non cura
+<lb ed="#L" n="48"/>proximi nisi ratione publici officii, ideo non tenetur 
+abs<lb break="no" ed="#L" n="49"/>tinere ab usu publici officii propter damnum consequens
+<lb ed="#L" n="50"/>proximi. — Et confirmatur. Quia nemo damnum facit nisi
+<lb ed="#L" n="51"/>qui id facit quod facere ius non habet, secundum iura.
+<lb ed="#L" n="52"/>Cum ergo persona iudicis ius habeat utendi publico officio
+<lb ed="#L" n="53"/>secundum leges et iura et allegata et probata, sequitur
+<lb ed="#L" n="54"/>quod non facit damnum alicui utendo iure officii sui, —
+<lb ed="#L" n="55"/>Ratio ergo super qua fundatur positio dicentium iudicem
+<lb ed="#L" n="56"/>peccare si contra veritatem sibi notam iudicet secundum
+<lb ed="#L" n="57"/>allegata et probata, etc., infirma est, et non concludit 
+in<lb break="no" ed="#L" n="58"/>tentum: utpote ex his quae sunt per accidens procedens.
+<lb ed="#L" n="59"/>Ratio autem allata pro parte contraria manifeste 
+pro<lb break="no" ed="#L" n="60"/>cedit ex his quae conveniunt per se actui. Actus namque 
+<lb ed="#L" n="61"/>sententiae damnantis est actus publicus. Et propterea debet
+<lb ed="#L" n="62"/>per se causas habere publicas: scilicet personam, 
+potesta<lb break="no" ed="#L" n="63"/>tem, scientiam, et voluntatem, quae praecepto publico
+<lb ed="#L" n="64"/>quod iudex facit de poena huiusmodi, manifestatur; 
+prae<lb break="no" ed="#L" n="65"/>ceptum enim a voluntate est. Nec persona iudicis aliquem
+<lb ed="#L" n="66"/>actum propriae voluntatis apponit in hoc casu in damnum
+<lb ed="#L" n="67"/>innocentis, nisi uti potestate, scientia et voluntate publica,
+<lb ed="#L" n="68"/>quem actum si posset omittere, libenter omitteret. Sed
+<lb ed="#L" n="69"/>quia tenetur ad illum, propter coincidentiam personae.
+<lb ed="#L" n="70"/>publicae cum sua, ideo non tenetur omittere illum propter
+<lb ed="#L" n="71"/>damnum alterius per accidens rarissimum eveniens ex usu
+<lb ed="#L" n="72"/>publici officii. - Et quoniam haec via solidum habet 
+fun<lb break="no" ed="#L" n="73"/>damentum; et nihilominus tenetur a tot doctoribus, 
+sci<lb break="no" ed="#L" n="74"/>licet <name xml:id="TAcCaj-d1e1618-Nd1e1058">sancto Thoma</name>, <name xml:id="TAcCaj-d1e1618-Nd1e1060">Alexandro de Ales</name>, <name xml:id="TAcCaj-d1e1618-Nd1e1062">Richardo</name>, <name xml:id="TAcCaj-d1e1618-Nd1e1064">Petro
+<lb ed="#L" n="75"/>de Palude</name> et <name xml:id="TAcCaj-d1e1618-Nd1e1069">Petro de Tarantasia</name>, et multis aliis, ut refe-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="76"/>runt tractantes. materiam hanc; et ortum habet ab 
+Am<lb break="no" ed="#L" n="77"/>brosio, super Beati immaculati, ut patet III, qu. vir, Zudicet,
+<lb ed="#L" n="78"/>et ab Augustino, super Psalterio, ut in littera affertur;
+<lb ed="#L" n="79"/>ideo amplectenda est.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1083">
+                  <lb ed="#L" n="80"/>V. Nunc superest ad obiecta respondere. Et ad primum,
+<lb ed="#L" n="81"/>et similia, dicitur quod occidere innocentem per se, ita
+<lb ed="#L" n="82"/>quod intendatur occisio innocentis, est contra omnia iura.
+<lb ed="#L" n="83"/>Sed. occidere innocentem per accidens, dando scilicet 
+ope<lb break="no" ed="#L" n="84"/>ram rei licitae et necessariae, ut facit utens publico officio,
+<lb ed="#L" n="85"/>non est contra ius naturale, divinum aut scriptum.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1099">
+                  <lb ed="#L" n="86"/>Ad secundum dicitur quod iudex in casu isto nullam
+<lb ed="#L" n="87"/>deserit veritatem quam debet amplecti. Quia dat operam
+<lb ed="#L" n="88"/>rei licitae; et per accidens in detrimentum veritatis 
+con<lb break="no" ed="#L" n="89"/>sistentis in facto, actio sua vertitur.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1110">
+                  <lb ed="#L" n="90"/>Ad tertium dicitur ex littera in solutione secundi, quod
+<lb ed="#L" n="91"/>iudex humanus non tenetur iudicare sicut iudicat Deus:
+<lb ed="#L" n="92"/>sed tenetur iudicare sicut vult Deus quod homo iudicet.
+<lb ed="#L" n="93"/>Statuit autem ipse Deus ut homo iudicet secundum 
+ve<lb break="no" ed="#L" n="94"/>ritatem publicam: ut patet ex eo quod statuit quod in ore
+<lb ed="#L" n="95"/>duorum vel trium stet omne verbum. Et propterea iudex,
+<lb ed="#L" n="96"/>iudicando secundum allegata et probata, iudicat secundum
+<lb ed="#L" n="97"/>Deum et conscientiam publicam, ut in littera dicitur in
+<lb ed="#L" n="98"/>responsione ad ultimum: et non iudicat secundum sordes
+<lb ed="#L" n="99"/>testium nisi materialiter, et per accidens rarissimum, quod
+<lb ed="#L" n="100"/>homini non imputatur. Esset enim. homini imputandum
+<lb ed="#L" n="101"/>si vel ex intentione, vel ignorantia, vel imprudentia, vel
+<lb ed="#L" n="102"/>negligentia sordes testium sequeretur: sed quando ex 
+con<lb break="no" ed="#L" n="103"/>tingentibus nihil omittit, sibi non imputatur.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1144">
+                  <lb ed="#L" n="104"/>Ad quartum dicitur quod ex hoc quod officium iudicis
+<lb ed="#L" n="105"/>est latissimum. nihil aliud habetur nisi quod debet, 
+quan<lb break="no" ed="#L" n="106"/>tum potest salvo officio, innocentem adiuvare. Et non 
+te<lb break="no" ed="#L" n="107"/>netur propterea renuntiare officio. 
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1155">
+                  <lb ed="#L" n="108"/>Ad quintum dicitur quod ridiculum est dicere quod
+<lb ed="#L" n="109"/>iudex tenetur secundum leges et iura, et non secundum
+<lb ed="#L" n="110"/>allegata et probata iudicare: cum leges et iura sint de 
+uni<lb break="no" ed="#L" n="111"/>versalibus, et sententia debeat esse. de hoc singulari facto.
+<lb ed="#L" n="112"/>Constat enim quod ad conclusionem singularem , quae
+<lb ed="#L" n="113"/>per sententiam infertur, non descenditur ab universalibus
+<lb ed="#L" n="114"/>legibus et iuribus nisi per particulares et singulares 
+pro<lb break="no" ed="#L" n="115"/>positiones, quae per allegata et probata constant. Et lex
+<lb ed="#L" n="116"/>divina mandat quod per allegata et probata iudicetur,
+<lb ed="#L" n="117"/>dum Deut. xix dicitur: In ore duorum vel trium stabit
+<lb ed="#L" n="118"/>omne verbum ; et in materia mortis, cap. xvi, dicitur: Zn
+<lb ed="#L" n="119"/>ore duorum vel trium testium peribit qui interficietur; non
+<lb ed="#L" n="120"/>obstante quod allegata et probata quandoque violent ius:
+<lb ed="#L" n="121"/>quia hoc est per accidens et ut in paucioribus; leges 
+au<lb break="no" ed="#L" n="122"/>tem et moralia iudicant per se, et quae ut in pluribus
+<lb ed="#L" n="123"/>fiunt.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1192">
+                  <lb ed="#L" n="124"/>Ad sextum. dicitur quod finis iustitiae publicae 
+huma<lb break="no" ed="#L" n="125"/>nae non est veritas facti absolute, sed veritas facti publica
+<lb ed="#L" n="126"/>homini. Et hoc est quod Auctor, respondendo ad tertium,
+<lb ed="#L" n="127"/>dicit sub aliis verbis: scilicet quod. si factum sit 
+manife<lb break="no" ed="#L" n="128"/>stum iudici et non aliis, vel aliis et non iudici, tunc est
+<lb ed="#L" n="129"/>necessaria discussio; hoc est: Non habetur veritas publica,
+<lb ed="#L" n="130"/>sicut in notoriis, et propterea est necessaria discussio, ut
+<lb ed="#L" n="131"/>veniatur ad finem, scilicet manifestum publice, scilicet 
+iu<lb break="no" ed="#L" n="132"/>dici et aliis. Quantumcumque ergo iudici soli esset 
+mani<lb break="no" ed="#L" n="133"/>festum, non habetur finis, sed est necessaria discussio ut
+<lb ed="#L" n="134"/>perveniatur ad finem, publicam scilicet veritatem. Constat
+<lb ed="#L" n="135"/>autem quod iudicans secundum allegata et probata iudicat
+<lb ed="#L" n="136"/>secundum veritatem non simpliciter, sed publicam in 
+hu<lb break="no" ed="#L" n="137"/>manis iudiciis, etc. Et simili modo dicitur quod licet finis
+<lb ed="#L" n="138"/>iustitiae sit reddere unicuique ius vere suum, finis tamen
+<lb ed="#L" n="139"/>iustitiae publicae humanae est reddere unicuique ius suum
+<lb ed="#L" n="140"/>non simpliciter, sed quantum potestas et scientia publica
+<lb ed="#L" n="141"/>se extendere possunt: neque enim plus exigendum ab 
+ho<lb break="no" ed="#L" n="142"/>mine est.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1236">
+                  <lb ed="#L" n="143"/>Ad confirmationem de epieikeia dicitur quod epieikeia
+<lb ed="#L" n="144"/>in persona publica non inclinat ad privatas operationes vel
+<lb ed="#L" n="145"/>omissiones, sed ad operationes et omissiones convenientes
+<lb ed="#L" n="146"/>iudicis officio. In proposito autem supponitur quod ex 
+of<lb break="no" ed="#L" n="147"/>ficio iudex non possit illum liberare nec ex iustitia, nec
+<lb ed="#L" n="148"/>ex epieikeia, nec ex quacumque prudentia.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1252">
+                  <lb ed="#L" n="149"/>Ad postremum dicitur quod licet testes veniant 
+in<lb break="no" ed="#L" n="150"/>trinsecus ut lupi, iudex tamen non est minister eorum, sed
+<pb ed="#L" n="101"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>iuris: et propterea non incurrit reatum sequelae eorum.
+<lb ed="#L" n="2"/>Nec per ipsum venit scandalum: sed per illos testes, qui
+<lb ed="#L" n="3"/>abutuntur iure et iudicis officio.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1270">
+                  <lb ed="#L" n="4"/>Ad ea autem quae obiiciuntur. deinde contra remedium
+<lb ed="#L" n="5"/>de remittendo ad superiorem, dicitur quod argumenta illa
+<lb ed="#L" n="6"/>non sunt contra Auctorem. Quoniam Auctor non dicit
+<lb ed="#L" n="7"/>quod remittat ad superiorem: sed quod relinquat superiori
+<lb ed="#L" n="8"/>iudicandum. Quod est idem cum illo quod arguentes 
+con<lb break="no" ed="#L" n="9"/>sulunt: scilicet quod exoneret se, et relinquat curam aliis,
+<lb ed="#L" n="10"/>si volunt, ad superiorem recurrere. - Et scito quod si
+<lb ed="#L" n="11"/>casus disputatus accideret inferiori iudici, deberet coram
+<lb ed="#L" n="12"/>populo iurare quod sibi constat oppositum, et propterea
+<lb ed="#L" n="13"/>non iudicat; et indicare modum. quo constat sibi, puta,
+<lb ed="#L" n="14"/>Quia vidi in tali loco, etc. Et hoc ipsum deberet 
+signifi<lb break="no" ed="#L" n="15"/>care superiori, ut vel sic, habendo ipsum inferiorem 
+iu<lb break="no" ed="#L" n="16"/>dicem pro uno teste, innocens adiuvetur coram superioris
+<lb ed="#L" n="17"/>iudicio. Princeps autem posset simili modo coram populo
+<lb ed="#L" n="18"/>iurare, quando sibi casus iste accideret, et conari quantum
+<lb ed="#L" n="19"/>potest ut populum placet et partem quietet. Optima 
+au<lb break="no" ed="#L" n="20"/>tem cautela iudicis in. causa huiusmodi est, antequam
+<lb ed="#L" n="21"/>perveniatur ad ulteriora, vel repellere ex officio accusatio-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>nem; vel ita praeveniendo operari ut non procedatur in
+<lb ed="#L" n="23"/>causa; quod multis potest viis fieri.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1319">
+                  <lb ed="#L" n="24"/>VI. De ministro autem iudicis sciente sententiam esse
+<lb ed="#L" n="25"/>iniquam, dicendum est quod debet tali uti dexteritate ut
+<lb ed="#L" n="26"/>testimonium suum infirmet sententiam iniquam. Et si hoc
+<lb ed="#L" n="27"/>non potest, debet petere ut sublevetur ab hac executione.
+<lb ed="#L" n="28"/>Quod si nec hoc potest obtinere, sed oportet ipsum 
+obe<lb break="no" ed="#L" n="29"/>dire aut cedere officio, licite potest publica ministeriali
+<lb ed="#L" n="30"/>potestate uti, a publica scientia et potestate principali mota,
+<lb ed="#L" n="31"/>sicut de iudice dictum est: eadem enim est ratio. Propter
+<lb ed="#L" n="32"/>quod secus esset si sententia contineret errorem 
+intolera<lb break="no" ed="#L" n="33"/>bilem aut manifestam iniquitatem: quia tunc non ex 
+scien<lb break="no" ed="#L" n="34"/>tia, sed ignorantia, malitia, imprudentia aut negligentia 
+pu<lb break="no" ed="#L" n="35"/>blica moveretur. Unde in cap. Pastoralis, de Officio 
+Dele<lb break="no" ed="#L" n="36"/>gati, dicitur quod ordinarius exequi debet sententiam 
+dele<lb break="no" ed="#L" n="37"/>gati etiam si sciat eam esse iniustam, si non potuit obtinere
+<lb ed="#L" n="38"/>ut sublevaretur ab onere executionis: et non dicit, si sciunt
+<lb ed="#L" n="39"/>ipse et alii eam esse iniustam. Et Auctor superius, in loco
+<lb ed="#L" n="40"/>allegato, dicit quod minister non peccat exequendo, si
+<lb ed="#L" n="41"/>sententia non. contineat manifestam iniustitiam: et non
+<lb ed="#L" n="42"/>dicit manifestam sibi, sed manifestam absolute.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1618-Dd1e1364"><!-- caj-p2p2-q67a3" -->
+               <head xml:id="TAcCaj-d1e1618-Hd1e1367">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1618-d1e1369">
+                  <pb ed="#L" n="102"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=102"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1378">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="2"/>IN articulo tertio eiusdem quaestionis adverte quod, licet
+<lb ed="#L" n="3"/>Indo in corpore articuli allata ad ostendendum iudicem
+<lb ed="#L" n="4"/>oportere inter duos iudicare concludat tam in civilibus
+<lb ed="#L" n="5"/>quam in criminalibus, et ita regulariter servandum sit;
+<lb ed="#L" n="6"/>Auctor tamen conclusit specialiter in criminalibus, dicens:
+<lb ed="#L" n="7"/>Et ideo in criminalibus non potest etc.: quia evidentius
+<lb ed="#L" n="8"/>personae comparere exiguntur in criminalibus. Exigitur
+<lb ed="#L" n="9"/>namque praesentia personalis, quae non requiritur in 
+ci<lb break="no" ed="#L" n="10"/>vilibus.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1402">
+                  <lb ed="#L" n="11"/>II. In eodem articulo, in responsione ad secundum,
+<lb ed="#L" n="12"/>adverte quatuor poni in littera supplere vicem accusatoris.
+<lb ed="#L" n="13"/>Primo, publicam infamiam. Et hoc cum proceditur per
+<lb ed="#L" n="14"/>viam inquisitionis.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1413">
+                  <lb ed="#L" n="15"/>Secundo, manifestam rebellionem ad Ecclesiam, cui 
+de<lb break="no" ed="#L" n="16"/>nuntiatum est crimen. Et hoc quando proceditur per viam
+<lb ed="#L" n="17"/>denuntiationis. Tunc enim, iuxta Domini mandatum, Matth.
+<lb ed="#L" n="18"/>xvm, sj Ecclesiam non audierit, erit sicut ethnicus, hoc
+<lb ed="#L" n="19"/>est, excommunicandus est. Denuntiatio enim ex natura sua
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="20"/>ordinatur ad bonum peccantis: sed ex rebellione 
+denun<lb break="no" ed="#L" n="21"/>tiati vertitur in sententiam punitivam , propter commune
+<lb ed="#L" n="22"/>bonum. Et propterea in principio non eget aliquo 
+sup<lb break="no" ed="#L" n="23"/>plente locum accusationis, sed in tali.eventu. Propter istum
+<lb ed="#L" n="24"/>enim eventum in littera dicitur: Poena enim infertur (
+de<lb break="no" ed="#L" n="25"/>nuntiato supple), propter rebellionem etc.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1443">
+                  <lb ed="#L" n="26"/>Tertio, publicum iudicium ordinatum. Et hoc intelligo
+<lb ed="#L" n="27"/>vel quando crimen coram iudice et aliis committitur: ut
+<lb ed="#L" n="28"/>cum iudex cum suis audit blasphemare vel videt 
+occi<lb break="no" ed="#L" n="29"/>dere, etc. Tunc enim sine ulla alia infamia, denuntiatione,
+<lb ed="#L" n="30"/>accusatione, propter evidentiam facti, iudex punit. Unde et
+<lb ed="#L" n="31"/>pontifices Iudaeorum dixerunt: Audistis blasphemiam : quid
+<lb ed="#L" n="32"/>adhuc desideramus testes? Et sanctus Ludovicus, Rex
+<lb ed="#L" n="33"/>Franciae, legitur praecepisse cauterizari linguam eius quem
+<lb ed="#L" n="34"/>audiebat blasphemare. - Nisi forte quis dicat quod Auctor
+<lb ed="#L" n="35"/>de quadam inquisitionis specie loquitur: quia iudex, ex eo
+<lb ed="#L" n="36"/>quod ipse vidit, paulatim investigat ex officio.
+</p>
+               <p xml:id="TAcCaj-d1e1618-d1e1469">
+                  <lb ed="#L" n="37"/>Et haec sufficiant etiam pro quarto articulo, etc.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

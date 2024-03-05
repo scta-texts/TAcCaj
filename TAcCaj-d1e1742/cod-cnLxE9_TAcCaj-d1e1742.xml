@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 91</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 91</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="296"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1742"><!-- TAcCajp2p2-q91" -->
+            <head xml:id="TAcCaj-d1e1742-Hd1e101">Quaestio 91</head>
+            <div xml:id="TAcCaj-d1e1742-Dd1e103"><!-- caj-p2p2-q91a2" -->
+               <head xml:id="TAcCaj-d1e1742-Hd1e106">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1742-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23" type="fixed=296"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>IN duobus articulis quaestionis nonagesimaeprimae, nota
+<lb ed="#L" n="25"/>finem cantus consistere in excitatione devotionis
+<lb ed="#L" n="26"/>propriae vel alienae ad Deum. Et cum omnia quae sunt
+<lb ed="#L" n="27"/>propter finem, non sint propter se appetenda nec facienda,
+<lb ed="#L" n="28"/>nisi inquantum sunt utilia ad finem; consequens est ut in
+<lb ed="#L" n="29"/>ecclesiasticis officiis in ecclesiis persolvendis debeat tantum
+<lb ed="#L" n="30"/>cantari quantum expedit excitandae devotioni cantantium
+<lb ed="#L" n="31"/>(si alienae devotionis ratio cessat) et non plus. Et 
+quo<lb break="no" ed="#L" n="32"/>niam non potest praelatus singulorum affectus in statera
+<lb ed="#L" n="33"/>habere; et si haberet, ipsius est communis devotionis, non
+<lb ed="#L" n="34"/>singularis, rationem habere in communibus: ideo prudentia
+<lb ed="#L" n="35"/>opus est in istis, ut, pensatis conditionibus personarum etc.,
+<lb ed="#L" n="36"/>quantum pro excitanda et conservanda devotione expedire
+<lb ed="#L" n="37"/>videbitur, cantetur. Ratio vero alienae devotionis sic 
+ha<lb break="no" ed="#L" n="38"/>benda est ut propria non destruatur. Non enim debet 
+no<lb break="no" ed="#L" n="39"/>stra esse tribulatio aliena subventio, secundum Apostoli 
+do<lb break="no" ed="#L" n="40"/>ctrinam, II ad Cor. vii. Et David, cum dixisset*: 
+Sem<lb break="no" ed="#L" n="41"/>per laus eius in ore meo, subiunxit: Magnificate 
+Domi<lb break="no" ed="#L" n="42"/>num mecum, non contra me. Unde a duobus cavendum
+<lb ed="#L" n="43"/>est: scilicet, ne ideo cantetur quasi ipse cantus secundum
+<lb ed="#L" n="44"/>se sit Deo gratior; et ne cantetur causa delectationis 
+no<lb break="no" ed="#L" n="45"/>strae vel alienae in ecclesiasticis officiis, ut patet ex fine,
+<lb ed="#L" n="46"/>et ex auctoritate Augustini ex X Confess. in littera allata.
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e170">
+                  <lb ed="#L" n="47"/>II. Nota secundo, quod tempore divi Thomae 
+Eccle<lb break="no" ed="#L" n="48"/>sia non utebatur organis. In cuius signum, adhuc Romana
+<lb ed="#L" n="49"/>Ecclesia coram Summo Pontifice non utitur. Et si 
+ratio<lb break="no" ed="#L" n="50"/>nem in littera allatam ex VIII Polit. attentius meditati 
+fue<lb break="no" ed="#L" n="51"/>rimus, apparebit quod in ecclesiastico officio, ad quod
+<lb ed="#L" n="52"/>suscipiendae divinae interioris disciplinae gratia 
+conveni<lb break="no" ed="#L" n="53"/>mus, iuxta illud, Sacrificium laudis honorificabit me: et
+<lb ed="#L" n="54"/>illic iter quo ostendam illi salutare Dei, non sunt 
+ad<lb break="no" ed="#L" n="55"/>mittenda instrumenta musica. Tantoque magis excludenda
+<lb ed="#L" n="56"/>sunt quanto divina disciplina interior excellentior est 
+omni<lb break="no" ed="#L" n="57"/>bus disciplinis humanis, huiusmodi instrumenta 
+repellen<lb break="no" ed="#L" n="58"/>tibus. - Et licet per se loquendo hoc sit verum, potest 
+ta<lb break="no" ed="#L" n="59"/>men per accidens tolerari extensa iam consuetudo 
+organo<lb break="no" ed="#L" n="60"/>rum, propter nimiam elongationem hominum a divino
+<lb ed="#L" n="61"/>cultu, ut vel sic allecti divinis intersint. Qui tamen organa
+<lb ed="#L" n="62"/>in ecclesia medicinam animae a remotis esse cogitaverit,
+<lb ed="#L" n="63"/>parce illis utetur, ne sanis noceat minuendo vel tollendo
+<lb ed="#L" n="64"/>eorum devotiones. Et licet organorum usus licitus iam in
+<lb ed="#L" n="65"/>ecclesia sit causa excitandae devotionis, illicitus tamen est
+<lb ed="#L" n="66"/>causa delectationis, eadem ratione qua cantus.
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e216">
+                  <lb ed="#L" n="67"/>III. Sed occurrit hic dubium, an pulsare in organis inter
+<lb ed="#L" n="68"/>officia ecclesiastica sonos saecularium vanitatum sit 
+pecca<lb break="no" ed="#L" n="69"/>tum mortale. Et est ratio dubii .quia quidam, propter 
+ir<lb break="no" ed="#L" n="70"/>reverentiam divini cultus, putant quod sic. — Alii autem
+<lb ed="#L" n="71"/>videntur hanc respuere sententiam: quia sonus abstrahit
+<lb ed="#L" n="72"/>a materia hac velilla, et sonus qui ab uno applicatus est
+<lb ed="#L" n="73"/>ad materiam vanam, potest ab altero applicari ad materiam
+<lb ed="#L" n="74"/>spiritualem, ut patet.
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e237">
+                  <lb ed="#L" n="75"/>Ad evidentiam huius, oportet vitare ambo extrema. Ne
+<lb ed="#L" n="76"/>scilicet tanti faciamus abstractionem soni a materia ut omnis
+<lb ed="#L" n="77"/>sonus aeque admitti dignus sit in ecclesia. Quoniam ea-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>dem est ratio de cantu et sono: quoniam cantus abstrahit
+<lb ed="#L" n="79"/>etiam a materia, et potest unusmet cantus, applicatus ad
+<lb ed="#L" n="80"/>malam materiam, etiam applicari ad spiritualem, non 
+mi<lb break="no" ed="#L" n="81"/>nus quam unusmet sonus. Constat autem ex auctoritate
+<lb ed="#L" n="82"/>Hieronymi in littera allata, quae habetur in <ref xml:id="TAcCaj-d1e1742-Rd1e258">Decretis,
+<lb ed="#L" n="83"/>dist. XCII, cap. Cantantes</ref>, quod non omnis cantus est in
+<lb ed="#L" n="84"/>ecclesia licitus. Non igitur omnis sonus est in ecclesia 
+li<lb break="no" ed="#L" n="85"/>citus. - Neque etiam omnem irreverentiam seu 
+indecen<lb break="no" ed="#L" n="86"/>tiam divinis admixtam mortale peccatum dicamus. 
+Con<lb break="no" ed="#L" n="87"/>tingit namque, vel propter imperfectionem actus, puta quia
+<lb ed="#L" n="88"/>in re modica, vel propter pietatem intentionis, indiscreta
+<lb ed="#L" n="89"/>tamen habentis media, venialiter tantum peccare in multis
+<lb ed="#L" n="90"/>dedecentibus divina.
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e279">
+                  <lb ed="#L" n="91"/>Inter haec igitur, et ex his procedendo, dicendum est
+<lb ed="#L" n="92"/>quod dupliciter contingit pulsare in divinis officiis organa
+<lb ed="#L" n="93"/>cum sonis rerum vanarum: scilicet per se, et per accidens;
+<lb ed="#L" n="94"/>hoc est, ex intentione ingerendi illa vana, et non ex 
+in<lb break="no" ed="#L" n="95"/>tentione ingerendi illa vana, sed tantummodo sonum 
+il<lb break="no" ed="#L" n="96"/>lum, Et primo quidem modo, si res illae sunt non solum
+<lb ed="#L" n="97"/>vanae, sed provocatoriae ad impudicitiam et huiusmodi,
+<lb ed="#L" n="98"/>manifeste est peccatum mortale, non solum inter 
+ecclesia<lb break="no" ed="#L" n="99"/>stica, sed extra: quia hoc est mortale ex suo genere, et
+<lb ed="#L" n="100"/>tanto gravius quanto etiam inter divina.
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e303">
+                  <lb ed="#L" n="101"/>Si vero sunt solum vana, tunc non deest peccatum. 
+su<lb break="no" ed="#L" n="102"/>perstitionis in tali actu. Est namque talis actus in prima
+<lb ed="#L" n="103"/>specie superstitionis, qua Deo cultus exhibetur modo 
+in<lb break="no" ed="#L" n="104"/>debito. Constat namque quod sonus inter divina pars 
+di<lb break="no" ed="#L" n="105"/>vini cultus est, et pro solemnitate divini cultus adhibetur
+<lb ed="#L" n="106"/>ab Ecclesia: et quod modo indebito colitur Deus quando
+<lb ed="#L" n="107"/>sonus vanitatum ex intentione admiscetur loco solemnitatis
+<lb ed="#L" n="108"/>ecclesiasticae. Contrariatur autem talis actus ex suo genere
+<lb ed="#L" n="109"/>dupliciter divino cultui. Primo, quoad finem: quia actus
+<lb ed="#L" n="110"/>iste ex suo genere est excitativus mentis et affectus ad vana;
+<lb ed="#L" n="111"/>ac per hoc directe contrarius actui divini cultus excitativi
+<lb ed="#L" n="112"/>ad devotionem. Secundo, quoad veritatem ex parte colentis:
+<lb ed="#L" n="113"/>quia cultus divinus per ministerium pulsantis ab Ecclesia
+<lb ed="#L" n="114"/>Deo reddendus falsificatur, ita quod falsarii sunt omnes
+<lb ed="#L" n="115"/>sic pulsantes, et procurantes ac consentientes, quoniam ex
+<lb ed="#L" n="116"/>parte Ecclesiae cultum contra modum ab ea iussum Deo
+<lb ed="#L" n="117"/>exhibent, quantum est ex natura talis actus, ut inferius in
+<lb ed="#L" n="118"/>qu. xcur, art. r, ex littera habere potes. Et quoniam 
+su<lb break="no" ed="#L" n="119"/>perstitio ex suo genere est mortale peccatum; et actus iste
+<lb ed="#L" n="120"/>ex suo genere contrariatur fini divini cultus: ideo ex 
+in<lb break="no" ed="#L" n="121"/>tentione pulsare in ecclesiasticis officiis sive mala sive vana
+<lb ed="#L" n="122"/>peccatum est mortale ex suo genere. In cuius signum,
+<lb ed="#L" n="123"/>Levit. x, Filii Aaron devorati sunt, quia ignem alienum
+<lb ed="#L" n="124"/>in divino cultu apposuerunt. Simile namque accidit in 
+pro<lb break="no" ed="#L" n="125"/>posito: quoniam ignis alieni amoris, scilicet carnis vel mundi,
+<lb ed="#L" n="126"/>in divino apponitur cultu, loco antiphonarum et laudum
+<lb ed="#L" n="127"/>divinarum. Par siquidem est ex intentione talium, sono
+<lb ed="#L" n="128"/>vocis naturalis, aut artificialis, haec in divino cultu 
+pro<lb break="no" ed="#L" n="129"/>ferre. Constat autem quod naturali voce haec divino 
+ad<lb break="no" ed="#L" n="130"/>mixta cultui perniciosissima essent. Ergo, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e371">
+                  <lb ed="#L" n="131"/>Si quis tamen nesciens divino se cultui per hoc facere
+<pb ed="#L" n="297"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>iniuriam, sed putans vanitatem solummodo in huiusmodi
+<lb ed="#L" n="2"/>intervenire, et ex huiusmodi ignorantia ingerat pulsando
+<lb ed="#L" n="3"/>vana delectationis causa (sicut etiam praedicatores vana
+<lb ed="#L" n="4"/>aliqua inter praedicandum immiscent, non tanquam 
+prae<lb break="no" ed="#L" n="5"/>dicatores, sed personae privatae, vanae delectationis gratia),
+<lb ed="#L" n="6"/>talis non nisi materialiter superstitionem committit: et 
+ex<lb break="no" ed="#L" n="7"/>cusatur a mortali superstitioso, ex quo paratus erat, si 
+co<lb break="no" ed="#L" n="8"/>gnovisset, non patrare hoc facinus; sicut de aliis 
+supersti<lb break="no" ed="#L" n="9"/>tionibus ignotis inferius dicetur.
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e400">
+                  <lb ed="#L" n="10"/>A gravissimo tamen peccato, et forte mortali sacrilegii,
+<lb ed="#L" n="11"/>non excusatur qui ex intentione inter divina immiscet talia
+<lb ed="#L" n="12"/>mundana quae, si verbis exprimeret ibidem, nullus 
+excu<lb break="no" ed="#L" n="13"/>saret a mortali. Et reducitur hoc crimen ad eam sacrilegii
+<lb ed="#L" n="14"/>speciem qua rebus sacris iniuria fit, utendo divino cultu
+<lb ed="#L" n="15"/>in hac parte ut re quadam non sacra, ex quo non ut 
+par<lb break="no" ed="#L" n="16"/>tem divini cultus iste pulsans diceret se haec. inferre, sed
+<lb ed="#L" n="17"/>potius ut extranea interponere. Et nihilominus, pro quanto
+<lb ed="#L" n="18"/>etiam loco sacro iniuria fit; dum in dicato ad Dei laudem
+<lb ed="#L" n="19"/>loco profana haec fiunt, ad aliam sacrilegii speciem 
+spe<lb break="no" ed="#L" n="20"/>ctat, qua loco sacro iniuria fit.
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e426">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>IV. Si vero hoc sit praeter intentionem cuiuscumque
+<lb ed="#L" n="22"/>materiae, ex sola intentione soni talis propter suam 
+conso<lb break="no" ed="#L" n="23"/>nantiam, tunc secundum se nullum peccatum est: sed 
+ra<lb break="no" ed="#L" n="24"/>tione usus vel eventus potest ibi esse peccatum. Ratione
+<lb ed="#L" n="25"/>usus, si accommodatus communiter est talis sonus ad 
+ma<lb break="no" ed="#L" n="26"/>teriam dedecentem sacra: quoniam idem est de tali sono
+<lb ed="#L" n="27"/>iudicium quod est de cantu theatrali aut tragoedico, qui 
+pro<lb break="no" ed="#L" n="28"/>pter talem usum prohibiti sunt in ecclesia. Ratione vero
+<lb ed="#L" n="29"/>eventus, si communiter ex tali sono excitantur auditorum
+<lb ed="#L" n="30"/>animi ad mala vel vana. Propter quod quandoque potest
+<lb ed="#L" n="31"/>intervenire etiam peccatum mortale in huiusmodi: ut 
+pa<lb break="no" ed="#L" n="32"/>tet si sonus aliquis alicubi ex consuetídifue excitativus
+<lb ed="#L" n="33"/>esset ad venerea, aut valde distractivus;/ clericorum 
+prae<lb break="no" ed="#L" n="34"/>cipue, a divinis. Et quamvis pia intentio, ut scilicet per
+<lb ed="#L" n="35"/>huiusmodi sonorum delectationem infirmorum valde aut
+<lb ed="#L" n="36"/>malorum animi recreati attentius vacent divinis, alleviet
+<lb ed="#L" n="37"/>dicta peccata, non tamen excusat totaliter: quia zon sunt
+<lb ed="#L" n="38"/>facienda mala ut eveniant bona.
+</p>
+               <p xml:id="TAcCaj-d1e1742-d1e471">
+                  <lb ed="#L" n="39"/>Et sunt dicta omnia haec accipienda, si desit in his
+<lb ed="#L" n="40"/>scandalum pusillorum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

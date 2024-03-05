@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 72</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 72</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="129"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1644"><!-- TAcCajp2p2-q72" -->
+            <head xml:id="TAcCaj-d1e1644-Hd1e101">Quaestio 72</head>
+            <div xml:id="TAcCaj-d1e1644-Dd1e103"><!-- caj-p2p2-q72a1" -->
+               <head xml:id="TAcCaj-d1e1644-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1644-d1e108">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13" type="fixed=128"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e115">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>IN articulo primo quaestionis septuagesimaesecundae 
+du<lb break="no" ed="#L" n="15"/>li occurrit, an de ratione contumeliae sit. quod 
+di<lb break="no" ed="#L" n="16"/>catur contumelia coram illo cui infertur contumelia. Et
+<lb ed="#L" n="17"/>est ratio dubii quia contumelia importat manifestam 
+iniu<lb break="no" ed="#L" n="18"/>riam: sicut ira manifestam vindictam. Constat autem quod
+<lb ed="#L" n="19"/>huiusmodi manifestatio principaliter refertur ad eum contra
+<lb ed="#L" n="20"/>quem irrogatur contumelia: sicut in ira ad eum contra
+<lb ed="#L" n="21"/>quem irascimur. — Ex altera autem parte apparet 
+opposi<lb break="no" ed="#L" n="22"/>tum: nam multi contumelias contra absentem proferunt.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e139">
+                  <lb ed="#L" n="23"/>Ad hoc dicitur quod cum actus morales ex intentione:
+<lb ed="#L" n="24"/>iudicentur; et contumeliae actus per hoc in sua natura
+<lb ed="#L" n="25"/>locetur quod contra honorem directe machinatur alterius:
+<lb ed="#L" n="26"/>consequens est quod ad hoc quod actus aliquis sit per se
+<lb ed="#L" n="27"/>et directe contumelia, exigitur quod directe contra 
+hono<lb break="no" ed="#L" n="28"/>rem tendat proximi, Non tendit autem directe et per se
+<lb ed="#L" n="29"/>contra honorem alicuius qui illum reveretur, qui occulte
+<lb ed="#L" n="30"/>intendit iniuriari: sed solus ille. qui eum sic parvi facit ut
+<lb ed="#L" n="31"/>ad manifestam sibi iniuriam tendat. Et propter hoc in 
+lit<lb break="no" ed="#L" n="32"/>tera dicitur quod contumelia id quod est contra honorem
+<lb ed="#L" n="33"/>alicuius deducit in notitiam eius. '
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e165">
+                  <lb ed="#L" n="34"/>Sciendum tamen est quod tripliciter contingit hoc facere.
+<lb ed="#L" n="35"/>Primo, in faciem eius personaliter audientis. — Secundo,
+<lb ed="#L" n="36"/>litteris seu libello, ut ad. eum deveniat. — Tertio, verbis vel
+<lb ed="#L" n="37"/>signis in absentia per accidens (quia scilicet absens est),
+<lb ed="#L" n="38"/>sed in praesentia per se quoad intentionem : quando 
+sci<lb break="no" ed="#L" n="39"/>licet ad hoc dicit iniuriosa contra illum verba ut in eius
+<lb ed="#L" n="40"/>notitiam deveniant, et ad hoc operam dat. Semper enim
+<lb ed="#L" n="41"/>in. notitiam eius'intendit contumeliosus: deducere quod est
+<lb ed="#L" n="42"/>contra illius honorem: sicut iratus vindictam quam in 
+ab<lb break="no" ed="#L" n="43"/>sentia facit. - Et per hoc patet solutio obiectorum.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e190">
+                  <lb ed="#L" n="44"/>II. In eodem primo quaestionis septuagesimaesecundae
+<lb ed="#L" n="45"/>articulo dubium occurrit, an sit vera determinatio litterae,
+<lb ed="#L" n="46"/>scilicet quod «contumelia consistens in factis non: consistit
+<lb ed="#L" n="47"/>in.eis inquantum sunt facta, sed inquantum sunt signa.
+<lb ed="#L" n="48"/>Apparet namque falsum: eo quod. contumelia. consistens
+<lb ed="#L" n="49"/>in dehonestatione ianuarum domus alicuius, in. 
+deturpa<lb break="no" ed="#L" n="50"/>tione vel destructione imaginum vel stemmatum alicuius,
+<lb ed="#L" n="51"/>consistit in factis ipsis ut talia facta sunt, ut patet; sicut
+<lb ed="#L" n="52"/>rapina in ablatione rerum, et verberatio in persecutione
+<lb ed="#L" n="53"/>personae, licet significent animum male dispositum. erga
+<lb ed="#L" n="54"/>illum, etc. Hoc enim commune est omnibus malis factis,
+<lb ed="#L" n="55"/>quando per se, scilicet ex intentione, fiunt. - Et 
+confir<lb break="no" ed="#L" n="56"/>matur. Quia huiusmodi iniuriae non spectant ad aliquod
+<lb ed="#L" n="57"/>supradictorum vitiorum quae posita sunt opponi iustitiae:
+<lb ed="#L" n="58"/>ut patet discurrendo per singula, homicidium, furtum, 
+ra<lb break="no" ed="#L" n="59"/>pinam, etc.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e227">
+                  <lb ed="#L" n="60"/>Ad hoc dicitur quod dubitatio oritur ex hoc quod 
+cre<lb break="no" ed="#L" n="61"/>ditur in proposito factum habere rationem signi respectu
+<lb ed="#L" n="62"/>facientis, sicut verba respectu loquentis: cum tamen hoc
+<lb ed="#L" n="63"/>non sufficiat; sed pro tanto facta ut facta distinguuntur
+<lb ed="#L" n="64"/>hic contra facta ut signa, quia ad eius offensam contra
+<lb ed="#L" n="65"/>quem fiunt non perveniunt ut facta, sed ut signa. Fur 
+si<lb break="no" ed="#L" n="66"/>quidem aut latro iniuriatur facto ut factum est, quia actio
+<lb ed="#L" n="67"/>auferendi privat illum rebus suis: et simile est de 
+homi<lb break="no" ed="#L" n="68"/>cidio et aliis supradictis. Contumeliosus autem quando
+<lb ed="#L" n="69"/>facto iniuriatur, non iniuriatur facto ut factum est, sed
+<lb ed="#L" n="70"/>facto ut signo: quia actio illa  dehonestationis ianuae et
+<lb ed="#L" n="71"/>huiusmodi, inquantum talia facta absolute sunt, non 
+lae<lb break="no" ed="#L" n="72"/>dunt proximum (neque enim personalia neque res eius
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>diminuunt: nisi forte per accidens, quia scilicet illa i
+<lb ed="#L" n="74"/>erat sua et nihil amplius valet); sed ut habent rationem
+<lb ed="#L" n="75"/>signi pertingunt, quantum in se est, ad laedendum 
+hono<lb break="no" ed="#L" n="76"/>rem proximi. - Quamvis autem commune sit omnibus
+<lb ed="#L" n="77"/>male factis significare malam intentionem agentis, neque
+<lb ed="#L" n="78"/>penes sic esse signum distinctio hic sit; proprium tamen
+<lb ed="#L" n="79"/>est male factis ut sunt contumeliosa, ad hoc ut sint 
+con<lb break="no" ed="#L" n="80"/>tumeliosa, induere rationem signi quoad efficaciam; hoc
+<lb ed="#L" n="81"/>est, quod non pertingunt ut contumeliosa ad iniuriatum
+<lb ed="#L" n="82"/>isi ut signa. Ac per hoc, talia facta sunt contumeliosa,
+<lb ed="#L" n="83"/>ut sunt talia facta, materialiter; ut signa, formaliter.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e284">
+                  <lb ed="#L" n="84"/>Et adverte quod quia unum vitium imperat alteri, sicut
+<lb ed="#L" n="85"/>quando quis furatur ut moechetur, ita si quis raperet seu
+<lb ed="#L" n="86"/>percuteret ut contumeliaretur, rapina seu percussio ut 
+fa<lb break="no" ed="#L" n="87"/>ctum. laederet in rebus vel persona, ut si  machin
+<lb ed="#L" n="88"/>retur contra honorem: et peccaret simul di
+<lb ed="#L" n="89"/>sicut fur ut moechetur. [8 3
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e300">
+                  <lb ed="#L" n="90"/>Est et aliud advertendum. Quod cum praedictae de
+<lb ed="#L" n="91"/>nestationes et similia a manifesto fiunt auctore, habent
+<lb ed="#L" n="92"/>perfecte rationem contumeliae. Cum vero ab occulto 
+pro<lb break="no" ed="#L" n="93"/>cedunt auctore, habent quidem rationem verae contumeliae
+<lb ed="#L" n="94"/>quia ad hoc fiunt ut in notitiam eius et aliorum —
+<lb ed="#L" n="95"/>id quod est contra honorem eius: minus tamen perfec
+<lb ed="#L" n="96"/>rationem habent contumeliae, pro quanto contumeliosus
+<lb ed="#L" n="97"/>est manifestus iniuriator, sicut et iratus.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e320">
+                  <lb ed="#L" n="98"/>III. In responsione ad tertium eiusdem primi articuli
+<lb ed="#L" n="99"/>dubium occurrit, an contumelia distinguatur in plures 
+spe<lb break="no" ed="#L" n="100"/>cies: seu, distinguatur specie ab improperio et convicio. Et
+<lb ed="#L" n="101"/>est ratio dubii quia distinctio specifica attenditur penes
+<lb ed="#L" n="102"/>obiectum, quod est materia circa quam, Constat autem ha
+<lb ed="#L" n="103"/>littera quod defectus culpae est materia contumeliae;
+<lb ed="#L" n="104"/>fectus communiter est materia convicii; defectus 
+praeter<lb break="no" ed="#L" n="105"/>itae indigentiae est materia improperii. Rursus, defectus 
+cul<lb break="no" ed="#L" n="106"/>pae maximam habet diversitatem specificam: ut patet de
+<lb ed="#L" n="107"/>diversitate vitiorum. - In oppositum autem est quod.
+<lb ed="#L" n="108"/>consuevit Auctor praeterire specificam distinctionem. yos
+<lb ed="#L" n="109"/>rum in hoc opere, ubi descendit usque ad speci
+<lb ed="#L" n="110"/>moralium: alioquin non esset ultimus moralium liber. -
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e351">
+                  <lb ed="#L" n="111"/>Ad hoc dicitur quod procul dubio contumelia unius
+<lb ed="#L" n="112"/>est speciei specialissimae, ex unitate honoris, contra quem
+<lb ed="#L" n="113"/>tendit, specificam unitatem habens: sicut detractio ex 
+uni<lb break="no" ed="#L" n="114"/>tate famae. Huius autem signum manifestum est quod
+<lb ed="#L" n="115"/>idem defectus culpae spectat ad detractionem et 
+contume<lb break="no" ed="#L" n="116"/>liam: potest enim quis et detrahendo et contumeliando
+<lb ed="#L" n="117"/>defectum adulterii, furti, etc., dicere. Habent ergo se omnes
+<lb ed="#L" n="118"/>defectus qui dicuntur ad haec vitia non ut materia circa
+<lb ed="#L" n="119"/>quam formaliter versantur, sed materialiter. Et propterea i:
+<lb ed="#L" n="120"/>non variant species: sed secundum diversitatem finium ad
+<lb ed="#L" n="121"/>quos ordinantur, puta dehonorationis vel infamiae, ad 
+di<lb break="no" ed="#L" n="122"/>versas species moralium vitiorum reducuntur, et 
+uniun<lb break="no" ed="#L" n="123"/>tur, etc. Omnes siquidem defectus quatenus honorem 
+lae<lb break="no" ed="#L" n="124"/>dunt, unius sunt rationis, et ad contumeliam spectant:
+<lb ed="#L" n="125"/>quatenus famam minuunt aut auferunt, unius alterius sunt
+<lb ed="#L" n="126"/>rationis, et ad detractionem pertinent. Est tamen in sue
+<lb ed="#L" n="127"/>que, cum unitate speciei, diversitas graduum secundum
+<lb ed="#L" n="128"/>magis et minus: dum unus defectus magis dehonorat aut
+<lb ed="#L" n="129"/>infamat quam alius, ut patet. - Et per hoc patet solutio
+<lb ed="#L" n="130"/>obiectorum: omnes enim defectus quatenus dehonorant,
+<lb ed="#L" n="131"/>unius sunt speciei, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1644-Dd1e400"><!-- caj-p2p2-q72a2" -->
+               <head xml:id="TAcCaj-d1e1644-Hd1e403">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1644-d1e405">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="97" type="fixed=129"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e412">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>In articulo secundo eiusdem quaestionis 
+septuagesimaese<lb break="no" ed="#L" n="99"/>cundae, diligenter discerne non solum inter contumeliam
+<lb ed="#L" n="100"/>formaliter et materialiter, ex intentione dehonorandi; sed
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="101"/>etiam latitudinem tam contumeliae formalis quam 
+mate<lb break="no" ed="#L" n="102"/>rialiss. Nam contumelia formalis, scilicet ex animo 
+deho<lb break="no" ed="#L" n="103"/>norandi procedens, licet ex suo genere sit peccatum mor-
+<pb ed="#L" n="130"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tale, propter imperfectionem tamen actus quandoque est 
+<lb ed="#L" n="2"/>venialis: quando scilicet vel est imperfectio ex parte. 
+ho<lb break="no" ed="#L" n="3"/>noris, puta cum intendit non nisi parum dehonorare (quod 
+<lb ed="#L" n="4"/>Auctor vocat, in responsione ad tertium, /eviter. 
+contri<lb break="no" ed="#L" n="5"/>stare), modicum enim pro nihilo reputatur; vel est 
+imper<lb break="no" ed="#L" n="6"/>fectio ex parte intentionis, puta cum ex levi ira prorumpit  
+<lb ed="#L" n="7"/>in verbum contumeliosum, non ex consensu dehonorandi. 
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e451">
+                  <lb ed="#L" n="8"/>Materialis autem contumelia non est ex se mortalis;  
+<lb ed="#L" n="9"/>sed posset esse mortalis ex damno quod inferret proximo.  
+<lb ed="#L" n="10"/>Unde quantumcumque excessivam contumeliam in aliquem 
+<lb ed="#L" n="11"/>dicerem non animo iniuriandi, si propterea non 
+damnifi<lb break="no" ed="#L" n="12"/>catur ille in honore, non pecco mortaliter peccato 
+contu<lb break="no" ed="#L" n="13"/>meliae. Ín istis enim: peccatis materialiter et per accidens  
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="14"/>non est mirum si iudicamus ex materiali et per accidens
+<lb ed="#L" n="15"/>damno. Et propterea in littera dicitur quod, per 
+incaute<lb break="no" ed="#L" n="16"/>lam prolatum, auferret honorem eius etc.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e475">
+                  <lb ed="#L" n="17"/>Et adverte hic quod contumelias quas praelati 
+obiur<lb break="no" ed="#L" n="18"/>gando proferre possunt, licet ut materiam virtutis assumant,
+<lb ed="#L" n="19"/>et in littera dicatur quod raro et ex magna necessitate 
+di<lb break="no" ed="#L" n="20"/>cere debeant; tutius tamen mihi videtur quod nunquam,
+<lb ed="#L" n="21"/>nisi Spiritu Sancto suggerente, dicantur. Quoniam 
+reprae<lb break="no" ed="#L" n="22"/>sentatur subditis quod non ex caritate, sed ex. passione
+<lb ed="#L" n="23"/>procedant: fiuntque deteriores, son suscipientes. 
+discipli<lb break="no" ed="#L" n="24"/>nam; leviusque verbera. quam. contumeliosa verba 
+susci<lb break="no" ed="#L" n="25"/>piunt. Unde <ref xml:id="TAcCaj-d1e1644-Rd1e496">Tullius, in libro de Offic.</ref>: Omnis 
+animad<lb break="no" ed="#L" n="26"/>versio et castigatio contumelia vacare debet.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1644-Dd1e502"><!-- caj-p2p2-q72a3" -->
+               <head xml:id="TAcCaj-d1e1644-Hd1e505">Articulus 3</head>
+               <p xml:id="TAcCaj-d1e1644-d1e507">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="101" type="fixed=130"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e514">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="102"/>IN articulo tertio eiusdem septuagesimaesecundae. quae- 
+<lb ed="#L" n="103"/>stionis, exerce teipsum sic in caritatis ac mansuetudinis 
+<lb ed="#L" n="104"/>praeceptis ut scias. quando et ubi oportet uti utroque prae- 
+<lb ed="#L" n="105"/>cepto Spiritus Sancti in uno eodemque capitulo, scilicet: 
+<lb ed="#L" n="106"/>Responde stulto iuxta stultitiam. suam, ne sibi sapiens vi- 
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="107"/>deatur; et, Ne respondeas stulto iuxta stultitiam suam,
+<lb ed="#L" n="108"/>xe ei similis efficiaris. Qui primo vult uti praecepto, 
+at<lb break="no" ed="#L" n="109"/>tendat intra se si ad hoc movetur ex caritate fraterna, qua
+<lb ed="#L" n="110"/>malum: proximi tolerare non potest, ut scilicet se 
+sapien<lb break="no" ed="#L" n="111"/>tem reputet: an. movetur potius ut ipse respondens sapiens
+<pb ed="#L" n="131"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>videatur aut bonus, aut non malus, etc. Si enim non 
+pro<lb break="no" ed="#L" n="2"/>pter proximi caritatem respondet, frustra se illa auctoritate 
+<lb ed="#L" n="3"/>excusat. Et quo pacto iactat se aliquis fraterna caritate 
+<lb ed="#L" n="4"/>moveri ad respondendum. qui. alia mala eiusdem
+<lb ed="#L" n="5"/>proximi, et forte graviora, novit, nec curat ei subvenire?
+<lb ed="#L" n="6"/>Qui autem tanta se non flagrare caritate cognoscit, 
+man<lb break="no" ed="#L" n="7"/>suetusque tacet, ne et ipse peccet respondendo, optime
+<lb ed="#L" n="8"/>sibi consulit.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e564">
+                  <lb ed="#L" n="9"/>II. Circa reparationem contumeliae iam illatae dubium.
+<lb ed="#L" n="10"/>occurrit, an teneatur ad petendam veniam ab iniuriato is qui
+<lb ed="#L" n="11"/>contumeliam in eum protulit. Et est ratio dubii quia 
+Au<lb break="no" ed="#L" n="12"/>gustinus in Regula mandat hoc fieri. Et quidam dicunt
+<lb ed="#L" n="13"/>ad hoc teneri. — In. oppositum autem est quia sicut in
+<lb ed="#L" n="14"/>aliis iniuriis sufficit restituere, et non opone aliter petere
+<lb ed="#L" n="15"/>veniam, ita nec in contumelia.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e582">
+                  <lb ed="#L" n="16"/>Ad hoc dicitur quod quia iniuria emendatur lli enter
+<lb ed="#L" n="17"/>per reductionem ad aequalitatem, quam facit restitutio ,.
+<lb ed="#L" n="18"/>non tenetur contumeliosus ad aliud proximo exhibendum
+<lb ed="#L" n="19"/>quam restitutionem. Unde quomodocumque restituat. ei
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="20"/>honorem quem abstulit, reverentiam exhibendo vel aliter,
+<lb ed="#L" n="21"/>satisfecit, nec ad aliud tenetur. Nec aliud docuit 
+Augusti<lb break="no" ed="#L" n="22"/>nus, cum expresse dicat: Quicumque convicio vel maledicto
+<lb ed="#L" n="23"/>aliquem. laeserit , meminerit . satisfactione quantocius 
+cu<lb break="no" ed="#L" n="24"/>rare quod fecit. Praecepit ergo in primis satisfactionem ,
+<lb ed="#L" n="25"/>quam restitutio importat. Sed quia in religiosis debet 
+abun<lb break="no" ed="#L" n="26"/>dantior esse iustitia, modus satisfaciendi abundantioris 
+hu<lb break="no" ed="#L" n="27"/>militatis datus est. Et idcirco ad petitionem veniae modum
+<lb ed="#L" n="28"/>restitutionis determinavit: est namque in petititione veniae
+<lb ed="#L" n="29"/>maxima hominis a quo petitur honoratio.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e618">
+                  <lb ed="#L" n="30"/>Doctores autem dicentes teneri hominem ad veniam 
+pe<lb break="no" ed="#L" n="31"/>tendam, exponendi sunt, quando non potest aliter 
+restitu<lb break="no" ed="#L" n="32"/>tionem facere. Unde sanctus Thomas superius, in qu. rxit,
+<lb ed="#L" n="33"/>art. 2, ad 3, dicit quod restitutio honoris ablati per 
+con<lb break="no" ed="#L" n="34"/>tumeliam fit per: exhibitionem reverentiae. Satisfactio ergo
+<lb ed="#L" n="35"/>est in praecepto, non modus satisfaciendi.
+</p>
+               <p xml:id="TAcCaj-d1e1644-d1e634">
+                  <lb ed="#L" n="36"/>Et haec etiam pro quarto septuagesimaesecundae 
+quae<lb break="no" ed="#L" n="37"/>stionis articulo sufficiant.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 120</title>
+            <author ref="#ThomasCajetan">Thomas Cajetan</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 120</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="468"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAcCaj-d1e1892"><!-- TAcCajp2p2-q120" -->
+            <head xml:id="TAcCaj-d1e1892-Hd1e101">Quaestio 120</head>
+            <div xml:id="TAcCaj-d1e1892-Dd1e103"><!-- caj-p2p2-q120a1" -->
+               <head xml:id="TAcCaj-d1e1892-Hd1e106">Articulus 1</head>
+               <p xml:id="TAcCaj-d1e1892-d1e108">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="76" type="fixed=468"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e115">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="77"/>IN quaestione centesimavigesima, nota primo quod quid
+<lb ed="#L" n="78"/>epieikeiae, seu aequitatis, ut latine loquamur in 
+lin<lb break="no" ed="#L" n="79"/>gua latina. Ut enim ex <ref xml:id="TAcCaj-d1e1892-Rd1e125">V Ethic.</ref> patet, aequitas est 
+dire<lb break="no" ed="#L" n="80"/>ctio legis ubi deficit propter universale. Dicitur in primis,
+<lb ed="#L" n="81"/>directio: quia consistit actus eius in hoc quod est 
+recti<lb break="no" ed="#L" n="82"/>ficare et rectum facere opus. - Dicitur, legis, tam positi-
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="83"/>vae quam naturalis: universalis tamen, et defectivae in 
+ali<lb break="no" ed="#L" n="84"/>quibus. - Dicitur, ubi deficit: ad monstrandam propriam
+<lb ed="#L" n="85"/>materiam aequitatis esse actus illos in quibus lex deficit. 
+<lb ed="#L" n="86"/>Dicitur, propter universale: quia causa defectus eius, ad
+<lb ed="#L" n="87"/>hoc ut aequitas habeat locum, non est quaecumque, sed
+<lb ed="#L" n="88"/>sola ista, scilicet si propter universale deficit; hoc est, si
+<pb ed="#L" n="469"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ideo deficit quia quod universaliter statutum est in hoc
+<lb ed="#L" n="2"/>particulari easu deficit.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e159">
+                  <lb ed="#L" n="3"/>II. Ad quorum pleniorem intellectum, scire oportet
+<lb ed="#L" n="4"/>quod lex positiva continet duo genera statutorum: 
+quae<lb break="no" ed="#L" n="5"/>dam quae vocantur et sunt iuris positivi, quae, scilicet, a
+<lb ed="#L" n="6"/>principio nihil differt sic vel aliter statuere, ut quod
+<lb ed="#L" n="7"/>omines sic vel aliter vestiantur, et huiusmodi; quaedam
+<lb ed="#L" n="8"/>vero quae vocantur iuris naturae seu gentium, quae lex
+<lb ed="#L" n="9"/>positiva magis monstrat quam statuat.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e177">
+                  <lb ed="#L" n="10"/>Haec autem quae ad naturale ius spectant, sunt duorum
+<lb ed="#L" n="11"/>ordinum. Nam quaedam sic sunt universaliter vera ut in
+<lb ed="#L" n="12"/>nullo casu deficiant: ut non esse mentiendum, non esse
+<lb ed="#L" n="13"/>adulterium perpetrandum, et huiusmodi. Et in istis, quia
+<lb ed="#L" n="14"/>deficere nequeunt, nullum locum habet aequitas. — 
+Quae<lb break="no" ed="#L" n="15"/>dam vero sunt quae ut in pluribus rectitudinem continent,
+<lb ed="#L" n="16"/>in aliquo tamen casu a rectitudine declinarent si 
+serva<lb break="no" ed="#L" n="17"/>rentur. Ut, deposita reddenda esse rectum est ut in 
+plu<lb break="no" ed="#L" n="18"/>ribus: quia tamen quandoque, si redderetur depositum, esset
+<lb ed="#L" n="19"/>iniquum, oportuit aliquod aliud directivum inveniri horum
+<lb ed="#L" n="20"/>operum in quibus lex naturalis depositorum deficit. Et
+<lb ed="#L" n="21"/>hoc directivum vocatur virtus aequitatis.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e207">
+                  <lb ed="#L" n="22"/>Et similiter in statutis quae sunt pure positivi iuris,
+<lb ed="#L" n="23"/>oportet simile directivum adesse. Quoniam leges de 
+sin<lb break="no" ed="#L" n="24"/>gularibus singulariter, utpote ignotis, non dantur: sed 
+opor<lb break="no" ed="#L" n="25"/>tet quod de singularibus universaliter dentur; puta quod
+<lb ed="#L" n="26"/>quicumque ascendit sine licentia muros: civitatis, 
+decapi<lb break="no" ed="#L" n="27"/>tetur, et sic de aliis. Contingunt autem singulares casus
+<lb ed="#L" n="28"/>in quibus huiusmodi leges deficiunt, ita quod iniquum
+<lb ed="#L" n="29"/>esset eas servare: utpote si hostes subito invadunt 
+civita<lb break="no" ed="#L" n="30"/>tem, et per subitum ascensum eorum qui sunt intus 
+po<lb break="no" ed="#L" n="31"/>test auxilium ferri et salvari; decernit siquidem aequitas
+<lb ed="#L" n="32"/>in hoc casu non esse legem servandam. Et in his actibus
+<lb ed="#L" n="33"/>ipsa aequitas dirigit.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e236">
+                  <lb ed="#L" n="34"/>Patet ergo quod utriusque legis, scilicet pure positivae
+<lb ed="#L" n="35"/>et naturalis defectivae, aequitas directio est in his 
+operi<lb break="no" ed="#L" n="36"/>bus in quibus deficiunt non quomodolibet, sed propter
+<lb ed="#L" n="37"/>universaliter esse positas. Nam si deficeret lex in casu 
+ali<lb break="no" ed="#L" n="38"/>quo propter privilegium aliter praecipiens quam lex 
+com<lb break="no" ed="#L" n="39"/>munis, non spectat directio actuum privilegii ad 
+aequita<lb break="no" ed="#L" n="40"/>tem: quoniam non deficit tunc lex propterea quia erat
+<lb ed="#L" n="41"/>universalis, sed quia legislator derogavit legi quoad hos
+<lb ed="#L" n="42"/>privilegiatos. Et simile est si ex quacumque alia causa lex
+<lb ed="#L" n="43"/>deficiat: nunquam enim spectat directio ad aequitatem nisi
+<lb ed="#L" n="44"/>deficiat propter universale.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e262">
+                  <lb ed="#L" n="45"/>Et propterea non spectat ad aequitatem si lex propter
+<lb ed="#L" n="46"/>obscuritatem aut ambiguitatem sensuum deficiat, aut 
+de<lb break="no" ed="#L" n="47"/>ficere dubitetur. Interpretari enim leges auctoritative 
+spe<lb break="no" ed="#L" n="48"/>ctat ad principem: doctrinaliter autem, ad legisperitos. 
+Pro<lb break="no" ed="#L" n="49"/>pter quod in littera dicitur, in articulo primo, in 
+respon<lb break="no" ed="#L" n="50"/>sione ad tertium, quod aequitas non habet locum nisi ubi
+<lb ed="#L" n="51"/>manifeste deficit lex, ubi non consultatione, sed executione
+<lb ed="#L" n="52"/>opus est. Et hoc bene notent sapientes in oculis suis qui
+<lb ed="#L" n="53"/>etiam quae iuris sunt divini interpretari praesumunt in casu
+<lb ed="#L" n="54"/>non esse intelligenda, et dicunt se uti epieikeia. Non enim
+<lb ed="#L" n="55"/>aequitatis est interpretari an in hoc casu servanda sit lex:
+<lb ed="#L" n="56"/>sed, ubi manifeste lex deficit propter universale, dirigere.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e291">
+                  <lb ed="#L" n="57"/>III. Diligentissime quoque notandum est quod non de
+<lb ed="#L" n="58"/>quocumque defectu legis propter universale est sermo in
+<lb ed="#L" n="59"/>hac definitione Aristotelis, sed de defectu obliquitatis. 
+Du<lb break="no" ed="#L" n="60"/>pliciter namque contingit deficere legem propter universale:
+<lb ed="#L" n="61"/>scilicet negative, vel contrarie. Deficit siquidem lex 
+pro<lb break="no" ed="#L" n="62"/>pter universale negative tantum, quando accidit casus in
+<lb ed="#L" n="63"/>quo cessat ratio legis, ac per hoc videtur quod lex in illo
+<lb ed="#L" n="64"/>casu non obliget, si tamen servetur lex, nihil mali, nihil
+<lb ed="#L" n="65"/>inordinati committitur. Verbi gratia, lata est lex ut quilibet
+<lb ed="#L" n="66"/>tali die sacrificet ut satisfaciat pro peccatis suis: accidit ut
+<lb ed="#L" n="67"/>unus sciat certe tunc se satisfecisse pro peccatis suis. 
+De<lb break="no" ed="#L" n="68"/>ficit tunc lex in hoc particulari propter universale: deficit
+<lb ed="#L" n="69"/>autem defectu pure negativo, quia cessat ratio legis in illo,
+<lb ed="#L" n="70"/>et propterea creditur legem non habere vim obligativam re-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="71"/>spectu illius, et quod si legislator adesset certus de hoc,
+<lb ed="#L" n="72"/>non obligaret illum; si tamen ille legem servaret, nihil
+<lb ed="#L" n="73"/>mali, nihil inordinati committeret servando illam; ut patet
+<lb ed="#L" n="74"/>de Domino Iesu Christo, qui servavit circumcisionis legem
+<lb ed="#L" n="75"/>in seipso; et similiter Beata Virgo legem praesentationis 
+<lb ed="#L" n="76"/>in templo. — Contrarie autem deficit lex propter 
+univer<lb break="no" ed="#L" n="77"/>sale, quando evenit casus in quo non solum cessat ratio
+<lb ed="#L" n="78"/>legis, sed inique ageretur servando legem: ut patet in lege
+<lb ed="#L" n="79"/>de reddendis depositis, si redderentur poscenti ad 
+impu<lb break="no" ed="#L" n="80"/>gnandum patriam; et de lege non ascendendi moenia 
+civi<lb break="no" ed="#L" n="81"/>tatis, si non ascendendo permitteret civitatem capi; et aliis
+<lb ed="#L" n="82"/>huiusmodi, in quibus servare legem esset a recto deviare.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e352">
+                  <lb ed="#L" n="83"/>Cum igitur propter universale lex deficit contrarie, tunc
+<lb ed="#L" n="84"/>aequitas directio legis est, ne ad obliqua deducat. Quando
+<lb ed="#L" n="85"/>autem deficit pure negative, non spectat ad aequitatem
+<lb ed="#L" n="86"/>ordinare actus illos, sed servanda est lex ipsa. Quoniam
+<lb ed="#L" n="87"/>secundum veritatem, vim obligativam non perdit ex eo
+<lb ed="#L" n="88"/>quod ratio legis cessat propter universale: sed hoc ex 
+na<lb break="no" ed="#L" n="89"/>tura universalis in humanis operationibus contingit, 
+quo<lb break="no" ed="#L" n="90"/>niam scilicet non est quandoque totaliter universale, quin
+<lb ed="#L" n="91"/>aliquando deficiat.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e374">
+                  <lb ed="#L" n="92"/>IV. Probatur autem tripliciter materiam aequitatis non
+<lb ed="#L" n="93"/>esse nisi actus qui obliqui essent si lex servaretur 
+univer<lb break="no" ed="#L" n="94"/>saliter. Primo, ostensive, ex ratione ipsius virtutis quae
+<lb ed="#L" n="95"/>vocatur aequitas. Cum enim sit iustitia quaedam, ut in
+<lb ed="#L" n="96"/>littera et in V Ethic. patet; et iustitia virtus 
+neces<lb break="no" ed="#L" n="97"/>saria homini sit ad hoc ut virtuosus sit: consequens est 
+<lb ed="#L" n="98"/>ut materia eius, sicut et aliarum specierum iustitiae, sit
+<lb ed="#L" n="99"/>operatio illa quae sine ipsius directione recta non esset.
+<lb ed="#L" n="100"/>Videmus autem quod commutationes sine commutativa
+<lb ed="#L" n="101"/>iustitia, distributiones sine distributiva, recte non fierent.
+<lb ed="#L" n="102"/>Operationes igitur illae quae obliquarent a recto servando
+<lb ed="#L" n="103"/>legem universalem, sunt propria materia aequitatis, et 
+pro<lb break="no" ed="#L" n="104"/>pter eas solas necessaria est directio. Et propter hoc 
+me<lb break="no" ed="#L" n="105"/>rito vocata est a Philosophorum principe directio legis: '
+<lb ed="#L" n="106"/>non enim eget directione lex nisi ubi a rectitudine cadit,
+<lb ed="#L" n="107"/>ubi a recto abduceret.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e412">
+                  <lb ed="#L" n="108"/>Secundo probatur, ducendo ad inconveniens. Nam si
+<lb ed="#L" n="109"/>ad aequitatem spectaret dirigere ea in quibus lex pure 
+ne<lb break="no" ed="#L" n="110"/>gative deficit propter universale, sequeretur et quod 
+sim<lb break="no" ed="#L" n="111"/>plex fornicatio quandoque esset aequa, et quod multa alia
+<lb ed="#L" n="112"/>crimina quandoque essent iusta et sancta. Declaratur 
+se<lb break="no" ed="#L" n="113"/>quela in simplici fornicatione. Legis namque ratio in 
+sim<lb break="no" ed="#L" n="114"/>plici forrficatione est bonum prolis, non generationis, sed
+<lb ed="#L" n="115"/>educationis, institutionis , curae et huiusmodi, propter
+<lb ed="#L" n="116"/>quae oportet coniugali copula iungi marem et feminam in
+<lb ed="#L" n="117"/>humanis, ne scilicet proles fornicarie nata privetur tali bono,
+<lb ed="#L" n="118"/>seu incurrat tale damnum, ut in <ref xml:id="TAcCaj-d1e1892-Rd1e438">III Contra Gent., cap. cxxir,
+<lb ed="#L" n="119"/>Auctor</ref> dicit. Huiusmodi autem legis ratio potest in casu
+<lb ed="#L" n="120"/>aliquo cessare: puta si utraque pars carnalis copulae sit
+<lb ed="#L" n="121"/>sui iuris et dives, et provisionem omnem proli 
+necessa<lb break="no" ed="#L" n="122"/>riam ordinent, etc. Et consequenter in tali casu licita esset
+<lb ed="#L" n="123"/>talis copula carnalis soluti cum soluta. Quod constat esse
+<lb ed="#L" n="124"/>falsum: quoniam essent fornicari, de quibus dicitur ad
+<lb ed="#L" n="125"/>Gal. v, quod regnum Dei non possidebunt. Adimplenda :
+<lb ed="#L" n="126"/>est ergo lex universalis etiam si ratio legis cessat in casu
+<lb ed="#L" n="127"/>aliquo, dummodo ad obliqua non ducat in casu aliquo.
+<lb ed="#L" n="128"/>Nam si ad obliqua in casu duceret, aequitate tunc opus
+<lb ed="#L" n="129"/>est, ne lex deducat ad malum, quod est contra legis 
+inten<lb break="no" ed="#L" n="130"/>tionem: si vero ad obliqua non ducat, licet in casu cesset
+<lb ed="#L" n="131"/>legis ratio, servanda est lex quae ex his quae ut in 
+pluri<lb break="no" ed="#L" n="132"/>bus inveniuntur statuta est sic ut nunquam ad obliqua.
+<lb ed="#L" n="133"/>declinet, ut inferius in <ref xml:id="TAcCaj-d1e1892-Rd1e473">qu. criv, art. 2, de fornicatione
+<lb ed="#L" n="134"/>Auctor</ref> dicit.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e479">
+                  <lb ed="#L" n="135"/>Tertio, probatur auctoritate. Nam in <ref xml:id="TAcCaj-d1e1892-Rd1e483">III Sent., dist. xxxvii,
+<lb ed="#L" n="136"/>qu. r, art. 4</ref>, distinguit Auctor inter casum in quo, salva
+<lb ed="#L" n="137"/>intentione legis, possunt praecepta praeteriri, a casu in quo
+<lb ed="#L" n="138"/>lex a legis intentione discederet, dicens quod in primo
+<lb ed="#L" n="139"/>casu opus est dispensatione, in secundo autem non, sed
+<lb ed="#L" n="140"/>epieikeia ad hoc perficit.
+</p>
+            </div>
+            <div xml:id="TAcCaj-d1e1892-Dd1e499"><!-- caj-p2p2-q120a2" -->
+               <head xml:id="TAcCaj-d1e1892-Hd1e502">Articulus 2</head>
+               <p xml:id="TAcCaj-d1e1892-d1e504">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="72" type="fixed=470"/>Commentaria Cardinalis Caietani
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e511">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>In articulo secundo eiusdem quaestionis dubium 
+occur<lb break="no" ed="#L" n="74"/>rit circa illud: Justitia dicitur per prius de aequitate
+<lb ed="#L" n="75"/>quam de. legali iustitia; et circa illius rationem: Nam 
+Ie<lb break="no" ed="#L" n="76"/>galis iustitia dirigitur secundum aequitatem. Videtur
+<lb ed="#L" n="77"/>namque utrumque. falsum. Primum quidem, quia legalis
+<lb ed="#L" n="78"/>iustitia nobilior est omnibus moralibus virtutibus, ut dicitur
+<lb ed="#L" n="79"/>in <ref xml:id="TAcCaj-d1e1892-Rd1e530">V Ethic.</ref>: adeo quod neque <name xml:id="TAcCaj-d1e1892-Nd1e532">Hesperus</name> neque <name xml:id="TAcCaj-d1e1892-Nd1e534">Lucifer</name>
+                  <lb ed="#L" n="80"/>est ita admirabilis sicut iustitia legalis. Ac per hoc, per
+<lb ed="#L" n="81"/>prius iustitia dicitur de legali quam de aequitate.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e542">
+                  <lb ed="#L" n="82"/>Secundum vero, quia aequitas non est directio legis,
+<lb ed="#L" n="83"/>seu legalis iustitiae, absolute, sed in paucioribus, in 
+qui<lb break="no" ed="#L" n="84"/>bus deficit propter universale, ut in <ref xml:id="TAcCaj-d1e1892-Rd1e550">V Ethic.</ref> dicitur. Ex
+<lb ed="#L" n="85"/>hoc autem quod aequitas in casu dirigit legalem iustitiam,
+<lb ed="#L" n="86"/>non sequitur quod simpliciter et absolute dirigat illam,
+<lb ed="#L" n="87"/>sed secundum quid tantum. Et consequenter non 
+sequi<lb break="no" ed="#L" n="88"/>tur; quod sit nobilior illa simpliciter, sed secundum quid.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e562">
+                  <lb ed="#L" n="89"/>II. In eodem articulo secundo, in responsione ad pri-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="90"/>mum, occurrit aliud dubium, circa distinctionem iustitiae
+<lb ed="#L" n="91"/>legalis et aequitatis. Nam male sonat quod iustitia 
+lega<lb break="no" ed="#L" n="92"/>lis, distincta contra aequitatem, obtemperet legi quantum
+<lb ed="#L" n="93"/>ad verba legis tantum. Quoniam in <ref xml:id="TAcCaj-d1e1892-Rd1e577">V Ethic.</ref> expresse 
+dis<lb break="no" ed="#L" n="94"/>tinguitur aequitas contra iustitiam legalem penes id quod j?
+<lb ed="#L" n="95"/>est ut in pluribus, et id quod in casu accidit. Constat autem
+<lb ed="#L" n="96"/>quod iustitia ut in pluribus non solum verba, sed 
+inten<lb break="no" ed="#L" n="97"/>tionem attendit: ut patet in reddendo depositum, quod
+<lb ed="#L" n="98"/>pertinet ad iustitiam legalem; reddit namque quis 
+depo<lb break="no" ed="#L" n="99"/>situm ut bonum et iustum servet, quod est intentio legis.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e594">
+                  <lb ed="#L" n="100"/>III. In eodem articulo dubium tertium occurrit, circa
+<lb ed="#L" n="101"/>illud: Aequitas est quasi superior regula humanorum
+<lb ed="#L" n="102"/>actuum. Tum quia regula humanorum actuum ut in 
+plu<lb break="no" ed="#L" n="103"/>ribus non est inferior regula eorundem ut in paucioribus.
+<lb ed="#L" n="104"/>Aequitas autem est regula in paucioribus: iustitia legalis
+<lb ed="#L" n="105"/>ut in pluribus. Ergo.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e610">
+                  <lb ed="#L" n="106"/>Tum quia superior regula debet sumi ex superiori causa.
+<pb ed="#L" n="471"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Aequitas autem et iustitia legalis non sic se habent quod
+<lb ed="#L" n="2"/>respiciant duos fines, scilicet superiorem et inferiorem, sed
+<lb ed="#L" n="3"/>respiciunt eundem finem: «ut patet in lege ne peregrini
+<lb ed="#L" n="4"/>ascendant moenia civitatis, et in lege depositorum. Nam
+<lb ed="#L" n="5"/>finis legis ibi est salus civitatis, ne peregrini noceant: 
+ac<lb break="no" ed="#L" n="6"/>cidente autem casu quo perderetur civitas nisi peregrini
+<lb ed="#L" n="7"/>ascenderent moenia, finis aequitatis est etiam salus 
+civi<lb break="no" ed="#L" n="8"/>tatis, Et similiter reddendi depositum finis est bonum utile
+<lb ed="#L" n="9"/>domini: in casu autem quo furiosus est, aequitas negat
+<lb ed="#L" n="10"/>depositum ex eodem fine, quia scilicet esset ei nocivum
+<lb ed="#L" n="11"/>tunc habere gladium. Non est ergo aequitas superior 
+re<lb break="no" ed="#L" n="12"/>gula humanorum actuum.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e645">
+                  <lb ed="#L" n="13"/>IV. Ad haec dubia ordine retrogrado respondendo, dicitur
+<lb ed="#L" n="14"/>ad tertium quod quemadmodum in intellectu practico
+<lb ed="#L" n="15"/>iudicativo respectu singularium agibilium, positae sunt duae
+<lb ed="#L" n="16"/>virtutes, scilicet synesis et gnome, quarum prima 
+secun<lb break="no" ed="#L" n="17"/>dum communes regulas est recte iudicativa de agibilibus
+<lb ed="#L" n="18"/>occurrentibus, altera autem est recte iudicativa de 
+agibi<lb break="no" ed="#L" n="19"/>libus occurrentibus praeter communes regulas: ita in parte
+<lb ed="#L" n="20"/>appetitiva est duplex iustitia, una inclinativa ad iustum
+<lb ed="#L" n="21"/>secundum leges communes, et haec vocatur iustitia legalis ;
+<lb ed="#L" n="22"/>altera a inclinativa ad iustum extra communes leges, et haec
+<lb ed="#L" n="23"/>vocatur aequitas. Et quemadmodum illae quae ad 
+iudi<lb break="no" ed="#L" n="24"/>candum. perficiunt sic se habent. quod iudicans praeter
+<lb ed="#L" n="25"/>communes regulas ad altiora respicit principia quam 
+iu<lb break="no" ed="#L" n="26"/>dicans secundum communes leges, ut <ref xml:id="TAcCaj-d1e1892-Rd1e677">superius in qu. LI
+<lb ed="#L" n="27"/>art. 4, Auctor</ref> dixit: ita istae quae ad volendum perficiunt 
+<lb ed="#L" n="28"/>proportionaliter se habent sic quod iustitia legalis 
+infe<lb break="no" ed="#L" n="29"/>riores sortitur fines, et aequitas superiores; fines enim 
+ap<lb break="no" ed="#L" n="30"/>petibilium principia appetendi et operandi sunt.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e690">
+                  <lb ed="#L" n="31"/>Unde ad primam obiectionem dicitur quod falsum 
+as<lb break="no" ed="#L" n="32"/>sumitur: ut clare in loco allegato Auctor dixit.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e697">
+                  <lb ed="#L" n="33"/>Ad secundam autem, negatur minor. Et ad 
+exempla<lb break="no" ed="#L" n="34"/>rem probationem dicitur quod etiam in istis exemplis patet 
+<lb ed="#L" n="35"/>propositum nostrum. Nam in lege peregrinorum finis 
+pro<lb break="no" ed="#L" n="36"/>ximus est securitas civitatis a peregrinis; finis autem 
+ae<lb break="no" ed="#L" n="37"/>quitatis in casu est salus civitatis: constat autem quod
+<lb ed="#L" n="38"/>altior finis est salus civitatis quam securitas a peregrinis,
+<lb ed="#L" n="39"/>quia securitas ista ordinatur ad salutem civitatis ut ad |
+<lb ed="#L" n="40"/>finem. Et similiter in lege depositorum finis proximus est |
+<lb ed="#L" n="41"/>ut cuique suum reddatur; finis autem aequitatis negantis
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="42"/>in casu est utile, quia scilicet in casu hoc illud suum non
+<lb ed="#L" n="43"/>est illi utile, sed nocivum: constat autem quod altior finis
+<lb ed="#L" n="44"/>est dare alicui suum utile quam suum; quia ideo datur
+<lb ed="#L" n="45"/>alicui suum ut sit utile, datur enim sub ratione finali boni
+<lb ed="#L" n="46"/>utilis. Habet ergo se aequitas ad iustitiam legalem quasi
+<lb ed="#L" n="47"/>regula superior, quia nomen regulae ad partem 
+cognosci<lb break="no" ed="#L" n="48"/>tivam spectare videtur: est tamen vere superior, quia 
+su<lb break="no" ed="#L" n="49"/>periorem intendit finem.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e739">
+                  <lb ed="#L" n="50"/>V. Ad secundum dubium dicitur quod cum in littera
+<lb ed="#L" n="51"/>distinguitur lex quantum ad verba tantum, et quantum ad
+<lb ed="#L" n="52"/>intentionem, intelligitur distingui intentio extrinseca contra
+<lb ed="#L" n="53"/>verba cum sua intrinseca intentione: ita quod verba et
+<lb ed="#L" n="54"/>finis eorum intrinsecus sunt unum membrum, et finis 
+ex<lb break="no" ed="#L" n="55"/>trinsecus est aliud membrum, ut patet in exemplis 
+expo<lb break="no" ed="#L" n="56"/>sitis. Verba enim legis depositi, scilicet, Reddenda sunt
+<lb ed="#L" n="57"/>deposita, cum suo intrinseco fine, scilicet, ut suum domino
+<lb ed="#L" n="58"/>reddatur, sunt unum membrum: et finis ulterior, quia,
+<lb ed="#L" n="59"/>scilicet, est illi bonum utile, est alterum membrum. Et sic
+<lb ed="#L" n="60"/>de aliis. Non excluditur ergo a verbis omnis finis, sed finis
+<lb ed="#L" n="61"/>extrinsecus. Unde patet solutio obiectionis.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e769">
+                  <lb ed="#L" n="62"/>VI. Ad primum dubium dicitur quod procul dubio
+<lb ed="#L" n="63"/>et secundum Auctorem et secundum Aristotelem, in V
+<lb ed="#L" n="64"/>Ethic., aequitas est praestantior iustitia legali limitata infra
+<lb ed="#L" n="65"/>communes leges. Dicitur enim expresse in V Ethic. quod
+<lb ed="#L" n="66"/>aequum est melius iusto quodam: et loquitur de iusto 
+se<lb break="no" ed="#L" n="67"/>cundum communes leges. Laus autem illa in prima 
+obie<lb break="no" ed="#L" n="68"/>ctione allata, de iustitia legali non limitata, sed extensa
+<lb ed="#L" n="69"/>ad aequitatis principia et comprehendente aequitatem ut
+<lb ed="#L" n="70"/>partem, accipienda est.
+</p>
+               <p xml:id="TAcCaj-d1e1892-d1e791">
+                  <lb ed="#L" n="71"/>Quod autem in secunda obiectione dicitur, dupliciter
+<lb ed="#L" n="72"/>solvitur. Primo, sustinendo quod aequitas, quoad sua 
+prin<lb break="no" ed="#L" n="73"/>cipia, est directio legis absolute et simpliciter, pro quanto
+<lb ed="#L" n="74"/>principia aequitatis sunt fines extrinseci legum altiores
+<lb ed="#L" n="75"/>finibus proximis ipsarum legum. —- Secundo, quod ex hoc
+<lb ed="#L" n="76"/>ipso quod aequitas est directio legis in casu quo obliquaret
+<lb ed="#L" n="77"/>propter universale, dato quod non sequatur, Ergo dirigit
+<lb ed="#L" n="78"/>legem simpliciter ; sequitur tamen, Ergo est simpliciter
+<lb ed="#L" n="79"/>nobilior ipsa legali iustitia: quia sequitur quod intendat
+<lb ed="#L" n="80"/>ad altiorem finem, ut ex dictis habes; ac per hoc, quod Num. rv.
+<lb ed="#L" n="81"/>sit simpliciter nobilior.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
