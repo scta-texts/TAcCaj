@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 127</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 127</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="50"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1928"><!-- TAcCajp2p2-q127 -->
+        <head xml:id="TAcCaj-d1e1928-Hd1e101">Quaestio 127</head>
+        <div xml:id="TAcCaj-d1e1928-Dd1e103"><!-- caj-p2p2-q127a2 -->
+          <head xml:id="TAcCaj-d1e1928-Hd1e106">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e1928-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="43" type="fixed=50"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1928-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="44"/>IN tota quaestione centesimavigesimaseptima duo tantum
+            <lb ed="#L" n="45"/>liba occurrunt, circa responsionem ad tertium secundi
+            <lb ed="#L" n="46"/>articuli. Primum est, an secundum rem inveniatur vitium
+            <lb ed="#L" n="47"/>defectus passionis audaciae, oppositum fortitudini propter
+            <lb ed="#L" n="48"/>defectum audaciae, et similiter oppositum vitio audaciae.
+          </p>
+          <p xml:id="TAcCaj-d1e1928-d1e131">
+            <lb ed="#L" n="49"/>Secundum  est, an Auctor in littera reddat rationem
+            <lb ed="#L" n="50"/>quod tale vitium. non invenitur simpliciter: aut, quare non
+            <lb ed="#L" n="51"/>inveniatur positum ab aliis.
+          </p>
+          <p xml:id="TAcCaj-d1e1928-d1e140">
+            <lb ed="#L" n="52"/>II. Ad horum evidentiam, sciendum est quod non 
+            ver<lb break="no" ed="#L" n="53"/>titur in dubium an inveniatur peccatum in audendo minus
+            <lb ed="#L" n="54"/>qüam oportet in materia fortitudinis. Quoniam hoc clarum
+            <lb ed="#L" n="55"/>est dari. Ita. quod constat quadruplex peccatum committi
+            <lb ed="#L" n="56"/>contra fortitudinis. actum : scilicet nimis timere, et nimis
+            <lb ed="#L" n="57"/>audere, parum seu nihil timere, et parum seu nihil audere.
+            <lb ed="#L" n="58"/>Sed in dubium vertitur an peccatum quod committitur 
+            defi<lb break="no" ed="#L" n="59"/>ciendo in audacia sit solum peccatum ex consequentia seu
+            <lb ed="#L" n="60"/>concomitantia ad excessum timoris: ita quod solum 
+            pec<lb break="no" ed="#L" n="61"/>cans directe et principaliter in nimis timendo, peccet ex
+            <lb ed="#L" n="62"/>consequenti in nihil aut parum audendo; et propterea tali
+            <lb ed="#L" n="63"/>peccato non audendi non assignetur proprium vitium; 
+            quo<lb break="no" ed="#L" n="64"/>niam his quae ex aliorum solum concomitantia fiunt, nec
+            <lb ed="#L" n="65"/>propria ars, nec propria idea, nec proprium generans, et
+            <lb ed="#L" n="66"/>consequenter nec proprium vitium assignatur, ut patet de
+            <lb ed="#L" n="67"/>subiecto et propria passione.
+          </p>
+          <p xml:id="TAcCaj-d1e1928-d1e178">
+            <lb ed="#L" n="68"/>III. Potest autem dubitatio ista dupliciter solvi. Primo,
+            <lb ed="#L" n="69"/>tenendo partem affirmativam, scilicet quod defectus 
+            auda<lb break="no" ed="#L" n="70"/>ciae solum contingit ex nimio timore: ut Auctor in hac
+            <lb ed="#L" n="71"/>littera sentire videtur, dum dicit quod motus audaciae, 
+            con<lb break="no" ed="#L" n="72"/>sistens in invadendo contrarium, quia sequitur 
+            inclinatio<lb break="no" ed="#L" n="73"/>nem naturalem qua unumquodque potens invadit suum
+            <lb ed="#L" n="74"/>contrarium, nisi per timorem impediatur, officium naturalis
+            <lb ed="#L" n="75"/>inclinationis exequitur; et propterea infert non inveniri 
+            vi<lb break="no" ed="#L" n="76"/>tium oppositum audaciae per defectum,
+          </p>
+          <p xml:id="TAcCaj-d1e1928-d1e200">
+            <lb ed="#L" n="77"/>IV. Sed quoniam defectus audaciae non solum ex nimio
+            <lb ed="#L" n="78"/>timore, sed ex parva vel nulla spe superandi contraria, mala
+            <lb ed="#L" n="79"/>quandoque fit (nam sicut spes est causa audaciae, ita 
+            de<lb break="no" ed="#L" n="80"/>fectus spei est causa defectus audaciae); ideo aliter 
+            dubita<lb break="no" ed="#L" n="81"/>tio haec solvitur tenendo partem negativam, et dicendo : —
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="82"/>Sicut datur quadruplex peccatum contra actum 
+            fortitudi<lb break="no" ed="#L" n="83"/>nis, ita et quadruplex vitium contra virtutem fortitudinis.
+            <lb ed="#L" n="84"/>Quorum tria sunt nominata ab Aristotele , et in littera.
+            <lb ed="#L" n="85"/>Quartum autem, de quo est quaestio, ab aliquibus 
+            no<lb break="no" ed="#L" n="86"/>minatur vecordia: et merito, pro quanto ve in 
+            composi<lb break="no" ed="#L" n="87"/>tione sumitur pro sime ; quia qui non audet quasi sime
+            <lb ed="#L" n="88"/>corde est, et vecors dici potest. Nec oportet aliam 
+            ratio<lb break="no" ed="#L" n="89"/>nem huius vitii reddere quam quod actus eius, scilicet non
+            <lb ed="#L" n="90"/>audere quando aut quantum oportet, est actus secundum
+            <lb ed="#L" n="91"/>se ex propria specie contrarius fortitudini directe, et non
+            <lb ed="#L" n="92"/>solum ex concomitantia alterius vitii exurgens, ut 
+            proba<lb break="no" ed="#L" n="93"/>tum est. — Et confirmatur. Quia si homo non timeret, et
+            <lb ed="#L" n="94"/>tamen diffideret de victoria, deficeret in audendo, et hoc
+            <lb ed="#L" n="95"/>peccatum incurreret, - Videmus quoque in aliis homines
+            <lb ed="#L" n="96"/>quosdam qui non timore principaliter acti, sed quadam
+            <lb ed="#L" n="97"/>animi parvitate, non audent attentare aliquid. - Quae 
+            om<lb break="no" ed="#L" n="98"/>nia ostendunt defectum audaciae aliunde quam ex timore
+            <lb ed="#L" n="99"/>principaliter quandoque causari. ;
+          </p>
+          <p xml:id="TAcCaj-d1e1928-d1e255">
+            <lb ed="#L" n="100"/>V. Auctor autem rationem reddit in littera quare non
+            <lb ed="#L" n="101"/>invenitur hoc vitium positum ab auctoribus : quia ut in
+            <lb ed="#L" n="102"/>pluribus peccatum tale committitur ex consequenti ad 
+            pec<lb break="no" ed="#L" n="103"/>catum timoris. 
+          </p>
+          <p xml:id="TAcCaj-d1e1928-d1e266">
+            <lb ed="#L" n="104"/>Posset quoque dici quod Auctor reddit rationem quare
+            <lb ed="#L" n="105"/>non invenitur tale vitium, referendo ad merita propria 
+            ob<lb break="no" ed="#L" n="106"/>iecti proprii ipsius audaciae et timoris, et referendo 
+            homi<lb break="no" ed="#L" n="107"/>nem ad illud obiectum. Namque utriusque obiectum 
+            pro<lb break="no" ed="#L" n="108"/>prium est malum arduum. Ex propriis autem meritis 
+            ma<lb break="no" ed="#L" n="109"/>lum non fugat aut minuit invasionem contra se nisi 
+            in<lb break="no" ed="#L" n="110"/>gerendo timorem: nec homo invadens desistit ab invadendo
+            <lb ed="#L" n="111"/>malum contrarium, sola mali contrarii ratione habita, nisi
+            <lb ed="#L" n="112"/>quia malum ingerit homini timorem. Cum quo tamen stat
+            <lb ed="#L" n="113"/>quod, referendo hominem ad obiectum audaciae 
+            compo<lb break="no" ed="#L" n="114"/>situm ex malo et bono, sicut audaeia ex hac parte 
+            cau<lb break="no" ed="#L" n="115"/>satur ex spe, ita defectus audaciae a defectu spei.
+          </p>
+          <p xml:id="TAcCaj-d1e1928-d1e295">
+            <lb ed="#L" n="116"/>Sive ergo intelligas litteram hanc, quare non invenitur
+            <lb ed="#L" n="117"/>tale vitium positum; sive, quare non invenitur referendo
+            <lb ed="#L" n="118"/>solum ad proprium obiectum: ex reverentia aliorum, quam
+            <lb ed="#L" n="119"/>Auctor innatam habuit, dictum puto.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

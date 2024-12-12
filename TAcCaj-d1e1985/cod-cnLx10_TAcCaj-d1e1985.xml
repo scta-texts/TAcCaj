@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 138</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 138</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="115"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1985"><!-- TAcCajp2p2-q138 -->
+        <head xml:id="TAcCaj-d1e1985-Hd1e101">Quaestio 138</head>
+        <div xml:id="TAcCaj-d1e1985-Dd1e103"><!-- caj-p2p2-q138a1 -->
+          <head xml:id="TAcCaj-d1e1985-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e1985-d1e108">
+            <pb ed="#L" n="115"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=115"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e117">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>IN articulo primo quaestionis centesimaetrigesimaeoctavae
+            <lb ed="#L" n="3"/>multa occurrunt ex Martino, in eodem tractatu ,
+            <lb ed="#L" n="4"/>in qu. de Mollitie . Primum est circa illud quod in corpore
+            <lb ed="#L" n="5"/>articuli dicitur, scilicet: Secundum Philosophum, proprie
+            <lb ed="#L" n="6"/>mollis dicitur qui recedit a bono ex tristitia causata ex
+            <lb ed="#L" n="7"/>defectu delectationum, quasi cedens debili moventi. Contra
+            <lb ed="#L" n="8"/>hoc siquidem dupliciter procedit. Primo, arguendo quod
+            <lb ed="#L" n="9"/>non solum tali tristitiae cedens est mollis, sed etiam 
+            ce<lb break="no" ed="#L" n="10"/>dens aliquibus tristitiis ex positivis causis afflictivis 
+            causa<lb break="no" ed="#L" n="11"/>tis. - Secundo , quod non omnis cedens tali tristitiae ita
+            <lb ed="#L" n="12"/>ut recedat a bono, est mollis .
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e146">
+            <lb ed="#L" n="13"/>Et ad primum quidem multa affert. Sed quoniam 
+            pri<lb break="no" ed="#L" n="14"/>mum non est contra Auctorem, quamvis arguens 
+            putave<lb break="no" ed="#L" n="15"/>rit et dixerit se impugnare in hoc sanctum Thomam, ideo
+            <lb ed="#L" n="16"/>non affero sua argumenta, sed ostendo unde non intellexit
+            <lb ed="#L" n="17"/>Auctorem. Ly enim proprie in hac littera aequivalet ad ly
+            <lb ed="#L" n="18"/>principaliter: et non aequivalet ad ly solum, utiste 
+            inter<lb break="no" ed="#L" n="19"/>pretatus est. Ita quod non est sensus litterae quod mollis
+            <lb ed="#L" n="20"/>est solum recedens a bono propter tristitiam ex carentia
+            <lb ed="#L" n="21"/>delectationum :causatam: sed est sensus quod mollis est
+            <lb ed="#L" n="22"/>principaliter recedens a bono propter huiusmodi tristitias.
+            <lb ed="#L" n="23"/>Unde in hac eadem littera dicitur quod mollis est qui de
+            <lb ed="#L" n="24"/>facili recedit a bono propter difficilia, quae sustinere non
+            <lb ed="#L" n="25"/>potest. Per haec enim verba, in principio corporis articuli,
+            <lb ed="#L" n="26"/>Auctor definit mollem: et postmodum, excludens eum qui
+            <lb ed="#L" n="27"/>a magnis tristitiis vincitur a numero mollium, tres gradus
+            <lb ed="#L" n="28"/>retrahentium a bono ponit, scilicet metum, delectabile, et
+            <lb ed="#L" n="29"/>carentiam delectationum, concludens quod ex his proprie,
+            <lb ed="#L" n="30"/>hoc est principaliter, aliquis dicitur mollis, secundum 
+            Phi<lb break="no" ed="#L" n="31"/>losophum. Quod est verum. Cum hoc tamen stat quod
+            <lb ed="#L" n="32"/>etiam ille qui a mediocribus tristitiis ex aliquibus 
+            contri<lb break="no" ed="#L" n="33"/>stantibus illatis vincitur, sit etiam mollis. Dictum etiam est
+            <lb ed="#L" n="34"/>supra  quod proprie fortitudo est circa pericula mortis in
+            <lb ed="#L" n="35"/>bello: et per hoc declaratum est non excludi quin 
+            secun<lb break="no" ed="#L" n="36"/>dario sit etiam circa alias mortes sustinendas.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e201">
+            <lb ed="#L" n="37"/>Advertere quoque hic expedit quod, sicut Auctor aliter
+            <lb ed="#L" n="38"/>perseverantiae nomine utitur quam Aristoteles , ita et 
+            mol<lb break="no" ed="#L" n="39"/>litiem aliter accipit. Nam apud Auctorem pro vero vitio
+            <lb ed="#L" n="40"/>sumitur, apud Aristotelem autem pro imperfecto in genere
+            <lb ed="#L" n="41"/>vitii: ut patet ex oppositis bonis, scilicet perseverantia 
+            vir<lb break="no" ed="#L" n="42"/>tute, et perseverantia in imperfecto genere virtutis; sicut
+            <lb ed="#L" n="43"/>etiam et continentia.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e220">
+            <lb ed="#L" n="44"/>II. Quod autem secundo loco confutatur, est contra
+            <lb ed="#L" n="45"/>Auctorem in hoc loco, in responsione ad primum: et ideo
+            <lb ed="#L" n="46"/>afferenda sunt argumenta eius . Primum  est ex auctoritate
+            <lb ed="#L" n="47"/>Aristotelis, VII Ethic. , quod vinci a carentia delectabilium
+            <lb ed="#L" n="48"/>propter naturam generationis aut propter aegritudinem,
+            <lb ed="#L" n="49"/>non est mollitiei.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e236">
+            <lb ed="#L" n="50"/>Secundum est quia, secundum Aristotelem , aliquae
+            <lb ed="#L" n="51"/>delectationes sunt necessariae: et propter carentiam talium
+            <lb ed="#L" n="52"/>delectationum recedere a bono non est mollities; sed 
+            pro<lb break="no" ed="#L" n="53"/>pter carentiam superfluarum delectationum.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e247">
+            <lb ed="#L" n="54"/>III. Tertium dubium ex eodem  est circa responsionem
+            <lb ed="#L" n="55"/>ad secundum . Haec, inquit, solutio non mihi placet. Tum
+            <lb ed="#L" n="56"/>quia, si delitia est quaedam mollities, ergo est species 
+            mol<lb break="no" ed="#L" n="57"/>litiei. Ergo non habent illas diversas connotationes quas 
+            di<lb break="no" ed="#L" n="58"/>cit Thomas.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e260">
+            <lb ed="#L" n="59"/>Tum quia ex nominibus ipsis videtur oppositum: et
+            <lb ed="#L" n="60"/>proprie delitiosus est qui non potest sufferre absentiam
+            <lb ed="#L" n="61"/>delectationum.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e269">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="62"/>Tertio, quia omnis delitia pertinet ad intemperantiam.
+            <lb ed="#L" n="63"/>Ac per hoc, si est quaedam mollities, pertinebit ad 
+            intem<lb break="no" ed="#L" n="64"/>perantiam. Ergo mollities non est totaliter opposita 
+            perse<lb break="no" ed="#L" n="65"/>verantiae.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e282">
+            <lb ed="#L" n="66"/>IV. Quartum dubium  est circa responsionem ad 
+            ter<lb break="no" ed="#L" n="67"/>tium . Haec, inquit, responsio non videtur mihi consona
+            <lb ed="#L" n="68"/>dictis eiusdem Doctoris. Arguo enim sic. Appetere 
+            remis<lb break="no" ed="#L" n="69"/>sionem. secundum quod huiusmodi, aut est delectabile, aut
+            <lb ed="#L" n="70"/>carens labore. Si primum, ergo lusivus, ut appetens 
+            remis<lb break="no" ed="#L" n="71"/>sionem, non est dicendus mollis, sed incontinens: quia 
+            pro<lb break="no" ed="#L" n="72"/>pter delectationem deserit bonum. — Si secundum, ergo
+            <lb ed="#L" n="73"/>mollities non est universaliter circa tristitiam ex defectu
+            <lb ed="#L" n="74"/>delectationis: cuius oppositum determinat idem Doctor.
+            <lb ed="#L" n="75"/>Patet consequentia: quia lusivus, ut appetit remissionem,
+            <lb ed="#L" n="76"/>fugit laborem contristantem et molestantem.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e309">
+            <lb ed="#L" n="77"/>V. Ad obiecta secundi dubii  dicitur quod sermo 
+            Ari<lb break="no" ed="#L" n="78"/>stotelis, formaliter intellectus, non infert quod arguens 
+            in<lb break="no" ed="#L" n="79"/>tendit. Quoniam Aristoteles vult [quod] non posse carere
+            <lb ed="#L" n="80"/>delectationibus quibusdam propterea quia sic nutriti sunt,
+            <lb ed="#L" n="81"/>ut reges Scytharum; vel propter infirmitatem complexionis,
+            <lb ed="#L" n="82"/>ut mulieres; non est vitii. Et verum est: quoniam recta
+            <lb ed="#L" n="83"/>ratio habet ut complexionis et consuetudinis ratio 
+            habea<lb break="no" ed="#L" n="84"/>tur; ita quod id quod esset mollitiei vitium in uno, non
+            <lb ed="#L" n="85"/>est mollities in alio; sicut etiam quod esset ebrietas in
+            <lb ed="#L" n="86"/>uno, est sobrietas in alio. Sed, ut patet, ex hoc non 
+            se<lb break="no" ed="#L" n="87"/>quitur conclusio arguentis, scilicet: Non omnis cedens 
+            tri<lb break="no" ed="#L" n="88"/>stitiae ex carentia delectationum ita ut recedat a bono,
+            <lb ed="#L" n="89"/>est mollis.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e340">
+            <lb ed="#L" n="90"/>Secunda quoque obiectio nil obstat. Quia sequi 
+            dele<lb break="no" ed="#L" n="91"/>ctationes necessarias non est vitiosum. Sed si propter 
+            ca<lb break="no" ed="#L" n="92"/>rentiam superfluarum declinet a bono, est manifeste mollis.
+            <lb ed="#L" n="93"/>Si vero propter carentiam necessariarum aliquis declinaret
+            <lb ed="#L" n="94"/>a bono, ita quod non propter carentiam subtracti, sed ipsius
+            <lb ed="#L" n="95"/>delectationis ut sic, a bono recederet, mollis quoque esset:
+            <lb ed="#L" n="96"/>quoniam delectationes necessariae non sunt propter se, sed
+            <lb ed="#L" n="97"/>propter subtracta, puta cibum vel potum. Unde qui 
+            decli<lb break="no" ed="#L" n="98"/>naret a virtute quia cibus non delectat eum, qui tamen
+            <lb ed="#L" n="99"/>prodest, mollis esset, quamvis delectatio cibi sit necessaria
+            <lb ed="#L" n="100"/>propter cibationem et vitam animalium. Non esset autem
+            <lb ed="#L" n="101"/>mollis si cibo non delectanti praeponit delectantem: quia
+            <lb ed="#L" n="102"/>non per hoc recedit a virtutis bono. Et si in hoc 
+            exce<lb break="no" ed="#L" n="103"/>deret, ad gulae vitium spectaret.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e373">
+            <lb ed="#L" n="104"/>VI. Ad tertium respondendo dubium , dicitur ad 
+            pri<lb break="no" ed="#L" n="105"/>mum quod delitia est species, vel quasi-species mollitiei.
+            <lb ed="#L" n="106"/>Et negatur consequentia: Ergo non differunt penes 
+            con<lb break="no" ed="#L" n="107"/>notata, ut dicit Thomas. Stat enim quod aliquid exprimat
+            <lb ed="#L" n="108"/>inferius quod non exprimat superius.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e386">
+            <lb ed="#L" n="109"/>Ad secundum vero dicitur quod male exponitur 
+            de<lb break="no" ed="#L" n="110"/>litia.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e393">
+            <lb ed="#L" n="111"/>Ad tertium , negatur assumptum, scilicet quod omnis
+            <lb ed="#L" n="112"/>delitia spectat ad intemperantiam: nisi confundendo vitia.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e400">
+            <lb ed="#L" n="113"/>VII. Ad quartum dubium  dicitur quod appetere 
+            remis<lb break="no" ed="#L" n="114"/>sionem in proposito est appetere negationem laboris. Et
+            <lb ed="#L" n="115"/>cum dicitur, Ergo lusivus, ut mollis, fugit laborem 
+            con<lb break="no" ed="#L" n="116"/>tristantem: conceditur. - Et cum dicitur, Mollities non est
+            <lb ed="#L" n="117"/>praecise circa tristitias ex absentia delectabilium : 
+            conce<lb break="no" ed="#L" n="118"/>ditur. - Et cam dicitur quod Auctor oppositum 
+            determi<lb break="no" ed="#L" n="119"/>navit, negatur: ut patet ex supra  dictis; et ex hac 
+            lit<lb break="no" ed="#L" n="120"/>tera, ubi expresse dicit quod on posse sustinere 
+            labo<lb break="no" ed="#L" n="121"/>riosa pertinet ad mollitiem.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e1985-Dd1e423"><!-- caj-p2p2-q138a2 -->
+          <head xml:id="TAcCaj-d1e1985-Hd1e426">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e1985-d1e428">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="57" type="fixed=116"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e435">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="58"/>IN articulo secundo eiusdem quaestionis 
+            centesimaetrigesi<lb break="no" ed="#L" n="59"/>preti est dubium ex Martino occurrit, ibidem , in qu.
+            <lb ed="#L" n="60"/>de Pertinacia , arguente contra hunc articulum quod 
+            conclu<lb break="no" ed="#L" n="61"/>sio non est conformis aliis dictis eiusdem Thomae. Nam 
+            se<lb break="no" ed="#L" n="62"/>cundum eum , non omnis persistens in sententia secundum
+            <lb ed="#L" n="63"/>quod oportet, est perseverans: sed ille tantum qui persistit
+            <lb ed="#L" n="64"/>non obstante molestia diuturnitatis. Si ergo pertinacia 
+            di<lb break="no" ed="#L" n="65"/>recte opponitur perseverantiae, oportet quod nimis persistat
+            <lb ed="#L" n="66"/>contra diuturnitatis molestiam, Sed secundum eum, 
+            perti<lb break="no" ed="#L" n="67"/>nacia non est tale vitium: sed aliquis dicitur pertinax, esto
+            <lb ed="#L" n="68"/>quod nihil ex diuturnitate sentiat molestiae. Non convenit
+            <lb ed="#L" n="69"/>ergo conclusio cum aliis dictis Thomae.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e466">
+            <lb ed="#L" n="70"/>Secundo, quia sequeretur nullum vitium esse pertinaciam
+            <lb ed="#L" n="71"/>nisi ubi diuturnitatis circumstantia de bono in malum 
+            trans<lb break="no" ed="#L" n="72"/>ferret. - Et tenet consequentia: quia si directe opponitur
+            <lb ed="#L" n="73"/>perseverantiae, oportet quod includat in sua ratione 
+            diu<lb break="no" ed="#L" n="74"/>turnitatem, sicut perseverantia.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e479">
+            <lb ed="#L" n="75"/>Tertio, quia pertinax, secundum Isidorum , est qui
+            <lb ed="#L" n="76"/>immanet sententiae cui non debet immanere. Talis autem
+            <lb ed="#L" n="77"/>excedit pertinacem oppositum perseveranti: quia 
+            perseve<lb break="no" ed="#L" n="78"/>rans est non obstante tristitia, et similiter suus pertinax.
+            <lb ed="#L" n="79"/>Ergo pertinacia accepta ab Isidoro et Thoma, non 
+            oppo<lb break="no" ed="#L" n="80"/>nitur perseverantiae.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e496">
+            <lb ed="#L" n="81"/>Quarto, quia pertinax, ut de eo loquitur Thomas, 
+            imma<lb break="no" ed="#L" n="82"/>net sententiae propter delectationem. Ergo non opponitur
+            <lb ed="#L" n="83"/>perseverantiae, sed continentiae. — Probatur assumptum.
+            <lb ed="#L" n="84"/>Quia pertinax immanet sententiae propter victoriam. Ergo
+            <lb ed="#L" n="85"/>propter delectationem. — Probatur hoc ultimum antecedens.
+            <lb ed="#L" n="86"/>Tum ex ipso Thomahic. Tum ex Aristotele, VII Ethic. 
+            <lb ed="#L" n="87"/>dicente quod isti propriae sententiae vincuntur a 
+            delecta<lb break="no" ed="#L" n="88"/>tionibus: gaudent enim vincentes, si non transuadeantur.
+            <lb ed="#L" n="89"/>Et concludit quod sunt magis similes incontinentibus quam
+            <lb ed="#L" n="90"/>continentibus.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e520">
+            <lb ed="#L" n="91"/>II. Ad horum evidentiam, scito quod, sicut magnanimi-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="92"/>tas et facit magnum in qualibet virtute et ponit medium
+            <lb ed="#L" n="93"/>in appetitu magnorum honorum ; nec oportet quodlibet
+            <lb ed="#L" n="94"/>oppositum illi vitium respicere appetitum honoris, sed 
+            suf<lb break="no" ed="#L" n="95"/>ficit quod magnum honorem respiciat vel per excessum
+            <lb ed="#L" n="96"/>vel per defectum, ut patet de praesumptione, quae non
+            <lb ed="#L" n="97"/>excedit in appetitu honoris, sed actus incommensurati : ita
+            <lb ed="#L" n="98"/>proportionaliter perseverantia et facit ex intentione 
+            persi<lb break="no" ed="#L" n="99"/>stentiam opportunam in qualibet virtute, et medium ponit
+            <lb ed="#L" n="100"/>insistendo in sententia. Et propterea vitia opposita eidem,
+            <lb ed="#L" n="101"/>si extrema sunt eius quod est sistere in sententia, 
+            perse<lb break="no" ed="#L" n="102"/>verantiae opponuntur: sicut ambitio et eius oppositum
+            <lb ed="#L" n="103"/>extrema sunt magnanimitatis, quia extrema sunt eius quod
+            <lb ed="#L" n="104"/>est appetere magnos honores.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e555">
+            <lb ed="#L" n="105"/>III. His praelibatis, ad primum in oppositum  dicitur
+            <lb ed="#L" n="106"/>quod persistere in sententia bene operando aut malum 
+            vi<lb break="no" ed="#L" n="107"/>tando, contingit dupliciter. Uno modo, ex conditione 
+            habi<lb break="no" ed="#L" n="108"/>tus operantis: et sic persistens non est perseverans, 
+            secun<lb break="no" ed="#L" n="109"/>dum Auctorem. Alio modo, ex principali intentione. Et sic
+            <lb ed="#L" n="110"/>persistens est perseverans: quoniam sic persistere intendens
+            <lb ed="#L" n="111"/>directe intendit tandiu insistere quandiu oportet. Hoc enim
+            <lb ed="#L" n="112"/>importat ly per-sistere; sicut per-vigilare est usque ad
+            <lb ed="#L" n="113"/>finem vigilare. Unde cum dicitur quod actus perseverantiae
+            <lb ed="#L" n="114"/>est persistere in sententia cum executione, non oportet
+            <lb ed="#L" n="115"/>addere contra molestias diuturnitatis: quoniam ipsum 
+            per<lb break="no" ed="#L" n="116"/>sistere hoc importat, scilicet quod, si est directe intentum,
+            <lb ed="#L" n="117"/>superet molestiam causabilem a diuturnitate. - Et cum ex
+            <lb ed="#L" n="118"/>hoc infertur, Ergo pertinacia perseverantiae opposita non
+            <lb ed="#L" n="119"/>est nisi nimis persistat contra diuturnitatis molestias: negatur
+            <lb ed="#L" n="120"/>sequela: sed sufficit quod nimis ex intentione persistat in
+            <lb ed="#L" n="121"/>sententia, undecumque hoc accidat; sicut sufficit ad 
+            in<lb break="no" ed="#L" n="122"/>temperatum. quod excedat in delectationibus tactus, 
+            unde<lb break="no" ed="#L" n="123"/>cumque ad.hoc veniat; puta ex avaritia, ut meretrix, vel
+            <lb ed="#L" n="124"/>ex vindicta, ut occisor, etc. Et ratio est quia ad positionem
+            <lb ed="#L" n="125"/>vitii alicuius non requiritur quod principalis intentio homi-
+            <pb ed="#L" n="117"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>nis sit divertendi a medio proprio: sed sat est quod ipsum
+            <lb ed="#L" n="2"/>vitium ex propria natura sit primo recessivum a medio
+            <lb ed="#L" n="3"/>propriae virtutis. Medium autem in perseverantia, ut dictum
+            <lb ed="#L" n="4"/>est, est persistere in sententia. Pertinax autem ex 
+            inten<lb break="no" ed="#L" n="5"/>tione excedit hoc: quoniam immanet sententiae quando
+            <lb ed="#L" n="6"/>non oportet, vel cui non oportet. Hoc autem est recedere 
+            <lb ed="#L" n="7"/>a persistentia secundum quod oportet: sive molestiae 
+            diu<lb break="no" ed="#L" n="8"/>turnitatis faciant hunc recessum, sive non. Et similiter
+            <lb ed="#L" n="9"/>mollis est, undecumque quis ex intentione non perstet in
+            <lb ed="#L" n="10"/>sententia secundum quod oportet, et non solum si propter
+            <lb ed="#L" n="11"/>laborem diuturnitatis non perstet in sententia: propter
+            <lb ed="#L" n="12"/>eandem rationem, scilicet quia ex natura sua talis non
+            <lb ed="#L" n="13"/>perstans recedit a persistentia secundum quod oportet; iam
+            <lb ed="#L" n="14"/>enim dictum est quod in persistentia clauditur diuturnitas.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e638">
+            <lb ed="#L" n="15"/>Et per hoc patet responsio ad secundum, dicendo quod
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="16"/>recessus a persistentia includit recessum a diuturnitate
+            <lb ed="#L" n="17"/>secundum quod oportet.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e649">
+            <lb ed="#L" n="18"/>Et per hoc patet responsio ad tertium. Aliud est enim
+            <lb ed="#L" n="19"/>loqui de recessu vitii a medio: et aliud, de recessu operantis
+            <lb ed="#L" n="20"/>vitiose. Quoniam causa movens vitiosum potest esse 
+            mul<lb break="no" ed="#L" n="21"/>tiplex. Et non tollit naturam vitii: pertinax enim est qui
+            <lb ed="#L" n="22"/>nimis ex intentione perstat, undecumque iste homo 
+            mo<lb break="no" ed="#L" n="23"/>veatur ad immanendum sententiae quando vel cui non
+            <lb ed="#L" n="24"/>oportet.
+          </p>
+          <p xml:id="TAcCaj-d1e1985-d1e667">
+            <lb ed="#L" n="25"/>Ad quartum dicitur, cum Auctore, quod pertinax ex
+            <lb ed="#L" n="26"/>parte delectationis appetitae est similis incontinenti, u
+            <lb ed="#L" n="27"/>Aristoteles dixit: secundum tamen id quod directe intendit,
+            <lb ed="#L" n="28"/>scilicet immanere propriae sententiae, opponitür 
+            perseve<lb break="no" ed="#L" n="29"/>rantiae; et secundum finem opponitur magnanimitati, pro
+            <lb ed="#L" n="30"/>quanto est inanis gloria.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

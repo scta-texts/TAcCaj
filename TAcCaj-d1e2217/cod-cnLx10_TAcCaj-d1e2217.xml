@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 183</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 183</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="446"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2217"><!-- TAcCajp2p2-q183 -->
+        <head xml:id="TAcCaj-d1e2217-Hd1e101">Quaestio 183</head>
+        <div xml:id="TAcCaj-d1e2217-Dd1e103"><!-- caj-p2p2-q183a1 -->
+          <head xml:id="TAcCaj-d1e2217-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2217-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="11" type="fixed=446"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="12"/>HIC incipit decima et ultima pars huius Operis, tractans
+            <lb ed="#L" n="13"/>de officiis ac statibus hominum . In qua' quaestione
+            <lb ed="#L" n="14"/>statim. occurrit dubium circa significationem s/atus, pro
+            <lb ed="#L" n="15"/>quanto in littera dicitur quod respicit obligationem 
+            per<lb break="no" ed="#L" n="16"/>sonae hominis, prout scilicet aliquid  est sui vel alieni 
+            iu<lb break="no" ed="#L" n="17"/>ris, et hoc ex causa permanenti. Est siquidem de hoc
+            <lb ed="#L" n="18"/>quaestio et cum extraneis aliam significationem 
+            tribuen<lb break="no" ed="#L" n="19"/>tibus statui, ut patet de Henrico de Gandavo, in XII 
+            Quo<lb break="no" ed="#L" n="20"/>libeto : et nihilominus est quaestio absolute de veritate
+            <lb ed="#L" n="21"/>huius significationis. Unde nos primam quaestionem 
+            re<lb break="no" ed="#L" n="22"/>linquemus: quoniam esset certare de vocibus. Secunda 
+            au<lb break="no" ed="#L" n="23"/>tem, an scilicet assignata ab Auctore significatio sit solida,
+            <lb ed="#L" n="24"/>tractanda est: habet enim multas obiectiones.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e148">
+            <lb ed="#L" n="25"/>Cum enim. in littera dicatur quod status, tam in 
+            ci<lb break="no" ed="#L" n="26"/>vilibus quam in spiritualibus, spectet ad libertatem vel
+            <lb ed="#L" n="27"/>servitutem, statim apparet contradictio in ipso progressu
+            <lb ed="#L" n="28"/>litterae. Nam libertas nomen est status: et nullam 
+            obli<lb break="no" ed="#L" n="29"/>gationem dicit .
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e161">
+            <lb ed="#L" n="30"/>Amplius, servitus et libertas spiritualis, ut in quarto
+            <lb ed="#L" n="31"/>articulo dicitur, penes habituri iustitiae vel peccati 
+            atten<lb break="no" ed="#L" n="32"/>duntur. Et tamen in neutro est obligatio: sed sola 
+            per<lb break="no" ed="#L" n="33"/>manentia, qualem habitus causare nata est. Falsum est 
+            igi<lb break="no" ed="#L" n="34"/>tur quod status spiritualis servitutis vel libertatis respiciat
+            <lb ed="#L" n="35"/>obligationem ,
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e178">
+            <lb ed="#L" n="36"/>Praeterea , status distinguitur in statum incipientium,
+            <lb ed="#L" n="37"/>proficientium et perfectorum, ut patet in articulo quarto.
+            <lb ed="#L" n="38"/>Et constat quod nec status incipientium, nec status 
+            pro<lb break="no" ed="#L" n="39"/>ficientium obligationem habet .
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e189">
+            <lb ed="#L" n="40"/>Distinguitur quoque status coniugatorum contra statum
+            <lb ed="#L" n="41"/>virginalem et vidualem. Et tamen solus status 
+            coniugato<lb break="no" ed="#L" n="42"/>rum obligationem habet .
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e198">
+            <lb ed="#L" n="43"/>Clericalis demum status, inquit Henricus , distinguitur
+            <lb ed="#L" n="44"/>contra laicalem. Et tamen neuter obligationem habet: 
+            quo<lb break="no" ed="#L" n="45"/>niam clericus potest libere ducere uxorem viduam .
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e207">
+            <lb ed="#L" n="46"/>Affertur quoque ab eodem  auctoritas <ref xml:id="TAcCaj-d1e2217-Rd1e211">Anselmi, in libro
+              <lb ed="#L" n="47"/>de Similitud. , cap. xyvi</ref>, dicentis: Quatuor sunt status 
+            hu<lb break="no" ed="#L" n="48"/>manae naturae, quibus pro diversis meritis beata vel magis
+            <lb ed="#L" n="49"/>beata, misera vel minus misera redditur: scilicet in statu
+            <lb ed="#L" n="50"/>innocentiae, in statu patriae, in statu" viae, et in statu 
+            da<lb break="no" ed="#L" n="51"/>mnationis, Constat autem quod neque in innocentia neque
+            <lb ed="#L" n="52"/>in via status dicitur secundum obligationem.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e228">
+            <lb ed="#L" n="53"/>II. Ad horum evidentiam, sciendum est quod Auctor
+            <lb ed="#L" n="54"/>nunquam dicit quod status exigat obligationem in quolibet
+            <lb ed="#L" n="55"/>statu: sed dicit quod quilibet status respicit obligationem.
+            <lb ed="#L" n="56"/>Quae duo distant sicut caelum et terra. Nam ad primum
+            <lb ed="#L" n="57"/>requiritur quemlibet statum habere obligationem ad id quod
+            <lb ed="#L" n="58"/>sui status est. Ad secundum vero sufficit quod 
+            obligatio<lb break="no" ed="#L" n="59"/>nem respiciat, ita quod penes obligationem distinguantur
+            <lb ed="#L" n="60"/>affirmative vel negative, hoc est penes habere 
+            obligatio<lb break="no" ed="#L" n="61"/>nem et penes non habere illam.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e250">
+            <lb ed="#L" n="62"/>Et hoc modo distinguitur status liberi a servo : quia
+            <lb ed="#L" n="63"/>servitus respicit obligationem affirmative, libertas vero 
+            ne<lb break="no" ed="#L" n="64"/>gative.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e260">
+            <lb ed="#L" n="65"/>Hoc etiam modo distinguitur status saecularis a 
+            regu<lb break="no" ed="#L" n="66"/>lari: quia scilicet regularis habet vinculum, quo caret 
+            sae<lb break="no" ed="#L" n="67"/>cularis.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e269">
+            <lb ed="#L" n="68"/>Similiter status peccatoris et status iusti  distinguuntur
+            <lb ed="#L" n="69"/>quia peccator obligatus est ad peccandum, quantum est
+            <lb ed="#L" n="70"/>ex seipso, quia non potest ex seipso resurgere, et, ut 
+            Gre<lb break="no" ed="#L" n="71"/>gorius dicit , peccatum quod per poenitentiam non deletur,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="72"/>suo pondere ad aliud trahit: iustus autem ab huiusmodi
+            <lb ed="#L" n="73"/>vinculo absolutus est.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e287">
+            <lb ed="#L" n="74"/>III. Incipientium autem et proficientium status  
+            obliga<lb break="no" ed="#L" n="75"/>tionem in genere claudunt, non in specie: quoniam 
+            com<lb break="no" ed="#L" n="76"/>mune genus status existentium in caritate per negationem
+            <lb ed="#L" n="77"/>vinculi quo peccator alligatur, dicitur. Species autem 
+            huius<lb break="no" ed="#L" n="78"/>modi status, secundum proprias differentias, non omnes, -
+            <lb ed="#L" n="79"/>sed perfectorum tantum dicit obligationem. Et hoc sufficere
+            <lb ed="#L" n="80"/>Auctor ipse testatur in littera quarti articuli, in responsione
+            <lb ed="#L" n="81"/>ad secundum, dum, loquens de huiusmodi distinctione, dicit
+            <lb ed="#L" n="82"/>quod per hoc hi diversi status distinguuntur, quod 
+            di<lb break="no" ed="#L" n="83"/>versa studia adhibent ad ea quae spectant ad spiritualem
+            <lb ed="#L" n="84"/>libertatem. "
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e313">
+            <lb ed="#L" n="85"/>Sed contra hoc potest instari quod non consonat 
+            hu<lb break="no" ed="#L" n="86"/>iusmodi responsio sermonibus per se. Quoniam si 
+            sta<lb break="no" ed="#L" n="87"/>tus de ratione sua respicit obligationem , consequens est
+            <lb ed="#L" n="88"/>ut, per se loquendo, omnis specifica diversitas statuum
+            <lb ed="#L" n="89"/>per se respiciat obligationem: et non sufficit quod genus
+            <lb ed="#L" n="90"/>eorum penes obligationem attendatur. Oportet enim 
+            diffe<lb break="no" ed="#L" n="91"/>rentias per se diversificativas generis et constitutivas 
+            spe<lb break="no" ed="#L" n="92"/>cierum, per se diversificare id quod spectat ad rationem
+            <lb ed="#L" n="93"/>generis : quod in proposito est respicere obligationem.
+            <lb ed="#L" n="94"/>Hoc autem hic non salvatur: quoniam status incipientium
+            <lb ed="#L" n="95"/>et proficientium non diversificantur penes respicere 
+            obliga<lb break="no" ed="#L" n="96"/>tionem aliquam.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e342">
+            <lb ed="#L" n="97"/>Ad hoc dicitur quod status tam incipientium quam 
+            pro<lb break="no" ed="#L" n="98"/>ficentium non nisi imperfecte habet rationem status: et
+            <lb ed="#L" n="99"/>propterea non est mirum si uterque deficiat a propria 
+            ra<lb break="no" ed="#L" n="100"/>tione status. Sunt enim hi status in genere status sicut
+            <lb ed="#L" n="101"/>formae in embryonem succedentes sunt in genere 
+            viven<lb break="no" ed="#L" n="102"/>tium. Non enim sunt velut species de per se, sed ut viae
+            <lb ed="#L" n="103"/>ad aliud. Et similiter status incipientium et proficientium,
+            <lb ed="#L" n="104"/>ut ipsa eorum nomina ostendunt, viam ad aliud, hoc est
+            <lb ed="#L" n="105"/>ad perfectionem seu perfectionis statum, significant. Unde
+            <lb ed="#L" n="106"/>Auctor in principio sequentis quaestionis  dicit: Deinde
+            <lb ed="#L" n="107"/>considerandum est de his quae pertinent ad statum 
+            per<lb break="no" ed="#L" n="108"/>fectionis, ad quem alii status ordinantur.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e371">
+            <lb ed="#L" n="109"/>IV. De statu autem coniugatorum, virginum, etc. , 
+            du<lb break="no" ed="#L" n="110"/>pliciter dici potest. Primo, quod in iure nec virginitas nec
+            <lb ed="#L" n="111"/>viduitas constituit statum, nisi vinculo firmetur. Unde 
+            sta<lb break="no" ed="#L" n="112"/>tuta sunt distincta vela viduarum et virginum.  - Secundo,
+            <lb ed="#L" n="113"/>potest dici ut dictum est  de incipientibus et proficientibus:
+            <lb ed="#L" n="114"/>quod scilicet, sine vinculo, imperfecte habent rationem
+            <lb ed="#L" n="115"/>status, ratione sui generis, quo libertatem habent a vinculo
+            <lb ed="#L" n="116"/>coniugali.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e392">
+            <lb ed="#L" n="117"/>Ad id quod additur de statu clericali, respondetur quod,
+            <lb ed="#L" n="118"/>cum prima tonsura constituat clericum ; et prima 
+            ton<lb break="no" ed="#L" n="119"/>sura ad officium spectet, sicut et ordo omnis, scilicet 
+            aco<lb break="no" ed="#L" n="120"/>lythatus, etc.: consequens est quod clericatus non statum,
+            <lb ed="#L" n="121"/>sed officium constituat, Cuius signum est quod clericos
+            <lb ed="#L" n="122"/>in duos status distinguimus, scilicet regulares et 
+            saecu<lb break="no" ed="#L" n="123"/>lares: esset autem implicatio quodammodo in adiecto 
+            di<lb break="no" ed="#L" n="124"/>cere clericos saeculares, si clericus esset nomen status;
+            <lb ed="#L" n="125"/>sed officio adiungitur nomen status. Comprobaturque id
+            <lb ed="#L" n="126"/>ex eo quod prima tonsura inchoatio quaedam ordinis est,
+            <lb ed="#L" n="127"/>quem constat ad officium spectare.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e418">
+            <lb ed="#L" n="128"/>Ad auctoritatem demum Anselmi , et similes, quae 
+            for<lb break="no" ed="#L" n="129"/>san multae adduci possent, unico verbo responderi potest
+            <lb ed="#L" n="130"/>quod non ita stricte et proprie status nomine usi sunt,
+            <lb ed="#L" n="131"/>sed per statum intellexerunt conditionem, quasi dicerent:
+            <pb ed="#L" n="447"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Quatuor sunt conditiones hominum, etc. In qua 
+            significa<lb break="no" ed="#L" n="2"/>tione frequens videtur usus esse. 
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e438">
+            <lb ed="#L" n="3"/>V. In articulo primo eiusdem quaestionis, in responsione 
+            <lb ed="#L" n="4"/>ad tertium, collige, et inde retine differentiam inter officium,
+            <lb ed="#L" n="5"/>gradum et statum ecclesiasticum, ut intelligas sequentia.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2217-Dd1e448"><!-- caj-p2p2-q183a2-3 -->
+          <head xml:id="TAcCaj-d1e2217-Hd1e451">Articuli 2-3</head>
+          <p xml:id="TAcCaj-d1e2217-d1e453">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="75" type="fixed=448"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e460">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="76"/>In articulis secundo et tertio, adverte quod diversitas 
+            of<lb break="no" ed="#L" n="77"/>ficiorum, graduum et statuum in Ecclesia non ita 
+            ordi<lb break="no" ed="#L" n="78"/>natur ad haec tria, scilicet perfectionem, actionem et 
+            de<lb break="no" ed="#L" n="79"/>corem, quod singula singulis propria sint, puta perfectio
+            <lb ed="#L" n="80"/>statui, actio officio, et decor gradui. Quoniam in quolibet
+            <lb ed="#L" n="81"/>horum omnia inveniuntur: in statibus namque invenitur
+            <lb ed="#L" n="82"/>non solum perfectio, sed etiam et decor seu ordo; et 
+            si<lb break="no" ed="#L" n="83"/>militer in officiis eadem tria inveniuntur, et similiter in
+            <lb ed="#L" n="84"/>gradibus, ut de se patet. Sed perfectio appropriatur statui
+            <lb ed="#L" n="85"/>ut ratio diversitatis secundum statum; actio vero 
+            appro<lb break="no" ed="#L" n="86"/>priatur officio ut ratio diversitatis secundum officium; 
+            de<lb break="no" ed="#L" n="87"/>cor vero ordinis appropriatur gradui ut ratio diversitatis
+            <lb ed="#L" n="88"/>secundum gradum.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e493">
+            <lb ed="#L" n="89"/>II. In eodem articulo tertio, in responsione ad 
+            secun<lb break="no" ed="#L" n="90"/>dum, dubium occurrit circa illud: Diversitas vitarum 
+            ac<lb break="no" ed="#L" n="91"/>cipitur secundum diversos actus qui conveniunt homini
+            <lb ed="#L" n="92"/>secundum seipsum: officia autem distinguuntur secundum
+            <lb ed="#L" n="93"/>actus qui referuntur ad alios. Videtur enim hoc esse fal-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="94"/>sum: eo quod vita activa manifeste attenditur secundum
+            <lb ed="#L" n="95"/>actum qui refertur ad alium, scilicet ad proximum, ut
+            <lb ed="#L" n="96"/>patet ex supra  dictis de vita activa.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e515">
+            <lb ed="#L" n="97"/>Ad hoc dicitur quod ipse actus activae vitae potest 
+            con<lb break="no" ed="#L" n="98"/>siderari dupliciter. Primo, ut est exercitium hominis 
+            stu<lb break="no" ed="#L" n="99"/>dentis tali vitae seu actui: est namque actus virtutis, qui
+            <lb ed="#L" n="100"/>bonum reddit habentem . Et sic constituit vitam activam:
+            <lb ed="#L" n="101"/>quoniam, ut in littera dicitur, vita dicitur absolute; hoc est,
+            <lb ed="#L" n="102"/>vivere dicitur quis secundum seipsum, et non relative ad
+            <lb ed="#L" n="103"/>aliud. Et propterea actus inquantum sunt differentis vitae,
+            <lb ed="#L" n="104"/>considerantur ut conveniunt homini secundum seipsum:
+            <lb ed="#L" n="105"/>hoc est, secundum quod viventem in sui ipsius vivere bene
+            <lb ed="#L" n="106"/>disponunt.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e540">
+            <lb ed="#L" n="107"/>Alio modo considerantur ut referuntur ad alios: sicut
+            <lb ed="#L" n="108"/>docere ad eum qui docetur, et iudicare ad eum qui 
+            iu<lb break="no" ed="#L" n="109"/>dicari ordinatur. Et sic sumpti actus distinguunt officia.
+          </p>
+          <p xml:id="TAcCaj-d1e2217-d1e549">
+            <lb ed="#L" n="110"/>Et haec sufficiant etiam pro quarto articulo. Discussa sunt
+            <lb ed="#L" n="111"/>siquidem quae ih illo sunt, in principio huius quaestionis .
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

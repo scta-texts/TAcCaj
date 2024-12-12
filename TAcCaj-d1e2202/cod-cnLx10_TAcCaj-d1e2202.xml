@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 180</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 180</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="425"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2202"><!-- TAcCajp2p2-q180 -->
+        <head xml:id="TAcCaj-d1e2202-Hd1e101">Quaestio 180</head>
+        <div xml:id="TAcCaj-d1e2202-Dd1e103"><!-- caj-p2p2-q180a1 -->
+          <head xml:id="TAcCaj-d1e2202-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2202-d1e108">
+            <pb ed="#L" n="425"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=425"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e117">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>IN articulo primo quaestionis centesimaeoctogesimae, 
+            col<lb break="no" ed="#L" n="3"/>Toniaon et ordinandum est id quod de vita 
+            contempla<lb break="no" ed="#L" n="4"/>tiva dicitur in affectu et intellectu. Nam formaliter est in
+            <lb ed="#L" n="5"/>intellectu: quoniam est ipsa contemplatio, quae est actus
+            <lb ed="#L" n="6"/>intellectus.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e133">
+            <lb ed="#L" n="7"/>Causaliter autem et terminative est in affectu: et 
+            utro<lb break="no" ed="#L" n="8"/>que modo dupliciter. Nam causaliter est in affectu ratione
+            <lb ed="#L" n="9"/>amoris concupiscentiae, et ratione amoris amicitiae. Ad
+            <lb ed="#L" n="10"/>amorem siquidem concupiscentiae spectat cum aliquis 
+            ap<lb break="no" ed="#L" n="11"/>petit videre aliquid ut videat: nam ipsum videre perfectio
+            <lb ed="#L" n="12"/>est videntis; et seipsum amat qui propterea quaerit aliquid
+            <lb ed="#L" n="13"/>videre ut videat seu cognoscat. Ad amorem vero amicitiae
+            <lb ed="#L" n="14"/>spectat appetitus videndi aliquam personam quia amat illam
+            <lb ed="#L" n="15"/>personam, Et licet haec duo divisa inveniantur saepe, in
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="16"/>proposito tamen unita inveniuntur in uno et eodem affectu.
+            <lb ed="#L" n="17"/>Nam studens contemplationi simul concupiscit sibi 
+            visio<lb break="no" ed="#L" n="18"/>nem veritatis; et propter amorem ipsius veritatis divinae
+            <lb ed="#L" n="19"/>quam amat, tendit ad videndum illam. Et quoniam ratio
+            <lb ed="#L" n="20"/>amicitiae praeeminet concupiscentiae, ideo Gregorius, in 
+            lit<lb break="no" ed="#L" n="21"/>tera  allatus, vitam contemplativam in caritate Dei 
+            causa<lb break="no" ed="#L" n="22"/>liter constituit: constat enim quod caritas Dei amicitiam ad
+            <lb ed="#L" n="23"/>ipsum principaliter importat.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e175">
+            <lb ed="#L" n="24"/>Terminative autem contemplatio in affectu est et 
+            secun<lb break="no" ed="#L" n="25"/>dum delectationem, naturaliter consequentem ipsam 
+            con<lb break="no" ed="#L" n="26"/>templationem et obiectum contemplatum; et secundum
+            <lb ed="#L" n="27"/>amorem amicitiae, augmentatum ex hoc ipso quod videt et
+            <lb ed="#L" n="28"/>delectatur; si tamen status patitur augmentum. Quod dico
+            <lb ed="#L" n="29"/>propter contemplationem patriae.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2202-Dd1e192"><!-- caj-p2p2-q180a2 -->
+          <head xml:id="TAcCaj-d1e2202-Hd1e195">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2202-d1e197">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="23" type="fixed=426"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e204">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="24"/>IN articulo secundo eiusdem quaestionis 
+            centesimaeocto<lb break="no" ed="#L" n="25"/>gesimae, nota duo. Primum est quod virtutes morales
+            <lb ed="#L" n="26"/>dupliciter disponunt ad vitam contemplativam. Uno modo,
+            <lb ed="#L" n="27"/>respiciendo ad ipsam contemplationem, Et sic disponunt
+            <lb ed="#L" n="28"/>indirecte, hoc est, removendo, prohibens, scilicet passiones
+            <lb ed="#L" n="29"/>et occupationes exteriores, quae prohibent contemplari.
+            <lb ed="#L" n="30"/>Et sic intellige corpus articuli. - Alio modo, respiciendo
+            <lb ed="#L" n="31"/>causam contemplationis, quae est caritas, ut dictum est .
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="32"/>Et sic directe disponunt, et pertinent virtutes morales ad
+            <lb ed="#L" n="33"/>vitam contemplativam: quia directe disponunt et pertinent
+            <lb ed="#L" n="34"/>ad caritatem. Et sic intellige responsionem ad primum. -
+            <lb ed="#L" n="35"/>Et hinc potes diversa dicta diversimode interpretari.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e237">
+            <lb ed="#L" n="36"/>Secundum est in responsione ad tertium: ubi Auctor,
+            <lb ed="#L" n="37"/>duas. partes pulchritudinis tractans, primam, scilicet 
+            clari<lb break="no" ed="#L" n="38"/>tatem, ponit formaliter in intellectu; secundam autem, 
+            sci<lb break="no" ed="#L" n="39"/>licet proportionem, ponit causaliter in eodem.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2202-Dd1e249"><!-- caj-p2p2-q180a3 -->
+          <head xml:id="TAcCaj-d1e2202-Hd1e252">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2202-d1e254">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="33" type="fixed=427"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e261">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="34"/>In articulo tertio eiusdem quaestionis, collige distincte  
+            <lb ed="#L" n="35"/>novem ad vitam contemplativam pertinentia, quae 
+            reci<lb break="no" ed="#L" n="36"/>tantur in littera; et distincte applica ad tria membra 
+            pro<lb break="no" ed="#L" n="37"/>gressus in contemplatione in corpore articuli posita, scilicet  
+            <lb ed="#L" n="38"/>acceptionem principiorum, deductionem ex principiis ac-  
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="39"/>ceptis, et contemplationem ipsam. Et sic divide ac 
+            distri<lb break="no" ed="#L" n="40"/>bue ut auditio, lectio et oratio ad acceptionem spectent  ;
+            <lb ed="#L" n="41"/>meditatio vero, speculatio, consideratio et cogitatio ad 
+            de<lb break="no" ed="#L" n="42"/>ductionem contemplatio demum, cum subsequente 
+            admi<lb break="no" ed="#L" n="43"/>ratione, ad ipsam consummationem contemplationis .
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2202-Dd1e291"><!-- caj-p2p2-q180a4 -->
+          <head xml:id="TAcCaj-d1e2202-Hd1e294">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2202-d1e296">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="61" type="fixed=428"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e303">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="62"/>In articulo quarto eiusdem quaestionis, hoc solum 
+            notan<lb break="no" ed="#L" n="63"/>dum occurrit, quod vita contemplativa potest dupliciter
+            <lb ed="#L" n="64"/>determinari: scilicet secundum se; vel ex parte 
+            contem<lb break="no" ed="#L" n="65"/>plantis. Secundum se quidem tractatur in littera: et 
+            con<lb break="no" ed="#L" n="66"/>stituitur in contemplatione Dei principaliter, ea ratione quia
+            <lb ed="#L" n="67"/>contemplatio Dei finis est contemplationis creaturarum
+            <lb ed="#L" n="68"/>secundum se; nam imperfecta naturaliter ordinantur ad
+            <lb ed="#L" n="69"/>perfecta ut ad finem.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e325">
+            <lb ed="#L" n="70"/>Ex parte vero contemplantis, contemplativa vita. con-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="71"/>sistit in illorum contemplatione quibus contemplandis 
+            ho<lb break="no" ed="#L" n="72"/>mo studium suum principaliter adhibet. Et ideo philosophi
+            <lb ed="#L" n="73"/>qui astrorum vel naturalium contemplationi, omissis 
+            omni<lb break="no" ed="#L" n="74"/>bus, studebant, contemplativae vitae participes erant, etiam
+            <lb ed="#L" n="75"/>si nihil de Dei contemplatione curassent. Ad quam tamen
+            <lb ed="#L" n="76"/>multi eorum principaliter tendere videbantur: illi scilicet
+            <lb ed="#L" n="77"/>qui ad rerum causas investigandas incumbebant. Et hoc
+            <lb ed="#L" n="78"/>pacto vita contemplativa apud gentiles distinguebatur 
+            con<lb break="no" ed="#L" n="79"/>tra activam.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2202-Dd1e353"><!-- caj-p2p2-q180a5 -->
+          <head xml:id="TAcCaj-d1e2202-Hd1e356">Articulus 5</head>
+          <p xml:id="TAcCaj-d1e2202-d1e358">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="95" type="fixed=429"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e365">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="96"/>In articulo quinto eiusdem quaestionis, adverte, circa 
+            ti<lb break="no" ed="#L" n="97"/>tulum, quod non est hic quaestio de divina omnipotentia,
+            <lb ed="#L" n="98"/>cum dicitur, An possit vita contemplativa pertingere ad
+            <lb ed="#L" n="99"/>divinam visionem etc.: sed ly possit denotat potentiam 
+            or<lb break="no" ed="#L" n="100"/>dinariam secundum inditum naturae modum.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e381">
+            <lb ed="#L" n="101"/>Et similiter in responsione ad primum, cum Dionysius
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="102"/>dicit, Si aliquis videns Deum intellexit quod vidit, non
+            <lb ed="#L" n="103"/>ipsum vidit, intelligitur de communi usu Scripturae, quo
+            <lb ed="#L" n="104"/>multi dicuntur vidisse Deum, sive imaginarie sive 
+            intelle<lb break="no" ed="#L" n="105"/>ctualiter.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e397">
+            <lb ed="#L" n="106"/>Et haec dico propter Moysen et Paulum .
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2202-Dd1e403"><!-- caj-p2p2-q180a6 -->
+          <head xml:id="TAcCaj-d1e2202-Hd1e406">Articulus 6</head>
+          <p xml:id="TAcCaj-d1e2202-d1e408">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="65" type="fixed=431"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e415">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="66"/>In articulo sexto eiusdem quaestionis, circa distinctionem
+            <lb ed="#L" n="67"/>contemplationis per circularem, rectum et 
+            obli<lb break="no" ed="#L" n="68"/>quum, adverte primo quod, quia haec distinctio 
+            commu<lb break="no" ed="#L" n="69"/>nis est angelis et hominibus, et rursus comprehensoribus
+            <lb ed="#L" n="70"/>et viatoribus, ideo non potest unico exemplo quodlibet
+            <lb ed="#L" n="71"/>membrum declarari. Sed ex littera  facile commune quid
+            <lb ed="#L" n="72"/>colligi potest: ut motus circularis sit ipsa simplex Dei
+            <lb ed="#L" n="73"/>contemplatio; rectus vero in nobis quidem discursus 
+            na<lb break="no" ed="#L" n="74"/>turalis, in angelis vero illuminatio qua superiores 
+            illumi<lb break="no" ed="#L" n="75"/>nant inferiores quasi naturaliter; obliquus autem divinis
+            <lb ed="#L" n="76"/>utitur ut principiis, et discursu in nobis, vel illuminatione
+            <lb ed="#L" n="77"/>in angelis, ut actu seu effectu, ut sic sit compositus ex
+            <lb ed="#L" n="78"/>recto. et circulari.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e448">
+            <lb ed="#L" n="79"/>Et scias quod iste sermo est parabolicus: ad 
+            similitu<lb break="no" ed="#L" n="80"/>dinem motus circularis, qui proprius est caelo; et motus
+            <lb ed="#L" n="81"/>recti, scilicet a medio vel ad medium, qui proprius est
+            <lb ed="#L" n="82"/>elementis; et motus obliqui, quem experimur continue in
+            <lb ed="#L" n="83"/>agitatione ventorum, et proprius est mixtis. Unde non
+            <lb ed="#L" n="84"/>oportet omnimodam similitudinem in metaphora hac 
+            quae<lb break="no" ed="#L" n="85"/>rere: sed sat est intelligere quod dicitur.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e466">
+            <lb ed="#L" n="86"/>II. In eodem articulo, in responsione ad secundum,
+            <lb ed="#L" n="87"/>dubium occurrit circa illa verba, quod angeli indesinenter,
+            <lb ed="#L" n="88"/>absque principio et fine, intuentur Deum. Nam cum 
+            an<lb break="no" ed="#L" n="89"/>geli non fuerint creati ab aeterno; nec etiam fuerint beati
+            <lb ed="#L" n="90"/>ab aeterno: constat quod non absque principio coeperint
+            <lb ed="#L" n="91"/>videre Deum.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e483">
+            <lb ed="#L" n="92"/>Ad hoc dicitur quod visio beata, de qua est sermo,
+            <lb ed="#L" n="93"/>qua angeli vident Deum, potest iudicari seu considerari
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="94"/>dupliciter: uno modo, secundum se, hoc est secundum
+            <lb ed="#L" n="95"/>rationem sui ordinis et suae propriae mensurae; alio modo,
+            <lb ed="#L" n="96"/>ex parte videntis, Et si consideretur secundum se, sic, cum
+            <lb ed="#L" n="97"/>constet quod est divini ordinis, et propria eius mensura
+            <lb ed="#L" n="98"/>est non tempus quodcumque, nec aevum, sed aeternitas,
+            <lb ed="#L" n="99"/>participata tamen, ut in qu. x  Primi Libri huius Operis
+            <lb ed="#L" n="100"/>patet; et aeternitati participatae accidat habere vel non 
+            ha<lb break="no" ed="#L" n="101"/>bere principium durationis (potest namque coaeterna esse
+            <lb ed="#L" n="102"/>aeternitati per essentiam: ut patet si Deus creasset unum
+            <lb ed="#L" n="103"/>angelum beatum ab aeterno): ideo visio beata angeli vere
+            <lb ed="#L" n="104"/>secundum se dicitur absque principio et fine, quoniam, ut
+            <lb ed="#L" n="105"/>dictum est, accidit sibi habere principium ex parte videntis,
+            <lb ed="#L" n="106"/>quod est secundum membrum. Quod est considerare 
+            visio<lb break="no" ed="#L" n="107"/>nem beatam secundo. modo: sic enim considerata, 
+            princi<lb break="no" ed="#L" n="108"/>pium habet durationis. Sicut si diceremus quod motus 
+            cir<lb break="no" ed="#L" n="109"/>cularis caret principio et fine secundum se: per accidens 
+            ta<lb break="no" ed="#L" n="110"/>men, si quandoque inchoavit, diceretur habere principium.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e529">
+            <lb ed="#L" n="111"/>III. In eadem responsione, circa motum circularem 
+            ani<lb break="no" ed="#L" n="112"/>mae nostrae, nota progressum litterae esse talem ut primo
+            <lb ed="#L" n="113"/>anima aciem intellectionis a compositis ad simplicia 
+            re<lb break="no" ed="#L" n="114"/>ducat: hoc est, a sensibilibus, quae constat esse composita,
+            <lb ed="#L" n="115"/>ad seipsam intus contemplandam, quae est simplex, 
+            per<lb break="no" ed="#L" n="116"/>veniat. Et hic est primus gradus. — Deinde a seipsa 
+            ascen<lb break="no" ed="#L" n="117"/>dat discurrendo ad contemplationem quidditatis simplicis,
+            <lb ed="#L" n="118"/>ita quod hoc fiet in termino discursus absque discursu
+            <lb ed="#L" n="119"/>aliquo: tanquam si contempletur unam substantiam 
+            sepa<lb break="no" ed="#L" n="120"/>ratam. Et hic modus videtur esse progressus ille quem
+            <lb ed="#L" n="121"/>posuit Avempace  in ascensu ad substantias separatas, ex-
+            <pb ed="#L" n="432"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>spoliando quidditatem a quidditate. Et in hac speculatione
+            <lb ed="#L" n="2"/>non est error, sed aut totum aut nihil attingitur, ut 
+            di<lb break="no" ed="#L" n="3"/>citur in IX Metaphys.  Et quoniam in hoc gradu, 
+            quan<lb break="no" ed="#L" n="4"/>tum ad propositum spectat, principaliter consideratur 
+            ex<lb break="no" ed="#L" n="5"/>clusio discursus: ideo Auctor exemplariter declaravit hunc
+            <lb ed="#L" n="6"/>gradum in cognitione complexa primorum principiorum,
+            <lb ed="#L" n="7"/>in qua est clara evidentia sine discursu. - Post hos autem
+            <lb ed="#L" n="8"/>duos gradus, tertius ponitur, in quo ipsa contemplatio
+            <lb ed="#L" n="9"/>divinae veritatis consistit, secundum assimilationem ad 
+            vi<lb break="no" ed="#L" n="10"/>sionem qua angeli vident Deum.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e581">
+            <lb ed="#L" n="11"/>IV. Sed statim accidit hic dubium, quo pacto tertius hic
+            <lb ed="#L" n="12"/>gradus attribuatur vitae contemplativae homini in hac vita:
+            <lb ed="#L" n="13"/>cum non possimus ultra ascendere quam secundus 
+            gra<lb break="no" ed="#L" n="14"/>dus donet. Constat enim quod summum in contemplatione
+            <lb ed="#L" n="15"/>nostra gradum obtinet cum anima, exspoliando 
+            quiddita<lb break="no" ed="#L" n="16"/>tem a quidditate, ad simplicem quidditatem intuendam
+            <lb ed="#L" n="17"/>pervenit. Quamvis nec per hoc pertingere possit ad 
+            quid<lb break="no" ed="#L" n="18"/>ditative intelligendum aliquam substantiam separatam: ut
+            <lb ed="#L" n="19"/>diffuse habes in III Contra Gent., cap. xrv.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e603">
+            <lb ed="#L" n="20"/>Ad hoc dicitur quod doctrina ista theologica est, nec
+            <lb ed="#L" n="21"/>sistit in puris naturalibus, sed de natura nostra ut perficitur
+            <lb ed="#L" n="22"/>gratia divinae illuminationis, tractat. Et propterea, licet
+            <lb ed="#L" n="23"/>naturaliter non possimus contemplando supra secundum
+            <lb ed="#L" n="24"/>gradum ascendere, secundum tamen divini luminis 
+            parti<lb break="no" ed="#L" n="25"/>cipationem altius mens humana conscendit: non sine 
+            phan<lb break="no" ed="#L" n="26"/>tasmatibus tamen. Et sic motus circularis, hoc est 
+            uni<lb break="no" ed="#L" n="27"/>formis Dei contemplatio, cum contemplatione nostra 
+            sal<lb break="no" ed="#L" n="28"/>vatur.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e625">
+            <lb ed="#L" n="29"/>Potest et aliter dici, quod secundus gradus differt a
+            <lb ed="#L" n="30"/>tertio in hoc quod obiectum secundi est quodcumque 
+            sim<lb break="no" ed="#L" n="31"/>plex intelligibile ad quod intuendum figitur sine discursu
+            <lb ed="#L" n="32"/>aliquo: obiectum autem tertii est, non quodcumque sim-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="33"/>plex intelligibile, sed solus. Deus. Naturalis autem 
+            progres<lb break="no" ed="#L" n="34"/>sus est ascendere a quocumque intelligibili simplici ad
+            <lb ed="#L" n="35"/>Deum ipsum. Et sic tertius gradus ponitur superior 
+            se<lb break="no" ed="#L" n="36"/>cundo sicut habens obiectum determinatum 
+            simplicissi<lb break="no" ed="#L" n="37"/>mum, etc., respectu habentis obiectum indeterminate. - Et
+            <lb ed="#L" n="38"/>haec responsio subtilior, et magis consona litterae videtur:
+            <lb ed="#L" n="39"/>quoniam in secundo gradu indeterminate ponitur obiectum,
+            <lb ed="#L" n="40"/>in tertio vero determinate. Oportet tamen huiusmodi 
+            con<lb break="no" ed="#L" n="41"/>templationem Dei divina illuminatione fulciri: alioquin 
+            si<lb break="no" ed="#L" n="42"/>militudinis angelicae visionis expers esset.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e660">
+            <lb ed="#L" n="43"/>V. In eodem articulo, in responsione ad tertium et 
+            se<lb break="no" ed="#L" n="44"/>cundum simul, dubium occurrit circa sufficientiam: horum
+            <lb ed="#L" n="45"/>motuum contemplationis. Quoniam praetermissus videtur
+            <lb ed="#L" n="46"/>motus quo anima a magis intelligibilibus ad minus 
+            intel<lb break="no" ed="#L" n="47"/>ligibilia, seu sensibilia, contemplando procedit. Et tamen
+            <lb ed="#L" n="48"/>constat quod huiusmodi contemplatio recta est: et forte
+            <lb ed="#L" n="49"/>frequentior. Quod autem sit praetermissus motus iste, 
+            pa<lb break="no" ed="#L" n="50"/>tet ex eo quod nec est motus obliquus, quia nihil est hic
+            <lb ed="#L" n="51"/>divinae informitatis; nec circularis, ut patet; nec rectus,
+            <lb ed="#L" n="52"/>quia rectus est a sensibilibus ad intelligibilia.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e685">
+            <lb ed="#L" n="53"/>Ad hoc dicitur quod, quia imperfecta in aliqua specie
+            <lb ed="#L" n="54"/>seu genere reducuntur ad perfectum illius, ideo motus iste,
+            <lb ed="#L" n="55"/>tanquam imperfectus in genere motus recti, reducitur ad
+            <lb ed="#L" n="56"/>motum rectum: et non est praetermissus, sed sub recto
+            <lb ed="#L" n="57"/>comprehensus reductive. Motus. enim rectus principaliter
+            <lb ed="#L" n="58"/>consistit in ascensu a sensibilibus ad intelligibilia, qui 
+            pro<lb break="no" ed="#L" n="59"/>prie motus est ad perfectionem; secundario autem ad eum
+            <lb ed="#L" n="60"/>spectat regredi, quod minoris perfectionis videtur: ut sic,
+            <lb ed="#L" n="61"/>ut in calce litterae  patet, contemplatio discursiva 
+            com<lb break="no" ed="#L" n="62"/>munis sit motui obliquo et recto; sed in obliquo habet
+            <lb ed="#L" n="63"/>pro ratione et principio divinam illuminationem, in recto
+            <lb ed="#L" n="64"/>autem soli rationi naturali innititur.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2202-Dd1e715"><!-- caj-p2p2-q180a7 -->
+          <head xml:id="TAcCaj-d1e2202-Hd1e718">Articulus 7</head>
+          <p xml:id="TAcCaj-d1e2202-d1e720">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="83" type="fixed=433"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e727">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="84"/>IN articulo septimo eiusdem quaestionis, in corpore 
+            arti<lb break="no" ed="#L" n="85"/>culi, adverte quod, cum dicitur quod delectatio 
+            contem<lb break="no" ed="#L" n="86"/>plationis excedit omnem humanam delectationem , 
+            intelli<lb break="no" ed="#L" n="87"/>gitur non solum secundum se, sed etiam quoad nos ex
+            <lb ed="#L" n="88"/>parte animae habentis habitum contemplativae caritatis. Et
+            <lb ed="#L" n="89"/>signum eius est quod talis tolerat quaecumque contraria
+            <lb ed="#L" n="90"/>delectationibus corporalibus et sensibilibus, potius quam
+            <lb ed="#L" n="91"/>amittat contemplativam delectationem. Videmus enim tales
+            <lb ed="#L" n="92"/>praeferre contemplationem delectationibus tam venereorum
+            <lb ed="#L" n="93"/>quam cibi et potus et reliquorum bonorum mundi, puta
+            <lb ed="#L" n="94"/>gloriae, dignitatum, etc. Quod ex eorum affectu procul
+            <lb ed="#L" n="95"/>dubio procedit.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e758">
+            <lb ed="#L" n="96"/>II. In responsione ad primum eiusdem articuli, circa illa
+            <lb ed="#L" n="97"/>verba, Et haec est ultima perfectio vitae contemplativae,
+            <lb ed="#L" n="98"/>ut scilicet non solum divina veritas videatur, sed etiam
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="99"/>ut ametur, grandis scrupulus occurreret de fruitione seu
+            <lb ed="#L" n="100"/>felicitate aeterna, contra Auctorem , quod consistat in actu
+            <lb ed="#L" n="101"/>amandi, nisi in articulo secundo huiusmet quaestionis,
+            <lb ed="#L" n="102"/>ad primum, determinasset quod amor pertinet ad 
+            extrin<lb break="no" ed="#L" n="103"/>secam perfectionem vitae contemplativae. Et propterea cum
+            <lb ed="#L" n="104"/>hic dicitur quod est ultima perfectio, intelligendum est de
+            <lb ed="#L" n="105"/>perfectione extrinseca, Quaestio autem de felicitate, in quo
+            <lb ed="#L" n="106"/>consistat, est de perfectione essentiali. Et sic omnia 
+            con<lb break="no" ed="#L" n="107"/>sonant.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e789">
+            <lb ed="#L" n="108"/>III. In responsione ad quartum eiusdem articuli, circa
+            <lb ed="#L" n="109"/>claudicationem lacob, hoc est, defectum temporalem 
+            an<lb break="no" ed="#L" n="110"/>nexum vitae contemplativae, adverte quod dupliciter referri
+            <lb ed="#L" n="111"/>potest ad contemplationem temporalis defectus. Primo, ut
+            <lb ed="#L" n="112"/>consequenter ex ipsa contemplatione: quia scilicet, dum 
+            in<lb break="no" ed="#L" n="113"/>haerens est contemplationi divinae, deficit ab amore tem-
+            <pb ed="#L" n="434"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>poralium. — Secundo, ut augens amorem contemplationis:
+            <lb ed="#L" n="2"/>quia, debilitato temporalium amore, magis inardescit amor
+            <lb ed="#L" n="3"/>spiritualium. Qui enim temporalibus non confidit, spiri-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>tualibus necesse est innitatur: sicut claudicans uno pede,
+            <lb ed="#L" n="5"/>innititur alteri sano. Et hanc secundam relationem tractat
+            <lb ed="#L" n="6"/>hic, ex Gregorio, Auctor.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2202-Dd1e825"><!-- caj-p2p2-q180a8 -->
+          <head xml:id="TAcCaj-d1e2202-Hd1e828">Articulus 8</head>
+          <p xml:id="TAcCaj-d1e2202-d1e830">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="79" type="fixed=434"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e837">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="80"/>IN articulo octavo eiusdem quaestionis, tria sunt notanda.
+            <lb ed="#L" n="81"/>Primum. Cum dicitur, In operibus contemplativae 
+            cor<lb break="no" ed="#L" n="82"/>poraliter. non. laboramus, ly corporaliter non sumitur ut
+            <lb ed="#L" n="83"/>distinguitur. contra spiritualiter, hoc est, immaterialiter :
+            <lb ed="#L" n="84"/>quoniam constat sic corporaliter nos laborare 
+            contem<lb break="no" ed="#L" n="85"/>plando in parte sensitiva ministrante intellectui. Cuius 
+            si<lb break="no" ed="#L" n="86"/>gnum est fatigatio in continuando, cum exinanitione 
+            quo<lb break="no" ed="#L" n="87"/>dammodo relicta spirituum. Sed accipitur corporaliter ut
+            <lb ed="#L" n="88"/>distinguitur contra animaliter: sicut corpus distinguitur
+            <lb ed="#L" n="89"/>contra animam, Sic enim solum corporaliter laborant. qui
+            <lb ed="#L" n="90"/>membris corporalibus operando utuntur, ut artifices, 
+            agri<lb break="no" ed="#L" n="91"/>colae et huiusmodi. Contemplatio autem fit. sedendo et
+            <lb ed="#L" n="92"/>quiescendo , Et ideo absque corporali labore fieri dicitur,
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e870">
+            <lb ed="#L" n="93"/>Secundum est quod, dum ibidem subditur, unde magis
+            <lb ed="#L" n="94"/>continue in huiusmodi operibus persistere. possumus, 
+            in<lb break="no" ed="#L" n="95"/>teligendum est, non totaliter, sed quod ex hac condi-
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="96"/>tione habetur nonnulla ratio diuturnitatis in contemplando.
+            <lb ed="#L" n="97"/>Ita quod, cum sit hic sermo de diuturnitate quoad nos,
+            <lb ed="#L" n="98"/>non est intentionis praesentis litterae dicere quod vita 
+            con<lb break="no" ed="#L" n="99"/>templativa ex parte nostri sit totaliter diuturna, eo quia
+            <lb ed="#L" n="100"/>non est ibi labor corporalis: quoniam etiam ex parte 
+            no<lb break="no" ed="#L" n="101"/>stri minus diuturna invenitur, dum ex corporis gravitate
+            <lb ed="#L" n="102"/>retrabimur ab altitudine contemplationis, ut in calce 
+            quae<lb break="no" ed="#L" n="103"/>stionis sequentis  Auctor ex Gregorio dicit. Sed intendit  Art. 4, ad 5.
+            <lb ed="#L" n="104"/>quod ex hoc ipso contemplatio ex parte nostri est magis
+            <lb ed="#L" n="105"/>continua, hoc est, magis ac magis continuari potest, quod
+            <lb ed="#L" n="106"/>corporalis labor ibi non intervenit. Haec enim negatio 
+            impe<lb break="no" ed="#L" n="107"/>dientis laboris manifeste ad maiorem continuitatem confert.
+          </p>
+          <p xml:id="TAcCaj-d1e2202-d1e907">
+            <lb ed="#L" n="108"/>Tertium est in responsione ad secundum, ubi 
+            mani<lb break="no" ed="#L" n="109"/>feste habes quod superius  diximus de motu circulari in 
+            <lb ed="#L" n="110"/>hac vita, hoc est, summa Dei contemplatione: et quod
+            <lb ed="#L" n="111"/>possibilis, et quod divina, et quod transitoria est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

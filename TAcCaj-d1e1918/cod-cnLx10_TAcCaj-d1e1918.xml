@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 125</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 125</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="45"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1918"><!-- TAcCajp2p2-q125 -->
+        <head xml:id="TAcCaj-d1e1918-Hd1e101">Quaestio 125</head>
+        <!-- no commentary -->
+        <!--no commentary -->
+        <div xml:id="TAcCaj-d1e1918-Dd1e107"><!-- caj-p2p2-q125a1-3 -->
+          <head xml:id="TAcCaj-d1e1918-Hd1e110">Articuli 1-3</head>
+          <p xml:id="TAcCaj-d1e1918-d1e112">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="45" type="fixed=45"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1918-d1e119">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="46"/>IN tota quaestione centesimavigesimaquinta dubium unum 
+            <lb ed="#L" n="47"/>tantum occurrit: An timor mortis excuset a prohibitis
+            <lb ed="#L" n="48"/>vel praeceptis legis positivae, seu hominis. Et est ratio 
+            du<lb break="no" ed="#L" n="49"/>bii quia in littera articuli tertii dicitur quod si quis contra
+            <lb ed="#L" n="50"/>prohibita vel praecepta divinae legis facit propter 
+            timo<lb break="no" ed="#L" n="51"/>rem, est peccatum mortale, alioquin esset peccatum veniale.
+            <lb ed="#L" n="52"/>Cum enim constet quod agens contra legem positivam aut
+            <lb ed="#L" n="53"/>praeceptum hominis, non agit contra legem divinam, quia
+            <lb ed="#L" n="54"/>lex humana distinguitur a divina, et praeceptum hominis
+            <lb ed="#L" n="55"/>ab utraque lege; consequens est quod non nisi venialiter
+            <lb ed="#L" n="56"/>peccet huiusmodi transgressor propter timorem; si sententia
+            <lb ed="#L" n="57"/>litterae vera est.
+          </p>
+          <p xml:id="TAcCaj-d1e1918-d1e150">
+            <lb ed="#L" n="58"/>Praeterea, secundum iura, citatus sub censuris 
+            perso<lb break="no" ed="#L" n="59"/>naliter non tenetur comparere si tutus accessus non patet.
+            <lb ed="#L" n="60"/>Ergo timor mortis et tormentorum saltem excusat a 
+            prae<lb break="no" ed="#L" n="61"/>cepto hominis, - - Consequentia nota est. Et antecedens patet.
+          </p>
+          <p xml:id="TAcCaj-d1e1918-d1e161">
+            <lb ed="#L" n="62"/>II. Ad hanc quaestionem in praecedenti Libro  
+            respon<lb break="no" ed="#L" n="63"/>sum est. Et nunc occasione huius litterae quaestioni eidem
+            <lb ed="#L" n="64"/>motae dicitur quod, sine dubio, timor mortis non eximit 
+            <lb ed="#L" n="65"/>hominem a praeceptis et prohibitis per legem positivam.
+            <lb ed="#L" n="66"/>Et hoc clare patet ex cap. Sacris, Extra, De his quae vi
+            <lb ed="#L" n="67"/>metusve causa fiunt, ubi participatio in divinis cum 
+            ex<lb break="no" ed="#L" n="68"/>communicatis pro nullo metu excusari dicitur, quia, ut ibi
+            <lb ed="#L" n="69"/>dicitur, est peccatum mortale: et tamen constat quod talis 
+            <lb ed="#L" n="70"/>prohibitio de iure positivo est, quia de licentia Papae est
+            <lb ed="#L" n="71"/>licita. Obligat ergo ius positivum quandoque ad peccatum
+            <lb ed="#L" n="72"/>mortale: et consequenter nullo mortis metu declinandum
+            <lb ed="#L" n="73"/>est ab observatione positivi iuris.
+          </p>
+          <p xml:id="TAcCaj-d1e1918-d1e191">
+            <lb ed="#L" n="74"/>Praeterea, ius civile potest obligare sub poena capitis.
+            <lb ed="#L" n="75"/>Ergo ius canonicum potest obligare sub poena peccati 
+            mor<lb break="no" ed="#L" n="76"/>talis. — Et patet sequela: quia sicut ad civile ius se habet
+            <lb ed="#L" n="77"/>mors corporis, ita ad ecclesiasticum ius mors animae.
+          </p>
+          <p xml:id="TAcCaj-d1e1918-d1e202">
+            <lb ed="#L" n="78"/>III. De praeceptis autem vel prohibitis ab homine, idem
+            <lb ed="#L" n="79"/>est iudicium quod de praeceptis et prohibitis a positivo
+            <lb ed="#L" n="80"/>iure, quod ab hominis auctoritate robur habere dghat:
+            <lb ed="#L" n="81"/>quoniam princeps est custos iusti, ut dicitur in V Ethic. 
+            <lb ed="#L" n="82"/>et veluti Jex animata . Unde in huiusmodi distinguendum 
+            <lb ed="#L" n="83"/>videtur. Quia quaedam imponuntur ab homine directe: ut 
+            <lb ed="#L" n="84"/>dum aliquis citatur, aut mittitur, aut iubetur facere vel 
+            <lb ed="#L" n="85"/>omittere hoc aut illud. Quaedam vero indirecte ex sententia
+            <lb ed="#L" n="86"/>hominis consequuntur: verbi gratia, episcopus 
+            excommu<lb break="no" ed="#L" n="87"/>nicavit tales, vel posuit interdictum, etc.; ex hoc enim se- 
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="88"/>quitur quod quilibet tenetur illos excommunicatos vitare,
+            <lb ed="#L" n="89"/>non ex praecepto episcopi, sed ex iuris dispositione. Et
+            <lb ed="#L" n="90"/>in istis, quia praeceptum iuris est obligans, evidens est 
+            iu<lb break="no" ed="#L" n="91"/>dicium idem esse. In illis vero, ubi solum hominis 
+            prae<lb break="no" ed="#L" n="92"/>ceptum est, idem quoque esse iudicium patet videntibus
+            <lb ed="#L" n="93"/>quod lex et princeps eandem habent potestatem, et uterque
+            <lb ed="#L" n="94"/>in foro civili potest praecipere sub poena capitis, et facere
+            <lb ed="#L" n="95"/>praecepta simpliciter. Et propterea, cum. huiusmodi 
+            prae<lb break="no" ed="#L" n="96"/>cepta ab homine fiunt , interpretanda sunt sicut si a lege
+            <lb ed="#L" n="97"/>fuissent facta. Et si extant circumstantiae tunc cum quibus
+            <lb ed="#L" n="98"/>lex obligaret, praeceptum quoque hominis obligat: ita quod
+            <lb ed="#L" n="99"/>sicut timor mortis non excusaret a transgressione legis, si
+            <lb ed="#L" n="100"/>esset super hoc lata, ita non excusat a transgressione 
+            prae<lb break="no" ed="#L" n="101"/>cepti lati ab homine. Si vero circumstantionatus taliter 
+            in<lb break="no" ed="#L" n="102"/>venitur tunc actus ut lex, si esset lata, non obligaret, nec
+            <lb ed="#L" n="103"/>praeceptum hominis tunc ligat.
+          </p>
+          <p xml:id="TAcCaj-d1e1918-d1e263">
+            <lb ed="#L" n="104"/>IV. Et per hoc patet responsio ad secundam 
+            obiectio<lb break="no" ed="#L" n="105"/>nem in oppositum , Quia citatus personaliter carens tuto
+            <lb ed="#L" n="106"/>accessu ideo non tenetur, quia nec etiam si lex hoc 
+            prae<lb break="no" ed="#L" n="107"/>cepisset, teneretur. Quoniam aut accessus non est tutus
+            <lb ed="#L" n="108"/>ex parte iudicis, puta quia saevus tyrannus: et tunc 
+            con<lb break="no" ed="#L" n="109"/>stat quod non declinat iudicem, sed saevitatem tyranni,
+            <lb ed="#L" n="110"/>quod lex concedit. Aut non est tutus propter alios: et tunc
+            <lb ed="#L" n="111"/>excusatur a lege, quia non posset comparere; qui enim
+            <lb ed="#L" n="112"/>non potest tute comparere, perinde est ac si non posset
+            <lb ed="#L" n="113"/>comparere.
+          </p>
+          <p xml:id="TAcCaj-d1e1918-d1e287">
+            <lb ed="#L" n="114"/>Ad primam autem obiectionem  dicitur quod littera
+            <lb ed="#L" n="115"/>non accepit legem divinam hoc in loco ut distinguitur ab
+            <lb ed="#L" n="116"/>aliis legibus. Quod ex duobus patet, Primo, ex eo quod
+            <lb ed="#L" n="117"/>sequeretur quod ex timore mortis facere contra ius 
+            natu<lb break="no" ed="#L" n="118"/>rale esset solum peccatum veniale: quod ridiculum est
+            <lb ed="#L" n="119"/>imponere tanto Doctori. Et patet sequela: quia ius 
+            natu<lb break="no" ed="#L" n="120"/>rale distinguitur contra divinum proprie sumptum, ut patet
+            <lb ed="#L" n="121"/>in praecedenti Libro . — Secundo, ex eo quod sequeretur
+            <lb ed="#L" n="122"/>quod ex timore cuiuscumque temporalis mali transgredi
+            <lb ed="#L" n="123"/>ius positivum solum esset veniale, quod est ridiculum:
+            <lb ed="#L" n="124"/>puta quod aliquis, ex timore ne perdat pallium, celebrando
+            <lb ed="#L" n="125"/>missam sine sacris vestibus et sine altari et vasis sacris,
+            <lb ed="#L" n="126"/>solum peccaret venialiter. Et patet sequela: quia in littera
+            <lb ed="#L" n="127"/>dicitur, propter timorem quo refugit periculum mortis, vel
+            <lb ed="#L" n="128"/>quodcumque aliud temporale malum; constat enim quod
+            <lb ed="#L" n="129"/>perdere paliium quoddam temporale malum est. - Intel-
+            <pb ed="#L" n="46"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ligit ergo Auctor per legem divinam ipsam divinam 
+            insti<lb break="no" ed="#L" n="2"/>tutionem ut firmat et ius naturae et ius positivum et 
+            prae<lb break="no" ed="#L" n="3"/>cepta hominum, datque omnibus vim obligativam in foro
+            <lb ed="#L" n="4"/>conscientiae: hoc enim omnia iura et praecepta habent
+            <lb ed="#L" n="5"/>ex eo quod a Deo immediate vel mediate procedunt. Et
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="6"/>propterea ex hac littera firmatur doctrina data.  Quoniam
+            <lb ed="#L" n="7"/>hinc habes quod quicumque contra praecepta hominis, vel
+            <lb ed="#L" n="8"/>positivi aut cuiuscumque iuris, facit, contra legem divinam
+            <lb ed="#L" n="9"/>facit: ac per hoc, timor, sive mortis sive alterius mali, non
+            <lb ed="#L" n="10"/>excusat a toto, licet a tanto, ut in III Efhic.  habes.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

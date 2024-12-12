@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 172</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 172</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="378"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2161"><!-- TAcCajp2p2-q172 -->
+        <head xml:id="TAcCaj-d1e2161-Hd1e101">Quaestio 172</head>
+        <div xml:id="TAcCaj-d1e2161-Dd1e103"><!-- caj-p2p2-q172a1 -->
+          <head xml:id="TAcCaj-d1e2161-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2161-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="75" type="fixed=378"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="76"/>IN articulo primo quaestionis 
+            centesimaeseptuagesimaese<lb break="no" ed="#L" n="77"/>cundae, nota tria. Primo, circa opinionem Platonis, quod,
+            <lb ed="#L" n="78"/>cum duo a Platone dicerentur, scilicet quod animae 
+            huma<lb break="no" ed="#L" n="79"/>nae sunt ab aeterno , et quod statim ut sunt, habent 
+            scien<lb break="no" ed="#L" n="80"/>tiam ; et hoc secundum potest poni sine primo; Auctor
+            <lb ed="#L" n="81"/>attulit opinionem Platoni conformem quoad secundum,
+            <lb ed="#L" n="82"/>scilicet quod animae humanae, statim ut sunt, habent 
+            scien<lb break="no" ed="#L" n="83"/>tiam. Hoc enim potest dicere etiam qui tenet animas creari
+            <lb ed="#L" n="84"/>simul cum corporibus infunduntur. Et quia haec positio
+            <lb ed="#L" n="85"/>nihil continet adversus fidem aut ecclesiasticam doctrinam,
+            <lb ed="#L" n="86"/>ideo Auctor cum magna modestia eam refutavit: melius
+            <lb ed="#L" n="87"/>fore dicens si sequeremur prius discussa et conclusa in
+            <lb ed="#L" n="88"/>Primo Libro, quod anima colligit scientiam ex sensibilibus.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e148">
+            <lb ed="#L" n="89"/>Secundo, circa dispositiones naturalis prophetiae, quod
+            <lb ed="#L" n="90"/>Auctor, ex Avicenna, in VI Natural. , has duas 
+            disposi<lb break="no" ed="#L" n="91"/>tiones approbavit in propheta naturali, scilicet bonitatem
+            <lb ed="#L" n="92"/>imaginativae et claritatem intelligentiae; relinquendo 
+            ter<lb break="no" ed="#L" n="93"/>tiam, scilicet animae potestatem, quoniam chimerica est
+            <lb ed="#L" n="94"/>illa tertia. In secunda autem conditione potes advertere
+            <lb ed="#L" n="95"/>quod non est sermo de divinationibus aut significationibus
+            <lb ed="#L" n="96"/>nescientium quid dicant: sed claritatem intelligentiae 
+            opor<lb break="no" ed="#L" n="97"/>tet esse in prophetia utraque, scilicet naturali et divina;
+            <lb ed="#L" n="98"/>alioquin nullius prophetiae nomen meretur. Et hinc ha-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="99"/>bes quantum a somniis, et melancholicis atque istiusmodi
+            <lb ed="#L" n="100"/>hominibus plenis apparitionibus interioribus, prophetica 
+            co<lb break="no" ed="#L" n="101"/>gnitio, etiam quae secundum naturam est, distet. Oportet
+            <lb ed="#L" n="102"/>enim claritatem intelligentiae adesse, hoc est, certissimam
+            <lb ed="#L" n="103"/>visionem illorum. quae significantur. Alioquin nihil est.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e185">
+            <lb ed="#L" n="104"/>Tertio, circa Auctoris profectum ex tempore quo 
+            scri<lb break="no" ed="#L" n="105"/>pserat quaestionem xi: de Veritate , usque in locum i istum.
+            <lb ed="#L" n="106"/>Hic enim quam dixit naturalem prophetiam, ad 
+            prophe<lb break="no" ed="#L" n="107"/>tiam secundum quid deiecit: et solam illam quae ex 
+            di<lb break="no" ed="#L" n="108"/>vina est revelatione, censet simpliciter esse prophetiam. Et
+            <lb ed="#L" n="109"/>ita est: ut patet ex auctoritate Petri Apostoli , et ex ratione
+            <lb ed="#L" n="110"/>litterae. Et propterea simpliciter negandum est prophetiam
+            <lb ed="#L" n="111"/>posse esse a natura.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e206">
+            <lb ed="#L" n="112"/>II. In responsione ad primum, quia auctoritas Su
+            <lb ed="#L" n="113"/>animae naturalem vim ad praevidendum futura aperte 
+            do<lb break="no" ed="#L" n="114"/>cet, ideo Auctor subtilitatem naturalem animae ad. 
+            prae<lb break="no" ed="#L" n="115"/>videndum, non ad vim praevisivam futurorum, sed ad vim
+            <lb ed="#L" n="116"/>perceptivam praesentium reducit. Ita quod nec nova nec
+            <lb ed="#L" n="117"/>antiqua animae subtilitate habet anima vim futurorum
+            <lb ed="#L" n="118"/>praevisivam cum morti corporis propinqua est: sed 
+            natu<lb break="no" ed="#L" n="119"/>rali sua virtute, quam tunc habet expeditiorem respectu
+            <lb ed="#L" n="120"/>interiorum motuum, utpote ab exterioribus et corpore 
+            pro<lb break="no" ed="#L" n="121"/>prio magis remota, percipit vel superiorum intellectuum
+            <pb ed="#L" n="379"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>secundum naturae ordinem revelationes; vel, quod magis
+            <lb ed="#L" n="2"/>consonat, perspicit subtiles motus imaginativae ex 
+            impres<lb break="no" ed="#L" n="3"/>sione causarum naturalium, ex quibus motibus 
+            imagina<lb break="no" ed="#L" n="4"/>tivae lucentibus lumine intellectus agentis, et alicuius forte
+            <lb ed="#L" n="5"/>superioris intellectus, movetur intellectus noster possibilis
+            <lb ed="#L" n="6"/>ad cognoscendum futurum in praesenti signo 
+            repraesenta<lb break="no" ed="#L" n="7"/>tum. Et hoc modo videtur ille cuius meminit Gregorius ,
+            <lb ed="#L" n="8"/>praevidisse sepeliendum se in Sancto Sixto.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e252">
+            <lb ed="#L" n="9"/>III. In responsione ad quartum, cum legis prophetiam
+            <lb ed="#L" n="10"/>necessariam ad populi gubernationem , non intelligas de
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="11"/>prophetia nova: sed sat est si sit antiqua, iuxta verbum
+            <lb ed="#L" n="12"/>Abrahae ad divitem: Habent Moysen et prophetas: audiant
+            <lb ed="#L" n="13"/>illos . Et in ordine quidem ad divinum cultum, est omnino
+            <lb ed="#L" n="14"/>necessaria prophetia ex parte nostri, ut praedictum est . In
+            <lb ed="#L" n="15"/>ordine autem ad alia, necessaria est ad hoc ut firmior 
+            ef<lb break="no" ed="#L" n="16"/>ficaciorque sit populi gubernatio: verbum siquidem Dei
+            <lb ed="#L" n="17"/>validum est, et penetrabilius omni gladio, etc.  Et propterea
+            <lb ed="#L" n="18"/>in littera dicitur, Et praecipue etc.: ut scilicet utramque
+            <lb ed="#L" n="19"/>necessitatem ostenderet.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2161-Dd1e282"><!-- caj-p2p2-q172a2 -->
+          <head xml:id="TAcCaj-d1e2161-Hd1e285">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2161-d1e287">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="70" type="fixed=379"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e294">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="71"/>IN articulo secundo eiusdem 
+            centesimaeseptuagesimaese<lb break="no" ed="#L" n="72"/>cundae quaestionis, dubia duo occurrunt. Primum, circa
+            <lb ed="#L" n="73"/>illuminationem propheticam: an scilicet sit ab angelo quoad
+            <lb ed="#L" n="74"/>ipsum lumen propheticum, an non. Et est ratio dubii quia,
+            <lb ed="#L" n="75"/>si lumen propheticum non esset ab angelo, frustra in 
+            lit<lb break="no" ed="#L" n="76"/>tera diceretur utrumque, scilicet z/lluminationes et 
+            revela<lb break="no" ed="#L" n="77"/>tiones. Suffecisset siquidem dicere: Revelationes per 
+            ange<lb break="no" ed="#L" n="78"/>los deferuntur.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e316">
+            <lb ed="#L" n="79"/>In oppositum autem est quia Auctor, in principio  huius
+            <lb ed="#L" n="80"/>Summae, qu. cxi, art. 1, ad 1, ponit quod lumen fidei in
+            <lb ed="#L" n="81"/>intellectu nostro est immediate a Deo. Ergo a fortiori 
+            lu<lb break="no" ed="#L" n="82"/>men propheticum, quod facit evidentiam eorum quae sunt
+            <lb ed="#L" n="83"/>dei.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e329">
+            <lb ed="#L" n="84"/>II. Secundum dubium  est circa inspirationem 
+            prophe<lb break="no" ed="#L" n="85"/>ticam: an sit ab angelo. Dictum est enim in : art. 
+            prae<lb break="no" ed="#L" n="86"/>ced. qu. , quod ad prophetiam requiritur inspiratio. Et est
+            <lb ed="#L" n="87"/>ratio dubii quia in responsione ad primum dicitur quod
+            <lb ed="#L" n="88"/>non est eadem ratio de spectantibus ad intellectum, et de
+            <lb ed="#L" n="89"/>spectantibus ad voluntatem, quoniam angelus potest 
+            im<lb break="no" ed="#L" n="90"/>primere in intellectum, non autem in voluntatem. Constat 
+            <lb ed="#L" n="91"/>autem quod inspiratio prophetica ad voluntatem spectat.
+            <lb ed="#L" n="92"/>Igitur.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e352">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="93"/>III. Ad primum dubium, de illuminatione , dicitur quod
+            <lb ed="#L" n="94"/>illuminatio prophetica, quoad supernaturale lumen quod
+            <lb ed="#L" n="95"/>menti prophetae infunditur, non est ab angelo, sed a Deo
+            <lb ed="#L" n="96"/>immediate. Quoniam: regulare est quod nullus creatus 
+            in<lb break="no" ed="#L" n="97"/>tellectus potest alium illuminare hoc modo, scilicet 
+            tra<lb break="no" ed="#L" n="98"/>dendo illi lumen sive naturae sive gratiae sive gloriae: ut
+            <lb ed="#L" n="99"/>patet ab Auctore in Primo huius Operis Libro, qu. cvt,
+            <lb ed="#L" n="100"/>art. r, ad 2. Unde concedendum est quod tam lumen fidei
+            <lb ed="#L" n="101"/>quam lumen propheticum, illud habituale, hoc per modum
+            <lb ed="#L" n="102"/>transeuntis, a Deo est immediate. Vocatur autem angelus
+            <lb ed="#L" n="103"/>illuminare hominem vel per modum confortationis, et hoc
+            <lb ed="#L" n="104"/>ex parte intellectus; vel per modum docentis, distinguentis
+            <lb ed="#L" n="105"/>proponentisque perceptibiliter, et hoc ex parte rei 
+            revela<lb break="no" ed="#L" n="106"/>tae; ut patet ab Auctore in locis praeallatis. Et ideo vere
+            <lb ed="#L" n="107"/>dictum est quod illuminant et revelant.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e389">
+            <lb ed="#L" n="108"/>IV. Ad secundum  dicitur quod inspiratio prophetica,
+            <lb ed="#L" n="109"/>cum non requirat aliquam impressionem in voluntatem ex
+            <lb ed="#L" n="110"/>parte ipsius voluntatis, sed possit mediante obiecto 
+            insti<lb break="no" ed="#L" n="111"/>gativo ad elevationem mentis fieri, ab angelo fieri potest.
+            <lb ed="#L" n="112"/>Differentia namque in littera posita non militat adversus
+            <lb ed="#L" n="113"/>hoc, propter dictam rationem: quia scilicet inspiratio potest
+            <lb ed="#L" n="114"/>ex parte obiecti fieri. Constat enim quod angelus potest
+            <pb ed="#L" n="380"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ex parte obiecti voluntatem nostram movere persuasive.
+            <lb ed="#L" n="2"/>Et sic forte fit communiter prophetica inspiratio.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e415">
+            <lb ed="#L" n="3"/>At si de inspiratione efficaci intelligendum est cum 
+            pro<lb break="no" ed="#L" n="4"/>phetia dicitur inspiratio : constat quod, cum solius Dei sit
+            <lb ed="#L" n="5"/>efficaciter movere voluntatem et ex parte ipsius voluntatis,
+            <lb ed="#L" n="6"/>ut inspirationis nomen sonat, dicendum esset quod non est
+            <lb ed="#L" n="7"/>ab angelo, sed a Deo immediate, non per impressionem ali-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="8"/>cuius formae in voluntatem, sed per actualem motionem
+            <lb ed="#L" n="9"/>interiorem, qua solus ipse Creator voluntatis potest eam,
+            <lb ed="#L" n="10"/>cum vult et quo vult, movere, iuxta illud : Cor regis in
+            <lb ed="#L" n="11"/>manu Domini, et volvet illud quocumque voluerit. — Haec
+            <lb ed="#L" n="12"/>responsio, quia formalis est, amplectenda magis videtur. Et
+            <lb ed="#L" n="13"/>forte propterea in littera hac nunquam meminit Auctor 
+            in<lb break="no" ed="#L" n="14"/>spirationis propheticae, sed revelationis et illuminationis.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2161-Dd1e447"><!-- caj-p2p2-q172a3 -->
+          <head xml:id="TAcCaj-d1e2161-Hd1e450">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2161-d1e452">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="97" type="fixed=380"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e459">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="98"/>In articulo tertio eiusdem 
+            centesimaeseptuagesimaesecun<lb break="no" ed="#L" n="99"/>dae quaestionis, nota quod prophetiam exigere naturalem
+            <lb ed="#L" n="100"/>dispositionem in propheta, potest intelligi dupliciter. 
+            Pri<lb break="no" ed="#L" n="101"/>mo, de ipso dono prophetiae secundum se. Et sic constat
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="102"/>quod exigit et aliquam dispositionem, et quod impeditur
+            <lb ed="#L" n="103"/>per aliquam indispositionem. Nam exigit imaginativam bene
+            <lb ed="#L" n="104"/>praeparatam ad ministrandum seu obsequendum 
+            prophe<lb break="no" ed="#L" n="105"/>ticae visioni: quoniam divina illuminatio circumvelata est
+            <pb ed="#L" n="381"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>similitudinibus, ut Dionysius docuit. Et constat quod
+            <lb ed="#L" n="2"/>impeditur per ebrietatem et passiones vehementes et 
+            hu<lb break="no" ed="#L" n="3"/>iusmodi, quae impediunt speculationem veritatis. Nec huius
+            <lb ed="#L" n="4"/>oppositum docemur in littera.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e496">
+            <lb ed="#L" n="5"/>Alio ergo modo intelligitur de dono prophetiae in 
+            or<lb break="no" ed="#L" n="6"/>dine ad per se causam effectivam talis doni. Et sic dicitur
+            <lb ed="#L" n="7"/>quod nullam requirit dispositionem naturalem. Et dicitur
+            <lb ed="#L" n="8"/>hoc ad differentiam prophetiae secundum quid, hoc est
+            <lb ed="#L" n="9"/>naturalis, quae non solum secundum se, sed etiam in 
+            or<lb break="no" ed="#L" n="10"/>dine ad per se causam effectivam illius, praeexigit 
+            neces<lb break="no" ed="#L" n="11"/>sario dispositionem naturalem in propheta. Quoniam causa
+            <lb ed="#L" n="12"/>naturalis prophetiae est natura, quae non potest operari
+            <lb ed="#L" n="13"/>nisi in patiente et disposito, ut patet. Sed causa 
+            prophe<lb break="no" ed="#L" n="14"/>tiae simpliciter est Deus, qui non praeexigit aliquam 
+            dis<lb break="no" ed="#L" n="15"/>positionem, sicut nec materiam, sed potest simul totum
+            <lb ed="#L" n="16"/>producere. Et haec est intentio, hic est clarus sensus 
+            lit<lb break="no" ed="#L" n="17"/>terae: ut patet ex ratione litterae et responsionibus ad
+            <lb ed="#L" n="18"/>argumenta.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e529">
+            <lb ed="#L" n="19"/>II. Sed insurgit tunc aliud dubium: Ad quid articulus
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="20"/>iste, et quaestio ista, magis de prophetia quam de 
+            quo<lb break="no" ed="#L" n="21"/>cumque alio dono Dei: cum haec conditio, scilicet non
+            <lb ed="#L" n="22"/>praeexigere dispositionem in ordine ad Deum, sit conditio
+            <lb ed="#L" n="23"/>communis omnium quae a Deo fiunt, et est communis
+            <lb ed="#L" n="24"/>differentia inter naturalia et divina opera?
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e548">
+            <lb ed="#L" n="25"/>Ad hoc dicitur quod quaestio ista, quamvis multis aliis
+            <lb ed="#L" n="26"/>communis sit, appropriata tamen rationabiliter est 
+            prophe<lb break="no" ed="#L" n="27"/>tiae: non solum quia prophetia invenitur naturalis et 
+            su<lb break="no" ed="#L" n="28"/>pernaturalis; sed ut ex huius solutione quaestionis pateat
+            <lb ed="#L" n="29"/>quod Deus non distribuit prophetiae donum sicut animas
+            <lb ed="#L" n="30"/>infundit corporibus, scilicet iuxta merita materiae 
+            dispo<lb break="no" ed="#L" n="31"/>sitae. Nec ideo elegit Moysen, David, Isaiam, Ieremiam, etc.,
+            <lb ed="#L" n="32"/>in prophetas, quia ipsi habebant dispositionem naturalem
+            <lb ed="#L" n="33"/>ad huius donum deducentem: sed e contra, quia ipse 
+            dis<lb break="no" ed="#L" n="34"/>tribuit singulis prout vult , et dedit quosdam prophetas ,
+            <lb ed="#L" n="35"/>ideo istos disposuit convenienter ad prophetiae donum.
+            <lb ed="#L" n="36"/>Excluditur enim hinc error philosophorum qui prophetas iv
+            <lb ed="#L" n="37"/>omnes ex naturali dispositione constituerunt: ut 
+            Aristote<lb break="no" ed="#L" n="38"/>les, in Problematibus , et Avicenna, in VI Naturalium .
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2161-Dd1e582"><!-- caj-p2p2-q172a4 -->
+          <head xml:id="TAcCaj-d1e2161-Hd1e585">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2161-d1e587">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="41" type="fixed=382"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e594">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="42"/>IN articulo quarto eiusdem 
+            centesimaeseptuagesimaesecun<lb break="no" ed="#L" n="43"/>dae quaestionis, nota, circa bonitatem morum quoad 
+            pas<lb break="no" ed="#L" n="44"/>siones et actiones exteriores, quod non intendit Auctor ad
+            <lb ed="#L" n="45"/>prophetiam requiri bonitatem morum ex hac parte, scilicet
+            <lb ed="#L" n="46"/>quietis a passionibus et actionibus exterioribus, quamvis
+            <lb ed="#L" n="47"/>non requiratur ex alia parte, scilicet ex parte radicis, seu
+            <lb ed="#L" n="48"/>caritatis. Veritas enim est, et clara apud Auctorem, quod
+            <lb ed="#L" n="49"/>prophetia stat cum peccato mortali et damnatione aeterna :
+            <lb ed="#L" n="50"/>ut patet ex Domini auctoritate allata , et Hieronymi ,
+            <lb ed="#L" n="51"/>et directo processu articuli huius respondendo ad 
+            argu<lb break="no" ed="#L" n="52"/>menta. Sed intendit, et explicat, quod malitia morum 
+            im<lb break="no" ed="#L" n="53"/>pedit prophetiam, pro quanto impedit magnam mentis 
+            ele<lb break="no" ed="#L" n="54"/>vationem ad contemplationem spiritualium. Quod quidem
+            <lb ed="#L" n="55"/>verum esse constat, cum passiones sunt vehementes, et
+            <lb ed="#L" n="56"/>exteriores occupationes multae: sub hac enim ratione 
+            im<lb break="no" ed="#L" n="57"/>pediunt mentis elevationem. Et propterea si etiam ex hac
+            <lb ed="#L" n="58"/>parte aliqua inordinatio moralis, sine huiusmodi magnitu-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="59"/>dine vel multitudine, occurrat; vel etiam huiusmodi quies
+            <lb ed="#L" n="60"/>a passionibus et occupationibus extraneis fiat, non propter
+            <lb ed="#L" n="61"/>bonum morem, sed naturam vel speculationem, ac per hoc
+            <lb ed="#L" n="62"/>esset dicta quies sine bonitate morali: staret prophetia etiam
+            <lb ed="#L" n="63"/>ex hac parte sine bonitate morali.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e649">
+            <lb ed="#L" n="64"/>II. In responsione ad quartum eiusdem articuli, nota
+            <lb ed="#L" n="65"/>diligenter glossam Auctoris ad textum Aristotelis aut non
+            <lb ed="#L" n="66"/>esse glossam, sed responsionem ad rationem Aristotelis,
+            <lb ed="#L" n="67"/>dicendo quod ratio illa non est vera de optimis 
+            simplici<lb break="no" ed="#L" n="68"/>ter, sed ad hoc ex divina electione. — Aut, si est glossa, non
+            <lb ed="#L" n="69"/>glossa textus illius inquantum est Aristotelis, sed inquantum
+            <lb ed="#L" n="70"/>est philosophi. Quoniam philosophia non est nisi verorum,
+            <lb ed="#L" n="71"/>et constat verum vero non esse contrarium : Aristoteles
+            <lb ed="#L" n="72"/>autem constat quod intendit de optimis simpliciter.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e671">
+            <lb ed="#L" n="73"/>Et scito quod Auctor pluries glossat Aristotelem ut
+            <lb ed="#L" n="74"/>philosophum, non ut Aristotelem. Et hoc in favorem
+            <lb ed="#L" n="75"/>veritatis.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2161-Dd1e682"><!-- caj-p2p2-q172a5 -->
+          <head xml:id="TAcCaj-d1e2161-Hd1e685">Articulus 5</head>
+          <p xml:id="TAcCaj-d1e2161-d1e687">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="38" type="fixed=383"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e694">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="39"/>IN articulo quinto eiusdem quaestionis 
+            centesimaeseptua<lb break="no" ed="#L" n="40"/>gesimaeseecundae, collige tres differentias inter prophetas
+            <lb ed="#L" n="41"/>simpliciter et daemonum. Prima  est quia prophetia 
+            simpli<lb break="no" ed="#L" n="42"/>Citer extendit se ad ea quae Deo soli nota sunt, quae sunt
+            <lb ed="#L" n="43"/>simpliciter procul, et non solum procul a nobis. Prophetia
+            <lb ed="#L" n="44"/>vero daemonum ad illa non se extendit quoad 
+            cognitio<lb break="no" ed="#L" n="45"/>nem: quamvis quoad superbiam temerariamque 
+            daemo<lb break="no" ed="#L" n="46"/>num praesumptionem, non vereantur praedicere quae 
+            ne<lb break="no" ed="#L" n="47"/>sciunt.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e718">
+            <lb ed="#L" n="48"/>Secunda  est quod illa est cum illuminatione 
+            intelle<lb break="no" ed="#L" n="49"/>ctus: ista non.
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e725">
+            <lb ed="#L" n="50"/>Tertia  est quod illa nunquam falsa, haec quandoque
+            <lb ed="#L" n="51"/>falsa (quamvis falsitatem quandoque contineat sub specie
+            <lb ed="#L" n="52"/>propheticae comminationis).
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2161-Dd1e735"><!-- caj-p2p2-q172a6 -->
+          <head xml:id="TAcCaj-d1e2161-Hd1e738">Articulus 6</head>
+          <p xml:id="TAcCaj-d1e2161-d1e740">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="35" type="fixed=384"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2161-d1e747">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="36"/>IN articulo sexto eiusdem quaestionis 
+            centesimaeseptua<lb break="no" ed="#L" n="37"/>gesimaesecundae, hoc solum dicendum occurrit, quod
+            <lb ed="#L" n="38"/>Sibyllae, quae hic inter daemonum prophetas 
+            computan<lb break="no" ed="#L" n="39"/>tur, superius, in qu. rr, art. 7, ad 3, inter personas in fide
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="40"/>Christi explicite salvatas computari videntur. Materia 
+            si<lb break="no" ed="#L" n="41"/>quidem haec, incerta cum sit, quoniam de individuis non
+            <lb ed="#L" n="42"/>pertinentibus ad fidem est; modo in unam, modo in aliam
+            <lb ed="#L" n="43"/>partem declinare permittitur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

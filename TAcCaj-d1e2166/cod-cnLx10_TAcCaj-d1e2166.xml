@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 173</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 173</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="386"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2166"><!-- TAcCajp2p2-q173 -->
+        <head xml:id="TAcCaj-d1e2166-Hd1e101">Quaestio 173</head>
+        <div xml:id="TAcCaj-d1e2166-Dd1e103"><!-- caj-p2p2-q173a1 -->
+          <head xml:id="TAcCaj-d1e2166-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2166-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="20" type="fixed=386"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="21"/>IN articulo primo quaestionis 
+            centesimaeseptuagesimae<lb break="no" ed="#L" n="22"/>tertiae, quoniam visio Dei discussa est in Primo Libro, 
+            <lb ed="#L" n="23"/>qu. xu; et de speculo aeternitatis, cuius littera meminit, 
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="24"/>diffuse tractatur in srt. 6, qu. xu de Veritate: idcirco ad
+            <lb ed="#L" n="25"/>illa recurre loca, si vis haec amplius discutere aut discussa
+            <lb ed="#L" n="26"/>videre.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2166-Dd1e136"><!-- caj-p2p2-q173a2 -->
+          <head xml:id="TAcCaj-d1e2166-Hd1e139">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2166-d1e141">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="80" type="fixed=387"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e148">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="81"/>IN articulo secundo eiusdem quaestionis, nota tria. 
+            Pri<lb break="no" ed="#L" n="82"/>sait est, quid acceptionis nomine Auctor intelligat, cum
+            <lb ed="#L" n="83"/>saepe dicit ad cognitionem concurrere duo, scilicet 
+            acce<lb break="no" ed="#L" n="84"/>ptio seu receptio, et iudicium. Intelligit enim per 
+            acceptio<lb break="no" ed="#L" n="85"/>nem ipsam specierum repraesentantium receptionem: 
+            spe<lb break="no" ed="#L" n="86"/>cierum, inquam, in toto vel in parte novarum, vel noviter
+            <lb ed="#L" n="87"/>ordinatarum ad aliquam cognitionem.
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e168">
+            <lb ed="#L" n="88"/>II. Secundum est, quod quadrupliciter generatur 
+            spe<lb break="no" ed="#L" n="89"/>cies intelligibilis apud nos. Scilicet, ex novis speciebus
+            <lb ed="#L" n="90"/>imaginativae impressis, vel a sensu vel a Deo. Et hic 
+            mo<lb break="no" ed="#L" n="91"/>dus clare patet.
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e179">
+            <lb ed="#L" n="92"/>Vel ex phantasmatibus eisdem, aliter tamen dispositis:
+            <lb ed="#L" n="93"/>sive ista variata dispositio contingat ex motu locali, ut in
+            <lb ed="#L" n="94"/>dormientibus et phreneticis apparet; sive ex imperio 
+            ra<lb break="no" ed="#L" n="95"/>tionis dirigentis imaginativam ad cognitionem intellectivam;
+            <lb ed="#L" n="96"/>sicut enim superior sphaera movet naturaliter inferiorem,
+            <lb ed="#L" n="97"/>ita pars animae superior movet inferiorem . Et hic 
+            mo<lb break="no" ed="#L" n="98"/>dus manifestatur ex somniis et phreneticis, in quibus nova
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="99"/>valde apparentia eis cognoscimus, propter variam 
+            ordina<lb break="no" ed="#L" n="100"/>tionem suorum phantasmatum.  Manifestatur secundo, ex
+            <lb ed="#L" n="101"/>varia dispositione literarum, quam constat varios parere
+            <lb ed="#L" n="102"/>intellectus: simile siquidem contingit in varia dispositione
+            <lb ed="#L" n="103"/>phantasmatum. Et negare hinc fieri varias apparitiones in
+            <lb ed="#L" n="104"/>parte sensitiva, est negare experientiam. Sed quod apud
+            <lb ed="#L" n="105"/>quosdam in dubium vertitur, de resultatione diversarum
+            <lb ed="#L" n="106"/>specierum intelligibilium in intellectu, manifestatur ex eo
+            <lb ed="#L" n="107"/>quod, existente nova apparitione in imaginativa (nisi 
+            im<lb break="no" ed="#L" n="108"/>pedimentum adsit: vel propter fluxum nimium, ut in pueris
+            <lb ed="#L" n="109"/>et ebriis accidit; vel propter hebetudinem virtutum, ita ut
+            <lb ed="#L" n="110"/>phantasmata sint inepta ad hoc quod luceant per lumen
+            <lb ed="#L" n="111"/>intellectus agentis, ut accidit quibusdam hominibus qui solo
+            <lb ed="#L" n="112"/>fere nomine sunt homines; vel propter defectum 
+            applica<lb break="no" ed="#L" n="113"/>tionis, ut occupatis circa aliquam speculationem contingit ;
+            <lb ed="#L" n="114"/>et si quid aliud simile est impedimentum), nihil aliud
+            <lb ed="#L" n="115"/>requiritur ad generationem speciei intelligibilis nisi lumen
+            <lb ed="#L" n="116"/>intellectus agentis, quod, quantum est ex se, semper est
+            <pb ed="#L" n="388"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>paratum agere: et similiter paratus est intellectus possibilis 
+            <lb ed="#L" n="2"/>recipere. 
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e248">
+            <lb ed="#L" n="3"/>Tertio, ex phantasmatibus quoque eisdem adiutis 
+            lu<lb break="no" ed="#L" n="4"/>mine superiori ad lumen naturale. Et hic modus ponitur 
+            <lb ed="#L" n="5"/>ab Auctore simul cum quarto in hoc articulo, in 
+            respon<lb break="no" ed="#L" n="6"/>sione ad secundum, dicente de similitudine intelligibili quod 
+            <lb ed="#L" n="7"/>quandoque a formis imaginatis resultat secundum . 
+            adiu<lb break="no" ed="#L" n="8"/>torium prophetici luminis, quia ex eisdem formis 
+            imagi<lb break="no" ed="#L" n="9"/>natis subtilior conspicitur veritas secundum illustrationem
+            <lb ed="#L" n="10"/>altioris luminis. Hinc siquidem apparet quod in eisdem 
+            <lb ed="#L" n="11"/>phantasmatibus, puta Jeonis, hominis, salvatoris, etc., latent 
+            <lb ed="#L" n="12"/>multae apparitiones possibiles inde extrahi: quia latent in 
+            <lb ed="#L" n="13"/>eis multae veritates possibiles ex eis et in eis inspici, ad 
+            <lb ed="#L" n="14"/>quas apparitiones et veritates extrahendas et illustrandas 
+            <lb ed="#L" n="15"/>non sufficit naturale lumen nostrum; sed, superveniente 
+            <lb ed="#L" n="16"/>lumine altiori, apparebunt nova, et inde fient novae 
+            spe<lb break="no" ed="#L" n="17"/>cies intelligibiles et novae veritates, puta quod Leo de tribu 
+            <lb ed="#L" n="18"/>Iuda. salvat. mundum. 
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e285">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="19"/>Quarto, ex immediata impressione a Deo: ut ibidem
+            <lb ed="#L" n="20"/>Auctor dicit. Divina siquidem virtus immediate imprimit
+            <lb ed="#L" n="21"/>quandoque in animam species intelligibiles: ut patet quando
+            <lb ed="#L" n="22"/>Apostolis dedit scientiam.
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e298">
+            <lb ed="#L" n="23"/>III. In responsione ad tertium eiusdem articuli, adverte
+            <lb ed="#L" n="24"/>quod phantasmata naturalium ordinari ad intelligibiles 
+            ve<lb break="no" ed="#L" n="25"/>ritates excedentes intellectum , potest intelligi dupliciter.
+            <lb ed="#L" n="26"/>Primo, ad cogitandum illas veritates, Et hoc non est 
+            ve<lb break="no" ed="#L" n="27"/>rum universaliter. Tum quia posset homo fingere istarum
+            <lb ed="#L" n="28"/>veritatum quasdam. Tum quia, postquam sunt semel 
+            re<lb break="no" ed="#L" n="29"/>velatae, possunt ab aliis cogitari et discuti et disputari: ut
+            <lb ed="#L" n="30"/>patet de mysterio Trinitatis.
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e318">
+            <lb ed="#L" n="31"/>Alio ergo modo intelligitur quod non possunt ordinari
+            <lb ed="#L" n="32"/>ad inspiciendum: hoc est, ad hoc ut in eis videantur 
+            ve<lb break="no" ed="#L" n="33"/>ritates excedentes facultatem naturalem intellectus. Et hoc
+            <lb ed="#L" n="34"/>est verissimum, et intentum: ut patet ex adiutorio 
+            sub<lb break="no" ed="#L" n="35"/>iuncto, scilicet. divini luminis, quod videre facit id ad
+            <lb ed="#L" n="36"/>cuius inspectionem naturale lumen deficiens invenitur.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2166-Dd1e335"><!-- caj-p2p2-q173a3 -->
+          <head xml:id="TAcCaj-d1e2166-Hd1e338">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2166-d1e340">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="35" type="fixed=389"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e347">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="36"/>In articulo tertio eiusdem quaestionis 
+            centesimaeseptua<lb break="no" ed="#L" n="37"/>Ágesimaetertiae, dubium primo occurrit, an detur 
+            quin<lb break="no" ed="#L" n="38"/>tum secundum. quod fit prophetica revelatio. In littera 
+            si<lb break="no" ed="#L" n="39"/>quidem quatuor enumerantur. Et est ratio dubii quia 
+            na<lb break="no" ed="#L" n="40"/>turalis cognitio habet quintum, scilicet ordinationem 
+            spe<lb break="no" ed="#L" n="41"/>cierum intelligibilium: quae nihil istorum quatuor est, ut
+            <lb ed="#L" n="42"/>patet. Et constat quod secundum quod diversimode et
+            <lb ed="#L" n="43"/>componuntur et ordinantur species intelligibiles, diversas
+            <lb ed="#L" n="44"/>veritates pariunt. Quare igitur in prophetica cognitione
+            <lb ed="#L" n="45"/>reliqua proportionaliter ponuntur sicut in naturali 
+            cogni<lb break="no" ed="#L" n="46"/>tione, et hoc unum, scilicet ordinatio specierum 
+            intelligi<lb break="no" ed="#L" n="47"/>bilium, praetermissum est?
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e378">
+            <lb ed="#L" n="48"/>Ad hoc dicitur quod ordinatio specierum 
+            intelligibi<lb break="no" ed="#L" n="49"/>lium locum habet in prophetica revelatione, sicut et 
+            or<lb break="no" ed="#L" n="50"/>dinatio imaginabilium: quoniam quandoque mens 
+            prophe<lb break="no" ed="#L" n="51"/>tae, adiuta lumine prophetico, antiquas species 
+            intelligibi<lb break="no" ed="#L" n="52"/>les ordinat ad aliquam veritatem excedentem facultatem
+            <lb ed="#L" n="53"/>naturae inspiciendam, sicut hoc facit circa formas 
+            imagi<lb break="no" ed="#L" n="54"/>natas, iuxta praecedentis articuli doctrinam. Neque enim
+            <lb ed="#L" n="55"/>minus potens est lumen propheticum ad ordinandum aliter
+            <lb ed="#L" n="56"/>species intelligibiles, quam imaginatas: cum illae 
+            propin<lb break="no" ed="#L" n="57"/>quae, istae remotiores ab ipso sint. Neque species 
+            intelli<lb break="no" ed="#L" n="58"/>gibiles sunt minus habiles ad aliam ordinationem quam
+            <lb ed="#L" n="59"/>species imaginatae: cum sint longe spiritualiores, et ad
+            <lb ed="#L" n="60"/>multo plura se extendentes, utpote universales. Nec 
+            pro<lb break="no" ed="#L" n="61"/>pterea quintum. oportet efficere membrum: sed in secundo
+            <lb ed="#L" n="62"/>membro subintelligitur. Nam intelligendum est, secundum
+            <lb ed="#L" n="63"/>immissionem vel ordinationem specierum intelligibilium :
+            <lb ed="#L" n="64"/>sicut in tertio membro immissio vel ordinatio coniunguntur
+            <lb ed="#L" n="65"/>explicite. Et quamvis singularium certa ratio reddi non
+            <lb ed="#L" n="66"/>possit, quare scilicet Auctor hoc non explicite dixit in 
+            in<lb break="no" ed="#L" n="67"/>tellectu sicut in imaginativa: dici tamen potest quod, quia
+            <lb ed="#L" n="68"/>sola ordinatio in phantasmatibus ad prophetiam satis 
+            ma<lb break="no" ed="#L" n="69"/>nifesta est in prophetis, quoniam communiter in 
+            phanta<lb break="no" ed="#L" n="70"/>smatibus naturaliter acceptis, divinitus ordinatis, 
+            prophe<lb break="no" ed="#L" n="71"/>ticae apparent revelationes; ideo, ex manifestis tradendo 
+            do<lb break="no" ed="#L" n="72"/>ctrinam, subintelligendum duxit simile non ita manifestum,
+            <lb ed="#L" n="73"/>sed maiore ratione amplectendum, ex simili manifesto.
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e437">
+            <lb ed="#L" n="74"/>II. In eodem articulo, nota quod quatuor 
+            membro<lb break="no" ed="#L" n="75"/>rum in littera enumeratorum tria determinantur in littera
+            <lb ed="#L" n="76"/>negative, scilicet quod non est in eis necessaria abstractio
+            <lb ed="#L" n="77"/>a sensibus, scilicet quartum, primum et secundum: et in
+            <lb ed="#L" n="78"/>solo tertio necessitatem abstractionis a sensibus ponit ac
+            <lb ed="#L" n="79"/>probat. Ubi oportet te formalem habere intellectum , nec
+            <lb ed="#L" n="80"/>aliud quam quod dicitur intelligere. Quoniam primum et
+            <lb ed="#L" n="81"/>secundum membrum, scilicet influxus luminis et impressio
+            <lb ed="#L" n="82"/>intelligibilium formarum, verissimum est non exigere 
+            abs<lb break="no" ed="#L" n="83"/>tractionem a sensibus: quia possunt fieri sine abstractione
+            <lb ed="#L" n="84"/>a sensibus, ut in littera probatur ex parte officii nostri
+            <lb ed="#L" n="85"/>sensus; et in responsione ad tertium ex parte luminis 
+            pro<lb break="no" ed="#L" n="86"/>phetici redditur propter quid. Cum hoc tamen stat quod
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="87"/>quandoque exigunt abstractionem a sensibus, scilicet cum
+            <lb ed="#L" n="88"/>mens prophetae elevatur ad sublimiora contemplanda: ut
+            <lb ed="#L" n="89"/>in calce eiusdem responsionis ad tertium patet. Ita quod
+            <lb ed="#L" n="90"/>alienatio a sensibus semper exigitur a prophetia secundum
+            <lb ed="#L" n="91"/>imaginariam impressionem vel ordinationem: non semper
+            <lb ed="#L" n="92"/>autem secundum influxum specierum intelligibilium. Quia
+            <lb ed="#L" n="93"/>intellectualis revelatio quando a superiori influxu fit ad
+            <lb ed="#L" n="94"/>movendum prophetae mentem versus iudicium vel 
+            dispo<lb break="no" ed="#L" n="95"/>sitionem sensibilium, concretio ad sensum utilis est, non
+            <lb ed="#L" n="96"/>abstractio. Quando vero intellectualis revelatio ad, sublimia
+            <lb ed="#L" n="97"/>contemplanda mentem ducit propheticam, abstractione ab
+            <lb ed="#L" n="98"/>inferioribus opus est. Utrumque autem horum in 
+            natura<lb break="no" ed="#L" n="99"/>libus cognitionibus experimur. Quoniam disponentes aut
+            <lb ed="#L" n="100"/>iudicantes de sensibilibus, non abstrahimur, sed sensibus
+            <lb ed="#L" n="101"/>immergimur: ad altiora autem speculanda, quanto magis
+            <lb ed="#L" n="102"/>abstrahimur, melius perspicimus.
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e506">
+            <lb ed="#L" n="103"/>III. In eodem articulo tertio, nota aureum verbum, 
+            di<lb break="no" ed="#L" n="104"/>vinam conditionem, scilicet: 7alis alienatio a sensibus non
+            <lb ed="#L" n="105"/>fit in prophetis cum aliqua inordinatione naturae. Et multo
+            <lb ed="#L" n="106"/>minus fit cum aliqua inordinatione honestatis aut moris.
+            <lb ed="#L" n="107"/>Spiritus enim Sanctus, qui auctor est alienationis requisitae
+            <lb ed="#L" n="108"/>ad prophetiam, sicut et prophetiae ipsius, non est auctor
+            <lb ed="#L" n="109"/>deordinationis naturae aut moris: quoniam gratia, 
+            secun<lb break="no" ed="#L" n="110"/>dum genus suum, et naturam et morem perficere, non
+            <lb ed="#L" n="111"/>destruere, minuere aut violare nata est. Et propterea 
+            alie<lb break="no" ed="#L" n="112"/>natio a sensibus cum cordis saltu sensibiliter vehementi,
+            <lb ed="#L" n="113"/>cum deordinationem naturae contineat, non est a Spiritu
+            <lb ed="#L" n="114"/>Sancto. Et similiter si cum denudatione pudendarum 
+            par<lb break="no" ed="#L" n="115"/>tium fiat ex parte personae alienatae, nisi adessent 
+            ope<lb break="no" ed="#L" n="116"/>rientes: hoc enim et contra honestatem morum, et contra
+            <lb ed="#L" n="117"/>naturae ordinem est; quoniam motus talis membrorum ad
+            <lb ed="#L" n="118"/>deordinationem naturae spectaret, etiam si nudatio 
+            puden<lb break="no" ed="#L" n="119"/>dorum non esset nata sequi. Unde oportet advertere in
+            <lb ed="#L" n="120"/>huiusmodi alienationibus si interveniat aliquid indecens
+            <lb ed="#L" n="121"/>secundum motus intrinsecos vel extrinsecos, sive sit 
+            inde<lb break="no" ed="#L" n="122"/>centia naturae sive indecentia moris. Quoniam tunc non
+            <lb ed="#L" n="123"/>est alienatio prophetica: sed infirmitatis, vel fictionis, vel
+            <lb ed="#L" n="124"/>illusionis diabolicae; aut naturaliter animalis, ex nimia 
+            me<lb break="no" ed="#L" n="125"/>ditatione alicuius.
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e558">
+            <lb ed="#L" n="126"/>IV. In responsione ad quartum eiusdem articuli, collige
+            <lb ed="#L" n="127"/>et aliam conditionem veri prophetae , quantum ad 
+            promul<lb break="no" ed="#L" n="128"/>gationem prophetiae: scilicet quod spiritus prophetarum
+            <lb ed="#L" n="129"/>subiecti sunt eis, quoad hoc scilicet. Non mente turbata,
+            <lb ed="#L" n="130"/>non quasi acti ab alio, quasi alius loquatur per eos, ut
+            <lb ed="#L" n="131"/>contingit in daemoniacis: sed ex proprio sensu, mente
+            <lb ed="#L" n="132"/>quieta, scientes quid loquuntur, dicunt ea quae viderunt.
+            <lb ed="#L" n="133"/>Unde habes quod tam alienati in ipsa alienatione 
+            loquen<lb break="no" ed="#L" n="134"/>tes, et postmodum, nescientes quid viderint, referunt se ad
+            <lb ed="#L" n="135"/>ea quae dixerunt in alienatione positi; quam alienati 
+            de<lb break="no" ed="#L" n="136"/>nuntiantes, velint nolint, quae vident: non sunt prophetae,
+            <lb ed="#L" n="137"/>quoniam utrisque deest subiectio denuntiationis. Et hoc
+            <pb ed="#L" n="390"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ipsum indecens est, ut illi quos Deus docet et illuminat
+            <lb ed="#L" n="2"/>ad Ecclesiae aedificationem, irrationabili motu se habeant
+            <lb ed="#L" n="3"/>ad propalandum divina mysteria.
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e597">
+            <lb ed="#L" n="4"/>Et hinc patet quod personae in extasi positae loquentes
+            <lb ed="#L" n="5"/>in persona Christi vel alterius Sancti, quasi actae ab illo,
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="6"/>et non ex proprio sensu pronuntiantes, aut seducuntur aut
+            <lb ed="#L" n="7"/>seducunt. Et tamen mundus stultus miratur, stupet, 
+            ad<lb break="no" ed="#L" n="8"/>orat huiusmodi verba, huiusmodi actus, huiusmodi 
+            per<lb break="no" ed="#L" n="9"/>sonas, non advertentes quod spiritus prophetarum subiecti
+            <lb ed="#L" n="10"/>sunt eis quoad promulgationem.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2166-Dd1e618"><!-- caj-p2p2-q173a4 -->
+          <head xml:id="TAcCaj-d1e2166-Hd1e621">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2166-d1e623">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="85" type="fixed=390"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e630">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="86"/>In articulo quarto eiusdem quaestionis 
+            centesimaeseptua<lb break="no" ed="#L" n="87"/>gesimaetertiae, quia superius  declaratum est quod de
+            <lb ed="#L" n="88"/>cognitione evidenti est sermo; quod etiam hic patet in
+            <lb ed="#L" n="89"/>responsione ad argumenta, dum dicitur quod primae 
+            ra<lb break="no" ed="#L" n="90"/>tiones loquuntur de veris prophetis, quorum mens divinitus
+            <lb ed="#L" n="91"/>illustratur perfecte, et constat quod tres primae rationes
+            <lb ed="#L" n="92"/>de cognitione evidenti loquuntur; ideo non est hic amplius
+            <lb ed="#L" n="93"/>immorandum, sed firmandum quod prophetae veri quoad
+            <lb ed="#L" n="94"/>duo habent evidentiam: scilicet quoad ipsam revelationem,
+            <lb ed="#L" n="95"/>quod est a Deo; et quoad revelata, quod sunt futura sic
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="96"/>vel sic, prout revelantur, et quod sunt talis vel talis 
+            con<lb break="no" ed="#L" n="97"/>ditionis revelatae, prout tamen revelantur.
+          </p>
+          <p xml:id="TAcCaj-d1e2166-d1e663">
+            <lb ed="#L" n="98"/>Et hinc solvitur quaestio superius, in art. ult, ad 2 ,
+            <lb ed="#L" n="99"/>qu. cLxxr, relicta, de prophetia comminationis. Nam 
+            pro<lb break="no" ed="#L" n="100"/>pheta cui revelatur aliquid futurum in causis, evidenter
+            <lb ed="#L" n="101"/>cognoscit illud futurum in causis illius: quoniam cognitio
+            <lb ed="#L" n="102"/>eius est similitudo divinae scientiae de illo futuro in illis
+            <lb ed="#L" n="103"/>causis, Sed non oportet quod sciat hinc an sit etiam 
+            po<lb break="no" ed="#L" n="104"/>nendum in esse illud futurum: sed quantum est ex vi
+            <lb ed="#L" n="105"/>illius propheticae cognitionis, remanet ambiguum in mente
+            <pb ed="#L" n="391"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>prophetae an illud futurum eveniet vel non. Et propterea
+            <lb ed="#L" n="2"/>Ionas recusabat prophetare Ninivitis , dubitans de eo quod
+            <lb ed="#L" n="3"/>evenit, scilicet quod esset prophetia comminationis tantum.
+            <lb ed="#L" n="4"/>Sciebat enim clare quod erat prophetia comminationis, quia
+            <lb ed="#L" n="5"/>viderat futuram submersionem civitatis in causis, et non
+            <lb ed="#L" n="6"/>viderat aliter: sed nesciebat an esset tantum comminationis
+            <lb ed="#L" n="7"/>et non eventus, quia nihil erat sibi de hoc revelatum. Ad
+            <lb ed="#L" n="8"/>verum enim prophetam sufficit  cognoscere evidenter quod
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="9"/>prophetat secundum id quod est sibi revelatum: et, ut in
+            <lb ed="#L" n="10"/>littera optime subditur, propheta circa revelata sibi non
+            <lb ed="#L" n="11"/>cognoscit omnia quae Spiritus Sanctus intendit per illa,
+            <lb ed="#L" n="12"/>sed sufficit quod videat illam conditionem quam 
+            prophe<lb break="no" ed="#L" n="13"/>tare iubetur. Nec oportet quod comprehendat illam: sed
+            <lb ed="#L" n="14"/>comprehensionem illius Spiritui Sancto relinquit, propter
+            <lb ed="#L" n="15"/>rationem litterae, scilicet quia est instrumentum deficiens
+            <lb ed="#L" n="16"/>a Spiritu Sancto.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

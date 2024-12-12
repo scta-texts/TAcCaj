@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 126</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 126</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="48"/>
+        <cb ed="#L" n="d"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1923"><!-- TAcCajp2p2-q126 -->
+        <head xml:id="TAcCaj-d1e1923-Hd1e101">Quaestio 126</head>
+        
+        <!-- no commentary -->
+        
+        <div xml:id="TAcCaj-d1e1923-Dd1e105"><!-- caj-p2p2-q126a2 -->
+          <head xml:id="TAcCaj-d1e1923-Hd1e108">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e1923-d1e110">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="55" type="fixed=48"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1923-d1e117">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="56"/>In tota quaestione centesimavigesimasexta nihil aliud 
+            oc<lb break="no" ed="#L" n="57"/>currit scribendum nisi attentos reddere lectores quod 
+            Au<lb break="no" ed="#L" n="58"/>ctor in articulo secundo, in responsione ad tertium, in
+            <lb ed="#L" n="59"/>calce, non dicit quod fortitudo secundum diversa media
+            <lb ed="#L" n="60"/>habeat diversa extrema, ut Martinus imponit sibi, ex hac
+            <lb ed="#L" n="61"/>responsione, bis, scilicet in qu. 1  et in qu. xu : sed dicit
+            <lb ed="#L" n="62"/>quod non est inconveniens quod fortitudo secundum 
+            di<lb break="no" ed="#L" n="63"/>versa habeat diversa extrema. Aliud est enim dicere, 
+            se<lb break="no" ed="#L" n="64"/>cundum diversa: et aliud, secundum diversa media. 
+            For<lb break="no" ed="#L" n="65"/>titudo namque unum tantum medium habet formaliter:
+            <lb ed="#L" n="66"/>scilicet, ad maxima et optima pericula inclinare secundum
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="67"/>quod oportet, quando, ubi, sicut, etc. Sed quia hoc 
+            me<lb break="no" ed="#L" n="68"/>dium in pluribus passionibus ponit tanquam in materiis ,
+            <lb ed="#L" n="69"/>ideo non inconvenit secundum diversas passiones habere
+            <lb ed="#L" n="70"/>diversa extrema. Et hic est sensus litterae. Unde inferius
+            <lb ed="#L" n="71"/>in qu. cxxxr, art. 2, ad i, Auctor, ponens plura extrema
+            <lb ed="#L" n="72"/>per excessum respectu magnanimitatis, clarius hanc eandem
+            <lb ed="#L" n="73"/>sententiam replicat, dicens: Nom est inconveniens 
+            secun<lb break="no" ed="#L" n="74"/>dum diversa esse plures excessus unius medii. Haec ille.
+            <lb ed="#L" n="75"/>Sed de his latior erit in qu. cxxvmr  sermo, ubi Martino
+            <lb ed="#L" n="76"/>respondebitur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

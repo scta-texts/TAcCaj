@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 128</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 128</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="53"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1933"><!-- TAcCajp2p2-q128 -->
+        <head xml:id="TAcCaj-d1e1933-Hd1e101">Quaestio 128</head>
+        <div xml:id="TAcCaj-d1e1933-Dd1e103"><!-- caj-p2p2-q128a1 -->
+          <head xml:id="TAcCaj-d1e1933-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e1933-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="11" type="fixed=53"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="12"/>IN quaestionis centesimaevigesimaeoctavae articulo unico
+            <lb ed="#L" n="13"/>dubia multa ex Martino  occurrunt. Primum  est circa
+            <lb ed="#L" n="14"/>illud: Fortitudo ut est specialis virtus, nom habet partes
+            <lb ed="#L" n="15"/>subiectivas. Contra hoc siquidem arguit Martinus, et in
+            <lb ed="#L" n="16"/>qu. : et in qu. xrr, directe contra hanc litteram. Primo ,
+            <lb ed="#L" n="17"/>quia fortitudinis, sicut cuiuslibet alterius virtutis, sunt tres
+            <lb ed="#L" n="18"/>gradus specie differentes: scilicet continentia, temperantia,
+            <lb ed="#L" n="19"/>heroica. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e137">
+            <lb ed="#L" n="20"/>Secundo , quia aliqui habitus fortitudinis habent 
+            circum<lb break="no" ed="#L" n="21"/>stantias pro obiectis. Sed in illis, variata quacumque 
+            cir<lb break="no" ed="#L" n="22"/>cumstantia, semper variatur habitus. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e146">
+            <lb ed="#L" n="23"/>Tertio . Duo sunt actus principales fortitudinis, scilicet
+            <lb ed="#L" n="24"/>aggredi et expectare, qui sunt specie distincti. Ergo duo
+            <lb ed="#L" n="25"/>sunt, vel esse possunt habitus fortitudinis specie distincti. —
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e156">
+            <lb ed="#L" n="26"/>Secunda pars antecedentis probatur. Primo. Multi 
+            lauda<lb break="no" ed="#L" n="27"/>biliter se habent in uno, et non in alio. Ergo. - Secundo.
+            <lb ed="#L" n="28"/>Prudentiae directivae talium actuum sunt distinctae specie:
+            <lb ed="#L" n="29"/>ergo habitus morales virtuosi inclinantes ad illos sunt 
+            dis<lb break="no" ed="#L" n="30"/>tincti specie. Antecedens probatur: quia sunt aliae et aliae
+            <lb ed="#L" n="31"/>disciplinae militares de aggrediendo et de expectando. 
+            <lb ed="#L" n="32"/>Tertio. Cum obliquatione in aggrediendo stat rectitudo in
+            <lb ed="#L" n="33"/>expectando. Ergo rectitudo utriusque non est eadem 
+            spe<lb break="no" ed="#L" n="34"/>cie. - Quarto. Rectitudini in aggrediendo non contrariatur 
+            <lb ed="#L" n="35"/>obliquitas in expectando, sed in aggrediendo: ergo non sunt
+            <lb ed="#L" n="36"/>eiusdem speciei. Et tenet sequela: quia in individuis 
+            eius<lb break="no" ed="#L" n="37"/>dem speciei quidquid contrariatur uni, contrariatur et 
+            re<lb break="no" ed="#L" n="38"/>liquo. - Quinto. Ubicumque est alia et alia medietas, ibi
+            <lb ed="#L" n="39"/>sunt habitus morales distincti specie: sed hic sunt duae
+            <lb ed="#L" n="40"/>medietates: ergo. Probatur minor: quia alia est medietas
+            <lb ed="#L" n="41"/>in expectando, et alia in aggrediendo. Et confirmatur. Quia
+            <lb ed="#L" n="42"/>sunt quatuor extrema et duo media: scilicet intimiditas et
+            <lb ed="#L" n="43"/>timor, extrema medietatis in expectando; et audacia et 
+            ve<lb break="no" ed="#L" n="44"/>cordia, extrema medietatis in aggrediendo.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e200">
+            <lb ed="#L" n="45"/>Et haec potest esse quarta ratio ad principale. Quia
+            <lb ed="#L" n="46"/>virtus habens duas medietates specie distinctas, cum suis
+            <lb ed="#L" n="47"/>extremis, non est una specie specialissima. Sed fortitudo
+            <lb ed="#L" n="48"/>est huiusmodi. Ergo. - Et confirmatur. Quia timor et 
+            au<lb break="no" ed="#L" n="49"/>nid non sunt contraria, quia possunt esse in eodem
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e213">
+            <lb ed="#L" n="50"/>Quinto  principaliter arguitur, quia hoc videtur sensisse
+            <lb ed="#L" n="51"/>sanctus Thomas in qu. cxxvr, art. 2, ad 3, dicens quod
+            <lb ed="#L" n="52"/>non est inconveniens quod secundum diversa media habeat
+            <lb ed="#L" n="53"/>diversa extrema. Est, inquit, mihi omnino non intelligibile
+            <lb ed="#L" n="54"/>quod eadem fortitudo secundum speciem, habeat diversa
+            <lb ed="#L" n="55"/>media secundum speciem.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e229">
+            <lb ed="#L" n="56"/>II. Secundum dubium  est circa rationem in littera 
+            <lb ed="#L" n="57"/>subiunctam, scilicet: quia fortitudo est circa materiam
+            <lb ed="#L" n="58"/>valde specialem. Arguit contra hoc <ref xml:id="TAcCaj-d1e1933-Rd1e237">
+              <name xml:id="TAcCaj-d1e1933-Nd1e239">Martinus</name> qu. xii</ref>. Circa 
+            <lb ed="#L" n="59"/>eandem materiam quantumcumque specialem possunt esse
+            <lb ed="#L" n="60"/>actus moraliter boni specie distincti. Ergo et habitus virtuosi
+            <lb ed="#L" n="61"/>specie distincti. - Antecedens probatur ex dictis sancti 
+            Tho<lb break="no" ed="#L" n="62"/>mae. Quia fiducia, magnificentia, patientia et perseverantia
+            <lb ed="#L" n="63"/>Circa materiam fortitudinis habent actus bonos specie 
+            dis<lb break="no" ed="#L" n="64"/>tinctos: alias, tres eorum superfluerent. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e256">
+            <lb ed="#L" n="65"/>Secundo. Circa materiam fortitudinis reperiuntur ista
+            <lb ed="#L" n="66"/>quatuor; et sunt habitus boni; et specie distincti; et 
+            con<lb break="no" ed="#L" n="67"/>tinentur sub fortitudine sicut inferiora sub superiore. Ergo. -
+            <lb ed="#L" n="68"/>Primae duae partes antecedentis patent. — Tertia probatur.
+            <lb ed="#L" n="69"/>Quia aliter non essent partes integrales heterogeneae ipsius
+            <lb ed="#L" n="70"/>fortitudinis : quod est contra sanctum Thomam hic. - Quarta
+            <lb ed="#L" n="71"/>pars probatur. Quia continentur sub hoc communi quod
+            <lb ed="#L" n="72"/>est virtus. Et non immediate. Ergo mediante aliquo 
+            ge<lb break="no" ed="#L" n="73"/>nere virtutis. Sed non nisi fortitudine. Ergo continentur
+            <lb ed="#L" n="74"/>sub fortitudine tanquam inferiora sub superiori. — Et 
+            con<lb break="no" ed="#L" n="75"/>firmatur ex dictis sancti Thomae hic dicentis de istis 
+            qua<lb break="no" ed="#L" n="76"/>tuor: Si coarctentur ad propriam materiam fortitudinis ,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="77"/>scilicet pericula mortis, sunt quasi partes integrales: si
+            <lb ed="#L" n="78"/>autem referantur ad alias materias, sunt virtutes 
+            adiun<lb break="no" ed="#L" n="79"/>ctae fortitudini, distinctae ab ea secundum speciem. Ex
+            <lb ed="#L" n="80"/>quibus, inquit, verbis arguo sic. Istae quatuor virtutes,
+            <lb ed="#L" n="81"/>arctatae ad materiam fortitudinis, non sunt virtutes 
+            adiun<lb break="no" ed="#L" n="82"/>ctae fortitudini. Nec sunt virtutes omnino separatae a 
+            for<lb break="no" ed="#L" n="83"/>titudine: quia tunc nullo modo partes integrales eius dici
+            <lb ed="#L" n="84"/>deberent. Ergo sunt virtutes sub fortitudine contentae.
+            <lb ed="#L" n="85"/>Tertio. Quaecumque sunt distincta inter se specie, et
+            <lb ed="#L" n="86"/>non sunt distincta specie a fortitudine, sunt diversae 
+            spe<lb break="no" ed="#L" n="87"/>cies sub fortitudine. Sed istae quatuor, ad materiam 
+            for<lb break="no" ed="#L" n="88"/>titudinis arctatae, sunt huiusmodi. Ergo. - Minor pro 
+            se<lb break="no" ed="#L" n="89"/>cunda parte est sancti Thomae: pro prima, probata est.
+            <lb ed="#L" n="90"/>Quarto. Ista quatuor nec sunt eadem specie cum 
+            for<lb break="no" ed="#L" n="91"/>titudine; nec diversa specie a fortitudine; et ipsa sunt 
+            spe<lb break="no" ed="#L" n="92"/>cies. Ergo fortitudo non est species specialissima. Ergo
+            <lb ed="#L" n="93"/>fortitudo est genus ipsorum. - Antecedens pro prima parte
+            <lb ed="#L" n="94"/>probatur. Quia non sunt eadem specie specialissima inter
+            <lb ed="#L" n="95"/>se. Ergo nec cum fortitudine. - Secunda pars probatur.
+            <lb ed="#L" n="96"/>Quia distincta specie a fortitudine continentur sub iustitia,
+            <lb ed="#L" n="97"/>temperantia, etc. Sed ista, arctata ad materiam fortitudinis,
+            <lb ed="#L" n="98"/>non continentur sub aliis. Ergo non sunt distincta a 
+            for<lb break="no" ed="#L" n="99"/>titudine, - Prima consequentia probatur. Quia 
+            quorum<lb break="no" ed="#L" n="100"/>cumque multorum quorum quodlibet est species, illa sunt
+            <lb ed="#L" n="101"/>eadem specie aut distincta specie. — Secunda vero 
+            conse<lb break="no" ed="#L" n="102"/>quentia probatur. Quia ista continentur sub uno genere,
+            <lb ed="#L" n="103"/>puta virtus. Et non aeque immediate: quia fortitudo nec
+            <lb ed="#L" n="104"/>genere nec specie ab eis distinguitur. Ergo vel fortitudo
+            <lb ed="#L" n="105"/>continetur immediatius quam ista quatuor: et habetur 
+            in<lb break="no" ed="#L" n="106"/>tentum, quia immediatius supremo est superius ad mediate
+            <lb ed="#L" n="107"/>contenta. Vel e contra: quod constat esse falsum, quia sic
+            <lb ed="#L" n="108"/>fortitudo esset pars istorum.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e356">
+            <lb ed="#L" n="109"/>III. Tertium dubium  est circa eandem rationem 
+            lit<lb break="no" ed="#L" n="110"/>terae. Nam dupliciter deficit. Primo, quia ex valde speciali
+            <lb ed="#L" n="111"/>materia infert fortitudinem indivisibilem formaliter: quasi
+            <lb ed="#L" n="112"/>unitas et distinctio specifica ex materia sumatur, Quod
+            <lb ed="#L" n="113"/>rationi non consonat.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e370">
+            <lb ed="#L" n="114"/>Secundo, quia aut est sermo de specialissima materia
+            <lb ed="#L" n="115"/>in esse naturae: aut in esse morali. Non in esse naturae:
+            <lb ed="#L" n="116"/>quia pericula maxima sunt diversarum specierum, ut 
+            com<lb break="no" ed="#L" n="117"/>buri, submergi, percuti, iugulari, — Nec in esse morali.
+            <lb ed="#L" n="118"/>Tum quia hoc erat probandum. Tum quia pericula 
+            ma<lb break="no" ed="#L" n="119"/>xima optima diversarum sunt specierum moralium, si 
+            pro<lb break="no" ed="#L" n="120"/>pter iustitiam , vel propter pietatem vel religionem, vel
+            <lb ed="#L" n="121"/>scilicet pericula mortis, sunt quasi partes integrales: si
+            <lb ed="#L" n="122"/>propter castitatem, etc., imminent.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e392">
+            <lb ed="#L" n="123"/>IV. Quartum dubium  est ex eodem, ibidem , circa
+            <lb ed="#L" n="124"/>litteram inquantum ponit partes integrales fortitudinis 
+            dis<lb break="no" ed="#L" n="125"/>tinctas a partibus potentialibus eiusdem. Contra hanc 
+            siqui<lb break="no" ed="#L" n="126"/>dem litteram directe et nominatim arguit. Primo. Omnis
+            <lb ed="#L" n="127"/>pars ordinata ad aliquem actum alicuius virtutis, non 
+            ha<lb break="no" ed="#L" n="128"/>bens in se totam potestatem illius virtutis, est pars 
+            potentia<lb break="no" ed="#L" n="129"/>lis eius. Sed omnis pars integralis fortitudinis est huiusmodi
+            <lb ed="#L" n="130"/>respectu fortitudinis. Ergo omnis pars integralis 
+            fortitudi<lb break="no" ed="#L" n="131"/>nis est pars potentialis. - Maior est nota. - Et minor 
+            pro<lb break="no" ed="#L" n="132"/>batur. Quia secundum sanctum Thomam, ad perfectum
+            <lb ed="#L" n="133"/>actum fortitudinis et aliarum virtutum necesse est multa
+            <lb ed="#L" n="134"/>concurrere: immo etiam concurrunt multi habitus, quorum
+            <lb ed="#L" n="135"/>quilibet dicitur pars integralis. Aut ergo primus illorum
+            <lb ed="#L" n="136"/>habituum continet totam potestatem fortitudinis: et tunc
+            <lb ed="#L" n="137"/>reliqui superfluunt. Aut non: et tunc habetur intentum.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e427">
+            <lb ed="#L" n="138"/>Ad hanc rationem, inquit Martinus, potest respondere
+            <lb ed="#L" n="139"/>beatus Thomas negando maiorem: quia ad partem 
+            poten<lb break="no" ed="#L" n="140"/>tialem requiritur quod ordinetur ad aliquos secundarios
+            <lb ed="#L" n="141"/>actus vel materias, ut ipse superius in qu. xrvri, art. r,
+            <lb ed="#L" n="142"/>dixit. Et consequenter diceret quod fiducia, magnificentia,
+            <lb ed="#L" n="143"/>patientia et perseverantia ordinantur ad principales fortitu-
+            <pb ed="#L" n="54"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>dinis actus, et non ad secundarios. Contra: - primo, quia
+            <lb ed="#L" n="2"/>secundum eum, ibidem, nutritivum et sensitivum sunt partes
+            <lb ed="#L" n="3"/>potentiales animae. Et tamen constat quod non ordinantur
+            <lb ed="#L" n="4"/>ad secundarios, sed principales actus animae.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e456">
+            <lb ed="#L" n="5"/>Secundo, quia secundum eum, ibidem, synesis, eubulia
+            <lb ed="#L" n="6"/>et gnome sunt partes potentiales prudentiae. Et tamen 
+            or<lb break="no" ed="#L" n="7"/>dinantur ad principales actus prudentiae, - Probatur. Quia
+            <lb ed="#L" n="8"/>licet aliquis actus, puta praecipere, sit principalior; tamen
+            <lb ed="#L" n="9"/>alii sunt etiam principales. Sicut intelligere est principalior
+            <lb ed="#L" n="10"/>actus animae: et tamen sentire et vegetare sunt etiam 
+            prin<lb break="no" ed="#L" n="11"/>cipales, et intellectivum est etiam pars potentialis animae.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e474">
+            <lb ed="#L" n="12"/>Tertio. Partes potentiales prudentiae sunt circa actus
+            <lb ed="#L" n="13"/>magis principales quam partes prudentiae integrales, apud
+            <lb ed="#L" n="14"/>ipsum, ibidem. Ergo nihil restat per quod partes 
+            potentia<lb break="no" ed="#L" n="15"/>les distinguantur ab integralibus. - Consequentia patet. —
+            <lb ed="#L" n="16"/>Et assumptum probatur. Quia eubulia, synesis et gnome
+            <lb ed="#L" n="17"/>sunt circa principaliores actus prudentiae quam memoria,
+            <lb ed="#L" n="18"/>intellectus, eustochia, docilitas et ratio: quia haec 
+            ordi<lb break="no" ed="#L" n="19"/>nantur ad prudentiam quatenus cognoscitiva est; illa vero
+            <lb ed="#L" n="20"/>habent perficere cognitiones ipsas, scilicet consilium et 
+            iu<lb break="no" ed="#L" n="21"/>dicium.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e498">
+            <lb ed="#L" n="22"/>Si dicatur, inquit Martinus, quod eubulia, synesis et
+            <lb ed="#L" n="23"/>gnome sunt partes potentiales respectu prudentiae 
+            propriis<lb break="no" ed="#L" n="24"/>sime acceptae, hoc est secundum quod est praeceptiva: et
+            <lb ed="#L" n="25"/>ideo actus earum sunt secundarii ad actum prudentiae: —
+            <lb ed="#L" n="26"/>contra, dupliciter. Primo, quia secundum hoc, partes 
+            in<lb break="no" ed="#L" n="27"/>tegrales adhuc essent circa actus magis secundarios et 
+            re<lb break="no" ed="#L" n="28"/>motiores ab actu praecipiendi. Ac per hoc, stat argumentum.
+            <lb ed="#L" n="29"/>—- Secundo, quia secundum hoc, nutritivum et sensitivum
+            <lb ed="#L" n="30"/>dicerentur partes potentiales actus intelligendi, quia est
+            <lb ed="#L" n="31"/>principalior, et illi sunt ordinati ad ipsum.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e523">
+            <lb ed="#L" n="32"/>V. In eodem articulo dubium quintum  occurrit circa
+            <lb ed="#L" n="33"/>calcem corporis articuli: An secundum Auctorem 
+            ponen<lb break="no" ed="#L" n="34"/>dae sint duae patientiae et duae perseverantiae, ita quod
+            <lb ed="#L" n="35"/>una sit arctata ad materiam fortitudinis, et altera ad 
+            quas<lb break="no" ed="#L" n="36"/>cumque materias difficiles: an una et eadem, ut respicit
+            <lb ed="#L" n="37"/>materiam fortitudinis, sit pars integralis eius, et ut respicit
+            <lb ed="#L" n="38"/>quascumque materias difficiles, sit pars eius potentialis.
+            <lb ed="#L" n="39"/>Et est ratio dubii quia in littera istae, ut partes 
+            poten<lb break="no" ed="#L" n="40"/>tiales, ponuntur virtutes specie distinctae a fortitudine: ac
+            <lb ed="#L" n="41"/>per hoc, ut integrales, contra istas distinctae, non virtutes
+            <lb ed="#L" n="42"/>specie distinctae a fortitudine. Et consequenter ponendae
+            <lb ed="#L" n="43"/>sunt duae patientiae. - In oppositum autem est quia 
+            pa<lb break="no" ed="#L" n="44"/>tientia vel perseverantia, ut respicit quascumque res 
+            diffi<lb break="no" ed="#L" n="45"/>ciles, respicit etiam materiam fortitudinis, ut aliquid 
+            con<lb break="no" ed="#L" n="46"/>tentum sub rebus difficilibus. Ergo ipsa sufficit ad 
+            adiuvan<lb break="no" ed="#L" n="47"/>dum fortitudinem: nec ponenda est superflue alia patientia
+            <lb ed="#L" n="48"/>vel perseverantia. ;
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e562">
+            <lb ed="#L" n="49"/>VI. Ad primum dubium , de partibus subiectivis 
+            for<lb break="no" ed="#L" n="50"/>titudinis, dicitur, cum Auctore, quod fortitudo est species
+            <lb ed="#L" n="51"/>specialissima, non habens aliquam sub se speciem. Et ad
+            <lb ed="#L" n="52"/>primum argumentum in oppositum, negatur quod illi sint
+            <lb ed="#L" n="53"/>gradus fortitudinis, et quod sint specie distincti. Quoniam
+            <lb ed="#L" n="54"/>fortitudo, si qua est secundum gradum continentiae, non
+            <lb ed="#L" n="55"/>est virtus, sed imperfectum quid in genere virtutis. 
+            Secun<lb break="no" ed="#L" n="56"/>dum autem gradus temperantiae et heroicum, non 
+            distin<lb break="no" ed="#L" n="57"/>guitur specie. Et sic ambae propositiones assumptae sunt
+            <lb ed="#L" n="58"/>falsae.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e586">
+            <lb ed="#L" n="59"/>Ad secundum, negatur maior. Nullus enim habitus 
+            for<lb break="no" ed="#L" n="60"/>titudinis habet pro obiecto circumstantiam obiecti 
+            fortitu<lb break="no" ed="#L" n="61"/>dinis. Immo hoc videtur implicare.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e595">
+            <lb ed="#L" n="62"/>Ad tertium dicitur quod aggredi et sustinere non sunt
+            <lb ed="#L" n="63"/>specie distincti in genere moris, quamvis distinguantur
+            <lb ed="#L" n="64"/>specie in genere naturae; ex eodem siquidem more 
+            pro<lb break="no" ed="#L" n="65"/>cedit circa maxima et optima pericula aggredi vel sustinere,
+            <lb ed="#L" n="66"/>quando, ubi, sicut, etc., oportet. Et propterea, si 
+            antece<lb break="no" ed="#L" n="67"/>dens intelligitur in genere moris, negatur. - Et ad primam
+            <lb ed="#L" n="68"/>probationem eius, negatur sequela: et similiter ad tertiam et
+            <lb ed="#L" n="69"/>quartam, Quoniam ex specifica distinctione in esse naturae
+            <lb ed="#L" n="70"/>talium actuum; et ex imperfectione habitus, qui non est
+            <lb ed="#L" n="71"/>fortitudo , sed imperfectum quid in genere virtutis; 
+            ali<lb break="no" ed="#L" n="72"/>quando provenit quod aliqui laudabiliter se habent in uno
+            <lb ed="#L" n="73"/>et non in alio; et similiter quod sit rectitudo in uno et
+            <lb ed="#L" n="74"/>non in alio; et quod non contrarietur semper rectitudo
+            <lb ed="#L" n="75"/>unius obliquitati alterius. Sed si esset sermo de rectitudine
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="76"/>quae in vera virtute consistit, falsa sunt omnia assumpta.
+            <lb ed="#L" n="77"/>Quoniam non laudabiliter, laude virtutis fortitudinis, 
+            po<lb break="no" ed="#L" n="78"/>test se habere quis in uno et non in alio, quantum est
+            <lb ed="#L" n="79"/>ex parte virtutis. Et similiter cum rectitudine unius non
+            <lb ed="#L" n="80"/>stat obliquitas alterius, quantum est ex parte virtutis. Et
+            <lb ed="#L" n="81"/>similiter quidquid, ex parte virtutis, repugnat rectitudini
+            <lb ed="#L" n="82"/>unius, repugnat rectitudini alterius. Quia enim non 
+            distin<lb break="no" ed="#L" n="83"/>guitur inter rectitudinem virtutis, et rectitudinem actus, ideo
+            <lb ed="#L" n="84"/>falli contingit. Operantur namque fortia quidam sine virtute
+            <lb ed="#L" n="85"/>fortitudinis, et iusta sine virtute iustitiae, etc., ut patet in
+            <lb ed="#L" n="86"/>II Ethic. : sed non operantur ut fortes, neque ut iusti. 
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e654">
+            <lb ed="#L" n="87"/>Ad secundam autem probationem dicitur quod falsum
+            <lb ed="#L" n="88"/>est esse multas secundum speciem prudentias directivas
+            <lb ed="#L" n="89"/>aggressionis et expectationis: quamvis sint multae partes
+            <lb ed="#L" n="90"/>unius secundum speciem prudentiae. Quoniam prudentia
+            <lb ed="#L" n="91"/>non est nisi unius speciei in quacumque materia 
+            cuius<lb break="no" ed="#L" n="92"/>cumque virtutis monasticae. Ac per hoc, si disciplinae 
+            mi<lb break="no" ed="#L" n="93"/>litares sunt prudentiae, non distinguuntur specie respectu
+            <lb ed="#L" n="94"/>diversorum actuum fortitudinis.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e674">
+            <lb ed="#L" n="95"/>Ad quintam probationem, negatur quod sit alia medietas
+            <lb ed="#L" n="96"/>formalis in utroque actu; una namque et eadem secundum
+            <lb ed="#L" n="97"/>speciem est medietas formalis utriusque, quamvis 
+            mate<lb break="no" ed="#L" n="98"/>rialiter, hoc est secundum ipsos actus diversos, 
+            distinguan<lb break="no" ed="#L" n="99"/>tur numero. Et licet sint quatuor extrema, non tamen sunt
+            <lb ed="#L" n="100"/>duo media, sed unum tantum, - Nec est verum. quod
+            <lb ed="#L" n="101"/>Auctor hoc dicat: sed iste bonus homo subintellexit ly
+            <lb ed="#L" n="102"/>media, cum Auctor dixerit, Non inconvenit secundum 
+            di<lb break="no" ed="#L" n="103"/>versa habere plura extrema ex una parte.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e697">
+            <lb ed="#L" n="104"/>Et per hoc patet solutio quarti et quinti principalis. —
+            <lb ed="#L" n="105"/>Confirmatio vero illa: Timor et audacia possunt simul esse
+            <lb ed="#L" n="106"/>in eodem, Ergo non sunt contraria, — nihil valet. Quia
+            <lb ed="#L" n="107"/>sunt simul respectu diversorum: sicut etiam aliquis est 
+            si<lb break="no" ed="#L" n="108"/>mul prodigus et avarus respectu diversorum, scilicet 
+            ra<lb break="no" ed="#L" n="109"/>piendo hinc et effundendo illinc.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e713">
+            <lb ed="#L" n="110"/>VII. Ad secundum dubium , de ratione allata in littera,
+            <lb ed="#L" n="111"/>scilicet, quia fortitudo est circa materiam valde specialem,
+            <lb ed="#L" n="112"/>dicitur, unica distinctione praemissa, quod aliud est loqui
+            <lb ed="#L" n="113"/>de distinctione specifica simpliciter: et aliud est loqui de
+            <lb ed="#L" n="114"/>distinctione specifica secundum quid. Verbi gratia, in 
+            na<lb break="no" ed="#L" n="115"/>turalibus, dicimus quod mas et femina in qualibet specie
+            <lb ed="#L" n="116"/>sunt eiusdem speciei: et rursus dicimus quod mas et 
+            fe<lb break="no" ed="#L" n="117"/>mina cuiuscumque speciei distinguuntur specie ut sunt in
+            <lb ed="#L" n="118"/>genere sexus. Primum enim est verum simpliciter: 
+            secun<lb break="no" ed="#L" n="119"/>dum, secundum quid, hoc est cum ista additione, ut sunt
+            <lb ed="#L" n="120"/>sub genere sexus. — Similiter dicimus quod caro, ossa,
+            <lb ed="#L" n="121"/>nervi, etc, hominis distinguuntur specie a carne, ossibus,
+            <lb ed="#L" n="122"/>nervis, etc., leonis, loquendo de distinctione specifica 
+            sim<lb break="no" ed="#L" n="123"/>pliciter, sicut anima hominis distinguitur specie ab anima
+            <lb ed="#L" n="124"/>leonis: iuxta illud Averrois, I de Anima, comment. Lur,
+            <lb ed="#L" n="125"/>Membra hominis non distinguuntur a membris leonis nisi
+            <lb ed="#L" n="126"/>quia hominis anima distinguitur ab anima leonis. Et rursus
+            <lb ed="#L" n="127"/>dicimus quod caro et ossa inter se distinguuntur specie
+            <lb ed="#L" n="128"/>ut partes integrales, quia sunt partes heterogeneae. Et hoc
+            <lb ed="#L" n="129"/>est verum, loquendo de distinctione specifica secundum
+            <lb ed="#L" n="130"/>quid, hoc est, ut partes sunt. Unde caro, ossa et nervi
+            <lb ed="#L" n="131"/>hominis non sunt multae species simpliciter: - quod patet
+            <lb ed="#L" n="132"/>ex duobus: tum ex eo quod sunt unius speciei simpliciter,
+            <lb ed="#L" n="133"/>scilicet humanae; tum ex eo quod, si ossa constituerent
+            <lb ed="#L" n="134"/>unam per se speciem simpliciter, sequeretur quod ossa
+            <lb ed="#L" n="135"/>hominis et ossa leonis, et caro hominis et caro leonis essent
+            <lb ed="#L" n="136"/>simpliciter unius speciei, Sed sunt haec in qualibet 
+            ani<lb break="no" ed="#L" n="137"/>malis specie seorsum multarum specierum ut partes, et
+            <lb ed="#L" n="138"/>unius speciei simpliciter. Et propter hoc distinguuntur 
+            spe<lb break="no" ed="#L" n="139"/>cie simpliciter a similibus in leone.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e781">
+            <lb ed="#L" n="140"/>Ex naturalibus igitur ad moralia procedendo, dicimus
+            <lb ed="#L" n="141"/>quod, licet circa materiam fortitudinis sint illae quatuor
+            <lb ed="#L" n="142"/>partiales virtutes, non tamen sequitur: Ergo circa illam
+            <lb ed="#L" n="143"/>sunt multae virtutes specie distinctae, Et cum arguitur,
+            <lb ed="#L" n="144"/>Possunt esse circa eam plures actus moraliter boni specie
+            <lb ed="#L" n="145"/>distincti, dicitur quod, loquendo de distinctione specifica
+            <lb ed="#L" n="146"/>simpliciter, falsum assumitur: loquendo autem de 
+            distin<lb break="no" ed="#L" n="147"/>ctione specifica secundum quid, verum dicitur, Et hoc 
+            pro<lb break="no" ed="#L" n="148"/>batur per auctoritatem sancti Thomae, ponentis illas 
+            qua<lb break="no" ed="#L" n="149"/>tuor partes fortitudinis unius speciei simpliciter, et 
+            diver<lb break="no" ed="#L" n="150"/>sarum ut partes sunt. Ac per hoc, nulla superfluit.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e807">
+            <pb ed="#L" n="55"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Ad secundum dicitur quod tertia. pars antecedentis, 
+            sci<lb break="no" ed="#L" n="2"/>licet, et sunt specie distincti, iam distincta est quomodo
+            <lb ed="#L" n="3"/>vera et quomodo falsa est. — Ac per hoc, quarta pars 
+            eius<lb break="no" ed="#L" n="4"/>dem est simpliciter falsa, scilicet quod contineantur. sub
+            <lb ed="#L" n="5"/>fortitudine ut inferiora sub superiore essentiali: sicut nec
+            <lb ed="#L" n="6"/>cor et hepar hominis sub homine. Ad probationem, cum
+            <lb ed="#L" n="7"/>dicitur, Continentur sub hoc communi quod est virtus, 
+            ne<lb break="no" ed="#L" n="8"/>gatur. Ut enim patet ex verbis Auctoris ab arguente 
+            al<lb break="no" ed="#L" n="9"/>latis, nihil. horum quatuor est proprie virtus. — Ad 
+            con<lb break="no" ed="#L" n="10"/>firmationem ex verbis Auctoris dicitur quod ista quatuor,
+            <lb ed="#L" n="11"/>contracta ad. materiam fortitudinis, non sunt virtutes, 
+            pro<lb break="no" ed="#L" n="12"/>prie loquendo; nec sunt virtutes adiunctae, nec separatae,
+            <lb ed="#L" n="13"/>nec contentae sub ea; sed sunt conditiones virtutis, velut
+            <lb ed="#L" n="14"/>partes ipsius.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e844">
+            <lb ed="#L" n="15"/>Ad tertium dicitur quod. distincta inter se specie 
+            dupli<lb break="no" ed="#L" n="16"/>citer sunt: simpliciter, et ut partes. Ista quatuor sunt 
+            se<lb break="no" ed="#L" n="17"/>cundo modo tantum. distincta inter se specie: et sunt 
+            in<lb break="no" ed="#L" n="18"/>distincta specie. simpliciter a fortitudine. Et propterea non
+            <lb ed="#L" n="19"/>sequitur conclusio, quae accipit distingui specie uno modo,
+            <lb ed="#L" n="20"/>scilicet simpliciter.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e860">
+            <lb ed="#L" n="21"/>Et per haec patet responsio ad quartum, distinguendo
+            <lb ed="#L" n="22"/>de distinctione-et identitate specifica absolute, et ut partes
+            <lb ed="#L" n="23"/>sunt.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e870">
+            <lb ed="#L" n="24"/>VIII. Ad tertium dubium  dicitur quod procul dubio
+            <lb ed="#L" n="25"/>sermo est de materia specialissima in esse morali. Ex 
+            ma<lb break="no" ed="#L" n="26"/>teriae enim circa quam est virtus unitate in esse morali
+            <lb ed="#L" n="27"/>sumitur unitas virtutis: ita quod unitas rationis formalis
+            <lb ed="#L" n="28"/>materiae circa quam dat unitatem virtuti. Et quoniam esse
+            <lb ed="#L" n="29"/>morale attenditur penes esse secundum rationem, ideo ex
+            <lb ed="#L" n="30"/>hoc quod pericula maxima et optima, ut subsunt rectae
+            <lb ed="#L" n="31"/>rationi, unam indivisibilem formaliter habent rationem
+            <lb ed="#L" n="32"/>quare homo viriliter se habet ad ea, sustinendo, timendo
+            <lb ed="#L" n="33"/>ac audendo; ideo specialissima species ponitur fortitudo.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e894">
+            <lb ed="#L" n="34"/>Et cum contra hoc obiicitur quod hoc erat probandum:
+            <lb ed="#L" n="35"/>respondetur quod quia hoc est confessum communiter, et
+            <lb ed="#L" n="36"/>a Principe Peripateticorum, ex III Ethic. , acceptum; 
+            Au<lb break="no" ed="#L" n="37"/>ctor ut confessum communiter assumpsit, absque 
+            proba<lb break="no" ed="#L" n="38"/>tione alia. Et quidem quod pericula maxima non habeant
+            <lb ed="#L" n="39"/>moralem divisibilitatem secundum speciem inquantum 
+            ma<lb break="no" ed="#L" n="40"/>xima, ex eo patet quod unius moris est, quomodolibet 
+            se<lb break="no" ed="#L" n="41"/>cundum esse naturae huiusmodi pericula varientur, 
+            susti<lb break="no" ed="#L" n="42"/>nere: non enim refert formaliter ad rectam rationem si
+            <lb ed="#L" n="43"/>ferro, si ligno, si igne aut aqua immineant maxima pericula
+            <lb ed="#L" n="44"/>ad quae oporteat viriliter se habere, sed materialiter haec
+            <lb ed="#L" n="45"/>se habent. Et similiter ad materialem differentiam spectat
+            <lb ed="#L" n="46"/>quod maxima pericula sunt optima ex ordine ad hanc vel
+            <lb ed="#L" n="47"/>illam virtutem, puta castitatem vel iustitiam. Consistit enim
+            <lb ed="#L" n="48"/>formale huius materiae in hoc quod pericula sunt maxima
+            <lb ed="#L" n="49"/>et optima: undecumque autem sint optima materialiter,
+            <lb ed="#L" n="50"/>concluditur sub illa unica ratione formali qua sunt 
+            pe<lb break="no" ed="#L" n="51"/>ricula maxima et optima. Et vocantur optima respectu
+            <lb ed="#L" n="52"/>bonorum tam delectabilium quam utilium: optimum enim
+            <lb ed="#L" n="53"/>genus boni est bonum honestum, magnam tamen habens
+            <lb ed="#L" n="54"/>infra suum genus latitudinem.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e942">
+            <lb ed="#L" n="55"/>Unde patet solutio secundae obiectionis. Istae namque
+            <lb ed="#L" n="56"/>differentiae virtutum ex quibus pericula maxima sunt 
+            opti<lb break="no" ed="#L" n="57"/>ma, licet sint morales et formales in se, non sunt tamen
+            <lb ed="#L" n="58"/>formales, sed materiales, respectu huius, scilicet materiae
+            <lb ed="#L" n="59"/>circa quam fortitudinis: quemadmodum masculinum et 
+            fe<lb break="no" ed="#L" n="60"/>mininum suntin se differentiae materiales et formales, 
+            re<lb break="no" ed="#L" n="61"/>spectu tamen speciei humanae sunt differentiae materiales.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e960">
+            <lb ed="#L" n="62"/>IX. Ad quartum dubium  ex Martino, contra 
+            distin<lb break="no" ed="#L" n="63"/>ctionem partium integralium a partibus potentialibus 
+            for<lb break="no" ed="#L" n="64"/>titudinis, dicitur quod maior est falsa. Et bene ibidem 
+            re<lb break="no" ed="#L" n="65"/>spondetur ad illam maiorem. Pars siquidem potentialis
+            <lb ed="#L" n="66"/>ordinatur ad perficiendum actum secundarium, vel in 
+            ma<lb break="no" ed="#L" n="67"/>teria secundaria: ita quod sortitur propriam perfectionem
+            <lb ed="#L" n="68"/>in illo actu vel materia, etiam si per intellectum 
+            abstra<lb break="no" ed="#L" n="69"/>heremus ordinem ad actum seu materiam principalem; ut
+            <lb ed="#L" n="70"/>patet de eubulia respectu consilii, et potentia vegetativa
+            <lb ed="#L" n="71"/>respectu animae intellectivae. Pars vero integralis actum
+            <lb ed="#L" n="72"/>suum ponit circa actum .seu materiam principalem, ita
+            <lb ed="#L" n="73"/>quod sine actu seu materia principali nihil quodammodo
+            <lb ed="#L" n="74"/>est: ut patet de memoria respectu consilii seu iudicii, etc.,
+            <lb ed="#L" n="75"/>et cautela ac circumspectione respectu praecepti.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e993">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="76"/>Et ad primum in oppositum dicitur quod. nutritivum,
+            <lb ed="#L" n="77"/>sensitivum et intellectivum tripliciter sumuntur: primo, ut
+            <lb ed="#L" n="78"/>sunt animae; secundo, ut sunt gradus viventium; tertio,
+            <lb ed="#L" n="79"/>ut sunt potentiae. Primo modo sunt partes subiectivae
+            <lb ed="#L" n="80"/>animae; secundo, sunt partes subiectivae gradus viventium;
+            <lb ed="#L" n="81"/>tertio, sunt partes subiectivae potentiarum animae, ut alibi 
+            <lb ed="#L" n="82"/>diffuse habes. In proposito ergo nutritivum et sensitivum,
+            <lb ed="#L" n="83"/>ut continentur in intellectiva anima quemadmodum  
+            trigo<lb break="no" ed="#L" n="84"/>num in tetragono, ut dicitur in II de Anima , dicuntur
+            <lb ed="#L" n="85"/>partes potentiales animae intellectivae. Et sic constat quod
+            <lb ed="#L" n="86"/>ordinantur ad actus secundarios animae intellectivae: 
+            quo<lb break="no" ed="#L" n="87"/>niam ad actus servientes animae intellectivae ut sic. 
+            Quam<lb break="no" ed="#L" n="88"/>vis sensitivum, ut est anima seu gradus seorsum, 
+            ordi<lb break="no" ed="#L" n="89"/>netur ad principalem actum.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e1028">
+            <lb ed="#L" n="90"/>Ad secundum dicitur quod falsum est quod eubulia,
+            <lb ed="#L" n="91"/>synesis et gnome ordinentur ad actus principales 
+            pruden<lb break="no" ed="#L" n="92"/>tiae. Ordinantur enim ad actus ministrantes prudentiae:
+            <lb ed="#L" n="93"/>constat autem actus ministeriales esse non principales, sed
+            <lb ed="#L" n="94"/>secundarios. - Et ad probationem, scilicet, /ntelligere est
+            <lb ed="#L" n="95"/>actus principalior:. tamen. sentire est actus etiam. 
+            princi<lb break="no" ed="#L" n="96"/>palis ipsi animae, iam dictum est quod sentire et 
+            intel<lb break="no" ed="#L" n="97"/>ligere respectu animarum intellectivae seorsum et sensitivae
+            <lb ed="#L" n="98"/>seorsum, sunt principales actus animae: sed respectu 
+            ani<lb break="no" ed="#L" n="99"/>mae intellectivae continentis id quod est sensitivae, sentire
+            <lb ed="#L" n="100"/>est secundarius actus, quia adminiculum intellectus est; 
+            in<lb break="no" ed="#L" n="101"/>teligere autem et velle, et universaliter actus intellectivae
+            <lb ed="#L" n="102"/>partis solum, sunt principales actus.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e1060">
+            <lb ed="#L" n="103"/>Ad tertium, negatur antecedens universaliter. Ad cuius
+            <lb ed="#L" n="104"/>evidentiam, oportet advertere quod illas octo partes 
+            inte<lb break="no" ed="#L" n="105"/>grales prudentiae superius  assignatas non deputavit Auctor
+            <lb ed="#L" n="106"/>prudentiae ut distinguitur contra adiunctas sibi virtutes,
+            <lb ed="#L" n="107"/>scilicet gnomen, synesim et eubuliam: sed quasdam, 
+            sci<lb break="no" ed="#L" n="108"/>licet tres earum tantum, posuit integrare prudentiam 
+            pro<lb break="no" ed="#L" n="109"/>prie dictam, distinctam ab aliis ut principalis virtus 
+            distin<lb break="no" ed="#L" n="110"/>guitur a sibi adiunctis, Et propterea de illis tribus, puta
+            <lb ed="#L" n="111"/>circumspectione, cautela, etc., loquendo, dicitur quod sunt
+            <lb ed="#L" n="112"/>circa actum prudentiae principalem, scilicet praecipere,
+            <lb ed="#L" n="113"/>circa quem nulla est pars potentialis. Et propterea istae
+            <lb ed="#L" n="114"/>partes integrales sunt multo propinquiores prudentiae 
+            pro<lb break="no" ed="#L" n="115"/>prie dictae quam partes potentiales, quia sunt circa 
+            prin<lb break="no" ed="#L" n="116"/>cipalem actum, potentiales autem sunt circa actus 
+            se<lb break="no" ed="#L" n="117"/>cundarios, scilicet consiliari et iudicare. Remanet ergo 
+            dis<lb break="no" ed="#L" n="118"/>tinctivum ab Auctore assignatum inter partes integrales
+            <lb ed="#L" n="119"/>et potentiales virtutis: quia scilicet illae circa principalem
+            <lb ed="#L" n="120"/>actum, istae circa secuhdarium actum vel secundariam
+            <lb ed="#L" n="121"/>materiam versantur. - De aliis vero quinque partibus 
+            inte<lb break="no" ed="#L" n="122"/>gralibus prudentiae loquendo, dicimus, cum Auctore 
+            ibi<lb break="no" ed="#L" n="123"/>dem, quod sunt circa eosdem actus circa quos sunt 
+            vir<lb break="no" ed="#L" n="124"/>tutes quas integrant: ita quod ut concurrunt ad rectum
+            <lb ed="#L" n="125"/>consilium, sunt partes integrales eubuliae; et prout 
+            con<lb break="no" ed="#L" n="126"/>currunt ad iudicium, sunt partes integrales gnome vel 
+            sy<lb break="no" ed="#L" n="127"/>nesis. Ex quo patet quod, referendo singula singulis, semper
+            <lb ed="#L" n="128"/>inveniuntur distinctae partes integrales et potentiales 
+            pru<lb break="no" ed="#L" n="129"/>dentiae, cum suis distinctivis. - Est ergo antecedens 
+            univer<lb break="no" ed="#L" n="130"/>saliter falsum, scilicet quod partes potentiales prudentiae
+            <lb ed="#L" n="131"/>sint circa actus magis principales quam partes integrales.
+            <lb ed="#L" n="132"/>Quoniam loquendo de prudentia proprie dicta et suis 
+            in<lb break="no" ed="#L" n="133"/>tegralibus partibus, ipsa cum dictis partibus est circa 
+            prae<lb break="no" ed="#L" n="134"/>cipere: potentiales vero sunt circa consiliari et iudicare.
+            <lb ed="#L" n="135"/>De reliquis vero partibus conceditur quod ipsae partes 
+            po<lb break="no" ed="#L" n="136"/>tentiales sint principalius circa suos actus quam partes 
+            in<lb break="no" ed="#L" n="137"/>tegrales suae, quae communi vocabulo appellatae sunt
+            <lb ed="#L" n="138"/>partes integrales prudentiae.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e1141">
+            <lb ed="#L" n="139"/>Ad primum autem argumentum contra responsionem
+            <lb ed="#L" n="140"/>ibi recitatam , quae bona est, scilicet quod eubulia, synesis
+            <lb ed="#L" n="141"/>et gnome sunt partes potentiales respectu prudentiae 
+            pro<lb break="no" ed="#L" n="142"/>prie dictae ut est praeceptiva: — dicitur falsum esse quod
+            <lb ed="#L" n="143"/>partes integrales propriae prudentiae sic sumptae restent 
+            re<lb break="no" ed="#L" n="144"/>motiores ab actu principali prudentiae. Ut enim iam dictum
+            <lb ed="#L" n="145"/>est, circumspectio, cautio et providentia circa ipsum actum
+            <lb ed="#L" n="146"/>praecepti sunt, circa quem non sunt potentiales.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e1161">
+            <lb ed="#L" n="147"/>Ad secundum vero, negatur sequela, ut iacet. Sed 
+            de<lb break="no" ed="#L" n="148"/>beret inferri sic: Ergo nutritivum et sensitivum essent partes
+            <lb ed="#L" n="149"/>potentiales respectu animae intellectivae. Et hoc iam ex
+            <lb ed="#L" n="150"/>dictis patet esse verum. Neque enim dicimus quod synesis
+            <pb ed="#L" n="56"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>est pars potentialis praecepti, sed prudentiae, quae est
+            <lb ed="#L" n="2"/>praeceptiva. Et propterea non respectu actus intelligendi,
+            <lb ed="#L" n="3"/>sed animae intellectivae, sensitivum ponitur pars 
+            poten<lb break="no" ed="#L" n="4"/>tialis.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e1185">
+            <lb ed="#L" n="5"/>X. Ad quintum dubium , de-duplici patientia etc., 
+            re<lb break="no" ed="#L" n="6"/>spondetur quod sine dubio apud Auctorem ponendae sunt
+            <lb ed="#L" n="7"/>duae patientiae, duae perseverantiae, duae magnanimitates,
+            <lb ed="#L" n="8"/>duae magnificentiae, quae inter se specie distinguuntur non
+            <lb ed="#L" n="9"/>sicut species perfectae, sed una cuiusque combinationis est
+            <lb ed="#L" n="10"/>vere virtus, altera modus seu conditio virtutis, et non 
+            pro<lb break="no" ed="#L" n="11"/>prie virtus: ut Auctor expresse dicit in sequenti quaestione,
+            <lb ed="#L" n="12"/>art. 6, ad 3, de fiducia, quam magnanimitatem vocavit; et
+            <lb ed="#L" n="13"/>idem est de aliis iudicium. Distinguuntur autem inter se
+            <lb ed="#L" n="14"/>ista quatuor ut virtutes sunt, et ut partes virtutis, ut 
+            di<lb break="no" ed="#L" n="15"/>ctum est, quantum ad formam et quantum ad materiam.
+            <lb ed="#L" n="16"/>Quia ut partes virtutis, habent pro materia solam materiam
+            <lb ed="#L" n="17"/>fortitudinis: ut virtutes vero, habent suas proprias 
+            mate<lb break="no" ed="#L" n="18"/>rias disparatas a materia fortitudinis. Ita quod virtus 
+            patien<lb break="no" ed="#L" n="19"/>tiae est non circa omnes tristitias, quia non circa tristitias
+            <lb ed="#L" n="20"/>quae sunt in periculis maximis et optimis, quae sunt 
+            forti<lb break="no" ed="#L" n="21"/>tudinis materia: sed circa alias tristitias, ut Auctor in 
+            re<lb break="no" ed="#L" n="22"/>sponsione ad quartum dicit. Et simile est de 
+            perseveran<lb break="no" ed="#L" n="23"/>tia etc.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e1229">
+            <lb ed="#L" n="24"/>Inter se vero istae quatuor partes integrales fortitudinis
+            <lb ed="#L" n="25"/>sic distinguuntur quod duae earum sunt respectu boni, et
+            <lb ed="#L" n="26"/>duae respectu mali. Fiducia siquidem et magnificentia, ut
+            <lb ed="#L" n="27"/>partes sunt-fortitudinis, sunt respectu boni: sed illa respectu
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="28"/>boni ut praemii seu finis sperati; ista respectu boni ut 
+            ope<lb break="no" ed="#L" n="29"/>ris quod fit. Oportet enim virum fortem in aggrediendo
+            <lb ed="#L" n="30"/>habere spem firmam, quam fiducia facit habere, de bono
+            <lb ed="#L" n="31"/>sperato: sic enim magnum causabit aggressum; spes enim
+            <lb ed="#L" n="32"/>est causa audaciae aggredientis. Et oportet rursus, quam
+            <lb ed="#L" n="33"/>prius concepit spem de fortiter operando, indeficienti animo
+            <lb ed="#L" n="34"/>servare dum fortiter agit: quod magnificentia facit. Ita quod
+            <lb ed="#L" n="35"/>utraque circa spem ponenda videtur respectu boni, 
+            diver<lb break="no" ed="#L" n="36"/>simode: ut dictum est, et consonat litterae ponenti ambas
+            <lb ed="#L" n="37"/>circa aggressum, alteram respectu praeparationis, alteram
+            <lb ed="#L" n="38"/>respectu executionis. - Patientia vero et perseverantia 
+            re<lb break="no" ed="#L" n="39"/>spectu mali, quod tristitia importat, sunt: illa quidem, ne
+            <lb ed="#L" n="40"/>animus frangatur tristitiis quae sunt in periculis mortis, etc. ;
+            <lb ed="#L" n="41"/>ista vero, ne ipsum diu sustinere talia tristia quae sunt
+            <lb ed="#L" n="42"/>in periculis mortis, etc., animum fatiget. Et propterea hae
+            <lb ed="#L" n="43"/>partes in concupiscibili ponendae sunt, in qua est tristitia.
+          </p>
+          <p xml:id="TAcCaj-d1e1933-d1e1277">
+            <lb ed="#L" n="44"/>Unde fortitudo, licet sit in irascibili, in qua sunt timor
+            <lb ed="#L" n="45"/>et audacia, exigit tamen modificatam spem et tristitiam ad
+            <lb ed="#L" n="46"/>actuum suorum perfectionem, Et propterea vocantur 
+            mo<lb break="no" ed="#L" n="47"/>dificantia haec partes integrales. Et per haec patet quod
+            <lb ed="#L" n="48"/>non superflue, sed necessario multiplicantur huiusmodi 
+            mo<lb break="no" ed="#L" n="49"/>rales dispositiones et habitus: ut scilicet in qualibet 
+            ma<lb break="no" ed="#L" n="50"/>teria propria virtus cum conditionibus requisitis inveniatur,
+            <lb ed="#L" n="51"/>quasi totum cum suis partibus heterogeneis; et evitetur
+            <lb ed="#L" n="52"/>confusio indistinctas relinquens naturas totorum et 
+            par<lb break="no" ed="#L" n="53"/>tium; ac per hoc patientia quae est togiim, fiat pars, aut
+            <lb ed="#L" n="54"/>e contra.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

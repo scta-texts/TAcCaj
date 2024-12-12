@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 136</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 136</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="98"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1975"><!-- TAcCajp2p2-q136 -->
+        <head xml:id="TAcCaj-d1e1975-Hd1e101">Quaestio 136</head>
+        <div xml:id="TAcCaj-d1e1975-Dd1e103"><!-- caj-p2p2-q136a1 -->
+          <head xml:id="TAcCaj-d1e1975-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e1975-d1e108">
+            <pb ed="#L" n="98"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=98"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e117">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>IN articulo primo quaestionis centesimaetrigesimaesextae
+            <lb ed="#L" n="3"/>dubium occurrit Martini, in eodem tractatu , in qu. r de
+            <lb ed="#L" n="4"/>Patientia , contra rationem litterae in corpore huius articuli,
+            <lb ed="#L" n="5"/>dicentis quod haec ratio, intellecta ut iacet, nimis perplexa
+            <lb ed="#L" n="6"/>est. Quod enim primo concludit, videtur falsum: et 
+            con<lb break="no" ed="#L" n="7"/>sequentia multum obscura. Arguit enim sic: Jmter alias
+            <lb ed="#L" n="8"/>passiones, tristitia impedit bonum rationis. Ergo necessaria
+            <lb ed="#L" n="9"/>est virtus qua bonum rationis conservetur contra tristitias.
+            <lb ed="#L" n="10"/>Contra. Tum, primo, quia voluntas sine virtutis habitu
+            <lb ed="#L" n="11"/>hoc potest. Ergo. - Antecedens probatur. Quia alias 
+            nun<lb break="no" ed="#L" n="12"/>quam posset exire in primum actum.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e146">
+            <lb ed="#L" n="13"/>Tum, secundo, quia dicetur quod omnis virtus 
+            conser<lb break="no" ed="#L" n="14"/>vat bonum rationis contra tristitias. Et sic per hoc medium
+            <lb ed="#L" n="15"/>non probatur quod ultra alias virtutes, sit necessaria 
+            pa<lb break="no" ed="#L" n="16"/>tientia.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e157">
+            <lb ed="#L" n="17"/>Tertio deficit, quia non assignat nisi unam passionem
+            <lb ed="#L" n="18"/>quam moderetur, scilicet tristitiam. Et tamen omnis virtus
+            <lb ed="#L" n="19"/>moralis est media inter duas passiones: aut saltem 
+            dupli<lb break="no" ed="#L" n="20"/>citer circa eandem passionem, sicut mansuetudo est 
+            me<lb break="no" ed="#L" n="21"/>dietas inter excessum et defectum irae.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e171">
+            <lb ed="#L" n="22"/>Quarto, quia omnis virtus pugnat contra tristitiam 
+            im<lb break="no" ed="#L" n="23"/>pedientem bonum rationis directivae sui: ut patet de 
+            per<lb break="no" ed="#L" n="24"/>severantia.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e180">
+            <lb ed="#L" n="25"/>Quinto, quia secundum Sanctos, patientia est utilis ad
+            <lb ed="#L" n="26"/>tollendum insensibilitatem et inducendam tristitiam, ubi
+            <lb ed="#L" n="27"/>nulla esset ex malis secutura tristitia: sicut de facto 
+            Chri<lb break="no" ed="#L" n="28"/>stus suscepit tristitiam : 7ristis, inquit, est amima mea .
+            <lb ed="#L" n="29"/>Unde patientia non solum est cohibitiva tristitiae 
+            exceden<lb break="no" ed="#L" n="30"/>tis, sed excitativa tristitiae deficientis. Quod patet ex 
+            man<lb break="no" ed="#L" n="31"/>suetudine respectu irae, quae utrumque facit. Et ex hoc
+            <lb ed="#L" n="32"/>quod omnis virtus moralis est media inter duo extrema
+            <lb ed="#L" n="33"/>vitia. Et ex auctoritate Gregorii, in Moralibus , super illud,
+            <lb ed="#L" n="34"/>Surrexit Iob, scidit vestimenta sua, et, tonso capite, 
+            ad<lb break="no" ed="#L" n="35"/>oravit : ubi contra nimium dolorum sensum contraponit
+            <lb ed="#L" n="36"/>insensibilitatem, et utrumque damnat, afferens contra 
+            se<lb break="no" ed="#L" n="37"/>cundos illud Prophetae , Percussisti eos, nec doluerunt:
+            <lb ed="#L" n="38"/>attrivisti eos, et noluerunt accipere disciplinam , et 
+            simi<lb break="no" ed="#L" n="39"/>litudinem membrorum stupidorum, quae, incisa, dolere
+            <lb ed="#L" n="40"/>non possunt.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e217">
+            <lb ed="#L" n="41"/>II. Ad hoc dicitur quod ratio, sane intellecta, bona est.
+            <lb ed="#L" n="42"/>Et ad primam obiectionem dicitur quod aliud est posse
+            <lb ed="#L" n="43"/>in actum virtutis: aliud est eam posse in illum actum eo
+            <lb ed="#L" n="44"/>modo quo virtuosus exercet. Non enim ponitur iustitiae
+            <lb ed="#L" n="45"/>virtus ut voluntas possit velle iustum: sed ut possit eo
+            <lb ed="#L" n="46"/>modo quo iusti volunt iusta . Et simile est de aliis 
+            virtu<lb break="no" ed="#L" n="47"/>tibus. Et ideo oportet poni patientiam contra tristitias, ut
+            <lb ed="#L" n="48"/>homo se habeat in tristitiis virtuose: quod sine virtute
+            <lb ed="#L" n="49"/>moderativa tristitiarum fieri nequit. Si namque indomitae
+            <lb ed="#L" n="50"/>essent, licet homo posset, non tamen posset ut patientes
+            <lb ed="#L" n="51"/>soliti sunt, rectitudinem in adversis servare.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e243">
+            <lb ed="#L" n="52"/>Ad secundam vero obiectionem, quae coincidit cum
+            <lb ed="#L" n="53"/>quarta, et multum habet apparentiae, adeo quod videtur
+            <lb ed="#L" n="54"/>sufficienter respondere rationi litterae, quoniam quaelibet
+            <lb ed="#L" n="55"/>virtus, sicut moderatur timorem contrariorum suorum, ita
+            <lb ed="#L" n="56"/>et tristitiam eorundem (liberalitas siquidem — moderatur
+            <lb ed="#L" n="57"/>timorem amissionis pecuniarum, et tristitiam amissarum;
+            <lb ed="#L" n="58"/>similiter temperantia moderatur timores et tristitias 
+            con<lb break="no" ed="#L" n="59"/>trarias delectabilibus secundum tactum; et sic de aliis):
+            <lb ed="#L" n="60"/>veruntamen respondetur, cum Auctore, quod quia nulla
+            <lb ed="#L" n="61"/>alia virtus est directe moderativa tristitiae, et tristitia est
+            <lb ed="#L" n="62"/>passio valde impeditiva boni rationis, ideo conveniens est
+            <lb ed="#L" n="63"/>ponere unam virtutem circa tristitiam directe. — Rursus,
+            <lb ed="#L" n="64"/>singulae virtutes sunt circa singulas tristitias oppositas in
+            <lb ed="#L" n="65"/>ordine ad quoddam particulare bonum rationis. Ista autem
+            <lb ed="#L" n="66"/>virtus ponitur circa tristitiam in ordine ad bonum rationis
+            <lb ed="#L" n="67"/>absolute: ut scilicet sic moderetur tristitias ut in nullo
+            <lb ed="#L" n="68"/>mens a bono avertatur seu declinet propter tristitiam 
+            quam<lb break="no" ed="#L" n="69"/>cumque; praecipue tamen propter tristitiam illatam ab 
+            ex<lb break="no" ed="#L" n="70"/>tra. - Demum, cum virtus ista ponatür principaliter 
+            pro<lb break="no" ed="#L" n="71"/>pter bonum supernaturale, ut scilicet homo propter 
+            tristi<lb break="no" ed="#L" n="72"/>uas quae occurrunt non declinet a bono suo supernaturali,
+            <lb ed="#L" n="73"/>quod est maximum bonum rationis seu superioris partis
+            <lb ed="#L" n="74"/>nostrae, scilicet intellectus et voluntatis; et tristitiae passio
+            <lb ed="#L" n="75"/>materia propria sit moralis, et non theologalis virtutis:
+            <lb ed="#L" n="76"/>rationabilius est ponere quod caritas mediante patientia
+            <lb ed="#L" n="77"/>moderatur tristitias, quam quod per seipsam ad illas 
+            de<lb break="no" ed="#L" n="78"/>scendat. Oportet namque caritati attribuere pugnam contra
+            <lb ed="#L" n="79"/>tristitias impedientes amorem caelestis patriae. Rationabilius
+            <lb ed="#L" n="80"/>autem hoc, ut dictum est, facit mediate per virtutem 
+            pa<lb break="no" ed="#L" n="81"/>tientiae, quae directe circa tristitias sit in ordine ad bonum
+            <lb ed="#L" n="82"/>rationis supernaturale principaliter, et consequenter ad 
+            bo<lb break="no" ed="#L" n="83"/>num rationis simpliciter et absolute. Ut autem inferius 
+            <lb ed="#L" n="84"/>patebit, Auctor patientiam ponit directe virtutem circa 
+            tri<lb break="no" ed="#L" n="85"/>stitias ut ratio in bono supernaturali contra tristitias 
+            con<lb break="no" ed="#L" n="86"/>servetur.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e321">
+            <lb ed="#L" n="87"/>Ad tertiam dicitur quod, sufficit virtuti una passio ut
+            <lb ed="#L" n="88"/>propria materia moderanda: ut patet de mansuetudine,
+            <lb ed="#L" n="89"/>cui ut propria materia assignatur ira. Quod autem 
+            patien<lb break="no" ed="#L" n="90"/>tia sit circa tristitias media inter duo vitia extrema, non
+            <lb ed="#L" n="91"/>repugnat litterae neque Auctori, qui inferius expresse in
+            <lb ed="#L" n="92"/>sequenti Libro, qu. xrvr, art. 6, ad 2, dicit quod virtus
+            <lb ed="#L" n="93"/>moralis mitigat tristitiam ponendo in ea medium rationis,
+            <lb ed="#L" n="94"/>sequens Peripateticos, contra Stoicos omnino tristitiam ab
+            <lb ed="#L" n="95"/>animo sapientis removentes. Unde cum tristari de malo
+            <lb ed="#L" n="96"/>sit secundum naturalem ordinem nostrae naturae respectu
+            <lb ed="#L" n="97"/>talis obiecti appropinquati, utrumque videtur vitiosum, sci- -
+            <lb ed="#L" n="98"/>licet et plus tristari quam oportet, et minus tristari quam
+            <lb ed="#L" n="99"/>oportet: nulla siquidem tristitia de malo coniuncto cognito
+            <lb ed="#L" n="100"/>naturae nostrae derogat. Ac per hoc, patientia est circa
+            <lb ed="#L" n="101"/>tristitiam sicut mansuetudo circa iram: et est in medio
+            <lb ed="#L" n="102"/>duarum malitiarum, ut aliae virtutes morales quae sunt
+            <lb ed="#L" n="103"/>circa passiones.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e360">
+            <lb ed="#L" n="104"/>Et ex his patet quod quinta obiectio non est contra
+            <lb ed="#L" n="105"/>doctrinam Auctoris.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e368">
+            <lb ed="#L" n="106"/>III. In eodem primo articulo, in responsione ad primum,
+            <lb ed="#L" n="107"/>dubium occurrit ex Martino, ibidem , reprehendente 
+            respon<lb break="no" ed="#L" n="108"/>sionem hanc in hoc quod ponit patientiam remanere in
+            <lb ed="#L" n="109"/>patria ratione istius actus qui est frui bonis ad quae per
+            <lb ed="#L" n="110"/>patientiam pervenire volebamus. Et duo impugnat: primo,
+            <lb ed="#L" n="111"/>ipsa vocabula; secundo, rationem. Inquit primo, quod hoc
+            <lb ed="#L" n="112"/>est abuti vocabulo patientiae, ita quod esset multo 
+            rationa<lb break="no" ed="#L" n="113"/>bilius dicere album nigrum, aut calidum frigidum: quia
+            <lb ed="#L" n="114"/>ista, secundum aliquos, se compatiuntur in aliquibus 
+            gra<lb break="no" ed="#L" n="115"/>dibus; patientia autem et summa delectatio non. Et hic
+            <lb ed="#L" n="116"/>multa inculcat.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e394">
+            <lb ed="#L" n="117"/>Inquit secundo, quod exemplum de iustitia, quod 
+            re<lb break="no" ed="#L" n="118"/>manet in patria non respectu emptionum, etc., sed quoad
+            <lb ed="#L" n="119"/>hoc quod est esse subditum Deo, non valet. Quoniam est
+            <lb ed="#L" n="120"/>una species iustitiae cuius actus est esse subditum Deo:
+            <lb ed="#L" n="121"/>nulla autem est patientia cuius actus sit illa fruitio quae
+            <lb ed="#L" n="122"/>est in patria,
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e410">
+            <lb ed="#L" n="123"/>IV. Ad haec dicitur quod nulla est abusio 
+            vocabulo<lb break="no" ed="#L" n="124"/>rum. Quoniam cum patientia habeat pro proximo fine
+            <lb ed="#L" n="125"/>fruitionem boni pro quo tristia sustinet, dicere quod non
+            <lb ed="#L" n="126"/>remanet in patria ipsa patientia in seipsa, sed in suo fine, —
+            <lb ed="#L" n="127"/>nullus abusus, nulla obscuritas intervenit: sed sicut 
+            dici<lb break="no" ed="#L" n="128"/>mus quod militia in. victoria remanet et in triumpho, ita
+            <lb ed="#L" n="129"/>patientia in fruitione bonorum patriae, pro quibus quis
+            <lb ed="#L" n="130"/>passus est in via.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e430">
+            <lb ed="#L" n="131"/>Ad secundam vero obiectionem dicitur quod similitudo
+            <lb ed="#L" n="132"/>de iustitia tenet quoad hoc quod est remanere respectu
+            <lb ed="#L" n="133"/>finis. Et ad hoc est allata ab Auctore. Unde non oportet
+            <lb ed="#L" n="134"/>fingere patientiam cuius actus sit fruitio patriae. Quoniam
+            <lb ed="#L" n="135"/>expresse Auctor dicit in littera quod non remanet 
+            secun<lb break="no" ed="#L" n="136"/>dum seipsam, sed secundum suum finem tantum, qui 
+            at<lb break="no" ed="#L" n="137"/>tribuitur patientiae sicut triumphare attribuitur militiae.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e1975-Dd1e449"><!-- caj-p2p2-q136a2 -->
+          <head xml:id="TAcCaj-d1e1975-Hd1e452">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e1975-d1e454">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="65" type="fixed=99"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e461">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="66"/>IN articulo secundo eiusdem quaestionis multa occurrunt
+            <lb ed="#L" n="67"/>ex Martino dubia, in qu. iv . Primum  est de 
+            compara<lb break="no" ed="#L" n="68"/>tione iustitiae ad patientiam , contra hoc quod ideo iustitia
+            <lb ed="#L" n="69"/>est perfectior patientia quia iustitia constituit hominem in
+            <lb ed="#L" n="70"/>bono, patientia autem servat tantum contra impedimenta
+            <lb ed="#L" n="71"/>boni. Arguitque sic. Patientia non tantum impedit ea quae
+            <lb ed="#L" n="72"/>a bono retrahunt, sed etiam constituit animum in bono
+            <lb ed="#L" n="73"/>principaliter, proprie et per se. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e483">
+            <lb ed="#L" n="74"/>Antecedens probatur. Primo, quia patientia constituit
+            <lb ed="#L" n="75"/>hominem in aequanimitate, quae est bonum magnum. —
+            <lb ed="#L" n="76"/>Secundo, quia patientia inclinat hominem ad sequelam 
+            re<lb break="no" ed="#L" n="77"/>ctae rationis. Hoc autem est bonum. Ergo. - Tertio, quia
+            <lb ed="#L" n="78"/>huiusmodi virtutes firmant animum in bono propter quod
+            <lb ed="#L" n="79"/>subimus pericula, sustinemus tristia, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e499">
+            <lb ed="#L" n="80"/>Quarto arguitur quod illa propositio: Omnis virtus 
+            con<lb break="no" ed="#L" n="81"/>stituens animum in bono excellentior est virtutibus 
+            tollen<lb break="no" ed="#L" n="82"/>tibus impedimenta boni, non est universaliter vera. Tum quia
+            <lb ed="#L" n="83"/>tollere impedimenta magnorum bonorum est multo melius
+            <lb ed="#L" n="84"/>quam constituere in parvis bonis. - Tum quia fortitudo 
+            ex<lb break="no" ed="#L" n="85"/>cellit affabilitatem , eutrapeliam et veritatem, quae tamen
+            <lb ed="#L" n="86"/>constituunt animum in bono communicationis humanae: et
+            <lb ed="#L" n="87"/>similiter potest argui de mansuetudine respectu earundem.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e520">
+            <lb ed="#L" n="88"/>II. Secundum. dubium .est. de. comparatione 
+            fortitu<lb break="no" ed="#L" n="89"/>dinis ad patientiam : quod non ideo fortitudo est 
+            excel<lb break="no" ed="#L" n="90"/>lentior patientia quia tollit maiora impedimenta, scilicet
+            <lb ed="#L" n="91"/>pericula mortis. Quia patientia firmat animum contra 
+            pe<lb break="no" ed="#L" n="92"/>ricula mortis, cum incumbunt. Quod probatur dupliciter.
+            <lb ed="#L" n="93"/>Primo, quia pericula mortis sunt inter adversa. — Secundo,
+            <lb ed="#L" n="94"/>quia hoc dicit expresse Thomas in art. 4, qu. de 
+            Patien<lb break="no" ed="#L" n="95"/>tia. Et hoc supposito, multiplicat tot et tanta Martinus,
+            <lb ed="#L" n="96"/>quae taceo, quia falsum hoc supponit.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e542">
+            <lb ed="#L" n="97"/>III. Tertium dubium  est de comparatione 
+            temperan<lb break="no" ed="#L" n="98"/>tiae ad patientiam : quod scilicet temperantia est fortior
+            <lb ed="#L" n="99"/>patientia. Probatur. Secundum Aristotelem, difficilius est
+            <lb ed="#L" n="100"/>pugnare contra tristias quam contra delectationes. Sed
+            <lb ed="#L" n="101"/>patientia contra tristitias, temperantia contra delectationes
+            <lb ed="#L" n="102"/>pugnat. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e558">
+            <lb ed="#L" n="103"/>Antecedens probatur. Quia cruciatus et 
+            comminatio<lb break="no" ed="#L" n="104"/>nes, etc., plus retrahunt a bono opere quam delectationes
+            <lb ed="#L" n="105"/>et promissiones. — Et confirmatur. Quia omnium vulgata
+            <lb ed="#L" n="106"/>vox ac sententia est quod timor malorum in constantem
+            <lb ed="#L" n="107"/>virum cadens excusat ab impletione praeceptorum. 
+            Con<lb break="no" ed="#L" n="108"/>cupiscentia autem aut delectatio carnalis et ciborum, etc.,
+            <lb ed="#L" n="109"/>non excusat. Plus sunt igitur retractiva a bono mala 
+            con<lb break="no" ed="#L" n="110"/>tristantia quam bona delectantia. Cuius contrarium dicit
+            <lb ed="#L" n="111"/>hic Thomas, volens quod delectationes tactus plus 
+            retra<lb break="no" ed="#L" n="112"/>hunt a bono quam tristitia adversorum, - quae est patientia.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e582">
+            <lb ed="#L" n="113"/>IV. Quartum dubium  est rursus de iustitia : quod
+            <pb ed="#L" n="100"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>scilicet patientia est perfectior quam iustitia quae est ad
+            <lb ed="#L" n="2"/>proximum. Probatur. Melius est esse patientem et carere
+            <lb ed="#L" n="3"/>iustitia, quam esse iustum et carere patientia. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e598">
+            <lb ed="#L" n="4"/>Probatur assumptum. Quia patiens non iustus est 
+            dis<lb break="no" ed="#L" n="5"/>positus ad iustitiam , ad mansuetudinem , et omnem 
+            ho<lb break="no" ed="#L" n="6"/>nestam communicationem: qui vero est iustus et non 
+            pa<lb break="no" ed="#L" n="7"/>tiens, non est dispositus ad patientiam, cum multi iusti
+            <lb ed="#L" n="8"/>sint in adversis impatientissimi. — Secundo, quia iustus
+            <lb ed="#L" n="9"/>non patiens non est dispositus ad ullam virtutem 
+            secun<lb break="no" ed="#L" n="10"/>dum gradum perseverantiae, nisi primo inclinetur ad actum
+            <lb ed="#L" n="11"/>patientiae. Sed patiens sine iustitia est dispositus ad omnem
+            <lb ed="#L" n="12"/>virtutem secundum gradum perseverantiae. Igitur.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e620">
+            <lb ed="#L" n="13"/>V. Quintum dubium  est in responsione ad primum,
+            <lb ed="#L" n="14"/>circa glossam illius, Patientia opus perfectum habet ; —
+            <lb ed="#L" n="15"/>non simpliciter, sed in adversorum toleratione. Dupliciter
+            <lb ed="#L" n="16"/>siquidem hoc impugnat. Primo, ordinem passionum in
+            <lb ed="#L" n="17"/>littera ex adversis: scilicet primo tristitia, inde ira, inde
+            <lb ed="#L" n="18"/>odium, inde iniustitia seu iniustum nocumentum. Nam
+            <lb ed="#L" n="19"/>cum ira sit appetitus vindictae, ac per hoc iniusti 
+            nocu<lb break="no" ed="#L" n="20"/>menti, ira sine quocumque medio fertur in iniustum 
+            no<lb break="no" ed="#L" n="21"/>cumentum.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e643">
+            <lb ed="#L" n="22"/>Secundo, ex hac solutione probat excellentiam 
+            patien<lb break="no" ed="#L" n="23"/>tiae. Multo difficilius est recte se habere circa adversa in
+            <lb ed="#L" n="24"/>tota vita humana quam circa prospera. Sed in adversis
+            <lb ed="#L" n="25"/>tolerandis patientia est perfectior, ut ipse Thomas dicit.
+            <lb ed="#L" n="26"/>Ergo. - Probatur maior. Tum quia adversa multo 
+            fre<lb break="no" ed="#L" n="27"/>quentius contingunt quam prospera. [Tum] quoniam et
+            <lb ed="#L" n="28"/>in ipsis prosperis multa adversa commiscentur. - Minor
+            <lb ed="#L" n="29"/>probatur. Tum ex ipso Thoma. Tum quia, habita 
+            patien<lb break="no" ed="#L" n="30"/>tia, ex adversis nec ira nec odium, nec iniustum 
+            nocumen<lb break="no" ed="#L" n="31"/>tum facimus: habita vero iustitia, adhuc habetur odium,
+            <lb ed="#L" n="32"/>ira et tristitia; habita quoque caritate, quantum est ex
+            <lb ed="#L" n="33"/>parte habitus, adhuc habetur ira et tristitia; habita etiam
+            <lb ed="#L" n="34"/>mansuetudine, adhuc habetur tristitia.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e674">
+            <lb ed="#L" n="35"/>Et confirmatur. Quia quidquid habet opus perfectum
+            <lb ed="#L" n="36"/>ita ut habens ipsum in nullo deficiat, est perfectissimum
+            <lb ed="#L" n="37"/>simpliciter. Sed patientia est huiusmodi, ut patet 
+            aucto<lb break="no" ed="#L" n="38"/>ritate lacobi. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e685">
+            <lb ed="#L" n="39"/>VI. Sextum dubium  est in responsione ad secundum,
+            <lb ed="#L" n="40"/>circa glossam illius, /n patientia vestra possidebitis : quod
+            <lb ed="#L" n="41"/>scilicet intelligitur per remotionem adversitatum 
+            inquietan<lb break="no" ed="#L" n="42"/>tium possessionem animae, possessio enim importat 
+            quie<lb break="no" ed="#L" n="43"/>tum dominium. Contra, inquit Martinus, hanc solutionem
+            <lb ed="#L" n="44"/>arguitur similiter ut prius . Si aliqua virtus, etiam circa
+            <lb ed="#L" n="45"/>prospera, est perfectior patientia, sequitur quod per 
+            pa<lb break="no" ed="#L" n="46"/>tientiam non possidemus animas nostras, Probatur: quia
+            <lb ed="#L" n="47"/>carens virtute perfectiore non habet quietum dominium
+            <lb ed="#L" n="48"/>supra animam suam. Nulla ergo virtus est perfectior 
+            pa<lb break="no" ed="#L" n="49"/>tientia.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e711">
+            <lb ed="#L" n="50"/>VII. Septimum dubium  est in responsione ad tertium,
+            <lb ed="#L" n="51"/>circa glossam illius dicti Gregorii, Patientia est radix et
+            <lb ed="#L" n="52"/>custos omnium virtutum : — non directe causando et 
+            pro<lb break="no" ed="#L" n="53"/>movendo, sed solum removendo prohibens. Contra, inquit
+            <lb ed="#L" n="54"/>Martinus, ibidem: volo quod aliquis habeat patientiam 
+            per<lb break="no" ed="#L" n="55"/>fectam et notitiam agendorum, et careat omni alia virtute.
+            <lb ed="#L" n="56"/>Tunc sic. Talis recte aget in materia cuius virtutem non
+            <lb ed="#L" n="57"/>habet. Ergo. —- Assumptum probatur. Quia non peccabit
+            <lb ed="#L" n="58"/>in materia iustitiae nisi aut odio aut amore aut aliqua
+            <lb ed="#L" n="59"/>simili passione: sed in huiusmodi semper intervenit non
+            <lb ed="#L" n="60"/>sufferre aliquod malum, vel in se vel in alio: ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e737">
+            <lb ed="#L" n="61"/>Et tandem dicit quod hoc, scilicet respectu omnium
+            <lb ed="#L" n="62"/>aliarum virtutum a se habere se radicaliter, vel removendo
+            <lb ed="#L" n="63"/>prohibens vel effective causando, nulli alteri virtuti 
+            mo<lb break="no" ed="#L" n="64"/>rali convenit. Et ideo patientia est ceteris virtutibus ad
+            <lb ed="#L" n="65"/>vitam humanam transigendam accomodatior.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e750">
+            <lb ed="#L" n="66"/>Multa quoque affert  ad probandum excellentiam 
+            pa<lb break="no" ed="#L" n="67"/>tientiae quae omitto: quoniam ex hac elucidatione omnia
+            <lb ed="#L" n="68"/>clara reddi puto.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e760">
+            <lb ed="#L" n="69"/>VIII. Ad primum dubium  dicitur quod falsum est
+            <lb ed="#L" n="70"/>antecedens assumptum ab arguente. Eodem siquidem modo
+            <lb ed="#L" n="71"/>respondendum est hic, sicut superius  responsum est de
+            <lb ed="#L" n="72"/>fortitudine, in principio tractatus huius. Unde ad primam,
+            <lb ed="#L" n="73"/>secundam et tertiam probationes illius dicitur quod 
+            pa<lb break="no" ed="#L" n="74"/>tientia per se primo moderatur tristitias in concupiscibili ;
+            <lb ed="#L" n="75"/>et mediante hac moderatione, constituit aequanimem, in- 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="76"/>clinat ad bonum, et firmat in bono. Arguens enim deberet
+            <lb ed="#L" n="77"/>probare non quod patientia haec det aliquo modo, sed
+            <lb ed="#L" n="78"/>quod principaliter et immediate, etc., constituat in bono,
+            <lb ed="#L" n="79"/>non mediante moderatione tristitiae: sicut facit iustitia et
+            <lb ed="#L" n="80"/>prudentia, quarum utraque directe et primo constituunt
+            <lb ed="#L" n="81"/>bonum voluntatis et intellectus.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e793">
+            <lb ed="#L" n="82"/>Quarta autem obiectio, quae est contra illam 
+            univer<lb break="no" ed="#L" n="83"/>salem, Virtus constituens in bono praestat virtute tollente
+            <lb ed="#L" n="84"/>impedimentum, excluditur dicendo quod est vera, ceteris
+            <lb ed="#L" n="85"/>paribus. Et rursus est vera quoad nobilitatem 
+            substan<lb break="no" ed="#L" n="86"/>tialem. Ita quod patientia, secundum sui generis rationem,
+            <lb ed="#L" n="87"/>est ignobilior iustitia acquisita; quamvis tollat impedimenta
+            <lb ed="#L" n="88"/>maioris boni, scilicet supernaturalis. Et rursus patientia
+            <lb ed="#L" n="89"/>absolute ignobilior est iustitia infusa: quia cetera sunt paria,
+            <lb ed="#L" n="90"/>et haec iustitia constituit in bono gratuito, patientia autem
+            <lb ed="#L" n="91"/>tollit boni gratuiti impedimenta tristitiae. — Nec est 
+            incon<lb break="no" ed="#L" n="92"/>veniens quod veritas sit, secundum generis sui 
+            conditio<lb break="no" ed="#L" n="93"/>nem hanc, nobilior fortitudine: quae tamen aliunde 
+            prae<lb break="no" ed="#L" n="94"/>eminet veritati. De eutrapelia autem et affabilitate non 
+            opor<lb break="no" ed="#L" n="95"/>tet sollicitari: quia sunt circa delectationes, et non directe
+            <lb ed="#L" n="96"/>constituunt hominem in bono, sed ponunt medium in
+            <lb ed="#L" n="97"/>passionibus, sicut patientia et fortitudo,
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e830">
+            <lb ed="#L" n="98"/>IX. Ad secundum dubium  dicitur quod patientia quae
+            <lb ed="#L" n="99"/>est specialis virtus, non est circa pericula mortis. Et
+            <lb ed="#L" n="100"/>primam probationem, negatur quod patientia, ut est virtus
+            <lb ed="#L" n="101"/>specialis, sit circa omnia adversa. Quoniam est solum circa
+            <lb ed="#L" n="102"/>adversa alia ab his quae mortis sunt, circa quae est 
+            pa<lb break="no" ed="#L" n="103"/>tientia pars integralis fortitudinis.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e846">
+            <lb ed="#L" n="104"/>Et per hoc patet responsio ad secundam. Quoniam id
+            <lb ed="#L" n="105"/>quod Auctor dicit in illa responsione quam allegat arguens,
+            <lb ed="#L" n="106"/>declarat ibidem in responsione ad ultimum, distinguendo
+            <lb ed="#L" n="107"/>de patientia parte integrali fortitudinis, et patientia 
+            spe<lb break="no" ed="#L" n="108"/>ciali virtute, primae attribuendo mala mortis, secundae 
+            ce<lb break="no" ed="#L" n="109"/>tera mala. :
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e862">
+            <lb ed="#L" n="110"/>X. Ad tertium dubium , de temperantia respectu 
+            pa<lb break="no" ed="#L" n="111"/>tientiae, dicitur quod si arguens bene advertisset ordinem
+            <lb ed="#L" n="112"/>qui ponitur in littera inter impedientia bonum. rationis,
+            <lb ed="#L" n="113"/>non dixisset ea quae dicit. Expresse namque Auctor ponit
+            <lb ed="#L" n="114"/>plus impedire mala mortis et cruciatus, quae opponuntur
+            <lb ed="#L" n="115"/>bono corporis, quam delectabilia secundum tactum: et ideo
+            <lb ed="#L" n="116"/>praeponitur fortitudo temperantiae. Unde quod iste obiicit
+            <lb ed="#L" n="117"/>de tormentis et cruciatibus, non est contra Auctorem: nisi
+            <lb ed="#L" n="118"/>quis adeo rudis sit ut putet timorem huiusmodi malorum
+            <lb ed="#L" n="119"/>poni ab Auctore in primo loco, et non tristitiam 
+            eorun<lb break="no" ed="#L" n="120"/>dem. Sed quoniam rudium est, non meretur audiri. Est
+            <lb ed="#L" n="121"/>ergo mens Auctoris quod quia bonum corporis naturaliter
+            <lb ed="#L" n="122"/>plus amatur quam bonum externum, ideo et timor et 
+            tri<lb break="no" ed="#L" n="123"/>stitia malorum corporis maxime impediunt bonum rationis.
+            <lb ed="#L" n="124"/>Quia autem delectabilia secundum tactum naturaliter sunt
+            <lb ed="#L" n="125"/>nobis magis connaturalia et sensibilia ac percepta quam
+            <lb ed="#L" n="126"/>bona extrinseca, ideo communiter magis nati sumus At
+            <lb ed="#L" n="127"/>pediri ab istis bonis quam a bonis aliis et eorum 
+            contra<lb break="no" ed="#L" n="128"/>riis, circa quae est patientia, Unde delectabilia secundum
+            <lb ed="#L" n="129"/>tactum non praeponuntur ab Auctore in impediendo 
+            ra<lb break="no" ed="#L" n="130"/>tionis bonum omnibus adversis, sed quibusdam: illis 
+            sci<lb break="no" ed="#L" n="131"/>licet quorum bona quae tollunt sunt minus connaturalia,
+            <lb ed="#L" n="132"/>sensibilia et percepta. :
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e914">
+            <lb ed="#L" n="133"/>Unde cum dicitur quod difficilius est pugnare contra
+            <lb ed="#L" n="134"/>tristitias quam contra delectationes, verum est ceteris 
+            pa<lb break="no" ed="#L" n="135"/>ribus. Quia facilius est abiicere voluntaria quam nolita:
+            <lb ed="#L" n="136"/>quae enim nobis invitis nos tangunt, non sunt in 
+            pote<lb break="no" ed="#L" n="137"/>state nostra, sicut ea quae volentibus nobis accidunt. 
+            Con<lb break="no" ed="#L" n="138"/>stat autem quod tristitia de nolito, delectatio de amato est.
+            <lb ed="#L" n="139"/>- Et propter hanc rationem , metus et tristitia excusant,
+            <lb ed="#L" n="140"/>et non delectatio: quia illa scilicet sunt de nolito, ista de
+            <lb ed="#L" n="141"/>volito; ac per hoc, delectatio est in potestate nostra longe
+            <lb ed="#L" n="142"/>plus quam tristitia et metus. - Cum his tamen stat quod
+            <lb ed="#L" n="143"/>delectatio carnalium magis impediat rationis bonum quam
+            <lb ed="#L" n="144"/>tristitia exteriorum bonorum, quantum est ex natura 
+            de<lb break="no" ed="#L" n="145"/>lectabilium et tristabilium. Quod dico, quia per accidens,
+            <lb ed="#L" n="146"/>ex parte hominis avari vel aliter dispositi, continget 
+            op<lb break="no" ed="#L" n="147"/>positum. Sed doctrina datur secundum ea quae sunt per se.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e950">
+            <lb ed="#L" n="148"/>XI. Ad quartum dubium , de comparatione patientiae
+            <lb ed="#L" n="149"/>ad iustitiam ad proximum, dicitur quod, si virtutes 
+            pos<lb break="no" ed="#L" n="150"/>sent separari, et comparetur patientia acquisita, de qua lo-
+            <pb ed="#L" n="101"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>quitur arguens, ad iustitiam respectu proximi etiam 
+            ac<lb break="no" ed="#L" n="2"/>quisitam, negatur assumptum, scilicet quod melius est: 
+            quo<lb break="no" ed="#L" n="3"/>niam melius est esse iustum quam patientem. Quoniam ut
+            <lb ed="#L" n="4"/>dicitur in V Ethic. , in hoc maxime commendatur bonus
+            <lb ed="#L" n="5"/>homo quod etiam aliis est bonus: iustus autem talis est,
+            <lb ed="#L" n="6"/>patiens autem sibi soli bonus est.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e976">
+            <lb ed="#L" n="7"/>Nec est verum quod iustus sit minus dispositus ad 
+            vir<lb break="no" ed="#L" n="8"/>tutes quam patiens. Immo iustitia magnum est principium
+            <lb ed="#L" n="9"/>et patientiae et omnium virtutum: quoniam volens et 
+            red<lb break="no" ed="#L" n="10"/>dens unicuique quod suum est, totam legem implet; 
+            pro<lb break="no" ed="#L" n="11"/>pter quod, omnia praecepta legis sunt praecepta iustitiae,
+            <lb ed="#L" n="12"/>ut superius  patet. Et ad fortitudinem se accingit, ut 
+            de<lb break="no" ed="#L" n="13"/>bitum patriae reddat; et ad temperantiam, a non-sua 
+            mu<lb break="no" ed="#L" n="14"/>liere abstinendo; et ad patientiam, superiori parti animae
+            <lb ed="#L" n="15"/>suae reddens quod debet, scilicet conservationem boni ipsius.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e998">
+            <lb ed="#L" n="16"/>Quod autem dicitur quod aliqui iusti sunt 
+            impatien<lb break="no" ed="#L" n="17"/>tissimi, quia de facto loquitur, negandum est. Quoniam
+            <lb ed="#L" n="18"/>si vere sunt iusti, habent tantum patientiae ut vitio 
+            im<lb break="no" ed="#L" n="19"/>patientiae careant, ac per hoc, non sunt impatientissimi :
+            <lb ed="#L" n="20"/>quamvis non oporteat omnes iustos habere patientiam 
+            per<lb break="no" ed="#L" n="21"/>fectam, ut patet ex his quae de connexione virtutum dicta
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1014">
+            <lb ed="#L" n="22"/>XII. Ad quintum dubium , quomodo patientia habeat
+            <lb ed="#L" n="23"/>opus perfectum, dicitur quod id quod primo obiicitur,
+            <lb ed="#L" n="24"/>contra ordinem passionum, nihil obstat. Nam non dicit
+            <lb ed="#L" n="25"/>Auctor quod oportet iram causare prius odium et deinde
+            <lb ed="#L" n="26"/>iniustum nocumentum, ita quod odium oporteat mediare,
+            <lb ed="#L" n="27"/>ut iste intellexit: sed dicit quod naturalis progressus mali
+            <lb ed="#L" n="28"/>moris in animo nostro ex adversis praesentibus est quod
+            <lb ed="#L" n="29"/>primo tristitia, etc. Praeter quem tamen naturalem 
+            pro<lb break="no" ed="#L" n="30"/>gressum potest aliquis male se habere in adversis, Nullus
+            <lb ed="#L" n="31"/>siquidem dubitat quin ira crescat in odium : non tamen
+            <lb ed="#L" n="32"/>opus est omnem iram pervenire ad odium.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1040">
+            <lb ed="#L" n="33"/>Ad id vero quod secundo loco obiicitur, ad 
+            proban<lb break="no" ed="#L" n="34"/>dum patientiae excellentiam, dicitur quod, si per prospera
+            <lb ed="#L" n="35"/>iste intelligit omnia non adversa, circa quae est patientia,
+            <lb ed="#L" n="36"/>antecedens est falsissimum: quoniam multo difficilius est
+            <lb ed="#L" n="37"/>habere reliquas virtutes, iustitiam, magnanimitatem, etc.,
+            <lb ed="#L" n="38"/>quam patientiam. Si autem per prospera intelligit quaedam
+            <lb ed="#L" n="39"/>bona delectabilia, nihil valet consequentia inferens 
+            patien<lb break="no" ed="#L" n="40"/>tiam esse perfectiorem simpliciter ceteris virtutibus: 
+            quo<lb break="no" ed="#L" n="41"/>niam, dato quod esset perfectior ilis quae essent circa
+            <lb ed="#L" n="42"/>tales prosperitates, non sequitur, Ergo est perfectior 
+            ce<lb break="no" ed="#L" n="43"/>teris simpliciter. - Peccat quoque dicta ratio et in hoc,
+            <lb ed="#L" n="44"/>quia praesupponit patientiae virtutem esse circa omnia 
+            ad<lb break="no" ed="#L" n="45"/>versa: cum circa summe adversa, scilicet mortis pericula,
+            <lb ed="#L" n="46"/>sit fortitudo. — Peccat et tertio, quia perfectionem virtutis
+            <lb ed="#L" n="47"/>sola difficultate graduat: cum perfectio virtutis, de qua 
+            di<lb break="no" ed="#L" n="48"/>citur in II Ethic.  quod est circa bonum et difficile, 
+            ma<lb break="no" ed="#L" n="49"/>gis pensetur ex bono quam ex difficili. - Quae vero addit,
+            <lb ed="#L" n="50"/>quod, habita patientia, habentur illae virtutes, puta 
+            man<lb break="no" ed="#L" n="51"/>suetudo, caritas et iustitia, non est verum (si secludatur
+            <lb ed="#L" n="52"/>connexio virtutum), nisi negative, hoc est quia, habita 
+            pa<lb break="no" ed="#L" n="53"/>tientia, tollitur iracundia, odium et iniustitia, non 
+            simpli<lb break="no" ed="#L" n="54"/>Citer, sed quantum est ex tristitia adversorum: posset enim
+            <lb ed="#L" n="55"/>patientia sola praeditus ex alio capite odio habere 
+            proxi<lb break="no" ed="#L" n="56"/>mum et illi nocere, puta ex crudelitate vel avaritia vel
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="57"/>tyrannide, seu libidine dominandi, excellendi, etc. Quod
+            <lb ed="#L" n="58"/>vero e contra dicitur de caritate, quod, quantum est ex
+            <lb ed="#L" n="59"/>parte habitus, habetur sine patientia, falsum est. Nam, teste
+            <lb ed="#L" n="60"/>Apostolo , caritas patiens est. Et probatur ratione: quia
+            <lb ed="#L" n="61"/>caritas ex sui proprii habitus ratione praefert Deum 
+            omni<lb break="no" ed="#L" n="62"/>bus, ac per hoc, omnibus contristantibus. Et propterea
+            <lb ed="#L" n="63"/>Apostolus posuit primogenitam caritatis patientiam. — Et,
+            <lb ed="#L" n="64"/>ne hic occupemus tempus, breviter, argumentum satis
+            <lb ed="#L" n="65"/>abundat falsitatibus. 1
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1116">
+            <lb ed="#L" n="66"/>Ultima demum probatio, scilicet, Quidquid habet opus
+            <lb ed="#L" n="67"/>perfectum ita ut habens ipsum in nullo deficiat, est 
+            per<lb break="no" ed="#L" n="68"/>fectissimum simpliciter, concludit quod patientia est Deus.
+            <lb ed="#L" n="69"/>lla enim maior, ut iacet, soli convenit divinae perfectioni:
+            <lb ed="#L" n="70"/>habere namque opus perfectum sic ut nullo indigeat, solius
+            <lb ed="#L" n="71"/>Dei est; omnis enim creatura sic est perfecta ut alio 
+            indi<lb break="no" ed="#L" n="72"/>geat. Et ideo aut Martinus corrigat maiorem: aut fateatur
+            <lb ed="#L" n="73"/>patientiam esse deitatem.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1137">
+            <lb ed="#L" n="74"/>XIII. Ad sextum dubium  dicitur quod quies animi,
+            <lb ed="#L" n="75"/>seu quieta sui possessio, dupliciter intelligi potest. Scilicet,
+            <lb ed="#L" n="76"/>quod sit omnino perfecta: — et haec non nisi per 
+            aeter<lb break="no" ed="#L" n="77"/>nam beatitudinem, quae in patria erit, praestatur. Et de
+            <lb ed="#L" n="78"/>tali quieta possessione verum est quod non habetur quandiu
+            <lb ed="#L" n="79"/>deficit aliqua virtus maior nata haberi, etc. Sed talis quieta
+            <lb ed="#L" n="80"/>possessio non ponitur a Christo effectus patientiae in hac
+            <lb ed="#L" n="81"/>vita, sed in futura tantum. — Alio modo intelligitur quod
+            <lb ed="#L" n="82"/>sit quieta in genere perturbabilium ut sic. Et talis quieta
+            <lb ed="#L" n="83"/>possessio animae ponitur effectus patientiae. Nec exigit
+            <lb ed="#L" n="84"/>quod ipsa sit perfectissima virtus. Quoniam cum hoc quod
+            <lb ed="#L" n="85"/>est alia virtus ipsa perfectior, stat quod habens ipsam, si
+            <lb ed="#L" n="86"/>careat illa alia, possideat suam animam quiete in genere
+            <lb ed="#L" n="87"/>perturbabilium : hoc est, ut homo sit imperturbabilis a
+            <lb ed="#L" n="88"/>multis contristantibus. — Peccat quoque dicta obiectio in
+            <lb ed="#L" n="89"/>hoc quod supponit virtutes non esse connexas: cum 
+            fal<lb break="no" ed="#L" n="90"/>sissimum esse constet hoc de patientia quae est virtus 
+            gra<lb break="no" ed="#L" n="91"/>tuita; constat enim omnes virtutes infusas esse connexas.
+            <lb ed="#L" n="92"/>Ac per hoc, non admittitur quod patiens careat illa 
+            vir<lb break="no" ed="#L" n="93"/>tute perfectiore: cum habeat caritatem et ceteras virtutes.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1183">
+            <lb ed="#L" n="94"/>XIV. Ad septimum dubium , de glossa dicti Gregorii,
+            <lb ed="#L" n="95"/>dicitur quod casus incompossibilia continet. Nam. 
+            impos<lb break="no" ed="#L" n="96"/>sibile est habere patientiam perfecte et carere reliquis 
+            vir<lb break="no" ed="#L" n="97"/>tutibus: tum quia virtutes sunt connexae; tum quia 
+            ca<lb break="no" ed="#L" n="98"/>ritas semper coniungitur patientiae, ut infra  patebit. 
+            Ad<lb break="no" ed="#L" n="99"/>missa tamen conditionali, scilicet, Si patientia esset sine
+            <lb ed="#L" n="100"/>ulla alia virtute, respondetur negando quod patiens recte
+            <lb ed="#L" n="101"/>ageret in materia iustitiae, nisi forte per accidens: sermo
+            <lb ed="#L" n="102"/>autem doctrinalis debet esse de his quae per se insunt.
+            <lb ed="#L" n="103"/>Et ad probationem, quia si non recte aget, hoc erit
+            <lb ed="#L" n="104"/>amore vel odio vel aliqua passione in qua intervenit 
+            ali<lb break="no" ed="#L" n="105"/>quod non sufferre: dicitur quod ex nulla passione, sed ex
+            <lb ed="#L" n="106"/>sola electione mali iniustum faciet, ut iniustus facit, 
+            dele<lb break="no" ed="#L" n="107"/>ctatus de iniustitia, et non propter aliud, ut patet ex IV 
+            <lb ed="#L" n="108"/>et V  Ethic.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1218">
+            <lb ed="#L" n="109"/>Ad illud vero quod subditur de excellentia patientiae,
+            <lb ed="#L" n="110"/>dicitur quod iustitia, secundum se totam, multo excellentius
+            <lb ed="#L" n="111"/>ad omnes virtutes se habet: praesertim quia legalis iustitia
+            <lb ed="#L" n="112"/>ad commune bonum omnes habet virtutes, omnis est 
+            vir<lb break="no" ed="#L" n="113"/>tus, omnes parit, omnibus imperat .
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e1975-Dd1e1232"><!-- caj-p2p2-q136a3 -->
+          <head xml:id="TAcCaj-d1e1975-Hd1e1235">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e1975-d1e1237">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="61" type="fixed=102"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1244">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="62"/>In articulo tertio eiusdem centesimaetrigesimaesextae 
+            quae<lb break="no" ed="#L" n="63"/>stionis. dubia occurrunt multa ex Martino, ubi supra ,
+            <lb ed="#L" n="64"/>qu. um. Primum circa illam propositionem. litterae:
+            <lb ed="#L" n="65"/>Illud bonum propter quod aliquis vult malum, est magis
+            <lb ed="#L" n="66"/>volitum et amatum quam illud bonum cuius privatio 
+            inge<lb break="no" ed="#L" n="67"/>rit dolorem quem patienter toleramus.. Contra. Patientia
+            <lb ed="#L" n="68"/>est respectu malorum simpliciter inevitabilium, non 
+            pro<lb break="no" ed="#L" n="69"/>pter aliquod aliud magis volitum, sed quia decet 
+            aequani<lb break="no" ed="#L" n="70"/>miter tolerare. Non ergo patientia semper. est propter 
+            bo<lb break="no" ed="#L" n="71"/>num magis amatum. — Et confirmatur. Quia huius generis
+            <lb ed="#L" n="72"/>fuit patientia ipsius Iob, - Et nescio, inquit, quomodo hoc
+            <lb ed="#L" n="73"/>patientiae genus a beato Thoma praetermissum est.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1275">
+            <lb ed="#L" n="74"/>Ad idem praeterea respondet ad auctoritatem Augustini
+            <lb ed="#L" n="75"/>in littera, quae est fundamentum dictae propositionis. Et
+            <lb ed="#L" n="76"/>dicit quod duplex est patientia. Quaedam spontanea et
+            <lb ed="#L" n="77"/>quoad aequanimitatem et quoad tolerationem: ita quod
+            <lb ed="#L" n="78"/>in potestate nostra est non tolerare mala, et perdere 
+            bo<lb break="no" ed="#L" n="79"/>num pro quo toleramus. Et de tali loquitur Augustinus:
+            <lb ed="#L" n="80"/>ut insinuat per ly sponte suscipere quod cruciat. — 
+            Quae<lb break="no" ed="#L" n="81"/>dam vero sunt spontanea quidem quoad aequanimitatem,
+            <lb ed="#L" n="82"/>sed non quoad tolerantiam, quia, velit nolit, oportet illa
+            <lb ed="#L" n="83"/>mala pati. Et haec fuit in Iob. Et de hac non loquitur
+            <lb ed="#L" n="84"/>Augustinus.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1301">
+            <lb ed="#L" n="85"/>II. Secundum. dubium  est. circa illud, quod. patientia, .
+            <lb ed="#L" n="86"/>secundum. quod est virtus, non potest haberi sine. caritate
+            <lb ed="#L" n="87"/>et gratia gratum faciente. Contra hoc arguit  multipliciter.
+            <lb ed="#L" n="88"/>Primo. Aliquis actus patientiae potest esse bonus 
+            mora<lb break="no" ed="#L" n="89"/>liter, et non meritorius vitae aeternae. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1315">
+            <lb ed="#L" n="90"/>Secundo. Possibile est quod aliquis sine. gratia et'
+            ca<lb break="no" ed="#L" n="91"/>ritate habeat habitum patientiae firmum. et intensum, Ergo
+            <lb ed="#L" n="92"/>potest exire in actum sine caritate et gratia. Et probatur
+            <lb ed="#L" n="93"/>manifeste: quia fides potest esse, et exire in actum, sine
+            <lb ed="#L" n="94"/>caritate, Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1328">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="95"/>Tertio. Quia si aliquis habens "habitum patientiae 
+            fir<lb break="no" ed="#L" n="96"/>mum. et intensum, peccet mortaliter et perdat caritatem,
+            <lb ed="#L" n="97"/>poterit nihilominus sine caritate exire in actum, ut patet,
+            <lb ed="#L" n="98"/>sicut ceteri habitus remanentes. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1341">
+            <lb ed="#L" n="99"/>Quarto. Omnis creatura rationalis habens actuale 
+            iudi<lb break="no" ed="#L" n="100"/>cium quo iudicat gratuita esse praeferenda omnibus bonis
+            <lb ed="#L" n="101"/>naturalibus, potest per fidem informem, cum speciali au--.-
+            <lb ed="#L" n="102"/>xilio Dei, sine caritate tamen, habere velle. conforme ad
+            <lb ed="#L" n="103"/>tale dictamen. Ergo. — Assumptum patet: quia aliter 
+            vo<lb break="no" ed="#L" n="104"/>luntas non esset libera.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1357">
+            <lb ed="#L" n="105"/>Quinto. Multi gentiles habuerunt virtutem patientiae, etc.
+            <lb ed="#L" n="106"/>Similiter multi pro bono sanitatis patiuntur incisiones, etc.
+            <lb ed="#L" n="107"/>Ergo. - Nec valet solutio Thomae, in responsionibus 
+            ar<lb break="no" ed="#L" n="108"/>gumentorum , dicentis quod bonum politicae virtutis 
+            com<lb break="no" ed="#L" n="109"/>mensuratum est naturae humanae, bonum autem gratiae
+            <lb ed="#L" n="110"/>est supernaturale: et similiter propter sanitatem pati 
+            pro<lb break="no" ed="#L" n="111"/>cedit ex amore naturali, patientia vero ex amore 
+            super<lb break="no" ed="#L" n="112"/>naturali, Commensuratio, inquit, boni amati ad naturam
+            <lb ed="#L" n="113"/>est omnino impertinens ad hoc quod propter ipsum sint
+            <lb ed="#L" n="114"/>aequanimiter mala toleranda. Immo propria ratio huius
+            <lb ed="#L" n="115"/>tolerantiae est amor huius boni. Sed ad amorem sufficit,
+            <lb ed="#L" n="116"/>cum libertate voluntatis , iudicium rationis aequanimum,
+            <lb ed="#L" n="117"/>cum auxilio Dei, sine caritate tamen.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1388">
+            <lb ed="#L" n="118"/>Sexto, quia sequeretur. quod nullus in. peccato mortali
+            <lb ed="#L" n="119"/>existens possit pati pro. Christo. Hoc est falsum: ut patet
+            <lb ed="#L" n="120"/>de haereticis, qui arbitrantur obsequium se praestare 
+            hri<lb break="no" ed="#L" n="121"/>sto . Ergo. — Nec valet, inquit, dicere quod secundum -
+            <lb ed="#L" n="122"/>veritatem non patiuntur pro Christo: quia sufficit quod
+            <lb ed="#L" n="123"/>credant se pati pro Christo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1404">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="124"/>III: Tertium dubium - est contra rationem : sancti 
+            Tho<lb break="no" ed="#L" n="125"/>mae in littera: Nullus eligit pati tristitiam propter se, sed
+            <lb ed="#L" n="126"/>eam horret secundum se: sed solum propter finem. magis
+            <lb ed="#L" n="127"/>amatum, etc. Ad hanc, inquit , rationem, loquendo de pa-
+            <pb ed="#L" n="103"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tientia spontanea solum quoad aequanimitatem, 
+            respon<lb break="no" ed="#L" n="2"/>deo distinguendo de fine: vel increato, et sic hoc est 
+            du<lb break="no" ed="#L" n="3"/>bium, de quo alibi; vel creato. Et tunc, vel alio ab opere
+            <lb ed="#L" n="4"/>honesto, et sic nego: vel quomodolibet. Et sic concedo
+            <lb ed="#L" n="5"/>quod ille finis, puta honestitas, est magis amatus: sed quia
+            <lb ed="#L" n="6"/>non est finis extrinsecus operi patientiae, ideo nihil ad 
+            pro<lb break="no" ed="#L" n="7"/>positum.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1438">
+            <lb ed="#L" n="8"/>IV. Quartum dubium  est contra rationem Thomae
+            <lb ed="#L" n="9"/>in littera, scilicet :: Quod aliquis praeferat bonum gratiae
+            <lb ed="#L" n="10"/>omnibus naturalibus bonis ex quorum amissione potest
+            <lb ed="#L" n="11"/>dolor causari, pertinet ad caritatem: hoc autem spectat ad
+            <lb ed="#L" n="12"/>patientiam: ergo. Ad hanc, inquit , rationem, nego 
+            maio<lb break="no" ed="#L" n="13"/>rem et minorem. Dico enim quod habens fidem informem,
+            <lb ed="#L" n="14"/>cum auxilio Dei et libertate voluntatis, potest praeferre
+            <lb ed="#L" n="15"/>Deum omnibus bonis naturalibus. Et multo magis si 
+            ha<lb break="no" ed="#L" n="16"/>beat caritatem deque, ad quam spectat diligere Deum
+            <lb ed="#L" n="17"/>super omnia.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1462">
+            <lb ed="#L" n="18"/>Minor quoque negata est. Quia patiens pro Christo, etc.,
+            <lb ed="#L" n="19"/>non semper patitur privationem. omnium bonorum 
+            natu<lb break="no" ed="#L" n="20"/>ralium. Et ideo non potest concludi universaliter quod
+            <lb ed="#L" n="21"/>omnis patiens praefert Deum. omnibus bonis naturalibus. —
+            <lb ed="#L" n="22"/>Et confirmatur. . Quia sicut reperitur iustus in. uno gradu
+            <lb ed="#L" n="23"/>et non in n alio, ita et patiens. Er reperti sunt multi qui
+            <lb ed="#L" n="24"/>patienter sustinuerunt carceres, etc., sed non mortem.
+            <lb ed="#L" n="25"/>Quare, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1482">
+            <lb ed="#L" n="26"/>V. Ad primum dubium  dicitur primo, secundum 
+            ve<lb break="no" ed="#L" n="27"/>ritatem, quod patientia semper patitur propter bonum  
+            ex<lb break="no" ed="#L" n="28"/>trinsecum magis amatum: quia propter amorem Dei, ut
+            <lb ed="#L" n="29"/>in hoc patet articulo. Iob siquidem, et quilibet patienter
+            <lb ed="#L" n="30"/>ferens inevitabilia propter caelestem patriam, habet actum
+            <lb ed="#L" n="31"/>virtutis patientiae qui est, non pati, sed, faciendo de 
+            neces<lb break="no" ed="#L" n="32"/>sitate virtutem , aequanimiter et libenter sufferre adversa,
+            <lb ed="#L" n="33"/>ut Dei voluntas impleatur. Unde Iob dixit : Sicut Domino
+            <lb ed="#L" n="34"/>placuit,. ita factum. est: sit, nomen Domini benedictum.
+            <lb ed="#L" n="35"/>Dicitur secundo quod, si etiam patientia poneretur 
+            vir<lb break="no" ed="#L" n="36"/>tus acquisita, adhuc salvaretur quod patiens propter bonum
+            <lb ed="#L" n="37"/>magis amatum vult pati. Quoniam aliud est dicere, 
+            pro<lb break="no" ed="#L" n="38"/>pter bonum magis amatum et aliud, propter bonum 
+            ex<lb break="no" ed="#L" n="39"/>trinsecum magis amatum. Nec valet argumentum, Non
+            <lb ed="#L" n="40"/>vult pati propter bonum extrinsecum magis amatum, Ergo
+            <lb ed="#L" n="41"/>non vult pati propter bonum magis amatum: quia 
+            pro<lb break="no" ed="#L" n="42"/>cedit a negatione inferioris ad negationem superioris; ut
+            <lb ed="#L" n="43"/>si diceretur, Non est album, Ergo non est coloratum. Ex
+            <lb ed="#L" n="44"/>hoc igitur quod aliquis inevitabilia suffert quia bonum est
+            <lb ed="#L" n="45"/>aequanimiter adversa sufferre, sequitur quod propter bonum
+            <lb ed="#L" n="46"/>is amatum. velit pati, scilicet propter bonum 
+            aequani<lb break="no" ed="#L" n="47"/>mitatis, - Nec omisit Auctor patientiam hanc: sed posuit
+            <lb ed="#L" n="48"/>ipsam habere ulteriorem finem, scilicet caelestem patriam.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1534">
+            <lb ed="#L" n="49"/>Ad glossam autem a Martino datam super auctoritate
+            <lb ed="#L" n="50"/>Augustini, dicitur quod voluntaria est, et contra 
+            Augusti<lb break="no" ed="#L" n="51"/>num, Quoniam Augustinus loquitur de patientia tam. 
+            com<lb break="no" ed="#L" n="52"/>mendata in Scriptura . Constat autem quod maxime 
+            com<lb break="no" ed="#L" n="53"/>mendatur in Scriptura patientia Iob , quam ille a doctrina
+            <lb ed="#L" n="54"/>Augustini excludit. Nec innuit Augustinus illum sensum
+            <lb ed="#L" n="55"/>per ly sponte suscipere quod cruciat: quoniam Augustinus,
+            <lb ed="#L" n="56"/>ut in littera hac patet, non dicit sic; sed dicit, Sponte 
+            susci<lb break="no" ed="#L" n="57"/>pit ferre quod cruciat. Ita. quod. Augustinus. non. ponit
+            <lb ed="#L" n="58"/>quod patiens sponte suscipit cruciatum , sed. quod sponte
+            <lb ed="#L" n="59"/>suscipit ferre cruciatum: ut sic spontanea susceptio non
+            <lb ed="#L" n="60"/>referatur ad cruciatum, sed ad sufferendum cruciatum, sive
+            <lb ed="#L" n="61"/>evitabilem sive non. Sic enim Iob sponte suscepit tolerare
+            <lb ed="#L" n="62"/>inevitabilia adversa, qui non sponte suscepit adversa.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1567">
+            <lb ed="#L" n="63"/>VI. Ad secundum dubium  dicitur quod, quidquid sit
+            <lb ed="#L" n="64"/>de veritate antecedentis, consequentia non valet, ut patet
+            <lb ed="#L" n="65"/>de actu fidei: - Aliquis enim actus fidei potest esse bonus
+            <lb ed="#L" n="66"/>moraliter et non meritorie: Ergo fides, secundum quod est
+            <lb ed="#L" n="67"/>virtus, potest haberi sine caritate. Nihil, inquam, valent
+            <lb ed="#L" n="68"/>huiusmodi consequentiae. Stat enim quod aliquis in peccato
+            <lb ed="#L" n="69"/>mortali credat Deum trinum et unum, etc., quoniam 
+            opor<lb break="no" ed="#L" n="70"/>tet, etc., moraliter: et tamen carebit fide ut est virtus. Et
+            <lb ed="#L" n="71"/>quia de patientia in littera dicitur quod, secundum quod
+            <lb ed="#L" n="72"/>est virtus, non potest haberi sine gratia et caritate; ideo
+            <lb ed="#L" n="73"/>consequentia nihil valet. - An autem patientia posset esse
+            <lb ed="#L" n="74"/>informis, sicut fides, non determino nunc, sed post  
+            in<lb break="no" ed="#L" n="75"/>quiretur. Sat est proposito quod consequentia non valet.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1598">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="76"/>Ad secundum dicitur quod antecedens est impossibile,
+            <lb ed="#L" n="77"/>loquendo de patientia ut est virtus. Et ad probationem
+            <lb ed="#L" n="78"/>de fide dicitur quod fides informis non est simpliciter 
+            vir<lb break="no" ed="#L" n="79"/>tus: ut patet ex superius  dictis ab Auctore.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1612">
+            <lb ed="#L" n="80"/>Et per hoc patet solutio tertii: scilicet quod post 
+            la<lb break="no" ed="#L" n="81"/>psum in mortale peccatum, dum quis est sine caritate,
+            <lb ed="#L" n="82"/>non potest exire in actum patientiae ut est virtus.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1621">
+            <lb ed="#L" n="83"/>Ad quartum, negatur assumptum: quoniam praeferre
+            <lb ed="#L" n="84"/>in veritate caelestem patriam omnibus non potest creatura
+            <lb ed="#L" n="85"/>rationalis sine caritate, Nec propterea sequitur: Ergo 
+            vo<lb break="no" ed="#L" n="86"/>luntas non est libera. Sed bene sequitur: Ergo est 
+            impo<lb break="no" ed="#L" n="87"/>tens ad celsitudinem tanti actus, quoniam est actus 
+            pro<lb break="no" ed="#L" n="88"/>prius caritatis, ac per hoc supernaturalis. - Posset forte et 
+            <lb ed="#L" n="89"/>aliter dici, distinguendo quod praeferre caelestem patriam
+            <lb ed="#L" n="90"/>omnibus contingit dupliciter; uno modo, quoad 
+            substan<lb break="no" ed="#L" n="91"/>tiam actus; alio modo, virtuose. Et. quod licet creatura
+            <lb ed="#L" n="92"/>rationalis posset primum ex fide informi et speciali 
+            auxi<lb break="no" ed="#L" n="93"/>lio Dei, non potest tamen secündum : sine caritate, sola.'—
+            <lb ed="#L" n="94"/>Prima responsio tamen solida est: quia ipso facto quod
+            <lb ed="#L" n="95"/>quis in veritate praefert Deum, ut Principem patriae 
+            cae<lb break="no" ed="#L" n="96"/>lestis, omnibus in sua voluntate, iam in caritate est: cum
+            <lb ed="#L" n="97"/>caritas nil aliud sit. quam. amor Dei, sic sumpti, super
+            <lb ed="#L" n="98"/>omnia. Nec ulla caritas acquisita ad hunc actum in veritate
+            <lb ed="#L" n="99"/>ducere sufficit: sed ad aliquem actum quem aestimamus
+            <lb ed="#L" n="100"/>esse istum, qui tamen in veritate ab isto deficit, vel quia est
+            <lb ed="#L" n="101"/>cum aliquo mortali occulto, vel quia est respectu Dei non
+            <lb ed="#L" n="102"/>propter seipsum Deum. ut finem supernaturalem.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1667">
+            <lb ed="#L" n="103"/>Ad quintum dicitur quod solutio Auctoris est bona. Et
+            <lb ed="#L" n="104"/>ad improbationem dicitur quod destruit seipsam. Quoniam
+            <lb ed="#L" n="105"/>ex una parte dicit quod commensuratio boni amati ad 
+            na<lb break="no" ed="#L" n="106"/>turam est impertinens: et ex alia parte dicit quod amor 
+            hu<lb break="no" ed="#L" n="107"/>ius boni est propria ratio tolerantiae. Constat namque quod
+            <lb ed="#L" n="108"/>commensuratio boni amabilis ad amantem non est 
+            imperti<lb break="no" ed="#L" n="109"/>nens ad amorem: immo naturaliter amamus 
+            commensu<lb break="no" ed="#L" n="110"/>rata, et incommensurata naturae aut fugimus aut non 
+            ama<lb break="no" ed="#L" n="111"/>mus. Ex hoc autem quod commensuratio pertinet ad 
+            amo<lb break="no" ed="#L" n="112"/>rem, optime reddita est ratio patientiae, quae ex amore 
+            na<lb break="no" ed="#L" n="113"/>scitur. — Nec est verum, ut patet ex dictis, quod ad verum
+            <lb ed="#L" n="114"/>amorem supernaturalium, etc., sufficiant cetera sine caritate.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1696">
+            <lb ed="#L" n="115"/>Ad sextum, conceditur consequentia de pati ut est actus
+            <lb ed="#L" n="116"/>patientiae virtutis. Nec haereticus aliquis sic unquam 
+            pa<lb break="no" ed="#L" n="117"/>titur pro Christo. — Quod autem iste dicit, quod in 
+            veri<lb break="no" ed="#L" n="118"/>tate licet non patiatur pro Christo, sufficit quod ipse credat
+            <lb ed="#L" n="119"/>pati pro Christo, non eget alia responsione: quoniam 
+            de<lb break="no" ed="#L" n="120"/>struit fundamenta theologiae et philosopbiae moralis, 
+            sci<lb break="no" ed="#L" n="121"/>licet: Bonum consurgit ex causa integra, malum autem
+            <lb ed="#L" n="122"/>ex particulari defectu . Cum enim hic sit apparentia, et
+            <lb ed="#L" n="123"/>deficiat veritas, iste somniat esse actum virtutis patientiae,
+            <lb ed="#L" n="124"/>ac per hoc bonum: quod est ridiculum.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1720">
+            <lb ed="#L" n="125"/>VII. Ad tertium dubium  patet responsio 'ex dictis in
+            <lb ed="#L" n="126"/>primo dubio . Nam. patientia quaelibet, si est. virtus, 
+            re<lb break="no" ed="#L" n="127"/>spicit et finem increatum ; et finem creatum, qui est fruitio
+            <lb ed="#L" n="128"/>aeternae patriae; et finem intrinsecum. Nec ullus horum
+            <lb ed="#L" n="129"/>est extra propositum virtutis patientiae.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1733">
+            <lb ed="#L" n="130"/>VIII. Ad quartum dubium , pro quanto negat 
+            maio<lb break="no" ed="#L" n="131"/>rem et ponit posse diligi super omnia Deum sine caritate,
+            <lb ed="#L" n="132"/>iam responsum est in secundo dubio .
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1743">
+            <lb ed="#L" n="133"/>Pro quanto vero negat minorem, dicitur quod, licet
+            <lb ed="#L" n="134"/>patiens pro. Christo non quolibet actu patiendi. patiatur
+            <lb ed="#L" n="135"/>privationem omnium naturalium, ipsa tamen patientiae
+            <lb ed="#L" n="136"/>virtus nata est dare hoc, ut homo praeferat Deum non
+            <lb ed="#L" n="137"/>huic vel illi, sed omnibus naturalibus bonis.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1756">
+            <lb ed="#L" n="138"/>Ad confirmationem dicitur quod, licet aliqui sint magis
+            <lb ed="#L" n="139"/>patientes quam alii, omnes tamen virtutem patientiae 
+            ha<lb break="no" ed="#L" n="140"/>bentes, ut sic, conveniunt in hoc quod Deum praeferant
+            <lb ed="#L" n="141"/>omnibus naturalibus, sicut omnes iusti in hoc quod 
+            uni<lb break="no" ed="#L" n="142"/>cuique volunt quod suum est. Illi vero qui, tolerato 
+            car<lb break="no" ed="#L" n="143"/>cere etc., deficiunt in toleranda morte, si a principio usque
+            <lb ed="#L" n="144"/>ad carcerem tantum parati erant, non passi sunt ex virtute
+            <lb ed="#L" n="145"/>patientiae, sed ex sua inclinatione et aestimatione. Si vero
+            <lb ed="#L" n="146"/>a principio dispositi erant ad omnia pro Christo sustinenda,
+            <lb ed="#L" n="147"/>sed postmodum defecerunt: passi quidem sunt ex virtute
+            <lb ed="#L" n="148"/>patientiae, sicut ex caritate; sed quia non perseveraverunt,
+            <lb ed="#L" n="149"/>ex nimio amore praesentis vitae, ideo patientiae virtutem,
+            <lb ed="#L" n="150"/>simul cum caritate, perdiderunt.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e1975-Dd1e1788"><!-- caj-p2p2-q136a4 -->
+          <head xml:id="TAcCaj-d1e1975-Hd1e1791">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e1975-d1e1793">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="91" type="fixed=104"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1800">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="92"/>IN articulo quarto eiusdem centesimaetrigesimaesextae 
+            quae<lb break="no" ed="#L" n="93"/>stionis dubium ex Martino  occurrit, in qu. zr , contra
+            <lb ed="#L" n="94"/>conclusionem principalem, scilicet quod patientia sit virtus 
+            <lb ed="#L" n="95"/>adiuncta fortitudini . Qualis est ordo habituum, talis est 
+            <lb ed="#L" n="96"/>ordo actuum. Übi ergo actus nullum habent ordinem inter 
+            <lb ed="#L" n="97"/>se, nec habitus. Sed actus patientiae spontaneae tantum
+            <lb ed="#L" n="98"/>quoad aequanimitatem  non habet ordinem ad 
+            quemcum<lb break="no" ed="#L" n="99"/>que actum fortitudinis. Ergo. - Et eodem modo arguit
+            <lb ed="#L" n="100"/>de actu patientiae circà quaecumque mala, secluso periculo
+            <lb ed="#L" n="101"/>mortis.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1826">
+            <lb ed="#L" n="102"/>Secundo arguitur ex dictis ipsius Thomae, Quia 
+            se<lb break="no" ed="#L" n="103"/>cundum ipsum, in responsione ad primum huius articuli,
+            <lb ed="#L" n="104"/>fortitudo est circa pericula mortis tantum, patientia vero
+            <lb ed="#L" n="105"/>circa quaecumque mala. Ergo fortitudo est adiuncta 
+            pa<lb break="no" ed="#L" n="106"/>tientiae, et non e contra.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1839">
+            <lb ed="#L" n="107"/>Tertio arguitur ad idem ex dictis Thomae in respon-
+            <pb ed="#L" n="105"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>sione ad secundum istius articuli, sic . Fortitudo est 
+            prin<lb break="no" ed="#L" n="2"/>cipaliter circa timorem futurorum: patientia principaliter
+            <lb ed="#L" n="3"/>est circa praesentium tristitias. Ergo fortitudo est adiuncta
+            <lb ed="#L" n="4"/>patientiae. — Et tenet sequela: quia plus est sustinere 
+            prae<lb break="no" ed="#L" n="5"/>sentia quam futura eadem mala timere.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1860">
+            <lb ed="#L" n="6"/>Praeterea , sustinere praesentia mala est principalior et
+            <lb ed="#L" n="7"/>difficilior. actus quam non fugere propter futura, et iste
+            <lb ed="#L" n="8"/>ordinatur in illum: nam non multum prodesset non 
+            fu<lb break="no" ed="#L" n="9"/>gere futura, nisi subsequeretur laudabilis tolerantia 
+            prae<lb break="no" ed="#L" n="10"/>sentium. Ergo magis patientiae fortitudo quam e contra 
+            <lb ed="#L" n="11"/>subordinatur, secundum haec in hac solutione dicta.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1876">
+            <lb ed="#L" n="12"/>II. Si dicatur quod patientia quantum ad tolerantiam
+            <lb ed="#L" n="13"/>malorum mortis, non est virtus adiuncta fortitudini, sed
+            <lb ed="#L" n="14"/>inquantum tolerat alia: ut ipse Thomas in responsione ad 
+            <lb ed="#L" n="15"/>tertium huius articuli innuit: - Contra: ex hac, inquit, in 
+            <lb ed="#L" n="16"/>primis responsione confirmatur unüm assumptum , 
+            sci<lb break="no" ed="#L" n="17"/>licet quod patientia est tam circa pericula mortis quam 
+            <lb ed="#L" n="18"/>etiam circa alia mala 
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1894">
+            <lb ed="#L" n="19"/>Deinde ista solutio continet duo quae videntur falsa.
+            <lb ed="#L" n="20"/>Primum est quod patientia ut est circa pericula mortis,
+            <lb ed="#L" n="21"/>est pars integralis fortitudinis. - Secundum  est quod 
+            pa<lb break="no" ed="#L" n="22"/>tientia ut est circa alia mala a malo mortis, est virtus 
+            adiun<lb break="no" ed="#L" n="23"/>cta virtuti-fortitudinis ut secundaria principali.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1907">
+            <lb ed="#L" n="24"/>Contra primum arguitur. Patientia quae est circa 
+            mor<lb break="no" ed="#L" n="25"/>tis pericula est, secundum doctrinam eius, fortitudo. Ergo
+            <lb ed="#L" n="26"/>non est pars integralis fortitudinis. - Antecedens probatur.
+            <lb ed="#L" n="27"/>Patiens martyrium usque ad mortem pro Christo, 
+            secun<lb break="no" ed="#L" n="28"/>dum istum Doctorem, est patiens et fortis actu quo 
+            tole<lb break="no" ed="#L" n="29"/>rat malum mortis. Aut ergo est patiens et fortis eodem
+            <lb ed="#L" n="30"/>actu: et tunc habetur intentum, quia si actus non est 
+            dis<lb break="no" ed="#L" n="31"/>tinctus, nec habitus. Aut uno actu est fortis, et alio 
+            pa<lb break="no" ed="#L" n="32"/>tiens. Et tunc quaeritur, qui sint illi. Non enim sunt ibi
+            <lb ed="#L" n="33"/>duae tolerantiae mortis, neque duo alii actus. Neque potest 
+            <lb ed="#L" n="34"/>dicere quod non-fugere est actus fortitudinis, et 
+            laudabi<lb break="no" ed="#L" n="35"/>liter se habere in tolerando est actus patientiae : quia 
+            se<lb break="no" ed="#L" n="36"/>queretur quod aggredi et perdurare laudabiliter in periculis
+            <lb ed="#L" n="37"/>mortis non esset actus fortitudinis ; quod est contra 
+            eun<lb break="no" ed="#L" n="38"/>dem Doctorem dicentem, in responsione ad secundum:
+            <lb ed="#L" n="39"/>Actus fortitudinis non solum consistit in hoc quod aliquis
+            <lb ed="#L" n="40"/>in bono persistit contra timores futurorum periculorum,
+            <lb ed="#L" n="41"/>sed etiam ut non deficiat propter praesentium tristitias.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1949">
+            <lb ed="#L" n="42"/>Praeterea, laudabiliter se habere in malis praesentibus
+            <lb ed="#L" n="43"/>est actus patientiae, non deficere autem propter 
+            praesen<lb break="no" ed="#L" n="44"/>tium tristitiam est actus fortitudinis, secundum istam 
+            re<lb break="no" ed="#L" n="45"/>sponsionem. Et iste secundus coincidit cum primo. Ergo
+            <lb ed="#L" n="46"/>patientia est fortitudo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1962">
+            <lb ed="#L" n="47"/>III. Contra secundum autem falsum  militant, inquit,
+            <lb ed="#L" n="48"/>rationes quatuor, primo allatae, quod patientia non est 
+            ad<lb break="no" ed="#L" n="49"/>iuncta magnanimitati. Quas omitto: quia ut nullius ad
+            <lb ed="#L" n="50"/>propositum valoris videntur.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1974">
+            <lb ed="#L" n="51"/>Praeterea , inquit, ego non video quomodo haec 
+            patien<lb break="no" ed="#L" n="52"/>tia sit distincta a magnanimitate. Nam secundum Tullium,
+            <lb ed="#L" n="53"/>in I de Offic. , magnus animus, sicut fortis, cernitur in
+            <lb ed="#L" n="54"/>gerendo res magnas plenasque laborum et periculorum.
+            <lb ed="#L" n="55"/>Tunc sic. Eadem sunt pericula circa quae versatur 
+            ma<lb break="no" ed="#L" n="56"/>gnanimitas, et patientia ista. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e1990">
+            <lb ed="#L" n="57"/>Neque potest dici quod magnanimitas firmat animum in
+            <lb ed="#L" n="58"/>maximis bonis sperandis, patientia vero in malis tolerandis.
+            <lb ed="#L" n="59"/>Quia cum bona de se alliciant ad se, non est opus virtute
+            <lb ed="#L" n="60"/>firmante ad se nisi propter mala et pericula quae 
+            contin<lb break="no" ed="#L" n="61"/>gunt in prosecutione eorum. Eiusdem igitur virtutis est
+            <lb ed="#L" n="62"/>firmare animum in bonis adipiscendis ; et firmare ipsum
+            <lb ed="#L" n="63"/>contra mala et pericula occurrentia in eorum adeptione.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2008">
+            <lb ed="#L" n="64"/>IV. Ad hoc dubium  respondendo dicitur, negando 
+            pri<lb break="no" ed="#L" n="65"/>mi argumenti minorem. Quia inter actum fortitudinis et 
+            <lb ed="#L" n="66"/>patientiae est ordo ex parte materiae, Nam materia 
+            forti<lb break="no" ed="#L" n="67"/>tudinis sunt maxima mala, scilicet mortis: materia vero
+            <lb ed="#L" n="68"/>patientiae sunt minora mala. Constat autem inter maiora
+            <lb ed="#L" n="69"/>et minora mala poenae (de quibus est sermo) esse 
+            ordi<lb break="no" ed="#L" n="70"/>nem aliquem. Patientia igitur adiungitur fortitudini quasi
+            <lb ed="#L" n="71"/>circa secundariam in malis materiam existens.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2028">
+            <lb ed="#L" n="72"/>V. Ad secundum, ex dictis Auctoris , dicitur quod hic
+            <lb ed="#L" n="73"/>aequivocatio accidit de patientia. Nam patientia ut est circa
+            <lb ed="#L" n="74"/>omnia adversa, non est unum quid, sed est vox significans
+            <lb ed="#L" n="75"/>virtutem patientiae ad mala alia a mortis periculis, et ad
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="76"/>patientiam modum virtutis, seu partem integralem 
+            fortitu<lb break="no" ed="#L" n="77"/>dinis, quae est circa mala spectantia ad mortis pericula.
+            <lb ed="#L" n="78"/>Unde aut Auctor in responsione ad primum usus est 
+            no<lb break="no" ed="#L" n="79"/>mine patientiae ut communiter significat utramque 
+            patien<lb break="no" ed="#L" n="80"/>tiam, quia in responsione ad tertium erat ibidem hoc 
+            ex<lb break="no" ed="#L" n="81"/>planaturus, ut explanavit. Aut per ly quaecumque mala
+            <lb ed="#L" n="82"/>subintellexit, a/ia a dictis, scilicet periculis mortis, et sic
+            <lb ed="#L" n="83"/>accepit patientiam proprie pro virtute patientiae: utin 
+            re<lb break="no" ed="#L" n="84"/>sponsione ad tertium explanavit. Et sic nil contra 
+            Aucto<lb break="no" ed="#L" n="85"/>rem, quovis modo dicatur, sequitur.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2063">
+            <lb ed="#L" n="86"/>VI. Ad tertium, ex dictis Auctoris in responsione ad
+            <lb ed="#L" n="87"/>secundum , dicitur quod si interpretanda sunt dicta verba
+            <lb ed="#L" n="88"/>de patientia virtute, patet quod nulla est difficultas in com:-
+            <lb ed="#L" n="89"/>paratione: quia talis patientia non est circa praesentia mala,
+            <lb ed="#L" n="90"/>scilicet pericula mortis, Plus enim est sistere contra timores
+            <lb ed="#L" n="91"/>maximorum malorum quam sustinere minora mala. — Si
+            <lb ed="#L" n="92"/>vero exponatur de patientia parte integrali fortitudinis, tunc
+            <lb ed="#L" n="93"/>dicendum est quod fortitudo habet pro actu suo 
+            princi<lb break="no" ed="#L" n="94"/>pali immobiliter sistere et contra timores et contra tristitias
+            <lb ed="#L" n="95"/>quae in periculis mortis intervenerunt, ita quod actus eius
+            <lb ed="#L" n="96"/>est et superatis timoribus et tristitiis talium malorum,
+            <lb ed="#L" n="97"/>immobiliter persistere: quod est plus quam superare 
+            timo<lb break="no" ed="#L" n="98"/>res, et plus quam superare tristitias. Et hoc intendit 
+            Au<lb break="no" ed="#L" n="99"/>ctor dicens quod ad fortitudinem spectat non deficere 
+            pro<lb break="no" ed="#L" n="100"/>pter tristitias, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2098">
+            <lb ed="#L" n="101"/>Cum hoc tamen stat, comparando istas passiones, 
+            sci<lb break="no" ed="#L" n="102"/>licet timorem et tristitiam respectu periculorum mortis,
+            <lb ed="#L" n="103"/>quod timor sit principalius materia fortitudinis quam 
+            tri<lb break="no" ed="#L" n="104"/>stitia; quia timor est respectu huiusmodi periculorum ut
+            <lb ed="#L" n="105"/>habent rationem ardui, tristitia autem non; quoniam haec
+            <lb ed="#L" n="106"/>est concupiscibilis passio, ille est passio irascibilis. Unde
+            <lb ed="#L" n="107"/>fortitudo per seipsam firmat contra timorem: et per 
+            ma<lb break="no" ed="#L" n="108"/>num suam, hoc est, patientiam partem integralem, firmat
+            <lb ed="#L" n="109"/>contra tristitias.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2121">
+            <lb ed="#L" n="110"/>Et cum dicitur, Plus est superare praesentia quam 
+            fu<lb break="no" ed="#L" n="111"/>tura timere, respondetur quod verum est sub eadem 
+            ra<lb break="no" ed="#L" n="112"/>tione: sed non est sic, comparando tristitiam praesentium
+            <lb ed="#L" n="113"/>praecise, et timorem periculorum mortis praecise. Quia
+            <lb ed="#L" n="114"/>timor respicit illa sub ratione ardui, tristitia autem respicit
+            <lb ed="#L" n="115"/>illa absolute: et sic non sunt cetera paria. — Rursus, dato
+            <lb ed="#L" n="116"/>quod difficilius esset superare tristitias istas quam timores
+            <lb ed="#L" n="117"/>istos, non tamen sequitur quod patientia principalior sit
+            <lb ed="#L" n="118"/>fortitudine. Quia fortitudo habet pro principali actu 
+            per<lb break="no" ed="#L" n="119"/>sistere cum superatione utriusque: diversimode tamen, quia
+            <lb ed="#L" n="120"/>cum superatione timoris immediate, cum superatione vero
+            <lb ed="#L" n="121"/>tristitiae mediate, non media alia virtute, sed media sua
+            <lb ed="#L" n="122"/>parte. 
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2152">
+            <lb ed="#L" n="123"/>VII. Et per haec patet responsio ad aliud, scilicet: 
+            Susti<lb break="no" ed="#L" n="124"/>nere mala praesentia est principalius quam non fugere
+            <lb ed="#L" n="125"/>propter timores . Utraque siquidem responsio data habet ^
+            <lb ed="#L" n="126"/>hiclocum: et quod non fugere excellit propter arduitatem
+            <lb ed="#L" n="127"/>quae est in obiecto; et quod fortitudinis actus non est
+            <lb ed="#L" n="128"/>tantummodo propter timores non fugere, sed non fugere
+            <lb ed="#L" n="129"/>propter timores et tristitias et quaecumque sint annexa
+            <lb ed="#L" n="130"/>damna. — Nec est verum quod non fugere ordinetur ad
+            <lb ed="#L" n="131"/>tolerandum praesentia mala: sed utrumque ordinatur ad
+            <lb ed="#L" n="132"/>principalem fortitudinis actum, qui est immobiliter 
+            persi<lb break="no" ed="#L" n="133"/>stere non obstantibus timoribus et tristitiis.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2178">
+            <lb ed="#L" n="134"/>VIII. Quod autem iste addit , quod si distinguatur de
+            <lb ed="#L" n="135"/>patientia ut dictum est ex Auctore in responsione ad tertium,
+            <lb ed="#L" n="136"/>habetur unum intentum, scilicet quod patientia extendit
+            <lb ed="#L" n="137"/>se ad omnia adversa: - falsum est, nisi sumatur patientia
+            <lb ed="#L" n="138"/>pro voce; quoniam nec patientia virtus extendit se ad
+            <lb ed="#L" n="139"/>omnia, nec patientia pars virtutis extendit se ad omnia.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2194">
+            <lb ed="#L" n="140"/>Ad ea vero quae obiiciuntur contra solutionem  
+            Au<lb break="no" ed="#L" n="141"/>ctoris, respondendo dicitur quod utrumque dictum 
+            Au<lb break="no" ed="#L" n="142"/>ctoris est verum. Et cum contra primum, de patientia
+            <lb ed="#L" n="143"/>parte, arguitur, negatur antecedens, scilicet quod patientia
+            <lb ed="#L" n="144"/>sit fortitudo. Et ad probationem, quod sustinens pro 
+            Chri<lb break="no" ed="#L" n="145"/>sto martyrium, proprie loquendo, non deberet dici fortis
+            <lb ed="#L" n="146"/>et patiens, sed, integre fortis: sicut non debet dici quod
+            <lb ed="#L" n="147"/>est homo et habet manus, sed, homo integer; aut quod
+            <lb ed="#L" n="148"/>est prudens et bonae rationis. Si tamen sic dicatur, nullus
+            <lb ed="#L" n="149"/>est error. Conceditur ergo quod est fortis et patiens. -
+            <lb ed="#L" n="150"/>Et cum dicitur, Aut eodem aut diversis: dicitur quod
+            <pb ed="#L" n="106"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>eodem et diversis: diversis quidem, quia patiens est in
+            <lb ed="#L" n="2"/>aequanimiter tolerando praesens malum, fortis vero in 
+            im<lb break="no" ed="#L" n="3"/>mobiliter persistendo non obstante et timore et tristitia;
+            <lb ed="#L" n="4"/>eodem vero, quia ad istum principalem actum subservit
+            <lb ed="#L" n="5"/>actus patientiae. Propter quod, martyres laudantur de pa- .
+            <lb ed="#L" n="6"/>tientia tanquam. serviente fortitudini. Et sic actus 
+            fortitu<lb break="no" ed="#L" n="7"/>dinis est quodammodo patientiae adiuvantis ad illum: sicut
+            <lb ed="#L" n="8"/>e contra fortitudo imperat patientiae.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2242">
+            <lb ed="#L" n="9"/>Ad ultimum contra hoc membrum, dicitur quod 
+            lau<lb break="no" ed="#L" n="10"/>dabiliter tolerare praesentem tristitiam est actus patientiae,
+            <lb ed="#L" n="11"/>et non deficere propter tristitias in prosequendo mortis
+            <lb ed="#L" n="12"/>pericula est actus fortitudinis: et non sunt idem actus, sed
+            <lb ed="#L" n="13"/>primus est in concupiscibili; secundus, qui per 
+            negatio<lb break="no" ed="#L" n="14"/>nem circumlocutus est, scilicet immobiliter persistere in
+            <lb ed="#L" n="15"/>mortis periculo non obstante tristitia, est in irascibili, seu
+            <lb ed="#L" n="16"/>voluntate.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2262">
+            <lb ed="#L" n="17"/>IX. Ad obiecta contra aliud dictum, scilicet de patientia
+            <lb ed="#L" n="18"/>virtute adiuncta fortitudini ut secundaria principali , 
+            di<lb break="no" ed="#L" n="19"/>citur quod patientiae distinctio a magnanimitate clara est:
+            <lb ed="#L" n="20"/>quia magnanimus tendit ad magnum in qualibet virtute,
+            <lb ed="#L" n="21"/>patientia. non; magnanimitas est circa spem magnorum
+            <lb ed="#L" n="22"/>bonorum ut materiam, patientia circa tristitiam.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2279">
+            <lb ed="#L" n="23"/>Et cum dicitur: Eadem sunt adversa, seu pericula,
+            <lb ed="#L" n="24"/>circa quae est magnanimitas et patientia: ergo: - 
+            respon<lb break="no" ed="#L" n="25"/>detur primo, quod non sunt eadem adaequate,. — Secundo,
+            <lb ed="#L" n="26"/>quod non sub eadem ratione respiciuntur ab utraque 
+            vir<lb break="no" ed="#L" n="27"/>tute: quia a magnanimitate sub ratione magni; a 
+            patien<lb break="no" ed="#L" n="28"/>tia vero absolute; et in ordine ad caelestem patriam.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2295">
+            <lb ed="#L" n="29"/>Falsum quoque est quod dicitur, scilicet quod quia
+            <lb ed="#L" n="30"/>bona de se alliciunt ad se, non est opus virtute nisi 
+            pro<lb break="no" ed="#L" n="31"/>pter pericula et labores. Quoniam ad bona opus est 
+            vir<lb break="no" ed="#L" n="32"/>tute, vel quia non sufficienter natura inclinamur ad illa,
+            <lb ed="#L" n="33"/>ut patet de iusto: vel quia passiones ad illa egent 
+            mode<lb break="no" ed="#L" n="34"/>ramine, ut est in proposito de spe magnorum.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2311">
+            <lb ed="#L" n="35"/>Quod demum dicitur, quod eadem est virtus boni et
+            <lb ed="#L" n="36"/>mali oppositi, gratis conceditur. Sed hoc non obstante,
+            <lb ed="#L" n="37"/>superius  ostensum est rationabiliter poni patientiam 
+            vir<lb break="no" ed="#L" n="38"/>tutem gratuitam respectu malorum in ordine ad patriam
+            <lb ed="#L" n="39"/>caelestem.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2324">
+            <lb ed="#L" n="40"/>X. Circa relictum. dubium, an patientia distinguatur in
+            <lb ed="#L" n="41"/>formatam et informem , dicendum est quod, cum virtus,
+            <lb ed="#L" n="42"/>immo et habitus quilibet, corrumpatur ex hoc ipso quod
+            <lb ed="#L" n="43"/>ratio formalis sui obiecti seu materiae cessat, et tandiu sit
+            <lb ed="#L" n="44"/>quandiu ratio formalis salvatur in eo; ut patet de 
+            scien<lb break="no" ed="#L" n="45"/>tia, quae, perdito medio, deperditur, et quandiu medium
+            <lb ed="#L" n="46"/>applicatum habetur, scientia est; — et similiter, in habitibus
+            <lb ed="#L" n="47"/>infusis, fides tandiu in aliquo est quandiu quis credit
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="48"/>omnia revelata a Deo Ecclesiae Christianae, ita quod 
+            sta<lb break="no" ed="#L" n="49"/>tim quod quis aliquid pertinaciter crederet 
+            quantumcum<lb break="no" ed="#L" n="50"/>que oppositum determinaverit Ecclesia, habitum  infusae
+            <lb ed="#L" n="51"/>fidei statim perdit: — quocirca, ad videndum an aliqua virtus
+            <lb ed="#L" n="52"/>possit esse informis, spectandum est an sua formalis ratio,
+            <lb ed="#L" n="53"/>qua attingit obiectum suum, salvetur sine caritate. Si enim
+            <lb ed="#L" n="54"/>potest sine caritate salvari, potest esse informis; si non
+            <lb ed="#L" n="55"/>potest salvari sine caritate huiusmodi ratio, non potest esse
+            <lb ed="#L" n="56"/>informis: propter hoc enim fides potest esse informis, 
+            pru<lb break="no" ed="#L" n="57"/>dentia autem non, ut patet ex superius  dictis. Quantum
+            <lb ed="#L" n="58"/>autem ab Auctore cóncipio, qui posuit patientiam, ut est
+            <lb ed="#L" n="59"/>specialis virtus, esse virtutem gratuitam, non politicam ;
+            <lb ed="#L" n="60"/>ratio formalis patientiae consistit in aequanimi tolerantia
+            <lb ed="#L" n="61"/>adversorum propter supernaturalia bona. Hoc autem non
+            <lb ed="#L" n="62"/>potest esse informe: cum sine caritate esse nequeat, ut in
+            <lb ed="#L" n="63"/>littera  probatur. Unde virtus patientiae sic est caritatis 
+            co<lb break="no" ed="#L" n="64"/>mes quod aut non est, aut est cum caritate. Et propter
+            <lb ed="#L" n="65"/>hoc Apostolus posuit primogenitam caritatis patientiam .
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2385">
+            <lb ed="#L" n="66"/>XI. Sed occurrit hoc in loco dubium maius contra 
+            Do<lb break="no" ed="#L" n="67"/>ctorem. Quia ex hoc ipso quod ad patientiam secundum
+            <lb ed="#L" n="68"/>quod est virtus, spectat omnia tolerare propter bonum 
+            su<lb break="no" ed="#L" n="69"/>pernaturale, sequitur quod ad ipsam spectet etiam 
+            susti<lb break="no" ed="#L" n="70"/>nere amissionem vitae, quae est summum bonum naturale.
+            <lb ed="#L" n="71"/>Et si hoc conceditur, ergo non est virtus adiuncta 
+            forti<lb break="no" ed="#L" n="72"/>tudini, sed excedens potius ipsam.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2403">
+            <lb ed="#L" n="73"/>Ad hoc dicitur quod Auctor loquitur in hoc articulo 
+            <lb ed="#L" n="74"/>de patientia communiter, hoc est ut comprehendit 
+            patien<lb break="no" ed="#L" n="75"/>tiam specialem virtutem et patientiam partem fortitudinis
+            <lb ed="#L" n="76"/>infusae: sic enim accepta patientia ad omnia adversa se 
+            ex<lb break="no" ed="#L" n="77"/>tendit pro futurae patriae bono toleranda. Nec obstat quod
+            <lb ed="#L" n="78"/>dicat, Patientia secundum quod est virtus: quia per hoc
+            <lb ed="#L" n="79"/>non solum intelligit quod sit simpliciter virtus, sed quod
+            <lb ed="#L" n="80"/>attingat ad perfectionem virtutis simpliciter (paria siquidem
+            <lb ed="#L" n="81"/>haec sunt quoad propositum); et hoc secundum invenitur
+            <lb ed="#L" n="82"/>in patientia parte integrali fortitudinis infusae.
+          </p>
+          <p xml:id="TAcCaj-d1e1975-d1e2428">
+            <lb ed="#L" n="83"/>Et adiungitur universaliter patientia fortitudini, vel quasi
+            <lb ed="#L" n="84"/>pars integralis, vel ut pars potentialis: quia aequanimis
+            <lb ed="#L" n="85"/>tristitia secundario concurrit ad immobiliter persistendum
+            <lb ed="#L" n="86"/>in arduis, ad quae directe tendit fortitudo; quoniam 
+            tristi<lb break="no" ed="#L" n="87"/>tia est circa mala non ut ardua, sed absolute, cum sit passio
+            <lb ed="#L" n="88"/>concupiscibilis, et ad serviendum fortitudini assumatur. Et
+            <lb ed="#L" n="89"/>propterea, dato quod excederet fortitudinem quoad 
+            nume<lb break="no" ed="#L" n="90"/>rum malorum, exceditur tamen a fortitudine quoad 
+            excel<lb break="no" ed="#L" n="91"/>lentiam et difficultatem obiecti, quoniam est circa maxima
+            <lb ed="#L" n="92"/>mala sub ratione ardui, patientia autem, ut saepe dictum
+            <lb ed="#L" n="93"/>est , versatur circa mala absolute, non ut ardua, quia est
+            <lb ed="#L" n="94"/>in concupiscibili.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

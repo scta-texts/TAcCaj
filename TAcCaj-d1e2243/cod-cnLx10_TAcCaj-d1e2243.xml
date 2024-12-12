@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 188</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 188</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="522"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2243"><!-- TAcCajp2p2-q188 -->
+        <head xml:id="TAcCaj-d1e2243-Hd1e101">Quaestio 188</head>
+        <div xml:id="TAcCaj-d1e2243-Dd1e103"><!-- caj-p2p2-q188a1 -->
+          <head xml:id="TAcCaj-d1e2243-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2243-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="29" type="fixed=522"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="30"/>IN articulo primo quaestionis 
+            centesimaeoctogesimaeocta<lb break="no" ed="#L" n="31"/>vae, aspice, in corpore articuli, quod perfectio caritatis, 
+            <lb ed="#L" n="32"/>quae est religionis finis, quamvis principaliter consistat in  
+            <lb ed="#L" n="33"/>actu interiori caritatis, quia tamen per exteriores actus 
+            ca<lb break="no" ed="#L" n="34"/>ritatis diffunditur, finis religionis diversificatur non solum  
+            <lb ed="#L" n="35"/>penes distinctionem dilectionis Dei vel proximi, sed etiam  
+            <lb ed="#L" n="36"/>penes diversitatem actuum exteriorum quibus diligitur 
+            pro<lb break="no" ed="#L" n="37"/>ximus, ut sunt diversa opera misericordiae. Et propterea 
+            <lb ed="#L" n="38"/>in littera diversitas religionum ex parte diversitatis finis,  
+            <lb ed="#L" n="39"/>declaratur ex diversitate operum misericordiae, dum dicitur:  
+            <lb ed="#L" n="40"/>Si una ad hospitalitatem, alia ad redimendos captivos, etc.,  
+            <lb ed="#L" n="41"/>ordinetur. 
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e146">
+            <lb ed="#L" n="42"/>II. In eodem articulo, in responsione ad quartum, 
+            du<lb break="no" ed="#L" n="43"/>bium occurrit: An sine licentia Apostolicae Sedis 
+            instituen<lb break="no" ed="#L" n="44"/>tes ut aliquae personae collegialiter viventes in communi — 
+            <lb ed="#L" n="45"/>iuxta regulas personarum tertii. habitus , profiteantur tria 
+            <lb ed="#L" n="46"/>vota, scilicet castitatis, paupertatis et obedientiae, sint 
+            in<lb break="no" ed="#L" n="47"/>stitutores novae religionis ; et consequenter peccent, ac 
+            pu<lb break="no" ed="#L" n="48"/>niendi sint, ut institutores novae religionis absque licentia 
+            <lb ed="#L" n="49"/>Apostolica. Et est ratio dubii quia collegium sic 
+            profiten<lb break="no" ed="#L" n="50"/>tium est collegium religiosarum personarum, Ac per hoc, 
+            <lb ed="#L" n="51"/>est ibi aliqua una religio: omnis enim persona religiosa est 
+            <lb ed="#L" n="52"/>aliqua religione religiosa. Sed non est ibi aliqua antiqua  
+            <lb ed="#L" n="53"/>religio, ut patet. Ergo est ibi nova religio. Ac per hoc,  
+            <lb ed="#L" n="54"/>eius institutio est institutio novae religionis. 
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e177">
+            <lb ed="#L" n="55"/>In oppositum est, quia instituentes et servantes haec 
+            <lb ed="#L" n="56"/>sine ulla Apostolica licentia, arbitrantur se magnum 
+            ob<lb break="no" ed="#L" n="57"/>sequium praestare Deo : et viri religiosi, non ignorantes, 
+            <lb ed="#L" n="58"/>omnique veneratione digni apparent. 
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e189">
+            <lb ed="#L" n="59"/>III. Ad hoc dicitur quod, quia poenae non sunt 
+            extenden<lb break="no" ed="#L" n="60"/>dae, ideo in huiusmodi inhibitionibus proprietas videtur  
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="61"/>servanda nominum. Et ideo, cum appellatione religionis
+            <lb ed="#L" n="62"/>proprie intelligatur status personarum tria vota solemnia »
+            <lb ed="#L" n="63"/>emittentium; et in proposito vota quae ab huiusmodi 
+            mu<lb break="no" ed="#L" n="64"/>lieribus sic emittuntur, sint tantum vota simplicia, et non
+            <lb ed="#L" n="65"/>solemnia, ut declaratum est per <ref xml:id="TAcCaj-d1e2243-Rd1e208">Bonifacium VIII, in Sexto,
+              <lb ed="#L" n="66"/>de Voto et Voti Redempt.</ref> : consequens est ut instituentes 
+            <lb ed="#L" n="67"/>talia vota emitti ab istis, non sint institutores novae reli- -
+            <lb ed="#L" n="68"/>gionis; nec istae personae emittentes talia vota fiunt 
+            pro<lb break="no" ed="#L" n="69"/>pterea ex non-religiosis religiosae. — Secus autem est si
+            <lb ed="#L" n="70"/>emitterent tria religionis vota de speciali indulgentia Sedis
+            <lb ed="#L" n="71"/>Apostolicae: ut in multis collegiis tertianarum fit. Nam
+            <lb ed="#L" n="72"/>talium vota essent solemnia, ita quod dirimerent 
+            matrimo<lb break="no" ed="#L" n="73"/>nium post contractum: ut Sixtus IV declaravit.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e229">
+            <lb ed="#L" n="74"/>Et per hoc patet solutio ad obiecta. Et si instetur quod,
+            <lb ed="#L" n="75"/>licet non fiat per hoc nova religio, fit tamen per hoc novus.
+            <lb ed="#L" n="76"/>ordo; ac per hoc, licet non agatur contra <ref xml:id="TAcCaj-d1e2243-Rd1e237">statutum 
+              Inno<lb break="no" ed="#L" n="77"/>centi</ref>, <ref xml:id="TAcCaj-d1e2243-Rd1e242">Extra, de Relig. Dom., Ne nimia</ref>, agitur tamen
+            <lb ed="#L" n="78"/>contra <ref xml:id="TAcCaj-d1e2243-Rd1e247">statutum Gregorii</ref>, <ref xml:id="TAcCaj-d1e2243-Rd1e249">cap. Religionum, in Sexto,
+              ea<lb break="no" ed="#L" n="79"/>dem tit.</ref>, ubi inhibetur non solum nova religio, sed etiam bes
+            <lb ed="#L" n="80"/>novus ordo: - respondetur quod non proprie hic fit novus.
+            <lb ed="#L" n="81"/>ordo, sed praeexistenti et approbato ordini tertianarum 
+            <lb ed="#L" n="82"/>superadditur simplex votum castitatis, paupertatis et obe-.
+            <lb ed="#L" n="83"/>dientiae. Videtur enim potius per haec vota perfici ipse
+            <lb ed="#L" n="84"/>tertianarum conviventium ordo, quam novus ordo
+            <lb ed="#L" n="85"/>stitui.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e268">
+            <lb ed="#L" n="86"/>Videtur tamen mihi quod non sit laudabile haec tria
+            <lb ed="#L" n="87"/>vota simplicia apponere: sed votum apponere castitatis
+            <lb ed="#L" n="88"/>sanctum est. Quoniam ex his tribus votis simplicibus 
+            la<lb break="no" ed="#L" n="89"/>queos incurrunt. Et intentum non assequuntur, ut 
+            religio<lb break="no" ed="#L" n="90"/>sae propterea fiant. Et emergunt inde quaestiones 
+            quodam<lb break="no" ed="#L" n="91"/>modo perplexae coram iudicibus aliquibus.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2243-Dd1e285"><!-- caj-p2p2-q188a2 -->
+          <head xml:id="TAcCaj-d1e2243-Hd1e288">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2243-d1e290">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="93" type="fixed=523"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e297">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="94"/>In articulo secundo eiusdem quaestionis, in responsione
+            <lb ed="#L" n="95"/>ad primum, adverte quod operatio vitae activae dupliciter 
+            <lb ed="#L" n="96"/>se habet ad divinam contemplationem. Primo, ut effectus
+            <lb ed="#L" n="97"/>ipsius contemplationis, Et sic praedicare dicitur opus vitae
+            <lb ed="#L" n="98"/>activae ex contemplatione emanans.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e313">
+            <lb ed="#L" n="99"/>Alio modo, ut effectus ipsius Dei contemplati ut finis.
+            <lb ed="#L" n="100"/>Et sic omnia opera misericordiae, sive spiritualia sive cor-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="101"/>poralia sint, ex contemplatione derivantur. Et hoc modo
+            <lb ed="#L" n="102"/>in littera hac dicitur quod, dum religiosi intuitu Dei 
+            ope<lb break="no" ed="#L" n="103"/>ribus vitae activae insistunt, fructu. contemplationis non
+            <lb ed="#L" n="104"/>privantur. Nisi enim aciem mentis suae in Deum ut finem
+            <lb ed="#L" n="105"/>fixissent, nunquam voluntas eorum moveret eos ad opera
+            <lb ed="#L" n="106"/>vitae activae propter Deum exercenda.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2243-Dd1e336"><!-- caj-p2p2-q188a3 -->
+          <head xml:id="TAcCaj-d1e2243-Hd1e339">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2243-d1e341">
+            <pb ed="#L" n="525"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=525"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e350">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>In articulo tertio eiusdem quaestionis, dubium occurrit 
+            <lb ed="#L" n="3"/>ex eo quod contraria sibi invicem apparent quae 
+            di<lb break="no" ed="#L" n="4"/>cuntur in littera de causa militiae. Nam dicitur quod
+            <lb ed="#L" n="5"/>propter nihil mundanum militandum est a religiosis: et
+            <lb ed="#L" n="6"/>similiter, ad tertium, subiungitur quod militia saecularis
+            <lb ed="#L" n="7"/>interdicitur poenitentibus. Et tamen dicitur  quod propter
+            <lb ed="#L" n="8"/>salutis publicae vel pauperum defensionem religiosis licet
+            <lb ed="#L" n="9"/>pugnare. Constat namque quod publica salus mundanum
+            <lb ed="#L" n="10"/>bonum est; et similiter libertas oppressorum mundanum
+            <lb ed="#L" n="11"/>bonum est: cum utrumque sit bonum temporale, commune
+            <lb ed="#L" n="12"/>Christianis et paganis; apud utrosque enim est salus 
+            pu<lb break="no" ed="#L" n="13"/>blica et oppressorum defensio.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e381">
+            <lb ed="#L" n="14"/>Praeterea, appellatione saecularis militiae aut venit 
+            so<lb break="no" ed="#L" n="15"/>lum bellum iniustum: et hoc non, quia iniustum bellum
+            <lb ed="#L" n="16"/>etiam non poenitentibus interdicitur: — aut aliquod bellum
+            <lb ed="#L" n="17"/>iustum. Et cum omne bellum iustum ordinetur ad 
+            publi<lb break="no" ed="#L" n="18"/>cum bonum defendendum, sequeretur quod aliquod 
+            bel<lb break="no" ed="#L" n="19"/>lum iustum esset interdictum poenitentibus quod non esset
+            <lb ed="#L" n="20"/>interdictum religiosis institutis ad bellandum: quia 
+            reli<lb break="no" ed="#L" n="21"/>giosi tales, ut in littera dicitur, possunt pro publica salute
+            <lb ed="#L" n="22"/>bellare; poenitentes autem, solum pro divino obsequio .
+            <lb ed="#L" n="23"/>Hoc autem est inconveniens: quia religio est status 
+            poe<lb break="no" ed="#L" n="24"/>nitentiae eminentius quam quicumque alius poenitendi
+            <lb ed="#L" n="25"/>modus, ut patet ex ante  dictis.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e410">
+            <lb ed="#L" n="26"/>II. Ad hoc dicitur quod per aliquid mundanum hic 
+            in<lb break="no" ed="#L" n="27"/>telligitur dominium temporale, gloria, honor, pecunia, et
+            <lb ed="#L" n="28"/>quidquid pecunia aestimabile est. Contra huiusmodi autem 
+            <lb ed="#L" n="29"/>mundanum distinguitur divinum obsequium, quod est 
+            vir<lb break="no" ed="#L" n="30"/>tutis religionis actus: sive hoc divinum obsequium prae-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="31"/>stetur in materia etiam religionis, puta in recuperatione aut
+            <lb ed="#L" n="32"/>conservatione Terrae Sanctae propter Christi reverentiam,
+            <lb ed="#L" n="33"/>qui ibi corporaliter conversatus, etc., est; sive in materia
+            <lb ed="#L" n="34"/>alterius virtutis, puta pietatis vel misericordiae vel iustitiae,
+            <lb ed="#L" n="35"/>ut contingit in defensione publicae salutis et pauperum ac
+            <lb ed="#L" n="36"/>oppressorum. Nulla ergo est controversia inter dicta in
+            <lb ed="#L" n="37"/>littera: sed formalis diversitas ponitur inter militiam ob
+            <lb ed="#L" n="38"/>aliquid mundanum, non ut materiam, sed ut finem; et
+            <lb ed="#L" n="39"/>militiam ob divinum obsequium in operibus misericordiae,
+            <lb ed="#L" n="40"/>quorum materia est aliquid mundanum, puta salus 
+            rei<lb break="no" ed="#L" n="41"/>publicae vel pauperis relevatio. Haec enim eadem sub 
+            mi<lb break="no" ed="#L" n="42"/>litia saeculari cadunt ut sunt quaedam bona temporalia
+            <lb ed="#L" n="43"/>defendenda: et sub militia religiosa ut sunt materia 
+            pie<lb break="no" ed="#L" n="44"/>tatis et misericordiae, quam religiosus animus et actus offert
+            <lb ed="#L" n="45"/>Deo militando.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e459">
+            <lb ed="#L" n="46"/>Et per hoc patet solutio primae obiectionis.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e464">
+            <lb ed="#L" n="47"/>Ad secundam per idem respondetur: quod appellatione
+            <lb ed="#L" n="48"/>militiae saecularis venit militia ordinata ad dominii 
+            tem<lb break="no" ed="#L" n="49"/>poralis, et reipublicae, et huiusmodi mundanorum bonorum
+            <lb ed="#L" n="50"/>defensionem. Et haec, sicut interdicitur poenitentibus, ita et
+            <lb ed="#L" n="51"/>religiosis, - Militia autem ob divinum obsequium vocatur et
+            <lb ed="#L" n="52"/>est quae opera misericordiae in eisdem quoque materiis Deo
+            <lb ed="#L" n="53"/>offert. Et haec non interdicitur religiosis neque poenitentibus.
+            <lb ed="#L" n="54"/>Ita quod non licet poenitentibus et religiosis deputatis ad
+            <lb ed="#L" n="55"/>militandum, esse milites stipendiarios in quocumque bello
+            <lb ed="#L" n="56"/>iusto: sed in illo tantum quod pietatis et misericordiae aut
+            <lb ed="#L" n="57"/>religionis causa suscipitur, militare possunt, ut offerant Deo
+            <lb ed="#L" n="58"/>haec ipsa opera misericordiae, militando pro subventione
+            <lb ed="#L" n="59"/>proximorum suorum ob divinum intuitum.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2243-Dd1e496"><!-- caj-p2p2-q188a4 -->
+          <head xml:id="TAcCaj-d1e2243-Hd1e499">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2243-d1e501">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="77" type="fixed=526"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e508">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="78"/>In articulo quarto eiusdem quaestionis, in responsiorie ad
+            <lb ed="#L" n="79"/>secundum, adverte diligenter duo. Primo, quod proprius
+            <lb ed="#L" n="80"/>actus Fratrum Praedicatorum non est praedicare, sed 
+            sub<lb break="no" ed="#L" n="81"/>venire praelatis, hoc est episcopis, in praedicationis actu:
+            <lb ed="#L" n="82"/>ita quod non convenit eis praedicare nisi ministerialiter.
+            <lb ed="#L" n="83"/>Et propterea si praelati, quorum sunt ministri, eis 
+            pro<lb break="no" ed="#L" n="84"/>hibent, eos revocant, simpliciter vel ad tempus aut locum,
+            <lb ed="#L" n="85"/>a tali ministerio, tenentur cessare, absolute loquendo. 
+            Pri<lb break="no" ed="#L" n="86"/>vilegiati autem a Summo Pontifice secundum illa se 
+            pos<lb break="no" ed="#L" n="87"/>sunt regere, invitis inferioribus episcopis: non autem invito
+            <lb ed="#L" n="88"/>ipso Romano Pontifice.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e537">
+            <lb ed="#L" n="89"/>Secundo, et habetur in responsione ad tertium, quod
+            <lb ed="#L" n="90"/>non statim ut aliquis est religiosus Ordinis Praedicatorum
+            <lb ed="#L" n="91"/>aut similis, propterea est praedicator, etiam ministerialiter.
+            <lb ed="#L" n="92"/>Quia non omnibus passim commissum intelligitur hoc 
+            mi<lb break="no" ed="#L" n="93"/>nisterium: sed oportet ut ad hoc exponantur a propriis
+            <lb ed="#L" n="94"/>praelatis religionum; et ultra hoc, ab episcopis vel Romano
+            <lb ed="#L" n="95"/>Pontifice acceptentur, vel acceptati ex privilegio sint. Cesset
+            <lb ed="#L" n="96"/>ergo praesumptio.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e557">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="97"/>II. In responsione ad quintum eiusdem articuli, adverte
+            <lb ed="#L" n="98"/>duo. Primo, rationabilem expositionem, ut formam 
+            septua<lb break="no" ed="#L" n="99"/>gintaduorum discipulorum Domini gerant omnes minores
+            <lb ed="#L" n="100"/>sacerdotes, qui scilicet assumuntur in adiutorium 
+            episco<lb break="no" ed="#L" n="101"/>porum. Tales autem sunt non solum presbyteri curati, sed
+            <lb ed="#L" n="102"/>delegati ad praedicandum et confessiones audiendum. Et
+            <lb ed="#L" n="103"/>hoc consonare Evangelio patet ex officio illis. commisso,
+            <lb ed="#L" n="104"/>scilicet ut praeirent Dominum in omnem civitatem bini.
+            <lb ed="#L" n="105"/>Hoc enim magis delegatis quam curatis, qui soli ad 
+            sin<lb break="no" ed="#L" n="106"/>gulas alligantur parochias, convenit.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e584">
+            <lb ed="#L" n="107"/>Secundo, rationem quare oportuit tales religiosos in
+            <lb ed="#L" n="108"/>huiusmodi ministerium assumere: scilicet propter 
+            multitu<lb break="no" ed="#L" n="109"/>dinem fidelis populi, et difficultatem inveniendi curatos 
+            suf<lb break="no" ed="#L" n="110"/>ficientes et idoneos.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e595">
+            <lb ed="#L" n="111"/>Et sub hac secunda ratione includitur tertia: quia 
+            sci<lb break="no" ed="#L" n="112"/>licet de facto male consultum populo Christiano invenitur
+            <lb ed="#L" n="113"/>sine huiusmodi supplemento; quod Deus dedit, et 
+            Roma<lb break="no" ed="#L" n="114"/>nus Pontifex gratiose suscipiendo approbavit. Sed »om
+            <lb ed="#L" n="115"/>omnes capiunt verbum istud.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2243-Dd1e610"><!-- caj-p2p2-q188a5 -->
+          <head xml:id="TAcCaj-d1e2243-Hd1e613">Articulus 5</head>
+          <p xml:id="TAcCaj-d1e2243-d1e615">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="25" type="fixed=528"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e622">
+            <lb ed="#L" n="26"/>IN articulo quinto eiusdem quaestionis 
+            centesimaeoctoge<lb break="no" ed="#L" n="27"/>simaeoctovae in responsione ad tertium, nota 
+            diligentis<lb break="no" ed="#L" n="28"/>sime conclusionem et rationem illius: scilicet quod 
+            reli<lb break="no" ed="#L" n="29"/>giosis non convenit studium philosophiae et huiusmodi,
+            <lb ed="#L" n="30"/>quia tota eorum vita mancipata est divinis obsequiis. Unde
+            <lb ed="#L" n="31"/>sicut negotia saecularia sunt absolute prohibita religiosis
+            <lb ed="#L" n="32"/>omnibus, ita studia scientiarum saecularium, scilicet 
+            phi<lb break="no" ed="#L" n="33"/>losophiae, mathematicae et artium liberalium. Verum sicut,
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="34"/>pietatis gratia, de superiorum licentia, moderate possunt
+            <lb ed="#L" n="35"/>religiosi saecularia tractare negotia, ut dictum est superius ;
+            <lb ed="#L" n="36"/>ita, divinae scientiae gratia, licitum est religiosis, cum 
+            su<lb break="no" ed="#L" n="37"/>periorum suorum beneplacito, vacare logicae, philosophiae.
+            <lb ed="#L" n="38"/>naturali, et huiusmodi; ut scilicet possint errores confutare,
+            <lb ed="#L" n="39"/>et divinitatis mysteria intelligere. Et haec bene advertant
+            <lb ed="#L" n="40"/>religiosi qui totum vitae suae tempus in scientiis 
+            saecula<lb break="no" ed="#L" n="41"/>ribus consumunt.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2243-Dd1e662"><!-- caj-p2p2-q188a6 -->
+          <head xml:id="TAcCaj-d1e2243-Hd1e665">Articulus 6</head>
+          <p xml:id="TAcCaj-d1e2243-d1e667">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="68" type="fixed=529"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e674">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="69"/>IN articulo sexto eiusdem quaestionis, nota quod, cum
+            <lb ed="#L" n="70"/>in corpore articuli dicitur quod illa religio simpliciter
+            <lb ed="#L" n="71"/>praefertur alteri quae ordinatur ad finem absolute 
+            potio<lb break="no" ed="#L" n="72"/>rem, vel quia est maius bonum, vel quia ad plura bona
+            <lb ed="#L" n="73"/>ordinatur, ista secunda pars disiunctivae non habet pro
+            <lb ed="#L" n="74"/>subiecto propositionis finem, sed religionem. Ita quod non
+            <lb ed="#L" n="75"/>est sensus quod finis est potior vel quia est maius bonum,
+            <lb ed="#L" n="76"/>vel quia ad plura bona ordinatur: quoniam finis, ut sic,
+            <lb ed="#L" n="77"/>non habet finem; alioquin procederetur in infinitum. Sed
+            <lb ed="#L" n="78"/>est sensus quod dupliciter religio ordinatur ad finem 
+            po<lb break="no" ed="#L" n="79"/>tiorem: vel quia finis est maius bonum; vel quia ipsa 
+            re<lb break="no" ed="#L" n="80"/>ligio ordinatur ad plura bona. Sicut religio quae ordinatur
+            <lb ed="#L" n="81"/>ad orandum, melior est quam illa quae ordinatur ad 
+            pro<lb break="no" ed="#L" n="82"/>priae lectioni vacandum, quia melius contemplatio fit
+            <lb ed="#L" n="83"/>orando quam legendo: religio tamen quae ad utrumque
+            <lb ed="#L" n="84"/>bonum ordinatur, scilicet orationem et lectionem, melior
+            <lb ed="#L" n="85"/>est simpliciter utraque, quia habet finem potiorem, ex eo
+            <lb ed="#L" n="86"/>quod finis eius complectitur utrumque bonum, illarum vero
+            <lb ed="#L" n="87"/>unicum tantum. Et hac ratione constituuntur in supremo
+            <lb ed="#L" n="88"/>religionis gradu illae religiones quae non solum 
+            contem<lb break="no" ed="#L" n="89"/>plantur, sed contemplata. docent.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e724">
+            <lb ed="#L" n="90"/>II. In responsione ad secundum, perspice quod. hinc 
+            ha<lb break="no" ed="#L" n="91"/>bes solutionem vulgaris quaestionis: An, scilicet, euntes recto
+            <lb ed="#L" n="92"/>corde et opere ad bellum contra infideles, sint martyres, si
+            <lb ed="#L" n="93"/>in bello occiduntur. Habes siquidem hoc in loco ab Auctore
+            <lb ed="#L" n="94"/>partem negativam. Et ratio in littera redditur, quia 
+            marty<lb break="no" ed="#L" n="95"/>res proprie sunt qui ad proprium sanguinem fundendum,
+            <lb ed="#L" n="96"/>usque ad privationem vitae, tendunt directe, ut testes Christi
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="97"/>sint. Isti autem, tam religiosi quam saeculares, directe 
+            ten<lb break="no" ed="#L" n="98"/>dunt ad alienum sanguinem fundendum, vel fugandum.
+            <lb ed="#L" n="99"/>Unde non sunt, absolute loquendo, si occidantur, martyres.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e750">
+            <lb ed="#L" n="100"/>Verum quia alia est quaestio de martyrio, et alia de
+            <lb ed="#L" n="101"/>merito martyrii; ideo Auctor, excluso martyrio a religiosis
+            <lb ed="#L" n="102"/>militibus, de merito martyrii tractat. Et docet quod, sicut
+            <lb ed="#L" n="103"/>in casu necessitatis melius est infirmorum curae dare 
+            ope<lb break="no" ed="#L" n="104"/>ram quam contemplationi, quamvis absolute optima sit
+            <lb ed="#L" n="105"/>Mariae pars ; et maioris meriti in necessitatis articulo est
+            <lb ed="#L" n="106"/>curam infirmi habere quam contemplari vel praedicare: ita
+            <lb ed="#L" n="107"/>in articulo necessitatis, puta si Ecclesia periclitaretur, non
+            <lb ed="#L" n="108"/>solum quoad personarum oppressionem, sed quoad fidei
+            <lb ed="#L" n="109"/>libertatem, maioris meriti esset pro Ecclesiae defensione
+            <lb ed="#L" n="110"/>usque ad mortem bellando se exponere, quam 
+            contem<lb break="no" ed="#L" n="111"/>plari vel praedicare. Et tunc merito martyrii non carerent
+            <lb ed="#L" n="112"/>qui in tali bello sic occiderentur. Praeferuntur enim in
+            <lb ed="#L" n="113"/>huiusmodi casibus milites isti omnibus religiosis, utpote
+            <lb ed="#L" n="114"/>martyribus aequales in merito.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e786">
+            <lb ed="#L" n="115"/>III. In responsione ad tertium eiusdem articuli sexti, in
+            <lb ed="#L" n="116"/>exemplo de mediis ad continentiam servandam, attende
+            <lb ed="#L" n="117"/>quod non exempli tantum, sed veritatis doctrinam 
+            conti<lb break="no" ed="#L" n="118"/>net. Nam pauperes nudos vacare generationi videmus; 
+            si<lb break="no" ed="#L" n="119"/>militer laborantes continue laboribus maximis, vacare etiam
+            <lb ed="#L" n="120"/>generationi perspicimus; famelicos autem et sitibundos,
+            <lb ed="#L" n="121"/>nequaquam , iuxta illud: Sine Cerere et Baccho friget
+            <lb ed="#L" n="122"/>Venus . Melius ergo medium ad continentiam servandam
+            <lb ed="#L" n="123"/>est abstinere a cibo et potu, quam carere caligis aut 
+            cal<lb break="no" ed="#L" n="124"/>ceis, et quam laborare, et huiusmodi.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2243-Dd1e811"><!-- caj-p2p2-q188a7 -->
+          <head xml:id="TAcCaj-d1e2243-Hd1e814">Articulus 7</head>
+          <p xml:id="TAcCaj-d1e2243-d1e816">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="83" type="fixed=532"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e823">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="84"/>In articulo septimo eiusdem quaestionis, adverte in titulo
+            <lb ed="#L" n="85"/>ly perfectionem religionis. Est enim triplex perfectio:
+            <lb ed="#L" n="86"/>scilicet hominis absolute, quae sine omni statu perfectionis
+            <lb ed="#L" n="87"/>habetur a viris perfectis non religiosis nec praelatis; est
+            <lb ed="#L" n="88"/>et perfectio status religiosi, de qua est sermo; est et 
+            per<lb break="no" ed="#L" n="89"/>fectio status episcopalis, de qua sermo habitus est . Nunc
+            <lb ed="#L" n="90"/>igitur de perfectione media, quae perfectio religionis 
+            ap<lb break="no" ed="#L" n="91"/>pellatur, est quaestio an minor sit habere aliquid in 
+            com<lb break="no" ed="#L" n="92"/>muni. Et quia huiusmodi perfectio est perfectio hominis
+            <lb ed="#L" n="93"/>secundum talem statum, et ordinatur ad perfectionem 
+            ho<lb break="no" ed="#L" n="94"/>minis absolute, quae in caritate consistit; ideo in littera
+            <lb ed="#L" n="95"/>ex mentis humanae dispositione vel impeditione ad 
+            spiri<lb break="no" ed="#L" n="96"/>tualia et speciales fines religionum, declaratur intentum,
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e856">
+            <lb ed="#L" n="97"/>II. In eodem articulo septimo eiusdem quaestionis 
+            cen<lb break="no" ed="#L" n="98"/>tesimaeoctogesimaeoctavae, dubium occurrit circa 
+            conclu<lb break="no" ed="#L" n="99"/>sionem de modo paupertatis religionum ordinatarum ad
+            <lb ed="#L" n="100"/>contemplandum et contemplata praedicandum. Dicitur enim
+            <lb ed="#L" n="101"/>in littera quod modus paupertatis talium est, si modica
+            <lb ed="#L" n="102"/>quae sunt necessaria ad victum, congruo tempore 
+            pro<lb break="no" ed="#L" n="103"/>curata, conservantur. Habet enim conclusio haec 
+            difficul<lb break="no" ed="#L" n="104"/>tatem propter duo. Primo, quia iste modus vivendi habet
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="105"/>plus sollicitudinis quam vivere ex moderatis possessionibus.
+            <lb ed="#L" n="106"/>Quoniam experientia testatur quod, si vivitur ex 
+            posses<lb break="no" ed="#L" n="107"/>sionibus, sollicitudo incumbit valde paucis, et reliqui 
+            va<lb break="no" ed="#L" n="108"/>cant'studio et saluti animarum: si autem vivitur ex 
+            pro<lb break="no" ed="#L" n="109"/>curatione, hoc est ex mendicitate, oportet multos 
+            religio<lb break="no" ed="#L" n="110"/>sos, tempore messis et vindemiae, emittere ad quaestum,
+            <lb ed="#L" n="111"/>ultra quotidianos quaestus. Ita quod magistra rerum 
+            expe<lb break="no" ed="#L" n="112"/>rientia testatur minorem incumbere sollicitudinem. 
+            viven<lb break="no" ed="#L" n="113"/>tibus ex moderatis possessionibus, quam ex eleemosynis
+            <lb ed="#L" n="114"/>procuratis,
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e900">
+            <lb ed="#L" n="115"/>Secundo, quia iste modus vivendi de facto est adeo
+            <lb ed="#L" n="116"/>extensus ad tot quaestores utriusque sexus, ut impossibile
+            <lb ed="#L" n="117"/>sit amplius vivere ex mendicitate, nisi cum maxima 
+            ser<lb break="no" ed="#L" n="118"/>vitute deviante a studio litterarum. Quae multiplicatio non
+            <lb ed="#L" n="119"/>erat tempore praeterito.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e914">
+            <lb ed="#L" n="120"/>III. Ad primum horum dicitur quod ratio maioris 
+            sol<lb break="no" ed="#L" n="121"/>licitudinis in vivendo ex mendica procuratione et 
+            conser<lb break="no" ed="#L" n="122"/>vatione est triplex. Prima est multitudo promiscua 
+            quo<lb break="no" ed="#L" n="123"/>dammodo eorum qui ad huiusmodi religiones recipiuntur.
+            <lb ed="#L" n="124"/>Non enim deberent omnes ad harum religionum 
+            profes<lb break="no" ed="#L" n="125"/>sionem recipi: sed soli idonei ad officium praedicandi et
+            <pb ed="#L" n="533"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>confessiones audiendi, et ministri eorum necessarii. Melius
+            <lb ed="#L" n="2"/>enim esset paucissimos habere in conventu ad officium 
+            di<lb break="no" ed="#L" n="3"/>vinum et missas celebrandum, quam in tot ministris vices 
+            <lb ed="#L" n="4"/>magnarum ecclesiarum subripere in missis et divinis officiis,
+            <lb ed="#L" n="5"/>non. sine vilitate divini cultus quoad ministros et populum,
+            <lb ed="#L" n="6"/>dum tot sunt missae quot auditores spectati, et huiusmodi:
+            <lb ed="#L" n="7"/>et culpa extenditur dum hoc laudatur.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e949">
+            <lb ed="#L" n="8"/>Secunda est nimius sumptus. Nam quod triginta 
+            reli<lb break="no" ed="#L" n="9"/>giosi hodie exigunt, paulo ante, centum forte sufficiebat.
+            <lb ed="#L" n="10"/>Nunc, si deesset pictantia conventui, error magnus esset:
+            <lb ed="#L" n="11"/>olim sat erat quandoque habere illam. Immo legitur 
+            bea<lb break="no" ed="#L" n="12"/>tum Dominicum procuratorem conventus Bononiensis 
+            ar<lb break="no" ed="#L" n="13"/>guisse quod destrueret ei fratres, quia saepe dabat eis 
+            pic<lb break="no" ed="#L" n="14"/>tantiam : et tamen, quantum ex illa lectione memini,
+            <lb ed="#L" n="15"/>non dabat forte bis in hebdomada pictantiam procurator
+            <lb ed="#L" n="16"/>ille. Olim vestes veteres et lacerae, resarcitae tamen, in usu
+            <lb ed="#L" n="17"/>erant: modo consumitur aerarium magnum in vestibus.
+            <lb ed="#L" n="18"/>Taceo de fabricis sumptuosis quae a mendicantibus fiunt.
+            <lb ed="#L" n="19"/>Et, breviter, expensae modernae tantum distant ab antiquis
+            <lb ed="#L" n="20"/>ut non sit mirum si multa opus sit sollicitudine.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e980">
+            <lb ed="#L" n="21"/>Tertia est vitae imperfectio: quia religiosi defecimus in
+            <lb ed="#L" n="22"/>vitae perfectione. Quo fit ut et praelatis sollicitudo sit 
+            con<lb break="no" ed="#L" n="23"/>solatos fratres conservandi in victu, etc.; et saeculares, non
+            <lb ed="#L" n="24"/>videntes perfectionem quae in talibus exigitur, non dant
+            <lb ed="#L" n="25"/>largiter; et Deus, principalis distributor, iustissime subtrahit
+            <lb ed="#L" n="26"/>eleemosynas male meritis de sua professione. Et tamen
+            <lb ed="#L" n="27"/>Auctor doctrinam suam de religiosorum paupertate fundat
+            <lb ed="#L" n="28"/>supra praesumpta perfectione profitentium paupertatem 
+            vo<lb break="no" ed="#L" n="29"/>luntariam: ut patet in III Contra Gent., in multis capitulis
+            <lb ed="#L" n="30"/>de hac materia. Unde et hic dicit quod modica necessaria
+            <lb ed="#L" n="31"/>ad vitae, etc. Quia natura paucis contenta est: sed non
+            <lb ed="#L" n="32"/>delectabilis appetitus ; sed non infelix horror abiectarum
+            <lb ed="#L" n="33"/>vestium; sed non dispositio illorum qui pauperes esse 
+            vo<lb break="no" ed="#L" n="34"/>lunt et nihil sibi deesse. Dicendum est igitur quod, si 
+            re<lb break="no" ed="#L" n="35"/>ligiosi isti perfectioni vitae operam darent efficacem, 
+            con<lb break="no" ed="#L" n="36"/>tenti solis necessariis ad vitam, parva immineret eis 
+            solli<lb break="no" ed="#L" n="37"/>citudo procurandi victum.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1019">
+            <lb ed="#L" n="38"/>Et per hoc solvitur etiam secunda obiectio. Nam 
+            desi<lb break="no" ed="#L" n="39"/>stere a perfectionis studio ob negligentiam et usum non
+            <lb ed="#L" n="40"/>necessariorum, ratio est quare Deus non aperit eis manum
+            <lb ed="#L" n="41"/>saecularium. Cuius evidentissimum signum est quod 
+            ubi<lb break="no" ed="#L" n="42"/>cumque vir aliquis perfectae vitae nominatur et creditur,
+            <lb ed="#L" n="43"/>ultro omnia offeruntur a fidelibus.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1035">
+            <lb ed="#L" n="44"/>IV. Circa loculos Domini dubium occurrit: An sit opus
+            <lb ed="#L" n="45"/>perfectionis, vel imperfectionis, habere loculos, et 
+            huius<lb break="no" ed="#L" n="46"/>modi. Et est ratio dubii quia Augustinus, in libro de Opere
+            <lb ed="#L" n="47"/>Monach. , et super illud, Producens faenum iumentis ,
+            <lb ed="#L" n="48"/>dicit: Dominus noster lesus Christus, more suae 
+            miseri<lb break="no" ed="#L" n="49"/>cordiae infirmioribus compatiens, cum ei possent angeli
+            <lb ed="#L" n="50"/>ministrare, loculos habere dignatus est. - Et Nicolaus IV ,
+            <lb ed="#L" n="51"/>in Decretali, Exiit qui seminat, in Sexto, de Verb. signif.,
+            <lb ed="#L" n="52"/>dixit quod infirmorum personam Christus suscepit in 
+            lo<lb break="no" ed="#L" n="53"/>culis. Et rursus : Egit namque Christus et docuit 
+            perfe<lb break="no" ed="#L" n="54"/>ctionis opera: egit etiam et infirma, sicut interdum in
+            <lb ed="#L" n="55"/>fuga patet, et loculis. Sed utrumque perfecte perfectus
+            <lb ed="#L" n="56"/>existens: uL perfectis et imperfectis se viam salutis 
+            osten<lb break="no" ed="#L" n="57"/>deret, qui utrosque salvare venerat. Ubi manifeste 
+            insi<lb break="no" ed="#L" n="58"/>nuatur quod habere loculos imperfectorum est.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1070">
+            <lb ed="#L" n="59"/>In oppositum est auctoritas litterae huius, et rationis in
+            <lb ed="#L" n="60"/>ea allatae: quae potest sic extendi. Habere loculos nihil 
+            mi<lb break="no" ed="#L" n="61"/>nuit de personali perfectione: alioquin Abraham, cui dictum
+            <lb ed="#L" n="62"/>est, Esto perfectus , et Christus et Apostoli non fuissent
+            <lb ed="#L" n="63"/>perfecti personaliter. Nihil etiam minuit de perfectione 
+            sta<lb break="no" ed="#L" n="64"/>tus episcopalis: alioquin tot sancti episcopi non fuissent
+            <lb ed="#L" n="65"/>perfecti, ut Ambrosius, Augustinus, Gregorius. Nihil etiam
+            <lb ed="#L" n="66"/>minuit de perfectione religionis: alioquin Benedictus, 
+            Anto<lb break="no" ed="#L" n="67"/>nius, Bernardus, Dominicus, etc., non fuissent perfecti 
+            reli<lb break="no" ed="#L" n="68"/>giosi. Nihil ergo minuit de perfectione habere loculos. ^.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1095">
+            <lb ed="#L" n="69"/>V. Ad hoc dicitur quod procul dubio habere loculos
+            <lb ed="#L" n="70"/>nihil minuit de perfectione vitae, aut status religiosi vel
+            <lb ed="#L" n="71"/>episcopalis: propter rationes quas Auctor affert et hic et
+            <lb ed="#L" n="72"/>in III. Contra Gent.  diffuse; et exempla Christi et 
+            Apo<lb break="no" ed="#L" n="73"/>stolorum; et observantiam tot perfectorum sanctorum 
+            epi<lb break="no" ed="#L" n="74"/>scoporum et religiosorum, quorum opera sunt doctrina 
+            vi<lb break="no" ed="#L" n="75"/>tae Christianae.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1113">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="76"/>Pro intelligentia autem verborum quae in oppositum
+            <lb ed="#L" n="77"/>possunt induci, scito quod aliquod opus esse infirmitatis
+            <lb ed="#L" n="78"/>vel infirmorum vel infirmum, seu imperfectionis vel 
+            im<lb break="no" ed="#L" n="79"/>perfectorum vel imperfectum, contingit dupliciter. Primo,
+            <lb ed="#L" n="80"/>loquendo de infirmitate et imperfectione moris privative,
+            <lb ed="#L" n="81"/>seu contrarie. Et sic blasphemum est dicere Dominum
+            <lb ed="#L" n="82"/>opera infirma egisse: quoniam quod sic est infirmum vel
+            <lb ed="#L" n="83"/>imperfectum, caret perfectione vel sanitate morali. quam
+            <lb ed="#L" n="84"/>debet habere.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1137">
+            <lb ed="#L" n="85"/>Alio modo, negative: et hoc dupliciter, vel in genere
+            <lb ed="#L" n="86"/>moris, vel in genere naturae. Si intelligatur in genere 
+            na<lb break="no" ed="#L" n="87"/>turae negatio perfectionis, sensus est quod actus aliquis
+            <lb ed="#L" n="88"/>est infirmus vel imperfectus quia ipse ex una, et actus
+            <lb ed="#L" n="89"/>contrarius ex altera parte, sic se habent quod actus ipse
+            <lb ed="#L" n="90"/>vel defectum aliquem naturae sonat quem non sonat alter;
+            <lb ed="#L" n="91"/>vel excellentiam aliquam sonat alter quam non sonat ipse.
+            <lb ed="#L" n="92"/>Verbi gratia, occidere hominem, solitarie sumptum, est
+            <lb ed="#L" n="93"/>actus malum sonans; conservare autem hominem est actus
+            <lb ed="#L" n="94"/>contrarius sonans solitarie bonum; ac per hoc, potest dici
+            <lb ed="#L" n="95"/>quod occidere hominem est malum, et conservare 
+            homi<lb break="no" ed="#L" n="96"/>nem est bonum. Et sic est in genere naturae. Nam in 
+            ge<lb break="no" ed="#L" n="97"/>nere morum, utrumque potest esse bonum et malum. 
+            Si<lb break="no" ed="#L" n="98"/>militer in proposito vivere sine loculis excellentiae magnae
+            <lb ed="#L" n="99"/>est: immo divinitatis, ut si Christo angeli continue 
+            mini<lb break="no" ed="#L" n="100"/>strassent; sicut et Paulum Eremitam corvus pascebat .
+            <lb ed="#L" n="101"/>Et per oppositum, vivere cum loculis infirmitatis est 
+            hu<lb break="no" ed="#L" n="102"/>manae necessitatis, Illud perfectionis supra hominem: hoc
+            <lb ed="#L" n="103"/>imperfectionis humanae. Et sic procul dubio Augustini
+            <lb ed="#L" n="104"/>verba intelligenda sunt: ut patet ex eo quod contra 
+            lo<lb break="no" ed="#L" n="105"/>culos non humanam perfectionem, sed divinam distinguit
+            <lb ed="#L" n="106"/>potestatem, dicendo, cui angeli administrabant . Et hunc
+            <lb ed="#L" n="107"/>sensum ipsemet Augustinus exponit , ut habetur in 
+            De<lb break="no" ed="#L" n="108"/>cretis, XII, qu. r, cap. Exemplum : Exemplum Domini 
+            acci<lb break="no" ed="#L" n="109"/>pite conversantis in terra. Quare loculos habuit cui angeli
+            <lb ed="#L" n="110"/>ministrabant, nisi quia Ecclesia loculos habitura erat?
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1196">
+            <lb ed="#L" n="111"/>Si vero in genere moris intelligatur negatio perfectionis,
+            <lb ed="#L" n="112"/>dupliciter intelligi potest. Primo, simpliciter. Et tunc sensus
+            <lb ed="#L" n="113"/>est quod opus aliquod, secundum suum genus, est 
+            imper<lb break="no" ed="#L" n="114"/>fectum vel infirmum in genere moris, quia non habet ex
+            <lb ed="#L" n="115"/>sua'ratione omnem perfectionem possibilem reperiri in
+            <lb ed="#L" n="116"/>opere aliquo sub genere moris. Et in hoc sensu omne
+            <lb ed="#L" n="117"/>opus morale habens aliud opus morale secundum suum
+            <lb ed="#L" n="118"/>genus perfectius se, est imperfectum et infirmum negative:
+            <lb ed="#L" n="119"/>quia non habet perfectionem inventam in actu secundum
+            <lb ed="#L" n="120"/>suam rationem perfectiori. Et sic verissimum est quod
+            <lb ed="#L" n="121"/>Dominus in carne mortali utraque opera egit et docuit,
+            <lb ed="#L" n="122"/>scilicet perfecta et imperfecta, hoc est, maiora et minora.
+            <lb ed="#L" n="123"/>Minus est enim servare castitatem quam animam suam
+            <lb ed="#L" n="124"/>ponere pro amicis suis : et utrumque egit et docuit 
+            Chri<lb break="no" ed="#L" n="125"/>stus . Et similiter minus est instruere mulierem. quam
+            <lb ed="#L" n="126"/>praedicare populo: utrumque egit Christus . Et sic de
+            <lb ed="#L" n="127"/>aliis.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1235">
+            <lb ed="#L" n="128"/>Secundo, de actibus solitarie sumptis. Et tunc est 
+            sen<lb break="no" ed="#L" n="129"/>sus quod duorum actuum contrariorum ille dicitur 
+            perfe<lb break="no" ed="#L" n="130"/>ctionis qui solitarie sumptus sonat virtutem: quam non
+            <lb ed="#L" n="131"/>sonat alter actus contrarius, et ideo dicitur imperfectionis.
+            <lb ed="#L" n="132"/>Verbi gratia, si proponantur hi duo actus contrarii, scilicet
+            <lb ed="#L" n="133"/>bibere vinum et abstinere a vino, dicetur procul dubio
+            <lb ed="#L" n="134"/>quod bibere vinum est imperfectionis, et abstinere a vino
+            <lb ed="#L" n="135"/>est perfectionis, quia abstinere a vino sonat prima facie
+            <lb ed="#L" n="136"/>virtutem: cum tamen, secundum veritatem, neuter virtutis
+            <lb ed="#L" n="137"/>actus sit, et uterque possit bene et male fieri. Et hoc modo
+            <lb ed="#L" n="138"/>Salvator noster egit et docuit perfectionis et imperfectionis
+            <lb ed="#L" n="139"/>opera. Hoc enim modo, fugere sonat imperfectionem: et
+            <lb ed="#L" n="140"/>firmiter permanere sonat virtutem. Et similiter vivere sine
+            <lb ed="#L" n="141"/>loculis sonat virtutem: et habere loculos, imperfectionem.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1268">
+            <lb ed="#L" n="142"/>Et per haec patet quod dici potest ad verba Decretalis.
+            <lb ed="#L" n="143"/>Omnes enim huiusmodi sensus. sobrii sunt et casti, Et
+            <lb ed="#L" n="144"/>revera primus sensus in aliqua sui parte ad litteram. 
+            con<lb break="no" ed="#L" n="145"/>venit illi Decretali, iuxta verba Augustini. Secundus autem
+            <lb ed="#L" n="146"/>et tertius intenti videntur ad litteram ibidem in ista materia:
+            <lb ed="#L" n="147"/>quoniam utriusque capax est littera illa. Et haec, 
+            quan<lb break="no" ed="#L" n="148"/>tum ad expositionem illius Decretalis applicantur, non
+            <lb ed="#L" n="149"/>nisi quando Apostolica licebit Auctoritate, applicata 
+            intelli<lb break="no" ed="#L" n="150"/>gantur.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1291">
+            <pb ed="#L" n="534"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>VI. In responsione ad primum, perspice litterae 
+            perfe<lb break="no" ed="#L" n="2"/>ctam responsionem. Primo namque ostendit quod non,
+            <lb ed="#L" n="3"/>quanto pauperior, tanto perfectior religio: quia paupertas
+            <lb ed="#L" n="4"/>instrumentum est ad perfectionem religionis. Secundo, vel
+            <lb ed="#L" n="5"/>propter varias opiniones, vel quia aliqualiter verificari
+            <lb ed="#L" n="6"/>potest quod paupertas maior auget perfectionem religionis,
+            <lb ed="#L" n="7"/>subiungit distinguendo de religionis perfectione, scilicet
+            <lb ed="#L" n="8"/>simpliciter, vel secundum quid: et dicit quod, etiam si
+            <lb ed="#L" n="9"/>concederetur quod quanto pauperior religio tanto perfectior,
+            <lb ed="#L" n="10"/>ly perfectior denotaret perfectionem secundum quid, hoc
+            <lb ed="#L" n="11"/>est, esset perfectior in hoc, scilicet in latitudine boni 
+            pau<lb break="no" ed="#L" n="12"/>pertatis; et non denotaret perfectionem simpliciter, hoc
+            <lb ed="#L" n="13"/>est, non propterea esset religio perfectior absolute. Quia
+            <lb ed="#L" n="14"/>alia religio posset pauperiorem excedere secundum 
+            latitu<lb break="no" ed="#L" n="15"/>dinem alterius maioris boni, puta continentiae vel 
+            obe<lb break="no" ed="#L" n="16"/>dientiae vel caritatis. Quae enim secündum meliora excedit,
+            <lb ed="#L" n="17"/>est simpliciter melior, ut patet.
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1335">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="18"/>VII. In responsione ad tertium, iuncta simul corpori
+            <lb ed="#L" n="19"/>articuli, perspice quam vituperabiliter tantas divitias multi
+            <lb ed="#L" n="20"/>religiosi divites in communi consumant in sumptuosis 
+            fa<lb break="no" ed="#L" n="21"/>bricis; et copiosi reditus, qui monasteriis monachorum et
+            <lb ed="#L" n="22"/>huiusmodi sunt dati, non ad impedimentum praestandum
+            <lb ed="#L" n="23"/>contemplativae vitae (quam, ut Auctor in littera dicit, 
+            ma<lb break="no" ed="#L" n="24"/>gnarum divitiarum sollicitudo impedit), sed ut vel 
+            hospi<lb break="no" ed="#L" n="25"/>talitati vacent, aut patres. pauperum sint, divertuntur in
+            <lb ed="#L" n="26"/>superfluas expensas; ita ut impleatur verbum Hieronymi ,
+            <lb ed="#L" n="27"/>quod suspirat eos Ecclesia divites. Sat eis esse deberet
+            <lb ed="#L" n="28"/>quod, habentes necessaria, ut pauperes Christi tam in victu
+            <lb ed="#L" n="29"/>quam in habitationibus, reliqua pauperibus erogarent: ut
+            <lb ed="#L" n="30"/>gauderet Ecclesia eorum divitiis. Nori est enim rationabile
+            <lb ed="#L" n="31"/>tot ad ecclesiastica collegia donatas divitias esse, nisi quia
+            <lb ed="#L" n="32"/>bene utebantur illis, et non ad delicias aut pompam, ut 
+            ho<lb break="no" ed="#L" n="33"/>die a multis fieri videtur, arbitrantibus obsequium se prae- .
+            <lb ed="#L" n="34"/>stare Deo  in huiusmodi sumptibus.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2243-Dd1e1378"><!-- caj-p2p2-q188a8 -->
+          <head xml:id="TAcCaj-d1e2243-Hd1e1381">Articulus 8</head>
+          <p xml:id="TAcCaj-d1e2243-d1e1383">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="73" type="fixed=535"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2243-d1e1390">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="74"/>In articulo octavo eiusdem quaestionis , hoc solum 
+            di<lb break="no" ed="#L" n="75"/>se est, ut tentatis ad vitam solitariam bene 
+            expla<lb break="no" ed="#L" n="76"/>netur primo doctrina haec. Et examinent se, si propter
+            <lb ed="#L" n="77"/>animi passionem. solitudinem quaerunt: aut propter 
+            per<lb break="no" ed="#L" n="78"/>fectionem vitae iam assecutam, ita ut sint iam patientes,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="79"/>benigni, humiles, mansueti, contenti pane et aqua, etc.
+            <lb ed="#L" n="80"/>Perfectorum, inquit Apostolus , solidus est cibus: eorum
+            <lb ed="#L" n="81"/>qui exercitatos habent. pro consuetudine. sensus ad 
+            dis<lb break="no" ed="#L" n="82"/>cernendum, practice et affectuose, bonum et malum - 
+            <lb ed="#L" n="83"/>Quis est hic? et laudabimus eum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

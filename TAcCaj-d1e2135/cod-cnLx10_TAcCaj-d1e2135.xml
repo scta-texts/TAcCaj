@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 167</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 167</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="346"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2135"><!-- TAcCajp2p2-q167 -->
+        <head xml:id="TAcCaj-d1e2135-Hd1e101">Quaestio 167</head>
+        <div xml:id="TAcCaj-d1e2135-Dd1e103"><!-- caj-p2p2-q167a1 -->
+          <head xml:id="TAcCaj-d1e2135-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2135-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="65" type="fixed=346"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="66"/>IN articulo primo quaestionis 
+            centesimaesexagesimaesepti<lb break="no" ed="#L" n="67"/>mae, nota quod negatio debiti finis in cognitione 
+            crea<lb break="no" ed="#L" n="68"/>turarum tertio loco constituens peccatum in littera, quando
+            <lb ed="#L" n="69"/>scilicet non refertur in cognitionem Dei, dupliciter potest
+            <lb ed="#L" n="70"/>intelligi quod constituat peccatum. Primo, ac si oporteat
+            <lb ed="#L" n="71"/>cognitionem Dei esse finem proximum propter quem est
+            <lb ed="#L" n="72"/>cognitio creaturae. Et in hoc sensu non est intelligenda
+            <lb ed="#L" n="73"/>praesens littera. Quoniam cognitio creaturae, secundum 
+            ra<lb break="no" ed="#L" n="74"/>tionem rectam, habet pro proximo fine seipsam: ut patet de
+            <lb ed="#L" n="75"/>scientiis speculativis. Nec aliqua lege iubemur habere Deum
+            <lb ed="#L" n="76"/>pro fine proximo speculationis. creaturarum: cum sit in
+            <lb ed="#L" n="77"/>genere boni honesti, quod propter seipsum bonum est.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e146">
+            <lb ed="#L" n="78"/>Secundo ergo potest intelligi, quia oportet Dei 
+            cogni<lb break="no" ed="#L" n="79"/>tionem esse finem ultimum cognitionis creaturarum. Et
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="80"/>in hoc sensu intelligitur littera. Nam sicut omnis scientia
+            <lb ed="#L" n="81"/>animae ordinatur ad felicitatem tanquam ultimum finem,
+            <lb ed="#L" n="82"/>ita omnis creaturae cognitio ordinatur ad cognitionem Dei
+            <lb ed="#L" n="83"/>ut finem ultimum.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e164">
+            <lb ed="#L" n="84"/>Nec est opus propterea, ad peccatum evitandum, quod
+            <lb ed="#L" n="85"/>cum quis vacat scientiis creaturarum, ordinet earum 
+            no<lb break="no" ed="#L" n="86"/>titiam in Dei cognitionem. Quoniam suapte natura cognitio
+            <lb ed="#L" n="87"/>creaturae gradum constituit ascensionis ad cognitionem Dei.
+            <lb ed="#L" n="88"/>Et ideo appetens studium sciendi creaturam, eo ipso appetit
+            <lb ed="#L" n="89"/>gradum deducentem in cognitionem Dei: nisi appetitu
+            <lb ed="#L" n="90"/>perverso deductionem huiusmodi contemnat, et negationem
+            <lb ed="#L" n="91"/>ordinis ad Dei cognitionem qui in ipso gradu cognitionis
+            <lb ed="#L" n="92"/>creaturae est, amplectatur. Tunc enim peccatum in littera
+            <lb ed="#L" n="93"/>descriptum aceidit.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2135-Dd1e189"><!-- caj-p2p2-q167a2 -->
+          <head xml:id="TAcCaj-d1e2135-Hd1e192">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2135-d1e194">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="93" type="fixed=347"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e201">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="94"/>IN articulo secundo eiusdem quaestionis 
+            centesimaesexa<lb break="no" ed="#L" n="95"/>gesimaeseptimae dubium occurrit, quoniam diminutus
+            <lb ed="#L" n="96"/>videtur Auctor circa curiositatem sensitivae cognitionis :
+            <lb ed="#L" n="97"/>quoniam omittit tertium naturalem finem, duobus tantum
+            <lb ed="#L" n="98"/>enumeratis, Sensitiva namque cognitio non solum ad duo,
+            <lb ed="#L" n="99"/>ut in littera dicitur, scilicet vitam et intellectum: sed etiam
+            <lb ed="#L" n="100"/>ad seipsam in homine ordinatur, quod in littera non 
+            di<lb break="no" ed="#L" n="101"/>citur. Homini enim natura dedit videre propter videre, et
+            <lb ed="#L" n="102"/>audire propter audire. Cuius infallibile signum est quod
+            <lb ed="#L" n="103"/>naturaliter homo delectatur in ipso videre, in ipso au-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="104"/>dire, etc. Et in hoc homo differre videtur a ceteris 
+            ani<lb break="no" ed="#L" n="105"/>mantibus, secluso ordine ad intellectum.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e234">
+            <lb ed="#L" n="106"/>Et hinc sequitur in proposito quod non est curiositatis
+            <lb ed="#L" n="107"/>videre propter videre, et audire ut audiat, etc., sicut non
+            <lb ed="#L" n="108"/>est curiositatis videre et audire propter intellectum aut
+            <lb ed="#L" n="109"/>vitae commoda: quoniam ad naturalem finem actus 
+            ordi<lb break="no" ed="#L" n="110"/>natur, sine aliqua: mala circumstantia.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e247">
+            <lb ed="#L" n="111"/>II. Ad hoc dicitur quod, sicut licuit Aristoteli, in libro
+            <lb ed="#L" n="112"/>de Sensu et Sensato , illam hominis olfactionem qua in
+            <lb ed="#L" n="113"/>florum odore delectatur sine ulla ad tactum et gustum
+            <pb ed="#L" n="348"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>relatione, quam soli homini propriam dicit, reducere in
+            <lb ed="#L" n="2"/>aliam humanae utilitatis speciem, scilicet in sanitatem 
+            ce<lb break="no" ed="#L" n="3"/>rebri, ut patet ibi, ita quod posuit naturam dedisse homini
+            <lb ed="#L" n="4"/>talem sensationem propter sanitatem; ita licuit Auctori
+            <lb ed="#L" n="5"/>cognitionem sensitivam datam homini etiam propter 
+            seip<lb break="no" ed="#L" n="6"/>sam, reducere etiam in obsequium cognitionis intellectivae.
+            <lb ed="#L" n="7"/>Ita quod sub illo membro comprehendit utrumque 
+            cognitio<lb break="no" ed="#L" n="8"/>nis sensitivae in homine finem proprium: scilicet seipsam,
+            <lb ed="#L" n="9"/>et intellectivam cognitionem.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e281">
+            <lb ed="#L" n="10"/>Ad id autem quod ad propositum applicatur de vidente
+            <lb ed="#L" n="11"/>ut videat, etc.: dicitur quod, per se loquendo, videre ut
+            <lb ed="#L" n="12"/>sensus habeat hanc suam perfectionem quae est videre, et
+            <lb ed="#L" n="13"/>similiter audire ut auditus habeat suam perfectionem quae
+            <lb ed="#L" n="14"/>est audire, nullum peccatum est; sed illud est vacare 
+            per<lb break="no" ed="#L" n="15"/>fectioni, hoc recreationi naturae. Sed per accidens est ibi
+            <lb ed="#L" n="16"/>peccatum: si scilicet impeditur homo propterea a debitis
+            <lb ed="#L" n="17"/>cogitationibus; ut Augustinus dicit de visu canis post 
+            le<lb break="no" ed="#L" n="18"/>porem . Et universaliter contingit peccatum in applicando
+            <lb ed="#L" n="19"/>sensum ad sentiendum propter sentire aut sensationis 
+            de<lb break="no" ed="#L" n="20"/>lectationem, si circumstantia aliqua debita desit, aut 
+            dis<lb break="no" ed="#L" n="21"/>conveniens apponatur, ex persona, loco, tempore, 
+            quan<lb break="no" ed="#L" n="22"/>titate, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e312">
+            <lb ed="#L" n="23"/>III. In responsione ad primum eiusdem secundi articuli,
+            <lb ed="#L" n="24"/>dubium occurrit circa differentiam in littera positam inter
+            <lb ed="#L" n="25"/>gulam luxuriamque ex una, et curiositatem ex alia parte:
+            <lb ed="#L" n="26"/>quoniam aut nulla, aut falsa videtur. Nam per usum rerum
+            <lb ed="#L" n="27"/>tangibilium possumus duo intelligere: vel applicationem
+            <lb ed="#L" n="28"/>rerum tangibilium ad tactum; vel applicationem rerum
+            <lb ed="#L" n="29"/>tangibilium ad alia opera. Et si primo modo intelligimus,
+            <lb ed="#L" n="30"/>tunc differentia est nulla: quia etiam curiositas est circa
+            <lb ed="#L" n="31"/>applicationem tactus et omnium sensuum ad sentiendum
+            <lb ed="#L" n="32"/>sua sensibilia, ut in littera dicitur. - Si secundo modo, falsa
+            <lb ed="#L" n="33"/>est differentia: quia nec luxuria nec gula est circa usum
+            <lb ed="#L" n="34"/>tangibilium, quo venduntur et emuntur, et alia multa de
+            <lb ed="#L" n="35"/>eis fiunt.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e343">
+            <lb ed="#L" n="36"/>Ad boc dicitur quod sermo litterae formalis est, et de
+            <lb ed="#L" n="37"/>usu tangibilium. quatenus tangibilia sensu tactus et gustus
+            <lb ed="#L" n="38"/>ut est quidam tactus  sunt, intelligitur. Huiusmodi autem
+            <lb ed="#L" n="39"/>usus in venereis, cibo potuque. consistit. Ita quod 
+            diffe<lb break="no" ed="#L" n="40"/>rentia consistit in hoc, quod gula seu luxuria versatur
+            <lb ed="#L" n="41"/>circa delectationem tangibilium quae consistit in usu eorum,
+            <lb ed="#L" n="42"/>hoc est in applicatione eorum ad venereos actus seu ad
+            <lb ed="#L" n="43"/>comedendum et bibendum: curiositas vero versatur circa
+            <lb ed="#L" n="44"/>delectationem. eorundem, scilicet tangibilium et etiam 
+            re<lb break="no" ed="#L" n="45"/>liquorum sensibilium, scilicet gustabilium,  odorabilium,
+            <lb ed="#L" n="46"/>audibilium ac visibilium, quae consistit in cognitione 
+            eo<lb break="no" ed="#L" n="47"/>rundem. Curiosus enim quaerit cognoscere ac discernere
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="48"/>sensibilia: luxuriosus autem ac gulosus quaerit uti 
+            sensi<lb break="no" ed="#L" n="49"/>bilibus. Unde, ut Augustinus docuit allatus in littera, 
+            vo<lb break="no" ed="#L" n="50"/>luptuosus quaerit sensibilia quae delectant, curiosus quaerit
+            <lb ed="#L" n="51"/>sensibilia etiam si molestant: quoniam ad cognoscendum
+            <lb ed="#L" n="52"/>oportet contraria sentire, ad utendum autem delectabilia
+            <lb ed="#L" n="53"/>sola conveniunt.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e387">
+            <lb ed="#L" n="54"/>Et hinc habes primo, qualis est delectatio libidinosa quae
+            <lb ed="#L" n="55"/>consistit in tactibus et osculis: illa scilicet quae 
+            consequi<lb break="no" ed="#L" n="56"/>tur usum tangibilium. Illa siquidem carnalis delectatio quae
+            <lb ed="#L" n="57"/>in illo usu qui secundum suam naturam praevius natus
+            <lb ed="#L" n="58"/>est esse ad concubitum, etiam si in illa sistatur, est 
+            libidi<lb break="no" ed="#L" n="59"/>nosa: ut clare patet ex differentia ad delectationem 
+            curio<lb break="no" ed="#L" n="60"/>sam, quae esset si delectaretur in discernendo molle a duro,
+            <lb ed="#L" n="61"/>calidum a frigido, asperum a leni, et cognitione eorum.
+            <lb ed="#L" n="62"/>Constat namque quod delectatio eorum qui in osculis et
+            <lb ed="#L" n="63"/>tactibus delectantur, non est circa cognitionem sensibilium.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e411">
+            <lb ed="#L" n="64"/>Habes secundo, quod si virgo tanta curiositate 
+            tentare<lb break="no" ed="#L" n="65"/>tur ad sciendum quid venereum opus esset, ut propterea
+            <lb ed="#L" n="66"/>illud appeteret, dupliciter peccaret, scilicet stupro et 
+            curio<lb break="no" ed="#L" n="67"/>sitate: sicut qui appetit moechari ut furetur.
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e422">
+            <lb ed="#L" n="68"/>IV. In eodem articulo secundo, in responsione ad 
+            se<lb break="no" ed="#L" n="69"/>cundum, circa inspectionem spectaculorum, advertendum
+            <lb ed="#L" n="70"/>quod concurrunt ibi multa. Scilicet repraesentatio ipsa:
+            <lb ed="#L" n="71"/>et quoad hoc, non est peccatum, quia naturaliter animum
+            <lb ed="#L" n="72"/>delectat repraesentatio, ut Aristoteles dixit . Res 
+            praesen<lb break="no" ed="#L" n="73"/>tatae: et quoad hoc, iuxta earum qualitatem sunt iudicanda.
+            <lb ed="#L" n="74"/>Nam si repraesentantur luxuriosa aut crudelia, bonis 
+            mo<lb break="no" ed="#L" n="75"/>ribus adversantur, quia inductiva ex natura sua sunt ad
+            <lb ed="#L" n="76"/>vitia, ut Chrysostomus in littera dicit: sicut e contra, si
+            <lb ed="#L" n="77"/>repraesentantur pia aut divina, consonant pietatis et 
+            reli<lb break="no" ed="#L" n="78"/>gionis virtutibus. Et quoniam communiter qui intersunt
+            <lb ed="#L" n="79"/>huiusmodi spectaculis, delectationis causa adsunt; ideo, si
+            <lb ed="#L" n="80"/>indecentia sunt quae repraesentantur, non excusantur a 
+            pec<lb break="no" ed="#L" n="81"/>cato videntes, dato quod in veritate sola eos. repraesentatio
+            <lb ed="#L" n="82"/>delectaret. Et ratio est quia saltem dant exteriori actu 
+            ope<lb break="no" ed="#L" n="83"/>ram rei illicitae, scilicet delectabili praesentiae de 
+            indecen<lb break="no" ed="#L" n="84"/>tibus: praesentia siquidem illa exterior suapte natura 
+            com<lb break="no" ed="#L" n="85"/>muniter fit ad delectandum animum non de sola 
+            reprae<lb break="no" ed="#L" n="86"/>sentatione, sed de repraesentatis, ut patet, Praeter hoc 
+            au<lb break="no" ed="#L" n="87"/>tem, gravius peccant viri graves: ratione scandali et mali
+            <lb ed="#L" n="88"/>exempli. Gravissime autem clerici, religiosi, sacerdotes aut
+            <lb ed="#L" n="89"/>pontifices in hoc delinquerent. 
+          </p>
+          <p xml:id="TAcCaj-d1e2135-d1e473">
+            <lb ed="#L" n="90"/>Et licet ad indecentia spectacula praecognita nullus 
+            de<lb break="no" ed="#L" n="91"/>beret, etiam invitatus, ire; si tamen, futurae indecentiae 
+            ne<lb break="no" ed="#L" n="92"/>scius, se ibi invenerit, nec exire potest; imitetur Alypium
+            <lb ed="#L" n="93"/>claudendo oculos , ut sic et seipsum servet, et, quantum
+            <lb ed="#L" n="94"/>in se est, alios hoc facto moneat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

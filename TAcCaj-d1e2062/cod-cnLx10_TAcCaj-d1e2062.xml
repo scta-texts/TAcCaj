@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 153</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 153</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="207"/>
+        <cb ed="#L" n="g"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2062"><!-- TAcCajp2p2-q153 -->
+        <head xml:id="TAcCaj-d1e2062-Hd1e101">Quaestio 153</head>
+        <div xml:id="TAcCaj-d1e2062-Dd1e103"><!-- caj-p2p2-q153a1 -->
+          <head xml:id="TAcCaj-d1e2062-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2062-d1e108">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="63" type="fixed=207"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e115">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="64"/>IN articulo primo quaestionis 
+            centesimaequinquagesimae<lb break="no" ed="#L" n="65"/>tertiae, adverte quod, quia par est ut quaelibet ars 
+            gau<lb break="no" ed="#L" n="66"/>deat propriis vocabulis, ideo in morali philosophia et 
+            theo<lb break="no" ed="#L" n="67"/>logia luxuriae nomen proprie sumitur pro superfluitate in
+            <lb ed="#L" n="68"/>materia delectationum venerearum, et per similitudinem
+            <lb ed="#L" n="69"/>ad quemlibet abundantem excessum translata dicitur: nam
+            <lb ed="#L" n="70"/>cum in Ecclesia dicimus luxuriae peccatum, sine 
+            cuncta<lb break="no" ed="#L" n="71"/>tione intelligimus peccatum in venereorum excessu. Sed
+            <cb ed="#L" n="i"/>
+            <lb ed="#L" n="72"/>apud grammaticos contrarius videtur translationis ordo:
+            <lb ed="#L" n="73"/>quoniam prius significata est apud eos luxuriae nomine
+            <lb ed="#L" n="74"/>solutio cuiuscumque libidinis, et deinde associata est ad
+            <lb ed="#L" n="75"/>solutionem libidinis in materia venereae delectationis, quae
+            <lb ed="#L" n="76"/>solutio in superfluitate venereae delectationis manifeste 
+            con<lb break="no" ed="#L" n="77"/>sistit. Et est ratio diversae translationis quia isti ex parte
+            <lb ed="#L" n="78"/>nominis significantis, illi ex parte rei significatae 
+            transla<lb break="no" ed="#L" n="79"/>tionem ordinarunt.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2062-Dd1e158"><!-- caj-p2p2-q153a2 -->
+          <head xml:id="TAcCaj-d1e2062-Hd1e161">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2062-d1e163">
+            <pb ed="#L" n="209"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=209"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e172">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>IN articulo secundo eiusdem quaestionis, nota, primo, 
+            <lb ed="#L" n="3"/>contra scrupulosas mentes, quod sine omni peccato
+            <lb ed="#L" n="4"/>venereus actus exerceri potest et exercetur, quando 
+            de<lb break="no" ed="#L" n="5"/>bitis est circumstantiis honestatus actus coniugalis. Inter
+            <lb ed="#L" n="6"/>quas circumstantias non est ut persona non delectetur,
+            <lb ed="#L" n="7"/>aut non complaceat sibi delectatio. Hoc enim insensibilis
+            <lb ed="#L" n="8"/>aut stulti est. Complacentia enim voluntaria in 
+            delecta<lb break="no" ed="#L" n="9"/>tione operis talis alias bene circumstantionati, puta 
+            pro<lb break="no" ed="#L" n="10"/>pter prolem, etc., nullum omnino peccatum est, sed 
+            do<lb break="no" ed="#L" n="11"/>num Dei est absolute generis humani, collatum homini
+            <lb ed="#L" n="12"/>et ceteris animalibus. Unde non debet persona de 
+            huius<lb break="no" ed="#L" n="13"/>modi delectatione percepta dolere, sed potius Deo gratias
+            <lb ed="#L" n="14"/>agere.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e205">
+            <lb ed="#L" n="15"/>Nota secundo, quod Auctor, in responsione ad 
+            secun<lb break="no" ed="#L" n="16"/>dum, theologalem rationem reddit quare delectatio venerea
+            <lb ed="#L" n="17"/>non subiacet moderationi rationis, scilicet ex originali 
+            pec<lb break="no" ed="#L" n="18"/>cato. Non quod ignoret hoc esse naturale: sed sicut mors,
+            <lb ed="#L" n="19"/>cum hoc quod est naturalis, est etiam poena peccati 
+            origina<lb break="no" ed="#L" n="20"/>lis, quia per gratiam adempta nobis erat necessitas moriendi ;
+            <lb ed="#L" n="21"/>ita quia huiusmodi perturbatio rationis adempta nobis erat
+            <lb ed="#L" n="22"/>per donum originalis iustitiae, quo inferiora superioribus
+            <lb ed="#L" n="23"/>subiecta erant in homine, facta est poena originalis peccati.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2062-Dd1e228"><!-- caj-p2p2-q153a3 -->
+          <head xml:id="TAcCaj-d1e2062-Hd1e231">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2062-d1e233">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="92" type="fixed=209"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e240">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="93"/>In articulo tertio eiusdem quaestionis, in responsione ad 
+            <lb ed="#L" n="94"/>primum, dubium ex Martino occurrit, in qu. 1  de 
+            Lu<lb break="no" ed="#L" n="95"/>xuria, dicente: — Haec solutio non satisfacit. Tum quia
+            <lb ed="#L" n="96"/>circa emissionem aliarum superfluitatum potest esse 
+            inor<lb break="no" ed="#L" n="97"/>dinatio: vel in quantitate, contra sanitatem corporis, 
+            pro<lb break="no" ed="#L" n="98"/>curando nimis earum emissionem; vel in via, puta per 
+            <lb ed="#L" n="99"/>vias innaturales, puta egerere per os. 
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e260">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="100"/>Tum quia illi qui non habent semen aptum generationi,
+            <lb ed="#L" n="101"/>aut propter aetatem aut propter complexionem, non 
+            pecca<lb break="no" ed="#L" n="102"/>rent luxuriando dum quomodolibet emitterent seminis talis
+            <lb ed="#L" n="103"/>superfluitatem.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e273">
+            <lb ed="#L" n="104"/>II. Ad primum horum dicitur quod, ut saepe dictum est,
+            <lb ed="#L" n="105"/>Auctoris sermo et doctrina est formalis, et nihil detrimenti
+            <lb ed="#L" n="106"/>patitur ex his quae sunt per accidens. Inter emissionem
+            <pb ed="#L" n="210"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ergo seminis et aliarum superfluitatum, per se et 
+            secun<lb break="no" ed="#L" n="2"/>dum sua genera iudicando actus, haec est differentia, quod
+            <lb ed="#L" n="3"/>emissio seminis ex suo genere habet quod ad finem 
+            ge<lb break="no" ed="#L" n="4"/>nerationis ordinetur secundum rectam rationem; emissio
+            <lb ed="#L" n="5"/>autem aliarum superfluitatum ex suo genere nullum habet
+            <lb ed="#L" n="6"/>ordinem ad rationem, nisi pro quanto habet decentiam
+            <lb ed="#L" n="7"/>humani convictus annexam. Per accidens autem, puta quia
+            <lb ed="#L" n="8"/>non est superfluum quod superfluum creditur et ideo 
+            ni<lb break="no" ed="#L" n="9"/>mis procuratur, aut quia admixtum est bono naturae, aut
+            <lb ed="#L" n="10"/>quia homo abutitur membris officialibus corporis, 
+            pecca<lb break="no" ed="#L" n="11"/>tum in huiusmodi emissionibus constituitur.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e311">
+            <lb ed="#L" n="12"/>Ad secundum quoque dicitur quod semen puerorum
+            <lb ed="#L" n="13"/>dicitur ineptum generationi, non quia non generat, sed
+            <lb ed="#L" n="14"/>quia deficit a perfectione generationis sive prolis 
+            generan<lb break="no" ed="#L" n="15"/>dae. Et simile de semine inepto propter complexionem
+            <lb ed="#L" n="16"/>videtur. Si tamen daretur quod alicuius semen non esset,
+            <lb ed="#L" n="17"/>pro tunc saltem, generativum, ut patet de semine 
+            mulie<lb break="no" ed="#L" n="18"/>rum postquam amplius non patiuntur menstrua: non 
+            pro<lb break="no" ed="#L" n="19"/>pterea subtrahuntur a ratione in littera assignata ex parte
+            <lb ed="#L" n="20"/>finis; quia praecepta moralia attendunt ad id quod 
+            secun<lb break="no" ed="#L" n="21"/>dum naturam est, et non ad id quod per accidens in hac
+            <lb ed="#L" n="22"/>vel complexione vel aetate invenitur; per se autem 
+            se<lb break="no" ed="#L" n="23"/>men a natura ordinatum est ad prolis generationem, 
+            alio<lb break="no" ed="#L" n="24"/>quin semen non esset. Et ideo circa seminationem 
+            quam<lb break="no" ed="#L" n="25"/>libet communia praecepta, quae maxime ex fine, qui est
+            <lb ed="#L" n="26"/>generatio, sumuntur, servanda sunt, quantumcumque per
+            <lb ed="#L" n="27"/>accidens generatio tunc sequi non possit. Falsissima est
+            <lb ed="#L" n="28"/>ergo, et destructiva moralis doctrinae, consequentia allata,
+            <lb ed="#L" n="29"/>quod si ex fine, puta generatione, provenit ordo et 
+            pec<lb break="no" ed="#L" n="30"/>catum in emissione seminis, habentes semen ineptum 
+            ge<lb break="no" ed="#L" n="31"/>nerationi non peccarent. Procedit enim ex confusione eius
+            <lb ed="#L" n="32"/>quod est per se cum eo quod est per accidens: quod
+            <lb ed="#L" n="33"/>saepe in moralibus et in ceteris facit errare; contingit 
+            <lb ed="#L" n="34"/>enim etiam sapientes in his quae sunt per accidens falli .
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e363">
+            <lb ed="#L" n="35"/>III. In eodem articulo, in responsione ad secundum, ad- 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="36"/>verte quod Auctor, reddens theologam rationem, insinuavit
+            <lb ed="#L" n="37"/>simul et moralem naturaliter quare homo non potest uti
+            <lb ed="#L" n="38"/>membris suis et córpore suo ut vult: quia scilicet ipse
+            <lb ed="#L" n="39"/>non est dominus naturalium suorum totaliter, sed 
+            praesti<lb break="no" ed="#L" n="40"/>tuta est sibi a natura, naturaeque Auctore, ratio sui 
+            do<lb break="no" ed="#L" n="41"/>minii in ordine ad finem. Dictat siquidem naturale ius in
+            <lb ed="#L" n="42"/>nobis non quomodolibet, sed. ut decet, homini concessum
+            <lb ed="#L" n="43"/>esse proprii corporis usum.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e387">
+            <lb ed="#L" n="44"/>IV. In responsione ad tertium, adverte quod non 
+            red<lb break="no" ed="#L" n="45"/>dere debitum coniugi actus duorum quandoque ponitur
+            <lb ed="#L" n="46"/>vitiorum: scilicet iniustitiae, qua subtrahitur illi quod suum
+            <lb ed="#L" n="47"/>est; et insensibilitatis, qua usum  venereum totaliter 
+            per<lb break="no" ed="#L" n="48"/>sona refutat. Et licet raro talis negatio debiti ab 
+            insensi<lb break="no" ed="#L" n="49"/>bilitate procedat, ab iniustitia tamen saepe contingit. Et
+            <lb ed="#L" n="50"/>est procul dubio mortale peccatum, sive alteram sive 
+            utram<lb break="no" ed="#L" n="51"/>que habeat deformitatem: quoniam ad reddendum debitum
+            <lb ed="#L" n="52"/>coniugi tenetur alter de necessitate praecepti, sicut ad 
+            ce<lb break="no" ed="#L" n="53"/>tera praecepta iustitiae. Et quia reddere debitum est actus
+            <lb ed="#L" n="54"/>sub praecepto affirmativo cadens, ideo obligat pro loco
+            <lb ed="#L" n="55"/>aliisque circurastantiis concurrentibus. Non enim tenetur
+            <lb ed="#L" n="56"/>impotens, aut infirmus cum notabili damno personae, aut
+            <lb ed="#L" n="57"/>in loco incongruo, puta publico vel sacro: quamvis teneatur
+            <lb ed="#L" n="58"/>omni tempore, quantumcumque sacro aut communionis
+            <lb ed="#L" n="59"/>praeteritae vel futurae, debitum reddere, Et ratio 
+            diversi<lb break="no" ed="#L" n="60"/>tatis patet: quia locus publicus est contra honestatem, sacer
+            <lb ed="#L" n="61"/>vero contra divinam reverentiam, damnum autem notabile
+            <lb ed="#L" n="62"/>personae est contra naturae ordinem, quae ordinavit 
+            su<lb break="no" ed="#L" n="63"/>perfluum personae ad huiusmodi debita persolvenda; 
+            tem<lb break="no" ed="#L" n="64"/>pus autem sacrum non violatur propterea, nec communio
+            <lb ed="#L" n="65"/>impeditur aut deturpatur. Ista enim quae sunt ad bene
+            <lb ed="#L" n="66"/>esse, debent sine coniugis praeiudicio, de consensu 
+            utrius<lb break="no" ed="#L" n="67"/>que fieri, ut Apostolus docet . - An autem petenti 
+            tem<lb break="no" ed="#L" n="68"/>pore menstrui, aut modo indebito, teneatur reddere, in
+            <lb ed="#L" n="69"/>sequenti quaestione  clarum fiet.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2062-Dd1e447"><!-- caj-p2p2-q153a4 -->
+          <head xml:id="TAcCaj-d1e2062-Hd1e450">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2062-d1e452">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="11" type="fixed=211"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e459">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="12"/>IN articulo quarto eiusdem 
+            centesimaequinquagesimaeter<lb break="no" ed="#L" n="13"/>tiae quaestionis, in responsione ad primum, dubium ex
+            <lb ed="#L" n="14"/>Martino occurrit, ibidem , arguente contra hanc 
+            respon<lb break="no" ed="#L" n="15"/>sionem quod hoc videtur esse contra intentionem Cassiani,
+            <lb ed="#L" n="16"/>Collat. V , ubi, de origine maxime. naturali loquens, 
+            di<lb break="no" ed="#L" n="17"/>cit quod incrementum gastrimargiae, seu gulae, est initium
+            <lb ed="#L" n="18"/>luxuriae.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e479">
+            <lb ed="#L" n="19"/>Praeterea, illa origo quae est ex parte finis, est minus
+            <lb ed="#L" n="20"/>naturalis: quia ubi potest haberi finis luxuriae sine actibus
+            <lb ed="#L" n="21"/>aliorum vitiorum, non producit aliquod eorum.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e488">
+            <lb ed="#L" n="22"/>II. Ad haec dicitur primo quod, licet Cassianus 
+            affir<lb break="no" ed="#L" n="23"/>met id quod Auctor in littera dicit, scilicet quod gula
+            <lb ed="#L" n="24"/>ministrat. materiam luxuriae, ex hoc tamen non sequitur
+            <lb ed="#L" n="25"/>quin oriri ex vitio finaliter sit magis oriri secundum 
+            mo<lb break="no" ed="#L" n="26"/>ralem generationem vitiorum. Origo siquidem vitiorum
+            <lb ed="#L" n="27"/>potest dupliciter considerari. Primo, secundum naturae 
+            pro<lb break="no" ed="#L" n="28"/>gressum. Et sic luxuria oritur ex gula: quia sime Cerere
+            <lb ed="#L" n="29"/>- et Baccho friget Venus . — Alio modo, secundum 
+            mora<lb break="no" ed="#L" n="30"/>lem ortum. Et sic, quia finis in moralibus habet rationem
+            <lb ed="#L" n="31"/>principii , ideo ortus vitii ex vitii fine maxime a moralibus
+            <lb ed="#L" n="32"/>considerandus est. Et propterea totum oppositum est eius
+            <lb ed="#L" n="33"/>quod Martinus dixit: quia in moralibus maxime naturalis est
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="34"/>ortus ex fine, utpote ex principio in genere moris; et 
+            mi<lb break="no" ed="#L" n="35"/>nime naturalis est ortus ex parte materiae, utpote non
+            <lb ed="#L" n="36"/>formalis, sed materialis tantum. Optime ergo dixit Auctor,
+            <lb ed="#L" n="37"/>hic et alibi , ortum vitiorum ex capitali vitio ratione finis
+            <lb ed="#L" n="38"/>ponens.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e531">
+            <lb ed="#L" n="39"/>Ad id autem quod additur obiiciendo, quia ubi finis
+            <lb ed="#L" n="40"/>potest haberi sine talibus vitiis etc.: respondetur quod oriri
+            <lb ed="#L" n="41"/>ex fine vitii non contingit uno modo, scilicet ut medium
+            <lb ed="#L" n="42"/>ad finem; sed etiam ut acceptatum propter nimiam finis
+            <lb ed="#L" n="43"/>concupiscentiam et delectationem ; sicut adulter non curat
+            <lb ed="#L" n="44"/>incurrere odium multorum, quod tamen non eligit ut
+            <lb ed="#L" n="45"/>medium ad finem. Et hoc modo filiae luxuriae oriuntur
+            <lb ed="#L" n="46"/>ex luxuriae fine. Luxuriosus siquidem in tantum 
+            delecta<lb break="no" ed="#L" n="47"/>tioni venereae afficitur ut non curet incurrere caecitatem
+            <lb ed="#L" n="48"/>mentis, praecipitationem, inconsiderationem, etc.: non quod
+            <lb ed="#L" n="49"/>haec eligat propter luxuriam exercendam. Et tamen 
+            ar<lb break="no" ed="#L" n="50"/>guens hunc solum modum ortus ex fine tangit, scilicet
+            <lb ed="#L" n="51"/>ut medii ad finem. Et propterea argumentum hic peccat:
+            <lb ed="#L" n="52"/>quia finis luxuriae licet possit haberi sine his mediis, ad
+            <lb ed="#L" n="53"/>ipsum tamen modo dicto consequitur incursus horum
+            <lb ed="#L" n="54"/>vitiorum. Et ideo filiae illius vitii. dicuntur in sequenti
+            <lb ed="#L" n="55"/>articulo.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2062-Dd1e572"><!-- caj-p2p2-q153a5 -->
+          <head xml:id="TAcCaj-d1e2062-Hd1e575">Articulus 5</head>
+          <p xml:id="TAcCaj-d1e2062-d1e577">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="69" type="fixed=212"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e584">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="70"/>IN articulo quinto eiusdem 
+            centesimaequinquagesimaeter<lb break="no" ed="#L" n="71"/>tiae quaestionis, adverte duo ex Martino, ibidem . 
+            Pri<lb break="no" ed="#L" n="72"/>mum  est quod Martinus non suffert inconstantiam esse 
+            ra<lb break="no" ed="#L" n="73"/>tionis vitium, sed appetitus, ac illum vitii gradum quem
+            <lb ed="#L" n="74"/>Aristoteles vocat  incontinentiam.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e600">
+            <lb ed="#L" n="75"/>Alterum  est in responsione ad quartum, in qua imponit
+            <lb ed="#L" n="76"/>Auctori quod illa enumerata ab Isidoro dicunt tantum 
+            in<lb break="no" ed="#L" n="77"/>ordinatos actus exteriores. Et arguit, tum quia luxuria
+            <lb ed="#L" n="78"/>primo ponit inordinationem in actibus interioribus quibus
+            <lb ed="#L" n="79"/>subordinantur actus isti exteriores. Tum quia desiderare 
+            <lb ed="#L" n="80"/>dicere vel audire turpiter, scurriliter et ludicre, sunt actus
+            <lb ed="#L" n="81"/>interiores geniti a luxuria, eisque subordinantur actus 
+            ex<lb break="no" ed="#L" n="82"/>teriores nominati. Ergo, cum auctores ponunt haec esse
+            <lb ed="#L" n="83"/>filias luxuriae, magis dicendum est quod intelligunt de 
+            in<lb break="no" ed="#L" n="84"/>terioribus actibus primo, et consequenter de exterioribus.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e624">
+            <lb ed="#L" n="85"/>II. Ad primum horum non oportet aliter respondere:
+            <lb ed="#L" n="86"/>quia quaestio de vocabulis esset.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e632">
+            <lb ed="#L" n="87"/>Ad obiecta autem secundo loco, dicitur primo, quod
+            <lb ed="#L" n="88"/>Auctor non apposuit ly tantum, sed arguens imposuit: ut
+            <lb ed="#L" n="89"/>patet in littera.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e641">
+            <lb ed="#L" n="90"/>Dicitur secundo, quod inter filias luxuriae assignatas a
+            <lb ed="#L" n="91"/>Gregorio, et assignatas ab Isidoro, est haec manifesta 
+            dif<lb break="no" ed="#L" n="92"/>ferentia, quod illarum nomina formaliter important actus
+            <lb ed="#L" n="93"/>seu dispositiones interiores animi, ut patet discurrendo per
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="94"/>singula: horum vero nomina formaliter important actus
+            <lb ed="#L" n="95"/>exteriores humanos, ut patet; turpiloquia enim, scurrilia,
+            <lb ed="#L" n="96"/>ludicra et stultiloquia exteriora sonant. Et propterea Auctor
+            <lb ed="#L" n="97"/>ex interioribus reddit horum rationem.
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e663">
+            <lb ed="#L" n="98"/>Unde patet responsio ad primam obiectionem: quod
+            <lb ed="#L" n="99"/>scilicet, quia luxuria primo parit deordinationem intus quam
+            <lb ed="#L" n="100"/>hos actus, ideo ex his quae intus sunt ratio in littera 
+            red<lb break="no" ed="#L" n="101"/>ditur exteriorum; et non dicitur quod sunt exteriora
+            <lb ed="#L" n="102"/>tantum,
+          </p>
+          <p xml:id="TAcCaj-d1e2062-d1e676">
+            <lb ed="#L" n="103"/>Ad secundum dicitur quod aliud est turpiloquium, et
+            <lb ed="#L" n="104"/>aliud est desiderare turpiloquium. Si Isidorus dixisset, 
+            de<lb break="no" ed="#L" n="105"/>siderium turpiloquii, scurrilium, etc., actum interiorem 
+            si<lb break="no" ed="#L" n="106"/>gnificasset: sicut Gregorius significavit affectum praesentis
+            <lb ed="#L" n="107"/>saeculi et desperationem futuri. Sed turpiloquium ect. 
+            po<lb break="no" ed="#L" n="108"/>suit, quae exteriores actus sunt humani. Ideo isti sunt 
+            in<lb break="no" ed="#L" n="109"/>telligendi, si formaliter et moraliter sermo interpretandus
+            <lb ed="#L" n="110"/>est doctorum. Ex hoc autem quod actus exteriores 
+            oriun<lb break="no" ed="#L" n="111"/>tur ex interioribus, non sequitur quod nomine exteriorum
+            <lb ed="#L" n="112"/>intelligantur interiores, nisi ut causae. Sed tantum sequitur
+            <lb ed="#L" n="113"/>quod intelligantur actus exteriores humani, seu voluntarii :
+            <lb ed="#L" n="114"/>alioquin, non essent vitiosi vel virtuosi. Hoc enim. 
+            com<lb break="no" ed="#L" n="115"/>mune est omnibus peccatis consistentibus in actu exteriori:
+            <lb ed="#L" n="116"/>ut patet de adulterio, furto, rapina, homicidio. Perversa
+            <lb ed="#L" n="117"/>ergo est interpretatio Martini.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

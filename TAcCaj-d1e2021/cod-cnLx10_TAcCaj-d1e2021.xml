@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 145</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 145</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="147"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2021"><!-- TAcCajp2p2-q145 -->
+        <head xml:id="TAcCaj-d1e2021-Hd1e101">Quaestio 145</head>
+        <div xml:id="TAcCaj-d1e2021-Dd1e103"><!-- caj-p2p2-q145a1 -->
+          <head xml:id="TAcCaj-d1e2021-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2021-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="9" type="fixed=147"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2021-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10"/>IN tota quaestione centesimaquadragesimaquinta hoc unum
+            <lb ed="#L" n="11"/>scribendum occurrit, quod Aonestum aliter sumitur hic,
+            <lb ed="#L" n="12"/>et aliter in Prima Parte . ubi bonum conversum cum
+            <lb ed="#L" n="13"/>ente divisum est sufficienter per honestum, utile et 
+            de<lb break="no" ed="#L" n="14"/>lectabile. Aliter autem, dico, non in significatione, sed in
+            <lb ed="#L" n="15"/>amplitudine. Utrobique siquidem significat appetibile 
+            pro<lb break="no" ed="#L" n="16"/>pter se: sed ibi in tota sua amplitudine; hic vero sumitur
+            <lb ed="#L" n="17"/>appropriate ad moralia. Et ideo honestum coincidit hic
+            <lb ed="#L" n="18"/>cum virtute seu virtuoso: et felicitas ac Deus supra ho-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="19"/>nestatem, sicut supra virtutem, eminent. Ratio autem 
+            ap<lb break="no" ed="#L" n="20"/>propriationis in articulo primo, in responsione ad 
+            secun<lb break="no" ed="#L" n="21"/>dum, explicatur: quia scilicet superiora sunt nobis per 
+            ex<lb break="no" ed="#L" n="22"/>perientiam incognita, in virtutibus autem quotidie nos 
+            exer<lb break="no" ed="#L" n="23"/>cere oportet. - Honestum ergo, appropriate sumptum, est
+            <lb ed="#L" n="24"/>idem quod decorum . - Et concurrit in idem subiecto tam
+            <lb ed="#L" n="25"/>cum utili quam cum delectabili, particulariter tamen, et non
+            <lb ed="#L" n="26"/>universaliter utroque sumpto: quia scilicet omne honestum
+            <lb ed="#L" n="27"/>est aliquod utile et aliquod. delectabile .
+          </p>
+        </div>
+        <!-- no commentary -->
+        <!-- no commentary -->
+      </div>
+    </body>
+  </text>
+</TEI>

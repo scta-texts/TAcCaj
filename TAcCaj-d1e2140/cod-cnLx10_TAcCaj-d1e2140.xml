@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 168</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 168</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="350"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2140"><!-- TAcCajp2p2-q168 -->
+        <head xml:id="TAcCaj-d1e2140-Hd1e101">Quaestio 168</head>
+        <div xml:id="TAcCaj-d1e2140-Dd1e103"><!-- caj-p2p2-q168a1 -->
+          <head xml:id="TAcCaj-d1e2140-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2140-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="47" type="fixed=350"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="48"/>IN articulo primo quaestionis 
+            centesimaesexagesimaeocta<lb break="no" ed="#L" n="49"/>dubium occurrit circa reductionem ordinis 
+            exterio<lb break="no" ed="#L" n="50"/>rum motuum ad duas virtutes positas ab Aristotele : 
+            quo<lb break="no" ed="#L" n="51"/>niam non videtur huiusmodi ordinatio sufficienter ad has
+            <lb ed="#L" n="52"/>virtutes reduci. Nam dupliciter motus exterior, ut in littera
+            <lb ed="#L" n="53"/>dicitur, debet esse ordinatus: primo, ut sint motus 
+            conve<lb break="no" ed="#L" n="54"/>nientes personae quae movetur; secundo, ut sint etiam 
+            de<lb break="no" ed="#L" n="55"/>centes quoad alios. Et quoad secundum quidem, 
+            sufficien<lb break="no" ed="#L" n="56"/>ter reducitur motuum nostrorum decor ad affabilitatem.
+            <lb ed="#L" n="57"/>Sed quoad primum, non sufficienter reducitur ad veritatem.
+            <lb ed="#L" n="58"/>Quoniam veritatis virtuti sat est ut motus exterior sit 
+            ve<lb break="no" ed="#L" n="59"/>rum interioris signum: nec requirit quod sit moderatus
+            <lb ed="#L" n="60"/>ut deberet esse. Unde si quis, intus praeceps, exteriores
+            <lb ed="#L" n="61"/>etiam motus praecipites habeat, peccat contra modestiam
+            <lb ed="#L" n="62"/>exterioris motus: et tamen non contra veritatem.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e152">
+            <lb ed="#L" n="63"/>Ad hoc dicitur quod reductio ista qualis dubitando de-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="64"/>scripta est, non habetur ab Auctore: quoniam in littera
+            <lb ed="#L" n="65"/>motus exterior ut signum interioris, et non simpliciter ut
+            <lb ed="#L" n="66"/>conveniens personae, reducitur ad veritatem. Et propterea,
+            <lb ed="#L" n="67"/>si non usquequaque quadrat, non est Auctori imputandum.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e168">
+            <lb ed="#L" n="68"/>Salvari tamen, potest dicendo quod, quia ad veritatis
+            <lb ed="#L" n="69"/>virtutem pertinet moderatio exterioris motus in ordine ad
+            <lb ed="#L" n="70"/>personam bene dispositam intus, alioquin non consonaret
+            <lb ed="#L" n="71"/>motus hominis exterioris homini interiori; idcirco ad 
+            ean<lb break="no" ed="#L" n="72"/>dem virtutem spectat moderatio exterioris motus in ordine
+            <lb ed="#L" n="73"/>ad personam intus, quamvis non de facto, tamen de 
+            de<lb break="no" ed="#L" n="74"/>bito bene dispositam. Ita quod, omni fictione semota, ad
+            <lb ed="#L" n="75"/>veritatem spectat moderari exteriorem motum sic ut 
+            con<lb break="no" ed="#L" n="76"/>sonet bonae dispositioni quae est aut esse debet in 
+            inte<lb break="no" ed="#L" n="77"/>riori homine.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e193">
+            <lb ed="#L" n="78"/>Et sic decor exterioris motus ab his duabus virtutibus
+            <lb ed="#L" n="79"/>sufficienter manat.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2140-Dd1e201"><!-- caj-p2p2-q168a2 -->
+          <head xml:id="TAcCaj-d1e2140-Hd1e204">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2140-d1e206">
+            <pb ed="#L" n="352"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=352"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e215">
+            <lb ed="#L" n="2"/>In articulo secundo quaestionis 
+            centesimaesexagesimae<lb break="no" ed="#L" n="3"/>octavae adverte duo. Primo, quod nomine ludi in 
+            pro<lb break="no" ed="#L" n="4"/>posito venit tam ludus, qui consistit in factis; quam iocus,
+            <lb ed="#L" n="5"/>qui consistit in verbis. Eadem enim est ratio utriusque
+            <lb ed="#L" n="6"/>moris.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e228">
+            <lb ed="#L" n="7"/>Secundo, specialiter in responsione ad primum, quod
+            <lb ed="#L" n="8"/>praedicatores divini verbi peccant, recreationis gratia 
+            di<lb break="no" ed="#L" n="9"/>cendo aliquod ridiculum inter praedicandum: si Ambrosius
+            <lb ed="#L" n="10"/>et Auctor verum dicunt, et ratio Tulliana admittitur, 
+            sci<lb break="no" ed="#L" n="11"/>licet, quando rei dignitas adimit facultatem iocandi. Nulla
+            <lb ed="#L" n="12"/>enim dignitas maior doctrina divina, quam praedicatores
+            <lb ed="#L" n="13"/>enuntiant.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2140-Dd1e247"><!-- caj-p2p2-q168a3 -->
+          <head xml:id="TAcCaj-d1e2140-Hd1e250">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2140-d1e252">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="17" type="fixed=353"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e259">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="18"/>IN articulo tertio eiusdem quaestionis 
+            centesimaesexagesi<lb break="no" ed="#L" n="19"/>maeoctavae, dubia multa occurrunt circa excessum ludi.
+            <lb ed="#L" n="20"/>Et primum dubium  est circa illud: Excessus ludi est
+            <lb ed="#L" n="21"/>peccatum mortale quando, causa ludi, utitur quis turpibus
+            <lb ed="#L" n="22"/>verbis vel factis. Videtur enim hoc falsum. Tum quia 
+            turpi<lb break="no" ed="#L" n="23"/>loquium non est ex se peccatum mortale: et si causa ludi
+            <lb ed="#L" n="24"/>addatur, non fiet etiam peccatum mortale. Et eadem est
+            <lb ed="#L" n="25"/>ratio de turpibus factis. Multa enim sunt turpia facta quae
+            <lb ed="#L" n="26"/>non sunt secundum se mortalia: quibus si apponatur quod
+            <lb ed="#L" n="27"/>fiant causa ludi, non fiunt mortalia; cum finis iste non
+            <lb ed="#L" n="28"/>dicat secundum se speciem mortalis peccati, sed potius
+            <lb ed="#L" n="29"/>alleviet multa quae, si serio fierent, graviora essent. Aut
+            <lb ed="#L" n="30"/>igitur littera est falsa: aut specificari debet quae sunt ista
+            <lb ed="#L" n="31"/>turpia verba vel facta quae, si causa ludi fiant, reddunt
+            <lb ed="#L" n="32"/>ludum peccatum mortale.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e296">
+            <lb ed="#L" n="33"/>II. Secundum dubium  est circa illud: Excessus in
+            <lb ed="#L" n="34"/>ludo est peccatum mortale quando utitur aliquis, causa
+            <lb ed="#L" n="35"/>ludi, his quae vergunt in proximi nocumentum. Apparet
+            <lb ed="#L" n="36"/>enim ex hoc quod quicumque utitur in ludo actionibus
+            <lb ed="#L" n="37"/>lucrosis, cum hae vergant in proximi aut sui ipsius 
+            nocu<lb break="no" ed="#L" n="38"/>mentum, peccat mortaliter. Et si hoc conceditur, sequitur
+            <lb ed="#L" n="39"/>primo, quod ludens ad sphaeram parvam vel magnam, vel
+            <lb ed="#L" n="40"/>scachos, interposita pecunia a partibus pro victore, 
+            pecca<lb break="no" ed="#L" n="41"/>ret mortaliter. Quod durum valde videtur.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e318">
+            <lb ed="#L" n="42"/>III. Tertium dubium  est circa peccatum in ludo ex
+            <lb ed="#L" n="43"/>parte circumstantiarum: an solum propter vehementiam
+            <lb ed="#L" n="44"/>affectus ad ludum, reddatur ludus peccatum mortale ex
+            <lb ed="#L" n="45"/>circumstantia. Et est ratio dubii quia haec sola causa in
+            <lb ed="#L" n="46"/>littera tangitur. - In oppositum autem videtur quia etiam
+            <lb ed="#L" n="47"/>sine tam vehementi affectu ludere, ratione loci, puta in
+            <lb ed="#L" n="48"/>ecclesia, est mortale: ut patet Extra, de Vita et Honest.
+            <lb ed="#L" n="49"/>Cleric., cap. Cum decorem. Et similiter ratione personae,
+            <lb ed="#L" n="50"/>puta, clerici: ibidem, cap. Clerici officia. Ratione etiam
+            <lb ed="#L" n="51"/>temporis, puta sacri, ludi laboriosi et totius diei 
+            consum<lb break="no" ed="#L" n="52"/>ptivi abuti videntur tempore divinis dicato. Et demum 
+            ra<lb break="no" ed="#L" n="53"/>tione qualitatis ludi, puta aleae, omnibus sub poena 
+            ex<lb break="no" ed="#L" n="54"/>communicationis interdicti: ut patet XXXV dist., cap. 
+            Epi<lb break="no" ed="#L" n="55"/>scopus.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e352">
+            <lb ed="#L" n="56"/>IV. Ad evidentiam horum, praemittendum est quod,
+            <lb ed="#L" n="57"/>licet Auctor de ludo formaliter tractet, ac per hoc, actiones
+            <lb ed="#L" n="58"/>quatenus causa delectationis fiunt, consideret; nos tamen,
+            <lb ed="#L" n="59"/>ut conscientiis satisfaciamus, de ludo etiam materialiter,
+            <lb ed="#L" n="60"/>etiam non causa delectationis facto, tractandum duximus.
+            <lb ed="#L" n="61"/>Et ideo nullus admirari debet si Auctor tam brevis aliis
+            <lb ed="#L" n="62"/>disputandi campum ampliorem reliquit.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e370">
+            <lb ed="#L" n="63"/>Ad primum ergo et secundum simul dubium  dicitur
+            <lb ed="#L" n="64"/>quod Auctor exponit seipsum, subiungendo illam 
+            determi<lb break="no" ed="#L" n="65"/>nationem restrictivam, scilicet: quae de se sunt peccata
+            <lb ed="#L" n="66"/>mortalia. Ita quod non dicit, quando quis utitur turpibus:
+            <lb ed="#L" n="67"/>verbis vel factis, absolute; et similiter non dicit, quando
+            <lb ed="#L" n="68"/>quis utitur his quae vergunt in proximi nocumentum, 
+            ab<lb break="no" ed="#L" n="69"/>solute: sed cum ista restrictione subiuncta, videlicet, quae
+            <lb ed="#L" n="70"/>de se sunt peccata mortalia. Et hanc eandem sententiam
+            <lb ed="#L" n="71"/>insinuavit per praecedentia verba, cum dixit: Uno modo,
+            <lb ed="#L" n="72"/>ex ipsa specie actionum quae assumuntur in ludum.
+            <lb ed="#L" n="73"/>Unde Auctoris doctrina non est quod turpia verba vel
+            <lb ed="#L" n="74"/>facta reddant ludum peccatum mortale, ut ratio in 
+            oppo<lb break="no" ed="#L" n="75"/>situm bene probat: sed quod turpia verba vel facta quae
+            <lb ed="#L" n="76"/>de se sunt peccata mortalia, reddunt ludum peccatum
+            <lb ed="#L" n="77"/>mortale ex ipsa specie actionum quae assumuntur ad 
+            lu<lb break="no" ed="#L" n="78"/>dum. Et ideo, absque alia probatione, subdidit: Ef sic
+            <lb ed="#L" n="79"/>patet quod excessus in ludo est peccatum mortale. Talis
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="80"/>siquidem in ludo excessus, ut scilicet assumat actiones quae
+            <lb ed="#L" n="81"/>de se sunt peccata mortalia ad ludum, manifeste monstrat
+            <lb ed="#L" n="82"/>ludum esse peccatum mortale.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e418">
+            <lb ed="#L" n="83"/>Numeravit autem in littera Auctor tria genera 
+            actio<lb break="no" ed="#L" n="84"/>num talium: scilicet turpia verba quae de se sunt 
+            mor<lb break="no" ed="#L" n="85"/>talia; turpia facta quae de se sunt mortalia; et ea quae
+            <lb ed="#L" n="86"/>vergunt in nocumentum proximi, similiter de se mortalia.
+            <lb ed="#L" n="87"/>Sunt autem turpia verba de se mortalia, invitatoria verba
+            <lb ed="#L" n="88"/>ad mortalem lasciviam. Nam si quis, ut aliis 
+            delectatio<lb break="no" ed="#L" n="89"/>nem ingerat, mulierem invitet ad adulterium aut 
+            fornica<lb break="no" ed="#L" n="90"/>tionem; aut, quod peius est, committeret: tam iocus quam
+            <lb ed="#L" n="91"/>ludus peccatum mortale esset. Turpiloquio autem simplici
+            <lb ed="#L" n="92"/>utendo, aut aliquem minus honestum gestum faciendo, ut
+            <lb ed="#L" n="93"/>aliis delectationem ingerat, grave est et fugiendum valde:
+            <lb ed="#L" n="94"/>non tamen mortale ex suo genere. Apostolus enim non
+            <lb ed="#L" n="95"/>replicavit, ad Ephes. v , inter peccata excludentia a regno
+            <lb ed="#L" n="96"/>caelorum turpiloquium: cum tamen illud inter alia 
+            con<lb break="no" ed="#L" n="97"/>numerasset  tunc peccata.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e453">
+            <lb ed="#L" n="98"/>Et per hoc patet solutio primi dubii.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e458">
+            <lb ed="#L" n="99"/>V. Ad secundum dubium , quod propter ludum ex 
+            cu<lb break="no" ed="#L" n="100"/>piditate lucri difficile redditur, dicitur praemittendo quod
+            <lb ed="#L" n="101"/>ludere ex avaritia non vocatur ex hoc quod homo non
+            <lb ed="#L" n="102"/>luderet nisi apposita pecunia. Hoc enim non est sufficiens
+            <lb ed="#L" n="103"/>avaritiae signum. Quoniam aliunde hoc provenit: ex eo
+            <lb ed="#L" n="104"/>scilicet quod vult quis quod in veritate ludatur; et, cum
+            <lb ed="#L" n="105"/>ludus velut quaedam sit pugna, victoria vere delectabilis
+            <lb ed="#L" n="106"/>fit ex hoc ipso quod ille cum quo luditur in veritate fecit
+            <lb ed="#L" n="107"/>quod potuit, et tamen succubuit. Non creditur autem quod
+            <lb ed="#L" n="108"/>in veritate ludatur, nisi pecunia interiaceat perdenda.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e482">
+            <lb ed="#L" n="109"/>Et similiter non vocatur quis ludere ex avaritia, ex eo
+            <lb ed="#L" n="110"/>quod vellet vincere. Hoc enim, ludo supposito, est 
+            natu<lb break="no" ed="#L" n="111"/>ralis appetitus effectus. Tum quia, ut dictum est, ludus
+            <lb ed="#L" n="112"/>in quadam pugna ludentium consistit. Tum quia 
+            natura<lb break="no" ed="#L" n="113"/>liter homo refugit defectum, in quo consistit perdere; et
+            <lb ed="#L" n="114"/>appetit excellentiam, in qua consistit vincere.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e499">
+            <lb ed="#L" n="115"/>Sed vocatur quis ludere ex avaritia, quando principale
+            <lb ed="#L" n="116"/>motivum ad ludendum est lucrum. Quod quisque de 
+            se<lb break="no" ed="#L" n="117"/>ipso optime novit, quando ex tali intentione principaliter
+            <lb ed="#L" n="118"/>movetur. Et hi proprie non vocantur ludere, quoniam finis
+            <lb ed="#L" n="119"/>ludi, quae delectatio est, non movet illos: sed abusores
+            <lb ed="#L" n="120"/>sunt ludi ad turpe lucrum, negotiatoresque per ludum
+            <lb ed="#L" n="121"/>potius appellandi sunt.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e517">
+            <lb ed="#L" n="122"/>De huiusmodi igitur appellato ludo ob avaritiam, iuxta
+            <lb ed="#L" n="123"/>doctrinam Auctoris in hoc loco, dicendum est quod non
+            <lb ed="#L" n="124"/>est peccatum mortale secundum se. Et ratio est quia non
+            <lb ed="#L" n="125"/>assumit actum secundum se mortalem ex nocumento 
+            pro<lb break="no" ed="#L" n="126"/>ximi, sed actum avaritiae ex parte cupiditatis et modi
+            <lb ed="#L" n="127"/>turpis multipliciter. Ad cuius claram intelligentiam, recolito
+            <lb ed="#L" n="128"/>ex supra dictis in qu. cxvrr, art. 3 et 4 , quod avaritia ut
+            <lb ed="#L" n="129"/>opponitur iustitiae, est secundum se peccatum mortale: ut
+            <lb ed="#L" n="130"/>autem opponitur liberalitati, non est secundum se 
+            pecca<lb break="no" ed="#L" n="131"/>tum mortale, nisi forte quia finis ultimus ponitur in 
+            pe<lb break="no" ed="#L" n="132"/>cunia. Actus igitur avaritiae in ludo interveniens, si 
+            secun<lb break="no" ed="#L" n="133"/>dum se est mortalis, oportet vel quod contrarietur 
+            iusti<lb break="no" ed="#L" n="134"/>tiae: - constat autem, absolute loquendo, quod nullius
+            <lb ed="#L" n="135"/>iustitia violatur ex hoc quod duo domini rerum suarum
+            <lb ed="#L" n="136"/>libere exponunt illas damno vel lucro per viam ludi: quia
+            <lb ed="#L" n="137"/>scienti et volenti libere, in his quorum est pro sua 
+            volun<lb break="no" ed="#L" n="138"/>tate dominus, non fit iniuria ; uterque autem scit et vult
+            <lb ed="#L" n="139"/>pecuniam suam, cuius est libere pro sua voluntaria 
+            dispo<lb break="no" ed="#L" n="140"/>sitione dominus, tali lucro vel damno per talem viam, 
+            sci<lb break="no" ed="#L" n="141"/>licet ludi, exponere. Non est igitur hic avaritia quae iu-
+            <pb ed="#L" n="354"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>stitiae contrariatur. — Vel quae sic contrarietur 
+            liberali<lb break="no" ed="#L" n="2"/>taii quod finem ultimum in pecuniae lucro ponat. Sed
+            <lb ed="#L" n="3"/>constat quod hoc, cum ad interiorem affectum ludentis
+            <lb ed="#L" n="4"/>spectet, non oportet universaliter esse verum: nec per se
+            <lb ed="#L" n="5"/>pertinet ad rationem ludi.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e578">
+            <lb ed="#L" n="6"/>Et propterea, exclusa utraque mortali avaritia a ludo
+            <lb ed="#L" n="7"/>ob avaritiam, sequitur quod non est secundum se mortale
+            <lb ed="#L" n="8"/>peccatum ludere principaliter ob cupiditatem lucri, Sed est
+            <lb ed="#L" n="9"/>peccatum grave ac turpe. Nam ex ipsa cupiditate lucri ex
+            <lb ed="#L" n="10"/>inordinata via, peccatum est non parvum. Ex eo vero quod
+            <lb ed="#L" n="11"/>homo a rationis industria, qua pecunia comparanda est et
+            <lb ed="#L" n="12"/>conservanda, se deiicit, et fortuito eventui conservationem,
+            <lb ed="#L" n="13"/>perditionem et acquisitionem pecuniae submittit, turpis 
+            ef<lb break="no" ed="#L" n="14"/>ficitur: et tanto turpior, quanto ab his lucrari intendit 
+            qui<lb break="no" ed="#L" n="15"/>bus benefaciendum est, scilicet amicis, ut Aristoteles 
+            di<lb break="no" ed="#L" n="16"/>xit . Et propterea turpe lucrum appellatur quod ludo 
+            ac<lb break="no" ed="#L" n="17"/>quiritur.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e607">
+            <lb ed="#L" n="18"/>Simile autem iudicium est de vocatis commissis, 
+            vide<lb break="no" ed="#L" n="19"/>licet cum aliqui disputantes de aliquo eventu futuro, 
+            com<lb break="no" ed="#L" n="20"/>mittunt suas pecunias, ut, si evenerit pars affirmativa, 
+            lu<lb break="no" ed="#L" n="21"/>cretur mille, si negativa, perdat totidem vel minus, prout
+            <lb ed="#L" n="22"/>spes maior pro altera parte est. Detestanda quippe sunt
+            <lb ed="#L" n="23"/>huiusmodi: mortalia tamen peccata secundum se non sunt.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e623">
+            <lb ed="#L" n="24"/>Et haec dicimus stando infra morales limites: hoc est,
+            <lb ed="#L" n="25"/>seclusis legibus, et fraudibus, et aliis malis circumstantiis.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e630">
+            <lb ed="#L" n="26"/>VI. Ad dubium tertium  dicitur quod ad causam in littera
+            <lb ed="#L" n="27"/>allatam. reducuntur omnium circumstantiarum corruptiones
+            <lb ed="#L" n="28"/>per se ad ludum pertinentes: nam nisi ex affectu ludi, sed
+            <lb ed="#L" n="29"/>aliunde proveniant, per accidens ad ludi peccatum 
+            concur<lb break="no" ed="#L" n="30"/>rent, ut de se patet. Ex affectu autem ludi, nisi sit tantus
+            <lb ed="#L" n="31"/>quod ducat in contemptum expressum vel interpretativum
+            <lb ed="#L" n="32"/>Dei, aut legis canonicae vel civilis, nulla apparet 
+            circum<lb break="no" ed="#L" n="33"/>stantiae mortalis deformitas: quoniam ominis talis 
+            defor<lb break="no" ed="#L" n="34"/>mitas ad aliquid dictorum spectat. Continet ergo assignata
+            <lb ed="#L" n="35"/>in littera causa omnium circumstantiarum maculas.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e655">
+            <lb ed="#L" n="36"/>Ad singulas autem obiectiones deveniendo, dicitur quod
+            <lb ed="#L" n="37"/>in loco sacro iocari quidem, licet non deceat, quia tamen
+            <lb ed="#L" n="38"/>hoc non dicit notabilem iniuriam loci sacri, peccatum 
+            mor<lb break="no" ed="#L" n="39"/>tale non est secundum se. - Ludere autem ex causa 
+            ra<lb break="no" ed="#L" n="40"/>tionabili, puta si aliqua necessitate infirmum ibi oportet
+            <lb ed="#L" n="41"/>ludere ut non dormiat, nullum peccatum est. Et idem 
+            vi<lb break="no" ed="#L" n="42"/>detur cum, tempore belli, clausi sunt fideles in ecclesia,
+            <lb ed="#L" n="43"/>et sani egent excussione otii aut somni per aliquem 
+            ho<lb break="no" ed="#L" n="44"/>nestum ludum: quoniam, concesso principali, hoc est 
+            ha<lb break="no" ed="#L" n="45"/>bitatione tunc in loco sacro, concessa quoque intelliguntur
+            <lb ed="#L" n="46"/>accessoria honesta. — Sine rationabili autem causa, ex 
+            le<lb break="no" ed="#L" n="47"/>vitate animi, ludere in loco sacro, in his ludis qui non
+            <lb ed="#L" n="48"/>sunt specialiter prohibiti, et sine scandalo, et sine actibus
+            <lb ed="#L" n="49"/>indecentiam loco facientibus: veniale videtur secundum
+            <lb ed="#L" n="50"/>Auctoris hic doctrinam, quoniam nullius legis contemptus
+            <lb ed="#L" n="51"/>hic intervenit. Secus in specialiter prohibitis, ut sunt ludi
+            <lb ed="#L" n="52"/>theatrales et similes: in quibus contemptus, interpretativus
+            <lb ed="#L" n="53"/>saltem, legis canonicae ipso facto intervenire videtur.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e697">
+            <lb ed="#L" n="54"/>De circumstantia autem personae, eadem distinctione
+            <lb ed="#L" n="55"/>utendum est. Quod scilicet, rationabili subsistente causa,
+            <lb ed="#L" n="56"/>etiam ad aleas ludere potest clericus, sine scandalo: puta
+            <lb ed="#L" n="57"/>si infirmus non potest alia via a somno averti. - Ex 
+            le<lb break="no" ed="#L" n="58"/>vitate autem, et sine scandalo, ludere clericis veniale est:
+            <lb ed="#L" n="59"/>nisi ex natura actus qui assumitur in ludum, repugnet
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="60"/>clerico, ut assumere arma, larvas, et huiusmodi. Tunc enim,
+            <lb ed="#L" n="61"/>iuxta speciem et repugnantiam actuum assumptorum ad
+            <lb ed="#L" n="62"/>ludum, iudicandum est de mortali et veniali, an inducant
+            <lb ed="#L" n="63"/>contemptum interpretativum clericalis dignitatis et 
+            canoni<lb break="no" ed="#L" n="64"/>cae legis.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e726">
+            <lb ed="#L" n="65"/>De temporis autem circumstantia, verum est illicitos
+            <lb ed="#L" n="66"/>propter tempus esse ludos laboriosos, aut quasi totius diei
+            <lb ed="#L" n="67"/>consumptivos, etiam non omissa missa: multo magis quam
+            <lb ed="#L" n="68"/>bella iusta, sine necessitate, illicita sunt in diebus festis.
+            <lb ed="#L" n="69"/>Mortale tamen peccatum in huiusmodi ludis non est. 
+            Quo<lb break="no" ed="#L" n="70"/>niam labores ludicri non serviles, sed liberales sunt. Et
+            <lb ed="#L" n="71"/>consumptio festi, non omissis divinis, in vanis, non contra
+            <lb ed="#L" n="72"/>sed praeter praeceptum festorum est.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e746">
+            <lb ed="#L" n="73"/>De qualitate demum ludi, sciendum est quod ains est
+            <lb ed="#L" n="74"/>loqui de ludo ut ludus est: et aliud de ludo secundum
+            <lb ed="#L" n="75"/>ilius abusum. Nam ludus quatenus ludus est, ex fine, qui
+            <lb ed="#L" n="76"/>est delectatio animalis, quae in quiete rationabilis motus
+            <lb ed="#L" n="77"/>consistit, pensandus est: ita quod tanto melior est ludus,
+            <lb ed="#L" n="78"/>quanto fini convenientior regula rationis servata. Quia 
+            lu<lb break="no" ed="#L" n="79"/>dus, quanto magis fortunae commissus est, tanto, ceteris
+            <lb ed="#L" n="80"/>paribus, accommodatior est quieti rationis: et quanto magis
+            <lb ed="#L" n="81"/>industriosus, tanto minus quieti rationis sensuumque 
+            con<lb break="no" ed="#L" n="82"/>venit. Ideo, absolute loquendo, ludus scachorum pessimus
+            <lb ed="#L" n="83"/>est in ordine ad proprium finem ludi: quamvis optimus
+            <lb ed="#L" n="84"/>sit ad fugandum otium vel somnum, propter industriae
+            <lb ed="#L" n="85"/>diligentiam magnam in eo requisitam. Et per oppositum
+            <lb ed="#L" n="86"/>ludus alearum, hoc est, fortuitus, maxime convenit fini.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e779">
+            <lb ed="#L" n="87"/>Sed quoniam abusus ludi ad avaritiam freno eget, et
+            <lb ed="#L" n="88"/>legum est hos motus compescere; ideo ludos fortuitos
+            <lb ed="#L" n="89"/>leges prohibent, quoniam ipsis homines maxime abutuntur
+            <lb ed="#L" n="90"/>ad avaritiam. Quocirca, si non avaritiae causa, sed vere
+            <lb ed="#L" n="91"/>recreationis causa, ludatur ad aleam, et sine scandalo: legis
+            <lb ed="#L" n="92"/>ratio cessat communiter. Et propterea laici qui sic ludunt,
+            <lb ed="#L" n="93"/>ubi civili lege permittuntur, et canonica nunquam servari
+            <lb ed="#L" n="94"/>visa est, excusantur. — Clerici autem, ultra hoc, scandali
+            <lb ed="#L" n="95"/>rationem habere tenentur, quod ex eorum ludo nasci 
+            po<lb break="no" ed="#L" n="96"/>test. Et ideo ubi, tempore pestis, aut aegritudinis ratione,
+            <lb ed="#L" n="97"/>clerici soliti sunt sine scandalo ludere, recreationis gratia,
+            <lb ed="#L" n="98"/>ad chartas vel tabellas cum aleis, nullum ex hoc crimen
+            <lb ed="#L" n="99"/>incurrerent: quoniam extra casum et rationem prohibentis
+            <lb ed="#L" n="100"/>legis sumus; ' et in his quae solum sunt mala quia 
+            pro<lb break="no" ed="#L" n="101"/>hibita propter abusum, consuetudo excusat. — Dici quoque
+            <lb ed="#L" n="102"/>potest quod, quia canon ille quoad laicos communiter non
+            <lb ed="#L" n="103"/>servatur, nec unquam Pontificia auctoritate renovatus- 
+            vi<lb break="no" ed="#L" n="104"/>detur, abrogatus sit ex non-usu. Clerici vero, si vere 
+            de<lb break="no" ed="#L" n="105"/>servirent aleae, iam contemptores essent legis, quam 
+            ab<lb break="no" ed="#L" n="106"/>rogatam quoad se non putant, sed potius renovatam et
+            <lb ed="#L" n="107"/>extensam in cap. Clerici officia, Extra, de Vita et 
+            Hone<lb break="no" ed="#L" n="108"/>state Clericorum.
+          </p>
+          <p xml:id="TAcCaj-d1e2140-d1e829">
+            <lb ed="#L" n="109"/>VII. In. eodem articulo, in responsione ad ultimum,
+            <lb ed="#L" n="110"/>adverte duos casus quibus dare histrionibus est illicitum.
+            <lb ed="#L" n="111"/>Scilicet, vel propter superfluitatem: et hoc spectat ad 
+            pro<lb break="no" ed="#L" n="112"/>digalitatis vitium. Vel propter iniquitatem ludi: et hoc
+            <lb ed="#L" n="113"/>spectat ad idem vitium ad quod ludus ille spectat, cum
+            <lb ed="#L" n="114"/>actione quae ad ludum assumitur; quoniam, ut in littera
+            <lb ed="#L" n="115"/>dicitur, peccat ut fovens histrionem in tali crimine. Et
+            <lb ed="#L" n="116"/>propterea iuxta excessum in primo, et iuxta qualitatem
+            <lb ed="#L" n="117"/>peccati in secundo, iudicari debet quando mortale vel
+            <lb ed="#L" n="118"/>veniale, et quando gravius et quando minus grave est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

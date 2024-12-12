@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 160</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 160</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="289"/>
+        <cb ed="#L" n="g"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2099"><!-- TAcCajp2p2-q160 -->
+        <head xml:id="TAcCaj-d1e2099-Hd1e101">Quaestio 160</head>
+        <div xml:id="TAcCaj-d1e2099-Dd1e103"><!-- caj-p2p2-q160a1 -->
+          <head xml:id="TAcCaj-d1e2099-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2099-d1e108">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="68" type="fixed=289"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2099-d1e115">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="69"/>IN articulo primo quaestionis centesimaesexagesimae, 
+            du<lb break="no" ed="#L" n="70"/>Inm occurrit circa illam propositionem : Ubicumque est
+            <lb ed="#L" n="71"/>aliqua virtus specialis circa aliquod maximum, oportet
+            <lb ed="#L" n="72"/>esse aliam virtutem circa ea quae mediocriter se habent.
+            <lb ed="#L" n="73"/>Videtur enim haec propositio contraria, primo, veritati.
+            <lb ed="#L" n="74"/>Quia circa concupiscentias et iras, et timores ac audacias,
+            <lb ed="#L" n="75"/>est aliqua virtus specialis circa maximum, puta castitas sive
+            <lb ed="#L" n="76"/>abstinentia, mansuetudo, fortitudo: et tamen nulla ponitur
+            <lb ed="#L" n="77"/>virtus circa ea quae mediocriter se habent in dictis 
+            ma<lb break="no" ed="#L" n="78"/>teriis.
+          </p>
+          <p xml:id="TAcCaj-d1e2099-d1e141">
+            <lb ed="#L" n="79"/>Deinde apparet contraria Auctori, qui superius, in qu.
+            <lb ed="#L" n="80"/>cxx , ex proposito. docuit quod circa passiones quae,
+            <cb ed="#L" n="i"/>
+            <lb ed="#L" n="81"/>inquantum passiones sunt, principaliter adversantur rationi,
+            <lb ed="#L" n="82"/>non distinguuntur duae virtutes, una circa magnum et alia
+            <lb ed="#L" n="83"/>circa mediocre.
+          </p>
+          <p xml:id="TAcCaj-d1e2099-d1e157">
+            <lb ed="#L" n="84"/>II. Ad dubitationem hanc breviter dicitur quod maior
+            <lb ed="#L" n="85"/>illa sane est intelligenda: scilicet de mediocribus in quibus
+            <lb ed="#L" n="86"/>salvatur propria difficultas notabilis. Sic enim intellecta
+            <lb ed="#L" n="87"/>omnes instantias, et simpliciter et ad hominem, excludit.
+            <lb ed="#L" n="88"/>Nec arguendus est diminutionis propterea Auctor. Quia in
+            <lb ed="#L" n="89"/>omni sermone formali, cum de materia virtutis moralis in
+            <lb ed="#L" n="90"/>communi agitur, subintelliguntur salvae conditiones 
+            com<lb break="no" ed="#L" n="91"/>munes, seu generaliter requisitae ad materiam virtutis 
+            mo<lb break="no" ed="#L" n="92"/>ralis. Et propterea, sicut subintelligitur quod de mediocri-
+            <pb ed="#L" n="290"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>bus quae sunt actus humani, est sermo, quia soli humani 
+            <lb ed="#L" n="2"/>actus sunt materia virtutum moralium; ita subintelligitur 
+            <lb ed="#L" n="3"/>quod de mediocribus habentibus propriam difficultatem
+            <lb ed="#L" n="4"/>notabilem est sermo, quia circa sola difficilia est virtus .
+          </p>
+          <p xml:id="TAcCaj-d1e2099-d1e193">
+            <lb ed="#L" n="5"/>Constat autem hanc esse mentem Auctoris, non solum
+            <lb ed="#L" n="6"/>ex 2 art. allegatae quaestionis, sed etiam ex ratione hic 
+            sub<lb break="no" ed="#L" n="7"/>iuncta, scilicet: eo quod oportet quantum ad omnia vitam
+            <lb ed="#L" n="8"/>hominis secundum virtutem esse regulatam. Haec enim 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="9"/>ratio monstrat quod de mediocribus quae restant virtute
+            <lb ed="#L" n="10"/>regulanda, loquitur. Ita quod, si (pro quia) mediocria 
+            ali<lb break="no" ed="#L" n="11"/>qua sunt quae sub maximorum regula comprehenduntur,
+            <lb ed="#L" n="12"/>de illis non est sermo, utpote iam sortitis suas regulas.
+            <lb ed="#L" n="13"/>Unde et exemplum dedit Auctor in illa materia in qua
+            <lb ed="#L" n="14"/>maximum habet suam difficultatem, et mediocre habet 
+            pro<lb break="no" ed="#L" n="15"/>priam difficultatem, scilicet circa sumptus, ut patet ex 
+            su<lb break="no" ed="#L" n="16"/>pra  dictis.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2099-Dd1e225"><!-- caj-p2p2-q160a2 -->
+          <head xml:id="TAcCaj-d1e2099-Hd1e228">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2099-d1e230">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="97" type="fixed=290"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2099-d1e237">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="98"/>IN articulo secundo eiusdem quaestionis, adverte primo,
+            <lb ed="#L" n="99"/>quod Auctor, in corpore articuli, de virtutibus ab aliis
+            <lb ed="#L" n="100"/>positis circa materiam modestiae, refert se ad 
+            quaestio<lb break="no" ed="#L" n="101"/>nem cxLi, de partibus Temperantiae, ubi videre poteris.
+          </p>
+          <p xml:id="TAcCaj-d1e2099-d1e250">
+            <lb ed="#L" n="102"/>Adverte secundo, quod in responsione ad secundum
+            <lb ed="#L" n="103"/>Auctor vult quod partes modestiae non oportet quod dis-
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="104"/>tinguantur penes diversitatem materiae in hoc quod, si
+            <lb ed="#L" n="105"/>est circa passionem, non sit circa operationem, et e 
+            con<lb break="no" ed="#L" n="106"/>tra: sicut distinguuntur iustitia et temperantia per hoc quod
+            <lb ed="#L" n="107"/>illa est circa operationes, ista circa passiones. Quoniam stat
+            <lb ed="#L" n="108"/>unam et eandem speciem modestiae esse et circa 
+            passio<lb break="no" ed="#L" n="109"/>nes et circa operationes: quia in operationibus et passio-
+            <pb ed="#L" n="291"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>nibus in quibus non est aliqua excellens difficultas ex parte 
+            <lb ed="#L" n="2"/>materiae, sed solum ex parte moderationis, non ponitur
+            <lb ed="#L" n="3"/>virtus nisi una.
+          </p>
+          <p xml:id="TAcCaj-d1e2099-d1e283">
+            <lb ed="#L" n="4"/>Et ut haec intelligas, inspice ad opposita. Verbi gratia,
+            <lb ed="#L" n="5"/>cum quis ex ira percutit hominem, est ibi passio irae, est
+            <lb ed="#L" n="6"/>et actio percussionis iniustae. Et ex parte utriusque 
+            mate<lb break="no" ed="#L" n="7"/>riae est propria excellens difficultas: quoniam ira habet
+            <lb ed="#L" n="8"/>suam resistentiam ad rationem; et operatio ad proximum
+            <lb ed="#L" n="9"/>habet propriam difficultatem ut recta sit. Et propterea 
+            opor<lb break="no" ed="#L" n="10"/>tet ibi aliam esse virtutem circa moderationem irae: et aliam
+            <lb ed="#L" n="11"/>circa moderationem operationis secundum se. Et duo vitia
+            <lb ed="#L" n="12"/>incurruntur in percussione huiusmodi: scilicet iracundiae
+            <lb ed="#L" n="13"/>et iniustitiae. — Ubi autem passio et operatio ex propriis
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="14"/>non habent excellentes suas difficultates, verbi gratia, 
+            ex<lb break="no" ed="#L" n="15"/>teriores motus corporis et interiores quidam affectus qui
+            <lb ed="#L" n="16"/>sunt exteriorum motuum rationes: ex hoc solo 
+            difficul<lb break="no" ed="#L" n="17"/>tatem notabilem habent quod moderamine egent. Et ideo
+            <lb ed="#L" n="18"/>unica pars modestiae sufficit ad utrumque: nec oportet
+            <lb ed="#L" n="19"/>unam modestiae partem ponere ad moderandum tales 
+            af<lb break="no" ed="#L" n="20"/>fectus, et alteram ad moderandum exteriora opera.
+          </p>
+          <p xml:id="TAcCaj-d1e2099-d1e326">
+            <lb ed="#L" n="21"/>Ex duobus ergo capitibus modestia ad tam diversas se
+            <lb ed="#L" n="22"/>extendit materias, ut in hac responsione exprimitur. Primo,
+            <lb ed="#L" n="23"/>ex hoc quod sub ea diversae continentur virtutes. Secundo,
+            <lb ed="#L" n="24"/>ex eo quod pars eius una sufficit ad passionem et 
+            opera<lb break="no" ed="#L" n="25"/>tionem moderandam.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

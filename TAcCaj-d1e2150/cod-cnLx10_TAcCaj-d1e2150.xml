@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 170</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 170</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="363"/>
+        <cb ed="#L" n="g"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2150"><!-- TAcCajp2p2-q170 -->
+        <head xml:id="TAcCaj-d1e2150-Hd1e101">Quaestio 170</head>
+        <div xml:id="TAcCaj-d1e2150-Dd1e103"><!-- caj-p2p2-q170a1 -->
+          <head xml:id="TAcCaj-d1e2150-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2150-d1e108">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="77" type="fixed=363"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2150-d1e115">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="78"/>In quaestione centesimaseptuagesima occurrit nihil 
+            scri<lb break="no" ed="#L" n="79"/>bendum, nisi quod ex calce primi articuli  habes unde  
+            <lb ed="#L" n="80"/>mirari non debes si statutum Ecclesiae de temperantiae 
+            <lb ed="#L" n="81"/>actu positivo, scilicet circa ieiunia, minus servatur: et quod,  
+            <lb ed="#L" n="82"/>si secundum diversa tempora mutaretur, non fieret virtuti
+            <cb ed="#L" n="i"/>
+            <lb ed="#L" n="83"/>temperantiae iniuria. Ideo namque Dominus noster Iesus
+            <lb ed="#L" n="84"/>Christus huiusmodi praecepta determinate non dedit, ut
+            <lb ed="#L" n="85"/>possit Ecclesia statuere et destruere prout expedit fidelibus,
+            <lb ed="#L" n="86"/>et diversis locis ac temporibus diversos modos indicere.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

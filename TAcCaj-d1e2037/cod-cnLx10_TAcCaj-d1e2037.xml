@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 148</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 148</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="167"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2037"><!-- TAcCajp2p2-q148 -->
+        <head xml:id="TAcCaj-d1e2037-Hd1e101">Quaestio 148</head>
+        <div xml:id="TAcCaj-d1e2037-Dd1e103"><!-- caj-p2p2-q148a1 -->
+          <head xml:id="TAcCaj-d1e2037-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2037-d1e108">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="77" type="fixed=167"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e115">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="78"/>IN articulo primo quaestionis 
+            centesimaequadragesimae<lb break="no" ed="#L" n="79"/>octavae, in responsione ad secundum, dubium occurrit ,
+            <lb ed="#L" n="80"/>an excedere mensuram in comedendo, non propter 
+            con<lb break="no" ed="#L" n="81"/>cupiscentiam, sed propter imperitiam, sit vitiosum: et cuius
+            <lb ed="#L" n="82"/>viti opus sit, Et est ratio dubii quia huiusmodi imperitia
+            <cb ed="#L" n="i"/>
+            <lb ed="#L" n="83"/>videtur arti, non prudentiae contraria: ac per hoc, nullius
+            <lb ed="#L" n="84"/>moralis vitii actus videtur talis excessus.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e137">
+            <lb ed="#L" n="85"/>In oppositum autem est quia peccatum ex ignorantia
+            <lb ed="#L" n="86"/>ad eandem speciem vitii spectat ad quam. spectaret si fieret
+            <lb ed="#L" n="87"/>scienter: homicidium enim accidens ex ignorantia trans-
+            <pb ed="#L" n="168"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>euntis hominis, ad homicidii speciem reducitur; et ebrietas
+            <lb ed="#L" n="2"/>ex ignorantia potentiae vini, ad ebrietatis speciem spectat.
+            <lb ed="#L" n="3"/>Excessus ergo in comedendo ex imperitia ad gulam, quae
+            <lb ed="#L" n="4"/>circa excessum in comedendo versatur, spectat. Cuius 
+            con<lb break="no" ed="#L" n="5"/>trarium in littera dicitur.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e161">
+            <lb ed="#L" n="6"/>II. Ad hoc dicitur quod excessus in edendo ex 
+            impe<lb break="no" ed="#L" n="7"/>ritia contingit dupliciter. Quandoque enim contingit ex
+            <lb ed="#L" n="8"/>imperitia culpabili, scilicet eius quod scire debet: puta si
+            <lb ed="#L" n="9"/>infirmus, potens se custodire a nocivis, quia est dives, etc.,
+            <lb ed="#L" n="10"/>non curat scire quid sibi noceat, et sic ex imperitia errat
+            <lb ed="#L" n="11"/>in comedendo. Et sic excedere in qualitate aut 
+            quantita<lb break="no" ed="#L" n="12"/>te, etc., non ex concupiscentia sed ex imperitia, est 
+            pecca<lb break="no" ed="#L" n="13"/>tum- gulae, non formaliter, sed materialiter. - Quandoque
+            <lb ed="#L" n="14"/>autem contingit ex imperitia inculpabili: puta quia homo 
+            <lb ed="#L" n="15"/>sanus comedit consueta, et credit non esse sibi nimis quod
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="16"/>comedit, aut non esse nocivum. Et sic huiusmodi excessus
+            <lb ed="#L" n="17"/>non est peccatum: et propterea nullius vitii actus est. —
+            <lb ed="#L" n="18"/>Cum igitur in littera dicitur quod hoc solum pertinet ad
+            <lb ed="#L" n="19"/>gulam, quod aliquis, propter concupiscentiam cibi 
+            delecta<lb break="no" ed="#L" n="20"/>bilis, scienter excedat mensuram in edendo, de gula 
+            for<lb break="no" ed="#L" n="21"/>maliter intellige. Nam, ut dictum est, gula materialiter
+            <lb ed="#L" n="22"/>aliter esse potest: sicut et detractio materialiter est. quae
+            <lb ed="#L" n="23"/>absque detrahendi intentione ex loquacitate fit.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e206">
+            <lb ed="#L" n="24"/>Et per hoc patet solutio obiectorum. Nam et prima
+            <lb ed="#L" n="25"/>ratio concludit verum de imperitia inculpabili. - Secunda
+            <lb ed="#L" n="26"/>quoque concludit verum de actu qui fit ex imperitia seu
+            <lb ed="#L" n="27"/>ignorantia culpabili. Spectant enim hi actus, saltem 
+            mate<lb break="no" ed="#L" n="28"/>rialiter et reductive, ad species quarum essent si scienter
+            <lb ed="#L" n="29"/>fuissent voliti.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2037-Dd1e223"><!-- caj-p2p2-q148a2 -->
+          <head xml:id="TAcCaj-d1e2037-Hd1e226">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2037-d1e228">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="98" type="fixed=168"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e235">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="99"/>In articulo secundo quaestionis eiusdem dubium occurrit
+            <lb ed="#L" n="100"/>ex Martino, in qu. r  de Gula, eiusdem tractatus ,
+            <lb ed="#L" n="101"/>circa determinationem peccati mortalis gulae. Inquit enim:
+            <lb ed="#L" n="102"/>« Ista opinio, iudicio meo, non sufficienter ostendit gulam
+            <lb ed="#L" n="103"/>esse peccatum mortale ». Arguitque octo argumentis quod
+            <lb ed="#L" n="104"/>gula non est peccatum mortale quia directe avertit a fine
+            <lb ed="#L" n="105"/>ultimo et praeceptis divinis . Quia vel hoc intelligitur de
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="106"/>praecepto divino de actu ipsius gulae. Et hoc non: quia
+            <lb ed="#L" n="107"/>secundum eundem Doctorem, in responsione ad primum,
+            <lb ed="#L" n="108"/>nullum est tale praeceptum. — Aut intelligitur de 
+            praece<lb break="no" ed="#L" n="109"/>pto divino quod est de aliis actibus, puta furto, 
+            adulte<lb break="no" ed="#L" n="110"/>rio, etc. Et tunc gula non esset alio modo peccatum 
+            mor<lb break="no" ed="#L" n="111"/>tale quam dare eleemosynam, orare vel studere: quia 
+            sci<lb break="no" ed="#L" n="112"/>licet ista non sunt secundum se mortalia, si quis tamen
+            <pb ed="#L" n="169"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ita esset affectus horum alicui ut esset paratus facere 
+            con<lb break="no" ed="#L" n="2"/>tra praecepta Dei, propter haec essent peccata mortalia.
+            <lb ed="#L" n="3"/>Alia autem argumenta omitto: quia iuxta hunc 
+            secun<lb break="no" ed="#L" n="4"/>dum sensum praecise procedunt, qui alienus est a mente et
+            <lb ed="#L" n="5"/>verbis Doctoris, ut patebit .
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e287">
+            <lb ed="#L" n="6"/>Duo tamen non sunt praetermittenda, quae militant 
+            ad<lb break="no" ed="#L" n="7"/>versus illud verbum, contra praecepta Dei. Primum est. 
+            <lb ed="#L" n="8"/>Gula qua quis frangit ieiunium quadragesimae, est 
+            pecca<lb break="no" ed="#L" n="9"/>tum gulae mortale. Et tamen non contra praeceptum Dei,
+            <lb ed="#L" n="10"/>sed Ecclesiae. Non ergo gula ex hoc definienda est 
+            pecca<lb break="no" ed="#L" n="11"/>tum mortale, quia scilicet est contra praecepta Dei.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e303">
+            <lb ed="#L" n="12"/>Secundum est. Gula qua quis vescitur ob delectationem
+            <lb ed="#L" n="13"/>carnibus humanis, est peccatum mortale: quia est 
+            bestia<lb break="no" ed="#L" n="14"/>litas et gula contra naturam, sicut sodomia luxuria contra
+            <lb ed="#L" n="15"/>naturam. Et tamen non est contra praeceptum divinum:
+            <lb ed="#L" n="16"/>quia nullum divinum praeceptum de hoc fit. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e317">
+            <lb ed="#L" n="17"/>II. Ad horum evidentiam, scito quod verba litterae 
+            pos<lb break="no" ed="#L" n="18"/>sunt dupliciter accipi. Primo, confuse: quasi Auctor 
+            vo<lb break="no" ed="#L" n="19"/>luerit ex multis circumlocutive declarare quando gula est
+            <lb ed="#L" n="20"/>peccatum mortale, ex aversione a fine, ex contemptu Dei,
+            <lb ed="#L" n="21"/>et praeparatione ad faciendum contra praecepta Dei. Et
+            <lb ed="#L" n="22"/>hic sensus satis rudis est, et alienus ab Auctoris 
+            excellen<lb break="no" ed="#L" n="23"/>tia et doctrina.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e335">
+            <lb ed="#L" n="24"/>Secundo, distincte et formaliter: ita quod, iuxta 
+            distin<lb break="no" ed="#L" n="25"/>ctionem quae fit in communi de ablatione ordinis rationis,
+            <lb ed="#L" n="26"/>scilicet tollendo finem vel ea quae sunt ad finem, 
+            sub<lb break="no" ed="#L" n="27"/>sumptum est in particulari de gula quod quando tollit
+            <lb ed="#L" n="28"/>finem ultimum, tunc est mortale;: et quod tunc tollit 
+            fi<lb break="no" ed="#L" n="29"/>nem ultimum quando quis delectationi gulae inhaeret ut
+            <lb ed="#L" n="30"/>fini ultimo; sicut etiam inanis gloria tunc est mortalis
+            <lb ed="#L" n="31"/>quando quis humanae gloriae inhaeret ut ultimo fini. Et
+            <lb ed="#L" n="32"/>hanc eandem quoad vitium sententiam habes ex Aristotele,
+            <lb ed="#L" n="33"/>in III. Ethic. , dicente de intemperato quod a cupiditate
+            <lb ed="#L" n="34"/>adeo ducitur ut illam ceteris omnibus anteponat. Et hic
+            <lb ed="#L" n="35"/>sensus est verus manifeste; et expressus, non implicite
+            <lb ed="#L" n="36"/>positus, in littera, cum dicitur: Quod quidem tunc 
+            con<lb break="no" ed="#L" n="37"/>tingit quando delectationi gulae inhaeret homo tanquam
+            <lb ed="#L" n="38"/>fini propter quem Deum contemnit, hoc est, tanquam fini
+            <lb ed="#L" n="39"/>ultimo. Et idem replicatur in responsione ad secundum:
+            <lb ed="#L" n="40"/>sic enim contemnitur Deus, qui est ex sua natura finis
+            <lb ed="#L" n="41"/>ultimus; quoniam dignitas ultimi finis attribuitur tali 
+            de<lb break="no" ed="#L" n="42"/>et fit gulosi Deus, iuxta illud : Quorum Deus
+            <lb ed="#L" n="43"/>venter est.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e381">
+            <lb ed="#L" n="44"/>III. Subiuncta autem verba in littera de praeparatione ad
+            <lb ed="#L" n="45"/>agendum contra praecepta Dei propter huiusmodi 
+            delecta<lb break="no" ed="#L" n="46"/>tiones, ad duo apposita sunt. Primo, ad explicandum 
+            ef<lb break="no" ed="#L" n="47"/>fectum definitae gulae. Effectus siquidem dictae gulae est
+            <lb ed="#L" n="48"/>quod homo est paratus transgredi praecepta Dei propter
+            <lb ed="#L" n="49"/>illam: quoniam delectatio illa amatur ut ultimus finis,
+            <lb ed="#L" n="50"/>ac per hoc praeceptis Dei anteponitur, et sic facit 
+            homi<lb break="no" ed="#L" n="51"/>nem transgressorem aliorum praeceptorum propter illam
+            <lb ed="#L" n="52"/>assequendam. - Secundo, ad declarandum a posteriori
+            <lb ed="#L" n="53"/>quando delectatio gulae affectatur ut ultimus finis. Quia
+            <lb ed="#L" n="54"/>enim hoc saepe latere videtur, sicut de appetitu gloriae,
+            <lb ed="#L" n="55"/>pecuniae et similium; ideo expediens fuit docere unde
+            <lb ed="#L" n="56"/>possemus cognoscere quando homo ponit in delectatione
+            <lb ed="#L" n="57"/>gulae et similium. finem ultimum: quando scilicet propter
+            <lb ed="#L" n="58"/>illam adipiscendam paratus est transgredi praecepta Dei,
+            <lb ed="#L" n="59"/>puta quia est paratus luxuriari aut furari, aut aliquid 
+            eius<lb break="no" ed="#L" n="60"/>modi perpetrare.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e420">
+            <lb ed="#L" n="61"/>Ex quibus patet quod argumenta Martini, quae 
+            subiun<lb break="no" ed="#L" n="62"/>cta verba litterae de praeparatione ad agendum contra 
+            prae<lb break="no" ed="#L" n="63"/>cepta Dei, supponunt posita esse ad definiendum peccatum
+            <lb ed="#L" n="64"/>mortale in gula, in vanum laborant, quia falsum supponit:
+            <lb ed="#L" n="65"/>quoniam peccatum mortale in gula constituitur prius, ex
+            <lb ed="#L" n="66"/>hoc quod delectatio gulae appetitur ut finis ultimus, et
+            <lb ed="#L" n="67"/>ex hoc appetitu efficitur alius appetitus agendi contra 
+            prae<lb break="no" ed="#L" n="68"/>cepta. Dei.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e440">
+            <lb ed="#L" n="69"/>Et cum Martinus dicit quod, secundum Auctorem, 
+            nul<lb break="no" ed="#L" n="70"/>lum est divinum praeceptum de inordinato appetitu gulae,
+            <lb ed="#L" n="71"/>falsum dicit. Nec Auctor hoc dicit: sed dicit quod nullum
+            <lb ed="#L" n="72"/>praeceptum decalogi est directe de hoc. Constat autem
+            <lb ed="#L" n="73"/>quod aliud est loqui de praeceptis divinis, et aliud de 
+            prae<lb break="no" ed="#L" n="74"/>ceptis decalogi: sicut aliud est loqui de colore, et aliud
+            <lb ed="#L" n="75"/>de albedine. Non enim omnia praecepta divina sunt prae-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="76"/>cepta decalogi, sed e contra. In divina autem Scriptura
+            <lb ed="#L" n="77"/>prohibetur gula: Attendite ne graventur corda vestra 
+            cra<lb break="no" ed="#L" n="78"/>pula, Luc. xx1 ; et ab Apostolo: Non in comessationibus,
+            <lb ed="#L" n="79"/>ad Rom. xi ; et ad Galat. v  expresse dicitur de 
+            comes<lb break="no" ed="#L" n="80"/>sationibus quod qui talia agunt, regnum Dei non 
+            conse<lb break="no" ed="#L" n="81"/>quentur.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e473">
+            <lb ed="#L" n="82"/>IV. Et bene nota quod non dicimus vehementiorem 
+            ap<lb break="no" ed="#L" n="83"/>petitum delectationis esse peccatum mortale, quasi excessus
+            <lb ed="#L" n="84"/>gradualis concupiscentiae faciat peccatum mortale: sed 
+            di<lb break="no" ed="#L" n="85"/>cimus quod appetitus delectationis talis ut ultimi finis est
+            <lb ed="#L" n="86"/>peccatum mortale, Multum enim haec differunt: quoniam
+            <lb ed="#L" n="87"/>magis vel minus appetere se tenent ex parte appetentis, et
+            <lb ed="#L" n="88"/>sunt gradus appetitionis; sed appeti ut finem ultimum
+            <lb ed="#L" n="89"/>tenet se ex parte appetibilis, et est ratio rei appetitae, amatur
+            <lb ed="#L" n="90"/>enim sub ratione finis ultimi. Et ideo, quantumcumque
+            <lb ed="#L" n="91"/>remisse, deliberate tamen, quis appetat delectationem cibi
+            <lb ed="#L" n="92"/>ut finem ultimum, peccat mortaliter: et quantumcumque
+            <lb ed="#L" n="93"/>intense quis appetat huiusmodi delectationem, citra tamen
+            <lb ed="#L" n="94"/>ultimum finem, non peccat mortaliter. Unde si quis 
+            fu<lb break="no" ed="#L" n="95"/>ratur propter delectationem gulae, duplici deformitate 
+            mor<lb break="no" ed="#L" n="96"/>tali peccat, sicut cum quis furatur ut moechetur: et non
+            <lb ed="#L" n="97"/>una tantum, sicut cum quis furatur ut det eleemosynam.
+            <lb ed="#L" n="98"/>Et ratio diversitatis est quia ibi sunt duo mala, alterum
+            <lb ed="#L" n="99"/>oppositum abstinentiae, alterum oppositum iustitiae, scilicet
+            <lb ed="#L" n="100"/>delectatio gulae ut finis, et furtum: hic autem est unum
+            <lb ed="#L" n="101"/>tantum malum, scilicet oppositum iustitiae, furtum ; dare
+            <lb ed="#L" n="102"/>namque eleemosynam non est malum.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e522">
+            <lb ed="#L" n="103"/>V. Sed occurrit hic non posthabenda quaestio 
+            specu<lb break="no" ed="#L" n="104"/>lativa, quare dare eleemosynam non est malum alterum
+            <lb ed="#L" n="105"/>a furto in casu proposito: cum ex hoc ipso quod est finis
+            <lb ed="#L" n="106"/>furti, sequatur quod dare eleemosynam appetatur ut finis
+            <lb ed="#L" n="107"/>ultimus, quia propter ipsam homo contemnit Deum in
+            <lb ed="#L" n="108"/>praeceptis suis, furtum committendo. Videtur enim quod
+            <lb ed="#L" n="109"/>etiam hic sint duae deformitates: altera opposita caritati,
+            <lb ed="#L" n="110"/>dum ultimus finis ponitur in dare eleemosynam; et altera
+            <lb ed="#L" n="111"/>opposita iustitiae, dum furtum committitur propter 
+            dan<lb break="no" ed="#L" n="112"/>dam eleemosynam.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e546">
+            <lb ed="#L" n="113"/>Sed ad hoc dicitur quod dupliciter contingit amari 
+            ali<lb break="no" ed="#L" n="114"/>quid ut ultimum finem. Primo modo, ita quod illud in
+            <lb ed="#L" n="115"/>seipso ametur ut ultimus finis: sicut, cum quis fornicatur,
+            <lb ed="#L" n="116"/>amat delectationem illam pro tunc in seipsa ut finem 
+            ul<lb break="no" ed="#L" n="117"/>timum; et simile est in aliis peccatis mortalibus ex suo
+            <lb ed="#L" n="118"/>genere. Alio modo, ita quod illud non secundum se, sed
+            <lb ed="#L" n="119"/>ut ratio alterius operis, amatur ut ultimus finis, ita quod
+            <lb ed="#L" n="120"/>ex hoc ipso quod amatur ut ratio talis operis, habet quod
+            <lb ed="#L" n="121"/>ametur ut ultimus finis: sicut cum quis non ponit finem
+            <lb ed="#L" n="122"/>suum in dando eleemosynam, sed dare eleemosynam 
+            or<lb break="no" ed="#L" n="123"/>dinat in Deum, cum hoc tamen, ex nimio affectu dandi
+            <lb ed="#L" n="124"/>eleemosynam, furatur ut det eleemosynam. Et quoniam
+            <lb ed="#L" n="125"/>primus modus infert secundum, et non e contra; quoniam
+            <lb ed="#L" n="126"/>quod absolute amatur ut finis ultimus, amatur etiam ut
+            <lb ed="#L" n="127"/>finis ultimus tanquam ratio aliorum, sed non e contra, ut
+            <lb ed="#L" n="128"/>patet in exemplo dato: ideo cum quis furatur ut det 
+            elee<lb break="no" ed="#L" n="129"/>mosynam, una tantum deformitate peccati, scilicet furti,
+            <lb ed="#L" n="130"/>peccat; non enim talis praeponit dare eleemosynam 
+            abso<lb break="no" ed="#L" n="131"/>lute Deo, sed ut est ratio furti. Sicut e contra si quis
+            <lb ed="#L" n="132"/>daret eleemosynam ut furtum committeret, unica quoque
+            <lb ed="#L" n="133"/>deformitate foedaretur: quoniam dare eleemosynam ex hoc
+            <lb ed="#L" n="134"/>solo quod ordinatur ad furtum, deformitate furti foedatur.
+            <lb ed="#L" n="135"/>Et hinc provenit quod mulieres amantes propriam vitam
+            <lb ed="#L" n="136"/>aut sustentationem, etc. non ut finem ultimum absolute,
+            <lb ed="#L" n="137"/>sed solum ut rationes fornicandi, quia scilicet ne 
+            occi<lb break="no" ed="#L" n="138"/>dantur, aut ut habeant unde vivant, fornicantur, non nisi
+            <lb ed="#L" n="139"/>una specie peccati foedantur, scilicet fornicationis.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e607">
+            <lb ed="#L" n="140"/>Et ex istis causis honestis et licitis in se peccata 
+            com<lb break="no" ed="#L" n="141"/>missa alleviationem quandam habent. Ostenditur siquidem
+            <lb ed="#L" n="142"/>ex hoc quod animus non per se ad vitia tendit, sed sub
+            <lb ed="#L" n="143"/>ratione boni honesti aut liciti.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e618">
+            <lb ed="#L" n="144"/>Habes quoque ex hac theorica quod si quis ex veniali
+            <lb ed="#L" n="145"/>secundum se affectu delectationis gulae aut gloriae furatur,
+            <lb ed="#L" n="146"/>unam tantum mortalem deformitatem incurrit, scilicet furti.
+            <lb ed="#L" n="147"/>Finis autem talis delectationis, licet in aliam transferat vitii
+            <lb ed="#L" n="148"/>speciem, puta gulae aut inanis gloriae; quia tamen non
+            <lb ed="#L" n="149"/>aggravat in infinitum, non apponit aliam mortalem 
+            defor<lb break="no" ed="#L" n="150"/>mitatem.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e636">
+            <pb ed="#L" n="170"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>VI. Ad primum Martini  contra illud, scilicet, praecepta
+            <lb ed="#L" n="2"/>Dei, etc., dicitur quod praecepta Dei in proposito 
+            compre<lb break="no" ed="#L" n="3"/>hendunt omnia iusta praecepta: quae a Deo mediate sunt,
+            <lb ed="#L" n="4"/>iuxta illud : Qui vos spernit, me spernit; et rursus:
+            <lb ed="#L" n="5"/>Omnis potestas a Deo est, ad Rom. xin .
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e654">
+            <lb ed="#L" n="6"/>Ad secundum vero dicitur quod bestialitas qua quidam
+            <lb ed="#L" n="7"/>vescuntur carnibus humanis, est contra praecepta iuris 
+            na<lb break="no" ed="#L" n="8"/>turalis. Sicut enim naturaliter sola femina humana est 
+            ha<lb break="no" ed="#L" n="9"/>bilis ad coitum hominis, ita naturaliter sola vegetabilia et
+            <lb ed="#L" n="10"/>animalia irrationalia sunt materia habilis ad nutriendum
+            <lb ed="#L" n="11"/>hominem: unde Deus primo dedit Adae vegetabilia , 
+            de<lb break="no" ed="#L" n="12"/>inde Noe dedit animalia . Contra naturae ergo ordinem
+            <lb ed="#L" n="13"/>est quod vescatur quis humanis carnibus. — Sed quia ex hoc
+            <lb ed="#L" n="14"/>non habetur quod sit peccatum mortale: — quoniam 
+            di<lb break="no" ed="#L" n="15"/>cere mendacium est contra ius naturale, et non tamen est
+            <lb ed="#L" n="16"/>de genere suo mortale; et comedere carbones aut calcem
+            <lb ed="#L" n="17"/>(sine laesione) ex mala complexione non est mortalis gula,
+            <lb ed="#L" n="18"/>quamvis bestialis; sicut ambulare manibus et pedibus ad
+            <lb ed="#L" n="19"/>bestialitatis vitium spectat, et tamen non est mortale:
+            <lb ed="#L" n="20"/>ideo cautus esto, et non admittas consequentiam: Est 
+            pec<lb break="no" ed="#L" n="21"/>catum bestialitatis, Ergo mortale. Ad hoc enim quod sit
+            <lb ed="#L" n="22"/>mortale, exigitur quod sit contra caritatem Dei, sui ipsius
+            <lb ed="#L" n="23"/>aut proximi: propter hoc enim mendacium non est ex suo
+            <lb ed="#L" n="24"/>genere mortale, et similiter ambulare manibus, et 
+            huius<lb break="no" ed="#L" n="25"/>modi.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e701">
+            <lb ed="#L" n="26"/>Ad argumentum ergo dicitur quod, quia praecepta iuris
+            <lb ed="#L" n="27"/>naturalis sunt praecepta Dei, ideo peccans in gula contra
+            <lb ed="#L" n="28"/>naturam, peccat contra praeceptum iuris naturalis et divini.
+            <lb ed="#L" n="29"/>Mortaliter autem tunc solum, per se loquendo, in 
+            bestia<lb break="no" ed="#L" n="30"/>litatis gula peccat, quando cibus est contra bonum sui aut
+            <lb ed="#L" n="31"/>proximi. Et ex hac parte repugnat carni humanae esse
+            <lb ed="#L" n="32"/>cibum hominis. Quoniam cibus humanus potest iure 
+            pri<lb break="no" ed="#L" n="33"/>vari vita sua ut sumatur in cibum: licite enim 
+            mortifica<lb break="no" ed="#L" n="34"/>mus vegetabilia et occidimus animalia in usum. nostri cibi.
+            <lb ed="#L" n="35"/>Homo autem non potest occidi ut sit nutrimentum 
+            no<lb break="no" ed="#L" n="36"/>strum, Et propterea talis bestialitas est peccatum 
+            morta<lb break="no" ed="#L" n="37"/>lissimum, per se loquendo. — An autem per accidens quan-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="38"/>doque liceat, puta quia homines sunt iam occisi in bello, et
+            <lb ed="#L" n="39"/>non subest cibus alius, alterius rationis est. Et necessitas
+            <lb ed="#L" n="40"/>excusare videtur: ex quo nocumentum proximi non est, et
+            <lb ed="#L" n="41"/>inhumanitatem urgens necessitas apud se et alios operit.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e740">
+            <lb ed="#L" n="42"/>VII. In responsione ad primum eiusdem articuli secundi
+            <lb ed="#L" n="43"/>dubium occurrit ex Martino, ibidem , dicente; Non placet
+            <lb ed="#L" n="44"/>mihi quod dicit s. Thomas, concupiscentiam gulae 
+            mor<lb break="no" ed="#L" n="45"/>talem esse contra praeceptum sanctificationis sabbati, qua
+            <lb ed="#L" n="46"/>praecipitur quies in fine ultimo. Quoniam tunc omne 
+            pec<lb break="no" ed="#L" n="47"/>catum mortale esset contra sanctificationem sabbati: quia
+            <lb ed="#L" n="48"/>quolibet peccato mortali avertitur, secundum "Thomam, 
+            <lb ed="#L" n="49"/>quis a fine ultimo.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e760">
+            <lb ed="#L" n="50"/>Ad hoc dicitur quod Auctor non dicit peccatum gulae
+            <lb ed="#L" n="51"/>esse contra praeceptum sabbati absolute, sed cum duabus
+            <lb ed="#L" n="52"/>modificationibus. Altera est: contra illud per quandam 
+            re<lb break="no" ed="#L" n="53"/>ductionem. Altera: contra illud spiritualiter intellectum; et
+            <lb ed="#L" n="54"/>hoc denotavit in illo verbo, in quo praecipitur quies in
+            <lb ed="#L" n="55"/>Jine ultimo. Et sic peccatum gulae nec directe, nec ad
+            <lb ed="#L" n="56"/>litteram, contrariari dicitur praecepto de sanctificatione 
+            Sab<lb break="no" ed="#L" n="57"/>bati: sed reductive et mystice. Quod patet verum esse.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e780">
+            <lb ed="#L" n="58"/>Et cum dicitur: Quia sic omne peccatum mortale esset
+            <lb ed="#L" n="59"/>contra hoc praeceptum: — respondetur quod omne. 
+            pec<lb break="no" ed="#L" n="60"/>catum mortale esse sic contra hoc praeceptum non 
+            incon<lb break="no" ed="#L" n="61"/>venit. Quoniam sic acceptum est praeceptum generale,
+            <lb ed="#L" n="62"/>imponens cessationem ab omni peccato, et quietem mentis
+            <lb ed="#L" n="63"/>in Deo ultimo omnium fine: ut superius in qu. cxx, art. 4,
+            <lb ed="#L" n="64"/>ad r, patet. Specialiter tamen appropriatur hoc peccato
+            <lb ed="#L" n="65"/>gulae propter duas gulae conditiones: scilicet quia est. 
+            pec<lb break="no" ed="#L" n="66"/>catum mentem deprimens et submittens delectationibus
+            <lb ed="#L" n="67"/>communibus nobis et brutis; et cum hoc, nullo praecepto
+            <lb ed="#L" n="68"/>decalogi directe prohibetur; quae duae conditiones simul
+            <lb ed="#L" n="69"/>in nullo alio vitio apparent. Nam luxuria, etsi similiter
+            <lb ed="#L" n="70"/>deprimat et submittat, tamen habet duo praecepta quibus
+            <lb ed="#L" n="71"/>contrariatur, scilicet, Non moechaberis, et, Non concupisces
+            <lb ed="#L" n="72"/>uxorem proximi tui. Superbia caret prima conditione, etc.
+            <lb ed="#L" n="73"/>Merito ergo huiusmodi peccata reducuntur ad huiusmodi
+            <lb ed="#L" n="74"/>praeceptum mystice. ab Auctore.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2037-Dd1e820"><!-- caj-p2p2-q148a3 -->
+          <head xml:id="TAcCaj-d1e2037-Hd1e823">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2037-d1e825">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="17" type="fixed=171"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e832">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="18"/>In articulo tertio eiusdem quaestionis dubium ex Martino,
+            <lb ed="#L" n="19"/>in quaestione de Gula , sub hoc eodem titulo, occurrit.
+            <lb ed="#L" n="20"/>Nam contra hoc, scilicet: Gravitas peccatorum 
+            principa<lb break="no" ed="#L" n="21"/>liter attenditur secundum materiam in qua peccatur, etc.,
+            <lb ed="#L" n="22"/>arguit, primo, quia si sic, nullum peccatum nisi circa res
+            <lb ed="#L" n="23"/>divinas esset maximum. — Secundo, quia esset simpliciter
+            <lb ed="#L" n="24"/>deterius et-gravius non colere Deum in die dominico quam
+            <lb ed="#L" n="25"/>^ homicidium aut adulterium.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e854">
+            <lb ed="#L" n="26"/>Ad primum horum dicitur quod, quia maximum 
+            dici<lb break="no" ed="#L" n="27"/>tur dupliciter, scilicet simpliciter vel in genere, conceditur
+            <lb ed="#L" n="28"/>quod solum peccatum in divina est maximum simpliciter:
+            <lb ed="#L" n="29"/>aliquod autem aliud potest dici maximum in genere; ut
+            <lb ed="#L" n="30"/>vitium contra naturam in genere luxuriae est maximum.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e867">
+            <lb ed="#L" n="31"/>Ad secundum vero dicitur quod, quia peccata contra
+            <lb ed="#L" n="32"/>praecepta primae tabulae sunt ex suo genere graviora 
+            pec<lb break="no" ed="#L" n="33"/>catis contra secundam tabulam, ideo conceditur quod 
+            vio<lb break="no" ed="#L" n="34"/>latio cultus divini est gravius simpliciter quam homicidium,
+            <lb ed="#L" n="35"/>quamvis hoc sit magis nocivum: sicut etiam periurium
+            <lb ed="#L" n="36"/>iocosum est gravius homicidio.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e884">
+            <lb ed="#L" n="37"/>II. In eodem articulo tertio, nota quod aliud est loqui de
+            <lb ed="#L" n="38"/>peccante, et aliud, tali peccante, ut patet. Et quod Auctor
+            <lb ed="#L" n="39"/>dicit quod peccatum gulae ex parte peccantis alleviatur:
+            <lb ed="#L" n="40"/>et non dicit quod ex parte talis vel talis peccantis 
+            allevia<lb break="no" ed="#L" n="41"/>tur. Unde probat quod dicit ex communibus omni 
+            pec<lb break="no" ed="#L" n="42"/>canti in gula: scilicet ex necessitate cibi et difficultate 
+            dis<lb break="no" ed="#L" n="43"/>cernendi. Et ex hoc habes unde solvas obiecta ex parte
+            <lb ed="#L" n="44"/>talis vel talis peccantis in gula in casu, etc.: non enim
+            <lb ed="#L" n="45"/>sunt contra praesentem doctrinam formaliter intellectam.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e906">
+            <lb ed="#L" n="46"/>III. In eodem articulo tertio eiusdem 
+            centesimaequadra<lb break="no" ed="#L" n="47"/>gesimaeoctavae quaestionis, in responsione ad tertium, 
+            du<lb break="no" ed="#L" n="48"/>bium occurrit circa hoc quod nocumentum corporis ex
+            <lb ed="#L" n="49"/>gula per accidens se habet ad gulam, et non directe 
+            per<lb break="no" ed="#L" n="50"/>tinet ad gulae gravitatem. Et est ratio dubii quia opposita
+            <lb ed="#L" n="51"/>conditionibus requisitis ad virtutem aliquam, spectant 
+            di<lb break="no" ed="#L" n="52"/>recte ad vitium oppositum illi virtuti. Sed commensuratio
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="53"/>cibi ad sanitatem et bonam habitudinem spectat ad 
+            tem<lb break="no" ed="#L" n="54"/>perantiam: ut patet in III Efhic. , et supra  dictis. Ergo
+            <lb ed="#L" n="55"/>incommensuratio cibi ad sanitatem ex gulae delectatione
+            <lb ed="#L" n="56"/>spectat ad gulam per se, et non per accidens.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e935">
+            <lb ed="#L" n="57"/>Ad hoc dicitur quod, quia necessitas humanae vitae, 
+            sa<lb break="no" ed="#L" n="58"/>nitatis et huiusmodi, non est finis temperantiae, ut in <ref xml:id="TAcCaj-d1e2037-Rd1e941">qu.
+              <lb ed="#L" n="59"/>de Temperantia, art. 6, ad 1</ref>, patet, sed rerum quibus 
+            tem<lb break="no" ed="#L" n="60"/>perantia utitur; ideo modificatio in ordine ad sanitatem
+            <lb ed="#L" n="61"/>et facultates et huiusmodi non per se et proxime 
+            spe<lb break="no" ed="#L" n="62"/>ctat ad temperantiam, sed mediantibus aliis virtutibus vel
+            <lb ed="#L" n="63"/>quasi virtutibus. Pro quanto namque liberalitas sumptuum
+            <lb ed="#L" n="64"/>deservit temperantiae, temperatus modum in ordine ad
+            <lb ed="#L" n="65"/>facultates servat. Et pro quanto naturalis amor sui 
+            ordi<lb break="no" ed="#L" n="66"/>natus cooperatur temperantiae, temperatus modificat cibos
+            <lb ed="#L" n="67"/>in ordine ad sanitatem. Nec aliud intendit Aristoteles in
+            <lb ed="#L" n="68"/>HI Ethic. Et propterea dicitur quod huiusmodi conditiones
+            <lb ed="#L" n="69"/>nec virtutis abstinentiae per se et proxime, nec earum 
+            op<lb break="no" ed="#L" n="70"/>positae vitii gulae sic sunt: quoniam virtus abstinentiae
+            <lb ed="#L" n="71"/>per se consistit in moderatione delectabilis cibi secundum
+            <lb ed="#L" n="72"/>quod oportet, etc, ad bonum rationis; et gula in 
+            immo<lb break="no" ed="#L" n="73"/>derata delectatione eiusdem, Et quod, si propter huiusmodi
+            <lb ed="#L" n="74"/>delectationem facultates excedat, inquantum  prodigalitate
+            <lb ed="#L" n="75"/>utitur, facit. Et quod, si sibi ipsi noceat, mediante iniustitia
+            <lb ed="#L" n="76"/>contra seipsum, si sic loqüi licet, facit. Et sic de aliis.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e984">
+            <lb ed="#L" n="77"/>Et per haec patet responsio ad Martinum, ubi supra ,
+            <lb ed="#L" n="78"/>arguentem hanc Auctoris responsionem, quia penes 
+            nocu<lb break="no" ed="#L" n="79"/>mentum corporis sumitur primum genus gulae; et quia
+            <lb ed="#L" n="80"/>plus peccat iste gulosus ex nocumento quod sibi infert
+            <lb ed="#L" n="81"/>quam ex delectatione quam intendit. Concesso namque
+            <lb ed="#L" n="82"/>hoc secundo, non sequitur: Ergo plus peccat peccato per
+            <lb ed="#L" n="83"/>se gulae ex nocumento, Sed sequitur quod plus peccet ex
+            <lb ed="#L" n="84"/>peccato quod oritur ex gula quam ex ipsa gula: quia 
+            ma<lb break="no" ed="#L" n="85"/>jus peccatum est odium sui ipsius quam gula. — Prima
+            <lb ed="#L" n="86"/>autem obiectio falsum supponit: ut in sequenti articulo 
+            <lb ed="#L" n="87"/>patebit magis.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2037-Dd1e1011"><!-- caj-p2p2-q148a4 -->
+          <head xml:id="TAcCaj-d1e2037-Hd1e1014">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2037-d1e1016">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="41" type="fixed=172"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1023">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="42"/>IN articulo quarto eiusdem 
+            centesimaequadragesimaeocta<lb break="no" ed="#L" n="43"/>In. quaestionis dubia multa ex Martino, in eodem 
+            tra<lb break="no" ed="#L" n="44"/>ctatu , in qu. 1 de Gula, occurrunt. Primum est circa 
+            suffi<lb break="no" ed="#L" n="45"/>cientiam quinque specierum gulae assignatarum in littera .
+            <lb ed="#L" n="46"/>Arguit siquidem directe contra, tripliciter . Primo, quia
+            <lb ed="#L" n="47"/>utens cibo prohibito, puta carnibus in die Veneris, peccat
+            <lb ed="#L" n="48"/>peccato gulae. Et tamen secundum nullam istarum 
+            spe<lb break="no" ed="#L" n="49"/>cierum. Ergo. — Minor probatur inductive.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1045">
+            <lb ed="#L" n="50"/>Secundo. Comedens pluries quam debet, puta in die
+            <lb ed="#L" n="51"/>ieiunii, vel quam honestum sit, peccat peccato gulae. Et
+            <lb ed="#L" n="52"/>tamen nulla dictarum specierum. Ergo. - Minor probatur
+            <lb ed="#L" n="53"/>inductive. :
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1056">
+            <lb ed="#L" n="54"/>Tertio. Sumens cibum contrarium bonae dispositioni
+            <lb ed="#L" n="55"/>animae vel corporis, peccat peccato gulae. Et tamen nulla
+            <lb ed="#L" n="56"/>dictarum specierum. Ergo. - Minor patet inductive.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1066">
+            <lb ed="#L" n="57"/>Deinde firmat suam opinionem, et arguit quarto. Gula
+            <lb ed="#L" n="58"/>dividitur in tria genera: scilicet in concupiscentiam cibi
+            <lb ed="#L" n="59"/>contra bonam habitudinem corporis vel animae; et 
+            concu<lb break="no" ed="#L" n="60"/>piscentiam cibi contra honestatem, puta quia contra 
+            prae<lb break="no" ed="#L" n="61"/>ceptum, vel rationis iudicium, propter consuetudinem, 
+            lo<lb break="no" ed="#L" n="62"/>cum vel tempus; et in concupiscentiam cibi supra 
+            sub<lb break="no" ed="#L" n="63"/>stantiam vel statum. Et sub his continentur multo plures
+            <lb ed="#L" n="64"/>species quam istae quinque. Ergo. - Et assumptum 
+            pro<lb break="no" ed="#L" n="65"/>batur  ex III Ethic. , ubi Aristoteles haec tria ponit.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1088">
+            <lb ed="#L" n="66"/>II. Dubium deinde est circa rationem sufficientiae 
+            ista<lb break="no" ed="#L" n="67"/>rum quinque specierum assignatam in littera, scilicet quia
+            <lb ed="#L" n="68"/>inordinata concupiscentia potest attendi aut penes ipsum
+            <lb ed="#L" n="69"/>cibum, aut penes eius sumptionem, etc.  Arguit siquidem
+            <lb ed="#L" n="70"/>Martinus, ibidem , contra sex dicta Auctoris in hac littera.
+            <lb ed="#L" n="71"/>Primum est ipsa distinctio, cum dicitur quod inordinatio
+            <lb ed="#L" n="72"/>concupiscentiae attenditur aut penes cibum, aut penes 
+            sum<lb break="no" ed="#L" n="73"/>ptionem cibi. Contra, inquit: divisionem admitto, 
+            quam<lb break="no" ed="#L" n="74"/>vis, secundum rigorem sermonis, omne vitium gulae 
+            pro<lb break="no" ed="#L" n="75"/>veniat ex parte sumptionis. Quia quantumcumque cibus
+            <lb ed="#L" n="76"/>esset magnus vel delicatus, si non sumeretur, non esset
+            <lb ed="#L" n="77"/>gulae vitium ratione cibi causatum.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1117">
+            <lb ed="#L" n="78"/>Secundum est quod una species attenditur penes cibum
+            <lb ed="#L" n="79"/>quantum ad substantiam seu speciem cibi, et sic. quaerit
+            <lb ed="#L" n="80"/>cibos lautos, hoc est pretiosos. Contra. Hoc membrum,
+            <lb ed="#L" n="81"/>scilicet, quantum ad substantiam, est divisibile. Et tamen
+            <lb ed="#L" n="82"/>tanquam indivisibile ponitur. Ergo. — Antecedens probatur.
+            <lb ed="#L" n="83"/>Quia quoad substantiam dupliciter contingit: vel quia 
+            pre<lb break="no" ed="#L" n="84"/>tiosi sunt cibi; vel quia inconsueti, Et hoc vel universa-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="85"/>liter, ut carnes humanae; vel pro tempore, ut carnes in
+            <lb ed="#L" n="86"/>quadragesima.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1141">
+            <lb ed="#L" n="87"/>Tertium est quod una species gulae attenditur penes
+            <lb ed="#L" n="88"/>qualitatem cibi, dum concupiscuntur cibi accurate 
+            prae<lb break="no" ed="#L" n="89"/>parati, quod importat ly. studiose. Contra. Hoc membrum,
+            <lb ed="#L" n="90"/>scilicet, quantum ad qualitatem, est divisibile. — Probatur.
+            <lb ed="#L" n="91"/>Quia vel qualitas est nociva: vel nimis accurate 
+            procura<lb break="no" ed="#L" n="92"/>tur ut insit cibo qualitas delectans.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1157">
+            <lb ed="#L" n="93"/>Quartum est quod inordinatio ex parte sumptionis 
+            con<lb break="no" ed="#L" n="94"/>tingit dupliciter, scilicet ex parte temporis, vel modi. 
+            Quin<lb break="no" ed="#L" n="95"/>tum est quod ex parte modi exponitur ardenter. - 
+            Con<lb break="no" ed="#L" n="96"/>tra. Haec, inquit, divisio non est sufficiens: quia non 
+            so<lb break="no" ed="#L" n="97"/>lum illis duobus modis fit inordinata sumptio; et quia
+            <lb ed="#L" n="98"/>secundum membrum, scilicet ex parte modi, est divisibile.
+            <lb ed="#L" n="99"/>Probatur quadrupliciter. Primo, quia sumptio inordinata
+            <lb ed="#L" n="100"/>est interdum quia frequentior est quam oportet: ut si quis
+            <lb ed="#L" n="101"/>sine causa decies in die reficiatur. — Secundo. Interdum,
+            <lb ed="#L" n="102"/>quia fit cum est prohibita: ut si quis in die ieiunii bis
+            <lb ed="#L" n="103"/>reficeretur. - Tertio. Interdum, quia loco prohibito: ut in
+            <lb ed="#L" n="104"/>ecclesia. - Quarto. Interdum, quia propter finem malum:
+            <lb ed="#L" n="105"/>puta luxuriae.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1188">
+            <lb ed="#L" n="106"/>Sextum est quod una species ex parte sumptionis 
+            at<lb break="no" ed="#L" n="107"/>tenditur secundum tempus, quod importat ly praepropere.
+            <lb ed="#L" n="108"/>Contra. Hoc etiam membrum est divisibile. Nam 
+            praeven<lb break="no" ed="#L" n="109"/>tio temporis interdum est per comparationem ad 
+            exigen<lb break="no" ed="#L" n="110"/>tiam naturae: ut cum super indigesto comeditur. Interdum,
+            <lb ed="#L" n="111"/>per comparationem ad praeceptum vel laudabilem 
+            consue<lb break="no" ed="#L" n="112"/>tudinem: ut si quis in die ieiunii notabiliter praeveniret
+            <lb ed="#L" n="113"/>horam prandii; aut, celebraturus, prius comederet; aut 
+            an<lb break="no" ed="#L" n="114"/>tequam divinum officium dixisset. Et quod haec et 
+            prae<lb break="no" ed="#L" n="115"/>dicta sint diversarum specierum patet ex hoc quia sunt
+            <lb ed="#L" n="116"/>diversorum generum: nam. prima praeventio pertinet ad
+            <lb ed="#L" n="117"/>primum genus , scilicet contra bonum animae vel 
+            corpo<lb break="no" ed="#L" n="118"/>ris; secunda ad secundum, scilicet contra honestatem. Et
+            <lb ed="#L" n="119"/>sic facile est in supra dictis aspicere distinctionem 
+            gene<lb break="no" ed="#L" n="120"/>ricam iuxta tria genera gulae supra  dicta ex Aristotele
+            <lb ed="#L" n="121"/>IIT Ethic. « quem », inquit Martinus, « sequor »; et 
+            dis<lb break="no" ed="#L" n="122"/>crepare videtur a tot Doctoribus sacris.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1228">
+            <lb ed="#L" n="123"/>III. Dubium tertio principaliter est circa doctrinam 
+            lit<lb break="no" ed="#L" n="124"/>terae in hoc quod dicitur, species scilicet gulae accipi 
+            se<lb break="no" ed="#L" n="125"/>cundum differentiam motivorum .. Repetitur siquidem hoc
+            <lb ed="#L" n="126"/>pluries in littera, respondendo ad argumenta.. Contra, 
+            in<lb break="no" ed="#L" n="127"/>quit Martinus, ibidem , Primo, quia eadem cibi concu-
+            <pb ed="#L" n="173"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>piscentia fit ut ego in hac die ieiunii excedam in 
+            quanti<lb break="no" ed="#L" n="2"/>tate nimis comedendo, et tu in numero, contra Ecclesiae
+            <lb ed="#L" n="3"/>praeceptum bis comedendo. Ergo diversae species habent
+            <lb ed="#L" n="4"/>idem motivum.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1254">
+            <lb ed="#L" n="5"/>Secundo, quia eadem similiter concupiscentia fit ut ego
+            <lb ed="#L" n="6"/>voraciter, et tu excessive comedas. Ergo diversae species
+            <lb ed="#L" n="7"/>habent idem motivum.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1263">
+            <lb ed="#L" n="8"/>Tertio, quia tempus et locus non se habent ut motiva.
+            <lb ed="#L" n="9"/>Nullus enim potest rationabiliter dicere quod praeventio
+            <lb ed="#L" n="10"/>temporis se habet ut motivum respectu cibi sumendi.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1272">
+            <lb ed="#L" n="11"/>Quarto, quia inordinata concupiscentia est quae movet
+            <lb ed="#L" n="12"/>ad metas modi, temporis, quantitatis, etc. , 
+            transgredien<lb break="no" ed="#L" n="13"/>dum: et non e contra.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1281">
+            <lb ed="#L" n="14"/>Ex quibus patet et quod fundamentum dictae opinionis
+            <lb ed="#L" n="15"/>distinguentis species gulae penes motiva, est omnino 
+            nul<lb break="no" ed="#L" n="16"/>lum. Et quod non est eidem opinioni consonum: cum in
+            <lb ed="#L" n="17"/>multis speciebus enumeratis ab ista opinione idem 
+            moti<lb break="no" ed="#L" n="18"/>vum reperiatur, ut patuit.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1294">
+            <lb ed="#L" n="19"/>IV. Ad primi dubii argumenta, contra specierum gulae
+            <lb ed="#L" n="20"/>sufficientiam , ordinate respondendo, dicitur ad primum
+            <lb ed="#L" n="21"/>quod comedens carnes feria sexta peccat in prima specie
+            <lb ed="#L" n="22"/>gulae, in qua attenditur quid sumitur, Nec obstat quod
+            <lb ed="#L" n="23"/>lautior aut pretiosior interdum sit piscis quam caro. 
+            Quo<lb break="no" ed="#L" n="24"/>niam constat quod secundum se melior cibus est caro: et
+            <lb ed="#L" n="25"/>quod in prima specie consideratur substantia cibi. Et 
+            ex<lb break="no" ed="#L" n="26"/>ponitur ab Auctore per pretiositatem, quia pretium est
+            <lb ed="#L" n="27"/>mensura rerum, et ex mensura intendit nobilitatem 
+            men<lb break="no" ed="#L" n="28"/>surati, scilicet cibi, describere.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1319">
+            <lb ed="#L" n="29"/>Ad secundum dicitur quod comedens pluries quam debet
+            <lb ed="#L" n="30"/>peccat in quarta specie gulae, in qua attenditur praeventio
+            <lb ed="#L" n="31"/>temporis. Quoniam si prima vice, verbi gratia, pransus est
+            <lb ed="#L" n="32"/>in die ieiunii hora debita, cum secunda vice comedit, 
+            prae<lb break="no" ed="#L" n="33"/>venit tempus comedendi: quia usque in diem sequentem
+            <lb ed="#L" n="34"/>comedendi non est tempus.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1335">
+            <lb ed="#L" n="35"/>Ad tertium dicitur quod utens cibo nocente corpori
+            <lb ed="#L" n="36"/>vel animo non peccat peccato gulae secundum se, sed ut est
+            <lb ed="#L" n="37"/>ratio alterius vitii, quo scilicet quis sibi ipsi est nequam .
+            <lb ed="#L" n="38"/>Species autem gulae assignatae sunt de peccatis gulae 
+            se<lb break="no" ed="#L" n="39"/>cundum se. lam enim ex dictis ab Auctore  patet quod
+            <lb ed="#L" n="40"/>huiusmodi nocumenta per accidens se habent ad peccatum
+            <lb ed="#L" n="41"/>gulae.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1353">
+            <lb ed="#L" n="42"/>Ad quartum dicitur quod in III Ethic.  Aristoteles dicit
+            <lb ed="#L" n="43"/>quidem temperatum non exire terminos sanitatis, honestatis
+            <lb ed="#L" n="44"/>et facultatum, et bene, quia temperatus contra nullam
+            <lb ed="#L" n="45"/>debet agere virtutem: et non dicit quod secundum haec
+            <lb ed="#L" n="46"/>tria attendantur genera aut species intemperantiae. Ex dictis
+            <lb ed="#L" n="47"/>autem Auctoris  manifeste apparet quod nocumentum 
+            ani<lb break="no" ed="#L" n="48"/>mae et corporis est per accidens ad gulam: ac per hoc
+            <lb ed="#L" n="49"/>excluditur primum genus. Et similiter tertium, quod in 
+            no<lb break="no" ed="#L" n="50"/>cumento facultatum consistit: eadem ratione. Secundum
+            <lb ed="#L" n="51"/>autem, tanquam connumeratum his quae sunt per 
+            acci<lb break="no" ed="#L" n="52"/>dens, manifestat se non positum ut unum trium generum.
+            <lb ed="#L" n="53"/>Et secundum veritatem, spectat ad vitium contrarium illi
+            <lb ed="#L" n="54"/>honestati: verbi gratia, si quis indebite comedat in ecclesia,
+            <lb ed="#L" n="55"/>inhonestas haec spectat ad sacrilegii vitium; et sic de aliis.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1386">
+            <lb ed="#L" n="56"/>V. Ad secundi dubii argumenta, contra rationem 
+            suffi<lb break="no" ed="#L" n="57"/>cientiae , respondendo ordinate, dicitur ad obiectionem
+            <lb ed="#L" n="58"/>contra primum dictum, scilicet ipsam divisionem , quod
+            <lb ed="#L" n="59"/>divisio est optima, et formali sermone artificiosa. Nam cum
+            <lb ed="#L" n="60"/>gula sit circa concupiscentiam delectationis in cibo; et cibus
+            <lb ed="#L" n="61"/>non habeat rationem cibi nisi in ordine ad esum: non
+            <lb ed="#L" n="62"/>distinguitur cibus a comestione tanquam sint diversae 
+            ma<lb break="no" ed="#L" n="63"/>teriae gulae, sed tanquam duo requisita et concurrentia ad
+            <lb ed="#L" n="64"/>materiam gulae. Oportet enim concurrere cibum et actum
+            <lb ed="#L" n="65"/>quo quis utitur cibo, quem constat esse, non videre aut
+            <lb ed="#L" n="66"/>audire, vendere aut emere, sed comedere: et neutrum ab
+            <lb ed="#L" n="67"/>altero separabile est. Et constat quod aliquae conditiones
+            <lb ed="#L" n="68"/>spectant ad cibum, ut substantia, quantitas et qualitas cibi:
+            <lb ed="#L" n="69"/>et aliquae ad ipsum actum utendi illo, ut tempus et 
+            mo<lb break="no" ed="#L" n="70"/>dus. Falsum est ergo, formaliter loquendo, quod omnis
+            <lb ed="#L" n="71"/>inordinatio sit ex parte actus utendi: licet simul cum ipso
+            <lb ed="#L" n="72"/>actu in potentia vel in actu. — Et ad probationem, .Si
+            <lb ed="#L" n="73"/>non sumeretur, non esset gulae vitium: dicitur quod 
+            gu<lb break="no" ed="#L" n="74"/>lae vitium est etiam si nunquam sumatur cibus 
+            inordi<lb break="no" ed="#L" n="75"/>nate appetitus. Loquendo autem de sumere in potentia,
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="76"/>dicitur quod probatio nihil valet: quia posse sumi est de
+            <lb ed="#L" n="77"/>ratione cibi, et a conditionali negativa unius inseparabilis
+            <lb ed="#L" n="78"/>non sequitur categorica positiva rationis. Verbi gratia, licet
+            <lb ed="#L" n="79"/>illa sit vera, Si non est risibilis, non est homo: non 
+            ta<lb break="no" ed="#L" n="80"/>men valet, Ergo ratio hominis sumitur ex risibilitate. Ita
+            <lb ed="#L" n="81"/>non valet, Si cibus non posset sumi, non causaretur 
+            vi<lb break="no" ed="#L" n="82"/>tium gulae, Ergo causare vitium gulae convenit cibo 
+            ra<lb break="no" ed="#L" n="83"/>tione sumptionis. Sicut non valet, Ergo esse cibum 
+            con<lb break="no" ed="#L" n="84"/>venit sibi ratione sumptionis. Sumitur enim quia est cibus:
+            <lb ed="#L" n="85"/>et non, quia sumatur, ideo est cibus.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1456">
+            <lb ed="#L" n="86"/>Ad obiecta contra secundum dictum, scilicet de una 
+            spe<lb break="no" ed="#L" n="87"/>cie gulae secundum substantiam cibi , dicitur quod illud
+            <lb ed="#L" n="88"/>membrum esse divisibile contingit dupliciter. Uno modo,
+            <lb ed="#L" n="89"/>in esse morali formaliter, secundum per se differentias 
+            gu<lb break="no" ed="#L" n="90"/>lae: et sic negatur. Alio modo, secundum differentias per
+            <lb ed="#L" n="91"/>accidens: et sic conceditur, sed non est contra doctrinam
+            <lb ed="#L" n="92"/>Auctoris; quoniam species debent per se differentiis 
+            formali<lb break="no" ed="#L" n="93"/>bus illius generis constitui, et non differentiis per accidens .
+            <lb ed="#L" n="94"/>Et per hanc regulam respondetur ad obiecta contra 
+            indi<lb break="no" ed="#L" n="95"/>visibilitatem tam huius quam aliarum specierum. Unde
+            <lb ed="#L" n="96"/>cum contra istam speciem affertur, Quia substantia cibi
+            <lb ed="#L" n="97"/>dividitur in pretiosam, et insuetam, dicitur quod 
+            distin<lb break="no" ed="#L" n="98"/>ctio ista est per accidens ad substantiam cibi: accidit enim
+            <lb ed="#L" n="99"/>delectabili cibo quod sit prohibitus lege vel consuetudine.
+            <lb ed="#L" n="100"/>Unde quicumque cibus secundum seipsum inordinate 
+            ap<lb break="no" ed="#L" n="101"/>petitur infra humanos limites, sive hoc sit ex nobilitate
+            <lb ed="#L" n="102"/>cibi, sive ex prohibitione, ut carnes sunt in ieiuniis 
+            pro<lb break="no" ed="#L" n="103"/>hibitae, ad eandem speciem gulae spectant. Ciborum vero
+            <lb ed="#L" n="104"/>appetitus extra humanos limites, ut carbonum, calcis, 
+            car<lb break="no" ed="#L" n="105"/>nium humanarum, et similium, ad bestialitatem spectant:
+            <lb ed="#L" n="106"/>quae sub his speciebus non continetur, quoniam gula ut
+            <lb ed="#L" n="107"/>est humanum vitium, distincta est.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1506">
+            <lb ed="#L" n="108"/>Ad obiecta contra tertium dictum, scilicet de unitate
+            <lb ed="#L" n="109"/>speciei gulae quantum ad qualitatem cibi , dicitur negando
+            <lb ed="#L" n="110"/>huiuscemodi membri divisibilitatem formalem et per se, ut
+            <lb ed="#L" n="111"/>dictum est. Et cum dicitur, Quia dividitur per qualitatem
+            <lb ed="#L" n="112"/>praeparatam, vel nocivam, iam patet responsio: quod esse
+            <lb ed="#L" n="113"/>nocivum accidit cibo ut obiectum est gulae, quia accidit
+            <lb ed="#L" n="114"/>cibo ut est delectabilis; est enim praeter gulosi 
+            intentio<lb break="no" ed="#L" n="115"/>nem, ut Auctor dixit .
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1527">
+            <lb ed="#L" n="116"/>Ad obiecta contra quartum et quintum dictum  
+            respon<lb break="no" ed="#L" n="117"/>detur negando utrumque assumptum: scilicet et quod ex
+            <lb ed="#L" n="118"/>parte sumptionis sint plures differentiae formales per se in
+            <lb ed="#L" n="119"/>genere gulae; et quod secundum membrum, scilicet ex
+            <lb ed="#L" n="120"/>parte modi, sit divisibile formaliter, etc. Et ad primam 
+            pro<lb break="no" ed="#L" n="121"/>bationem, scilicet quia sumptio inordinata est quandoque
+            <lb ed="#L" n="122"/>quia frequentior est quam oportet, respondetur quod 
+            hu<lb break="no" ed="#L" n="123"/>iusmodi deordinatio comprehenditur sub specie quarta, 
+            sci<lb break="no" ed="#L" n="124"/>licet praeventionis temporis: nam dum repetitur comestio
+            <lb ed="#L" n="125"/>inordinate, ideo peccatur quia tempus congruum comestioni
+            <lb ed="#L" n="126"/>non expectatur. — Et per idem respondetur ad secundam,
+            <lb ed="#L" n="127"/>de multiplicata comestione in die ieiunii, Ante tempus 
+            si<lb break="no" ed="#L" n="128"/>quidem debitum comedit qui violat ieiunium bis 
+            come<lb break="no" ed="#L" n="129"/>dendo: quoniam usque in diem crastinum differenda esset
+            <lb ed="#L" n="130"/>comestio, ut praedictum est . — Ad tertiam autem 
+            obie<lb break="no" ed="#L" n="131"/>ctionem, de loco, et quartam, de fine, dicitur quod 
+            huius<lb break="no" ed="#L" n="132"/>modi inordinationes ad aliorum vitiorum species spectant,
+            <lb ed="#L" n="133"/>nec constituunt species gulae. Si quis enim propter 
+            adul<lb break="no" ed="#L" n="134"/>terandum comedit, non gulae, sed adulterii macula se 
+            pol<lb break="no" ed="#L" n="135"/>luit: et similiter si quis in ecclesiae contemptum in illa
+            <lb ed="#L" n="136"/>comedit, non gulae, sed sacrilegii crimen incurrit. 
+            Defor<lb break="no" ed="#L" n="137"/>mitates siquidem istae, quia per accidens se habent ad 
+            gu<lb break="no" ed="#L" n="138"/>lam, non sufficiunt ad intrinsecas gulae species causandas.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1579">
+            <lb ed="#L" n="139"/>Ad obiecta contra sextum dictum, scilicet de unitate
+            <lb ed="#L" n="140"/>speciei gulae ex praeventione temporis , respondetur. 
+            ne<lb break="no" ed="#L" n="141"/>gando quod species ista sit divisibilis formaliter, etc., ut
+            <lb ed="#L" n="142"/>prius dictum est, Et ad probationem, Quia praeventio 
+            po<lb break="no" ed="#L" n="143"/>test esse vel in ordine ad exigentiam naturae, vel ad 
+            pro<lb break="no" ed="#L" n="144"/>hibitionem, etc.: respondetur quod omnes allatae 
+            differen<lb break="no" ed="#L" n="145"/>tiae per accidens se habent ad gulam, aut nullam faciunt
+            <lb ed="#L" n="146"/>formalem differentiam. Nam praeventio temporis contra
+            <lb ed="#L" n="147"/>praeceptum naturae, vel contra praeceptum Ecclesiae, 
+            eius<lb break="no" ed="#L" n="148"/>dem est rationis. Vitia enim non distinguuntur penes 
+            prae<lb break="no" ed="#L" n="149"/>cepta a quibus avertunt, sed penes obiecta ad quae 
+            ten<lb break="no" ed="#L" n="150"/>dunt: idem autem est obiectum, scilicet temporis praeven-
+            <pb ed="#L" n="174"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tio in cibo, a quocumque sit prohibita. Et simile est in
+            <lb ed="#L" n="2"/>alis vitiis: incestus enim, sive a natura sive ab Ecclesia
+            <lb ed="#L" n="3"/>inhibitus, eiusdem est speciei. Si quis autem celebraturus
+            <lb ed="#L" n="4"/>comedit, sacrilegii crimen committit, contra sacramentorum
+            <lb ed="#L" n="5"/>reverentiam debitam agens. - Quod autem subiungitur,
+            <lb ed="#L" n="6"/>quod haec ideo distinguuntur specie quia distinguuntur
+            <lb ed="#L" n="7"/>genere, iuxta tria genera gulae ab ipso Martino assignata,
+            <lb ed="#L" n="8"/>eadem facilitate negatur qua dicitur. Nam, ut patet ex 
+            di<lb break="no" ed="#L" n="9"/>ctis , ex his quae sunt per accidens conficta sunt sub gula
+            <lb ed="#L" n="10"/>genera illa. Quo fit ut arguens et doctorum theologorum
+            <lb ed="#L" n="11"/>communem doctrinam deserat: et Aristotelem non 
+            sequa<lb break="no" ed="#L" n="12"/>tur, ut putavit.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1638">
+            <lb ed="#L" n="13"/>VI. Ad obiecta in tertio dubio, de specificantibus 
+            pec<lb break="no" ed="#L" n="14"/>cata gulae, scilicet quod sunt obiecta motiva appetitus ,
+            <lb ed="#L" n="15"/>respondendo dicitur ad primum, quod falsum assumitur,
+            <lb ed="#L" n="16"/>quod eadem secundum speciem concupiscentia cibi fiat ut
+            <lb ed="#L" n="17"/>unus nimis, alter pluries in die ieiunii comedat. Et 
+            simi<lb break="no" ed="#L" n="18"/>liter negatur assumptum in secundo. Utrumque siquidem
+            <lb ed="#L" n="19"/>petit principium. Quoniam concupiscentiae distinguuntur
+            <lb ed="#L" n="20"/>specie sicut delectationes. Alterius autem delectationis est
+            <lb ed="#L" n="21"/>delectabile in quantitate cibi a delectabili sumptione ante
+            <lb ed="#L" n="22"/>tempus, et a delectabili voracitate, etc., cum haec movent
+            <lb ed="#L" n="23"/>ad inordinatam concupiscentiam sui.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1664">
+            <lb ed="#L" n="24"/>Ad tertium, cum dicitur quod nullus potest 
+            rationabi<lb break="no" ed="#L" n="25"/>liter dicere quod tempus se habeat ut motivum appetitus
+            <lb ed="#L" n="26"/>in cibo sumendo, negatur assumptum. Quoniam pec 
+            tem<lb break="no" ed="#L" n="27"/>pus excluditur a motivis appetitus, ut experimur in nobis
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="28"/>dum, quia talis hora est, movemur ad tale opus: nec 
+            tem<lb break="no" ed="#L" n="29"/>pus applicatum ad sumptionem cibi minus movet nos quam
+            <lb ed="#L" n="30"/>applicatum ad agriculturam movet ad illam.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1684">
+            <lb ed="#L" n="31"/>Ad quartum dicitur quod, quia finis est prior in 
+            in<lb break="no" ed="#L" n="32"/>tentione et posterior in executione; et obiectum appetitus
+            <lb ed="#L" n="33"/>habet rationem finis: ideo delectabile in substantia, 
+            qua<lb break="no" ed="#L" n="34"/>litate et quantitate, praeventione vel voracitate cibi, primo
+            <lb ed="#L" n="35"/>movet appetitum ad sui concupiscentiam inordinatam; et
+            <lb ed="#L" n="36"/>concupiscentia inordinata movet ad adipiscendum tale 
+            de<lb break="no" ed="#L" n="37"/>lectabile sumendo cibum illum, tantum, talem, prius, vel
+            <lb ed="#L" n="38"/>sic. Unde verum dicit arguens in hoc, quod 
+            concupiscen<lb break="no" ed="#L" n="39"/>tia inordinata movet ad gulae peccatum in actu exterioris
+            <lb ed="#L" n="40"/>executionis: sed falsum dicit in hoc, quod delectabile non
+            <lb ed="#L" n="41"/>prius moveat ad inordinatam concupiscentiam. Obiectum
+            <lb ed="#L" n="42"/>enim appetibile constat esse prius appetitione, et movere
+            <lb ed="#L" n="43"/>appetitum: immo esse primum motorem, utpote 
+            moven<lb break="no" ed="#L" n="44"/>tem non motum, ut patet in III de Anima .
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1717">
+            <lb ed="#L" n="45"/>Unde patet fundamentum Auctoris esse solidum, 
+            peri<lb break="no" ed="#L" n="46"/>pateticum, et consonum non solum sibi, sed sacris 
+            Docto<lb break="no" ed="#L" n="47"/>ribus. Quos quia summe veneratus est Auctor, ideo 
+            intel<lb break="no" ed="#L" n="48"/>lectum omnium quodammodo sortitus est. Scriptum est
+            <lb ed="#L" n="49"/>enim  quod declaratio divinorum sermonum illuminat,
+            <lb ed="#L" n="50"/>et intellectum dat parvulis. Dantibus ergo operam 
+            decla<lb break="no" ed="#L" n="51"/>rationi divinorum sermonum per Prophetas, Apostolos, 
+            <lb ed="#L" n="52"/>Doctoresque sacros, lumen datur et intellectus, utpote 
+            par<lb break="no" ed="#L" n="53"/>vulis in oculis suis , et seipsos submittentibus illorum
+            <lb ed="#L" n="54"/>doctrinae.
+          </p>
+        </div>
+        <!-- no commentary -->
+        <div xml:id="TAcCaj-d1e2037-Dd1e1745"><!-- caj-p2p2-q148a6 -->
+          <head xml:id="TAcCaj-d1e2037-Hd1e1748">Articulus 6</head>
+          <p xml:id="TAcCaj-d1e2037-d1e1750">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="9" type="fixed=176"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1757">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10"/>IN articulis quinto et sexto eiusdem quaestionis 
+            centesi<lb break="no" ed="#L" n="11"/>aneqtiadagesiitiaeóctrvie dubium ex Martino, ubi 
+            su<lb break="no" ed="#L" n="12"/>pra , in qu. An gula sit vitium capitale , occurrit, 
+            impu<lb break="no" ed="#L" n="13"/>gnante quod vitium capitale dicitur ex quo nata sunt multa
+            <lb ed="#L" n="14"/>oriri vitia secundum: rationem causae finalis . Probat 
+            au<lb break="no" ed="#L" n="15"/>tem hoc  specialiter de quinque gulae filiabus quae in sexto
+            <lb ed="#L" n="16"/>articulo tractantur, volens quod non oriuntur ex gula 
+            secun<lb break="no" ed="#L" n="17"/>dum rationem causae finalis. Quia nemo appetit actus 
+            isto<lb break="no" ed="#L" n="18"/>rum quinque propter actum gulae, neque delectationem
+            <lb ed="#L" n="19"/>in istis propter delectationem gulae: quoniam nullus 
+            appe<lb break="no" ed="#L" n="20"/>tit hebetudinem mentis ut delectetur in cibis et potibus.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1786">
+            <lb ed="#L" n="21"/>Ad hoc dicitur dupliciter. Primo, quod secundum 
+            doctri<lb break="no" ed="#L" n="22"/>nam Auctoris, licet sit verum quod vitium capitale sit ex quo
+            <lb ed="#L" n="23"/>secundum rationem finis multa oriuntur vitia; non tamen
+            <lb ed="#L" n="24"/>habetur ab ipso haec propositio cum dictione exclusiva, hoc
+            <lb ed="#L" n="25"/>est quod solum sic oriantur ex illo alia vitia. Immo 
+            <ref xml:id="TAcCaj-d1e2037-Rd1e1799">supe<lb break="no" ed="#L" n="26"/>rius, in qu. de Avaritia, art. ult.</ref>, dicit: Ex quo oriuntur alia
+            <lb ed="#L" n="27"/>vitia, et praecipue secundum rationem causae finalis: ubi
+            <lb ed="#L" n="28"/>patet non excludi alios modos causandi alia a vitio capitali.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1809">
+            <lb ed="#L" n="29"/>Secundo dicitur quod istae quinque filiae gulae assignatae
+            <lb ed="#L" n="30"/>a Gregorio oriuntur ex gula secundum rationem causae 
+            fi<lb break="no" ed="#L" n="31"/>nalis. Et cum contra arguitur, quia nemo appetit ista 
+            prop<lb break="no" ed="#L" n="32"/>ter gulam: respondetur quod appeti aliquid propter finem
+            <lb ed="#L" n="33"/>non contingit uno modo, ut arguens assumit, sed pluribus.
+            <lb ed="#L" n="34"/>Aliquid enim appetitur propter finem ut medium ad 
+            con<lb break="no" ed="#L" n="35"/>sequendum finem: sicut appetitur, equus ad quietius yel
+            <lb ed="#L" n="36"/>celerius peragendum iter. Et hoc modo ista quinque non
+            <lb ed="#L" n="37"/>appetuntur propter gulam ut finem. Et hoc solum probat
+            <lb ed="#L" n="38"/>arguens. - Aliquid autem appetitur propter finem ut 
+            ac<lb break="no" ed="#L" n="39"/>ceptatum ex finis appetitu, dummodo intentum finem 
+            con<lb break="no" ed="#L" n="40"/>sequatur: sicut appetitur damnum exilii a vindicante se,
+            <lb ed="#L" n="41"/>sciens quod ex vindicta incurret exilium; ex nimia 
+            nam<lb break="no" ed="#L" n="42"/>que affectione ad finem, puta vindictam, acceptat incurrere
+            <lb ed="#L" n="43"/>exilium. Et hunc modum arguens praetermisit. Et tamen
+            <lb ed="#L" n="44"/>hoc modo omnes dictae filiae gulae ex gula oriuntur 
+            se<lb break="no" ed="#L" n="45"/>cundum rationem finis. Est enim gulosus tam affectus 
+            de<lb break="no" ed="#L" n="46"/>lectationi cibi et potus quod non curat, dummodo illam
+            <lb ed="#L" n="47"/>expleat, incurrere damna ineptae laetitiae, scurrilitatis, 
+            im<lb break="no" ed="#L" n="48"/>munditiae, multiloquii et mentis hebetudinis. Et licet hoc
+            <lb ed="#L" n="49"/>non sit ista vitia secundum se oriri ex gula ut fine, sed
+            <lb ed="#L" n="50"/>est habere ipsa vitia ex gula ut fine, quoniam actus 
+            isto<lb break="no" ed="#L" n="51"/>rum vitiorum non ordinantur secundum se ad finem 
+            gu<lb break="no" ed="#L" n="52"/>lae, sed incurrere dicta vitia procedit ex fine gulae, ut
+            <lb ed="#L" n="53"/>declaratum est: sufficit tamen ad horum filiationem 
+            re<lb break="no" ed="#L" n="54"/>spectu gulae ut finis, huiusmodi dependentia finalis. Quod
+            <lb ed="#L" n="55"/>enim non ita directe requiratur ad filiationem vitiorum
+            <lb ed="#L" n="56"/>causalitas finalis illorum secundum seipsa, ex qu. xxxv,
+            <lb ed="#L" n="57"/>superius, de filiabus acediae, in art. ult., insinuatur. 
+            Quam<lb break="no" ed="#L" n="58"/>vis, ut in prima responsione dictum est, non oporteat
+            <lb ed="#L" n="59"/>semper causalitatem finalem in filiatione vitiorum salvari.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1880">
+            <lb ed="#L" n="60"/>Stant ergo solida fundamenta Auctoris.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1885">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="61"/>II. In responsione ad primum dicti quinti articuli, 
+            spe<lb break="no" ed="#L" n="62"/>cialiter adverte duas radices ex quibus trahit gula quod sit
+            <lb ed="#L" n="63"/>vitium capitale. Alteram, ex cibo, qui est vitae 
+            conserva<lb break="no" ed="#L" n="64"/>tivus: est enim hoc valde appetibile, et propter hoc multa
+            <lb ed="#L" n="65"/>valde et fiunt et sustinentur. Alteram, ex delectatione in
+            <lb ed="#L" n="66"/>cibo et potu, quae sapit conditionem felicitatis, quae est
+            <lb ed="#L" n="67"/>summe appetibilis: nam dum homo in delectabili moratur,
+            <lb ed="#L" n="68"/>felix quodammodo est. Unde et homines qui semper 
+            ver<lb break="no" ed="#L" n="69"/>santur circa delectabilia felices putaremus, nisi mala 
+            an<lb break="no" ed="#L" n="70"/>nexa et consequentia consideraremus.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1911">
+            <lb ed="#L" n="71"/>HI. In sexto specialiter articulo dubium de scurrilitate
+            <lb ed="#L" n="72"/>occurrit, quantum peccatum sit. Et est ratio dubii quia
+            <lb ed="#L" n="73"/>tam gestus quam verba inhonesta videntur ex suo genere
+            <lb ed="#L" n="74"/>peccata mortalia: licet ex imperfectione actus, puta quia
+            <lb ed="#L" n="75"/>leviter, et sine mala intentione, et risus gratia dicuntur,
+            <lb ed="#L" n="76"/>videantur quandoque venialia.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1927">
+            <lb ed="#L" n="77"/>Ad hoc dicitur quod tam gestus quam verba inhonesta
+            <lb ed="#L" n="78"/>dupliciter exerceri possunt. Primo, in ordine ad aliquod
+            <lb ed="#L" n="79"/>peccatum mortale operis vel delectationis. Exemplum 
+            pri<lb break="no" ed="#L" n="80"/>mi: si quis diceret verba inhonesta ut provocaret ad 
+            for<lb break="no" ed="#L" n="81"/>nicationem aut ad vindictam. Exemplum secundi: si quis
+            <lb ed="#L" n="82"/>diceret verba inhonesta ut delectaret, vel quia delectat 
+            vin<lb break="no" ed="#L" n="83"/>dicta aut fornicatio, de qua est sermo. Et sic procul dubio
+            <lb ed="#L" n="84"/>huiusmodi peccata verborum vel gestuum sunt peccata
+            <lb ed="#L" n="85"/>mortalia.
+          </p>
+          <p xml:id="TAcCaj-d1e2037-d1e1949">
+            <lb ed="#L" n="86"/>Alio modo, quia delectant, vel ut delectent ipsi 
+            inho<lb break="no" ed="#L" n="87"/>nesti gestus, ipsa inhonesta locutio, et sic hilariter 
+            trans<lb break="no" ed="#L" n="88"/>eunt vel transeant. Et hoc proprie videtur ad scurrilitatem
+            <lb ed="#L" n="89"/>et turpitudinem pertinere de quibus Apostolus: P
+            <lb ed="#L" n="90"/>ad Ephes. v. Et sic non sunt peccata mortalia, sed 
+            ve<lb break="no" ed="#L" n="91"/>nialia valde periculosa: scriptum est enim : Corrumpunt
+            <lb ed="#L" n="92"/>bonos mores colloquia prava; unde Apostolus praecipit
+            <lb ed="#L" n="93"/>nec nominari haec inter Christianos . Et quod non sint
+            <lb ed="#L" n="94"/>peccata mortalia, suadetur ratione et auctoritate. Nam 
+            hu<lb break="no" ed="#L" n="95"/>iusmodi peccata non sunt contra bonum proximi: sed ad
+            <lb ed="#L" n="96"/>delectationem directe ordinantur. Constat quoque non esse
+            <lb ed="#L" n="97"/>contra bonum divinum; aut proprium illius qui haec 
+            com<lb break="no" ed="#L" n="98"/>mittit, nec quantum ad bonum animae aut corporis, aut 
+            ex<lb break="no" ed="#L" n="99"/>teriorum. — Apostolus quoque, ibidem , ut Glossa  
+            nota<lb break="no" ed="#L" n="100"/>vit, et bene, prohibet multa vitia, dum dicit: Fornicatio
+            <lb ed="#L" n="101"/>et omnis immunditia, et avaritia, nec nominetur in vobis:
+            <lb ed="#L" n="102"/>nec turpitudo vel stultiloquium, aut scurrilitas, quae ad
+            <lb ed="#L" n="103"/>rem non pertinet: et deinde, subiungens poenam criminum
+            <lb ed="#L" n="104"/>esse exclusionem ab haereditate regni Dei, non resumit nisi
+            <lb ed="#L" n="105"/>tria prima vitia, dicens : Intelligentes quod omnis 
+            fornica<lb break="no" ed="#L" n="106"/>tor aut immundus aut avarus non habet haereditatem etc.,
+            <lb ed="#L" n="107"/>ex hoc insinuans quod alia tria non excludunt, ex suo 
+            ge<lb break="no" ed="#L" n="108"/>nere, a regno Dei. Quod etiam de scurrilitate 
+            insinua<lb break="no" ed="#L" n="109"/>verat, dum dixerat, quae ad rem non pertinet , declarans
+            <lb ed="#L" n="110"/>per hoc deformitatem eius consistere in vanitate, et, 
+            tan<lb break="no" ed="#L" n="111"/>quam quid vanum seu inutile, esse veniale.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

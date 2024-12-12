@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 143</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 143</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="139"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2011"><!-- TAcCajp2p2-q143 -->
+        <head xml:id="TAcCaj-d1e2011-Hd1e101">Quaestio 143</head>
+        <div xml:id="TAcCaj-d1e2011-Dd1e103"><!-- caj-p2p2-q143a1 -->
+          <head xml:id="TAcCaj-d1e2011-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2011-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="37" type="fixed=139"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e115">
+            <lb ed="#L" n="38"/>IN articulo unico quaestionis centesimaequadragesimaeter- est principalior quam materiae istarum, et moderatio eius
+            <lb ed="#L" n="39"/>tiae, de partibus temperantiae, dubia multa ex Martino 
+            <lb ed="#L" n="40"/>cccurrunt, in qu. iii. Primum dubium est de partibus
+            <lb ed="#L" n="41"/>integralibus . Quia enim ponit Auctor verecundiam et 
+            ho<lb break="no" ed="#L" n="42"/>nestatem partes integrales temperantiae, arguit dupliciter
+            <lb ed="#L" n="43"/>Martinus  contra hoc. Primo, Non plus spectat ad 
+            tem<lb break="no" ed="#L" n="44"/>perantiam fugere turpitudinem illi oppositam et amare
+            <lb ed="#L" n="45"/>pulchritudinem eius, quam ad fortitudinem refugere 
+            turpi<lb break="no" ed="#L" n="46"/>tudinem et amare pulchritudinem eius. Sed propter hoc
+            <lb ed="#L" n="47"/>verecundia et honestas non ponuntur partes fortitudinis.
+            <lb ed="#L" n="48"/>Ergo propter illud non sunt ponendae partes temperantiae. 
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e141">
+            <lb ed="#L" n="49"/>Secundo. Verecundia et honestas communes sunt 
+            om<lb break="no" ed="#L" n="50"/>nibus virtutibus: quia in omni materia turpe est recedere
+            <lb ed="#L" n="51"/>a recta ratione, et honestum conformare se illi. Ergo non
+            <lb ed="#L" n="52"/>sunt partes propriae temperantiae.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e152">
+            <lb ed="#L" n="53"/>II. Secundum dubium est de partibus potentialibus 
+            tem<lb break="no" ed="#L" n="54"/>perantiae . Arguit enim  quod partes assignatae in littera
+            <lb ed="#L" n="55"/>ut potentiales, puta modestia et mansuetudo, non sunt
+            <lb ed="#L" n="56"/>artes temperantiae potentiales. Primo, quia si esset, hoc
+            <lb ed="#L" n="57"/>ideo esset quia modum illum quem observat temperantia
+            <lb ed="#L" n="58"/>in materia principali, illae observant in materia minus 
+            prin<lb break="no" ed="#L" n="59"/>cipali. Sed hoc non est. Ergo. - Probatur minor. Tum 
+            <lb ed="#L" n="60"/>quia materia temperantiae et istarum virtutum non sunt
+            <lb ed="#L" n="61"/>connexae: ergo non est una principalis, et alia minus
+            <lb ed="#L" n="62"/>principalis. Tum quia actus, puta moderatio, illarum non 
+            <lb ed="#L" n="63"/>pendet a moderatione temperantiae aut e contra: ac per
+            <lb ed="#L" n="64"/>hoc, non est unus actus principalis, et alius secundarius.
+            <lb ed="#L" n="65"/>Secundo, quia sequeretur quod iustitia et fortitudo 
+            es<lb break="no" ed="#L" n="66"/>sent partes potentiales temperantiae. — Probatur sequela:
+            <lb ed="#L" n="67"/>quia secundum Auctorem, moderatio est difficilior in 
+            tem<lb break="no" ed="#L" n="68"/>perantia quam in iustitia et fortitudine.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e190">
+            <lb ed="#L" n="69"/>Tertio. Quaecumque se habent ut partes potentiales et
+            <lb ed="#L" n="70"/>totum, hoc ideo est aut quia certum modum 
+            subordina<lb break="no" ed="#L" n="71"/>tionis habent respectu unius actus: aut respectu plurium
+            <lb ed="#L" n="72"/>actuum subordinatorum. Sed hoc est falsum. Tum quia
+            <lb ed="#L" n="73"/>haec non suffidiunt. Tum quia temperantia et illae ad 
+            <lb ed="#L" n="74"/>nullum unum actum subordinantur. Tum quia actus 
+            illa<lb break="no" ed="#L" n="75"/>rum non subordinantur actibus temperantiae.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e208">
+            <lb ed="#L" n="76"/>Quarto, quia videtur multis quod moderatio 
+            mansue<lb break="no" ed="#L" n="77"/>tudinis sit difficilior quam temperantiae. - Nec valet dicere
+            <lb ed="#L" n="78"/>quod, licet sit maioris impetus ira, non tamen est tantae
+            <lb ed="#L" n="79"/>durationis. Hoc enim falsum videtur de his quos 
+            Aristo<lb break="no" ed="#L" n="80"/>teles duros appellat .
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e221">
+            <lb ed="#L" n="81"/>Quinto, quia sequeretur quod affabilitas, veritas et 
+            eu<lb break="no" ed="#L" n="82"/>trapelia essent partes potentiales mansuetudinis: quod est
+            <lb ed="#L" n="83"/>falsum. - Probatur sequela: quia materia mansuetudinis
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="84"/>est principalior quam materiae istarum, et moderatio eius
+            <lb ed="#L" n="85"/>est difficilior quam moderatio istarum.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e237">
+            <lb ed="#L" n="86"/>III. Tertium dubium  multa continet: est namque de
+            <lb ed="#L" n="87"/>multis in doctrina huius articuli expositis. Refert siquidem
+            <lb ed="#L" n="88"/>illum, ibidem , Martinus de verbo ad verbum: deinde
+            <lb ed="#L" n="89"/>subdit: - Haec opinio in multis deficit. Primo, in hoc:
+            <lb ed="#L" n="90"/>quod quaecumque virtus moderatur in alia materia, est
+            <lb ed="#L" n="91"/>pars temperantiae. Quia sic omnis virtus moralis esset
+            <lb ed="#L" n="92"/>pars temperantiae: quoniam omnis operatur et moderatur
+            <lb ed="#L" n="93"/>in alia materia.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e257">
+            <lb ed="#L" n="94"/>Secundo, deficit in hoc quod dicit: Continentia 
+            mode<lb break="no" ed="#L" n="95"/>ratur motum voluntatis commotae ex impetu passionis.
+            <lb ed="#L" n="96"/>Primo namque, inquit, vellem scire quos motus moderatur
+            <lb ed="#L" n="97"/>continentia: si isti sunt alii ab his quos moderatur 
+            tem<lb break="no" ed="#L" n="98"/>perantia, ut Auctor protestatur.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e270">
+            <lb ed="#L" n="99"/>Secundo. Volo quod temperantia moderetur aliquos
+            <lb ed="#L" n="100"/>motus. Et quaero an voluntas tunc, vel parum ante, est
+            <lb ed="#L" n="101"/>concitata illis motibus, vel non. Si non, ergo non habet
+            <lb ed="#L" n="102"/>motus illos. Si sic, ergo non solum continentia, sed etiam
+            <lb ed="#L" n="103"/>moderatur temperantia motum voluntatis commotae ex
+            <lb ed="#L" n="104"/>impetu passionis.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e287">
+            <lb ed="#L" n="105"/>Tertio. Continentia, per te, praeter illos motus quos
+            <lb ed="#L" n="106"/>moderatur temperantia, moderatur motum voluntatis 
+            im<lb break="no" ed="#L" n="107"/>petu passionis concitatae. Aut pro tunc [in] illum motum
+            <lb ed="#L" n="108"/>temperantia immediate aliquid potest: aut non. Si non,
+            <lb ed="#L" n="109"/>ergo temperantia non universaliter moderatur omnes 
+            de<lb break="no" ed="#L" n="110"/>lectationes tactus. Si sic, ergo non est opus continentia.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e303">
+            <lb ed="#L" n="111"/>Quarto. Volo quod temperantia moderaverit in aliquo
+            <lb ed="#L" n="112"/>omnes suos motus. Hoc stante, quaero an possibile sit
+            <lb ed="#L" n="113"/>voluntatem concitari impetu alicuius passionis ad 
+            conti<lb break="no" ed="#L" n="114"/>nentiam spectantis, aut non. Si sic, ergo temperantia non
+            <lb ed="#L" n="115"/>moderavit omnes motus: contra hypothesim. Si non, ergo,
+            <lb ed="#L" n="116"/>praeter temperantiam, non est opus continentia.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e319">
+            <lb ed="#L" n="117"/>Istae, inquit demum, rationes videntur mihi apparentes
+            <lb ed="#L" n="118"/>multum contra opinantem.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e326">
+            <lb ed="#L" n="119"/>IV. Ad primum dubium  habetur responsio in littera:
+            <lb ed="#L" n="120"/>quoad verecundiam quidem, in qu. seq., art. r, ad 2;
+            <lb ed="#L" n="121"/>quoad honestatem vero, qu. cxrv, art. 4, ad 3. Utrobique
+            <lb ed="#L" n="122"/>siquidem dicitur quod tam verecundia quam honestas 
+            com<lb break="no" ed="#L" n="123"/>munis est multis virtutibus, sed appropriate conveniunt
+            <lb ed="#L" n="124"/>temperantiae propter turpitudinem quam peculiariter sibi
+            <lb ed="#L" n="125"/>vindicant intemperantiae vitia: verecundia namque timor
+            <lb ed="#L" n="126"/>est turpis et opprobrii, honestas autem decorem oppositum
+            <lb ed="#L" n="127"/>turpitudini et obscuritati, importat.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e348">
+            <lb ed="#L" n="128"/>Unde ad primum dicitur quod aliud est loqui de 
+            turpi<lb break="no" ed="#L" n="129"/>tudine contracta ad hoc vitium: et aliud de turpitudine
+            <pb ed="#L" n="140"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>absolute, Et quod licet cuilibet virtuti conveniat fugere
+            <lb ed="#L" n="2"/>turpitudinem suam, hoc est contractam ad suam materiam ;
+            <lb ed="#L" n="3"/>quia tamen turpitudo absolute magis salvatur in una 
+            ma<lb break="no" ed="#L" n="4"/>teria quam in alia, ideo magis ad unam virtutem quam
+            <lb ed="#L" n="5"/>ad aliam spectat fugere turpitudinem. Et propter hanc
+            <lb ed="#L" n="6"/>causam magis spectat ad temperantiam refugere 
+            turpitudi<lb break="no" ed="#L" n="7"/>nem quam ad fortitudinem, licet temperantia non refugiat
+            <lb ed="#L" n="8"/>nisi sibi oppositam turpitudinem. Et simile est de amore
+            <lb ed="#L" n="9"/>honestatis: quia penes oppositum attenditur, iuxta illud
+            <lb ed="#L" n="10"/>Apostoli : Quae inhonestiora sunt etc.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e381">
+            <lb ed="#L" n="11"/>Et per hoc patet solutio ad secundum : quod scilicet,
+            <lb ed="#L" n="12"/>licet haec communia sint multis, appropriate tamen sunt
+            <lb ed="#L" n="13"/>partes integrales temperantiae. Intellige tamen hoc cum
+            <lb ed="#L" n="14"/>grano salis inferius in qu. cxriv, art. 4, ad 4, apposito:
+            <lb ed="#L" n="15"/>scilicet quod verecundia est pars integralis temperantiae
+            <lb ed="#L" n="16"/>non tanquam intrans eius constitutionem, quia in virtuosis
+            <lb ed="#L" n="17"/>non remanet verecundia; sed tanquam disponens ad 
+            tem<lb break="no" ed="#L" n="18"/>perantiam, iuxta Ambrosium : Verecundia iacit prima
+            <lb ed="#L" n="19"/>temperantiae fundamenta.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e404">
+            <lb ed="#L" n="20"/>V. Ad secundum dubium, de partibus potentialibus ,
+            <lb ed="#L" n="21"/>dicitar negando minorem primi argumenti. Et ad 
+            probatio<lb break="no" ed="#L" n="22"/>nem primam dicitur quod materia temperantiae et 
+            dicta<lb break="no" ed="#L" n="23"/>rum virtutum sunt connexae vinculo similitudinis et 
+            ordi<lb break="no" ed="#L" n="24"/>nis in esse morali: quoniam omnes conveniunt in hoc quod
+            <lb ed="#L" n="25"/>praecipue laus earum consistit in freno. Et inter eas 
+            prin<lb break="no" ed="#L" n="26"/>cipalior est concupiscentia delectabilium tactus. - Per hoc
+            <lb ed="#L" n="27"/>patet responsio ad secundam probationem eiusdem 
+            mino<lb break="no" ed="#L" n="28"/>ris: quia scilicet non requiritur alia dependentia actuum,
+            <lb ed="#L" n="29"/>sed sat est similitudo et ordo inter actus, ut 
+            exposi<lb break="no" ed="#L" n="30"/>tum est.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e430">
+            <lb ed="#L" n="31"/>Ad secundum argumentum, negatur sequela. Quoniam
+            <lb ed="#L" n="32"/>ad hoc quod virtus aliqua sit adiuncta temperantiae, non
+            <lb ed="#L" n="33"/>sufficit quod habeat faciliorem moderationem: sed exigitur
+            <lb ed="#L" n="34"/>necessario quod principalis laus illius virtutis consistat in
+            <lb ed="#L" n="35"/>moderatione. Constat autem quod iustitiae principalis laus
+            <lb ed="#L" n="36"/>non est in modo, sed in debitum reddendo, seu 
+            rectitu<lb break="no" ed="#L" n="37"/>dine. Fortitudinis quoque praecipua laus non est in freno,
+            <lb ed="#L" n="38"/>sed in firmitate. Et per hoc patet ratio quare aliquae 
+            vir<lb break="no" ed="#L" n="39"/>tutes, et non omnes, ponuntur partes temperantiae.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e452">
+            <lb ed="#L" n="40"/>Ad tertium dicitur quod actui temperantiae 
+            subordinan<lb break="no" ed="#L" n="41"/>tur actus adiunctarum: ita quod in toto et parte sunt 
+            di<lb break="no" ed="#L" n="42"/>versi actus, quorum secundarius subordinatur principali,
+            <lb ed="#L" n="43"/>non effective aut finaliter, sed formaliter, eo modo quo
+            <lb ed="#L" n="44"/>formae imperfectiores subordinantur formis perfectioribus.
+            <lb ed="#L" n="45"/>Iam enim declaratum est quod est inter haec similitudo
+            <lb ed="#L" n="46"/>et ordo, :
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e470">
+            <lb ed="#L" n="47"/>Ad quartum dicitur quod responsio ibi dicta, quae est
+            <lb ed="#L" n="48"/>Auctoris , scilicet, Passiones secundum tactum sunt. 
+            diu<lb break="no" ed="#L" n="49"/>turniores quam passiones irae, est bona, Et cum 
+            op<lb break="no" ed="#L" n="50"/>ponitur de duris, respondetur quod passiones secundum
+            <lb ed="#L" n="51"/>tactum sunt, per se loquendo, diuturniores quam ira 
+            du<lb break="no" ed="#L" n="52"/>rorum: quoniam in illis est continua per totam vitam
+            <lb ed="#L" n="53"/>pugna, in istis est ad tempus, scilicet usque ad vindictam. 
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e488">
+            <lb ed="#L" n="54"/>Ad quintum, negatur sequela. Tum quia nec veritas nec
+            <lb ed="#L" n="55"/>affabilitas principaliter laudatur ex modo: sed veritas ex
+            <lb ed="#L" n="56"/>debito, et affabilitas ex debito condecentiae, ut patet ex
+            <lb ed="#L" n="57"/>supra  dictis. Et ideo positae sunt partes. iustitiae. - Tum 
+            <lb ed="#L" n="58"/>quia mansuetudo non est virtus principalis, sed est sub 
+            <lb ed="#L" n="59"/>temperantia ut principali. - Nullum tamen inconveniens
+            <lb ed="#L" n="60"/>video si mansuetudini, aut alteri secundariae virtuti, 
+            adiun<lb break="no" ed="#L" n="61"/>gerentur aliquae virtutes ut partes potentiales, habentes se
+            <lb ed="#L" n="62"/>ad ipsam sicut ipsa se habet ad principalem simpliciter 
+            <lb ed="#L" n="63"/>in illo genere.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e512">
+            <lb ed="#L" n="64"/>VI. Ad tertium dubium , in quo corpus articuli 
+            exami<lb break="no" ed="#L" n="65"/>natur, dicitur quod, ut ex dictis  patet, doctrina Auctoris 
+            <lb ed="#L" n="66"/>in primo non deficit, sed stat solida. Nec sequitur quod 
+            <lb ed="#L" n="67"/>omnis alia virtus sit pars temperantiae. Quia licet quaelibet 
+            <lb ed="#L" n="68"/>virtus moderetur, non tamen quaelibet virtus moderatur
+            <lb ed="#L" n="69"/>ita quod moderatio sit actus ex quo praecipue laudatur:
+            <lb ed="#L" n="70"/>sic enim intelligenda sunt verba Auctoris.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e531">
+            <lb ed="#L" n="71"/>Nec etiam in secundo deficit, de continentia, Quoniam 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="72"/>continentia non differt a temperantia ut arguens putat,
+            <lb ed="#L" n="73"/>scilicet quod continentia est gradus superveniens 
+            tempe<lb break="no" ed="#L" n="74"/>rantiae : sed continentia realiter et essentialiter differt a
+            <lb ed="#L" n="75"/>temperantia. Continentia enim non moderatur passiones,
+            <lb ed="#L" n="76"/>sed voluntatis motum, ne, a multa passione commota,
+            <lb ed="#L" n="77"/>declinet a bono: temperantia vero moderatur directe 
+            pas<lb break="no" ed="#L" n="78"/>siones ipsas, ne insurgant, aut valde parum. Et sic per
+            <lb ed="#L" n="79"/>temperantiam voluntas tanquam in tranquillo operatur:
+            <lb ed="#L" n="80"/>per continentiam vero tanquam fluctibus agitata.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e557">
+            <lb ed="#L" n="81"/>Et per hoc patet ad primum quaesitum: quod scilicet
+            <lb ed="#L" n="82"/>continentia moderatur directe actum voluntatis, non 
+            pas<lb break="no" ed="#L" n="83"/>siones; temperantia vero ipsas passiones.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e566">
+            <lb ed="#L" n="84"/>Ad secundum vero dicitur quod motus passionum, ante
+            <lb ed="#L" n="85"/>temperantiam, concitant voluntatem: sed genita 
+            tempe<lb break="no" ed="#L" n="86"/>rantia, motus non fluctuant amplius. Ad quaestionem ergo
+            <lb ed="#L" n="87"/>de motibus passionum praegeneratarum temperantiae, 
+            di<lb break="no" ed="#L" n="88"/>citur quod, sicut fluctus paulatim decrescunt ante 
+            tran<lb break="no" ed="#L" n="89"/>quillitatem maris, ita et motus passionum: adeo ut, prope
+            <lb ed="#L" n="90"/>tranquillitatem temperantiae, tam parvi fiant motus 
+            passio<lb break="no" ed="#L" n="91"/>num ut anima disposita sit ad veram tranquillitatem, et
+            <lb ed="#L" n="92"/>sic per tales motus non concitatur, aut parum, voluntas.
+            <lb ed="#L" n="93"/>Et propterea sola continentia moderatur motum voluntatis
+            <lb ed="#L" n="94"/>inter fluctus passionum; temperantia autem moderatur 
+            mo<lb break="no" ed="#L" n="95"/>tum voluntatis compescendo ne insurgant fluctus; 
+            dispo<lb break="no" ed="#L" n="96"/>sitio vero propinqua ad temperantiam, mitigando eosdem,
+            <lb ed="#L" n="97"/>moderatur motum voluntatis parum aut nihil commotae.
+            <lb ed="#L" n="98"/>Et quia modicum pro nihilo reputatur , ideo soli 
+            conti<lb break="no" ed="#L" n="99"/>nentiae attribuitur moderari motum voluntatis commotae
+            <lb ed="#L" n="100"/>ex fluctibus passionum, Et cum dicitur, Ergo voluntas
+            <lb ed="#L" n="101"/>non habuit illos: conceditur; quia tam parvi erant ut non
+            <lb ed="#L" n="102"/>commoverent voluntatem. Passiones enim non sunt in 
+            vo<lb break="no" ed="#L" n="103"/>luntate, sed jn appetitu sensitivo, in quo est temperantia,
+            <lb ed="#L" n="104"/>et non continentia,
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e614">
+            <lb ed="#L" n="105"/>Ad tertium, negatur assumptum, scilicet quod 
+            continen<lb break="no" ed="#L" n="106"/>tia moderetur et motus quos moderatur temperantia, et
+            <lb ed="#L" n="107"/>motum voluntatis; ut patet ex dictis. Iste enim supponit
+            <lb ed="#L" n="108"/>unum falsum, scilicet quod continentia et temperantia sint
+            <lb ed="#L" n="109"/>simul in anima: cum hoc sit impossibile; quoniam si est
+            <lb ed="#L" n="110"/>in anima temperantia, iam est tranquillitas, et continentia
+            <lb ed="#L" n="111"/>non est, quae non nisi in fluctibus invenitur.
+          </p>
+          <p xml:id="TAcCaj-d1e2011-d1e632">
+            <lb ed="#L" n="112"/>Ad quartum dicitur quod, ut patet ex dictis, habita
+            <lb ed="#L" n="113"/>temperantia et stante, non est locus continentiae. Ad id
+            <lb ed="#L" n="114"/>vero quod quaeritur, an temperatus possit habere motum
+            <lb ed="#L" n="115"/>passionis commoventis voluntatem: respondetur quod 
+            mo<lb break="no" ed="#L" n="116"/>tus passionis contra bonum rationis dupliciter potest 
+            in<lb break="no" ed="#L" n="117"/>surgere in homine. Primo, ut inchoet ex imperio voluntatis.
+            <lb ed="#L" n="118"/>Et sic, quia temperatus potest agere praeter et contra suum
+            <lb ed="#L" n="119"/>habitum, potest commovere passiones concupiscentiae, in
+            <lb ed="#L" n="120"/>quibus exardescet amplius voluntas, etc. Sed hoc non
+            <lb ed="#L" n="121"/>spectat ad continentiam vel incontinentiam, sed ad 
+            mali<lb break="no" ed="#L" n="122"/>tiam: quia continentia et incontinentia incipiunt a fluctibus
+            <lb ed="#L" n="123"/>passionum, ut patet VII Ethic.  — Alio modo, ut inchoet
+            <lb ed="#L" n="124"/>ab ipso appetitu sensitivo. Et hoc dupliciter, secundum
+            <lb ed="#L" n="125"/>duplicem modum quo natura operatur; scilicet vel ut in
+            <lb ed="#L" n="126"/>pluribus et per se; vel ut raro et per accidens. Distat
+            <lb ed="#L" n="127"/>siquidem temperatus a continente et incontinente, ex parte
+            <lb ed="#L" n="128"/>appetitus sensitivi, in hoc quod temperati appetitus est sic
+            <lb ed="#L" n="129"/>dispositus ut regulariter et ut in pluribus non possit 
+            ap<lb break="no" ed="#L" n="130"/>petere contra bonum rationis: continentis vero et 
+            incon<lb break="no" ed="#L" n="131"/>tinentis appetitus sensitivus communiter et ut in pluribus
+            <lb ed="#L" n="132"/>movetur contra rationis bonum. De possibili autem raro
+            <lb ed="#L" n="133"/>et per accidens, potest contingere ut appetitus temperati
+            <lb ed="#L" n="134"/>et mansueti vehementer moveatur contra bonum rationis:
+            <lb ed="#L" n="135"/>sicut in naturalibus contingit monstrum fieri. Sed 
+            quo<lb break="no" ed="#L" n="136"/>niam doctrina moralis de his est quae sunt ut in pluribus;
+            <lb ed="#L" n="137"/>et continentia ac incontinentia, temperantia et mansuetudo,
+            <lb ed="#L" n="138"/>et universaliter virtutes, secundum ea quae ut in pluribus
+            <lb ed="#L" n="139"/>inveniuntur pensantur: ideo, de possibili morali loquendo,
+            <lb ed="#L" n="140"/>dicendum est quod non potest insurgere apud temperatum
+            <lb ed="#L" n="141"/>et mansuetum motus passionis commoventis voluntatem
+            <lb ed="#L" n="142"/>qui pertineat ad continentiam vel incontinentiam.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

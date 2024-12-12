@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 146</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 146</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="151"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2026"><!-- TAcCajp2p2-q146 -->
+        <head xml:id="TAcCaj-d1e2026-Hd1e101">Quaestio 146</head>
+        <div xml:id="TAcCaj-d1e2026-Dd1e103"><!-- caj-p2p2-q146a1 -->
+          <head xml:id="TAcCaj-d1e2026-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2026-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="17" type="fixed=151"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2026-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="18"/>IN articulo primo quaestionis 
+            centesimaequadragesimae<lb break="no" ed="#L" n="19"/>Min: ad secundum, dubium occurrit circa distinctionem
+            <lb ed="#L" n="20"/>ibidem datam de moderatione ciborum secundum diversa,
+            <lb ed="#L" n="21"/>et propter fines diversos. Nam ad abstinentiam spectat 
+            to<lb break="no" ed="#L" n="22"/>tum primum membrum, scilicet moderatio ciborum 
+            secun<lb break="no" ed="#L" n="23"/>dum quantitatem et qualitatem: ut patet ex speciebus 
+            gu<lb break="no" ed="#L" n="24"/>lae, quae penes haec distinguuntur . Et rursus ad 
+            abstinen<lb break="no" ed="#L" n="25"/>tiam "spectat moderatio ciborum in ordine ad sanitatem
+            <lb ed="#L" n="26"/>corporis: ut patet in III Ethic.  ab Aristotele, et patet
+            <lb ed="#L" n="27"/>etiam superius, in art. 6 qu. cxrr.
+          </p>
+          <p xml:id="TAcCaj-d1e2026-d1e141">
+            <lb ed="#L" n="28"/>Ad hoc dicitur quod distinctio Auctoris in littera 
+            intel<lb break="no" ed="#L" n="29"/>ligenda est ut in utroque membro sit sermo de propria
+            <lb ed="#L" n="30"/>et principali materia moderaminis, et similiter de proprio
+            <lb ed="#L" n="31"/>et principali fine eiusdem. De his siquidem loquendo, pa-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="32"/>tet prinum membrum non claudi sub secundo: sed ex
+            <lb ed="#L" n="33"/>opposito membra divisionis distinguuntur. Nam moderatio
+            <lb ed="#L" n="34"/>respiciens quantitatem aut qualitatem ciborum in ordine
+            <lb ed="#L" n="35"/>ad sanitatem corporis ut proprium et principalem finem,
+            <lb ed="#L" n="36"/>non spectat ad temperantiam, sed medicinae artem. Sed
+            <lb ed="#L" n="37"/>moderatio concupiscentiae tanti et talis cibi, consoni 
+            scili<lb break="no" ed="#L" n="38"/>cet sanitati corporis aut saltem non impeditivi illius, 
+            spe<lb break="no" ed="#L" n="39"/>ctat ad temperantiam in ordine ad bonum rationis. Ita quod
+            <lb ed="#L" n="40"/>propria et principalis materia temperantiae est 
+            concupiscen<lb break="no" ed="#L" n="41"/>tia: quantitas autem et qualitas cibi sunt obiecta 
+            concu<lb break="no" ed="#L" n="42"/>piscentiae, ac per hoc materia remota temperantiae. Finis
+            <lb ed="#L" n="43"/>autem proprius est bonum rationis: sub quo temperantia
+            <lb ed="#L" n="44"/>sanitatem corporis servat, mediante naturali amore, quo
+            <lb ed="#L" n="45"/>nemo unquam carnem suam odio habuit .
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2026-Dd1e186"><!-- caj-p2p2-q146a2 -->
+          <head xml:id="TAcCaj-d1e2026-Hd1e189">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2026-d1e191">
+            <pb ed="#L" n="152"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=152"/>Commentaria Cardinalis Caietani 
+          </p>
+          <p xml:id="TAcCaj-d1e2026-d1e200">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>IN articulo secundo eiusdem 
+            centesimaequadragesimaese<lb break="no" ed="#L" n="3"/>quaestionis duo occurrunt. Primum est in 
+            respon<lb break="no" ed="#L" n="4"/>sione ad primum articuli secundi, quod responsio Auctoris
+            <lb ed="#L" n="5"/>non solum dicit abstinentiam commendari ex aliis virtutibus,
+            <lb ed="#L" n="6"/>sed etiam non commendari nisi adiunctam habeat laudem
+            <lb ed="#L" n="7"/>ex aliis virtutibus, ut auctoritas Gregorii exposcit. Sumitur
+            <lb ed="#L" n="8"/>autem sensus iste ex eo quod in responsione dicitur quod
+            <lb ed="#L" n="9"/>oportet virtutes esse connexas: ac per hoc, abstinentiam
+            <lb ed="#L" n="10"/>non esse virtutem nisi connexa sit aliis. Et consequenter
+            <lb ed="#L" n="11"/>non est laudabilis nisi ex aliis commendetur. Cum quo
+            <lb ed="#L" n="12"/>patet stare quod habet propriam laudem: sicut ceterae 
+            vir<lb break="no" ed="#L" n="13"/>tutes morales, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e2026-d1e231">
+            <lb ed="#L" n="14"/>II. Secundum est in responsione ad tertium eiusdem
+            <lb ed="#L" n="15"/>articuli. Est siquidem in illa duplex dubium. Unum est,
+            <lb ed="#L" n="16"/>quia falsum videtur quod usus vestimentorum sit ab arte 
+            in<lb break="no" ed="#L" n="17"/>troductus. Quoniam licet vestimenta fiant per artem, quod
+            <lb ed="#L" n="18"/>utamur tamen vestimento, a natura habemus, quae nos 
+            in<lb break="no" ed="#L" n="19"/>digentes vestimento produxit. Neque enim minus 
+            natura<lb break="no" ed="#L" n="20"/>liter homo est animal vestibile quam politicum.
+          </p>
+          <p xml:id="TAcCaj-d1e2026-d1e249">
+            <lb ed="#L" n="21"/>Alterum est quia, dato quod usus vestimentorum esset
+            <lb ed="#L" n="22"/>ab arte, ex hoc non recte infertur quod circa ipsum non
+            <lb ed="#L" n="23"/>sit aliqua specialis virtus: ut obiicit Martinus, in praedicto 
+            <lb ed="#L" n="24"/>tractatu , in qu. 1  de Abstinentia. Quia neque circa 
+            pe<lb break="no" ed="#L" n="25"/>cuniam et delectationes appositas , neque circa magna 
+            ae<lb break="no" ed="#L" n="26"/>dificia, neque circa ludos multos quorum usus est ab
+            <lb ed="#L" n="27"/>arte, essent ponendae speciales virtutes. Quod est falsum.
+            <lb ed="#L" n="28"/>Ergo, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e2026-d1e270">
+            <lb ed="#L" n="29"/>III. Ad primum horum  facile dicitur quod usus 
+            vest<lb break="no" ed="#L" n="30"/>mentorum est naturalis homini secundum quod est animal
+            <lb ed="#L" n="31"/>rationale, sicut esse politicum: sed non est naturalis eidem
+            <lb ed="#L" n="32"/>secundum naturam sensitivam, nisi inchoative, pro quanto
+            <lb ed="#L" n="33"/>complexio corporis praeparata est ut vestimento melius
+            <lb ed="#L" n="34"/>conservetur. Quod autem non plus quam sic naturalitatis
+            <lb ed="#L" n="35"/>habet, ab arte ponitur esse.
+          </p>
+          <p xml:id="TAcCaj-d1e2026-d1e288">
+            <lb ed="#L" n="36"/>Ad secundum vero dicitur quod verba Auctoris 
+            pos<lb break="no" ed="#L" n="37"/>sunt intelligi dupliciter. Primo, ut differentia in hoc quod
+            <lb ed="#L" n="38"/>usus cuiusque materiae est a natura vel ab arte, sit causa
+            <lb ed="#L" n="39"/>differentiae in hoc quod in illa materia sit virtus specialis
+            <lb ed="#L" n="40"/>vel non. Et hic sensus est acceptus ab arguente: sed non
+            <lb ed="#L" n="41"/>est intentus ab Auctore.
+          </p>
+          <p xml:id="TAcCaj-d1e2026-d1e304">
+            <lb ed="#L" n="42"/>Secundo modo potest intelligi quod differentia dicta,
+            <lb ed="#L" n="43"/>scilicet a natura vel arte, posita in talibus materiis, scilicet
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="44"/>usu alimentorum et vestimentorum, est causa quod sit
+            <lb ed="#L" n="45"/>circa alimenta specialis virtus, et non circa vestimenta. Et
+            <lb ed="#L" n="46"/>hic sensus concedatur: quamvis etiam non habeatur plene
+            <lb ed="#L" n="47"/>in littera, quoniam apponitur ly magis, dicendo: Et ideo
+            <lb ed="#L" n="48"/>magis debet esse virtus specialis circa alimenta quam circa
+            <lb ed="#L" n="49"/>vestimenta. Directa siquidem intentio litterae est satisfacere
+            <lb ed="#L" n="50"/>argumento per hoc quod non est par ratio de vestimentis
+            <lb ed="#L" n="51"/>et alimentis ad specialem virtutem sibi vindicandum: hoc
+            <lb ed="#L" n="52"/>enim solvit argumentum a sicut, seu a similitudine. Et
+            <lb ed="#L" n="53"/>imparitatem rationis ostendit per hoc quod usus 
+            alimen<lb break="no" ed="#L" n="54"/>torum est a natura, vestimentorum vero ab arte. Ad cuius
+            <lb ed="#L" n="55"/>evidentiam, sciendum est quod, dicendo usus alimentorum,
+            <lb ed="#L" n="56"/>dico usum necessariorum simpliciter ad vitam animalis. Et
+            <lb ed="#L" n="57"/>si supra talium usum adiungas quod est a natura, 
+            habe<lb break="no" ed="#L" n="58"/>bis statim quod natura in tali usu apposuit aliquam 
+            ma<lb break="no" ed="#L" n="59"/>ximam ac propriam tali usui delectationem: quoniam 
+            sol<lb break="no" ed="#L" n="60"/>licita circa necessaria sic necessaria sua valde est. Ac. per
+            <lb ed="#L" n="61"/>hoc statim habes indigentiam specialis moderationis. Di- .
+            <lb ed="#L" n="62"/>cendo autem usus vestimentorum, significo usum rei non
+            <lb ed="#L" n="63"/>omnino, sed ad bene esse necessariae. Et si super hoc ap- .
+            <lb ed="#L" n="64"/>posueris quod talis rei usus est ab arte, non habes aliquid
+            <lb ed="#L" n="65"/>speciale et proprium retractivum a bono rationis, sicut ibi
+            <lb ed="#L" n="66"/>erat tam magna delectatio sensibilis: potest enim talis rei
+            <lb ed="#L" n="67"/>usus, qui est ab arte, concurrere cum aliqua alia materia
+            <lb ed="#L" n="68"/>ad eandem formam moderaminis subinduendam. Et ideo
+            <lb ed="#L" n="69"/>ex hac ratione optime illatum est in littera quod potius
+            <lb ed="#L" n="70"/>debet poni specialis virtus circa usum alimentorum 
+            mode<lb break="no" ed="#L" n="71"/>randum quam vestimentorum.
+          </p>
+          <p xml:id="TAcCaj-d1e2026-d1e374">
+            <lb ed="#L" n="72"/>Et per haec patet quod non oportet Martino aliter 
+            re<lb break="no" ed="#L" n="73"/>spondere, qui non contra litteram sic intellectam, sed primo
+            <lb ed="#L" n="74"/>tantum modo, arguit. Quamvis falsum dicat de tot 
+            specie<lb break="no" ed="#L" n="75"/>bus virtutum quas ponendas esse putat. Nec est verum
+            <lb ed="#L" n="76"/>quod aliqua virtus specialis sit circa pecuniam: quoniam
+            <lb ed="#L" n="77"/>tam liberalitas quam magnificentia sine pecunia, ex 
+            com<lb break="no" ed="#L" n="78"/>mutatione naturalium divitiarum, exerceri potest, ut patet.
+            <lb ed="#L" n="79"/>Similiter nulla specialis virtus moralis est circa magna 
+            ae<lb break="no" ed="#L" n="80"/>dificia aut ludos artificiales aut delectationes appositas, sed
+            <lb ed="#L" n="81"/>haec coincidunt cum similibus sibi materiis virtutum: 
+            de<lb break="no" ed="#L" n="82"/>lectationes enim appositae coordinantur cum naturalibus,
+            <lb ed="#L" n="83"/>et est circa eas abstinentia vel castitas; ludi quoque omnes
+            <lb ed="#L" n="84"/>ad eutrapeliam spectant; magna aedificia sub magnis 
+            sum<lb break="no" ed="#L" n="85"/>ptibus comprehenduntur spectantibus ad magnificentiam.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

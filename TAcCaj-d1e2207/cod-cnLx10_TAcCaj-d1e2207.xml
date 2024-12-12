@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 181</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 181</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="436"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2207"><!-- TAcCajp2p2-q181 -->
+        <head xml:id="TAcCaj-d1e2207-Hd1e101">Quaestio 181</head>
+        <div xml:id="TAcCaj-d1e2207-Dd1e103"><!-- caj-p2p2-q181a1 -->
+          <head xml:id="TAcCaj-d1e2207-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2207-d1e108">
+            <pb ed="#L" n="436"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=436"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e117">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>IN articulo primo quaestionis 
+            centesimaeoctogesimaepri<lb break="no" ed="#L" n="3"/>uw dubium statim occurrit circa rationem litterae ad
+            <lb ed="#L" n="4"/>principalem conclusionem. Consistit enim in hoc: Virtutes
+            <lb ed="#L" n="5"/>morales ordinantur ad operandum principaliter; ergo 
+            per<lb break="no" ed="#L" n="6"/>tinent essentialiter ad vitam activam, quia vita activa 
+            or<lb break="no" ed="#L" n="7"/>dinatur ad exteriorem operationem. Videtur enim haec ratio
+            <lb ed="#L" n="8"/>deficere, procedendo ab operatione ad exteriorem 
+            opera<lb break="no" ed="#L" n="9"/>tionem. Nam virtutes morales ordinantur principaliter ad
+            <lb ed="#L" n="10"/>operationem, sed non exteriorem: quoniam ordinantur ad
+            <lb ed="#L" n="11"/>interiorum passionum moderamen. Vita autem activa in
+            <lb ed="#L" n="12"/>exteriori operatione consistit.
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e146">
+            <lb ed="#L" n="13"/>Ad hoc dicitur quod exterior operatio ad quam 
+            or<lb break="no" ed="#L" n="14"/>dinatur activa vita, non est sola illa quae extra corpus
+            <lb ed="#L" n="15"/>exercetur, ut vestire nudum, pascere esurientem, et hufü
+            s<lb break="no" ed="#L" n="16"/>modi: sed etiam est illa quae extra intellectum fit. Quod
+            <lb ed="#L" n="17"/>patet ex hoc quod vita activa distinguitur contra 
+            con<lb break="no" ed="#L" n="18"/>templativam eadem distinctione qua intellectus practicus
+            <lb ed="#L" n="19"/>distinguitur contra speculativum: ut in art. 2. quaest.
+            <lb ed="#L" n="20"/>cLxxix, superius patet. Et in sequenti articulo, in resp.
+            <lb ed="#L" n="21"/>ad 1, expresse dicitur quod prudentia, quae habet finem
+            <lb ed="#L" n="22"/>in actu appetitivae virtutis, pertinet ad vitam activam. Quia
+            <lb ed="#L" n="23"/>igitur operatio exterior ad quam activa ordinatur, 
+            comple<lb break="no" ed="#L" n="24"/>citur et interiorem appetitum, qui virtutibus moralibus
+            <lb ed="#L" n="25"/>iuformatur, et exteriorem operationem, quae scilicet extra
+            <lb ed="#L" n="26"/>corpus fit: ideo nullus defectus commissus est in processu
+            <lb ed="#L" n="27"/>rationis litterae ab operando sic sumpto ut ex 
+            praeceden<lb break="no" ed="#L" n="28"/>tibus et sequentibus apparet, ad operationem exteriorem,
+            <lb ed="#L" n="29"/>hoc est practicam moralem, procedendo.
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e185">
+            <lb ed="#L" n="30"/>II. Et scias quod sicut contemplatio, seu actus intel-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="31"/>lectus sapientis, essentialiter spectat ad vitam 
+            contempla<lb break="no" ed="#L" n="32"/>tivam, quia in tali actu essentialiter consistit vita 
+            contem<lb break="no" ed="#L" n="33"/>plativa; ita actus virtutum moralium essentialiter spectant
+            <lb ed="#L" n="34"/>ad vitam activam, ita quod in ipsis essentialiter consistit.
+            <lb ed="#L" n="35"/>Et propterea actus exteriores qui dicuntur ad vitam 
+            acti<lb break="no" ed="#L" n="36"/>vam spectare, scilicet docere, corrigere, pascere, 
+            hospi<lb break="no" ed="#L" n="37"/>tari, etc., nisi fiant boni moraliter, non spectant ad vitam
+            <lb ed="#L" n="38"/>activam, sed ad actionem debitam vitae activae. Activa
+            <lb ed="#L" n="39"/>namque vita morale studium, seu bonum moraliter 
+            stu<lb break="no" ed="#L" n="40"/>dium, ad actionem ducit.
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e215">
+            <lb ed="#L" n="41"/>Verum non aequaliter virtutes morales omnes ad 
+            acti<lb break="no" ed="#L" n="42"/>vam vitam spectant: sed, ut in littera  dicitur, principa- -
+            <lb ed="#L" n="43"/>liter virtutes ut ordinantes operationes ad alterum, inter
+            <lb ed="#L" n="44"/>quas praecipue est iustitia, primo spectant ad activam 
+            vi<lb break="no" ed="#L" n="45"/>tam. Quo fit ut mansuetudo, patientia et liberalitas magis
+            <lb ed="#L" n="46"/>ad activam vitam spectent quam temperantia: quoniam ad
+            <lb ed="#L" n="47"/>bonum alterius magis prosunt.
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e233">
+            <lb ed="#L" n="48"/>III. In responsione ad tertium eiusdem articuli, sufficit
+            <lb ed="#L" n="49"/>quod memor sis distinguere inter finem virtutum moralium
+            <lb ed="#L" n="50"/>secundum se, vel ex parte operantis: et subsumere quod
+            <lb ed="#L" n="51"/>ex parte operantis, finis virtutis moralis quandoque est
+            <lb ed="#L" n="52"/>vita activa, quandoque contemplativa; secundum se autem,
+            <lb ed="#L" n="53"/>ita vita activa est finis virtutis moralis quod relinquit ipsam
+            <lb ed="#L" n="54"/>moralem virtutem esse dispositionem respectu vitae 
+            con<lb break="no" ed="#L" n="55"/>templativae. Non enim incongruit idem esse substantiale
+            <lb ed="#L" n="56"/>in uno, et dispositionem respectu alterius: sicut dicimus
+            <lb ed="#L" n="57"/>quod bonitas moralis est ita perfectio bominis quod est
+            <lb ed="#L" n="58"/>dispositio ad bonitatem meritoriam. Et hanc responsionem
+            <lb ed="#L" n="59"/>tangit Auctor in calce solutionis tertii argumenti.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2207-Dd1e263"><!-- caj-p2p2-q181a2 -->
+          <head xml:id="TAcCaj-d1e2207-Hd1e266">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2207-d1e268">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="27" type="fixed=437"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e275">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="28"/>In articulo secundo eiusdem quaestionis, notandum 
+            oc<lb break="no" ed="#L" n="29"/>currit quod tertium illud vivendi genus, quod praelatis
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="30"/>videtur proprium, hic  transitorie tangitur, quoniam 
+            infe<lb break="no" ed="#L" n="31"/>rius latior erit sermo de statu praelatorum.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2207-Dd1e292"><!-- caj-p2p2-q181a3 -->
+          <head xml:id="TAcCaj-d1e2207-Hd1e295">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2207-d1e297">
+            <pb ed="#L" n="438"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=438"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e306">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>IN articulo tertio eiusdem quaestionis, circa duplex 
+            obie<lb break="no" ed="#L" n="3"/>fu doctrinae, adverte quod alterum, scilicet obiectum
+            <lb ed="#L" n="4"/>conceptionis intellectualis, potest dupliciter pertinere tam
+            <lb ed="#L" n="5"/>ad vitam activam quam ad contemplativam: videlicet vel
+            <lb ed="#L" n="6"/>ex parte docentis; vel ex parte rei conceptae secundum se.
+            <lb ed="#L" n="7"/>Ex parte quidem docentis, cum aliquis docet ad hunc 
+            fi<lb break="no" ed="#L" n="8"/>nem ut contemplatio vel actio subsequatur. Ex parte vero
+            <lb ed="#L" n="9"/>rei quam docemur, tunc spectat ad contemplativam cum
+            <lb ed="#L" n="10"/>obiectum est speculabile secundum se: tunc autem spectat
+            <lb ed="#L" n="11"/>ad activam, cum obiectum est de genere practicorum.
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e332">
+            <lb ed="#L" n="12"/>Alterum vero obiectum, ex parte actus docendi, qui est
+            <lb ed="#L" n="13"/>sermo audibilis, vel visibilis in scriptura, in littera expri-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="14"/>mitur quod est ipse audiens, seu legens. Cuius ratio est
+            <lb ed="#L" n="15"/>quia actus docendi est velut actio transiens: ordinatur enim
+            <lb ed="#L" n="16"/>ad perfectionem audientis, sicut actio transiens ad 
+            perfe<lb break="no" ed="#L" n="17"/>ctionem materiae seu subiecti, Et propterea, sicut 
+            obie<lb break="no" ed="#L" n="18"/>ctum actionis transeuntis est ipsa materia perficienda, ita
+            <lb ed="#L" n="19"/>obiectum actus legendi est ipse audiens perficiendus per
+            <lb ed="#L" n="20"/>doctrinae actum immutantem ipsum audientem seu 
+            legen<lb break="no" ed="#L" n="21"/>tem tam extra quoad sensus, quam intus quoad 
+            intelle<lb break="no" ed="#L" n="22"/>ctum, quantum est ex parte ipsius actus docendi, quamvis
+            <lb ed="#L" n="23"/>forte audiens nihil proficiat. Et propterea ex hac parte
+            <lb ed="#L" n="24"/>omnis doctrina spectat ad vitam activam, sive doceat 
+            actio<lb break="no" ed="#L" n="25"/>nem sive contemplationem.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2207-Dd1e368"><!-- caj-p2p2-q181a4 -->
+          <head xml:id="TAcCaj-d1e2207-Hd1e371">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2207-d1e373">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="13" type="fixed=439"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e380">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="14"/>In articulo quarto eiusdem quaestionis, notanda valde 
+            do<lb break="no" ed="#L" n="15"/>ctrina occurrit in responsione ad secundum. Quoniam
+            <lb ed="#L" n="16"/>inde solutio illius occultae quaestionis habetur: An, scilicet,
+            <lb ed="#L" n="17"/>homines beati assumpti ad ordines angelorum ita quod
+            <lb ed="#L" n="18"/>sint superiores quibusdam angelis, illuminent angelos 
+            mi<lb break="no" ed="#L" n="19"/>nus beatos se, quos constat esse inferiores in ordine 
+            bea<lb break="no" ed="#L" n="20"/>titudinis. Verbi gratia: An sanctus Petrus, posito quod sit
+            <lb ed="#L" n="21"/>inter Seraphin, illuminet angelos qui sunt in ordine 
+            Che<lb break="no" ed="#L" n="22"/>rubin, et sic de aliis. Ex hoc enim loco habes ab Auctore
+            <lb ed="#L" n="23"/>partem negativam: scilicet quod homines puri non 
+            illu<lb break="no" ed="#L" n="24"/>minant angelos; immo nec alios homines inferiores ibidem
+            <lb ed="#L" n="25"/>beatos. Quoniam haec est differentia inter homines et 
+            an<lb break="no" ed="#L" n="26"/>gelos ibidem, quod in hominibus non remanet vita activa,
+            <lb ed="#L" n="27"/>ad quam spectat docere, quod ibi vocatur illuminare: in
+            <lb ed="#L" n="28"/>angelis autem, usque ad finem mundi, utraque vita 
+            quo<lb break="no" ed="#L" n="29"/>dammodo est, quoniam et contemplantur, et sunt 
+            admi<lb break="no" ed="#L" n="30"/>nistratorii spiritus in ministerium missi, etc. 
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e422">
+            <lb ed="#L" n="31"/>Nec solum haec differentia ponitur in littera, sed 
+            ra<lb break="no" ed="#L" n="32"/>tione ibidem probatur. Scilicet, quia illuminationes fiunt
+            <lb ed="#L" n="33"/>de his quae pertinent ad dispensationem ministeriorum
+            <lb ed="#L" n="34"/>Dei. Angelis autem secundum naturae suae ordinem 
+            com<lb break="no" ed="#L" n="35"/>petit administratio inferioris creaturae. Et propterea eis
+            <lb ed="#L" n="36"/>convenit illuminare inferiores. Homo vero quia secundum
+            <lb ed="#L" n="37"/>naturae ordinem non est administrator inferioris creaturae;
+            <lb ed="#L" n="38"/>nec homini promissa est similitudo cum angelis quoad ea
+            <lb ed="#L" n="39"/>uae spectant ad ordinem naturae, quale est esse 
+            admi<lb break="no" ed="#L" n="40"/>nistrativum inferioris creaturae: ideo homini beato non
+            <lb ed="#L" n="41"/>convenit illuminare.
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e448">
+            <lb ed="#L" n="42"/>Ex quibus collige responsionem litterae, quod, cum in
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="43"/>beatis sit duorum notitia, scilicet ipsius Dei, qua 
+            essentia<lb break="no" ed="#L" n="44"/>liter beati sunt, et ministeriorum Dei, quae mediantibus
+            <lb ed="#L" n="45"/>angelis exequitur in hoc mundo: quoad primam notitiam,
+            <lb ed="#L" n="46"/>nec homo nec angelus illuminat alium inferiorem; quoad
+            <lb ed="#L" n="47"/>secundam vero notitiam, non hominis, sed angeli est 
+            il<lb break="no" ed="#L" n="48"/>luminare, quia ad angelorum, et non hominum officium
+            <lb ed="#L" n="49"/>hoc spectat.
+          </p>
+          <p xml:id="TAcCaj-d1e2207-d1e471">
+            <lb ed="#L" n="50"/>II. Nec fallaris ex hoc, putans homines beatos, puta
+            <lb ed="#L" n="51"/>sanctum Petrum, nunquam, divina dispensatione, circa nos
+            <lb ed="#L" n="52"/>aliquid operari. Hoc enim ab hac quaestione alienum est:
+            <lb ed="#L" n="53"/>quoniam de beatis inter se quaestio est. An autem sancti
+            <lb ed="#L" n="54"/>aliqui immediate per seipsos, vel per angelorum 
+            mini<lb break="no" ed="#L" n="55"/>sterium qui nomine illorum sanctorum se vocant, nos
+            <lb ed="#L" n="56"/>quandoque illuminent, aut circa nos aliquid operentur:
+            <lb ed="#L" n="57"/>non facile dixerim. Quandoquidem ratio praedicta ducit ad
+            <lb ed="#L" n="58"/>partem negativam: dispensatio autem divina ad partem 
+            af<lb break="no" ed="#L" n="59"/>firmativam. Legimus enim quod multa corpora sanctorum
+            <lb ed="#L" n="60"/>surrexerunt cum Christo, et apparuerunt multis: — 
+            pro<lb break="no" ed="#L" n="61"/>cul dubio beati: cum essent sancti, et resurrectionem 
+            Chri<lb break="no" ed="#L" n="62"/>sti, apparendo multis, attestantes. Et propterea non 
+            incon<lb break="no" ed="#L" n="63"/>grue dici posse videtur quod ordo caelestis patriae 
+            beato<lb break="no" ed="#L" n="64"/>rum inter se nunquam variatur, ut Auctor in Primo Libro 
+            <lb ed="#L" n="65"/>docuit: eo quod variatio illa miraculose fieret; et cum 
+            mi<lb break="no" ed="#L" n="66"/>racula fiant propter utilitatem, ut Apostolus docet , 
+            fru<lb break="no" ed="#L" n="67"/>stra ibi fierent, ubi nulla esset utilitas. Ordo vero 
+            super<lb break="no" ed="#L" n="68"/>norum civium ad nos dispensative quandoque mutatur:
+            <lb ed="#L" n="69"/>eo quod hoc ad utilitatem Ecclesiae confert, dum, 
+            peregri<lb break="no" ed="#L" n="70"/>nantes hic, ex his qui nobiscum fuerunt, regredi ad nos
+            <lb ed="#L" n="71"/>experimur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

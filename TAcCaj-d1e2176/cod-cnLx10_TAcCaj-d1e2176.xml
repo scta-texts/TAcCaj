@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 175</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 175</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="404"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2176"><!-- TAcCajp2p2-q175 -->
+        <head xml:id="TAcCaj-d1e2176-Hd1e101">Quaestio 175</head>
+        <!-- no commentary -->
+        <div xml:id="TAcCaj-d1e2176-Dd1e105"><!-- caj-p2p2-q175a2 -->
+          <head xml:id="TAcCaj-d1e2176-Hd1e108">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2176-d1e110">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="33" type="fixed=404"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e117">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="34"/>IN articulis primo. et secundo simul quaestionis 
+            centesi<lb break="no" ed="#L" n="35"/>Jauiciegteagosithi quintae" dubium occurrit, cur 
+            abstra<lb break="no" ed="#L" n="36"/>ctionis a sensibus in primo articulo Auctor tres tantum
+            <lb ed="#L" n="37"/>assignaverit causas, scilicet aegritudinem, daemonem et
+            <lb ed="#L" n="38"/>Deum: cum constet quartam inveniri causam, ab ipso 
+            ex<lb break="no" ed="#L" n="39"/>pressam in secundo articulo et alibi, scilicet 
+            vehemen<lb break="no" ed="#L" n="40"/>tiam amoris seu intentionis animae.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e137">
+            <lb ed="#L" n="41"/>Et augetur dubium. Quoniam invenitur Socrates, apud
+            <lb ed="#L" n="42"/>Aulum Gellium, de Noctibus Atticis lib. II , quod perdius
+            <lb ed="#L" n="43"/>atque pernox immobilis abstractus manebat.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e146">
+            <lb ed="#L" n="44"/>Ipse etiam Auctor, ut in gestis eiusdem  legitur, tam
+            <lb ed="#L" n="45"/>familiarem habebat huiusmodi alienationem, ut etiam ad
+            <lb ed="#L" n="46"/>nutum illam habuisse videatur.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e156">
+            <lb ed="#L" n="47"/>II. Ad hoc dicitur quod revera abstractio a sensibus, 
+            prae<lb break="no" ed="#L" n="48"/>ter illam quae fit in somnio, a quatuor oritur causis iam
+            <lb ed="#L" n="49"/>dictis. Sed tres earum in primo articulo numeratae, sunt
+            <lb ed="#L" n="50"/>causae extrinsecae: et propterea ipsae solae ibidem 
+            nume<lb break="no" ed="#L" n="51"/>ratae sunt. Et de Deo quidem et daemone clarum est quod
+            <lb ed="#L" n="52"/>sunt extrinsecae causae. De corpore autem manifestatur
+            <lb ed="#L" n="53"/>ex hoc quod, licet sit intrinsecum homini, est tamen 
+            ex<lb break="no" ed="#L" n="54"/>trinsecum animae, quae alienatur et abstrahitur a 
+            sensi<lb break="no" ed="#L" n="55"/>bus. — Quarta vero intrinseca est: quoniam est ipsa 
+            in<lb break="no" ed="#L" n="56"/>tentio seu affectio animae. Et propterea non est 
+            compu<lb break="no" ed="#L" n="57"/>tata cum aliis.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e182">
+            <lb ed="#L" n="58"/>Ad id autem quod de Socrate dicitur, posset dici quod
+            <lb ed="#L" n="59"/>ex vehementia intentionis animae abstrahebatur. 
+            Verunta<lb break="no" ed="#L" n="60"/>men Aristoteles, in Problemate Magno de Viris 
+            Excellen<lb break="no" ed="#L" n="61"/>tibus , corporali causae videtur tribuere: existimavit 
+            siqui<lb break="no" ed="#L" n="62"/>dem illum maniacum.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e195">
+            <lb ed="#L" n="63"/>De Auctore autem, particulariter quidem dici potest
+            <lb ed="#L" n="64"/>quod ex intrinseca causa alienabatur a sensibus, scilicet ex
+            <lb ed="#L" n="65"/>nimia intentione ad speculabilia, vel affectione ad fruibilia.
+            <lb ed="#L" n="66"/>Universaliter autem in nullam possunt reduci corporis vel
+            <lb ed="#L" n="67"/>animae causam illius raptus: quoniam corporaliter elevatus
+            <lb ed="#L" n="68"/>a terra inspiciebatur , quod et corporis et animae vires 
+            ex<lb break="no" ed="#L" n="69"/>cedit. Et propterea, cum Sanctus Dei esset, procul dubio
+            <lb ed="#L" n="70"/>divina rapiebatur virtute.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2176-Dd1e216"><!-- caj-p2p2-q175a3 -->
+          <head xml:id="TAcCaj-d1e2176-Hd1e219">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2176-d1e221">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="85" type="fixed=405"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e228">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="86"/>IN articulo tertio eiusdem quaestionis 
+            centesimaeseptua<lb break="no" ed="#L" n="87"/>gesimaequintae, ubi de raptu Pauli ad videndam divinam
+            <lb ed="#L" n="88"/>essentiam  ineffabilitas verborum affertur, scrupulus mihi
+            <lb ed="#L" n="89"/>accidit: quoniam Paulus non dicit se vidisse, sed audisse;
+            <lb ed="#L" n="90"/>ac per hoc, ad minus quid se raptum dicit quam ad 
+            vi<lb break="no" ed="#L" n="91"/>dendum Deum per essentiam. Audire enim verba arcana
+            <lb ed="#L" n="92"/>ineffabilia non est videre Deum per essentiam: quoniam
+            <lb ed="#L" n="93"/>intuitus ille unius est, non multorum; visus est, non 
+            au<lb break="no" ed="#L" n="94"/>ditus.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e252">
+            <lb ed="#L" n="95"/>Ad hoc dicitur quod, quia non ex Scripturae 
+            auctori<lb break="no" ed="#L" n="96"/>tate, sed divi Augustini et sequacium, creditur Paulum
+            <lb ed="#L" n="97"/>raptum usque ad visionem divinae essentiae; ideo non
+            <lb ed="#L" n="98"/>oportet tam proprie discutere seu intelligere verba illa, ad
+            <lb ed="#L" n="99"/>opinandum oppositum.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e265">
+            <lb ed="#L" n="100"/>II. In responsione ad tertium eiusdem articuli, dubium
+            <lb ed="#L" n="101"/>occurrit etiam de ipso habitu fidei in Paulo: quia videtur
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="102"/>quod frustra remanserit. Quoniam actualis visio alicuius
+            <lb ed="#L" n="103"/>rei non solum excludit actualem fidem respectu illius pro
+            <lb ed="#L" n="104"/>tunc, sed etiam in futurum. Qui enim semel vidit Romam,
+            <lb ed="#L" n="105"/>non credit amplius (si Roma esset incommutabilis) ipsam
+            <lb ed="#L" n="106"/>esse. Cum igitur Paulus supponatur vidisse divinam 
+            essen<lb break="no" ed="#L" n="107"/>tiam, in qua omnia fidei mysteria relucent; postquam 
+            ces<lb break="no" ed="#L" n="108"/>savit videre, non credebat amplius, sed certus erat 
+            certi<lb break="no" ed="#L" n="109"/>tudine praeteritae evidentiae, cuius erat memor.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e292">
+            <lb ed="#L" n="110"/>Ad hoc dicitur quod Paulus non vidit omnia quae sunt
+            <lb ed="#L" n="111"/>fidei in divina essentia: cum non viderit se iz corpore vel
+            <lb ed="#L" n="112"/>extra corpus. Et propterea habitus fidei remansit in eo:
+            <lb ed="#L" n="113"/>quoad multa credenda, exiturus in actum simpliciter; 
+            quo<lb break="no" ed="#L" n="114"/>ad illa vero quae vidit, exiturus in actum sub conditione
+            <lb ed="#L" n="115"/>et praeparatione animi, scilicet quod etiam crederet si non
+            <lb ed="#L" n="116"/>vidisset. - Et hac solutione utendum est cum de visionibus
+            <lb ed="#L" n="117"/>prophetarum et eorum fide est quaestio.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2176-Dd1e313"><!-- caj-p2p2-q175a4 -->
+          <head xml:id="TAcCaj-d1e2176-Hd1e316">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2176-d1e318">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="85" type="fixed=406"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e325">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="86"/>In articulo quarto eiusdem quaestionis 
+            centesimaeseptua<lb break="no" ed="#L" n="87"/>gesimaequintae, in responsione ad tertium, adverte quod
+            <lb ed="#L" n="88"/>responsio ista, scilicet quod in Paulo vidente divinam 
+            es<lb break="no" ed="#L" n="89"/>sentiam relictae fuerunt aliquae species intelligibiles ex
+            <lb ed="#L" n="90"/>ipsa visione, sicut, abeunte sensibili, remanent aliquae im-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="91"/>pressiones in anima, quas conferens  ad phantasmata
+            <lb ed="#L" n="92"/>postea memoratur , potest dupliciter intelligi. Primo, quod
+            <lb ed="#L" n="93"/>remanserint in intellectu Pauli species intelligibiles quasi
+            <lb ed="#L" n="94"/>reliquiae illius visionis: sicut contingit in nobis quod 
+            re<lb break="no" ed="#L" n="95"/>manent reliquiae lucis post visionem corporalem. Et hoc
+            <pb ed="#L" n="407"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>videtur sonare modus loquendi istius litterae, dum dicit 
+            <lb ed="#L" n="2"/>quod relictae fuerunt ex hoc ipso quod videbat Deum.
+            <lb ed="#L" n="3"/>Et sic intellectus Pauli passive se habuisset ad huiusmodi
+            <lb ed="#L" n="4"/>participationem specierum.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e367">
+            <lb ed="#L" n="5"/>Alio modo potest intelligi quod intellectus Pauli, dum
+            <lb ed="#L" n="6"/>videret Deum, formavit sibi similitudines eorum quae vi-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="7"/>debat in Deo : et hoc ex naturali intellectus virtute, qua natus
+            <lb ed="#L" n="8"/>est ex quibusdam visis formare similitudinem alterius.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e380">
+            <lb ed="#L" n="9"/>Et hunc quidem secundum sensum seu modum 
+            ex<lb break="no" ed="#L" n="10"/>pressit Auctor in Primo Libro, qu. xu, art. 9, ad 2. Primum
+            <lb ed="#L" n="11"/>autem modum hic tantum insinuavit. Uterque tamen 
+            pos<lb break="no" ed="#L" n="12"/>sibilis videtur.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2176-Dd1e393"><!-- caj-p2p2-q175a5 -->
+          <head xml:id="TAcCaj-d1e2176-Hd1e396">Articulus 5</head>
+          <p xml:id="TAcCaj-d1e2176-d1e398">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="87" type="fixed=407"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e405">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="88"/>IN articulo quinto eiusdem quaestionis, in responsione ad 
+            <lb ed="#L" n="89"/>tertium, circa differentiam inter vires sensitivas et 
+            vege<lb break="no" ed="#L" n="90"/>tativas, quod sensitivae ex intentione animae, vegetativae
+            <lb ed="#L" n="91"/>autem per modum naturae operantur, et propterea oportet
+            <lb ed="#L" n="92"/>intentionem vehementem animae abstrahere a sensitivis et
+            <lb ed="#L" n="93"/>non a vegetativis: adverte quod, ut Auctor in Qq. de 
+            Ve<lb break="no" ed="#L" n="94"/>rit., qu. xmr, diffuse declarat, hoc intelligitur per se.
+            <lb ed="#L" n="95"/>Quoniam per "accidens pars intellectiva impedit vegeta-
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="96"/>tivam, et e contra. Experimur enim actus vegetativae et
+            <lb ed="#L" n="97"/>digerendo, et calefaciendo, et fumando, etc., prodesse et
+            <lb ed="#L" n="98"/>obesse virtutibus ministrantibus intellectui: adeo ut 
+            qui<lb break="no" ed="#L" n="99"/>dam penitus priventur intellectu, ut fatui et ebrii, etc.;
+            <lb ed="#L" n="100"/>quidam clarum videantur sortiti intellectum ex claritate
+            <lb ed="#L" n="101"/>spirituum ex vegetabili generatorum. E contra experimur
+            <lb ed="#L" n="102"/>etiam. quod exercitatio intellectus nocet parti vegetativae
+            <lb ed="#L" n="103"/>quandoque, ut immediate post cibum: quia calor et spi-
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e447">
+            <pb ed="#L" n="408"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ritus debentes servire vegetativae parti, trahuntur ad 
+            mini<lb break="no" ed="#L" n="2"/>strandum cogitativae, memorativae et huiusmodi 
+            ministran<lb break="no" ed="#L" n="3"/>tibus intellectui, Quandoque etiam confert exercitatio 
+            in<lb break="no" ed="#L" n="4"/>tellectus vegetativae, pro quanto ponit in exercitio et labore 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="5"/>virtutes sibi ministrantes: labor enim et exercitium partium
+            <lb ed="#L" n="6"/>corporalium, si moderate et tempore congruo fiant, ad 
+            di<lb break="no" ed="#L" n="7"/>gestionem conferunt.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2176-Dd1e472"><!-- caj-p2p2-q175a6 -->
+          <head xml:id="TAcCaj-d1e2176-Hd1e475">Articulus 6</head>
+          <p xml:id="TAcCaj-d1e2176-d1e477">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="39" type="fixed=409"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e484">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="40"/>In articulo sexto eiusdem quaestionis, in responsione ad 
+            <lb ed="#L" n="41"/>ultimum, ubi Augustinus recitatus dicit, Hoc defuit Paulo
+            <lb ed="#L" n="42"/>rapto ad plenam perfectamque cognitionem rerum quae
+            <lb ed="#L" n="43"/>angelis inest, etc., cautus esto, et non intelligas quod hoc
+            <lb ed="#L" n="44"/>tantum defuerit: quoniam, ut diximus , simile est, immo 
+            <lb ed="#L" n="45"/>maius est iudicium de multis aliis: Quandoquidem multa
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="46"/>alia non pertinebant ad ipsum Paulum: se autem in corpore
+            <lb ed="#L" n="47"/>vel extra corpus esse vel rapi, ad se pertinebat. Meminit
+            <lb ed="#L" n="48"/>autem huius solius Augustinus, non quod hoc solum 
+            ex<lb break="no" ed="#L" n="49"/>ceptum sit: sed quia hoc solum scriptum est.
+          </p>
+          <p xml:id="TAcCaj-d1e2176-d1e513">
+            <lb ed="#L" n="50"/>Et haec de quaestione centesimaseptuagesimaquinta.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

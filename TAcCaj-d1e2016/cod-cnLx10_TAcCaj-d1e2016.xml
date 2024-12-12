@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 144</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 144</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="142"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2016"><!-- TAcCajp2p2-q144 -->
+        <head xml:id="TAcCaj-d1e2016-Hd1e101">Quaestio 144</head>
+        <div xml:id="TAcCaj-d1e2016-Dd1e103"><!-- caj-p2p2-q144a1 -->
+          <head xml:id="TAcCaj-d1e2016-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2016-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="27" type="fixed=142"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2016-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="28"/>IN articulo primo quaestionis 
+            centesimaequadragesimae<lb break="no" ed="#L" n="29"/>Liierme dubium occurrit ad hominem, circa rationem
+            <lb ed="#L" n="30"/>quare verecundia non sit virtus. Quoniam si ratio allata in
+            <lb ed="#L" n="31"/>littera valet, sequitur quod poenitentia non erit virtus. 
+            Quo<lb break="no" ed="#L" n="32"/>niam sicut non convenit viro praedito virtute committere
+            <lb ed="#L" n="33"/>aut timere turpe et exprobrabile, ita non convenit eidem
+            <lb ed="#L" n="34"/>committere crimen, quod est materia poenitentiae. Et si 
+            com<lb break="no" ed="#L" n="35"/>misisse peccatum sufficit ad virtutem poenitentiae, sufficere
+            <lb ed="#L" n="36"/>quoque debet commisisse turpe ad virtutem verecundiae.
+          </p>
+          <p xml:id="TAcCaj-d1e2016-d1e139">
+            <lb ed="#L" n="37"/>Ad hoc respondet Auctor inferius, in qu. rxxxv 
+            <lb ed="#L" n="38"/>Tertiae Partis, ubi dicit non esse eandem rationem de
+            <lb ed="#L" n="39"/>poenitentia et verecundia. Quia verecundia respicit turpe
+            <lb ed="#L" n="40"/>non solum ut praeteritum, sed ut praesens: poenitentia
+            <lb ed="#L" n="41"/>autem ut praeteritum. Repugnat autem virtuoso habere
+            <lb ed="#L" n="42"/>turpe praesens, non autem habuisse: cum ex vitioso fiat
+            <lb ed="#L" n="43"/>quis virtuosus.
+          </p>
+          <p xml:id="TAcCaj-d1e2016-d1e157">
+            <lb ed="#L" n="44"/>Veruntamen, cum his omnibus, teneas poenitentiam non
+            <lb ed="#L" n="45"/>esse virtutem nisi ex suppositione: quoniam non pertinet
+            <lb ed="#L" n="46"/>ad perfectionem hominis simpliciter, sed ex suppositione
+            <lb ed="#L" n="47"/>peccati, ut in ultimo articulo ibidem Auctor docet. Et 
+            pro<lb break="no" ed="#L" n="48"/>pterea in primo articulo  ibidem dicit: Magis de 
+            poeniten<lb break="no" ed="#L" n="49"/>tia quam de verecundia potest dici quod est virtus. 
+            Pro<lb break="no" ed="#L" n="50"/>pter dictam rationem, notanter dixit ly magis: quia neutra
+            <lb ed="#L" n="51"/>est studiosi, nisi ex suppositione.
+          </p>
+          <p xml:id="TAcCaj-d1e2016-d1e178">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="52"/>II. In responsione ad quintum eiusdem articuli, adverte
+            <lb ed="#L" n="53"/>distinctionem: quod scilicet ex frequentatis laudabilibus
+            <lb ed="#L" n="54"/>actibus similibus generatur quandoque habitus virtutis ad
+            <lb ed="#L" n="55"/>similes actus, sicut fabricando fabri fimus; et quandoque
+            <lb ed="#L" n="56"/>generatur virtutis habitus. non ad similes actus, sed ad
+            <lb ed="#L" n="57"/>effectus eorum. Ex multoties enim verecundari non 
+            causa<lb break="no" ed="#L" n="58"/>tur virtus verecundandi, sed virtus vitandi turpia, quod
+            <lb ed="#L" n="59"/>est effectus verecundiae: timens siquidem turpe vitat illud.
+            <lb ed="#L" n="60"/>Ratio autem diversitatis est quia actus quidam secundum
+            <lb ed="#L" n="61"/>suum genus spectant ad genus virtutis, ut operari iustum,
+            <lb ed="#L" n="62"/>forte aut temperatum, etc.: quidam vero secundum se non
+            <lb ed="#L" n="63"/>atüingunt ad virtutis genus, sed secundum suum effectum.
+            <lb ed="#L" n="64"/>Et propterea in illis ex operibus iustis fit iustitia, et ex 
+            ope<lb break="no" ed="#L" n="65"/>ribus fortibus fortitudo: in istis autem ex operibus 
+            verecun<lb break="no" ed="#L" n="66"/>diae non verecundiae virtus, sed temperantiae virtus fit.
+          </p>
+          <p xml:id="TAcCaj-d1e2016-d1e215">
+            <lb ed="#L" n="67"/>Per hoc autem quod negamus ex talibus operibus 
+            ge<lb break="no" ed="#L" n="68"/>nerari virtutem verecundiae, non intelligas quod etiam
+            <lb ed="#L" n="69"/>negemus generari ex talibus habitualem quandam 
+            disposi<lb break="no" ed="#L" n="70"/>tionem ad verecundandum, quae non est virtus. Ex 
+            fre<lb break="no" ed="#L" n="71"/>quentibus siquidem actibus verecundiae assuefit pars 
+            sen<lb break="no" ed="#L" n="72"/>sitiva ad actus verecundiae: sicut ex aliis consuetis proni
+            <lb ed="#L" n="73"/>sumus ad similia. Et intantum hoc videtur inveniri ut
+            <lb ed="#L" n="74"/>etiam quandoque perfectos viros verecundos esse, beati
+            <lb ed="#L" n="75"/>Bernardi vita testari videatur .
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2016-Dd1e238"><!-- caj-p2p2-q144a2 -->
+          <head xml:id="TAcCaj-d1e2016-Hd1e241">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2016-d1e243">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="73" type="fixed=143"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2016-d1e250">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="74"/>IN articulo secundo eiusdem quaestionis, collige materiam
+            <lb ed="#L" n="75"/>verecandise propriam esse vituperium, et consequenter
+            <lb ed="#L" n="76"/>actum turpem vel defectum: quoniam despicitur primo
+            <lb ed="#L" n="77"/>culpa; et apud homines, defectus ignobilitatis, paupertatis
+            <lb ed="#L" n="78"/>et huiusmodi. Vituperia autem propter virtutes non sunt
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="79"/>materia verecundiae, quae est timor laudabilis: sed potius
+            <lb ed="#L" n="80"/>timoris vituperabilis, qui non significatur nomine 
+            verecun<lb break="no" ed="#L" n="81"/>diae, ut patet II Ethic. , ubi verecundia inter laudabilia
+            <lb ed="#L" n="82"/>computatur.
+          </p>
+          <p xml:id="TAcCaj-d1e2016-d1e276">
+            <lb ed="#L" n="83"/>Et haec sufficiant pro sequentibus etiam duobus articulis.
+          </p>
+        </div>
+        <!-- no commentary -->
+        <!-- no commentary -->
+      </div>
+    </body>
+  </text>
+</TEI>

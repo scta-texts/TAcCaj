@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 133</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 133</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="88"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1959"><!-- TAcCajp2p2-q133 -->
+        <head xml:id="TAcCaj-d1e1959-Hd1e101">Quaestio 133</head>
+        <!-- no commentary -->
+        <div xml:id="TAcCaj-d1e1959-Dd1e105"><!-- caj-p2p2-q133a2 -->
+          <head xml:id="TAcCaj-d1e1959-Hd1e108">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e1959-d1e110">
+            <pb ed="#L" n="88"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=88"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1959-d1e119">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>In tota quaestione centesimatrigesimatertia unum dubium
+            <lb ed="#L" n="3"/>occurrit, proprium secundo articulo. Quonam pacto 
+            Au<lb break="no" ed="#L" n="4"/>ctor ponit retrahere se a magnis actum pusillanimitatis 
+            se<lb break="no" ed="#L" n="5"/>cundum propriam speciem, in primo membro: et rursus
+            <lb ed="#L" n="6"/>in tertio membro idem ponit effectum pusillanimitatis ?
+            <lb ed="#L" n="7"/>Coincidunt siquidem membra haec, scilicet primum et
+            <lb ed="#L" n="8"/>tertium. 
+          </p>
+          <p xml:id="TAcCaj-d1e1959-d1e139">
+            <lb ed="#L" n="9"/>Ad hoc dicitur quod, cum magnanimitas sit virtus 
+            mo<lb break="no" ed="#L" n="10"/>ralis rectificans primo spem magnorum, consequens est
+            <lb ed="#L" n="11"/>quod pusillanimitas sit etiam primo circa interiorem 
+            ap<lb break="no" ed="#L" n="12"/>petitus dispositionem circa magna. Ac per hoc, in 
+            pusil<lb break="no" ed="#L" n="13"/>lanime invenitur duplex retractio a magnis. Prima est 
+            se<lb break="no" ed="#L" n="14"/>cundum affectum, in hoc quod animus retrahitur a ma-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="15"/>gnis, commensuratis tamen, Et haec ponitur ab Auctore
+            <lb ed="#L" n="16"/>in primo membro, et est ipsa actualis pusillanimitas. —
+            <lb ed="#L" n="17"/>Altera est secundum exteriorem executionem, dum, 
+            con<lb break="no" ed="#L" n="18"/>tracto animo a magnis, desistit ab executione, seu 
+            susce<lb break="no" ed="#L" n="19"/>ptione et aggressione magnorum. Etista ponitur in littera
+            <lb ed="#L" n="20"/>in tertio membro, eo quod est effectus primae. Et ad hanc
+            <lb ed="#L" n="21"/>retractionem quae est in executione, spectat pigritia, de
+            <lb ed="#L" n="22"/>qua in secundo argumento litterae fit mentio, et 
+            respon<lb break="no" ed="#L" n="23"/>dendo dicitur quod procedit de pusillanimitate ex parte
+            <lb ed="#L" n="24"/>effectus. Pigritia siquidem consequitur ad animi parvitatem :
+            <lb ed="#L" n="25"/>nam ex hoc quod animus a magnis retrahitur, fit homo
+            <lb ed="#L" n="26"/>piger ad utendum talento suo, et ad aggrediendum magna
+            <lb ed="#L" n="27"/>sibi proportionata.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

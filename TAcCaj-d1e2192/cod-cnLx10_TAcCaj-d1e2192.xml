@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 178</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 178</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="418"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2192"><!-- TAcCajp2p2-q178 -->
+        <head xml:id="TAcCaj-d1e2192-Hd1e101">Quaestio 178</head>
+        <div xml:id="TAcCaj-d1e2192-Dd1e103"><!-- caj-p2p2-q178a1 -->
+          <head xml:id="TAcCaj-d1e2192-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2192-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="55" type="fixed=418"/>Commentaria Cardinalis Caietani 
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="56"/>In articulo primo quaestionis 
+            centesimaeseptuagesimae<lb break="no" ed="#L" n="57"/>octavae, dubium occurrit circa illud in responsione ad
+            <lb ed="#L" n="58"/>primum dictum, scilicet quod Deus utitur instrumentaliter
+            <lb ed="#L" n="59"/>vel interiori motu hominis, vel eius locutione, etc., utrolibet
+            <lb ed="#L" n="60"/>modo faciat miracula. Et consistit dubium in hoc, an sit
+            <lb ed="#L" n="61"/>sermo de instrumento proprie dicto. Et est ratio dubii
+            <lb ed="#L" n="62"/>quia videtur impossibile quod de proprie dicto instrumento
+            <lb ed="#L" n="63"/>intelligatur haec littera. Quoniam huiusmodi instrumentum
+            <lb ed="#L" n="64"/>oportet aliquid facere circa effectum. Constat autem quod
+            <lb ed="#L" n="65"/>non semper in miraculis huiusmodi instrumenta aliquid
+            <lb ed="#L" n="66"/>faciunt; ut patet de voce Iosue cum sol stetit; nihil enim
+            <lb ed="#L" n="67"/>circa solem aut caelum verbum eius, aut quodcumque
+            <lb ed="#L" n="68"/>illorum superiorum, effective fecit.
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e148">
+            <lb ed="#L" n="69"/>In oppositum autem Auctoris verba sunt. Non enim
+            <lb ed="#L" n="70"/>consuevit instrumenta appellare nisi quae aliquo modo
+            <lb ed="#L" n="71"/>causae sunt.
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e157">
+            <lb ed="#L" n="72"/>II. Ad hoc dicitur quod, cum quaestio de instrumento
+            <lb ed="#L" n="73"/>excedat moralia; et inferius, Domino concedente, in Tertia 
+            <lb ed="#L" n="74"/>Parte , de operatione humanitatis Christi et operatione
+            <lb ed="#L" n="75"/>sacramentali, ubi subtilia magis tractabuntur, discutiendum
+            <lb ed="#L" n="76"/>erit: ideo pro nunc dicendum est quod Auctor sumit 
+            in<lb break="no" ed="#L" n="77"/>strumentum pro quacumque secundaria causa, sive sit
+            <lb ed="#L" n="78"/>causa attingens effectum sua causalitate in se vel in sua
+            <lb ed="#L" n="79"/>dispositione, sive sit causa per modum meriti, et similibus;
+            <lb ed="#L" n="80"/>et non accepit instrumentum proprie. Quod probatur ex
+            <lb ed="#L" n="81"/>tribus. Primo, ex eo quod ad potestatem miraculorum
+            <lb ed="#L" n="82"/>factivam spectare potest miraculum creationis: puta quod
+            <lb ed="#L" n="83"/>Deus. crearet totaliter unam. nubem vel unam 
+            colum<lb break="no" ed="#L" n="84"/>bam, etc. Constat autem quod ad creationem totalem non 
+            <lb ed="#L" n="85"/>potest concurrere aliqua actio instrumentalis proprie dicta.
+            <lb ed="#L" n="86"/>- Maior habetur in hoc articulo , cum dicitur quod, sicut
+            <lb ed="#L" n="87"/>prophetia extendit se ad omnia quae supernaturaliter 
+            co<lb break="no" ed="#L" n="88"/>gnosci possunt, ita operatio virtutum se extendit ad omnia 
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="89"/>quae supernaturaliter fieri possunt. - Minor autem venit  
+            <lb ed="#L" n="90"/>est in Primo Libro , ubi determinatum est quod potentia
+            <lb ed="#L" n="91"/>creativa nec instrumentaliter est communicabilis.
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e206">
+            <lb ed="#L" n="92"/>Secundo, ex ipsis verbis Auctoris hic dicentis quod mens:
+            <lb ed="#L" n="93"/>miracula facientis movetur ad faciendum aliquid ad quod
+            <lb ed="#L" n="94"/>sequitur effectus miraculi, quod Deus sua virtute facit.
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e215">
+            <lb ed="#L" n="95"/>Tertio, ex auctoritate Scripturae, Josue x , ubi hoc
+            <lb ed="#L" n="96"/>idem significatur, cum dicitur: Non fuit antea nec postea
+            <lb ed="#L" n="97"/>tam longa dies, obediente Deo voci hominis. Ubi manifeste
+            <lb ed="#L" n="98"/>patet Deum poni proximum auctorem miraculi, et vocem:
+            <lb ed="#L" n="99"/>hominis inter remotiora computari.
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e228">
+            <lb ed="#L" n="100"/>Videtur igitur intentio Auctoris hoc in loco quod 
+            ap<lb break="no" ed="#L" n="101"/>pellet instrumentum priorem effectum praeordinatum .ab
+            <lb ed="#L" n="102"/>ipsa aeterna providentia, ad cuius positionem Deus ipse.
+            <lb ed="#L" n="103"/>exequatur miraculi effectum: ita quod ideo Deus dicitur
+            <lb ed="#L" n="104"/>uti priori effectu instrumentaliter, quia ordinavit se 
+            exe<lb break="no" ed="#L" n="105"/>cuturum effectum miraculi, quandoque mediate, 
+            quando<lb break="no" ed="#L" n="106"/>que immediate, mediante semper illo priore effectu ex
+            <lb ed="#L" n="107"/>parte hominis; sive ille effectus sit oratio, sive vox, sive
+            <lb ed="#L" n="108"/>locutio, sive contactus, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e250">
+            <lb ed="#L" n="109"/>III. In responsione ad secundum eiusdem articuli, circa
+            <lb ed="#L" n="110"/>ambiguitatem ab Augustino tactam de mendacio signorum
+            <lb ed="#L" n="111"/>et prodigiorum Antichristi, adverte quod rationabile est
+            <lb ed="#L" n="112"/>utroque modo fore mendacia, scilicet et formaliter et
+            <lb ed="#L" n="113"/>causaliter. Causaliter quidem, omnia: quoniam ad 
+            fallen<lb break="no" ed="#L" n="114"/>dum omnia tendent. Formaliter autem, non omnia: 
+            quo<lb break="no" ed="#L" n="115"/>niam rationabile est ut multa vera fiant, ut, si fieri possit,
+            <lb ed="#L" n="116"/>etiam electi inducantur in errorem .
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e270">
+            <lb ed="#L" n="117"/>IV. In responsione ad quartum et quintum. eiusdem
+            <lb ed="#L" n="118"/>articuli, adverte quod Auctor summarie perstringit duas
+            <lb ed="#L" n="119"/>gratias gratis datas, scilicet gratiam sanitatum et fidem.
+            <lb ed="#L" n="120"/>Ad primam quidem nihil oportet addere. Ad secundam
+            <lb ed="#L" n="121"/>vero, oportet meminisse, ex qu. 1v, art. 5, ad 4, superius,
+            <pb ed="#L" n="419"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>fidem non connumerari inter gratias gratis datas absolute,
+            <lb ed="#L" n="2"/>quia fides absolute communis est omnibus membris 
+            Eccle<lb break="no" ed="#L" n="3"/>siae, ut est autem gratia gratis data, non est communis
+            <lb ed="#L" n="4"/>omnibus membris Ecclesiae: sed fidei excellentia, puta !
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="5"/>constantia, ut Glossa  dicit, inter gratias gratis datas
+            <lb ed="#L" n="6"/>computatur. Et quoniam fidei constantia ad fidem spectat,
+            <lb ed="#L" n="7"/>ideo Auctor, loquens de fide, hinc sibi attribuit 
+            operatio<lb break="no" ed="#L" n="8"/>nem miraculorum.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2192-Dd1e308"><!-- caj-p2p2-q178a2 -->
+          <head xml:id="TAcCaj-d1e2192-Hd1e311">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2192-d1e313">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="25" type="fixed=420"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e320">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="26"/>IN articulo secundo eiusdem quaestionis, duo notanda
+            <lb ed="#L" n="27"/>sunt. Primum, ex responsione ad tertium: scilicet quod
+            <lb ed="#L" n="28"/>nunquam fiunt vera miracula ad confirmationem falsae
+            <lb ed="#L" n="29"/>doctrinae.
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e333">
+            <lb ed="#L" n="30"/>Secundum, ex responsione ad quintum , ab Augustino,
+            <lb ed="#L" n="31"/>quod perniciosissimus est error aestimantium in 
+            miracu<lb break="no" ed="#L" n="32"/>losis operibus maiora esse dona Dei quam in operibus
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="33"/>iustitiae, Et hoc contra vulgares, et communem errorem
+            <lb ed="#L" n="34"/>humani generis, putantium homines miracula facientes
+            <lb ed="#L" n="35"/>sanctos et quodammodo deos; simplices autem iustos
+            <lb ed="#L" n="36"/>quasi pro nihilo habentes, Totum enim oppositum debe- x 4
+            <lb ed="#L" n="37"/>ret aestimari, sicut in veritate est.
+          </p>
+          <p xml:id="TAcCaj-d1e2192-d1e355">
+            <lb ed="#L" n="38"/>Et haec de gratiis gratis datis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

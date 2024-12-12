@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 165</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 165</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="341"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2124"><!-- TAcCajp2p2-q165 -->
+        <head xml:id="TAcCaj-d1e2124-Hd1e101">Quaestio 165</head>
+        <div xml:id="TAcCaj-d1e2124-Dd1e103"><!-- caj-p2p2-q165a2 -->
+          <head xml:id="TAcCaj-d1e2124-Hd1e106">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2124-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="35" type="fixed=341"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2124-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="36"/>IN tota quaestione centesimasexagesimaquinta, de 
+            tenta<lb break="no" ed="#L" n="37"/>tione primorum parentum, hoc solum scribendum 
+            occur<lb break="no" ed="#L" n="38"/>rit, quod in calce secundi articuli , cum dicitur quod 
+            ser<lb break="no" ed="#L" n="39"/>pens observat plantam mulieris, ut, si quando in illicita 
+            la<lb break="no" ed="#L" n="40"/>bitur , delectatio illam capiat, non sic intelligo ut serpens
+            <lb ed="#L" n="41"/>expectet lapsum mulieris, hoc est rationis inferioris, et 
+            la<lb break="no" ed="#L" n="42"/>psam delectatione capiat: sed quod serpens delectationis
+            <lb ed="#L" n="43"/>laqueo mulierem nostram, ex inferiori parte si quando 
+            la<lb break="no" ed="#L" n="44"/>bitur, hoc est, ad lapsum ex ipsa concupiscentia sensuali
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="45"/>et proposita seu insurgente delectatione ducitur, capit, 
+            de<lb break="no" ed="#L" n="46"/>tinendo hominem in huiusmodi delectatione sensibilium,
+            <lb ed="#L" n="47"/>dum inferiora considerat, dum conditiones eventurorum
+            <lb ed="#L" n="48"/>sensibilium imaginatur, concipit, et per eas discurrit. Ratio
+            <lb ed="#L" n="49"/>siquidem inferior fine sui operis capitur: quia tunc eius
+            <lb ed="#L" n="50"/>delectatio consensum habet. Et sic, dum mulier in illicitas
+            <lb ed="#L" n="51"/>labitur sensuales cogitationes, serpens insidiatur, ut, 
+            dele<lb break="no" ed="#L" n="52"/>ctatione illaqueante, consensus adveniat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

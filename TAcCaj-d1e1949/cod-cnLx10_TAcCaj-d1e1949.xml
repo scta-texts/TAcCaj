@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 131</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 131</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="75"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1949"><!-- TAcCajp2p2-q131 -->
+        <head xml:id="TAcCaj-d1e1949-Hd1e101">Quaestio 131</head>
+        <div xml:id="TAcCaj-d1e1949-Dd1e103"><!-- caj-p2p2-q131a1 -->
+          <head xml:id="TAcCaj-d1e1949-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e1949-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="9" type="fixed=75"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10"/>IN articulo primo quaestionis centesimaetrigesimaeprimae
+            <lb ed="#L" n="11"/>dubium primo occurrit  circa illud: Jd im quo homo
+            <lb ed="#L" n="12"/>excellit, datur homini a Deo ut ex eo aliis prosit. Videtur 
+            <lb ed="#L" n="13"/>enim dici hoc sine ratione aliqua. Nec apparet verum: 
+            quo<lb break="no" ed="#L" n="14"/>niam quandoque datur homini ut in seipso perfectior sit. 
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e131">
+            <lb ed="#L" n="15"/>Dubium secundo occurrit  circa distinctionem 
+            trimem<lb break="no" ed="#L" n="16"/>brem inordinati appetitus honoris, an sit sufficiens. Inquit
+            <lb ed="#L" n="17"/>enim Martinus, in : qu. de Ambitione , quod videntur sibi
+            <lb ed="#L" n="18"/>esse alii modi praeter istos. Unde quatuor modos ponit:
+            <lb ed="#L" n="19"/>scilicet ratione quantitatis, finis, mediorum, et vehementiae.
+            <lb ed="#L" n="20"/>Sub his siquidem modis tribus in littera assignatis non
+            <lb ed="#L" n="21"/>comprehenditur ambitio digni secundum se aliquo honore,
+            <lb ed="#L" n="22"/>sed indigni quia habet digniorem se illo honore qui non
+            <lb ed="#L" n="23"/>potest utrique dari, ut est honor episcopalis, etc. Et 
+            simi<lb break="no" ed="#L" n="24"/>liter nec ambitio eius qui per quaecumque media quaerit
+            <lb ed="#L" n="25"/>honorem quo dignus est. Et similiter nec ambitio eius qui
+            <lb ed="#L" n="26"/>vehementius affectat vel quaerit quam oporteat.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e160">
+            <lb ed="#L" n="27"/>Dubium tertio est  circa veritatem tertii membri 
+            dis<lb break="no" ed="#L" n="28"/>tinctionis dictae. Videtur siquidem rationi consonum quod
+            <lb ed="#L" n="29"/>si quis appetat honorem suae virtuti debitum ea ratione
+            <lb ed="#L" n="30"/>quia sibi est debitus ut habenti talem virtutem, non 
+            refe<lb break="no" ed="#L" n="31"/>rendo aliter ad utilitatem aliorum, in nullo a rectitudine
+            <lb ed="#L" n="32"/>declinet: sicut appetens pecuniam sibi debitam quia est
+            <lb ed="#L" n="33"/>sibi debita, in nullo peccat.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e179">
+            <lb ed="#L" n="34"/>Dubium quarto est , an istae relationes honoris in
+            <lb ed="#L" n="35"/>Deum et proximum in littera positae, requirantur 
+            actua<lb break="no" ed="#L" n="36"/>liter, an habitualiter. Et est ratio dubii quia requiri 
+            actua<lb break="no" ed="#L" n="37"/>liter nimis durum est et intolerabile: cum frequentissime
+            <lb ed="#L" n="38"/>honoremur absque cogitatione aliqua de Deo et proximo.
+            <lb ed="#L" n="39"/>Habitibus autem nec meremur nec demeremur: ut patet
+            <lb ed="#L" n="40"/>in dormientibus, et vigilantibus quando non actualiter 
+            utun<lb break="no" ed="#L" n="41"/>tur habitibus quos habent.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e199">
+            <lb ed="#L" n="42"/>II. Ad primum dubium dicitur quod, cum bonum sit
+            <lb ed="#L" n="43"/>naturaliter sui ipsius diffusivum , ex hoc ipso quod aliquis
+            <lb ed="#L" n="44"/>constituitur a Deo in aliquo bono excellentiori, constituitur
+            <lb ed="#L" n="45"/>ad hoc ut prosit aliis: debent enim superiora in inferiora
+            <lb ed="#L" n="46"/>diffundi. Et quoniam ratio ista in promptu clara erat, ideo
+            <lb ed="#L" n="47"/>Auctor non adiecit rationem in dicto tam vero et 
+            ratio<lb break="no" ed="#L" n="48"/>nabili. Praesertim cum Deus, universi curam habens, 
+            uni<lb break="no" ed="#L" n="49"/>versi partes diffundat ut suapte natura communicabiles
+            <lb ed="#L" n="50"/>sint. Constat autem quod perfectiora in seipsis nata sunt
+            <lb ed="#L" n="51"/>alis prodesse. Ad hoc igitur a Deo facta sunt perfectiora
+            <lb ed="#L" n="52"/>ut aliis prosint: et non solum ut in seipsis perfectiora sint.
+            <lb ed="#L" n="53"/>Ex hoc enim ipso quod constituta sunt superiora ratione
+            <lb ed="#L" n="54"/>excellentiae, instituta sunt ut inferioribus non solum 
+            prae<lb break="no" ed="#L" n="55"/>sint, sed prosint: ut sic ommia suaviter disposita  
+            inve<lb break="no" ed="#L" n="56"/>niantur.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e234">
+            <lb ed="#L" n="57"/>III. Ad secundum dubium  dicitur quod distinctio 
+            tri<lb break="no" ed="#L" n="58"/>membris in littera facta sufficiens videtur, ita quod omnis
+            <lb ed="#L" n="59"/>inordinatus appetitus honoris ad aliquod membrum illius
+            <lb ed="#L" n="60"/>reducitur. Nam appetitus honoris quo quis secundum se
+            <lb ed="#L" n="61"/>dignus est, sed ratione praeiudicii alterius dignioris redditur
+            <lb ed="#L" n="62"/>illicitus, ad primum membrum spectat, quo quis appetit
+            <lb ed="#L" n="63"/>honorari de excellentia quam non habet. Multipliciter 
+            si<lb break="no" ed="#L" n="64"/>quidem contingit non habere excellentiam aliquam: primo,
+            <lb ed="#L" n="65"/>absolute; secundo, relative. Verbi gratia, ego absolute sum
+            <lb ed="#L" n="66"/>dignus episcopatu: quia tamen est alter magis dignus illo
+            <lb ed="#L" n="67"/>episcopatu, ego non sum dignus respective ad illum; ac
+            <lb ed="#L" n="68"/>per hoc, si tunc appeto honorem episcopalem, appeto 
+            te<lb break="no" ed="#L" n="69"/>stimonium excellentiae quam non habeo, quoniam appeto
+            <lb ed="#L" n="70"/>testimonium dignioris, cum tamen non sim dignior. Et
+            <lb ed="#L" n="71"/>similiter cum quis absolute dignus multis dignitatibus, quia
+            <lb ed="#L" n="72"/>tamen sunt multi digni, qui ex coacervatione dignitatum
+            <lb ed="#L" n="73"/>in unum hominem privantur illis, - non appetit licite tot
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="74"/>dignitates, quia appetit testimonium excellentiae quam non
+            <lb ed="#L" n="75"/>habet, scilicet dignioris: cum non sit dignus respective ad
+            <lb ed="#L" n="76"/>tot dignos qui propterea contemnuntur. — Qui autem per
+            <lb ed="#L" n="77"/>indebita media affectat aut quaerit honorem, sub eodem
+            <lb ed="#L" n="78"/>membro clauditur. Quandoquidem eo ipso quod per illicita
+            <lb ed="#L" n="79"/>media appetit aut quaerit, indignus fit. Ac per hoc, quaerit
+            <lb ed="#L" n="80"/>honorem quo non est simpliciter dignus nunc: licet alias
+            <lb ed="#L" n="81"/>esset dignus, si non per talia media quaereret. - Qui 
+            de<lb break="no" ed="#L" n="82"/>mum magis affectat honorem quam oporteat, ad idem
+            <lb ed="#L" n="83"/>membrum reducitur: pro quanto excellentia quam habet
+            <lb ed="#L" n="84"/>vehementiam appetitus non adaequat, sed exceditur ab ipsa.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e299">
+            <lb ed="#L" n="85"/>IV. Ad evidentiam tertii et quarti dubii , advertendum
+            <lb ed="#L" n="86"/>est quod honor, cum sit in genere bonorum utilium quoad
+            <lb ed="#L" n="87"/>hoc quod propter aliud est appetibilis, ad hoc quod 
+            or<lb break="no" ed="#L" n="88"/>dinate appetatur aut delectet, oportet quod referatur in
+            <lb ed="#L" n="89"/>debitum finem ad quem ordinandus est. Et quia ordinatur
+            <lb ed="#L" n="90"/>ad excellentiam hominis, est enim honor testimonium 
+            ex<lb break="no" ed="#L" n="91"/>cellentiae; et excellentia ordinatur ad utilitatem aliorum:
+            <lb ed="#L" n="92"/>ideo, de primo ad ultimum, honor mihi exhibitus ordinatur
+            <lb ed="#L" n="93"/>ad utilitatem aliorum. Et similiter, quia excellentia mea est
+            <lb ed="#L" n="94"/>principaliter a Deo, ideo honor exhibitus meae excellentiae
+            <lb ed="#L" n="95"/>ordinatur principaliter ad Deum, ut auctorem excellentiae
+            <lb ed="#L" n="96"/>illius. Et haec sunt procul dubio vera. Sed quod 
+            difficul<lb break="no" ed="#L" n="97"/>tatem ingerit est quia non oportet omnem rectum usum
+            <lb ed="#L" n="98"/>alicuius referre in omne id ad quod natum est referri,
+            <lb ed="#L" n="99"/>sed sufficit quod referat illud ad aliquem licitum finem
+            <lb ed="#L" n="100"/>in quem est natum ordinari. Verbi gratia, pecunia 
+            ordina<lb break="no" ed="#L" n="101"/>tur principaliter ad commutationem, et potest secundario
+            <lb ed="#L" n="102"/>ordinari ad depositionem vel aliquid aliud: nec oportet
+            <lb ed="#L" n="103"/>quod quilibet utens pecunia commutet, sed sufficit quod
+            <lb ed="#L" n="104"/>ordinet ad aliquem licitum finem. Ita in proposito honor
+            <lb ed="#L" n="105"/>ordinatur ad tres: scilicet ad Deum ut auctorem 
+            excellen<lb break="no" ed="#L" n="106"/>tiae, et ad personam excellentem ut habentem illam, et
+            <lb ed="#L" n="107"/>ad proximos, ut prosit illis. Si is qui excellit appetit 
+            ho<lb break="no" ed="#L" n="108"/>norem, aut delectatur honore, infra proprios limites, 
+            sci<lb break="no" ed="#L" n="109"/>licet praecise ut habens excellentiam; ex hoc ipso reservat
+            <lb ed="#L" n="110"/>locum suum Deo ut auctori, et proximis ut quibus prosit:
+            <lb ed="#L" n="111"/>quoniam relinquit honori relationes quas habet, ex hoc ipso
+            <lb ed="#L" n="112"/>quod non usurpat aut despicit relationem illius honoris ad
+            <lb ed="#L" n="113"/>Deum aut proximos. Intelligo igitur ego esse inordinatum
+            <lb ed="#L" n="114"/>appetitum honoris propter non referre in Deum ut 
+            aucto<lb break="no" ed="#L" n="115"/>rem et proximos ut quibus prosit, si non referre sumitur
+            <lb ed="#L" n="116"/>contrarie aut privative: et non si sumitur pure negative.
+            <lb ed="#L" n="117"/>Notanter autem dico in Deum xut auctorem excellentiae,
+            <lb ed="#L" n="118"/>hoc est, ut ipse principaliter honoretur tanquam auctor 
+            ex<lb break="no" ed="#L" n="119"/>cellentiae: quoniam. non est hic sermo de Deo ut est finis
+            <lb ed="#L" n="120"/>ultimus omnium; hoc enim. non est de propriis huius
+            <lb ed="#L" n="121"/>quaestionis, sed de communibus circumstantiis omnium 
+            hu<lb break="no" ed="#L" n="122"/>manorum operum. Non enim video me, cum honoror, 
+            te<lb break="no" ed="#L" n="123"/>neri ad aliud quam ad referendum honorem mihi 
+            exhibi<lb break="no" ed="#L" n="124"/>tum in finem proportionatum. Constat autem quod ego,
+            <lb ed="#L" n="125"/>ut habens excellentiam dignam tali honore ab hoc, tunc
+            <lb ed="#L" n="126"/>sum proximus et commehsuratus finis ad quem suapte
+            <lb ed="#L" n="127"/>natura honor ordinatur. In nullo igitur pecco si omitto
+            <lb ed="#L" n="128"/>relationes ad Deum ut auctorem et proximos: quoniam
+            <lb ed="#L" n="129"/>praeceptum affirmativum de his relationibus exercendis nulla
+            <lb ed="#L" n="130"/>ratione probatur quod obliget pro tunc, nisi aliqua alia
+            <lb ed="#L" n="131"/>necessitas subsit; sicut nec, cum appeto aut recipio 
+            pecu<lb break="no" ed="#L" n="132"/>niam mihi debitam, teneor referre eam ad talem vel talem
+            <lb ed="#L" n="133"/>usum. Peccatum autem esset si homo in tantum 
+            delecta<lb break="no" ed="#L" n="134"/>retur honore ut non curaret an honoretur Deus ut auctor,
+            <lb ed="#L" n="135"/>dummodo ipse habens honoretur; et similiter pro nihilo
+            <lb ed="#L" n="136"/>haberet an honor utilis esset proximis, dummodo ipse 
+            ho<lb break="no" ed="#L" n="137"/>noraretur. Hoc enim esset quasi privare, quantum est ex
+            <pb ed="#L" n="76"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>parte sui affectus, Deum et proximos relationibus debitis
+            <lb ed="#L" n="2"/>ad illos, dum in affectu contemnuntur. Hoc enim esset
+            <lb ed="#L" n="3"/>quiescere in ipso honore, et proprios egredi limites, cum
+            <lb ed="#L" n="4"/>affectu ad demolitionem aliorum.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e429">
+            <lb ed="#L" n="5"/>Unde patet solutio tertii dubii et quarti: scilicet quod
+            <lb ed="#L" n="6"/>istae relationes non exiguntur actualiter, nec habitualiter
+            <lb ed="#L" n="7"/>in speciali, ad evitandum peccatum (quamvis exigi 
+            videan<lb break="no" ed="#L" n="8"/>tur virtualiter ad hoc quod appetitus honoris sit meritorius
+            <lb ed="#L" n="9"/>aeternae vitae: quia caritas virtualiter omnia meritoria 
+            sua<lb break="no" ed="#L" n="10"/>viter disponit). Sed declinare ab aliqua harum relationum
+            <lb ed="#L" n="11"/>sive contrarie sive privative, peccatum constituit ambitionis.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e447">
+            <lb ed="#L" n="12"/>V. In eodem primo articulo, in responsione ad 
+            secun<lb break="no" ed="#L" n="13"/>dum, dubium occurrit ex Martino, ibidem, in qu. 1  de
+            <lb ed="#L" n="14"/>Ambitione, dicente quod haec responsio non placet. Tum
+            <lb ed="#L" n="15"/>quia non est verum quod virtutis praemium sit beatitudo
+            <lb ed="#L" n="16"/>aeterna: sed solum virtutis meritoriae.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e461">
+            <lb ed="#L" n="17"/>Tum quia solutio haec non enervat, sed corroborat ar
+            <lb ed="#L" n="18"/>gumentum. Nam si honor est praemium insufficiens 
+            vir<lb break="no" ed="#L" n="19"/>tutis, non sequitur quod appetitus eius sit inordinatus:
+            <lb ed="#L" n="20"/>immo oppositum. Quia, si aliud non obstet, videtur sequi
+            <lb ed="#L" n="21"/>quod quantuscumque honor appeti potest ab habente 
+            exi<lb break="no" ed="#L" n="22"/>guam valde virtutem.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e477">
+            <lb ed="#L" n="23"/>VI. Ad hoc dicitur quod prima obiectio peccat, tum
+            <lb ed="#L" n="24"/>quia Auctor non dicit, Virtutis praemium est beatitudo
+            <lb ed="#L" n="25"/>aeterna, sed, beatitudo: sicut Philosophus posuit finem
+            <lb ed="#L" n="26"/>omnis virtutis felicitatem . Nec obstat quod ipsa felicitas
+            <lb ed="#L" n="27"/>sit actus virtutis perfectissimae: quoniam sicut inordinatus
+            <lb ed="#L" n="28"/>animus sibi ipsi est poena , ita felicitas est praemium 
+            fe<lb break="no" ed="#L" n="29"/>licis animi, - Tum quia, apud theologum, virtus non me- :
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="30"/>ritoria non est virtus nisi secundum quid, in statu naturae
+            <lb ed="#L" n="31"/>lapsae: quia non est dispositio perfecti ad optimum  
+            sim<lb break="no" ed="#L" n="32"/>pliciter.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e503">
+            <lb ed="#L" n="33"/>Ad secundam vero obiectionem dicitur quod ex hoc ipso
+            <lb ed="#L" n="34"/>quod honor negatur virtutis praemium simpliciter, et 
+            af<lb break="no" ed="#L" n="35"/>firmatur virtutis praemium secundum quid ex parte 
+            alio<lb break="no" ed="#L" n="36"/>rum, satis habetur quod honor non est de numero 
+            bono<lb break="no" ed="#L" n="37"/>rum simpliciter, sed utilium: ac per hoc, quod appetitus
+            <lb ed="#L" n="38"/>eius non est ordinatus si est appetitus eius ut finis. Et
+            <lb ed="#L" n="39"/>hoc sufficit ad solutionem argumenti volentis quod 
+            appe<lb break="no" ed="#L" n="40"/>titus honoris sit appetitus licitus quia est appetitus 
+            prae<lb break="no" ed="#L" n="41"/>mii virtutis, quod habet rationem finis.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e525">
+            <lb ed="#L" n="42"/>Habetur nihilominus (ad perfectionem doctrinae) hinc
+            <lb ed="#L" n="43"/>quod appetitus honoris, si debet esse ordinatus, debet esse
+            <lb ed="#L" n="44"/>ut appetitus boni utilis, qui debet esse secundum 
+            commen<lb break="no" ed="#L" n="45"/>surationem ad finem, et non in infinitum: ut patet 
+            uni<lb break="no" ed="#L" n="46"/>versaliter de recto appetitu utilium, Et propterea non 
+            po<lb break="no" ed="#L" n="47"/>test quicumque habens virtutem appetere quantumcumque
+            <lb ed="#L" n="48"/>honorem, sed commensuratum secundum patriae morem
+            <lb ed="#L" n="49"/>virtuti illi. Honor enim cum ab aliis exhibeatur 
+            excellen<lb break="no" ed="#L" n="50"/>tiae alicui, diversis excellentiis diversi honores 
+            accommo<lb break="no" ed="#L" n="51"/>dati sunt. Et propterea appetitus rectus non est qui 
+            in<lb break="no" ed="#L" n="52"/>commensuratum suae virtuti honorem appetit. Et quamvis
+            <lb ed="#L" n="53"/>nullus honor sit cuicumque virtuti sufficiens simpliciter ut
+            <lb ed="#L" n="54"/>praemium, est tamen tali virtuti, ab hominibus talibus, talis
+            <lb ed="#L" n="55"/>honor sufficiens ut testimonium humanum; et tali virtuti
+            <lb ed="#L" n="56"/>talis alius honor, et sic de aliis. Et propterea vitiosum
+            <lb ed="#L" n="57"/>esset si doctor in Theologia vellet honorari ut imperator
+            <lb ed="#L" n="58"/>triumphans: et sic de aliis.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e1949-Dd1e565"><!-- caj-p2p2-q131a2 -->
+          <head xml:id="TAcCaj-d1e1949-Hd1e568">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e1949-d1e570">
+            <pb ed="#L" n="77"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=77"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e579">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>IN articulo secundo eiusdem quaestionis, in responsione ad 
+            <lb ed="#L" n="3"/>primum, dubium occurrit ex Martino, ibidem , in qu. u,
+            <lb ed="#L" n="4"/>discedente ab hac solutione, propterea quia distinguit 
+            ma<lb break="no" ed="#L" n="5"/>gnanimitatem in multas magnanimitates: puta in eam quae
+            <lb ed="#L" n="6"/>habet pro obiecto rem honorabilem, puta dignitatem ; et
+            <lb ed="#L" n="7"/>eam quae habet pro obiecto honorem, sicut illa qua quis
+            <lb ed="#L" n="8"/>cupit honorem suae dignitati debitum. Et ideo concludit
+            <lb ed="#L" n="9"/>quod nec ambitio nec praesumptio cuilibet magnanimitati
+            <lb ed="#L" n="10"/>opponitur, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e1949-d1e603">
+            <lb ed="#L" n="11"/>Ad hoc dicitur quod iste homo in hoc videtur deceptus
+            <lb ed="#L" n="12"/>quod distinguit magnanimitatem in species, ubi debet 
+            dis<lb break="no" ed="#L" n="13"/>tingui in actum ut est circa obiectum, et actum ut est
+            <lb ed="#L" n="14"/>circa materiam, ut in littera fit. Magnanimitas siquidem ut
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="15"/>est appetitus magnorum operum, habet pro excessu 
+            prae<lb break="no" ed="#L" n="16"/>sumptionem; et ipsamet, et non alia, ut appetitus est 
+            ho<lb break="no" ed="#L" n="17"/>noris, habet pro excessu ambitionem; et similiter, ut est
+            <lb ed="#L" n="18"/>appetitus gloriae, habet pro excessu inanem gloriam. 
+            Ea<lb break="no" ed="#L" n="19"/>dem siquidem est magnanimitas'habens pro fine opus 
+            ma<lb break="no" ed="#L" n="20"/>gnum, et pro materia honorem et gloriam, recteque ad
+            <lb ed="#L" n="21"/>omnia haec se habet: ac per hoc, ex cuiusque horum 
+            de<lb break="no" ed="#L" n="22"/>fectu corrumpitur. Unum est ergo medium magnanimitatis,
+            <lb ed="#L" n="23"/>constitutum ex causa integra: plures autem sunt excessus
+            <lb ed="#L" n="24"/>diversorum concurrentium ad perfectionem illius unius
+            <lb ed="#L" n="25"/>medii, Si vero essent diversae magnanimitates secundum
+            <lb ed="#L" n="26"/>speciem, non esset medium unum, sed quaelibet haberet
+            <lb ed="#L" n="27"/>suum medium.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

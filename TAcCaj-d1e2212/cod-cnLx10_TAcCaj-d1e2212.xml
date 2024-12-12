@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 182</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 182</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="441"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2212"><!-- TAcCajp2p2-q182 -->
+        <head xml:id="TAcCaj-d1e2212-Hd1e101">Quaestio 182</head>
+        <div xml:id="TAcCaj-d1e2212-Dd1e103"><!-- caj-p2p2-q182a1 -->
+          <head xml:id="TAcCaj-d1e2212-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2212-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="55" type="fixed=441"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="56"/>IN articulo primo quaestionis 
+            centesimaeoctogesimaese<lb break="no" ed="#L" n="57"/>secundae, dubium ex Henrico de Gandavo, in <ref xml:id="TAcCaj-d1e2212-Rd1e123">Quolibeto
+              <lb ed="#L" n="58"/>XII</ref>, occurrit, mordente, ut apparet, Auctorem quoad duo:
+            <lb ed="#L" n="59"/>primo, quoad auctoritatem Aristotelis ex X Ethic. in 
+            lit<lb break="no" ed="#L" n="60"/>tera allatam in octo rationibus; secundo, quoad veritatem
+            <lb ed="#L" n="61"/>ipsius conclusionis, pro quanto dicit quod contemplativa
+            <lb ed="#L" n="62"/>est simpliciter melior.
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e138">
+            <lb ed="#L" n="63"/>Et in primo quidem arguit , quia Philosophus ignoravit
+            <lb ed="#L" n="64"/>futuram vitam, in ordine ad quam melior simpliciter est
+            <lb ed="#L" n="65"/>vita activa in statu praesentis miseriae. Et ideo rationes
+            <lb ed="#L" n="66"/>Aristotelis modicum valent apud Catholicum.
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e149">
+            <lb ed="#L" n="67"/>II. In secundo autem, arguit tripliciter. Primo , quia
+            <lb ed="#L" n="68"/>vita activa est maioris meriti homini virtutibus praedito,
+            <lb ed="#L" n="69"/>idoneo ad regendum, et coacto ad hoc. Ergo est 
+            simpli<lb break="no" ed="#L" n="70"/>citer melior. - Antecedens probatur: quia quilibet tenetur
+            <lb ed="#L" n="71"/>praeferre actionem ut quid melius etiam sibi, 
+            contempla<lb break="no" ed="#L" n="72"/>tioni. - Consequentia vero probatur: quia principale in
+            <lb ed="#L" n="73"/>utraque vita est meritum; ac per hoc, in quo est maius
+            <lb ed="#L" n="74"/>meritum.
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e170">
+            <lb ed="#L" n="75"/>Secundo , quia illud est simpliciter melius quod 
+            ho<lb break="no" ed="#L" n="76"/>minibus bene dispositis est melius: iuxta Philosophum, in
+            <lb ed="#L" n="77"/>I Polit.  Sed vita activa praelatorum est melior hominibus
+            <lb ed="#L" n="78"/>bene dispositis: Ergo est simpliciter melior. - Probatur
+            <lb ed="#L" n="79"/>minor: quía est melior hominibus virtutibus praeditis, aptis
+            <lb ed="#L" n="80"/>ad gubernandum alios, atque coactis ad hoc.
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e186">
+            <lb ed="#L" n="81"/>Tertio, opera propria statui perfectiori praeferenda sunt
+            <lb ed="#L" n="82"/>operibus status minus perfecti, ut meliora minus bonis:
+            <lb ed="#L" n="83"/>quia propriorum operum perfectio respondet status 
+            per<lb break="no" ed="#L" n="84"/>fectioni. Sed opera vitae activae sunt propria statui 
+            prae<lb break="no" ed="#L" n="85"/>latorum, qui est perfectior statu religiosorum vacantium
+            <lb ed="#L" n="86"/>vitae contemplativae. Ergo vita activa simpliciter est 
+            per<lb break="no" ed="#L" n="87"/>fectior contemplativa.
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e204">
+            <lb ed="#L" n="88"/>III. Ad huius evidentiam, sciendum est quod argumenta
+            <lb ed="#L" n="89"/>haec nihil contra doctrinam Auctoris procedunt. Quoniam
+            <lb ed="#L" n="90"/>manifeste forte in solo vocabulo dissonat, quantum ad
+            <lb ed="#L" n="91"/>conclusionem. Veruntamen singillatim solvenda sunt, prae-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="92"/>mittendo quod melius simpliciter appellatur quod est 
+            me<lb break="no" ed="#L" n="93"/>lius ex suo genere, hoc est ex sua propria et substantiali
+            <lb ed="#L" n="94"/>natura. Sic enim in naturalibus unum melius alio 
+            simplici<lb break="no" ed="#L" n="95"/>ter dicimus, puta albedinem nigredine, hominem leone, etc.;
+            <lb ed="#L" n="96"/>et similiter in moralibus, iustitiam meliorem temperantia;
+            <lb ed="#L" n="97"/>et in theologalibus, caritatem meliorem fide et spe dicimus.
+            <lb ed="#L" n="98"/>Et propterea, cum de vita activa et contemplativa quaeritur
+            <lb ed="#L" n="99"/>quae harum sit melior, illa simpliciter dicenda est melior
+            <lb ed="#L" n="100"/>quae ex suo genere perfectior est: ceterae enim nobDilitates
+            <lb ed="#L" n="101"/>seu bonitates ad perfectionem secundum quid spectant. Et
+            <lb ed="#L" n="102"/>quoniam constat quod vita contemplativa secundum genus
+            <lb ed="#L" n="103"/>suum perfectior est quam vita activa, ideo Auctor 
+            conclu<lb break="no" ed="#L" n="104"/>sionem principalem verissimam posuit.
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e246">
+            <lb ed="#L" n="105"/>Et quia ad hoc per accidens, seu extranee se habet ratio
+            <lb ed="#L" n="106"/>meriti, quoniam ex caritate illud pendet, et quantitas 
+            me<lb break="no" ed="#L" n="107"/>riti ex quantitae caritatis (ut patet ex hoc quod opus 
+            me<lb break="no" ed="#L" n="108"/>lius ex suo genere contingit esse minoris meriti, ut si quis
+            <lb ed="#L" n="109"/>sacrificium ex minori caritate Deo offerat quam alter 
+            con<lb break="no" ed="#L" n="110"/>tinenter bibat): ideo rationes Aristotelis et aliorum 
+            philo<lb break="no" ed="#L" n="111"/>sophorum, quae naturam actus ex suo genere pensant, non
+            <lb ed="#L" n="112"/>modicum, sed sufficienter valent apud Catholicos .
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e266">
+            <lb ed="#L" n="113"/>IV. Unde ad primam obiectionem contra ipsam 
+            con<lb break="no" ed="#L" n="114"/>clusionem , dicitur quod illa propositio, Opus maioris
+            <lb ed="#L" n="115"/>meriti est melius, distinguenda est. Quia vel intelligitur
+            <lb ed="#L" n="116"/>de bonitate substantiali ipsius operis: et similiter de merito,
+            <lb ed="#L" n="117"/>ceteris paribus. Vel intelligitur de bonitate accidentali: seu
+            <lb ed="#L" n="118"/>de merito, ceteris imparibus. Nam si primo modo 
+            intelligi<lb break="no" ed="#L" n="119"/>tur, scilicet de substantiali bonitate et ceteris paribus, 
+            pro<lb break="no" ed="#L" n="120"/>positio est verissima. Sed tunc minor est falsa in 
+            propo<lb break="no" ed="#L" n="121"/>sito: quoniam quando opus vitae activae est maioris meriti,
+            <lb ed="#L" n="122"/>hoc non est ob bonitatem substantialem ipsius operis, sed
+            <lb ed="#L" n="123"/>ratione maioris caritatis. Unde arguere ex conditione 
+            me<lb break="no" ed="#L" n="124"/>riti ad conditionem substantialem ipsius operis, est arguere
+            <lb ed="#L" n="125"/>ex accidente ad substantiam. Et propterea divus Thomas
+            <lb ed="#L" n="126"/>duos distinctos articulos hic fecit: alterum, comparando
+            <lb ed="#L" n="127"/>istas duas vitas in bonitate substantiali, et hic est primus;
+            <pb ed="#L" n="442"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>alterum, comparando easdem in merito, et hic est secundus,
+            <lb ed="#L" n="2"/>quia accidentale est post substantiale, Et tamen in ipso
+            <lb ed="#L" n="3"/>secundo articulo probat Auctor quod vita contemplativa
+            <lb ed="#L" n="4"/>secundum se est maioris meriti quam vita activa, quia 
+            di<lb break="no" ed="#L" n="5"/>ligere Deum est maioris meriti quam diligere proximum,
+            <lb ed="#L" n="6"/>vita autem contemplativa directe ordinatur ad caritatem
+            <lb ed="#L" n="7"/>divinae veritatis, activa vero ad caritatem proximi: 
+            quam<lb break="no" ed="#L" n="8"/>vis ex parte agentis, maioris quandoque meriti sit vita
+            <lb ed="#L" n="9"/>activa quam contemplativa.
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e325">
+            <lb ed="#L" n="10"/>V. Ad secundam  vero dicitur quod maior , scilicet, //]ud
+            <lb ed="#L" n="11"/>est simpliciter melius quod est melius bene dispositis, est
+            <lb ed="#L" n="12"/>vera de bene dispositis secundum conditiones naturales,
+            <lb ed="#L" n="13"/>quae ad speciem corporis vel animae spectant simpliciter :
+            <lb ed="#L" n="14"/>non autem de bene dispositis ad hoc vel illud particulare.
+            <lb ed="#L" n="15"/>Et sic ea utitur Philosophus. Arguens autem applicat eam
+            <lb ed="#L" n="16"/>ad bene dispositos ad aliquid particulare, puta ad 
+            susci<lb break="no" ed="#L" n="17"/>piendum regimen animarum in casu coactionis, etc. Unde
+            <lb ed="#L" n="18"/>proposito dicens quod melius homini disposito ad regimen
+            <lb ed="#L" n="19"/>animarum et coacto, est melius simpliciter , implicat in
+            <lb ed="#L" n="20"/>adiecto: quoniam assumit subiectum secundum quid 
+            con<lb break="no" ed="#L" n="21"/>ditionatum, et praedicatum ponit simpliciter.
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e355">
+            <lb ed="#L" n="22"/>VI. Ad tertiam  dicitur quod minor propositio est falsa.
+            <lb ed="#L" n="23"/>Quoniam statui praelatorum non sunt propria opera vitae
+            <lb ed="#L" n="24"/>activae: sed statui eorum conveniunt et opera vitae activae,
+            <lb ed="#L" n="25"/>et opera vitae contemplativae, ut Augustinus  et 
+            Grego<lb break="no" ed="#L" n="26"/>rius  expresse dicunt. Et propterea, sicut status praelato-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="27"/>rum neque activus neque contemplativus est, sed ex 
+            utro<lb break="no" ed="#L" n="28"/>que mixtus (est enim tertium vivendi genus, ut Augustinus
+            <lb ed="#L" n="29"/>dicit); ita procul dubio opus mixtum, quod est proprium
+            <lb ed="#L" n="30"/>praelatis, scilicet contemplari et agere, perfectius est quam
+            <lb ed="#L" n="31"/>opus contemplativum et quam opus activum. Unde et
+            <lb ed="#L" n="32"/>Dominus non dixit de Maria quod optimum sibi elegit,
+            <lb ed="#L" n="33"/>sed quod elegit sibi optimam partem . Melior est enim
+            <lb ed="#L" n="34"/>pars contemplativa quam pars activa: utraque tamen parte
+            <lb ed="#L" n="35"/>melius est ipsum totum, quod proprium est statui 
+            prae<lb break="no" ed="#L" n="36"/>latorum. Unde hoc gratis concedendum est.
+          </p>
+          <p xml:id="TAcCaj-d1e2212-d1e392">
+            <lb ed="#L" n="37"/>VII. Et haec sufficiant etiam quoad secundum et 
+            reli<lb break="no" ed="#L" n="38"/>quos huius quaestionis articulos. Notent tamen qui alios
+            <lb ed="#L" n="39"/>in via Dei instruunt ad profectum spiritualem, et diligenter
+            <lb ed="#L" n="40"/>efficiant ut prius in vita activa exerceri faciant quos 
+            edo<lb break="no" ed="#L" n="41"/>cent seu instruunt, quam ad contemplationis fastigium
+            <lb ed="#L" n="42"/>suadeant. Oportet siquidem prius passiones domare 
+            habi<lb break="no" ed="#L" n="43"/>tibus mansuetudinis, patientiae, etc., liberalitatis, 
+            humili<lb break="no" ed="#L" n="44"/>tatis, etc., et sedare, quam ad contemplativam vitam 
+            ascen<lb break="no" ed="#L" n="45"/>dere. Et ob defectum huius, multi, non ambulantes, sed
+            <lb ed="#L" n="46"/>saltantes in via Dei, postquam multum temporis vitae suae
+            <lb ed="#L" n="47"/>contemplationi dederunt, vacui virtutibus inveniuntur, 
+            im<lb break="no" ed="#L" n="48"/>patientes, iracundi, superbi, si in huiusmodi tanguntur. Et
+            <lb ed="#L" n="49"/>propterea tales nec activam nec contemplativam nec ex
+            <lb ed="#L" n="50"/>utroque compositam habuerunt, sed super arenam 
+            fabri<lb break="no" ed="#L" n="51"/>carunt. Et utinam non sit frequens defectus iste.
+          </p>
+        </div>
+        <!-- no commentary -->
+        <!-- no commentary -->
+        <!-- no commentary -->
+      </div>
+    </body>
+  </text>
+</TEI>

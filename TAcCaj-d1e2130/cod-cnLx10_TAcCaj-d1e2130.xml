@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 166</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 166</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="342"/>
+        <cb ed="#L" n="g"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2130"><!-- TAcCajp2p2-q166 -->
+        <head xml:id="TAcCaj-d1e2130-Hd1e101">Quaestio 166</head>
+        <div xml:id="TAcCaj-d1e2130-Dd1e103"><!-- caj-p2p2-q166a1 -->
+          <head xml:id="TAcCaj-d1e2130-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2130-d1e108">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="73" type="fixed=342"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2130-d1e115">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="74"/>In quaestionibus duabus simul, scilicet 
+            centesimasexagesi<lb break="no" ed="#L" n="75"/>masexta et centesimasexagesimaseptima, de studiositate et
+            <lb ed="#L" n="76"/>curiositate, duo dubia occurrunt. Primum , de subiecto
+            <lb ed="#L" n="77"/>studiositatis et curiositatis: an sit appetitus superior, qui
+            <lb ed="#L" n="78"/>est voluntas; an appetitus inferior, qui est concupiscibilis
+            <lb ed="#L" n="79"/>et irascibilis. Et ratio dubii est quia ex parte materiae
+            <lb ed="#L" n="80"/>apparet quod in voluntate sint subiective: quia cognoscere,
+            <lb ed="#L" n="81"/>quod materia est vtriusque, non arctatur ad cognitionem
+            <cb ed="#L" n="i"/>
+            <lb ed="#L" n="82"/>sensitivam, sed comprehendit etiam cognitionem 
+            intellecti<lb break="no" ed="#L" n="83"/>vam, ut clare patet in primo articulo quaestionis 
+            centesi<lb break="no" ed="#L" n="84"/>maesexagesimaeseptimae. Ex hoc enim quod materia est
+            <lb ed="#L" n="85"/>altior omni sensibili et imaginabili, sequitur quod ad 
+            ap<lb break="no" ed="#L" n="86"/>petitum intellectivum , qui est voluntas, spectet: sicut de ;
+            <lb ed="#L" n="87"/>humilitate et superbia ex simili ratione conclusum est .
+            <lb ed="#L" n="88"/>Ex natura autem tam talis virtutis, quam vitii, apparet
+            <lb ed="#L" n="89"/>quod non est subiective in voluntate. Nam, ut superius 
+            <pb ed="#L" n="343"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>patet, nulla moralis virtus. ordinata praecise ad naturale
+            <lb ed="#L" n="2"/>bonum babentis, est in voluntate: quia voluntas ex 
+            pro<lb break="no" ed="#L" n="3"/>pria natura inclinatur in secundum rationem proprium 
+            ha<lb break="no" ed="#L" n="4"/>bentis bonum, non supernaturale. Constat autem quod 
+            stu<lb break="no" ed="#L" n="5"/>diositas ordinatur per se primo et directe in proprium 
+            ha<lb break="no" ed="#L" n="6"/>bentis bonum, scilicet in rectitudinem appetitus 
+            cogno<lb break="no" ed="#L" n="7"/>scendi; et non supernaturale, quia hoc rationem naturalis 
+            <lb ed="#L" n="8"/>luminis non excedit. Igitur nec studiositas nec curiositas
+            <lb ed="#L" n="9"/>est in voluntate.
+          </p>
+          <p xml:id="TAcCaj-d1e2130-d1e180">
+            <lb ed="#L" n="10"/>II. Secundum , de proprietate virtutis: an scilicet 
+            stu<lb break="no" ed="#L" n="11"/>diositas sit proprie virtus. Et est ratio dubii quia ex 
+            con<lb break="no" ed="#L" n="12"/>ditione materiae apparet quod non sit virtus. Nam 
+            mate<lb break="no" ed="#L" n="13"/>ria eius dicitur esse cognitio, seu illius appetitus. Cognitio
+            <lb ed="#L" n="14"/>autem in concupiscibili, sicut de superbia dictum fuit  ex
+            <lb ed="#L" n="15"/>simili. ratione,
+          </p>
+          <p xml:id="TAcCaj-d1e2130-d1e196">
+            <lb ed="#L" n="16"/>Et per hoc patet solutio obiectionis in oppositum. 
+            Quo<lb break="no" ed="#L" n="17"/>niam ex hoc quod studiositas ad bonum hominis non 
+            so<lb break="no" ed="#L" n="18"/>lum respectu naturalium, sed super et praeter naturalium,
+            <lb ed="#L" n="19"/>ordinatur, non prohibetur poni in voluntate.
+          </p>
+          <p xml:id="TAcCaj-d1e2130-d1e208">
+            <lb ed="#L" n="20"/>IV. Ad secundum dubium  dicitur quod materia 
+            proxi<lb break="no" ed="#L" n="21"/>ma studiositatis non est cognitio, sed studium cognoscendi,
+            <lb ed="#L" n="22"/>ut patet in littera . Studium autem cognoscendi cum 
+            signi<lb break="no" ed="#L" n="23"/>ficet vehementem applicationem hominis ad cognoscendum ;
+            <lb ed="#L" n="24"/>et applicatio, ut ex praecedenti patet Libro , significet actum
+            <lb ed="#L" n="25"/>voluntatis qui est uti: oportet ut materia studiositatis et 
+            cu<lb break="no" ed="#L" n="26"/>autem omnis, tam intellectualis quam sensitiva, bona 
+            se<lb break="no" ed="#L" n="27"/>cundum se est: et appetitus eius consequenter bonus per 
+            <lb ed="#L" n="28"/>se est. Constat autem quod materia propria virtutis 
+            mo<lb break="no" ed="#L" n="29"/>ralis non est secundum se bona, sed per se indiget 
+            regu<lb break="no" ed="#L" n="30"/>latione ad hoc ut sit bona: si enim timere, audere, 
+            dele<lb break="no" ed="#L" n="31"/>ctari, etc., essent per se bona, non esset opus aliqua 
+            vir<lb break="no" ed="#L" n="32"/>tute morali firmativa timoris, aut moderativa audaciae vel
+            <lb ed="#L" n="33"/>delectationis. Cum igitur cognoscere, ut sic, tam per 
+            intel<lb break="no" ed="#L" n="34"/>lectum quam per sensum, sit per se bonum; et 
+            consequen<lb break="no" ed="#L" n="35"/>-ter appetitus cognoscendi sit per se bonus, utpote in 
+            bo<lb break="no" ed="#L" n="36"/>num obiectum ac finem latus: consequens est ut 
+            studio<lb break="no" ed="#L" n="37"/>sitas, quae moderativa ponitur appetitus cognoscendi, non
+            <lb ed="#L" n="38"/>sit proprie virtus, utpote propria virtutis carens materia,
+            <lb ed="#L" n="39"/>scilicet indigente per se quod reguletur.
+          </p>
+          <p xml:id="TAcCaj-d1e2130-d1e254">
+            <lb ed="#L" n="40"/>Et confirmatur. Quia omnes deformitates in littera 
+            <lb ed="#L" n="41"/>enumeratae circa appetitum cognoscendi, inveniuntur 
+            con<lb break="no" ed="#L" n="42"/>sistere in aliquo per accidens: puta in appositiohe mali
+            <lb ed="#L" n="43"/>finis, in praestando impedimentum debito bono, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e2130-d1e265">
+            <lb ed="#L" n="44"/>III. Ad primum dubium  dicitur quod, quia obiectum
+            <lb ed="#L" n="45"/>studiositatis est altius quid quam sint sensibilia et 
+            natura<lb break="no" ed="#L" n="46"/>lia, quoniam extendit se ad cognitionem tam intellectivam
+            <lb ed="#L" n="47"/>quam sensitivam, tam naturalem quam super et praeter
+            <lb ed="#L" n="48"/>naturalem, ut patet ex hoc quod curiositatis vitium circa
+            <lb ed="#L" n="49"/>haec omnia versari ponitur ; consequens est ut 
+            studio<lb break="no" ed="#L" n="50"/>sitas subiective in voluntate sit principaliter, secundario 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="51"/>riositatis sit hoc quod dico, uti potentia cognoscitiva. Hoc
+            <lb ed="#L" n="52"/>autem quod est uti potentia cognoscitiva ad 
+            cognoscen<lb break="no" ed="#L" n="53"/>dum, non est actus moraliter bonus nisi sit ;n medietate
+            <lb ed="#L" n="54"/>constitutus prout sapiens determinabit . Tum quia potest
+            <lb ed="#L" n="55"/>cadere super indebita materia, ut si quis applicet 
+            intelle<lb break="no" ed="#L" n="56"/>ctum ad perspiciendum supernaturalia: nam sicut utens
+            <lb ed="#L" n="57"/>membris generativis circa materiam non proportionatam
+            <lb ed="#L" n="58"/>peccat, ita utens intellectu ad videndum. excedentia peccat.
+            <lb ed="#L" n="59"/>Tum propter circumstantias: puta, quando oportet uti 
+            in<lb break="no" ed="#L" n="60"/>tellectu vel sensu, et quando non; et propter quid 
+            Opor<lb break="no" ed="#L" n="61"/>tet, ut scilicet homo non utatur intellectu ad 
+            cognoscen<lb break="no" ed="#L" n="62"/>dum, nisi ad debitum finem.
+          </p>
+          <p xml:id="TAcCaj-d1e2130-d1e311">
+            <lb ed="#L" n="63"/>Ex differentia igitur inter ipsam cognitionem et studium
+            <lb ed="#L" n="64"/>cognoscendi, apparet solutio dubii. Cognitio siquidem non
+            <lb ed="#L" n="65"/>est materia proxima moralis virtutis: sed ex virtute 
+            intel<lb break="no" ed="#L" n="66"/>lectuali, aut naturali in parte sensitiva, bene vel male se
+            <lb ed="#L" n="67"/>habet. Studium autem cognoscendi, quod est actus 
+            volun<lb break="no" ed="#L" n="68"/>tatis passive in potentiis cognoscitivis existens, propria est
+            <lb ed="#L" n="69"/>materia appetitus quem moderari oportet per virtutem 
+            stu<lb break="no" ed="#L" n="70"/>diositatis: et manifeste indiget regulatione ad hoc ut 
+            bo<lb break="no" ed="#L" n="71"/>num moraliter sit.
+          </p>
+          <p xml:id="TAcCaj-d1e2130-d1e333">
+            <lb ed="#L" n="72"/>Unde ea quae. per accidens se habent ad cognitionem,
+            <lb ed="#L" n="73"/>puta finis malus, impeditio debiti, et si quid est eiusmodi,
+            <lb ed="#L" n="74"/>per se habent se ad studium cognoscendi, quod actus est
+            <lb ed="#L" n="75"/>voluntatis, cui nulla boni et mali moralis differentia est per
+            <lb ed="#L" n="76"/>accidens, quoniam totam illius latitudinem per se respicit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 130</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 130</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="72"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e1944"><!-- TAcCajp2p2-q130 -->
+        <head xml:id="TAcCaj-d1e1944-Hd1e101">Quaestio 130</head>
+        <div xml:id="TAcCaj-d1e1944-Dd1e103"><!-- caj-p2p2-q130a1 -->
+          <head xml:id="TAcCaj-d1e1944-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e1944-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="7" type="fixed=72"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="8"/>IN articulo primo quaestionis centesimaetrigesimae, in 
+            re<lb break="no" ed="#L" n="9"/>poekeiess ad primum, circa illud: Praesumptuosum esset 
+            <lb ed="#L" n="10"/>quod aliquis in statu imperfectae virtutis attentaret assequi  
+            <lb ed="#L" n="11"/>statim ea quae sunt perfectae virtutis, dubium occurrit ex 
+            <lb ed="#L" n="12"/>Martino, in tractatu dicto , qu. 1  de Praesumptione, ubi  
+            <lb ed="#L" n="13"/>tripliciter contra hoc dictum, universaliter intellectum, arguit. 
+            <lb ed="#L" n="14"/>Primo, quia historiis ecclesiasticis non consonat: dum 
+            mul<lb break="no" ed="#L" n="15"/>tos legimus in statu imperfectae virtutis volasse ad eremum
+            <lb ed="#L" n="16"/>aut religionem ; alios exposuisse se martyrio pro fide Christi.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e139">
+            <lb ed="#L" n="17"/>Secundo, quia non consonat rationi morali. Nam 
+            cu<lb break="no" ed="#L" n="18"/>iuslibet virtutis moralis actus est in plena facultate liberi
+            <lb ed="#L" n="19"/>arbitrii adiuti specialiter a Deo. Ergo existens in statu 
+            im<lb break="no" ed="#L" n="20"/>perfectae virtutis potest appetere opus perfectae virtutis.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e150">
+            <lb ed="#L" n="21"/>Tertio, quia opus perfectum, per quod generatur 
+            per<lb break="no" ed="#L" n="22"/>fectus habitus, praecedit habitum perfectum. Ergo opus
+            <lb ed="#L" n="23"/>perfectum habetur pro tempore pro quo non habetur 
+            ad<lb break="no" ed="#L" n="24"/>huc nisi habitus imperfectus. Non est ergo 
+            praesumptuo<lb break="no" ed="#L" n="25"/>sum universaliter quod aliquis habens imperfectum 
+            habi<lb break="no" ed="#L" n="26"/>tum attentet opus perfectae virtutis,
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e167">
+            <lb ed="#L" n="27"/>Il. Ad hoc dubium dicitur quod verba Auctoris sunt
+            <lb ed="#L" n="28"/>universaliter vera, sane tamen intellecta, ut intelligi debent.
+            <lb ed="#L" n="29"/>Notanda siquidem sunt verba litterae, Unde ad primam
+            <lb ed="#L" n="30"/>obiectionem dicitur quod illi qui ad eremum aut 
+            religio<lb break="no" ed="#L" n="31"/>nem absque praesumptione ingressi sunt, non attentabant
+            <lb ed="#L" n="32"/>statim assequi ea quae sunt perfectae virtutis: sed 
+            atten<lb break="no" ed="#L" n="33"/>tarunt viam perfectae virtutis. Quod in littera  approbatur
+            <lb ed="#L" n="34"/>manifeste. Religio enim schola est virtutis perfectae: non
+            <lb ed="#L" n="35"/>professio perfectae virtutis. — Qui autem martyrio se 
+            ex<lb break="no" ed="#L" n="36"/>posuerunt, licet quoad nos viderentur esse imperfectae 
+            vir<lb break="no" ed="#L" n="37"/>tutis, utpote inchoantes; quoad Deum tamen erant 
+            perfe<lb break="no" ed="#L" n="38"/>ctae virtutis, ipso Domino attestante : Maiorem caritatem
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="39"/>nemo habet. Caritas siquidem unius incipientis potest esse
+            <lb ed="#L" n="40"/>maior caritate alterius qui multo tempore profecit: 
+            quo<lb break="no" ed="#L" n="41"/>niam unicuique datur caritas secundum mensuram 
+            dona<lb break="no" ed="#L" n="42"/>tionis Christi , et non est mensura aliqua initii. - 
+            Simi<lb break="no" ed="#L" n="43"/>liter illi qui statim ad solitariam vitam recte processerunt,
+            <lb ed="#L" n="44"/>a perfecta virtute incoeperunt, ut Antonius et Benedictus:
+            <lb ed="#L" n="45"/>propter iam dictam divinae largitatis mensuram, quae uni
+            <lb ed="#L" n="46"/>tantum tribuit in initio quantum non habebit alius post
+            <lb ed="#L" n="47"/>quadraginta annos in religione.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e217">
+            <lb ed="#L" n="48"/>Ad secundam dicitur quod solvit seipsam in hoc quod
+            <lb ed="#L" n="49"/>dicit, specialiter adiuti a Deo. Quilibet enim, 
+            quantum<lb break="no" ed="#L" n="50"/>cumque imperfectae virtutis, si specialiter adiuvatur a Deo
+            <lb ed="#L" n="51"/>ad opus aliquod quantumcumque magnum, potest absque
+            <lb ed="#L" n="52"/>praesumptione tendere in illud. Auctor autem loquitur
+            <lb ed="#L" n="53"/>de imperfectae virtutis homine absque alia appositione 
+            au<lb break="no" ed="#L" n="54"/>xilii specialis.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e235">
+            <lb ed="#L" n="55"/>Ad tertiam autem dicitur primo, quod falsum est opus
+            <lb ed="#L" n="56"/>perfectum praecedere habitum perfectum. Est enim 
+            oppo<lb break="no" ed="#L" n="57"/>situm verum. Fabricando siquidem imperfecte fabri fimus:
+            <lb ed="#L" n="58"/>et fabricamus post perfecte. Et similiter cantando et 
+            pul<lb break="no" ed="#L" n="59"/>sando imperfecte musici fimus , et cantamus et pulsamus.
+            <lb ed="#L" n="60"/>perfecte: ut experientia testatur. Generant autem imperfecti.
+            <lb ed="#L" n="61"/>actus habitum perfectum in virtute superioris principii; ut
+            <lb ed="#L" n="62"/>in praecedenti Libro  dictum est.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e255">
+            <lb ed="#L" n="63"/>Dicitur nihilominus secundo, quod aliud est habere
+            <lb ed="#L" n="64"/>actum perfectum ante perfectum habitum: et aliud est post
+            <lb ed="#L" n="65"/>imperfectam virtutem statim attentare ea quae sunt 
+            perfe<lb break="no" ed="#L" n="66"/>ctae virtutis. Stat enim quod post imperfectam virtutem
+            <lb ed="#L" n="67"/>multo studio, exercitio et conatu, habeat quis aliquem
+            <lb ed="#L" n="68"/>actum quasi perfectum ante perfectam virtutem. Et sic non
+            <lb ed="#L" n="69"/>praesumet: quia non statim attentat.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e1944-Dd1e274"><!-- caj-p2p2-q130a2 -->
+          <head xml:id="TAcCaj-d1e1944-Hd1e277">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e1944-d1e279">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="51" type="fixed=73"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e286">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="52"/>IN articulo secundo eiusdem quaestionis, in responsione
+            <lb ed="#L" n="53"/>Ti primum, dubium occurrit ex Martino, ibi , qu. ir, 
+            <lb ed="#L" n="54"/>circa oppositionem praesumptionis de qua in littera fit
+            <lb ed="#L" n="55"/>mentio, ad magnaminitatem et caritatem. Et primo arguit
+            <lb ed="#L" n="56"/>quod talis praesumptio qualis in littera describitur, non
+            <lb ed="#L" n="57"/>opponatur magnanimitati. Quia nullus affectat contemptum
+            <lb ed="#L" n="58"/>divinae iustitiae tanquam rem honorabilem. Ergo non est
+            <lb ed="#L" n="59"/>praesumptio opposita magnanimitati.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e308">
+            <lb ed="#L" n="60"/>Secundo, quod non opponitur proprie caritati. Quia
+            <lb ed="#L" n="61"/>magis opponitur spei. Secundum enim Auctorem, in Qq. de
+            <lb ed="#L" n="62"/>Malo, praesumptio est inordinata spes.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e317">
+            <lb ed="#L" n="63"/>Tertio. Inordinata confidentia de divina misericordia non
+            <lb ed="#L" n="64"/>opponitur magnanimitati. Ergo. - Probatur assumptum.
+            <lb ed="#L" n="65"/>Quia non est respectu arduorum agendorum, sed respectu
+            <lb ed="#L" n="66"/>impunitatis in extremo [udicio.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e329">
+            <lb ed="#L" n="67"/>II. Ad hoc dicitur quod praesumptio qua quis, inordinate
+            <lb ed="#L" n="68"/>confidens de divina misericordia, contemnit divinam iusti-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="69"/>tiam, et ratione radicis. et ratione ipsius contemptus, 
+            mani<lb break="no" ed="#L" n="70"/>feste opponitur magnanimitati. Radicis quidem, quia talis,
+            <lb ed="#L" n="71"/>ut sic, dignificat se magnis quibus non est dignus : 
+            dignifi<lb break="no" ed="#L" n="72"/>cat se siquidem divina adoptione et visione, quibus non est
+            <lb ed="#L" n="73"/>dignus. - Ratione vero contemptus, quia ipsum contemnere
+            <lb ed="#L" n="74"/>est actus magnus excedens facultatem hominis talis: quia
+            <lb ed="#L" n="75"/>contemnere vindicativam iustitiam est hominis sancti et iusti.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e353">
+            <lb ed="#L" n="76"/>Unde patet responsio ad primum. Quilibet enim 
+            prae<lb break="no" ed="#L" n="77"/>sumptuosus contemnens exercet ipsum actum ut magnum
+            <lb ed="#L" n="78"/>et honorabilem, utpote ut actum iam securi de Deo.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e362">
+            <lb ed="#L" n="79"/>Et similiter patet responsio ad tertium: quia 
+            arduissi<lb break="no" ed="#L" n="80"/>mum agendum est regnare cum Christo, videre Deum,
+            <lb ed="#L" n="81"/>assequi opera felicitatis aeternae, quae iste sperat.
+          </p>
+          <p xml:id="TAcCaj-d1e1944-d1e371">
+            <lb ed="#L" n="82"/>Ad secundum vero, ex littera patet quod non dicitur
+            <lb ed="#L" n="83"/>opponi simpliciter caritati, sed ratione materiae, inquantum
+            <lb ed="#L" n="84"/>scilicet est aliquid divinum. Quod non impugnatur ab 
+            ar<lb break="no" ed="#L" n="85"/>gumento.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

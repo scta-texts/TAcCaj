@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 187</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 187</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="507"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2238"><!-- TAcCajp2p2-q187 -->
+        <head xml:id="TAcCaj-d1e2238-Hd1e101">Quaestio 187</head>
+        <div xml:id="TAcCaj-d1e2238-Dd1e103"><!-- caj-p2p2-q187a1 -->
+          <head xml:id="TAcCaj-d1e2238-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2238-d1e108">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="58" type="fixed=507"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e115">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="59"/>In articulo primo quaestionis 
+            centesimaeoctogesimaese<lb break="no" ed="#L" n="60"/>ptimae, dubium occurrit: An praedicando quis in 
+            pec<lb break="no" ed="#L" n="61"/>cato mortali, peccet mortaliter. Et est ratio dubii quia
+            <lb ed="#L" n="62"/>ex hac littera apparet quod peccat mortaliter. Quoniam
+            <lb ed="#L" n="63"/>expresse dicitur quod peccatum reddit illicitum 
+            praedica<lb break="no" ed="#L" n="64"/>tionis actum. Constat autem quod non est sermo de peccato
+            <lb ed="#L" n="65"/>veniali: quoniam praedicando in veniali non peccat; 
+            alio<lb break="no" ed="#L" n="66"/>quin, omnes fere praedicando semper peccarent. Igitur
+            <lb ed="#L" n="67"/>sermo est de mortali.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e139">
+            <lb ed="#L" n="68"/>Praeterea, ratio Scripturae allegatae, cum dicitur, 
+            Pec<lb break="no" ed="#L" n="69"/>catori autem dixit Deus, etc., est ista: Existimasti inique
+            <lb ed="#L" n="70"/>quod ero tui similis, ut patet intuenti contextum Psalmi .
+            <lb ed="#L" n="71"/>Sed haec existimatio est peccatum mortale. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e150">
+            <lb ed="#L" n="72"/>In oppositum autem est quia, iuxta Auctoris doctrinam
+            <lb ed="#L" n="73"/>inferius in Tertia Parte , soli actus ad quos homo 
+            san<lb break="no" ed="#L" n="74"/>ctificatur exercendos, sunt prohibiti ut non fiant in 
+            pec<lb break="no" ed="#L" n="75"/>cato mortali. Ad praedicationem autem homo non 
+            sancti<lb break="no" ed="#L" n="76"/>ficatur per aliquem ordinem aut Ecclesiae sacramentum:
+            <lb ed="#L" n="77"/>ut. patet ex eo quod in veteri Testamento cuilibet licitum
+            <lb ed="#L" n="78"/>erat praedicare.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e169">
+            <lb ed="#L" n="79"/>II. Ad hoc dicitur quod, licet praedicare secundum se
+            <lb ed="#L" n="80"/>non sit actus alicuius ordinis, quia tamen ecclesiastica lege
+            <lb ed="#L" n="81"/>factus est actus ordinis sacri, nam solis diaconibus et 
+            su<lb break="no" ed="#L" n="82"/>perioribus licet praedicare; ideo praedicationis actus iam
+            <lb ed="#L" n="83"/>est sanctus utrinque, scilicet et secundum se, ut patet;
+            <lb ed="#L" n="84"/>et secundum sanctificationem ministri ad hunc actum,
+            <lb ed="#L" n="85"/>quamvis non primo sed secundario. Et propterea, sicut
+            <lb ed="#L" n="86"/>sacrilegii crimen incurrit exercens actus sacrorum ordinum
+            <lb ed="#L" n="87"/>in peccato mortali, ita sacrilegus est exercens 
+            praedica<lb break="no" ed="#L" n="88"/>tionis actum in peccato mortali. Quod in Quolibeto 
+            no<lb break="no" ed="#L" n="89"/>stro Primo  sub dubia opinione dimissum est, quia 
+            con<lb break="no" ed="#L" n="90"/>Sideratus fuit actus praedicandi secundum suam naturam
+            <lb ed="#L" n="91"/>tantum.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e200">
+            <lb ed="#L" n="92"/>Obiectio tamen in oppositum ex littera non convincit
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="93"/>peccatum mortale esse praedicare in mortali peccato. 
+            Quo<lb break="no" ed="#L" n="94"/>niam, concesso quod littera loquatur de mortali in verbo
+            <lb ed="#L" n="95"/>peccatum, non tamen sequitur quod loquatur de mortali
+            <lb ed="#L" n="96"/>in verbo illicitum, dum dicit quod peccatum reddit 
+            illi<lb break="no" ed="#L" n="97"/>citum praedicationis actum. Nam, secundum se loquendo,
+            <lb ed="#L" n="98"/>ex mortali redditur praedicationis actus illicitus, sed non
+            <lb ed="#L" n="99"/>mortaliter. Illicitus quidem: quia monstruosa est praedicatio
+            <lb ed="#L" n="100"/>peccatoris, dum vita repugnat praedicationi. Non mortaliter
+            <lb ed="#L" n="101"/>autem: quia interpretative tantum infert in malo 
+            praedica<lb break="no" ed="#L" n="102"/>tore aestimationem quod Deus sit sibi similis, scilicet 
+            di<lb break="no" ed="#L" n="103"/>cens et non faciens; ratione cuius reprehenditur a Deo
+            <lb ed="#L" n="104"/>malus praedicator in allata auctoritate Psalmi. 
+            Praedica<lb break="no" ed="#L" n="105"/>tores enim, cum sint missi a Deo, iuxta illud , Quomodo
+            <lb ed="#L" n="106"/>praedicabunt nisi mittantur; si praedicando divina sunt
+            <lb ed="#L" n="107"/>mali, prae se ferunt quod Christus, qui mittit illos, fuerit
+            <lb ed="#L" n="108"/>illis similis, scilicet recta docens et non recte vivens, sicut
+            <lb ed="#L" n="109"/>sunt ipsi, qui sunt illius nuntii.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e244">
+            <lb ed="#L" n="110"/>III. In responsione ad tertium eiusdem articuli primi,
+            <lb ed="#L" n="111"/>adverte quod Auctor dupliciter tractat de cura 
+            ecclesiasti<lb break="no" ed="#L" n="112"/>corum officiorum: scilicet ut ordinaria, vel ut delegata. Et
+            <lb ed="#L" n="113"/>de ordinaria quidem concedit quod non compatitur secum
+            <lb ed="#L" n="114"/>monasticam observantiam, et pertransit: quia iam superius 
+            <lb ed="#L" n="115"/>declaratum est quod absolvuntur a monasticis observantiis
+            <lb ed="#L" n="116"/>impedientibus animarum curam ordinariam, cum ad illam
+            <lb ed="#L" n="117"/>assumuntur. — De delegata vero nihil aliud dicit nisi quod
+            <lb ed="#L" n="118"/>non propterea sequitur quod religiosis non possint 
+            com<lb break="no" ed="#L" n="119"/>mitti interdum ecclesiastica officia. Et intendit quod 
+            dele<lb break="no" ed="#L" n="120"/>gata interdum cura alicuius officii; puta praedicandi vel
+            <lb ed="#L" n="121"/>confessiones audiendi, stat cum regulari observantia; et
+            <lb ed="#L" n="122"/>propterea Gregorii auctoritas non est contra hoc.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e275">
+            <lb ed="#L" n="123"/>Et tu adde quod, si etiam quoad aliquid impediret 
+            re<lb break="no" ed="#L" n="124"/>gularem observantiam, non obstaret. Quia propter maius
+            <lb ed="#L" n="125"/>bonum, dispensari potest superioris auctoritate ut omittatur
+            <lb ed="#L" n="126"/>interdum aliquid observantiarum regularium.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2238-Dd1e287"><!-- caj-p2p2-q187a2 -->
+          <head xml:id="TAcCaj-d1e2238-Hd1e290">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2238-d1e292">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="83" type="fixed=508"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e299">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="84"/>IN articulo secundo eiusdem quaestionis 
+            centesimaeocto<lb break="no" ed="#L" n="85"/>prenota dubium primo occurrit circa titulum et
+            <lb ed="#L" n="86"/>conclusionem responsivam simul, an. per saecularia 
+            ne<lb break="no" ed="#L" n="87"/>gotia hoc in loco intelligantur omnia saecularia negotia,
+            <lb ed="#L" n="88"/>an quaedam . Et est ratio dubii quia, si intelliguntur omnia,
+            <lb ed="#L" n="89"/>sequitur primo quod, causa caritatis, licitum erit religiosis
+            <lb ed="#L" n="90"/>negotiationes exercere, ut faciunt mercatores. — Si vero 
+            in<lb break="no" ed="#L" n="91"/>telliguntur quaedam, oportuisset illa determinari. Quod in
+            <lb ed="#L" n="92"/>littera non fit.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e323">
+            <lb ed="#L" n="93"/>Dubium secundo occurrit circa distinctionem quae in
+            <lb ed="#L" n="94"/>littera fit pro decisione quaestionis, scilicet: ex caritate,
+            <lb ed="#L" n="95"/>vel cupiditate. 'Tum quia distinctio haec non ad ipsa ne-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="96"/>gotia, sed ad causas spectat. Et propterea ex hac 
+            distin<lb break="no" ed="#L" n="97"/>ctione et decisione non habetur quod negotium eis liceat,
+            <lb ed="#L" n="98"/>aut quod non. - Tum quia non solum saecularia, sed etiam
+            <lb ed="#L" n="99"/>ecclesiastica et religiosa negotia sunt eisdem ex cupiditate
+            <lb ed="#L" n="100"/>prohibita, Ac per hoc, non est doctrina dignum dicere quod
+            <lb ed="#L" n="101"/>ex cupiditate sunt religiosis saecularia negotia interdicta.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e347">
+            <lb ed="#L" n="102"/>II. Ad horum evidentiam, sciendum est quod hic est
+            <lb ed="#L" n="103"/>sermo de negotiis saecularibus quodammodo universaliter,
+            <lb ed="#L" n="104"/>et quodammodo non universaliter. Si enim ad substantiam
+            <lb ed="#L" n="105"/>negotiorum saecularium spectatur, sermo est universaliter
+            <lb ed="#L" n="106"/>de negotiis saecularibus. Si autem ad actus quos saecularia
+            <lb ed="#L" n="107"/>negotia exigunt, spectatur, sermo non est de negotiis sae-
+            <pb ed="#L" n="509"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>cularibus universaliter, sed particulariter de actu 
+            intromit<lb break="no" ed="#L" n="2"/>tendi se aliquo modo in negotiis saecularibus. Quod in
+            <lb ed="#L" n="3"/>littera tripliciter palam fit. Primo, in divisione quaestionis
+            <lb ed="#L" n="4"/>in suos articulos, ubi dicitur: Secundo, utrum liceat eis
+            <lb ed="#L" n="5"/>de negotiis saecularibus se intromittere. — Secundo, in
+            <lb ed="#L" n="6"/>titulo articuli huius, ubi dicitur: Utrum liceat religiosis
+            <lb ed="#L" n="7"/>negotia saecularia tractare: et non dicit, exercere. - Tertio,
+            <lb ed="#L" n="8"/>in conclusione responsiva principali, ubi duos actus circa
+            <lb ed="#L" n="9"/>saecularia negotia licitos dicit religiosis: scilicet dirigere,
+            <lb ed="#L" n="10"/>et ministrare. — Negotia ergo saecularia, ut distinguuntur
+            <lb ed="#L" n="11"/>contra ecclesiastica, quaecumque sint et quantumcumque
+            <lb ed="#L" n="12"/>prohibita sint clericis quoad ipsorum exercitium, concessa
+            <lb ed="#L" n="13"/>dicit Auctor religiosis quoad aliquem actum.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e396">
+            <lb ed="#L" n="14"/>III. Sed diligenter adverte ad actus licitos et conditiones
+            <lb ed="#L" n="15"/>quatuor in littera appositas. Prima conditio est quod noz
+            <lb ed="#L" n="16"/>ex cupiditate, hoc est propter lucrum aut emolumentum
+            <lb ed="#L" n="17"/>aliquod temporale pro se vel alio, hoc fiat. Et ratio huius
+            <lb ed="#L" n="18"/>est quia sic sunt prohibita clericis.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e409">
+            <lb ed="#L" n="19"/>Secunda est quod ex caritate, hoc est propter amorem
+            <lb ed="#L" n="20"/>quo proximus in Deo diligitur, hoc fiat. Et ratio huius
+            <lb ed="#L" n="21"/>est quia sic spectat huiusmodi opus ad finem religionis,
+            <lb ed="#L" n="22"/>qui est perfectio caritatis.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e420">
+            <lb ed="#L" n="23"/>Tertia est quod de licentia superioris hoc fiat. Et est
+            <lb ed="#L" n="24"/>rado quia religiosus non habet velle neque nolle. Et sic
+            <lb ed="#L" n="25"/>invenitur statutum ab Ecclesia quoad actum ministrandi:
+            <lb ed="#L" n="26"/>ut patet in canone in littera allata.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e431">
+            <lb ed="#L" n="27"/>Quarta est quod cum debita moderatione hoc fiat. Non
+            <lb ed="#L" n="28"/>enim omnis modus ministrandi aut dirigendi decet 
+            reli<lb break="no" ed="#L" n="29"/>giosos. Non enim decet religiosum sic dirigere 
+            proximo<lb break="no" ed="#L" n="30"/>rum negotia, aut eis inservire, ut personaliter sint exactores,
+            <lb ed="#L" n="31"/>et quasi negotiorum gestores saecularibus tumultibus se
+            <lb ed="#L" n="32"/>immisceant: sed ita oportet, dum necessitas caritatis urget,
+            <lb ed="#L" n="33"/>se exhibere, ut et ipsi zom se implicent saecularibus 
+            ne<lb break="no" ed="#L" n="34"/>gotiis , quamvis tractent illa; et nomen Domini in 
+            reli<lb break="no" ed="#L" n="35"/>giosis non blasphemetur . Hoc enim modo beatus 
+            Leode<lb break="no" ed="#L" n="36"/>garius de regni Franciae regimine se intromisit : et multi
+            <lb ed="#L" n="37"/>probi religiosi dirigunt et adiuvant viduas aliasque 
+            mise<lb break="no" ed="#L" n="38"/>rabiles personas in suis negotiis. Et licet directio etiam
+            <lb ed="#L" n="39"/>moderata esse debeat, praecipue tamen circa actum mini-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="40"/>sterii seu adiutorii moderatione opus est. Nam non omnis
+            <lb ed="#L" n="41"/>servitii aut auxilii actus convenit religioso. Dedecere enim
+            <lb ed="#L" n="42"/>constat religiosos personaliter saecularibus venditionibus,
+            <lb ed="#L" n="43"/>emptionibus, mutuis, custodiis, etc., deservire. Sed opem
+            <lb ed="#L" n="44"/>ferre eundo ad locum aliquem, vel ad conferendum cum
+            <lb ed="#L" n="45"/>aliquo, et huiusmodi, non dedecet. Unde et de Didaco
+            <lb ed="#L" n="46"/>Episcopo beati Dominici Patris nostri, legitur quod, causa
+            <lb ed="#L" n="47"/>conficiendi coniugium inter filium regis Hispaniae et 
+            quan<lb break="no" ed="#L" n="48"/>dam puellam, in Gallias ivit .
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e483">
+            <lb ed="#L" n="49"/>IV. Ex quibus patet solutio utriusque dubii . Primi
+            <lb ed="#L" n="50"/>quidem, quia iam patet quod de omnibus, et non de 
+            omni<lb break="no" ed="#L" n="51"/>bus negotiis saecularibus quodammodo est sermo: et quod
+            <lb ed="#L" n="52"/>in littera determinatur explicite qui actus secundum genus
+            <lb ed="#L" n="53"/>suum sint religiosis liciti circa saecularia negotia, scilicet
+            <lb ed="#L" n="54"/>dirigere et ministrare.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e499">
+            <lb ed="#L" n="55"/>Secundi autem, quia Auctor non solum causas agendi,
+            <lb ed="#L" n="56"/>sed actus ipsos circa negotia saecularia discernit, dicens illos
+            <lb ed="#L" n="57"/>duos secundum suum genus licitos religiosis, servatis illis
+            <lb ed="#L" n="58"/>quatuor conditionibus expositis , Et sic, quamvis hinc non
+            <lb ed="#L" n="59"/>habeatur quod negotium est eis licitum et quod non, quia
+            <lb ed="#L" n="60"/>hoc non est hic quaesitum; habetur tamen quod religiosi
+            <lb ed="#L" n="61"/>possunt se intromittere de negotiis saecularibus, et quibus
+            <lb ed="#L" n="62"/>actibus, et qualiter: quod sub praesenti quaestione cadebat.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e520">
+            <lb ed="#L" n="63"/>Haec etiam decisio non est communis saecularibus et
+            <lb ed="#L" n="64"/>ecclesiasticis negotiis, ut secunda obiectio ingerit. 
+            Quo<lb break="no" ed="#L" n="65"/>niam etiam exercere ipsa ecclesiastica negotia religiosis
+            <lb ed="#L" n="66"/>licet: et non solum dirigere alios, aut ministrare aliis in illis.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e531">
+            <lb ed="#L" n="67"/>V. In responsione ad tertium, memento illius documenti:
+            <lb ed="#L" n="68"/>Omnia mihi licent, sed non omnia expediunt . Et rursus:
+            <lb ed="#L" n="69"/>Omnia mihi licent, sed non omnia aedificant . Adire 
+            cu<lb break="no" ed="#L" n="70"/>rias et palatia propter pias causas licitum fatemur: sed
+            <lb ed="#L" n="71"/>timeamus damnum ac ruinam. Nam Petrus, ut Bernardus
+            <lb ed="#L" n="72"/>praenotavit, semel palatium intravit, et ter Dominum 
+            ne<lb break="no" ed="#L" n="73"/>gavit. Curiam Diogenes definivit, quod est locus ad 
+            de<lb break="no" ed="#L" n="74"/>cipiendum et praevalendum: qui sunt actus diabolo 
+            per<lb break="no" ed="#L" n="75"/>missi a Deo, III Reg. xxu . Fugiendae sunt a religiosis
+            <lb ed="#L" n="76"/>curiae et palatia, etiam ecclesiastica: cum Petrus non regale
+            <lb ed="#L" n="77"/>aut praetoris, sed pontificium palatium ingressus, nefando
+            <lb ed="#L" n="78"/>laqueo captus fuerit .
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2238-Dd1e561"><!-- caj-p2p2-q187a3 -->
+          <head xml:id="TAcCaj-d1e2238-Hd1e564">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2238-d1e566">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="23" type="fixed=512"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e573">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="24"/>In articulo tertio eiusdem quaestionis, nota utramque 
+            glos<lb break="no" ed="#L" n="25"/>sam praeceptorum iuris naturae: alteram in responsione
+            <lb ed="#L" n="26"/>ad primum; alteram in corpore articuli. Habes siquidem
+            <lb ed="#L" n="27"/>hinc primo, quod praecepta naturalia ad commune bonum
+            <lb ed="#L" n="28"/>absolute necessaria non ligant singulos. Et propterea ad 
+            ma<lb break="no" ed="#L" n="29"/>nuale opus, quod necessarium est in vita humana, non 
+            tenen<lb break="no" ed="#L" n="30"/>tur singuli absolute: sicut nec ad generationi vacandum.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e593">
+            <lb ed="#L" n="31"/>Habes secundo, quod praecepta naturalia solum propter
+            <lb ed="#L" n="32"/>necessarium finem aliquem assequendum, nullum obligant
+            <lb ed="#L" n="33"/>qui finem illum necessarium aliunde consequi potest. Et
+            <lb ed="#L" n="34"/>propterea non tenentur manualiter operari propter victum
+            <lb ed="#L" n="35"/>qui aliunde victum licite habent.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e606">
+            <lb ed="#L" n="36"/>II. Sed circa hanc glossam dubium occurrit. Nam si
+            <lb ed="#L" n="37"/>pro regula habendum est quod ordinatum ad finem in
+            <lb ed="#L" n="38"/>tantum est necessarium in quantum finis sine eo haberi
+            <lb ed="#L" n="39"/>non potest, et non aliter: sequeretur quod homo licite
+            <lb ed="#L" n="40"/>posset non implere praecepta multa, ex eo quod posset
+            <lb ed="#L" n="41"/>aliter quam per observantiam illius praecepti consequi
+            <lb ed="#L" n="42"/>talem finem. Verbi gratia, praeceptum ieiunii ordinatur ad
+            <lb ed="#L" n="43"/>domandam carnem et mentem elevandam: qui ergo potest
+            <lb ed="#L" n="44"/>haec aliter quam per ieiunium habere, non tenetur ad 
+            ie<lb break="no" ed="#L" n="45"/>iunium. Similiter praeceptum de officio divino dicendo 
+            or<lb break="no" ed="#L" n="46"/>dinatur ad mentis ascensum septies in die ad Deum: si
+            <lb ed="#L" n="47"/>quis ergo absque divino officio posset septies in die ad
+            <lb ed="#L" n="48"/>Deum mente conscendere, non teneretur ad 
+            ecclesiasti<lb break="no" ed="#L" n="49"/>cum officium, Et sic de similibus. Quae omnia constant
+            <lb ed="#L" n="50"/>esse falsa.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e642">
+            <lb ed="#L" n="51"/>Ad hoc dicitur quod verba litterae possunt dupliciter
+            <lb ed="#L" n="52"/>intelligi. Primo, ut opus praeceptum ad finem aliquem
+            <lb ed="#L" n="53"/>careat vinculo praecepti si aliter potest finis haberi. Et
+            <lb ed="#L" n="54"/>hunc sensum accepit obiectio. Et falsus est, nec intentus
+            <lb ed="#L" n="55"/>ab Auctore, — Secundo, ut finis necessarius non inducat
+            <lb ed="#L" n="56"/>vim praecepti in opus aliquod, si, vel quando, sine tali
+            <lb ed="#L" n="57"/>opere haberi potest. Et hic est sensus litterae verus et 
+            in<lb break="no" ed="#L" n="58"/>tentus, directe serviens proposito Auctoris.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e662">
+            <lb ed="#L" n="59"/>Est autem inter hos duos sensus ista differentia. Nam
+            <lb ed="#L" n="60"/>iuxta secundum sensum, vinculum praecepti supponitur
+            <lb ed="#L" n="61"/>cadere supra id quod vocatur finis, puta comedere et 
+            bi<lb break="no" ed="#L" n="62"/>bere: et exinde deducitur vis praecepti supra opere quod
+            <lb ed="#L" n="63"/>vocatur ordinari ad finem, puta supra opere manuali. Et
+            <lb ed="#L" n="64"/>propterea dicitur quod, quia ratio praecepti in tali ordine
+            <lb ed="#L" n="65"/>ad finem est ex eo solum quod finis cadit sub praecepto
+            <lb ed="#L" n="66"/>altero, ideo, si finis ille potest aliter haberi, non trahitur
+            <lb ed="#L" n="67"/>vinculum praecepti a primo ad secundum, hoc est a fine
+            <lb ed="#L" n="68"/>ad tale ordinatum ad finem. - Iuxta primum vero sensum,
+            <lb ed="#L" n="69"/>vinculum praecepti praesupponitur cadere supra actu 
+            or<lb break="no" ed="#L" n="70"/>dinato ad finem, puta supra ieiunio ordinato ad mentis
+            <lb ed="#L" n="71"/>elevationem, etc.: sed quia potest alia via acquiri talis finis,
+            <lb ed="#L" n="72"/>neganda dicitur vis praecepti ab actu ordinato ad finem.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e695">
+            <lb ed="#L" n="73"/>Ubi facile videre potes quod ille secundus sensus verus
+            <lb ed="#L" n="74"/>est; et proposito litterae directe serviens; ac per hoc, 
+            in<lb break="no" ed="#L" n="75"/>tentus ab Auctore. Iste autem primus enervat universam
+            <lb ed="#L" n="76"/>iuris positivi vim, utpote determinationem ab ipso factam
+            <lb ed="#L" n="77"/>tollere permittens cuilibet. Ex eo namque quod lex 
+            deter<lb break="no" ed="#L" n="78"/>minavit tali medio utendum esse ad talem finem, oportet
+            <lb ed="#L" n="79"/>subditos legi ad illud medium se habere ut necessarium
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="80"/>ex legis dispositione, sive ipse illo medio egeat absolute,
+            <lb ed="#L" n="81"/>sive non egeat absolute. Procul est igitur a sensu litterae
+            <lb ed="#L" n="82"/>et Auctoris mente intellectus iste.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e721">
+            <lb ed="#L" n="83"/>III. In eodem tertio articulo, in responsione ad 
+            secun<lb break="no" ed="#L" n="84"/>dum, dubium occurrit circa illud: Nondum erant tunc
+            <lb ed="#L" n="85"/>temporis religiones institutae. "Tum quia Dominus Iesus
+            <lb ed="#L" n="86"/>invenitur religiosi institutor status, cum dixit adolescenti :
+            <lb ed="#L" n="87"/>Si vis perfectus esse, vende omnia quae habes, etc. - Tum
+            <lb ed="#L" n="88"/>quia tempore Apostolorum erant monachi: ut patet ex
+            <lb ed="#L" n="89"/>Dionysio , qui tunc temporis fuit.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e739">
+            <lb ed="#L" n="90"/>Ad hoc dicitur dupliciter. Primo, quod Auctor dicit
+            <lb ed="#L" n="91"/>pluraliter religiones nondum fuisse tunc institutas: ad 
+            prae<lb break="no" ed="#L" n="92"/>servandum se a religionis statu qui etiam tunc erat, 
+            sci<lb break="no" ed="#L" n="93"/>licet monachalis tantum.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e750">
+            <lb ed="#L" n="94"/>Secundo, quod religiosus status quantum ad perfectionis
+            <lb ed="#L" n="95"/>semitam, fuit a Christo institutus dicente, Si vis perfectus
+            <lb ed="#L" n="96"/>esse, etc. Quantum autem ad solemnitatem, fuit institutus
+            <lb ed="#L" n="97"/>ab Ecclesia inchoative tempore Apostolorum, ut patet ex
+            <lb ed="#L" n="98"/>Dionysii Ecclesiastica Hierarchia (rationabile enim est 
+            ri<lb break="no" ed="#L" n="99"/>tum relatum a Dionysio circa ecclesiastica ministeria 
+            Apo<lb break="no" ed="#L" n="100"/>stolorum tempore inchoatum): quantum vero ad 
+            solemni<lb break="no" ed="#L" n="101"/>tatem votorum et certam vivendi regulam, est 
+            postmo<lb break="no" ed="#L" n="102"/>dum ab Ecclesia consummatus. Et quia ad hoc spectat
+            <lb ed="#L" n="103"/>quod religiosi peculiari nomine Fratres appellantur, ideo
+            <lb ed="#L" n="104"/>Auctor, ad consummatam religionum institutionem 
+            respi<lb break="no" ed="#L" n="105"/>ciens, dixit quod nondum erant religiones institutae. Ante
+            <lb ed="#L" n="106"/>consummatam namque religionum institutionem, omnes
+            <lb ed="#L" n="107"/>Christiani fratres vocabantur: post consummatam autem
+            <lb ed="#L" n="108"/>institutionem , in religiosis Patris et Fratris appellatio
+            <lb ed="#L" n="109"/>mansit, ut consuetudo testatur.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e788">
+            <lb ed="#L" n="110"/>IV. In eodem articulo, in responsione ad tertium, circa
+            <lb ed="#L" n="111"/>orationem manualiter operantium, adverte quod in littera
+            <lb ed="#L" n="112"/>distinguitur de oratione publica, et privata: et de publica
+            <lb ed="#L" n="113"/>negatur quod fiat cum opere manuali; de privata autem,
+            <lb ed="#L" n="114"/>conceditur. Et revera turpe valde esset ecclesiasticum 
+            of<lb break="no" ed="#L" n="115"/>ficium manibus operando persolvere: cum, ultra scandalum
+            <lb ed="#L" n="116"/>et irreverentiam, quam quis homini excellenti loquendo
+            <lb ed="#L" n="117"/>non exhiberet, pluribus intentus minor sit ad si. 
+            sen<lb break="no" ed="#L" n="118"/>$us. Unde, quia operando manibus poneret quis obicem
+            <lb ed="#L" n="119"/>plenae attentioni quam a Deo expectare tenetur qui 
+            obli<lb break="no" ed="#L" n="120"/>gatur ad divinum officium, iuxta illud, Devote quantum
+            <lb ed="#L" n="121"/>Deus dederit, Extra, de Celeb. Miss., cap. Dolentes : ideo,
+            <lb ed="#L" n="122"/>notabiliter se occupando, non satisfacit Ecclesiae 
+            praece<lb break="no" ed="#L" n="123"/>pto. - Secus autem, si parum quid se occupat, puta 
+            cal<lb break="no" ed="#L" n="124"/>ceando ocreas: vel opus fere non impeditivum faciat, puta
+            <lb ed="#L" n="125"/>quia parando se ad missam perficit primam, ex hoc ipso
+            <lb ed="#L" n="126"/>magis attendens officio quia occupari eum contingit. Cum
+            <lb ed="#L" n="127"/>enim parum pro nihilo habeatur , utroque modo parum
+            <lb ed="#L" n="128"/>non multum imputatur: sive scilicet in parva parte officii,
+            <lb ed="#L" n="129"/>sive in opere parum impeditivo quis occupatur.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e834">
+            <lb ed="#L" n="130"/>Privatas autem orationes laudabile valde est aliquid 
+            no<lb break="no" ed="#L" n="131"/>strae mentis inter opera manualia ad Deum transmittere.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e841">
+            <lb ed="#L" n="132"/>V. In eodem articulo, in responsione ad quintum, nota
+            <lb ed="#L" n="133"/>diligentissime, tu qui praesides ecclesiae, quanta te oporteat
+            <lb ed="#L" n="134"/>sollicitudine subtrahere occasionem praedicatoribus et 
+            con<lb break="no" ed="#L" n="135"/>fessoribus praedicandi vel confessiones audiendi propter
+            <pb ed="#L" n="513"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>temporalia bona: ut hodie videmus accidere. Quoniam si
+            <lb ed="#L" n="2"/>confessores et praedicatores non lucrarentur, pauci 
+            inve<lb break="no" ed="#L" n="3"/>nirentur. Nunc autem quaerunt, supplicant, solvuntque 
+            in<lb break="no" ed="#L" n="4"/>terdum, ut loca habeant. Paulus Apostolus privavit seipsum 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="5"/>stipendio victus, ne alii praedicarent propter temporalia.
+            <lb ed="#L" n="6"/>Non exigo a te tantam perfectionem : sed ut ab ecclesia
+            <lb ed="#L" n="7"/>tua huiusmodi viros eiicias, et paucos habeas gratis dantes
+            <lb ed="#L" n="8"/>quod. gratis acceperunt.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2238-Dd1e877"><!-- caj-p2p2-q187a4 -->
+          <head xml:id="TAcCaj-d1e2238-Hd1e880">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2238-d1e882">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="9" type="fixed=515"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e889">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10"/>IN articulo quarto eiusdem quaestionis, nota Auctorem
+            <lb ed="#L" n="11"/>duas radices docere liciti victus ex bonis temporalibus:
+            <lb ed="#L" n="12"/>scilicet vel de suo; vel de sibi debito. Ubi dubium statim
+            <lb ed="#L" n="13"/>Occurrit circa distinctionem horum membrorum: quia 
+            se<lb break="no" ed="#L" n="14"/>cundum coincidit necessario cum primo. Nam 
+            quantum<lb break="no" ed="#L" n="15"/>cumque aliquid sit alicui debitum, nisi fiat suum, non
+            <lb ed="#L" n="16"/>licite vivet de illo: alioquin liceret vivere de alieno. — Et
+            <lb ed="#L" n="17"/>confirmatur. Quia sicut vivere ex eleemosyna, quod in
+            <lb ed="#L" n="18"/>primo ponitur membro, tunc est licitum cum id quod
+            <lb ed="#L" n="19"/>eleemosynaliter datur est factum suum: ita vivere ex sibi
+            <lb ed="#L" n="20"/>debito, quod ponitur in secundo membro, tunc est licitum
+            <lb ed="#L" n="21"/>quando illud quod debetur factum est suum; ut patet
+            <lb ed="#L" n="22"/>discurrendo. in singulis quatuor casibus enumeratis in 
+            lit<lb break="no" ed="#L" n="23"/>tera, etc.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e924">
+            <lb ed="#L" n="24"/>Ad hoc dicitur. quod in littera non distinguitur vivere
+            <lb ed="#L" n="25"/>ex suo contra vivere ex non-suo, ut obiectio interpretatur:
+            <lb ed="#L" n="26"/>sed distinguitur vivere ex suo absolute, contra vivere ex
+            <lb ed="#L" n="27"/>suo ex debito. Ita quod formaliter fit distinctio inter causas
+            <lb ed="#L" n="28"/>quibus licet vivere ex aliquo: et discernitur inter esse suum,
+            <lb ed="#L" n="29"/>pro una causa, non considerando unde vel qualiter sit suum,
+            <lb ed="#L" n="30"/>sed tota ratio licite vivendi ex illo est quia est suum; et inter
+            <lb ed="#L" n="31"/>esse suum ex debito. Ita quod ratio vivendi hic attenditur
+            <lb ed="#L" n="32"/>non penes effectum illum communem qui est esse suum, sed
+            <lb ed="#L" n="33"/>penes causam, hoc est, penes rationem debiti, Et propterea
+            <lb ed="#L" n="34"/>non nominavit in secundo membro Auctor ly suum, sed
+            <lb ed="#L" n="35"/>solummodo sibi debitum: respiciebat enim ad formalia,
+            <lb ed="#L" n="36"/>penes quae attenditur distinctio. Non coincidunt ergo 
+            dis<lb break="no" ed="#L" n="37"/>tinctionis membra, formaliter intellecta de causis: sed 
+            do<lb break="no" ed="#L" n="38"/>cemur quod vivere mihi licet ex aliquo duplici de causa;
+            <lb ed="#L" n="39"/>vel quia meum est, nihil aliud considerando, sed solam
+            <lb ed="#L" n="40"/>hanc communem rationem, quia meum est; vel quia 
+            de<lb break="no" ed="#L" n="41"/>bitum est mihi; hoc est, sic meum est, scilicet ex debito.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e966">
+            <lb ed="#L" n="42"/>Nec refert in proposito an sumatur suum pro suo 
+            to<lb break="no" ed="#L" n="43"/>taliter, vel pro suo quoad praesentem usum. Sufficit 
+            nam<lb break="no" ed="#L" n="44"/>que proposito ratio sui sive hoc sive illo modo: quoniam
+            <lb ed="#L" n="45"/>unicuique vivere licet de suo altero istorum modorum, ut
+            <lb ed="#L" n="46"/>patet.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e980">
+            <lb ed="#L" n="47"/>II. In eodem articulo quarto, circa illud, Redderetur
+            <lb ed="#L" n="48"/>religiosis usus praedictorum donorum illicitus si ab actibus
+            <lb ed="#L" n="49"/>religiosis desisterent, quia etc., dubium occurrit, primo:
+            <lb ed="#L" n="50"/>an talis usus illicitus sit peccatum mortale . - Secundo:
+            <lb ed="#L" n="51"/>an obliget ad restitutionem sic illicite utentes .
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e993">
+            <lb ed="#L" n="52"/>Ratio primi dubii est quia hinc apparet quod est 
+            pec<lb break="no" ed="#L" n="53"/>catum mortale: ex eo scilicet quod est actus fraudis in re
+            <lb ed="#L" n="54"/>notabili. Omnis enim defraudatio proximi, et multo magis
+            <lb ed="#L" n="55"/>benefactoris, in re notabili est ex suo genere peccatum
+            <lb ed="#L" n="56"/>mortale: quia est contra dilectionem proximi. Sed, ut in
+            <lb ed="#L" n="57"/>littera dicitur, religiosi desistentes a religiosis actibus 
+            frau<lb break="no" ed="#L" n="58"/>dant, quantum ex parte sua est, suos benefactores in 
+            no<lb break="no" ed="#L" n="59"/>tabili bono: tam temporali, quod susceptum est et quo
+            <lb ed="#L" n="60"/>abutuntur; quam spirituali, quod reddendum est.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1015">
+            <lb ed="#L" n="61"/>Inde autem apparet quod non est mortale: quia non 
+            in<lb break="no" ed="#L" n="62"/>tervenit hic fraus formaliter, sed interpretative. Est enim 
+            prae<lb break="no" ed="#L" n="63"/>ter intentionem huiusmodi religiosorum talis fraus. — Nec est
+            <lb ed="#L" n="64"/>eventus istius fraudis omnino inopinatus benefactoribus.
+            <lb ed="#L" n="65"/>Quoniam facile nosse possunt donantes perpetua 
+            immo<lb break="no" ed="#L" n="66"/>bilia quod fluxu temporis cadunt status religiosorum: cum
+            <lb ed="#L" n="67"/>humana omnia caduca esse constet. Et sic videtur quod,
+            <lb ed="#L" n="68"/>donando absque provisione quod devolvantur ad alios 
+            in<lb break="no" ed="#L" n="69"/>servientes religiosis actibus, implicite acceptarunt se 
+            fru<lb break="no" ed="#L" n="70"/>strandos quandoque suo intento: scienti autem et volenti
+            <lb ed="#L" n="71"/>non fit fraus, sicut nec iniuria.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1041">
+            <lb ed="#L" n="72"/>III. Ratio secundi dubii est quia, sicut miles tenetur ad
+            <lb ed="#L" n="73"/>stipendii restitutionem si desistit a militaribus actibus, ita
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="74"/>religiosus tenetur ad restitutionem: cum huiusmodi 
+            elee<lb break="no" ed="#L" n="75"/>mosynae sint quasi stipendia ipsorum. - Et confirmatur,
+            <lb ed="#L" n="76"/>Quia sicut stipendium militare non datur nisi militaturis
+            <lb ed="#L" n="77"/>in veritate, ita stipendium sustentationis religiosorum non
+            <lb ed="#L" n="78"/>datur nisi religiose vivere volentibus, non fingentibus. Ita
+            <lb ed="#L" n="79"/>quod, sicut milites armatae militiae non efficiunt suum,
+            <lb ed="#L" n="80"/>sed tenentur illud restituere, si ficti suscipiunt aut ficti 
+            pro<lb break="no" ed="#L" n="81"/>sequuntur; ita clerici et religiosi, si aut ficti suscipiunt
+            <lb ed="#L" n="82"/>aut ficti prosequuntur, non efficiunt stipendia sua, sed 
+            te<lb break="no" ed="#L" n="83"/>nentur ad restitutionem,
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1072">
+            <lb ed="#L" n="84"/>In oppositum autem est quia durus est hic sermo : et
+            <lb ed="#L" n="85"/>tot ecclesiae declinasse videntur a religiosa vita ut, si ad
+            <lb ed="#L" n="86"/>restitutionem tenerentur, oporteret magnam. damnationem
+            <lb ed="#L" n="87"/>inducere.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1083">
+            <lb ed="#L" n="88"/>IV. Ad evidentiam horum, considerandum est quod inter
+            <lb ed="#L" n="89"/>religiosos et principes, seu quoscumque alios qui 
+            contu<lb break="no" ed="#L" n="90"/>lerunt eleemosynas eis, non est habitudo secundum aliquem
+            <lb ed="#L" n="91"/>contractum iustitiae proprie dictae, sed solum secundum
+            <lb ed="#L" n="92"/>debitum gratitudinis: nam donantes. beneficium . 
+            eleemo<lb break="no" ed="#L" n="93"/>synae conferunt; et religiosi naturali iure tenentur tali dono
+            <lb ed="#L" n="94"/>gratiam. retribuere suis religiosis actibus; quoniam non alia
+            <lb ed="#L" n="95"/>ab eis expectatur retributio. Unde et in littera de beneficio
+            <lb ed="#L" n="96"/>donoque mentio fit, quae constat ad gratiae virtutem 
+            spe<lb break="no" ed="#L" n="97"/>ctare ."Et quia gratiae contrariatur ingratitudo, idcirco tunc
+            <lb ed="#L" n="98"/>solum intervenit in huiusmodi omissione peccatum mortale,
+            <lb ed="#L" n="99"/>quando contingit ingratitudo mortalis. Ut autem ex supra 
+            <lb ed="#L" n="100"/>dictis de ingratitudine patet, in duobus casibus ingratitudo
+            <lb ed="#L" n="101"/>invenitur peccatum mortale: vel formaliter, cum 
+            contem<lb break="no" ed="#L" n="102"/>ptus interior adest beneficii; vel materialiter, cum illud
+            <lb ed="#L" n="103"/>omittitur quod talis est conditionis quod necessario 
+            exhi<lb break="no" ed="#L" n="104"/>bendum est beneficio. Et propterea in proposito, si 
+            reli<lb break="no" ed="#L" n="105"/>giosi in contemptum prorumpunt suscepti beneficii, ingrati
+            <lb ed="#L" n="106"/>mortaliter et formaliter sunt. Et si omittunt religiosos actus
+            <lb ed="#L" n="107"/>ad quos de necessitate praecepti tenentur, ingrati quoque
+            <lb ed="#L" n="108"/>mortaliter sunt, materialiter tamen. Si autem omittunt
+            <lb ed="#L" n="109"/>aliquos religiosos actus ad quos non tenentur sub 
+            prae<lb break="no" ed="#L" n="110"/>cepto, ingrati venialiter ac materialiter sunt. Et ideo in
+            <lb ed="#L" n="111"/>littera optime dicitur absolute quod i/licitus redderetur eis
+            <lb ed="#L" n="112"/>usus praedictorum donorum si ab actibus religiosis 
+            desi<lb break="no" ed="#L" n="113"/>sterent. - Et per haec patet solutio primi dubii ,
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1143">
+            <lb ed="#L" n="114"/>Ad obiectionem autem in oppositum dicitur quod,
+            <lb ed="#L" n="115"/>quando deest contemptus reddendae gratiae seu solvendi
+            <lb ed="#L" n="116"/>debitum beneficio, non est fraus nisi materialiter: eo quod
+            <lb ed="#L" n="117"/>non ex intentione ingratitudini opera datur. Fraus autem
+            <lb ed="#L" n="118"/>in reddenda gratia materialiter non semper est mortalis,
+            <lb ed="#L" n="119"/>sed, ut dictum est, iuxta conditionem omissi mensuratur:
+            <lb ed="#L" n="120"/>quod in proposito est actus religiosus praeceptus, vel non
+            <lb ed="#L" n="121"/>praeceptus. Nam praeceptus actus, si omittitur, 
+            ingratitu<lb break="no" ed="#L" n="122"/>dinis fraudem mortalem inducit: si vero omittitur actus
+            <lb ed="#L" n="123"/>debitus, sed non praeceptus, venialem tantum fraudem
+            <lb ed="#L" n="124"/>inducit. Et sic semper fraus in his illicitum usum 
+            morta<lb break="no" ed="#L" n="125"/>liter vel venialiter reddit.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1172">
+            <lb ed="#L" n="126"/>V. Ad secundum autem dubium  dicitur quod religiosi
+            <lb ed="#L" n="127"/>desistentes a religiosis actibus, etiam praeceptis, non 
+            te<lb break="no" ed="#L" n="128"/>nentur ad restitutionem: sed privandi sunt, superioris 
+            au<lb break="no" ed="#L" n="129"/>ctoritate, usu talium bonorum, si a praeceptis desistunt.
+            <lb ed="#L" n="130"/>Et ratio quare non tenentur ad restitutionem, est quia 
+            pec<lb break="no" ed="#L" n="131"/>catum eorum consistit in abusu rei suae, et non in 
+            usur<lb break="no" ed="#L" n="132"/>patione alieni; Bona siquidem eis eleemosynaliter collata,
+            <lb ed="#L" n="133"/>facta iam sunt sua ex dono largitorum. Et propterea in
+            <lb ed="#L" n="134"/>littera dicitur quod talium donorum zsus eis illicitus 
+            red<lb break="no" ed="#L" n="135"/>deretur. - Ratio autem quare tollenda sunt a talibus 
+            re<lb break="no" ed="#L" n="136"/>ligiosis huiusmodi bona, in promptu est: ut scilicet 
+            supe<lb break="no" ed="#L" n="137"/>rioris auctoritate impleatur intentio pia eorum qui dona-
+            <pb ed="#L" n="516"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>runt ad Dei honorem, et Deo dicati reditus non 
+            profa<lb break="no" ed="#L" n="2"/>nentur.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1209">
+            <lb ed="#L" n="3"/>Ad obiectionem autem in oppositum ex similitudine
+            <lb ed="#L" n="4"/>stipendii militaris , respondetur quod similitudo non tenet.
+            <lb ed="#L" n="5"/>Quia in stipendio militari intelligitur intervenire contractus
+            <lb ed="#L" n="6"/>iustitiae commutativae exigentis aequalitatem mercedis et
+            <lb ed="#L" n="7"/>locatae operae militis. Et ideo, sicut in ceteris contractibus
+            <lb ed="#L" n="8"/>commutationum, deficiente altero extremo aequalitatis, 
+            re<lb break="no" ed="#L" n="9"/>stitutio est facienda, ita et in stipendio militari. Sed in
+            <lb ed="#L" n="10"/>proposito non intervenit contractus aliquis iustitiae: sed
+            <lb ed="#L" n="11"/>liberalis collatio beneficii temporalis ex una parte, et 
+            gra<lb break="no" ed="#L" n="12"/>titudinis vinculum, quod non legale, sed morale debitum
+            <lb ed="#L" n="13"/>inducit, ex altera parte. Et propterea, ex quo a principio
+            <lb ed="#L" n="14"/>nulla fuit fraus, facta sunt religiosorum quae eis liberaliter
+            <lb ed="#L" n="15"/>collata sunt. Et consequenter, abutendo illis, abutuntur non
+            <lb ed="#L" n="16"/>alienis, sed suis.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1242">
+            <lb ed="#L" n="17"/>Et per haec patet responsio ad confirmationem. Quia
+            <lb ed="#L" n="18"/>scilicet stipendium non fit militis, sive a principio sive post
+            <lb ed="#L" n="19"/>desistat a militia, quantum ad illam partem temporis pro
+            <lb ed="#L" n="20"/>qua desistit: quia datur ei ut merces operis secundum 
+            for<lb break="no" ed="#L" n="21"/>mam iustitiae. Sed eleemosynae religiosis donatae fiunt
+            <lb ed="#L" n="22"/>statim suae, si a principio fraus defuit: quia non ut merces,
+            <lb ed="#L" n="23"/>sed ut liberale donum ad eos devenit. Et ideo desistentes
+            <lb ed="#L" n="24"/>a debitis actibus, etsi peccent abutendo donis susceptis,
+            <lb ed="#L" n="25"/>non tamen ad restitutionem tenentur: quia non utuntur
+            <lb ed="#L" n="26"/>alienis, sed abutuntur propriis.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1266">
+            <lb ed="#L" n="27"/>VI. In eodem articulo, circa primam causam debiti, 
+            sci<lb break="no" ed="#L" n="28"/>licet necessitatem, adverte quod necessitas habet magnam
+            <lb ed="#L" n="29"/>latitudinem: et iuxta diversos suae latitudinis gradus, 
+            di<lb break="no" ed="#L" n="30"/>versimode facit alienum mihi debitum. Nam secundum 
+            su<lb break="no" ed="#L" n="31"/>premüm gradum, quando scilicet necessitas est extrema,
+            <lb ed="#L" n="32"/>facit mihi aliena ita debita ut quidquid mihi occurrit pro
+            <lb ed="#L" n="33"/>sustentatione opportunum, meum sit. luxta alios vero 
+            gra<lb break="no" ed="#L" n="34"/>dus, debitum morale tantummodo inducit, quo indigentibus
+            <lb ed="#L" n="35"/>infirmis debet quilibet sciens et potens subvenire, esurientes
+            <lb ed="#L" n="36"/>cibare, sitientes potare, etc. Et ad huiusmodi indigentiam
+            <lb ed="#L" n="37"/>spectant omnes tres necessitatis gradus in littera positi, ex
+            <lb ed="#L" n="38"/>infirmitate corporis, ex insufficientia mercedis, et ex 
+            cor<lb break="no" ed="#L" n="39"/>' poris delicata consuetudine. Omnibus his vim debiti 
+            tri<lb break="no" ed="#L" n="40"/>buere necessitatem, manifestat Auctor ex eo quod in summo
+            <lb ed="#L" n="41"/>gradu omnia ut communia debita facit.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1301">
+            <lb ed="#L" n="42"/>VII. Circa secundam vero debiti causam, scilicet 
+            exhi<lb break="no" ed="#L" n="43"/>bitionem, nota tria. Primum est quod non solum 
+            exhi<lb break="no" ed="#L" n="44"/>bere praedicationem aut sacramenta populo, sed etiam 
+            ex<lb break="no" ed="#L" n="45"/>hibere Deo sacrificium altaris parit debitum vivendi ex
+            <lb ed="#L" n="46"/>eleemosynis. Et ratio assignatur in littera, quia sacrificium 
+            <lb ed="#L" n="47"/>altaris, ubicumque agatur, commune est toti populo fideli ;
+            <lb ed="#L" n="48"/>ac per hoc, clauditur hic actus intra exhibitionem quae
+            <lb ed="#L" n="49"/>populo fit.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1322">
+            <lb ed="#L" n="50"/>Secundum est quod insistere studio, non philosophiae
+            <lb ed="#L" n="51"/>aut alicuius liberalis artis, sed theologiae, parit etiam 
+            de<lb break="no" ed="#L" n="52"/>bitum ex eleemosynis vivendi. Dicitur autem vacare studio
+            <lb ed="#L" n="53"/>theologiae non solum qui actualiter studio theologiae 
+            in<lb break="no" ed="#L" n="54"/>tendit: sed qui ideo per logicam vel philosophiam transit
+            <lb ed="#L" n="55"/>ut ad theologiae speculativae sublimitatem perveniat. Si
+            <lb ed="#L" n="56"/>tamen ad hoc idoneus est: alioquin, imprudenter per 
+            ta<lb break="no" ed="#L" n="57"/>lem viam ingreditur.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1342">
+            <lb ed="#L" n="58"/>Tertium est quod omnium Christianorum una est res-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="59"/>publica quoad subsidii temporalis distributionem: sicut
+            <lb ed="#L" n="60"/>quoad spiritualium meritorum communionem. Hinc enim
+            <lb ed="#L" n="61"/>ex Augustino deducitur quod religioso qui donavit sua
+            <lb ed="#L" n="62"/>monasterio orientali, debeantur sumptus a monasterio 
+            oc<lb break="no" ed="#L" n="63"/>cidentali. Hinc oritur ut Summus Pontifex a 
+            quantumcum<lb break="no" ed="#L" n="64"/>que remotissimis partibus Ecclesiae auferre possit et 
+            dis<lb break="no" ed="#L" n="65"/>tribuere in alias Ecclesiae partes remotissimas. Hinc oritur
+            <lb ed="#L" n="66"/>quod restitutio uni ecclesiae regulariter facienda, possit,
+            <lb ed="#L" n="67"/>ex rationabili causa, superioris auctoritate, alteri pio usui
+            <lb ed="#L" n="68"/>applicari.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1371">
+            <lb ed="#L" n="69"/>VIII. In. eodem articulo, circa illud, Si vero absque
+            <lb ed="#L" n="70"/>necessitate et utilitate quam afferant, velint otiosi vivere
+            <lb ed="#L" n="71"/>aliqui religiosi de eleemosynis quae monasterio dantur,
+            <lb ed="#L" n="72"/>hoc est eis illicitum, dubium occurrit duplex. Quia non
+            <lb ed="#L" n="73"/>videntur enumeratae in littera conditiones religiosorum 
+            il<lb break="no" ed="#L" n="74"/>licite viventium ex eleemosynis, sufficere ad hoc ut illicite
+            <lb ed="#L" n="75"/>vivant ex eleemosynis monasterii: et sic conclusio litterae
+            <lb ed="#L" n="76"/>est falsa. Manifestatur quod dicimus in multis religiosis
+            <lb ed="#L" n="77"/>sanis ac robustis corpore, non praedicantibus, non 
+            cele<lb break="no" ed="#L" n="78"/>brantibus, non insistentibus studio sacrae Scripturae, qui
+            <lb ed="#L" n="79"/>nec sua contulerunt monasterio alicui aut pauperibus, et
+            <lb ed="#L" n="80"/>tamen vivunt ex eleemosynis monasterio collatis.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1400">
+            <lb ed="#L" n="81"/>Secundo, dubitatur de quali illicito littera loquatur: de
+            <lb ed="#L" n="82"/>veniali, an mortali.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1407">
+            <lb ed="#L" n="83"/>Ad primum horum dicitur quod in littera sufficiens ratio
+            <lb ed="#L" n="84"/>illiciti victus ex eleemosynis monasterii redditur cum tribus
+            <lb ed="#L" n="85"/>conditionibus describuntur tales religiosi, scilicet non 
+            pa<lb break="no" ed="#L" n="86"/>tientes necessitatem, non afferentes utilitatem, et otiosi, hoc
+            <lb ed="#L" n="87"/>est, non laborantes manibus, si sub directe expressis 
+            coin<lb break="no" ed="#L" n="88"/>telligantur ea quae reductive ad illa spectant. Nam sub
+            <lb ed="#L" n="89"/>allata utilitate ex sacrificio altaris comprehenditur omnis
+            <lb ed="#L" n="90"/>allata utilitas ex orationum suffragiis; et sub studio 
+            Scri<lb break="no" ed="#L" n="91"/>pturae comprehenditur omnis contemplatio divina; et sub
+            <lb ed="#L" n="92"/>praedicatoribus comprehenduntur ministri. Et sic tandem
+            <lb ed="#L" n="93"/>nullus bonus religiosus excluditur a licito victu ex reditibus
+            <lb ed="#L" n="94"/>monasterii, si licite illos monasterium habet.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1436">
+            <lb ed="#L" n="95"/>Ad secundum dubium dicitur quod idem est de istis
+            <lb ed="#L" n="96"/>otiosis religiosis iudicium quod est de religiosis 
+            desisten<lb break="no" ed="#L" n="97"/>tibus ab actibus religiosis et tamen viventibus de reditibus
+            <lb ed="#L" n="98"/>monasterii . Ex hoc enim isti culpabiles sunt, quod 
+            desi<lb break="no" ed="#L" n="99"/>stunt ab observatione regulari: nam secundum regularia
+            <lb ed="#L" n="100"/>instituta, nulli tales inveniri debent religiosi. Quod ergo
+            <lb ed="#L" n="101"/>de illis dictum est, de istis quoque dictum intelligatur.
+            <lb ed="#L" n="102"/>Itaque si quis vult regulam servare, et cavet a 
+            transgres<lb break="no" ed="#L" n="103"/>sione praeceptorum, sed pigritia ac invigilantia in ipso
+            <lb ed="#L" n="104"/>regnante quasi inutilis vivit in monasterio: peccat quidem,
+            <lb ed="#L" n="105"/>sed non mortaliter, vivendo ex monasterii proventibus.
+            <lb ed="#L" n="106"/>Debet huic dici: Qui non laborat, non manducet: et cogi
+            <lb ed="#L" n="107"/>deberet ad operandum aliquid.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1468">
+            <lb ed="#L" n="108"/>IX. In eodem articulo, in responsione ad quintum, 
+            ad<lb break="no" ed="#L" n="109"/>verte quod Auctor respondet directe quoad religiosos 
+            vi<lb break="no" ed="#L" n="110"/>ventes ex quotidianis eleemosynis: et postmodum, in calce,
+            <lb ed="#L" n="111"/>extendit responsionem suam ad religiosos communibus 
+            re<lb break="no" ed="#L" n="112"/>ditibus abutentes, ut per hoc ostendat argumentum non
+            <lb ed="#L" n="113"/>esse ex propriis contra viventes ex quotidianis eleemosynis,
+            <lb ed="#L" n="114"/>sed ex communibus. Videtur enim hoc argumentum 
+            ad<lb break="no" ed="#L" n="115"/>versariorum impugnantium religiones mendicantium noviter
+            <lb ed="#L" n="116"/>tunc exortas.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2238-Dd1e1492"><!-- caj-p2p2-q187a5 -->
+          <head xml:id="TAcCaj-d1e2238-Hd1e1495">Articulus 5</head>
+          <p xml:id="TAcCaj-d1e2238-d1e1497">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="19" type="fixed=518"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1504">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="20"/>In articulo quinto occurrit dubium de Christo, an fuerit, 
+            <lb ed="#L" n="21"/>ad litteram, mendicus . Et est ratio dubii quia Glossa
+            <lb ed="#L" n="22"/>allata hoc dicit: et Auctor utitur illa tanquam Christus,
+            <lb ed="#L" n="23"/>ad litteram, mendicaverit. - In oppositum est quia non
+            <lb ed="#L" n="24"/>legitur Christum mendicasse: et propterea voluntarie dici
+            <lb ed="#L" n="25"/>apparet quod Christus mendicaverit.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1522">
+            <lb ed="#L" n="26"/>Ad hoc dicitur quod ex his quae scripta in Evangelio
+            <lb ed="#L" n="27"/>sunt, aperte intelligi potest quod Dominus lesus non est
+            <lb ed="#L" n="28"/>dedignatus etiam in propria persona mendicare, iuxta 
+            Glos<lb break="no" ed="#L" n="29"/>sae allatae et Hieronymi auctoritatem . Nam Lucae xxr ,
+            <lb ed="#L" n="30"/>mendicavit locum ubi Pascha cum discipulis celebraret.
+            <lb ed="#L" n="31"/>Lucae quoque xix , mendicavit asellum, super quem venit
+            <lb ed="#L" n="32"/>in lerusalem: nam ab illius dominis petitus est dicendo,
+            <lb ed="#L" n="33"/>quia Dominus illius operam desiderat. Lucae quoque vr ,
+            <lb ed="#L" n="34"/>mendicasse insinuatur victum a mulieribus quae secum
+            <lb ed="#L" n="35"/>ibant ministrantes eidem de facultatibus suis: nam ipsum
+            <lb ed="#L" n="36"/>induxisse illas ad. hoc ministerium, credendum est. Lucae
+            <lb ed="#L" n="37"/>quoque xix , mendicasse legitur a Zachaeo hospitium. Ut
+            <lb ed="#L" n="38"/>enim patet in littera, pauperem petere necessarium ad 
+            vi<lb break="no" ed="#L" n="39"/>ctum est mendicare. Ex his autem scriptis, cum mnulta
+            <lb ed="#L" n="40"/>Dominus fecerit quae non sunt scripta , credi 
+            rationabi<lb break="no" ed="#L" n="41"/>liter potest multis aliis vicibus Dominum mendicasse: ut
+            <lb ed="#L" n="42"/>impleret Scripturam, Ego autem mendicus sum ; ut 
+            nul<lb break="no" ed="#L" n="43"/>lum relinqueret vilitatis humanae genus inexpertum a se;
+            <lb ed="#L" n="44"/>ut exemplum ceteris relinqueret tantae humilitatis.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1566">
+            <lb ed="#L" n="45"/>II. In eodem articulo quinto eiusdem quaestionis, 
+            du<lb break="no" ed="#L" n="46"/>bium occurrit, an laudabile, seu licitum sit hominem 
+            di<lb break="no" ed="#L" n="47"/>vitem, retentis divitiis, ad tempus mendicare victum 
+            pro<lb break="no" ed="#L" n="48"/>prium, humilitatis gratia. Et est ratio dubii, quoniam 
+            ap<lb break="no" ed="#L" n="49"/>paret hoc vituperabile: quia mendicus debet esse pauper,
+            <lb ed="#L" n="50"/>iuxta illud, .Ego autem mendicus sum et pauper, ubi
+            <lb ed="#L" n="51"/>Glossa dicit: Mendicus dicitur qui ab alio petit; pauper,
+            <lb ed="#L" n="52"/>qui sibi non sufficit . Mendicans ergo dives mentitur 
+            fa<lb break="no" ed="#L" n="53"/>ciendo se pauperem: quod est illicitum.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1589">
+            <lb ed="#L" n="54"/>In oppositum autem est quia, sicut diviti licitum est
+            <lb ed="#L" n="55"/>alia humilitatis opera exercere, ita laudabiliter potest 
+            per<lb break="no" ed="#L" n="56"/>sonam pauperis assumere et mendicare. Dicitur enim in
+            <lb ed="#L" n="57"/>littera quod mendicare, quantum ad actum, quia 
+            abiectio<lb break="no" ed="#L" n="58"/>nis est, humilitatis virtuti tribuitur. — Cuius etiam signum
+            <lb ed="#L" n="59"/>est quod aliqui divites vovent peregrinationem aliquam se
+            <lb ed="#L" n="60"/>peracturos mendicando. Quod non voverent, nisi 
+            laudabi<lb break="no" ed="#L" n="61"/>lem humilitatis actum se vovere scirent.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1609">
+            <lb ed="#L" n="62"/>III. Ad hoc dicitur quod divitem humilitatis gratia ad
+            <lb ed="#L" n="63"/>tempus mendicare, contingit tripliciter. Primo, absolute:
+            <lb ed="#L" n="64"/>ut non solum mendicet, sed de acquisito ex mendicitate
+            <lb ed="#L" n="65"/>vivat; ut'actus mendicandi sit ob. abiectionem, et actus
+            <lb ed="#L" n="66"/>vescendi talibus sit propter austeritatem victus. Et 
+            huius<lb break="no" ed="#L" n="67"/>modi mendicitas, licet possit esse utilis saluti animae 
+            ali<lb break="no" ed="#L" n="68"/>cuius particularis personae sic dispositae ut non nisi isto
+            <lb ed="#L" n="69"/>modo sciat has virtutes acquirere, regulariter tamen 
+            lo<lb break="no" ed="#L" n="70"/>quendo, incompacta ac indiscreta mendicitas est, ac per
+            <lb ed="#L" n="71"/>hoc, vituperabilis: Mendicum enim proprie oportet esse
+            <lb ed="#L" n="72"/>pauperem: alioquin, actus dissonat a persona. Debet enim
+            <lb ed="#L" n="73"/>humilitatis actus conformis esse personae. Nec rectitudo
+            <lb ed="#L" n="74"/>discretionis habet ut austeritatem vitae dives ex his quae
+            <lb ed="#L" n="75"/>pauperibus dantur, comparet: nisi forte ipse longe largius
+            <lb ed="#L" n="76"/>refunderet pauperibus.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1644">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="77"/>Secundo, contingit ut solum mendicet, sed non vivat
+            <lb ed="#L" n="78"/>de mendicato, sed illud egenis det. Et sic mendicare 
+            lau<lb break="no" ed="#L" n="79"/>dabile procul dubio est. Quoniam cum abiectione propria
+            <lb ed="#L" n="80"/>victum vere pauperi quaerit dives: et perinde est, quoad
+            <lb ed="#L" n="81"/>mendicatum, ac si mendicaret pro alio; quod cuilibet 
+            li<lb break="no" ed="#L" n="82"/>citum est, et opus constat esse misericordiae.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1662">
+            <lb ed="#L" n="83"/>Tertio, contingit ut in assumpta peregrinatione et 
+            men<lb break="no" ed="#L" n="84"/>dicet et vivat de mendicato. Et sic licitum et laudabile est
+            <lb ed="#L" n="85"/>divitem mendicare. Quod probatur, tum quia quod i in 
+            pro<lb break="no" ed="#L" n="86"/>pria potestate consistit, et potest alicui dari in 
+            poeniten<lb break="no" ed="#L" n="87"/>tiam, licite ac laudabiliter potest sponte fieri: cum nihil
+            <lb ed="#L" n="88"/>tale detur in poenitentia nisi actus virtutis, Sed aliquibus
+            <lb ed="#L" n="89"/>datur in poenitentiam ut peregrinentur mendicantes, Ergo
+            <lb ed="#L" n="90"/>propria sponte potest quis peregrinari mendicando. - Tum
+            <lb ed="#L" n="91"/>quia huic actui nihil obstat nisi quod iste homo non est
+            <lb ed="#L" n="92"/>pauper, sed dives. Sed hoc non obstare patet ex eo quod,
+            <lb ed="#L" n="93"/>licet iste homo sit dives, iste tamen peregrinus est pauper:
+            <lb ed="#L" n="94"/>ac per hoc, licite mendicat. Nam praesupponitur quod iste
+            <lb ed="#L" n="95"/>sine sumptibus assumat peregrinationem et peragat. Ita
+            <lb ed="#L" n="96"/>quod, sicut Alexius simpliciter dimisit omnia propter 
+            Chri<lb break="no" ed="#L" n="97"/>stum et pauper peregre mendicavit, ita iste, ad tempus 
+            <lb ed="#L" n="98"/>dimissis omnibus propter Christum humiliter et austere
+            <lb ed="#L" n="99"/>sequendum, peregrinari pauper ac mendicus eligit.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1701">
+            <lb ed="#L" n="100"/>Et per hoc patet solutio ad obiectionem. Nam quia
+            <lb ed="#L" n="101"/>est peregrinus pauper, non mentitur facto dum mendicat.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1708">
+            <lb ed="#L" n="102"/>IV. In eodem quinto articulo, dubium occurrit circa
+            <lb ed="#L" n="103"/>mendicos ex cupiditate, an peccent mortaliter. Videtur enim
+            <lb ed="#L" n="104"/>quod sic: ex eo quod committunt mendacium 
+            pernicio<lb break="no" ed="#L" n="105"/>sum, dum mentiuntur se pauperes ipso actu mendicandi,
+            <lb ed="#L" n="106"/>et sic fraudulenter obtinent eleemosynas, et offendunt vere
+            <lb ed="#L" n="107"/>pauperes, quibus illae eleemosynae darentur. Qui enim
+            <lb ed="#L" n="108"/>fraudulenter acquirit, mortaliter peccat, et ad restitutionem
+            <lb ed="#L" n="109"/>tenetur. 
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1729">
+            <lb ed="#L" n="110"/>Et confirmatur ex dicto <ref xml:id="TAcCaj-d1e2238-Rd1e1733">Scoti, in II qu. dist. xv 
+              <lb ed="#L" n="111"/>Sent.</ref>, quod huiusmodi donatio eleemosynae non est 
+            vo<lb break="no" ed="#L" n="112"/>luntaria: quia ex ignorantia, quae, ut patet in III Ethic. ,
+            <lb ed="#L" n="113"/>causat involuntarium. Si enim donans sciret mendicantem
+            <lb ed="#L" n="114"/>non esse pauperem, non daret. Ex ignorantia igitur donat.
+            <lb ed="#L" n="115"/>Ac per hoc, non donat. Et consequenter inique alter n
+            <lb ed="#L" n="116"/>sidet.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1750">
+            <lb ed="#L" n="117"/>In oppositum autem est quia mendicare ex suo genere
+            <lb ed="#L" n="118"/>non est peccatum. Et adiuncta cupiditas non est secundum
+            <lb ed="#L" n="119"/>se mortalis, ut supponitur. Ergo totum simul, scilicet actus
+            <lb ed="#L" n="120"/>mendicandi ex tali causa, scilicet cupiditate, non est 
+            pec<lb break="no" ed="#L" n="121"/>catum mortale. - Probatur suppositum. Quia cupiditas
+            <lb ed="#L" n="122"/>habendi divitias, et similiter cupiditas otiosi victus, non
+            <lb ed="#L" n="123"/>est secundum se mortalis: ut patet. Et de nulla alia. 
+            cu<lb break="no" ed="#L" n="124"/>piditate est sermo praesens nisi de utraque hac: ut patet
+            <lb ed="#L" n="125"/>in littera.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1772">
+            <lb ed="#L" n="126"/>V. Ad hoc respondetur dicendo tria. Primo, quod 
+            men<lb break="no" ed="#L" n="127"/>dicans ex cupiditate otiosi victus, ex quo in veritate est
+            <lb ed="#L" n="128"/>pauper, nullam fraudem committit in proximum, sed 
+            so<lb break="no" ed="#L" n="129"/>lum peccat in seipsum, otiosam vitam et abiectam absque
+            <lb ed="#L" n="130"/>ulla rationabili causa eligens. Et propterea nulla est hic
+            <lb ed="#L" n="131"/>ratio peccati mortalis. Nec etiam propter poenam legis 
+            ci<lb break="no" ed="#L" n="132"/>vilis : scilicet quia huiusmodi. poena. non facit, s
+            <lb ed="#L" n="133"/>positam punit culpam, quae de se non est mortalis.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1792">
+            <pb ed="#L" n="519"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Secundo, quod mendicans ex cupiditate habendi 
+            divi<lb break="no" ed="#L" n="2"/>tias, si est infra latitudinem pauperum et mendicando sperat
+            <lb ed="#L" n="3"/>dives fieri, peccat quidem, indebito medio utens ad 
+            explen<lb break="no" ed="#L" n="4"/>dum improbum appetitum: sed quoniam nec contra 
+            cari<lb break="no" ed="#L" n="5"/>tatem Dei aut proximi agit; neminemque decipit, ex quo
+            <lb ed="#L" n="6"/>infra latitudinem pauperum est, quamvis non tam pauper
+            <lb ed="#L" n="7"/>sit ut deberet mendicare; a mortali excusatur peccato.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1814">
+            <lb ed="#L" n="8"/>Tertio, quod mendicus ex cupiditate divitiarum, si extra 
+            <lb ed="#L" n="9"/>pauperum latitudinem est, peccat mortaliter, et tenetur 
+            men<lb break="no" ed="#L" n="10"/>dicatum dare pauperibus. - Probatur. Talis usurpat 
+            fraudu<lb break="no" ed="#L" n="11"/>lenter sibi eleemosynas datas pauperi. Ergo peccat 
+            mortali<lb break="no" ed="#L" n="12"/>ter, et tenetur pauperi restituere. - Consequentia clara est. —
+            <lb ed="#L" n="13"/>Et antecedens probatur sic. Non sibi, sed pauperi dantur
+            <lb ed="#L" n="14"/>eleemosynae quas mendicat. Et ipse sibi usurpat eas. Ergo.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1832">
+            <lb ed="#L" n="15"/>Manifestantur assumpta intuendo quod, cum quis donat
+            <lb ed="#L" n="16"/>eleemosynam mendico diviti et cupido, ex parte mendici
+            <lb ed="#L" n="17"/>invenitur non sola cupiditas, sed mendacium, quod facto
+            <lb ed="#L" n="18"/>dicit, dum, mendicando pro se, fatetur se pauperem: cum
+            <lb ed="#L" n="19"/>mendicare actus sit egentis aliena ope. Hoc autem 
+            men<lb break="no" ed="#L" n="20"/>dacio, primo, decipit dantem eleemosynam: et facit 
+            dona<lb break="no" ed="#L" n="21"/>tionem eleemosynae involuntariam inquantum terminatur
+            <lb ed="#L" n="22"/>donatio-ad hunc mendicum. Nam licet donans sponte 
+            do<lb break="no" ed="#L" n="23"/>net, ex ignorantia tamen facti, qua decipitur ab isto 
+            men<lb break="no" ed="#L" n="24"/>dicante, provenit quod det huic profitenti facto se paupe-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="25"/>rem. Et propterea huic mendico non pauperi non 
+            acquiri<lb break="no" ed="#L" n="26"/>tur dominium illius eleemosynae: donatio enim involuntaria,
+            <lb ed="#L" n="27"/>quantum ad id quo est involuntaria, non est donatio.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1866">
+            <lb ed="#L" n="28"/>Secundo, fraudat pauperes, quorum personam 
+            assu<lb break="no" ed="#L" n="29"/>mit. Et quia, dum donans eleemosynam mendico huic,
+            <lb ed="#L" n="30"/>scilicet non pauperi in veritate, sponte donat pauperi, sed
+            <lb ed="#L" n="31"/>non huic: ideo actus donandi eleemosynam. in hoc casu
+            <lb ed="#L" n="32"/>est spontaneus et liberalis ut exit a donante et ut 
+            termi<lb break="no" ed="#L" n="33"/>natur ad pauperem, et est involuntarius ut terminatur ad
+            <lb ed="#L" n="34"/>hunc mendicum, qui fingit se pauperem. Et ideo donator
+            <lb ed="#L" n="35"/>eleemosynae hic non damnificatur: et propterea non est
+            <lb ed="#L" n="36"/>sibi restituenda eleemosyna. Sed damnificatur pauper: et
+            <lb ed="#L" n="37"/>propterea pauperi restituenda est eleemosyna usurpata ab
+            <lb ed="#L" n="38"/>isto mendico. Et quia pauper nullus determinate fraudatus
+            <lb ed="#L" n="39"/>est, sed pauperes in communi: ideo, cuicumque pauperi
+            <lb ed="#L" n="40"/>detur, satisfactum est.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1897">
+            <lb ed="#L" n="41"/>Et ex hoc patet responsio ad obiecta.
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1902">
+            <lb ed="#L" n="42"/>Habes etiam hinc quod mendicantes in aliorum 
+            per<lb break="no" ed="#L" n="43"/>sona fraudulenter; et similiter quaestores fingentes 
+            mira<lb break="no" ed="#L" n="44"/>bilia et promittentes tot et tanta non servanda; non 
+            so<lb break="no" ed="#L" n="45"/>lum peccant mortaliter pernicioso mendacio, usurpando
+            <lb ed="#L" n="46"/>quae sibi in aliena persona seu officio dantur; sed 
+            tenen<lb break="no" ed="#L" n="47"/>tur efficere ut ad intentionem piam donantium quae 
+            ac<lb break="no" ed="#L" n="48"/>cepta sunt perducantur.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2238-Dd1e1921"><!-- caj-p2p2-q187a6 -->
+          <head xml:id="TAcCaj-d1e2238-Hd1e1924">Articulus 6</head>
+          <p xml:id="TAcCaj-d1e2238-d1e1926">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="59" type="fixed=520"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2238-d1e1933">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="60"/>IN articulo sexto eiusdem quaestionis, in responsione ad
+            <lb ed="#L" n="61"/>tertium, nota Augustini documentum circa discernendum
+            <lb ed="#L" n="62"/>animum hominis utentis novitate aliqua magis religiosa aut
+            <lb ed="#L" n="63"/>humili. Non est enim iudicium temerarium a fructibus 
+            eo<lb break="no" ed="#L" n="64"/>rum iudicare eos. Sanctioris namque animi sanctiora opera
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="65"/>testes esse debent. Et propterea ex aliis operibus 
+            consi<lb break="no" ed="#L" n="66"/>deranda intentio eorum est: an ex sanctitate maiore, an
+            <lb ed="#L" n="67"/>ex ambitione aliqua novitas emanet. A fructibus eorum,
+            <lb ed="#L" n="68"/>inquit Dominus, cognoscetis eos. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

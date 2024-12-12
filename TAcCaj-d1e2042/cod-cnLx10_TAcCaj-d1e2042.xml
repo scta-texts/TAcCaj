@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 149</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 149</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="178"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2042"><!-- TAcCajp2p2-q149 -->
+        <head xml:id="TAcCaj-d1e2042-Hd1e101">Quaestio 149</head>
+        <div xml:id="TAcCaj-d1e2042-Dd1e103"><!-- caj-p2p2-q149a1 -->
+          <head xml:id="TAcCaj-d1e2042-Hd1e106">Articulus 1</head>
+          <p xml:id="TAcCaj-d1e2042-d1e108">
+            <pb ed="#L" n="178"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=178"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e117">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="2"/>IN articulo primo quaestionis 
+            centesimaequadragesimae<lb break="no" ed="#L" n="3"/>pora dubium ex Martino, in eodem tractatu , in qu.
+            <lb ed="#L" n="4"/>de Sobrietate , occurrit. Arguit siquidem contra corpus
+            <lb ed="#L" n="5"/>huius articuli multipliciter. Primo, quia bria non est 
+            no<lb break="no" ed="#L" n="6"/>men mensurae absolute, sed mensurae vinariae: ut 
+            Dona<lb break="no" ed="#L" n="7"/>tus dicit, super Terentium. Ac per hoc, sobrietas non per
+            <lb ed="#L" n="8"/>appropriationem, sed proprietatem, importat mensuram 
+            po<lb break="no" ed="#L" n="9"/>tus vini.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e139">
+            <lb ed="#L" n="10"/>Secundo, quia non est verum universaliter quod »
+            ir<lb break="no" ed="#L" n="11"/>tutes quae ab aliqua generali conditione virtutis 
+            nominan<lb break="no" ed="#L" n="12"/>tur, illam materiam sibi specialiter vindicant in qua 
+            dif<lb break="no" ed="#L" n="13"/>ficillimum et optimum est conditionem illam observare.
+            <lb ed="#L" n="14"/>Sequeretur enim primo, quod temperantia sibi vinum aut
+            <lb ed="#L" n="15"/>concubitum pro materia vindicaret. — Sequeretur secundo,
+            <lb ed="#L" n="16"/>quod iustitia vindicaret sibi aliquam specialem materiam. -
+            <lb ed="#L" n="17"/>Et idem sequeretur, tertio, de prudentia.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e159">
+            <lb ed="#L" n="18"/>Tertio, quia ad huiusmodi appropriationem non sufficit
+            <lb ed="#L" n="19"/>quod optimum et difficillimum sit in tali materia, sed 
+            re<lb break="no" ed="#L" n="20"/>quiritur loquentium usus. Quamvis ergo bria significaret
+            <lb ed="#L" n="21"/>mensuram, non tamen sufficientem propter hoc causam
+            <lb ed="#L" n="22"/>huius appropriationis sanctus Thomas tetigit.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e173">
+            <lb ed="#L" n="23"/>II. Ad primum horum dicitur quod argumentum de
+            <lb ed="#L" n="24"/>vocabulis ad grammaticos spectat: qui discordes videntur,
+            <lb ed="#L" n="25"/>dum alii briam mensuram vinariam, ut arguens affert 
+            Do<lb break="no" ed="#L" n="26"/>natum; alii vas vinarium, ut Servius, super Virgilium; 
+            <lb ed="#L" n="27"/>alii mensuram, ut in Catholicon  habes. Unde 
+            commen<lb break="no" ed="#L" n="28"/>dandum est Auctoris ingenium, qui, tertiam 
+            significatio<lb break="no" ed="#L" n="29"/>nem secutus, rationem reddit quare sobrietas habeat 
+            po<lb break="no" ed="#L" n="30"/>tum pro materia: nam multo facilius fuisset hoc dicere
+            <lb ed="#L" n="31"/>sequendo primas significationes.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e195">
+            <lb ed="#L" n="32"/>Ad secundum dicitur quod illa maior est vera 
+            commu<lb break="no" ed="#L" n="33"/>niter. Et hoc sufficit proposito. — Nec aliqua instantia in 
+            <lb ed="#L" n="34"/>oppositum militat. Non prima, de temperantia: quoniam
+            <lb ed="#L" n="35"/>et in ipsa hoc verificatur. Quoniam, a temperare dicta, 
+            dele<lb break="no" ed="#L" n="36"/>ctationes tactus, ad naturam spectantes, sibi specialiter vin-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="37"/>dicat pro materia, quas difficillimum et optimum est 
+            tem<lb break="no" ed="#L" n="38"/>perare. Et non oportet descendere ad specialissimam 
+            ma<lb break="no" ed="#L" n="39"/>teriam, puta potum: sed sat est materiam specificam 
+            subal<lb break="no" ed="#L" n="40"/>ternam sibi specialiter vindicare. - Nec secunda, de iustitia :
+            <lb ed="#L" n="41"/>quia etiam iustitia ad-iustat , seu adaequat operationes ad
+            <lb ed="#L" n="42"/>alterum ut materiam propriam, quas difficillimum et 
+            opti<lb break="no" ed="#L" n="43"/>mum est ad aequalitatem ducere, a qua iustitia dicitur. —
+            <lb ed="#L" n="44"/>Nec demum tertia, de prudentia: quoniam et ipsa rationis
+            <lb ed="#L" n="45"/>actus propriam materiam habet quibus difficillimum et 
+            opti<lb break="no" ed="#L" n="46"/>mum est uti ad procul videndum, unde prudentia dicta est.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e232">
+            <lb ed="#L" n="47"/>Ad tertium dicitur quod Auctor usum loquentium 
+            sup<lb break="no" ed="#L" n="48"/>ponit: constat namque quod sobrietate proprie utimur cum
+            <lb ed="#L" n="49"/>de potu loquimur, sicut et ebrietate. Et supposito 
+            loquen<lb break="no" ed="#L" n="50"/>tium usu, reddit rationem appropriationis satis 
+            sufficien<lb break="no" ed="#L" n="51"/>tem et solidam : ut patet ex iam discussis.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e245">
+            <lb ed="#L" n="52"/>III. In eodem articulo, in responsione ad primum, 
+            Mar<lb break="no" ed="#L" n="53"/>tinus occurrit, ibidem , dicens quod, licet solutio ista sit
+            <lb ed="#L" n="54"/>bona, non est tamen expositio conveniens dicto Apostoli.
+            <lb ed="#L" n="55"/>Calix enim sapientiae inebrians est praeclarus: sapere 
+            ta<lb break="no" ed="#L" n="56"/>men non ad sobrietatem non est praeclarum, sed 
+            vitio<lb break="no" ed="#L" n="57"/>sum. Quia ergo in assecutione sapientiae ebrietas est 
+            lau<lb break="no" ed="#L" n="58"/>dabilis, ideo non videtur convenienter aptata per Thomam
+            <lb ed="#L" n="59"/>similitudo.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e265">
+            <lb ed="#L" n="60"/>Ad hoc dicitur et quod solutio principalis, et eapodiii
+            <lb ed="#L" n="61"/>est optima, si recte intelligatur, et discernatur ad quid 
+            af<lb break="no" ed="#L" n="62"/>fertur. Nam ad nihil affertur nisi ad. declarandum quod
+            <lb ed="#L" n="63"/>sobrietas metaphorice locum habet in sapientia: per hoc
+            <lb ed="#L" n="64"/>enim satisfit auctoritati Apostoli directe, dicendo quod 
+            so<lb break="no" ed="#L" n="65"/>brietas ibi non proprie sumitur, sed metaphorice. Et quod
+            <lb ed="#L" n="66"/>sobrietas metaphorice in sapientia inveniatur, manifestatur
+            <lb ed="#L" n="67"/>ex hoc quod etiam ebrietas metaphorice in illa: invenitur,
+            <lb ed="#L" n="68"/>iuxta illud, Calix meus inebrians etc. Impertinens est 
+            au<lb break="no" ed="#L" n="69"/>tem huic proposito an tam ebrietas quam sobrietas 
+            sa<lb break="no" ed="#L" n="70"/>pientiae sit laudabilis. Quae tamen impertinentia arguens
+            <lb ed="#L" n="71"/>ingerit: et nihil obstant proposito.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2042-Dd1e295"><!-- caj-p2p2-q149a2 -->
+          <head xml:id="TAcCaj-d1e2042-Hd1e298">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2042-d1e300">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="12" type="fixed=179"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e307">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="13"/>IN articulo secundo eiusdem quaestionis, adverte primo,
+            <lb ed="#L" n="14"/>quod Martinus imponit (ob corruptum forte suum 
+            co<lb break="no" ed="#L" n="15"/>dicem) quod Auctor diversas de abstinentia tenuerit 
+            opi<lb break="no" ed="#L" n="16"/>niones; ita quod superius, in qu. cxrvr, Auctor distinxixt 
+            <lb ed="#L" n="17"/>abstinentiam et sobrietatem penes cibum et potum; hic
+            <lb ed="#L" n="18"/>vero  distinguit quia abstinentia est circa cibum et potum
+            <lb ed="#L" n="19"/>communiter, sobrietas vero circa potum inebriare valentem.
+            <lb ed="#L" n="20"/>Falsum siquidem manifeste est quod primo dicit. Nam in
+            <lb ed="#L" n="21"/>principio quaestionis cxrvr, ubi distinguit partes subiectivas
+            <lb ed="#L" n="22"/>temperantiae, expresse distinguit istas, dicendo: 
+            Conside<lb break="no" ed="#L" n="23"/>randum est de abstinentia, quae est circa cibos et potus;
+            <lb ed="#L" n="24"/>et de sobrietate, quae est specialiter circa potum. Eandem
+            <lb ed="#L" n="25"/>ergo sententiam utrobique tenuit Auctor.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e340">
+            <lb ed="#L" n="26"/>II. In eodem articulo dubium occurrit circa 
+            distinctio<lb break="no" ed="#L" n="27"/>nem sobrietatis ab abstinentia. Videtur enim quod 
+            distin<lb break="no" ed="#L" n="28"/>ctio sit superflua, et nulla formaliter. Superflua quidem,
+            <lb ed="#L" n="29"/>quia sola abstinentia sufficit ad tollendum impedimentum
+            <lb ed="#L" n="30"/>quod rationi praestare potest potus inebrians. Non ergo,
+            <lb ed="#L" n="31"/>praeter abstinentiam, oportet ponere sobrietatem, - 
+            Pro<lb break="no" ed="#L" n="32"/>batur antecedens. Quia abstinens in omni potu servat 
+            mo<lb break="no" ed="#L" n="33"/>dum rationis. Ergo etiam in potu inebriare potente.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e360">
+            <lb ed="#L" n="34"/>Nulla autem, quia nullum invenitur distinctivum 
+            for<lb break="no" ed="#L" n="35"/>maliter. In littera siquidem assignatur pro distinctivo 
+            spe<lb break="no" ed="#L" n="36"/>cialis ratio impediendi rationem. Et explicat in quo 
+            con<lb break="no" ed="#L" n="37"/>sistit ista specialis ratio impediendi rationem: scilicet quia
+            <lb ed="#L" n="38"/>per viam fumositatis natus est potus inebriativus impedire
+            <lb ed="#L" n="39"/>aut perturbare rationem. Sed haec ratio aut non distinguitur
+            <lb ed="#L" n="40"/>formaliter: aut sobrietas est species abstinentiae. — 
+            Proba<lb break="no" ed="#L" n="41"/>tur. Quia littera, in responsione ad secundum, dicit quod
+            <lb ed="#L" n="42"/>abstinentia est circa cibos et potus inquantum impediunt
+            <lb ed="#L" n="43"/>rationem. 'Tunc sic. Impedire rationem, et impedire 
+            ratio<lb break="no" ed="#L" n="44"/>nem per viam fumositatis, non constituunt diversas species,
+            <lb ed="#L" n="45"/>sed potius quasi genus et speciem, si distinguuntur 
+            forma<lb break="no" ed="#L" n="46"/>liter. Ergo vel sobrietas est species abstinentiae: vel non
+            <lb ed="#L" n="47"/>distinguuntur formaliter.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e394">
+            <lb ed="#L" n="48"/>Si dicatur ex littera, in responsione ad primum, quod
+            <lb ed="#L" n="49"/>non absolute attribuitur abstinentiae quod sit contra 
+            im<lb break="no" ed="#L" n="50"/>pedimenta rationis ex cibo et potu, sed sic, scilicet per
+            <lb ed="#L" n="51"/>immoderantiam delectationis : ita quod contra impedimenta
+            <lb ed="#L" n="52"/>rationis ex cibi et potus immoderata delectatione ponitur
+            <lb ed="#L" n="53"/>abstinentia, contra impedimenta vero rationis ex potus 
+            in<lb break="no" ed="#L" n="54"/>ebriativi fumositate ponitur sobrietas: — contra, sobrietas
+            <lb ed="#L" n="55"/>est species temperantiae, quam constat esse circa 
+            delecta<lb break="no" ed="#L" n="56"/>tiones tactus. Ergo sobrietas est circa tale delectabile 
+            se<lb break="no" ed="#L" n="57"/>cundum tactum: alioquin non esset per se species 
+            tempe<lb break="no" ed="#L" n="58"/>rantiae, ut patet exercitatis in metaphysica . Ergo sobrietas
+            <lb ed="#L" n="59"/>est etiam contra impedimenta rationis ex potu delectabili.
+            <lb ed="#L" n="60"/>Et sic sequitur ut prius: scilicet quod sit species 
+            absti<lb break="no" ed="#L" n="61"/>nentiae; aut non distinguatur ab ea formaliter. Quorum
+            <lb ed="#L" n="62"/>utrumque est contra Auctorem, in responsione ad tertium,
+            <lb ed="#L" n="63"/>utramque virtutem specialissimam tenentem.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e431">
+            <lb ed="#L" n="64"/>Et per haec videtur quod, licet ebrietas sit distinctum
+            <lb ed="#L" n="65"/>vitium a gula, quia gula opponitur moderatae delectationi
+            <lb ed="#L" n="66"/>cibi et potus, et ebrietas opponitur saluti rationis; non
+            <lb ed="#L" n="67"/>tamen sobrietas distinguenda est ab abstinentia: quia 
+            abs<lb break="no" ed="#L" n="68"/>tinentia utrumque ponit, scilicet et moderatam 
+            delectatio<lb break="no" ed="#L" n="69"/>nem et rationem expeditam.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e447">
+            <lb ed="#L" n="70"/>HI. Ad huius evidentiam, sciendum est quod bonum
+            <lb ed="#L" n="71"/>rationis conservandum a moralibus virtutibus contra 
+            im<lb break="no" ed="#L" n="72"/>petus passionum est duplex: scilicet rectitudo, et usus.
+            <lb ed="#L" n="73"/>Utrumque siquidem per passiones impeditur: nam timor
+            <lb ed="#L" n="74"/>et amor, delectatio, ira, etc., rationem a rectitudine flectunt,
+            <lb ed="#L" n="75"/>ut continue experimur; et si fuerint vehementes passiones,
+            <lb ed="#L" n="76"/>quandoque rationis usum tollunt, ut patet de nimia tri-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="77"/>stitia et delectatione, et ira. Circa usum tamen rationis
+            <lb ed="#L" n="78"/>impediendum, quia pluribus modis potest impediri, et 
+            cul<lb break="no" ed="#L" n="79"/>pabiliter et sine culpa (ut patet cum impeditur per 
+            dor<lb break="no" ed="#L" n="80"/>mitionem), advertendum est quod dupliciter passio potest
+            <lb ed="#L" n="81"/>impedire usum rationis. Uno modo, ex sua immoderantia:
+            <lb ed="#L" n="82"/>ita quod ipsa immoderatio passionis est ratio peccati; et
+            <lb ed="#L" n="83"/>tanto gravioris quanto pertingit usque ad impediendum
+            <lb ed="#L" n="84"/>rationis usum. Et hoc modo impedire usum rationis ad
+            <lb ed="#L" n="85"/>idem vitium spectat ad quod spectat inordinatio illius 
+            pas<lb break="no" ed="#L" n="86"/>sionis: verbi gratia, ad timiditatem, si ex nimio timore
+            <lb ed="#L" n="87"/>perdit quis usum rationis, quoniam ad timiditatis vitium
+            <lb ed="#L" n="88"/>spectat immoderatio timoris. Et similiter ad illammet 
+            vir<lb break="no" ed="#L" n="89"/>tutem ad quam spectat ordinatio talis passionis, pertinet
+            <lb ed="#L" n="90"/>etiam conservare usum rationis contra immoderantiam 
+            il<lb break="no" ed="#L" n="91"/>lius passionis: verbi gratia, ad fortitudinem spectat 
+            con<lb break="no" ed="#L" n="92"/>servare et rectitudinem et usum rationis contra 
+            immode<lb break="no" ed="#L" n="93"/>rantiam timoris.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e504">
+            <lb ed="#L" n="94"/>Alio modo passio potest impedire usum rationis ex eo
+            <lb ed="#L" n="95"/>quod est ratio alicuius impedientis usum rationis, ita quod
+            <lb ed="#L" n="96"/>ex hoc primo passio habet rationem deformis, quia est ratio
+            <lb ed="#L" n="97"/>impedimenti usus rationis. Et sic impedire usum rationis
+            <lb ed="#L" n="98"/>pertinet ad aliud vitium ab illo quod respicit 
+            immoderan<lb break="no" ed="#L" n="99"/>tiam ilius passionis in seipsa. Et similiter conservare 
+            bo<lb break="no" ed="#L" n="100"/>num rationis in rectitudine et usu contra passionem quae
+            <lb ed="#L" n="101"/>ex hoc deordinatur quod est ratio impedimenti usus 
+            ra<lb break="no" ed="#L" n="102"/>tionis, spectat ad moralem virtutem aliam ab illa quae
+            <lb ed="#L" n="103"/>moderatur passionem illam in se.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e528">
+            <lb ed="#L" n="104"/>Quod antequam probemus, manifestemus exemplis in
+            <lb ed="#L" n="105"/>proposito. Ex delectabili potu contingit dupliciter rationis
+            <lb ed="#L" n="106"/>bonum laedi. Primo, quia delectatio potus est in se 
+            im<lb break="no" ed="#L" n="107"/>moderata: immoderata enim delectatio alimenti, vel 
+            quan<lb break="no" ed="#L" n="108"/>tum ad quid, vel quantum, vel quale, etc., est ratio 
+            pec<lb break="no" ed="#L" n="109"/>cati, et obliquat rationem, et quandoque etiam absorbet.
+            <lb ed="#L" n="110"/>Et hoc spectat ad vitium gulae. Conservare autem bonum
+            <lb ed="#L" n="111"/>rationis contra huiusmodi immoderatam delectationem 
+            spe<lb break="no" ed="#L" n="112"/>ctat ad abstinentiam. — Secundo, quia delectatio ut ratio
+            <lb ed="#L" n="113"/>potus fumosi perturbativi rationis usus, est inordinata 
+            de<lb break="no" ed="#L" n="114"/>lectatio: siquidem potus ex hoc inordinat, et rectam 
+            ra<lb break="no" ed="#L" n="115"/>tionem obliquat, et usum rationis impedit atque tollit ad
+            <lb ed="#L" n="116"/>tempus. Et spectat huiusmodi delectatio ad vitium 
+            ebrie<lb break="no" ed="#L" n="117"/>tatis. Et servare rationis bonum contra sic delectabile 
+            so<lb break="no" ed="#L" n="118"/>brietatis est.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e563">
+            <lb ed="#L" n="119"/>Probatur vero distinctio specifica virtutum Mdineiiun
+            <lb ed="#L" n="120"/>et sobrietatis ex formali distinctione impedimentorum 
+            ra<lb break="no" ed="#L" n="121"/>tionis: nam alterius rationis est delectabile ex 
+            immoderan<lb break="no" ed="#L" n="122"/>tia sua impediens rationis bonum; et alterius rationis est
+            <lb ed="#L" n="123"/>delectabile ex eo quod est ratio fumositatis impediens 
+            ra<lb break="no" ed="#L" n="124"/>tionis bonum. - Nec oportet probare haec esse de mente
+            <lb ed="#L" n="125"/>Auctoris. Quoniam in articulo hoc, et specialiter in 
+            respon<lb break="no" ed="#L" n="126"/>sione ad primum, clare patet hanc esse doctrinam eius.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e584">
+            <lb ed="#L" n="127"/>IV. Ad primam ergo obiectionem in oppositum  dicitur
+            <lb ed="#L" n="128"/>quod distinctio sobrietatis ab abstinentia non est superflua,
+            <lb ed="#L" n="129"/>sed necessaria. Et cum dicitur, Si homo est abstinens, servat
+            <lb ed="#L" n="130"/>mensuram in potu, ac per hoc, non eget sobrietate: 
+            re<lb break="no" ed="#L" n="131"/>spondetur quod servare mensuram in potu contingit 
+            du<lb break="no" ed="#L" n="132"/>pliciter: uno modo, secundum quod potus est delectabilis
+            <lb ed="#L" n="133"/>in seipso; alio modo, secundum quod potus delectabilis
+            <lb ed="#L" n="134"/>est ratio fumositatis perturbativae rationis. Abstinens servat
+            <lb ed="#L" n="135"/>mensuram in potu primo modo: de secundo autem modo
+            <lb ed="#L" n="136"/>non se impedit, quia est sibi impertinens, et relinquit hoc
+            <lb ed="#L" n="137"/>sobrietati. - Et si instetur, Ergo abstinens, salva 
+            abstinen<lb break="no" ed="#L" n="138"/>tia, potest inebriari: — negatur sequela: quia virtutes sunt
+            <lb ed="#L" n="139"/>connexae, et qui una caret nullam habet.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e615">
+            <lb ed="#L" n="140"/>Ad secundam obiectionem iam  patet responsio: quod  Num. ur.
+            <pb ed="#L" n="180"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>distinctiva non sunt impedire rationem et impedire 
+            ratio<lb break="no" ed="#L" n="2"/>nem per fumositatem; sed sunt delectabile ex 
+            immode<lb break="no" ed="#L" n="3"/>rantia sua impediens rationem, et delectabile ex eo quod
+            <lb ed="#L" n="4"/>est ratio fumositatis, etc., impediens rationem. Quae duo
+            <lb ed="#L" n="5"/>constat quod non se habent sicut superius et inferius, sed
+            <lb ed="#L" n="6"/>quod specifice inter se distinguuntur. Ac per hoc, sobrietas
+            <lb ed="#L" n="7"/>nec est species abstinentiae, nec coincidit cum illa.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e639">
+            <lb ed="#L" n="8"/>Unde patet quod non negamus sobrietatem esse circa 
+            de<lb break="no" ed="#L" n="9"/>lectabile, ut subiuncta obiectio  opponit: sed dicimus quod
+            <lb ed="#L" n="10"/>utraque virtus est circa delectabile in potu, sed secundum
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="11"/>diversas rationes, secundum quod potus delectabilis natus
+            <lb ed="#L" n="12"/>est diversis rationibus impedire rationis bonum, ut 
+            decla<lb break="no" ed="#L" n="13"/>ratum est.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e657">
+            <lb ed="#L" n="14"/>Ex quibus patet quod non solum ebrietas est 
+            distin<lb break="no" ed="#L" n="15"/>guenda a gula, sed sobrietas ab abstinentia . Et quod 
+            fal<lb break="no" ed="#L" n="16"/>sum est quod abstinentia ponat utrumque bonum, scilicet
+            <lb ed="#L" n="17"/>oppositum utrique vitio. Ponit enim moderatam 
+            delecta<lb break="no" ed="#L" n="18"/>tionem in potu: sed non ponit rationem expeditam a potu
+            <lb ed="#L" n="19"/>delectabili ut est ratio fumositatis, sed solummodo a potu
+            <lb ed="#L" n="20"/>delectabili secundum se.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2042-Dd1e676"><!-- caj-p2p2-q149a3 -->
+          <head xml:id="TAcCaj-d1e2042-Hd1e679">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2042-d1e681">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="81" type="fixed=180"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e688">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="82"/>IN articulo tertio eiusdem quaestionis, in responsione ad
+            <lb ed="#L" n="83"/>primum adverte quod Martinus, ubi supra , dicit: « Nec
+            <lb ed="#L" n="84"/>placet mihi opinio Thomae dicentis quod, licet ad 
+            acqui<lb break="no" ed="#L" n="85"/>rendum sapientiam quantum sufficit ad salutem, non 
+            exi<lb break="no" ed="#L" n="86"/>gatur omnino abstinere a vino; ad acquirendum tamen
+            <lb ed="#L" n="87"/>eam secundum quendam perfectionis gradum, requiritur
+            <lb ed="#L" n="88"/>in aliquibus quod omnino abstineant: nisi velit salvare per
+            <lb ed="#L" n="89"/>hoc quod adiungit, secundum conditiones quarundam 
+            per<lb break="no" ed="#L" n="90"/>sonarum et locorum. Quia non videtur mihi quod usus
+            <lb ed="#L" n="91"/>sobrii vini noceat acquisitioni excellentis sapientiae. »
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e714">
+            <lb ed="#L" n="92"/>Ad hanc siquidem Martini obiectionem non oportet 
+            re<lb break="no" ed="#L" n="93"/>spondere. Tum quia littera clare dicit, secundum  
+            condi<lb break="no" ed="#L" n="94"/>tiones personarum : et non dicit absolute quod potus vini
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="95"/>impediat a perfecta sapientia. Unde hoc non est salvare
+            <lb ed="#L" n="96"/>doctrinam, quasi periclitantem, ut arguens sonat: sed sua
+            <lb ed="#L" n="97"/>obiectio est manifesta divisio contextus. - Tum quia, etiam
+            <lb ed="#L" n="98"/>si Auctor non subiunxisset illa verba, secundum conditiones
+            <lb ed="#L" n="99"/>personarum, etc. ex quo dixerat quod hoc requiritur in
+            <lb ed="#L" n="100"/>aliquibus, satis se praeservaverat ab universaliter et 
+            com<lb break="no" ed="#L" n="101"/>muniter.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e740">
+            <lb ed="#L" n="102"/>Prodest ergo acquisitioni sapientiae perfectae abstinentia
+            <lb ed="#L" n="103"/>a vino aliquibus: quibus scilicet abstinere a vino est bonum
+            <lb ed="#L" n="104"/>supererogationis, sicut ieiunium et alia buiusmodi. Et per
+            <lb ed="#L" n="105"/>oppositum, talibus non abstinere a vino nocet, sicut non
+            <lb ed="#L" n="106"/>ieiunare: quia impedit progressum ad perfectam sapientiam,
+            <lb ed="#L" n="107"/>qua beati pacifici, qui filii Dei vocabuntur .
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2042-Dd1e757"><!-- caj-p2p2-q149a4 -->
+          <head xml:id="TAcCaj-d1e2042-Hd1e760">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2042-d1e762">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="60" type="fixed=181"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e769">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="61"/>IN articulo quarto eiusdem quaestionis dubium occurrit
+            <lb ed="#L" n="62"/>eo quod non bene ratio quare senibus, episcopis et
+            <lb ed="#L" n="63"/>regibus specialiter indicitur sobrietas magis quam iuvenibus
+            <lb ed="#L" n="64"/>et mulieribus, assignatur. Quoniam iuvenibus et 
+            mulieri<lb break="no" ed="#L" n="65"/>bus opus est sobrietate et propter concupiscentias, et 
+            pro<lb break="no" ed="#L" n="66"/>pter finem, scilicet operationem: senibus autem propter
+            <lb ed="#L" n="67"/>operationem tantum. Male ergo videtur distinctio ista 
+            ra<lb break="no" ed="#L" n="68"/>tionum assignata.
+          </p>
+          <p xml:id="TAcCaj-d1e2042-d1e791">
+            <lb ed="#L" n="69"/>Ad hoc dicitur quod distinctio et ratio est optima, si
+            <lb ed="#L" n="70"/>formaliter intelligatur. Communis necessitas quippe 
+            sobrie<lb break="no" ed="#L" n="71"/>tatis in omnibus est propter communem operationem 
+            ra<lb break="no" ed="#L" n="72"/>tionis, scilicet propter usum rationis: ut patet ex ipsa
+            <lb ed="#L" n="73"/>sobrietatis natura. Sed loquendo de diversis conditionibus
+            <lb ed="#L" n="74"/>et statibus personarum secundum sibi propria, ita quod 
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="75"/>in iuvenibus et mulieribus considerentur et propriae 
+            opera<lb break="no" ed="#L" n="76"/>tiones et concupiscentiae, et similiter in aliis, scilicet 
+            se<lb break="no" ed="#L" n="77"/>nibus, regibus et episcopis: tunc, formaliter loquendo, 
+            iu<lb break="no" ed="#L" n="78"/>venibus et mulieribus est necessaria sobrietas propter 
+            con<lb break="no" ed="#L" n="79"/>cupiscentias et vitia; nam, his seclusis, nulla est operatio
+            <lb ed="#L" n="80"/>iuvenis ut sic, aut mulieris ut sic, quae exigat sobrietatem
+            <lb ed="#L" n="81"/>specialiter, quoniam nulla talis operatio exigit excellentiam
+            <lb ed="#L" n="82"/>purae mentis. In senibus autem, episcopis et regibus, 
+            seclu<lb break="no" ed="#L" n="83"/>sis concupiscentiis, quia propriae eorum, ut sic, operatio- :
+            <lb ed="#L" n="84"/>nes exigunt mentis puritatem excellentem, propter eorum
+            <lb ed="#L" n="85"/>officia, ut patet in littera, ideo ex hac parte egent sobrietate.
+            <lb ed="#L" n="86"/>Obiectio autem in oppositum procedit de operatione 
+            com<lb break="no" ed="#L" n="87"/>muni omnibus, scilicet uti ratione, Sermo autein praesens
+            <lb ed="#L" n="88"/>est de operatione propria conditionum et statuum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

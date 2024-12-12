@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 142</title>
+        <author ref="#ThomasCajetan">Thomas Cajetan</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 142</title>
+          <date when="2024-12-12">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="135"/>
+        <cb ed="#L" n="c"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAcCaj-d1e2006"><!-- TAcCajp2p2-q142 -->
+        <head xml:id="TAcCaj-d1e2006-Hd1e101">Quaestio 142</head>
+        <!-- no commentary on a. 1 -->
+        <div xml:id="TAcCaj-d1e2006-Dd1e105"><!-- caj-p2p2-q142a2 -->
+          <head xml:id="TAcCaj-d1e2006-Hd1e108">Articulus 2</head>
+          <p xml:id="TAcCaj-d1e2006-d1e110">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="15" type="fixed=135"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2006-d1e117">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="16"/>In tota quaestione centesimaquadragesimasecunda sunt,
+            <lb ed="#L" n="17"/>non dubitanda, sed notanda quaedam. In secundo 
+            siqui<lb break="no" ed="#L" n="18"/>dem- articulo, in responsione ad secundum, scito quod
+            <lb ed="#L" n="19"/>responsio consistit in hoc: - Concupiscentia naturalis est
+            <lb ed="#L" n="20"/>dupliciter: primo, quia est rei ordinatae ad naturae con-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="21"/>servationem; secundo, quia est rei requisitae a natura ad
+            <lb ed="#L" n="22"/>sui conservationem. Sub primo membro continentur omnia
+            <lb ed="#L" n="23"/>delectabilia ad alimentum et venerea ordinem habentia:
+            <lb ed="#L" n="24"/>sub secundo, ea tantum quae natura requirit. Et propterea
+            <lb ed="#L" n="25"/>in secundo parum contingit errare.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2006-Dd1e147"><!-- caj-p2p2-q142a3 -->
+          <head xml:id="TAcCaj-d1e2006-Hd1e150">Articulus 3</head>
+          <p xml:id="TAcCaj-d1e2006-d1e152">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="53" type="fixed=136"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2006-d1e159">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="54"/>In tertio autem articulo, in responsione ad primum, habes 
+            <lb ed="#L" n="55"/>unde respondeas regulae Topicae , puta quod oppositum
+            <lb ed="#L" n="56"/>pliciter, sed ex illa parte qua opponitur illi bono maiori ex 
+            <lb ed="#L" n="57"/>quo melius habet quod sit melius. Sunt enim hic quatuor:
+            <lb ed="#L" n="58"/>scilicet fortitudo, temperantia, timiditas et intemperantia. Et
+            <lb ed="#L" n="59"/>fortitudo est simpliciter melior temperantia. Timiditas autem,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="60"/>quae fortitudini opponitur, non est simpliciter peior quam
+            <lb ed="#L" n="61"/>intemperantia: sed ex illa parte est peior qua privat bono
+            <lb ed="#L" n="62"/>meliori est peius. Glossabis hinc quod intelligitur non 
+            sim<lb break="no" ed="#L" n="63"/>communi, ex quo habet fortitudo excellentiam simpliciter.
+          </p>
+          <p xml:id="TAcCaj-d1e2006-d1e188">
+            <lb ed="#L" n="64"/>Quamvis possit aliter huiusmodi regula glossari: scilicet
+            <lb ed="#L" n="65"/>quod intelligitur formaliter, scilicet de oppositis ut 
+            oppo<lb break="no" ed="#L" n="66"/>sita sunt. Quanto enim melius est quod tollitur, tanto
+            <lb ed="#L" n="67"/>peius est illud tollens ut sic.
+          </p>
+        </div>
+        <div xml:id="TAcCaj-d1e2006-Dd1e200"><!-- caj-p2p2-q142a4 -->
+          <head xml:id="TAcCaj-d1e2006-Hd1e203">Articulus 4</head>
+          <p xml:id="TAcCaj-d1e2006-d1e205">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="32" type="fixed=137"/>Commentaria Cardinalis Caietani
+          </p>
+          <p xml:id="TAcCaj-d1e2006-d1e212">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="33"/>IN quarto autem articulo, tuere Auctorem a Martino, in
+            <lb ed="#L" n="34"/>qu. 1v  de Temperantia , dicente: « Nescio quomodo
+            <lb ed="#L" n="35"/>Thomas dicit quod secundum Aristotelem bestialitas est
+            <lb ed="#L" n="36"/>exprobrabilior quam intemperantia: cum expresse, ubi ipse
+            <lb ed="#L" n="37"/>allegat eum, Aristoteles habeat oppositum, ut expresse
+            <lb ed="#L" n="38"/>declarat idem Thomas in commento suo super VII Ethic. » 
+            <lb ed="#L" n="39"/>Non advertit siquidem Martinus ad formalem sermonem.
+            <lb ed="#L" n="40"/>Auctor siquidem dicit  quod bestialitatis vitium est 
+            expro<lb break="no" ed="#L" n="41"/>brabilius: quod etiam Aristoteles in : cap.  VII .Ezhic. dixit,
+            <lb ed="#L" n="42"/>dum ait quod hos super-infamamus. Nec inveni in Auctore
+            <lb ed="#L" n="43"/>hactenus oppositum. Martinus autem forte fundavit se 
+            su<lb break="no" ed="#L" n="44"/>per virr cap.  eiusdem VII Ethic. , ubi dicitur quod bestia-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="45"/>les non sunt continentes neque incontinentes simpliciter, et
+            <lb ed="#L" n="46"/>quod bestialitas est minus mala quam intemperantia; et
+            <lb ed="#L" n="47"/>utrobique est eadem ratio, scilicet defectus intellectus. Sed
+            <lb ed="#L" n="48"/>haec non sunt ad propositum. Quia enim de ratione 
+            con<lb break="no" ed="#L" n="49"/>tinentiae et incontinentiae est rationale bellum, ideo 
+            nega<lb break="no" ed="#L" n="50"/>tur continentia in istis irrationalibus hominibus. Et 
+            simili<lb break="no" ed="#L" n="51"/>ter dicitur minus mala, hoc est, minus nociva: quia, ut
+            <lb ed="#L" n="52"/>dicitur , innocentior est pravitas sine intellectu. Cum his
+            <lb ed="#L" n="53"/>tamen stat quod sit turpior, et magis exprobrabilis, et 
+            in<lb break="no" ed="#L" n="54"/>famiae maioris: utpote maxime similem bestiis reddens
+            <lb ed="#L" n="55"/>hominem voluntarie.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
